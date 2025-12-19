@@ -1,0 +1,123 @@
+|j|☆KhankoRex
+|j|☆Resok
+|t:|1750775734
+|gametype|doubles
+|player|p1|KhankoRex|266|1533
+|player|p2|Resok|266|1503
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Resok)
+|
+|t:|1750775772
+|start
+|switch|p1a: Okidogi|Okidogi, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750775796
+|-terastallize|p1b: Volcarona|Grass
+|move|p2a: Farigiraf|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Miraidon|Volt Switch|p1a: Okidogi
+|-damage|p1a: Okidogi|11/100
+|
+|t:|1750775804
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100|[from] Volt Switch
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|move|p1a: Okidogi|Gunk Shot|p2b: Chi-Yu|[miss]
+|-miss|p1a: Okidogi|p2b: Chi-Yu
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: KhankoRex|move: Tailwind
+|
+|upkeep
+|turn|2
+|inactive|Resok has 30 seconds left.
+|
+|t:|1750775832
+|-terastallize|p2b: Chi-Yu|Ghost
+|move|p1a: Okidogi|Drain Punch|p2b: Chi-Yu
+|-immune|p2b: Chi-Yu
+|move|p1b: Volcarona|Heat Wave|p2a: Farigiraf|[spread] p2a
+|-miss|p1b: Volcarona|p2b: Chi-Yu
+|-damage|p2a: Farigiraf|66/100
+|move|p2b: Chi-Yu|Heat Wave|p1b: Volcarona|[spread] p1a,p1b
+|-supereffective|p1b: Volcarona
+|-crit|p1b: Volcarona
+|-damage|p1a: Okidogi|0 fnt
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1a: Okidogi
+|faint|p1b: Volcarona
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|
+|t:|1750775845
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750775857
+|move|p2a: Farigiraf|Helping Hand|p2b: Chi-Yu
+|-singleturn|p2b: Chi-Yu|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Chi-Yu|Heat Wave|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|60/100
+|move|p1a: Miraidon|Electro Drift|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|upkeep
+|
+|t:|1750775871
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750775880
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Calyrex|48/100
+|faint|p1a: Miraidon
+|move|p2b: Chi-Yu|Heat Wave|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Resok
+|raw|KhankoRex's rating: 1533 &rarr; <strong>1511</strong><br />(-22 for losing)
+|raw|Resok's rating: 1503 &rarr; <strong>1525</strong><br />(+22 for winning)
+|l|☆KhankoRex
+|player|p1|
+|l|☆Resok
+|player|p2|

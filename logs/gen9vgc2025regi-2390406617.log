@@ -1,0 +1,136 @@
+|j|☆testing_cha
+|j|☆seemeier
+|t:|1750709765
+|gametype|doubles
+|player|p1|testing_cha|parasollady|1558
+|player|p2|seemeier|265|1707
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Alcremie-Lemon-Cream, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Kyurem-Black, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seemeier)
+|inactive|testing_cha has 60 seconds left.
+|inactive|seemeier has 60 seconds left.
+|
+|t:|1750709801
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Scizor|Scizor, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750709817
+|switch|p1b: Alcremie|Alcremie-Lemon-Cream, L50, F|100/100
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|5/100
+|move|p2a: Scizor|U-turn|p1b: Alcremie
+|-resisted|p1b: Alcremie
+|-damage|p1b: Alcremie|81/100
+|
+|t:|1750709832
+|switch|p2a: Okidogi|Okidogi, L50, M|100/100|[from] U-turn
+|move|p1a: Calyrex|Glacial Lance|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Okidogi|57/100
+|-damage|p2b: Lunala|77/100
+|
+|-heal|p2a: Okidogi|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|testing_cha has 30 seconds left.
+|
+|t:|1750709863
+|move|p2b: Lunala|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2a: Okidogi|Gunk Shot|p1b: Alcremie
+|-supereffective|p1b: Alcremie
+|-crit|p1b: Alcremie
+|-damage|p1b: Alcremie|0 fnt
+|faint|p1b: Alcremie
+|
+|-heal|p2a: Okidogi|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750709868
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750709893
+|-terastallize|p1a: Lunala|Fairy
+|move|p2b: Lunala|Moongeist Beam|p1a: Lunala
+|-damage|p1a: Lunala|72/100
+|move|p1b: Indeedee|Psychic|p2a: Okidogi
+|-supereffective|p2a: Okidogi
+|-damage|p2a: Okidogi|0 fnt
+|faint|p2a: Okidogi
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-heal|p1a: Lunala|79/100|[from] item: Leftovers
+|upkeep
+|inactive|seemeier has 30 seconds left.
+|
+|t:|1750709925
+|switch|p2a: Scizor|Scizor, L50, M|100/100
+|turn|4
+|
+|t:|1750709938
+|move|p2a: Scizor|Knock Off|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|64/100
+|-enditem|p1a: Lunala|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+|move|p1a: Lunala|Expanding Force|p2a: Scizor|[spread] p2a,p2b
+|-resisted|p2a: Scizor
+|-resisted|p2b: Lunala
+|-damage|p2a: Scizor|73/100
+|-damage|p2b: Lunala|54/100
+|move|p1b: Indeedee|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|57/100
+|move|p2b: Lunala|Expanding Force|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Indeedee
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Indeedee|59/100
+|faint|p1a: Lunala
+|
+|upkeep
+|turn|5
+|-message|testing_cha forfeited.
+|
+|win|seemeier
+|raw|testing_cha's rating: 1558 &rarr; <strong>1546</strong><br />(-12 for losing)
+|raw|seemeier's rating: 1707 &rarr; <strong>1719</strong><br />(+12 for winning)
+|l|☆testing_cha
+|player|p1|
+|l|☆seemeier
+|player|p2|

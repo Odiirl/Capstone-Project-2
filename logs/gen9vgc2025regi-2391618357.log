@@ -1,0 +1,167 @@
+|j|☆Ipad Air 5th gen
+|j|☆Adamas Kol
+|t:|1750876414
+|gametype|doubles
+|player|p1|Ipad Air 5th gen|steven|1210
+|player|p2|Adamas Kol|265|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ambipom, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|
+|t:|1750876434
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Ambipom|Ambipom, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ambipom|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1750876452
+|-terastallize|p1a: Calyrex|Water
+|move|p2a: Ambipom|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|80/100
+|cant|p1b: Incineroar|flinch
+|move|p2b: Sneasler|Feint|p1a: Calyrex
+|-damage|p1a: Calyrex|96/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750876474
+|move|p1a: Calyrex|Glacial Lance|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Ambipom|12/100
+|-damage|p2b: Sneasler|11/100
+|move|p1b: Incineroar|Parting Shot|p2b: Sneasler
+|-unboost|p2b: Sneasler|atk|1
+|-unboost|p2b: Sneasler|spa|1
+|
+|t:|1750876480
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p2a: Ambipom|Last Resort|p1b: Amoonguss
+|-damage|p1b: Amoonguss|51/100
+|move|p2b: Sneasler|Dire Claw|p1a: Calyrex
+|-damage|p1a: Calyrex|83/100
+|-status|p1a: Calyrex|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750876494
+|cant|p1a: Calyrex|slp
+|move|p1b: Amoonguss|Pollen Puff|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+|move|p2b: Sneasler|Dire Claw|p1b: Amoonguss
+|-damage|p1b: Amoonguss|31/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|56/100|[from] item: Sitrus Berry
+|
+|upkeep
+|
+|t:|1750876507
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1750876531
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|cant|p1a: Calyrex|slp
+|move|p1b: Amoonguss|Spore|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750876553
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|cant|p1a: Calyrex|slp
+|move|p1b: Amoonguss|Spore|p2a: Ursaluna
+|-status|p2a: Ursaluna|slp|[from] move: Spore
+|cant|p2a: Ursaluna|slp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750876571
+|cant|p2a: Ursaluna|slp
+|move|p1b: Amoonguss|Pollen Puff|p1a: Calyrex
+|-heal|p1a: Calyrex|100/100 slp
+|-curestatus|p1a: Calyrex|slp|[msg]
+|move|p1a: Calyrex|Glacial Lance|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Ursaluna|29/100 slp
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750876582
+|switch|p2b: Sneasler|Sneasler, L50, M|11/100
+|turn|7
+|
+|t:|1750876597
+|move|p2b: Sneasler|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|42/100
+|cant|p1b: Amoonguss|flinch
+|cant|p2a: Ursaluna|slp
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|8
+|
+|t:|1750876611
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|-curestatus|p2a: Ursaluna|slp|[msg]
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|turn|9
+|-message|Adamas Kol forfeited.
+|
+|win|Ipad Air 5th gen
+|raw|Ipad Air 5th gen's rating: 1210 &rarr; <strong>1228</strong><br />(+18 for winning)
+|raw|Adamas Kol's rating: 1116 &rarr; <strong>1098</strong><br />(-18 for losing)
+|l|☆Adamas Kol
+|player|p2|
+|l|☆Ipad Air 5th gen
+|player|p1|

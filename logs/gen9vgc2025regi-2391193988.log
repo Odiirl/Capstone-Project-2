@@ -1,0 +1,154 @@
+|j|☆Mathethe
+|j|☆manthemeanbean
+|t:|1750814620
+|gametype|doubles
+|player|p1|Mathethe|266|1138
+|player|p2|manthemeanbean|ingo|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p2|Calyrex, L50|
+|poke|p2|Ampharos, L50, M|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Azelf, L50|
+|poke|p2|Noivern, L50, F|
+|teampreview|4
+|
+|t:|1750814646
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Ampharos|Ampharos, L50, M|100/100
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|turn|1
+|
+|t:|1750814662
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p1b: Tornadus|Taunt|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|move|p1a: Iron Valiant|Knock Off|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|move|p2a: Ampharos|Cotton Guard|p2a: Ampharos
+|-boost|p2a: Ampharos|def|3
+|
+|upkeep
+|turn|2
+|
+|t:|1750814698
+|move|p1b: Tornadus|Taunt|p2b: Necrozma
+|-start|p2b: Necrozma|move: Taunt
+|move|p1a: Iron Valiant|Knock Off|p2b: Necrozma
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|0 fnt
+|-damage|p1a: Iron Valiant|84/100|[from] item: Rocky Helmet|[of] p2b: Necrozma
+|-enditem|p2b: Necrozma|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2b: Necrozma
+|-damage|p1a: Iron Valiant|75/100|[from] item: Life Orb
+|move|p2a: Ampharos|Thunderbolt|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by manthemeanbean)
+|
+|t:|1750814748
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Azelf|Azelf, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|inactive|Mathethe has 30 seconds left.
+|inactive|Mathethe has 20 seconds left.
+|inactive|Mathethe has 15 seconds left.
+|
+|t:|1750814790
+|-terastallize|p2b: Azelf|Dark
+|move|p1b: Calyrex|Astral Barrage|p2a: Ampharos|[spread] p2a,p2b
+|-resisted|p2b: Azelf
+|-damage|p2a: Ampharos|44/100
+|-damage|p2b: Azelf|60/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Ampharos
+|-damage|p2a: Ampharos|24/100
+|-enditem|p2a: Ampharos|Shuca Berry|[from] move: Knock Off|[of] p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|66/100|[from] item: Life Orb
+|move|p2b: Azelf|Tera Blast|p1b: Calyrex|[anim] Tera Blast Dark
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|-damage|p2b: Azelf|50/100|[from] item: Life Orb
+|move|p2a: Ampharos|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750814813
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750814830
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Azelf|Thunder Wave|p1a: Terapagos
+|-status|p1a: Terapagos|par
+|move|p2a: Ampharos|Thunderbolt|p1a: Terapagos
+|-damage|p1a: Terapagos|73/100 par
+|move|p1a: Terapagos|Tera Starstorm|p2b: Azelf|[spread] p2a,p2b
+|-supereffective|p2b: Azelf
+|-damage|p2a: Ampharos|0 fnt
+|-damage|p2b: Azelf|0 fnt
+|faint|p2a: Ampharos
+|faint|p2b: Azelf
+|
+|-heal|p1a: Terapagos|79/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1750814836
+|switch|p2a: Araquanid|Araquanid, L50, M|100/100
+|turn|5
+|
+|t:|1750814857
+|move|p1a: Terapagos|Tera Starstorm|p2a: Araquanid
+|-damage|p2a: Araquanid|63/100
+|move|p2a: Araquanid|Liquidation|p1a: Terapagos
+|-damage|p1a: Terapagos|29/100 par
+|
+|-heal|p1a: Terapagos|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750814867
+|move|p1a: Terapagos|Tera Starstorm|p2a: Araquanid
+|-damage|p2a: Araquanid|26/100
+|move|p2a: Araquanid|Liquidation|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|manthemeanbean
+|raw|Mathethe's rating: 1138 &rarr; <strong>1109</strong><br />(-29 for losing)
+|raw|manthemeanbean's rating: 1079 &rarr; <strong>1112</strong><br />(+33 for winning)
+|l|☆Mathethe
+|player|p1|

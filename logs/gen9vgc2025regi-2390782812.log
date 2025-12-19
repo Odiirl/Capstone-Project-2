@@ -1,0 +1,186 @@
+|j|☆TCBro89
+|j|☆sheevpwork
+|t:|1750767057
+|gametype|doubles
+|player|p1|TCBro89|red|1656
+|player|p2|sheevpwork|102|1648
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750767097
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750767161
+|switch|p2b: Rhydon|Rhydon, L50, F|100/100
+|move|p1b: Iron Bundle|Icy Wind|p2a: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Zamazenta
+|-supereffective|p2b: Rhydon
+|-damage|p2a: Zamazenta|92/100
+|-damage|p2b: Rhydon|66/100
+|-unboost|p2a: Zamazenta|spe|1
+|-unboost|p2b: Rhydon|spe|1
+|move|p1a: Miraidon|Draco Meteor|p2b: Rhydon|[miss]
+|-miss|p1a: Miraidon|p2b: Rhydon
+|move|p2a: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750767180
+|switch|p1a: Groudon|Groudon, L50|100/100
+|move|p2b: Rhydon|Protect|p2b: Rhydon
+|-singleturn|p2b: Rhydon|Protect
+|move|p1b: Iron Bundle|Ice Beam|p2b: Rhydon
+|-activate|p2b: Rhydon|move: Protect
+|move|p2a: Zamazenta|Body Press|p1b: Iron Bundle
+|-supereffective|p1b: Iron Bundle
+|-enditem|p1b: Iron Bundle|Focus Sash
+|-damage|p1b: Iron Bundle|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750767197
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Iron Bundle|Ice Beam|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|50/100
+|move|p1a: Groudon|Precipice Blades|p2b: Flutter Mane|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Flutter Mane|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750767230
+|-terastallize|p1b: Iron Bundle|Ice
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Iron Bundle|Ice Beam|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750767242
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750767270
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Iron Bundle|Taunt|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Taunt
+|move|p2b: Koraidon|Breaking Swipe|p1b: Iron Bundle|[spread] p1a,p1b
+|-damage|p1a: Groudon|68/100
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Groudon|Bulk Up|p1a: Groudon
+|-boost|p1a: Groudon|atk|1
+|-boost|p1a: Groudon|def|1
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750767286
+|switch|p1b: Miraidon|Miraidon, L50|23/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750767300
+|switch|p2b: Rhydon|Rhydon, L50, F|66/100
+|move|p1b: Miraidon|Draco Meteor|p2b: Rhydon
+|-damage|p2b: Rhydon|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2b: Rhydon
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1750767314
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50, tera:Fire|91/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750767333
+|move|p2b: Koraidon|Flare Blitz|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|-damage|p2b: Koraidon|51/100|[from] Recoil
+|-damage|p2b: Koraidon|41/100|[from] item: Life Orb
+|move|p1a: Groudon|Precipice Blades|p2b: Koraidon|[miss]
+|-miss|p1a: Groudon|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750767346
+|move|p2b: Koraidon|Flare Blitz|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-damage|p2b: Koraidon|17/100|[from] Recoil
+|-damage|p2b: Koraidon|7/100|[from] item: Life Orb
+|
+|win|sheevpwork
+|raw|TCBro89's rating: 1656 &rarr; <strong>1636</strong><br />(-20 for losing)
+|raw|sheevpwork's rating: 1648 &rarr; <strong>1668</strong><br />(+20 for winning)
+|l|☆TCBro89
+|player|p1|
+|l|☆sheevpwork
+|player|p2|

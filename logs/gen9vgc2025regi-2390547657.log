@@ -1,0 +1,144 @@
+|j|☆DBWaffles
+|j|☆Chespin0808
+|t:|1750727210
+|gametype|doubles
+|player|p1|DBWaffles|102|1293
+|player|p2|Chespin0808|preschoolerf|1324
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Klefki, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DBWaffles)
+|inactive|Chespin0808 has 60 seconds left.
+|
+|t:|1750727242
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Klefki|Klefki, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Klefki|item: Ability Shield
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|DBWaffles has 30 seconds left.
+|inactive|Chespin0808 has 30 seconds left.
+|
+|t:|1750727273
+|move|p1b: Klefki|Protect|p1b: Klefki
+|-singleturn|p1b: Klefki|Protect
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2b: Grimmsnarl|Fake Out|p1b: Klefki
+|-activate|p1b: Klefki|move: Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Weezing|[spread] 
+|-activate|p1a: Weezing|move: Protect
+|-activate|p1b: Klefki|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750727288
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|move|p1b: Klefki|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1a: Weezing|Pain Split|p2b: Ogerpon
+|-sethp|p2b: Ogerpon|100/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|99/100|[from] move: Pain Split
+|
+|-heal|p1a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Chespin0808 has 30 seconds left.
+|
+|t:|1750727318
+|move|p1b: Klefki|Thunder Wave|p2b: Ogerpon
+|-status|p2b: Ogerpon|par
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|cant|p2b: Ogerpon|par
+|move|p1a: Weezing|Strange Steam|p2a: Calyrex
+|-damage|p2a: Calyrex|77/100 par
+|
+|upkeep
+|turn|4
+|
+|t:|1750727332
+|cant|p2b: Ogerpon|par
+|move|p2a: Calyrex|Astral Barrage|p1b: Klefki|[spread] p1a,p1b
+|-damage|p1a: Weezing|0 fnt
+|-damage|p1b: Klefki|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|faint|p1b: Klefki
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|
+|upkeep
+|
+|t:|1750727338
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|5
+|
+|t:|1750727357
+|-terastallize|p2a: Calyrex|Fairy
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|30/100 par
+|-damage|p2b: Ogerpon|29/100 par
+|move|p1a: Zacian|Behemoth Blade|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Calyrex|Astral Barrage|p1a: Zacian|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Zacian|0 fnt
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1750727376
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750727385
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Sitrus Berry|[eat]
+|-heal|p2a: Calyrex|55/100 par|[from] item: Sitrus Berry
+|faint|p1b: Calyrex
+|
+|win|Chespin0808
+|raw|DBWaffles's rating: 1293 &rarr; <strong>1270</strong><br />(-23 for losing)
+|raw|Chespin0808's rating: 1324 &rarr; <strong>1342</strong><br />(+18 for winning)
+|l|☆DBWaffles
+|player|p1|
+|l|☆Chespin0808
+|player|p2|

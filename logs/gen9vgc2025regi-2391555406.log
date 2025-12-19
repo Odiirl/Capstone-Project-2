@@ -1,0 +1,166 @@
+|j|☆LycanPlaysVGC
+|j|☆dumpypants
+|t:|1750869639
+|gametype|doubles
+|player|p1|LycanPlaysVGC|pokefan-gen4|1256
+|player|p2|dumpypants|1|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LycanPlaysVGC)
+|
+|t:|1750869662
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750869684
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: LycanPlaysVGC|move: Tailwind
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: dumpypants|move: Light Screen
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|move|p2a: Incineroar|Parting Shot|p1b: Calyrex
+|-unboost|p1b: Calyrex|atk|1
+|-unboost|p1b: Calyrex|spa|1
+|
+|t:|1750869695
+|switch|p2a: Reshiram|Reshiram, L50|100/100|[from] Parting Shot
+|-ability|p2a: Reshiram|Turboblaze
+|
+|upkeep
+|turn|2
+|
+|t:|1750869711
+|-terastallize|p1b: Calyrex|Dark
+|move|p1a: Whimsicott|Fake Tears|p2a: Reshiram
+|-unboost|p2a: Reshiram|spd|2
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Calyrex
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Calyrex
+|move|p1b: Calyrex|Astral Barrage|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Grimmsnarl
+|-damage|p2a: Reshiram|16/100
+|-damage|p2b: Grimmsnarl|75/100
+|move|p2a: Reshiram|Heat Wave|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Calyrex|42/100
+|faint|p1a: Whimsicott
+|-damage|p2a: Reshiram|7/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750869728
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750869746
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2a: Reshiram|Protect|p2a: Reshiram
+|-singleturn|p2a: Reshiram|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|76/100
+|move|p1a: Koraidon|Flare Blitz|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|48/100
+|-damage|p1a: Koraidon|90/100|[from] Recoil
+|-damage|p1a: Koraidon|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750869770
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Reshiram|Heat Wave|p1a: Koraidon|[spread] 
+|-activate|p1a: Koraidon|move: Protect
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: LycanPlaysVGC|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750869795
+|-terastallize|p2b: Incineroar|Bug
+|move|p2a: Reshiram|Protect|p2a: Reshiram
+|-singleturn|p2a: Reshiram|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Koraidon|Close Combat|p2a: Reshiram
+|-activate|p2a: Reshiram|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750869807
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|75/100
+|turn|6
+|
+|t:|1750869821
+|move|p2a: Reshiram|Protect|p2a: Reshiram
+|-singleturn|p2a: Reshiram|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Reshiram|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|42/100
+|move|p1a: Koraidon|Flare Blitz|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-damage|p1a: Koraidon|66/100|[from] Recoil
+|-damage|p1a: Koraidon|57/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|dumpypants forfeited.
+|
+|win|LycanPlaysVGC
+|raw|LycanPlaysVGC's rating: 1256 &rarr; <strong>1281</strong><br />(+25 for winning)
+|raw|dumpypants's rating: 1255 &rarr; <strong>1230</strong><br />(-25 for losing)
+|l|☆dumpypants
+|player|p2|

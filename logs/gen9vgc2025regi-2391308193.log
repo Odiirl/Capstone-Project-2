@@ -1,0 +1,156 @@
+|j|☆TimBomb
+|j|☆D3XT3R08
+|t:|1750832980
+|gametype|doubles
+|player|p1|TimBomb|palmer|1118
+|player|p2|D3XT3R08|brock|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Palkia-Origin, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by D3XT3R08)
+|
+|t:|1750833006
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750833031
+|-terastallize|p2b: Ogerpon|Fire
+|detailschange|p2b: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2b: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2b: Ogerpon|atk|1
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Koraidon|Flare Blitz|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Koraidon
+|-status|p2a: Koraidon|brn
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Volcarona|[anim] Ivy Cudgel Fire
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Koraidon|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750833051
+|switch|p1a: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|2
+|
+|t:|1750833059
+|switch|p1b: Araquanid|Araquanid, L50, M|100/100
+|-terastallize|p1a: Palkia|Water
+|move|p2a: Koraidon|Flare Blitz|p1b: Araquanid
+|-damage|p1b: Araquanid|63/100
+|-damage|p2a: Koraidon|83/100 brn|[from] Recoil
+|move|p1a: Palkia|Surf|p2b: Ogerpon|[spread] p1b,p2a,p2b
+|-resisted|p1b: Araquanid
+|-crit|p1b: Araquanid
+|-resisted|p2a: Koraidon
+|-supereffective|p2b: Ogerpon
+|-damage|p1b: Araquanid|50/100
+|-damage|p2a: Koraidon|68/100 brn
+|-damage|p2b: Ogerpon|43/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Araquanid|[anim] Ivy Cudgel Fire
+|-crit|p1b: Araquanid
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Koraidon|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1750833074
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750833091
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1a: Palkia|Surf|p2b: Ogerpon|[spread] p2a,p2b
+|-activate|p1b: Calyrex|move: Protect
+|-supereffective|p2b: Ogerpon
+|-damage|p2a: Necrozma|68/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Necrozma|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750833104
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|turn|4
+|
+|t:|1750833125
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1a: Palkia
+|-supereffective|p1a: Palkia
+|-damage|p1a: Palkia|0 fnt
+|faint|p1a: Palkia
+|move|p2a: Necrozma|Sunsteel Strike|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|25/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Lilligant|[spread] p2a,p2b
+|-resisted|p2a: Necrozma
+|-supereffective|p2b: Lilligant
+|-damage|p2a: Necrozma|48/100
+|-enditem|p2b: Lilligant|Focus Sash
+|-damage|p2b: Lilligant|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Necrozma|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750833143
+|move|p2b: Lilligant|Vacuum Wave|p1b: Calyrex
+|-damage|p1b: Calyrex|20/100
+|move|p2a: Necrozma|Sunsteel Strike|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|D3XT3R08
+|raw|TimBomb's rating: 1118 &rarr; <strong>1089</strong><br />(-29 for losing)
+|raw|D3XT3R08's rating: 1056 &rarr; <strong>1093</strong><br />(+37 for winning)
+|c|☆TimBomb|gg
+|c|☆D3XT3R08|Gg
+|l|☆D3XT3R08
+|player|p2|
+|l|☆TimBomb
+|player|p1|

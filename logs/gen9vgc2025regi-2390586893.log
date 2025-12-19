@@ -1,0 +1,169 @@
+|j|☆Typostyty
+|j|☆Lei43
+|t:|1750732581
+|gametype|doubles
+|player|p1|Typostyty|2|1572
+|player|p2|Lei43|unknown|1497
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Garganacl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Typostyty)
+|
+|t:|1750732664
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Calyrex|Psychic Seed
+|-boost|p1b: Calyrex|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Typostyty has 30 seconds left.
+|inactive|Typostyty has 20 seconds left.
+|inactive|Typostyty has 15 seconds left.
+|inactive|Typostyty has 10 seconds left.
+|inactive|Typostyty has 5 seconds left.
+|
+|t:|1750732716
+|switch|p1a: Garganacl|Garganacl, L50, M|100/100
+|-terastallize|p1b: Calyrex|Water
+|move|p2b: Urshifu|U-turn|p1b: Calyrex
+|-damage|p1b: Calyrex|76/100
+|
+|t:|1750732727
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] U-turn
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldend|move: Trick Room
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Lei43 has 30 seconds left.
+|
+|t:|1750732755
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Garganacl|Wide Guard|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Wide Guard
+|move|p1b: Calyrex|Leech Seed|p2a: Lunala
+|-start|p2a: Lunala|move: Leech Seed
+|move|p2b: Ursaluna|Facade|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750732771
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|inactive|Typostyty has 30 seconds left.
+|inactive|Typostyty has 20 seconds left.
+|inactive|Typostyty has 15 seconds left.
+|
+|t:|1750732815
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Ursaluna|Headlong Rush|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750732825
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|turn|4
+|inactive|Typostyty has 30 seconds left.
+|inactive|Lei43 has 30 seconds left.
+|
+|t:|1750732854
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Urshifu|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|29/100
+|
+|t:|1750732859
+|switch|p2a: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p1b: Groudon|Precipice Blades|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|79/100
+|-damage|p2b: Ursaluna|31/100 brn
+|move|p2b: Ursaluna|Facade|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750732880
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Groudon|High Horsepower|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750732885
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|turn|6
+|
+|t:|1750732898
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Groudon
+|-damage|p1b: Groudon|23/100
+|move|p1b: Groudon|Precipice Blades|p2b: Miraidon|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|Typostyty forfeited.
+|
+|win|Lei43
+|raw|Typostyty's rating: 1572 &rarr; <strong>1548</strong><br />(-24 for losing)
+|raw|Lei43's rating: 1497 &rarr; <strong>1521</strong><br />(+24 for winning)
+|l|☆Typostyty
+|player|p1|
+|l|☆Lei43
+|player|p2|

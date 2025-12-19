@@ -1,0 +1,162 @@
+|j|☆frogs3x40
+|j|☆bodeylee
+|t:|1750879239
+|gametype|doubles
+|player|p1|frogs3x40|fantina|1159
+|player|p2|bodeylee|2|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Poliwrath, L50, M|
+|poke|p2|Greninja-*, L50, M|
+|poke|p2|Toxicroak, L50, M|
+|teampreview|4
+|
+|t:|1750879257
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Poliwrath|Poliwrath, L50, M|100/100
+|switch|p2b: Greninja|Greninja, L50, M|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frogs3x40)
+|
+|t:|1750879301
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|-terastallize|p2a: Poliwrath|Ground
+|move|p1a: Iron Hands|Fake Out|p2b: Greninja
+|-crit|p2b: Greninja
+|-damage|p2b: Greninja|43/100
+|cant|p2b: Greninja|flinch
+|move|p2a: Poliwrath|Tera Blast|p1a: Iron Hands|[anim] Tera Blast Ground
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|21/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750879325
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|move|p2b: Greninja|Mud Shot|p1a: Ho-Oh
+|-start|p2b: Greninja|typechange|Ground|[from] ability: Protean
+|-immune|p1a: Ho-Oh
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Poliwrath|[spread] p2a,p2b
+|-damage|p2a: Poliwrath|51/100
+|-damage|p2b: Greninja|0 fnt
+|faint|p2b: Greninja
+|move|p2a: Poliwrath|Tera Blast|p1b: Miraidon|[anim] Tera Blast Ground
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|upkeep
+|
+|t:|1750879347
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|21/100
+|-ability|p2b: Eternatus|Pressure
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750879362
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: Iron Hands|Fake Out|p2a: Poliwrath
+|-damage|p2a: Poliwrath|27/100
+|cant|p2a: Poliwrath|flinch
+|move|p1a: Ho-Oh|Brave Bird|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750879376
+|move|p2b: Eternatus|Sludge Bomb|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|65/100
+|move|p2a: Poliwrath|Tera Blast|p1b: Iron Hands|[anim] Tera Blast Ground
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p1a: Ho-Oh|Brave Bird|p2b: Eternatus
+|-damage|p2b: Eternatus|61/100
+|-damage|p1a: Ho-Oh|50/100|[from] Recoil
+|
+|-heal|p2b: Eternatus|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750879382
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|t:|1750879395
+|-terastallize|p1b: Chien-Pao|Stellar
+|move|p1b: Chien-Pao|Icicle Crash|p2b: Eternatus
+|-supereffective|p2b: Eternatus
+|-damage|p2b: Eternatus|0 fnt
+|faint|p2b: Eternatus
+|move|p2a: Poliwrath|Tera Blast|p1b: Chien-Pao|[anim] Tera Blast Ground
+|-damage|p1b: Chien-Pao|30/100
+|move|p1a: Ho-Oh|Brave Bird|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|-damage|p1a: Ho-Oh|43/100|[from] Recoil
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750879411
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|6
+|
+|t:|1750879423
+|move|p1b: Chien-Pao|Icicle Crash|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|75/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|move|p1a: Ho-Oh|Brave Bird|p2b: Terapagos
+|-damage|p2b: Terapagos|25/100
+|-damage|p1a: Ho-Oh|30/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|t:|1750879437
+|move|p2b: Terapagos|Tera Starstorm|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|win|bodeylee
+|raw|frogs3x40's rating: 1159 &rarr; <strong>1131</strong><br />(-28 for losing)
+|raw|bodeylee's rating: 1120 &rarr; <strong>1148</strong><br />(+28 for winning)
+|l|☆frogs3x40
+|player|p1|
+|l|☆bodeylee
+|player|p2|

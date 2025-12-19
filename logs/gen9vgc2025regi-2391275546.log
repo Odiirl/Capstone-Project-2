@@ -1,0 +1,160 @@
+|j|☆WantToBeFree
+|j|☆Paikuro
+|t:|1750826725
+|gametype|doubles
+|player|p1|WantToBeFree|giovanni|1059
+|player|p2|Paikuro|170|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Glimmora, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750826791
+|start
+|switch|p1a: Grand prize|Indeedee-F, L50, F|100/100
+|switch|p1b: Pluey|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Glimmora|Glimmora, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Grand prize
+|-enditem|p1a: Grand prize|Psychic Seed
+|-boost|p1a: Grand prize|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Pluey|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Glimmora|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Grand prize|atk|1
+|-unboost|p1b: Pluey|atk|1
+|turn|1
+|
+|t:|1750826850
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Pluey|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Psychic Terrain
+|move|p2b: Glimmora|Stealth Rock|p1b: Pluey
+|-sidestart|p1: WantToBeFree|move: Stealth Rock
+|move|p1a: Grand prize|Light Screen|p1a: Grand prize
+|-sidestart|p1: WantToBeFree|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1750826895
+|-terastallize|p2a: Calyrex|Ghost
+|move|p2a: Calyrex|Astral Barrage|p1b: Pluey|[spread] p1b
+|-immune|p1a: Grand prize
+|-resisted|p1b: Pluey
+|-damage|p1b: Pluey|77/100
+|move|p2b: Glimmora|Mortal Spin|p1a: Grand prize|[spread] p1a,p1b
+|-damage|p1a: Grand prize|97/100
+|-damage|p1b: Pluey|75/100
+|-status|p1a: Grand prize|psn
+|move|p1a: Grand prize|Psyshock|p2b: Glimmora
+|-supereffective|p2b: Glimmora
+|-damage|p2b: Glimmora|33/100
+|-enditem|p2b: Glimmora|Red Card|[of] p1a: Grand prize
+|drag|p1a: Toby Fox|Zamazenta-Crowned, L50|100/100
+|-damage|p1a: Toby Fox|98/100|[from] Stealth Rock
+|-ability|p1a: Toby Fox|Dauntless Shield|boost
+|-boost|p1a: Toby Fox|def|1
+|move|p1b: Pluey|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750826929
+|switch|p1b: Fraud Knight|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p1b: Fraud Knight|As One
+|-ability|p1b: Fraud Knight|Unnerve
+|-damage|p1b: Fraud Knight|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1750826951
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Toby Fox|atk|1
+|-unboost|p1b: Fraud Knight|atk|1
+|-terastallize|p1b: Fraud Knight|Psychic
+|move|p1a: Toby Fox|Wide Guard|p1a: Toby Fox
+|-singleturn|p1a: Toby Fox|Wide Guard
+|move|p1b: Fraud Knight|Expanding Force|p2b: Glimmora|[spread] p2b
+|-immune|p2a: Incineroar
+|-supereffective|p2b: Glimmora
+|-damage|p2b: Glimmora|0 fnt
+|faint|p2b: Glimmora
+|-ability|p1b: Fraud Knight|Grim Neigh|boost
+|-boost|p1b: Fraud Knight|spa|1
+|
+|upkeep
+|
+|t:|1750826968
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|4
+|
+|t:|1750827019
+|move|p2a: Incineroar|Fake Out|p1a: Toby Fox
+|-resisted|p1a: Toby Fox
+|-damage|p1a: Toby Fox|95/100
+|move|p1b: Fraud Knight|Expanding Force|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1b: Fraud Knight|Grim Neigh|boost
+|-boost|p1b: Fraud Knight|spa|1
+|cant|p1a: Toby Fox|flinch
+|
+|upkeep
+|
+|t:|1750827031
+|switch|p2b: Calyrex|Calyrex-Shadow, L50, tera:Ghost|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750827046
+|move|p1a: Toby Fox|Wide Guard|p1a: Toby Fox
+|-singleturn|p1a: Toby Fox|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1b: Fraud Knight|[spread] 
+|-activate|p1a: Toby Fox|move: Wide Guard
+|-activate|p1b: Fraud Knight|move: Wide Guard
+|move|p1b: Fraud Knight|Expanding Force|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1b: Fraud Knight|Grim Neigh|boost
+|-boost|p1b: Fraud Knight|spa|1
+|move|p2a: Incineroar|Knock Off|p1b: Fraud Knight
+|-supereffective|p1b: Fraud Knight
+|-damage|p1b: Fraud Knight|0 fnt
+|-enditem|p1b: Fraud Knight|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Fraud Knight
+|
+|-sideend|p1: WantToBeFree|move: Light Screen
+|upkeep
+|-message|Paikuro forfeited.
+|
+|win|WantToBeFree
+|raw|WantToBeFree's rating: 1059 &rarr; <strong>1090</strong><br />(+31 for winning)
+|raw|Paikuro's rating: 1062 &rarr; <strong>1043</strong><br />(-19 for losing)
+|l|☆Paikuro
+|player|p2|
+|l|☆WantToBeFree
+|player|p1|

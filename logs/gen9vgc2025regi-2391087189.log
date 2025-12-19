@@ -1,0 +1,318 @@
+|j|☆Aurinko
+|j|☆ArtiboniteLadder
+|t:|1750800945
+|gametype|doubles
+|player|p1|Aurinko|101|1487
+|player|p2|ArtiboniteLadder|firebreather|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Eternatus, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Overqwil, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Dialga, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750801003
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p1b: Overqwil|Overqwil, L50, M, shiny|100/100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|-ability|p1b: Overqwil|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Landorus|atk|1
+|turn|1
+|l|☆Aurinko
+|player|p1|
+|j|☆Aurinko
+|player|p1|Aurinko|101|
+|
+|t:|1750801021
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Aurinko|move: Light Screen
+|move|p2b: Landorus|Earth Power|p1b: Overqwil
+|-supereffective|p1b: Overqwil
+|-enditem|p1b: Overqwil|Focus Sash
+|-damage|p1b: Overqwil|1/100
+|move|p1b: Overqwil|Toxic Spikes|p2b: Landorus
+|-sidestart|p2: ArtiboniteLadder|move: Toxic Spikes
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Overqwil
+|-damage|p1a: Grimmsnarl|81/100
+|-damage|p1b: Overqwil|0 fnt
+|-status|p1a: Grimmsnarl|brn
+|faint|p1b: Overqwil
+|
+|-damage|p1a: Grimmsnarl|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1750801041
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|turn|2
+|
+|t:|1750801057
+|switch|p2a: Dialga|Dialga, L50|100/100
+|-terastallize|p1b: Eternatus|Water
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Aurinko|Reflect
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|
+|-damage|p1a: Grimmsnarl|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750801084
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-status|p2b: Sinistcha|psn
+|move|p1a: Grimmsnarl|Taunt|p2a: Dialga
+|-start|p2a: Dialga|move: Taunt
+|-enditem|p2a: Dialga|Mental Herb
+|-end|p2a: Dialga|move: Taunt
+|move|p1b: Eternatus|Fire Spin|p2a: Dialga
+|-damage|p2a: Dialga|91/100
+|-activate|p2a: Dialga|move: Fire Spin|[of] p1b: Eternatus
+|move|p2a: Dialga|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100 brn
+|
+|-damage|p2b: Sinistcha|88/100 psn|[from] psn
+|-damage|p1a: Grimmsnarl|11/100 brn|[from] brn
+|-damage|p2a: Dialga|79/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArtiboniteLadder)
+|
+|t:|1750801105
+|switch|p1a: Lunala|Lunala, L50|100/100
+|move|p1b: Eternatus|Fire Spin|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-crit|p2b: Sinistcha
+|-damage|p2b: Sinistcha|43/100 psn
+|-activate|p2b: Sinistcha|move: Fire Spin|[of] p1b: Eternatus
+|move|p2a: Dialga|Dragon Pulse|p1b: Eternatus
+|-damage|p1b: Eternatus|86/100
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Eternatus|[spread] p1a,p1b
+|-supereffective|p1b: Eternatus
+|-damage|p1a: Lunala|93/100
+|-heal|p2b: Sinistcha|48/100 psn|[from] drain|[of] p1a: Lunala
+|-damage|p1b: Eternatus|66/100
+|-heal|p2b: Sinistcha|63/100 psn|[from] drain|[of] p1b: Eternatus
+|
+|-damage|p2b: Sinistcha|50/100 psn|[from] psn
+|-damage|p2a: Dialga|67/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Sinistcha|38/100 psn|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1750801129
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p1a: Lunala|Moongeist Beam|p2a: Dialga
+|-damage|p2a: Dialga|16/100
+|move|p2a: Dialga|Dragon Pulse|p1a: Lunala
+|-damage|p1a: Lunala|75/100
+|move|p2b: Sinistcha|Life Dew|p2b: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Dialga|41/100
+|-heal|p2b: Sinistcha|63/100 psn
+|
+|-damage|p2b: Sinistcha|51/100 psn|[from] psn
+|-damage|p2a: Dialga|29/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Sinistcha|39/100 psn|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1750801149
+|move|p2a: Dialga|Protect|p2a: Dialga
+|-singleturn|p2a: Dialga|Protect
+|move|p1b: Eternatus|Sludge Bomb|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p1a: Lunala|Moongeist Beam|p2a: Dialga
+|-activate|p2a: Dialga|move: Protect
+|
+|-damage|p2a: Dialga|17/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|
+|t:|1750801169
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|7
+|
+|t:|1750801196
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Landorus
+|-activate|p2b: Landorus|move: Protect
+|move|p2a: Dialga|Trick Room|p2a: Dialga
+|-fieldstart|move: Trick Room|[of] p2a: Dialga
+|
+|-damage|p2a: Dialga|5/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|8
+|inactive|Aurinko has 30 seconds left.
+|inactive|ArtiboniteLadder has 30 seconds left.
+|inactive|Aurinko has 20 seconds left.
+|inactive|Aurinko has 15 seconds left.
+|inactive|Aurinko has 10 seconds left.
+|inactive|Aurinko has 5 seconds left.
+|
+|t:|1750801251
+|-terastallize|p2b: Landorus|Poison
+|move|p2a: Dialga|Dragon Pulse|p1a: Lunala
+|-damage|p1a: Lunala|55/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|move|p2b: Landorus|Crunch|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Eternatus|Sludge Bomb|p2b: Landorus
+|-resisted|p2b: Landorus
+|-damage|p2b: Landorus|67/100
+|
+|-sideend|p1: Aurinko|move: Light Screen
+|upkeep
+|inactive|Aurinko has 30 seconds left.
+|
+|t:|1750801285
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|11/100 brn
+|-status|p2a: Kyogre|psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|9
+|
+|t:|1750801300
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Aurinko|move: Light Screen
+|move|p2a: Kyogre|Water Spout|p1b: Eternatus|[spread] p1a,p1b
+|-resisted|p1b: Eternatus
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Eternatus|55/100
+|faint|p1a: Grimmsnarl
+|move|p1b: Eternatus|Sludge Bomb|p2b: Landorus
+|-activate|p2b: Landorus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|88/100 psn|[from] psn
+|-sideend|p1: Aurinko|Reflect
+|upkeep
+|turn|10
+|j| elwafle
+|inactive|Aurinko has 30 seconds left.
+|inactive|Aurinko has 20 seconds left.
+|inactive|Aurinko has 15 seconds left.
+|inactive|Aurinko has 10 seconds left.
+|inactive|Aurinko has 5 seconds left.
+|inactive|ArtiboniteLadder has 30 seconds left.
+|
+|t:|1750801357
+|move|p2a: Kyogre|Thunder|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|35/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-damage|p1b: Eternatus|20/100
+|-enditem|p1b: Eternatus|Iapapa Berry|[eat]
+|-heal|p1b: Eternatus|54/100|[from] item: Iapapa Berry
+|move|p1b: Eternatus|Sludge Bomb|p2b: Landorus
+|-resisted|p2b: Landorus
+|-damage|p2b: Landorus|35/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|76/100 psn|[from] psn
+|upkeep
+|turn|11
+|inactive|Aurinko has 30 seconds left.
+|
+|t:|1750801386
+|move|p2a: Kyogre|Thunder|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|36/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-damage|p1b: Eternatus|20/100
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|70/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|64/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1750801399
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|100/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-damage|p1b: Eternatus|85/100
+|move|p2a: Kyogre|Thunder|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|67/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|52/100 psn|[from] psn
+|upkeep
+|turn|13
+|inactive|Aurinko has 30 seconds left.
+|
+|t:|1750801426
+|move|p1b: Eternatus|Fire Spin|p2b: Landorus
+|-damage|p2b: Landorus|27/100
+|-activate|p2b: Landorus|move: Fire Spin|[of] p1b: Eternatus
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-damage|p1b: Eternatus|52/100
+|move|p2a: Kyogre|Thunder|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|34/100
+|
+|-weather|none
+|-damage|p2a: Kyogre|40/100 psn|[from] psn
+|-damage|p2b: Landorus|15/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1750801441
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|84/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-damage|p1b: Eternatus|69/100
+|move|p2a: Kyogre|Thunder|p1b: Eternatus|[miss]
+|-miss|p2a: Kyogre|p1b: Eternatus
+|
+|-damage|p2a: Kyogre|28/100 psn|[from] psn
+|-damage|p2b: Landorus|3/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|15
+|-message|ArtiboniteLadder forfeited.
+|
+|win|Aurinko
+|raw|Aurinko's rating: 1487 &rarr; <strong>1506</strong><br />(+19 for winning)
+|raw|ArtiboniteLadder's rating: 1468 &rarr; <strong>1449</strong><br />(-19 for losing)
+|l|☆ArtiboniteLadder
+|player|p2|
+|l|☆Aurinko
+|player|p1|
+|l| elwafle

@@ -1,0 +1,168 @@
+|j|☆Emberglint
+|j|☆Lucaerio
+|t:|1750871058
+|gametype|doubles
+|player|p1|Emberglint|skyla|1093
+|player|p2|Lucaerio|101|1193
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Flygon, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Murkrow, L50, F|
+|teampreview|4
+|
+|t:|1750871100
+|start
+|switch|p1a: Beamsaber|Iron Valiant, L50|100/100
+|switch|p1b: Karaya|Flygon, L50, F, shiny|100/100
+|switch|p2a: Krowbar|Murkrow, L50, F, shiny|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-enditem|p1a: Beamsaber|Booster Energy
+|-activate|p1a: Beamsaber|ability: Quark Drive|[fromitem]
+|-start|p1a: Beamsaber|quarkdrivespa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lucaerio)
+|
+|t:|1750871130
+|switch|p2b: Gholdengo|Gholdengo, L50, shiny|100/100
+|move|p2a: Krowbar|Tailwind|p2a: Krowbar
+|-sidestart|p2: Lucaerio|move: Tailwind
+|move|p1a: Beamsaber|Moonblast|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|65/100
+|move|p1b: Karaya|Tailwind|p1b: Karaya
+|-sidestart|p1: Emberglint|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Lucaerio has 30 seconds left.
+|inactive|Lucaerio has 20 seconds left.
+|inactive|Lucaerio has 15 seconds left.
+|inactive|Lucaerio has 10 seconds left.
+|
+|t:|1750871179
+|-terastallize|p1a: Beamsaber|Ground
+|move|p1b: Karaya|Feint|p2a: Krowbar
+|-damage|p2a: Krowbar|90/100
+|move|p2a: Krowbar|Taunt|p1b: Karaya
+|-start|p1b: Karaya|move: Taunt
+|move|p2b: Gholdengo|Make It Rain|p1a: Beamsaber|[spread] p1a,p1b
+|-damage|p1a: Beamsaber|20/100
+|-damage|p1b: Karaya|41/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p1a: Beamsaber|Moonblast|p2a: Krowbar
+|-supereffective|p2a: Krowbar
+|-damage|p2a: Krowbar|0 fnt
+|faint|p2a: Krowbar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750871195
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750871220
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Gholdengo|Make It Rain|p1a: Beamsaber|[spread] p1a,p1b
+|-damage|p1a: Beamsaber|0 fnt
+|-damage|p1b: Karaya|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Beamsaber
+|-end|p1a: Beamsaber|Quark Drive|[silent]
+|faint|p1b: Karaya
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750871234
+|switch|p1a: Nachos|Miraidon, L50|100/100
+|switch|p1b: Guts|Groudon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Nachos
+|turn|4
+|
+|t:|1750871259
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Gholdengo|Make It Rain|p1a: Nachos|[spread] p1a,p1b
+|-resisted|p1a: Nachos
+|-damage|p1a: Nachos|90/100
+|-damage|p1b: Guts|85/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p1a: Nachos|Discharge|p2a: Koraidon|[spread] p2a,p2b
+|-immune|p1b: Guts
+|-crit|p2a: Koraidon
+|-crit|p2b: Gholdengo
+|-damage|p2a: Koraidon|34/100
+|-damage|p2b: Gholdengo|0 fnt
+|-status|p2a: Koraidon|par
+|faint|p2b: Gholdengo
+|move|p1b: Guts|Precipice Blades|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Lucaerio|move: Tailwind
+|-sideend|p1: Emberglint|move: Tailwind
+|upkeep
+|
+|t:|1750871278
+|switch|p2b: Merhydon|Miraidon, L50|100/100
+|-activate|p2b: Merhydon|ability: Hadron Engine
+|turn|5
+|c|☆Emberglint|Oh wow that para was lucky
+|inactive|Emberglint has 30 seconds left.
+|
+|t:|1750871310
+|move|p1a: Nachos|Protect|p1a: Nachos
+|-singleturn|p1a: Nachos|Protect
+|move|p2b: Merhydon|Draco Meteor|p1a: Nachos
+|-activate|p1a: Nachos|move: Protect
+|move|p1b: Guts|Precipice Blades|p2b: Merhydon
+|-supereffective|p2b: Merhydon
+|-enditem|p2b: Merhydon|Focus Sash
+|-damage|p2b: Merhydon|1/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|c|☆Lucaerio|bro i coulda won
+|c|☆Lucaerio|if it wasnt for para
+|
+|t:|1750871326
+|move|p2b: Merhydon|Draco Meteor|p1a: Nachos
+|-supereffective|p1a: Nachos
+|-damage|p1a: Nachos|0 fnt
+|-unboost|p2b: Merhydon|spa|2
+|faint|p1a: Nachos
+|move|p1b: Guts|Crunch|p2b: Merhydon
+|-damage|p2b: Merhydon|0 fnt
+|faint|p2b: Merhydon
+|
+|win|Emberglint
+|raw|Emberglint's rating: 1093 &rarr; <strong>1126</strong><br />(+33 for winning)
+|raw|Lucaerio's rating: 1193 &rarr; <strong>1161</strong><br />(-32 for losing)
+|l|☆Lucaerio
+|player|p2|
+|l|☆Emberglint
+|player|p1|

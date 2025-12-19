@@ -1,0 +1,167 @@
+|j|☆Rhizzen
+|j|☆Cloud Uwu
+|t:|1750870209
+|gametype|doubles
+|player|p1|Rhizzen|265|1260
+|player|p2|Cloud Uwu|parasollady|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cloud Uwu)
+Cloud Uwu rejected open team sheets.
+|
+|t:|1750870300
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Paige|Terapagos, L50, M|100/100
+|switch|p2b: Frida|Smeargle, L50, F, shiny|100/100
+|-activate|p2a: Paige|ability: Tera Shift
+|detailschange|p2a: Paige|Terapagos-Terastal, L50, M
+|-heal|p2a: Paige|100/100|[silent]
+|turn|1
+|
+|t:|1750870322
+|-terastallize|p2a: Paige|Stellar
+|detailschange|p2a: Paige|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Paige|100/100|[silent]
+|move|p2b: Frida|Fake Out|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|92/100
+|cant|p1a: Grimmsnarl|flinch
+|move|p1b: Lunala|Moonblast|p2a: Paige
+|-damage|p2a: Paige|78/100
+|move|p2a: Paige|Calm Mind|p2a: Paige
+|-boost|p2a: Paige|spa|1
+|-boost|p2a: Paige|spd|1
+|
+|-heal|p2a: Paige|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750870342
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Grimmsnarl|Fake Tears|p2a: Paige
+|-unboost|p2a: Paige|spd|2
+|move|p2b: Frida|Decorate|p2a: Paige
+|-boost|p2a: Paige|atk|2
+|-boost|p2a: Paige|spa|2
+|move|p1b: Lunala|Moonblast|p2a: Paige
+|-damage|p2a: Paige|33/100
+|move|p2a: Paige|Tera Starstorm|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Lunala
+|-damage|p1a: Grimmsnarl|5/100
+|-damage|p1b: Lunala|32/100
+|
+|-heal|p2a: Paige|39/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750870360
+|move|p2a: Paige|Protect|p2a: Paige
+|-singleturn|p2a: Paige|Protect
+|move|p1a: Grimmsnarl|Fake Tears|p2a: Paige
+|-activate|p2a: Paige|move: Protect
+|move|p2b: Frida|Spore|p1b: Lunala
+|-status|p1b: Lunala|slp|[from] move: Spore
+|cant|p1b: Lunala|slp
+|
+|-heal|p2a: Paige|45/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750870376
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Rhizzen|move: Light Screen
+|move|p2b: Frida|Decorate|p2a: Paige
+|-boost|p2a: Paige|atk|2
+|-boost|p2a: Paige|spa|2
+|move|p2a: Paige|Tera Starstorm|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Lunala|0 fnt
+|faint|p1a: Grimmsnarl
+|faint|p1b: Lunala
+|
+|-heal|p2a: Paige|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750870387
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750870410
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Paige
+|-damage|p2a: Paige|0 fnt
+|faint|p2a: Paige
+|detailschange|p2: Paige|Terapagos, L50, M|[silent]
+|move|p2b: Frida|Decorate|p2: Paige|[notarget]
+|-fail|p2b: Frida
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750870418
+|switch|p2a: Reneé|Tsareena, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1750870435
+|move|p1b: Miraidon|Draco Meteor|p2a: Reneé
+|-damage|p2a: Reneé|25/100
+|-unboost|p1b: Miraidon|spa|2
+|move|p2b: Frida|Decorate|p2a: Reneé
+|-boost|p2a: Reneé|atk|2
+|-boost|p2a: Reneé|spa|2
+|move|p2a: Reneé|Triple Axel|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|76/100
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|30/100
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-hitcount|p1: Miraidon|3
+|move|p1a: Ursaluna|Facade|p2a: Reneé
+|-damage|p2a: Reneé|0 fnt
+|faint|p2a: Reneé
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750870450
+|switch|p2a: Submotherine|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Submotherine
+|turn|7
+|
+|t:|1750870460
+|move|p2a: Submotherine|Water Spout|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Cloud Uwu
+|raw|Rhizzen's rating: 1260 &rarr; <strong>1235</strong><br />(-25 for losing)
+|raw|Cloud Uwu's rating: 1255 &rarr; <strong>1280</strong><br />(+25 for winning)

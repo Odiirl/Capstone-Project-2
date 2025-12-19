@@ -1,0 +1,159 @@
+|j|☆Mars002
+|j|☆limaozin140794
+|t:|1750860903
+|gametype|doubles
+|player|p1|Mars002|169|1535
+|player|p2|limaozin140794|101|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Comfey, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mars002)
+|inactive|Mars002 has 60 seconds left.
+|
+|t:|1750860960
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|1
+|inactive|Mars002 has 30 seconds left.
+|
+|t:|1750860992
+|move|p2b: Chi-Yu|Protect|p2b: Chi-Yu
+|-singleturn|p2b: Chi-Yu|Protect
+|move|p1a: Annihilape|U-turn|p2a: Whimsicott
+|-damage|p2a: Whimsicott|69/100
+|
+|t:|1750860997
+|switch|p1a: Groudon|Groudon, L50|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|move|p1b: Walking Wake|Hydro Steam|p2b: Chi-Yu
+|-activate|p2b: Chi-Yu|move: Protect
+|move|p2a: Whimsicott|Moonblast|p1b: Walking Wake
+|-supereffective|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861016
+|switch|p1b: Comfey|Comfey, L50, M|100/100
+|turn|2
+|
+|t:|1750861032
+|-terastallize|p1a: Groudon|Water
+|move|p2a: Whimsicott|Taunt|p1b: Comfey
+|-start|p1b: Comfey|move: Taunt
+|move|p2b: Chi-Yu|Heat Wave|p1b: Comfey|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|72/100
+|-damage|p1b: Comfey|0 fnt
+|faint|p1b: Comfey
+|-damage|p2b: Chi-Yu|91/100|[from] item: Life Orb
+|move|p1a: Groudon|Precipice Blades|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-supereffective|p2b: Chi-Yu
+|-damage|p2a: Whimsicott|26/100
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861049
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750861062
+|move|p1b: Annihilape|Shadow Claw|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Whimsicott|Endeavor|p1a: Groudon
+|-damage|p1a: Groudon|17/100
+|move|p1a: Groudon|Precipice Blades|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861073
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750861085
+|-terastallize|p2b: Zamazenta|Water
+|move|p1b: Annihilape|Shadow Claw|p2b: Zamazenta
+|-damage|p2b: Zamazenta|90/100
+|move|p2b: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750861096
+|move|p1b: Annihilape|Shadow Claw|p2b: Zamazenta
+|-damage|p2b: Zamazenta|79/100
+|move|p2b: Zamazenta|Heavy Slam|p1b: Annihilape
+|-damage|p1b: Annihilape|53/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750861105
+|move|p1b: Annihilape|Shadow Claw|p2b: Zamazenta
+|-damage|p2b: Zamazenta|68/100
+|move|p2b: Zamazenta|Heavy Slam|p1b: Annihilape
+|-damage|p1b: Annihilape|7/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750861113
+|move|p1b: Annihilape|Shadow Claw|p2b: Zamazenta
+|-damage|p2b: Zamazenta|58/100
+|move|p2b: Zamazenta|Heavy Slam|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|
+|win|limaozin140794
+|raw|Mars002's rating: 1535 &rarr; <strong>1513</strong><br />(-22 for losing)
+|raw|limaozin140794's rating: 1494 &rarr; <strong>1516</strong><br />(+22 for winning)
+|l|☆Mars002
+|player|p1|
+|l|☆limaozin140794
+|player|p2|

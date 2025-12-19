@@ -1,0 +1,143 @@
+|j|☆Ferrous2 000
+|j|☆CinnaMink
+|t:|1750744392
+|gametype|doubles
+|player|p1|Ferrous2 000|hiker|1265
+|player|p2|CinnaMink|backpackerf|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Weezing, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750744425
+|start
+|switch|p1a: Weezing|Weezing, L50, M, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750744450
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Miraidon|Volt Switch|p1b: Koraidon
+|-damage|p1b: Koraidon|49/100
+|
+|t:|1750744457
+|switch|p2a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: CinnaMink|move: Tailwind
+|move|p1b: Koraidon|Flare Blitz|p2b: Tornadus
+|-enditem|p2b: Tornadus|Focus Sash
+|-damage|p2b: Tornadus|1/100
+|-damage|p1b: Koraidon|24/100|[from] Recoil
+|move|p1a: Weezing|Pain Split|p1b: Koraidon
+|-sethp|p1b: Koraidon|54/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|64/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750744483
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p2a: Kyogre|Water Spout|p1a: Weezing|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750744496
+|switch|p1a: Winston|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Winston|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|3
+|
+|t:|1750744507
+|switch|p1b: Ivy|Ogerpon-Cornerstone, L50, F|100/100
+|move|p1a: Winston|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|88/100
+|move|p2b: Tornadus|Hurricane|p1b: Ivy
+|-damage|p1b: Ivy|29/100
+|cant|p2a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750744523
+|move|p1b: Ivy|Protect|p1b: Ivy
+|-singleturn|p1b: Ivy|Protect
+|move|p2b: Tornadus|Hurricane|p1b: Ivy
+|-activate|p1b: Ivy|move: Protect
+|move|p2a: Kyogre|Water Spout|p1b: Ivy|[spread] p1a
+|-activate|p1b: Ivy|move: Protect
+|-supereffective|p1a: Winston
+|-damage|p1a: Winston|0 fnt
+|faint|p1a: Winston
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: CinnaMink|move: Tailwind
+|upkeep
+|
+|t:|1750744532
+|switch|p1a: Koraidon|Koraidon, L50, tera:Fire|54/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750744548
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: CinnaMink|move: Tailwind
+|move|p1b: Ivy|Ivy Cudgel|p2b: Tornadus|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p1a: Koraidon|Close Combat|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750744562
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|-message|Ferrous2 000 forfeited.
+|
+|win|CinnaMink
+|raw|Ferrous2 000's rating: 1265 &rarr; <strong>1240</strong><br />(-25 for losing)
+|raw|CinnaMink's rating: 1262 &rarr; <strong>1287</strong><br />(+25 for winning)
+|l|☆Ferrous2 000
+|player|p1|
+|l|☆CinnaMink
+|player|p2|

@@ -1,0 +1,190 @@
+|j|☆tmans3
+|j|☆Purezenith
+|t:|1750795720
+|gametype|doubles
+|player|p1|tmans3|2|1106
+|player|p2|Purezenith|170|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Basculegion-F, L50, F|
+|poke|p2|Clodsire, L50, M|
+|poke|p2|Cresselia, L50, F|
+|teampreview|4
+|
+|t:|1750795763
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Clodsire|Clodsire, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750795778
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Whimsicott|Taunt|p2a: Clodsire
+|-start|p2a: Clodsire|move: Taunt
+|move|p1b: Rillaboom|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|cant|p2a: Clodsire|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|t:|1750795801
+|move|p1a: Whimsicott|Encore|p2b: Calyrex
+|-start|p2b: Calyrex|Encore
+|move|p1b: Rillaboom|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|38/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1b: Rillaboom
+|move|p2b: Calyrex|Protect||[still]
+|-fail|p2b: Calyrex
+|move|p2a: Clodsire|Heavy Slam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|66/100
+|
+|-heal|p1a: Whimsicott|72/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|44/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750795821
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: tmans3|move: Tailwind
+|move|p1b: Rillaboom|Knock Off|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|
+|-heal|p1a: Whimsicott|78/100|[from] Grassy Terrain
+|-heal|p2a: Flutter Mane|7/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750795836
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Rillaboom|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|44/100
+|-enditem|p2b: Kyogre|Mystic Water|[from] move: Knock Off|[of] p1b: Rillaboom
+|move|p1a: Whimsicott|U-turn|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|84/100|[from] Grassy Terrain
+|-heal|p2a: Flutter Mane|14/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|50/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750795860
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Clodsire|Clodsire, L50, M, shiny|44/100
+|move|p1a: Whimsicott|Taunt|p2b: Kyogre
+|-start|p2b: Kyogre|move: Taunt
+|move|p1b: Rillaboom|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|4/100
+|move|p2b: Kyogre|Ice Beam|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|90/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|56/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|10/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750795870
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|6
+|
+|t:|1750795883
+|-terastallize|p1b: Kyogre|Grass
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Whimsicott|U-turn|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|move|p1b: Kyogre|Tera Blast|p2b: Kyogre|[anim] Tera Blast Grass
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: tmans3|move: Tailwind
+|upkeep
+|
+|t:|1750795894
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750795913
+|switch|p2a: Flutter Mane|Flutter Mane, L50|14/100
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p1b: Kyogre|Thunder|p2b: Calyrex
+|-damage|p2b: Calyrex|69/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-supereffective|p1b: Kyogre
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Kyogre
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750795920
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|8
+|c|☆Purezenith|gg
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tmans3)
+|
+|t:|1750795955
+|-terastallize|p2b: Calyrex|Psychic
+|move|p2a: Flutter Mane|Icy Wind|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|91/100
+|-unboost|p1b: Zacian|spe|1
+|move|p1b: Zacian|Behemoth Blade|p2b: Calyrex
+|-damage|p2b: Calyrex|16/100
+|move|p2b: Calyrex|High Horsepower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|win|Purezenith
+|raw|tmans3's rating: 1106 &rarr; <strong>1078</strong><br />(-28 for losing)
+|raw|Purezenith's rating: 1069 &rarr; <strong>1102</strong><br />(+33 for winning)
+|l|☆tmans3
+|player|p1|

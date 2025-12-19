@@ -1,0 +1,158 @@
+|j|☆Namrosi
+|j|☆Falcon9115
+|t:|1750858531
+|gametype|doubles
+|player|p1|Namrosi|juan|1255
+|player|p2|Falcon9115|red|1185
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Clefable, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Namrosi)
+|
+|t:|1750858554
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|switch|p1b: Sableye|Sableye, L50, F, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750858572
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1b: Sableye|Gravity|p1b: Sableye
+|-fieldstart|move: Gravity
+|move|p1a: Iron Valiant|Hypnosis|p2b: Smeargle
+|-status|p2b: Smeargle|slp|[from] move: Hypnosis
+|cant|p2b: Smeargle|slp
+|move|p2a: Calyrex|Glacial Lance|p1a: Iron Valiant|[spread] p1a,p1b
+|-damage|p1a: Iron Valiant|36/100
+|-damage|p1b: Sableye|36/100
+|-enditem|p1b: Sableye|Eject Button
+|
+|t:|1750858583
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750858596
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Iron Valiant|Hypnosis|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Groudon|Precipice Blades|p2b: Smeargle|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858613
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|inactive|Namrosi has 30 seconds left.
+|
+|t:|1750858639
+|switch|p1b: Sableye|Sableye, L50, F, shiny|36/100
+|move|p2b: Rillaboom|Grassy Glide|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|move|p2a: Calyrex|Glacial Lance|p1b: Sableye
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858647
+|switch|p1a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100
+|turn|4
+|inactive|Falcon9115 has 30 seconds left.
+|
+|t:|1750858681
+|-terastallize|p2a: Calyrex|Water
+|move|p1b: Groudon|Heat Crash|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|-status|p2a: Calyrex|brn
+|-damage|p1a: Ho-Oh|91/100|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1b: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Ho-Oh|47/100
+|-damage|p1b: Groudon|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|34/100|[from] Grassy Terrain
+|-heal|p1a: Ho-Oh|53/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|69/100 brn|[from] Grassy Terrain
+|-damage|p2a: Calyrex|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1750858695
+|switch|p2b: Clefable|Clefable, L50, M|100/100
+|turn|5
+|
+|t:|1750858704
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Groudon|Heat Crash|p2b: Clefable
+|-damage|p2b: Clefable|23/100
+|-damage|p1b: Groudon|17/100|[from] item: Rocky Helmet|[of] p2b: Clefable
+|move|p1a: Ho-Oh|Brave Bird|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|-damage|p1a: Ho-Oh|37/100|[from] item: Rocky Helmet|[of] p2b: Clefable
+|faint|p2b: Clefable
+|-damage|p1a: Ho-Oh|30/100|[from] Recoil
+|-damage|p1a: Ho-Oh|20/100|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1b: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p1b: Groudon|0 fnt
+|faint|p1a: Ho-Oh
+|faint|p1b: Groudon
+|
+|win|Falcon9115
+|raw|Namrosi's rating: 1255 &rarr; <strong>1225</strong><br />(-30 for losing)
+|raw|Falcon9115's rating: 1185 &rarr; <strong>1215</strong><br />(+30 for winning)
+|l|☆Namrosi
+|player|p1|
+|l|☆Falcon9115
+|player|p2|

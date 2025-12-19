@@ -1,0 +1,195 @@
+|j|☆KGFlawless
+|j|☆ArosConPollo85
+|t:|1750872086
+|gametype|doubles
+|player|p1|KGFlawless|n|1349
+|player|p2|ArosConPollo85|1|1284
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArosConPollo85)
+|inactive|KGFlawless also wants the timer to be on.
+|j| kerimaga
+|l| kerimaga
+|inactive|KGFlawless has 60 seconds left.
+|inactive|ArosConPollo85 has 60 seconds left.
+|
+|t:|1750872119
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750872139
+|move|p2a: Iron Leaves|Psyblade|p1a: Miraidon
+|-damage|p1a: Miraidon|40/100
+|-damage|p2a: Iron Leaves|91/100|[from] item: Life Orb
+|move|p2b: Miraidon|Volt Switch|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|23/100
+|
+|t:|1750872146
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Miraidon|Volt Switch|p2a: Iron Leaves
+|-resisted|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|40/100
+|
+|t:|1750872155
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Volt Switch
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750872173
+|-terastallize|p2b: Calyrex|Fairy
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Leaves|[spread] p2a,p2b
+|-activate|p1b: Lunala|move: Wide Guard
+|-resisted|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|-damage|p2b: Calyrex|57/100
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|move|p2b: Calyrex|Crunch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|74/100 brn
+|
+|-damage|p1a: Ursaluna|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1750872185
+|switch|p2a: Araquanid|Araquanid, L50, M|100/100
+|turn|3
+|
+|t:|1750872200
+|move|p2a: Araquanid|Liquidation|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p2b: Calyrex|Crunch|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|68/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Araquanid
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|35/100
+|
+|upkeep
+|
+|t:|1750872213
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750872234
+|-terastallize|p1b: Lunala|Fairy
+|move|p2a: Araquanid|Liquidation|p1b: Lunala
+|-damage|p1b: Lunala|39/100
+|-unboost|p1b: Lunala|def|1
+|move|p2b: Calyrex|Seed Bomb|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|33/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|move|p1a: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|40/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|22/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|3/100
+|-hitcount|p2b: Calyrex|3
+|
+|upkeep
+|
+|t:|1750872247
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|inactive|KGFlawless has 30 seconds left.
+|
+|t:|1750872281
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|Seed Bomb|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Lunala
+|-activate|p1b: Lunala|move: Wide Guard
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750872285
+|switch|p1a: Miraidon|Miraidon, L50|23/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750872297
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Miraidon|[spread] 
+|-activate|p1a: Miraidon|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Miraidon|Draco Meteor|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Miraidon
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] 
+|-activate|p1a: Miraidon|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|7
+|c|☆ArosConPollo85|Gg
+|
+|t:|1750872311
+|move|p1a: Miraidon|Draco Meteor|p2b: Calyrex
+|-immune|p2b: Calyrex
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|KGFlawless
+|raw|KGFlawless's rating: 1349 &rarr; <strong>1365</strong><br />(+16 for winning)
+|raw|ArosConPollo85's rating: 1284 &rarr; <strong>1264</strong><br />(-20 for losing)
+|c|☆KGFlawless|gg
+|l|☆ArosConPollo85
+|player|p2|
+|l|☆KGFlawless
+|player|p1|

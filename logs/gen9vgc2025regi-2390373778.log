@@ -1,0 +1,201 @@
+|j|☆Pedro9600Cunha
+|j|☆p1gkachu
+|t:|1750706244
+|gametype|doubles
+|player|p1|Pedro9600Cunha|riley|1166
+|player|p2|p1gkachu|170|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flaaffy, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|
+|t:|1750706266
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Palkia|Palkia-Origin, L50|100/100
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-ability|p2a: Palkia|Pressure
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Palkia|atk|1
+|-unboost|p2b: Roaring Moon|atk|1
+|-enditem|p2b: Roaring Moon|Booster Energy
+|-activate|p2b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2b: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750706291
+|switch|p1a: Flaaffy|Flaaffy, L50, F|100/100
+|move|p2a: Palkia|Protect|p2a: Palkia
+|-singleturn|p2a: Palkia|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|88/100
+|cant|p2b: Roaring Moon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750706307
+|move|p2b: Roaring Moon|Dragon Cheer|p2a: Palkia
+|-start|p2a: Palkia|move: Dragon Cheer
+|move|p2a: Palkia|Spacial Rend|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|4/100
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Roaring Moon
+|-status|p2b: Roaring Moon|brn
+|move|p1a: Flaaffy|Eerie Impulse|p2a: Palkia
+|-unboost|p2a: Palkia|spa|2
+|
+|-damage|p2b: Roaring Moon|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750706330
+|move|p2b: Roaring Moon|Knock Off|p1a: Flaaffy
+|-damage|p1a: Flaaffy|85/100
+|-enditem|p1a: Flaaffy|Eviolite|[from] move: Knock Off|[of] p2b: Roaring Moon
+|move|p2a: Palkia|Spacial Rend|p1a: Flaaffy
+|-crit|p1a: Flaaffy
+|-damage|p1a: Flaaffy|0 fnt
+|faint|p1a: Flaaffy
+|move|p1b: Incineroar|Knock Off|p2a: Palkia
+|-damage|p2a: Palkia|71/100
+|
+|-damage|p2b: Roaring Moon|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1750706344
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750706366
+|-terastallize|p1a: Lunala|Grass
+|move|p2b: Roaring Moon|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-enditem|p1b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Roaring Moon
+|faint|p1b: Incineroar
+|move|p2a: Palkia|Spacial Rend|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|65/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|15/100 brn
+|
+|-damage|p2b: Roaring Moon|9/100 brn|[from] brn
+|upkeep
+|
+|t:|1750706382
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750706395
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: p1gkachu|move: Tailwind
+|move|p2a: Palkia|Spacial Rend|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-damage|p2b: Roaring Moon|3/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750706413
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2a: Palkia|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Palkia|16/100
+|-damage|p2b: Incineroar|76/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|
+|upkeep
+|
+|t:|1750706426
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|7
+|
+|t:|1750706441
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|92/100
+|cant|p1b: Calyrex|flinch
+|move|p2a: Terapagos|Tera Starstorm|p1a: Lunala
+|-damage|p1a: Lunala|7/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750706468
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Calyrex|Leech Seed|p2a: Terapagos
+|-start|p2a: Terapagos|move: Leech Seed
+|move|p2b: Incineroar|Knock Off|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex
+|-damage|p1b: Calyrex|41/100
+|
+|-damage|p2a: Terapagos|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|52/100|[silent]
+|-sideend|p2: p1gkachu|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1750706487
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|91/100|[silent]
+|move|p1b: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Terapagos|55/100
+|-damage|p2b: Incineroar|51/100
+|move|p2b: Incineroar|Flare Blitz|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2b: Incineroar|34/100|[from] Recoil
+|
+|win|p1gkachu
+|raw|Pedro9600Cunha's rating: 1166 &rarr; <strong>1138</strong><br />(-28 for losing)
+|raw|p1gkachu's rating: 1129 &rarr; <strong>1157</strong><br />(+28 for winning)
+|l|☆Pedro9600Cunha
+|player|p1|
+|l|☆p1gkachu
+|player|p2|

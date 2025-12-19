@@ -1,0 +1,167 @@
+|j|☆gjokull
+|j|☆Cloud Uwu
+|t:|1750870013
+|gametype|doubles
+|player|p1|gjokull|169|1352
+|player|p2|Cloud Uwu|fantina|1274
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750870034
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Paige|Terapagos, L50, M|100/100
+|switch|p2b: Frida|Smeargle, L50, F, shiny|100/100
+|-activate|p2a: Paige|ability: Tera Shift
+|detailschange|p2a: Paige|Terapagos-Terastal, L50, M
+|-heal|p2a: Paige|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750870061
+|move|p1a: Miraidon|Volt Switch|p2b: Frida
+|-enditem|p2b: Frida|Focus Sash
+|-damage|p2b: Frida|1/100
+|
+|t:|1750870067
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2b: Frida|Decorate|p2a: Paige
+|-boost|p2a: Paige|atk|2
+|-boost|p2a: Paige|spa|2
+|move|p2a: Paige|Earth Power|p1a: Ursaluna
+|-damage|p1a: Ursaluna|43/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750870084
+|-terastallize|p1a: Ursaluna|Fighting
+|-terastallize|p2a: Paige|Stellar
+|detailschange|p2a: Paige|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Paige|100/100|[silent]
+|-ability|p2a: Paige|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p2b: Frida|Wide Guard|p2b: Frida
+|-singleturn|p2b: Frida|Wide Guard
+|move|p1a: Ursaluna|Drain Punch|p2a: Paige
+|-supereffective|p2a: Paige
+|-damage|p2a: Paige|8/100
+|-heal|p1a: Ursaluna|95/100 brn|[from] drain|[of] p2a: Paige
+|move|p1b: Farigiraf|Hyper Voice|p2a: Paige|[spread] 
+|-activate|p2a: Paige|move: Wide Guard
+|-activate|p2b: Frida|move: Wide Guard
+|move|p2a: Paige|Tera Starstorm|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Farigiraf|40/100
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Paige|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750870105
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gjokull)
+|
+|t:|1750870120
+|move|p2b: Frida|Wide Guard|p2b: Frida
+|-singleturn|p2b: Frida|Wide Guard
+|move|p1a: Calyrex|High Horsepower|p2a: Paige
+|-damage|p2a: Paige|0 fnt
+|faint|p2a: Paige
+|detailschange|p2: Paige|Terapagos, L50, M|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Farigiraf|Hyper Voice|p2b: Frida
+|-activate|p2b: Frida|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750870126
+|switch|p2a: Submotherine|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Submotherine
+|turn|4
+|
+|t:|1750870136
+|move|p1a: Calyrex|High Horsepower|p2a: Submotherine|[miss]
+|-miss|p1a: Calyrex|p2a: Submotherine
+|move|p1b: Farigiraf|Hyper Voice|p2a: Submotherine|[spread] p2a,p2b
+|-crit|p2a: Submotherine
+|-damage|p2a: Submotherine|71/100
+|-damage|p2b: Frida|0 fnt
+|faint|p2b: Frida
+|move|p2a: Submotherine|Water Spout|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Calyrex|48/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750870148
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Reneé|Tsareena, L50, F, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750870159
+|move|p2a: Submotherine|Protect|p2a: Submotherine
+|-singleturn|p2a: Submotherine|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Reneé|[spread] p2b
+|-activate|p2a: Submotherine|move: Protect
+|-supereffective|p2b: Reneé
+|-damage|p2b: Reneé|0 fnt
+|faint|p2b: Reneé
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Submotherine
+|-activate|p2a: Submotherine|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750870175
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Submotherine
+|-damage|p2a: Submotherine|26/100
+|move|p2a: Submotherine|Ice Beam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|32/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Submotherine
+|-resisted|p2a: Submotherine
+|-crit|p2a: Submotherine
+|-damage|p2a: Submotherine|0 fnt
+|faint|p2a: Submotherine
+|
+|win|gjokull
+|raw|gjokull's rating: 1352 &rarr; <strong>1368</strong><br />(+16 for winning)
+|raw|Cloud Uwu's rating: 1274 &rarr; <strong>1255</strong><br />(-19 for losing)

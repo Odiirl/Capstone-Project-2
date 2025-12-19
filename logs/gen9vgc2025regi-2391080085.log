@@ -1,0 +1,138 @@
+|j|☆alexeido
+|j|☆pitermax
+|t:|1750800128
+|gametype|doubles
+|player|p1|alexeido|colress|
+|player|p2|pitermax|marley|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lanturn, L50, M|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Toxapex, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Iron Moth, L50|
+|poke|p2|Toxtricity-Low-Key, L50, M|
+|poke|p2|Grafaiai, L50, F|
+|teampreview|4
+|j| okkito
+|j| MultiZapdos
+|
+|t:|1750800159
+|start
+|switch|p1a: Dondozo|Dondozo, L50, F|100/100
+|switch|p1b: Lanturn|Lanturn, L50, M, shiny|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pitermax)
+|
+|t:|1750800210
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Lanturn|Volt Switch|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1a: Dondozo|Order Up|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|move|p2a: Amoonguss|Spore|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|inactive|pitermax has 30 seconds left.
+|
+|t:|1750800240
+|move|p1b: Lanturn|Icy Wind|p2a: Amoonguss|[spread] p2b
+|-miss|p1b: Lanturn|p2a: Amoonguss
+|-resisted|p2b: Toxapex
+|-damage|p2b: Toxapex|97/100
+|-unboost|p2b: Toxapex|spe|1
+|cant|p1a: Dondozo|slp
+|move|p2a: Amoonguss|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|72/100 slp
+|-heal|p2a: Amoonguss|94/100|[from] drain|[of] p1a: Dondozo
+|move|p2b: Toxapex|Toxic Spikes|p1a: Dondozo
+|-sidestart|p1: alexeido|move: Toxic Spikes
+|
+|-heal|p2b: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|alexeido has 30 seconds left.
+|
+|t:|1750800271
+|switch|p1b: Tatsugiri|Tatsugiri, L50, F|100/100
+|-status|p1b: Tatsugiri|psn
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Earthquake|p2a: Amoonguss|[spread] p2a,p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-supereffective|p2b: Toxapex
+|-damage|p2a: Amoonguss|45/100
+|-damage|p2b: Toxapex|51/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|55/100
+|-heal|p2a: Amoonguss|54/100|[from] drain|[of] p1a: Dondozo
+|move|p2b: Toxapex|Toxic Spikes|p1b: Tatsugiri
+|-sidestart|p1: alexeido|move: Toxic Spikes
+|
+|-heal|p2b: Toxapex|57/100|[from] item: Black Sludge
+|-damage|p1b: Tatsugiri|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|inactive|alexeido has 30 seconds left.
+|inactive|pitermax has 30 seconds left.
+|
+|t:|1750800308
+|-terastallize|p1a: Dondozo|Ground
+|move|p1a: Dondozo|Earthquake|p2b: Toxapex|[spread] p2a,p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-crit|p2a: Amoonguss
+|-supereffective|p2b: Toxapex
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2a: Amoonguss
+|faint|p2b: Toxapex
+|
+|-damage|p1b: Tatsugiri|75/100 psn|[from] psn
+|upkeep
+|
+|t:|1750800318
+|switch|p2b: Grafaiai|Grafaiai, L50, F|100/100
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, L50, M|100/100
+|turn|5
+|inactive|pitermax has 30 seconds left.
+|
+|t:|1750800350
+|move|p2b: Grafaiai|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|48/100
+|-enditem|p1a: Dondozo|Assault Vest|[from] move: Knock Off|[of] p2b: Grafaiai
+|move|p2a: Toxtricity|Boomburst|p1b: Tatsugiri|[spread] p2b,p1a
+|-miss|p2a: Toxtricity|p1b: Tatsugiri
+|-damage|p2b: Grafaiai|0 fnt
+|-damage|p1a: Dondozo|12/100
+|faint|p2b: Grafaiai
+|move|p1a: Dondozo|Earthquake|p2a: Toxtricity|[spread] p2a
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|alexeido
+|l|☆pitermax
+|player|p2|

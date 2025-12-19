@@ -1,0 +1,206 @@
+|j|☆Fletch.smile
+|j|☆Terrabre
+|t:|1750852522
+|gametype|doubles
+|player|p1|Fletch.smile|caitlin|1115
+|player|p2|Terrabre|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Meowscarada, L50, M|
+|teampreview|4
+|
+|t:|1750852537
+|start
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|switch|p1b: mewo|Incineroar, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: mewo|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|1
+|
+|t:|1750852554
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1b: mewo|atk|1
+|move|p1b: mewo|Fake Out|p2a: Koraidon
+|-damage|p2a: Koraidon|93/100
+|cant|p2a: Koraidon|flinch
+|move|p1a: Dialga|Trick Room|p1a: Dialga
+|-fieldstart|move: Trick Room|[of] p1a: Dialga
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750852582
+|move|p1b: mewo|Knock Off|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|89/100
+|-enditem|p2b: Incineroar|Covert Cloak|[from] move: Knock Off|[of] p1b: mewo
+|move|p2b: Incineroar|Parting Shot|p1a: Dialga
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1a: Dialga|spa|1
+|
+|t:|1750852586
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100|[from] Parting Shot
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1a: Dialga|Draco Meteor|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-unboost|p1a: Dialga|spa|2
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750852591
+|switch|p2a: Incineroar|Incineroar, L50, M|89/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1b: mewo|atk|1
+|turn|3
+|
+|t:|1750852611
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|move|p1b: mewo|Parting Shot|p2b: Terapagos
+|-unboost|p2b: Terapagos|atk|1
+|-unboost|p2b: Terapagos|spa|1
+|
+|t:|1750852623
+|switch|p1b: Dialga|Dialga-Origin, L50|100/100|[from] Parting Shot
+|move|p2a: Incineroar|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1750852627
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100|[from] Parting Shot
+|move|p2b: Terapagos|Dazzling Gleam|p1b: Dialga|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|84/100
+|-damage|p1b: Dialga|86/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750852645
+|move|p1a: Ursaluna|Earthquake|p2b: Terapagos|[spread] p2a,p2b
+|-activate|p1b: Dialga|ability: Telepathy
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Terapagos|74/100
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Terapagos|Tera Starstorm|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|60/100 brn
+|-damage|p1b: Dialga|65/100
+|move|p1b: Dialga|Flash Cannon|p2b: Terapagos
+|-damage|p2b: Terapagos|47/100
+|
+|-damage|p1a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|
+|t:|1750852648
+|switch|p2a: Incineroar|Incineroar, L50, M|89/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Dialga|atk|1
+|turn|5
+|
+|t:|1750852665
+|move|p1a: Ursaluna|Earthquake|p2b: Terapagos|[spread] p2a,p2b
+|-activate|p1b: Dialga|ability: Telepathy
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|27/100
+|-damage|p2b: Terapagos|25/100
+|move|p2a: Incineroar|Knock Off|p1b: Dialga
+|-damage|p1b: Dialga|39/100
+|move|p2b: Terapagos|Dazzling Gleam|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|36/100 brn
+|-damage|p1b: Dialga|25/100
+|move|p1b: Dialga|Trick Room|p1b: Dialga
+|-fieldend|move: Trick Room
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750852685
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Terapagos|Tera Starstorm|p1b: Dialga|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-crit|p1b: Dialga
+|-damage|p1b: Dialga|0 fnt
+|faint|p1b: Dialga
+|move|p2a: Incineroar|Flare Blitz|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1750852692
+|switch|p1b: Boom shakalaka|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Boom shakalaka
+|turn|7
+|
+|t:|1750852704
+|move|p1b: Boom shakalaka|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|4/100
+|
+|t:|1750852708
+|switch|p1b: mewo|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p1b: mewo|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|move|p2b: Terapagos|Tera Starstorm|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|2/100 brn
+|-damage|p1b: mewo|81/100
+|move|p2a: Incineroar|Flare Blitz|p1b: mewo
+|-resisted|p1b: mewo
+|-damage|p1b: mewo|61/100
+|-damage|p2a: Incineroar|0 fnt|[from] item: Rocky Helmet|[of] p1b: mewo
+|faint|p2a: Incineroar
+|move|p1a: Ursaluna|Earthquake|p2b: Terapagos|[spread] p1b,p2b
+|-supereffective|p1b: mewo
+|-crit|p2b: Terapagos
+|-damage|p1b: mewo|30/100
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|Fletch.smile
+|raw|Fletch.smile's rating: 1115 &rarr; <strong>1132</strong><br />(+17 for winning)
+|raw|Terrabre's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Terrabre
+|player|p2|

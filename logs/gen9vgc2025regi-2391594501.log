@@ -1,0 +1,134 @@
+|j|☆RUVEEEEN
+|j|☆Novicebest
+|t:|1750873837
+|gametype|doubles
+|player|p1|RUVEEEEN|101|1468
+|player|p2|Novicebest|lillie-z|1613
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Meowstic, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Novicebest)
+|
+|t:|1750873866
+|start
+|switch|p1a: Meowstic|Meowstic, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750873881
+|-terastallize|p1b: Calyrex|Ghost
+|-terastallize|p2a: Lunala|Fairy
+|move|p1a: Meowstic|Sucker Punch|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|76/100
+|-enditem|p1b: Calyrex|Weakness Policy
+|-boost|p1b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p1b: Calyrex|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|43/100
+|-damage|p2b: Miraidon|17/100
+|move|p2b: Miraidon|Snarl|p1a: Meowstic|[spread] p1a,p1b
+|-supereffective|p1a: Meowstic
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Meowstic|59/100
+|-damage|p1b: Calyrex|36/100
+|-unboost|p1b: Calyrex|spa|1
+|move|p2a: Lunala|Moonblast|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750873902
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750873913
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Meowstic|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|move|p1a: Meowstic|Light Screen|p1a: Meowstic
+|-sidestart|p1: RUVEEEEN|move: Light Screen
+|move|p1b: Koraidon|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|11/100
+|-damage|p1b: Koraidon|86/100|[from] Recoil
+|-damage|p1b: Koraidon|76/100|[from] item: Life Orb
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750873929
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Meowstic|Reflect|p1a: Meowstic
+|-sidestart|p1: RUVEEEEN|Reflect
+|move|p2b: Incineroar|Parting Shot|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Lunala|Moonblast|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750873945
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p1a: Meowstic|Sucker Punch|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|9/100
+|move|p2b: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1750873953
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p2a: Lunala|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|-message|RUVEEEEN forfeited.
+|
+|win|Novicebest
+|raw|RUVEEEEN's rating: 1468 &rarr; <strong>1456</strong><br />(-12 for losing)
+|raw|Novicebest's rating: 1613 &rarr; <strong>1625</strong><br />(+12 for winning)
+|l|☆RUVEEEEN
+|player|p1|
+|l|☆Novicebest
+|player|p2|

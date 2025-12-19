@@ -1,0 +1,141 @@
+|j|☆Emopachi
+|j|☆WaveHunts
+|t:|1750838897
+|gametype|doubles
+|player|p1|Emopachi|elesa-masters2|1216
+|player|p2|WaveHunts|byron|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Overqwil, L50, M|
+|poke|p2|Rhyperior, L50, M|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750838913
+|start
+|switch|p1a: Enma|Rillaboom, L50, F|100/100
+|switch|p1b: Murasame|Kingambit, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Enma
+|-enditem|p1a: Enma|Grassy Seed
+|-boost|p1a: Enma|def|1|[from] item: Grassy Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750838963
+|-terastallize|p2a: Kyogre|Flying
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: WaveHunts|move: Tailwind
+|move|p1a: Enma|Grassy Glide|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|83/100
+|move|p2a: Kyogre|Tera Blast|p1a: Enma|[anim] Tera Blast Flying
+|-supereffective|p1a: Enma
+|-damage|p1a: Enma|0 fnt
+|faint|p1a: Enma
+|move|p1b: Murasame|Kowtow Cleave|p2b: Tornadus
+|-damage|p2b: Tornadus|20/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750838987
+|switch|p1a: Syrax|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Syrax
+|-activate|p1a: Syrax|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750839005
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p1b: Murasame|Sucker Punch||[still]
+|-fail|p1b: Murasame
+|move|p2a: Kyogre|Tera Blast|p1a: Syrax|[anim] Tera Blast Flying
+|-supereffective|p1a: Syrax
+|-damage|p1a: Syrax|0 fnt
+|faint|p1a: Syrax
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839011
+|switch|p1a: Mountain-Ghost|Chien-Pao, L50|100/100
+|-ability|p1a: Mountain-Ghost|Sword of Ruin
+|turn|3
+|
+|t:|1750839021
+|move|p1b: Murasame|Sucker Punch|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p2a: Kyogre|Water Spout|p1b: Murasame|[spread] p1a,p1b
+|-enditem|p1a: Mountain-Ghost|Focus Sash
+|-damage|p1a: Mountain-Ghost|1/100
+|-damage|p1b: Murasame|35/100
+|move|p1a: Mountain-Ghost|Icicle Crash|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mountain-Ghost|7/100|[from] Grassy Terrain
+|-heal|p1b: Murasame|41/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750839030
+|switch|p2b: Rhyperior|Rhyperior, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750839045
+|move|p2a: Lunala|Dazzling Gleam|p1b: Murasame|[spread] p1a,p1b
+|-supereffective|p1a: Mountain-Ghost
+|-damage|p1a: Mountain-Ghost|0 fnt
+|-damage|p1b: Murasame|27/100
+|faint|p1a: Mountain-Ghost
+|move|p2b: Rhyperior|Rock Slide|p1b: Murasame|[miss]
+|-miss|p2b: Rhyperior|p1b: Murasame
+|move|p1b: Murasame|Kowtow Cleave|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|15/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lunala|21/100|[from] Grassy Terrain
+|-heal|p1b: Murasame|32/100|[from] Grassy Terrain
+|-sideend|p2: WaveHunts|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750839066
+|-terastallize|p1b: Murasame|Flying
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Murasame
+|-supereffective|p1b: Murasame
+|-damage|p1b: Murasame|0 fnt
+|faint|p1b: Murasame
+|
+|win|WaveHunts
+|raw|Emopachi's rating: 1216 &rarr; <strong>1186</strong><br />(-30 for losing)
+|raw|WaveHunts's rating: 1149 &rarr; <strong>1179</strong><br />(+30 for winning)
+|l|☆Emopachi
+|player|p1|
+|l|☆WaveHunts
+|player|p2|

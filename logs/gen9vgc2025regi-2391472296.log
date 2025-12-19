@@ -1,0 +1,154 @@
+|j|☆SebaxE
+|j|☆fntzz
+|t:|1750860375
+|gametype|doubles
+|player|p1|SebaxE|unknown|1222
+|player|p2|fntzz|clown|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SebaxE)
+|
+|t:|1750860391
+|start
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-block|p2a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750860416
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: SebaxE|move: Tailwind
+|move|p2b: Weezing|Taunt|p1b: Incineroar
+|-start|p1b: Incineroar|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750860431
+|move|p1a: Murkrow|Taunt|p2b: Weezing
+|-start|p2b: Weezing|move: Taunt
+|move|p2a: Koraidon|Collision Course|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Weezing|Dazzling Gleam|p1a: Murkrow
+|-supereffective|p1a: Murkrow
+|-damage|p1a: Murkrow|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860442
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|3
+|
+|t:|1750860456
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Kyogre|Origin Pulse|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Zamazenta|31/100
+|-damage|p1b: Kyogre|91/100|[from] item: Life Orb
+|move|p1a: Murkrow|Foul Play|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|fntzz has 30 seconds left.
+|
+|t:|1750860482
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Murkrow|Thunder Wave|p2a: Koraidon
+|-status|p2a: Koraidon|par
+|move|p1b: Kyogre|Origin Pulse|p2a: Koraidon|[spread] 
+|-activate|p2a: Koraidon|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|cant|p2a: Koraidon|par
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: SebaxE|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750860500
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: SebaxE|move: Tailwind
+|move|p1b: Kyogre|Thunder|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-damage|p1b: Kyogre|81/100|[from] item: Life Orb
+|move|p2a: Koraidon|Collision Course|p1b: Kyogre
+|-damage|p1b: Kyogre|19/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750860517
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|6
+|
+|t:|1750860540
+|switch|p2a: Weezing|Weezing-Galar, L50, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Murkrow|Foul Play|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|91/100
+|move|p2b: Raging Bolt|Electroweb|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-supereffective|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|faint|p1a: Murkrow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750860549
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|7
+|-message|SebaxE forfeited.
+|
+|win|fntzz
+|raw|SebaxE's rating: 1222 &rarr; <strong>1195</strong><br />(-27 for losing)
+|raw|fntzz's rating: 1198 &rarr; <strong>1225</strong><br />(+27 for winning)
+|l|☆SebaxE
+|player|p1|

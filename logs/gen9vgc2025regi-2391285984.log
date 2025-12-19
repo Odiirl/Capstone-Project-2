@@ -1,0 +1,348 @@
+|j|☆Grain block
+|j|☆parrotboy
+|t:|1750828626
+|gametype|doubles
+|player|p1|Grain block|fisherman-gen4|1180
+|player|p2|parrotboy|hiker-gen4|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by parrotboy)
+|inactive|Grain block has 60 seconds left.
+|
+|t:|1750828668
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|Grain block has 30 seconds left.
+|inactive|Grain block has 20 seconds left.
+|inactive|Grain block has 15 seconds left.
+|
+|t:|1750828711
+|move|p2a: Gothitelle|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|97/100
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Calyrex|perish3|[silent]
+|-start|p1b: Rillaboom|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Rillaboom|U-turn|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|64/100
+|
+|t:|1750828724
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100|[from] U-turn
+|cant|p1a: Calyrex|flinch
+|
+|-heal|p1a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|71/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|77/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish3
+|-start|p1a: Calyrex|perish3
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|2
+|inactive|Grain block has 30 seconds left.
+|inactive|Grain block has 20 seconds left.
+|
+|t:|1750828761
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1b: Archaludon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Archaludon|Flash Cannon|p2b: Scream Tail
+|-supereffective|p2b: Scream Tail
+|-damage|p2b: Scream Tail|50/100
+|move|p1a: Calyrex|Bullet Seed|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|99/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|98/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|96/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|96/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|95/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-hitcount|p1b: Archaludon|5
+|
+|-heal|p2b: Scream Tail|56/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|83/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|89/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish2
+|-start|p1b: Archaludon|perish3
+|-start|p1a: Calyrex|perish2
+|-start|p2a: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|Grain block has 30 seconds left.
+|inactive|parrotboy has 30 seconds left.
+|inactive|Grain block has 20 seconds left.
+|inactive|Grain block has 15 seconds left.
+|
+|t:|1750828804
+|move|p2b: Scream Tail|Encore|p1b: Archaludon
+|-start|p1b: Archaludon|Encore
+|move|p1b: Archaludon|Flash Cannon|p2a: Gothitelle
+|-damage|p2a: Gothitelle|58/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Gothitelle|[spread] p2a,p2b
+|-damage|p2a: Gothitelle|11/100
+|-damage|p2b: Scream Tail|9/100
+|move|p2a: Gothitelle|Heal Pulse|p2b: Scream Tail
+|-heal|p2b: Scream Tail|59/100
+|
+|-heal|p2b: Scream Tail|65/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|17/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|23/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish1
+|-start|p1b: Archaludon|perish2
+|-start|p1a: Calyrex|perish1
+|-start|p2a: Gothitelle|perish1
+|upkeep
+|turn|4
+|inactive|Grain block has 30 seconds left.
+|inactive|parrotboy has 30 seconds left.
+|inactive|parrotboy has 20 seconds left.
+|
+|t:|1750828841
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p2b: Scream Tail|Disable|p1b: Archaludon
+|-start|p1b: Archaludon|Disable|Flash Cannon
+|cant|p1b: Archaludon|Disable|Flash Cannon
+|move|p1a: Calyrex|Glacial Lance|p2b: Scream Tail|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|58/100
+|-damage|p2b: Scream Tail|35/100
+|
+|-heal|p2b: Scream Tail|41/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|64/100|[from] Grassy Terrain
+|-start|p2b: Scream Tail|perish0
+|-start|p1b: Archaludon|perish1
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|-start|p1a: Calyrex|perish0
+|faint|p1a: Calyrex
+|upkeep
+|
+|t:|1750828866
+|switch|p2b: Gothitelle|Gothitelle, L50, M|23/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|5
+|inactive|Grain block has 30 seconds left.
+|
+|t:|1750828900
+|move|p2a: Incineroar|Fake Out|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|99/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Gothitelle|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|95/100
+|-damage|p2b: Gothitelle|7/100|[from] item: Rocky Helmet|[of] p1a: Rillaboom
+|cant|p1b: Archaludon|flinch
+|cant|p1a: Rillaboom|flinch
+|
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|70/100|[from] Grassy Terrain
+|-heal|p2b: Gothitelle|13/100|[from] Grassy Terrain
+|-heal|p2b: Gothitelle|19/100|[from] item: Leftovers
+|-end|p1b: Archaludon|Encore
+|-start|p1b: Archaludon|perish0
+|-fieldend|move: Grassy Terrain
+|faint|p1b: Archaludon
+|upkeep
+|
+|t:|1750828919
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|6
+|inactive|Grain block has 30 seconds left.
+|
+|t:|1750828953
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Grain block|move: Tailwind
+|move|p1a: Rillaboom|U-turn|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|91/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|67/100
+|-damage|p2a: Incineroar|53/100|[from] item: Rocky Helmet|[of] p1a: Rillaboom
+|-damage|p2a: Incineroar|42/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Grain block has 30 seconds left.
+|inactive|parrotboy has 30 seconds left.
+|inactive|parrotboy has 20 seconds left.
+|
+|t:|1750828993
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Pelipper|Hurricane|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Pelipper
+|-unboost|p1b: Pelipper|atk|1
+|-unboost|p1b: Pelipper|spa|1
+|
+|t:|1750829003
+|switch|p2a: Gothitelle|Gothitelle, L50, M|19/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Grain block has 30 seconds left.
+|
+|t:|1750829029
+|move|p2a: Gothitelle|Fake Out|p1b: Pelipper
+|-damage|p1b: Pelipper|92/100
+|move|p1b: Pelipper|Hurricane|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|26/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-damage|p1a: Rillaboom|59/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750829038
+|switch|p2b: Incineroar|Incineroar, L50, F|42/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|turn|9
+|inactive|Grain block has 30 seconds left.
+|inactive|Grain block has 20 seconds left.
+|inactive|Grain block has 15 seconds left.
+|inactive|Grain block has 10 seconds left.
+|
+|t:|1750829084
+|move|p2b: Incineroar|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|47/100
+|-damage|p2b: Incineroar|25/100|[from] item: Rocky Helmet|[of] p1a: Rillaboom
+|cant|p1a: Rillaboom|flinch
+|move|p1b: Pelipper|Surf|p2b: Incineroar|[spread] p1a,p2a,p2b
+|-supereffective|p1a: Rillaboom
+|-supereffective|p2b: Incineroar
+|-damage|p1a: Rillaboom|32/100
+|-damage|p2a: Gothitelle|25/100
+|-damage|p2b: Incineroar|12/100
+|move|p2a: Gothitelle|Heal Pulse|p2b: Incineroar
+|-heal|p2b: Incineroar|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|31/100|[from] item: Leftovers
+|-sideend|p1: Grain block|move: Tailwind
+|upkeep
+|turn|10
+|inactive|Grain block has 30 seconds left.
+|
+|t:|1750829114
+|move|p1a: Rillaboom|Wood Hammer|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|-damage|p1a: Rillaboom|23/100|[from] Recoil
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Grain block|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|43/100
+|-enditem|p1b: Pelipper|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|none
+|upkeep
+|turn|11
+|inactive|Grain block has 30 seconds left.
+|inactive|Grain block has 20 seconds left.
+|
+|t:|1750829144
+|-terastallize|p2b: Incineroar|Grass
+|move|p1a: Rillaboom|Wood Hammer|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|43/100
+|-damage|p1a: Rillaboom|17/100|[from] Recoil
+|move|p1b: Pelipper|Surf|p2b: Incineroar|[spread] p1a,p2b
+|-supereffective|p1a: Rillaboom
+|-resisted|p2b: Incineroar
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p2b: Incineroar|36/100
+|faint|p1a: Rillaboom
+|move|p2b: Incineroar|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|11/100
+|
+|upkeep
+|turn|12
+|inactive|Grain block has 20 seconds left this turn.
+|inactive|Grain block has 15 seconds left.
+|inactive|Grain block has 10 seconds left.
+|
+|t:|1750829159
+|move|p1b: Pelipper|Hurricane|p2b: Incineroar|[miss]
+|-miss|p1b: Pelipper|p2b: Incineroar
+|move|p2b: Incineroar|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|win|parrotboy
+|raw|Grain block's rating: 1180 &rarr; <strong>1161</strong><br />(-19 for losing)
+|raw|parrotboy's rating: 1262 &rarr; <strong>1281</strong><br />(+19 for winning)
+|c|☆Grain block|That was a ruff miss
+|c|☆Grain block|gg though
+|l|☆parrotboy
+|player|p2|

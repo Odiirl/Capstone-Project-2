@@ -1,0 +1,210 @@
+|j|☆Touchfirestone
+|j|☆futucam
+|t:|1750826468
+|gametype|doubles
+|player|p1|Touchfirestone|flannery|1125
+|player|p2|futucam|265|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Houndoom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Touchfirestone)
+|
+|t:|1750826515
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Ho-Oh|atk|1
+|turn|1
+|
+|t:|1750826530
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Touchfirestone|move: Tailwind
+|move|p2a: Incineroar|Parting Shot|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750826551
+|switch|p1b: Armarouge|Armarouge, L50, F|100/100
+|move|p2a: Incineroar|Parting Shot|p1a: Koraidon
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1a: Koraidon|spa|1
+|
+|t:|1750826561
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100|[from] Parting Shot
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Farigiraf|Hyper Voice|p1a: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Koraidon|74/100
+|-damage|p1b: Armarouge|71/100
+|-enditem|p2b: Farigiraf|Throat Spray
+|-boost|p2b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Koraidon|Flare Blitz|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|74/100
+|-damage|p1a: Koraidon|65/100|[from] Recoil
+|-damage|p1a: Koraidon|55/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750826580
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2b: Farigiraf|Helping Hand|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Terapagos|Dazzling Gleam|p1b: Armarouge|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-resisted|p1b: Armarouge
+|-damage|p1a: Ho-Oh|91/100
+|-damage|p1b: Armarouge|45/100
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750826600
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Ho-Oh|Life Dew|p1a: Ho-Oh|[spread] p1a,p1b
+|-heal|p1a: Ho-Oh|100/100
+|-heal|p1b: Armarouge|70/100
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|-enditem|p1b: Armarouge|Power Herb
+|-anim|p1b: Armarouge|Meteor Beam|p2b: Farigiraf
+|-damage|p2b: Farigiraf|37/100
+|move|p2b: Farigiraf|Hyper Voice|p1a: Ho-Oh|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|82/100
+|-damage|p1b: Armarouge|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|88/100|[from] item: Leftovers
+|-sideend|p1: Touchfirestone|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750826621
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|80/100
+|-status|p2a: Calyrex|brn
+|move|p1b: Armarouge|Armor Cannon|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|27/100 brn
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Ho-Oh|[spread] p1a,p1b
+|-resisted|p1b: Armarouge
+|-damage|p1a: Ho-Oh|60/100
+|-damage|p1b: Armarouge|6/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|none
+|-heal|p2a: Calyrex|33/100 brn|[from] item: Leftovers
+|-heal|p1a: Ho-Oh|66/100|[from] item: Leftovers
+|-damage|p2a: Calyrex|27/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|Touchfirestone has 30 seconds left.
+|inactive|futucam has 30 seconds left.
+|
+|t:|1750826649
+|move|p2a: Calyrex|Glacial Lance|p1b: Armarouge|[spread] p1a,p1b
+|-resisted|p1b: Armarouge
+|-damage|p1a: Ho-Oh|40/100
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1b: Armarouge
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Farigiraf|Psychic|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|5/100
+|-unboost|p1a: Ho-Oh|spd|1
+|move|p1a: Ho-Oh|Brave Bird|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-damage|p1a: Ho-Oh|0 fnt|[from] Recoil
+|faint|p1a: Ho-Oh
+|
+|upkeep
+|
+|t:|1750826665
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|74/100
+|switch|p1b: Houndoom|Houndoom, L50, F|100/100
+|switch|p1a: Koraidon|Koraidon, L50|55/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750826682
+|move|p2b: Farigiraf|Hyper Voice|p1b: Houndoom|[spread] p1a,p1b
+|-damage|p1a: Koraidon|15/100
+|-damage|p1b: Houndoom|54/100
+|move|p2a: Terapagos|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Houndoom|22/100
+|faint|p1a: Koraidon
+|move|p1b: Houndoom|Heat Wave|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|33/100
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826691
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Houndoom|atk|1
+|turn|8
+|-message|Touchfirestone forfeited.
+|
+|win|futucam
+|raw|Touchfirestone's rating: 1125 &rarr; <strong>1099</strong><br />(-26 for losing)
+|raw|futucam's rating: 1115 &rarr; <strong>1141</strong><br />(+26 for winning)
+|l|☆Touchfirestone
+|player|p1|
+|l|☆futucam
+|player|p2|

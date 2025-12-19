@@ -1,0 +1,168 @@
+|j|☆esael.bernal
+|j|☆JSNJS
+|t:|1750732596
+|gametype|doubles
+|player|p1|esael.bernal|170|1137
+|player|p2|JSNJS|102|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Zebstrika, L50, M|
+|poke|p2|Mudsdale, L50, F|
+|poke|p2|Spectrier, L50|
+|poke|p2|Glastrier, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+esael.bernal has agreed to open team sheets.
+|
+|t:|1750732651
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Spectrier|Spectrier, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750732668
+|move|p1b: Blaziken|Protect|p1b: Blaziken
+|-singleturn|p1b: Blaziken|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: esael.bernal|move: Tailwind
+|move|p2b: Spectrier|Psychic|p1b: Blaziken
+|-activate|p1b: Blaziken|move: Protect
+|move|p2a: Calyrex|Agility|p2a: Calyrex
+|-boost|p2a: Calyrex|spe|2
+|
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750732715
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Calyrex|Astral Barrage|p1b: Blaziken|[spread] p1a,p1b
+|-damage|p1a: Koraidon|71/100
+|-damage|p1b: Blaziken|10/100
+|move|p1b: Blaziken|Flare Blitz|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-damage|p1b: Blaziken|0 fnt|[from] Recoil
+|faint|p1b: Blaziken
+|move|p2b: Spectrier|Psychic|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750732731
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750732749
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Koraidon|Flare Blitz|p2b: Spectrier
+|-damage|p2b: Spectrier|33/100
+|-status|p2b: Spectrier|brn
+|-damage|p1a: Koraidon|11/100|[from] Recoil
+|move|p2b: Spectrier|Psychic|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2b: Spectrier|Grim Neigh|boost
+|-boost|p2b: Spectrier|spa|1
+|move|p1b: Terapagos|Tera Starstorm|p2b: Spectrier|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Spectrier|0 fnt
+|faint|p2b: Spectrier
+|-damage|p1b: Terapagos|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750732771
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|4
+|
+|t:|1750732782
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Whimsicott|Encore||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Encore|[of] p1a: Whimsicott
+|move|p2a: Calyrex|Psychic|p1b: Terapagos
+|-damage|p1b: Terapagos|38/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Farigiraf|62/100
+|faint|p2a: Calyrex
+|-damage|p1b: Terapagos|28/100|[from] item: Life Orb
+|
+|-sideend|p1: esael.bernal|move: Tailwind
+|upkeep
+|
+|t:|1750732788
+|switch|p2a: Mudsdale|Mudsdale, L50, F|100/100
+|turn|5
+|
+|t:|1750732804
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: esael.bernal|move: Tailwind
+|move|p1b: Terapagos|Tera Starstorm|p2a: Mudsdale|[spread] p2a,p2b
+|-damage|p2a: Mudsdale|70/100
+|-damage|p2b: Farigiraf|21/100
+|-enditem|p2b: Farigiraf|Aguav Berry|[eat]
+|-heal|p2b: Farigiraf|54/100|[from] item: Aguav Berry
+|-damage|p1b: Terapagos|18/100|[from] item: Life Orb
+|move|p2a: Mudsdale|Iron Head|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|44/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|6
+|
+|t:|1750732827
+|move|p1a: Whimsicott|Helping Hand|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Helping Hand|[of] p1a: Whimsicott
+|move|p2a: Mudsdale|Iron Head|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p2b: Farigiraf|Hyper Voice|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|JSNJS
+|raw|esael.bernal's rating: 1137 &rarr; <strong>1115</strong><br />(-22 for losing)
+|raw|JSNJS's rating: 1174 &rarr; <strong>1196</strong><br />(+22 for winning)
+|l|☆esael.bernal
+|player|p1|
+|l|☆JSNJS
+|player|p2|

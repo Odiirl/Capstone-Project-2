@@ -1,0 +1,140 @@
+|j|☆groundskin
+|j|☆Agent VGD
+|t:|1750841033
+|gametype|doubles
+|player|p1|groundskin|170|1441
+|player|p2|Agent VGD|camper|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Reshiram, L50|
+|teampreview|4
+|
+|t:|1750841055
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Reshiram|Reshiram, L50|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|turn|1
+|
+|t:|1750841073
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2b: Excadrill|High Horsepower|p1b: Urshifu
+|-damage|p1b: Urshifu|30/100
+|-damage|p2b: Excadrill|91/100|[from] item: Life Orb
+|move|p1b: Urshifu|Surging Strikes|p2b: Excadrill
+|-supereffective|p2b: Excadrill
+|-crit|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|-hitcount|p2: Excadrill|1
+|move|p2a: Reshiram|Dragon Pulse|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750841088
+|switch|p2b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p2b: Iron Bundle|Booster Energy
+|-activate|p2b: Iron Bundle|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Bundle|quarkdrivespe
+|turn|2
+|
+|t:|1750841106
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: groundskin|move: Tailwind
+|move|p2b: Iron Bundle|Freeze-Dry|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|31/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Iron Bundle|[spread] p2a,p2b
+|-resisted|p2b: Iron Bundle
+|-damage|p2a: Reshiram|54/100
+|-damage|p2b: Iron Bundle|84/100
+|move|p2a: Reshiram|Dragon Pulse|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750841117
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|
+|t:|1750841135
+|move|p2b: Iron Bundle|Protect|p2b: Iron Bundle
+|-singleturn|p2b: Iron Bundle|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Iron Bundle
+|-activate|p2b: Iron Bundle|move: Protect
+|move|p1b: Calyrex|High Horsepower|p2a: Reshiram
+|-supereffective|p2a: Reshiram
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750841144
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750841157
+|-terastallize|p1a: Miraidon|Fairy
+|-terastallize|p2a: Zamazenta|Ghost
+|move|p1a: Miraidon|Electro Drift|p2b: Iron Bundle
+|-supereffective|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|0 fnt
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|move|p2a: Zamazenta|Body Press|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|78/100
+|move|p1b: Calyrex|High Horsepower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|c|☆Agent VGD|Gg
+|
+|t:|1750841170
+|move|p1a: Miraidon|Electro Drift|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|groundskin
+|raw|groundskin's rating: 1441 &rarr; <strong>1456</strong><br />(+15 for winning)
+|raw|Agent VGD's rating: 1352 &rarr; <strong>1337</strong><br />(-15 for losing)
+|l|☆Agent VGD
+|player|p2|
+|l|☆groundskin
+|player|p1|

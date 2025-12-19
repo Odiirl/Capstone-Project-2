@@ -1,0 +1,164 @@
+|j|☆JScalsGames
+|j|☆DaWormGod
+|t:|1750873987
+|gametype|doubles
+|player|p1|JScalsGames|101|1058
+|player|p2|DaWormGod|n|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Goodra-Hisui, L50, F|
+|poke|p2|Ribombee, L50, M|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Breloom, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Gyarados, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JScalsGames)
+|
+|t:|1750874013
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Ceruledge|Ceruledge, L50, F|100/100
+|switch|p2b: Ribombee|Ribombee, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|-unboost|p2b: Ribombee|atk|1
+|turn|1
+|inactive|DaWormGod has 30 seconds left.
+|
+|t:|1750874043
+|move|p1a: Koraidon|Close Combat|p2b: Ribombee
+|-resisted|p2b: Ribombee
+|-damage|p2b: Ribombee|54/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Ribombee|Tailwind|p2b: Ribombee
+|-sidestart|p2: DaWormGod|move: Tailwind
+|move|p2a: Ceruledge|Psycho Cut|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|36/100
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-enditem|p2a: Ceruledge|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750874060
+|switch|p2a: Breloom|Breloom, L50, F|100/100
+|turn|2
+|
+|t:|1750874071
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Breloom|Mach Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|4/100
+|move|p2b: Ribombee|Dazzling Gleam|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750874080
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750874095
+|switch|p2b: Goodra|Goodra-Hisui, L50, F|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2a: Breloom|Mach Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|19/100
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|DaWormGod has 30 seconds left.
+|
+|t:|1750874121
+|switch|p2a: Ribombee|Ribombee, L50, M, shiny|54/100
+|-terastallize|p1a: Ursaluna|Ghost
+|-terastallize|p2b: Goodra|Dragon
+|move|p1a: Ursaluna|Facade|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|move|p1b: Lunala|Moonblast|p2b: Goodra
+|-supereffective|p2b: Goodra
+|-damage|p2b: Goodra|69/100
+|-unboost|p2b: Goodra|spa|1
+|move|p2b: Goodra|Dragon Pulse|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: DaWormGod|move: Tailwind
+|upkeep
+|
+|t:|1750874136
+|switch|p1a: Koraidon|Koraidon, L50|36/100
+|switch|p2a: Breloom|Breloom, L50, F|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750874149
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Goodra|Dragon Pulse|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Lunala|Moonblast|p2b: Goodra
+|-supereffective|p2b: Goodra
+|-damage|p2b: Goodra|41/100
+|-unboost|p2b: Goodra|spa|1
+|move|p2a: Breloom|Bullet Seed|p1b: Lunala
+|-damage|p1b: Lunala|87/100
+|-damage|p1b: Lunala|58/100
+|-damage|p1b: Lunala|30/100
+|-hitcount|p1b: Lunala|3
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750874173
+|move|p2b: Goodra|Dragon Pulse|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Lunala|Moonblast|p2b: Goodra
+|-supereffective|p2b: Goodra
+|-damage|p2b: Goodra|12/100
+|move|p2a: Breloom|Bullet Seed|p1b: Lunala
+|-damage|p1b: Lunala|1/100
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-hitcount|p1: Lunala|2
+|
+|win|DaWormGod
+|raw|JScalsGames's rating: 1058 &rarr; <strong>1040</strong><br />(-18 for losing)
+|raw|DaWormGod's rating: 1079 &rarr; <strong>1105</strong><br />(+26 for winning)
+|c|☆DaWormGod|gg bro

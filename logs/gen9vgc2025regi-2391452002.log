@@ -1,0 +1,113 @@
+|j|☆protodrake
+|j|☆superpowerpoke
+|t:|1750857940
+|gametype|doubles
+|player|p1|protodrake|101|1564
+|player|p2|superpowerpoke|265|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|
+|t:|1750857968
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750857983
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Iron Jugulis|Snarl|p1b: Indeedee|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Indeedee|move: Wide Guard
+|move|p2b: Kyogre|Water Spout|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Indeedee|move: Wide Guard
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750858017
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Kyogre
+|-damage|p2b: Kyogre|75/100
+|move|p2b: Kyogre|Water Spout|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1b: Urshifu
+|-damage|p1a: Lunala|73/100
+|-damage|p1b: Urshifu|45/100
+|move|p2a: Iron Jugulis|Hurricane|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750858057
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750858073
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Gastrodon|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Gastrodon|41/100
+|-damage|p2b: Kyogre|44/100
+|move|p1a: Lunala|Expanding Force|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p2b: Kyogre|15/100
+|faint|p2a: Gastrodon
+|move|p2b: Kyogre|Surf|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Lunala|34/100
+|-damage|p1b: Calyrex|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750858091
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|-message|superpowerpoke forfeited.
+|
+|win|protodrake
+|raw|protodrake's rating: 1564 &rarr; <strong>1588</strong><br />(+24 for winning)
+|raw|superpowerpoke's rating: 1633 &rarr; <strong>1609</strong><br />(-24 for losing)
+|l|☆superpowerpoke
+|player|p2|
+|l|☆protodrake
+|player|p1|

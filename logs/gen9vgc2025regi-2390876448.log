@@ -1,0 +1,147 @@
+|j|☆BraneFX
+|j|☆Aabraao
+|t:|1750778425
+|gametype|doubles
+|player|p1|BraneFX|blackbelt-gen4dp|1543
+|player|p2|Aabraao|hilbert|1569
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aabraao)
+|inactive|BraneFX also wants the timer to be on.
+|
+|t:|1750778448
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750778458
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Koraidon|Collision Course|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p1b: Weezing|Taunt|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778463
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|turn|2
+|
+|t:|1750778469
+|-terastallize|p2a: Calyrex|Ground
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|89/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Weezing|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2a: Calyrex|High Horsepower|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778475
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|turn|3
+|
+|t:|1750778490
+|move|p1a: Walking Wake|Hydro Steam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|21/100
+|move|p1b: Weezing|Dazzling Gleam|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|8/100
+|-damage|p2b: Incineroar|81/100
+|move|p2b: Incineroar|Knock Off|p1a: Walking Wake
+|-damage|p1a: Walking Wake|41/100
+|-enditem|p1a: Walking Wake|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Calyrex|High Horsepower|p1b: Weezing
+|-supereffective|p1b: Weezing
+|-crit|p1b: Weezing
+|-damage|p1b: Weezing|0 fnt
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778494
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750778499
+|move|p1a: Walking Wake|Hydro Steam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Calyrex|Astral Barrage|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778501
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|turn|5
+|
+|t:|1750778505
+|move|p1a: Walking Wake|Hydro Steam|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|win|BraneFX
+|raw|BraneFX's rating: 1543 &rarr; <strong>1564</strong><br />(+21 for winning)
+|raw|Aabraao's rating: 1569 &rarr; <strong>1548</strong><br />(-21 for losing)
+|l|☆Aabraao
+|player|p2|
+|c|☆BraneFX|ggwp
+|l|☆BraneFX
+|player|p1|

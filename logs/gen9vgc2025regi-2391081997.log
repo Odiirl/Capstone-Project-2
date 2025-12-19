@@ -1,0 +1,122 @@
+|j|☆pytt03
+|j|☆sneaslerbeliever
+|t:|1750800347
+|gametype|doubles
+|player|p1|pytt03|clown|1301
+|player|p2|sneaslerbeliever|266|1278
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Empoleon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750800378
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sceptile|Sceptile, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750800405
+|move|p2b: Sceptile|Grass Pledge|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|84/100
+|move|p1b: Miraidon|Volt Switch|p2b: Sceptile
+|-resisted|p2b: Sceptile
+|-crit|p2b: Sceptile
+|-damage|p2b: Sceptile|32/100
+|
+|t:|1750800418
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Farigiraf|Foul Play|p2b: Sceptile
+|-damage|p2b: Sceptile|5/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750800452
+|move|p2b: Sceptile|Protect|p2b: Sceptile
+|-singleturn|p2b: Sceptile|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Sceptile|move: Protect
+|-damage|p2a: Indeedee|39/100
+|move|p1a: Farigiraf|Foul Play|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|19/100
+|move|p2a: Indeedee|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|77/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750800484
+|switch|p1a: Miraidon|Miraidon, L50|84/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Calyrex|Glacial Lance|p2b: Sceptile|[spread] p2a,p2b
+|-supereffective|p2b: Sceptile
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sceptile|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Sceptile
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|
+|upkeep
+|
+|t:|1750800491
+|switch|p2a: Empoleon|Empoleon, L50, F|100/100
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|turn|4
+|
+|t:|1750800517
+|-terastallize|p1b: Calyrex|Fire
+|-terastallize|p2b: Delphox|Fire
+|move|p1b: Calyrex|High Horsepower|p2b: Delphox
+|-supereffective|p2b: Delphox
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Empoleon|Water Pledge|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|22/100
+|move|p1a: Miraidon|Volt Switch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|win|pytt03
+|raw|pytt03's rating: 1301 &rarr; <strong>1320</strong><br />(+19 for winning)
+|raw|sneaslerbeliever's rating: 1278 &rarr; <strong>1255</strong><br />(-23 for losing)
+|l|☆sneaslerbeliever
+|player|p2|
+|l|☆pytt03
+|player|p1|

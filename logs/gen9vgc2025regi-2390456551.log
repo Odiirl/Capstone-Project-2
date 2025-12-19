@@ -1,0 +1,242 @@
+|j|☆NativeEel9
+|j|☆crouton monster
+|t:|1750715435
+|gametype|doubles
+|player|p1|NativeEel9|101|1091
+|player|p2|crouton monster|170|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Zapdos, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750715480
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|1
+|
+|t:|1750715529
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Tornadus
+|-activate|p2b: Tornadus|move: Protect
+|move|p1a: Zamazenta|Heavy Slam|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750715555
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Zamazenta|[spread] p1b
+|-activate|p1a: Zamazenta|move: Protect
+|-damage|p1b: Incineroar|74/100
+|-unboost|p1b: Incineroar|spe|1
+|move|p1b: Incineroar|Flare Blitz|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|87/100
+|-damage|p1b: Incineroar|70/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750715581
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: crouton monster|move: Tailwind
+|move|p2a: Kyogre|Hydro Pump|p1a: Zamazenta
+|-damage|p1a: Zamazenta|7/100
+|move|p1b: Incineroar|Parting Shot|p2a: Kyogre
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2a: Kyogre|spa|1
+|
+|t:|1750715590
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750715613
+|switch|p1a: Zapdos|Zapdos, L50|100/100
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p2a: Kyogre|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|move|p1b: Koraidon|Solar Beam||[still]
+|-prepare|p1b: Koraidon|Solar Beam
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750715640
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|7/100
+|turn|5
+|
+|t:|1750715660
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Koraidon|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Koraidon|move: Wide Guard
+|move|p2a: Kyogre|Origin Pulse|p1a: Zamazenta|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Koraidon|move: Wide Guard
+|move|p1b: Koraidon|Solar Beam|p2a: Kyogre|[from] lockedmove
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|63/100
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750715686
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Zamazenta|Protect||[still]
+|-fail|p1a: Zamazenta
+|move|p2a: Kyogre|Hydro Pump|p1a: Zamazenta|[miss]
+|-miss|p2a: Kyogre|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|69/100|[from] Grassy Terrain
+|-heal|p1b: Koraidon|96/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|13/100|[from] Grassy Terrain
+|-sideend|p2: crouton monster|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750715711
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Rillaboom|Grassy Glide|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p1b: Koraidon|Flare Blitz|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|49/100
+|-damage|p1b: Koraidon|78/100|[from] Recoil
+|-damage|p1b: Koraidon|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Koraidon|74/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750715725
+|switch|p1a: Incineroar|Incineroar, L50, F|70/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|8
+|
+|t:|1750715740
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p2b: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Rillaboom
+|move|p1a: Incineroar|Fake Out|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1b: Koraidon|54/100|[from] Recoil
+|-damage|p1b: Koraidon|44/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1b: Koraidon|50/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|76/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750715763
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|turn|9
+|
+|t:|1750715779
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: crouton monster|move: Tailwind
+|move|p2a: Zacian|Play Rough|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Incineroar|Flare Blitz|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|18/100
+|-damage|p1a: Incineroar|51/100|[from] Recoil
+|
+|-heal|p2a: Zacian|24/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|57/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1750715797
+|move|p2a: Zacian|Behemoth Blade|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|43/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|68/100|[from] item: Sitrus Berry
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Incineroar
+|-damage|p1a: Incineroar|31/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|-damage|p1a: Incineroar|24/100|[from] Recoil
+|
+|-heal|p1a: Incineroar|30/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750715814
+|switch|p2a: Kyogre|Kyogre, L50|69/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|11
+|c|☆NativeEel9|gg
+|-message|NativeEel9 forfeited.
+|
+|win|crouton monster
+|raw|NativeEel9's rating: 1091 &rarr; <strong>1071</strong><br />(-20 for losing)
+|raw|crouton monster's rating: 1147 &rarr; <strong>1168</strong><br />(+21 for winning)

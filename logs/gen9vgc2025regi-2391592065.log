@@ -1,0 +1,249 @@
+|j|☆Crawsome
+|j|☆pezelly_313
+|t:|1750873575
+|gametype|doubles
+|player|p1|Crawsome|1|1114
+|player|p2|pezelly_313|101|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Toedscruel, L50, M|
+|poke|p2|Slaking, L50, F|
+|teampreview|4
+|
+|t:|1750873609
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2b: Slaking|Slaking, L50, F|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750873641
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Slaking
+|-damage|p2b: Slaking|92/100
+|cant|p2b: Slaking|flinch
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750873668
+|move|p2b: Slaking|Drain Punch|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|48/100
+|-heal|p2b: Slaking|100/100|[from] drain|[of] p1b: Terapagos
+|move|p1a: Rillaboom|High Horsepower|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|53/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2a: Weezing|Taunt|p1b: Terapagos
+|-start|p1b: Terapagos|move: Taunt
+|
+|-heal|p1b: Terapagos|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|-activate|p2b: Slaking|item: Quick Claw
+|
+|t:|1750873699
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|66/100|[silent]
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p2b: Slaking|Drain Punch|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|28/100
+|move|p1a: Rillaboom|High Horsepower|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|move|p1b: Terapagos|Tera Starstorm|p2a: Weezing|[spread] p2b
+|-activate|p2a: Weezing|move: Protect
+|-damage|p2b: Slaking|33/100
+|
+|-heal|p1b: Terapagos|34/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-activate|p2b: Slaking|item: Quick Claw
+|
+|t:|1750873733
+|move|p2b: Slaking|Drain Punch|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|-heal|p2b: Slaking|49/100|[from] drain|[of] p1b: Terapagos
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p1a: Rillaboom|Wood Hammer|p2b: Slaking
+|-damage|p2b: Slaking|8/100
+|-damage|p1a: Rillaboom|82/100|[from] Recoil
+|move|p2a: Weezing|Poison Gas|p1a: Rillaboom
+|-status|p1a: Rillaboom|psn
+|
+|-damage|p1a: Rillaboom|70/100 psn|[from] psn
+|upkeep
+|
+|t:|1750873748
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|turn|5
+|
+|t:|1750873780
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p2b: Slaking|Drain Punch|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|78/100
+|-heal|p2b: Slaking|16/100|[from] drain|[of] p1b: Zamazenta
+|move|p1a: Rillaboom|Wood Hammer|p2b: Slaking
+|-damage|p2b: Slaking|0 fnt
+|faint|p2b: Slaking
+|-damage|p1a: Rillaboom|63/100 psn|[from] Recoil
+|move|p2a: Weezing|Strange Steam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|57/100
+|
+|-damage|p1a: Rillaboom|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1750873792
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|6
+|
+|t:|1750873811
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-terastallize|p2b: Archaludon|Electric
+|move|p1b: Zamazenta|Body Press|p2b: Archaludon
+|-damage|p2b: Archaludon|18/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Rillaboom|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|57/100 psn|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|45/100 psn|[from] psn
+|upkeep
+|
+|t:|1750873837
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M|53/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|turn|7
+|
+|t:|1750873852
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1b: Urshifu|Surging Strikes|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Weezing|Strange Steam|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|31/100
+|-start|p1b: Urshifu|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Urshifu|36/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|50/100 psn|[from] Grassy Terrain
+|-heal|p2b: Weezing|59/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|38/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750873877
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|27/100
+|-activate|p1b: Urshifu|confusion
+|move|p1b: Urshifu|Surging Strikes|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|11/100
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-hitcount|p2: Kyogre|2
+|move|p2b: Weezing|Strange Steam|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|44/100 psn|[from] Grassy Terrain
+|-heal|p2b: Weezing|64/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|32/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750873904
+|move|p1a: Rillaboom|High Horsepower|p2b: Weezing
+|-supereffective|p2b: Weezing
+|-damage|p2b: Weezing|23/100
+|-enditem|p2b: Weezing|Sitrus Berry|[eat]
+|-heal|p2b: Weezing|48/100|[from] item: Sitrus Berry
+|move|p2b: Weezing|Strange Steam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|13/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|19/100 psn|[from] Grassy Terrain
+|-heal|p2b: Weezing|53/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|7/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1750873917
+|move|p2b: Weezing|Protect|p2b: Weezing
+|-singleturn|p2b: Weezing|Protect
+|move|p1a: Rillaboom|High Horsepower|p2b: Weezing
+|-activate|p2b: Weezing|move: Protect
+|
+|-weather|none
+|-heal|p1a: Rillaboom|13/100 psn|[from] Grassy Terrain
+|-heal|p2b: Weezing|59/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|0 fnt|[from] psn
+|faint|p1a: Rillaboom
+|
+|win|pezelly_313
+|raw|Crawsome's rating: 1114 &rarr; <strong>1084</strong><br />(-30 for losing)
+|raw|pezelly_313's rating: 1050 &rarr; <strong>1088</strong><br />(+38 for winning)
+|c|☆pezelly_313|GG
+|l|☆Crawsome
+|player|p1|
+|l|☆pezelly_313
+|player|p2|

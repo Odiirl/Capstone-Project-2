@@ -1,0 +1,207 @@
+|j|☆Aozora Kazama青空風間
+|j|☆QuagsireJelly
+|t:|1750830407
+|gametype|doubles
+|player|p1|Aozora Kazama青空風間|n|1282
+|player|p2|QuagsireJelly|266|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Muk-Alola, L50, M|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aozora Kazama青空風間)
+|
+|t:|1750830428
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p1b: Yare yare|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Muk|Muk-Alola, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Yare yare
+|-enditem|p1b: Yare yare|Psychic Seed
+|-boost|p1b: Yare yare|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750830444
+|move|p2a: Smeargle|Spore|p1a: Hatterene
+|move|p1a: Hatterene|Spore|p2a: Smeargle|[from] ability: Magic Bounce
+|-status|p2a: Smeargle|slp|[from] move: Spore
+|move|p1b: Yare yare|Alluring Voice|p2b: Muk
+|-damage|p2b: Muk|86/100
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|move|p1a: Hatterene|Magic Powder|p2b: Muk
+|-start|p2b: Muk|typechange|Psychic
+|
+|-heal|p2b: Muk|92/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750830462
+|cant|p2a: Smeargle|slp
+|move|p1b: Yare yare|Alluring Voice|p2b: Muk|[miss]
+|-miss|p1b: Yare yare|p2b: Muk
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|move|p1a: Hatterene|Expanding Force|p2b: Muk|[spread] p2a,p2b
+|-resisted|p2b: Muk
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100 slp
+|-damage|p2b: Muk|64/100
+|
+|-heal|p2b: Muk|70/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750830480
+|cant|p2a: Smeargle|slp
+|move|p1b: Yare yare|Alluring Voice|p2b: Muk|[miss]
+|-miss|p1b: Yare yare|p2b: Muk
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Muk|[spread] p2a
+|-miss|p1a: Hatterene|p2b: Muk
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-ability|p2b: Muk|Moody|[from] ability: Power of Alchemy|[of] p2a: Smeargle
+|
+|-heal|p2b: Muk|76/100|[from] item: Leftovers
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|def|2
+|-unboost|p2b: Muk|spa|1
+|upkeep
+|
+|t:|1750830489
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750830497
+|move|p1b: Yare yare|Helping Hand|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Helping Hand|[of] p1b: Yare yare
+|move|p2b: Muk|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|60/100
+|move|p2a: Calyrex|Psych Up|p2b: Muk
+|-copyboost|p2a: Calyrex|p2b: Muk|[from] move: Psych Up
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Muk|[spread] p2b
+|-miss|p1a: Hatterene|p2a: Calyrex
+|-damage|p2b: Muk|33/100
+|
+|-heal|p2b: Muk|39/100|[from] item: Leftovers
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|spa|2
+|-unboost|p2b: Muk|def|1
+|upkeep
+|turn|5
+|
+|t:|1750830517
+|move|p2b: Muk|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Yare yare|[spread] p1a,p1b
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p1b: Yare yare|52/100
+|faint|p1a: Hatterene
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Yare yare|Trick Room|p1b: Yare yare
+|-fieldstart|move: Trick Room|[of] p1b: Yare yare
+|
+|-heal|p2b: Muk|45/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|spa|2
+|-unboost|p2b: Muk|def|1
+|upkeep
+|
+|t:|1750830525
+|switch|p1a: Honda koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Honda koraidon
+|-activate|p1a: Honda koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750830538
+|-terastallize|p1a: Honda koraidon|Fire
+|move|p2a: Calyrex|Glacial Lance|p1b: Yare yare|[spread] p1a,p1b
+|-resisted|p1a: Honda koraidon
+|-damage|p1a: Honda koraidon|68/100
+|-damage|p1b: Yare yare|0 fnt
+|faint|p1b: Yare yare
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Muk|Knock Off|p1a: Honda koraidon
+|-crit|p1a: Honda koraidon
+|-damage|p1a: Honda koraidon|35/100
+|-enditem|p1a: Honda koraidon|Life Orb|[from] move: Knock Off|[of] p2b: Muk
+|move|p1a: Honda koraidon|Flare Blitz|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|39/100
+|-enditem|p2a: Calyrex|Sitrus Berry|[eat]
+|-heal|p2a: Calyrex|63/100|[from] item: Sitrus Berry
+|-damage|p1a: Honda koraidon|12/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Muk|51/100|[from] item: Leftovers
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|spe|2
+|-unboost|p2b: Muk|atk|1
+|upkeep
+|
+|t:|1750830543
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750830551
+|move|p1a: Honda koraidon|Protect|p1a: Honda koraidon
+|-singleturn|p1a: Honda koraidon|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Honda koraidon|[spread] p1b
+|-activate|p1a: Honda koraidon|move: Protect
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Muk|Knock Off|p1a: Honda koraidon
+|-activate|p1a: Honda koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Muk|57/100|[from] item: Leftovers
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|def|2
+|-unboost|p2b: Muk|spa|1
+|upkeep
+|turn|8
+|-message|Aozora Kazama青空風間 forfeited.
+|
+|win|QuagsireJelly
+|raw|Aozora Kazama青空風間's rating: 1282 &rarr; <strong>1247</strong><br />(-35 for losing)
+|raw|QuagsireJelly's rating: 1143 &rarr; <strong>1178</strong><br />(+35 for winning)
+|l|☆Aozora Kazama青空風間
+|player|p1|
+|l|☆QuagsireJelly
+|player|p2|

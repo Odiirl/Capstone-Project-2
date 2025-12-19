@@ -1,0 +1,239 @@
+|j|☆Mage26
+|j|☆ComputerYui
+|t:|1750814949
+|gametype|doubles
+|player|p1|Mage26|gambler|1553
+|player|p2|ComputerYui|artist-gen4|1544
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Palkia, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mage26)
+|
+|t:|1750814989
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisdef
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750815008
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-weather|none
+|-end|p2a: Brute Bonnet|Protosynthesis
+|move|p1b: Smeargle|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|95/100
+|cant|p2b: Koraidon|flinch
+|move|p1a: Terapagos|Tera Starstorm|p2a: Brute Bonnet|[spread] p2a,p2b
+|-damage|p2a: Brute Bonnet|45/100
+|-damage|p2b: Koraidon|28/100
+|move|p2a: Brute Bonnet|Spore|p1a: Terapagos
+|-status|p1a: Terapagos|slp|[from] move: Spore
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|2
+|inactive|ComputerYui has 30 seconds left.
+|inactive|ComputerYui has 20 seconds left.
+|inactive|ComputerYui has 15 seconds left.
+|inactive|ComputerYui has 10 seconds left.
+|inactive|ComputerYui has 5 seconds left.
+|
+|t:|1750815058
+|move|p2b: Koraidon|U-turn|p1b: Smeargle
+|-damage|p1b: Smeargle|55/100
+|
+|t:|1750815061
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Brute Bonnet|Psychic Seed
+|-boost|p2a: Brute Bonnet|spd|1|[from] item: Psychic Seed
+|move|p1b: Smeargle|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|cant|p1a: Terapagos|slp
+|move|p2a: Brute Bonnet|Spore|p1b: Smeargle
+|-status|p1b: Smeargle|slp|[from] move: Spore
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750815083
+|cant|p2b: Indeedee|slp
+|cant|p1b: Smeargle|slp
+|-curestatus|p1a: Terapagos|slp|[msg]
+|move|p1a: Terapagos|Tera Starstorm|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Brute Bonnet|7/100
+|-damage|p2b: Indeedee|51/100 slp
+|-enditem|p2b: Indeedee|Eject Button
+|
+|t:|1750815094
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|move|p2a: Brute Bonnet|Body Press|p1b: Smeargle
+|-supereffective|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|upkeep
+|
+|t:|1750815103
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|inactive|ComputerYui has 30 seconds left.
+|inactive|ComputerYui has 20 seconds left.
+|
+|t:|1750815141
+|-terastallize|p2b: Armarouge|Stellar
+|move|p2a: Brute Bonnet|Sucker Punch|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|41/100
+|-ability|p2b: Armarouge|Weak Armor|boost
+|-unboost|p2b: Armarouge|def|1
+|-boost|p2b: Armarouge|spe|2
+|-enditem|p2b: Armarouge|Weakness Policy
+|-boost|p2b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p2b: Armarouge|Expanding Force|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Terapagos|0 fnt
+|-damage|p1b: Calyrex|14/100
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|
+|upkeep
+|
+|t:|1750815158
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|turn|5
+|inactive|ComputerYui has 30 seconds left.
+|inactive|ComputerYui has 20 seconds left.
+|inactive|ComputerYui has 15 seconds left.
+|
+|t:|1750815201
+|move|p2b: Armarouge|Endure|p2b: Armarouge
+|-singleturn|p2b: Armarouge|move: Endure
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Mage26|move: Tailwind
+|move|p1b: Calyrex|Astral Barrage|p2a: Brute Bonnet|[spread] p2a,p2b
+|-resisted|p2a: Brute Bonnet
+|-supereffective|p2b: Armarouge
+|-damage|p2a: Brute Bonnet|0 fnt
+|-activate|p2b: Armarouge|move: Endure
+|-damage|p2b: Armarouge|1/100
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750815218
+|switch|p2a: Koraidon|Koraidon, L50|28/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750815246
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|51/100 slp
+|move|p2b: Armarouge|Endure|p2b: Armarouge
+|-singleturn|p2b: Armarouge|move: Endure
+|move|p1b: Calyrex|Astral Barrage|p2b: Armarouge|[spread] p2b
+|-immune|p2a: Indeedee
+|-supereffective|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Endure
+|-damage|p2b: Armarouge|1/100
+|-damage|p1b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p1b: Calyrex
+|move|p1a: Whimsicott|Moonblast|p2b: Armarouge
+|-resisted|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Endure
+|-damage|p2b: Armarouge|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750815276
+|cant|p2a: Indeedee|slp
+|move|p1a: Whimsicott|Moonblast|p2b: Armarouge
+|-resisted|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815286
+|switch|p2b: Koraidon|Koraidon, L50|28/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|8
+|
+|t:|1750815298
+|cant|p2a: Indeedee|slp
+|move|p1a: Whimsicott|Moonblast|p2a: Indeedee
+|-damage|p2a: Indeedee|27/100 slp
+|move|p2b: Koraidon|Collision Course|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Mage26|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1750815314
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Helping Hand|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Koraidon|Collision Course|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|win|ComputerYui
+|raw|Mage26's rating: 1553 &rarr; <strong>1532</strong><br />(-21 for losing)
+|raw|ComputerYui's rating: 1544 &rarr; <strong>1565</strong><br />(+21 for winning)
+|l|☆Mage26
+|player|p1|
+|l|☆ComputerYui
+|player|p2|

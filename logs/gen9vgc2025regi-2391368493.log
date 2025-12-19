@@ -1,0 +1,220 @@
+|j|☆duragon312
+|j|☆Light_Sky.L
+|t:|1750844842
+|gametype|doubles
+|player|p1|duragon312|101|1317
+|player|p2|Light_Sky.L|101|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rhyperior, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Light_Sky.L)
+|
+|t:|1750844864
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1750844883
+|move|p2b: Incineroar|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|93/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|Reflect
+|move|p1b: Amoonguss|Spore|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Spore
+|cant|p1a: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750844904
+|switch|p1b: Rhyperior|Rhyperior, L50, M|100/100
+|cant|p2a: Grimmsnarl|slp
+|move|p2b: Incineroar|Will-O-Wisp|p1a: Calyrex
+|-status|p1a: Calyrex|brn
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-damage|p1a: Calyrex|87/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750844921
+|move|p1b: Rhyperior|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|16/100
+|-damage|p1b: Rhyperior|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2a: Grimmsnarl|76/100 slp
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|cant|p2a: Grimmsnarl|slp
+|
+|-damage|p1a: Calyrex|81/100 brn|[from] brn
+|upkeep
+|
+|t:|1750844934
+|switch|p2b: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|turn|4
+|
+|t:|1750844948
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Wo-Chien|[spread] p2a
+|-activate|p2b: Wo-Chien|move: Protect
+|-damage|p2a: Grimmsnarl|50/100 slp
+|cant|p2a: Grimmsnarl|slp
+|
+|-damage|p1a: Calyrex|75/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750844968
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-terastallize|p1a: Calyrex|Grass
+|move|p1b: Amoonguss|Pollen Puff|p2b: Wo-Chien
+|-supereffective|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|46/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-supereffective|p2b: Wo-Chien
+|-damage|p2a: Miraidon|56/100
+|-damage|p2b: Wo-Chien|12/100
+|move|p2b: Wo-Chien|Leech Seed|p1a: Calyrex
+|-immune|p1a: Calyrex
+|
+|-heal|p2b: Wo-Chien|18/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|70/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|duragon312 has 30 seconds left.
+|
+|t:|1750844994
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Amoonguss|Pollen Puff|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Wo-Chien|[spread] 
+|-activate|p2a: Miraidon|move: Protect
+|-activate|p2b: Wo-Chien|move: Protect
+|
+|-heal|p2b: Wo-Chien|24/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|64/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750845019
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Miraidon|Dragon Pulse|p1b: Amoonguss
+|-damage|p1b: Amoonguss|44/100
+|move|p2b: Wo-Chien|Foul Play|p1a: Calyrex
+|-damage|p1a: Calyrex|10/100 brn
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p2b: Wo-Chien|31/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|4/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750845033
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Amoonguss|Pollen Puff|p1a: Calyrex
+|-heal|p1a: Calyrex|54/100 brn
+|move|p1a: Calyrex|Glacial Lance|p2b: Wo-Chien|[spread] 
+|-activate|p2a: Miraidon|move: Protect
+|-activate|p2b: Wo-Chien|move: Protect
+|
+|-heal|p2b: Wo-Chien|37/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|48/100 brn|[from] brn
+|-sideend|p2: Light_Sky.L|Reflect
+|upkeep
+|turn|9
+|
+|t:|1750845050
+|-terastallize|p2a: Miraidon|Electric
+|move|p1b: Amoonguss|Pollen Puff|p1a: Calyrex
+|-heal|p1a: Calyrex|98/100 brn
+|move|p1a: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Wo-Chien
+|-damage|p2a: Miraidon|23/100
+|-damage|p2b: Wo-Chien|0 fnt
+|faint|p2b: Wo-Chien
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|
+|-damage|p1a: Calyrex|92/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750845064
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|50/100 slp
+|turn|10
+|
+|t:|1750845070
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|-curestatus|p2b: Grimmsnarl|slp|[msg]
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|Reflect
+|move|p1a: Calyrex|Glacial Lance|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Grimmsnarl|3/100
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-damage|p1a: Calyrex|86/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|Light_Sky.L forfeited.
+|
+|win|duragon312
+|raw|duragon312's rating: 1317 &rarr; <strong>1340</strong><br />(+23 for winning)
+|raw|Light_Sky.L's rating: 1372 &rarr; <strong>1349</strong><br />(-23 for losing)
+|l|☆Light_Sky.L
+|player|p2|
+|l|☆duragon312
+|player|p1|

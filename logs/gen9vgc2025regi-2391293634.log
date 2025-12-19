@@ -1,0 +1,147 @@
+|j|☆Honored1
+|j|☆Auragami
+|t:|1750830092
+|gametype|doubles
+|player|p1|Honored1|silver|
+|player|p2|Auragami|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Kyurem-Black, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Thundurus, L50, M|
+|teampreview|4
+|
+|t:|1750830166
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750830200
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Honored1|Reflect
+|move|p2a: Annihilape|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|85/100
+|
+|t:|1750830208
+|switch|p2a: Thundurus|Thundurus, L50, M|100/100|[from] U-turn
+|move|p1a: Calyrex|Glacial Lance|p2a: Thundurus|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-heal|p1a: Calyrex|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750830223
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|2
+|
+|t:|1750830239
+|-terastallize|p2a: Annihilape|Fighting
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Honored1|move: Light Screen
+|move|p2a: Annihilape|Shadow Claw|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|67/100
+|move|p2b: Ogerpon|Horn Leech|p1a: Calyrex
+|-damage|p1a: Calyrex|49/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Annihilape|20/100
+|-damage|p2b: Ogerpon|12/100
+|
+|-heal|p1a: Calyrex|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750830267
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Annihilape|[miss]
+|-miss|p1b: Grimmsnarl|p2a: Annihilape
+|move|p2a: Annihilape|Shadow Claw|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|33/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Grimmsnarl|[anim] Ivy Cudgel Water
+|-crit|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|8/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750830287
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1a: Calyrex|Glacial Lance|p2a: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2a: Annihilape
+|faint|p2b: Ogerpon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|move|p1b: Grimmsnarl|Spirit Break|p2: Annihilape|[notarget]
+|-fail|p1b: Grimmsnarl
+|
+|-heal|p1a: Calyrex|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750830301
+|switch|p2b: Kyurem|Kyurem-Black, L50|100/100
+|-ability|p2b: Kyurem|Teravolt
+|turn|5
+|
+|t:|1750830313
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Kyurem
+|-status|p2b: Kyurem|par
+|move|p1a: Calyrex|Leech Seed|p2b: Kyurem
+|-start|p2b: Kyurem|move: Leech Seed
+|move|p2b: Kyurem|Icicle Spear|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|39/100
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|36/100
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|32/100
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|29/100
+|-hitcount|p1a: Calyrex|5
+|
+|-heal|p1a: Calyrex|35/100|[from] item: Leftovers
+|-damage|p2b: Kyurem|88/100 par|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|47/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1750830333
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyurem
+|-damage|p2b: Kyurem|0 fnt
+|faint|p2b: Kyurem
+|
+|win|Honored1

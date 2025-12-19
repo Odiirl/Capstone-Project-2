@@ -1,0 +1,286 @@
+|j|☆NinoDungeon
+|j|☆iggn
+|t:|1750849686
+|gametype|doubles
+|player|p1|NinoDungeon|101|1133
+|player|p2|iggn|1|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Thundurus-Therian, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Garganacl, L50, M|
+|teampreview|4
+|
+|t:|1750849704
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Thundurus|Thundurus-Therian, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iggn)
+|
+|t:|1750849734
+|-terastallize|p1b: Miraidon|Electric
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: NinoDungeon|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Thundurus|Electroweb|p1b: Miraidon|[spread] p1b
+|-miss|p2b: Thundurus|p1a: Whimsicott
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|92/100
+|-unboost|p1b: Miraidon|spe|1
+|
+|upkeep
+|turn|2
+|inactive|iggn has 30 seconds left.
+|
+|t:|1750849761
+|move|p1a: Whimsicott|Encore|p2a: Miraidon
+|-start|p2a: Miraidon|Encore
+|move|p1b: Miraidon|Volt Switch|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|67/100
+|
+|t:|1750849767
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Thundurus|atk|1
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p2b: Thundurus|Electroweb|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|83/100
+|-damage|p1b: Incineroar|89/100
+|-unboost|p1b: Incineroar|spe|1
+|
+|upkeep
+|turn|3
+|inactive|iggn has 30 seconds left.
+|
+|t:|1750849795
+|switch|p2a: Garganacl|Garganacl, L50, M|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|71/100
+|move|p2b: Thundurus|Electroweb|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|67/100
+|-damage|p1b: Incineroar|77/100
+|-unboost|p1b: Incineroar|spe|1
+|move|p1b: Incineroar|Snarl|p2a: Garganacl|[spread] p2a,p2b
+|-damage|p2a: Garganacl|63/100
+|-damage|p2b: Thundurus|89/100
+|-unboost|p2a: Garganacl|spa|1
+|-unboost|p2b: Thundurus|spa|1
+|
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|NinoDungeon has 30 seconds left.
+|
+|t:|1750849824
+|move|p1a: Whimsicott|Moonblast|p2b: Thundurus
+|-damage|p2b: Thundurus|48/100
+|move|p2b: Thundurus|Electroweb|p1a: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|56/100
+|-damage|p1b: Incineroar|69/100
+|-unboost|p1b: Incineroar|spe|1
+|move|p1b: Incineroar|Snarl|p2a: Garganacl|[spread] p2a,p2b
+|-damage|p2a: Garganacl|60/100
+|-damage|p2b: Thundurus|37/100
+|-unboost|p2a: Garganacl|spa|1
+|-unboost|p2b: Thundurus|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|21/100
+|
+|-heal|p2a: Garganacl|66/100|[from] item: Leftovers
+|-sideend|p1: NinoDungeon|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750849847
+|move|p2b: Thundurus|Protect|p2b: Thundurus
+|-singleturn|p2b: Thundurus|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: NinoDungeon|move: Tailwind
+|move|p1b: Incineroar|Snarl|p2b: Thundurus|[spread] p2a
+|-activate|p2b: Thundurus|move: Protect
+|-damage|p2a: Garganacl|58/100
+|-unboost|p2a: Garganacl|spa|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|iggn has 30 seconds left.
+|
+|t:|1750849874
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Whimsicott|Moonblast|p2b: Thundurus
+|-crit|p2b: Thundurus
+|-damage|p2b: Thundurus|0 fnt
+|faint|p2b: Thundurus
+|move|p2a: Garganacl|Salt Cure|p1b: Calyrex
+|-damage|p1b: Calyrex|83/100
+|-start|p1b: Calyrex|Salt Cure
+|
+|-damage|p1b: Calyrex|71/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750849899
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|7
+|
+|t:|1750849918
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Calyrex|Astral Barrage|p2b: Zamazenta|[spread] 
+|-activate|p2a: Garganacl|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p1a: Whimsicott|Moonblast|p2b: Zamazenta
+|-damage|p2b: Zamazenta|75/100
+|move|p2a: Garganacl|Salt Cure|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-damage|p1b: Calyrex|58/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750849936
+|switch|p1a: Incineroar|Incineroar, L50, F|69/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|turn|8
+|
+|t:|1750849957
+|move|p2a: Garganacl|Wide Guard|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Wide Guard
+|move|p1b: Calyrex|Astral Barrage|p2b: Zamazenta|[spread] 
+|-activate|p2a: Garganacl|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2b: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p1b: Calyrex|46/100|[from] Salt Cure
+|-sideend|p1: NinoDungeon|move: Tailwind
+|upkeep
+|
+|t:|1750849975
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|9
+|inactive|iggn has 30 seconds left.
+|
+|t:|1750850007
+|move|p1b: Calyrex|Astral Barrage|p2a: Garganacl|[spread] p2a,p2b
+|-damage|p2a: Garganacl|79/100
+|-damage|p2b: Zamazenta|36/100
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|move|p2a: Garganacl|Salt Cure|p1a: Miraidon
+|-damage|p1a: Miraidon|83/100
+|-start|p1a: Miraidon|Salt Cure
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|-damage|p1b: Calyrex|33/100|[from] Salt Cure
+|-damage|p1a: Miraidon|70/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750850023
+|switch|p2b: Miraidon|Miraidon, L50|67/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|10
+|
+|t:|1750850040
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p2a: Garganacl|Wide Guard|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Wide Guard
+|move|p1b: Calyrex|Astral Barrage|p2b: Miraidon|[spread] 
+|-activate|p2a: Garganacl|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|move|p1a: Miraidon|Electro Drift|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|
+|-heal|p2a: Garganacl|90/100|[from] item: Leftovers
+|-damage|p1b: Calyrex|21/100|[from] Salt Cure
+|-damage|p1a: Miraidon|58/100|[from] Salt Cure
+|upkeep
+|turn|11
+|inactive|NinoDungeon has 30 seconds left.
+|inactive|iggn has 30 seconds left.
+|inactive|iggn has 20 seconds left.
+|
+|t:|1750850076
+|move|p2a: Garganacl|Wide Guard|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Wide Guard
+|move|p1b: Calyrex|Tera Blast|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|77/100
+|move|p2b: Miraidon|Electro Drift|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|19/100
+|move|p1a: Miraidon|Electro Drift|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|19/100
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|-damage|p1b: Calyrex|8/100|[from] Salt Cure
+|-damage|p1a: Miraidon|6/100|[from] Salt Cure
+|upkeep
+|turn|12
+|inactive|iggn has 30 seconds left.
+|
+|t:|1750850103
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1b: Calyrex|Tera Blast|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|71/100
+|move|p1a: Miraidon|Electro Drift|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-damage|p1b: Calyrex|0 fnt|[from] Salt Cure
+|faint|p1b: Calyrex
+|-damage|p1a: Miraidon|0 fnt|[from] Salt Cure
+|faint|p1a: Miraidon
+|
+|win|iggn
+|raw|NinoDungeon's rating: 1133 &rarr; <strong>1107</strong><br />(-26 for losing)
+|raw|iggn's rating: 1121 &rarr; <strong>1147</strong><br />(+26 for winning)
+|l|☆NinoDungeon
+|player|p1|

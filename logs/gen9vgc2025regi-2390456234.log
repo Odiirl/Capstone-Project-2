@@ -1,0 +1,133 @@
+|j|☆ArtiboniteLadder
+|j|☆bman3116
+|t:|1750715399
+|gametype|doubles
+|player|p1|ArtiboniteLadder|firebreather|1475
+|player|p2|bman3116|elesa-masters|1653
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Dialga, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bman3116)
+|
+|t:|1750715422
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Dialga|Dialga, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750715440
+|-terastallize|p2a: Calyrex|Ghost
+|-terastallize|p1b: Dialga|Fairy
+|move|p2b: Whimsicott|Fake Tears|p1b: Dialga
+|-unboost|p1b: Dialga|spd|2
+|move|p2a: Calyrex|Astral Barrage|p1b: Dialga|[spread] p1b
+|-immune|p1a: Ursaluna
+|-damage|p1b: Dialga|0 fnt
+|faint|p1b: Dialga
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1a: Ursaluna|Earthquake|p2b: Whimsicott|[spread] p2a,p2b
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Calyrex|43/100
+|-damage|p2b: Whimsicott|70/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750715446
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|2
+|
+|t:|1750715464
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: bman3116|move: Tailwind
+|move|p1b: Kyogre|Thunder|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Ursaluna|Facade|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750715478
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|turn|3
+|
+|t:|1750715496
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-resisted|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|47/100
+|move|p2b: Iron Hands|Low Kick|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750715500
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|4
+|
+|t:|1750715513
+|move|p2a: Calyrex|Psychic|p1a: Ursaluna
+|-damage|p1a: Ursaluna|9/100 brn
+|-unboost|p1a: Ursaluna|spd|1
+|move|p1b: Kyogre|Thunder|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Iron Hands|Drain Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750715519
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|5
+|-message|ArtiboniteLadder forfeited.
+|
+|win|bman3116
+|raw|ArtiboniteLadder's rating: 1475 &rarr; <strong>1464</strong><br />(-11 for losing)
+|raw|bman3116's rating: 1653 &rarr; <strong>1664</strong><br />(+11 for winning)

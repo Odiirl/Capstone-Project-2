@@ -1,0 +1,199 @@
+|j|☆ketchup_with_toast
+|j|☆entei enthusiast
+|t:|1750825537
+|gametype|doubles
+|player|p1|ketchup_with_toast|1|1417
+|player|p2|entei enthusiast|brycen|1427
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Frosmoth, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750825583
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2a: Calyrex|Electric Seed
+|-boost|p2a: Calyrex|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ketchup_with_toast)
+|
+|t:|1750825615
+|move|p1a: Sableye|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|97/100
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: entei enthusiast|move: Light Screen
+|move|p1b: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|-damage|p1b: Miraidon|91/100|[from] item: Life Orb
+|cant|p2a: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|inactive|ketchup_with_toast has 30 seconds left.
+|
+|t:|1750825648
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Sableye|Foul Play|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|26/100
+|-unboost|p1b: Miraidon|spa|1
+|
+|upkeep
+|turn|3
+|inactive|entei enthusiast has 30 seconds left.
+|
+|t:|1750825678
+|-terastallize|p2a: Calyrex|Fire
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: entei enthusiast|Reflect
+|move|p1b: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|13/100
+|-damage|p1b: Miraidon|16/100|[from] item: Life Orb
+|move|p1a: Sableye|Foul Play|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750825692
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750825705
+|switch|p1b: Frosmoth|Frosmoth, L50, M|100/100
+|-enditem|p1b: Frosmoth|Electric Seed
+|-boost|p1b: Frosmoth|def|1|[from] item: Electric Seed
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Miraidon|Discharge|p1a: Sableye|[spread] p1a,p1b
+|-immune|p2b: Ursaluna
+|-enditem|p1a: Sableye|Focus Sash
+|-damage|p1a: Sableye|1/100
+|-damage|p1b: Frosmoth|54/100
+|-status|p1a: Sableye|par
+|move|p1a: Sableye|Foul Play|p2a: Miraidon
+|-damage|p2a: Miraidon|85/100
+|
+|upkeep
+|turn|5
+|inactive|ketchup_with_toast has 30 seconds left.
+|
+|t:|1750825731
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Ursaluna|Vacuum Wave|p1b: Frosmoth
+|-damage|p1b: Frosmoth|46/100
+|move|p2a: Miraidon|Discharge|p1a: Groudon|[spread] p1b
+|-immune|p2b: Ursaluna
+|-immune|p1a: Groudon
+|-damage|p1b: Frosmoth|0 fnt
+|faint|p1b: Frosmoth
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750825747
+|switch|p1b: Sableye|Sableye, L50, M|1/100 par
+|turn|6
+|
+|t:|1750825757
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1b: Sableye|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|96/100
+|move|p1a: Groudon|Precipice Blades|p2b: Ursaluna|[spread] p2a
+|-miss|p1a: Groudon|p2b: Ursaluna
+|-damage|p2a: Grimmsnarl|64/100
+|move|p2b: Ursaluna|Hyper Voice|p1a: Groudon|[spread] p1a,p1b
+|-damage|p1a: Groudon|67/100
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825772
+|switch|p1b: Miraidon|Miraidon, L50|16/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|
+|t:|1750825788
+|move|p1b: Miraidon|Draco Meteor|p2b: Ursaluna
+|-damage|p2b: Ursaluna|42/100
+|-unboost|p1b: Miraidon|spa|2
+|-damage|p1b: Miraidon|6/100|[from] item: Life Orb
+|move|p1a: Groudon|Precipice Blades|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|35/100
+|-damage|p2b: Ursaluna|17/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Groudon
+|-damage|p1a: Groudon|48/100
+|move|p2b: Ursaluna|Earth Power|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750825807
+|move|p2b: Ursaluna|Vacuum Wave|p1a: Groudon
+|-damage|p1a: Groudon|32/100
+|move|p1a: Groudon|Precipice Blades|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|5/100
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Groudon
+|-damage|p1a: Groudon|11/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: entei enthusiast|move: Light Screen
+|upkeep
+|
+|t:|1750825809
+|switch|p2b: Miraidon|Miraidon, L50|85/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750825822
+|move|p2b: Miraidon|Draco Meteor|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Groudon
+|
+|win|entei enthusiast
+|raw|ketchup_with_toast's rating: 1417 &rarr; <strong>1398</strong><br />(-19 for losing)
+|raw|entei enthusiast's rating: 1427 &rarr; <strong>1446</strong><br />(+19 for winning)
+|l|☆entei enthusiast
+|player|p2|
+|l|☆ketchup_with_toast
+|player|p1|

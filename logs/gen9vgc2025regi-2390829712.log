@@ -1,0 +1,118 @@
+|j|☆psaida
+|j|☆nizuzin
+|t:|1750773221
+|gametype|doubles
+|player|p1|psaida|cameraman|1164
+|player|p2|nizuzin|102|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Comfey, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Lanturn, L50, F|
+|poke|p2|Gyarados, L50, F|
+|teampreview|4
+|
+|t:|1750773256
+|start
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Gyarados|Gyarados, L50, F|100/100
+|-ability|p2b: Gyarados|Intimidate|boost
+|-unboost|p1a: Iron Bundle|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by psaida)
+|
+|t:|1750773276
+|move|p1b: Whimsicott|Taunt|p2a: Whimsicott
+|-start|p2a: Whimsicott|move: Taunt
+|move|p1a: Iron Bundle|Freeze-Dry|p2b: Gyarados
+|-supereffective|p2b: Gyarados
+|-damage|p2b: Gyarados|0 fnt
+|faint|p2b: Gyarados
+|cant|p2a: Whimsicott|move: Taunt|Trick Room
+|
+|upkeep
+|
+|t:|1750773287
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespe
+|turn|2
+|
+|t:|1750773301
+|-terastallize|p2b: Miraidon|Electric
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: psaida|move: Tailwind
+|move|p1a: Iron Bundle|Icy Wind|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|47/100
+|-damage|p2b: Miraidon|83/100
+|-unboost|p2b: Miraidon|spe|1
+|move|p2a: Whimsicott|Moonblast|p1b: Whimsicott
+|-damage|p1b: Whimsicott|62/100
+|move|p2b: Miraidon|Electro Drift|p1a: Iron Bundle
+|-supereffective|p1a: Iron Bundle
+|-crit|p1a: Iron Bundle
+|-enditem|p1a: Iron Bundle|Focus Sash
+|-damage|p1a: Iron Bundle|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750773323
+|move|p1b: Whimsicott|Fake Tears|p2b: Miraidon
+|-unboost|p2b: Miraidon|spd|2
+|move|p1a: Iron Bundle|Icy Wind|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Miraidon|52/100
+|-unboost|p2b: Miraidon|spe|1
+|faint|p2a: Whimsicott
+|move|p2b: Miraidon|Electro Drift|p1a: Iron Bundle
+|-supereffective|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|0 fnt
+|faint|p1a: Iron Bundle
+|-end|p1a: Iron Bundle|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750773332
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Lanturn|Lanturn, L50, F, shiny|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750773353
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Whimsicott|Fake Tears|p2a: Lanturn
+|-unboost|p2a: Lanturn|spd|2
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Lanturn|[spread] p2a,p2b
+|-damage|p2a: Lanturn|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Lanturn
+|faint|p2b: Miraidon
+|
+|win|psaida
+|raw|psaida's rating: 1164 &rarr; <strong>1183</strong><br />(+19 for winning)
+|raw|nizuzin's rating: 1072 &rarr; <strong>1057</strong><br />(-15 for losing)
+|l|☆nizuzin
+|player|p2|
+|l|☆psaida
+|player|p1|

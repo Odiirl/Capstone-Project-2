@@ -1,0 +1,179 @@
+|j|☆Adkae
+|j|☆TommyGuapo
+|t:|1750724294
+|gametype|doubles
+|player|p1|Adkae|101|1273
+|player|p2|TommyGuapo|102|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Comfey, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TommyGuapo)
+TommyGuapo has agreed to open team sheets.
+|inactive|Adkae has 60 seconds left.
+|inactive|TommyGuapo has 60 seconds left.
+|
+|t:|1750724330
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750724353
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Adkae|move: Tailwind
+|move|p2a: Rillaboom|Taunt|p1b: Tornadus
+|-start|p1b: Tornadus|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1750724368
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Terapagos|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-enditem|p2a: Rillaboom|Focus Sash
+|-damage|p2a: Rillaboom|1/100
+|-damage|p2b: Terapagos|85/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Terapagos|[anim] Ivy Cudgel Rock
+|-damage|p2b: Terapagos|41/100
+|move|p2a: Rillaboom|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100
+|
+|t:|1750724383
+|switch|p2a: Giratina|Giratina-Origin, L50|100/100|[from] U-turn
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p1a: Ogerpon|47/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|47/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|TommyGuapo has 30 seconds left.
+|inactive|TommyGuapo has 20 seconds left.
+|
+|t:|1750724422
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Giratina|[spread] p2a
+|-activate|p2b: Terapagos|move: Protect
+|-damage|p2a: Giratina|74/100
+|move|p1a: Ogerpon|Power Whip|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p2a: Giratina|Poltergeist|p1b: Tornadus
+|-activate|p1b: Tornadus|move: Poltergeist|Covert Cloak
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-heal|p1a: Ogerpon|53/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|54/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750724444
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|4
+|
+|t:|1750724456
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|65/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p2a: Giratina|Shadow Sneak|p1b: Kyogre
+|-damage|p1b: Kyogre|73/100
+|move|p1b: Kyogre|Water Spout|p2a: Giratina|[spread] p2a,p2b
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|59/100
+|-damage|p2b: Terapagos|48/100
+|move|p1a: Ogerpon|Power Whip|p2b: Terapagos
+|-damage|p2b: Terapagos|10/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Ogerpon|0 fnt
+|-damage|p1b: Kyogre|31/100
+|faint|p1a: Ogerpon
+|
+|-sideend|p1: Adkae|move: Tailwind
+|upkeep
+|
+|t:|1750724471
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|inactive|Adkae has 30 seconds left.
+|
+|t:|1750724498
+|-terastallize|p1a: Basculegion|Water
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p1b: Kyogre|Water Spout|p2b: Terapagos|[spread] p2b
+|-activate|p2a: Giratina|move: Protect
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|move|p1a: Basculegion|Last Respects|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|
+|upkeep
+|
+|t:|1750724523
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|6
+|inactive|TommyGuapo has 30 seconds left.
+|
+|t:|1750724551
+|move|p2b: Scream Tail|Disable|p1a: Basculegion
+|-start|p1a: Basculegion|Disable|Last Respects
+|move|p1b: Kyogre|Water Spout|p2a: Giratina|[spread] p2a,p2b
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|53/100
+|-damage|p2b: Scream Tail|86/100
+|cant|p1a: Basculegion|Disable|Last Respects
+|move|p2a: Giratina|Poltergeist|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Poltergeist|Choice Scarf
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|upkeep
+|turn|7
+|-message|Adkae forfeited.
+|
+|win|TommyGuapo
+|raw|Adkae's rating: 1273 &rarr; <strong>1256</strong><br />(-17 for losing)
+|raw|TommyGuapo's rating: 1391 &rarr; <strong>1404</strong><br />(+13 for winning)
+|l|☆Adkae
+|player|p1|

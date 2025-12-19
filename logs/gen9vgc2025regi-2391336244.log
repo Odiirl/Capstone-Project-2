@@ -1,0 +1,131 @@
+|j|☆relooo
+|j|☆akela420
+|t:|1750838655
+|gametype|doubles
+|player|p1|relooo|265|1180
+|player|p2|akela420|giovanni|1130
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charjabug, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|
+|t:|1750838681
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: CottonPickedjr|Whimsicott, L50, F|100/100
+|switch|p2b: ChenDeezNutz|Chien-Pao, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: ChenDeezNutz|Sword of Ruin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by akela420)
+|
+|t:|1750838708
+|move|p2a: CottonPickedjr|Tailwind|p2a: CottonPickedjr
+|-sidestart|p2: akela420|move: Tailwind
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: relooo|move: Tailwind
+|move|p1a: Koraidon|U-turn|p2b: ChenDeezNutz
+|-supereffective|p2b: ChenDeezNutz
+|-enditem|p2b: ChenDeezNutz|Focus Sash
+|-damage|p2b: ChenDeezNutz|1/100
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|t:|1750838714
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100|[from] U-turn
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|move|p2b: ChenDeezNutz|Icicle Crash|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750838719
+|switch|p1b: Charjabug|Charjabug, L50, M|100/100
+|turn|2
+|
+|t:|1750838738
+|-terastallize|p1a: Chi-Yu|Fire
+|move|p2b: ChenDeezNutz|Protect|p2b: ChenDeezNutz
+|-singleturn|p2b: ChenDeezNutz|Protect
+|move|p2a: CottonPickedjr|Dazzling Gleam|p1a: Chi-Yu|[spread] p1a,p1b
+|-resisted|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|87/100
+|-damage|p1b: Charjabug|77/100
+|move|p1a: Chi-Yu|Heat Wave|p2b: ChenDeezNutz|[spread] p2a
+|-activate|p2b: ChenDeezNutz|move: Protect
+|-supereffective|p2a: CottonPickedjr
+|-damage|p2a: CottonPickedjr|0 fnt
+|faint|p2a: CottonPickedjr
+|move|p1b: Charjabug|String Shot|p2b: ChenDeezNutz
+|-activate|p2b: ChenDeezNutz|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750838756
+|switch|p2a: Dragoon|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1750838765
+|switch|p1a: Koraidon|Koraidon, L50|91/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-terastallize|p2a: Dragoon|Dragon
+|move|p2a: Dragoon|Dragon Darts|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-anim|p2a: Dragoon|Dragon Darts|p1b: Charjabug
+|-damage|p1b: Charjabug|37/100
+|faint|p1a: Koraidon
+|move|p2b: ChenDeezNutz|Sacred Sword|p1b: Charjabug
+|-resisted|p1b: Charjabug
+|-damage|p1b: Charjabug|25/100
+|move|p1b: Charjabug|String Shot|p2a: Dragoon|[spread] p2a,p2b
+|-fail|p2a: Dragoon|unboost|[from] ability: Clear Body|[of] p2a: Dragoon
+|-unboost|p2b: ChenDeezNutz|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750838768
+|switch|p1a: Chi-Yu|Chi-Yu, L50, tera:Fire|87/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|4
+|
+|t:|1750838793
+|move|p2b: ChenDeezNutz|Protect|p2b: ChenDeezNutz
+|-singleturn|p2b: ChenDeezNutz|Protect
+|move|p2a: Dragoon|Dragon Darts|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|-anim|p2a: Dragoon|Dragon Darts|p1b: Charjabug
+|-crit|p1b: Charjabug
+|-damage|p1b: Charjabug|0 fnt
+|faint|p1a: Chi-Yu
+|faint|p1b: Charjabug
+|
+|win|akela420
+|raw|relooo's rating: 1180 &rarr; <strong>1151</strong><br />(-29 for losing)
+|raw|akela420's rating: 1130 &rarr; <strong>1159</strong><br />(+29 for winning)
+|l|☆relooo
+|player|p1|
+|l|☆akela420
+|player|p2|

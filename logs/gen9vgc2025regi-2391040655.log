@@ -1,0 +1,297 @@
+|j|☆wiranVGC
+|j|☆PRIMAOFFICIAL
+|t:|1750795736
+|gametype|doubles
+|player|p1|wiranVGC|silver|1244
+|player|p2|PRIMAOFFICIAL|swimmer-gen4dp|1158
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wiranVGC)
+|inactive|PRIMAOFFICIAL has 60 seconds left.
+|
+|t:|1750795780
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|1
+|
+|t:|1750795797
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: wiranVGC|move: Tailwind
+|move|p1b: Raging Bolt|Snarl|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|83/100
+|-damage|p2b: Amoonguss|90/100
+|-unboost|p2b: Amoonguss|spa|1
+|move|p2b: Amoonguss|Spore|p1b: Raging Bolt
+|-status|p1b: Raging Bolt|slp|[from] move: Spore
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|2
+|inactive|PRIMAOFFICIAL has 30 seconds left.
+|
+|t:|1750795826
+|move|p1a: Whimsicott|Encore|p2a: Lunala
+|-start|p2a: Lunala|Encore
+|move|p2b: Amoonguss|Spore|p1b: Raging Bolt
+|-fail|p1b: Raging Bolt|slp
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldend|move: Trick Room
+|cant|p1b: Raging Bolt|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750795846
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: wiranVGC|move: Light Screen
+|-curestatus|p1b: Raging Bolt|slp|[msg]
+|move|p1b: Raging Bolt|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|4
+|
+|t:|1750795870
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Incineroar|Fake Out|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|92/100
+|cant|p1b: Raging Bolt|flinch
+|move|p1a: Whimsicott|Moonblast|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|-unboost|p2a: Amoonguss|spa|1
+|
+|-sideend|p1: wiranVGC|move: Tailwind
+|upkeep
+|turn|5
+|inactive|wiranVGC has 30 seconds left.
+|inactive|PRIMAOFFICIAL has 30 seconds left.
+|inactive|wiranVGC has 20 seconds left.
+|inactive|PRIMAOFFICIAL has 20 seconds left.
+|inactive|wiranVGC has 15 seconds left.
+|inactive|PRIMAOFFICIAL has 15 seconds left.
+|inactive|PRIMAOFFICIAL has 10 seconds left.
+|inactive|PRIMAOFFICIAL has 5 seconds left.
+|
+|t:|1750795920
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|move|p1b: Raging Bolt|Thunderclap|p2b: Incineroar
+|-damage|p2b: Incineroar|42/100
+|move|p2a: Amoonguss|Spore|p1b: Raging Bolt
+|-status|p1b: Raging Bolt|slp|[from] move: Spore
+|move|p2b: Incineroar|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|76/100
+|-enditem|p1a: Groudon|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750795944
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|cant|p1b: Raging Bolt|slp
+|move|p2a: Amoonguss|Spore|p1a: Whimsicott
+|-immune|p1a: Whimsicott
+|move|p2b: Incineroar|Parting Shot|p1a: Whimsicott
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1a: Whimsicott|spa|1
+|
+|t:|1750795959
+|switch|p2b: Lunala|Lunala, L50|83/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750795973
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|76/100
+|move|p2a: Amoonguss|Pollen Puff|p1a: Whimsicott
+|-damage|p1a: Whimsicott|85/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Whimsicott
+|-damage|p1a: Whimsicott|23/100
+|move|p1a: Whimsicott|Moonblast|p2b: Lunala
+|-damage|p2b: Lunala|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: wiranVGC|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750795994
+|-terastallize|p1b: Groudon|Fire
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: wiranVGC|move: Light Screen
+|move|p1b: Groudon|Heat Crash|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1b: Groudon|59/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750796005
+|switch|p2a: Incineroar|Incineroar, L50, M|42/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Groudon|atk|1
+|turn|9
+|inactive|PRIMAOFFICIAL has 30 seconds left.
+|inactive|PRIMAOFFICIAL has 20 seconds left.
+|
+|t:|1750796044
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p2a: Incineroar|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|53/100
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|cant|p1b: Groudon|flinch
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1750796063
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1a: Whimsicott|Moonblast|p2b: Terapagos
+|-damage|p2b: Terapagos|86/100
+|-unboost|p2b: Terapagos|spa|1
+|move|p1b: Groudon|Swords Dance|p1b: Groudon
+|-boost|p1b: Groudon|atk|2
+|move|p2b: Terapagos|Earth Power|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|23/100
+|move|p2a: Incineroar|Parting Shot|p1b: Groudon
+|-unboost|p1b: Groudon|atk|1
+|-unboost|p1b: Groudon|spa|1
+|
+|t:|1750796078
+|switch|p2a: Lunala|Lunala, L50|65/100|[from] Parting Shot
+|
+|upkeep
+|turn|11
+|
+|t:|1750796095
+|move|p1a: Whimsicott|Moonblast|p2b: Terapagos
+|-damage|p2b: Terapagos|71/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2b: Terapagos|Tera Starstorm|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1750796099
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|92/100 slp
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|
+|t:|1750796118
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p2a: Lunala|Moonblast|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|71/100 slp
+|-curestatus|p1b: Raging Bolt|slp|[msg]
+|move|p1b: Raging Bolt|Snarl|p2a: Lunala|[spread] p2a
+|-activate|p2b: Terapagos|move: Protect
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|25/100
+|
+|-sideend|p1: wiranVGC|move: Light Screen
+|upkeep
+|turn|13
+|inactive|PRIMAOFFICIAL has 30 seconds left.
+|
+|t:|1750796152
+|switch|p2b: Incineroar|Incineroar, L50, M|42/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Raging Bolt|Snarl|p2a: Lunala
+|-activate|p2a: Lunala|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750796164
+|switch|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|71/100
+|turn|14
+|
+|t:|1750796187
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Raging Bolt|Thunderbolt|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|upkeep
+|turn|15
+|
+|t:|1750796200
+|move|p1b: Raging Bolt|Thunderclap|p2b: Terapagos
+|-damage|p2b: Terapagos|48/100
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|wiranVGC
+|raw|wiranVGC's rating: 1244 &rarr; <strong>1263</strong><br />(+19 for winning)
+|raw|PRIMAOFFICIAL's rating: 1158 &rarr; <strong>1139</strong><br />(-19 for losing)

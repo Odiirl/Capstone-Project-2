@@ -1,0 +1,152 @@
+|j|☆WaveHunts
+|j|☆SwimmingChamp67
+|t:|1750841010
+|gametype|doubles
+|player|p1|WaveHunts|byron|1190
+|player|p2|SwimmingChamp67|rood|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Overqwil, L50, M|
+|poke|p1|Rhyperior, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+SwimmingChamp67 has agreed to open team sheets.
+|
+|t:|1750841069
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750841101
+|-terastallize|p1a: Kyogre|Flying
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: WaveHunts|move: Tailwind
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: SwimmingChamp67|move: Light Screen
+|move|p1a: Kyogre|Tera Blast|p2a: Ogerpon|[anim] Tera Blast Flying
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|26/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kyogre|[anim] Ivy Cudgel Water
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750841125
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|2
+|
+|t:|1750841160
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Lunala|[miss]
+|-miss|p2b: Grimmsnarl|p1a: Lunala
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Ogerpon|[spread] p2a,p2b
+|-damage|p2a: Ogerpon|7/100
+|-damage|p2b: Grimmsnarl|79/100
+|-unboost|p2b: Grimmsnarl|spe|1
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|37/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Lunala
+|-damage|p1a: Lunala|84/100
+|-heal|p2a: Ogerpon|17/100|[from] drain|[of] p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750841202
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Lunala|[miss]
+|-miss|p2b: Grimmsnarl|p1a: Lunala
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Ogerpon|[spread] p2a,p2b
+|-damage|p2a: Ogerpon|0 fnt
+|-damage|p2b: Grimmsnarl|15/100
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|move|p1a: Lunala|Dazzling Gleam|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750841211
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|4
+|
+|t:|1750841247
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|94/100
+|move|p1a: Lunala|Blizzard|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|61/100
+|move|p2b: Miraidon|Electro Drift|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: WaveHunts|move: Tailwind
+|upkeep
+|
+|t:|1750841272
+|switch|p1b: Rhyperior|Rhyperior, L50, F|100/100
+|turn|5
+|
+|t:|1750841295
+|move|p2a: Calyrex|Astral Barrage|p1b: Rhyperior|[spread] p1a,p1b
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Rhyperior|18/100
+|faint|p1a: Lunala
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Miraidon|Draco Meteor|p1b: Rhyperior
+|-damage|p1b: Rhyperior|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Rhyperior
+|
+|win|SwimmingChamp67
+|raw|WaveHunts's rating: 1190 &rarr; <strong>1170</strong><br />(-20 for losing)
+|raw|SwimmingChamp67's rating: 1259 &rarr; <strong>1279</strong><br />(+20 for winning)
+|l|☆WaveHunts
+|player|p1|
+|l|☆SwimmingChamp67
+|player|p2|

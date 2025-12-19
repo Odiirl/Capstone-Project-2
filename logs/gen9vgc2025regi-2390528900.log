@@ -1,0 +1,192 @@
+|j|☆Sobble14
+|j|☆mnarvz
+|t:|1750724647
+|gametype|doubles
+|player|p1|Sobble14|101|1470
+|player|p2|mnarvz|1|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Pawmot, L50, M|
+|poke|p1|Comfey, L50, F|
+|poke|p1|Clodsire, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mnarvz)
+|
+|t:|1750724661
+|start
+|switch|p1a: Comfey|Comfey, L50, F|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|1
+|
+|t:|1750724675
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Flutter Mane|Icy Wind|p1a: Comfey|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-damage|p1a: Comfey|84/100
+|move|p2b: Chi-Yu|Snarl|p1a: Comfey|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|69/100
+|move|p1a: Comfey|Trick Room|p1a: Comfey
+|-fieldstart|move: Trick Room|[of] p1a: Comfey
+|
+|upkeep
+|turn|2
+|
+|t:|1750724696
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p1a: Comfey|Draining Kiss|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|81/100
+|-heal|p1a: Comfey|81/100|[from] drain|[of] p2b: Chi-Yu
+|move|p1b: Terapagos|Tera Starstorm|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|36/100
+|-damage|p2b: Chi-Yu|30/100
+|move|p2b: Chi-Yu|Snarl|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|63/100
+|-damage|p1b: Terapagos|69/100
+|-unboost|p1b: Terapagos|spa|1
+|move|p2a: Flutter Mane|Taunt|p1a: Comfey
+|-start|p1a: Comfey|move: Taunt
+|
+|-heal|p1b: Terapagos|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750724712
+|move|p1a: Comfey|Draining Kiss|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|12/100
+|-heal|p1a: Comfey|75/100|[from] drain|[of] p2b: Chi-Yu
+|move|p1b: Terapagos|Tera Starstorm|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Chi-Yu
+|
+|-heal|p1b: Terapagos|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750724718
+|switch|p2b: Lunala|Lunala, L50|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|4
+|
+|t:|1750724727
+|move|p1a: Comfey|Draining Kiss|p2a: Groudon
+|-damage|p2a: Groudon|83/100
+|-heal|p1a: Comfey|89/100|[from] drain|[of] p2a: Groudon
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Terapagos
+|-damage|p1b: Terapagos|48/100
+|move|p2a: Groudon|Precipice Blades|p1b: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Comfey|21/100
+|-damage|p1b: Terapagos|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|21/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| Yohosophat4040
+|
+|t:|1750724749
+|switch|p1a: Pawmot|Pawmot, L50, M|100/100
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Lunala|Moongeist Beam|p1a: Pawmot
+|-enditem|p1a: Pawmot|Focus Sash
+|-damage|p1a: Pawmot|1/100
+|move|p2a: Groudon|Precipice Blades|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-supereffective|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|27/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750724756
+|switch|p1a: Comfey|Comfey, L50, F|21/100
+|turn|6
+|
+|t:|1750724768
+|move|p2a: Groudon|Precipice Blades|p1b: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Comfey|0 fnt
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1a: Comfey
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p2b: Lunala|Expanding Force|p1: Comfey|[notarget]
+|-fail|p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|l| Yohosophat4040
+|inactive|Sobble14 has 30 seconds left.
+|inactive|Sobble14 has 20 seconds left.
+|inactive|Sobble14 has 15 seconds left.
+|inactive|Sobble14 has 10 seconds left.
+|inactive|Sobble14 has 5 seconds left.
+|
+|t:|1750724823
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|7
+|l|☆Sobble14
+|inactive|Sobble14 disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Sobble14
+|inactive|Sobble14 reconnected and has 40 seconds left.
+|player|p1|Sobble14|101|
+|inactive|Sobble14 has 30 seconds left.
+|inactive|Sobble14 has 20 seconds left.
+|inactive|Sobble14 has 15 seconds left.
+|inactive|Sobble14 has 10 seconds left.
+|inactive|Sobble14 has 5 seconds left.
+|
+|t:|1750724878
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|mnarvz
+|raw|Sobble14's rating: 1470 &rarr; <strong>1449</strong><br />(-21 for losing)
+|raw|mnarvz's rating: 1454 &rarr; <strong>1475</strong><br />(+21 for winning)
+|l|☆mnarvz
+|player|p2|
+|l|☆Sobble14
+|player|p1|

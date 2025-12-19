@@ -1,0 +1,136 @@
+|j|☆Yo-Yo Slime
+|j|☆Sushiiman
+|t:|1750816650
+|gametype|doubles
+|player|p1|Yo-Yo Slime|1|1054
+|player|p2|Sushiiman|101|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swalot, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lugia, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750816698
+|start
+|switch|p1a: Swalot|Swalot, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Lugia|Lugia, L50|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750816721
+|move|p2b: Urshifu|Wicked Blow|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2a: Lugia|Psychic|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|31/100
+|-enditem|p1a: Swalot|Petaya Berry|[eat]
+|-boost|p1a: Swalot|spa|1|[from] item: Petaya Berry
+|move|p1a: Swalot|Encore|p2a: Lugia
+|-start|p2a: Lugia|Encore
+|
+|upkeep
+|
+|t:|1750816732
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750816741
+|-terastallize|p1b: Calyrex|Ice
+|move|p1a: Swalot|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Swalot
+|move|p2b: Urshifu|Wicked Blow|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|61/100
+|move|p2a: Lugia|Psychic|p1a: Swalot
+|-supereffective|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|faint|p1a: Swalot
+|move|p1b: Calyrex|Glacial Lance|p2a: Lugia|[spread] p2a,p2b
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|17/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750816758
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|3
+|
+|t:|1750816794
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Kyogre|Ice Beam|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2a: Lugia|Psychic|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2a,p2b
+|-supereffective|p2a: Lugia
+|-crit|p2a: Lugia
+|-resisted|p2b: Kyogre
+|-damage|p2a: Lugia|0 fnt
+|-damage|p2b: Kyogre|37/100
+|faint|p2a: Lugia
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750816808
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1750816820
+|-terastallize|p2b: Kyogre|Water
+|move|p2a: Rillaboom|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|91/100
+|move|p2b: Kyogre|Origin Pulse|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|13/100
+|-damage|p1b: Calyrex|32/100
+|cant|p1a: Groudon|flinch
+|move|p1b: Calyrex|Glacial Lance|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Kyogre
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2a: Rillaboom
+|faint|p2b: Kyogre
+|
+|win|Yo-Yo Slime
+|raw|Yo-Yo Slime's rating: 1054 &rarr; <strong>1087</strong><br />(+33 for winning)
+|raw|Sushiiman's rating: 1070 &rarr; <strong>1049</strong><br />(-21 for losing)
+|l|☆Sushiiman
+|player|p2|
+|l|☆Yo-Yo Slime
+|player|p1|

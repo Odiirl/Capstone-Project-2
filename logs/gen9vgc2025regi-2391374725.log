@@ -1,0 +1,139 @@
+|j|☆rainha456
+|j|☆Rhizzen
+|t:|1750845990
+|gametype|doubles
+|player|p1|rainha456|2|1474
+|player|p2|Rhizzen|265|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Mienshao, L50, F|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750846028
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Mienshao|Mienshao, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750846050
+|-terastallize|p1a: Calyrex|Ghost
+|move|p1b: Mienshao|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|88/100
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|cant|p2b: Miraidon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750846070
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Mienshao|Feint|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Feint
+|-damage|p2b: Miraidon|79/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-damage|p2b: Miraidon|28/100
+|faint|p2a: Lunala
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Miraidon|Snarl|p1b: Mienshao|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Mienshao
+|-damage|p1a: Calyrex|63/100
+|-damage|p1b: Mienshao|80/100
+|-unboost|p1a: Calyrex|spa|1
+|-unboost|p1b: Mienshao|spa|1
+|
+|upkeep
+|
+|t:|1750846100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|3
+|
+|t:|1750846124
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Mienshao|Close Combat|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Mienshao|def|1
+|-unboost|p1b: Mienshao|spd|1
+|faint|p2b: Miraidon
+|move|p2a: Urshifu|Surging Strikes|p1b: Mienshao
+|-crit|p1b: Mienshao
+|-damage|p1b: Mienshao|0 fnt
+|faint|p1b: Mienshao
+|-hitcount|p1: Mienshao|1
+|
+|upkeep
+|
+|t:|1750846137
+|switch|p1b: Calyrex|Calyrex-Shadow, L50, tera:Ghost|63/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|4
+|
+|t:|1750846165
+|move|p2b: Incineroar|Fake Out|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2a: Urshifu|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Incineroar|49/100
+|faint|p2a: Urshifu
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|upkeep
+|turn|5
+|
+|t:|1750846177
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|rainha456
+|raw|rainha456's rating: 1474 &rarr; <strong>1489</strong><br />(+15 for winning)
+|raw|Rhizzen's rating: 1379 &rarr; <strong>1364</strong><br />(-15 for losing)
+|l|☆rainha456
+|player|p1|
+|l|☆Rhizzen
+|player|p2|

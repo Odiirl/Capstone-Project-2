@@ -1,0 +1,125 @@
+|j|☆nrld
+|j|☆salvx
+|t:|1750725946
+|gametype|doubles
+|player|p1|nrld|169|1264
+|player|p2|salvx|shadowtriad|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Reuniclus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Oranguru, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|teampreview|4
+|
+|t:|1750725989
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Reuniclus|Reuniclus, L50, M|100/100
+|switch|p2a: Niyagi|Flutter Mane, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p2a: Niyagi|ability: Protosynthesis
+|-start|p2a: Niyagi|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nrld)
+|
+|t:|1750726012
+|-end|p2a: Niyagi|Protosynthesis|[silent]
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Reuniclus|atk|1
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: salvx|move: Tailwind
+|move|p1a: Koraidon|Flare Blitz|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|54/100
+|-damage|p1a: Koraidon|86/100|[from] Recoil
+|move|p1b: Reuniclus|Trick Room|p1b: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1b: Reuniclus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750726033
+|move|p2b: Tornadus|Taunt|p1b: Reuniclus
+|-start|p1b: Reuniclus|move: Taunt
+|cant|p1b: Reuniclus|move: Taunt|Encore
+|move|p1a: Koraidon|Collision Course|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750726041
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|3
+|
+|t:|1750726048
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Reuniclus|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Reuniclus|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Reuniclus|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750726052
+|switch|p2a: Niyagi|Flutter Mane, L50|100/100
+|-activate|p2a: Niyagi|ability: Protosynthesis
+|-start|p2a: Niyagi|protosynthesisspa
+|turn|4
+|
+|t:|1750726066
+|move|p1b: Reuniclus|Psychic|p2a: Niyagi
+|-damage|p2a: Niyagi|49/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Niyagi
+|-damage|p2a: Niyagi|0 fnt
+|faint|p2a: Niyagi
+|-end|p2a: Niyagi|Protosynthesis|[silent]
+|-damage|p1a: Koraidon|75/100|[from] Recoil
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Koraidon|45/100
+|-damage|p1b: Reuniclus|26/100
+|-unboost|p1b: Reuniclus|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1b: Reuniclus|move: Taunt
+|-sideend|p2: salvx|move: Tailwind
+|upkeep
+|turn|5
+|-message|salvx forfeited.
+|
+|win|nrld
+|raw|nrld's rating: 1264 &rarr; <strong>1287</strong><br />(+23 for winning)
+|raw|salvx's rating: 1239 &rarr; <strong>1216</strong><br />(-23 for losing)
+|l|☆salvx
+|player|p2|
+|l|☆nrld
+|player|p1|

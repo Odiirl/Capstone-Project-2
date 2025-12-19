@@ -1,0 +1,175 @@
+|j|☆Kingbingboi
+|j|☆mauveracor
+|t:|1750740488
+|gametype|doubles
+|player|p1|Kingbingboi|steven|1221
+|player|p2|mauveracor|101|1330
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Grafaiai, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mauveracor)
+|inactive|mauveracor has 60 seconds left.
+|inactive|mauveracor has 30 seconds left.
+|
+|t:|1750740551
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Grafaiai|Grafaiai, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisdef
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|mauveracor has 30 seconds left.
+|
+|t:|1750740580
+|-terastallize|p2b: Lunala|Fairy
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Grafaiai|Knock Off|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|44/100
+|move|p1a: Brute Bonnet|Spore|p2b: Lunala
+|-status|p2b: Lunala|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|50/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Kingbingboi has 30 seconds left.
+|
+|t:|1750740611
+|cant|p2b: Lunala|slp
+|move|p1b: Koraidon|Close Combat|p2a: Grafaiai
+|-damage|p2a: Grafaiai|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Grafaiai
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Brute Bonnet|Pollen Puff|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|98/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750740633
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|3
+|
+|t:|1750740649
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|2/100
+|cant|p2b: Lunala|slp
+|move|p1a: Brute Bonnet|Spore|p2a: Zacian
+|-status|p2a: Zacian|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|8/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750740670
+|cant|p2a: Zacian|slp
+|move|p1a: Brute Bonnet|Sucker Punch|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|87/100 slp
+|move|p1b: Koraidon|Flare Blitz|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|-damage|p1b: Koraidon|59/100|[from] Recoil
+|-damage|p1b: Koraidon|50/100|[from] item: Life Orb
+|-curestatus|p2b: Lunala|slp|[msg]
+|move|p2b: Lunala|Moongeist Beam|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750740694
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750740714
+|-terastallize|p1b: Lunala|Fairy
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|75/100
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1b: Lunala|[spread] p1a,p1b
+|-crit|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|-damage|p1b: Lunala|86/100
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-enditem|p2a: Ursaluna|Throat Spray
+|-boost|p2a: Ursaluna|spa|1|[from] item: Throat Spray
+|
+|-weather|none
+|upkeep
+|
+|t:|1750740730
+|switch|p1a: Urshifu|Urshifu, L50, M|100/100
+|turn|6
+|
+|t:|1750740743
+|move|p1b: Lunala|Moonblast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p1a: Urshifu|Iron Head|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|18/100
+|cant|p2b: Lunala|flinch
+|
+|upkeep
+|turn|7
+|-message|mauveracor forfeited.
+|
+|win|Kingbingboi
+|raw|Kingbingboi's rating: 1221 &rarr; <strong>1254</strong><br />(+33 for winning)
+|raw|mauveracor's rating: 1330 &rarr; <strong>1304</strong><br />(-26 for losing)
+|l|☆mauveracor
+|player|p2|
+|l|☆Kingbingboi
+|player|p1|

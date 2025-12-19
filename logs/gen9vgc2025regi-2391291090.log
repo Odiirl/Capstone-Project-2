@@ -1,0 +1,217 @@
+|j|☆Honored1
+|j|☆Auragami
+|t:|1750829600
+|gametype|doubles
+|player|p1|Honored1|silver|
+|player|p2|Auragami|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, M|
+|teampreview|4
+|
+|t:|1750829623
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750829648
+|move|p2a: Gothitelle|Fake Out|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|96/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Honored1|move: Light Screen
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Grimmsnarl|perish3|[silent]
+|-start|p1b: Ho-Oh|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Ho-Oh|flinch
+|
+|-heal|p1b: Ho-Oh|100/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish3
+|-start|p1b: Ho-Oh|perish3
+|-start|p2a: Gothitelle|perish3
+|-start|p1a: Grimmsnarl|perish3
+|upkeep
+|turn|2
+|
+|t:|1750829674
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Honored1|Reflect
+|move|p2b: Scream Tail|Disable|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Disable|Reflect
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Honored1|move: Tailwind
+|
+|-start|p2b: Scream Tail|perish2
+|-start|p1b: Ho-Oh|perish2
+|-start|p1a: Grimmsnarl|perish2
+|-start|p2a: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750829733
+|-terastallize|p2a: Gothitelle|Water
+|move|p1a: Grimmsnarl|Parting Shot|p2b: Scream Tail
+|-unboost|p2b: Scream Tail|atk|1
+|-unboost|p2b: Scream Tail|spa|1
+|
+|t:|1750829738
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100|[from] Parting Shot
+|move|p2b: Scream Tail|Encore||[still]
+|-fail|p2b: Scream Tail
+|move|p1b: Ho-Oh|Brave Bird|p2a: Gothitelle
+|-damage|p2a: Gothitelle|47/100
+|-damage|p1b: Ho-Oh|86/100|[from] Recoil
+|move|p2a: Gothitelle|Psychic|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|73/100
+|
+|-heal|p1b: Ho-Oh|79/100|[from] item: Leftovers
+|-heal|p2a: Gothitelle|54/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish1
+|-start|p1b: Ho-Oh|perish1
+|-start|p2a: Gothitelle|perish1
+|upkeep
+|turn|4
+|
+|t:|1750829774
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Scream Tail|Disable|p1b: Ho-Oh
+|-start|p1b: Ho-Oh|Disable|Brave Bird
+|move|p1b: Ho-Oh|Sacred Fire|p2b: Scream Tail
+|-damage|p2b: Scream Tail|61/100
+|move|p1a: Farigiraf|Psychic Noise|p2b: Scream Tail
+|-resisted|p2b: Scream Tail
+|-damage|p2b: Scream Tail|50/100
+|-start|p2b: Scream Tail|move: Heal Block
+|
+|-heal|p1b: Ho-Oh|85/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish0
+|-start|p1b: Ho-Oh|perish0
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|faint|p1b: Ho-Oh
+|upkeep
+|
+|t:|1750829793
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750829817
+|move|p2b: Koraidon|Close Combat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|42/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|79/100
+|-unboost|p2a: Amoonguss|spa|1
+|move|p1a: Farigiraf|Foul Play|p2a: Amoonguss
+|-damage|p2a: Amoonguss|60/100
+|move|p2a: Amoonguss|Sludge Bomb|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Honored1|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1750829845
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Amoonguss
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2a: Amoonguss|spa|1
+|
+|t:|1750829850
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p2b: Koraidon|Flame Charge|p1a: Farigiraf
+|-crit|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1a: Farigiraf
+|-damage|p2b: Koraidon|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750829861
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|81/100
+|turn|7
+|
+|t:|1750829884
+|-terastallize|p1a: Grimmsnarl|Ghost
+|move|p2b: Koraidon|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2b: Koraidon|51/100|[from] Recoil
+|-damage|p2b: Koraidon|41/100|[from] item: Life Orb
+|move|p1b: Ursaluna|Facade|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750829901
+|switch|p2b: Gothitelle|Gothitelle, L50, M, tera:Water|54/100
+|turn|8
+|
+|t:|1750829916
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Gothitelle|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|78/100 brn
+|move|p1b: Ursaluna|Facade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|60/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|72/100 brn|[from] brn
+|-sideend|p1: Honored1|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750829931
+|move|p2b: Gothitelle|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|45/100 brn
+|move|p1b: Ursaluna|Facade|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|
+|win|Honored1

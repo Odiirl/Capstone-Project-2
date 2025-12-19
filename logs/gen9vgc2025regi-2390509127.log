@@ -1,0 +1,149 @@
+|j|☆juanessamal
+|j|☆lolnezan78
+|t:|1750722013
+|gametype|doubles
+|player|p1|juanessamal|2|1442
+|player|p2|lolnezan78|swimmer-gen4|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750722051
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Gerrard|Tornadus, L50, M|100/100
+|switch|p2b: Vitinha|Smeargle, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750722064
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: juanessamal|move: Light Screen
+|move|p2a: Gerrard|Tailwind|p2a: Gerrard
+|-sidestart|p2: lolnezan78|move: Tailwind
+|move|p2b: Vitinha|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|cant|p1b: Calyrex|slp
+|
+|-ability|p2b: Vitinha|Moody|boost
+|-boost|p2b: Vitinha|spe|2
+|-unboost|p2b: Vitinha|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750722080
+|switch|p2a: Vinicius|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Vinicius|As One
+|-ability|p2a: Vinicius|Unnerve
+|move|p2b: Vitinha|Decorate|p2a: Vinicius
+|-boost|p2a: Vinicius|atk|2
+|-boost|p2a: Vinicius|spa|2
+|cant|p1b: Calyrex|slp
+|move|p1a: Whimsicott|Moonblast|p2b: Vitinha
+|-damage|p2b: Vitinha|13/100
+|-unboost|p2b: Vitinha|spa|1
+|
+|-ability|p2b: Vitinha|Moody|boost
+|-boost|p2b: Vitinha|spd|2
+|-unboost|p2b: Vitinha|def|1
+|upkeep
+|turn|3
+|
+|t:|1750722107
+|-terastallize|p2a: Vinicius|Dark
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: juanessamal|move: Tailwind
+|move|p2b: Vitinha|Decorate|p2a: Vinicius
+|-boost|p2a: Vinicius|atk|2
+|-boost|p2a: Vinicius|spa|2
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Astral Barrage|p2a: Vinicius|[spread] p2a
+|-immune|p2b: Vitinha
+|-resisted|p2a: Vinicius
+|-damage|p2a: Vinicius|69/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Vinicius|Astral Barrage|p1a: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Calyrex
+|-ability|p2a: Vinicius|Grim Neigh|boost
+|-boost|p2a: Vinicius|spa|2
+|-damage|p2a: Vinicius|59/100|[from] item: Life Orb
+|
+|-ability|p2b: Vitinha|Moody|boost
+|-boost|p2b: Vitinha|atk|2
+|-unboost|p2b: Vitinha|spd|1
+|upkeep
+|
+|t:|1750722124
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|4
+|
+|t:|1750722148
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Vitinha|Follow Me|p2b: Vitinha
+|-singleturn|p2b: Vitinha|move: Follow Me
+|move|p1a: Scream Tail|Disable|p2b: Vitinha
+|-start|p2b: Vitinha|Disable|Follow Me
+|move|p2a: Vinicius|Psychic|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-damage|p2a: Vinicius|50/100|[from] item: Life Orb
+|
+|-sideend|p2: lolnezan78|move: Tailwind
+|-ability|p2b: Vitinha|Moody|boost
+|-boost|p2b: Vitinha|spa|2
+|-unboost|p2b: Vitinha|spe|1
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolnezan78)
+|inactive|juanessamal has 60 seconds left.
+|inactive|juanessamal has 30 seconds left.
+|inactive|juanessamal has 20 seconds left.
+|inactive|juanessamal has 15 seconds left.
+|inactive|juanessamal has 10 seconds left.
+|inactive|juanessamal has 5 seconds left.
+|
+|t:|1750722271
+|move|p1a: Scream Tail|Disable|p2a: Vinicius
+|-start|p2a: Vinicius|Disable|Psychic
+|move|p2b: Vitinha|Decorate|p2a: Vinicius
+|-boost|p2a: Vinicius|atk|2
+|-boost|p2a: Vinicius|spa|0
+|move|p2a: Vinicius|Astral Barrage|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-damage|p2a: Vinicius|40/100|[from] item: Life Orb
+|
+|win|lolnezan78
+|raw|juanessamal's rating: 1442 &rarr; <strong>1426</strong><br />(-16 for losing)
+|raw|lolnezan78's rating: 1518 &rarr; <strong>1534</strong><br />(+16 for winning)

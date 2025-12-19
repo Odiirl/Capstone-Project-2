@@ -1,0 +1,178 @@
+|j|☆cordab
+|j|☆Adam2E
+|t:|1750771623
+|gametype|doubles
+|player|p1|cordab|cynthia|1266
+|player|p2|Adam2E|170|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750771664
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Chi-Yu|atk|1
+|turn|1
+|
+|t:|1750771682
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|90/100
+|move|p1b: Chi-Yu|Snarl|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-resisted|p2b: Incineroar
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-damage|p2b: Incineroar|89/100
+|-unboost|p2a: Calyrex|spa|1
+|-unboost|p2b: Incineroar|spa|1
+|move|p2a: Calyrex|Astral Barrage|p1a: Koraidon|[spread] p1a,p1b
+|-crit|p1a: Koraidon
+|-resisted|p1b: Chi-Yu
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Chi-Yu|83/100
+|faint|p1a: Koraidon
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750771687
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750771708
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-enditem|p1b: Calyrex|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750771719
+|switch|p1b: Chi-Yu|Chi-Yu, L50|83/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|3
+|
+|t:|1750771745
+|move|p2a: Calyrex|Protect||[still]
+|-fail|p2a: Calyrex
+|move|p1a: Flutter Mane|Dazzling Gleam|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Incineroar|51/100
+|faint|p2a: Calyrex
+|move|p1b: Chi-Yu|Heat Wave|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|12/100
+|move|p2b: Incineroar|Parting Shot|p1a: Flutter Mane
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1a: Flutter Mane|spa|1
+|
+|t:|1750771757
+|switch|p2b: Garganacl|Garganacl, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750771759
+|switch|p2a: Incineroar|Incineroar, L50, M|12/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Chi-Yu|atk|1
+|turn|4
+|
+|t:|1750771775
+|-terastallize|p1b: Chi-Yu|Ghost
+|move|p2a: Incineroar|Fake Out|p1b: Chi-Yu
+|-immune|p1b: Chi-Yu
+|move|p1a: Flutter Mane|Dazzling Gleam|p2b: Garganacl|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Garganacl|80/100
+|faint|p2a: Incineroar
+|move|p1b: Chi-Yu|Heat Wave|p2b: Garganacl
+|-resisted|p2b: Garganacl
+|-damage|p2b: Garganacl|48/100
+|move|p2b: Garganacl|Salt Cure|p1a: Flutter Mane
+|-crit|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|55/100
+|-start|p1a: Flutter Mane|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Garganacl|54/100|[from] item: Leftovers
+|-damage|p1a: Flutter Mane|42/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750771789
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750771800
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Flutter Mane|Dazzling Gleam|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Garganacl|35/100
+|move|p1b: Chi-Yu|Heat Wave|p2b: Garganacl|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Garganacl
+|-damage|p2b: Garganacl|11/100
+|move|p2b: Garganacl|Salt Cure|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|13/100
+|
+|-weather|none
+|-end|p1a: Flutter Mane|Protosynthesis
+|-heal|p2b: Garganacl|17/100|[from] item: Leftovers
+|-damage|p1a: Flutter Mane|0 fnt|[from] Salt Cure
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|upkeep
+|turn|6
+|-message|cordab forfeited.
+|
+|win|Adam2E
+|raw|cordab's rating: 1266 &rarr; <strong>1245</strong><br />(-21 for losing)
+|raw|Adam2E's rating: 1322 &rarr; <strong>1339</strong><br />(+17 for winning)
+|l|☆cordab
+|player|p1|
+|l|☆Adam2E
+|player|p2|

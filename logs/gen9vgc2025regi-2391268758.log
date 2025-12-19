@@ -1,0 +1,170 @@
+|j|☆DawnsMons
+|j|☆CadaverLuke
+|t:|1750825569
+|gametype|doubles
+|player|p1|DawnsMons|102|1255
+|player|p2|CadaverLuke|266|1132
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DawnsMons)
+|
+|t:|1750825598
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|DawnsMons has 30 seconds left.
+|inactive|DawnsMons has 20 seconds left.
+|inactive|DawnsMons has 15 seconds left.
+|inactive|DawnsMons has 10 seconds left.
+|
+|t:|1750825647
+|-terastallize|p2b: Calyrex|Steel
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: CadaverLuke|move: Tailwind
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: DawnsMons|move: Light Screen
+|move|p2b: Calyrex|Astral Barrage|p1b: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Miraidon|67/100
+|-damage|p1b: Whimsicott|57/100
+|move|p1a: Miraidon|Volt Switch|p2b: Calyrex
+|-damage|p2b: Calyrex|6/100
+|
+|t:|1750825662
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|
+|upkeep
+|turn|2
+|
+|t:|1750825687
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|move|p2a: Whimsicott|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|move|p1b: Whimsicott|Encore|p2a: Whimsicott
+|-start|p2a: Whimsicott|Encore
+|cant|p1a: Lunala|move: Taunt|Trick Room
+|
+|upkeep
+|turn|3
+|inactive|CadaverLuke has 30 seconds left.
+|
+|t:|1750825717
+|switch|p2a: Calyrex|Calyrex-Shadow, L50, tera:Steel|6/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: DawnsMons|move: Tailwind
+|move|p1a: Lunala|Moongeist Beam|p2b: Sylveon
+|-damage|p2b: Sylveon|53/100
+|move|p2b: Sylveon|Hyper Voice|p1b: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Lunala|90/100
+|-damage|p1b: Whimsicott|25/100
+|
+|upkeep
+|turn|4
+|inactive|DawnsMons has 30 seconds left.
+|inactive|CadaverLuke has 30 seconds left.
+|inactive|DawnsMons has 20 seconds left.
+|inactive|DawnsMons has 15 seconds left.
+|inactive|DawnsMons has 10 seconds left.
+|
+|t:|1750825766
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Whimsicott|Moonblast|p2b: Sylveon
+|-crit|p2b: Sylveon
+|-damage|p2b: Sylveon|20/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Sylveon|Hyper Voice|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|70/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-end|p1a: Lunala|move: Taunt
+|-sideend|p2: CadaverLuke|move: Tailwind
+|upkeep
+|
+|t:|1750825778
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|
+|t:|1750825799
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Ursaluna|move: Wide Guard
+|move|p2b: Sylveon|Tera Blast|p1b: Ursaluna
+|-damage|p1b: Ursaluna|74/100
+|move|p1b: Ursaluna|Earthquake|p2b: Sylveon|[spread] p2a,p2b
+|-activate|p1a: Lunala|move: Wide Guard
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Sylveon
+|
+|-sideend|p1: DawnsMons|move: Light Screen
+|-fieldend|move: Electric Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750825818
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|
+|t:|1750825832
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: CadaverLuke|move: Tailwind
+|move|p2b: Kyogre|Water Spout|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Ursaluna|move: Wide Guard
+|move|p1b: Ursaluna|Facade|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|68/100 brn|[from] brn
+|-sideend|p1: DawnsMons|move: Tailwind
+|upkeep
+|turn|7
+|c|☆CadaverLuke|oh i', dumb
+|-message|CadaverLuke forfeited.
+|
+|win|DawnsMons
+|raw|DawnsMons's rating: 1255 &rarr; <strong>1272</strong><br />(+17 for winning)
+|raw|CadaverLuke's rating: 1132 &rarr; <strong>1115</strong><br />(-17 for losing)
+|l|☆CadaverLuke
+|player|p2|
+|l|☆DawnsMons
+|player|p1|

@@ -1,0 +1,158 @@
+|j|☆tomlan
+|j|☆itzlenaluv
+|t:|1750770735
+|gametype|doubles
+|player|p1|tomlan|102|1130
+|player|p2|itzlenaluv|1|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750770750
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Lunala|atk|1
+|turn|1
+|
+|t:|1750770760
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: itzlenaluv|move: Aurora Veil
+|move|p2b: Incineroar|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|31/100
+|-enditem|p1b: Lunala|Sitrus Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tomlan)
+|
+|t:|1750770786
+|-terastallize|p2b: Incineroar|Grass
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p1a: Ursaluna|Headlong Rush|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|81/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2b: Incineroar|Flare Blitz|p1a: Ursaluna
+|-damage|p1a: Ursaluna|38/100 brn
+|-damage|p2b: Incineroar|56/100|[from] Recoil
+|move|p2a: Ninetales|Blizzard|p1b: Lunala|[spread] p1a
+|-activate|p1b: Lunala|move: Protect
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750770803
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|3
+|
+|t:|1750770814
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Amoonguss|Sludge Bomb|p2b: Miraidon
+|-damage|p2b: Miraidon|83/100
+|move|p1b: Lunala|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|76/100
+|-unboost|p2a: Ninetales|spd|1
+|move|p2a: Ninetales|Blizzard|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|-damage|p1b: Lunala|19/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750770832
+|move|p1a: Amoonguss|Spore|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Electric Terrain
+|move|p1b: Lunala|Psychic|p2b: Miraidon
+|-damage|p2b: Miraidon|61/100
+|move|p2a: Ninetales|Blizzard|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-crit|p1b: Lunala
+|-damage|p1a: Amoonguss|38/100
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2b: Miraidon|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|2/100
+|
+|t:|1750770836
+|switch|p2b: Kyurem|Kyurem-White, L50, shiny|100/100|[from] Volt Switch
+|-ability|p2b: Kyurem|Turboblaze
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750770838
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|5
+|
+|t:|1750770848
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|24/100
+|move|p2b: Kyurem|Blizzard|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Flutter Mane|42/100
+|faint|p1a: Amoonguss
+|move|p2a: Ninetales|Blizzard|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|5/100
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Ninetales|[spread] p2a,p2b
+|-supereffective|p2b: Kyurem
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Kyurem|78/100
+|faint|p2a: Ninetales
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750770857
+|switch|p2a: Miraidon|Miraidon, L50|61/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|-message|tomlan forfeited.
+|
+|win|itzlenaluv
+|raw|tomlan's rating: 1130 &rarr; <strong>1104</strong><br />(-26 for losing)
+|raw|itzlenaluv's rating: 1110 &rarr; <strong>1136</strong><br />(+26 for winning)
+|l|☆tomlan
+|player|p1|

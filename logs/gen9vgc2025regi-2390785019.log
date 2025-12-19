@@ -1,0 +1,157 @@
+|j|‽Zart2015
+|j|☆GreenMisfire
+|t:|1750767375
+|gametype|doubles
+|player|p1|Zart2015|169|1306
+|player|p2|GreenMisfire|acetrainer-gen4dp|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Terapagos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GreenMisfire)
+|inactive|Zart2015 has 60 seconds left.
+|
+|t:|1750767419
+|start
+|switch|p1a: Kyurem|Kyurem-White, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Drummer|Rillaboom, L50, M|100/100
+|switch|p2b: Cobra|Urshifu-Rapid-Strike, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Drummer
+|-ability|p1a: Kyurem|Turboblaze
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750767440
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Cobra|Close Combat|p1b: Indeedee
+|-damage|p1b: Indeedee|13/100
+|-unboost|p2b: Cobra|def|1
+|-unboost|p2b: Cobra|spd|1
+|move|p2a: Drummer|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|t:|1750767448
+|switch|p2a: Kiwi|Terapagos, L50, M|100/100|[from] U-turn
+|-activate|p2a: Kiwi|ability: Tera Shift
+|detailschange|p2a: Kiwi|Terapagos-Terastal, L50, M
+|-heal|p2a: Kiwi|100/100|[silent]
+|move|p1a: Kyurem|Blizzard|p2a: Kiwi|[spread] p2a,p2b
+|-resisted|p2b: Cobra
+|-damage|p2a: Kiwi|50/100
+|-damage|p2b: Cobra|32/100
+|
+|-heal|p2a: Kiwi|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750767470
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|2
+|
+|t:|1750767484
+|move|p2a: Kiwi|Protect|p2a: Kiwi
+|-singleturn|p2a: Kiwi|Protect
+|move|p1b: Urshifu|Surging Strikes|p2b: Cobra
+|-resisted|p2b: Cobra
+|-crit|p2b: Cobra
+|-damage|p2b: Cobra|15/100
+|-resisted|p2b: Cobra
+|-crit|p2b: Cobra
+|-damage|p2b: Cobra|0 fnt
+|faint|p2b: Cobra
+|-hitcount|p2: Cobra|2
+|move|p1a: Kyurem|Blizzard|p2a: Kiwi
+|-activate|p2a: Kiwi|move: Protect
+|
+|-heal|p2a: Kiwi|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750767490
+|switch|p2b: Knight|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Knight|As One
+|-ability|p2b: Knight|Unnerve
+|turn|3
+|inactive|Zart2015 has 30 seconds left.
+|
+|t:|1750767522
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-terastallize|p2a: Kiwi|Stellar
+|detailschange|p2a: Kiwi|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Kiwi|71/100|[silent]
+|-ability|p2a: Kiwi|Teraform Zero
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|move|p1b: Urshifu|Surging Strikes|p2b: Knight
+|-crit|p2b: Knight
+|-damage|p2b: Knight|71/100
+|-crit|p2b: Knight
+|-damage|p2b: Knight|44/100
+|-crit|p2b: Knight
+|-damage|p2b: Knight|14/100
+|-hitcount|p2b: Knight|3
+|move|p2b: Knight|Psychic|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-ability|p2b: Knight|Grim Neigh|boost
+|-boost|p2b: Knight|spa|1
+|move|p2a: Kiwi|Tera Starstorm|p1a: Kyogre
+|-damage|p1a: Kyogre|64/100
+|
+|-heal|p2a: Kiwi|77/100|[from] item: Leftovers
+|upkeep
+|inactive|Zart2015 has 30 seconds left.
+|
+|t:|1750767548
+|switch|p1b: Kyurem|Kyurem-White, L50|100/100
+|-ability|p1b: Kyurem|Turboblaze
+|turn|4
+|
+|t:|1750767562
+|move|p2b: Knight|Astral Barrage|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|11/100
+|-damage|p1b: Kyurem|31/100
+|move|p1b: Kyurem|Blizzard|p2b: Knight|[spread] p2b
+|-miss|p1b: Kyurem|p2a: Kiwi
+|-enditem|p1b: Kyurem|Blunder Policy
+|-boost|p1b: Kyurem|spe|2
+|-damage|p2b: Knight|0 fnt
+|faint|p2b: Knight
+|move|p1a: Kyogre|Origin Pulse|p2a: Kiwi
+|-damage|p2a: Kiwi|34/100
+|move|p2a: Kiwi|Tera Starstorm|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Kyurem|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Kyurem
+|
+|win|GreenMisfire
+|raw|Zart2015's rating: 1306 &rarr; <strong>1290</strong><br />(-16 for losing)
+|raw|GreenMisfire's rating: 1379 &rarr; <strong>1395</strong><br />(+16 for winning)
+|l|‽Zart2015
+|player|p1|
+|l|☆GreenMisfire
+|player|p2|

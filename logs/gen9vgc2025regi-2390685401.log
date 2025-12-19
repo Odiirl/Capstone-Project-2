@@ -1,0 +1,143 @@
+|j|☆a130681
+|j|☆Bicentenario
+|t:|1750749535
+|gametype|doubles
+|player|p1|a130681|ghetsis|1352
+|player|p2|Bicentenario|170|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Toedscruel, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|
+|t:|1750749560
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Toedscruel|Toedscruel, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750749570
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Indeedee|41/100
+|-damage|p2b: Calyrex|82/100
+|move|p1b: Toedscruel|Spore|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Spore
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750749598
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Toedscruel|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Toedscruel
+|-crit|p1b: Toedscruel
+|-damage|p1a: Calyrex|82/100
+|-enditem|p1b: Toedscruel|Focus Sash
+|-damage|p1b: Toedscruel|1/100
+|move|p1a: Calyrex|High Horsepower|p2b: Calyrex
+|-damage|p2b: Calyrex|57/100
+|move|p1b: Toedscruel|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1750749621
+|move|p1b: Toedscruel|Rage Powder|p1b: Toedscruel
+|-singleturn|p1b: Toedscruel|move: Rage Powder
+|move|p2a: Urshifu|Wicked Blow|p1b: Toedscruel
+|-crit|p1b: Toedscruel
+|-damage|p1b: Toedscruel|0 fnt
+|faint|p1b: Toedscruel
+|cant|p2b: Calyrex|slp
+|move|p1a: Calyrex|Glacial Lance|p2a: Urshifu|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Urshifu|43/100
+|-damage|p2b: Calyrex|39/100 slp
+|
+|upkeep
+|
+|t:|1750749634
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|4
+|
+|t:|1750749664
+|-terastallize|p2b: Calyrex|Grass
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Urshifu|Wicked Blow|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|44/100
+|-curestatus|p2b: Calyrex|slp|[msg]
+|move|p2b: Calyrex|Seed Bomb|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Urshifu|[spread] p2a,p2b
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Urshifu
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750749670
+|switch|p2b: Lunala|Lunala, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|41/100 slp
+|turn|5
+|
+|t:|1750749699
+|cant|p2a: Indeedee|slp
+|move|p1a: Calyrex|Glacial Lance|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Lunala|55/100
+|faint|p2a: Indeedee
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Kyogre|Water Spout|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|win|a130681
+|raw|a130681's rating: 1352 &rarr; <strong>1378</strong><br />(+26 for winning)
+|raw|Bicentenario's rating: 1464 &rarr; <strong>1438</strong><br />(-26 for losing)
+|l|☆Bicentenario
+|player|p2|
+|l|☆a130681
+|player|p1|

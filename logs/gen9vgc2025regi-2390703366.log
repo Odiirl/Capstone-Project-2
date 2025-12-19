@@ -1,0 +1,197 @@
+|j|☆raezan
+|j|☆duoduoa
+|t:|1750753047
+|gametype|doubles
+|player|p1|raezan|hugh|1633
+|player|p2|duoduoa|101|1555
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by duoduoa)
+|
+|t:|1750753066
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1750753083
+|-terastallize|p1a: Calyrex|Dark
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: Raging Bolt|Electroweb|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Calyrex|72/100
+|-damage|p1b: Indeedee|72/100
+|-unboost|p1a: Calyrex|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|
+|upkeep
+|turn|2
+|inactive|raezan has 30 seconds left.
+|
+|t:|1750753115
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1a: Calyrex|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|62/100|[from] item: Life Orb
+|move|p2b: Raging Bolt|Electroweb|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Calyrex|31/100
+|-damage|p1b: Indeedee|39/100
+|-unboost|p1a: Calyrex|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750753134
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750753150
+|-terastallize|p2b: Raging Bolt|Electric
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Raging Bolt|Electroweb|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750753156
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750753173
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Brute Bonnet|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|move|p2b: Raging Bolt|Draco Meteor|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|cant|p2a: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750753188
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2b: Ogerpon|Mold Breaker
+|move|p1b: Brute Bonnet|Spore|p2b: Ogerpon
+|-immune|p2b: Ogerpon
+|move|p1a: Koraidon|Swords Dance|p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Astral Barrage|p1b: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Koraidon|46/100
+|-damage|p1b: Brute Bonnet|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750753210
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Brute Bonnet|Spore|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Koraidon|Close Combat|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p1a: Koraidon|33/100|[from] Spiky Shield|[of] p2b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750753226
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1b: Brute Bonnet
+|move|p2a: Calyrex|Astral Barrage|p1b: Brute Bonnet|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750753247
+|move|p2a: Calyrex|Astral Barrage|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Brute Bonnet|39/100
+|faint|p1a: Koraidon
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Brute Bonnet|[anim] Ivy Cudgel Fire
+|-supereffective|p1b: Brute Bonnet
+|-crit|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|
+|win|duoduoa
+|raw|raezan's rating: 1633 &rarr; <strong>1609</strong><br />(-24 for losing)
+|raw|duoduoa's rating: 1555 &rarr; <strong>1579</strong><br />(+24 for winning)
+|l|☆raezan
+|player|p1|
+|l|☆duoduoa
+|player|p2|

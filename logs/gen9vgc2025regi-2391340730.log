@@ -1,0 +1,146 @@
+|j|☆Mameon
+|j|‽glowsharp
+|t:|1750839548
+|gametype|doubles
+|player|p1|Mameon|red|1242
+|player|p2|glowsharp|nate|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mameon)
+|
+|t:|1750839585
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|inactive|Mameon has 30 seconds left.
+|inactive|Mameon has 20 seconds left.
+|inactive|glowsharp has 30 seconds left.
+|
+|t:|1750839627
+|-terastallize|p1a: Miraidon|Fairy
+|-terastallize|p2a: Kyogre|Steel
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|move|p1b: Iron Hands|Wild Charge|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839633
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|2
+|
+|t:|1750839649
+|move|p2a: Urshifu|Surging Strikes|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|70/100
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|40/100
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|12/100
+|-hitcount|p1a: Miraidon|3
+|move|p2b: Flutter Mane|Moonblast|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|43/100
+|move|p1a: Miraidon|Electro Drift|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|move|p1b: Iron Hands|Wild Charge|p2b: Flutter Mane
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|-damage|p1b: Iron Hands|29/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839662
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|inactive|Mameon has 30 seconds left.
+|
+|t:|1750839688
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2a: Calyrex|Glacial Lance|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839700
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Scraggy|Scraggy, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Scraggy|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|4
+|
+|t:|1750839721
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Scraggy|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|47/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750839739
+|move|p1b: Scraggy|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|win|Mameon
+|raw|Mameon's rating: 1242 &rarr; <strong>1274</strong><br />(+32 for winning)
+|raw|glowsharp's rating: 1341 &rarr; <strong>1315</strong><br />(-26 for losing)

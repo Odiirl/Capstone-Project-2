@@ -1,0 +1,173 @@
+|j|☆WeWantBreathOfFire
+|j|☆Cdogp
+|t:|1750796983
+|gametype|doubles
+|player|p1|WeWantBreathOfFire|pryce|1657
+|player|p2|Cdogp|wattson|1582
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Ogerpon, L50, F|
+|teampreview|4
+|
+|t:|1750797012
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Eternatus|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|1
+|
+|t:|1750797034
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|76/100
+|move|p2a: Smeargle|Decorate|p2b: Kyogre
+|-boost|p2b: Kyogre|atk|2
+|-boost|p2b: Kyogre|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|82/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750797046
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|move|p2b: Kyogre|Water Spout|p1a: Eternatus|[spread] p1a,p1b
+|-resisted|p1a: Eternatus
+|-end|p1a: Eternatus|Substitute
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|88/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|
+|t:|1750797055
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|3
+|
+|t:|1750797064
+|move|p1b: Kyogre|Water Spout|p2a: Smeargle|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-damage|p2b: Kyogre|66/100
+|move|p2a: Smeargle|Spore|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Spore
+|cant|p1a: Eternatus|slp
+|move|p2b: Kyogre|Water Spout|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Eternatus
+|-resisted|p1b: Kyogre
+|-damage|p1a: Eternatus|49/100 slp
+|-damage|p1b: Kyogre|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|56/100 slp|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|4
+|
+|t:|1750797085
+|move|p1b: Kyogre|Water Spout|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2b: Kyogre|54/100
+|faint|p2a: Smeargle
+|cant|p1a: Eternatus|slp
+|move|p2b: Kyogre|Origin Pulse|p1b: Kyogre|[spread] p1b
+|-miss|p2b: Kyogre|p1a: Eternatus
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eternatus|62/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750797093
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1750797127
+|move|p2a: Basculegion|Last Respects|p1a: Eternatus
+|-damage|p1a: Eternatus|39/100 slp
+|-damage|p2a: Basculegion|91/100|[from] item: Life Orb
+|cant|p1a: Eternatus|slp
+|move|p2b: Kyogre|Origin Pulse|p1b: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1a: Eternatus
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Brute Bonnet|19/100
+|faint|p1a: Eternatus
+|move|p1b: Brute Bonnet|Bullet Seed|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|25/100
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-hitcount|p2: Kyogre|2
+|
+|-weather|none
+|upkeep
+|
+|t:|1750797134
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750797145
+|move|p2a: Basculegion|Last Respects|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p2a: Basculegion|81/100|[from] item: Life Orb
+|
+|win|Cdogp
+|raw|WeWantBreathOfFire's rating: 1657 &rarr; <strong>1633</strong><br />(-24 for losing)
+|raw|Cdogp's rating: 1582 &rarr; <strong>1606</strong><br />(+24 for winning)
+|l|☆Cdogp
+|player|p2|
+|l|☆WeWantBreathOfFire
+|player|p1|

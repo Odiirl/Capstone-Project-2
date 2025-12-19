@@ -1,0 +1,139 @@
+|j|☆RinEU
+|j|☆Jechtron
+|t:|1750825581
+|gametype|doubles
+|player|p1|RinEU|102|1098
+|player|p2|Jechtron|170|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750825617
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-item|p2a: Calyrex|Leftovers|[from] ability: Frisk|[of] p1b: Gothitelle
+|-item|p2b: Urshifu|Focus Sash|[from] ability: Frisk|[of] p1b: Gothitelle
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750825642
+|-terastallize|p1b: Gothitelle|Water
+|move|p1b: Gothitelle|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|96/100
+|move|p1a: Scream Tail|Perish Song|p1a: Scream Tail
+|-start|p1a: Scream Tail|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Calyrex|perish3|[silent]
+|-start|p2b: Urshifu|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2b: Urshifu|flinch
+|move|p2a: Calyrex|Glacial Lance|p1a: Scream Tail|[spread] p1a,p1b
+|-resisted|p1b: Gothitelle
+|-damage|p1a: Scream Tail|57/100
+|-damage|p1b: Gothitelle|74/100
+|
+|-heal|p1b: Gothitelle|80/100|[from] item: Leftovers
+|-start|p1a: Scream Tail|perish3
+|-start|p2b: Urshifu|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p2a: Calyrex|perish3
+|upkeep
+|turn|2
+|
+|t:|1750825677
+|move|p1a: Scream Tail|Encore||[still]
+|-fail|p1a: Scream Tail
+|move|p2b: Urshifu|Surging Strikes|p1a: Scream Tail
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|42/100
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|27/100
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|11/100
+|-hitcount|p1a: Scream Tail|3
+|move|p1b: Gothitelle|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1b: Gothitelle|[spread] p1a,p1b
+|-resisted|p1b: Gothitelle
+|-damage|p1a: Scream Tail|0 fnt
+|-damage|p1b: Gothitelle|52/100
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-heal|p1b: Gothitelle|59/100|[from] item: Leftovers
+|-start|p2b: Urshifu|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p2a: Calyrex|perish2
+|upkeep
+|
+|t:|1750825702
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|3
+|
+|t:|1750825720
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|move|p1a: Incineroar|Protect|p1a: Incineroar
+|-singleturn|p1a: Incineroar|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] 
+|-activate|p1a: Incineroar|move: Protect
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-heal|p1b: Gothitelle|65/100|[from] item: Leftovers
+|-start|p1b: Gothitelle|perish1
+|-start|p2a: Calyrex|perish1
+|upkeep
+|turn|4
+|
+|t:|1750825745
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|96/100
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|cant|p1a: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|RinEU forfeited.
+|
+|win|Jechtron
+|raw|RinEU's rating: 1098 &rarr; <strong>1075</strong><br />(-23 for losing)
+|raw|Jechtron's rating: 1115 &rarr; <strong>1139</strong><br />(+24 for winning)
+|l|☆RinEU
+|player|p1|
+|l|☆Jechtron
+|player|p2|

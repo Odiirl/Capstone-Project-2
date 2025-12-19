@@ -1,0 +1,126 @@
+|j|☆JordiUnderscore
+|j|☆agazal
+|t:|1750745738
+|gametype|doubles
+|player|p1|JordiUnderscore|dawn|1222
+|player|p2|agazal|parasollady|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JordiUnderscore)
+|inactive|agazal has 60 seconds left.
+|
+|t:|1750745769
+|start
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750745785
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Astral Barrage|p1a: Hitmontop|[spread] 
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-activate|p1b: Urshifu|move: Wide Guard
+|move|p1b: Urshifu|Surging Strikes|p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|79/100
+|-damage|p1b: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|54/100
+|-damage|p1b: Urshifu|68/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|33/100
+|-damage|p1b: Urshifu|51/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-hitcount|p2b: Indeedee|3
+|
+|upkeep
+|turn|2
+|
+|t:|1750745807
+|move|p1b: Urshifu|Detect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Psyshock|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p1a: Hitmontop|Close Combat|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|-damage|p1a: Hitmontop|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1750745815
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|3
+|
+|t:|1750745831
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1a: Hitmontop|[spread] 
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-activate|p1b: Miraidon|move: Wide Guard
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|86/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750745855
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Raging Bolt|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|13/100
+|move|p2b: Raging Bolt|Dragon Pulse|p1b: Miraidon
+|-immune|p1b: Miraidon
+|
+|upkeep
+|turn|5
+|-message|agazal forfeited.
+|
+|win|JordiUnderscore
+|raw|JordiUnderscore's rating: 1222 &rarr; <strong>1252</strong><br />(+30 for winning)
+|raw|agazal's rating: 1295 &rarr; <strong>1265</strong><br />(-30 for losing)
+|l|☆agazal
+|player|p2|
+|l|☆JordiUnderscore
+|player|p1|

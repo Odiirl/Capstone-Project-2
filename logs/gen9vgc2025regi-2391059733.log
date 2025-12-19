@@ -1,0 +1,210 @@
+|j|☆SherLP999
+|j|☆jacre22
+|t:|1750797831
+|gametype|doubles
+|player|p1|SherLP999|scientist-gen4|1079
+|player|p2|jacre22|iris-gen5bw2|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ambipom, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gyarados, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|teampreview|4
+|
+|t:|1750797862
+|start
+|switch|p1a: Ambipom|Ambipom, L50, F|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-enditem|p2b: Roaring Moon|Booster Energy
+|-activate|p2b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2b: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750797888
+|-terastallize|p2b: Roaring Moon|Ghost
+|move|p1a: Ambipom|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|80/100
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: jacre22|move: Tailwind
+|cant|p2a: Kyogre|flinch
+|move|p1b: Eternatus|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kyogre|74/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1750797926
+|move|p1a: Ambipom|Protect|p1a: Ambipom
+|-singleturn|p1a: Ambipom|Protect
+|move|p2b: Roaring Moon|Acrobatics|p1b: Eternatus
+|-damage|p1b: Eternatus|69/100
+|move|p2a: Kyogre|Ice Beam|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|24/100
+|move|p1b: Eternatus|Dynamax Cannon|p2a: Kyogre
+|-damage|p2a: Kyogre|35/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|30/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|22/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750797959
+|move|p1b: Eternatus|Protect|p1b: Eternatus
+|-singleturn|p1b: Eternatus|Protect
+|move|p2b: Roaring Moon|Acrobatics|p1b: Eternatus
+|-activate|p1b: Eternatus|move: Protect
+|move|p2a: Kyogre|Origin Pulse|p1a: Ambipom|[spread] p1a
+|-activate|p1b: Eternatus|move: Protect
+|-enditem|p1a: Ambipom|Focus Sash
+|-damage|p1a: Ambipom|1/100
+|move|p1a: Ambipom|U-turn|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|t:|1750797979
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750797988
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|4
+|
+|t:|1750798021
+|move|p2b: Roaring Moon|Protect|p2b: Roaring Moon
+|-singleturn|p2b: Roaring Moon|Protect
+|move|p2a: Zacian|Play Rough|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: jacre22|move: Tailwind
+|upkeep
+|
+|t:|1750798032
+|switch|p1b: Ambipom|Ambipom, L50, F|1/100
+|turn|5
+|
+|t:|1750798049
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Ambipom|Fake Out|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p2b: Roaring Moon|Knock Off|p1b: Ambipom
+|-damage|p1b: Ambipom|0 fnt
+|faint|p1b: Ambipom
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|none
+|upkeep
+|
+|t:|1750798059
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|6
+|
+|t:|1750798094
+|move|p2b: Roaring Moon|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|97/100
+|move|p2a: Zacian|Behemoth Blade|p1b: Amoonguss
+|-damage|p1b: Amoonguss|9/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|34/100|[from] item: Sitrus Berry
+|move|p1a: Zamazenta|Body Press|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|move|p1b: Amoonguss|Toxic|p2b: Roaring Moon
+|-status|p2b: Roaring Moon|tox
+|
+|-damage|p2b: Roaring Moon|95/100 tox|[from] psn
+|upkeep
+|
+|t:|1750798107
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|t:|1750798144
+|move|p2b: Roaring Moon|Acrobatics|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|93/100
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|
+|-damage|p2b: Roaring Moon|83/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750798166
+|move|p2b: Roaring Moon|Acrobatics|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Zamazenta|[miss]
+|-miss|p2a: Chien-Pao|p1a: Zamazenta
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-damage|p2b: Roaring Moon|65/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750798180
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Roaring Moon|Acrobatics|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|-damage|p2b: Roaring Moon|41/100 tox|[from] psn
+|upkeep
+|turn|10
+|c|☆jacre22|gg
+|-message|jacre22 forfeited.
+|
+|win|SherLP999
+|raw|SherLP999's rating: 1079 &rarr; <strong>1108</strong><br />(+29 for winning)
+|raw|jacre22's rating: 1094 &rarr; <strong>1069</strong><br />(-25 for losing)
+|l|☆jacre22
+|player|p2|
+|c|☆SherLP999|ggwp
+|l|☆SherLP999
+|player|p1|

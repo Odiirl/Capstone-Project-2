@@ -1,0 +1,240 @@
+|j|☆psaida
+|j|☆vloggers
+|t:|1750830114
+|gametype|doubles
+|player|p1|psaida|cameraman|1281
+|player|p2|vloggers|ghetsis|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vloggers)
+|
+|t:|1750830150
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Moltres|Moltres-Galar, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750830167
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Rillaboom|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|87/100
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: psaida|move: Tailwind
+|move|p2b: Moltres|Tailwind|p2b: Moltres
+|-sidestart|p2: vloggers|move: Tailwind
+|
+|upkeep
+|turn|2
+|inactive|vloggers has 30 seconds left.
+|
+|t:|1750830199
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|switch|p2b: Landorus|Landorus-Therian, L50, M, shiny|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Iron Bundle|atk|1
+|move|p1a: Miraidon|Electro Drift|p2b: Landorus
+|-immune|p2b: Landorus
+|move|p2a: Rillaboom|U-turn|p1a: Miraidon
+|-damage|p1a: Miraidon|64/100
+|
+|t:|1750830215
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|upkeep
+|turn|3
+|
+|t:|1750830224
+|-terastallize|p1b: Iron Bundle|Ice
+|move|p1b: Iron Bundle|Icy Wind|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Landorus
+|-damage|p2a: Calyrex|70/100
+|-damage|p2b: Landorus|0 fnt
+|-unboost|p2a: Calyrex|spe|1
+|faint|p2b: Landorus
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750830233
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Moltres|Moltres-Galar, L50, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-end|p1b: Iron Bundle|Quark Drive
+|turn|4
+|
+|t:|1750830239
+|-terastallize|p2b: Moltres|Fairy
+|move|p2a: Rillaboom|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|51/100
+|move|p1b: Iron Bundle|Icy Wind|p2b: Moltres|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|64/100
+|-damage|p2b: Moltres|76/100
+|-unboost|p2a: Rillaboom|spe|1
+|cant|p1a: Miraidon|flinch
+|move|p2b: Moltres|Fiery Wrath|p1b: Iron Bundle|[spread] p1a,p1b
+|-damage|p1a: Miraidon|23/100
+|-damage|p1b: Iron Bundle|43/100
+|
+|-heal|p1b: Iron Bundle|49/100|[from] Grassy Terrain
+|-heal|p1a: Miraidon|29/100|[from] Grassy Terrain
+|-heal|p2b: Moltres|82/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|69/100|[from] Grassy Terrain
+|-sideend|p1: psaida|move: Tailwind
+|-sideend|p2: vloggers|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750830248
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|12/100
+|move|p1b: Iron Bundle|Encore|p2a: Rillaboom
+|-start|p2a: Rillaboom|Encore
+|move|p1a: Miraidon|Electro Drift|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|
+|-heal|p1b: Iron Bundle|55/100|[from] Grassy Terrain
+|-heal|p1a: Miraidon|18/100|[from] Grassy Terrain
+|-heal|p2b: Moltres|88/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750830265
+|move|p2a: Rillaboom|Grassy Glide|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p1b: Iron Bundle|Encore|p2b: Moltres
+|-start|p2b: Moltres|Encore
+|move|p2b: Moltres|Protect||[still]
+|-fail|p2b: Moltres
+|
+|-heal|p1b: Iron Bundle|62/100|[from] Grassy Terrain
+|-heal|p2b: Moltres|94/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750830272
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750830295
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Calyrex
+|-damage|p1a: Calyrex|59/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres|[spread] p2a
+|-activate|p2b: Moltres|move: Protect
+|-damage|p2a: Rillaboom|43/100
+|move|p1b: Iron Bundle|Freeze-Dry|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Calyrex|64/100|[from] Grassy Terrain
+|-heal|p1b: Iron Bundle|68/100|[from] Grassy Terrain
+|-heal|p2b: Moltres|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750830307
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|move|p1b: Iron Bundle|Freeze-Dry|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|
+|-heal|p1a: Calyrex|70/100|[from] Grassy Terrain
+|-heal|p1b: Iron Bundle|74/100|[from] Grassy Terrain
+|-end|p2b: Moltres|Encore
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750830322
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres
+|-damage|p2b: Moltres|30/100
+|-ability|p2b: Moltres|Berserk|boost
+|-boost|p2b: Moltres|spa|1
+|move|p1b: Iron Bundle|Encore|p2b: Moltres
+|-start|p2b: Moltres|Encore
+|move|p2b: Moltres|Protect||[still]
+|-fail|p2b: Moltres
+|
+|upkeep
+|turn|10
+|
+|t:|1750830329
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|move|p1b: Iron Bundle|Freeze-Dry|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1750830332
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|move|p1b: Iron Bundle|Freeze-Dry|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|
+|-end|p2b: Moltres|Encore
+|upkeep
+|turn|12
+|
+|t:|1750830337
+|move|p1a: Calyrex|Astral Barrage|p2b: Moltres
+|-damage|p2b: Moltres|0 fnt
+|faint|p2b: Moltres
+|
+|win|psaida
+|raw|psaida's rating: 1281 &rarr; <strong>1305</strong><br />(+24 for winning)
+|raw|vloggers's rating: 1271 &rarr; <strong>1247</strong><br />(-24 for losing)
+|l|☆vloggers
+|player|p2|
+|l|☆psaida
+|player|p1|

@@ -1,0 +1,165 @@
+|j|☆lazyp
+|j|☆GhostWindShowdown
+|t:|1750825687
+|gametype|doubles
+|player|p1|lazyp|caitlin|1142
+|player|p2|GhostWindShowdown|brycenman|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Shiftry, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Breloom, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GhostWindShowdown)
+GhostWindShowdown has agreed to open team sheets.
+|
+|t:|1750825712
+|start
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Sneasler|Electric Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750825737
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2a: Sneasler|Fake Out|p1a: Garchomp
+|-damage|p1a: Garchomp|87/100
+|-damage|p2a: Sneasler|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p2b: Miraidon|Snarl|p1a: Garchomp|[spread] p1a
+|-activate|p1b: Lunala|move: Protect
+|-damage|p1a: Garchomp|64/100
+|-unboost|p1a: Garchomp|spa|1
+|-damage|p2b: Miraidon|91/100|[from] item: Life Orb
+|cant|p1a: Garchomp|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750825758
+|-terastallize|p2b: Miraidon|Fairy
+|-terastallize|p1b: Lunala|Ghost
+|move|p2a: Sneasler|Throat Chop|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|76/100
+|-start|p1b: Lunala|Throat Chop|[silent]
+|-enditem|p1b: Lunala|Weakness Policy
+|-boost|p1b: Lunala|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Lunala|spa|2|[from] item: Weakness Policy
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1b: Lunala|37/100
+|faint|p1a: Garchomp
+|-damage|p2b: Miraidon|81/100|[from] item: Life Orb
+|move|p1b: Lunala|Tailwind|p1b: Lunala
+|-sidestart|p1: lazyp|move: Tailwind
+|
+|upkeep
+|
+|t:|1750825781
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|3
+|inactive|GhostWindShowdown has 30 seconds left.
+|inactive|GhostWindShowdown has 20 seconds left.
+|
+|t:|1750825819
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|move|p1a: Iron Valiant|Wide Guard|p1a: Iron Valiant
+|-singleturn|p1a: Iron Valiant|Wide Guard
+|move|p2a: Sneasler|Dire Claw|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|move|p1b: Lunala|Moongeist Beam|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-end|p1b: Lunala|Throat Chop|[silent]
+|upkeep
+|
+|t:|1750825832
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|81/100
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750825842
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p2a: Miraidon|Snarl|p1a: Necrozma|[spread] p1a
+|-activate|p1b: Lunala|move: Protect
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|57/100
+|-unboost|p1a: Necrozma|spa|1
+|-damage|p2a: Miraidon|71/100|[from] item: Life Orb
+|move|p1a: Necrozma|Heat Wave|p2b: Maushold|[spread] p2a,p2b
+|-damage|p2a: Miraidon|58/100
+|-damage|p2b: Maushold|69/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750825865
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1b: Lunala|Moonblast|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p2a: Miraidon|Electro Drift|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-damage|p2a: Miraidon|48/100|[from] item: Life Orb
+|move|p1a: Necrozma|Photon Geyser|p2a: Miraidon
+|-damage|p2a: Miraidon|8/100
+|
+|-sideend|p1: lazyp|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750825878
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|
+|t:|1750825889
+|move|p2a: Miraidon|Draco Meteor|p1a: Necrozma
+|-crit|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Necrozma
+|-damage|p2a: Miraidon|0 fnt|[from] item: Life Orb
+|faint|p2a: Miraidon
+|
+|win|GhostWindShowdown
+|raw|lazyp's rating: 1142 &rarr; <strong>1124</strong><br />(-18 for losing)
+|raw|GhostWindShowdown's rating: 1236 &rarr; <strong>1254</strong><br />(+18 for winning)
+|c|☆GhostWindShowdown|GG, that was a cool team
+|l|☆lazyp
+|player|p1|
+|l|☆GhostWindShowdown
+|player|p2|

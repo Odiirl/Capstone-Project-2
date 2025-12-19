@@ -1,0 +1,131 @@
+|j|☆Leexinze
+|j|☆fabioso421
+|t:|1750737733
+|gametype|doubles
+|player|p1|Leexinze|elesa|1218
+|player|p2|fabioso421|scientist|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Lunala, L50|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fabioso421)
+|inactive|Leexinze has 60 seconds left.
+|
+|t:|1750737796
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|switch|p2a: Gyarados|Gyarados, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Excadrill|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1750737818
+|move|p2b: Whimsicott|Protect|p2b: Whimsicott
+|-singleturn|p2b: Whimsicott|Protect
+|move|p1b: Excadrill|Iron Head|p2b: Whimsicott
+|-activate|p2b: Whimsicott|move: Protect
+|move|p2a: Gyarados|Aqua Tail|p1b: Excadrill|[miss]
+|-miss|p2a: Gyarados|p1b: Excadrill
+|move|p1a: Tyranitar|Rock Slide|p2b: Whimsicott|[spread] p2a
+|-activate|p2b: Whimsicott|move: Protect
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Whimsicott|95/100|[from] Sandstorm
+|-damage|p2a: Gyarados|39/100|[from] Sandstorm
+|-heal|p2a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Leexinze has 30 seconds left.
+|inactive|fabioso421 has 30 seconds left.
+|
+|t:|1750737850
+|switch|p1a: Lunala|Lunala, L50|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: fabioso421|move: Tailwind
+|move|p1b: Excadrill|Iron Head|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|2/100
+|move|p2a: Gyarados|Aqua Tail|p1b: Excadrill
+|-supereffective|p1b: Excadrill
+|-enditem|p1b: Excadrill|Focus Sash
+|-damage|p1b: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Whimsicott|0 fnt|[from] Sandstorm
+|-damage|p2a: Gyarados|39/100|[from] Sandstorm
+|faint|p2b: Whimsicott
+|-heal|p2a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737866
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|
+|t:|1750737891
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|44/100
+|move|p1b: Excadrill|High Horsepower|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|32/100
+|move|p2a: Gyarados|Aqua Tail|p1b: Excadrill
+|-supereffective|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|39/100|[from] Sandstorm
+|-damage|p2b: Miraidon|26/100|[from] Sandstorm
+|-heal|p2a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737904
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|turn|4
+|
+|t:|1750737919
+|move|p1b: Tyranitar|Rock Slide|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Gyarados
+|faint|p2b: Miraidon
+|move|p1a: Lunala|Moongeist Beam|p2: Gyarados|[notarget]
+|-fail|p1a: Lunala
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|fabioso421 forfeited.
+|
+|win|Leexinze
+|raw|Leexinze's rating: 1218 &rarr; <strong>1246</strong><br />(+28 for winning)
+|raw|fabioso421's rating: 1255 &rarr; <strong>1227</strong><br />(-28 for losing)
+|l|☆fabioso421
+|player|p2|
+|l|☆Leexinze
+|player|p1|

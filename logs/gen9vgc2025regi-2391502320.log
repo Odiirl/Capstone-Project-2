@@ -1,0 +1,141 @@
+|j|☆SL1D
+|j|☆Mr.cxk
+|t:|1750863753
+|gametype|doubles
+|player|p1|SL1D|blue|1373
+|player|p2|Mr.cxk|swimmerf-gen4|1489
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SL1D)
+|
+|t:|1750863775
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p1b: Moltres|Moltres-Galar, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750863785
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Moltres|Nasty Plot|p1b: Moltres
+|-boost|p1b: Moltres|spa|2
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750863803
+|-terastallize|p2b: Urshifu|Water
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1b: Moltres|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Moltres|move: Wide Guard
+|move|p2b: Urshifu|Surging Strikes|p1b: Moltres
+|-crit|p1b: Moltres
+|-damage|p1b: Moltres|57/100
+|-crit|p1b: Moltres
+|-damage|p1b: Moltres|13/100
+|-crit|p1b: Moltres
+|-damage|p1b: Moltres|0 fnt
+|faint|p1b: Moltres
+|-hitcount|p1: Moltres|3
+|
+|upkeep
+|
+|t:|1750863819
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|3
+|
+|t:|1750863825
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|move|p1b: Amoonguss|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2a: Calyrex|slp
+|move|p1a: Zamazenta|Body Press|p2b: Indeedee
+|-damage|p2b: Indeedee|34/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750863842
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Amoonguss|Spore|p2b: Indeedee
+|-activate|p2b: Indeedee|item: Safety Goggles|Spore
+|cant|p2a: Calyrex|slp
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|61/100 slp
+|
+|upkeep
+|turn|5
+|inactive|SL1D has 30 seconds left.
+|
+|t:|1750863875
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Amoonguss|Pollen Puff|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|38/100 slp
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Zamazenta
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Zamazenta|25/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750863882
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|6
+|-message|SL1D forfeited.
+|
+|win|Mr.cxk
+|raw|SL1D's rating: 1373 &rarr; <strong>1359</strong><br />(-14 for losing)
+|raw|Mr.cxk's rating: 1489 &rarr; <strong>1503</strong><br />(+14 for winning)
+|l|☆SL1D
+|player|p1|
+|l|☆Mr.cxk
+|player|p2|

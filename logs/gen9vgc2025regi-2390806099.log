@@ -1,0 +1,183 @@
+|j|☆KhankoRex
+|j|☆UpsideDownLegend
+|t:|1750770343
+|gametype|doubles
+|player|p1|KhankoRex|266|1482
+|player|p2|UpsideDownLegend|2|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Corviknight, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KhankoRex)
+|inactive|UpsideDownLegend has 60 seconds left.
+|
+|t:|1750770413
+|start
+|switch|p1a: Okidogi|Okidogi, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p2b: Incineroar|Intimidate|boost
+|-ability|p1a: Okidogi|Guard Dog|boost
+|-boost|p1a: Okidogi|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750770435
+|move|p1a: Okidogi|Upper Hand|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|23/100
+|cant|p2b: Incineroar|flinch
+|move|p1b: Miraidon|Volt Switch|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|t:|1750770446
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|move|p2a: Miraidon|Electro Drift|p1a: Okidogi
+|-damage|p1a: Okidogi|11/100
+|
+|upkeep
+|inactive|UpsideDownLegend has 30 seconds left.
+|inactive|UpsideDownLegend has 20 seconds left.
+|
+|t:|1750770482
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750770493
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|92/100
+|cant|p2a: Miraidon|flinch
+|move|p1a: Okidogi|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|46/100
+|-enditem|p2b: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Okidogi
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|3
+|inactive|KhankoRex has 30 seconds left.
+|inactive|UpsideDownLegend has 30 seconds left.
+|
+|t:|1750770520
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|-terastallize|p2b: Calyrex|Water
+|move|p2b: Calyrex|Glacial Lance|p1a: Chien-Pao|[spread] p1a,p1b
+|-resisted|p1a: Chien-Pao
+|-resisted|p1b: Incineroar
+|-damage|p1a: Chien-Pao|62/100
+|-damage|p1b: Incineroar|73/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|27/100
+|-damage|p1b: Incineroar|66/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|inactive|KhankoRex has 30 seconds left.
+|inactive|UpsideDownLegend has 30 seconds left.
+|
+|t:|1750770554
+|move|p1a: Chien-Pao|Ice Shard|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|move|p2b: Calyrex|Leech Seed|p1b: Incineroar
+|-start|p1b: Incineroar|move: Leech Seed
+|move|p1b: Incineroar|Parting Shot|p2b: Calyrex
+|-unboost|p2b: Calyrex|atk|1
+|-unboost|p2b: Calyrex|spa|1
+|
+|t:|1750770564
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|
+|upkeep
+|inactive|UpsideDownLegend has 30 seconds left.
+|
+|t:|1750770595
+|switch|p2a: Miraidon|Miraidon, L50|92/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|inactive|KhankoRex has 30 seconds left.
+|inactive|UpsideDownLegend has 30 seconds left.
+|inactive|KhankoRex has 20 seconds left.
+|
+|t:|1750770634
+|switch|p1b: Incineroar|Incineroar, L50, F|66/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-terastallize|p1a: Chien-Pao|Stellar
+|move|p1a: Chien-Pao|Ice Shard|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|27/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Chien-Pao
+|-resisted|p1b: Incineroar
+|-damage|p1a: Chien-Pao|45/100
+|-damage|p1b: Incineroar|53/100
+|move|p2a: Miraidon|Electro Drift|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750770653
+|switch|p1a: Okidogi|Okidogi, L50, M|11/100
+|turn|6
+|
+|t:|1750770676
+|move|p1b: Incineroar|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|21/100
+|cant|p2b: Calyrex|flinch
+|move|p1a: Okidogi|Drain Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-heal|p1a: Okidogi|25/100|[from] drain|[of] p2a: Miraidon
+|faint|p2a: Miraidon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750770691
+|move|p1a: Okidogi|Drain Punch|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-heal|p1a: Okidogi|36/100|[from] drain|[of] p2b: Calyrex
+|faint|p2b: Calyrex
+|
+|win|KhankoRex
+|raw|KhankoRex's rating: 1482 &rarr; <strong>1498</strong><br />(+16 for winning)
+|raw|UpsideDownLegend's rating: 1409 &rarr; <strong>1393</strong><br />(-16 for losing)
+|l|☆KhankoRex
+|player|p1|
+|l|☆UpsideDownLegend
+|player|p2|

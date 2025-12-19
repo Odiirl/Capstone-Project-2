@@ -1,0 +1,151 @@
+|j|☆iqofnothing
+|j|☆Crh6
+|t:|1750867442
+|gametype|doubles
+|player|p1|iqofnothing|clown|1260
+|player|p2|Crh6|red|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Bruxish, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Scizor, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Crh6)
+|inactive|Crh6 has 60 seconds left.
+|
+|t:|1750867485
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750867509
+|-terastallize|p1a: Roaring Moon|Flying
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1a: Roaring Moon|Tailwind|p1a: Roaring Moon
+|-sidestart|p1: iqofnothing|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2b: Flutter Mane|[spread] p2a
+|-activate|p2b: Flutter Mane|move: Protect
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|53/100
+|move|p2a: Raging Bolt|Electroweb|p1a: Roaring Moon|[spread] p1a,p1b
+|-supereffective|p1a: Roaring Moon
+|-supereffective|p1b: Kyogre
+|-damage|p1a: Roaring Moon|54/100
+|-damage|p1b: Kyogre|65/100
+|-unboost|p1a: Roaring Moon|spe|1
+|-unboost|p1b: Kyogre|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750867532
+|move|p2a: Raging Bolt|Thunderclap|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|7/100
+|move|p1a: Roaring Moon|Acrobatics|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Kyogre|Water Spout|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|49/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867545
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|3
+|
+|t:|1750867555
+|move|p2a: Raging Bolt|Thunderclap|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|move|p2b: Zacian|Sacred Sword|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867559
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Scizor|Scizor, L50, M|100/100
+|turn|4
+|inactive|Crh6 has 30 seconds left.
+|
+|t:|1750867585
+|move|p1b: Scizor|Bullet Punch|p2b: Zacian
+|-damage|p2b: Zacian|51/100
+|move|p1a: Landorus|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Zacian|Sacred Sword|p1b: Scizor
+|-damage|p1b: Scizor|46/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: iqofnothing|move: Tailwind
+|upkeep
+|
+|t:|1750867597
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|turn|5
+|
+|t:|1750867605
+|-terastallize|p2b: Zacian|Steel
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p1b: Scizor|Bullet Punch|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|26/100
+|move|p2b: Zacian|Sacred Sword|p1b: Scizor
+|-damage|p1b: Scizor|0 fnt
+|faint|p1b: Scizor
+|move|p2a: Kyogre|Water Spout|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|iqofnothing forfeited.
+|
+|win|Crh6
+|raw|iqofnothing's rating: 1260 &rarr; <strong>1233</strong><br />(-27 for losing)
+|raw|Crh6's rating: 1233 &rarr; <strong>1260</strong><br />(+27 for winning)
+|l|☆iqofnothing
+|player|p1|
+|l|☆Crh6
+|player|p2|

@@ -1,0 +1,143 @@
+|j|☆Avi 2007
+|j|☆Snorlax Pro Max
+|t:|1750766856
+|gametype|doubles
+|player|p1|Avi 2007|rei|1196
+|player|p2|Snorlax Pro Max|steven|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Sandy Shocks, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Mamoswine, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750766872
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Avi 2007)
+|
+|t:|1750766899
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Whimsicott|Fake Tears|p2b: Calyrex
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p1a: Calyrex|Astral Barrage|p2a: Ninetales|[spread] p2a,p2b
+|-damage|p2a: Ninetales|41/100
+|-damage|p2b: Calyrex|64/100
+|move|p2a: Ninetales|Blizzard|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Calyrex|73/100
+|-damage|p1b: Whimsicott|39/100
+|-status|p1a: Calyrex|frz
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750766924
+|switch|p2b: Mamoswine|Mamoswine, L50, M|100/100
+|move|p1b: Whimsicott|Encore|p2b: Mamoswine|[miss]
+|-miss|p1b: Whimsicott|p2b: Mamoswine
+|move|p2a: Ninetales|Blizzard|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Calyrex|45/100 frz
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|-curestatus|p1a: Calyrex|frz|[msg]
+|move|p1a: Calyrex|Astral Barrage|p2b: Mamoswine|[spread] p2a,p2b
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Mamoswine|32/100
+|faint|p2a: Ninetales
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750766941
+|switch|p1b: Sandy Shocks|Sandy Shocks, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Water|64/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750766957
+|move|p1b: Sandy Shocks|Protect|p1b: Sandy Shocks
+|-singleturn|p1b: Sandy Shocks|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Mamoswine|Ice Shard|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p1b: Sandy Shocks|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750766976
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Mamoswine|Ice Shard|p1b: Sandy Shocks
+|-supereffective|p1b: Sandy Shocks
+|-damage|p1b: Sandy Shocks|47/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-supereffective|p1b: Sandy Shocks
+|-damage|p1b: Sandy Shocks|0 fnt
+|faint|p1b: Sandy Shocks
+|-end|p1b: Sandy Shocks|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750766987
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750766996
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Mamoswine|Ice Shard|p1b: Miraidon
+|-damage|p1b: Miraidon|75/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Miraidon
+|
+|win|Snorlax Pro Max
+|raw|Avi 2007's rating: 1196 &rarr; <strong>1171</strong><br />(-25 for losing)
+|raw|Snorlax Pro Max's rating: 1190 &rarr; <strong>1215</strong><br />(+25 for winning)
+|l|☆Avi 2007
+|player|p1|
+|l|☆Snorlax Pro Max
+|player|p2|

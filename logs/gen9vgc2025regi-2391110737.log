@@ -1,0 +1,165 @@
+|j|☆DayneGerous
+|j|☆Micbee
+|t:|1750803777
+|gametype|doubles
+|player|p1|DayneGerous|unknown|1052
+|player|p2|Micbee|lucas|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dudunsparce-*, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Stonjourner, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Muk, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DayneGerous)
+|inactive|Micbee has 60 seconds left.
+|inactive|DayneGerous has 60 seconds left.
+|
+|t:|1750803842
+|start
+|switch|p1a: Muk|Muk, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1750803857
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Micbee|move: Light Screen
+|move|p2a: Groudon|Precipice Blades|p1a: Muk|[spread] p1a,p1b
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|-damage|p1b: Hatterene|46/100
+|faint|p1a: Muk
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803868
+|switch|p1a: Dudunsparce|Dudunsparce, L50, M|100/100
+|turn|2
+|
+|t:|1750803887
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Hatterene
+|move|p1b: Hatterene|Thunder Wave|p2b: Grimmsnarl|[from] ability: Magic Bounce
+|-status|p2b: Grimmsnarl|par
+|move|p1b: Hatterene|Psychic|p2a: Groudon
+|-damage|p2a: Groudon|77/100
+|move|p1a: Dudunsparce|Rock Slide|p2a: Groudon|[spread] p2a,p2b
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|72/100
+|-damage|p2b: Grimmsnarl|81/100 par
+|move|p2a: Groudon|Precipice Blades|p1a: Dudunsparce|[spread] p1a,p1b
+|-damage|p1a: Dudunsparce|49/100
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803901
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750803908
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Lunala
+|-status|p1b: Lunala|par
+|move|p1b: Lunala|Calm Mind|p1b: Lunala
+|-boost|p1b: Lunala|spa|1
+|-boost|p1b: Lunala|spd|1
+|move|p1a: Dudunsparce|Rock Slide|p2a: Groudon|[spread] p2a,p2b
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|65/100
+|-damage|p2b: Grimmsnarl|63/100 par
+|cant|p2a: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750803927
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Lunala
+|-damage|p1b: Lunala|89/100 par
+|-unboost|p1b: Lunala|spa|1
+|cant|p1b: Lunala|par
+|move|p1a: Dudunsparce|Rock Slide|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2a: Groudon
+|-damage|p2a: Groudon|60/100
+|-damage|p2b: Grimmsnarl|46/100 par
+|cant|p2a: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750803946
+|cant|p2b: Grimmsnarl|par
+|cant|p1b: Lunala|par
+|move|p1a: Dudunsparce|Body Slam|p2a: Groudon
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|21/100
+|move|p2a: Groudon|Precipice Blades|p1a: Dudunsparce|[spread] p1a,p1b
+|-damage|p1a: Dudunsparce|0 fnt
+|-damage|p1b: Lunala|53/100 par
+|faint|p1a: Dudunsparce
+|
+|-weather|none
+|-heal|p1b: Lunala|59/100 par|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|Micbee has 30 seconds left.
+|inactive|Micbee has 20 seconds left.
+|inactive|Micbee has 15 seconds left.
+|inactive|Micbee has 10 seconds left.
+|
+|t:|1750803995
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Lunala
+|-activate|p1b: Lunala|move: Protect
+|
+|-heal|p1b: Lunala|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750804007
+|move|p2a: Zamazenta|Heavy Slam|p1b: Lunala
+|-damage|p1b: Lunala|25/100 par
+|move|p1b: Lunala|Heat Wave|p2a: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2a: Zamazenta
+|-crit|p2b: Grimmsnarl
+|-damage|p2a: Zamazenta|77/100
+|-damage|p2b: Grimmsnarl|8/100 par
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|Micbee
+|raw|DayneGerous's rating: 1052 &rarr; <strong>1036</strong><br />(-16 for losing)
+|raw|Micbee's rating: 1081 &rarr; <strong>1107</strong><br />(+26 for winning)
+|l|☆DayneGerous
+|player|p1|
+|l|☆Micbee
+|player|p2|

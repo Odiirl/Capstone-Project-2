@@ -1,0 +1,161 @@
+|j|☆alfre22
+|j|☆jorgeta
+|t:|1750856551
+|gametype|doubles
+|player|p1|alfre22|benga|1534
+|player|p2|jorgeta|169|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Glimmora, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alfre22)
+|
+|t:|1750856572
+|start
+|switch|p1a: Glimmora|Glimmora, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|1
+|
+|t:|1750856581
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2b: Flutter Mane|Icy Wind|p1a: Glimmora|[spread] p1b
+|-activate|p1a: Glimmora|move: Protect
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|94/100
+|-unboost|p1b: Volcarona|spe|1
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|
+|upkeep
+|
+|t:|1750856597
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750856608
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Glimmora|Mortal Spin|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|99/100
+|-damage|p2b: Indeedee|97/100
+|-status|p2a: Lunala|psn
+|-status|p2b: Indeedee|psn
+|-enditem|p2b: Indeedee|Eject Button
+|
+|t:|1750856619
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|move|p2a: Lunala|Expanding Force|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Glimmora
+|-crit|p1b: Calyrex
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-damage|p1b: Calyrex|10/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-heal|p1b: Calyrex|16/100|[from] item: Leftovers
+|-damage|p2a: Lunala|88/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750856637
+|-terastallize|p2a: Lunala|Water
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Lunala|Expanding Force|p1a: Glimmora|[spread] 
+|-activate|p1a: Glimmora|move: Protect
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Flutter Mane|Icy Wind|p1b: Calyrex|[spread] 
+|-activate|p1a: Glimmora|move: Protect
+|-activate|p1b: Calyrex|move: Protect
+|
+|-heal|p1b: Calyrex|22/100|[from] item: Leftovers
+|-damage|p2a: Lunala|76/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750856654
+|move|p1b: Calyrex|Glacial Lance|p2b: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|51/100 psn
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|move|p2a: Lunala|Expanding Force|p1a: Glimmora|[spread] p1a,p1b
+|-supereffective|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Glimmora
+|faint|p1b: Calyrex
+|move|p2b: Flutter Mane|Icy Wind|p1: Glimmora|[notarget]
+|-fail|p2b: Flutter Mane
+|
+|-damage|p2a: Lunala|39/100 psn|[from] psn
+|upkeep
+|
+|t:|1750856662
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750856672
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Indeedee|Indeedee-F, L50, F|97/100 psn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p2a: Lunala|Expanding Force|p1b: Miraidon
+|-damage|p1b: Miraidon|14/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|21/100 psn
+|-damage|p2b: Indeedee|68/100 psn
+|
+|-damage|p2b: Indeedee|55/100 psn|[from] psn
+|-damage|p2a: Lunala|9/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750856688
+|move|p2b: Indeedee|Psychic|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|jorgeta
+|raw|alfre22's rating: 1534 &rarr; <strong>1513</strong><br />(-21 for losing)
+|raw|jorgeta's rating: 1525 &rarr; <strong>1546</strong><br />(+21 for winning)
+|l|☆alfre22
+|player|p1|
+|c|☆jorgeta|gg
+|l|☆jorgeta
+|player|p2|

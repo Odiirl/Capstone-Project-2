@@ -1,0 +1,193 @@
+|j|‽Ndjdhdhd
+|j|☆TCM Zaukepoo
+|t:|1750798279
+|gametype|doubles
+|player|p1|Ndjdhdhd|170|1196
+|player|p2|TCM Zaukepoo|1|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Yanmega, L50, M|
+|poke|p1|Iron Crown, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Groudon, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Muk-Alola, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TCM Zaukepoo)
+|
+|t:|1750798305
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Muk|Muk-Alola, L50, M, shiny|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750798317
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Smeargle|Spore|p1b: Indeedee
+|-activate|p1b: Indeedee|item: Safety Goggles|Spore
+|move|p1a: Calyrex|Glacial Lance|p2a: Muk|[spread] p2a,p2b
+|-damage|p2a: Muk|42/100
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p2a: Muk|48/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750798330
+|-terastallize|p2a: Muk|Water
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Glacial Lance|p2b: Smeargle|[spread] p2a,p2b
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|18/100
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-ability|p2a: Muk|Moody|[from] ability: Power of Alchemy|[of] p2b: Smeargle
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p2a: Muk|24/100|[from] item: Leftovers
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|atk|2
+|-unboost|p2a: Muk|spa|1
+|upkeep
+|
+|t:|1750798333
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|inactive|Ndjdhdhd has 30 seconds left.
+|
+|t:|1750798359
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Rillaboom|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|92/100
+|cant|p1a: Calyrex|flinch
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|98/100|[from] Grassy Terrain
+|-heal|p2a: Muk|30/100|[from] Grassy Terrain
+|-heal|p2a: Muk|37/100|[from] item: Leftovers
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spe|2
+|-unboost|p2a: Muk|def|1
+|upkeep
+|turn|4
+|
+|t:|1750798374
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Muk|Knock Off|p1b: Groudon
+|-damage|p1b: Groudon|58/100
+|-enditem|p1b: Groudon|Life Orb|[from] move: Knock Off|[of] p2a: Muk
+|move|p1b: Groudon|Heat Crash|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|move|p2b: Rillaboom|Wood Hammer|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2b: Rillaboom|78/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750798389
+|switch|p1b: Calyrex|Calyrex-Ice, L50|98/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750798401
+|move|p2b: Rillaboom|Wood Hammer|p1b: Calyrex
+|-damage|p1b: Calyrex|60/100
+|-damage|p2b: Rillaboom|64/100|[from] Recoil
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Calyrex|83/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Indeedee|47/100
+|-damage|p1b: Calyrex|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750798422
+|move|p1a: Indeedee|Psychic|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|71/100
+|move|p1b: Calyrex|Throat Chop|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|11/100
+|-start|p2a: Calyrex|Throat Chop|[silent]
+|move|p2a: Calyrex|Glacial Lance|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Calyrex|19/100
+|faint|p1a: Indeedee
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750798432
+|switch|p1a: Iron Crown|Iron Crown, L50|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|7
+|-message|TCM Zaukepoo forfeited.
+|
+|win|Ndjdhdhd
+|raw|Ndjdhdhd's rating: 1196 &rarr; <strong>1224</strong><br />(+28 for winning)
+|raw|TCM Zaukepoo's rating: 1237 &rarr; <strong>1209</strong><br />(-28 for losing)
+|l|☆TCM Zaukepoo
+|player|p2|
+|l|‽Ndjdhdhd
+|player|p1|

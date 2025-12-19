@@ -1,0 +1,123 @@
+|j|☆givi
+|j|☆joshimitsu
+|t:|1750861862
+|gametype|doubles
+|player|p1|givi|101|1256
+|player|p2|joshimitsu|dragontamer|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slither Wing, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chandelure, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|
+|t:|1750861886
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Magmar|Magmar, L50, F|100/100
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by givi)
+|
+|t:|1750861913
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Magmar|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Magmar
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|78/100
+|cant|p1a: Miraidon|flinch
+|move|p2b: Raging Bolt|Dragon Pulse|p1a: Miraidon
+|-immune|p1a: Miraidon
+|
+|upkeep
+|turn|2
+|
+|t:|1750861937
+|-terastallize|p2b: Raging Bolt|Electric
+|move|p1b: Magmar|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Magmar
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|54/100
+|cant|p1a: Miraidon|flinch
+|move|p2b: Raging Bolt|Electroweb|p1b: Magmar|[spread] p1a,p1b
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Magmar|70/100
+|-unboost|p1b: Magmar|spe|1
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750861948
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1750861966
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1b: Magmar|Helping Hand|p1a: Groudon
+|-singleturn|p1a: Groudon|Helping Hand|[of] p1b: Magmar
+|move|p1a: Groudon|Precipice Blades|p2b: Ho-Oh|[spread] p2a
+|-immune|p2b: Ho-Oh
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861979
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750861987
+|switch|p1a: Slither Wing|Slither Wing, L50|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|move|p1b: Magmar|Heat Wave|p2b: Ho-Oh|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|givi forfeited.
+|
+|win|joshimitsu
+|raw|givi's rating: 1256 &rarr; <strong>1234</strong><br />(-22 for losing)
+|raw|joshimitsu's rating: 1300 &rarr; <strong>1322</strong><br />(+22 for winning)
+|l|☆givi
+|player|p1|
+|l|☆joshimitsu
+|player|p2|

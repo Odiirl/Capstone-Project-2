@@ -1,0 +1,152 @@
+|j|☆Jordy Alba
+|j|☆IronAurora
+|t:|1750767643
+|gametype|doubles
+|player|p1|Jordy Alba|266|1220
+|player|p2|IronAurora|101|1305
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zapdos-Galar, L50|
+|poke|p1|Thundurus-Therian, L50, M|
+|poke|p1|Kleavor, L50, M|
+|poke|p1|Giratina, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|
+|t:|1750767678
+|start
+|switch|p1a: Zapdos|Zapdos-Galar, L50|100/100
+|switch|p1b: Kleavor|Kleavor, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750767707
+|-terastallize|p1a: Zapdos|Ground
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: IronAurora|move: Tailwind
+|move|p2a: Miraidon|Electro Drift|p1b: Kleavor
+|-damage|p1b: Kleavor|0 fnt
+|faint|p1b: Kleavor
+|move|p1a: Zapdos|Thunderous Kick|p2a: Miraidon
+|-damage|p2a: Miraidon|44/100
+|-unboost|p2a: Miraidon|def|1
+|
+|upkeep
+|
+|t:|1750767725
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750767736
+|switch|p2a: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|move|p2b: Whimsicott|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|48/100
+|move|p1b: Miraidon|Discharge|p2b: Whimsicott|[spread] p2a,p2b
+|-immune|p1a: Zapdos
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Farigiraf|17/100
+|-damage|p2b: Whimsicott|37/100
+|-status|p2b: Whimsicott|par
+|move|p1a: Zapdos|Tailwind|p1a: Zapdos
+|-sidestart|p1: Jordy Alba|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1750767763
+|move|p2b: Whimsicott|Encore|p1a: Zapdos
+|-start|p1a: Zapdos|Encore
+|move|p1b: Miraidon|Discharge|p2a: Farigiraf|[spread] p2a,p2b
+|-immune|p1a: Zapdos
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2a: Farigiraf
+|faint|p2b: Whimsicott
+|move|p1a: Zapdos|Tailwind||[still]
+|-fail|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1750767774
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|44/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|4
+|
+|t:|1750767787
+|switch|p1a: Giratina|Giratina, L50|100/100
+|-terastallize|p2b: Kyogre|Grass
+|move|p1b: Miraidon|Discharge|p2b: Kyogre|[spread] p2a,p2b
+|-activate|p1a: Giratina|ability: Telepathy
+|-resisted|p2a: Miraidon
+|-resisted|p2b: Kyogre
+|-damage|p2a: Miraidon|27/100
+|-damage|p2b: Kyogre|68/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Giratina|[spread] p1a,p1b
+|-supereffective|p1a: Giratina
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Giratina|45/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2b: Kyogre|Origin Pulse|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Giratina|14/100|[from] item: Leftovers
+|-sideend|p2: IronAurora|move: Tailwind
+|upkeep
+|
+|t:|1750767799
+|switch|p1b: Zapdos|Zapdos-Galar, L50, tera:Ground|100/100
+|turn|5
+|
+|t:|1750767814
+|move|p1b: Zapdos|Brave Bird|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1b: Zapdos|81/100|[from] Recoil
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Giratina|[spread] p1b
+|-miss|p2a: Miraidon|p1a: Giratina
+|-damage|p1b: Zapdos|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Giratina|20/100|[from] item: Leftovers
+|-sideend|p1: Jordy Alba|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|c|☆Jordy Alba|gg
+|c|☆Jordy Alba|wo
+|-message|IronAurora forfeited.
+|
+|win|Jordy Alba
+|raw|Jordy Alba's rating: 1220 &rarr; <strong>1251</strong><br />(+31 for winning)
+|raw|IronAurora's rating: 1305 &rarr; <strong>1280</strong><br />(-25 for losing)
+|l|☆IronAurora
+|player|p2|
+|c|☆Jordy Alba|*wp
+|l|☆Jordy Alba
+|player|p1|

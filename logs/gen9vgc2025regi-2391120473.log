@@ -1,0 +1,181 @@
+|j|☆ArtiboniteLadder
+|j|☆peter_polenta
+|t:|1750804971
+|gametype|doubles
+|player|p1|ArtiboniteLadder|firebreather|1389
+|player|p2|peter_polenta|169|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Dialga, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750804991
+|start
+|switch|p1a: Dialga|Dialga, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750805030
+|move|p1a: Dialga|Protect|p1a: Dialga
+|-singleturn|p1a: Dialga|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: peter_polenta|move: Light Screen
+|move|p2b: Miraidon|Volt Switch|p1a: Dialga
+|-activate|p1a: Dialga|move: Protect
+|move|p1b: Ursaluna|Headlong Rush|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Miraidon
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|c|☆ArtiboniteLadder|LOL
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArtiboniteLadder)
+|
+|t:|1750805050
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|2
+|
+|t:|1750805069
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: peter_polenta|Reflect
+|move|p2b: Landorus|Earth Power|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|57/100
+|move|p1b: Ursaluna|Facade|p2b: Landorus
+|-damage|p2b: Landorus|22/100
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750805086
+|move|p2b: Landorus|Earth Power|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Sinistcha|Life Dew|p1a: Sinistcha
+|-heal|p1a: Sinistcha|82/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Sinistcha
+|-damage|p1a: Sinistcha|59/100
+|-unboost|p1a: Sinistcha|spa|1
+|-damage|p2a: Grimmsnarl|84/100|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1750805089
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|4
+|
+|t:|1750805111
+|switch|p1a: Dialga|Dialga, L50|100/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Kyogre
+|-status|p1b: Kyogre|par
+|move|p2b: Landorus|Sludge Bomb|p1a: Dialga
+|-immune|p1a: Dialga
+|move|p1b: Kyogre|Water Spout|p2b: Landorus|[spread] p2a,p2b
+|-supereffective|p2b: Landorus
+|-damage|p2a: Grimmsnarl|22/100
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆ArtiboniteLadder|LOL
+|
+|t:|1750805125
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|inactive|peter_polenta has 30 seconds left.
+|
+|t:|1750805158
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dialga
+|-status|p1a: Dialga|par
+|move|p2b: Calyrex|Leech Seed|p1b: Kyogre
+|-start|p1b: Kyogre|move: Leech Seed
+|move|p1b: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Calyrex|80/100
+|faint|p2a: Grimmsnarl
+|cant|p1a: Dialga|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|86/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|88/100 par|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|98/100|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750805176
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|59/100
+|-heal|p1b: Kyogre|100/100 par|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2b: Calyrex|Leech Seed|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|move|p1b: Kyogre|Thunder|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|67/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|88/100 par|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|79/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750805191
+|switch|p1b: Dialga|Dialga, L50|100/100 par
+|-terastallize|p1a: Sinistcha|Water
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|48/100
+|-heal|p1a: Sinistcha|77/100|[from] drain|[of] p2b: Calyrex
+|-status|p2b: Calyrex|brn
+|move|p2b: Calyrex|Glacial Lance|p1b: Dialga|[spread] p1a,p1b
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|66/100
+|-damage|p1b: Dialga|85/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|54/100 brn|[from] item: Leftovers
+|-damage|p2b: Calyrex|48/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆ArtiboniteLadder|LOOOOOL
+|c|☆ArtiboniteLadder|gg bud
+|-message|peter_polenta forfeited.
+|
+|win|ArtiboniteLadder
+|raw|ArtiboniteLadder's rating: 1389 &rarr; <strong>1415</strong><br />(+26 for winning)
+|raw|peter_polenta's rating: 1494 &rarr; <strong>1468</strong><br />(-26 for losing)
+|l|☆peter_polenta
+|player|p2|
+|l|☆ArtiboniteLadder
+|player|p1|

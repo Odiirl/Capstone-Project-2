@@ -1,0 +1,165 @@
+|j|☆Jogos7241
+|j|☆Dandraker
+|t:|1750849822
+|gametype|doubles
+|player|p1|Jogos7241|2|1302
+|player|p2|Dandraker|102|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jogos7241)
+|
+|t:|1750849852
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Regieleki|Regieleki, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|inactive|Dandraker has 30 seconds left.
+|inactive|Dandraker has 20 seconds left.
+|
+|t:|1750849888
+|-terastallize|p2b: Kyogre|Electric
+|move|p1a: Iron Hands|Fake Out|p2a: Regieleki
+|-damage|p2a: Regieleki|65/100
+|cant|p2a: Regieleki|flinch
+|move|p1b: Miraidon|Volt Switch|p2a: Regieleki
+|-resisted|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|
+|t:|1750849899
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|move|p2b: Kyogre|Origin Pulse|p1b: Iron Bundle|[spread] p1a,p1b
+|-resisted|p1b: Iron Bundle
+|-damage|p1a: Iron Hands|57/100
+|-damage|p1b: Iron Bundle|10/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750849910
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|2
+|
+|t:|1750849921
+|move|p1b: Iron Bundle|Icy Wind|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|93/100
+|-damage|p2b: Kyogre|83/100
+|-unboost|p2a: Zacian|spe|1
+|-unboost|p2b: Kyogre|spe|1
+|move|p2a: Zacian|Behemoth Blade|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|move|p2b: Kyogre|Water Spout|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750849938
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|inactive|Jogos7241 has 30 seconds left.
+|
+|t:|1750849965
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Ho-Oh|unboost|[from] item: Clear Amulet|[of] p1a: Ho-Oh
+|-unboost|p1b: Miraidon|atk|1
+|-terastallize|p1a: Ho-Oh|Grass
+|move|p1b: Miraidon|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: Jogos7241|move: Tailwind
+|move|p2b: Kyogre|Origin Pulse|p1a: Ho-Oh|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-resisted|p1b: Miraidon
+|-damage|p1a: Ho-Oh|71/100
+|-damage|p1b: Miraidon|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750849980
+|switch|p2a: Zacian|Zacian-Crowned, L50|93/100
+|turn|4
+|
+|t:|1750850002
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|35/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p2b: Kyogre|Origin Pulse|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-resisted|p1b: Miraidon
+|-damage|p1a: Ho-Oh|43/100
+|-damage|p1b: Miraidon|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|Jogos7241 has 30 seconds left.
+|inactive|Dandraker has 30 seconds left.
+|
+|t:|1750850033
+|move|p1b: Miraidon|Electro Drift|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Kyogre
+|-damage|p2b: Kyogre|9/100
+|move|p2b: Kyogre|Origin Pulse|p1a: Ho-Oh|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Miraidon
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|15/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|-message|Dandraker forfeited.
+|
+|win|Jogos7241
+|raw|Jogos7241's rating: 1302 &rarr; <strong>1320</strong><br />(+18 for winning)
+|raw|Dandraker's rating: 1262 &rarr; <strong>1240</strong><br />(-22 for losing)
+|l|☆Dandraker
+|player|p2|
+|l|☆Jogos7241
+|player|p1|

@@ -1,0 +1,124 @@
+|j|☆azzazzl
+|j|☆bonobobohemio
+|t:|1750748114
+|gametype|doubles
+|player|p1|azzazzl|dawn|1510
+|player|p2|bonobobohemio|drayden|1470
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Reshiram, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonobobohemio)
+|
+|t:|1750748132
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2b: Reshiram|Reshiram, L50, shiny|100/100
+|-ability|p2b: Reshiram|Turboblaze
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750748143
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Ogerpon|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p2b: Reshiram|Blue Flare|p1b: Indeedee
+|-damage|p1b: Indeedee|17/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750748164
+|move|p1b: Indeedee|Alluring Voice|p2b: Reshiram
+|-damage|p2b: Reshiram|90/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Reshiram
+|-supereffective|p2b: Reshiram
+|-damage|p2b: Reshiram|11/100
+|move|p2b: Reshiram|Blue Flare|p1a: Lunala
+|-damage|p1a: Lunala|71/100
+|-status|p1a: Lunala|brn
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Lunala|[anim] Ivy Cudgel Water
+|-damage|p1a: Lunala|32/100 brn
+|
+|-damage|p1a: Lunala|26/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750748182
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Lunala|Expanding Force|p2b: Indeedee|[spread] p2b
+|-activate|p2a: Ogerpon|move: Protect
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|55/100
+|
+|-damage|p1a: Lunala|20/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750748197
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1b: Calyrex|Glacial Lance|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|72/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Lunala|Expanding Force|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|
+|-damage|p1a: Lunala|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1750748205
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Reshiram|Reshiram, L50, shiny|11/100
+|-ability|p2a: Reshiram|Turboblaze
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|-message|bonobobohemio forfeited.
+|
+|win|azzazzl
+|raw|azzazzl's rating: 1510 &rarr; <strong>1528</strong><br />(+18 for winning)
+|raw|bonobobohemio's rating: 1470 &rarr; <strong>1452</strong><br />(-18 for losing)
+|l|☆bonobobohemio
+|player|p2|
+|l|☆azzazzl
+|player|p1|

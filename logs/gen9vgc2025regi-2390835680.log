@@ -1,0 +1,173 @@
+|j|☆jcjrjsjx
+|j|☆luislegend0712
+|t:|1750773898
+|gametype|doubles
+|player|p1|jcjrjsjx|169|1367
+|player|p2|luislegend0712|102|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Malamar, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Ditto, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Bruxish, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750773948
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Malamar|Malamar, L50, M|100/100
+|switch|p2a: Bruxish|Bruxish, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750773974
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Bruxish|Flip Turn|p1a: Indeedee
+|-damage|p1a: Indeedee|73/100
+|-damage|p2a: Bruxish|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|
+|t:|1750773980
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100|[from] Flip Turn
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|move|p2b: Calyrex|Astral Barrage|p1b: Malamar|[spread] p1b
+|-immune|p1a: Indeedee
+|-damage|p1b: Malamar|19/100
+|move|p1b: Malamar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|48/100
+|-enditem|p2b: Calyrex|Weakness Policy|[from] move: Knock Off|[of] p1b: Malamar
+|
+|upkeep
+|turn|2
+|
+|t:|1750774000
+|move|p2b: Calyrex|Astral Barrage|p1b: Malamar|[spread] p1b
+|-immune|p1a: Indeedee
+|-damage|p1b: Malamar|0 fnt
+|faint|p1b: Malamar
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by luislegend0712)
+|
+|t:|1750774014
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Lunala|Lunala, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750774031
+|switch|p2b: Bruxish|Bruxish, L50, F|84/100
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|turn|4
+|
+|t:|1750774048
+|move|p1b: Calyrex|High Horsepower|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Bruxish|Psychic Fangs|p1b: Calyrex
+|-damage|p1b: Calyrex|70/100
+|
+|upkeep
+|
+|t:|1750774053
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750774061
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Bruxish|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Bruxish
+|-damage|p2b: Bruxish|3/100
+|move|p2b: Bruxish|Psychic Fangs|p1b: Calyrex
+|-damage|p1b: Calyrex|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750774073
+|move|p1b: Calyrex|Glacial Lance|p2b: Bruxish|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-resisted|p2b: Bruxish
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Bruxish|0 fnt
+|faint|p2a: Koraidon
+|faint|p2b: Bruxish
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774078
+|switch|p2b: Calyrex|Calyrex-Shadow, L50, tera:Fire|48/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750774087
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750774094
+|move|p2b: Calyrex|Astral Barrage|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|luislegend0712
+|raw|jcjrjsjx's rating: 1367 &rarr; <strong>1344</strong><br />(-23 for losing)
+|raw|luislegend0712's rating: 1321 &rarr; <strong>1344</strong><br />(+23 for winning)
+|l|☆luislegend0712
+|player|p2|
+|l|☆jcjrjsjx
+|player|p1|

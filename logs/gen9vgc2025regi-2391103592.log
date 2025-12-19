@@ -1,0 +1,157 @@
+|j|☆EepyBumbleBee
+|j|☆BeOurGuest123
+|t:|1750802910
+|gametype|doubles
+|player|p1|EepyBumbleBee|hilbert-wonderlauncher|1068
+|player|p2|BeOurGuest123|102|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Slowking, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Abomasnow, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Iron Jugulis, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BeOurGuest123)
+|
+|t:|1750802939
+|start
+|switch|p1a: Slowking|Slowking, L50, M|100/100
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|-item|p2b: Miraidon|Air Balloon
+|-ability|p1b: Ogerpon|Mold Breaker
+|turn|1
+|inactive|BeOurGuest123 has 30 seconds left.
+|
+|t:|1750802970
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Iron Jugulis|Knock Off|p1b: Ogerpon
+|-damage|p1b: Ogerpon|81/100
+|move|p2b: Miraidon|Volt Switch|p1b: Ogerpon
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|56/100
+|
+|t:|1750802981
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100|[from] Volt Switch
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|upkeep
+|turn|2
+|inactive|BeOurGuest123 has 30 seconds left.
+|inactive|BeOurGuest123 has 20 seconds left.
+|
+|t:|1750803021
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1750803032
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Chilly Reception
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Iron Jugulis|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|79/100
+|-enditem|p1a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Iron Jugulis
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|EepyBumbleBee has 30 seconds left.
+|inactive|BeOurGuest123 has 30 seconds left.
+|
+|t:|1750803063
+|switch|p1b: Slowking|Slowking, L50, M|100/100
+|-terastallize|p2b: Flutter Mane|Fire
+|move|p1a: Calyrex|Glacial Lance|p2b: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2a: Iron Jugulis
+|-resisted|p2b: Flutter Mane
+|-damage|p2a: Iron Jugulis|0 fnt
+|-damage|p2b: Flutter Mane|48/100
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|15/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750803085
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750803110
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Slowking|Heal Pulse|p1a: Calyrex
+|-heal|p1a: Calyrex|65/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803122
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-item|p2b: Miraidon|Air Balloon
+|turn|5
+|
+|t:|1750803141
+|-prepare|p1b: Slowking|Chilly Reception|[premajor]
+|move|p1b: Slowking|Chilly Reception|p1b: Slowking
+|-weather|Snowscape
+|
+|t:|1750803145
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] Chilly Reception
+|move|p1a: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|-enditem|p2b: Miraidon|Air Balloon
+|faint|p2a: Koraidon
+|faint|p2b: Miraidon
+|
+|win|EepyBumbleBee
+|raw|EepyBumbleBee's rating: 1068 &rarr; <strong>1100</strong><br />(+32 for winning)
+|raw|BeOurGuest123's rating: 1088 &rarr; <strong>1063</strong><br />(-25 for losing)
+|l|☆EepyBumbleBee
+|player|p1|

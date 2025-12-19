@@ -1,0 +1,159 @@
+|j|☆Snowy67
+|j|☆SkyOnPS
+|t:|1750824942
+|gametype|doubles
+|player|p1|Snowy67|169|1070
+|player|p2|SkyOnPS|shadowtriad|1180
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Inteleon, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Overqwil, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SkyOnPS)
+SkyOnPS rejected open team sheets.
+|
+|t:|1750824968
+|start
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Inteleon|Inteleon, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750824981
+|move|p1b: Gothitelle|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|95/100
+|move|p1a: Murkrow|Perish Song|p1a: Murkrow
+|-start|p1a: Murkrow|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Miraidon|perish3|[silent]
+|-start|p2b: Inteleon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Inteleon|Soak|p1b: Gothitelle
+|-start|p1b: Gothitelle|typechange|Water
+|cant|p2a: Miraidon|flinch
+|
+|-start|p2b: Inteleon|perish3
+|-start|p2a: Miraidon|perish3
+|-start|p1a: Murkrow|perish3
+|-start|p1b: Gothitelle|perish3
+|upkeep
+|turn|2
+|inactive|Snowy67 has 30 seconds left.
+|
+|t:|1750825009
+|switch|p1b: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p1b: Hitmontop|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Inteleon|atk|1
+|move|p2b: Inteleon|Soak|p1a: Murkrow
+|-start|p1a: Murkrow|typechange|Water
+|move|p2a: Miraidon|Volt Switch|p1b: Hitmontop
+|-damage|p1b: Hitmontop|18/100
+|
+|t:|1750825021
+|switch|p2a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Murkrow|U-turn|p2b: Inteleon
+|-damage|p2b: Inteleon|77/100
+|
+|t:|1750825027
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Inteleon|perish2
+|upkeep
+|turn|3
+|
+|t:|1750825041
+|-terastallize|p2a: Kyogre|Water
+|move|p1b: Hitmontop|Wide Guard|p1b: Hitmontop
+|-singleturn|p1b: Hitmontop|Wide Guard
+|move|p1a: Gothitelle|Fake Out|p2b: Inteleon
+|-damage|p2b: Inteleon|68/100
+|cant|p2b: Inteleon|flinch
+|move|p2a: Kyogre|Water Spout|p1a: Gothitelle|[spread] 
+|-activate|p1a: Gothitelle|move: Wide Guard
+|-activate|p1b: Hitmontop|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Inteleon|perish1
+|upkeep
+|turn|4
+|
+|t:|1750825053
+|move|p1b: Hitmontop|Protect|p1b: Hitmontop
+|-singleturn|p1b: Hitmontop|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Inteleon|Soak|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|move|p2a: Kyogre|Thunder|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Inteleon|perish0
+|faint|p2b: Inteleon
+|upkeep
+|
+|t:|1750825060
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|5
+|
+|t:|1750825084
+|move|p1b: Hitmontop|Wide Guard|p1b: Hitmontop
+|-singleturn|p1b: Hitmontop|Wide Guard
+|move|p2a: Kyogre|Thunder|p1a: Gothitelle
+|-damage|p1a: Gothitelle|62/100
+|move|p1a: Gothitelle|Psychic|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|48/100
+|move|p2b: Amoonguss|Spore|p1b: Hitmontop
+|-activate|p1b: Hitmontop|move: Electric Terrain
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|Snowy67 has 30 seconds left.
+|inactive|SkyOnPS has 30 seconds left.
+|
+|t:|1750825110
+|switch|p1b: Murkrow|Murkrow, L50, F|100/100
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Kyogre|Thunder|p1b: Murkrow
+|-supereffective|p1b: Murkrow
+|-damage|p1b: Murkrow|20/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|-message|Snowy67 forfeited.
+|
+|win|SkyOnPS
+|raw|Snowy67's rating: 1070 &rarr; <strong>1056</strong><br />(-14 for losing)
+|raw|SkyOnPS's rating: 1180 &rarr; <strong>1197</strong><br />(+17 for winning)
+|l|☆Snowy67
+|player|p1|
+|l|☆SkyOnPS
+|player|p2|

@@ -1,0 +1,222 @@
+|j|☆oops i cooked
+|j|☆TridungTang
+|t:|1750832998
+|gametype|doubles
+|player|p1|oops i cooked|preschooler|1112
+|player|p2|TridungTang|n|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Rotom-Heat, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oops i cooked)
+|
+|t:|1750833058
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|oops i cooked has 30 seconds left.
+|inactive|TridungTang has 30 seconds left.
+|inactive|oops i cooked has 20 seconds left.
+|inactive|oops i cooked has 15 seconds left.
+|inactive|oops i cooked has 10 seconds left.
+|inactive|TridungTang has 20 seconds left.
+|inactive|oops i cooked has 5 seconds left.
+|
+|t:|1750833112
+|move|p1a: Gothitelle|Fake Out|p2b: Scream Tail
+|-damage|p2b: Scream Tail|96/100
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|46/100
+|cant|p2b: Scream Tail|flinch
+|move|p2a: Lunala|Moongeist Beam|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|11/100
+|
+|-heal|p2a: Lunala|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750833133
+|-terastallize|p1b: Flutter Mane|Normal
+|-terastallize|p2a: Lunala|Fairy
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Scream Tail
+|-supereffective|p2b: Scream Tail
+|-damage|p2b: Scream Tail|47/100
+|-unboost|p2b: Scream Tail|spd|1
+|move|p2b: Scream Tail|Dazzling Gleam|p1a: Gothitelle|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-damage|p1b: Flutter Mane|83/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Flutter Mane
+|-immune|p1b: Flutter Mane
+|
+|-heal|p2a: Lunala|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750833158
+|switch|p1a: Rotom|Rotom-Heat, L50|100/100
+|move|p1b: Flutter Mane|Moonblast|p2a: Lunala
+|-damage|p2a: Lunala|29/100
+|-unboost|p2a: Lunala|spa|1
+|move|p2b: Scream Tail|Dazzling Gleam|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|-damage|p1b: Flutter Mane|67/100
+|move|p2a: Lunala|Moonlight|p2a: Lunala
+|-heal|p2a: Lunala|79/100
+|
+|-heal|p2a: Lunala|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|oops i cooked has 30 seconds left.
+|inactive|TridungTang has 30 seconds left.
+|inactive|TridungTang has 20 seconds left.
+|
+|t:|1750833197
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Scream Tail
+|-supereffective|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|move|p1a: Rotom|Reflect|p1a: Rotom
+|-sidestart|p1: oops i cooked|Reflect
+|move|p2a: Lunala|Moonlight|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|
+|upkeep
+|
+|t:|1750833205
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750833218
+|move|p1b: Flutter Mane|Perish Song|p1b: Flutter Mane
+|-start|p1a: Rotom|perish3|[silent]
+|-start|p1b: Flutter Mane|perish3|[silent]
+|-start|p2a: Lunala|perish3|[silent]
+|-start|p2b: Koraidon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Koraidon|Collision Course|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|74/100
+|
+|t:|1750833234
+|switch|p1a: Koraidon|Koraidon, L50|100/100|[from] Volt Switch
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Lunala|Moongeist Beam|p1a: Koraidon
+|-damage|p1a: Koraidon|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Koraidon|perish3
+|-start|p2a: Lunala|perish3
+|upkeep
+|
+|t:|1750833249
+|switch|p1b: Gothitelle|Gothitelle, L50, M|11/100
+|turn|6
+|
+|t:|1750833273
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p1a: Koraidon|Close Combat|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Koraidon
+|-damage|p1a: Koraidon|57/100|[from] item: Life Orb
+|move|p2a: Lunala|Moonblast|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Lunala|perish2
+|upkeep
+|
+|t:|1750833286
+|switch|p1a: Rotom|Rotom-Heat, L50|91/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|7
+|
+|t:|1750833305
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|move|p1a: Rotom|Volt Switch|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|68/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Lunala|perish1
+|upkeep
+|turn|8
+|
+|t:|1750833330
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Lunala|perish0
+|-sideend|p1: oops i cooked|Reflect
+|faint|p2a: Lunala
+|upkeep
+|turn|9
+|inactive|oops i cooked has 30 seconds left.
+|
+|t:|1750833361
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|TridungTang
+|raw|oops i cooked's rating: 1112 &rarr; <strong>1088</strong><br />(-24 for losing)
+|raw|TridungTang's rating: 1125 &rarr; <strong>1149</strong><br />(+24 for winning)
+|l|☆oops i cooked
+|player|p1|
+|l|☆TridungTang
+|player|p2|

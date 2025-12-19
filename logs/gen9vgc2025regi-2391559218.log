@@ -1,0 +1,182 @@
+|j|☆ForgotPasswordz
+|j|☆kuronare
+|t:|1750870048
+|gametype|doubles
+|player|p1|ForgotPasswordz|psychic-gen4|1301
+|player|p2|kuronare|n|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ForgotPasswordz)
+|
+|t:|1750870091
+|start
+|switch|p1a: Toxapex|Toxapex, L50, F|100/100
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750870112
+|-terastallize|p2b: Armarouge|Psychic
+|move|p2a: Koraidon|U-turn|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|50/100
+|-ability|p2b: Armarouge|Weak Armor|boost
+|-unboost|p2b: Armarouge|def|1
+|-boost|p2b: Armarouge|spe|2
+|-enditem|p2b: Armarouge|Weakness Policy
+|-boost|p2b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|t:|1750870123
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2b: Armarouge|Heat Wave|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-crit|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|move|p1a: Toxapex|Infestation|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|97/100
+|-activate|p2a: Indeedee|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Indeedee|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1750870141
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750870152
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Calyrex|Astral Barrage|p1b: Urshifu|[spread] 
+|-activate|p1a: Toxapex|move: Wide Guard
+|-activate|p1b: Urshifu|move: Wide Guard
+|move|p1b: Urshifu|Wicked Blow|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870170
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|inactive|kuronare has 30 seconds left.
+|inactive|ForgotPasswordz has 30 seconds left.
+|inactive|kuronare has 20 seconds left.
+|inactive|kuronare has 15 seconds left.
+|
+|t:|1750870212
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2a: Koraidon|Close Combat|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Urshifu
+|move|p2b: Calyrex|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870219
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750870235
+|move|p2a: Koraidon|Close Combat|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|65/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|move|p2b: Calyrex|Expanding Force|p1b: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|42/100
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: Ho-Oh|Brave Bird|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-damage|p1a: Ho-Oh|15/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750870250
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p2b: Calyrex|Psychic|p1a: Ho-Oh
+|-activate|p1a: Ho-Oh|move: Protect
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750870264
+|move|p2b: Calyrex|Psychic|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|win|kuronare
+|raw|ForgotPasswordz's rating: 1301 &rarr; <strong>1279</strong><br />(-22 for losing)
+|raw|kuronare's rating: 1272 &rarr; <strong>1299</strong><br />(+27 for winning)
+|l|☆ForgotPasswordz
+|player|p1|
+|l|☆kuronare
+|player|p2|
+|j|☆kuronare
+|player|p2|kuronare|n|

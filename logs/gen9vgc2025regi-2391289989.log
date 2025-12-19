@@ -1,0 +1,186 @@
+|j|☆szoob busziness
+|j|☆PokeAlquin
+|t:|1750829397
+|gametype|doubles
+|player|p1|szoob busziness|miku-ground|1165
+|player|p2|PokeAlquin|101|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Regidrago, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeAlquin)
+|
+|t:|1750829425
+|start
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Regieleki|Regieleki, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750829449
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p1b: Regieleki|Electroweb|p2b: Scream Tail|[spread] p2a
+|-activate|p2b: Scream Tail|move: Protect
+|-damage|p2a: Koraidon|78/100
+|-unboost|p2a: Koraidon|spe|1
+|move|p2a: Koraidon|Flare Blitz|p1b: Regieleki
+|-damage|p1b: Regieleki|0 fnt
+|faint|p1b: Regieleki
+|-damage|p2a: Koraidon|49/100|[from] Recoil
+|-damage|p2a: Koraidon|39/100|[from] item: Life Orb
+|move|p1a: Necrozma|Meteor Beam||[still]
+|-prepare|p1a: Necrozma|Meteor Beam
+|-boost|p1a: Necrozma|spa|1
+|-enditem|p1a: Necrozma|Power Herb
+|-anim|p1a: Necrozma|Meteor Beam|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|szoob busziness has 30 seconds left.
+|inactive|PokeAlquin has 30 seconds left.
+|
+|t:|1750829475
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|2
+|inactive|PokeAlquin has 30 seconds left.
+|
+|t:|1750829507
+|move|p1b: Indeedee|Helping Hand|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Scream Tail|Encore|p1a: Necrozma
+|-start|p1a: Necrozma|Encore
+|move|p2a: Zacian|Behemoth Blade|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Necrozma|Meteor Beam||[still]
+|-prepare|p1a: Necrozma|Meteor Beam
+|-boost|p1a: Necrozma|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750829518
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750829533
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Necrozma|perish3|[silent]
+|-start|p1b: Koraidon|perish3|[silent]
+|-start|p2a: Zacian|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Zacian|Play Rough|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|66/100
+|-unboost|p1b: Koraidon|atk|1
+|move|p1b: Koraidon|Close Combat|p2a: Zacian
+|-damage|p2a: Zacian|17/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|57/100|[from] item: Life Orb
+|move|p1a: Necrozma|Meteor Beam|p2a: Zacian|[from] lockedmove
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Scream Tail|perish3
+|-start|p1b: Koraidon|perish3
+|-start|p1a: Necrozma|perish3
+|upkeep
+|
+|t:|1750829556
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|turn|4
+|
+|t:|1750829565
+|move|p2a: Gothitelle|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Psychic Terrain
+|move|p2b: Scream Tail|Disable|p1a: Necrozma
+|-start|p1a: Necrozma|Disable|Meteor Beam
+|move|p1b: Koraidon|Flare Blitz|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|-damage|p1b: Koraidon|23/100|[from] Recoil
+|-damage|p1b: Koraidon|14/100|[from] item: Life Orb
+|cant|p1a: Necrozma|Disable|Meteor Beam
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Necrozma|Encore
+|-start|p2b: Scream Tail|perish2
+|-start|p1b: Koraidon|perish2
+|-start|p1a: Necrozma|perish2
+|upkeep
+|turn|5
+|
+|t:|1750829588
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Scream Tail
+|-activate|p2b: Scream Tail|move: Protect
+|move|p1a: Necrozma|Moongeist Beam|p2b: Scream Tail
+|-activate|p2b: Scream Tail|move: Protect
+|
+|-weather|none
+|-end|p2b: Scream Tail|Protosynthesis
+|-start|p2b: Scream Tail|perish1
+|-start|p1b: Koraidon|perish1
+|-start|p1a: Necrozma|perish1
+|upkeep
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|6
+|
+|t:|1750829606
+|move|p2b: Scream Tail|Protect||[still]
+|-fail|p2b: Scream Tail
+|move|p1b: Koraidon|Flare Blitz|p2b: Scream Tail
+|-crit|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|-damage|p1b: Koraidon|0 fnt|[from] Recoil
+|faint|p1b: Koraidon
+|
+|win|szoob busziness
+|raw|szoob busziness's rating: 1165 &rarr; <strong>1191</strong><br />(+26 for winning)
+|raw|PokeAlquin's rating: 1182 &rarr; <strong>1156</strong><br />(-26 for losing)
+|l|☆PokeAlquin
+|player|p2|
+|l|☆szoob busziness
+|player|p1|

@@ -1,0 +1,221 @@
+|j|☆CrazyyBoi
+|j|☆liksem
+|t:|1750872857
+|gametype|doubles
+|player|p1|CrazyyBoi|101|1071
+|player|p2|liksem|265|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Froslass, L50, F|
+|poke|p1|Tauros, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Probopass, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CrazyyBoi)
+|
+|t:|1750872907
+|start
+|switch|p1a: Naughty|Froslass, L50, F|100/100
+|switch|p1b: Angry|Tauros, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Probopass|Probopass, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750872928
+|move|p1b: Angry|Protect|p1b: Angry
+|-singleturn|p1b: Angry|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Angry
+|-activate|p1b: Angry|move: Protect
+|move|p1a: Naughty|Icy Wind|p2b: Probopass|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-resisted|p2b: Probopass
+|-damage|p2a: Miraidon|83/100
+|-damage|p2b: Probopass|98/100
+|-unboost|p2a: Miraidon|spe|1
+|-unboost|p2b: Probopass|spe|1
+|move|p2b: Probopass|Iron Defense|p2b: Probopass
+|-boost|p2b: Probopass|def|2
+|
+|upkeep
+|turn|2
+|
+|t:|1750872951
+|-terastallize|p1b: Angry|Ghost
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Naughty|Frost Breath|p1b: Angry|[miss]
+|-miss|p1a: Naughty|p1b: Angry
+|move|p1b: Angry|Raging Bull|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Probopass|Body Press|p1b: Angry
+|-immune|p1b: Angry
+|
+|upkeep
+|turn|3
+|inactive|liksem has 30 seconds left.
+|inactive|liksem has 20 seconds left.
+|
+|t:|1750872988
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Naughty|Frost Breath|p1b: Angry
+|-crit|p1b: Angry
+|-damage|p1b: Angry|75/100
+|-setboost|p1b: Angry|atk|6|[from] ability: Anger Point
+|move|p1b: Angry|Raging Bull|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Probopass|Iron Defense|p2b: Probopass
+|-boost|p2b: Probopass|def|2
+|
+|upkeep
+|
+|t:|1750873007
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|turn|4
+|
+|t:|1750873013
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|move|p1b: Angry|Protect|p1b: Angry
+|-singleturn|p1b: Angry|Protect
+|move|p2a: Murkrow|Haze|p2a: Murkrow
+|-clearallboost
+|move|p1a: Naughty|Taunt|p2a: Murkrow
+|-start|p2a: Murkrow|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|t:|1750873032
+|move|p1a: Naughty|Frost Breath|p1b: Angry
+|-crit|p1b: Angry
+|-damage|p1b: Angry|46/100
+|-setboost|p1b: Angry|atk|6|[from] ability: Anger Point
+|move|p1b: Angry|Raging Bull|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|move|p2b: Gothitelle|Future Sight|p1b: Angry
+|-start|p2b: Gothitelle|move: Future Sight
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750873043
+|switch|p2a: Probopass|Probopass, L50, M|98/100
+|turn|6
+|
+|t:|1750873055
+|move|p1a: Naughty|Helping Hand|p1b: Angry
+|-singleturn|p1b: Angry|Helping Hand|[of] p1a: Naughty
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p2a: Probopass|Protect|p2a: Probopass
+|-singleturn|p2a: Probopass|Protect
+|move|p1b: Angry|Earthquake|p2a: Probopass|[spread] p1a
+|-activate|p2a: Probopass|move: Protect
+|-activate|p2b: Gothitelle|move: Protect
+|-enditem|p1a: Naughty|Focus Sash
+|-damage|p1a: Naughty|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750873074
+|move|p1a: Naughty|Helping Hand|p1b: Angry
+|-singleturn|p1b: Angry|Helping Hand|[of] p1a: Naughty
+|move|p2a: Probopass|Wide Guard|p2a: Probopass
+|-singleturn|p2a: Probopass|Wide Guard
+|move|p1b: Angry|Earthquake|p2b: Gothitelle|[spread] p1a
+|-activate|p2a: Probopass|move: Wide Guard
+|-activate|p2b: Gothitelle|move: Wide Guard
+|-damage|p1a: Naughty|0 fnt
+|-start|p1b: Angry|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Naughty
+|faint|p1a: Naughty
+|move|p2b: Gothitelle|Psyshock|p1b: Angry
+|-damage|p1b: Angry|19/100
+|
+|-end|p1b: Angry|move: Future Sight
+|-damage|p1b: Angry|0 fnt
+|faint|p1b: Angry
+|upkeep
+|
+|t:|1750873085
+|switch|p1a: Copy|Flamigo, L50, F|100/100
+|switch|p1b: Scary|Incineroar, L50, M|100/100
+|-ability|p1b: Scary|Intimidate|boost
+|-unboost|p2a: Probopass|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|-copyboost|p1a: Copy|p1b: Scary|[from] ability: Costar
+|turn|8
+|
+|t:|1750873113
+|move|p1b: Scary|Fake Out|p2a: Probopass
+|-resisted|p2a: Probopass
+|-damage|p2a: Probopass|95/100
+|-enditem|p2a: Probopass|Kee Berry|[eat]
+|-boost|p2a: Probopass|def|1|[from] item: Kee Berry
+|move|p1a: Copy|Close Combat|p2a: Probopass
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|-unboost|p1a: Copy|def|1
+|-unboost|p1a: Copy|spd|1
+|faint|p2a: Probopass
+|move|p2b: Gothitelle|Psyshock|p1a: Copy
+|-supereffective|p1a: Copy
+|-damage|p1a: Copy|0 fnt
+|faint|p1a: Copy
+|
+|upkeep
+|turn|9
+|
+|t:|1750873129
+|move|p2b: Gothitelle|Future Sight|p1b: Scary
+|-start|p2b: Gothitelle|move: Future Sight
+|move|p1b: Scary|Knock Off|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|25/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[from] move: Knock Off|[of] p1b: Scary
+|
+|upkeep
+|turn|10
+|
+|t:|1750873136
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Scary|Knock Off|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1750873142
+|move|p2b: Gothitelle|Protect||[still]
+|-fail|p2b: Gothitelle
+|move|p1b: Scary|Knock Off|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|
+|win|CrazyyBoi
+|raw|CrazyyBoi's rating: 1071 &rarr; <strong>1100</strong><br />(+29 for winning)
+|raw|liksem's rating: 1064 &rarr; <strong>1045</strong><br />(-19 for losing)
+|c|☆liksem|gg
+|c|☆CrazyyBoi|Gg
+|l|☆CrazyyBoi
+|player|p1|
+|l|☆liksem
+|player|p2|

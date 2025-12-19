@@ -1,0 +1,155 @@
+|j|☆BigEma
+|j|☆JurassicDan
+|t:|1750860380
+|gametype|doubles
+|player|p1|BigEma|ethan|1055
+|player|p2|JurassicDan|n|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Thorns, L50|
+|poke|p1|Porygon2, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+JurassicDan has agreed to open team sheets.
+|
+|t:|1750860441
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|1
+|
+|t:|1750860468
+|move|p2a: Incineroar|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|94/100
+|move|p1a: Tornadus|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|cant|p1b: Calyrex|flinch
+|cant|p2b: Calyrex|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750860486
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: BigEma|move: Tailwind
+|move|p1b: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Calyrex
+|-status|p1b: Calyrex|brn
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Calyrex
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Calyrex|76/100 brn
+|faint|p1a: Tornadus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-damage|p1b: Calyrex|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1750860502
+|switch|p1a: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|3
+|
+|t:|1750860548
+|move|p1a: Palkia|Hydro Pump|p2b: Calyrex|[miss]
+|-miss|p1a: Palkia|p2b: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|9/100
+|-damage|p2b: Calyrex|92/100
+|move|p2a: Incineroar|Parting Shot|p1a: Palkia
+|-unboost|p1a: Palkia|atk|1
+|-unboost|p1a: Palkia|spa|1
+|
+|t:|1750860560
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Palkia|12/100
+|-damage|p1b: Calyrex|43/100 brn
+|
+|-heal|p1a: Palkia|18/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|49/100 brn|[from] Grassy Terrain
+|-heal|p2b: Calyrex|98/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|100/100|[from] item: Leftovers
+|-damage|p1b: Calyrex|43/100 brn|[from] brn
+|-end|p2b: Calyrex|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1750860586
+|move|p2a: Rillaboom|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|34/100 brn
+|cant|p1b: Calyrex|flinch
+|move|p2b: Calyrex|Glacial Lance|p1a: Palkia|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Palkia|0 fnt
+|-damage|p1b: Calyrex|4/100 brn
+|faint|p1a: Palkia
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-heal|p1b: Calyrex|10/100 brn|[from] Grassy Terrain
+|-damage|p1b: Calyrex|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1750860599
+|switch|p1a: Iron Thorns|Iron Thorns, L50, shiny|100/100
+|-enditem|p1a: Iron Thorns|Booster Energy
+|-activate|p1a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Thorns|quarkdriveatk
+|turn|5
+|
+|t:|1750860617
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Iron Thorns|Rock Slide|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Rillaboom|55/100
+|
+|-heal|p2a: Rillaboom|61/100|[from] Grassy Terrain
+|-sideend|p1: BigEma|move: Tailwind
+|upkeep
+|turn|6
+|-message|BigEma forfeited.
+|
+|win|JurassicDan
+|raw|BigEma's rating: 1055 &rarr; <strong>1038</strong><br />(-17 for losing)
+|raw|JurassicDan's rating: 1077 &rarr; <strong>1104</strong><br />(+27 for winning)
+|l|☆BigEma
+|player|p1|
+|l|☆JurassicDan
+|player|p2|

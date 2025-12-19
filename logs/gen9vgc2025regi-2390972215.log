@@ -1,0 +1,184 @@
+|j|☆Nodefogsgiven2
+|j|☆pumpkinflame
+|t:|1750788553
+|gametype|doubles
+|player|p1|Nodefogsgiven2|170|1325
+|player|p2|pumpkinflame|swimmerf-gen4|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750788579
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Storm|Tornadus, L50, M, shiny|100/100
+|switch|p2b: Electrobeast|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Electrobeast
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750788603
+|switch|p2b: Miraidon 2|Archaludon, L50, F|100/100
+|move|p1b: Iron Hands|Fake Out|p2b: Miraidon 2
+|-resisted|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|93/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|move|p2a: Storm|Tailwind|p2a: Storm
+|-sidestart|p2: pumpkinflame|move: Tailwind
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1750788626
+|-terastallize|p2b: Miraidon 2|Bug
+|move|p2a: Storm|Rain Dance|p2a: Storm
+|-weather|RainDance
+|move|p1b: Iron Hands|Wild Charge|p2a: Storm
+|-supereffective|p2a: Storm
+|-damage|p2a: Storm|0 fnt
+|faint|p2a: Storm
+|-damage|p1b: Iron Hands|83/100|[from] Recoil
+|move|p1a: Farigiraf|Night Shade|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|67/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|move|p2b: Miraidon 2|Electro Shot||[still]
+|-prepare|p2b: Miraidon 2|Electro Shot
+|-boost|p2b: Miraidon 2|spa|1
+|-anim|p2b: Miraidon 2|Electro Shot|p1a: Farigiraf
+|-damage|p1a: Farigiraf|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750788647
+|switch|p2a: K.O|Kyogre, L50|100/100
+|turn|3
+|
+|t:|1750788657
+|move|p2a: K.O|Protect|p2a: K.O
+|-singleturn|p2a: K.O|Protect
+|move|p1b: Iron Hands|Wild Charge|p2a: K.O
+|-activate|p2a: K.O|move: Protect
+|move|p1a: Farigiraf|Night Shade|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|41/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|move|p2b: Miraidon 2|Electro Shot||[still]
+|-prepare|p2b: Miraidon 2|Electro Shot
+|-boost|p2b: Miraidon 2|spa|1
+|-anim|p2b: Miraidon 2|Electro Shot|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750788660
+|switch|p1a: Dialga|Dialga, L50|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|4
+|
+|t:|1750788680
+|switch|p2a: Electrobeast|Miraidon, L50|100/100
+|-activate|p2a: Electrobeast|ability: Hadron Engine
+|-terastallize|p1a: Dialga|Fairy
+|move|p1b: Iron Hands|Wild Charge|p2a: Electrobeast
+|-resisted|p2a: Electrobeast
+|-damage|p2a: Electrobeast|82/100
+|-damage|p1b: Iron Hands|79/100|[from] Recoil
+|move|p1a: Dialga|Dragon Pulse|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|0 fnt
+|faint|p2b: Miraidon 2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: pumpkinflame|move: Tailwind
+|upkeep
+|
+|t:|1750788694
+|switch|p2b: K.O|Kyogre, L50|100/100
+|turn|5
+|
+|t:|1750788704
+|move|p2b: K.O|Protect|p2b: K.O
+|-singleturn|p2b: K.O|Protect
+|move|p1b: Iron Hands|Wild Charge|p2b: K.O
+|-activate|p2b: K.O|move: Protect
+|move|p1a: Dialga|Dragon Pulse|p2a: Electrobeast
+|-supereffective|p2a: Electrobeast
+|-damage|p2a: Electrobeast|0 fnt
+|faint|p2a: Electrobeast
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750788725
+|move|p2b: K.O|Water Spout|p1b: Iron Hands|[spread] p1a,p1b
+|-damage|p1a: Dialga|0 fnt
+|-damage|p1b: Iron Hands|23/100
+|faint|p1a: Dialga
+|move|p1b: Iron Hands|Wild Charge|p2b: K.O
+|-supereffective|p2b: K.O
+|-damage|p2b: K.O|7/100
+|-damage|p1b: Iron Hands|3/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1750788729
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|7
+|
+|t:|1750788739
+|move|p2b: K.O|Protect|p2b: K.O
+|-singleturn|p2b: K.O|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: K.O
+|-activate|p2b: K.O|move: Protect
+|move|p1b: Iron Hands|Low Kick|p2b: K.O
+|-activate|p2b: K.O|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750788747
+|move|p1a: Miraidon|Dazzling Gleam|p2b: K.O
+|-damage|p2b: K.O|0 fnt
+|faint|p2b: K.O
+|
+|win|Nodefogsgiven2
+|raw|Nodefogsgiven2's rating: 1325 &rarr; <strong>1345</strong><br />(+20 for winning)
+|raw|pumpkinflame's rating: 1319 &rarr; <strong>1299</strong><br />(-20 for losing)
+|l|☆pumpkinflame
+|player|p2|

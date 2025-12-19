@@ -1,0 +1,199 @@
+|j|☆walreinoverme
+|j|☆leshoegg
+|t:|1750868194
+|gametype|doubles
+|player|p1|walreinoverme|pokemaniac|1327
+|player|p2|leshoegg|169|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Gastrodon-East, L50, F|
+|poke|p1|Cacturne, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hariyama, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Altaria, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leshoegg)
+|inactive|walreinoverme has 60 seconds left.
+|inactive|leshoegg has 60 seconds left.
+|
+|t:|1750868225
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750868242
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Calyrex|61/100
+|-damage|p1b: Kyogre|77/100
+|-damage|p2a: Miraidon|91/100|[from] item: Life Orb
+|move|p1b: Kyogre|Thunder|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|move|p1a: Calyrex|Leech Seed|p2a: Miraidon
+|-start|p2a: Miraidon|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Miraidon|78/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|73/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1750868264
+|switch|p1b: Gastrodon|Gastrodon-East, L50, F|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Miraidon|Parabolic Charge|p1a: Calyrex|[spread] p2b
+|-activate|p1a: Calyrex|move: Protect
+|-immune|p1b: Gastrodon
+|-damage|p2b: Ogerpon|43/100
+|-heal|p2a: Miraidon|100/100|[from] drain|[of] p2b: Ogerpon
+|-damage|p2a: Miraidon|91/100|[from] item: Life Orb
+|move|p2b: Ogerpon|Horn Leech|p1b: Gastrodon
+|-supereffective|p1b: Gastrodon
+|-damage|p1b: Gastrodon|0 fnt
+|-heal|p2b: Ogerpon|100/100|[from] drain|[of] p1b: Gastrodon
+|faint|p1b: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Miraidon|78/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|84/100|[silent]
+|upkeep
+|
+|t:|1750868283
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1750868306
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Indeedee|atk|1
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Indeedee|[anim] Ivy Cudgel Water
+|-damage|p1b: Indeedee|5/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Ogerpon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|71/100
+|-damage|p2b: Ogerpon|30/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750868326
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Calyrex|Leech Seed|p2a: Incineroar
+|-start|p2a: Incineroar|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Incineroar|58/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|97/100|[silent]
+|upkeep
+|
+|t:|1750868333
+|switch|p1b: Kyogre|Kyogre, L50|77/100
+|turn|5
+|
+|t:|1750868349
+|-terastallize|p1a: Calyrex|Dragon
+|move|p2b: Ogerpon|Horn Leech|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|-heal|p2b: Ogerpon|76/100|[from] drain|[of] p1b: Kyogre
+|faint|p1b: Kyogre
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-damage|p1a: Calyrex|65/100
+|-enditem|p1a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|none
+|-damage|p2a: Incineroar|46/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|79/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1750868372
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Ogerpon|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|14/100
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-damage|p1a: Calyrex|57/100
+|
+|-damage|p2a: Incineroar|2/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|70/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750868387
+|move|p1a: Calyrex|Glacial Lance|p2b: Ogerpon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Ogerpon|8/100
+|faint|p2a: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Calyrex|[anim] Ivy Cudgel Water
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|48/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750868391
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750868398
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|leshoegg
+|raw|walreinoverme's rating: 1327 &rarr; <strong>1309</strong><br />(-18 for losing)
+|raw|leshoegg's rating: 1369 &rarr; <strong>1387</strong><br />(+18 for winning)
+|l|☆walreinoverme
+|player|p1|
+|l|☆leshoegg
+|player|p2|

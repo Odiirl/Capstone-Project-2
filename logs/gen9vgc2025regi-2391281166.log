@@ -1,0 +1,154 @@
+|j|☆jephre45
+|j|☆Jtanner
+|t:|1750827720
+|gametype|doubles
+|player|p1|jephre45|plasmagrunt|1415
+|player|p2|Jtanner|clay|1347
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750827774
+|start
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jephre45)
+|
+|t:|1750827802
+|-terastallize|p2a: Koraidon|Fire
+|-terastallize|p1b: Calyrex|Fairy
+|move|p2b: Flutter Mane|Icy Wind|p1a: Landorus|[spread] p1a,p1b
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|-damage|p1b: Calyrex|91/100
+|-unboost|p1a: Landorus|spe|1
+|move|p2a: Koraidon|Flame Charge|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1a: Landorus
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827818
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|2
+|
+|t:|1750827840
+|move|p1b: Calyrex|Glacial Lance|p2b: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|63/100
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|move|p1a: Koraidon|Close Combat|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Koraidon
+|move|p2b: Flutter Mane|Moonblast|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827855
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Chi-Yu|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|3
+|
+|t:|1750827869
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1b: Calyrex|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|-unboost|p1b: Calyrex|def|1
+|-unboost|p1b: Calyrex|spd|1
+|move|p2a: Incineroar|Flare Blitz|p1b: Calyrex
+|-damage|p1b: Calyrex|26/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|move|p1a: Chi-Yu|Heat Wave|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827883
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750827900
+|move|p1b: Calyrex|Glacial Lance|p2b: Flutter Mane|[spread] p2a,p2b
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-crit|p2a: Terapagos
+|-damage|p2a: Terapagos|67/100
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Terapagos|Tera Starstorm|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750827915
+|move|p1b: Calyrex|Close Combat|p2a: Terapagos
+|-supereffective|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|-unboost|p1b: Calyrex|def|1
+|-unboost|p1b: Calyrex|spd|1
+|faint|p2a: Terapagos
+|
+|win|jephre45
+|raw|jephre45's rating: 1415 &rarr; <strong>1431</strong><br />(+16 for winning)
+|raw|Jtanner's rating: 1347 &rarr; <strong>1331</strong><br />(-16 for losing)
+|l|☆Jtanner
+|player|p2|
+|l|☆jephre45
+|player|p1|

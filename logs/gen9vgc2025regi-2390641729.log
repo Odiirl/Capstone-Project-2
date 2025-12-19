@@ -1,0 +1,198 @@
+|j|☆ogerpog
+|j|☆gabi0
+|t:|1750741024
+|gametype|doubles
+|player|p1|ogerpog|1|1213
+|player|p2|gabi0|1|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ogerpog)
+|
+|t:|1750741049
+|start
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Iron Jugulis|Iron Jugulis, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespe
+|-activate|p2b: Iron Jugulis|ability: Quark Drive
+|-start|p2b: Iron Jugulis|quarkdrivespe
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750741076
+|-terastallize|p1a: Iron Bundle|Ground
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Iron Bundle|Icy Wind|p2a: Kyogre|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-supereffective|p2b: Iron Jugulis
+|-damage|p2b: Iron Jugulis|57/100
+|-unboost|p2b: Iron Jugulis|spe|1
+|move|p1b: Miraidon|Parabolic Charge|p2b: Iron Jugulis|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-immune|p1a: Iron Bundle
+|-supereffective|p2b: Iron Jugulis
+|-damage|p2b: Iron Jugulis|0 fnt
+|faint|p2b: Iron Jugulis
+|-end|p2b: Iron Jugulis|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741081
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-end|p1a: Iron Bundle|Quark Drive
+|turn|2
+|
+|t:|1750741092
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|move|p1a: Iron Bundle|Protect|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Whimsicott
+|-damage|p1b: Whimsicott|86/100
+|move|p2a: Kyogre|Water Spout|p1b: Whimsicott|[spread] p1b
+|-activate|p1a: Iron Bundle|move: Protect
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741108
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespe
+|turn|3
+|
+|t:|1750741115
+|-terastallize|p2a: Kyogre|Electric
+|move|p1a: Iron Bundle|Icy Wind|p2b: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Kyogre|86/100
+|-damage|p2b: Rillaboom|73/100
+|-unboost|p2a: Kyogre|spe|1
+|-unboost|p2b: Rillaboom|spe|1
+|move|p1b: Miraidon|Parabolic Charge|p2a: Kyogre|[spread] p2a,p2b
+|-immune|p1a: Iron Bundle
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Rillaboom
+|-crit|p2b: Rillaboom
+|-damage|p2a: Kyogre|69/100
+|-damage|p2b: Rillaboom|51/100
+|move|p2a: Kyogre|Water Spout|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Iron Bundle
+|-resisted|p1b: Miraidon
+|-enditem|p1a: Iron Bundle|Focus Sash
+|-damage|p1a: Iron Bundle|1/100
+|-damage|p1b: Miraidon|76/100
+|move|p2b: Rillaboom|U-turn|p1b: Miraidon
+|-damage|p1b: Miraidon|54/100
+|
+|t:|1750741118
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] U-turn
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|gabi0 has 30 seconds left.
+|
+|t:|1750741145
+|switch|p2a: Rillaboom|Rillaboom, L50, M|51/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-end|p1a: Iron Bundle|Quark Drive
+|move|p1a: Iron Bundle|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p1b: Miraidon|Draco Meteor|p2a: Rillaboom|[miss]
+|-miss|p1b: Miraidon|p2a: Rillaboom
+|cant|p2b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Bundle|7/100|[from] Grassy Terrain
+|-heal|p1b: Miraidon|60/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|ogerpog has 30 seconds left.
+|
+|t:|1750741171
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2a: Rillaboom|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|91/100
+|move|p1a: Iron Bundle|Freeze-Dry|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p2b: Calyrex|Glacial Lance|p1a: Iron Bundle|[spread] p1a,p1b
+|-supereffective|p1a: Iron Bundle
+|-supereffective|p1b: Groudon
+|-damage|p1a: Iron Bundle|0 fnt
+|-damage|p1b: Groudon|4/100
+|faint|p1a: Iron Bundle
+|-end|p1a: Iron Bundle|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|10/100|[from] Grassy Terrain
+|-heal|p1b: Groudon|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750741176
+|switch|p1a: Miraidon|Miraidon, L50|60/100
+|switch|p2a: Kyogre|Kyogre, L50, tera:Electric|69/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+|
+|t:|1750741192
+|move|p1b: Groudon|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Groudon
+|move|p1a: Miraidon|Electro Drift|p2b: Calyrex
+|-damage|p2b: Calyrex|2/100
+|move|p2a: Kyogre|Water Spout|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-supereffective|p1b: Groudon
+|-damage|p1a: Miraidon|38/100
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|gabi0
+|raw|ogerpog's rating: 1213 &rarr; <strong>1194</strong><br />(-19 for losing)
+|raw|gabi0's rating: 1302 &rarr; <strong>1317</strong><br />(+15 for winning)
+|l|☆ogerpog
+|player|p1|
+|l|☆gabi0
+|player|p2|

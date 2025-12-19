@@ -1,0 +1,154 @@
+|j|☆PizzaHungryCat43
+|j|☆MoonFrogg_
+|t:|1750830219
+|gametype|doubles
+|player|p1|PizzaHungryCat43|unknown|1040
+|player|p2|MoonFrogg_|skierf|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Golurk, L50|
+|poke|p1|Lapras, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Meowstic, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Scream Tail, L50|
+|teampreview|4
+PizzaHungryCat43 rejected open team sheets.
+|
+|t:|1750830271
+|start
+|switch|p1a: Meowstic|Meowstic, L50, M|100/100
+|switch|p1b: Golurk|Golurk, L50|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|c|☆MoonFrogg_|mb
+|c|☆MoonFrogg_|thought I selected
+|
+|t:|1750830291
+|-terastallize|p2b: Miraidon|Electric
+|move|p1a: Meowstic|Skill Swap|p1b: Golurk
+|-activate|p1a: Meowstic|move: Skill Swap|||[of] p1b: Golurk
+|move|p1b: Golurk|Curse|p2b: Miraidon
+|-start|p2b: Miraidon|Curse|[of] p1b: Golurk
+|-damage|p1b: Golurk|50/100
+|move|p2a: Scream Tail|Calm Mind|p2a: Scream Tail
+|-boost|p2a: Scream Tail|spa|1
+|-boost|p2a: Scream Tail|spd|1
+|move|p2b: Miraidon|Volt Switch|p1a: Meowstic
+|-enditem|p1a: Meowstic|Focus Sash
+|-damage|p1a: Meowstic|1/100
+|c|☆PizzaHungryCat43|?
+|
+|t:|1750830308
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1750830325
+|move|p1a: Meowstic|Protect|p1a: Meowstic
+|-singleturn|p1a: Meowstic|Protect
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1b: Golurk|Curse|p2a: Scream Tail
+|-start|p2a: Scream Tail|Curse|[of] p1b: Golurk
+|-damage|p1b: Golurk|0 fnt
+|faint|p1b: Golurk
+|move|p2a: Scream Tail|Trick Room|p2a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p2a: Scream Tail
+|
+|-damage|p2a: Scream Tail|76/100|[from] Curse
+|upkeep
+|
+|t:|1750830336
+|switch|p1b: Lapras|Lapras, L50, M|100/100
+|turn|3
+|
+|t:|1750830366
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1b: Lapras|Sheer Cold|p2b: Raging Bolt|[miss]
+|-miss|p1b: Lapras|p2b: Raging Bolt
+|move|p1a: Meowstic|Skill Swap|p1b: Lapras
+|-activate|p1a: Meowstic|move: Skill Swap|||[of] p1b: Lapras
+|
+|-damage|p2a: Scream Tail|51/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1750830388
+|move|p1b: Lapras|Sheer Cold|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|-ohko
+|move|p1a: Meowstic|Psychic|p2a: Scream Tail
+|-resisted|p2a: Scream Tail
+|-damage|p2a: Scream Tail|44/100
+|move|p2a: Scream Tail|Dazzling Gleam|p1b: Lapras|[spread] p1a,p1b
+|-damage|p1a: Meowstic|0 fnt
+|-damage|p1b: Lapras|87/100
+|faint|p1a: Meowstic
+|
+|-damage|p2a: Scream Tail|19/100|[from] Curse
+|upkeep
+|
+|t:|1750830401
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750830422
+|move|p1a: Calyrex|Glacial Lance|p2a: Scream Tail|[spread] p2a,p2b
+|-damage|p2a: Scream Tail|0 fnt
+|-damage|p2b: Miraidon|45/100
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Lapras|Sheer Cold|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ohko
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750830434
+|switch|p2a: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|turn|6
+|c|☆PizzaHungryCat43|:)
+|
+|t:|1750830451
+|move|p1a: Calyrex|Glacial Lance|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|win|PizzaHungryCat43
+|raw|PizzaHungryCat43's rating: 1040 &rarr; <strong>1070</strong><br />(+30 for winning)
+|raw|MoonFrogg_'s rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆MoonFrogg_
+|player|p2|
+|c|☆PizzaHungryCat43|gg

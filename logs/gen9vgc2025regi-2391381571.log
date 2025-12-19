@@ -1,0 +1,121 @@
+|j|☆whiffedcream
+|j|☆AOC2005
+|t:|1750847224
+|gametype|doubles
+|player|p1|whiffedcream|cynthia|1108
+|player|p2|AOC2005|hilbert|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon-Z, L50|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Dragalge, L50, M|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+|
+|t:|1750847244
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L50|100/100
+|switch|p1b: Dragalge|Dragalge, L50, M|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750847270
+|move|p2a: Tornadus|Taunt|p1a: Porygon-Z
+|-start|p1a: Porygon-Z|move: Taunt
+|move|p1a: Porygon-Z|Thunderbolt|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|33/100
+|move|p1b: Dragalge|Sludge Wave|p2b: Calyrex|[spread] p1a,p2a,p2b
+|-damage|p1a: Porygon-Z|20/100
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Calyrex|54/100
+|faint|p2a: Tornadus
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750847280
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon-Z|atk|1
+|-unboost|p1b: Dragalge|atk|1
+|turn|2
+|
+|t:|1750847289
+|move|p1b: Dragalge|Sludge Wave|p2a: Incineroar|[spread] p1a,p2a,p2b
+|-damage|p1a: Porygon-Z|0 fnt
+|-damage|p2a: Incineroar|43/100
+|-damage|p2b: Calyrex|11/100
+|-status|p2b: Calyrex|psn
+|faint|p1a: Porygon-Z
+|move|p2b: Calyrex|High Horsepower|p1b: Dragalge
+|-supereffective|p1b: Dragalge
+|-damage|p1b: Dragalge|6/100
+|move|p2a: Incineroar|Knock Off|p1b: Dragalge
+|-damage|p1b: Dragalge|0 fnt
+|-enditem|p1b: Dragalge|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Dragalge
+|
+|-damage|p2b: Calyrex|0 fnt|[from] psn
+|faint|p2b: Calyrex
+|upkeep
+|
+|t:|1750847299
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|turn|3
+|
+|t:|1750847319
+|-terastallize|p1b: Enamorus|Fairy
+|-terastallize|p2b: Urshifu|Stellar
+|move|p1a: Necrozma|Protect|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Protect
+|move|p1b: Enamorus|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Urshifu
+|-damage|p2a: Incineroar|2/100
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Enamorus
+|-damage|p1b: Enamorus|54/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|move|p2b: Urshifu|Poison Jab|p1b: Enamorus
+|-supereffective|p1b: Enamorus
+|-damage|p1b: Enamorus|0 fnt
+|faint|p1b: Enamorus
+|
+|upkeep
+|turn|4
+|
+|t:|1750847341
+|move|p1a: Necrozma|Photon Geyser|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|win|whiffedcream
+|raw|whiffedcream's rating: 1108 &rarr; <strong>1135</strong><br />(+27 for winning)
+|raw|AOC2005's rating: 1141 &rarr; <strong>1114</strong><br />(-27 for losing)
+|l|☆AOC2005
+|player|p2|
+|l|☆whiffedcream
+|player|p1|

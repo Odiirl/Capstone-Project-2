@@ -1,0 +1,112 @@
+|j|☆Diabetic-Dave
+|j|☆TommyGuapo
+|t:|1750875139
+|gametype|doubles
+|player|p1|Diabetic-Dave|hiker-gen4|1444
+|player|p2|TommyGuapo|102|1477
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TommyGuapo)
+TommyGuapo has agreed to open team sheets.
+|inactive|TommyGuapo has 60 seconds left.
+|inactive|TommyGuapo has 30 seconds left.
+Diabetic-Dave has agreed to open team sheets.
+|showteam|p1|Tornadus||CovertCloak|Prankster|Tailwind,Taunt,RainDance,BleakwindStorm|||M|||50|,,,,,Flying]Kyogre||MysticWater|Drizzle|Protect,WaterSpout,HydroPump,Thunder||||||50|,,,,,Ground]Calyrex-Shadow||LifeOrb|AsOneSpectrier|Protect,AstralBarrage,PollenPuff,NastyPlot||||||50|,,,,,Normal]Farigiraf||Leftovers|ArmorTail|TrickRoom,Imprison,HelpingHand,FoulPlay|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,KnockOff,Uturn|||F|||50|,,,,,Grass]Flutter Mane||BoosterEnergy|Protosynthesis|IcyWind,Taunt,DazzlingGleam,ShadowBall||||||50|,,,,,Ghost
+|showteam|p2|Zacian-Crowned||RustedSword|IntrepidSword|behemothblade,PlayRough,Substitute,Protect||||||50|,,,,,Fairy]Giratina-Origin||GriseousCore|Levitate|ShadowForce,DracoMeteor,ShadowSneak,Protect||||||50|,,,,,Fire]Urshifu-Rapid-Strike||ChoiceScarf|UnseenFist|SurgingStrikes,CloseCombat,Coaching,Uturn|||M|||50|,,,,,Ghost]Chien-Pao||FocusSash|SwordofRuin|IceSpinner,SuckerPunch,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||AbilityShield|Drizzle|Hurricane,HelpingHand,Tailwind,WideGuard|||M|||50|,,,,,Grass
+|inactive|TommyGuapo has 20 seconds left.
+|inactive|TommyGuapo has 15 seconds left.
+|
+|t:|1750875223
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Giratina|Giratina-Origin, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750875239
+|move|p1a: Tornadus|Taunt|p2b: Giratina
+|-start|p2b: Giratina|move: Taunt
+|move|p2b: Giratina|Shadow Sneak|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: TommyGuapo|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750875251
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|inactive|TommyGuapo has 30 seconds left.
+|
+|t:|1750875282
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-terastallize|p1b: Calyrex|Normal
+|move|p2a: Pelipper|Wide Guard|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Wide Guard
+|move|p1a: Tornadus|Taunt|p2a: Pelipper
+|-start|p2a: Pelipper|move: Taunt
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|TommyGuapo has 30 seconds left.
+|
+|t:|1750875316
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Diabetic-Dave|move: Tailwind
+|move|p2b: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|58/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|15/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-hitcount|p1: Calyrex|3
+|move|p2a: Pelipper|Hurricane|p1a: Tornadus
+|-damage|p1a: Tornadus|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750875331
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|4
+|-message|Diabetic-Dave forfeited.
+|
+|win|TommyGuapo
+|raw|Diabetic-Dave's rating: 1444 &rarr; <strong>1426</strong><br />(-18 for losing)
+|raw|TommyGuapo's rating: 1477 &rarr; <strong>1495</strong><br />(+18 for winning)
+|l|☆Diabetic-Dave
+|player|p1|

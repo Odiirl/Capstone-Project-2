@@ -1,0 +1,117 @@
+|j|☆LaserRL
+|j|‽glowsharp
+|t:|1750837191
+|gametype|doubles
+|player|p1|LaserRL|n-masters3|1491
+|player|p2|glowsharp|nate|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Volbeat, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaserRL)
+|inactive|glowsharp has 60 seconds left.
+|
+|t:|1750837251
+|start
+|switch|p1a: honse|Calyrex-Ice, L50|100/100
+|switch|p1b: dog|Smeargle, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1a: honse|As One
+|-ability|p1a: honse|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750837275
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: honse|Protect|p1a: honse
+|-singleturn|p1a: honse|Protect
+|move|p2b: Basculegion|Flip Turn|p1a: honse
+|-activate|p1a: honse|move: Protect
+|move|p1b: dog|Decorate|p1a: honse
+|-boost|p1a: honse|atk|2
+|-boost|p1a: honse|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750837300
+|-terastallize|p2b: Basculegion|Water
+|move|p2a: Indeedee|Helping Hand|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Helping Hand|[of] p2a: Indeedee
+|move|p1b: dog|Follow Me|p1b: dog
+|-singleturn|p1b: dog|move: Follow Me
+|move|p2b: Basculegion|Wave Crash|p1b: dog
+|-enditem|p1b: dog|Focus Sash
+|-damage|p1b: dog|1/100
+|-damage|p2b: Basculegion|73/100|[from] Recoil
+|-damage|p2b: Basculegion|64/100|[from] item: Life Orb
+|move|p1a: honse|Glacial Lance|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Basculegion
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Basculegion
+|-ability|p1a: honse|Chilling Neigh|boost
+|-boost|p1a: honse|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750837308
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750837312
+|move|p1b: dog|Wide Guard|p1b: dog
+|-singleturn|p1b: dog|Wide Guard
+|move|p2a: Kyogre|Water Spout|p1b: dog|[spread] 
+|-activate|p1a: honse|move: Wide Guard
+|-activate|p1b: dog|move: Wide Guard
+|move|p1a: honse|Glacial Lance|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-resisted|p2b: Calyrex
+|-damage|p2a: Kyogre|0 fnt
+|-damage|p2b: Calyrex|31/100
+|faint|p2a: Kyogre
+|-ability|p1a: honse|Chilling Neigh|boost
+|-boost|p1a: honse|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1b: dog|[spread] 
+|-activate|p1a: honse|move: Wide Guard
+|-activate|p1b: dog|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|-message|glowsharp forfeited.
+|
+|win|LaserRL
+|raw|LaserRL's rating: 1491 &rarr; <strong>1508</strong><br />(+17 for winning)
+|raw|glowsharp's rating: 1432 &rarr; <strong>1415</strong><br />(-17 for losing)
+|l|‽glowsharp
+|player|p2|

@@ -1,0 +1,182 @@
+|j|☆xeno24
+|j|☆4212ZVGC
+|t:|1750743844
+|gametype|doubles
+|player|p1|xeno24|1|1248
+|player|p2|4212ZVGC|101|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dusclops, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xeno24)
+|
+|t:|1750743886
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Dusclops|Dusclops, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Urshifu|atk|1
+|-item|p1a: Miraidon|Choice Specs|[from] ability: Frisk|[of] p2a: Dusclops
+|-item|p1b: Urshifu|Choice Scarf|[from] ability: Frisk|[of] p2a: Dusclops
+|turn|1
+|inactive|xeno24 has 30 seconds left.
+|inactive|4212ZVGC has 30 seconds left.
+|
+|t:|1750743916
+|move|p2b: Incineroar|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|90/100
+|cant|p1b: Urshifu|flinch
+|move|p1a: Miraidon|Volt Switch|p2a: Dusclops
+|-damage|p2a: Dusclops|45/100
+|
+|t:|1750743925
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Dusclops|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2a: Dusclops|Trick Room|p2a: Dusclops
+|-fieldstart|move: Trick Room|[of] p2a: Dusclops
+|
+|upkeep
+|turn|2
+|
+|t:|1750743941
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1a: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|90/100
+|move|p2a: Dusclops|Pain Split|p1a: Incineroar
+|-sethp|p1a: Incineroar|67/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Dusclops|91/100|[from] move: Pain Split
+|move|p1b: Urshifu|Surging Strikes|p2a: Dusclops
+|-crit|p2a: Dusclops
+|-damage|p2a: Dusclops|77/100
+|-crit|p2a: Dusclops
+|-damage|p2a: Dusclops|64/100
+|-crit|p2a: Dusclops
+|-damage|p2a: Dusclops|51/100
+|-hitcount|p2a: Dusclops|3
+|
+|upkeep
+|turn|3
+|inactive|xeno24 has 30 seconds left.
+|inactive|4212ZVGC has 30 seconds left.
+|
+|t:|1750743970
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p2a: Dusclops|Will-O-Wisp|p1b: Miraidon
+|-status|p1b: Miraidon|brn
+|move|p1a: Incineroar|Knock Off|p2a: Dusclops
+|-supereffective|p2a: Dusclops
+|-damage|p2a: Dusclops|5/100
+|-enditem|p2a: Dusclops|Eviolite|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p1b: Miraidon|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750743985
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|90/100
+|turn|4
+|
+|t:|1750744003
+|-terastallize|p2b: Miraidon|Fairy
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Urshifu|Aqua Jet|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|move|p1b: Miraidon|Draco Meteor|p2b: Miraidon
+|-immune|p2b: Miraidon
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Miraidon|56/100 brn
+|faint|p1a: Urshifu
+|
+|-damage|p1b: Miraidon|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1750744023
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750744041
+|move|p2a: Calyrex|Crunch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|53/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|85/100
+|-damage|p2b: Miraidon|34/100
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|28/100
+|-damage|p1b: Miraidon|12/100 brn
+|move|p1b: Miraidon|Draco Meteor|p2a: Calyrex
+|-damage|p2a: Calyrex|16/100
+|-unboost|p1b: Miraidon|spa|2
+|
+|-heal|p1a: Calyrex|34/100|[from] item: Leftovers
+|-damage|p1b: Miraidon|6/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750744063
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1b: Miraidon|Draco Meteor|p2a: Incineroar
+|-damage|p2a: Incineroar|61/100
+|-unboost|p1b: Miraidon|spa|2
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a
+|-activate|p2b: Miraidon|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|45/100
+|
+|-heal|p1a: Calyrex|40/100|[from] item: Leftovers
+|-damage|p1b: Miraidon|0 fnt|[from] brn
+|faint|p1b: Miraidon
+|upkeep
+|turn|7
+|-message|xeno24 forfeited.
+|
+|win|4212ZVGC
+|raw|xeno24's rating: 1248 &rarr; <strong>1230</strong><br />(-18 for losing)
+|raw|4212ZVGC's rating: 1344 &rarr; <strong>1359</strong><br />(+15 for winning)
+|l|☆xeno24
+|player|p1|
+|l|☆4212ZVGC
+|player|p2|

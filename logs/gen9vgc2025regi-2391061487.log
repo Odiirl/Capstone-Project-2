@@ -1,0 +1,234 @@
+|j|☆Hydracrew
+|j|☆knuuttiv3
+|t:|1750798028
+|gametype|doubles
+|player|p1|Hydracrew|169|1255
+|player|p2|knuuttiv3|169|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Bastiodon, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hydracrew)
+|inactive|Hydracrew has 60 seconds left.
+|
+|t:|1750798064
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Hydracrew has 30 seconds left.
+|inactive|Hydracrew has 20 seconds left.
+|
+|t:|1750798100
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Indeedee|[spread] 
+|-activate|p2b: Calyrex|move: Protect
+|-immune|p2a: Indeedee
+|move|p1a: Incineroar|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|56/100
+|
+|t:|1750798108
+|switch|p1a: Bastiodon|Bastiodon, L50, F|100/100|[from] U-turn
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750798126
+|move|p1a: Bastiodon|Wide Guard|p1a: Bastiodon
+|-singleturn|p1a: Bastiodon|Wide Guard
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] 
+|-activate|p1a: Bastiodon|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p1b: Calyrex|Astral Barrage|p2a: Indeedee|[spread] p2b
+|-immune|p2a: Indeedee
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|8/100
+|
+|upkeep
+|turn|3
+|inactive|knuuttiv3 has 30 seconds left.
+|
+|t:|1750798151
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Calyrex|High Horsepower|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Bastiodon|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750798159
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750798172
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|move|p1a: Bastiodon|Body Press|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|1/100
+|move|p2b: Grimmsnarl|Crunch|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|86/100
+|move|p2a: Indeedee|Psyshock|p1a: Bastiodon
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|92/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750798194
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Bastiodon|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-heal|p1a: Bastiodon|92/100|[from] item: Shell Bell|[of] p2: Indeedee
+|move|p2b: Grimmsnarl|Crunch|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|71/100
+|-unboost|p1b: Incineroar|def|1
+|move|p1b: Incineroar|Flare Blitz|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|44/100
+|-damage|p1b: Incineroar|55/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750798205
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|turn|6
+|
+|t:|1750798224
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: knuuttiv3|Reflect
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1b: Incineroar|Knock Off|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|58/100
+|-enditem|p2a: Lunala|Leftovers|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Bastiodon|Body Press|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|19/100
+|-heal|p1a: Bastiodon|95/100|[from] item: Shell Bell|[of] p2b: Grimmsnarl
+|
+|upkeep
+|turn|7
+|
+|t:|1750798245
+|-terastallize|p2a: Lunala|Fairy
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1b: Incineroar|U-turn|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|53/100
+|
+|t:|1750798250
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|move|p2b: Grimmsnarl|Crunch|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1b: Zoroark|Illusion
+|faint|p1b: Zoroark
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|upkeep
+|
+|t:|1750798259
+|switch|p1b: Incineroar|Incineroar, L50, M|55/100
+|turn|8
+|
+|t:|1750798271
+|move|p1b: Incineroar|Fake Out|p2a: Lunala
+|-damage|p2a: Lunala|46/100
+|cant|p2a: Lunala|flinch
+|move|p2b: Grimmsnarl|Crunch|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|39/100
+|move|p1a: Bastiodon|Body Press|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-heal|p1a: Bastiodon|97/100|[from] item: Shell Bell|[of] p2: Grimmsnarl
+|
+|upkeep
+|turn|9
+|
+|t:|1750798292
+|move|p2a: Lunala|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|upkeep
+|
+|t:|1750798296
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750798314
+|move|p1b: Calyrex|Astral Barrage|p2a: Lunala
+|-damage|p2a: Lunala|18/100
+|move|p2a: Lunala|Moonblast|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|upkeep
+|turn|11
+|
+|t:|1750798332
+|move|p1b: Calyrex|Astral Barrage|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|win|Hydracrew
+|raw|Hydracrew's rating: 1255 &rarr; <strong>1280</strong><br />(+25 for winning)
+|raw|knuuttiv3's rating: 1259 &rarr; <strong>1234</strong><br />(-25 for losing)
+|l|☆Hydracrew
+|player|p1|
+|l|☆knuuttiv3
+|player|p2|

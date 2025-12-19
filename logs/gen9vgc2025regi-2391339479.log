@@ -1,0 +1,136 @@
+|j|☆bolta1
+|j|‽goku black
+|t:|1750839303
+|gametype|doubles
+|player|p1|bolta1|2|1247
+|player|p2|goku black|1|1225
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Sandy Shocks, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goku black)
+|inactive|bolta1 has 60 seconds left.
+|
+|t:|1750839357
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|1
+|
+|t:|1750839382
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: goku black|move: Tailwind
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: bolta1|move: Light Screen
+|move|p2b: Landorus|Sludge Bomb|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|30/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Landorus
+|-crit|p2b: Landorus
+|-damage|p2b: Landorus|41/100
+|
+|upkeep
+|turn|2
+|inactive|bolta1 has 30 seconds left.
+|
+|t:|1750839408
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Whimsicott
+|-status|p2a: Whimsicott|par
+|move|p2b: Landorus|Sludge Bomb|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p2a: Whimsicott|Moonblast|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|upkeep
+|
+|t:|1750839424
+|switch|p1b: Sandy Shocks|Sandy Shocks, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Sandy Shocks|ability: Protosynthesis
+|-start|p1b: Sandy Shocks|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750839446
+|move|p1b: Sandy Shocks|Protect|p1b: Sandy Shocks
+|-singleturn|p1b: Sandy Shocks|Protect
+|move|p2a: Whimsicott|Light Screen|p2a: Whimsicott
+|-sidestart|p2: goku black|move: Light Screen
+|move|p2b: Landorus|Sandsear Storm|p1a: Koraidon|[spread] p1a
+|-activate|p1b: Sandy Shocks|move: Protect
+|-damage|p1a: Koraidon|55/100
+|move|p1a: Koraidon|Flame Charge|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|6/100 par
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750839471
+|move|p1a: Koraidon|Flame Charge|p2b: Landorus
+|-damage|p2b: Landorus|6/100
+|-boost|p1a: Koraidon|spe|1
+|move|p1b: Sandy Shocks|Tera Blast|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p2b: Landorus|Sandsear Storm|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1b: Sandy Shocks
+|-damage|p1a: Koraidon|13/100
+|-damage|p1b: Sandy Shocks|0 fnt
+|faint|p1b: Sandy Shocks
+|-end|p1b: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: goku black|move: Tailwind
+|upkeep
+|
+|t:|1750839482
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750839492
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Koraidon|Flame Charge|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Landorus
+|move|p2a: Calyrex|Glacial Lance|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|win|goku black
+|raw|bolta1's rating: 1247 &rarr; <strong>1220</strong><br />(-27 for losing)
+|raw|goku black's rating: 1225 &rarr; <strong>1252</strong><br />(+27 for winning)
+|l|‽goku black
+|player|p2|
+|l|☆bolta1
+|player|p1|

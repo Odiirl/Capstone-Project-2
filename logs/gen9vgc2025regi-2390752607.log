@@ -1,0 +1,185 @@
+|j|☆johnkharkiv
+|j|☆Manf991
+|t:|1750762149
+|gametype|doubles
+|player|p1|johnkharkiv|swimmerf-gen4dp|1123
+|player|p2|Manf991|170|1146
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Electivire, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by johnkharkiv)
+|
+|t:|1750762191
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750762202
+|-terastallize|p1a: Whimsicott|Dark
+|move|p2b: Tornadus|Rain Dance||[still]
+|-fail|p2b: Tornadus
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: johnkharkiv|move: Tailwind
+|move|p1b: Annihilape|Final Gambit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p1b: Annihilape
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750762213
+|switch|p1b: Electivire|Electivire, L50, F, shiny|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|2
+|
+|t:|1750762222
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Manf991|move: Tailwind
+|move|p2a: Urshifu|Surging Strikes|p1b: Electivire
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|90/100
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|79/100
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|67/100
+|-hitcount|p1b: Electivire|3
+|move|p1b: Electivire|Electroweb|p2b: Tornadus|[spread] p2a,p2b
+|-supereffective|p2a: Urshifu
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Urshifu|60/100
+|-damage|p2b: Tornadus|69/100
+|-unboost|p2a: Urshifu|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750762233
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p1a: Whimsicott|Encore|p2b: Tornadus
+|-start|p2b: Tornadus|Encore
+|move|p1b: Electivire|Electroweb|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Miraidon|97/100
+|-damage|p2b: Tornadus|26/100
+|-unboost|p2a: Miraidon|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750762246
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|60/100
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p2a: Miraidon|Volt Switch|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|t:|1750762256
+|switch|p2a: Tornadus|Tornadus, L50, M|26/100|[from] Volt Switch
+|move|p1b: Electivire|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-enditem|p2a: Tornadus|Covert Cloak|[from] move: Knock Off|[of] p1b: Electivire
+|faint|p2a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: johnkharkiv|move: Tailwind
+|upkeep
+|
+|t:|1750762258
+|switch|p2a: Miraidon|Miraidon, L50|97/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|inactive|Manf991 has 30 seconds left.
+|inactive|Manf991 has 20 seconds left.
+|inactive|Manf991 has 15 seconds left.
+|inactive|Manf991 has 10 seconds left.
+|inactive|Manf991 has 5 seconds left.
+|
+|t:|1750762313
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Urshifu|Surging Strikes|p1b: Electivire
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|57/100
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|46/100
+|-enditem|p1b: Electivire|Sitrus Berry|[eat]
+|-heal|p1b: Electivire|70/100|[from] item: Sitrus Berry
+|-crit|p1b: Electivire
+|-damage|p1b: Electivire|58/100
+|-hitcount|p1b: Electivire|3
+|move|p2a: Miraidon|Thunder|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p1b: Electivire|Electroweb|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-supereffective|p2b: Urshifu
+|-damage|p2a: Miraidon|94/100
+|-damage|p2b: Urshifu|11/100
+|-unboost|p2a: Miraidon|spe|1
+|-unboost|p2b: Urshifu|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Manf991|move: Tailwind
+|upkeep
+|turn|6
+|inactive|johnkharkiv has 30 seconds left.
+|
+|t:|1750762341
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Electivire|Follow Me|p1b: Electivire
+|-singleturn|p1b: Electivire|move: Follow Me
+|move|p1a: Miraidon|Discharge|p2b: Urshifu|[spread] p2a,p2b
+|-ability|p1b: Electivire|Motor Drive|boost
+|-boost|p1b: Electivire|spe|1
+|-supereffective|p2b: Urshifu
+|-damage|p2a: Miraidon|32/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|move|p2a: Miraidon|Thunder|p1b: Electivire
+|-ability|p1b: Electivire|Motor Drive|boost
+|-boost|p1b: Electivire|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|Manf991 forfeited.
+|
+|win|johnkharkiv
+|raw|johnkharkiv's rating: 1097 &rarr; <strong>1126</strong><br />(+29 for winning)
+|raw|Manf991's rating: 1146 &rarr; <strong>1117</strong><br />(-29 for losing)
+|l|☆Manf991
+|player|p2|

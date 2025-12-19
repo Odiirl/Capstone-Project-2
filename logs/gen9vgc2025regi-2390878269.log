@@ -1,0 +1,190 @@
+|j|☆CyrilIsTheGoat
+|j|☆otter_707
+|t:|1750778617
+|gametype|doubles
+|player|p1|CyrilIsTheGoat|lady|1178
+|player|p2|otter_707|palmer|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Slowbro-Galar, L50, F|
+|poke|p2|Florges-Orange, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by otter_707)
+|inactive|CyrilIsTheGoat also wants the timer to be on.
+|inactive|CyrilIsTheGoat has 60 seconds left.
+|
+|t:|1750778661
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|switch|p2a: speed man|Slowbro-Galar, L50, F, shiny|100/100
+|switch|p2b: florabelle|Florges-Orange, L50, F, shiny|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Terapagos|Grassy Seed
+|-boost|p1a: Terapagos|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750778678
+|move|p2a: speed man|Protect|p2a: speed man
+|-singleturn|p2a: speed man|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: speed man
+|-activate|p2a: speed man|move: Protect
+|move|p2b: florabelle|Light Screen|p2b: florabelle
+|-sidestart|p2: otter_707|move: Light Screen
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750778698
+|-terastallize|p2a: speed man|Poison
+|move|p2b: florabelle|Pollen Puff|p2a: speed man
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p1b: Rillaboom|U-turn|p2a: speed man
+|-resisted|p2a: speed man
+|-damage|p2a: speed man|91/100
+|
+|t:|1750778719
+|switch|p1b: Clefairy|Clefairy, L50, F, shiny|100/100|[from] U-turn
+|move|p2a: speed man|Shell Side Arm|p1b: Clefairy|[anim] Shell Side Arm Special
+|-supereffective|p1b: Clefairy
+|-damage|p1b: Clefairy|26/100
+|-hint|Special Shell Side Arm
+|
+|-heal|p2a: speed man|97/100|[from] Grassy Terrain
+|-heal|p1b: Clefairy|32/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750778736
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p1b: Clefairy|Protect|p1b: Clefairy
+|-singleturn|p1b: Clefairy|Protect
+|move|p2b: florabelle|Dazzling Gleam|p1b: Clefairy|[spread] p1a
+|-activate|p1b: Clefairy|move: Protect
+|-damage|p1a: Terapagos|95/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: florabelle|[spread] p2a,p2b
+|-supereffective|p2a: speed man
+|-crit|p2a: speed man
+|-damage|p2a: speed man|0 fnt
+|-damage|p2b: florabelle|57/100
+|faint|p2a: speed man
+|
+|-heal|p2b: florabelle|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750778756
+|switch|p2a: cerberowo|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: cerberowo|Dauntless Shield|boost
+|-boost|p2a: cerberowo|def|1
+|turn|4
+|
+|t:|1750778770
+|move|p2b: florabelle|Helping Hand|p2a: cerberowo
+|-singleturn|p2a: cerberowo|Helping Hand|[of] p2b: florabelle
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: cerberowo|Body Press|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|move|p1a: Terapagos|Tera Starstorm|p2b: florabelle|[spread] p2a,p2b
+|-damage|p2a: cerberowo|67/100
+|-damage|p2b: florabelle|22/100
+|
+|-heal|p2b: florabelle|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750778773
+|switch|p1b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750778790
+|move|p2a: cerberowo|Wide Guard|p2a: cerberowo
+|-singleturn|p2a: cerberowo|Wide Guard
+|move|p1b: Rillaboom|Fake Out|p2a: cerberowo
+|-resisted|p2a: cerberowo
+|-damage|p2a: cerberowo|64/100
+|move|p2b: florabelle|Pollen Puff|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|67/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: cerberowo|[spread] 
+|-activate|p2a: cerberowo|move: Wide Guard
+|-activate|p2b: florabelle|move: Wide Guard
+|
+|-heal|p2a: cerberowo|70/100|[from] Grassy Terrain
+|-heal|p2b: florabelle|34/100|[from] Grassy Terrain
+|-heal|p2b: florabelle|39/100|[from] item: Leftovers
+|-heal|p1a: Terapagos|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|73/100|[from] Grassy Terrain
+|-sideend|p2: otter_707|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1750778814
+|move|p2b: florabelle|Helping Hand|p2a: cerberowo
+|-singleturn|p2a: cerberowo|Helping Hand|[of] p2b: florabelle
+|move|p2a: cerberowo|Body Press|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|20/100
+|move|p1a: Terapagos|Earth Power|p2a: cerberowo
+|-supereffective|p2a: cerberowo
+|-damage|p2a: cerberowo|0 fnt
+|faint|p2a: cerberowo
+|move|p1b: Rillaboom|Wood Hammer|p2b: florabelle
+|-damage|p2b: florabelle|0 fnt
+|faint|p2b: florabelle
+|-damage|p1b: Rillaboom|63/100|[from] Recoil
+|
+|-heal|p1a: Terapagos|26/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|69/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750778826
+|switch|p2b: El Pisador|Incineroar, L50, F|100/100
+|-ability|p2b: El Pisador|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|7
+|
+|t:|1750778836
+|move|p1a: Terapagos|Earth Power|p2b: El Pisador
+|-supereffective|p2b: El Pisador
+|-damage|p2b: El Pisador|0 fnt
+|faint|p2b: El Pisador
+|
+|win|CyrilIsTheGoat
+|raw|CyrilIsTheGoat's rating: 1222 &rarr; <strong>1240</strong><br />(+18 for winning)
+|raw|otter_707's rating: 1116 &rarr; <strong>1098</strong><br />(-18 for losing)
+|l|☆CyrilIsTheGoat
+|player|p1|
+|l|☆otter_707
+|player|p2|

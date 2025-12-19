@@ -1,0 +1,172 @@
+|j|☆bahuby
+|j|☆ceron890
+|t:|1750770353
+|gametype|doubles
+|player|p1|bahuby|266|1078
+|player|p2|ceron890|will|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|
+|t:|1750770380
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: whitey|Calyrex-Ice, L50|100/100
+|switch|p2b: nami|Annihilape, L50, M|100/100
+|-ability|p2a: whitey|As One
+|-ability|p2a: whitey|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ceron890)
+|
+|t:|1750770409
+|move|p1a: Rillaboom|Fake Out|p2a: whitey
+|-damage|p2a: whitey|91/100
+|move|p1b: Maushold|Taunt|p2a: whitey
+|-start|p2a: whitey|move: Taunt
+|move|p2b: nami|Close Combat|p1b: Maushold
+|-supereffective|p1b: Maushold
+|-enditem|p1b: Maushold|Focus Sash
+|-damage|p1b: Maushold|1/100
+|-unboost|p2b: nami|def|1
+|-unboost|p2b: nami|spd|1
+|cant|p2a: whitey|flinch
+|
+|-heal|p1b: Maushold|7/100|[from] Grassy Terrain
+|-heal|p2a: whitey|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|bahuby has 30 seconds left.
+|inactive|ceron890 has 30 seconds left.
+|inactive|ceron890 has 20 seconds left.
+|
+|t:|1750770447
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Grassy Glide|p2a: whitey
+|-crit|p2a: whitey
+|-damage|p2a: whitey|47/100
+|move|p2b: nami|Throat Chop|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|65/100
+|-start|p1b: Calyrex|Throat Chop|[silent]
+|move|p2a: whitey|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-resisted|p1b: Calyrex
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Calyrex|48/100
+|faint|p1a: Rillaboom
+|-ability|p2a: whitey|Chilling Neigh|boost
+|-boost|p2a: whitey|atk|1
+|
+|-heal|p2a: whitey|53/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|54/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750770465
+|switch|p1a: Maushold|Maushold, L50|7/100
+|turn|3
+|
+|t:|1750770472
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2b: nami|Close Combat|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|-unboost|p2b: nami|def|1
+|-unboost|p2b: nami|spd|1
+|faint|p1a: Maushold
+|move|p2a: whitey|Glacial Lance|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|19/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-heal|p1b: Calyrex|25/100|[from] Grassy Terrain
+|-heal|p2a: whitey|59/100|[from] Grassy Terrain
+|-end|p2a: whitey|move: Taunt
+|-end|p1b: Calyrex|Throat Chop|[silent]
+|upkeep
+|
+|t:|1750770487
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1750770503
+|move|p1a: Torkoal|Eruption|p2a: whitey|[spread] p2a,p2b
+|-supereffective|p2a: whitey
+|-damage|p2a: whitey|0 fnt
+|-damage|p2b: nami|0 fnt
+|faint|p2a: whitey
+|faint|p2b: nami
+|move|p1b: Calyrex|Glacial Lance|p2: whitey|[notarget]
+|-fail|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|30/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750770512
+|switch|p2a: oven|Torkoal, L50, M|100/100
+|switch|p2b: perona|Hatterene, L50, F|100/100
+|turn|5
+|c|☆bahuby|Haha
+|
+|t:|1750770524
+|-terastallize|p2a: oven|Fire
+|move|p1a: Torkoal|Eruption|p2b: perona|[spread] p2a,p2b
+|-resisted|p2a: oven
+|-damage|p2a: oven|31/100
+|-damage|p2b: perona|0 fnt
+|faint|p2b: perona
+|move|p2a: oven|Eruption|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Torkoal|71/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|77/100|[from] Grassy Terrain
+|-heal|p2a: oven|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750770538
+|move|p1a: Torkoal|Eruption|p2a: oven
+|-resisted|p2a: oven
+|-damage|p2a: oven|0 fnt
+|faint|p2a: oven
+|
+|win|bahuby
+|raw|bahuby's rating: 1078 &rarr; <strong>1105</strong><br />(+27 for winning)
+|raw|ceron890's rating: 1063 &rarr; <strong>1044</strong><br />(-19 for losing)
+|c|☆ceron890|gg
+|l|☆bahuby
+|player|p1|
+|l|☆ceron890
+|player|p2|

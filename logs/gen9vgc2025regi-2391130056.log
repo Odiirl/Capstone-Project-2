@@ -1,0 +1,192 @@
+|j|☆halceonvgc
+|j|☆OKCCTV
+|t:|1750806186
+|gametype|doubles
+|player|p1|halceonvgc|dawn-gen4pt|1169
+|player|p2|OKCCTV|266|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Enamorus, L50, F|
+|poke|p2|Pikachu, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Solgaleo, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by halceonvgc)
+|
+|t:|1750806208
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Pikachu|Pikachu, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|halceonvgc has 30 seconds left.
+|
+|t:|1750806236
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Sneasler|Dire Claw|p2b: Pikachu
+|-enditem|p2b: Pikachu|Focus Sash
+|-damage|p2b: Pikachu|2/100
+|move|p2b: Pikachu|Endeavor|p1a: Koraidon
+|-damage|p1a: Koraidon|1/100
+|move|p2a: Solgaleo|Psychic Fangs|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750806248
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1750806253
+|move|p2a: Solgaleo|Protect|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Koraidon|Flame Charge|p2b: Pikachu
+|-damage|p2b: Pikachu|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Pikachu
+|-damage|p1a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750806272
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Kyurem|Turboblaze
+|turn|3
+|inactive|OKCCTV has 30 seconds left.
+|
+|t:|1750806298
+|-terastallize|p2a: Solgaleo|Dark
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Encore|p2a: Solgaleo
+|-start|p2a: Solgaleo|Encore
+|move|p2b: Kyurem|Fusion Flare|p1b: Indeedee
+|-damage|p1b: Indeedee|42/100
+|move|p2a: Solgaleo|Protect||[still]
+|-fail|p2a: Solgaleo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750806315
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Solgaleo|Protect|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Protect
+|move|p1a: Calyrex|Draining Kiss|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|62/100
+|move|p2b: Kyurem|Fusion Flare|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750806329
+|switch|p2a: Enamorus|Enamorus, L50, F|100/100
+|-terastallize|p1a: Calyrex|Fairy
+|move|p1a: Calyrex|Draining Kiss|p2a: Enamorus
+|-damage|p2a: Enamorus|48/100
+|move|p2b: Kyurem|Fusion Flare|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|
+|-weather|none
+|-heal|p2a: Enamorus|54/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750806347
+|move|p1a: Calyrex|Draining Kiss|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|15/100
+|-heal|p1a: Calyrex|83/100|[from] drain|[of] p2b: Kyurem
+|move|p2a: Enamorus|Play Rough|p1a: Calyrex|[miss]
+|-miss|p2a: Enamorus|p1a: Calyrex
+|move|p2b: Kyurem|Freeze-Dry|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|
+|-heal|p2a: Enamorus|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750806365
+|switch|p2b: Solgaleo|Solgaleo, L50, tera:Dark|100/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Solgaleo|[spread] p2a,p2b
+|-resisted|p2b: Solgaleo
+|-damage|p2a: Enamorus|0 fnt
+|-damage|p2b: Solgaleo|80/100
+|faint|p2a: Enamorus
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750806368
+|switch|p2a: Kyurem|Kyurem-White, L50, shiny|15/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|8
+|
+|t:|1750806379
+|move|p1a: Calyrex|Draining Kiss|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-heal|p1a: Calyrex|54/100|[from] drain|[of] p2a: Kyurem
+|faint|p2a: Kyurem
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Solgaleo|Trick Room|p2b: Solgaleo
+|-fieldstart|move: Trick Room|[of] p2b: Solgaleo
+|
+|upkeep
+|turn|9
+|
+|t:|1750806387
+|move|p2b: Solgaleo|Psychic Fangs|p1a: Calyrex
+|-damage|p1a: Calyrex|1/100
+|move|p1a: Calyrex|Draining Kiss|p2b: Solgaleo
+|-supereffective|p2b: Solgaleo
+|-damage|p2b: Solgaleo|0 fnt
+|-heal|p1a: Calyrex|82/100|[from] drain|[of] p2b: Solgaleo
+|faint|p2b: Solgaleo
+|
+|win|halceonvgc
+|raw|halceonvgc's rating: 1169 &rarr; <strong>1195</strong><br />(+26 for winning)
+|raw|OKCCTV's rating: 1179 &rarr; <strong>1153</strong><br />(-26 for losing)
+|l|☆OKCCTV
+|player|p2|
+|l|☆halceonvgc
+|player|p1|

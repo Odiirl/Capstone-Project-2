@@ -1,0 +1,156 @@
+|j|☆yuy123
+|j|☆azzazzl
+|t:|1750780831
+|gametype|doubles
+|player|p1|yuy123|li|1451
+|player|p2|azzazzl|dawn|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Scraggy, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|
+|t:|1750780855
+|start
+|switch|p1a: Scraggy|Scraggy, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p1a: Scraggy|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|1
+|
+|t:|1750780879
+|move|p1a: Scraggy|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|94/100
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|10/100
+|cant|p2b: Urshifu|flinch
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750780921
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1a: Scraggy|Endeavor|p2b: Urshifu
+|-damage|p2b: Urshifu|61/100
+|move|p2b: Urshifu|Wicked Blow|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|26/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750780952
+|move|p1a: Scraggy|Coaching|p1b: Ursaluna
+|-boost|p1b: Ursaluna|atk|1
+|-boost|p1b: Ursaluna|def|1
+|move|p1b: Ursaluna|Facade|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldend|move: Trick Room
+|
+|-damage|p1b: Ursaluna|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1750780961
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750780986
+|move|p2a: Lunala|Expanding Force|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p2b: Calyrex|Imprison|p2b: Calyrex
+|-start|p2b: Calyrex|move: Imprison
+|move|p1a: Scraggy|Foul Play|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|27/100
+|
+|upkeep
+|
+|t:|1750780998
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750781028
+|-terastallize|p1b: Kyogre|Water
+|move|p2a: Lunala|Moongeist Beam|p1b: Kyogre
+|-damage|p1b: Kyogre|65/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Lunala|64/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1a: Scraggy|Foul Play|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750781044
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|6
+|
+|t:|1750781058
+|switch|p1b: Calyrex|Calyrex-Ice, L50|10/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p2b: Torkoal|Fire
+|move|p1a: Scraggy|Endeavor|p2b: Torkoal
+|-damage|p2b: Torkoal|71/100
+|move|p2b: Torkoal|Weather Ball|p1a: Scraggy
+|-damage|p1a: Scraggy|0 fnt
+|faint|p1a: Scraggy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750781074
+|switch|p1a: Kyogre|Kyogre, L50, tera:Water|65/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|7
+|-message|azzazzl forfeited.
+|
+|win|yuy123
+|raw|yuy123's rating: 1451 &rarr; <strong>1470</strong><br />(+19 for winning)
+|raw|azzazzl's rating: 1433 &rarr; <strong>1414</strong><br />(-19 for losing)
+|l|☆azzazzl
+|player|p2|
+|l|☆yuy123
+|player|p1|

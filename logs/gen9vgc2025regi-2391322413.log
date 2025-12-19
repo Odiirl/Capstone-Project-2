@@ -1,0 +1,156 @@
+|j|☆Biosector03
+|j|☆saltvi
+|t:|1750835848
+|gametype|doubles
+|player|p1|Biosector03|1|1128
+|player|p2|saltvi|170|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Reshiram, L50|
+|poke|p1|Kyurem-Black, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Lumineon, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Biosector03)
+|
+|t:|1750835865
+|start
+|switch|p1a: Kyurem|Kyurem-Black, L50|100/100
+|switch|p1b: Scrafty|Scrafty, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: NOMEGUSTA|Lumineon, L50, F|100/100
+|-ability|p1a: Kyurem|Teravolt
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: NOMEGUSTA|atk|1
+|turn|1
+|
+|t:|1750835883
+|-terastallize|p2a: Kyogre|Grass
+|move|p1b: Scrafty|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|90/100
+|move|p2b: NOMEGUSTA|Tailwind|p2b: NOMEGUSTA
+|-sidestart|p2: saltvi|move: Tailwind
+|cant|p2a: Kyogre|flinch
+|move|p1a: Kyurem|Fusion Bolt|p2b: NOMEGUSTA
+|-supereffective|p2b: NOMEGUSTA
+|-damage|p2b: NOMEGUSTA|7/100
+|-enditem|p2b: NOMEGUSTA|Sitrus Berry|[eat]
+|-heal|p2b: NOMEGUSTA|32/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835907
+|-terastallize|p1a: Kyurem|Stellar
+|move|p2b: NOMEGUSTA|Encore|p1b: Scrafty
+|-start|p1b: Scrafty|Encore
+|move|p2a: Kyogre|Origin Pulse|p1b: Scrafty|[spread] p1a,p1b
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|59/100
+|-damage|p1b: Scrafty|43/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|50/100
+|-supereffective|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-hitcount|p2: Kyogre|2
+|move|p1b: Scrafty|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Scrafty
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750835917
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750835927
+|move|p1b: Scrafty|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Scrafty
+|move|p2b: NOMEGUSTA|Chilling Water|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|51/100
+|-unboost|p1a: Kyurem|atk|1
+|move|p2a: Calyrex|Astral Barrage|p1b: Scrafty|[spread] p1a,p1b
+|-resisted|p1b: Scrafty
+|-damage|p1a: Kyurem|0 fnt
+|-damage|p1b: Scrafty|24/100
+|faint|p1a: Kyurem
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750835942
+|switch|p1a: Reshiram|Reshiram, L50|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|4
+|
+|t:|1750835956
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|move|p1b: Scrafty|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Scrafty
+|move|p2b: NOMEGUSTA|Chilling Water|p1b: Scrafty
+|-damage|p1b: Scrafty|9/100
+|-unboost|p1b: Scrafty|atk|1
+|move|p2a: Calyrex|Astral Barrage|p1b: Scrafty|[spread] p1a,p1b
+|-resisted|p1b: Scrafty
+|-damage|p1a: Tornadus|6/100
+|-damage|p1b: Scrafty|0 fnt
+|faint|p1b: Scrafty
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: saltvi|move: Tailwind
+|upkeep
+|
+|t:|1750835959
+|switch|p1b: Reshiram|Reshiram, L50|100/100
+|-ability|p1b: Reshiram|Turboblaze
+|turn|5
+|
+|t:|1750835977
+|move|p1a: Tornadus|Sunny Day|p1a: Tornadus
+|-weather|SunnyDay
+|move|p2a: Calyrex|Astral Barrage|p1b: Reshiram|[spread] p1a,p1b
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Reshiram|0 fnt
+|faint|p1a: Tornadus
+|faint|p1b: Reshiram
+|-damage|p2a: Calyrex|71/100|[from] item: Life Orb
+|
+|win|saltvi
+|raw|Biosector03's rating: 1128 &rarr; <strong>1107</strong><br />(-21 for losing)
+|raw|saltvi's rating: 1188 &rarr; <strong>1209</strong><br />(+21 for winning)
+|l|☆Biosector03
+|player|p1|
+|l|☆saltvi
+|player|p2|

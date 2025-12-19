@@ -1,0 +1,259 @@
+|j|☆comrade5
+|j|☆Hd70
+|t:|1750735514
+|gametype|doubles
+|player|p1|comrade5|2|1289
+|player|p2|Hd70|101|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Vivillon-Fancy, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750735547
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p1b: Raichu|Raichu, L50, M, shiny|100/100
+|switch|p2a: Vivillon|Vivillon-Fancy, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750735579
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Vivillon|Protect|p2a: Vivillon
+|-singleturn|p2a: Vivillon|Protect
+|move|p1b: Raichu|Endeavor|p2b: Miraidon
+|-damage|p2b: Miraidon|87/100
+|move|p1a: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750735608
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Miraidon|Draco Meteor|p1b: Raichu
+|-damage|p1b: Raichu|2/100
+|-unboost|p2b: Miraidon|spa|2
+|move|p1b: Raichu|Nuzzle|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|75/100
+|-status|p2a: Vivillon|par
+|cant|p2a: Vivillon|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750735639
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p2a: Vivillon|Pollen Puff|p1b: Amoonguss
+|-damage|p1b: Amoonguss|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750735671
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Miraidon|Volt Switch|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|61/100
+|
+|t:|1750735679
+|switch|p2b: Vivillon|Vivillon-Fancy, L50, M|75/100 par|[from] Volt Switch
+|move|p1a: Zamazenta|Body Press|p2b: Vivillon
+|-resisted|p2b: Vivillon
+|-damage|p2b: Vivillon|46/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750735694
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2a: Kyogre|Ice Beam|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|cant|p2b: Vivillon|par
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750735705
+|switch|p1b: Raichu|Raichu, L50, M, shiny|2/100
+|turn|6
+|
+|t:|1750735715
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Raichu|Endeavor|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Vivillon|Tailwind|p2b: Vivillon
+|-sidestart|p2: Hd70|move: Tailwind
+|
+|upkeep
+|turn|7
+|
+|t:|1750735754
+|move|p2a: Kyogre|Ice Beam|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|move|p1a: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|39/100
+|cant|p2b: Vivillon|par
+|
+|-heal|p2a: Kyogre|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750735763
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750735782
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|move|p2b: Vivillon|Rage Powder|p2b: Vivillon
+|-singleturn|p2b: Vivillon|move: Rage Powder
+|move|p1b: Calyrex|Astral Barrage|p2b: Vivillon|[spread] p2a,p2b
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|24/100
+|-damage|p2b: Vivillon|0 fnt
+|faint|p2b: Vivillon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Body Press|p2a: Scream Tail
+|-resisted|p2a: Scream Tail
+|-damage|p2a: Scream Tail|9/100
+|
+|upkeep
+|
+|t:|1750735803
+|switch|p2b: Miraidon|Miraidon, L50|27/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|9
+|
+|t:|1750735812
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Zamazenta|perish3|[silent]
+|-start|p1b: Calyrex|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Miraidon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Miraidon|Volt Switch|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-start|p2a: Scream Tail|perish3
+|-start|p2b: Miraidon|perish3
+|-start|p1b: Calyrex|perish3
+|-start|p1a: Zamazenta|perish3
+|-sideend|p2: Hd70|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1750735830
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Scream Tail|[spread] 
+|-activate|p2a: Scream Tail|move: Protect
+|-activate|p2b: Miraidon|move: Protect
+|move|p1a: Zamazenta|Body Press|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|
+|-start|p2a: Scream Tail|perish2
+|-start|p1b: Calyrex|perish2
+|-start|p2b: Miraidon|perish2
+|-start|p1a: Zamazenta|perish2
+|upkeep
+|turn|11
+|
+|t:|1750735854
+|-terastallize|p2b: Miraidon|Electric
+|move|p2a: Scream Tail|Disable|p1b: Calyrex
+|-start|p1b: Calyrex|Disable|Astral Barrage
+|cant|p1b: Calyrex|Disable|Astral Barrage
+|move|p2b: Miraidon|Electro Drift|p1a: Zamazenta
+|-damage|p1a: Zamazenta|13/100
+|move|p1a: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-start|p2a: Scream Tail|perish1
+|-start|p1b: Calyrex|perish1
+|-start|p1a: Zamazenta|perish1
+|upkeep
+|
+|t:|1750735872
+|switch|p2b: Kyogre|Kyogre, L50|44/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|12
+|
+|t:|1750735888
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p1b: Calyrex|Psychic|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|move|p1a: Zamazenta|Body Press|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Kyogre|50/100|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish0
+|-start|p1b: Calyrex|perish0
+|-start|p1a: Zamazenta|perish0
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|faint|p1b: Calyrex
+|faint|p1a: Zamazenta
+|
+|win|Hd70
+|raw|comrade5's rating: 1289 &rarr; <strong>1266</strong><br />(-23 for losing)
+|raw|Hd70's rating: 1311 &rarr; <strong>1330</strong><br />(+19 for winning)
+|l|☆Hd70
+|player|p2|

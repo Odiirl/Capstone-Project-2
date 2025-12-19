@@ -1,0 +1,424 @@
+|j|☆pigs2fly
+|j|☆peasantbread
+|t:|1750771816
+|gametype|doubles
+|player|p1|pigs2fly|dexio|1632
+|player|p2|peasantbread|265|1624
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|
+|t:|1750771854
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|l|☆pigs2fly
+|player|p1|
+|j|☆pigs2fly
+|player|p1|pigs2fly|dexio|
+|
+|t:|1750771887
+|-terastallize|p1b: Annihilape|Dark
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: peasantbread|Reflect
+|move|p1b: Annihilape|Final Gambit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p1b: Annihilape
+|faint|p2a: Kyogre
+|move|p1a: Zacian|Behemoth Blade|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750771897
+|switch|p1b: Dondozo|Dondozo, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750771914
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|76/100
+|move|p2b: Calyrex|Leech Seed|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2a: Amoonguss|Spore|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750771949
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M|100/100
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Zacian|Behemoth Blade|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750771970
+|move|p1b: Tatsugiri|Protect|p1b: Tatsugiri
+|-singleturn|p1b: Tatsugiri|Protect
+|move|p2a: Amoonguss|Spore|p1b: Tatsugiri
+|-activate|p1b: Tatsugiri|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1a
+|-activate|p1b: Tatsugiri|move: Protect
+|-resisted|p1a: Zacian
+|-activate|p1a: Zacian|move: Substitute|[damage]
+|move|p1a: Zacian|Behemoth Blade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|58/100
+|-damage|p1a: Zacian|59/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750771996
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Tatsugiri|[spread] p1b
+|-activate|p1a: Zacian|move: Protect
+|-damage|p1b: Tatsugiri|6/100
+|move|p1b: Tatsugiri|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750772014
+|move|p2a: Amoonguss|Protect||[still]
+|-fail|p2a: Amoonguss
+|move|p1b: Tatsugiri|Protect|p1b: Tatsugiri
+|-singleturn|p1b: Tatsugiri|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1a
+|-activate|p1b: Tatsugiri|move: Protect
+|-resisted|p1a: Zacian
+|-end|p1a: Zacian|Substitute
+|move|p1a: Zacian|Behemoth Blade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|11/100
+|-damage|p1a: Zacian|42/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|7
+|
+|t:|1750772023
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|move|p2a: Amoonguss|Spore|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Spore
+|move|p2b: Calyrex|Glacial Lance|p1a: Dondozo|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|92/100 slp
+|
+|-heal|p1a: Dondozo|98/100 slp|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750772040
+|cant|p1a: Dondozo|slp
+|move|p2b: Calyrex|Glacial Lance|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100 slp
+|move|p2a: Amoonguss|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100 slp
+|
+|-heal|p1a: Dondozo|88/100 slp|[from] item: Leftovers
+|-end|p2b: Calyrex|move: Taunt
+|-sideend|p2: peasantbread|Reflect
+|upkeep
+|turn|9
+|
+|t:|1750772047
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|cant|p1a: Dondozo|slp
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-heal|p1a: Dondozo|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750772059
+|move|p2a: Amoonguss|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|86/100 slp
+|move|p2b: Calyrex|Leech Seed|p1a: Dondozo
+|-start|p1a: Dondozo|move: Leech Seed
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Order Up|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-boost|p1a: Dondozo|atk|1
+|
+|-heal|p1a: Dondozo|92/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|79/100|[from] Leech Seed|[of] p2b: Calyrex
+|upkeep
+|turn|11
+|
+|t:|1750772071
+|move|p2b: Calyrex|Glacial Lance|p1a: Dondozo|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|70/100
+|move|p1a: Dondozo|Order Up|p2b: Calyrex
+|-damage|p2b: Calyrex|67/100
+|-boost|p1a: Dondozo|atk|1
+|
+|-heal|p2b: Calyrex|72/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|76/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|64/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|86/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1750772075
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Dondozo|Order Up|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|92/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|70/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|58/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|100/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1750772078
+|move|p2b: Calyrex|Glacial Lance|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|49/100
+|move|p1a: Dondozo|Order Up|p2b: Calyrex
+|-damage|p2b: Calyrex|59/100
+|-boost|p1a: Dondozo|atk|1
+|
+|-heal|p2b: Calyrex|65/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|55/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|42/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|78/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1750772086
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-damage|p2b: Calyrex|36/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-heal|p2b: Calyrex|42/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|49/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|36/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|56/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1750772092
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] 
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|61/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|42/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|30/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|75/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1750772094
+|move|p2b: Calyrex|Leech Seed||[still]
+|-fail|p2b: Calyrex
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-damage|p2b: Calyrex|29/100
+|
+|-heal|p2b: Calyrex|34/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|36/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|24/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|48/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1750772099
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] 
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|54/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|30/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|18/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|67/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1750772107
+|move|p2b: Calyrex|Protect||[still]
+|-fail|p2b: Calyrex
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-damage|p2b: Calyrex|22/100
+|
+|-heal|p2b: Calyrex|28/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|24/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|12/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|42/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1750772114
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] 
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p1a: Dondozo|18/100|[from] item: Leftovers
+|-heal|p2b: Calyrex|47/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|5/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|61/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1750772122
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-damage|p2b: Calyrex|19/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-heal|p2b: Calyrex|25/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|12/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|0 fnt|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|37/100|[silent]
+|faint|p1a: Dondozo
+|upkeep
+|
+|t:|1750772125
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|42/100
+|turn|21
+|
+|t:|1750772131
+|move|p2b: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|23/100
+|-damage|p1b: Tatsugiri|0 fnt
+|faint|p1b: Tatsugiri
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1a: Zacian|Play Rough|p2b: Calyrex
+|-damage|p2b: Calyrex|4/100
+|
+|-heal|p2b: Calyrex|10/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by peasantbread)
+|inactive|peasantbread has 60 seconds left.
+|j| surgevgc
+|j| neebieplayersea
+|inactive|peasantbread has 30 seconds left.
+|inactive|peasantbread has 20 seconds left.
+|inactive|peasantbread has 15 seconds left.
+|inactive|peasantbread has 10 seconds left.
+|inactive|peasantbread has 5 seconds left.
+|
+|t:|1750772253
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zacian|Play Rough|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|15/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1750772276
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Calyrex|Leech Seed|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|
+|-heal|p2b: Calyrex|21/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1750772283
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zacian|Play Rough|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|27/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|t:|1750772285
+|move|p1a: Zacian|Play Rough|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|pigs2fly
+|raw|pigs2fly's rating: 1632 &rarr; <strong>1652</strong><br />(+20 for winning)
+|raw|peasantbread's rating: 1624 &rarr; <strong>1604</strong><br />(-20 for losing)
+|l|☆peasantbread
+|player|p2|
+|l|☆pigs2fly
+|player|p1|
+|l| neebieplayersea
+|l| surgevgc

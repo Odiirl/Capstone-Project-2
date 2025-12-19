@@ -1,0 +1,162 @@
+|j|☆smario1705
+|j|☆qmqmqmqmqm
+|t:|1750768080
+|gametype|doubles
+|player|p1|smario1705|alder|1127
+|player|p2|qmqmqmqmqm|266|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Suicune, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Cryogonal, L50|
+|teampreview|4
+|
+|t:|1750768123
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Suicune|Suicune, L50|100/100
+|switch|p2b: Kyurem|Kyurem-White, L50|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|-item|p2a: Suicune|Air Balloon
+|turn|1
+|
+|t:|1750768157
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|move|p2b: Kyurem|Sheer Cold|p1a: Lunala|[miss]
+|-miss|p2b: Kyurem|p1a: Lunala
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-enditem|p2b: Kyurem|Focus Sash
+|-damage|p2b: Kyurem|1/100
+|move|p2a: Suicune|Sheer Cold|p1a: Lunala|[miss]
+|-miss|p2a: Suicune|p1a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750768185
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: smario1705|move: Light Screen
+|move|p2b: Kyurem|Sheer Cold|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|-ohko
+|move|p1a: Lunala|Dazzling Gleam|p2b: Kyurem|[spread] p2a,p2b
+|-supereffective|p2b: Kyurem
+|-damage|p2a: Suicune|75/100 par
+|-damage|p2b: Kyurem|0 fnt
+|-enditem|p2a: Suicune|Air Balloon
+|faint|p2b: Kyurem
+|move|p2a: Suicune|Sheer Cold|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-ohko
+|
+|upkeep
+|
+|t:|1750768203
+|switch|p2b: Groudon|Groudon, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Suicune|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Suicune
+|-unboost|p2b: Groudon|atk|1
+|turn|3
+|
+|t:|1750768242
+|move|p1b: Incineroar|Fake Out|p2b: Groudon
+|-damage|p2b: Groudon|92/100
+|cant|p2b: Groudon|flinch
+|move|p1a: Koraidon|Close Combat|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Suicune
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750768253
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|t:|1750768279
+|-terastallize|p2b: Groudon|Ghost
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Groudon|Fissure|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ohko
+|move|p2a: Chien-Pao|Sheer Cold|p1b: Incineroar|[miss]
+|-miss|p2a: Chien-Pao|p1b: Incineroar
+|move|p1b: Incineroar|Flare Blitz|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|-damage|p1b: Incineroar|70/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750768299
+|move|p2b: Groudon|Fissure|p1b: Incineroar|[miss]
+|-miss|p2b: Groudon|p1b: Incineroar
+|move|p1b: Incineroar|Knock Off|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|24/100
+|-enditem|p2b: Groudon|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750768320
+|move|p2b: Groudon|Rest|p2b: Groudon
+|-status|p2b: Groudon|slp|[from] move: Rest
+|-heal|p2b: Groudon|100/100 slp|[silent]
+|move|p1b: Incineroar|Flare Blitz|p2b: Groudon
+|-damage|p2b: Groudon|38/100 slp
+|-damage|p1b: Incineroar|49/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750768331
+|cant|p2b: Groudon|slp
+|move|p1b: Incineroar|Flare Blitz|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|-damage|p1b: Incineroar|36/100|[from] Recoil
+|
+|win|smario1705
+|raw|smario1705's rating: 1127 &rarr; <strong>1143</strong><br />(+16 for winning)
+|raw|qmqmqmqmqm's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆qmqmqmqmqm
+|player|p2|

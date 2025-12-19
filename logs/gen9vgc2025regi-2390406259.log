@@ -1,0 +1,134 @@
+|j|☆P1GN
+|j|☆eliott.pawsey
+|t:|1750709725
+|gametype|doubles
+|player|p1|P1GN|265|1080
+|player|p2|eliott.pawsey|fisherman-gen4|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Clawitzer, L50, M|
+|poke|p2|Baxcalibur, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eliott.pawsey)
+|inactive|P1GN also wants the timer to be on.
+|inactive|eliott.pawsey has 60 seconds left.
+|
+|t:|1750709776
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Baxcalibur|Baxcalibur, L50, F|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750709795
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Zacian|Behemoth Blade|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2b: Zacian|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|move|p2a: Baxcalibur|Iron Head|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|59/100
+|cant|p1b: Calyrex|flinch
+|
+|upkeep
+|
+|t:|1750709809
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1750709818
+|move|p2b: Zacian|Behemoth Blade|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Baxcalibur|High Horsepower|p1a: Torkoal|[miss]
+|-miss|p2a: Baxcalibur|p1a: Torkoal
+|move|p1a: Torkoal|Eruption|p2a: Baxcalibur|[spread] p2a,p2b
+|-supereffective|p2b: Zacian
+|-damage|p2a: Baxcalibur|38/100
+|-damage|p2b: Zacian|0 fnt
+|-ability|p2a: Baxcalibur|Thermal Exchange|boost
+|-boost|p2a: Baxcalibur|atk|1
+|faint|p2b: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750709828
+|switch|p2b: Clawitzer|Clawitzer, L50, M|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1750709848
+|-terastallize|p1a: Torkoal|Fire
+|move|p2a: Baxcalibur|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|10/100
+|move|p2b: Clawitzer|Heal Pulse|p2a: Baxcalibur
+|-heal|p2a: Baxcalibur|100/100
+|move|p1b: Hatterene|Expanding Force|p2a: Baxcalibur|[spread] p2a,p2b
+|-damage|p2a: Baxcalibur|44/100
+|-damage|p2b: Clawitzer|30/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Torkoal|Eruption|p2b: Clawitzer|[spread] p2a,p2b
+|-resisted|p2b: Clawitzer
+|-damage|p2a: Baxcalibur|35/100
+|-damage|p2b: Clawitzer|25/100
+|-ability|p2a: Baxcalibur|Thermal Exchange|boost
+|-boost|p2a: Baxcalibur|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750709865
+|move|p2a: Baxcalibur|Iron Head|p1b: Hatterene
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|move|p2b: Clawitzer|Heal Pulse|p2a: Baxcalibur
+|-heal|p2a: Baxcalibur|100/100
+|move|p1a: Torkoal|Eruption|p2a: Baxcalibur|[spread] p2a,p2b
+|-resisted|p2b: Clawitzer
+|-damage|p2a: Baxcalibur|93/100
+|-damage|p2b: Clawitzer|20/100
+|-ability|p2a: Baxcalibur|Thermal Exchange|boost
+|-boost|p2a: Baxcalibur|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|P1GN forfeited.
+|
+|win|eliott.pawsey
+|raw|P1GN's rating: 1080 &rarr; <strong>1062</strong><br />(-18 for losing)
+|raw|eliott.pawsey's rating: 1144 &rarr; <strong>1164</strong><br />(+20 for winning)
+|l|☆P1GN
+|player|p1|
+|l|☆eliott.pawsey
+|player|p2|

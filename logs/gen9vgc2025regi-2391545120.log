@@ -1,0 +1,175 @@
+|j|☆Siegbert11
+|j|☆leuc
+|t:|1750868520
+|gametype|doubles
+|player|p1|Siegbert11|265|1215
+|player|p2|leuc|acetrainer-gen4dp|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothorita, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Enamorus-Therian, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Thundurus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leuc)
+|inactive|Siegbert11 also wants the timer to be on.
+|inactive|Siegbert11 has 60 seconds left.
+|inactive|leuc has 60 seconds left.
+|
+|t:|1750868556
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Gothorita|Gothorita, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Thundurus|Thundurus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|inactive|Siegbert11 has 30 seconds left.
+|
+|t:|1750868587
+|-terastallize|p1a: Kyogre|Ghost
+|move|p2b: Thundurus|Protect|p2b: Thundurus
+|-singleturn|p2b: Thundurus|Protect
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Gothorita|Fake Out|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1a: Kyogre|Water Spout|p2a: Kyogre|[spread] 
+|-activate|p2a: Kyogre|move: Protect
+|-activate|p2b: Thundurus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750868608
+|move|p1b: Gothorita|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Gothorita
+|move|p2b: Thundurus|Thunder Wave|p1a: Kyogre
+|-status|p1a: Kyogre|par
+|move|p2a: Kyogre|Water Spout|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|13/100 par
+|-damage|p1b: Gothorita|18/100
+|move|p1a: Kyogre|Water Spout|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|92/100
+|-damage|p2b: Thundurus|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Siegbert11 has 30 seconds left.
+|inactive|Siegbert11 has 20 seconds left.
+|inactive|Siegbert11 has 15 seconds left.
+|
+|t:|1750868648
+|move|p2a: Kyogre|Water Spout|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Gothorita|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Gothorita
+|move|p2b: Thundurus|Wildbolt Storm|p1: Kyogre|[notarget]
+|-fail|p2b: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750868652
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Regieleki|Regieleki, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750868669
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Thundurus|Thunder Wave|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|move|p1b: Regieleki|Electroweb|p2b: Thundurus|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Thundurus|63/100
+|-unboost|p2b: Thundurus|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|leuc has 30 seconds left.
+|
+|t:|1750868697
+|move|p2b: Thundurus|Eerie Impulse|p1b: Regieleki
+|-unboost|p1b: Regieleki|spa|2
+|move|p1b: Regieleki|Electroweb|p2a: Kyogre|[spread] p2b
+|-miss|p1b: Regieleki|p2a: Kyogre
+|-damage|p2b: Thundurus|53/100
+|-unboost|p2b: Thundurus|spe|1
+|move|p2a: Kyogre|Hydro Pump|p1b: Regieleki|[miss]
+|-miss|p2a: Kyogre|p1b: Regieleki
+|move|p1a: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|19/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750868718
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Regieleki|atk|1
+|move|p1b: Regieleki|Electroweb|p2b: Landorus|[spread] p2a
+|-immune|p2b: Landorus
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|2/100
+|-unboost|p2a: Kyogre|spe|1
+|move|p2a: Kyogre|Hydro Pump|p1b: Regieleki
+|-enditem|p1b: Regieleki|Focus Sash
+|-damage|p1b: Regieleki|1/100
+|move|p1a: Zamazenta|Body Press|p2b: Landorus
+|-resisted|p2b: Landorus
+|-damage|p2b: Landorus|58/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750868740
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Regieleki|Electroweb|p2b: Landorus|[spread] 
+|-activate|p2a: Kyogre|move: Protect
+|-immune|p2b: Landorus
+|move|p2b: Landorus|U-turn|p1b: Regieleki
+|-damage|p1b: Regieleki|0 fnt
+|faint|p1b: Regieleki
+|
+|t:|1750868749
+|switch|p2b: Thundurus|Thundurus, L50, M|53/100|[from] U-turn
+|cant|p1a: Zamazenta|par
+|
+|upkeep
+|turn|8
+|-message|Siegbert11 forfeited.
+|
+|win|leuc
+|raw|Siegbert11's rating: 1215 &rarr; <strong>1193</strong><br />(-22 for losing)
+|raw|leuc's rating: 1253 &rarr; <strong>1275</strong><br />(+22 for winning)
+|l|☆Siegbert11
+|player|p1|
+|l|☆leuc
+|player|p2|

@@ -1,0 +1,137 @@
+|j|☆Zordor
+|j|☆lianxiaonian
+|t:|1750776992
+|gametype|doubles
+|player|p1|Zordor|pilot|1682
+|player|p2|lianxiaonian|cynthia-gen4|1594
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Entei, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lianxiaonian)
+|inactive|Zordor has 60 seconds left.
+|
+|t:|1750777025
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|1
+|
+|t:|1750777047
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Walking Wake|Snarl|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-supereffective|p2b: Farigiraf
+|-damage|p2a: Miraidon|95/100
+|-damage|p2b: Farigiraf|80/100
+|-unboost|p2a: Miraidon|spa|1
+|-unboost|p2b: Farigiraf|spa|1
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Walking Wake|[spread] p1a,p1b
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|14/100
+|-damage|p1b: Groudon|67/100
+|move|p1b: Groudon|Heat Crash|p2b: Farigiraf
+|-damage|p2b: Farigiraf|42/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|j| Ponytuils
+|inactive|Zordor has 30 seconds left.
+|inactive|Zordor has 20 seconds left.
+|
+|t:|1750777084
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Entei|Entei, L50|100/100
+|-terastallize|p1b: Groudon|Fire
+|move|p2b: Farigiraf|Psychic|p1a: Entei
+|-damage|p1a: Entei|79/100
+|move|p1b: Groudon|Heat Crash|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Entei|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750777102
+|switch|p2b: Ditto|Ditto, L50|100/100
+|-transform|p2b: Ditto|p1a: Entei|[from] ability: Imposter
+|turn|3
+|
+|t:|1750777116
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Ditto|Extreme Speed|p1a: Entei
+|-damage|p1a: Entei|63/100
+|move|p2a: Calyrex|High Horsepower|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750777143
+|switch|p1a: Walking Wake|Walking Wake, L50|14/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1750777149
+|move|p2b: Ditto|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Calyrex|High Horsepower|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-crit|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Zordor forfeited.
+|
+|win|lianxiaonian
+|raw|Zordor's rating: 1682 &rarr; <strong>1657</strong><br />(-25 for losing)
+|raw|lianxiaonian's rating: 1594 &rarr; <strong>1619</strong><br />(+25 for winning)
+|l|☆Zordor
+|player|p1|
+|l|☆lianxiaonian
+|player|p2|

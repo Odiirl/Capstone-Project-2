@@ -1,0 +1,354 @@
+|j|☆Oathplate
+|j|☆Gecko&romaine
+|t:|1750737925
+|gametype|doubles
+|player|p1|Oathplate|265|1206
+|player|p2|Gecko&romaine|doubleteam|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Toxapex, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Trevenant, L50, M|
+|poke|p2|Cyclizar, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oathplate)
+|inactive|Oathplate has 60 seconds left.
+|inactive|Gecko&romaine has 60 seconds left.
+|
+|t:|1750737983
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Trevenant|Trevenant, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Gecko&romaine has 30 seconds left.
+|inactive|Gecko&romaine has 20 seconds left.
+|
+|t:|1750738022
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Oathplate|Reflect
+|move|p1b: Lunala|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|69/100
+|move|p2b: Trevenant|Leech Seed|p1b: Lunala
+|-start|p1b: Lunala|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|74/100|[from] item: Leftovers
+|-damage|p1b: Lunala|88/100|[from] Leech Seed|[of] p2b: Trevenant
+|upkeep
+|turn|2
+|inactive|Oathplate has 30 seconds left.
+|inactive|Gecko&romaine has 30 seconds left.
+|
+|t:|1750738053
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Calyrex
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|4/100
+|move|p2b: Trevenant|Leech Seed|p1a: Grimmsnarl|[miss]
+|-miss|p2b: Trevenant|p1a: Grimmsnarl
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|10/100|[from] item: Leftovers
+|-heal|p1b: Lunala|94/100|[from] item: Leftovers
+|-damage|p1b: Lunala|82/100|[from] Leech Seed|[of] p2b: Trevenant
+|upkeep
+|turn|3
+|inactive|Gecko&romaine has 30 seconds left.
+|
+|t:|1750738080
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Trevenant|Ally Switch|p2b: Trevenant
+|swap|p2b: Trevenant|0|[from] move: Ally Switch
+|move|p2b: Calyrex|Glacial Lance|p1a: Grimmsnarl|[spread] 
+|-activate|p1a: Grimmsnarl|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Trevenant
+|-damage|p2a: Trevenant|69/100
+|-unboost|p2a: Trevenant|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|15/100|[from] item: Leftovers
+|-heal|p1b: Lunala|88/100|[from] item: Leftovers
+|-damage|p1b: Lunala|76/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|29/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750738101
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Trevenant|Forest's Curse||[still]
+|-fail|p2a: Trevenant
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|35/100|[from] item: Leftovers
+|-heal|p1b: Lunala|82/100|[from] item: Leftovers
+|-damage|p1b: Lunala|70/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|48/100|[silent]
+|upkeep
+|turn|5
+|inactive|Gecko&romaine has 30 seconds left.
+|inactive|Oathplate has 30 seconds left.
+|inactive|Gecko&romaine has 20 seconds left.
+|inactive|Gecko&romaine has 15 seconds left.
+|
+|t:|1750738142
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|move|p2a: Trevenant|Leech Seed|p1a: Torkoal
+|-start|p1a: Torkoal|move: Leech Seed
+|move|p2b: Calyrex|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|63/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|
+|-weather|none
+|-heal|p2b: Calyrex|54/100|[from] item: Leftovers
+|-heal|p1b: Lunala|76/100|[from] item: Leftovers
+|-damage|p1b: Lunala|64/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|68/100|[silent]
+|upkeep
+|
+|t:|1750738162
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Lunala|atk|1
+|turn|6
+|
+|t:|1750738172
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|92/100
+|move|p2b: Calyrex|High Horsepower|p1a: Calyrex
+|-damage|p1a: Calyrex|85/100
+|
+|-heal|p2b: Calyrex|73/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750738193
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1a: Calyrex
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|move|p1a: Calyrex|Leech Seed|p2b: Calyrex
+|-start|p2b: Calyrex|move: Leech Seed
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|75/100
+|-damage|p1b: Grimmsnarl|57/100
+|
+|-heal|p2b: Calyrex|79/100|[from] item: Leftovers
+|-damage|p2b: Calyrex|67/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|87/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750738211
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p2a: Incineroar|Flare Blitz|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|20/100
+|-damage|p2a: Incineroar|89/100|[from] Recoil
+|move|p1a: Calyrex|Leech Seed|p2a: Incineroar
+|-start|p2a: Incineroar|move: Leech Seed
+|move|p2b: Calyrex|Glacial Lance|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|76/100
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-heal|p2b: Calyrex|73/100 par|[from] item: Leftovers
+|-damage|p2a: Incineroar|76/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|88/100|[silent]
+|-damage|p2b: Calyrex|61/100 par|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|100/100|[silent]
+|-sideend|p1: Oathplate|Reflect
+|upkeep
+|
+|t:|1750738233
+|switch|p1b: Lunala|Lunala, L50, tera:Fairy|64/100
+|turn|9
+|
+|t:|1750738241
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Incineroar|Parting Shot|p1b: Lunala
+|-unboost|p1b: Lunala|atk|1
+|-unboost|p1b: Lunala|spa|1
+|
+|t:|1750738251
+|switch|p2a: Calyrex|Calyrex-Ice, L50|61/100 par|[from] Parting Shot
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Calyrex|45/100 par
+|-damage|p2b: Koraidon|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|70/100|[from] item: Leftovers
+|-heal|p2a: Calyrex|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750738275
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Koraidon|Flare Blitz|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Calyrex|High Horsepower|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|57/100 par|[from] item: Leftovers
+|-heal|p1b: Lunala|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750738292
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|43/100 par
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|82/100|[from] item: Leftovers
+|upkeep
+|c|☆Gecko&romaine|Darn
+|inactive|Gecko&romaine has 30 seconds left.
+|c|☆Gecko&romaine|I selected trick toom
+|c|☆Gecko&romaine|gg
+|inactive|Gecko&romaine has 20 seconds left.
+|
+|t:|1750738327
+|switch|p2a: Incineroar|Incineroar, L50, M|76/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Lunala|atk|1
+|turn|12
+|
+|t:|1750738341
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Koraidon|Protect||[still]
+|-fail|p2b: Koraidon
+|move|p2a: Incineroar|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p1b: Lunala|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750738359
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|move|p1b: Lunala|Moonblast|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|
+|-weather|none
+|-heal|p1b: Lunala|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750738372
+|move|p2a: Incineroar|Protect||[still]
+|-fail|p2a: Incineroar
+|move|p1a: Calyrex|Leech Seed|p2a: Incineroar
+|-start|p2a: Incineroar|move: Leech Seed
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|34/100
+|
+|-heal|p1b: Lunala|100/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|22/100|[from] Leech Seed|[of] p1a: Calyrex
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1750738387
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1b: Lunala|Moonblast|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|
+|-damage|p2a: Incineroar|9/100|[from] Leech Seed|[of] p1a: Calyrex
+|upkeep
+|turn|16
+|
+|t:|1750738399
+|move|p2a: Incineroar|Protect||[still]
+|-fail|p2a: Incineroar
+|move|p1b: Lunala|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|Oathplate
+|raw|Oathplate's rating: 1206 &rarr; <strong>1238</strong><br />(+32 for winning)
+|raw|Gecko&amp;romaine's rating: 1303 &rarr; <strong>1278</strong><br />(-25 for losing)
+|l|☆Oathplate
+|player|p1|
+|l|☆Gecko&romaine
+|player|p2|

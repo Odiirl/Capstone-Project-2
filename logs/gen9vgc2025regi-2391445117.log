@@ -1,0 +1,157 @@
+|j|☆bmbrvr
+|j|☆duragon312
+|t:|1750857051
+|gametype|doubles
+|player|p1|bmbrvr|silver|1342
+|player|p2|duragon312|101|1382
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Infernape, L50, F|
+|teampreview|4
+|
+|t:|1750857079
+|start
+|switch|p1a: Moltres|Moltres-Galar, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1750857104
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|move|p2b: Sableye|Gravity|p2b: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Groudon|Precipice Blades|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Moltres|49/100
+|-damage|p1b: Whimsicott|72/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|move|p1a: Moltres|Taunt|p2b: Sableye
+|-start|p2b: Sableye|move: Taunt
+|-enditem|p2b: Sableye|Mental Herb
+|-end|p2b: Sableye|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750857127
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: bmbrvr|move: Tailwind
+|move|p2a: Groudon|Precipice Blades|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Moltres|0 fnt
+|-damage|p1b: Whimsicott|43/100
+|faint|p1a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750857141
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750857156
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|-terastallize|p2b: Ho-Oh|Grass
+|move|p1a: Kyogre|Water Spout|p2b: Ho-Oh|[spread] p2a,p2b
+|-resisted|p2b: Ho-Oh
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2b: Ho-Oh|72/100
+|faint|p2a: Sableye
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: duragon312|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750857171
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|4
+|
+|t:|1750857187
+|switch|p1a: Whimsicott|Whimsicott, L50, M|43/100
+|move|p2a: Groudon|Precipice Blades|p1a: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|13/100
+|-damage|p1b: Urshifu|47/100
+|move|p2b: Ho-Oh|Brave Bird|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-damage|p2b: Ho-Oh|59/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750857196
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750857217
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|move|p1b: Kyogre|Water Spout|p2a: Flutter Mane|[spread] p2a,p2b
+|-crit|p2a: Flutter Mane
+|-resisted|p2b: Ho-Oh
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Ho-Oh|34/100
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Whimsicott|Endeavor|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|9/100
+|move|p2b: Ho-Oh|Brave Bird|p1b: Kyogre
+|-damage|p1b: Kyogre|42/100
+|-damage|p2b: Ho-Oh|0 fnt|[from] Recoil
+|faint|p2b: Ho-Oh
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: bmbrvr|move: Tailwind
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750857233
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|6
+|
+|t:|1750857238
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: bmbrvr|move: Tailwind
+|move|p2b: Groudon|Precipice Blades|p1a: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Kyogre
+|
+|win|duragon312
+|raw|bmbrvr's rating: 1342 &rarr; <strong>1324</strong><br />(-18 for losing)
+|raw|duragon312's rating: 1382 &rarr; <strong>1400</strong><br />(+18 for winning)
+|l|☆bmbrvr
+|player|p1|
+|l|☆duragon312
+|player|p2|

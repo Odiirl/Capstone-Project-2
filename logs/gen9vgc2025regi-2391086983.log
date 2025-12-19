@@ -1,0 +1,272 @@
+|j|☆SoMuchAppletun
+|j|☆bikram118
+|t:|1750800920
+|gametype|doubles
+|player|p1|SoMuchAppletun|gardenia-masters|1342
+|player|p2|bikram118|li|1269
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Vikavolt, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SoMuchAppletun)
+|
+|t:|1750800950
+|start
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p1b: Lunala|Grassy Seed
+|-boost|p1b: Lunala|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750800970
+|-terastallize|p1a: Dialga|Ghost
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Rillaboom|Fake Out|p1a: Dialga
+|-immune|p1a: Dialga
+|move|p2a: Kyogre|Water Spout|p1a: Dialga|[spread] 
+|-activate|p1a: Dialga|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Dialga|Roar of Time|p2a: Kyogre
+|-damage|p2a: Kyogre|29/100
+|-mustrecharge|p1a: Dialga
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|35/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|bikram118 has 30 seconds left.
+|inactive|bikram118 has 20 seconds left.
+|
+|t:|1750801007
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1b: Lunala|atk|1
+|cant|p1a: Dialga|recharge
+|move|p2b: Rillaboom|U-turn|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|90/100
+|
+|t:|1750801019
+|switch|p2b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dialga|96/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|bikram118 has 30 seconds left.
+|
+|t:|1750801047
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Incineroar|Knock Off|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|49/100
+|move|p1a: Dialga|Flash Cannon|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|59/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|44/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-damage|p2b: Lunala|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dialga|55/100|[from] Grassy Terrain
+|-heal|p2b: Lunala|30/100|[from] Grassy Terrain
+|-heal|p2b: Lunala|36/100|[from] item: Leftovers
+|-heal|p1b: Lunala|50/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|bikram118 has 30 seconds left.
+|
+|t:|1750801073
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Lunala|atk|1
+|move|p2a: Incineroar|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|83/100
+|-enditem|p1b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Dialga|Flash Cannon|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Incineroar|89/100|[from] Grassy Terrain
+|-heal|p1a: Dialga|60/100|[from] Grassy Terrain
+|upkeep
+|inactive|bikram118 has 30 seconds left.
+|
+|t:|1750801100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|5
+|
+|t:|1750801120
+|move|p1b: Incineroar|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|86/100
+|cant|p2b: Rillaboom|flinch
+|move|p2a: Incineroar|Knock Off|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|25/100
+|move|p1a: Dialga|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|33/100
+|
+|-weather|none
+|-heal|p2a: Incineroar|39/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|95/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|92/100|[from] Grassy Terrain
+|-heal|p1a: Dialga|30/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|bikram118 has 30 seconds left.
+|
+|t:|1750801146
+|move|p2a: Incineroar|Knock Off|p1a: Dialga
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|move|p1b: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1750801156
+|switch|p1b: Vikavolt|Vikavolt, L50, F, shiny|100/100|[from] Parting Shot
+|move|p2b: Rillaboom|U-turn|p1b: Vikavolt
+|-damage|p1b: Vikavolt|72/100
+|
+|t:|1750801162
+|switch|p2b: Kyogre|Kyogre, L50, shiny|35/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750801165
+|switch|p1a: Lunala|Lunala, L50|50/100
+|turn|7
+|
+|t:|1750801186
+|switch|p2a: Rillaboom|Rillaboom, L50, M|92/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Kyogre|Thunder|p1a: Lunala
+|-damage|p1a: Lunala|1/100
+|move|p1b: Vikavolt|Discharge|p2b: Kyogre|[spread] p2a,p2b
+|-activate|p1a: Lunala|move: Wide Guard
+|-resisted|p2a: Rillaboom
+|-supereffective|p2b: Kyogre
+|-damage|p2a: Rillaboom|77/100
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|7/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750801204
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|39/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Vikavolt|atk|1
+|turn|8
+|
+|t:|1750801221
+|move|p1b: Vikavolt|Protect|p1b: Vikavolt
+|-singleturn|p1b: Vikavolt|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Vikavolt
+|-activate|p1b: Vikavolt|move: Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|88/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750801226
+|switch|p1a: Incineroar|Incineroar, L50, F|95/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|9
+|inactive|bikram118 has 30 seconds left.
+|inactive|bikram118 has 20 seconds left.
+|inactive|bikram118 has 15 seconds left.
+|
+|t:|1750801267
+|move|p1a: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|31/100
+|-damage|p1a: Incineroar|79/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p2a: Rillaboom|Wood Hammer|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|13/100
+|-damage|p2a: Rillaboom|63/100|[from] Recoil
+|cant|p2b: Incineroar|flinch
+|move|p1b: Vikavolt|Bug Buzz|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-enditem|p1b: Vikavolt|Throat Spray
+|-boost|p1b: Vikavolt|spa|1|[from] item: Throat Spray
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|69/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|19/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|inactive|SoMuchAppletun has 30 seconds left.
+|inactive|bikram118 has 30 seconds left.
+|
+|t:|1750801295
+|move|p2a: Rillaboom|Wood Hammer|p1b: Vikavolt
+|-resisted|p1b: Vikavolt
+|-damage|p1b: Vikavolt|43/100
+|-damage|p2a: Rillaboom|59/100|[from] Recoil
+|move|p1a: Incineroar|Parting Shot|p2a: Rillaboom
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2a: Rillaboom|spa|1
+|move|p1b: Vikavolt|Bug Buzz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|win|SoMuchAppletun
+|raw|SoMuchAppletun's rating: 1342 &rarr; <strong>1358</strong><br />(+16 for winning)
+|raw|bikram118's rating: 1269 &rarr; <strong>1249</strong><br />(-20 for losing)
+|c|☆SoMuchAppletun|gg mate
+|l|☆bikram118
+|player|p2|
+|l|☆SoMuchAppletun
+|player|p1|

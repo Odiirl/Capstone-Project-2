@@ -1,0 +1,84 @@
+|j|☆senhoritalo_test2
+|j|☆Revandd
+|t:|1750854746
+|gametype|doubles
+|player|p1|senhoritalo_test2|265|1372
+|player|p2|Revandd|266|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Raichu-Alola, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by senhoritalo_test2)
+|
+|t:|1750854780
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|inactive|senhoritalo_test2 has 30 seconds left.
+|inactive|senhoritalo_test2 has 20 seconds left.
+|
+|t:|1750854819
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-terastallize|p1a: Miraidon|Fairy
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Raichu|13/100
+|-damage|p2b: Miraidon|64/100
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Miraidon|63/100
+|-damage|p1b: Farigiraf|60/100
+|
+|upkeep
+|turn|2
+|inactive|senhoritalo_test2 has 30 seconds left.
+|
+|t:|1750854851
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Raichu|Thunderbolt|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2b: Miraidon|Electro Drift|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|upkeep
+|-message|senhoritalo_test2 forfeited.
+|
+|win|Revandd
+|raw|senhoritalo_test2's rating: 1372 &rarr; <strong>1351</strong><br />(-21 for losing)
+|raw|Revandd's rating: 1360 &rarr; <strong>1381</strong><br />(+21 for winning)
+|l|☆senhoritalo_test2
+|player|p1|
+|l|☆Revandd
+|player|p2|

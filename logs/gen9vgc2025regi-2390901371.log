@@ -1,0 +1,191 @@
+|j|☆i_epix
+|j|☆ArtiboniteLadder
+|t:|1750781071
+|gametype|doubles
+|player|p1|i_epix|pokekid|1377
+|player|p2|ArtiboniteLadder|firebreather|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Boulder, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tsareena, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Dialga, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by i_epix)
+|inactive|i_epix has 60 seconds left.
+|inactive|ArtiboniteLadder has 60 seconds left.
+|
+|t:|1750781108
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2b: Dialga|Dialga, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|i_epix has 30 seconds left.
+|
+|t:|1750781136
+|move|p2b: Dialga|Protect|p2b: Dialga
+|-singleturn|p2b: Dialga|Protect
+|move|p1b: Whimsicott|Moonblast|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100
+|move|p1a: Miraidon|Volt Switch|p2b: Dialga
+|-activate|p2b: Dialga|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Miraidon
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750781146
+|switch|p1a: Iron Boulder|Iron Boulder, L50|100/100
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|2
+|inactive|ArtiboniteLadder has 30 seconds left.
+|
+|t:|1750781175
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2a: Ursaluna|87/100 brn|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Whimsicott|Encore||[still]
+|-fail|p1b: Whimsicott
+|move|p1a: Iron Boulder|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1750781179
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|3
+|
+|t:|1750781193
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Tsareena|Tsareena, L50, F|100/100
+|-enditem|p1a: Tsareena|Electric Seed
+|-boost|p1a: Tsareena|def|1|[from] item: Electric Seed
+|switch|p2a: Dialga|Dialga, L50|100/100
+|move|p1b: Whimsicott|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|77/100
+|-unboost|p2a: Dialga|spa|1
+|move|p2b: Sinistcha|Trick Room|p2b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2b: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750781213
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Tsareena
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Tsareena|87/100
+|-damage|p1b: Whimsicott|84/100
+|move|p1a: Tsareena|Knock Off|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|48/100
+|-damage|p1a: Tsareena|71/100|[from] item: Rocky Helmet|[of] p2b: Sinistcha
+|-enditem|p2b: Sinistcha|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Dialga|Flash Cannon|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|12/100
+|move|p1b: Whimsicott|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750781237
+|move|p1b: Whimsicott|Helping Hand|p1a: Tsareena
+|-singleturn|p1a: Tsareena|Helping Hand|[of] p1b: Whimsicott
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Tsareena
+|-crit|p1a: Tsareena
+|-resisted|p1b: Whimsicott
+|-crit|p1b: Whimsicott
+|-damage|p1a: Tsareena|50/100
+|-heal|p2b: Sinistcha|59/100|[from] drain|[of] p1a: Tsareena
+|-damage|p1b: Whimsicott|0 fnt
+|-heal|p2b: Sinistcha|64/100|[from] drain|[of] p1b: Whimsicott
+|faint|p1b: Whimsicott
+|move|p1a: Tsareena|Knock Off|p2a: Dialga
+|-damage|p2a: Dialga|26/100
+|-enditem|p2a: Dialga|Mental Herb|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Dialga|Dragon Pulse|p1a: Tsareena
+|-damage|p1a: Tsareena|22/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|c|☆ArtiboniteLadder|ez brudda
+|
+|t:|1750781253
+|switch|p1b: Iron Boulder|Iron Boulder, L50|100/100
+|turn|6
+|
+|t:|1750781271
+|-terastallize|p1b: Iron Boulder|Rock
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Tsareena|[spread] p1b
+|-miss|p2b: Sinistcha|p1a: Tsareena
+|-supereffective|p1b: Iron Boulder
+|-damage|p1b: Iron Boulder|37/100
+|-heal|p2b: Sinistcha|95/100|[from] drain|[of] p1b: Iron Boulder
+|move|p1a: Tsareena|Acrobatics|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|24/100
+|move|p2a: Dialga|Flash Cannon|p1b: Iron Boulder
+|-supereffective|p1b: Iron Boulder
+|-damage|p1b: Iron Boulder|0 fnt
+|faint|p1b: Iron Boulder
+|-end|p1b: Iron Boulder|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|c|☆ArtiboniteLadder|LMAO
+|c|☆i_epix|?
+|
+|t:|1750781294
+|move|p2b: Sinistcha|Life Dew|p2b: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Dialga|51/100
+|-heal|p2b: Sinistcha|49/100
+|move|p1a: Tsareena|Acrobatics|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|40/100
+|move|p2a: Dialga|Dragon Pulse|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|win|ArtiboniteLadder
+|raw|i_epix's rating: 1377 &rarr; <strong>1356</strong><br />(-21 for losing)
+|raw|ArtiboniteLadder's rating: 1361 &rarr; <strong>1382</strong><br />(+21 for winning)
+|c|☆i_epix|weirdo
+|l|☆ArtiboniteLadder
+|player|p2|
+|l|☆i_epix
+|player|p1|

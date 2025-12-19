@@ -1,0 +1,171 @@
+|j|☆hyper143
+|j|☆lonoVGC
+|t:|1750817445
+|gametype|doubles
+|player|p1|hyper143|benga|1379
+|player|p2|lonoVGC|unknownf|1486
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Perrserker, L50, F|
+|poke|p1|Heatran, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Boulder, L50|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lonoVGC)
+|
+|t:|1750817474
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Perrserker|Perrserker, L50, F|100/100
+|switch|p2a: Iron Boulder|Iron Boulder, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Boulder|ability: Quark Drive
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|1
+|
+|t:|1750817493
+|-terastallize|p2b: Miraidon|Electric
+|move|p1b: Perrserker|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|88/100
+|move|p2a: Iron Boulder|Close Combat|p1b: Perrserker
+|-supereffective|p1b: Perrserker
+|-enditem|p1b: Perrserker|Focus Sash
+|-damage|p1b: Perrserker|1/100
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|move|p1a: Zacian|Behemoth Blade|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|cant|p2b: Miraidon|flinch
+|
+|upkeep
+|
+|t:|1750817512
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|2
+|
+|t:|1750817537
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1b: Perrserker|Helping Hand|p1a: Zacian
+|-singleturn|p1a: Zacian|Helping Hand|[of] p1b: Perrserker
+|move|p2a: Kyogre|Water Spout|p1b: Perrserker|[spread] p1a,p1b
+|-damage|p1a: Zacian|14/100
+|-damage|p1b: Perrserker|0 fnt
+|faint|p1b: Perrserker
+|move|p1a: Zacian|Play Rough|p2b: Farigiraf
+|-damage|p2b: Farigiraf|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750817552
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|3
+|inactive|hyper143 has 30 seconds left.
+|inactive|lonoVGC has 30 seconds left.
+|
+|t:|1750817582
+|move|p2a: Kyogre|Water Spout|p1b: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zacian|0 fnt
+|-damage|p1b: Zamazenta|33/100
+|faint|p1a: Zacian
+|move|p1b: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|21/100
+|move|p2b: Farigiraf|Foul Play|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|28/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750817585
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|inactive|hyper143 has 30 seconds left.
+|
+|t:|1750817611
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Kyogre|Water Spout|p1b: Zamazenta|[spread] 
+|-activate|p1a: Gholdengo|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p1a: Gholdengo|Make It Rain|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|3/100
+|-damage|p2b: Farigiraf|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750817621
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|88/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750817631
+|-terastallize|p1a: Gholdengo|Steel
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Kyogre|Water Spout|p1a: Gholdengo|[spread] 
+|-activate|p1a: Gholdengo|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p1a: Gholdengo|Make It Rain|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Miraidon
+|-damage|p2a: Kyogre|0 fnt
+|-damage|p2b: Miraidon|71/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Kyogre
+|move|p2b: Miraidon|Electro Drift|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|-damage|p2b: Miraidon|62/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750817648
+|move|p1a: Gholdengo|Make It Rain|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|44/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2b: Miraidon|Electro Drift|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Miraidon|35/100|[from] item: Life Orb
+|
+|win|lonoVGC
+|raw|hyper143's rating: 1379 &rarr; <strong>1365</strong><br />(-14 for losing)
+|raw|lonoVGC's rating: 1486 &rarr; <strong>1500</strong><br />(+14 for winning)
+|l|☆hyper143
+|player|p1|
+|l|☆lonoVGC
+|player|p2|

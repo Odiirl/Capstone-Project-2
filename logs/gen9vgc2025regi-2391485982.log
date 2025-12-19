@@ -1,0 +1,146 @@
+|j|☆BonnibeI
+|j|☆Gomme31!
+|t:|1750861952
+|gametype|doubles
+|player|p1|BonnibeI|marnie|1099
+|player|p2|Gomme31!|101|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Hitmonlee, L50, M|
+|poke|p2|Seedot, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Zapdos-Galar, L50|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BonnibeI)
+|
+|t:|1750861982
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Meowscarada|Meowscarada, L50, M|100/100
+|switch|p2a: Bronzong|Bronzong, L50|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspd
+|turn|1
+|inactive|Gomme31! has 30 seconds left.
+|
+|t:|1750862014
+|move|p1b: Meowscarada|Knock Off|p2b: Porygon2
+|-start|p1b: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2b: Porygon2|60/100
+|-enditem|p2b: Porygon2|Eviolite|[from] move: Knock Off|[of] p1b: Meowscarada
+|move|p1a: Scream Tail|Imprison|p1a: Scream Tail
+|-start|p1a: Scream Tail|move: Imprison
+|move|p2b: Porygon2|Tri Attack|p1a: Scream Tail
+|-damage|p1a: Scream Tail|87/100
+|-status|p1a: Scream Tail|brn
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Gomme31!|move: Light Screen
+|
+|-damage|p1a: Scream Tail|81/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Gomme31! has 30 seconds left.
+|
+|t:|1750862047
+|move|p1b: Meowscarada|Knock Off|p2b: Porygon2
+|-damage|p2b: Porygon2|19/100
+|move|p1a: Scream Tail|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|79/100
+|move|p2b: Porygon2|Ice Beam|p1b: Meowscarada
+|-damage|p1b: Meowscarada|67/100
+|move|p2a: Bronzong|Earthquake|p1a: Scream Tail|[spread] p2b,p1a,p1b
+|-damage|p2b: Porygon2|4/100
+|-damage|p1a: Scream Tail|68/100 brn
+|-damage|p1b: Meowscarada|43/100
+|
+|-heal|p2a: Bronzong|85/100|[from] item: Leftovers
+|-damage|p1a: Scream Tail|62/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750862067
+|switch|p1b: Giratina|Giratina-Origin, L50|100/100
+|move|p1a: Scream Tail|Dazzling Gleam|p2b: Porygon2|[spread] p2a,p2b
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|79/100
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|move|p2a: Bronzong|Earthquake|p1a: Scream Tail|[spread] p1a
+|-immune|p1b: Giratina|[from] ability: Levitate
+|-damage|p1a: Scream Tail|50/100 brn
+|
+|-heal|p2a: Bronzong|86/100|[from] item: Leftovers
+|-damage|p1a: Scream Tail|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1750862083
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750862104
+|move|p1a: Scream Tail|Flamethrower|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|82/100
+|move|p1b: Giratina|Poltergeist|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Poltergeist|Mental Herb
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Bronzong|Stealth Rock|p1b: Giratina
+|-sidestart|p1: BonnibeI|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|92/100|[from] item: Leftovers
+|-damage|p1a: Scream Tail|37/100 brn|[from] brn
+|upkeep
+|
+|t:|1750862116
+|switch|p2b: Seedot|Seedot, L50, M|100/100
+|turn|5
+|
+|t:|1750862138
+|move|p1b: Giratina|Shadow Sneak|p2b: Seedot
+|-damage|p2b: Seedot|34/100
+|move|p1a: Scream Tail|Dazzling Gleam|p2b: Seedot|[spread] p2a,p2b
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|87/100
+|-damage|p2b: Seedot|0 fnt
+|faint|p2b: Seedot
+|move|p2a: Bronzong|Earthquake|p1b: Giratina|[spread] p1a
+|-immune|p1b: Giratina|[from] ability: Levitate
+|-damage|p1a: Scream Tail|25/100 brn
+|
+|-heal|p2a: Bronzong|93/100|[from] item: Leftovers
+|-damage|p1a: Scream Tail|19/100 brn|[from] brn
+|-sideend|p2: Gomme31!|move: Light Screen
+|upkeep
+|turn|6
+|-message|Gomme31! forfeited.
+|
+|win|BonnibeI
+|raw|BonnibeI's rating: 1099 &rarr; <strong>1121</strong><br />(+22 for winning)
+|raw|Gomme31!'s rating: 1059 &rarr; <strong>1042</strong><br />(-17 for losing)
+|l|☆Gomme31!
+|player|p2|
+|l|☆BonnibeI
+|player|p1|

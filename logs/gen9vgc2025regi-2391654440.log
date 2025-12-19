@@ -1,0 +1,244 @@
+|j|☆FiniteCombo
+|j|☆NathanaelW19
+|t:|1750880258
+|gametype|doubles
+|player|p1|FiniteCombo|169|1138
+|player|p2|NathanaelW19|scientist|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NathanaelW19)
+|inactive|FiniteCombo also wants the timer to be on.
+|inactive|FiniteCombo has 60 seconds left.
+|inactive|FiniteCombo has 30 seconds left.
+|
+|t:|1750880319
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Smeargle|atk|1
+|turn|1
+|inactive|FiniteCombo has 30 seconds left.
+|inactive|FiniteCombo has 20 seconds left.
+|inactive|FiniteCombo has 15 seconds left.
+|inactive|FiniteCombo has 10 seconds left.
+|inactive|FiniteCombo has 5 seconds left.
+|
+|t:|1750880372
+|move|p1b: Smeargle|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|98/100
+|-damage|p1b: Smeargle|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p2b: Incineroar|flinch
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: FiniteCombo|move: Tailwind
+|move|p2a: Calyrex|Glacial Lance|p1a: Tornadus|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1a: Tornadus
+|faint|p1b: Smeargle
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|upkeep
+|
+|t:|1750880386
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|2
+|inactive|FiniteCombo has 30 seconds left.
+|inactive|FiniteCombo has 20 seconds left.
+|inactive|FiniteCombo has 15 seconds left.
+|
+|t:|1750880429
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-terastallize|p2a: Calyrex|Fire
+|move|p1b: Zacian|Behemoth Blade|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|78/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Incineroar|56/100
+|faint|p2a: Calyrex
+|move|p2b: Incineroar|Parting Shot|p1a: Terapagos
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1a: Terapagos|spa|1
+|
+|t:|1750880441
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|
+|upkeep
+|
+|t:|1750880443
+|switch|p2a: Incineroar|Incineroar, L50, M|56/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Zacian|atk|1
+|turn|3
+|
+|t:|1750880457
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p1a: Terapagos|Tera Starstorm|p2b: Rillaboom|[spread] p2a,p2b
+|-damage|p2a: Incineroar|28/100
+|-damage|p2b: Rillaboom|73/100
+|move|p2a: Incineroar|Parting Shot|p1a: Terapagos
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1a: Terapagos|spa|1
+|
+|t:|1750880465
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-heal|p2b: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|FiniteCombo has 30 seconds left.
+|
+|t:|1750880491
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Zacian|Sacred Sword|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p1a: Terapagos|Tera Starstorm|p2a: Zamazenta|[spread] p2b
+|-activate|p2a: Zamazenta|move: Protect
+|-damage|p2b: Rillaboom|57/100
+|move|p2b: Rillaboom|U-turn|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|96/100
+|
+|t:|1750880514
+|switch|p2b: Incineroar|Incineroar, L50, M|28/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Zacian|atk|1
+|
+|-heal|p1b: Zacian|100/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|34/100|[from] Grassy Terrain
+|-sideend|p1: FiniteCombo|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750880527
+|move|p2b: Incineroar|Fake Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|96/100
+|cant|p1b: Zacian|flinch
+|move|p2a: Zamazenta|Body Press|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|23/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Incineroar|[spread] p2a,p2b
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|56/100
+|-damage|p2b: Incineroar|12/100
+|
+|-heal|p1b: Zacian|100/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|62/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|29/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|18/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750880548
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Zacian|Sacred Sword|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p1a: Terapagos|Tera Starstorm|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Zamazenta|move: Protect
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-heal|p2a: Zamazenta|67/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|35/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750880555
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|57/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|7
+|inactive|FiniteCombo has 30 seconds left.
+|
+|t:|1750880586
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p2a: Zamazenta|Body Press|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|-heal|p2a: Zamazenta|73/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|63/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|FiniteCombo has 30 seconds left.
+|
+|t:|1750880618
+|move|p1b: Zacian|Behemoth Blade|p2b: Rillaboom
+|-damage|p2b: Rillaboom|32/100
+|move|p2a: Zamazenta|Body Press|p1b: Zacian
+|-damage|p1b: Zacian|46/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|6/100
+|-damage|p2b: Rillaboom|21/100|[from] Recoil
+|
+|-heal|p1b: Zacian|12/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|79/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|inactive|NathanaelW19 has 30 seconds left.
+|
+|t:|1750880649
+|move|p2b: Rillaboom|Grassy Glide|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|win|NathanaelW19
+|raw|FiniteCombo's rating: 1138 &rarr; <strong>1116</strong><br />(-22 for losing)
+|raw|NathanaelW19's rating: 1176 &rarr; <strong>1198</strong><br />(+22 for winning)
+|l|☆FiniteCombo
+|player|p1|

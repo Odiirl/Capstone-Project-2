@@ -1,0 +1,173 @@
+|j|☆FIlmor2004
+|j|☆spirhul
+|t:|1750767505
+|gametype|doubles
+|player|p1|FIlmor2004|266|1176
+|player|p2|spirhul|101|1172
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Sandy Shocks, L50|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FIlmor2004)
+|
+|t:|1750767528
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750767550
+|move|p1b: Iron Hands|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|83/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: FIlmor2004|move: Tailwind
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Tornadus|72/100
+|-damage|p1b: Iron Hands|78/100
+|move|p2a: Sandy Shocks|Electroweb|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Iron Hands
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Iron Hands|69/100
+|-unboost|p1b: Iron Hands|spe|1
+|faint|p1a: Tornadus
+|-damage|p2a: Sandy Shocks|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750767574
+|switch|p1a: Kyurem|Kyurem-White, L50|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|2
+|
+|t:|1750767588
+|-terastallize|p1a: Kyurem|Fire
+|-terastallize|p2a: Sandy Shocks|Normal
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Kyurem|Freeze-Dry|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p2a: Sandy Shocks|Tri Attack|p1a: Kyurem
+|-damage|p1a: Kyurem|49/100
+|-damage|p2a: Sandy Shocks|81/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Heavy Slam|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|25/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750767613
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1a: Kyurem|Freeze-Dry|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|37/100
+|-damage|p1a: Kyurem|39/100|[from] item: Life Orb
+|move|p2a: Sandy Shocks|Tri Attack|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-damage|p2a: Sandy Shocks|15/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Drain Punch|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|-heal|p1b: Iron Hands|74/100|[from] drain|[of] p2a: Sandy Shocks
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750767637
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdriveatk
+|turn|4
+|
+|t:|1750767662
+|move|p2a: Iron Leaves|Protect|p2a: Iron Leaves
+|-singleturn|p2a: Iron Leaves|Protect
+|move|p1a: Koraidon|Flame Charge|p2a: Iron Leaves
+|-activate|p2a: Iron Leaves|move: Protect
+|move|p2b: Kyogre|Chilling Water|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|88/100
+|move|p1b: Iron Hands|Wild Charge|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1b: Iron Hands|68/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: FIlmor2004|move: Tailwind
+|upkeep
+|
+|t:|1750767678
+|switch|p2b: Miraidon|Miraidon, L50|83/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750767690
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Miraidon|Dragon Pulse|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p2a: Iron Leaves|Psyblade|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Leaves|Quark Drive
+|upkeep
+|turn|6
+|inactive|FIlmor2004 has 30 seconds left.
+|c|☆spirhul|Gg
+|inactive|FIlmor2004 has 20 seconds left.
+|
+|t:|1750767726
+|move|p1a: Koraidon|Collision Course|p2b: Miraidon
+|-damage|p2b: Miraidon|11/100
+|move|p2b: Miraidon|Dragon Pulse|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|8/100
+|move|p2a: Iron Leaves|Psyblade|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|win|spirhul
+|raw|FIlmor2004's rating: 1176 &rarr; <strong>1151</strong><br />(-25 for losing)
+|raw|spirhul's rating: 1172 &rarr; <strong>1197</strong><br />(+25 for winning)
+|l|☆spirhul
+|player|p2|
+|l|☆FIlmor2004
+|player|p1|

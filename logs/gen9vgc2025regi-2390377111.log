@@ -1,0 +1,241 @@
+|j|☆Npc red panther
+|j|☆SummerAltMeap
+|t:|1750706599
+|gametype|doubles
+|player|p1|Npc red panther|169|1560
+|player|p2|SummerAltMeap|florian-bb|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SummerAltMeap)
+|inactive|SummerAltMeap has 60 seconds left.
+|
+|t:|1750706654
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2b: Bongo|Rillaboom, L50, M, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Bongo
+|turn|1
+|
+|t:|1750706663
+|-terastallize|p1b: Calyrex|Fire
+|move|p2b: Bongo|Fake Out|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|89/100
+|cant|p1a: Grimmsnarl|flinch
+|move|p2a: Zacian|Play Rough|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|77/100
+|move|p1b: Calyrex|Leech Seed|p2a: Zacian
+|-start|p2a: Zacian|move: Leech Seed
+|
+|-heal|p1a: Grimmsnarl|95/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|83/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|89/100|[from] item: Leftovers
+|-damage|p2a: Zacian|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|99/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1750706677
+|switch|p2a: Aquafina|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Aquafina
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Npc red panther|Reflect
+|move|p2b: Bongo|Wood Hammer|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|45/100
+|-damage|p2b: Bongo|84/100|[from] Recoil
+|move|p1b: Calyrex|Glacial Lance|p2a: Aquafina|[spread] p2a,p2b
+|-resisted|p2a: Aquafina
+|-crit|p2a: Aquafina
+|-supereffective|p2b: Bongo
+|-damage|p2a: Aquafina|61/100
+|-damage|p2b: Bongo|0 fnt
+|faint|p2b: Bongo
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Aquafina|67/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|51/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750706694
+|switch|p2b: Doug|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1750706706
+|move|p2b: Doug|Helping Hand|p2a: Aquafina
+|-singleturn|p2a: Aquafina|Helping Hand|[of] p2b: Doug
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Npc red panther|move: Light Screen
+|move|p2a: Aquafina|Origin Pulse|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Aquafina|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750706711
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|4
+|
+|t:|1750706725
+|switch|p1b: Ditto|Ditto, L50|100/100
+|-transform|p1b: Ditto|p2a: Aquafina|[from] ability: Imposter
+|-terastallize|p2a: Aquafina|Grass
+|move|p2b: Doug|Helping Hand|p2a: Aquafina
+|-singleturn|p2a: Aquafina|Helping Hand|[of] p2b: Doug
+|move|p2a: Aquafina|Water Spout|p1b: Ditto|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-resisted|p1b: Ditto
+|-damage|p1a: Rillaboom|71/100
+|-damage|p1b: Ditto|61/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Aquafina
+|-resisted|p2a: Aquafina
+|-damage|p2a: Aquafina|40/100
+|-damage|p1a: Rillaboom|61/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Ditto|67/100|[from] Grassy Terrain
+|-heal|p2a: Aquafina|45/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750706750
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|88/100
+|move|p1b: Ditto|Ice Beam|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|72/100
+|move|p1a: Rillaboom|U-turn|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|67/100
+|
+|t:|1750706757
+|switch|p1a: Calyrex|Calyrex-Ice, L50, tera:Fire|100/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Doug|Psychic Noise|p1b: Ditto
+|-damage|p1b: Ditto|51/100
+|-start|p1b: Ditto|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zacian|73/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750706768
+|switch|p1b: Rillaboom|Rillaboom, L50, F|67/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Zacian|Play Rough|p1b: Rillaboom
+|-damage|p1b: Rillaboom|32/100
+|move|p2b: Doug|Foul Play|p1a: Calyrex
+|-damage|p1a: Calyrex|83/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|48/100
+|-damage|p2b: Doug|51/100
+|
+|-weather|none
+|-heal|p2a: Zacian|54/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|38/100|[from] Grassy Terrain
+|-heal|p2b: Doug|57/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|89/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750706787
+|move|p2a: Zacian|Behemoth Blade|p1b: Rillaboom
+|-damage|p1b: Rillaboom|3/100
+|move|p1b: Rillaboom|U-turn|p2b: Doug
+|-supereffective|p2b: Doug
+|-damage|p2b: Doug|22/100
+|
+|t:|1750706793
+|switch|p1b: Ditto|Ditto, L50|51/100|[from] U-turn
+|-transform|p1b: Ditto|p2a: Zacian|[from] ability: Imposter
+|-ability|p1b: Ditto|Intrepid Sword|boost
+|-boost|p1b: Ditto|atk|1
+|move|p2b: Doug|Foul Play|p1a: Calyrex
+|-damage|p1a: Calyrex|78/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Doug|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|30/100
+|-damage|p2b: Doug|0 fnt
+|faint|p2b: Doug
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-heal|p1b: Ditto|57/100|[from] Grassy Terrain
+|-heal|p2a: Zacian|37/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|84/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750706802
+|switch|p2b: Aquafina|Kyogre, L50, shiny, tera:Grass|45/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Aquafina
+|turn|8
+|
+|t:|1750706813
+|move|p2b: Aquafina|Protect|p2b: Aquafina
+|-singleturn|p2b: Aquafina|Protect
+|move|p1b: Ditto|Behemoth Blade|p2b: Aquafina
+|-activate|p2b: Aquafina|move: Protect
+|move|p2a: Zacian|Behemoth Blade|p1b: Ditto
+|-damage|p1b: Ditto|18/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Aquafina|[spread] p2a
+|-activate|p2b: Aquafina|move: Protect
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Ditto|24/100|[from] Grassy Terrain
+|-heal|p2b: Aquafina|51/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|96/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|-message|SummerAltMeap forfeited.
+|
+|win|Npc red panther
+|raw|Npc red panther's rating: 1560 &rarr; <strong>1580</strong><br />(+20 for winning)
+|raw|SummerAltMeap's rating: 1562 &rarr; <strong>1542</strong><br />(-20 for losing)
+|l|☆SummerAltMeap
+|player|p2|
+|l|☆Npc red panther
+|player|p1|

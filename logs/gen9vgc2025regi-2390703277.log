@@ -1,0 +1,150 @@
+|j|☆jjkko
+|j|☆groundskin
+|t:|1750753028
+|gametype|doubles
+|player|p1|jjkko|170|1468
+|player|p2|groundskin|102|1498
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Appletun, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750753048
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750753062
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Miraidon|Volt Switch|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|
+|t:|1750753067
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Miraidon|Electro Drift|p1b: Incineroar
+|-damage|p1b: Incineroar|24/100
+|move|p2b: Farigiraf|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|53/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Farigiraf|70/100
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750753081
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750753102
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|27/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Farigiraf|Foul Play|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750753117
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750753128
+|switch|p1a: Iron Moth|Iron Moth, L50|100/100
+|-activate|p1a: Iron Moth|ability: Quark Drive
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|upkeep
+|
+|t:|1750753137
+|switch|p2b: Iron Hands|Iron Hands, L50, shiny|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750753149
+|move|p2a: Calyrex|Protect||[still]
+|-fail|p2a: Calyrex
+|move|p1a: Iron Moth|Meteor Beam||[still]
+|-prepare|p1a: Iron Moth|Meteor Beam
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p1a: Iron Moth|Power Herb
+|-anim|p1a: Iron Moth|Meteor Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p1b: Miraidon|Electro Drift|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|68/100
+|move|p2b: Iron Hands|Supercell Slam|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750753152
+|switch|p1a: Calyrex|Calyrex-Ice, L50|53/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|-message|groundskin forfeited.
+|
+|win|jjkko
+|raw|jjkko's rating: 1468 &rarr; <strong>1490</strong><br />(+22 for winning)
+|raw|groundskin's rating: 1498 &rarr; <strong>1476</strong><br />(-22 for losing)
+|l|☆groundskin
+|player|p2|
+|l|☆jjkko
+|player|p1|

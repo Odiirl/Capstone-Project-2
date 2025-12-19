@@ -1,0 +1,181 @@
+|j|☆SlamTTHM
+|j|☆Fishorigami
+|t:|1750766191
+|gametype|doubles
+|player|p1|SlamTTHM|265|1103
+|player|p2|Fishorigami|101|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750766223
+|start
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Alcremie|Alcremie, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750766254
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Alcremie|Helping Hand|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Helping Hand|[of] p1b: Alcremie
+|move|p1a: Necrozma|Expanding Force|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|52/100
+|-damage|p2b: Calyrex|30/100
+|-damage|p1a: Necrozma|91/100|[from] item: Life Orb
+|move|p2b: Calyrex|Glacial Lance|p1b: Alcremie|[spread] p1a,p1b
+|-damage|p1a: Necrozma|37/100
+|-damage|p1b: Alcremie|32/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|-enditem|p1b: Alcremie|Room Service
+|-unboost|p1b: Alcremie|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fishorigami)
+|
+|t:|1750766312
+|move|p1a: Necrozma|Protect|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Necrozma|[spread] p1b
+|-activate|p1a: Necrozma|move: Protect
+|-damage|p1b: Alcremie|0 fnt
+|faint|p1b: Alcremie
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Necrozma
+|-activate|p1a: Necrozma|move: Protect
+|
+|upkeep
+|
+|t:|1750766324
+|switch|p1b: Araquanid|Araquanid, L50, F|100/100
+|turn|3
+|
+|t:|1750766339
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Araquanid|Wide Guard|p1b: Araquanid
+|-singleturn|p1b: Araquanid|Wide Guard
+|move|p1a: Necrozma|Expanding Force|p2a: Indeedee|[spread] p2b
+|-activate|p2a: Indeedee|move: Protect
+|-crit|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Necrozma|27/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750766354
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Water|30/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750766365
+|move|p1b: Araquanid|Protect||[still]
+|-fail|p1b: Araquanid
+|move|p1a: Necrozma|Protect|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Araquanid|[spread] p1b
+|-activate|p1a: Necrozma|move: Protect
+|-resisted|p1b: Araquanid
+|-damage|p1b: Araquanid|68/100
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Araquanid|[spread] p1b
+|-activate|p1a: Necrozma|move: Protect
+|-damage|p1b: Araquanid|56/100
+|
+|upkeep
+|turn|5
+|inactive|Fishorigami has 30 seconds left.
+|
+|t:|1750766390
+|move|p1b: Araquanid|Wide Guard|p1b: Araquanid
+|-singleturn|p1b: Araquanid|Wide Guard
+|move|p2b: Calyrex|Glacial Lance|p1b: Araquanid|[spread] 
+|-activate|p1a: Necrozma|move: Wide Guard
+|-activate|p1b: Araquanid|move: Wide Guard
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Necrozma|[spread] 
+|-activate|p1a: Necrozma|move: Wide Guard
+|-activate|p1b: Araquanid|move: Wide Guard
+|move|p1a: Necrozma|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|15/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Necrozma|17/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750766406
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750766421
+|move|p2b: Armarouge|Shadow Ball|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|move|p1b: Araquanid|Liquidation|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|
+|t:|1750766431
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750766441
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Araquanid|Liquidation|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Protect
+|
+|upkeep
+|turn|8
+|-message|Fishorigami forfeited.
+|
+|win|SlamTTHM
+|raw|SlamTTHM's rating: 1103 &rarr; <strong>1121</strong><br />(+18 for winning)
+|raw|Fishorigami's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Fishorigami
+|player|p2|

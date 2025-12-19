@@ -1,0 +1,122 @@
+|j|☆Heliosan
+|j|☆azzazzl
+|t:|1750834553
+|gametype|doubles
+|player|p1|Heliosan|steven|1489
+|player|p2|azzazzl|dawn|1519
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|
+|t:|1750834581
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750834612
+|-terastallize|p1b: Lunala|Fairy
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Lunala|Moonblast|p2b: Indeedee
+|-damage|p2b: Indeedee|46/100
+|move|p1a: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Indeedee
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750834622
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|2
+|
+|t:|1750834644
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|73/100
+|-damage|p1b: Lunala|80/100
+|move|p2b: Gallade|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Gallade|91/100|[from] item: Life Orb
+|move|p1b: Lunala|Moongeist Beam|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|upkeep
+|
+|t:|1750834659
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750834684
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Kyogre|Hydro Pump|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2a: Calyrex|High Horsepower|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750834693
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750834699
+|move|p2b: Kyogre|Water Spout|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-resisted|p1b: Miraidon
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Miraidon|71/100
+|faint|p1a: Ursaluna
+|move|p2a: Calyrex|Glacial Lance|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|azzazzl
+|raw|Heliosan's rating: 1489 &rarr; <strong>1471</strong><br />(-18 for losing)
+|raw|azzazzl's rating: 1519 &rarr; <strong>1537</strong><br />(+18 for winning)
+|l|☆Heliosan
+|player|p1|
+|l|☆azzazzl
+|player|p2|

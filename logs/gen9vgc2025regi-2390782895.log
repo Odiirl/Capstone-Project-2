@@ -1,0 +1,134 @@
+|j|☆givi
+|j|☆Awfulping
+|t:|1750767069
+|gametype|doubles
+|player|p1|givi|170|1343
+|player|p2|Awfulping|1|1365
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slither Wing, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Chandelure, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750767084
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Magmar|Magmar, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Iron Leaves|Iron Leaves, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: Iron Leaves|ability: Quark Drive
+|-start|p2b: Iron Leaves|quarkdrivespe
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by givi)
+|inactive|Awfulping also wants the timer to be on.
+|
+|t:|1750767103
+|-terastallize|p2a: Kyogre|Water
+|move|p2b: Iron Leaves|Scary Face|p1a: Miraidon
+|-unboost|p1a: Miraidon|spe|2
+|move|p2a: Kyogre|Water Spout|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-supereffective|p1b: Magmar
+|-damage|p1a: Miraidon|43/100
+|-damage|p1b: Magmar|0 fnt
+|faint|p1b: Magmar
+|move|p1a: Miraidon|Volt Switch|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|t:|1750767112
+|switch|p1a: Slither Wing|Slither Wing, L50|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750767123
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Slither Wing|unboost|[from] item: Clear Amulet|[of] p1a: Slither Wing
+|-unboost|p1b: Groudon|atk|1
+|turn|2
+|inactive|givi has 30 seconds left.
+|
+|t:|1750767149
+|-terastallize|p1a: Slither Wing|Ghost
+|move|p2a: Incineroar|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|92/100
+|move|p2b: Iron Leaves|Psyblade|p1a: Slither Wing
+|-damage|p1a: Slither Wing|19/100
+|cant|p1b: Groudon|flinch
+|move|p1a: Slither Wing|Leech Life|p2b: Iron Leaves
+|-supereffective|p2b: Iron Leaves
+|-crit|p2b: Iron Leaves
+|-enditem|p2b: Iron Leaves|Focus Sash
+|-damage|p2b: Iron Leaves|1/100
+|-heal|p1a: Slither Wing|73/100|[from] drain|[of] p2b: Iron Leaves
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750767169
+|move|p2b: Iron Leaves|Psyblade|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|move|p1b: Groudon|Bulldoze|p2b: Iron Leaves|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Iron Leaves
+|-damage|p2a: Incineroar|65/100
+|-damage|p2b: Iron Leaves|0 fnt
+|-unboost|p2a: Incineroar|spe|1
+|faint|p2b: Iron Leaves
+|-end|p2b: Iron Leaves|Quark Drive|[silent]
+|move|p2a: Incineroar|Parting Shot|p1b: Groudon
+|-unboost|p1b: Groudon|atk|1
+|-unboost|p1b: Groudon|spa|1
+|
+|t:|1750767181
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750767188
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|65/100
+|switch|p1a: Miraidon|Miraidon, L50|43/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Groudon|atk|1
+|turn|4
+|-message|givi forfeited.
+|
+|win|Awfulping
+|raw|givi's rating: 1343 &rarr; <strong>1324</strong><br />(-19 for losing)
+|raw|Awfulping's rating: 1365 &rarr; <strong>1384</strong><br />(+19 for winning)
+|l|☆givi
+|player|p1|

@@ -1,0 +1,146 @@
+|j|☆rei_arthur_rei
+|j|☆pantsuit
+|t:|1750803209
+|gametype|doubles
+|player|p1|rei_arthur_rei|1|1540
+|player|p2|pantsuit|265|1557
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750803243
+|start
+|switch|p1a: Godzilla|Groudon, L50|100/100
+|switch|p1b: Fénix|Ho-Oh, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rei_arthur_rei)
+|
+|t:|1750803271
+|switch|p1a: Duende verde|Grimmsnarl, L50, M|100/100
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p2a: Koraidon|Collision Course|p1a: Duende verde
+|-damage|p1a: Duende verde|0 fnt
+|faint|p1a: Duende verde
+|move|p1b: Fénix|Tailwind|p1b: Fénix
+|-sidestart|p1: rei_arthur_rei|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803286
+|switch|p1a: Godzilla|Groudon, L50|100/100
+|turn|2
+|inactive|rei_arthur_rei has 30 seconds left.
+|
+|t:|1750803317
+|move|p2b: Scovillain|Protect|p2b: Scovillain
+|-singleturn|p2b: Scovillain|Protect
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Fénix|Brave Bird|p2b: Scovillain
+|-activate|p2b: Scovillain|move: Protect
+|move|p1a: Godzilla|Precipice Blades|p2b: Scovillain|[spread] 
+|-activate|p2a: Koraidon|move: Protect
+|-activate|p2b: Scovillain|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750803332
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p1b: Fénix|Brave Bird|p2b: Scovillain
+|-supereffective|p2b: Scovillain
+|-enditem|p2b: Scovillain|Focus Sash
+|-damage|p2b: Scovillain|1/100
+|-damage|p1b: Fénix|78/100|[from] Recoil
+|move|p1a: Godzilla|Precipice Blades|p2b: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Koraidon|30/100
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p2a: Koraidon|Collision Course|p1a: Godzilla
+|-damage|p1a: Godzilla|0 fnt
+|faint|p1a: Godzilla
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| elwafle
+|
+|t:|1750803353
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Gasparzinho|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1a: Gasparzinho|ability: Protosynthesis
+|-start|p1a: Gasparzinho|protosynthesisspe
+|turn|4
+|inactive|rei_arthur_rei has 30 seconds left.
+|inactive|pantsuit has 30 seconds left.
+|inactive|pantsuit has 20 seconds left.
+|
+|t:|1750803388
+|-terastallize|p2b: Miraidon|Electric
+|-terastallize|p1b: Fénix|Grass
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Gasparzinho|Dazzling Gleam|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Miraidon|63/100
+|move|p2b: Miraidon|Electro Drift|p1a: Gasparzinho
+|-damage|p1a: Gasparzinho|0 fnt
+|faint|p1a: Gasparzinho
+|-end|p1a: Gasparzinho|Protosynthesis|[silent]
+|move|p1b: Fénix|Sacred Fire|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: rei_arthur_rei|move: Tailwind
+|upkeep
+|
+|t:|1750803405
+|switch|p2b: Chesnaught|Chesnaught, L50, M|100/100
+|-enditem|p2b: Chesnaught|Electric Seed
+|-boost|p2b: Chesnaught|def|1|[from] item: Electric Seed
+|turn|5
+|c|☆pantsuit|gg
+|
+|t:|1750803418
+|move|p2a: Koraidon|Flare Blitz|p1b: Fénix
+|-supereffective|p1b: Fénix
+|-damage|p1b: Fénix|0 fnt
+|faint|p1b: Fénix
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|
+|win|pantsuit
+|raw|rei_arthur_rei's rating: 1540 &rarr; <strong>1521</strong><br />(-19 for losing)
+|raw|pantsuit's rating: 1557 &rarr; <strong>1576</strong><br />(+19 for winning)
+|l|☆pantsuit
+|player|p2|
+|l|☆rei_arthur_rei
+|player|p1|

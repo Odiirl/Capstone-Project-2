@@ -1,0 +1,134 @@
+|j|☆yuukii-h^n
+|j|☆DA_MAGIK_BOI
+|t:|1750845523
+|gametype|doubles
+|player|p1|yuukii-h^n|266|1099
+|player|p2|DA_MAGIK_BOI|2|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Skarmory, L50, F|
+|poke|p1|Fezandipiti, L50, M|
+|poke|p1|Giratina, L50|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Slither Wing, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DA_MAGIK_BOI)
+|inactive|DA_MAGIK_BOI has 60 seconds left.
+|
+|t:|1750845568
+|start
+|switch|p1a: Fezandipiti|Fezandipiti, L50, M|100/100
+|switch|p1b: Skarmory|Skarmory, L50, F, shiny|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750845588
+|move|p2a: Iron Hands|Fake Out|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|80/100
+|move|p2b: Miraidon|Volt Switch|p1b: Skarmory
+|-supereffective|p1b: Skarmory
+|-ability|p1b: Skarmory|Sturdy
+|-damage|p1b: Skarmory|1/100
+|
+|t:|1750845594
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100|[from] Volt Switch
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|cant|p1a: Fezandipiti|flinch
+|move|p1b: Skarmory|Stealth Rock|p2b: Farigiraf
+|-sidestart|p2: DA_MAGIK_BOI|move: Stealth Rock
+|
+|-heal|p1b: Skarmory|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|yuukii-h^n has 30 seconds left.
+|
+|t:|1750845624
+|move|p1a: Fezandipiti|Beat Up|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|97/100
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|93/100
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|89/100
+|-status|p2b: Farigiraf|tox|[from] ability: Toxic Chain|[of] p1a: Fezandipiti
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|84/100 tox
+|-hitcount|p2b: Farigiraf|4
+|move|p1b: Skarmory|Tailwind|p1b: Skarmory
+|-sidestart|p1: yuukii-h^n|move: Tailwind
+|move|p2b: Farigiraf|Psychic|p1a: Fezandipiti
+|-supereffective|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|55/100
+|move|p2a: Iron Hands|Drain Punch|p1b: Skarmory
+|-damage|p1b: Skarmory|0 fnt
+|faint|p1b: Skarmory
+|
+|-damage|p2b: Farigiraf|78/100 tox|[from] psn
+|upkeep
+|inactive|yuukii-h^n has 30 seconds left.
+|
+|t:|1750845650
+|switch|p1b: Slither Wing|Slither Wing, L50, shiny|100/100
+|-enditem|p1b: Slither Wing|Booster Energy
+|-activate|p1b: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p1b: Slither Wing|protosynthesisatk
+|turn|3
+|
+|t:|1750845664
+|move|p1b: Slither Wing|First Impression||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|First Impression|[of] p1b: Slither Wing
+|move|p1a: Fezandipiti|Heat Wave|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|94/100
+|-damage|p2b: Farigiraf|68/100 tox
+|move|p2a: Iron Hands|Wild Charge|p1b: Slither Wing
+|-damage|p1b: Slither Wing|0 fnt
+|faint|p1b: Slither Wing
+|-end|p1b: Slither Wing|Protosynthesis|[silent]
+|-damage|p2a: Iron Hands|77/100|[from] Recoil
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-damage|p2b: Farigiraf|56/100 tox|[from] psn
+|upkeep
+|
+|t:|1750845668
+|switch|p1b: Weavile|Weavile, L50, F, shiny|100/100
+|-ability|p1b: Weavile|Pressure
+|turn|4
+|
+|t:|1750845684
+|-terastallize|p1b: Weavile|Ghost
+|move|p2a: Iron Hands|Wild Charge|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|0 fnt
+|faint|p1a: Fezandipiti
+|-damage|p2a: Iron Hands|66/100|[from] Recoil
+|move|p2b: Farigiraf|Foul Play|p1b: Weavile
+|-supereffective|p1b: Weavile
+|-damage|p1b: Weavile|0 fnt
+|faint|p1b: Weavile
+|
+|win|DA_MAGIK_BOI
+|raw|yuukii-h^n's rating: 1099 &rarr; <strong>1077</strong><br />(-22 for losing)
+|raw|DA_MAGIK_BOI's rating: 1139 &rarr; <strong>1161</strong><br />(+22 for winning)
+|l|☆DA_MAGIK_BOI
+|player|p2|
+|l|☆yuukii-h^n
+|player|p1|

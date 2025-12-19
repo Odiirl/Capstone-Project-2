@@ -1,0 +1,165 @@
+|j|☆It'sJustKen VGC
+|j|☆Jzvictini
+|t:|1750812899
+|gametype|doubles
+|player|p1|It'sJustKen VGC|caitlin|1718
+|player|p2|Jzvictini|266|1684
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by It'sJustKen VGC)
+|
+|t:|1750812921
+|start
+|switch|p1a: Tera Cell|Terapagos, L50, M|100/100
+|switch|p1b: TTE|Tornadus, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-activate|p1a: Tera Cell|ability: Tera Shift
+|detailschange|p1a: Tera Cell|Terapagos-Terastal, L50, M
+|-heal|p1a: Tera Cell|100/100|[silent]
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|It'sJustKen VGC has 30 seconds left.
+|
+|t:|1750812950
+|-terastallize|p1a: Tera Cell|Stellar
+|detailschange|p1a: Tera Cell|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Tera Cell|100/100|[silent]
+|move|p2b: Smeargle|Fake Out|p1a: Tera Cell
+|-damage|p1a: Tera Cell|97/100
+|move|p1b: TTE|Bleakwind Storm|p2a: Calyrex|[spread] p2a
+|-miss|p1b: TTE|p2b: Smeargle
+|-damage|p2a: Calyrex|75/100
+|cant|p1a: Tera Cell|flinch
+|move|p2a: Calyrex|Glacial Lance|p1b: TTE|[spread] p1a,p1b
+|-supereffective|p1b: TTE
+|-damage|p1a: Tera Cell|53/100
+|-enditem|p1b: TTE|Focus Sash
+|-damage|p1b: TTE|1/100
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750812970
+|move|p1b: TTE|Bleakwind Storm|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|52/100
+|-damage|p2b: Smeargle|18/100
+|move|p1a: Tera Cell|Tera Starstorm|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|9/100
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750812975
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750812982
+|-terastallize|p2b: Kyogre|Water
+|move|p1b: TTE|Protect|p1b: TTE
+|-singleturn|p1b: TTE|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Tera Cell|[spread] p1a
+|-activate|p1b: TTE|move: Protect
+|-damage|p1a: Tera Cell|0 fnt
+|faint|p1a: Tera Cell
+|detailschange|p1: Tera Cell|Terapagos, L50, M|[silent]
+|move|p2a: Calyrex|Glacial Lance|p1b: TTE
+|-activate|p1b: TTE|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750812986
+|switch|p1a: PTSD Mushroom|Amoonguss, L50, M|100/100
+|turn|4
+|
+|t:|1750813003
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: PTSD Mushroom|Spore|p2b: Kyogre
+|-status|p2b: Kyogre|slp|[from] move: Spore
+|cant|p2b: Kyogre|slp
+|move|p1b: TTE|Bleakwind Storm|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Indeedee|68/100
+|-damage|p2b: Kyogre|77/100 slp
+|-unboost|p2b: Kyogre|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750813014
+|cant|p2b: Kyogre|slp
+|move|p1a: PTSD Mushroom|Sludge Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|39/100
+|-status|p2a: Indeedee|psn
+|move|p2a: Indeedee|Psychic|p1a: PTSD Mushroom
+|-supereffective|p1a: PTSD Mushroom
+|-damage|p1a: PTSD Mushroom|34/100
+|-enditem|p1a: PTSD Mushroom|Sitrus Berry|[eat]
+|-heal|p1a: PTSD Mushroom|59/100|[from] item: Sitrus Berry
+|move|p1b: TTE|Bleakwind Storm|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|3/100 psn
+|-damage|p2b: Kyogre|54/100 slp
+|-unboost|p2a: Indeedee|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Indeedee|0 fnt|[from] psn
+|faint|p2a: Indeedee
+|upkeep
+|
+|t:|1750813020
+|switch|p2a: Calyrex|Calyrex-Ice, L50|9/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750813033
+|move|p1b: TTE|Protect|p1b: TTE
+|-singleturn|p1b: TTE|Protect
+|move|p1a: PTSD Mushroom|Protect|p1a: PTSD Mushroom
+|-singleturn|p1a: PTSD Mushroom|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|cant|p2b: Kyogre|slp
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|-message|Jzvictini forfeited.
+|
+|win|It'sJustKen VGC
+|raw|It&apos;sJustKen VGC's rating: 1718 &rarr; <strong>1736</strong><br />(+18 for winning)
+|raw|Jzvictini's rating: 1684 &rarr; <strong>1666</strong><br />(-18 for losing)
+|l|☆Jzvictini
+|player|p2|
+|l|☆It'sJustKen VGC
+|player|p1|

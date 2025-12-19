@@ -1,0 +1,365 @@
+|j|☆klkir
+|j|‽pukey115
+|t:|1750817028
+|gametype|doubles
+|player|p1|klkir|unknown|1269
+|player|p2|pukey115|2|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Munkidori, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pukey115)
+|inactive|klkir also wants the timer to be on.
+klkir rejected open team sheets.
+|inactive|klkir has 60 seconds left.
+|inactive|pukey115 has 60 seconds left.
+|
+|t:|1750817073
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Munkidori|Munkidori, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Roaring Moon|atk|1
+|-unboost|p2b: Munkidori|atk|1
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|inactive|klkir has 30 seconds left.
+|
+|t:|1750817100
+|move|p2a: Roaring Moon|Protect|p2a: Roaring Moon
+|-singleturn|p2a: Roaring Moon|Protect
+|move|p2b: Munkidori|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|97/100
+|cant|p1a: Incineroar|flinch
+|move|p1b: Amoonguss|Spore|p2a: Roaring Moon
+|-activate|p2a: Roaring Moon|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|pukey115 has 30 seconds left.
+|inactive|pukey115 has 20 seconds left.
+|inactive|pukey115 has 15 seconds left.
+|inactive|pukey115 has 10 seconds left.
+|inactive|pukey115 has 5 seconds left.
+|
+|t:|1750817155
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Munkidori|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Munkidori
+|move|p2a: Roaring Moon|Acrobatics|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|90/100
+|
+|-heal|p1a: Terapagos|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|klkir has 30 seconds left.
+|inactive|klkir has 20 seconds left.
+|
+|t:|1750817191
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|97/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Roaring Moon|atk|1
+|-unboost|p2b: Munkidori|atk|1
+|move|p2a: Roaring Moon|Knock Off|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|37/100
+|-enditem|p1a: Terapagos|Leftovers|[from] move: Knock Off|[of] p2a: Roaring Moon
+|move|p2b: Munkidori|Psychic|p1b: Incineroar
+|-immune|p1b: Incineroar
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750817210
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|53/100|[silent]
+|move|p1b: Incineroar|Fake Out|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|88/100
+|cant|p2a: Roaring Moon|flinch
+|move|p2b: Munkidori|Parting Shot|p1a: Terapagos
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1a: Terapagos|spa|1
+|
+|t:|1750817222
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Terapagos|Tera Starstorm|p2a: Roaring Moon|[spread] p2a,p2b
+|-damage|p2a: Roaring Moon|56/100
+|-damage|p2b: Miraidon|71/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750817248
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: pukey115|move: Tailwind
+|move|p2b: Miraidon|Volt Switch|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1750817267
+|move|p2a: Roaring Moon|Acrobatics|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|69/100
+|-damage|p2a: Roaring Moon|39/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p2b: Miraidon|Volt Switch|p1a: Terapagos
+|-damage|p1a: Terapagos|22/100
+|
+|t:|1750817275
+|switch|p2b: Munkidori|Munkidori, L50, M|100/100|[from] Volt Switch
+|move|p1a: Terapagos|Tera Starstorm|p2a: Roaring Moon|[spread] p2a,p2b
+|-damage|p2a: Roaring Moon|6/100
+|-damage|p2b: Munkidori|57/100
+|move|p1b: Amoonguss|Pollen Puff|p1a: Terapagos
+|-heal|p1a: Terapagos|72/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750817293
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|97/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Roaring Moon|atk|1
+|-unboost|p2b: Munkidori|atk|1
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Munkidori|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|94/100
+|move|p2a: Roaring Moon|Acrobatics|p1b: Incineroar
+|-damage|p1b: Incineroar|81/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750817315
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Roaring Moon|Acrobatics|p1a: Terapagos
+|-damage|p1a: Terapagos|63/100
+|move|p2b: Munkidori|Acid Spray|p1a: Terapagos
+|-damage|p1a: Terapagos|53/100
+|-unboost|p1a: Terapagos|spd|2
+|move|p1a: Terapagos|Tera Starstorm|p2a: Roaring Moon|[spread] p2a,p2b
+|-damage|p2a: Roaring Moon|0 fnt
+|-damage|p2b: Munkidori|13/100
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|-heal|p2b: Munkidori|19/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|60/100|[from] Grassy Terrain
+|-sideend|p2: pukey115|move: Tailwind
+|upkeep
+|
+|t:|1750817329
+|switch|p2a: Miraidon|Miraidon, L50|71/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|9
+|
+|t:|1750817344
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-damage|p1b: Rillaboom|71/100
+|move|p2b: Munkidori|Acid Spray|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|47/100
+|-unboost|p1b: Rillaboom|spd|2
+|move|p1b: Rillaboom|Grassy Glide|p2b: Munkidori
+|-resisted|p2b: Munkidori
+|-damage|p2b: Munkidori|0 fnt
+|faint|p2b: Munkidori
+|
+|upkeep
+|
+|t:|1750817361
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|10
+|
+|t:|1750817371
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Terapagos|14/100
+|-damage|p1b: Amoonguss|83/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1750817395
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] 
+|-activate|p1a: Terapagos|move: Protect
+|-activate|p1b: Amoonguss|move: Protect
+|move|p2b: Terapagos|Earth Power|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|
+|upkeep
+|turn|12
+|inactive|klkir has 30 seconds left.
+|inactive|klkir has 20 seconds left.
+|inactive|klkir has 15 seconds left.
+|
+|t:|1750817436
+|switch|p1a: Rillaboom|Rillaboom, L50, F|47/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Rillaboom|25/100
+|-damage|p1b: Amoonguss|68/100
+|move|p2b: Terapagos|Earth Power|p1b: Amoonguss
+|-damage|p1b: Amoonguss|28/100
+|move|p1b: Amoonguss|Spore|p2b: Terapagos
+|-status|p2b: Terapagos|slp|[from] move: Spore
+|
+|-heal|p2a: Miraidon|77/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|30/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|34/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|inactive|klkir has 30 seconds left.
+|
+|t:|1750817463
+|move|p1a: Rillaboom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|64/100
+|cant|p2a: Miraidon|flinch
+|cant|p2b: Terapagos|slp
+|move|p1b: Amoonguss|Pollen Puff|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|56/100
+|
+|-heal|p2a: Miraidon|62/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|40/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|inactive|klkir has 30 seconds left.
+|
+|t:|1750817497
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Amoonguss|move: Protect
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|1/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|cant|p2b: Terapagos|slp
+|
+|-heal|p1b: Amoonguss|46/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750817514
+|switch|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|14/100
+|turn|15
+|
+|t:|1750817529
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|81/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Terapagos|atk|1
+|move|p1b: Amoonguss|Protect||[still]
+|-fail|p1b: Amoonguss
+|cant|p2b: Terapagos|slp
+|
+|-heal|p1a: Incineroar|87/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|52/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1750817544
+|move|p1a: Incineroar|Fake Out|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|96/100 slp
+|-curestatus|p2b: Terapagos|slp|[msg]
+|cant|p2b: Terapagos|flinch
+|move|p1b: Amoonguss|Spore|p2b: Terapagos
+|-status|p2b: Terapagos|slp|[from] move: Spore
+|
+|-heal|p2b: Terapagos|100/100 slp|[from] Grassy Terrain
+|-heal|p1a: Incineroar|93/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|58/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1750817565
+|switch|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|14/100
+|cant|p2b: Terapagos|slp
+|move|p1b: Amoonguss|Pollen Puff|p1a: Terapagos
+|-heal|p1a: Terapagos|64/100
+|
+|upkeep
+|turn|18
+|
+|t:|1750817578
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|cant|p2b: Terapagos|slp
+|move|p1b: Amoonguss|Pollen Puff|p1a: Terapagos
+|-heal|p1a: Terapagos|100/100
+|
+|upkeep
+|turn|19
+|-message|pukey115 forfeited.
+|
+|win|klkir
+|raw|klkir's rating: 1269 &rarr; <strong>1297</strong><br />(+28 for winning)
+|raw|pukey115's rating: 1306 &rarr; <strong>1284</strong><br />(-22 for losing)
+|l|‽pukey115
+|player|p2|

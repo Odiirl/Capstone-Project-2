@@ -1,0 +1,218 @@
+|j|☆UmberOtter
+|j|☆PokeMoyzee
+|t:|1750807475
+|gametype|doubles
+|player|p1|UmberOtter|101|1208
+|player|p2|PokeMoyzee|102|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Slither Wing, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeMoyzee)
+|inactive|UmberOtter has 60 seconds left.
+|
+|t:|1750807515
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Slither Wing|Slither Wing, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Slither Wing|ability: Protosynthesis
+|-start|p1b: Slither Wing|protosynthesisatk
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|UmberOtter has 30 seconds left.
+|inactive|PokeMoyzee has 30 seconds left.
+|
+|t:|1750807544
+|-terastallize|p1b: Slither Wing|Ground
+|move|p2a: Miraidon|Volt Switch|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|72/100
+|
+|t:|1750807549
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Slither Wing|atk|1
+|move|p1a: Koraidon|Flame Charge|p2b: Lunala
+|-damage|p2b: Lunala|95/100
+|-boost|p1a: Koraidon|spe|1
+|move|p1b: Slither Wing|Tera Blast|p2a: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|10/100
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|PokeMoyzee has 30 seconds left.
+|
+|t:|1750807578
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|move|p2a: Incineroar|Fake Out|p1b: Slither Wing
+|-damage|p1b: Slither Wing|89/100
+|cant|p1b: Slither Wing|flinch
+|move|p2b: Lunala|Moongeist Beam|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|UmberOtter has 30 seconds left.
+|inactive|PokeMoyzee has 30 seconds left.
+|
+|t:|1750807607
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|31/100
+|move|p1b: Slither Wing|Tera Blast|p2b: Lunala|[anim] Tera Blast Ground
+|-damage|p2b: Lunala|65/100
+|move|p2b: Lunala|Moonblast|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-enditem|p1a: Brute Bonnet|Roseli Berry|[eat]
+|-enditem|p1a: Brute Bonnet|Roseli Berry|[weaken]
+|-damage|p1a: Brute Bonnet|37/100
+|-unboost|p1a: Brute Bonnet|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750807629
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p1b: Slither Wing|Tera Blast|p2b: Lunala|[anim] Tera Blast Ground
+|-damage|p2b: Lunala|33/100
+|move|p2b: Lunala|Moonblast|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750807642
+|switch|p2a: Incineroar|Incineroar, L50, M|10/100
+|switch|p1a: Lunala|Lunala, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Slither Wing|atk|1
+|turn|5
+|inactive|UmberOtter has 30 seconds left.
+|
+|t:|1750807674
+|-end|p1b: Slither Wing|Protosynthesis|[silent]
+|switch|p1b: Koraidon|Koraidon, L50|72/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Incineroar|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|63/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750807686
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750807706
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Miraidon|Draco Meteor|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|58/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|7
+|
+|t:|1750807719
+|move|p2a: Incineroar|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Koraidon|Collision Course|p2b: Miraidon
+|-damage|p2b: Miraidon|46/100
+|move|p2b: Miraidon|Draco Meteor|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Koraidon
+|
+|upkeep
+|
+|t:|1750807732
+|switch|p1b: Slither Wing|Slither Wing, L50, shiny, tera:Ground|89/100
+|turn|8
+|
+|t:|1750807747
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Slither Wing
+|-status|p1b: Slither Wing|brn
+|move|p1b: Slither Wing|Tera Blast|p2b: Miraidon|[anim] Tera Blast Ground
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-damage|p1b: Slither Wing|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750807756
+|move|p2a: Incineroar|Knock Off|p1b: Slither Wing
+|-damage|p1b: Slither Wing|40/100 brn
+|-enditem|p1b: Slither Wing|Choice Band|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Slither Wing|Tera Blast|p2a: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|UmberOtter
+|raw|UmberOtter's rating: 1208 &rarr; <strong>1230</strong><br />(+22 for winning)
+|raw|PokeMoyzee's rating: 1163 &rarr; <strong>1141</strong><br />(-22 for losing)
+|l|☆UmberOtter
+|player|p1|
+|l|☆PokeMoyzee
+|player|p2|

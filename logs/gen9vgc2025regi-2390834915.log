@@ -1,0 +1,181 @@
+|j|☆schisch
+|j|☆Wildgoobys
+|t:|1750773813
+|gametype|doubles
+|player|p1|schisch|1|1324
+|player|p2|Wildgoobys|ethan|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Entei, L50|
+|poke|p2|Lapras, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wildgoobys)
+|inactive|schisch has 60 seconds left.
+|inactive|Wildgoobys has 60 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|Wildgoobys has 20 seconds left.
+|inactive|Wildgoobys has 15 seconds left.
+|inactive|Wildgoobys has 10 seconds left.
+|
+|t:|1750773897
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Lapras|Lapras, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750773915
+|-terastallize|p2b: Gothitelle|Water
+|move|p2b: Gothitelle|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|95/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Lunala|Calm Mind|p1b: Lunala
+|-boost|p1b: Lunala|spa|1
+|-boost|p1b: Lunala|spd|1
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Koraidon|perish3|[silent]
+|-start|p1b: Lunala|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Koraidon|perish3
+|-start|p1b: Lunala|perish3
+|-start|p2a: Lapras|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750773935
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1a: Koraidon|Close Combat|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1b: Lunala|Calm Mind|p1b: Lunala
+|-boost|p1b: Lunala|spa|1
+|-boost|p1b: Lunala|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Koraidon|perish2
+|-start|p1b: Lunala|perish2
+|-start|p2a: Lapras|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750773956
+|move|p2b: Gothitelle|Protect||[still]
+|-fail|p2b: Gothitelle
+|move|p1a: Koraidon|Close Combat|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Gothitelle
+|-damage|p1a: Koraidon|85/100|[from] item: Life Orb
+|move|p1b: Lunala|Moongeist Beam|p2a: Lapras
+|-damage|p2a: Lapras|46/100
+|move|p2a: Lapras|Life Dew|p2a: Lapras
+|-heal|p2a: Lapras|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Koraidon|perish1
+|-start|p1b: Lunala|perish1
+|-start|p2a: Lapras|perish1
+|upkeep
+|
+|t:|1750773972
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|4
+|inactive|schisch has 30 seconds left.
+|
+|t:|1750774001
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|switch|p1b: Entei|Entei, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|l|☆schisch
+|inactive|schisch disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|schisch has 30 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|j|☆schisch
+|inactive|schisch reconnected and has 30 seconds left.
+|player|p1|schisch|1|
+|inactive|schisch has 20 seconds left.
+|
+|t:|1750774041
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Zamazenta|Body Press|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Entei|Sacred Fire|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|66/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750774055
+|switch|p1a: Koraidon|Koraidon, L50|85/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750774066
+|move|p2a: Koraidon|Close Combat|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Koraidon
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Zamazenta|Body Press|p1b: Entei
+|-damage|p1b: Entei|0 fnt
+|faint|p1b: Entei
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|schisch forfeited.
+|
+|win|Wildgoobys
+|raw|schisch's rating: 1324 &rarr; <strong>1309</strong><br />(-15 for losing)
+|raw|Wildgoobys's rating: 1420 &rarr; <strong>1435</strong><br />(+15 for winning)
+|l|☆schisch
+|player|p1|
+|l|☆Wildgoobys
+|player|p2|

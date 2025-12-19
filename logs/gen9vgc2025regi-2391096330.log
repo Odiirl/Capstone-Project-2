@@ -1,0 +1,214 @@
+|j|☆Noreb
+|j|☆AOC2005
+|t:|1750802021
+|gametype|doubles
+|player|p1|Noreb|miku-psychic|1128
+|player|p2|AOC2005|hilbert|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noreb)
+|
+|t:|1750802041
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Urshifu|Urshifu, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|turn|1
+|inactive|Noreb has 30 seconds left.
+|inactive|AOC2005 has 30 seconds left.
+|inactive|Noreb has 20 seconds left.
+|inactive|Noreb has 15 seconds left.
+|inactive|Noreb has 10 seconds left.
+|
+|t:|1750802087
+|-terastallize|p2a: Urshifu|Stellar
+|move|p2b: Incineroar|Fake Out|p1a: Lunala
+|-immune|p1a: Lunala
+|move|p2a: Urshifu|Poison Jab|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|92/100
+|move|p1b: Iron Hands|Drain Punch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|44/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750802103
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1b: Iron Hands|Low Kick|p2a: Urshifu
+|-activate|p2a: Urshifu|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Miraidon
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1a: Miraidon|spa|1
+|
+|t:|1750802114
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|upkeep
+|turn|3
+|c|☆Noreb|Get Tera read
+|
+|t:|1750802130
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Lunala|Lunala, L50|92/100
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|47/100
+|-damage|p1b: Lunala|55/100
+|move|p2a: Urshifu|Close Combat|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|11/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Calyrex|67/100
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1750802145
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|
+|t:|1750802161
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|High Horsepower|p1b: Lunala
+|-damage|p1b: Lunala|28/100
+|move|p2a: Kyogre|Ice Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750802177
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750802193
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|-unboost|p1b: Lunala|atk|1
+|move|p1a: Iron Hands|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|58/100
+|cant|p2b: Calyrex|flinch
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|75/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750802216
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p1a: Iron Hands|Low Kick|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750802227
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|7
+|inactive|AOC2005 has 30 seconds left.
+|inactive|AOC2005 has 20 seconds left.
+|inactive|AOC2005 has 15 seconds left.
+|inactive|AOC2005 has 10 seconds left.
+|
+|t:|1750802272
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|move|p1b: Urshifu|Surging Strikes|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-hitcount|p2: Incineroar|1
+|move|p1a: Iron Hands|Low Kick|p2b: Kyogre
+|-damage|p2b: Kyogre|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750802276
+|switch|p2a: Calyrex|Calyrex-Ice, L50|58/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750802291
+|move|p1b: Urshifu|Surging Strikes|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|28/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-hitcount|p2: Calyrex|2
+|move|p2b: Kyogre|Origin Pulse|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1b: Urshifu
+|-damage|p1a: Iron Hands|49/100
+|-damage|p1b: Urshifu|48/100
+|move|p1a: Iron Hands|Wild Charge|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1a: Iron Hands|37/100|[from] Recoil
+|
+|win|Noreb
+|raw|Noreb's rating: 1128 &rarr; <strong>1156</strong><br />(+28 for winning)
+|raw|AOC2005's rating: 1176 &rarr; <strong>1148</strong><br />(-28 for losing)
+|l|☆AOC2005
+|player|p2|
+|c|☆Noreb|Gg

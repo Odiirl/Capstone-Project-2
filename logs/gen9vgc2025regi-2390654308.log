@@ -1,0 +1,189 @@
+|j|☆brodoes
+|j|☆amazingamazing
+|t:|1750743423
+|gametype|doubles
+|player|p1|brodoes|crasherwake|1174
+|player|p2|amazingamazing|backersf|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Bronzong, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|
+|t:|1750743489
+|start
+|switch|p1a: Bronzong|Bronzong, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750743515
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Smeargle|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|96/100
+|move|p2a: Whimsicott|Misty Terrain|p2a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|cant|p1b: Koraidon|flinch
+|move|p1a: Bronzong|Gravity|p1a: Bronzong
+|-fieldstart|move: Gravity
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750743552
+|move|p2a: Whimsicott|Encore|p1a: Bronzong
+|-start|p1a: Bronzong|Encore
+|move|p1b: Koraidon|Flame Charge|p2b: Smeargle
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|87/100|[from] item: Life Orb
+|move|p1a: Bronzong|Gravity||[still]
+|-fail|p1a: Bronzong
+|move|p2b: Smeargle|Trick Room|p2b: Smeargle
+|-fieldstart|move: Trick Room|[of] p2b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750743574
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|move|p2a: Whimsicott|Encore|p1b: Koraidon
+|-start|p1b: Koraidon|Encore
+|move|p1b: Koraidon|Flame Charge|p2b: Iron Hands
+|-crit|p2b: Iron Hands
+|-damage|p2b: Iron Hands|15/100
+|-boost|p1b: Koraidon|spe|1
+|-enditem|p2b: Iron Hands|Sitrus Berry|[eat]
+|-heal|p2b: Iron Hands|40/100|[from] item: Sitrus Berry
+|-damage|p1b: Koraidon|77/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750743597
+|move|p2b: Iron Hands|Rock Slide|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-supereffective|p1b: Koraidon
+|-damage|p1a: Groudon|93/100
+|-damage|p1b: Koraidon|34/100
+|cant|p1a: Groudon|flinch
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|cant|p1b: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750743612
+|move|p2b: Iron Hands|Rock Slide|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-supereffective|p1b: Koraidon
+|-damage|p1a: Groudon|86/100
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Groudon|Precipice Blades|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-supereffective|p2b: Iron Hands
+|-damage|p2a: Whimsicott|65/100
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Whimsicott|Encore|p1a: Groudon
+|-start|p1a: Groudon|Encore
+|
+|-weather|none
+|-fieldend|move: Gravity
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1750743636
+|switch|p2b: Smeargle|Smeargle, L50, F|1/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brodoes)
+|inactive|amazingamazing has 60 seconds left.
+|inactive|amazingamazing has 30 seconds left.
+|inactive|amazingamazing has 20 seconds left.
+|inactive|amazingamazing has 15 seconds left.
+|inactive|amazingamazing has 10 seconds left.
+|inactive|amazingamazing has 5 seconds left.
+|
+|t:|1750743777
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1a: Groudon|Precipice Blades|p2b: Smeargle|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|30/100
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p1b: Walking Wake|Flamethrower|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|amazingamazing has 30 seconds left.
+|inactive|amazingamazing has 20 seconds left.
+|inactive|amazingamazing has 15 seconds left.
+|inactive|amazingamazing has 10 seconds left.
+|inactive|amazingamazing has 5 seconds left.
+|
+|t:|1750743832
+|switch|p2a: Snorlax|Snorlax, L50, F|100/100
+|turn|7
+|inactive|amazingamazing has 30 seconds left.
+|inactive|amazingamazing has 20 seconds left.
+|inactive|amazingamazing has 15 seconds left.
+|inactive|amazingamazing has 10 seconds left.
+|inactive|amazingamazing has 5 seconds left.
+|
+|t:|1750743887
+|move|p1b: Walking Wake|Draco Meteor|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|39/100
+|-unboost|p1b: Walking Wake|spa|2
+|-enditem|p2a: Snorlax|Figy Berry|[eat]
+|-heal|p2a: Snorlax|73/100|[from] item: Figy Berry
+|move|p1a: Groudon|Precipice Blades|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|brodoes
+|raw|brodoes's rating: 1174 &rarr; <strong>1203</strong><br />(+29 for winning)
+|raw|amazingamazing's rating: 1228 &rarr; <strong>1199</strong><br />(-29 for losing)
+|l|☆brodoes
+|player|p1|

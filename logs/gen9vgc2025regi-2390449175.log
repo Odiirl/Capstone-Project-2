@@ -1,0 +1,173 @@
+|j|☆Tonypajamas17
+|j|☆A silly team
+|t:|1750714562
+|gametype|doubles
+|player|p1|Tonypajamas17|169|1321
+|player|p2|A silly team|swimmer-gen4|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Magnezone, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Grafaiai, L50, F|
+|poke|p2|Araquanid, L50, F|
+|poke|p2|Iron Jugulis, L50|
+|teampreview|4
+|
+|t:|1750714584
+|start
+|switch|p1a: Magnezone|Magnezone, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grafaiai|Grafaiai, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Grafaiai|Electric Seed
+|-boost|p2b: Grafaiai|def|1|[from] item: Electric Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750714610
+|move|p1b: Rillaboom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|86/100
+|move|p2b: Grafaiai|Gunk Shot|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|cant|p2a: Miraidon|flinch
+|move|p1a: Magnezone|Volt Switch|p2b: Grafaiai
+|-damage|p2b: Grafaiai|0 fnt
+|faint|p2b: Grafaiai
+|
+|t:|1750714623
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100|[from] Volt Switch
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|
+|-heal|p2a: Miraidon|92/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750714635
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Magnezone|Magnezone, L50|100/100
+|turn|2
+|
+|t:|1750714653
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1a: Terapagos|Earth Power|p2a: Ursaluna
+|-damage|p2a: Ursaluna|80/100
+|move|p1b: Magnezone|Electroweb|p2a: Ursaluna|[spread] 
+|-activate|p2b: Ho-Oh|move: Protect
+|-immune|p2a: Ursaluna
+|
+|-heal|p2a: Ursaluna|86/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750714676
+|switch|p2b: Miraidon|Miraidon, L50|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|switch|p1b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p2a: Ursaluna|Earth Power|p1b: Ho-Oh
+|-immune|p1b: Ho-Oh
+|
+|upkeep
+|turn|4
+|
+|t:|1750714698
+|switch|p1b: Magnezone|Magnezone, L50|100/100
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p2b: Miraidon|Volt Switch|p1b: Magnezone
+|-resisted|p1b: Magnezone
+|-damage|p1b: Magnezone|69/100
+|
+|t:|1750714709
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100|[from] Volt Switch
+|move|p1a: Terapagos|Tera Starstorm|p2b: Ho-Oh|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|39/100
+|-damage|p2b: Ho-Oh|64/100
+|move|p2a: Ursaluna|Hyper Voice|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Magnezone
+|-damage|p1a: Terapagos|84/100
+|-damage|p1b: Magnezone|47/100
+|
+|-heal|p1a: Terapagos|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750714734
+|move|p2a: Ursaluna|Vacuum Wave|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|75/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Ho-Oh|28/100
+|faint|p2a: Ursaluna
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|15/100
+|move|p1b: Magnezone|Volt Switch|p2b: Ho-Oh
+|-supereffective|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|0 fnt
+|faint|p2b: Ho-Oh
+|
+|t:|1750714743
+|switch|p1b: Ho-Oh|Ho-Oh, L50, shiny|100/100|[from] Volt Switch
+|
+|-heal|p1a: Terapagos|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750714753
+|switch|p2a: Miraidon|Miraidon, L50|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|
+|t:|1750714762
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Tonypajamas17|move: Tailwind
+|
+|-heal|p1a: Terapagos|27/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|j| zagmaer
+|
+|t:|1750714774
+|switch|p1b: Magnezone|Magnezone, L50|47/100
+|move|p1a: Terapagos|Earth Power|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|win|Tonypajamas17
+|raw|Tonypajamas17's rating: 1321 &rarr; <strong>1343</strong><br />(+22 for winning)
+|raw|A silly team's rating: 1357 &rarr; <strong>1335</strong><br />(-22 for losing)
+|l|☆A silly team
+|player|p2|
+|l|☆Tonypajamas17
+|player|p1|
+|l| zagmaer

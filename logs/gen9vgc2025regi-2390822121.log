@@ -1,0 +1,110 @@
+|j|☆Bicentenario
+|j|☆IPlayUmbreon
+|t:|1750772334
+|gametype|doubles
+|player|p1|Bicentenario|1|1440
+|player|p2|IPlayUmbreon|169|1467
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bicentenario)
+Bicentenario rejected open team sheets.
+|
+|t:|1750772371
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750772381
+|-terastallize|p2a: Koraidon|Fire
+|-terastallize|p1b: Calyrex|Grass
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Flare Blitz|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|-damage|p2a: Koraidon|51/100|[from] Recoil
+|-damage|p2a: Koraidon|41/100|[from] item: Life Orb
+|move|p2b: Brute Bonnet|Spore|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772394
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|turn|2
+|
+|t:|1750772412
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Torkoal|Eruption|p2b: Brute Bonnet|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|move|p1b: Calyrex|Glacial Lance|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772417
+|switch|p2b: Umbreon|Umbreon, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1750772426
+|move|p1a: Torkoal|Eruption|p2b: Umbreon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Umbreon|35/100
+|faint|p2a: Koraidon
+|move|p1b: Calyrex|Glacial Lance|p2b: Umbreon
+|-damage|p2b: Umbreon|0 fnt
+|faint|p2b: Umbreon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|IPlayUmbreon forfeited.
+|
+|win|Bicentenario
+|raw|Bicentenario's rating: 1440 &rarr; <strong>1462</strong><br />(+22 for winning)
+|raw|IPlayUmbreon's rating: 1467 &rarr; <strong>1445</strong><br />(-22 for losing)
+|l|☆IPlayUmbreon
+|player|p2|
+|l|☆Bicentenario
+|player|p1|

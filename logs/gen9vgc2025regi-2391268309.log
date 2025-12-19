@@ -1,0 +1,119 @@
+|j|☆Cheirapica
+|j|☆Voyy12
+|t:|1750825495
+|gametype|doubles
+|player|p1|Cheirapica|170|1118
+|player|p2|Voyy12|2|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+Cheirapica has agreed to open team sheets.
+Voyy12 has agreed to open team sheets.
+|showteam|p1|Calyrex-Shadow||LifeOrb|AsOneSpectrier|AstralBarrage,ExpandingForce,Protect,NastyPlot||||||50|,,,,,Fairy]Garganacl||Leftovers|PurifyingSalt|SaltCure,WideGuard,Protect,Recover|||F|||50|,,,,,Fairy]Amoonguss||AguavBerry|Regenerator|Protect,PollenPuff,RagePowder,Spore|||F|||50|,,,,,Water]Miraidon||ChoiceSpecs|HadronEngine|VoltSwitch,DragonPulse,ElectroDrift,FlashCannon||||||50|,,,,,Steel]Rillaboom||AssaultVest|Overgrow|FakeOut,GrassyGlide,Uturn,WoodHammer|||M|||50|,,,,,Water]Chien-Pao||FocusSash|SwordofRuin|SuckerPunch,IceSpinner,PsychicFangs,Protect||||||50|,,,,,Steel
+|showteam|p2|Miraidon||ChoiceSpecs|HadronEngine|ElectroDrift,DracoMeteor,DazzlingGleam,VoltSwitch||||||50|,,,,,Fairy]Koraidon||LoadedDice|OrichalcumPulse|FlareBlitz,ScaleShot,CollisionCourse,Protect||||||50|,,,,,Fire]Grimmsnarl||CovertCloak|Prankster|SuckerPunch,ThunderWave,LightScreen,FakeOut|||M|||50|,,,,,Ground]Volcarona||ElectricSeed|FlameBody|FieryDance,RagePowder,Tailwind,Protect|||F|||50|,,,,,Water]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,FakeOut,Uturn|||M|||50|,,,,,Water]Flutter Mane||FocusSash|Protosynthesis|Moonblast,IcyWind,Taunt,Protect||||||50|,,,,,Normal
+|
+|t:|1750825577
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750825610
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Grimmsnarl|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|89/100
+|cant|p1b: Amoonguss|flinch
+|move|p1a: Calyrex|Astral Barrage|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2b: Grimmsnarl
+|-damage|p2a: Koraidon|14/100
+|-damage|p2b: Grimmsnarl|59/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Koraidon|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825627
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750825648
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Voyy12|move: Light Screen
+|move|p1a: Miraidon|Dragon Pulse|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|11/100
+|move|p2a: Miraidon|Draco Meteor|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825657
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|3
+|
+|t:|1750825671
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Chien-Pao
+|move|p1a: Miraidon|Dragon Pulse|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1b: Chien-Pao|Ice Spinner|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|3/100
+|-fieldend|move: Electric Terrain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825676
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|turn|4
+|-message|Voyy12 forfeited.
+|
+|win|Cheirapica
+|raw|Cheirapica's rating: 1118 &rarr; <strong>1147</strong><br />(+29 for winning)
+|raw|Voyy12's rating: 1177 &rarr; <strong>1148</strong><br />(-29 for losing)
+|l|☆Voyy12
+|player|p2|
+|l|☆Cheirapica
+|player|p1|

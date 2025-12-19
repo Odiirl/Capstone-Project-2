@@ -1,0 +1,202 @@
+|j|☆jalex31
+|j|‽guguchu
+|t:|1750855703
+|gametype|doubles
+|player|p1|jalex31|169|1063
+|player|p2|guguchu|1|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-Black, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tinkaton, L50, F|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Arcanine, L50, M|
+|poke|p2|Muk-Alola, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jalex31)
+|
+|t:|1750855723
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750855737
+|switch|p2b: Muk|Muk-Alola, L50, M|100/100
+|move|p2a: Grimmsnarl|Fake Out|p1b: Whimsicott
+|-damage|p1b: Whimsicott|82/100
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: jalex31|move: Tailwind
+|move|p1a: Kyogre|Water Spout|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|4/100
+|-damage|p2b: Muk|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Muk|41/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1750855755
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: jalex31|move: Light Screen
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Kyogre
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1a: Kyogre|spa|1
+|
+|t:|1750855761
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Kyogre|Water Spout|p2b: Muk|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-crit|p2b: Muk
+|-damage|p2a: Miraidon|64/100
+|-damage|p2b: Muk|0 fnt
+|faint|p2b: Muk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750855772
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|4/100
+|turn|3
+|
+|t:|1750855784
+|-terastallize|p1a: Kyogre|Ice
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Grimmsnarl|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|87/100
+|move|p1b: Whimsicott|Encore||[still]
+|-fail|p1b: Whimsicott
+|cant|p1a: Kyogre|flinch
+|move|p2a: Miraidon|Electro Drift|p1a: Kyogre
+|-damage|p1a: Kyogre|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750855805
+|move|p1b: Whimsicott|Tailwind||[still]
+|-fail|p1b: Whimsicott
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Kyogre
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1a: Kyogre|spa|1
+|
+|t:|1750855811
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|move|p1a: Kyogre|Water Spout|p2b: Garchomp|[spread] p2a,p2b
+|-damage|p2a: Miraidon|54/100
+|-damage|p2b: Garchomp|90/100
+|move|p2a: Miraidon|Electro Drift|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: jalex31|move: Tailwind
+|upkeep
+|
+|t:|1750855828
+|switch|p1a: Kyurem|Kyurem-Black, L50, shiny|100/100
+|-ability|p1a: Kyurem|Teravolt
+|turn|5
+|
+|t:|1750855847
+|move|p1b: Whimsicott|Encore|p2a: Miraidon
+|-start|p2a: Miraidon|Encore
+|move|p2a: Miraidon|Electro Drift|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|63/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2b: Garchomp|Scale Shot|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|40/100
+|-supereffective|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|7/100
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-hitcount|p1: Kyurem|3
+|-unboost|p2b: Garchomp|def|1
+|-boost|p2b: Garchomp|spe|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750855866
+|switch|p1a: Tinkaton|Tinkaton, L50, F, shiny|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|6
+|
+|t:|1750855883
+|move|p1a: Tinkaton|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|44/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Garchomp|Earthquake|p1a: Tinkaton|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Miraidon
+|-supereffective|p1a: Tinkaton
+|-resisted|p1b: Whimsicott
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p1a: Tinkaton|24/100
+|-damage|p1b: Whimsicott|53/100
+|faint|p2a: Miraidon
+|move|p1b: Whimsicott|Energy Ball|p2b: Garchomp
+|-damage|p2b: Garchomp|57/100
+|
+|-sideend|p1: jalex31|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750855894
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|4/100
+|turn|7
+|
+|t:|1750855905
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|atk|1
+|-unboost|p1a: Tinkaton|spa|1
+|move|p2b: Garchomp|Earthquake|p1a: Tinkaton|[spread] p2a,p1a,p1b
+|-supereffective|p1a: Tinkaton
+|-resisted|p1b: Whimsicott
+|-crit|p1b: Whimsicott
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Tinkaton|0 fnt
+|-damage|p1b: Whimsicott|12/100
+|faint|p2a: Grimmsnarl
+|faint|p1a: Tinkaton
+|move|p1b: Whimsicott|Energy Ball|p2b: Garchomp
+|-damage|p2b: Garchomp|27/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750855920
+|move|p2b: Garchomp|Earthquake|p1b: Whimsicott
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|win|guguchu
+|raw|jalex31's rating: 1063 &rarr; <strong>1046</strong><br />(-17 for losing)
+|raw|guguchu's rating: 1116 &rarr; <strong>1137</strong><br />(+21 for winning)
+|l|‽guguchu
+|player|p2|
+|l|☆jalex31
+|player|p1|

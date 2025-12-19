@@ -1,0 +1,162 @@
+|j|☆bonobobohemio
+|j|☆bob de bower
+|t:|1750844488
+|gametype|doubles
+|player|p1|bonobobohemio|drayden|1341
+|player|p2|bob de bower|2|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Reshiram, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonobobohemio)
+|
+|t:|1750844515
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750844535
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Koraidon|Flame Charge|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|faint|p2b: Indeedee
+|-damage|p1a: Koraidon|74/100|[from] item: Life Orb
+|move|p1b: Indeedee|Imprison|p1b: Indeedee
+|-start|p1b: Indeedee|move: Imprison
+|cant|p2a: Calyrex|move: Imprison|Imprison
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844553
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|turn|2
+|inactive|bob de bower has 30 seconds left.
+|
+|t:|1750844584
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Smeargle|Spore|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Indeedee|Psychic|p2b: Smeargle
+|-damage|p2b: Smeargle|4/100
+|move|p2a: Calyrex|High Horsepower|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750844623
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|move|p1a: Koraidon|Flame Charge|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Smeargle
+|-damage|p1a: Koraidon|64/100|[from] item: Life Orb
+|move|p2a: Calyrex|High Horsepower|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844636
+|switch|p1a: Reshiram|Reshiram, L50, shiny|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|4
+|
+|t:|1750844648
+|-terastallize|p2b: Kyogre|Water
+|move|p1b: Electabuzz|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p1a: Reshiram|Draco Meteor|p2a: Calyrex
+|-damage|p2a: Calyrex|45/100
+|-unboost|p1a: Reshiram|spa|2
+|move|p2b: Kyogre|Origin Pulse|p1b: Electabuzz|[spread] p1a,p1b
+|-damage|p1a: Reshiram|9/100
+|-damage|p1b: Electabuzz|5/100
+|cant|p2a: Calyrex|move: Taunt|Imprison
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750844661
+|move|p1b: Electabuzz|Electroweb|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Kyogre
+|-damage|p2a: Calyrex|36/100
+|-damage|p2b: Kyogre|82/100
+|-unboost|p2b: Kyogre|spe|1
+|move|p1a: Reshiram|Blue Flare|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|6/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Electabuzz|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Electabuzz
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|move|p2a: Calyrex|Glacial Lance|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750844666
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|6
+|
+|t:|1750844684
+|move|p1b: Indeedee|Psychic|p2b: Kyogre
+|-damage|p2b: Kyogre|56/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|win|bob de bower
+|raw|bonobobohemio's rating: 1341 &rarr; <strong>1315</strong><br />(-26 for losing)
+|raw|bob de bower's rating: 1236 &rarr; <strong>1268</strong><br />(+32 for winning)
+|l|☆bob de bower
+|player|p2|
+|l|☆bonobobohemio
+|player|p1|

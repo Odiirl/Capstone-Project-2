@@ -1,0 +1,182 @@
+|j|☆Duttub
+|j|☆Tgrumm
+|t:|1750868512
+|gametype|doubles
+|player|p1|Duttub|101|1089
+|player|p2|Tgrumm|265|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Dewgong, L50, F|
+|poke|p2|Comfey, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tgrumm)
+|inactive|Duttub also wants the timer to be on.
+|inactive|Duttub has 60 seconds left.
+|inactive|Tgrumm has 60 seconds left.
+|
+|t:|1750868545
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750868566
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|94/100
+|cant|p2a: Incineroar|flinch
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|Tgrumm has 30 seconds left.
+|
+|t:|1750868594
+|move|p2b: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|48/100
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|move|p1b: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1750868613
+|switch|p1b: Fangs|Dewgong, L50, F, shiny|100/100|[from] Parting Shot
+|move|p2a: Incineroar|Parting Shot|p1a: Miraidon
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1a: Miraidon|spa|1
+|
+|t:|1750868621
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1750868623
+|switch|p2b: Incineroar|Incineroar, L50, F|94/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Fangs|atk|1
+|turn|3
+|
+|t:|1750868633
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Incineroar|Fake Out|p1b: Fangs
+|-crit|p1b: Fangs
+|-damage|p1b: Fangs|81/100
+|cant|p1b: Fangs|flinch
+|move|p2a: Ursaluna|Hyper Voice|p1b: Fangs|[spread] p1a,p1b
+|-damage|p1a: Groudon|68/100
+|-damage|p1b: Fangs|41/100
+|-enditem|p2a: Ursaluna|Throat Spray
+|-boost|p2a: Ursaluna|spa|1|[from] item: Throat Spray
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Tgrumm has 30 seconds left.
+|
+|t:|1750868659
+|move|p1b: Fangs|Aqua Jet|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|65/100
+|-enditem|p1a: Groudon|Weakness Policy
+|-boost|p1a: Groudon|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Groudon|spa|2|[from] item: Weakness Policy
+|move|p1a: Groudon|Earthquake|p2b: Incineroar|[spread] p1b,p2a,p2b
+|-supereffective|p2b: Incineroar
+|-damage|p1b: Fangs|0 fnt
+|-damage|p2a: Ursaluna|28/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p1b: Fangs
+|faint|p2b: Incineroar
+|move|p2a: Ursaluna|Hyper Voice|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750868674
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p1a: Miraidon|Miraidon, L50|48/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Sinistcha|atk|1
+|-heal|p2a: Ursaluna|53/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|5
+|
+|t:|1750868698
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Sinistcha|Protect|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|Protect
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Sinistcha|[spread] 
+|-activate|p2a: Ursaluna|move: Protect
+|-activate|p2b: Sinistcha|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750868718
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Sinistcha|34/100
+|-enditem|p2b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2b: Sinistcha|59/100|[from] item: Sitrus Berry
+|faint|p2a: Ursaluna
+|move|p1b: Incineroar|Knock Off|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|Tgrumm forfeited.
+|
+|win|Duttub
+|raw|Duttub's rating: 1089 &rarr; <strong>1117</strong><br />(+28 for winning)
+|raw|Tgrumm's rating: 1104 &rarr; <strong>1078</strong><br />(-26 for losing)
+|l|☆Tgrumm
+|player|p2|
+|l|☆Duttub
+|player|p1|

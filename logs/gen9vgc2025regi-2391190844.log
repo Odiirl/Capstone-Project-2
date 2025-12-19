@@ -1,0 +1,137 @@
+|j|☆JSNJS
+|j|☆manct
+|t:|1750814195
+|gametype|doubles
+|player|p1|JSNJS|265|1236
+|player|p2|manct|ghetsis-gen5bw|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zebstrika, L50, M|
+|poke|p1|Mudsdale, L50, F|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Comfey, L50, F|
+|poke|p2|Lugia, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|
+|t:|1750814214
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Spectrier|Spectrier, L50|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M, shiny|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750814242
+|move|p1b: Spectrier|Psychic|p2b: Smeargle
+|-damage|p2b: Smeargle|30/100
+|move|p1a: Calyrex|Psychic|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|upkeep
+|
+|t:|1750814255
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Spectrier|atk|1
+|turn|2
+|
+|t:|1750814263
+|move|p1b: Spectrier|Psychic|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|90/100
+|move|p1a: Calyrex|Psychic|p2a: Terapagos
+|-damage|p2a: Terapagos|47/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|
+|-heal|p2a: Terapagos|53/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750814286
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Spectrier|Psychic|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p2b: Incineroar|Knock Off|p1b: Spectrier
+|-supereffective|p1b: Spectrier
+|-damage|p1b: Spectrier|0 fnt
+|-enditem|p1b: Spectrier|Choice Scarf|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Spectrier
+|
+|-heal|p2a: Terapagos|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750814293
+|switch|p1b: Zebstrika|Zebstrika, L50, M|100/100
+|turn|4
+|
+|t:|1750814318
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|69/100|[silent]
+|move|p1a: Farigiraf|Helping Hand|p1b: Zebstrika
+|-singleturn|p1b: Zebstrika|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Zebstrika|Low Kick|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|30/100
+|-damage|p1b: Zebstrika|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Earth Power|p1b: Zebstrika
+|-supereffective|p1b: Zebstrika
+|-damage|p1b: Zebstrika|0 fnt
+|faint|p1b: Zebstrika
+|move|p2b: Incineroar|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-crit|p1a: Farigiraf
+|-damage|p1a: Farigiraf|12/100
+|-enditem|p1a: Farigiraf|Aguav Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-heal|p2a: Terapagos|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750814327
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|1/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|-message|JSNJS forfeited.
+|
+|win|manct
+|raw|JSNJS's rating: 1236 &rarr; <strong>1215</strong><br />(-21 for losing)
+|raw|manct's rating: 1297 &rarr; <strong>1318</strong><br />(+21 for winning)
+|l|☆JSNJS
+|player|p1|
+|l|☆manct
+|player|p2|

@@ -1,0 +1,213 @@
+|j|☆yinyangchu
+|j|☆SpaceRace144
+|t:|1750807869
+|gametype|doubles
+|player|p1|yinyangchu|169|1286
+|player|p2|SpaceRace144|2|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|
+|t:|1750807907
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Alcremie|Alcremie, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Annihilape|atk|1
+|-ability|p2b: Annihilape|Defiant|boost
+|-boost|p2b: Annihilape|atk|2
+|turn|1
+|
+|t:|1750807931
+|move|p1a: Incineroar|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|98/100
+|move|p2b: Annihilape|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-enditem|p1a: Incineroar|Chople Berry|[eat]
+|-enditem|p1a: Incineroar|Chople Berry|[weaken]
+|-damage|p1a: Incineroar|19/100
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|cant|p2a: Zamazenta|flinch
+|move|p1b: Alcremie|Light Screen|p1b: Alcremie
+|-sidestart|p1: yinyangchu|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1750807950
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2b: Annihilape|Close Combat|p1a: Miraidon
+|-damage|p1a: Miraidon|29/100
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1b: Alcremie|Decorate|p1a: Miraidon
+|-boost|p1a: Miraidon|atk|2
+|-boost|p1a: Miraidon|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1750807990
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-terastallize|p2a: Zamazenta|Grass
+|move|p1a: Miraidon|Volt Switch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|55/100
+|
+|t:|1750808006
+|switch|p1a: Alcremie|Alcremie, L50, F|100/100|[from] Volt Switch
+|move|p2a: Zamazenta|Body Press|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|31/100
+|
+|-heal|p2a: Zamazenta|61/100|[from] Grassy Terrain
+|-heal|p1a: Alcremie|37/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750808021
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Zamazenta|Body Press|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p1a: Alcremie|Decorate|p1b: Terapagos
+|-boost|p1b: Terapagos|atk|2
+|-boost|p1b: Terapagos|spa|2
+|
+|-heal|p2a: Zamazenta|67/100|[from] Grassy Terrain
+|-heal|p1a: Alcremie|44/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750808042
+|switch|p1a: Miraidon|Miraidon, L50|29/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Zamazenta|Body Press|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|63/100
+|move|p2b: Rillaboom|Grassy Glide|p1b: Terapagos
+|-damage|p1b: Terapagos|42/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-heal|p1b: Terapagos|48/100|[from] item: Leftovers
+|-sideend|p1: yinyangchu|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1750808065
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|30/100
+|
+|t:|1750808076
+|switch|p1a: Alcremie|Alcremie, L50, F|44/100|[from] Volt Switch
+|move|p2a: Zamazenta|Body Press|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2b: Rillaboom|Drum Beating|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|-heal|p1b: Terapagos|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750808087
+|switch|p1a: Incineroar|Incineroar, L50, F|19/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|7
+|
+|t:|1750808111
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1a: Incineroar|Fake Out|p2a: Zamazenta
+|-damage|p2a: Zamazenta|28/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Calyrex
+|-immune|p2b: Calyrex
+|
+|-heal|p1b: Terapagos|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750808140
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Calyrex|Encore|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-heal|p1b: Terapagos|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750808148
+|switch|p1a: Miraidon|Miraidon, L50|29/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750808173
+|move|p1b: Terapagos|Protect||[still]
+|-fail|p1b: Terapagos
+|move|p2b: Calyrex|Astral Barrage|p1a: Miraidon|[spread] p1a
+|-immune|p1b: Terapagos
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Zamazenta|Body Press|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|win|SpaceRace144
+|raw|yinyangchu's rating: 1286 &rarr; <strong>1266</strong><br />(-20 for losing)
+|raw|SpaceRace144's rating: 1360 &rarr; <strong>1376</strong><br />(+16 for winning)
+|l|☆yinyangchu
+|player|p1|
+|l|☆SpaceRace144
+|player|p2|

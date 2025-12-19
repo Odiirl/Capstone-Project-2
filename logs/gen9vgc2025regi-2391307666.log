@@ -1,0 +1,177 @@
+|j|☆Dangarzam
+|j|☆drake412
+|t:|1750832876
+|gametype|doubles
+|player|p1|Dangarzam|101|1239
+|player|p2|drake412|265|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dangarzam)
+|inactive|drake412 has 60 seconds left.
+|
+|t:|1750832909
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M, shiny|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750832927
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Dragonite
+|-unboost|p1b: Ho-Oh|atk|1
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Calyrex|Expanding Force|p1b: Ho-Oh|[spread] p1a,p1b
+|-damage|p1a: Dragonite|38/100
+|-damage|p1b: Ho-Oh|59/100
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-damage|p2a: Calyrex|49/100
+|move|p1a: Dragonite|Outrage|p2b: Incineroar
+|-damage|p2b: Incineroar|29/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750832952
+|move|p1b: Ho-Oh|Protect|p1b: Ho-Oh
+|-singleturn|p1b: Ho-Oh|Protect
+|move|p2a: Calyrex|Expanding Force|p1a: Dragonite|[spread] p1a
+|-activate|p1b: Ho-Oh|move: Protect
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Incineroar|Knock Off|p1b: Ho-Oh
+|-activate|p1b: Ho-Oh|move: Protect
+|
+|upkeep
+|
+|t:|1750832965
+|switch|p1a: Mewtwo|Mewtwo, L50, shiny|100/100
+|-ability|p1a: Mewtwo|Unnerve
+|turn|3
+|
+|t:|1750832980
+|move|p1a: Mewtwo|Protect|p1a: Mewtwo
+|-singleturn|p1a: Mewtwo|Protect
+|move|p2a: Calyrex|Expanding Force|p1b: Ho-Oh|[spread] p1b
+|-activate|p1a: Mewtwo|move: Protect
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Incineroar|Knock Off|p1a: Mewtwo
+|-activate|p1a: Mewtwo|move: Protect
+|
+|upkeep
+|
+|t:|1750832986
+|switch|p1b: Ditto|Ditto, L50, shiny|100/100
+|-transform|p1b: Ditto|p2a: Calyrex|[from] ability: Imposter
+|-ability|p1b: Ditto|As One
+|-ability|p1b: Ditto|Unnerve
+|turn|4
+|inactive|drake412 has 30 seconds left.
+|
+|t:|1750833021
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Ditto|Astral Barrage|p2b: Indeedee|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-immune|p2b: Indeedee
+|move|p1a: Mewtwo|Psystrike|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750833046
+|move|p1b: Ditto|Astral Barrage|p2a: Calyrex|[spread] p2a
+|-immune|p2b: Indeedee
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1b: Ditto|Grim Neigh|boost
+|-boost|p1b: Ditto|spa|1
+|move|p1a: Mewtwo|Dark Pulse|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|36/100
+|-damage|p1a: Mewtwo|91/100|[from] item: Life Orb
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750833066
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750833088
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Mewtwo|Protect|p1a: Mewtwo
+|-singleturn|p1a: Mewtwo|Protect
+|move|p2b: Indeedee|Psychic|p1b: Ditto
+|-resisted|p1b: Ditto
+|-damage|p1b: Ditto|84/100
+|move|p2a: Koraidon|Flare Blitz|p1b: Ditto
+|-damage|p1b: Ditto|0 fnt
+|faint|p1b: Ditto
+|-damage|p2a: Koraidon|76/100|[from] Recoil
+|-damage|p2a: Koraidon|66/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|drake412 has 30 seconds left.
+|
+|t:|1750833116
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Mewtwo|Psystrike|p2b: Indeedee
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Mewtwo|81/100|[from] item: Life Orb
+|move|p2a: Koraidon|Flare Blitz|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|-damage|p2a: Koraidon|39/100|[from] Recoil
+|-damage|p2a: Koraidon|29/100|[from] item: Life Orb
+|
+|win|drake412
+|raw|Dangarzam's rating: 1239 &rarr; <strong>1219</strong><br />(-20 for losing)
+|raw|drake412's rating: 1314 &rarr; <strong>1330</strong><br />(+16 for winning)
+|l|☆drake412
+|player|p2|
+|l|☆Dangarzam
+|player|p1|

@@ -1,0 +1,155 @@
+|j|☆Mameon
+|j|☆Gjokull
+|t:|1750761172
+|gametype|doubles
+|player|p1|Mameon|red|1175
+|player|p2|Gjokull|101|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gjokull)
+|
+|t:|1750761192
+|start
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750761211
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1a: Landorus|Earth Power|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p2a: Weezing|Strange Steam|p1b: Incineroar
+|-damage|p1b: Incineroar|83/100
+|
+|upkeep
+|turn|2
+|inactive|Mameon has 30 seconds left.
+|
+|t:|1750761238
+|-terastallize|p1a: Landorus|Poison
+|move|p2b: Koraidon|Collision Course|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Landorus|Sludge Bomb|p2b: Koraidon
+|-damage|p2b: Koraidon|26/100
+|-damage|p1a: Landorus|56/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|87/100
+|-damage|p1b: Incineroar|66/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Weezing|Sludge Bomb|p1b: Incineroar
+|-damage|p1b: Incineroar|50/100
+|
+|upkeep
+|turn|3
+|inactive|Mameon has 30 seconds left.
+|inactive|Gjokull has 30 seconds left.
+|
+|t:|1750761267
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|move|p1a: Landorus|Sandsear Storm|p2a: Weezing|[spread] p2a,p2b
+|-supereffective|p2a: Weezing
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Weezing|0 fnt
+|-damage|p2b: Zamazenta|26/100
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2b: Zamazenta|atk|1
+|-damage|p1a: Landorus|46/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|19/100
+|
+|upkeep
+|
+|t:|1750761282
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1750761303
+|move|p2a: Grimmsnarl|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|35/100
+|move|p2b: Zamazenta|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|move|p1a: Landorus|Sandsear Storm|p2b: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Grimmsnarl|30/100
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|cant|p1b: Incineroar|flinch
+|
+|upkeep
+|
+|t:|1750761315
+|switch|p2b: Koraidon|Koraidon, L50|26/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750761327
+|move|p2b: Koraidon|Flame Charge|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1a: Landorus
+|-damage|p2b: Koraidon|16/100|[from] item: Life Orb
+|move|p1b: Incineroar|Flare Blitz|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-damage|p1b: Incineroar|25/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750761345
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750761359
+|move|p2b: Koraidon|Flame Charge|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|38/100
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|7/100|[from] item: Life Orb
+|move|p1b: Incineroar|U-turn|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|win|Mameon
+|raw|Mameon's rating: 1175 &rarr; <strong>1193</strong><br />(+18 for winning)
+|raw|Gjokull's rating: 1076 &rarr; <strong>1061</strong><br />(-15 for losing)
+|l|☆Gjokull
+|player|p2|

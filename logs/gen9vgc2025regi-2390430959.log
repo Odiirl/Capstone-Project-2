@@ -1,0 +1,269 @@
+|j|☆ajs1031
+|j|☆adynan legal
+|t:|1750712457
+|gametype|doubles
+|player|p1|ajs1031|palmer|1065
+|player|p2|adynan legal|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raichu-Alola, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adynan legal)
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1750712529
+|start
+|switch|p1a: Iron Moth|Iron Moth, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gothitelle|atk|1
+|-unboost|p2b: Scream Tail|atk|1
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1750712600
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Scream Tail
+|-damage|p2b: Scream Tail|93/100
+|cant|p2b: Scream Tail|flinch
+|move|p1a: Iron Moth|Sludge Wave|p2b: Scream Tail|[spread] p1b,p2b
+|-activate|p2a: Gothitelle|move: Protect
+|-supereffective|p2b: Scream Tail
+|-damage|p1b: Incineroar|64/100
+|-damage|p2b: Scream Tail|22/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750712617
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Iron Moth|perish3|[silent]
+|-start|p1b: Incineroar|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Iron Moth|Bug Buzz|p2a: Incineroar
+|-damage|p2a: Incineroar|70/100
+|move|p1b: Incineroar|Knock Off|p2b: Scream Tail
+|-damage|p2b: Scream Tail|9/100
+|
+|-start|p2b: Scream Tail|perish3
+|-start|p1a: Iron Moth|perish3
+|-start|p2a: Incineroar|perish3
+|-start|p1b: Incineroar|perish3
+|upkeep
+|turn|3
+|
+|t:|1750712634
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Iron Moth
+|-damage|p1a: Iron Moth|88/100
+|cant|p1a: Iron Moth|flinch
+|move|p1b: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1750712648
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|-start|p1a: Iron Moth|perish2
+|-start|p2a: Incineroar|perish2
+|upkeep
+|turn|4
+|
+|t:|1750712676
+|-terastallize|p1b: Calyrex|Ground
+|move|p2b: Gothitelle|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|97/100
+|move|p1a: Iron Moth|Bug Buzz|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|34/100
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|84/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|cant|p1b: Calyrex|flinch
+|
+|-start|p1a: Iron Moth|perish1
+|-start|p2a: Incineroar|perish1
+|upkeep
+|turn|5
+|
+|t:|1750712706
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1a: Iron Moth|Sludge Wave|p2b: Gothitelle|[spread] p1b
+|-activate|p2a: Incineroar|move: Protect
+|-activate|p2b: Gothitelle|move: Protect
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|71/100
+|-status|p1b: Calyrex|psn
+|move|p1b: Calyrex|High Horsepower|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|
+|-damage|p1b: Calyrex|59/100 psn|[from] psn
+|-start|p1a: Iron Moth|perish0
+|-start|p2a: Incineroar|perish0
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|faint|p2a: Incineroar
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ajs1031)
+|
+|t:|1750712796
+|switch|p1a: Incineroar|Incineroar, L50, M|64/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|turn|6
+|
+|t:|1750712817
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Gothitelle|Protect||[still]
+|-fail|p2b: Gothitelle
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Calyrex|High Horsepower|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Calyrex|47/100 psn|[from] psn
+|upkeep
+|turn|7
+|inactive|adynan legal has 30 seconds left.
+|
+|t:|1750712844
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|9/100
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Koraidon|Close Combat|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Calyrex|34/100 psn|[from] psn
+|upkeep
+|
+|t:|1750712847
+|switch|p2b: Gothitelle|Gothitelle, L50, M|34/100
+|turn|8
+|
+|t:|1750712861
+|move|p2b: Gothitelle|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|59/100
+|move|p2a: Koraidon|Close Combat|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|59/100|[from] item: Sitrus Berry
+|faint|p1b: Calyrex
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|11/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750712863
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1750712887
+|-terastallize|p2a: Koraidon|Fire
+|move|p2a: Koraidon|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Incineroar
+|-damage|p2a: Koraidon|81/100|[from] item: Life Orb
+|move|p1b: Ting-Lu|Ruination|p2a: Koraidon|[miss]
+|-miss|p1b: Ting-Lu|p2a: Koraidon
+|move|p2b: Gothitelle|Taunt|p1b: Ting-Lu
+|-start|p1b: Ting-Lu|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750712905
+|move|p2a: Koraidon|Close Combat|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|24/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|71/100|[from] item: Life Orb
+|move|p1b: Ting-Lu|Stomping Tantrum|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Gothitelle|Psychic|p1b: Ting-Lu
+|-immune|p1b: Ting-Lu
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1750712913
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Ting-Lu|Body Slam|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1750712923
+|move|p1b: Ting-Lu|Body Slam|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|
+|win|ajs1031
+|raw|ajs1031's rating: 1065 &rarr; <strong>1090</strong><br />(+25 for winning)
+|raw|adynan legal's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆ajs1031|Gg

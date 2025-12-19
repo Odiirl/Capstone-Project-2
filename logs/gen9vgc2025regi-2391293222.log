@@ -1,0 +1,186 @@
+|j|☆dakouty
+|j|☆WiFiRequired
+|t:|1750830014
+|gametype|doubles
+|player|p1|dakouty|volkner|1215
+|player|p2|WiFiRequired|steven|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Metagross, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Salamence, L50, M|
+|teampreview|4
+|
+|t:|1750830044
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Salamence|Salamence, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Salamence|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Salamence|atk|1
+|-enditem|p2b: Salamence|Eject Pack
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dakouty)
+|
+|t:|1750830057
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|turn|1
+|
+|t:|1750830071
+|move|p1b: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|93/100
+|move|p2b: Urshifu|Wicked Blow|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|27/100
+|cant|p2a: Kyogre|flinch
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|33/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|dakouty has 30 seconds left.
+|
+|t:|1750830097
+|move|p1a: Calyrex|Glacial Lance|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|74/100
+|-damage|p2b: Urshifu|58/100
+|move|p1b: Incineroar|Knock Off|p2a: Kyogre
+|-damage|p2a: Kyogre|47/100
+|-enditem|p2a: Kyogre|Splash Plate|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Incineroar
+|move|p2b: Urshifu|Wicked Blow|p1: Calyrex|[notarget]
+|-fail|p2b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750830108
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1750830130
+|switch|p2b: Salamence|Salamence, L50, M|100/100
+|-ability|p2b: Salamence|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-terastallize|p1b: Ursaluna|Fairy
+|-terastallize|p2a: Kyogre|Electric
+|move|p1b: Ursaluna|Drain Punch|p2b: Salamence
+|-resisted|p2b: Salamence
+|-damage|p2b: Salamence|90/100
+|move|p1a: Kyogre|Thunder|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|33/100
+|move|p2a: Kyogre|Thunder|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|5/100
+|-enditem|p1a: Kyogre|Sitrus Berry|[eat]
+|-heal|p1a: Kyogre|29/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|WiFiRequired has 30 seconds left.
+|
+|t:|1750830163
+|move|p2b: Salamence|Protect|p2b: Salamence
+|-singleturn|p2b: Salamence|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Kyogre
+|move|p1a: Kyogre|Origin Pulse|p2b: Salamence
+|-activate|p2b: Salamence|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750830171
+|switch|p2a: Ferrum|Metagross, L50, shiny|100/100
+|turn|5
+|
+|t:|1750830187
+|switch|p2a: Urshifu|Urshifu, L50, M|58/100
+|move|p1b: Ursaluna|Headlong Rush|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Urshifu
+|move|p1a: Kyogre|Origin Pulse|p2b: Salamence
+|-resisted|p2b: Salamence
+|-damage|p2b: Salamence|27/100
+|move|p2b: Salamence|Draco Meteor|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-unboost|p2b: Salamence|spa|2
+|faint|p1a: Kyogre
+|
+|-weather|none
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750830202
+|switch|p2a: Ferrum|Metagross, L50, shiny|100/100
+|turn|6
+|
+|t:|1750830215
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Salamence|Hurricane|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Ferrum|Meteor Mash|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750830225
+|move|p2b: Salamence|Hurricane|p1b: Ursaluna|[miss]
+|-miss|p2b: Salamence|p1b: Ursaluna
+|move|p2a: Ferrum|Meteor Mash|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|WiFiRequired
+|raw|dakouty's rating: 1215 &rarr; <strong>1185</strong><br />(-30 for losing)
+|raw|WiFiRequired's rating: 1144 &rarr; <strong>1174</strong><br />(+30 for winning)
+|l|☆dakouty
+|player|p1|

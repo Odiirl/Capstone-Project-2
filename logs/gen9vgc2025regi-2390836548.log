@@ -1,0 +1,191 @@
+|j|☆Pidpidpid
+|j|☆soolers
+|t:|1750773999
+|gametype|doubles
+|player|p1|Pidpidpid|birdkeeper-gen4dp|1407
+|player|p2|soolers|266|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Arcanine, L50, F|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Toxicroak, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by soolers)
+|
+|t:|1750774045
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Toxicroak|Toxicroak, L50, F|100/100
+|switch|p2b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|1
+|
+|t:|1750774065
+|-terastallize|p2b: Palkia|Water
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Toxicroak|Fake Out|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p1b: Tornadus|Taunt|p2b: Palkia
+|-start|p2b: Palkia|move: Taunt
+|move|p2b: Palkia|Surf|p1b: Tornadus|[spread] p1b
+|-activate|p1a: Zacian|move: Protect
+|-immune|p2a: Toxicroak|[from] ability: Dry Skin
+|-damage|p1b: Tornadus|35/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750774094
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-enditem|p1b: Brute Bonnet|Booster Energy
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|move|p1a: Zacian|Play Rough|p2b: Landorus
+|-damage|p2b: Landorus|42/100
+|move|p2a: Toxicroak|Poison Jab|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|60/100
+|-status|p1b: Brute Bonnet|psn
+|
+|-damage|p1b: Brute Bonnet|48/100 psn|[from] psn
+|upkeep
+|turn|3
+|inactive|Pidpidpid has 30 seconds left.
+|inactive|soolers has 30 seconds left.
+|inactive|Pidpidpid has 20 seconds left.
+|inactive|soolers has 20 seconds left.
+|inactive|Pidpidpid has 15 seconds left.
+|inactive|soolers has 15 seconds left.
+|
+|t:|1750774135
+|-terastallize|p1a: Zacian|Water
+|move|p1b: Brute Bonnet|Sucker Punch|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|81/100
+|move|p2b: Landorus|U-turn|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-crit|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|
+|t:|1750774144
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100|[from] U-turn
+|move|p1a: Zacian|Behemoth Blade|p2a: Toxicroak
+|-damage|p2a: Toxicroak|2/100
+|move|p2a: Toxicroak|Poison Jab|p1a: Zacian
+|-damage|p1a: Zacian|72/100
+|
+|upkeep
+|
+|t:|1750774153
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|turn|4
+|
+|t:|1750774171
+|switch|p2a: Landorus|Landorus-Therian, L50, M|42/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Palkia|atk|1
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Zacian|[anim] Ivy Cudgel Water
+|-activate|p1a: Zacian|move: Protect
+|move|p1b: Palkia|Spacial Rend|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1750774185
+|switch|p2a: Palkia|Palkia-Origin, L50, tera:Water|100/100
+|turn|5
+|
+|t:|1750774206
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p1a: Zacian|Play Rough|p2a: Palkia
+|-damage|p2a: Palkia|67/100
+|move|p2a: Palkia|Spacial Rend|p1b: Palkia
+|-activate|p1b: Palkia|move: Protect
+|move|p2b: Ogerpon|Horn Leech|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1750774216
+|switch|p1a: Tornadus|Tornadus, L50, M|35/100
+|turn|6
+|
+|t:|1750774231
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Pidpidpid|move: Tailwind
+|move|p1b: Palkia|Spacial Rend|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|move|p2b: Ogerpon|Horn Leech|p1b: Palkia
+|-damage|p1b: Palkia|51/100
+|
+|upkeep
+|
+|t:|1750774236
+|switch|p2a: Toxicroak|Toxicroak, L50, F|2/100
+|turn|7
+|
+|t:|1750774246
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p2a: Toxicroak|Fake Out|p1a: Tornadus
+|-damage|p1a: Tornadus|23/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Ogerpon|[spread] p2a,p2b
+|-supereffective|p2a: Toxicroak
+|-supereffective|p2b: Ogerpon
+|-damage|p2a: Toxicroak|0 fnt
+|-damage|p2b: Ogerpon|26/100
+|faint|p2a: Toxicroak
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Tornadus|[anim] Ivy Cudgel Water
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|turn|8
+|
+|t:|1750774261
+|move|p1b: Palkia|Spacial Rend|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|win|Pidpidpid
+|raw|Pidpidpid's rating: 1407 &rarr; <strong>1428</strong><br />(+21 for winning)
+|raw|soolers's rating: 1428 &rarr; <strong>1407</strong><br />(-21 for losing)
+|l|☆soolers
+|player|p2|
+|l|☆Pidpidpid
+|player|p1|

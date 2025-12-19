@@ -1,0 +1,239 @@
+|j|☆naibot2814
+|j|☆juacox300
+|t:|1750870551
+|gametype|doubles
+|player|p1|naibot2814|ghetsis|1582
+|player|p2|juacox300|unknown|1674
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Alcremie-Salted-Cream, L50, F|
+|teampreview|4
+|
+|t:|1750870626
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750870650
+|move|p1b: Rillaboom|Fake Out|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|79/100
+|cant|p2a: Chi-Yu|flinch
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|36/100
+|-damage|p2b: Miraidon|19/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Miraidon|10/100|[from] item: Life Orb
+|
+|-heal|p2a: Chi-Yu|42/100|[from] Grassy Terrain
+|-heal|p2b: Miraidon|15/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750870668
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Chi-Yu|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|2
+|
+|t:|1750870676
+|switch|p2a: FerroNalgada|Iron Hands, L50|100/100
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: FerroNalgada
+|-damage|p2a: FerroNalgada|93/100
+|move|p1b: Rillaboom|Grassy Glide|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|
+|-heal|p2b: Miraidon|21/100|[from] Grassy Terrain
+|-heal|p2a: FerroNalgada|99/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750870693
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: FerroNalgada|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|88/100
+|-damage|p2a: FerroNalgada|83/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p1b: Rillaboom|U-turn|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|71/100
+|
+|t:|1750870704
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|cant|p1a: Incineroar|flinch
+|
+|-heal|p1a: Incineroar|94/100|[from] Grassy Terrain
+|-heal|p2a: FerroNalgada|90/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|77/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750870717
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|30/100
+|move|p1a: Incineroar|Parting Shot|p2a: FerroNalgada
+|-unboost|p2a: FerroNalgada|atk|1
+|-unboost|p2a: FerroNalgada|spa|1
+|
+|t:|1750870723
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|move|p2a: FerroNalgada|Low Kick|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|67/100
+|move|p2b: Calyrex|High Horsepower|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|81/100
+|
+|-heal|p1b: Zamazenta|73/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|87/100|[from] Grassy Terrain
+|-heal|p2a: FerroNalgada|96/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|36/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750870738
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1a: Rillaboom|U-turn|p2a: FerroNalgada
+|-resisted|p2a: FerroNalgada
+|-damage|p2a: FerroNalgada|88/100
+|
+|t:|1750870743
+|switch|p1a: Incineroar|Incineroar, L50, M|94/100|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: FerroNalgada|atk|1
+|move|p2a: FerroNalgada|Low Kick|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|45/100
+|
+|-heal|p1b: Zamazenta|52/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|99/100|[from] Grassy Terrain
+|-heal|p2a: FerroNalgada|94/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750870745
+|switch|p2b: Chi-Yu|Chi-Yu, L50|42/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|6
+|
+|t:|1750870760
+|-end|p2a: FerroNalgada|Quark Drive|[silent]
+|switch|p2a: Miraidon|Miraidon, L50|21/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-terastallize|p2b: Chi-Yu|Ghost
+|move|p1a: Incineroar|Fake Out|p2b: Chi-Yu
+|-immune|p2b: Chi-Yu
+|move|p2b: Chi-Yu|Overheat|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|-unboost|p2b: Chi-Yu|spa|2
+|faint|p1b: Zamazenta
+|
+|upkeep
+|
+|t:|1750870772
+|switch|p1b: Rillaboom|Rillaboom, L50, M|87/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|7
+|
+|t:|1750870789
+|switch|p2b: FerroNalgada|Iron Hands, L50|94/100
+|-terastallize|p1b: Rillaboom|Fire
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p1a: Incineroar|Knock Off|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|
+|-heal|p2a: Miraidon|27/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|93/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|100/100|[from] Grassy Terrain
+|-heal|p2b: FerroNalgada|99/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750870806
+|switch|p2a: Chi-Yu|Chi-Yu, L50, tera:Ghost|42/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|move|p1b: Rillaboom|Wood Hammer|p2b: FerroNalgada
+|-damage|p2b: FerroNalgada|49/100
+|-damage|p1b: Rillaboom|71/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|-enditem|p2a: Chi-Yu|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Chi-Yu
+|move|p2b: FerroNalgada|Low Kick|p1b: Rillaboom
+|-damage|p1b: Rillaboom|34/100
+|
+|-heal|p1b: Rillaboom|40/100|[from] Grassy Terrain
+|-heal|p2b: FerroNalgada|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750870815
+|switch|p2a: Miraidon|Miraidon, L50|27/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: FerroNalgada|ability: Quark Drive
+|-start|p2b: FerroNalgada|quarkdriveatk
+|turn|9
+|
+|t:|1750870828
+|move|p2a: Miraidon|Electro Drift|p1b: Rillaboom
+|-crit|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Miraidon|17/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-enditem|p2a: Miraidon|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Miraidon
+|move|p2b: FerroNalgada|Low Kick|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2b: FerroNalgada|39/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|
+|win|juacox300
+|raw|naibot2814's rating: 1582 &rarr; <strong>1567</strong><br />(-15 for losing)
+|raw|juacox300's rating: 1674 &rarr; <strong>1689</strong><br />(+15 for winning)
+|l|☆naibot2814
+|player|p1|
+|l|☆juacox300
+|player|p2|

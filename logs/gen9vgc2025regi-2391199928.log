@@ -1,0 +1,201 @@
+|j|☆bapdabo
+|j|☆Alox01
+|t:|1750815418
+|gametype|doubles
+|player|p1|bapdabo|hugh|1106
+|player|p2|Alox01|101|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palafin, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Cramorant, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Lugia, L50|
+|poke|p1|Bastiodon, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Heatran, L50, M|
+|teampreview|4
+|
+|t:|1750815468
+|start
+|switch|p1a: Cramorant|Cramorant, L50, M, shiny|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Heatran|Heatran, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750815529
+|switch|p1a: Lugia|Lugia, L50|100/100
+|-terastallize|p2b: Koraidon|Fire
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Koraidon|Flare Blitz|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p2a: Heatran|Heat Wave|p1a: Lugia|[spread] p1a
+|-activate|p1b: Zacian|move: Protect
+|-damage|p1a: Lugia|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bapdabo)
+|inactive|bapdabo has 60 seconds left.
+|inactive|Alox01 has 60 seconds left.
+|
+|t:|1750815563
+|switch|p1b: Cramorant|Cramorant, L50, M, shiny|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisatk
+|move|p2b: Koraidon|Flare Blitz|p1b: Cramorant
+|-resisted|p1b: Cramorant
+|-damage|p1b: Cramorant|0 fnt
+|faint|p1b: Cramorant
+|-damage|p2b: Koraidon|73/100|[from] Recoil
+|-damage|p2b: Koraidon|63/100|[from] item: Life Orb
+|move|p1a: Lugia|Earth Power|p2a: Brute Bonnet
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|90/100
+|-unboost|p2a: Brute Bonnet|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815583
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|turn|3
+|
+|t:|1750815592
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|move|p2b: Koraidon|Flare Blitz|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815601
+|switch|p1a: Bastiodon|Bastiodon, L50, M|100/100
+|turn|4
+|
+|t:|1750815615
+|move|p2a: Brute Bonnet|Rage Powder|p2a: Brute Bonnet
+|-singleturn|p2a: Brute Bonnet|move: Rage Powder
+|move|p1b: Zacian|Sacred Sword|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|36/100
+|-enditem|p2a: Brute Bonnet|Sitrus Berry|[eat]
+|-heal|p2a: Brute Bonnet|61/100|[from] item: Sitrus Berry
+|move|p2b: Koraidon|Flare Blitz|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-damage|p2b: Koraidon|32/100|[from] Recoil
+|-damage|p2b: Koraidon|22/100|[from] item: Life Orb
+|move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+|-boost|p1a: Bastiodon|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750815635
+|move|p1a: Bastiodon|Protect|p1a: Bastiodon
+|-singleturn|p1a: Bastiodon|Protect
+|move|p2b: Koraidon|Close Combat|p1a: Bastiodon
+|-activate|p1a: Bastiodon|move: Protect
+|move|p2a: Brute Bonnet|Spore|p1a: Bastiodon
+|-activate|p1a: Bastiodon|move: Protect
+|
+|-weather|none
+|-end|p2a: Brute Bonnet|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1750815653
+|-terastallize|p1a: Bastiodon|Ghost
+|move|p2b: Koraidon|Close Combat|p1a: Bastiodon
+|-immune|p1a: Bastiodon
+|move|p2a: Brute Bonnet|Spore|p1a: Bastiodon
+|-status|p1a: Bastiodon|slp|[from] move: Spore
+|cant|p1a: Bastiodon|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1750815668
+|move|p2b: Koraidon|Flare Blitz|p1a: Bastiodon
+|-damage|p1a: Bastiodon|69/100 slp
+|-damage|p2b: Koraidon|12/100|[from] Recoil
+|-damage|p2b: Koraidon|3/100|[from] item: Life Orb
+|move|p2a: Brute Bonnet|Seed Bomb|p1a: Bastiodon
+|-damage|p1a: Bastiodon|53/100 slp
+|cant|p1a: Bastiodon|slp
+|
+|-heal|p1a: Bastiodon|59/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750815686
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|32/100 slp
+|-curestatus|p1a: Bastiodon|slp|[msg]
+|move|p1a: Bastiodon|Body Press|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-heal|p1a: Bastiodon|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750815698
+|switch|p2a: Koraidon|Koraidon, L50, tera:Fire|3/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|9
+|
+|t:|1750815708
+|move|p1a: Bastiodon|Protect|p1a: Bastiodon
+|-singleturn|p1a: Bastiodon|Protect
+|move|p2b: Walking Wake|Hydro Steam|p1a: Bastiodon
+|-activate|p1a: Bastiodon|move: Protect
+|move|p2a: Koraidon|Flare Blitz|p1a: Bastiodon
+|-activate|p1a: Bastiodon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bastiodon|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|bapdabo forfeited.
+|
+|win|Alox01
+|raw|bapdabo's rating: 1106 &rarr; <strong>1080</strong><br />(-26 for losing)
+|raw|Alox01's rating: 1095 &rarr; <strong>1122</strong><br />(+27 for winning)
+|l|☆bapdabo
+|player|p1|
+|l|☆Alox01
+|player|p2|

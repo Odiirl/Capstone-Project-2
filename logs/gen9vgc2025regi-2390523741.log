@@ -1,0 +1,230 @@
+|j|☆leathy
+|j|‽xGSx3ntr0py
+|t:|1750723950
+|gametype|doubles
+|player|p1|leathy|cynthia-gen4|1533
+|player|p2|xGSx3ntr0py|101|1520
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Drifblim, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Muk-Alola, L50, F|
+|teampreview|4
+|j| mistball2
+|
+|t:|1750723993
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Drifblim|Drifblim, L50, F|100/100
+|switch|p2a: Muk|Muk-Alola, L50, F|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Drifblim|Electric Seed
+|-boost|p1b: Drifblim|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750724011
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Drifblim|Minimize|p1b: Drifblim
+|-boost|p1b: Drifblim|evasion|2
+|move|p1a: Miraidon|Volt Switch|p2b: Smeargle
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|
+|t:|1750724024
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750724037
+|move|p2b: Smeargle|Wide Guard|p2b: Smeargle
+|-singleturn|p2b: Smeargle|Wide Guard
+|move|p1b: Drifblim|Minimize|p1b: Drifblim
+|-boost|p1b: Drifblim|evasion|2
+|move|p1a: Calyrex|Leech Seed|p2a: Muk
+|-start|p2a: Muk|move: Leech Seed
+|move|p2a: Muk|Toxic|p1b: Drifblim
+|-status|p1b: Drifblim|tox
+|
+|-damage|p2a: Muk|88/100|[from] Leech Seed|[of] p1a: Calyrex
+|-damage|p1b: Drifblim|95/100 tox|[from] psn
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750724058
+|move|p2b: Smeargle|Wide Guard|p2b: Smeargle
+|-singleturn|p2b: Smeargle|Wide Guard
+|move|p1b: Drifblim|Baton Pass|p1b: Drifblim
+|
+|t:|1750724062
+|switch|p1b: Miraidon|Miraidon, L50|91/100|[from] Baton Pass
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Calyrex|Glacial Lance|p2b: Smeargle|[spread] 
+|-activate|p2a: Muk|move: Wide Guard
+|-activate|p2b: Smeargle|move: Wide Guard
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p2a: Muk|94/100|[from] item: Black Sludge
+|-damage|p2a: Muk|82/100|[from] Leech Seed|[of] p1a: Calyrex
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|4
+|
+|t:|1750724080
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p1a: Calyrex|Leech Seed|p2b: Smeargle
+|-start|p2b: Smeargle|move: Leech Seed
+|move|p2a: Muk|Toxic|p1b: Miraidon
+|-status|p1b: Miraidon|tox
+|
+|-heal|p2a: Muk|88/100|[from] item: Black Sludge
+|-damage|p2b: Smeargle|0 fnt|[from] Leech Seed|[of] p1a: Calyrex
+|faint|p2b: Smeargle
+|-ability|p2a: Muk|Moody|[from] ability: Power of Alchemy|[of] p2b: Smeargle
+|-damage|p2a: Muk|76/100|[from] Leech Seed|[of] p1a: Calyrex
+|-damage|p1b: Miraidon|85/100 tox|[from] psn
+|upkeep
+|
+|t:|1750724097
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|5
+|j| falafal hunk chunk
+|
+|t:|1750724109
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Muk|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|81/100 tox
+|cant|p1b: Miraidon|flinch
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p2a: Muk|82/100|[from] item: Black Sludge
+|-damage|p2a: Muk|70/100|[from] Leech Seed|[of] p1a: Incineroar
+|-damage|p1b: Miraidon|70/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750724139
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2b: Incineroar|Parting Shot|p1a: Incineroar
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1750724150
+|switch|p2b: Lunala|Lunala, L50|100/100|[from] Parting Shot
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Muk
+|-activate|p2a: Muk|move: Protect
+|
+|-heal|p2a: Muk|76/100|[from] item: Black Sludge
+|-damage|p2a: Muk|64/100|[from] Leech Seed|[of] p1a: Incineroar
+|-damage|p1b: Miraidon|52/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|atk|1
+|upkeep
+|turn|7
+|
+|t:|1750724172
+|move|p1b: Miraidon|Dragon Pulse|p2a: Muk|[miss]
+|-miss|p1b: Miraidon|p2a: Muk
+|move|p2b: Lunala|Psych Up|p2a: Muk
+|-copyboost|p2b: Lunala|p2a: Muk|[from] move: Psych Up
+|move|p1a: Incineroar|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|58/100
+|-enditem|p2b: Lunala|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Muk|Toxic|p1a: Incineroar
+|-status|p1a: Incineroar|tox
+|
+|-heal|p2a: Muk|70/100|[from] item: Black Sludge
+|-damage|p2a: Muk|58/100|[from] Leech Seed|[of] p1a: Incineroar
+|-damage|p1b: Miraidon|29/100 tox|[from] psn
+|-damage|p1a: Incineroar|95/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|def|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|8
+|
+|t:|1750724192
+|switch|p1a: Drifblim|Drifblim, L50, F|95/100 tox
+|-terastallize|p1b: Miraidon|Electric
+|-terastallize|p2b: Lunala|Fairy
+|move|p1b: Miraidon|Parabolic Charge|p2b: Lunala|[spread] p1a
+|-miss|p1b: Miraidon|p2a: Muk
+|-miss|p1b: Miraidon|p2b: Lunala
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|-heal|p1b: Miraidon|88/100 tox|[from] drain|[of] p1a: Drifblim
+|faint|p1a: Drifblim
+|-damage|p1b: Miraidon|78/100 tox|[from] item: Life Orb
+|move|p2b: Lunala|Moonblast|p1b: Miraidon
+|-damage|p1b: Miraidon|30/100 tox
+|move|p2a: Muk|Drain Punch|p1b: Miraidon|[miss]
+|-miss|p2a: Muk|p1b: Miraidon
+|
+|-heal|p2a: Muk|64/100|[from] item: Black Sludge
+|-damage|p1b: Miraidon|1/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|def|1
+|upkeep
+|-message|leathy forfeited.
+|
+|win|xGSx3ntr0py
+|raw|leathy's rating: 1533 &rarr; <strong>1512</strong><br />(-21 for losing)
+|raw|xGSx3ntr0py's rating: 1520 &rarr; <strong>1541</strong><br />(+21 for winning)
+|l|☆leathy
+|player|p1|
+|l|‽xGSx3ntr0py
+|player|p2|
+|l| falafal hunk chunk

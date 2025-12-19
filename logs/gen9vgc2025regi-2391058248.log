@@ -1,0 +1,168 @@
+|j|☆Ulkalar
+|j|☆kingler225
+|t:|1750797664
+|gametype|doubles
+|player|p1|Ulkalar|170|1084
+|player|p2|kingler225|101|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Articuno-Galar, L50|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Zapdos-Galar, L50|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ulkalar)
+|
+|t:|1750797686
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Articuno|Articuno-Galar, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Bundle|Iron Bundle, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Bundle|ability: Quark Drive
+|-start|p2b: Iron Bundle|quarkdrivespe
+|-ability|p1a: Ho-Oh|Pressure
+|turn|1
+|inactive|Ulkalar has 30 seconds left.
+|inactive|Ulkalar has 20 seconds left.
+|inactive|Ulkalar has 15 seconds left.
+|inactive|Ulkalar has 10 seconds left.
+|inactive|Ulkalar has 5 seconds left.
+|
+|t:|1750797737
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Iron Bundle|Freeze-Dry|p1b: Articuno
+|-supereffective|p1b: Articuno
+|-damage|p1b: Articuno|28/100
+|move|p2a: Miraidon|Electro Drift|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|move|p1b: Articuno|Tailwind|p1b: Articuno
+|-sidestart|p1: Ulkalar|move: Tailwind
+|
+|upkeep
+|
+|t:|1750797748
+|switch|p1a: Kilowattrel|Kilowattrel, L50, F|100/100
+|turn|2
+|
+|t:|1750797759
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1a: Kilowattrel|Electroweb|p2b: Iron Bundle|[spread] p2a,p2b
+|-supereffective|p2b: Iron Bundle
+|-damage|p2a: Farigiraf|84/100
+|-damage|p2b: Iron Bundle|28/100
+|-unboost|p2a: Farigiraf|spe|1
+|-unboost|p2b: Iron Bundle|spe|1
+|move|p1b: Articuno|Freezing Glare|p2a: Farigiraf
+|-resisted|p2a: Farigiraf
+|-damage|p2a: Farigiraf|63/100
+|-status|p2a: Farigiraf|frz
+|move|p2b: Iron Bundle|Freeze-Dry|p1b: Articuno
+|-supereffective|p1b: Articuno
+|-damage|p1b: Articuno|0 fnt
+|faint|p1b: Articuno
+|
+|upkeep
+|
+|t:|1750797774
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|inactive|kingler225 has 30 seconds left.
+|
+|t:|1750797803
+|move|p1a: Kilowattrel|Electroweb|p2b: Iron Bundle|[spread] p2a,p2b
+|-supereffective|p2b: Iron Bundle
+|-damage|p2a: Farigiraf|46/100 frz
+|-damage|p2b: Iron Bundle|0 fnt
+|-unboost|p2a: Farigiraf|spe|1
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|move|p1b: Dragonite|Earthquake|p2a: Farigiraf|[spread] p2a
+|-immune|p1a: Kilowattrel
+|-damage|p2a: Farigiraf|30/100 frz
+|cant|p2a: Farigiraf|frz
+|
+|upkeep
+|
+|t:|1750797816
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750797828
+|move|p2b: Iron Hands|Fake Out|p1b: Dragonite
+|-damage|p1b: Dragonite|89/100
+|move|p1a: Kilowattrel|Electroweb|p2b: Iron Hands|[spread] p2a,p2b
+|-resisted|p2b: Iron Hands
+|-damage|p2a: Farigiraf|13/100 frz
+|-damage|p2b: Iron Hands|96/100
+|-unboost|p2a: Farigiraf|spe|1
+|-unboost|p2b: Iron Hands|spe|1
+|cant|p1b: Dragonite|flinch
+|cant|p2a: Farigiraf|frz
+|
+|-sideend|p1: Ulkalar|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750797852
+|move|p1a: Kilowattrel|Electroweb|p2b: Iron Hands|[spread] p2a,p2b
+|-crit|p2a: Farigiraf
+|-resisted|p2b: Iron Hands
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Iron Hands|91/100
+|-unboost|p2b: Iron Hands|spe|1
+|faint|p2a: Farigiraf
+|move|p1b: Dragonite|Earthquake|p2b: Iron Hands|[spread] p2b
+|-immune|p1a: Kilowattrel
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|50/100
+|move|p2b: Iron Hands|Wild Charge|p1a: Kilowattrel
+|-immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+|
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750797867
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1750797878
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kilowattrel|[spread] p1a,p1b
+|-supereffective|p1b: Dragonite
+|-damage|p1a: Kilowattrel|0 fnt
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1a: Kilowattrel
+|faint|p1b: Dragonite
+|
+|win|kingler225
+|raw|Ulkalar's rating: 1084 &rarr; <strong>1062</strong><br />(-22 for losing)
+|raw|kingler225's rating: 1087 &rarr; <strong>1114</strong><br />(+27 for winning)
+|l|☆Ulkalar
+|player|p1|
+|l|☆kingler225
+|player|p2|

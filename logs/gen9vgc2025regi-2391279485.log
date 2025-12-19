@@ -1,0 +1,336 @@
+|j|☆4thD
+|j|☆chill1830
+|t:|1750827406
+|gametype|doubles
+|player|p1|4thD|101|1184
+|player|p2|chill1830|falkner|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Palossand, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750827497
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750827532
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Incineroar|Fake Out|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|cant|p1a: Zamazenta|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750827561
+|switch|p1b: Palossand|Palossand, L50, F|100/100
+|move|p2a: Koraidon|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|5/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2b: Incineroar|Flare Blitz|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2b: Incineroar|99/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|97/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827583
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|3
+|
+|t:|1750827634
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Rillaboom|Knock Off|p2b: Scream Tail
+|-damage|p2b: Scream Tail|78/100
+|-enditem|p2b: Scream Tail|Mental Herb|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p1b: Palossand|Scorching Sands|p2b: Scream Tail
+|-damage|p2b: Scream Tail|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Scream Tail|67/100|[from] Grassy Terrain
+|-heal|p2a: Koraidon|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750827662
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Palossand|atk|1
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Scream Tail|Encore||[still]
+|-fail|p2b: Scream Tail
+|move|p1b: Palossand|Scorching Sands|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Scream Tail|73/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|59/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750827693
+|move|p2a: Incineroar|Fake Out|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|98/100
+|move|p2b: Scream Tail|Encore|p1b: Palossand
+|-start|p1b: Palossand|Encore
+|cant|p1a: Terapagos|flinch
+|move|p1b: Palossand|Scorching Sands|p2b: Scream Tail
+|-damage|p2b: Scream Tail|55/100
+|-status|p2b: Scream Tail|brn
+|
+|-weather|none
+|-end|p2b: Scream Tail|Protosynthesis
+|-heal|p2b: Scream Tail|61/100 brn|[from] Grassy Terrain
+|-heal|p1a: Terapagos|100/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|65/100|[from] Grassy Terrain
+|-damage|p2b: Scream Tail|55/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750827721
+|move|p2b: Scream Tail|Disable|p1b: Palossand
+|-start|p1b: Palossand|Disable|Scorching Sands
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p2a: Incineroar|Knock Off|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|90/100
+|-enditem|p1a: Terapagos|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|cant|p1b: Palossand|Disable|Scorching Sands
+|
+|-damage|p2b: Scream Tail|49/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750827749
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|92/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p2b: Scream Tail|Encore|p1a: Terapagos
+|-start|p1a: Terapagos|Encore
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p2a: Incineroar|Parting Shot|p1b: Rillaboom
+|-unboost|p1b: Rillaboom|atk|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|t:|1750827755
+|switch|p2a: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Scream Tail|43/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750827784
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p1b: Palossand|Palossand, L50, F|100/100
+|move|p2b: Scream Tail|Disable|p1a: Terapagos
+|-start|p1a: Terapagos|Disable|Calm Mind
+|cant|p1a: Terapagos|Disable|Calm Mind
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Scream Tail|37/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750827822
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, F|65/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Palossand|atk|1
+|move|p2a: Lunala|Moongeist Beam|p1b: Palossand
+|-supereffective|p1b: Palossand
+|-damage|p1b: Palossand|0 fnt
+|faint|p1b: Palossand
+|-activate|p1a: Terapagos|move: Struggle
+|move|p1a: Terapagos|Struggle|p2b: Incineroar
+|-damage|p2b: Incineroar|60/100
+|-damage|p1a: Terapagos|76/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|-damage|p1a: Terapagos|51/100|[from] recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Terapagos|Encore
+|upkeep
+|
+|t:|1750827840
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|10
+|
+|t:|1750827861
+|switch|p2b: Scream Tail|Scream Tail, L50|37/100 brn
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Rillaboom|Fake Out|p2b: Scream Tail
+|-damage|p2b: Scream Tail|28/100 brn
+|move|p1a: Terapagos|Stored Power|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Scream Tail|34/100 brn|[from] Grassy Terrain
+|-heal|p2a: Lunala|95/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|57/100|[from] Grassy Terrain
+|-damage|p2b: Scream Tail|28/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1750827888
+|switch|p2a: Incineroar|Incineroar, L50, F|60/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p2b: Scream Tail|Disable||[still]
+|-fail|p2b: Scream Tail
+|move|p1b: Rillaboom|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|-damage|p1b: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|-enditem|p2a: Incineroar|Rocky Helmet|[from] move: Knock Off|[of] p1b: Rillaboom
+|move|p1a: Terapagos|Tera Starstorm|p2b: Scream Tail|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|
+|-weather|none
+|-heal|p1b: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|63/100|[from] Grassy Terrain
+|-end|p1a: Terapagos|Disable
+|upkeep
+|
+|t:|1750827901
+|switch|p2b: Lunala|Lunala, L50|95/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|12
+|
+|t:|1750827923
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p2a: Koraidon|Close Combat|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|move|p1b: Rillaboom|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|20/100
+|-enditem|p2b: Lunala|Power Herb|[from] move: Knock Off|[of] p1b: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|26/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|69/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1750827948
+|move|p1b: Rillaboom|Grassy Glide|p2b: Lunala
+|-damage|p2b: Lunala|7/100
+|move|p2a: Koraidon|Close Combat|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Lunala|Moonlight|p2b: Lunala
+|-heal|p2b: Lunala|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|97/100|[from] Grassy Terrain
+|-heal|p2b: Lunala|80/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1750827968
+|move|p2a: Koraidon|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Koraidon|59/100|[from] Recoil
+|-damage|p2a: Koraidon|50/100|[from] item: Life Orb
+|
+|win|chill1830
+|raw|4thD's rating: 1184 &rarr; <strong>1155</strong><br />(-29 for losing)
+|raw|chill1830's rating: 1128 &rarr; <strong>1157</strong><br />(+29 for winning)
+|l|☆4thD
+|player|p1|
+|l|☆chill1830
+|player|p2|

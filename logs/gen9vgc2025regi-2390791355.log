@@ -1,0 +1,164 @@
+|j|☆Alexfind
+|j|☆Azemon
+|t:|1750768293
+|gametype|doubles
+|player|p1|Alexfind|265|1338
+|player|p2|Azemon|266|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, F|
+|poke|p1|Rayquaza, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|j| thejigglypuff03
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Alexfind)
+|
+|t:|1750768311
+|start
+|switch|p1a: Stonjourner|Stonjourner, L50, F|100/100
+|switch|p1b: Rayquaza|Rayquaza, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Rayquaza|Air Lock
+|turn|1
+|l| thejigglypuff03
+|
+|t:|1750768327
+|move|p1b: Rayquaza|Protect|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Protect
+|move|p2b: Sneasler|Fake Out|p1b: Rayquaza
+|-activate|p1b: Rayquaza|move: Protect
+|move|p2a: Kyogre|Hydro Pump|p1a: Stonjourner|[miss]
+|-miss|p2a: Kyogre|p1a: Stonjourner
+|move|p1a: Stonjourner|Bulldoze|p2b: Sneasler|[spread] p2a,p2b
+|-activate|p1b: Rayquaza|move: Protect
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Kyogre|85/100
+|-damage|p2b: Sneasler|52/100
+|-unboost|p2a: Kyogre|spe|1
+|-unboost|p2b: Sneasler|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750768350
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1b: Rayquaza|Swords Dance|p1b: Rayquaza
+|-boost|p1b: Rayquaza|atk|2
+|move|p2a: Kyogre|Hydro Pump|p1a: Stonjourner|[miss]
+|-miss|p2a: Kyogre|p1a: Stonjourner
+|move|p1a: Stonjourner|Bulldoze|p2a: Kyogre|[spread] p2a,p2b
+|-immune|p1b: Rayquaza
+|-damage|p2a: Kyogre|70/100
+|-damage|p2b: Farigiraf|89/100
+|-unboost|p2a: Kyogre|spe|1
+|-unboost|p2b: Farigiraf|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750768372
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1b: Rayquaza|Dragon Ascent|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|-unboost|p1b: Rayquaza|def|1
+|-unboost|p1b: Rayquaza|spd|1
+|faint|p2b: Farigiraf
+|move|p1a: Stonjourner|Body Press|p2a: Zacian
+|-damage|p2a: Zacian|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750768387
+|switch|p2b: Sneasler|Sneasler, L50, M|52/100
+|turn|4
+|
+|t:|1750768396
+|move|p1b: Rayquaza|Protect|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Protect
+|move|p2b: Sneasler|Fake Out|p1a: Stonjourner
+|-resisted|p1a: Stonjourner
+|-damage|p1a: Stonjourner|95/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750768402
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|t:|1750768422
+|-terastallize|p2a: Zacian|Fairy
+|move|p1b: Rayquaza|Extreme Speed|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Zacian|Play Rough|p1b: Rayquaza
+|-supereffective|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|move|p1a: Zamazenta|Body Press|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|44/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750768436
+|switch|p2b: Kyogre|Kyogre, L50|70/100
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1b: Ogerpon|Mold Breaker
+|turn|6
+|
+|t:|1750768458
+|-terastallize|p1a: Zamazenta|Water
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Kyogre|Hydro Pump|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Zamazenta
+|-damage|p1a: Zamazenta|68/100
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|-message|Azemon forfeited.
+|
+|win|Alexfind
+|raw|Alexfind's rating: 1338 &rarr; <strong>1363</strong><br />(+25 for winning)
+|raw|Azemon's rating: 1424 &rarr; <strong>1399</strong><br />(-25 for losing)
+|l|☆Azemon
+|player|p2|
+|l|☆Alexfind
+|player|p1|

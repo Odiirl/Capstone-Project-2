@@ -1,0 +1,266 @@
+|j|☆safesxman
+|j|☆fabioso421
+|t:|1750824084
+|gametype|doubles
+|player|p1|safesxman|rancher|1142
+|player|p2|fabioso421|scientist|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fabioso421)
+|
+|t:|1750824099
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750824121
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-terastallize|p2a: Calyrex|Dragon
+|move|p1b: Typhlosion|Eruption|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Kyogre
+|-damage|p2a: Calyrex|90/100
+|-damage|p2b: Kyogre|92/100
+|move|p1a: Rillaboom|U-turn|p2b: Kyogre
+|-damage|p2b: Kyogre|73/100
+|
+|t:|1750824139
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Calyrex|Glacial Lance|p1b: Typhlosion|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-resisted|p1b: Typhlosion
+|-damage|p1a: Zamazenta|91/100
+|-damage|p1b: Typhlosion|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750824159
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Kyogre|Thunder|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|89/100
+|move|p2a: Calyrex|Leech Seed|p1a: Zamazenta|[miss]
+|-miss|p2a: Calyrex|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|97/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|79/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|safesxman has 30 seconds left.
+|
+|t:|1750824187
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|84/100
+|-damage|p1b: Rillaboom|90/100|[from] Recoil
+|move|p2a: Calyrex|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|90/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|69/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|74/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|86/100|[silent]
+|upkeep
+|turn|4
+|inactive|safesxman has 30 seconds left.
+|
+|t:|1750824217
+|move|p2b: Incineroar|Fake Out|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|86/100
+|cant|p1a: Zamazenta|flinch
+|move|p1b: Rillaboom|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|80/100
+|
+|t:|1750824226
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100|[from] U-turn
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Zamazenta|76/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|82/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|86/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|92/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|98/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|70/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|100/100|[silent]
+|upkeep
+|
+|t:|1750824243
+|switch|p1b: Rillaboom|Rillaboom, L50, F|96/100
+|turn|5
+|
+|t:|1750824267
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|none
+|-heal|p1a: Zamazenta|76/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|-damage|p1a: Zamazenta|64/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|
+|t:|1750824282
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|6
+|inactive|safesxman has 30 seconds left.
+|
+|t:|1750824317
+|move|p2a: Calyrex|Protect||[still]
+|-fail|p2a: Calyrex
+|move|p1a: Zamazenta|Body Press|p2b: Indeedee
+|-damage|p2b: Indeedee|34/100
+|move|p1b: Rillaboom|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|t:|1750824326
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|64/100|[from] U-turn
+|
+|-damage|p1a: Zamazenta|52/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|inactive|fabioso421 has 30 seconds left.
+|
+|t:|1750824351
+|switch|p2b: Kyogre|Kyogre, L50|79/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|7
+|inactive|safesxman has 30 seconds left.
+|
+|t:|1750824377
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Kyogre|Ice Beam|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|41/100
+|-status|p1a: Zamazenta|frz
+|move|p2a: Calyrex|Glacial Lance|p1b: Rillaboom|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Rillaboom|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|47/100 frz|[from] Grassy Terrain
+|-heal|p2b: Kyogre|85/100|[from] Grassy Terrain
+|-damage|p1a: Zamazenta|35/100 frz|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|8
+|inactive|safesxman has 30 seconds left.
+|
+|t:|1750824403
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|-curestatus|p1a: Zamazenta|frz|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Zamazenta|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Zamazenta|20/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|26/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|90/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|69/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|74/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|14/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|86/100|[silent]
+|upkeep
+|
+|t:|1750824409
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|64/100
+|turn|9
+|
+|t:|1750824426
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p1b: Typhlosion|Eruption|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Kyogre
+|-damage|p2a: Calyrex|80/100
+|-damage|p2b: Kyogre|85/100
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100
+|move|p2b: Kyogre|Water Spout|p1a: Zamazenta|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-supereffective|p1b: Typhlosion
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Typhlosion|0 fnt
+|faint|p1a: Zamazenta
+|faint|p1b: Typhlosion
+|
+|win|fabioso421
+|raw|safesxman's rating: 1142 &rarr; <strong>1119</strong><br />(-23 for losing)
+|raw|fabioso421's rating: 1164 &rarr; <strong>1187</strong><br />(+23 for winning)
+|l|☆safesxman
+|player|p1|
+|l|☆fabioso421
+|player|p2|

@@ -1,0 +1,194 @@
+|j|☆sturbyy
+|j|☆Jack Adamstim
+|t:|1750834631
+|gametype|doubles
+|player|p1|sturbyy|265|1583
+|player|p2|Jack Adamstim|wallace|1650
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750834678
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750834700
+|-terastallize|p1a: Urshifu|Water
+|move|p1a: Urshifu|Surging Strikes|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|23/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-hitcount|p2: Calyrex|3
+|move|p2b: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|53/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|86/100
+|
+|-heal|p1b: Calyrex|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750834713
+|switch|p2a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|2
+|
+|t:|1750834726
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Urshifu|Surging Strikes|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|68/100
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|50/100
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|33/100
+|-hitcount|p2b: Zamazenta|3
+|move|p2a: Rillaboom|Wood Hammer|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-damage|p2a: Rillaboom|72/100|[from] Recoil
+|
+|-heal|p2b: Zamazenta|40/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|78/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750834740
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750834751
+|move|p2b: Zamazenta|Protect||[still]
+|-fail|p2b: Zamazenta
+|move|p1a: Miraidon|Volt Switch|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|t:|1750834758
+|switch|p1a: Calyrex|Calyrex-Ice, L50|58/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Rillaboom|U-turn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|73/100
+|
+|t:|1750834765
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1b: Farigiraf|Psychic|p2a: Incineroar
+|-immune|p2a: Incineroar
+|
+|-heal|p1a: Calyrex|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750834773
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|78/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|4
+|
+|t:|1750834787
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Rillaboom|Wood Hammer|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Rillaboom
+|-damage|p2b: Rillaboom|48/100
+|
+|-heal|p2b: Rillaboom|53/100|[from] Grassy Terrain
+|-heal|p1b: Farigiraf|79/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|70/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750834810
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|32/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Rillaboom|Wood Hammer|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Rillaboom|43/100|[from] Recoil
+|move|p1b: Farigiraf|Psychic|p2b: Rillaboom
+|-damage|p2b: Rillaboom|13/100
+|
+|-heal|p2b: Rillaboom|19/100|[from] Grassy Terrain
+|-heal|p1b: Farigiraf|85/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750834817
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750834831
+|-terastallize|p2a: Incineroar|Grass
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|40/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Incineroar|Knock Off|p1a: Miraidon
+|-damage|p1a: Miraidon|67/100
+|-enditem|p1a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1750834842
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Incineroar
+|-damage|p2a: Incineroar|5/100
+|move|p2a: Incineroar|Knock Off|p1a: Miraidon
+|-damage|p1a: Miraidon|45/100
+|move|p1b: Farigiraf|Psychic|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|sturbyy
+|raw|sturbyy's rating: 1583 &rarr; <strong>1607</strong><br />(+24 for winning)
+|raw|Jack Adamstim's rating: 1650 &rarr; <strong>1626</strong><br />(-24 for losing)
+|l|☆Jack Adamstim
+|player|p2|

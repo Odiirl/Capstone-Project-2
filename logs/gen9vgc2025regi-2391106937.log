@@ -1,0 +1,197 @@
+|j|‽bominfooood
+|j|☆turtmcskirt
+|t:|1750803311
+|gametype|doubles
+|player|p1|bominfooood|170|1051
+|player|p2|turtmcskirt|101|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Haxorus, L50, F|
+|poke|p2|Iron Moth, L50|
+|poke|p2|Polteageist, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Zekrom, L50|
+|teampreview|4
+|
+|t:|1750803334
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Polteageist|Polteageist, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750803353
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-start|p1b: Flutter Mane|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Polteageist
+|move|p1a: Koraidon|Flare Blitz|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|8/100
+|-damage|p1a: Koraidon|70/100|[from] Recoil
+|-damage|p1a: Koraidon|60/100|[from] item: Life Orb
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|37/100
+|-damage|p1b: Flutter Mane|54/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750803389
+|move|p1b: Flutter Mane|Icy Wind|p2a: Polteageist|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Polteageist|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Polteageist
+|faint|p2b: Miraidon
+|move|p1a: Koraidon|Flame Charge|p2: Polteageist|[notarget]
+|-fail|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803392
+|switch|p2b: Iron Moth|Iron Moth, L50|100/100
+|switch|p2a: Haxorus|Haxorus, L50, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|-activate|p2b: Iron Moth|ability: Quark Drive
+|-start|p2b: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1750803414
+|-terastallize|p2a: Haxorus|Bug
+|move|p2a: Haxorus|First Impression|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Flutter Mane|Icy Wind|p2b: Iron Moth|[spread] p2a,p2b
+|-resisted|p2b: Iron Moth
+|-damage|p2a: Haxorus|81/100
+|-damage|p2b: Iron Moth|93/100
+|-unboost|p2a: Haxorus|spe|1
+|-unboost|p2b: Iron Moth|spe|1
+|move|p2b: Iron Moth|Fiery Dance|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|-boost|p2b: Iron Moth|spa|1
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803421
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Haxorus|atk|1
+|-unboost|p2b: Iron Moth|atk|1
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|4
+|
+|t:|1750803434
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2a: Haxorus|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Haxorus
+|move|p1a: Scream Tail|Perish Song|p1a: Scream Tail
+|-start|p1a: Scream Tail|perish3|[silent]
+|-start|p1b: Incineroar|perish3|[silent]
+|-start|p2a: Haxorus|perish3|[silent]
+|-start|p2b: Iron Moth|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Iron Moth|Fiery Dance|p1a: Scream Tail
+|-damage|p1a: Scream Tail|6/100
+|-boost|p2b: Iron Moth|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Scream Tail|perish3
+|-start|p2b: Iron Moth|perish3
+|-start|p2a: Haxorus|perish3
+|-start|p1b: Incineroar|perish3
+|upkeep
+|turn|5
+|
+|t:|1750803469
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Haxorus|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Haxorus
+|move|p2b: Iron Moth|Fiery Dance|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|37/100
+|-boost|p2b: Iron Moth|spa|1
+|move|p1b: Incineroar|Parting Shot|p2b: Iron Moth
+|-unboost|p2b: Iron Moth|atk|1
+|-unboost|p2b: Iron Moth|spa|1
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|-start|p1a: Scream Tail|perish2
+|-start|p2b: Iron Moth|perish2
+|-start|p2a: Haxorus|perish2
+|-start|p1b: Incineroar|perish2
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Moth|Quark Drive
+|upkeep
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|6
+|
+|t:|1750803494
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2a: Haxorus|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p2a: Haxorus
+|move|p1a: Scream Tail|Disable|p2b: Iron Moth
+|-start|p2b: Iron Moth|Disable|Fiery Dance
+|cant|p2b: Iron Moth|Disable|Fiery Dance
+|
+|-start|p1a: Scream Tail|perish1
+|-start|p2b: Iron Moth|perish1
+|-start|p2a: Haxorus|perish1
+|-start|p1b: Incineroar|perish1
+|upkeep
+|turn|7
+|-message|turtmcskirt forfeited.
+|
+|win|bominfooood
+|raw|bominfooood's rating: 1051 &rarr; <strong>1084</strong><br />(+33 for winning)
+|raw|turtmcskirt's rating: 1057 &rarr; <strong>1038</strong><br />(-19 for losing)
+|l|☆turtmcskirt
+|player|p2|
+|l|‽bominfooood
+|player|p1|

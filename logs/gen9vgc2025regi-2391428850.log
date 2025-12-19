@@ -1,0 +1,170 @@
+|j|☆omempoderoso
+|j|☆Strin
+|t:|1750854819
+|gametype|doubles
+|player|p1|omempoderoso|102|1293
+|player|p2|Strin|266|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Poliwhirl, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by omempoderoso)
+|inactive|Strin also wants the timer to be on.
+|
+|t:|1750854855
+|start
+|switch|p1a: Dr Eggman|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Dr Eggman
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|turn|1
+|
+|t:|1750854865
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Strin|move: Tailwind
+|move|p1b: Iron Bundle|Icy Wind|p2b: Kyogre|[spread] p2a
+|-activate|p2b: Kyogre|move: Protect
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|49/100
+|-unboost|p2a: Tornadus|spe|1
+|move|p1a: Dr Eggman|Electro Drift|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750854888
+|switch|p2b: Poliwhirl|Poliwhirl, L50, F|100/100
+|move|p1b: Iron Bundle|Icy Wind|p2b: Poliwhirl|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-resisted|p2b: Poliwhirl
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Poliwhirl|76/100
+|-unboost|p2b: Poliwhirl|spe|1
+|faint|p2a: Tornadus
+|move|p1a: Dr Eggman|Electro Drift|p2b: Poliwhirl
+|-supereffective|p2b: Poliwhirl
+|-damage|p2b: Poliwhirl|0 fnt
+|faint|p2b: Poliwhirl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750854895
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|3
+|
+|t:|1750854918
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Kyogre|Water
+|move|p1b: Iron Bundle|Protect|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Protect
+|move|p2b: Zacian|Play Rough|p1a: Torkoal|[miss]
+|-miss|p2b: Zacian|p1a: Torkoal
+|move|p2a: Kyogre|Water Spout|p1b: Iron Bundle|[spread] p1a
+|-activate|p1b: Iron Bundle|move: Protect
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Kyogre|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750854934
+|switch|p1a: Dr Eggman|Miraidon, L50|100/100
+|-activate|p1a: Dr Eggman|ability: Hadron Engine
+|turn|4
+|
+|t:|1750854955
+|-terastallize|p1a: Dr Eggman|Fairy
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Zacian|Behemoth Blade|p1a: Dr Eggman
+|-supereffective|p1a: Dr Eggman
+|-damage|p1a: Dr Eggman|0 fnt
+|faint|p1a: Dr Eggman
+|move|p1b: Iron Bundle|Icy Wind|p2b: Zacian|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|92/100
+|-unboost|p2b: Zacian|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Strin|move: Tailwind
+|upkeep
+|
+|t:|1750854959
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750854972
+|move|p1b: Iron Bundle|Freeze-Dry|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|36/100
+|move|p2a: Kyogre|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Iron Bundle
+|-damage|p1a: Calyrex|86/100
+|-damage|p1b: Iron Bundle|83/100
+|-damage|p2a: Kyogre|27/100|[from] item: Life Orb
+|move|p2b: Zacian|Behemoth Blade|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Bundle|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750854989
+|move|p1b: Iron Bundle|Icy Wind|p2b: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Zacian
+|-damage|p2a: Kyogre|19/100
+|-damage|p2b: Zacian|84/100
+|-unboost|p2a: Kyogre|spe|1
+|-unboost|p2b: Zacian|spe|1
+|move|p2b: Zacian|Behemoth Blade|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|
+|win|Strin
+|raw|omempoderoso's rating: 1293 &rarr; <strong>1268</strong><br />(-25 for losing)
+|raw|Strin's rating: 1288 &rarr; <strong>1313</strong><br />(+25 for winning)
+|l|☆omempoderoso
+|player|p1|
+|l|☆Strin
+|player|p2|

@@ -1,0 +1,197 @@
+|j|☆Auragami
+|j|☆Honored1
+|t:|1750827416
+|gametype|doubles
+|player|p1|Auragami|burglar|
+|player|p2|Honored1|silver|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Gouging Fire, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750827430
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|switch|p1b: Milotic|Milotic, L50, F, shiny|100/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1750827462
+|-terastallize|p1b: Milotic|Grass
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Auragami|move: Aurora Veil
+|move|p2b: Volcarona|Will-O-Wisp|p1a: Ninetales
+|-status|p1a: Ninetales|brn
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Milotic
+|-resisted|p1b: Milotic
+|-damage|p1b: Milotic|88/100
+|-damage|p2a: Raging Bolt|91/100|[from] item: Life Orb
+|move|p1b: Milotic|Coil|p1b: Milotic
+|-boost|p1b: Milotic|atk|1
+|-boost|p1b: Milotic|def|1
+|-boost|p1b: Milotic|accuracy|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Milotic|94/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750827505
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Ninetales|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|28/100
+|move|p2b: Volcarona|Heat Wave|p1b: Milotic|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-supereffective|p1b: Milotic
+|-damage|p1a: Ninetales|40/100 brn
+|-damage|p1b: Milotic|67/100
+|-status|p1b: Milotic|brn
+|move|p1b: Milotic|Hypnosis|p2b: Volcarona|[miss]
+|-miss|p1b: Milotic|p2b: Volcarona
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Milotic|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|34/100 brn|[from] brn
+|-damage|p1b: Milotic|67/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750827528
+|move|p1a: Ninetales|Blizzard|p2a: Raging Bolt|[spread] p2a,p2b
+|-supereffective|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-resisted|p2b: Volcarona
+|-damage|p2a: Raging Bolt|0 fnt
+|-damage|p2b: Volcarona|86/100
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: Honored1|move: Tailwind
+|move|p1b: Milotic|Coil|p1b: Milotic
+|-boost|p1b: Milotic|atk|1
+|-boost|p1b: Milotic|def|1
+|-boost|p1b: Milotic|accuracy|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Milotic|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Ninetales|28/100 brn|[from] brn
+|-damage|p1b: Milotic|67/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827544
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|turn|4
+|
+|t:|1750827567
+|move|p2a: Urshifu|Wicked Blow|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|move|p2b: Volcarona|Heat Wave|p1b: Milotic
+|-supereffective|p1b: Milotic
+|-damage|p1b: Milotic|34/100 brn
+|move|p1b: Milotic|Hypnosis|p2a: Urshifu
+|-status|p2a: Urshifu|slp|[from] move: Hypnosis
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Milotic|40/100 brn|[from] item: Leftovers
+|-damage|p1b: Milotic|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827582
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1750827607
+|-terastallize|p2b: Volcarona|Water
+|cant|p2a: Urshifu|slp
+|move|p2b: Volcarona|Will-O-Wisp|p1a: Ursaluna
+|-status|p1a: Ursaluna|brn
+|move|p1b: Milotic|Scald|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|74/100
+|move|p1a: Ursaluna|Hyper Voice|p2b: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Urshifu|21/100 slp
+|-damage|p2b: Volcarona|31/100
+|-damage|p1a: Ursaluna|90/100 brn|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1b: Milotic|40/100 brn|[from] item: Leftovers
+|-damage|p1b: Milotic|34/100 brn|[from] brn
+|-damage|p1a: Ursaluna|85/100 brn|[from] brn
+|-sideend|p1: Auragami|move: Aurora Veil
+|upkeep
+|turn|6
+|
+|t:|1750827636
+|switch|p2a: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p2b: Volcarona|Heat Wave|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Milotic
+|-damage|p1a: Ursaluna|30/100 brn
+|-damage|p1b: Milotic|0 fnt
+|faint|p1b: Milotic
+|move|p1a: Ursaluna|Hyper Voice|p2b: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Groudon|70/100
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|-damage|p1a: Ursaluna|20/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|-sideend|p2: Honored1|move: Tailwind
+|upkeep
+|
+|t:|1750827653
+|switch|p2b: Urshifu|Urshifu, L50, M|21/100 slp
+|switch|p1b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p1b: Kyurem|Turboblaze
+|turn|7
+|
+|t:|1750827673
+|-curestatus|p2b: Urshifu|slp|[msg]
+|move|p2b: Urshifu|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p2a: Groudon|Heat Crash|p1b: Kyurem
+|-damage|p1b: Kyurem|72/100
+|move|p1b: Kyurem|Freeze-Dry|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750827693
+|move|p2b: Urshifu|Sucker Punch|p1b: Kyurem
+|-damage|p1b: Kyurem|17/100
+|move|p2a: Groudon|Precipice Blades|p1b: Kyurem
+|-damage|p1b: Kyurem|0 fnt
+|faint|p1b: Kyurem
+|
+|win|Honored1
+|l|☆Auragami
+|player|p1|

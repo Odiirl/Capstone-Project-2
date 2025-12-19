@@ -1,0 +1,230 @@
+|j|☆lazyp
+|j|☆vloggers
+|t:|1750830353
+|gametype|doubles
+|player|p1|lazyp|caitlin|1138
+|player|p2|vloggers|ghetsis|1247
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Shiftry, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Breloom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750830389
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Breloom|Breloom, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Moltres|Moltres-Galar, L50, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750830406
+|move|p1b: Breloom|Protect|p1b: Breloom
+|-singleturn|p1b: Breloom|Protect
+|move|p2a: Rillaboom|Fake Out|p1b: Breloom
+|-activate|p1b: Breloom|move: Protect
+|move|p1a: Lunala|Tailwind|p1a: Lunala
+|-sidestart|p1: lazyp|move: Tailwind
+|move|p2b: Moltres|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1750830426
+|move|p1b: Breloom|Spore|p2b: Moltres
+|-status|p2b: Moltres|slp|[from] move: Spore
+|move|p1a: Lunala|Moongeist Beam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|67/100
+|cant|p2b: Moltres|slp
+|move|p2a: Rillaboom|Wood Hammer|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|58/100
+|-damage|p2a: Rillaboom|52/100|[from] Recoil
+|
+|-heal|p1a: Lunala|64/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|58/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vloggers)
+|
+|t:|1750830456
+|move|p1b: Breloom|Mach Punch|p2b: Moltres
+|-damage|p2b: Moltres|65/100 slp
+|move|p1a: Lunala|Moonblast|p2b: Moltres
+|-supereffective|p2b: Moltres
+|-damage|p2b: Moltres|9/100 slp
+|-ability|p2b: Moltres|Berserk|boost
+|-boost|p2b: Moltres|spa|1
+|-curestatus|p2b: Moltres|slp|[msg]
+|move|p2b: Moltres|Tailwind|p2b: Moltres
+|-sidestart|p2: vloggers|move: Tailwind
+|move|p2a: Rillaboom|Wood Hammer|p1a: Lunala
+|-damage|p1a: Lunala|9/100
+|-damage|p2a: Rillaboom|39/100|[from] Recoil
+|
+|-heal|p1a: Lunala|16/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|45/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750830475
+|move|p2b: Moltres|Protect|p2b: Moltres
+|-singleturn|p2b: Moltres|Protect
+|move|p1b: Breloom|Mach Punch|p2b: Moltres
+|-activate|p2b: Moltres|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Lunala|22/100|[from] Grassy Terrain
+|-end|p1a: Lunala|move: Taunt
+|-sideend|p1: lazyp|move: Tailwind
+|upkeep
+|
+|t:|1750830479
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750830504
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Breloom|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-enditem|p1b: Breloom|Focus Sash
+|-damage|p1b: Breloom|1/100
+|move|p2b: Moltres|Fiery Wrath|p1a: Lunala|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-resisted|p1b: Breloom
+|-damage|p1b: Breloom|0 fnt
+|faint|p1b: Breloom
+|
+|-heal|p1a: Lunala|28/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750830523
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|turn|6
+|
+|t:|1750830541
+|move|p1b: Iron Valiant|Wide Guard|p1b: Iron Valiant
+|-singleturn|p1b: Iron Valiant|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1b: Iron Valiant|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Iron Valiant|move: Wide Guard
+|move|p2b: Moltres|Fiery Wrath|p1b: Iron Valiant|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Iron Valiant|move: Wide Guard
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|
+|-sideend|p2: vloggers|move: Tailwind
+|upkeep
+|turn|7
+|inactive|lazyp has 30 seconds left.
+|
+|t:|1750830568
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Lunala|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-damage|p1b: Iron Valiant|36/100
+|move|p1b: Iron Valiant|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Moltres|Tailwind|p2b: Moltres
+|-sidestart|p2: vloggers|move: Tailwind
+|
+|upkeep
+|
+|t:|1750830571
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|inactive|lazyp has 30 seconds left.
+|
+|t:|1750830598
+|move|p2a: Zamazenta|Body Press|p1b: Iron Valiant
+|-resisted|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p2b: Moltres|Fiery Wrath|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|upkeep
+|
+|t:|1750830606
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750830615
+|-terastallize|p1a: Calyrex|Grass
+|move|p2a: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|59/100
+|move|p2b: Moltres|Taunt|p1a: Calyrex
+|-start|p1a: Calyrex|move: Taunt
+|move|p1a: Calyrex|Body Press|p2b: Moltres
+|-damage|p2b: Moltres|0 fnt
+|faint|p2b: Moltres
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|turn|10
+|inactive|vloggers has 30 seconds left.
+|inactive|vloggers has 20 seconds left.
+|
+|t:|1750830650
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Calyrex
+|-damage|p1a: Calyrex|35/100
+|move|p1a: Calyrex|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|78/100
+|
+|-sideend|p2: vloggers|move: Tailwind
+|upkeep
+|turn|11
+|
+|t:|1750830660
+|move|p2a: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|vloggers
+|raw|lazyp's rating: 1138 &rarr; <strong>1121</strong><br />(-17 for losing)
+|raw|vloggers's rating: 1247 &rarr; <strong>1264</strong><br />(+17 for winning)
+|c|☆lazyp|Gg
+|c|☆vloggers|GG
+|l|☆lazyp
+|player|p1|
+|l|☆vloggers
+|player|p2|

@@ -1,0 +1,139 @@
+|j|☆Diabetic-Dave
+|j|☆zachcold3333
+|t:|1750878481
+|gametype|doubles
+|player|p1|Diabetic-Dave|hiker-gen4|1432
+|player|p2|zachcold3333|harlequin|1533
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Slither Wing, L50|
+|teampreview|4
+|
+|t:|1750878494
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Slither Wing|Slither Wing, L50|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750878553
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-end|p2b: Slither Wing|Protosynthesis|[silent]
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Flutter Mane|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Calyrex
+|-damage|p1a: Calyrex|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750878580
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Raging Bolt|Thunderclap|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Flutter Mane|Icy Wind|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Raging Bolt
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Raging Bolt|80/100
+|-damage|p2b: Koraidon|71/100
+|-unboost|p2a: Raging Bolt|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750878601
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|
+|t:|1750878611
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Diabetic-Dave|move: Tailwind
+|move|p1b: Flutter Mane|Dazzling Gleam|p2b: Koraidon|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Raging Bolt|59/100
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750878627
+|move|p2a: Raging Bolt|Thunderclap|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Raging Bolt|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Raging Bolt|33/100
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750878641
+|switch|p2b: Slither Wing|Slither Wing, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-end|p2a: Raging Bolt|Protosynthesis
+|turn|5
+|
+|t:|1750878650
+|-terastallize|p1b: Kyogre|Ground
+|move|p2b: Slither Wing|First Impression|p1b: Kyogre
+|-damage|p1b: Kyogre|19/100
+|move|p2a: Raging Bolt|Thunderclap|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p1b: Kyogre|Water Spout|p2b: Slither Wing|[spread] p2a,p2b
+|-damage|p2a: Raging Bolt|19/100
+|-damage|p2b: Slither Wing|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|-message|Diabetic-Dave forfeited.
+|
+|win|zachcold3333
+|raw|Diabetic-Dave's rating: 1432 &rarr; <strong>1418</strong><br />(-14 for losing)
+|raw|zachcold3333's rating: 1533 &rarr; <strong>1547</strong><br />(+14 for winning)
+|l|☆Diabetic-Dave
+|player|p1|
+|l|☆zachcold3333
+|player|p2|

@@ -1,0 +1,140 @@
+|j|☆Op10-5
+|j|☆pikachu passeios
+|t:|1750816988
+|gametype|doubles
+|player|p1|Op10-5|2|1538
+|player|p2|pikachu passeios|collector|1656
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Weezing, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|j| HolyMane
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pikachu passeios)
+|
+|t:|1750817052
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|switch|p2b: Weezing|Weezing, L50, F|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-block|p2a: Murkrow|item: Ability Shield
+|turn|1
+|
+|t:|1750817077
+|move|p2a: Murkrow|Protect|p2a: Murkrow
+|-singleturn|p2a: Murkrow|Protect
+|move|p2b: Weezing|Protect|p2b: Weezing
+|-singleturn|p2b: Weezing|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Murkrow
+|-activate|p2a: Murkrow|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2b: Weezing
+|-activate|p2b: Weezing|move: Protect
+|
+|upkeep
+|turn|2
+|j| stage4LC
+|inactive|pikachu passeios has 30 seconds left.
+|
+|t:|1750817111
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: pikachu passeios|move: Tailwind
+|move|p2b: Weezing|Explosion|p1b: Incineroar|[spread] p2a,p1b
+|-immune|p1a: Lunala
+|-damage|p2a: Murkrow|0 fnt
+|-damage|p1b: Incineroar|36/100
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|faint|p2a: Murkrow
+|move|p1a: Lunala|Moongeist Beam|p2: Murkrow|[notarget]
+|-fail|p1a: Lunala
+|move|p1b: Incineroar|Flare Blitz|p2: Murkrow|[notarget]
+|-fail|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750817114
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750817135
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p2b: Smeargle|Decorate|p2a: Terapagos
+|-boost|p2a: Terapagos|atk|2
+|-boost|p2a: Terapagos|spa|2
+|move|p2a: Terapagos|Tera Starstorm|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|57/100
+|-damage|p1b: Miraidon|8/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|4
+|inactive|Op10-5 has 30 seconds left.
+|
+|t:|1750817165
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Smeargle|Feint|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Feint
+|-damage|p1b: Miraidon|4/100
+|move|p1b: Miraidon|Volt Switch|p2a: Terapagos
+|-damage|p2a: Terapagos|67/100
+|
+|t:|1750817178
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2a: Terapagos|Tera Starstorm|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1a: Lunala
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1750817191
+|switch|p1b: Incineroar|Incineroar, L50, M|36/100
+|switch|p1a: Miraidon|Miraidon, L50|4/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Smeargle|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|-message|Op10-5 forfeited.
+|
+|win|pikachu passeios
+|raw|Op10-5's rating: 1538 &rarr; <strong>1525</strong><br />(-13 for losing)
+|raw|pikachu passeios's rating: 1656 &rarr; <strong>1669</strong><br />(+13 for winning)
+|l|☆Op10-5
+|player|p1|
+|l|☆pikachu passeios
+|player|p2|
+|l| HolyMane

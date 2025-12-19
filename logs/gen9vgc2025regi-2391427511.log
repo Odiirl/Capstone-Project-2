@@ -1,0 +1,199 @@
+|j|☆3771m
+|j|☆blazerk020698
+|t:|1750854621
+|gametype|doubles
+|player|p1|3771m|lucas|1201
+|player|p2|blazerk020698|benga|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rhyperior, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by blazerk020698)
+|
+|t:|1750854639
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750854653
+|move|p1a: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|91/100
+|move|p2b: Rillaboom|U-turn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|68/100
+|
+|t:|1750854659
+|switch|p2b: Rhyperior|Rhyperior, L50, F|100/100|[from] U-turn
+|cant|p2a: Kyogre|flinch
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|74/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750854677
+|move|p2b: Rhyperior|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|11/100
+|-enditem|p1a: Incineroar|Eject Button
+|
+|t:|1750854681
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Farigiraf|Light Screen|p1b: Farigiraf
+|-sidestart|p1: 3771m|move: Light Screen
+|move|p2a: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a
+|-miss|p2a: Kyogre|p1b: Farigiraf
+|-damage|p1a: Calyrex|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|74/100|[from] Grassy Terrain
+|-heal|p1b: Farigiraf|80/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750854700
+|move|p1a: Calyrex|Glacial Lance|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-supereffective|p2b: Rhyperior
+|-damage|p2a: Kyogre|79/100
+|-damage|p2b: Rhyperior|48/100
+|move|p2b: Rhyperior|Rock Slide|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|50/100
+|-damage|p1b: Farigiraf|51/100
+|cant|p1b: Farigiraf|flinch
+|move|p2a: Kyogre|Origin Pulse|p1b: Farigiraf|[spread] p1a
+|-miss|p2a: Kyogre|p1b: Farigiraf
+|-damage|p1a: Calyrex|16/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|21/100|[from] Grassy Terrain
+|-heal|p2b: Rhyperior|54/100|[from] Grassy Terrain
+|-heal|p1b: Farigiraf|57/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|85/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750854721
+|switch|p1b: Incineroar|Incineroar, L50, F|11/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Rhyperior|atk|1
+|move|p2b: Rhyperior|Protect|p2b: Rhyperior
+|-singleturn|p2b: Rhyperior|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Rhyperior|[spread] p2a
+|-activate|p2b: Rhyperior|move: Protect
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|51/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rhyperior|60/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750854738
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|57/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750854763
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Rhyperior|High Horsepower|p1a: Miraidon
+|-damage|p1a: Miraidon|71/100
+|move|p1b: Farigiraf|Reflect|p1b: Farigiraf
+|-sidestart|p1: 3771m|Reflect
+|move|p2a: Kyogre|Ice Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|48/100
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|29/100
+|-damage|p2b: Rhyperior|4/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|blazerk020698 has 30 seconds left.
+|
+|t:|1750854795
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|1/100
+|-damage|p2b: Rhyperior|0 fnt
+|faint|p2b: Rhyperior
+|move|p2a: Kyogre|Thunder|p1b: Farigiraf
+|-damage|p1b: Farigiraf|29/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-sideend|p1: 3771m|move: Light Screen
+|upkeep
+|
+|t:|1750854804
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|7
+|
+|t:|1750854815
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Farigiraf|Hyper Voice|p2a: Kyogre|[spread] 
+|-activate|p2a: Kyogre|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Kyogre|Origin Pulse|p1a: Miraidon|[spread] p1b
+|-miss|p2a: Kyogre|p1a: Miraidon
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Kyogre|[spread] 
+|-activate|p2a: Kyogre|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|upkeep
+|turn|8
+|-message|3771m forfeited.
+|
+|win|blazerk020698
+|raw|3771m's rating: 1201 &rarr; <strong>1179</strong><br />(-22 for losing)
+|raw|blazerk020698's rating: 1245 &rarr; <strong>1267</strong><br />(+22 for winning)
+|l|☆blazerk020698
+|player|p2|
+|l|☆3771m
+|player|p1|

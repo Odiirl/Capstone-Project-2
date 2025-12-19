@@ -1,0 +1,152 @@
+|j|☆comrade5
+|j|☆johnkharkiv
+|t:|1750720833
+|gametype|doubles
+|player|p1|comrade5|2|1386
+|player|p2|johnkharkiv|swimmerf-gen4dp|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Passimian, L50, F|
+|teampreview|4
+|
+|t:|1750720855
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Passimian|Passimian, L50, F, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Passimian|atk|1
+|-ability|p2b: Passimian|Defiant|boost
+|-boost|p2b: Passimian|atk|2
+|-enditem|p2a: Miraidon|White Herb
+|-clearnegativeboost|p2a: Miraidon|[silent]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by johnkharkiv)
+|inactive|comrade5 has 60 seconds left.
+|
+|t:|1750720907
+|-terastallize|p1a: Incineroar|Ghost
+|move|p2b: Passimian|Upper Hand||[still]
+|-fail|p2b: Passimian
+|move|p2a: Miraidon|Volt Switch|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|t:|1750720917
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|32/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|
+|t:|1750720932
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750720948
+|-terastallize|p2b: Passimian|Dark
+|move|p1b: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-resisted|p2b: Passimian
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Passimian|73/100
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Passimian|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-enditem|p1b: Calyrex|Life Orb|[from] move: Knock Off|[of] p2b: Passimian
+|faint|p1b: Calyrex
+|move|p1a: Incineroar|Flare Blitz|p2b: Passimian
+|-damage|p2b: Passimian|0 fnt
+|faint|p2b: Passimian
+|-damage|p1a: Incineroar|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750720969
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1750720986
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Zamazenta|Body Press|p2b: Torkoal
+|-damage|p2b: Torkoal|42/100
+|-enditem|p2b: Torkoal|Sitrus Berry|[eat]
+|-heal|p2b: Torkoal|67/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Knock Off|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Torkoal|Flamethrower|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750721008
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Miraidon|Volt Switch|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|42/100
+|move|p2b: Torkoal|Flamethrower|p1a: Incineroar
+|-damage|p1a: Incineroar|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750721030
+|move|p2a: Miraidon|Volt Switch|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Incineroar|Flare Blitz|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|49/100
+|-damage|p1a: Incineroar|6/100|[from] Recoil
+|move|p2b: Torkoal|Flamethrower|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|win|johnkharkiv
+|raw|comrade5's rating: 1386 &rarr; <strong>1369</strong><br />(-17 for losing)
+|raw|johnkharkiv's rating: 1439 &rarr; <strong>1456</strong><br />(+17 for winning)

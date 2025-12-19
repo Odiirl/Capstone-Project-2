@@ -1,0 +1,174 @@
+|j|☆W3S05
+|j|☆IPlayUmbreon
+|t:|1750771749
+|gametype|doubles
+|player|p1|W3S05|170|1397
+|player|p2|IPlayUmbreon|169|1473
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by W3S05)
+|
+|t:|1750771787
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750771802
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-activate|p2b: Ogerpon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750771825
+|-terastallize|p2a: Calyrex|Dark
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Koraidon|Flare Blitz|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|-damage|p1b: Koraidon|71/100|[from] Recoil
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Calyrex|Astral Barrage|p1b: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Koraidon|15/100
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750771846
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Raging Bolt|atk|1
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1750771855
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|92/100
+|move|p1b: Koraidon|Flare Blitz|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|cant|p2b: Raging Bolt|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750771873
+|move|p2b: Raging Bolt|Thunderclap|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2a: Calyrex|Astral Barrage|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|65/100
+|move|p1a: Incineroar|Parting Shot|p2b: Raging Bolt
+|-unboost|p2b: Raging Bolt|atk|1
+|-unboost|p2b: Raging Bolt|spa|1
+|
+|t:|1750771879
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100|[from] Parting Shot
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750771882
+|switch|p1b: Incineroar|Incineroar, L50, M|65/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Raging Bolt|atk|1
+|turn|5
+|
+|t:|1750771900
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p1a: Scream Tail|Disable|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1750771916
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Scream Tail|[spread] p1b
+|-activate|p1a: Scream Tail|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|37/100
+|move|p2b: Koraidon|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Incineroar
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|-message|W3S05 forfeited.
+|
+|win|IPlayUmbreon
+|raw|W3S05's rating: 1397 &rarr; <strong>1381</strong><br />(-16 for losing)
+|raw|IPlayUmbreon's rating: 1473 &rarr; <strong>1489</strong><br />(+16 for winning)
+|l|☆W3S05
+|player|p1|
+|l|☆IPlayUmbreon
+|player|p2|

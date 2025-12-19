@@ -1,0 +1,180 @@
+|j|☆testy accounty 2
+|j|☆Iamsliverfish
+|t:|1750854482
+|gametype|doubles
+|player|p1|testy accounty 2|101|1692
+|player|p2|Iamsliverfish|silver-masters|1828
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750854508
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: cattile|Chien-Pao, L50|100/100
+|switch|p2b: Dogtile|Zamazenta-Crowned, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p2a: cattile|Sword of Ruin
+|-ability|p2b: Dogtile|Dauntless Shield|boost
+|-boost|p2b: Dogtile|def|1
+|turn|1
+|
+|t:|1750854527
+|-terastallize|p2b: Dogtile|Grass
+|move|p1a: Miraidon|Volt Switch|p2a: cattile
+|-enditem|p2a: cattile|Focus Sash
+|-damage|p2a: cattile|1/100
+|
+|t:|1750854535
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|move|p2a: cattile|Ruination|p1b: Farigiraf
+|-damage|p1b: Farigiraf|50/100
+|move|p2b: Dogtile|Body Press|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1750854547
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750854563
+|move|p2a: cattile|Protect|p2a: cattile
+|-singleturn|p2a: cattile|Protect
+|move|p2b: Dogtile|Protect|p2b: Dogtile
+|-singleturn|p2b: Dogtile|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: cattile
+|-activate|p2a: cattile|move: Protect
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750854585
+|switch|p2a: duckhair|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: duckhair
+|move|p1b: Miraidon|Volt Switch|p2a: duckhair
+|-resisted|p2a: duckhair
+|-damage|p2a: duckhair|86/100
+|
+|t:|1750854592
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2b: Dogtile|Body Press|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|6/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Dogtile
+|-damage|p2b: Dogtile|36/100
+|
+|-heal|p2b: Dogtile|42/100|[from] Grassy Terrain
+|-heal|p2a: duckhair|92/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|12/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750854621
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Dogtile|Heavy Slam|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p2a: duckhair|Wood Hammer|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p1b: Ursaluna|Facade|p2a: duckhair
+|-damage|p2a: duckhair|0 fnt
+|faint|p2a: duckhair
+|
+|-heal|p2b: Dogtile|49/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|18/100 brn|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1750854656
+|switch|p2a: cattile|Chien-Pao, L50|1/100
+|-ability|p2a: cattile|Sword of Ruin
+|turn|5
+|
+|t:|1750854683
+|move|p2b: Dogtile|Protect|p2b: Dogtile
+|-singleturn|p2b: Dogtile|Protect
+|move|p2a: cattile|Icicle Crash|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Lunala|Moongeist Beam|p2b: Dogtile
+|-activate|p2b: Dogtile|move: Protect
+|
+|-heal|p2a: cattile|7/100|[from] Grassy Terrain
+|-heal|p2b: Dogtile|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750854689
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750854721
+|-terastallize|p1a: Lunala|Fairy
+|move|p2a: cattile|Sucker Punch|p1b: Miraidon
+|-damage|p1b: Miraidon|59/100
+|move|p1b: Miraidon|Electro Drift|p2a: cattile
+|-damage|p2a: cattile|0 fnt
+|faint|p2a: cattile
+|move|p2b: Dogtile|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Lunala|Moongeist Beam|p2b: Dogtile
+|-damage|p2b: Dogtile|0 fnt
+|faint|p2b: Dogtile
+|
+|upkeep
+|
+|t:|1750854726
+|switch|p2b: Duckwhale|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Duckwhale
+|turn|7
+|
+|t:|1750854744
+|move|p1a: Lunala|Moongeist Beam|p2b: Duckwhale
+|-crit|p2b: Duckwhale
+|-damage|p2b: Duckwhale|11/100
+|move|p2b: Duckwhale|Water Spout|p1a: Lunala
+|-damage|p1a: Lunala|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|Iamsliverfish forfeited.
+|
+|win|testy accounty 2
+|raw|testy accounty 2's rating: 1692 &rarr; <strong>1721</strong><br />(+29 for winning)
+|raw|Iamsliverfish's rating: 1859 &rarr; <strong>1830</strong><br />(-29 for losing)
+|l|☆Iamsliverfish
+|player|p2|
+|l|☆testy accounty 2
+|player|p1|

@@ -1,0 +1,169 @@
+|j|☆Foeluis
+|j|☆ComputerYui
+|t:|1750824192
+|gametype|doubles
+|player|p1|Foeluis|170|1475
+|player|p2|ComputerYui|artist-gen4|1584
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Solgaleo, L50|
+|teampreview|4
+|
+|t:|1750824219
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisdef
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-end|p2a: Brute Bonnet|Protosynthesis
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Foeluis)
+|inactive|Foeluis has 60 seconds left.
+|
+|t:|1750824255
+|-terastallize|p1a: Kyogre|Grass
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Foeluis|move: Tailwind
+|move|p1a: Kyogre|Ice Beam|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|16/100
+|move|p2b: Koraidon|U-turn|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|16/100
+|
+|t:|1750824267
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Brute Bonnet|Psychic Seed
+|-boost|p2a: Brute Bonnet|spd|1|[from] item: Psychic Seed
+|move|p2a: Brute Bonnet|Spore|p1b: Tornadus
+|-status|p1b: Tornadus|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Foeluis has 30 seconds left.
+|inactive|ComputerYui has 30 seconds left.
+|j| johnkharkiv
+|
+|t:|1750824300
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Kyogre|Ice Beam|p2b: Indeedee
+|-damage|p2b: Indeedee|72/100
+|-enditem|p2b: Indeedee|Eject Button
+|
+|t:|1750824315
+|switch|p2b: Koraidon|Koraidon, L50|16/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisspd
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Brute Bonnet|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750824326
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100 slp
+|turn|3
+|inactive|ComputerYui has 30 seconds left.
+|inactive|ComputerYui has 20 seconds left.
+|inactive|ComputerYui has 15 seconds left.
+|inactive|ComputerYui has 10 seconds left.
+|
+|t:|1750824372
+|-terastallize|p2a: Brute Bonnet|Water
+|move|p1b: Zacian|Sacred Sword|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|cant|p1a: Tornadus|slp
+|move|p2a: Brute Bonnet|Spore|p1b: Zacian
+|-status|p1b: Zacian|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750824384
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750824400
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|cant|p1a: Tornadus|slp
+|move|p2a: Brute Bonnet|Sucker Punch|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|43/100
+|-ability|p2b: Armarouge|Weak Armor|boost
+|-unboost|p2b: Armarouge|def|1
+|-boost|p2b: Armarouge|spe|2
+|-enditem|p2b: Armarouge|Weakness Policy
+|-boost|p2b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p2b: Armarouge|Expanding Force|p1a: Tornadus|[spread] p1a
+|-immune|p1b: Urshifu
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Foeluis|move: Tailwind
+|upkeep
+|
+|t:|1750824416
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100 slp
+|turn|5
+|
+|t:|1750824437
+|move|p2a: Brute Bonnet|Rage Powder|p2a: Brute Bonnet
+|-singleturn|p2a: Brute Bonnet|move: Rage Powder
+|move|p1b: Urshifu|Sucker Punch||[still]
+|-fail|p1b: Urshifu
+|move|p2b: Armarouge|Heat Wave|p1a: Zacian|[spread] p1a,p1b
+|-supereffective|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|faint|p1a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|Foeluis forfeited.
+|
+|win|ComputerYui
+|raw|Foeluis's rating: 1475 &rarr; <strong>1461</strong><br />(-14 for losing)
+|raw|ComputerYui's rating: 1584 &rarr; <strong>1598</strong><br />(+14 for winning)
+|l|☆Foeluis
+|player|p1|
+|l|☆ComputerYui
+|player|p2|

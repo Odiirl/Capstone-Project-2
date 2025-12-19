@@ -1,0 +1,189 @@
+|j|☆chjau
+|j|☆SparkyGun96
+|t:|1750781329
+|gametype|doubles
+|player|p1|chjau|red|1093
+|player|p2|SparkyGun96|101|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Drifblim, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Minior-Violet, L50|
+|poke|p1|Espeon, L50, M|
+|poke|p1|Oricorio-Sensu, L50, M|
+|poke|p1|Vivillon-Elegant, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SparkyGun96)
+|
+|t:|1750781353
+|start
+|switch|p1a: Drifblim|Drifblim, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Drifblim|Psychic Seed
+|-boost|p1a: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750781376
+|-terastallize|p1a: Drifblim|Dark
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: Calyrex|Glacial Lance|p1a: Drifblim|[spread] p1b
+|-miss|p2a: Calyrex|p1a: Drifblim
+|-damage|p1b: Indeedee|8/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750781398
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p1b: Indeedee|Heal Pulse|p2b: Indeedee
+|-fail|p2b: Indeedee|heal
+|move|p2a: Calyrex|Glacial Lance|p1b: Indeedee|[spread] p1b
+|-miss|p2a: Calyrex|p1a: Drifblim
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750781408
+|switch|p1b: Espeon|Espeon, L50, M|100/100
+|turn|3
+|
+|t:|1750781420
+|move|p1b: Espeon|Protect|p1b: Espeon
+|-singleturn|p1b: Espeon|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: Calyrex|Glacial Lance|p1b: Espeon|[spread] 
+|-activate|p1b: Espeon|move: Protect
+|-miss|p2a: Calyrex|p1a: Drifblim
+|
+|upkeep
+|turn|4
+|
+|t:|1750781433
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Baton Pass|p1a: Drifblim
+|
+|t:|1750781437
+|switch|p1a: Minior|Minior-Violet, L50|100/100|[from] Baton Pass
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|move|p1b: Espeon|Psych Up|p2b: Indeedee
+|-copyboost|p1b: Espeon|p2b: Indeedee|[from] move: Psych Up
+|move|p2a: Calyrex|Glacial Lance|p1b: Espeon|[spread] p1b
+|-miss|p2a: Calyrex|p1a: Minior
+|-damage|p1b: Espeon|6/100
+|
+|-heal|p1b: Espeon|12/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750781461
+|move|p1b: Espeon|Protect|p1b: Espeon
+|-singleturn|p1b: Espeon|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|-enditem|p1a: Minior|White Herb
+|-clearnegativeboost|p1a: Minior|[silent]
+|move|p2a: Calyrex|Glacial Lance|p1b: Espeon|[spread] 
+|-activate|p1b: Espeon|move: Protect
+|-miss|p2a: Calyrex|p1a: Minior
+|
+|-heal|p1b: Espeon|17/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750781485
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Minior|Acrobatics|p2b: Indeedee
+|-damage|p2b: Indeedee|6/100
+|-damage|p1a: Minior|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|move|p1b: Espeon|Psych Up|p2b: Indeedee
+|-copyboost|p1b: Espeon|p2b: Indeedee|[from] move: Psych Up
+|move|p2a: Calyrex|Glacial Lance|p1a: Minior|[spread] p1b
+|-miss|p2a: Calyrex|p1a: Minior
+|-damage|p1b: Espeon|0 fnt
+|faint|p1b: Espeon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750781495
+|switch|p1b: Drifblim|Drifblim, L50, F, tera:Dark|100/100
+|turn|7
+|
+|t:|1750781511
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Minior|Stone Edge|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1b: Drifblim|Minimize|p1b: Drifblim
+|-boost|p1b: Drifblim|evasion|2
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|inactive|SparkyGun96 has 30 seconds left.
+|
+|t:|1750781538
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|8
+|
+|t:|1750781556
+|-terastallize|p2a: Calyrex|Fairy
+|move|p2b: Torkoal|Eruption|p1b: Drifblim|[spread] p1b
+|-miss|p2b: Torkoal|p1a: Minior
+|-damage|p1b: Drifblim|0 fnt
+|faint|p1b: Drifblim
+|move|p2a: Calyrex|Glacial Lance|p1a: Minior
+|-supereffective|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|
+|win|SparkyGun96
+|raw|chjau's rating: 1093 &rarr; <strong>1072</strong><br />(-21 for losing)
+|raw|SparkyGun96's rating: 1129 &rarr; <strong>1151</strong><br />(+22 for winning)
+|l|☆chjau
+|player|p1|
+|l|☆SparkyGun96
+|player|p2|

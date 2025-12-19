@@ -1,0 +1,168 @@
+|j|☆281houston
+|j|☆Conchimous
+|t:|1750857943
+|gametype|doubles
+|player|p1|281houston|265|1107
+|player|p2|Conchimous|cynthia|1096
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Rayquaza, L50|
+|poke|p2|Golem, L50, F|
+|poke|p2|Zapdos, L50|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Vivillon-Pokeball, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 281houston)
+|
+|t:|1750857967
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Rayquaza|Rayquaza, L50, shiny|100/100
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, M|100/100
+|switch|p2b: Zapdos|Zapdos, L50|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vivillon|atk|1
+|-unboost|p2b: Zapdos|atk|1
+|turn|1
+|
+|t:|1750857983
+|-terastallize|p1b: Rayquaza|Normal
+|move|p1a: Incineroar|Helping Hand|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Helping Hand|[of] p1a: Incineroar
+|move|p1b: Rayquaza|Extreme Speed|p2a: Vivillon
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|move|p2b: Zapdos|Zap Cannon|p1b: Rayquaza|[miss]
+|-miss|p2b: Zapdos|p1b: Rayquaza
+|
+|upkeep
+|turn|2
+|
+|t:|1750858004
+|move|p1a: Incineroar|Helping Hand|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Helping Hand|[of] p1a: Incineroar
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|move|p1b: Rayquaza|Extreme Speed|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|move|p2b: Zapdos|Zap Cannon|p1b: Rayquaza|[miss]
+|-miss|p2b: Zapdos|p1b: Rayquaza
+|
+|upkeep
+|
+|t:|1750858017
+|switch|p2a: Golem|Golem, L50, F|100/100
+|turn|3
+|
+|t:|1750858029
+|-terastallize|p2a: Golem|Rock
+|move|p1a: Incineroar|Helping Hand|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Helping Hand|[of] p1a: Incineroar
+|move|p1b: Rayquaza|Extreme Speed|p2b: Zapdos
+|-damage|p2b: Zapdos|20/100
+|move|p2b: Zapdos|Zap Cannon|p1b: Rayquaza|[miss]
+|-miss|p2b: Zapdos|p1b: Rayquaza
+|move|p2a: Golem|Rock Slide|p1b: Rayquaza|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Rayquaza|57/100
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1750858047
+|switch|p1a: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|4
+|
+|t:|1750858059
+|move|p1b: Rayquaza|Extreme Speed|p2b: Zapdos
+|-damage|p2b: Zapdos|0 fnt
+|faint|p2b: Zapdos
+|move|p1a: Groudon|Precipice Blades|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Rock Slide|p1b: Rayquaza|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|86/100
+|-damage|p1b: Rayquaza|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858071
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2b: Mewtwo|Pressure
+|turn|5
+|
+|t:|1750858084
+|move|p2a: Golem|Wide Guard|p2a: Golem
+|-singleturn|p2a: Golem|Wide Guard
+|move|p1b: Rayquaza|Extreme Speed|p2b: Mewtwo
+|-damage|p2b: Mewtwo|48/100
+|move|p2b: Mewtwo|Psystrike|p1b: Rayquaza
+|-crit|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|move|p1a: Groudon|Precipice Blades|p2b: Mewtwo|[spread] 
+|-activate|p2a: Golem|move: Wide Guard
+|-activate|p2b: Mewtwo|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|6
+|
+|t:|1750858112
+|move|p2a: Golem|Wide Guard|p2a: Golem
+|-singleturn|p2a: Golem|Wide Guard
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Mewtwo|Psystrike|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Groudon|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750858128
+|move|p2b: Mewtwo|Psystrike|p1a: Groudon
+|-damage|p1a: Groudon|40/100
+|move|p1a: Groudon|Precipice Blades|p2b: Mewtwo
+|-damage|p2b: Mewtwo|0 fnt
+|faint|p2b: Mewtwo
+|
+|win|281houston
+|raw|281houston's rating: 1107 &rarr; <strong>1131</strong><br />(+24 for winning)
+|raw|Conchimous's rating: 1096 &rarr; <strong>1072</strong><br />(-24 for losing)
+|l|☆Conchimous
+|player|p2|
+|l|☆281houston
+|player|p1|

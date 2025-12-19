@@ -1,0 +1,197 @@
+|j|☆ULtraGorotXD
+|j|☆fntzz
+|t:|1750856633
+|gametype|doubles
+|player|p1|ULtraGorotXD|mira|1031
+|player|p2|fntzz|clown|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mewtwo, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Regigigas, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|teampreview|4
+|
+|t:|1750856682
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1750856734
+|-terastallize|p2a: Koraidon|Fire
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: fntzz|move: Tailwind
+|move|p2a: Koraidon|Flame Charge|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|32/100
+|-boost|p2a: Koraidon|spe|1
+|move|p1a: Ninetales|Encore|p2b: Whimsicott
+|-start|p2b: Whimsicott|Encore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750856766
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|move|p2a: Koraidon|Flare Blitz|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Koraidon|92/100|[from] Recoil
+|move|p1b: Koraidon|Close Combat|p2a: Koraidon
+|-damage|p2a: Koraidon|14/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750856775
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|3
+|
+|t:|1750856806
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2b: Chi-Yu|Heat Wave|p1a: Flutter Mane|[spread] 
+|-activate|p1a: Flutter Mane|move: Protect
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750856836
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|move|p2b: Chi-Yu|Heat Wave|p1a: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1b: Koraidon
+|-damage|p1a: Flutter Mane|40/100
+|-damage|p1b: Koraidon|48/100
+|move|p1a: Flutter Mane|Icy Wind|p2b: Chi-Yu|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-resisted|p2b: Chi-Yu
+|-damage|p2a: Whimsicott|37/100
+|-damage|p2b: Chi-Yu|92/100
+|-unboost|p2b: Chi-Yu|spe|1
+|move|p1b: Koraidon|Flame Charge|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-crit|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Whimsicott
+|-damage|p1b: Koraidon|38/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: fntzz|move: Tailwind
+|upkeep
+|
+|t:|1750856855
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|5
+|
+|t:|1750856875
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Raging Bolt|Thunderclap|p1a: Flutter Mane
+|-activate|p1a: Flutter Mane|move: Psychic Terrain
+|move|p1a: Flutter Mane|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|40/100
+|move|p2b: Chi-Yu|Heat Wave|p1a: Flutter Mane|[spread] p1a,p1b
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Indeedee|44/100
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1750856887
+|switch|p1a: Koraidon|Koraidon, L50|38/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750856911
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Koraidon|Close Combat|p2b: Chi-Yu
+|-supereffective|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Chi-Yu
+|-damage|p1a: Koraidon|29/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Draco Meteor|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750856925
+|switch|p2b: Koraidon|Koraidon, L50, tera:Fire|14/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|7
+|
+|t:|1750856940
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750856964
+|move|p1a: Koraidon|Protect||[still]
+|-fail|p1a: Koraidon
+|move|p2b: Koraidon|Flame Charge|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1a: Koraidon
+|
+|win|fntzz
+|raw|ULtraGorotXD's rating: 1031 &rarr; <strong>1017</strong><br />(-14 for losing)
+|raw|fntzz's rating: 1056 &rarr; <strong>1085</strong><br />(+29 for winning)
+|l|☆ULtraGorotXD
+|player|p1|

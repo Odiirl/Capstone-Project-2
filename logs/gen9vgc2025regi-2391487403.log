@@ -1,0 +1,211 @@
+|j|☆Aabraao
+|j|☆NoCalcsJustVibes
+|t:|1750862112
+|gametype|doubles
+|player|p1|Aabraao|hilbert|1607
+|player|p2|NoCalcsJustVibes|gambler|1656
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NoCalcsJustVibes)
+|inactive|Aabraao also wants the timer to be on.
+|inactive|Aabraao has 60 seconds left.
+|inactive|NoCalcsJustVibes has 60 seconds left.
+|inactive|Aabraao has 30 seconds left.
+|inactive|Aabraao has 20 seconds left.
+|inactive|Aabraao has 15 seconds left.
+|inactive|Aabraao has 10 seconds left.
+|inactive|Aabraao has 5 seconds left.
+|
+|t:|1750862202
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|inactive|Aabraao has 30 seconds left.
+|inactive|NoCalcsJustVibes has 30 seconds left.
+|
+|t:|1750862238
+|move|p2a: Smeargle|Spore|p1a: Lunala
+|-status|p1a: Lunala|slp|[from] move: Spore
+|cant|p1a: Lunala|slp
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Lunala|82/100 slp
+|-damage|p1b: Calyrex|86/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-heal|p1a: Lunala|88/100 slp|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750862256
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-damage|p2b: Calyrex|83/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Calyrex
+|-damage|p1a: Incineroar|75/100
+|-damage|p1b: Calyrex|70/100
+|move|p2a: Smeargle|Decorate|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|2
+|-boost|p2b: Calyrex|spa|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|3
+|
+|t:|1750862276
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750862278
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|
+|t:|1750862288
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Calyrex
+|-damage|p2a: Kyogre|61/100
+|-damage|p2b: Calyrex|55/100
+|move|p1a: Incineroar|Knock Off|p2a: Kyogre
+|-damage|p2a: Kyogre|18/100
+|-enditem|p2a: Kyogre|Mystic Water|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Calyrex
+|-damage|p1a: Incineroar|23/100
+|-damage|p1b: Calyrex|40/100
+|move|p2a: Kyogre|Water Spout|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Calyrex|28/100
+|faint|p1a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750862292
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|turn|5
+|
+|t:|1750862298
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] 
+|-activate|p2a: Kyogre|move: Protect
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750862315
+|-terastallize|p2b: Calyrex|Water
+|move|p1a: Kingambit|Sucker Punch|p2b: Calyrex
+|-damage|p2b: Calyrex|31/100
+|move|p2a: Kyogre|Hydro Pump|p1a: Kingambit
+|-damage|p1a: Kingambit|30/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1a: Kingambit
+|-resisted|p1b: Calyrex
+|-damage|p1a: Kingambit|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Kingambit
+|faint|p1b: Calyrex
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750862319
+|switch|p1b: Lunala|Lunala, L50|88/100 slp
+|turn|7
+|
+|t:|1750862329
+|-terastallize|p1b: Lunala|Water
+|move|p2a: Kyogre|Hydro Pump|p1b: Lunala|[miss]
+|-miss|p2a: Kyogre|p1b: Lunala
+|-curestatus|p1b: Lunala|slp|[msg]
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750862334
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|8
+|
+|t:|1750862338
+|move|p2b: Landorus|Sandsear Storm|p1b: Lunala
+|-damage|p1b: Lunala|38/100
+|move|p2a: Kyogre|Thunder|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|NoCalcsJustVibes
+|raw|Aabraao's rating: 1607 &rarr; <strong>1590</strong><br />(-17 for losing)
+|raw|NoCalcsJustVibes's rating: 1656 &rarr; <strong>1673</strong><br />(+17 for winning)
+|l|☆Aabraao
+|player|p1|
+|l|☆NoCalcsJustVibes
+|player|p2|

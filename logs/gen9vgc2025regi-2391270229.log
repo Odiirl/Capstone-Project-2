@@ -1,0 +1,142 @@
+|j|☆gbmagarinho
+|j|☆IncineroarH8ter
+|t:|1750825815
+|gametype|doubles
+|player|p1|gbmagarinho|nate|1315
+|player|p2|IncineroarH8ter|unknown|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|teampreview|4
+|
+|t:|1750825840
+|start
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Murkrow|item: Ability Shield
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750825867
+|-terastallize|p2a: Calyrex|Fire
+|move|p1a: Murkrow|Protect|p1a: Murkrow
+|-singleturn|p1a: Murkrow|Protect
+|move|p1b: Weezing|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: IncineroarH8ter|move: Light Screen
+|move|p2a: Calyrex|Glacial Lance|p1b: Weezing|[spread] p1b
+|-activate|p1a: Murkrow|move: Protect
+|-damage|p1b: Weezing|25/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750825887
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: gbmagarinho|move: Tailwind
+|move|p1b: Weezing|Misty Explosion|p2a: Calyrex|[spread] p1a,p2a,p2b
+|-supereffective|p1a: Murkrow
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Grimmsnarl
+|-damage|p1a: Murkrow|0 fnt
+|-damage|p2a: Calyrex|94/100
+|-damage|p2b: Grimmsnarl|56/100
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|faint|p1a: Murkrow
+|move|p2b: Grimmsnarl|Spirit Break|p1: Murkrow|[notarget]
+|-fail|p2b: Grimmsnarl
+|move|p2a: Calyrex|Glacial Lance|p1: Murkrow|[notarget]
+|-fail|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750825901
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750825924
+|switch|p2a: Meowscarada|Meowscarada, L50, F|100/100
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p1b: Smeargle|Decorate|p1a: Terapagos
+|-boost|p1a: Terapagos|atk|2
+|-boost|p1a: Terapagos|spa|2
+|move|p1a: Terapagos|Tera Starstorm|p2a: Meowscarada|[spread] p2a,p2b
+|-damage|p2a: Meowscarada|0 fnt
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2a: Meowscarada
+|faint|p2b: Grimmsnarl
+|
+|upkeep
+|
+|t:|1750825935
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Fire|94/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750825952
+|move|p2a: Gallade|Wide Guard|p2a: Gallade
+|-singleturn|p2a: Gallade|Wide Guard
+|move|p1b: Smeargle|Decorate|p1a: Terapagos
+|-boost|p1a: Terapagos|atk|2
+|-boost|p1a: Terapagos|spa|2
+|move|p1a: Terapagos|Tera Starstorm|p2a: Gallade|[spread] 
+|-activate|p2a: Gallade|move: Wide Guard
+|-activate|p2b: Calyrex|move: Wide Guard
+|move|p2b: Calyrex|Glacial Lance|p1b: Smeargle|[spread] p1a,p1b
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|33/100
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750825974
+|move|p1b: Smeargle|Feint|p2a: Gallade
+|-damage|p2a: Gallade|82/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Gallade|[spread] p2a,p2b
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Gallade|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Gallade
+|faint|p2b: Calyrex
+|
+|win|gbmagarinho
+|raw|gbmagarinho's rating: 1315 &rarr; <strong>1335</strong><br />(+20 for winning)
+|raw|IncineroarH8ter's rating: 1321 &rarr; <strong>1301</strong><br />(-20 for losing)
+|l|☆gbmagarinho
+|player|p1|
+|c|☆IncineroarH8ter|didnt expect max speed
+|l|☆IncineroarH8ter
+|player|p2|

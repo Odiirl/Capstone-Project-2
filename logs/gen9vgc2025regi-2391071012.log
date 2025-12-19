@@ -1,0 +1,163 @@
+|j|☆Polipoliwr
+|j|☆Bicentenario
+|t:|1750799099
+|gametype|doubles
+|player|p1|Polipoliwr|169|1460
+|player|p2|Bicentenario|265|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bicentenario)
+Bicentenario rejected open team sheets.
+|
+|t:|1750799146
+|start
+|switch|p1a: Magmar|Magmar, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750799163
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p1a: Magmar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|63/100
+|-damage|p1a: Magmar|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p1a: Magmar
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750799182
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Magmar|Follow Me|p1a: Magmar
+|-singleturn|p1a: Magmar|move: Follow Me
+|move|p2b: Calyrex|High Horsepower|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|5/100
+|move|p1b: Zamazenta|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1750799194
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1750799204
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Torkoal|Eruption|p1b: Zamazenta|[spread] p1a
+|-activate|p1b: Zamazenta|move: Protect
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|move|p2b: Calyrex|Seed Bomb|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799217
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|turn|4
+|inactive|Polipoliwr has 30 seconds left.
+|
+|t:|1750799242
+|move|p1a: Smeargle|Wide Guard|p1a: Smeargle
+|-singleturn|p1a: Smeargle|Wide Guard
+|move|p2a: Torkoal|Eruption|p1b: Zamazenta|[spread] 
+|-activate|p1a: Smeargle|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p2b: Calyrex|High Horsepower|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|move|p1b: Zamazenta|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|11/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750799266
+|switch|p2a: Lunala|Lunala, L50|100/100
+|move|p2b: Calyrex|High Horsepower|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750799279
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750799292
+|move|p1a: Calyrex|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Lunala|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Lunala
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|2
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Body Press|p2: Lunala|[notarget]
+|-fail|p1b: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Bicentenario forfeited.
+|
+|win|Polipoliwr
+|raw|Polipoliwr's rating: 1460 &rarr; <strong>1481</strong><br />(+21 for winning)
+|raw|Bicentenario's rating: 1471 &rarr; <strong>1450</strong><br />(-21 for losing)
+|l|☆Bicentenario
+|player|p2|
+|l|☆Polipoliwr
+|player|p1|

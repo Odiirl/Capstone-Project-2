@@ -1,0 +1,166 @@
+|j|☆Megaman087
+|j|☆bmbrvr
+|t:|1750743182
+|gametype|doubles
+|player|p1|Megaman087|lucas|1368
+|player|p2|bmbrvr|silver|1371
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Qwilfish-Hisui, L50, M|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bmbrvr)
+|
+|t:|1750743226
+|start
+|switch|p1a: Qwilfish|Qwilfish-Hisui, L50, M, shiny|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-ability|p1b: Eternatus|Pressure
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2b: Zacian|atk|1
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspa
+|turn|1
+|
+|t:|1750743248
+|-terastallize|p2b: Zacian|Ground
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p2b: Zacian|Tera Blast|p1b: Eternatus|[anim] Tera Blast Ground
+|-supereffective|p1b: Eternatus
+|-crit|p1b: Eternatus
+|-damage|p1b: Eternatus|8/100
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p1a: Qwilfish|Toxic Spikes|p2a: Flutter Mane
+|-sidestart|p2: bmbrvr|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|inactive|Megaman087 has 30 seconds left.
+|
+|t:|1750743282
+|move|p1b: Eternatus|Protect|p1b: Eternatus
+|-singleturn|p1b: Eternatus|Protect
+|move|p2b: Zacian|Tera Blast|p1a: Qwilfish|[anim] Tera Blast Ground
+|-supereffective|p1a: Qwilfish
+|-crit|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|move|p2a: Flutter Mane|Dazzling Gleam|p1b: Eternatus
+|-activate|p1b: Eternatus|move: Protect
+|
+|upkeep
+|
+|t:|1750743296
+|switch|p1a: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|turn|3
+|
+|t:|1750743307
+|move|p2b: Zacian|Behemoth Blade|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|74/100
+|move|p2a: Flutter Mane|Dazzling Gleam|p1a: Wo-Chien|[spread] p1a,p1b
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|21/100
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|move|p1a: Wo-Chien|Ingrain|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|move: Ingrain
+|
+|-heal|p1a: Wo-Chien|27/100|[from] item: Leftovers
+|-heal|p1a: Wo-Chien|33/100|[from] Ingrain
+|upkeep
+|
+|t:|1750743316
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750743335
+|-terastallize|p1b: Calyrex|Water
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Flutter Mane|Imprison|p2a: Flutter Mane
+|-start|p2a: Flutter Mane|move: Imprison
+|move|p1b: Calyrex|Glacial Lance|p2b: Zacian|[spread] p2a
+|-activate|p2b: Zacian|move: Protect
+|-damage|p2a: Flutter Mane|46/100
+|
+|-heal|p1a: Wo-Chien|40/100|[from] item: Leftovers
+|-heal|p1a: Wo-Chien|46/100|[from] Ingrain
+|upkeep
+|turn|5
+|
+|t:|1750743359
+|move|p2b: Zacian|Wild Charge|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|67/100
+|-enditem|p1b: Calyrex|Weakness Policy
+|-boost|p1b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Calyrex|spa|2|[from] item: Weakness Policy
+|-damage|p2b: Zacian|91/100|[from] Recoil
+|move|p2a: Flutter Mane|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|-damage|p1b: Calyrex|41/100
+|faint|p1a: Wo-Chien
+|move|p1b: Calyrex|Glacial Lance|p2b: Zacian|[spread] p2a,p2b
+|-supereffective|p2b: Zacian
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Zacian|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Zacian
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|
+|upkeep
+|
+|t:|1750743371
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-status|p2a: Kyogre|psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-status|p2b: Urshifu|psn
+|turn|6
+|
+|t:|1750743380
+|move|p2a: Kyogre|Thunder|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|bmbrvr
+|raw|Megaman087's rating: 1368 &rarr; <strong>1348</strong><br />(-20 for losing)
+|raw|bmbrvr's rating: 1371 &rarr; <strong>1391</strong><br />(+20 for winning)
+|l|☆Megaman087
+|player|p1|
+|l|☆bmbrvr
+|player|p2|

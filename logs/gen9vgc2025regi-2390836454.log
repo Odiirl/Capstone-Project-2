@@ -1,0 +1,143 @@
+|j|‽Avengo2187
+|j|☆SAM200930
+|t:|1750773989
+|gametype|doubles
+|player|p1|Avengo2187|medium|1162
+|player|p2|SAM200930|hilbert|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Virizion, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Avengo2187)
+|inactive|SAM200930 also wants the timer to be on.
+|inactive|SAM200930 has 60 seconds left.
+|
+|t:|1750774020
+|start
+|switch|p1a: Iron Treads|Iron Treads, L50, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdriveatk
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|inactive|Avengo2187 has 30 seconds left.
+|inactive|SAM200930 has 30 seconds left.
+|inactive|SAM200930 has 20 seconds left.
+|inactive|SAM200930 has 15 seconds left.
+|
+|t:|1750774061
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Miraidon|Volt Switch|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|58/100
+|
+|t:|1750774075
+|switch|p2a: Porygon2|Porygon2, L50, shiny|100/100|[from] Volt Switch
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Iron Treads|Ice Spinner|p2a: Porygon2
+|-damage|p2a: Porygon2|64/100
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Treads|Quark Drive
+|move|p2b: Pelipper|Weather Ball|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774092
+|switch|p1a: Virizion|Virizion, L50|100/100
+|turn|2
+|inactive|SAM200930 has 30 seconds left.
+|
+|t:|1750774121
+|-terastallize|p2a: Porygon2|Ghost
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Virizion|Coaching|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|1
+|-boost|p1b: Koraidon|def|1
+|move|p2b: Pelipper|Weather Ball|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|50/100
+|-enditem|p1a: Virizion|Sitrus Berry|[eat]
+|-heal|p1a: Virizion|75/100|[from] item: Sitrus Berry
+|move|p2a: Porygon2|Ice Beam|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|SAM200930 has 30 seconds left.
+|
+|t:|1750774150
+|-terastallize|p1b: Koraidon|Fire
+|move|p1b: Koraidon|Flame Charge|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Porygon2
+|-damage|p1b: Koraidon|49/100|[from] item: Life Orb
+|move|p1a: Virizion|Coaching|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|1
+|-boost|p1b: Koraidon|def|1
+|move|p2b: Pelipper|Hurricane|p1a: Virizion|[miss]
+|-miss|p2b: Pelipper|p1a: Virizion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774169
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|4
+|
+|t:|1750774187
+|move|p1b: Koraidon|Close Combat|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Miraidon
+|-damage|p1b: Koraidon|39/100|[from] item: Life Orb
+|move|p1a: Virizion|Coaching|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|1
+|-boost|p1b: Koraidon|def|1
+|move|p2b: Pelipper|Weather Ball|p1a: Virizion
+|-supereffective|p1a: Virizion
+|-damage|p1a: Virizion|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|SAM200930 forfeited.
+|
+|win|Avengo2187
+|raw|Avengo2187's rating: 1162 &rarr; <strong>1182</strong><br />(+20 for winning)
+|raw|SAM200930's rating: 1089 &rarr; <strong>1070</strong><br />(-19 for losing)
+|l|☆SAM200930
+|player|p2|
+|l|‽Avengo2187
+|player|p1|

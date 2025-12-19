@@ -1,0 +1,180 @@
+|j|☆rman500
+|j|☆drakkulll
+|t:|1750854167
+|gametype|doubles
+|player|p1|rman500|170|1189
+|player|p2|drakkulll|giovanni|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Mightyena, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rman500)
+|
+|t:|1750854196
+|start
+|switch|p1a: Giratina|Giratina-Origin, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Jesus|Lunala, L50|100/100
+|switch|p2b: Than|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Than
+|turn|1
+|
+|t:|1750854211
+|switch|p2b: Cthulu|Mightyena, L50, M|100/100
+|-ability|p2b: Cthulu|Intimidate|boost
+|-unboost|p1a: Giratina|atk|1
+|-unboost|p1b: Urshifu|atk|1
+|move|p1b: Urshifu|Surging Strikes|p2a: Jesus
+|-crit|p2a: Jesus
+|-damage|p2a: Jesus|89/100
+|-crit|p2a: Jesus
+|-damage|p2a: Jesus|67/100
+|-crit|p2a: Jesus
+|-damage|p2a: Jesus|44/100
+|-hitcount|p2a: Jesus|3
+|move|p1a: Giratina|Poltergeist|p2a: Jesus|[miss]
+|-miss|p1a: Giratina|p2a: Jesus
+|move|p2a: Jesus|Trick Room|p2a: Jesus
+|-fieldstart|move: Trick Room|[of] p2a: Jesus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|drakkulll has 30 seconds left.
+|
+|t:|1750854245
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2b: Cthulu|Super Fang|p1b: Urshifu
+|-damage|p1b: Urshifu|51/100
+|move|p2a: Jesus|Moongeist Beam|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750854256
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750854273
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p1a: Giratina|Shadow Sneak|p2a: Jesus
+|-supereffective|p2a: Jesus
+|-damage|p2a: Jesus|0 fnt
+|faint|p2a: Jesus
+|move|p2b: Cthulu|Yawn|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750854287
+|switch|p2a: Than|Kyogre, L50|100/100
+|turn|4
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750854314
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Cthulu|Super Fang|p1b: Zamazenta
+|-damage|p1b: Zamazenta|51/100
+|move|p2a: Than|Water Spout|p1b: Zamazenta|[spread] 
+|-activate|p1a: Giratina|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p1a: Giratina|Draco Meteor|p2a: Than
+|-damage|p2a: Than|57/100
+|-unboost|p1a: Giratina|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750854333
+|move|p2a: Than|Protect|p2a: Than
+|-singleturn|p2a: Than|Protect
+|move|p1a: Giratina|Shadow Sneak|p2a: Than
+|-activate|p2a: Than|move: Protect
+|move|p2b: Cthulu|Yawn|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Yawn|[of] p2b: Cthulu
+|move|p1b: Zamazenta|Body Press|p2b: Cthulu
+|-supereffective|p2b: Cthulu
+|-damage|p2b: Cthulu|0 fnt
+|faint|p2b: Cthulu
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750854343
+|switch|p2b: Hemos|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|6
+|
+|t:|1750854368
+|move|p1b: Zamazenta|Body Press|p2b: Hemos
+|-supereffective|p2b: Hemos
+|-damage|p2b: Hemos|0 fnt
+|faint|p2b: Hemos
+|move|p1a: Giratina|Poltergeist|p2a: Than|[miss]
+|-miss|p1a: Giratina|p2a: Than
+|move|p2a: Than|Origin Pulse|p1a: Giratina|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|80/100
+|-damage|p1b: Zamazenta|6/100
+|
+|-end|p1b: Zamazenta|move: Yawn|[silent]
+|-status|p1b: Zamazenta|slp
+|upkeep
+|turn|7
+|
+|t:|1750854390
+|cant|p1b: Zamazenta|slp
+|move|p1a: Giratina|Poltergeist|p2a: Than
+|-activate|p2a: Than|move: Poltergeist|Mystic Water
+|-damage|p2a: Than|18/100
+|move|p2a: Than|Origin Pulse|p1a: Giratina|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|59/100
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|upkeep
+|
+|t:|1750854400
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|t:|1750854405
+|move|p1b: Chien-Pao|Sucker Punch|p2a: Than
+|-damage|p2a: Than|0 fnt
+|faint|p2a: Than
+|
+|win|rman500
+|raw|rman500's rating: 1189 &rarr; <strong>1222</strong><br />(+33 for winning)
+|raw|drakkulll's rating: 1297 &rarr; <strong>1264</strong><br />(-33 for losing)
+|l|☆rman500
+|player|p1|
+|l|☆drakkulll
+|player|p2|

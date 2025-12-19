@@ -1,0 +1,160 @@
+|j|☆chaostnt
+|j|☆lypda
+|t:|1750721148
+|gametype|doubles
+|player|p1|chaostnt|1|1225
+|player|p2|lypda|red|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Lurantis, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Ambipom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lypda)
+|
+|t:|1750721161
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Ambipom|Ambipom, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750721181
+|-terastallize|p2a: Calyrex|Normal
+|move|p2a: Calyrex|Astral Barrage|p1a: Miraidon|[spread] p1a
+|-immune|p1b: Ambipom
+|-damage|p1a: Miraidon|52/100
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|11/100
+|move|p1b: Ambipom|Beat Up|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|90/100
+|-damage|p2a: Calyrex|82/100
+|-damage|p2a: Calyrex|72/100
+|-damage|p2a: Calyrex|64/100
+|-hitcount|p2a: Calyrex|4
+|move|p2b: Zamazenta|Body Press|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750721193
+|switch|p1a: Lurantis|Lurantis, L50, M|100/100
+|turn|2
+|
+|t:|1750721207
+|move|p2a: Calyrex|Astral Barrage|p1b: Ambipom|[spread] p1a
+|-immune|p1b: Ambipom
+|-damage|p1a: Lurantis|39/100
+|move|p1b: Ambipom|Fury Swipes|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|-damage|p2a: Calyrex|32/100
+|-damage|p2a: Calyrex|18/100
+|-damage|p2a: Calyrex|2/100
+|-hitcount|p2a: Calyrex|4
+|move|p2b: Zamazenta|Body Press|p1b: Ambipom
+|-supereffective|p1b: Ambipom
+|-damage|p1b: Ambipom|0 fnt
+|faint|p1b: Ambipom
+|move|p1a: Lurantis|Superpower|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|-enditem|p1a: Lurantis|Sitrus Berry|[eat]
+|-heal|p1a: Lurantis|64/100|[from] item: Sitrus Berry
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750721232
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|
+|t:|1750721247
+|-terastallize|p1b: Groudon|Fire
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-crit|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|-damage|p2a: Chien-Pao|91/100|[from] item: Life Orb
+|move|p2b: Zamazenta|Body Press|p1b: Groudon
+|-damage|p1b: Groudon|40/100
+|move|p1b: Groudon|Precipice Blades|p2a: Chien-Pao|[spread] p2a,p2b
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Chien-Pao|25/100
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750721264
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|4
+|
+|t:|1750721273
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2a: Chien-Pao|Sacred Sword|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Chien-Pao|31/100|[from] Grassy Terrain
+|-heal|p1b: Groudon|46/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750721288
+|move|p2a: Chien-Pao|Sacred Sword|p1b: Groudon
+|-damage|p1b: Groudon|14/100
+|-damage|p2a: Chien-Pao|21/100|[from] item: Life Orb
+|move|p1b: Groudon|Precipice Blades|p2a: Chien-Pao|[spread] p2a
+|-miss|p1b: Groudon|p2b: Rillaboom
+|-enditem|p1b: Groudon|Blunder Policy
+|-boost|p1b: Groudon|spe|2
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p2b: Rillaboom|Wood Hammer|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2b: Rillaboom|96/100|[from] Recoil
+|
+|win|lypda
+|raw|chaostnt's rating: 1225 &rarr; <strong>1209</strong><br />(-16 for losing)
+|raw|lypda's rating: 1354 &rarr; <strong>1367</strong><br />(+13 for winning)
+|l|☆chaostnt
+|player|p1|
+|l|☆lypda
+|player|p2|

@@ -1,0 +1,130 @@
+|j|☆Aylawayla
+|j|☆cruncnunc
+|t:|1750794555
+|gametype|doubles
+|player|p1|Aylawayla|dawn|1374
+|player|p2|cruncnunc|supernerd|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750794588
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750794618
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Flutter Mane|Moonblast|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|82/100
+|move|p1b: Smeargle|Decorate|p1a: Terapagos
+|-boost|p1a: Terapagos|atk|2
+|-boost|p1a: Terapagos|spa|2
+|move|p2a: Groudon|Precipice Blades|p1b: Smeargle|[spread] p1a,p1b
+|-damage|p1a: Terapagos|30/100
+|-damage|p1b: Smeargle|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750794655
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|48/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-weather|none
+|-end|p2b: Flutter Mane|Protosynthesis
+|move|p1b: Smeargle|Spore|p2b: Flutter Mane
+|-status|p2b: Flutter Mane|slp|[from] move: Spore
+|cant|p2b: Flutter Mane|slp
+|move|p2a: Groudon|Precipice Blades|p1a: Terapagos|[spread] p1a
+|-miss|p2a: Groudon|p1b: Smeargle
+|-damage|p1a: Terapagos|11/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Groudon|[spread] p2a,p2b
+|-damage|p2a: Groudon|0 fnt
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100 slp
+|faint|p2a: Groudon
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|
+|t:|1750794676
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|turn|3
+|
+|t:|1750794704
+|move|p2a: Iron Hands|Fake Out|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|cant|p2b: Flutter Mane|slp
+|move|p1a: Terapagos|Tera Starstorm|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|43/100
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750794717
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750794730
+|move|p1b: Annihilape|Final Gambit|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Miraidon
+|move|p1a: Terapagos|Tera Starstorm|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|Aylawayla
+|raw|Aylawayla's rating: 1374 &rarr; <strong>1395</strong><br />(+21 for winning)
+|raw|cruncnunc's rating: 1391 &rarr; <strong>1370</strong><br />(-21 for losing)
+|l|☆cruncnunc
+|player|p2|
+|l|☆Aylawayla
+|player|p1|
+|j|☆Aylawayla
+|player|p1|Aylawayla|dawn|

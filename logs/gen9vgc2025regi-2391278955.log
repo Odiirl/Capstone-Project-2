@@ -1,0 +1,172 @@
+|j|☆jkool99
+|j|☆DrakyPana
+|t:|1750827318
+|gametype|doubles
+|player|p1|jkool99|2|1339
+|player|p2|DrakyPana|psychicf-gen4|1370
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hitmonlee, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Salamence, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+DrakyPana has agreed to open team sheets.
+|
+|t:|1750827396
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Lunala|atk|1
+|turn|1
+|
+|t:|1750827420
+|move|p2a: Incineroar|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|93/100
+|move|p1a: Rillaboom|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|49/100
+|-enditem|p2b: Lunala|Electric Seed|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p1b: Incineroar|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-heal|p1b: Incineroar|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827433
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|2
+|
+|t:|1750827463
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Miraidon|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|14/100
+|
+|t:|1750827469
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2a: Incineroar|Flare Blitz|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|84/100
+|-damage|p2a: Incineroar|96/100|[from] Recoil
+|move|p1b: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1750827482
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750827506
+|-terastallize|p1b: Calyrex|Ground
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Incineroar|69/100
+|move|p1b: Calyrex|Tera Blast|p2a: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827516
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750827544
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|14/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2b: Ursaluna|Facade|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DrakyPana)
+|
+|t:|1750827562
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|5
+|
+|t:|1750827576
+|move|p1a: Rillaboom|Grassy Glide|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|2/100 brn
+|move|p1b: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a
+|-immune|p2b: Ursaluna
+|-damage|p2a: Miraidon|7/100
+|-damage|p1b: Calyrex|81/100|[from] item: Life Orb
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|30/100
+|-damage|p1b: Calyrex|24/100
+|move|p2b: Ursaluna|Facade|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-heal|p2a: Miraidon|13/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|35/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|8/100 brn|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827598
+|switch|p1b: Miraidon|Miraidon, L50|84/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750827607
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Ursaluna
+|
+|win|jkool99
+|raw|jkool99's rating: 1339 &rarr; <strong>1361</strong><br />(+22 for winning)
+|raw|DrakyPana's rating: 1370 &rarr; <strong>1348</strong><br />(-22 for losing)

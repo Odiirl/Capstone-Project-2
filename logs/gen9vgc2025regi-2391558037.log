@@ -1,0 +1,219 @@
+|j|☆Gogogoliver
+|j|☆Super duper baller
+|t:|1750869920
+|gametype|doubles
+|player|p1|Gogogoliver|266|1088
+|player|p2|Super duper baller|acetrainer-gen4|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Oddish, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ho-Oh, L50|
+|teampreview|4
+|
+|t:|1750869960
+|start
+|switch|p1a: Oddish|Oddish, L50, F|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750869984
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-enditem|p1a: Oddish|Focus Sash
+|-damage|p1a: Oddish|1/100
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p1a: Oddish|Sleep Powder|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1750870010
+|cant|p2a: Chien-Pao|slp
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|40/100
+|move|p1b: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100 slp
+|move|p1a: Oddish|Sleep Powder|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|t:|1750870073
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|cant|p2b: Zamazenta|slp
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p1a: Oddish|Energy Ball|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|96/100
+|
+|-heal|p2a: Ho-Oh|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750870096
+|move|p1a: Oddish|Protect|p1a: Oddish
+|-singleturn|p1a: Oddish|Protect
+|cant|p2b: Zamazenta|slp
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|7/100 slp
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Oddish
+|-activate|p1a: Oddish|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750870133
+|-curestatus|p2b: Zamazenta|slp|[msg]
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|9/100
+|move|p1b: Zamazenta|Rest|p1b: Zamazenta
+|-status|p1b: Zamazenta|slp|[from] move: Rest
+|-heal|p1b: Zamazenta|100/100 slp|[silent]
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|81/100 slp
+|move|p1a: Oddish|Sleep Powder|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|6
+|
+|t:|1750870176
+|move|p1a: Oddish|Protect|p1a: Oddish
+|-singleturn|p1a: Oddish|Protect
+|cant|p2b: Zamazenta|slp
+|cant|p1b: Zamazenta|slp
+|move|p1b: Zamazenta|Sleep Talk|p1b: Zamazenta
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta|[from] move: Sleep Talk
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Oddish
+|-activate|p1a: Oddish|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750870203
+|-curestatus|p2b: Zamazenta|slp|[msg]
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|cant|p1b: Zamazenta|slp
+|move|p1b: Zamazenta|Sleep Talk|p1b: Zamazenta
+|move|p1b: Zamazenta|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1b: Zamazenta
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|
+|upkeep
+|
+|t:|1750870217
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|turn|8
+|
+|t:|1750870243
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|47/100 slp
+|-curestatus|p1b: Zamazenta|slp|[msg]
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|upkeep
+|
+|t:|1750870254
+|switch|p2b: Chien-Pao|Chien-Pao, L50|1/100 slp
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|t:|1750870282
+|cant|p2b: Chien-Pao|slp
+|move|p1b: Zamazenta|Body Press|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|move|p1a: Annihilape|Drain Punch|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|upkeep
+|
+|t:|1750870292
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|turn|10
+|
+|t:|1750870301
+|move|p2b: Sneasler|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|45/100
+|-damage|p2b: Sneasler|91/100|[from] item: Life Orb
+|cant|p1b: Zamazenta|flinch
+|move|p1a: Annihilape|Drain Punch|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|58/100
+|
+|upkeep
+|turn|11
+|
+|t:|1750870316
+|move|p2b: Sneasler|Close Combat|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|19/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-damage|p2b: Sneasler|48/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Rest|p1b: Zamazenta
+|-status|p1b: Zamazenta|slp|[from] move: Rest
+|-heal|p1b: Zamazenta|100/100 slp|[silent]
+|move|p1a: Annihilape|Rage Fist|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|win|Gogogoliver
+|raw|Gogogoliver's rating: 1088 &rarr; <strong>1122</strong><br />(+34 for winning)
+|raw|Super duper baller's rating: 1179 &rarr; <strong>1148</strong><br />(-31 for losing)
+|l|☆Super duper baller
+|player|p2|
+|l|☆Gogogoliver
+|player|p1|

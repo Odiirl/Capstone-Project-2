@@ -1,0 +1,195 @@
+|j|☆mono fairy (real)
+|j|☆wjssz
+|t:|1750824419
+|gametype|doubles
+|player|p1|mono fairy (real)|mira|1223
+|player|p2|wjssz|cheryl|1158
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Breloom, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wjssz)
+|inactive|mono fairy (real) also wants the timer to be on.
+|
+|t:|1750824432
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1b: Weezing
+|turn|1
+|
+|t:|1750824440
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: mono fairy (real)|move: Tailwind
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: wjssz|move: Tailwind
+|move|p1b: Weezing|Misty Explosion|p2a: Whimsicott|[spread] p1a,p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: Whimsicott|2/100
+|-damage|p2b: Calyrex|70/100
+|faint|p1b: Weezing
+|faint|p1a: Whimsicott
+|move|p2b: Calyrex|Glacial Lance|p1: Whimsicott|[notarget]
+|-fail|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750824447
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|2
+|inactive|mono fairy (real) has 30 seconds left.
+|
+|t:|1750824472
+|-terastallize|p1b: Zacian|Water
+|move|p2a: Whimsicott|Light Screen|p2a: Whimsicott
+|-sidestart|p2: wjssz|move: Light Screen
+|move|p1a: Scream Tail|Gyro Ball|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Zacian|Tera Blast|p2b: Calyrex|[anim] Tera Blast Water
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750824483
+|switch|p2a: Breloom|Breloom, L50, M|100/100
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|turn|3
+|
+|t:|1750824499
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p1a: Scream Tail|Gyro Ball|p2a: Breloom
+|-damage|p2a: Breloom|95/100
+|move|p2a: Breloom|Spore|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p2b: Eternatus|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|22/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750824511
+|move|p1a: Scream Tail|Disable|p2b: Eternatus
+|-start|p2b: Eternatus|Disable|Sludge Bomb
+|move|p2a: Breloom|Spore|p1b: Zacian
+|-activate|p1b: Zacian|move: Misty Terrain
+|move|p2b: Eternatus|Meteor Beam||[still]
+|-prepare|p2b: Eternatus|Meteor Beam
+|-boost|p2b: Eternatus|spa|1
+|-enditem|p2b: Eternatus|Power Herb
+|-anim|p2b: Eternatus|Meteor Beam|p1b: Zacian
+|-damage|p1b: Zacian|31/100
+|move|p1b: Zacian|Play Rough|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-sideend|p1: mono fairy (real)|move: Tailwind
+|-sideend|p2: wjssz|move: Tailwind
+|upkeep
+|turn|5
+|inactive|mono fairy (real) has 30 seconds left.
+|
+|t:|1750824536
+|move|p1a: Scream Tail|Encore|p2b: Eternatus
+|-start|p2b: Eternatus|Encore
+|move|p1b: Zacian|Behemoth Blade|p2b: Eternatus
+|-damage|p2b: Eternatus|18/100
+|move|p2b: Eternatus|Meteor Beam||[still]
+|-prepare|p2b: Eternatus|Meteor Beam
+|-boost|p2b: Eternatus|spa|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1750824546
+|move|p1a: Scream Tail|Psychic Terrain|p1a: Scream Tail
+|-fieldstart|move: Psychic Terrain
+|move|p2b: Eternatus|Meteor Beam|p1b: Zacian|[from] lockedmove
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|-sideend|p2: wjssz|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1750824554
+|move|p1a: Scream Tail|Gyro Ball|p2b: Eternatus
+|-damage|p2b: Eternatus|15/100
+|move|p2b: Eternatus|Meteor Beam||[still]
+|-prepare|p2b: Eternatus|Meteor Beam
+|-boost|p2b: Eternatus|spa|1
+|
+|-end|p2b: Eternatus|Encore
+|-end|p2b: Eternatus|Disable
+|upkeep
+|turn|8
+|
+|t:|1750824562
+|move|p1a: Scream Tail|Disable|p2b: Eternatus
+|-start|p2b: Eternatus|Disable|Meteor Beam
+|cant|p2b: Eternatus|Disable|Meteor Beam
+|
+|upkeep
+|turn|9
+|
+|t:|1750824565
+|move|p1a: Scream Tail|Encore|p2b: Eternatus
+|-start|p2b: Eternatus|Encore
+|cant|p2b: Eternatus|Disable|Meteor Beam
+|
+|upkeep
+|turn|10
+|
+|t:|1750824568
+|move|p1a: Scream Tail|Gyro Ball|p2b: Eternatus
+|-damage|p2b: Eternatus|13/100
+|-activate|p2b: Eternatus|move: Struggle
+|move|p2b: Eternatus|Struggle|p1a: Scream Tail
+|-damage|p1a: Scream Tail|16/100
+|-damage|p2b: Eternatus|0 fnt|[from] recoil
+|faint|p2b: Eternatus
+|
+|win|mono fairy (real)
+|raw|mono fairy (real)'s rating: 1223 &rarr; <strong>1243</strong><br />(+20 for winning)
+|raw|wjssz's rating: 1158 &rarr; <strong>1138</strong><br />(-20 for losing)
+|l|☆mono fairy (real)
+|player|p1|
+|l|☆wjssz
+|player|p2|

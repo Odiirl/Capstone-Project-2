@@ -1,0 +1,124 @@
+|j|☆clcarlsen
+|j|☆mochii_san
+|t:|1750804843
+|gametype|doubles
+|player|p1|clcarlsen|265|1085
+|player|p2|mochii_san|roxie|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mabosstiff, L50, M|
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Numel, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|
+|t:|1750804890
+|start
+|switch|p1a: Numel|Numel, L50, M|100/100
+|switch|p1b: Mabosstiff|Mabosstiff, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-block|p2a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750804914
+|move|p2a: Koraidon|Flare Blitz|p1b: Mabosstiff
+|-damage|p1b: Mabosstiff|5/100
+|-damage|p2a: Koraidon|75/100|[from] Recoil
+|move|p1b: Mabosstiff|Play Rough|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Weezing|Poison Gas|p1a: Numel|[spread] p1a,p1b
+|-status|p1a: Numel|psn
+|-status|p1b: Mabosstiff|psn
+|move|p1a: Numel|Growth|p1a: Numel
+|-boost|p1a: Numel|atk|2
+|-boost|p1a: Numel|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Mabosstiff|0 fnt|[from] psn
+|faint|p1b: Mabosstiff
+|-damage|p1a: Numel|89/100 psn|[from] psn
+|upkeep
+|
+|t:|1750804946
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Dialga|Dialga-Origin, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750804983
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|move|p1a: Numel|Protect|p1a: Numel
+|-singleturn|p1a: Numel|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Dialga|[spread] p1b
+|-activate|p1a: Numel|move: Protect
+|-damage|p1b: Dialga|29/100
+|move|p1b: Dialga|Psych Up|p1a: Numel
+|-copyboost|p1b: Dialga|p1a: Numel|[from] move: Psych Up
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Numel|77/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750805015
+|move|p2a: Calyrex|Astral Barrage|p1a: Numel|[spread] p1a,p1b
+|-damage|p1a: Numel|0 fnt
+|-damage|p1b: Dialga|0 fnt
+|faint|p1a: Numel
+|faint|p1b: Dialga
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Chi-Yu|Dark Pulse|p1: Numel|[notarget]
+|-fail|p2b: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750805027
+|switch|p1b: Solgaleo|Solgaleo, L50|100/100
+|turn|4
+|
+|t:|1750805035
+|-terastallize|p1b: Solgaleo|Normal
+|move|p2a: Calyrex|Astral Barrage|p1b: Solgaleo
+|-immune|p1b: Solgaleo
+|move|p2b: Chi-Yu|Dark Pulse|p1b: Solgaleo
+|-damage|p1b: Solgaleo|54/100
+|move|p1b: Solgaleo|Sunsteel Strike|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|clcarlsen forfeited.
+|
+|win|mochii_san
+|raw|clcarlsen's rating: 1085 &rarr; <strong>1063</strong><br />(-22 for losing)
+|raw|mochii_san's rating: 1104 &rarr; <strong>1128</strong><br />(+24 for winning)
+|l|☆clcarlsen
+|player|p1|
+|l|☆mochii_san
+|player|p2|

@@ -1,0 +1,178 @@
+|j|☆Meijis
+|j|☆Lukbert
+|t:|1750870016
+|gametype|doubles
+|player|p1|Meijis|266|1225
+|player|p2|Lukbert|102|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|
+|t:|1750870037
+|start
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespe
+|-ability|p2b: Mewtwo|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-end|p1a: Iron Bundle|Quark Drive
+|turn|1
+|
+|t:|1750870057
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p1a: Iron Bundle|Aurora Veil|p1a: Iron Bundle
+|-sidestart|p1: Meijis|move: Aurora Veil
+|move|p2b: Mewtwo|Expanding Force|p1b: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Iron Bundle|20/100
+|-damage|p1b: Ninetales|41/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750870084
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Mewtwo|Expanding Force|p1b: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Iron Bundle|0 fnt
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1a: Iron Bundle
+|-end|p1a: Iron Bundle|Quark Drive|[silent]
+|faint|p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750870089
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|
+|t:|1750870103
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-terastallize|p1a: Miraidon|Electric
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Glacial Lance|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Torkoal
+|-damage|p2a: Indeedee|57/100
+|-damage|p2b: Torkoal|82/100
+|move|p1a: Miraidon|Electro Drift|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870118
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750870135
+|-terastallize|p2b: Torkoal|Fire
+|move|p2b: Torkoal|Eruption|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Miraidon|59/100
+|-damage|p1b: Calyrex|40/100
+|-enditem|p1b: Calyrex|Weakness Policy
+|-boost|p1b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p2a: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Miraidon|27/100
+|-damage|p1b: Calyrex|28/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Torkoal
+|-damage|p2a: Calyrex|72/100
+|-damage|p2b: Torkoal|47/100
+|move|p1a: Miraidon|Electro Drift|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870155
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2b: Mewtwo|Pressure
+|turn|5
+|
+|t:|1750870170
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Mewtwo|Expanding Force|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Meijis|move: Aurora Veil
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750870195
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Mewtwo|0 fnt
+|faint|p2b: Mewtwo
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750870208
+|move|p1b: Calyrex|Leech Seed|p2a: Calyrex
+|-start|p2a: Calyrex|move: Leech Seed
+|move|p2a: Calyrex|High Horsepower|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Lukbert
+|raw|Meijis's rating: 1225 &rarr; <strong>1195</strong><br />(-30 for losing)
+|raw|Lukbert's rating: 1159 &rarr; <strong>1189</strong><br />(+30 for winning)
+|l|☆Meijis
+|player|p1|
+|l|☆Lukbert
+|player|p2|

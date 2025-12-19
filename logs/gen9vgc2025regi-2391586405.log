@@ -1,0 +1,225 @@
+|j|☆Crawsome
+|j|☆myles20
+|t:|1750872968
+|gametype|doubles
+|player|p1|Crawsome|1|1090
+|player|p2|myles20|gentleman-gen4|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750872988
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750873005
+|move|p1b: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|94/100
+|cant|p2b: Incineroar|flinch
+|move|p1a: Urshifu|U-turn|p2a: Flutter Mane
+|-resisted|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|91/100
+|
+|t:|1750873013
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Flutter Mane|Icy Wind|p1b: Rillaboom|[spread] p1b
+|-miss|p2a: Flutter Mane|p1a: Zamazenta
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|82/100
+|-unboost|p1b: Rillaboom|spe|1
+|
+|-heal|p2a: Flutter Mane|97/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|87/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750873046
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p1a: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|10/100
+|move|p2a: Flutter Mane|Moonblast|p1b: Rillaboom
+|-damage|p1b: Rillaboom|53/100
+|-unboost|p1b: Rillaboom|spa|1
+|move|p1b: Rillaboom|Wood Hammer|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1b: Rillaboom|30/100|[from] Recoil
+|move|p2b: Incineroar|Parting Shot|p1b: Rillaboom
+|-unboost|p1b: Rillaboom|atk|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|t:|1750873062
+|switch|p2b: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Rillaboom|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750873068
+|switch|p2a: Incineroar|Incineroar, L50, M|10/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|3
+|
+|t:|1750873087
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Incineroar|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|90/100
+|move|p2b: Koraidon|Flare Blitz|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|66/100
+|-damage|p2b: Koraidon|89/100|[from] Recoil
+|-damage|p2b: Koraidon|79/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Urshifu|95/100|[from] Grassy Terrain
+|-heal|p2b: Koraidon|86/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|72/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|16/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750873112
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1b: Urshifu|Surging Strikes|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-crit|p2b: Koraidon
+|-damage|p2b: Koraidon|69/100
+|-supereffective|p2b: Koraidon
+|-crit|p2b: Koraidon
+|-damage|p2b: Koraidon|52/100
+|-supereffective|p2b: Koraidon
+|-crit|p2b: Koraidon
+|-damage|p2b: Koraidon|35/100
+|-hitcount|p2b: Koraidon|3
+|move|p2b: Koraidon|Close Combat|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Urshifu
+|-damage|p2b: Koraidon|25/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Body Press|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Koraidon|31/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|78/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|22/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750873136
+|switch|p1b: Rillaboom|Rillaboom, L50, F|36/100
+|turn|5
+|
+|t:|1750873144
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Koraidon|37/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|84/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|42/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|62/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750873170
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Koraidon|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|28/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p1b: Rillaboom|High Horsepower|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-crit|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|none
+|upkeep
+|
+|t:|1750873183
+|switch|p2b: Incineroar|Incineroar, L50, M|22/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|7
+|
+|t:|1750873197
+|move|p2b: Incineroar|Fake Out|p1a: Zamazenta
+|-damage|p1a: Zamazenta|50/100
+|cant|p1a: Zamazenta|flinch
+|move|p1b: Rillaboom|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Amoonguss|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|upkeep
+|turn|8
+|
+|t:|1750873211
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|cant|p1a: Zamazenta|slp
+|move|p2a: Amoonguss|Spore|p1b: Ursaluna
+|-activate|p1b: Ursaluna|item: Safety Goggles|Spore
+|
+|upkeep
+|turn|9
+|-message|myles20 forfeited.
+|
+|win|Crawsome
+|raw|Crawsome's rating: 1090 &rarr; <strong>1114</strong><br />(+24 for winning)
+|raw|myles20's rating: 1063 &rarr; <strong>1045</strong><br />(-18 for losing)
+|l|☆myles20
+|player|p2|

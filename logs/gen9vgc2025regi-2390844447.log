@@ -1,0 +1,204 @@
+|j|☆Rammburglar
+|j|☆Naktix
+|t:|1750774890
+|gametype|doubles
+|player|p1|Rammburglar|2|1106
+|player|p2|Naktix|juggler|1100
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ariados, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Naktix)
+|inactive|Rammburglar has 60 seconds left.
+|
+|t:|1750774936
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Problem Solver|Ursaluna, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Problem Solver|atk|1
+|-unboost|p2b: Lunala|atk|1
+|turn|1
+|inactive|Rammburglar has 30 seconds left.
+|inactive|Naktix has 30 seconds left.
+|inactive|Naktix has 20 seconds left.
+|
+|t:|1750774972
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p1a: Incineroar|U-turn|p2a: Problem Solver
+|-damage|p2a: Problem Solver|92/100
+|
+|t:|1750774979
+|switch|p1a: Primarina|Primarina, L50, F|100/100|[from] U-turn
+|move|p2a: Problem Solver|Headlong Rush|p1a: Primarina
+|-damage|p1a: Primarina|54/100
+|-unboost|p2a: Problem Solver|def|1
+|-unboost|p2a: Problem Solver|spd|1
+|move|p1b: Ursaluna|Facade|p2a: Problem Solver
+|-damage|p2a: Problem Solver|64/100
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Rammburglar has 30 seconds left.
+|inactive|Naktix has 30 seconds left.
+|
+|t:|1750775015
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2b: Incineroar|Fake Out|p1a: Primarina
+|-damage|p1a: Primarina|45/100
+|cant|p1a: Primarina|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1750775038
+|-terastallize|p2a: Lunala|Fairy
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1b: Incineroar|Fire Pledge|p2b: Incineroar
+|-waiting|p1b: Incineroar|p1a: Primarina
+|move|p1a: Primarina|Water Pledge|p2b: Incineroar|[from] move: Fire Pledge
+|-combine
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-sidestart|p1: Rammburglar|Water Pledge
+|faint|p2b: Incineroar
+|
+|upkeep
+|inactive|Naktix has 30 seconds left.
+|
+|t:|1750775067
+|switch|p2b: Problem Solver|Ursaluna, L50, M|64/100
+|turn|4
+|inactive|Rammburglar has 30 seconds left.
+|
+|t:|1750775102
+|move|p2a: Lunala|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|move|p1b: Incineroar|U-turn|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|97/100
+|
+|t:|1750775115
+|switch|p1b: Ariados|Ariados, L50, F, shiny|100/100|[from] U-turn
+|move|p2b: Problem Solver|Headlong Rush|p1b: Ariados
+|-damage|p1b: Ariados|13/100
+|-unboost|p2b: Problem Solver|def|1
+|-unboost|p2b: Problem Solver|spd|1
+|
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750775127
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Problem Solver|atk|1
+|turn|5
+|
+|t:|1750775152
+|-terastallize|p1b: Ariados|Bug
+|move|p1a: Incineroar|Fake Out|p2a: Lunala
+|-damage|p2a: Lunala|96/100
+|cant|p2a: Lunala|flinch
+|move|p2b: Problem Solver|Headlong Rush|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|34/100
+|-unboost|p2b: Problem Solver|def|1
+|-unboost|p2b: Problem Solver|spd|1
+|move|p1b: Ariados|Megahorn|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|54/100
+|
+|-heal|p2a: Lunala|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Naktix has 30 seconds left.
+|inactive|Rammburglar has 30 seconds left.
+|
+|t:|1750775184
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100 brn
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Lunala|Moongeist Beam|p1b: Ariados
+|-damage|p1b: Ariados|0 fnt
+|faint|p1b: Ariados
+|
+|-heal|p2a: Lunala|66/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|-sideend|p1: Rammburglar|Water Pledge
+|upkeep
+|
+|t:|1750775200
+|switch|p1b: Incineroar|Incineroar, L50, M|34/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|7
+|inactive|Naktix has 30 seconds left.
+|
+|t:|1750775229
+|move|p1b: Incineroar|Fake Out|p2a: Lunala
+|-damage|p2a: Lunala|57/100
+|cant|p2a: Lunala|flinch
+|move|p1a: Ursaluna|Facade|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-resisted|p1b: Incineroar
+|-damage|p1a: Ursaluna|10/100 brn
+|-damage|p1b: Incineroar|9/100
+|
+|-damage|p1a: Ursaluna|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1750775235
+|switch|p2a: Problem Solver|Ursaluna, L50, M|64/100
+|turn|8
+|
+|t:|1750775252
+|move|p1b: Incineroar|Flare Blitz|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|42/100
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|move|p2a: Problem Solver|Body Slam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Naktix
+|raw|Rammburglar's rating: 1106 &rarr; <strong>1081</strong><br />(-25 for losing)
+|raw|Naktix's rating: 1100 &rarr; <strong>1125</strong><br />(+25 for winning)
+|l|☆Rammburglar
+|player|p1|
+|l|☆Naktix
+|player|p2|

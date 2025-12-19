@@ -1,0 +1,320 @@
+|j|☆leuc
+|j|☆Macwindo
+|t:|1750867078
+|gametype|doubles
+|player|p1|leuc|acetrainer-gen4dp|1302
+|player|p2|Macwindo|psychic|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p1|Thundurus, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leuc)
+|inactive|leuc has 60 seconds left.
+|inactive|Macwindo has 60 seconds left.
+|inactive|Macwindo has 30 seconds left.
+|inactive|Macwindo has 20 seconds left.
+|
+|t:|1750867151
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|100/100
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|1
+|inactive|leuc has 30 seconds left.
+|
+|t:|1750867181
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1a: Zacian|Sacred Sword|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|move|p2a: Dondozo|Yawn|p1a: Zacian
+|-start|p1a: Zacian|move: Yawn|[of] p2a: Dondozo
+|move|p1b: Enamorus|Taunt|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750867202
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100
+|-terastallize|p2b: Ting-Lu|Poison
+|move|p2b: Ting-Lu|Stomping Tantrum|p1a: Thundurus
+|-immune|p1a: Thundurus
+|move|p2a: Dondozo|Heavy Slam|p1b: Enamorus
+|-supereffective|p1b: Enamorus
+|-damage|p1b: Enamorus|62/100
+|move|p1b: Enamorus|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1750867226
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|-unboost|p2b: Ting-Lu|atk|1
+|move|p1a: Thundurus|Thunder Wave|p2a: Dondozo
+|-status|p2a: Dondozo|par
+|move|p2b: Ting-Lu|Lash Out|p1a: Thundurus
+|-damage|p1a: Thundurus|57/100
+|move|p2a: Dondozo|Heavy Slam|p1b: Landorus
+|-damage|p1b: Landorus|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750867244
+|move|p1a: Thundurus|Thunder Wave|p2b: Ting-Lu
+|-status|p2b: Ting-Lu|par
+|move|p1b: Landorus|Rock Slide|p2a: Dondozo|[spread] p2a,p2b
+|-damage|p2a: Dondozo|89/100 par
+|-damage|p2b: Ting-Lu|91/100 par
+|cant|p2b: Ting-Lu|flinch
+|move|p2a: Dondozo|Wave Crash|p1b: Landorus
+|-supereffective|p1b: Landorus
+|-damage|p1b: Landorus|19/100
+|-damage|p2a: Dondozo|75/100 par|[from] Recoil
+|
+|-heal|p2a: Dondozo|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Macwindo has 30 seconds left.
+|
+|t:|1750867271
+|move|p1b: Landorus|Rock Slide|p2a: Dondozo|[spread] p2a,p2b
+|-damage|p2a: Dondozo|71/100 par
+|-damage|p2b: Ting-Lu|80/100 par
+|move|p1a: Thundurus|Wildbolt Storm|p2b: Ting-Lu|[spread] p2a,p2b
+|-supereffective|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|15/100 par
+|-damage|p2b: Ting-Lu|65/100 par
+|cant|p2b: Ting-Lu|par
+|cant|p2a: Dondozo|flinch
+|
+|-heal|p2a: Dondozo|21/100 par|[from] item: Leftovers
+|-end|p2a: Dondozo|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1750867284
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Dondozo|[spread] p2b
+|-activate|p2a: Dondozo|move: Protect
+|-damage|p2b: Ting-Lu|48/100 par
+|move|p2b: Ting-Lu|Lash Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|93/100
+|
+|-heal|p2a: Dondozo|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Macwindo has 30 seconds left.
+|
+|t:|1750867311
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1b: Zacian|Behemoth Blade|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|move|p1a: Thundurus|Wildbolt Storm|p2b: Ting-Lu|[spread] 
+|-activate|p2b: Ting-Lu|move: Protect
+|-miss|p1a: Thundurus|p2a: Raging Bolt
+|
+|upkeep
+|turn|8
+|
+|t:|1750867334
+|move|p1a: Thundurus|Eerie Impulse|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|spa|2
+|move|p1b: Zacian|Behemoth Blade|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|21/100 par
+|-damage|p1b: Zacian|77/100|[from] item: Rocky Helmet|[of] p2b: Ting-Lu
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|35/100
+|-unboost|p2a: Raging Bolt|spa|2
+|-enditem|p1a: Thundurus|Sitrus Berry|[eat]
+|-heal|p1a: Thundurus|60/100|[from] item: Sitrus Berry
+|move|p2b: Ting-Lu|Stomping Tantrum|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|44/100
+|
+|upkeep
+|turn|9
+|inactive|leuc has 30 seconds left.
+|
+|t:|1750867360
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Dondozo|Dondozo, L50, M|27/100 par
+|move|p1b: Zacian|Play Rough|p2a: Dondozo
+|-damage|p2a: Dondozo|1/100 par
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Dondozo|[spread] p2a,p2b
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-damage|p2b: Ting-Lu|6/100 par
+|faint|p2a: Dondozo
+|move|p2b: Ting-Lu|Stomping Tantrum|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|14/100
+|
+|upkeep
+|
+|t:|1750867372
+|switch|p2a: Giratina|Giratina-Origin, L50, shiny|100/100
+|turn|10
+|
+|t:|1750867395
+|switch|p1b: Landorus|Landorus-Therian, L50, M|19/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Giratina|atk|1
+|-unboost|p2b: Ting-Lu|atk|1
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p2a: Giratina|Shadow Sneak|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|move|p1a: Thundurus|Thunder Wave|p2a: Giratina
+|-status|p2a: Giratina|par
+|
+|upkeep
+|
+|t:|1750867410
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|62/100
+|turn|11
+|
+|t:|1750867425
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Giratina|[spread] 
+|-activate|p2a: Giratina|move: Protect
+|-miss|p1a: Thundurus|p2b: Ting-Lu
+|move|p1b: Enamorus|Springtide Storm|p2b: Ting-Lu|[spread] p2b
+|-activate|p2a: Giratina|move: Protect
+|-resisted|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|0 fnt
+|faint|p2b: Ting-Lu
+|
+|upkeep
+|
+|t:|1750867434
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|12
+|
+|t:|1750867455
+|move|p1a: Thundurus|Eerie Impulse|p2b: Raging Bolt
+|-unboost|p2b: Raging Bolt|spa|2
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Thundurus
+|-damage|p1a: Thundurus|39/100
+|move|p2a: Giratina|Poltergeist|p1b: Enamorus
+|-activate|p1b: Enamorus|move: Poltergeist|Covert Cloak
+|-damage|p1b: Enamorus|17/100
+|move|p1b: Enamorus|Springtide Storm|p2b: Raging Bolt|[spread] p2a,p2b
+|-supereffective|p2a: Giratina
+|-crit|p2a: Giratina
+|-supereffective|p2b: Raging Bolt
+|-damage|p2a: Giratina|27/100 par
+|-damage|p2b: Raging Bolt|68/100
+|
+|upkeep
+|turn|13
+|inactive|Macwindo has 30 seconds left.
+|inactive|Macwindo has 20 seconds left.
+|inactive|Macwindo has 15 seconds left.
+|inactive|Macwindo has 10 seconds left.
+|inactive|Macwindo has 5 seconds left.
+|
+|t:|1750867510
+|move|p1b: Enamorus|Protect|p1b: Enamorus
+|-singleturn|p1b: Enamorus|Protect
+|move|p1a: Thundurus|Eerie Impulse|p2b: Raging Bolt
+|-unboost|p2b: Raging Bolt|spa|2
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Enamorus
+|-activate|p1b: Enamorus|move: Protect
+|move|p2a: Giratina|Poltergeist||[still]
+|-fail|p2a: Giratina
+|
+|upkeep
+|turn|14
+|inactive|leuc has 30 seconds left.
+|inactive|Macwindo has 30 seconds left.
+|inactive|Macwindo has 20 seconds left.
+|inactive|Macwindo has 15 seconds left.
+|inactive|Macwindo has 10 seconds left.
+|
+|t:|1750867561
+|move|p2b: Raging Bolt|Thunderclap|p1a: Thundurus
+|-damage|p1a: Thundurus|27/100
+|move|p1a: Thundurus|Wildbolt Storm|p2b: Raging Bolt|[spread] p2a,p2b
+|-resisted|p2a: Giratina
+|-resisted|p2b: Raging Bolt
+|-damage|p2a: Giratina|15/100 par
+|-damage|p2b: Raging Bolt|63/100
+|move|p2a: Giratina|Poltergeist|p1b: Enamorus
+|-activate|p1b: Enamorus|move: Poltergeist|Covert Cloak
+|-damage|p1b: Enamorus|0 fnt
+|faint|p1b: Enamorus
+|
+|upkeep
+|
+|t:|1750867571
+|switch|p1b: Zacian|Zacian-Crowned, L50|14/100
+|turn|15
+|
+|t:|1750867584
+|move|p1a: Thundurus|Protect|p1a: Thundurus
+|-singleturn|p1a: Thundurus|Protect
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p2a: Giratina|Shadow Sneak|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|upkeep
+|turn|16
+|inactive|leuc has 30 seconds left.
+|inactive|Macwindo has 30 seconds left.
+|
+|t:|1750867617
+|cant|p2a: Giratina|par
+|move|p1b: Zacian|Play Rough|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|win|leuc
+|raw|leuc's rating: 1302 &rarr; <strong>1321</strong><br />(+19 for winning)
+|raw|Macwindo's rating: 1291 &rarr; <strong>1267</strong><br />(-24 for losing)
+|l|☆Macwindo
+|player|p2|
+|l|☆leuc
+|player|p1|

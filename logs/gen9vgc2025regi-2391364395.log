@@ -1,0 +1,217 @@
+|j|☆bluebleh
+|j|☆relooo
+|t:|1750844103
+|gametype|doubles
+|player|p1|bluebleh|gentleman-gen4dp|1172
+|player|p2|relooo|265|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Kleavor, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Magnezone, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+bluebleh rejected open team sheets.
+|
+|t:|1750844121
+|start
+|switch|p1a: Irony|Magnezone, L50, shiny|100/100
+|switch|p1b: Bosphoramus|Kleavor, L50, M|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750844150
+|-terastallize|p1b: Bosphoramus|Bug
+|move|p2b: Gothitelle|Fake Out|p1b: Bosphoramus
+|-damage|p1b: Bosphoramus|95/100
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Irony|perish3|[silent]
+|-start|p1b: Bosphoramus|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Bosphoramus|flinch
+|move|p1a: Irony|Thunder|p2b: Gothitelle
+|-damage|p2b: Gothitelle|44/100
+|-status|p2b: Gothitelle|par
+|
+|-heal|p2b: Gothitelle|50/100 par|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Bosphoramus|perish3
+|-start|p1a: Irony|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750844170
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p2a: Scream Tail|Disable|p1a: Irony
+|-start|p1a: Irony|Disable|Thunder
+|move|p1b: Bosphoramus|X-Scissor|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|cant|p1a: Irony|Disable|Thunder
+|
+|-heal|p2b: Gothitelle|56/100 par|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish2
+|-start|p1b: Bosphoramus|perish2
+|-start|p1a: Irony|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750844203
+|move|p2a: Scream Tail|Disable|p1b: Bosphoramus
+|-start|p1b: Bosphoramus|Disable|X-Scissor
+|cant|p1b: Bosphoramus|Disable|X-Scissor
+|move|p1a: Irony|Steel Beam|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|-damage|p1a: Irony|50/100|[from] steelbeam
+|faint|p2b: Gothitelle
+|
+|-start|p2a: Scream Tail|perish1
+|-start|p1b: Bosphoramus|perish1
+|-start|p1a: Irony|perish1
+|upkeep
+|
+|t:|1750844213
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|4
+|
+|t:|1750844226
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Zacian|Swords Dance|p2b: Zacian
+|-boost|p2b: Zacian|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750844245
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: bluebleh|move: Tailwind
+|move|p1a: Groudon|Precipice Blades|p2a: Scream Tail|[spread] p2a
+|-activate|p2b: Zacian|move: Protect
+|-damage|p2a: Scream Tail|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750844267
+|-terastallize|p2b: Zacian|Water
+|move|p2a: Scream Tail|Disable|p1a: Groudon
+|-start|p1a: Groudon|Disable|Precipice Blades
+|move|p1a: Groudon|Heavy Slam|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|move|p1b: Ho-Oh|Sacred Fire|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|60/100
+|-status|p2b: Zacian|brn
+|move|p2b: Zacian|Behemoth Blade|p1a: Groudon
+|-damage|p1a: Groudon|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Zacian|54/100 brn|[from] brn
+|upkeep
+|
+|t:|1750844273
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|7
+|
+|t:|1750844300
+|switch|p1b: Bosphoramus|Kleavor, L50, M, tera:Bug|95/100
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1a: Groudon|Crunch|p2b: Zacian
+|-activate|p2b: Zacian|move: Protect
+|move|p2a: Kyogre|Origin Pulse|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Bosphoramus|12/100
+|faint|p1a: Groudon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Zacian|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1750844314
+|switch|p1a: Irony|Magnezone, L50, shiny|50/100
+|turn|8
+|
+|t:|1750844331
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Bosphoramus|X-Scissor|p2b: Zacian
+|-crit|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|move|p1a: Irony|Thunder|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: bluebleh|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1750844344
+|move|p2a: Kyogre|Water Spout|p1b: Bosphoramus|[spread] p1a,p1b
+|-damage|p1a: Irony|0 fnt
+|-damage|p1b: Bosphoramus|0 fnt
+|faint|p1a: Irony
+|faint|p1b: Bosphoramus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750844351
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|10
+|
+|t:|1750844357
+|move|p2a: Kyogre|Water Spout|p1b: Ho-Oh
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|
+|win|relooo
+|raw|bluebleh's rating: 1172 &rarr; <strong>1146</strong><br />(-26 for losing)
+|raw|relooo's rating: 1157 &rarr; <strong>1183</strong><br />(+26 for winning)
+|l|☆bluebleh
+|player|p1|
+|l|☆relooo
+|player|p2|

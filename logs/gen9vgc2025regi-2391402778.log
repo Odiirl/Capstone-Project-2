@@ -1,0 +1,134 @@
+|j|☆SERENA2024
+|j|☆MorrisPXG456
+|t:|1750850862
+|gametype|doubles
+|player|p1|SERENA2024|101|1504
+|player|p2|MorrisPXG456|colress|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SERENA2024)
+|
+|t:|1750850885
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Azure Dragon|Miraidon, L50|100/100
+|switch|p2b: Aventurine|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Azure Dragon
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750850903
+|-terastallize|p2a: Azure Dragon|Fairy
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Aventurine|Light Screen|p2b: Aventurine
+|-sidestart|p2: MorrisPXG456|move: Light Screen
+|move|p2a: Azure Dragon|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Calyrex|56/100
+|-damage|p1b: Miraidon|51/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Azure Dragon|[spread] p2a,p2b
+|-supereffective|p2b: Aventurine
+|-damage|p2a: Azure Dragon|62/100
+|-damage|p2b: Aventurine|24/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750850914
+|move|p2b: Aventurine|Reflect|p2b: Aventurine
+|-sidestart|p2: MorrisPXG456|Reflect
+|move|p1a: Calyrex|Glacial Lance|p2a: Azure Dragon|[spread] p2a,p2b
+|-damage|p2a: Azure Dragon|25/100
+|-damage|p2b: Aventurine|0 fnt
+|faint|p2b: Aventurine
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Azure Dragon
+|-damage|p2a: Azure Dragon|0 fnt
+|faint|p2a: Azure Dragon
+|
+|-heal|p1a: Calyrex|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750850924
+|switch|p2b: feedtheorca|Kyogre, L50|100/100
+|switch|p2a: Kasandra|Urshifu-Rapid-Strike, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: feedtheorca
+|turn|3
+|
+|t:|1750850941
+|move|p1a: Calyrex|Glacial Lance|p2a: Kasandra|[spread] p2a,p2b
+|-resisted|p2a: Kasandra
+|-resisted|p2b: feedtheorca
+|-damage|p2a: Kasandra|75/100
+|-damage|p2b: feedtheorca|80/100
+|move|p2b: feedtheorca|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|11/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2a: Kasandra|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-hitcount|p1: Calyrex|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750850947
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kasandra|atk|1
+|-unboost|p2b: feedtheorca|atk|1
+|turn|4
+|
+|t:|1750850959
+|move|p2b: feedtheorca|Protect|p2b: feedtheorca
+|-singleturn|p2b: feedtheorca|Protect
+|move|p1b: Incineroar|Fake Out|p2b: feedtheorca
+|-activate|p2b: feedtheorca|move: Protect
+|move|p1a: Landorus|Earth Power|p2a: Kasandra
+|-damage|p2a: Kasandra|0 fnt
+|faint|p2a: Kasandra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750850973
+|move|p2b: feedtheorca|Origin Pulse|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Landorus
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Landorus|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Landorus
+|faint|p1b: Incineroar
+|
+|win|MorrisPXG456
+|raw|SERENA2024's rating: 1504 &rarr; <strong>1483</strong><br />(-21 for losing)
+|raw|MorrisPXG456's rating: 1495 &rarr; <strong>1516</strong><br />(+21 for winning)

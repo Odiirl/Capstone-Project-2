@@ -1,0 +1,224 @@
+|j|☆FlyingDingo
+|j|☆GoofyRonald756
+|t:|1750748410
+|gametype|doubles
+|player|p1|FlyingDingo|hilda-wonderlauncher|1382
+|player|p2|GoofyRonald756|barry|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Kleavor, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FlyingDingo)
+|
+|t:|1750748442
+|start
+|switch|p1a: Giratina|Giratina-Origin, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2b: Iron Hands|Quark Drive
+|turn|1
+|
+|t:|1750748466
+|switch|p2a: Sylveon|Sylveon, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Sylveon
+|-damage|p2a: Sylveon|85/100
+|move|p1a: Giratina|Poltergeist|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Poltergeist|Pixie Plate
+|-damage|p2a: Sylveon|1/100
+|move|p2b: Iron Hands|Volt Switch|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|95/100
+|
+|t:|1750748477
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|
+|upkeep
+|turn|2
+|
+|t:|1750748489
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Giratina|[spread] p1b
+|-activate|p1a: Giratina|move: Protect
+|-damage|p1b: Rillaboom|71/100
+|move|p1b: Rillaboom|U-turn|p2a: Lunala
+|-damage|p2a: Lunala|95/100
+|
+|t:|1750748504
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100|[from] U-turn
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|
+|upkeep
+|turn|3
+|
+|t:|1750748521
+|-terastallize|p2a: Lunala|Fairy
+|-terastallize|p1a: Giratina|Fire
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Miraidon
+|-damage|p2b: Miraidon|45/100
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Chi-Yu|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|73/100
+|-damage|p1b: Chi-Yu|42/100
+|move|p2a: Lunala|Moonblast|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|move|p1a: Giratina|Poltergeist||[still]
+|-fail|p1a: Giratina
+|
+|upkeep
+|
+|t:|1750748540
+|switch|p1b: Rillaboom|Rillaboom, L50, M|71/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1750748553
+|switch|p2b: Sylveon|Sylveon, L50, F|1/100
+|move|p1b: Rillaboom|Fake Out|p2a: Lunala
+|-damage|p2a: Lunala|87/100
+|cant|p2a: Lunala|flinch
+|move|p1a: Giratina|Poltergeist|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Poltergeist|Pixie Plate
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-heal|p2a: Lunala|94/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750748556
+|switch|p2b: Miraidon|Miraidon, L50|45/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|5
+|
+|t:|1750748563
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2b: Miraidon|Volt Switch|p1a: Giratina
+|-activate|p1a: Giratina|move: Protect
+|move|p2a: Lunala|Moonblast|p1b: Zamazenta
+|-damage|p1b: Zamazenta|61/100
+|
+|upkeep
+|turn|6
+|inactive|FlyingDingo has 30 seconds left.
+|
+|t:|1750748592
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Miraidon|Volt Switch|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Giratina
+|-damage|p1a: Giratina|33/100
+|move|p1a: Giratina|Poltergeist|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Poltergeist|Choice Specs
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750748595
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|7
+|inactive|FlyingDingo has 30 seconds left.
+|
+|t:|1750748627
+|switch|p1b: Rillaboom|Rillaboom, L50, M|77/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2b: Iron Hands|Quark Drive
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2b: Iron Hands|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|61/100
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-heal|p1b: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|99/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750748650
+|move|p1b: Rillaboom|Fake Out|p2b: Iron Hands
+|-damage|p2b: Iron Hands|91/100
+|move|p1a: Giratina|Shadow Sneak|p2a: Lunala
+|-damage|p2a: Lunala|87/100
+|cant|p2b: Iron Hands|flinch
+|move|p2a: Lunala|Moongeist Beam|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|-heal|p2b: Iron Hands|98/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|73/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750748660
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|61/100
+|turn|9
+|
+|t:|1750748671
+|move|p2b: Iron Hands|Low Kick|p1b: Rillaboom
+|-damage|p1b: Rillaboom|30/100
+|move|p1b: Rillaboom|Wood Hammer|p2a: Lunala
+|-damage|p2a: Lunala|54/100
+|-damage|p1b: Rillaboom|14/100|[from] Recoil
+|move|p2a: Lunala|Moongeist Beam|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Zamazenta|Heavy Slam|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|6/100
+|
+|-heal|p2b: Iron Hands|100/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|12/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|68/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1750748689
+|move|p2b: Iron Hands|Low Kick|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|GoofyRonald756
+|raw|FlyingDingo's rating: 1382 &rarr; <strong>1361</strong><br />(-21 for losing)
+|raw|GoofyRonald756's rating: 1372 &rarr; <strong>1393</strong><br />(+21 for winning)
+|l|☆FlyingDingo
+|player|p1|
+|l|☆GoofyRonald756
+|player|p2|

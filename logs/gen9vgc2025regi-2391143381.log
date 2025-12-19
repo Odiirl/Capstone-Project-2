@@ -1,0 +1,269 @@
+|j|☆judevgc
+|j|☆quagzacian
+|t:|1750807891
+|gametype|doubles
+|player|p1|judevgc|1|1561
+|player|p2|quagzacian|barry|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750807926
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|turn|1
+|
+|t:|1750807947
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Volcarona|Struggle Bug|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Incineroar|84/100
+|-damage|p2b: Lunala|94/100
+|-unboost|p2a: Incineroar|spa|1
+|-unboost|p2b: Lunala|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Volcarona
+|-damage|p1a: Volcarona|69/100
+|move|p2a: Incineroar|Parting Shot|p1a: Volcarona
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1a: Volcarona|spa|1
+|
+|t:|1750807954
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750807965
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Miraidon|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|14/100
+|
+|t:|1750807969
+|switch|p2a: Incineroar|Incineroar, L50, M|84/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1a: Volcarona|Struggle Bug|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Incineroar|72/100
+|-damage|p2b: Lunala|84/100
+|-unboost|p2a: Incineroar|spa|1
+|-unboost|p2b: Lunala|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Rillaboom
+|-damage|p1b: Rillaboom|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|20/100|[from] Grassy Terrain
+|-heal|p2b: Lunala|90/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|87/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|78/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750807985
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Rillaboom|Fake Out|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|63/100
+|-damage|p1b: Rillaboom|71/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|cant|p2a: Incineroar|flinch
+|move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+|-heal|p1a: Volcarona|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750808007
+|move|p2b: Miraidon|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|t:|1750808010
+|switch|p2b: Lunala|Lunala, L50|90/100|[from] Volt Switch
+|move|p1b: Rillaboom|U-turn|p2b: Lunala
+|-damage|p2b: Lunala|79/100
+|
+|t:|1750808018
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] U-turn
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Incineroar|Parting Shot|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750808029
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750808064
+|switch|p2a: Sylveon|Sylveon, L50, F, shiny|100/100
+|-terastallize|p1b: Koraidon|Fire
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Flutter Mane|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|64/100
+|-unboost|p2a: Sylveon|spa|1
+|move|p1b: Koraidon|Flare Blitz|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|-damage|p1b: Koraidon|67/100|[from] Recoil
+|
+|-weather|none
+|-end|p1a: Flutter Mane|Protosynthesis
+|upkeep
+|
+|t:|1750808071
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750808083
+|switch|p1b: Rillaboom|Rillaboom, L50, F|71/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|switch|p2a: Incineroar|Incineroar, L50, M|63/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1a: Flutter Mane|Icy Wind|p2b: Miraidon|[spread] p2b
+|-miss|p1a: Flutter Mane|p2a: Incineroar
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|73/100
+|-unboost|p2b: Miraidon|spe|1
+|move|p2b: Miraidon|Volt Switch|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|34/100
+|
+|t:|1750808087
+|switch|p2b: Sylveon|Sylveon, L50, F, shiny|64/100|[from] Volt Switch
+|
+|-heal|p1a: Flutter Mane|40/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|76/100|[from] Grassy Terrain
+|-heal|p2b: Sylveon|70/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|69/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750808111
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Koraidon|Koraidon, L50, tera:Fire|67/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Rillaboom|Fake Out|p2b: Sylveon
+|-damage|p2b: Sylveon|59/100
+|cant|p2b: Sylveon|flinch
+|move|p2a: Incineroar|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Incineroar|43/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|72/100|[from] Grassy Terrain
+|-heal|p2b: Sylveon|65/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750808122
+|switch|p1b: Flutter Mane|Flutter Mane, L50|40/100
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|8
+|
+|t:|1750808134
+|move|p2b: Sylveon|Quick Attack|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|12/100
+|move|p1b: Flutter Mane|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|-unboost|p2a: Incineroar|spa|1
+|move|p1a: Koraidon|Flame Charge|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Sylveon
+|move|p2a: Incineroar|Parting Shot|p1b: Flutter Mane
+|-unboost|p1b: Flutter Mane|atk|1
+|-unboost|p1b: Flutter Mane|spa|1
+|
+|t:|1750808139
+|switch|p2a: Miraidon|Miraidon, L50|73/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750808140
+|switch|p2b: Incineroar|Incineroar, L50, M|1/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Flutter Mane|atk|1
+|turn|9
+|
+|t:|1750808159
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Flutter Mane|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|11/100
+|move|p2a: Miraidon|Electro Drift|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750808169
+|move|p1a: Koraidon|Collision Course|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Incineroar|Knock Off|p1a: Koraidon
+|-damage|p1a: Koraidon|35/100
+|-enditem|p1a: Koraidon|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|-message|quagzacian forfeited.
+|
+|win|judevgc
+|raw|judevgc's rating: 1561 &rarr; <strong>1576</strong><br />(+15 for winning)
+|raw|quagzacian's rating: 1468 &rarr; <strong>1453</strong><br />(-15 for losing)
+|l|☆quagzacian
+|player|p2|
+|l|☆judevgc
+|player|p1|

@@ -1,0 +1,181 @@
+|j|☆seethemalldie
+|j|☆BonnibeI
+|t:|1750856301
+|gametype|doubles
+|player|p1|seethemalldie|266|1076
+|player|p2|BonnibeI|marnie|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Infernape, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Rayquaza, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p2|Meowscarada, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Hitmontop, L50, M|
+|teampreview|4
+|
+|t:|1750856336
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1a: Rayquaza|Air Lock
+|turn|1
+|
+|t:|1750856384
+|switch|p1a: Enamorus|Enamorus-Therian, L50, F|100/100
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p2b: Meowscarada|Comeuppance||[still]
+|-fail|p2b: Meowscarada
+|move|p1b: Terapagos|Dazzling Gleam|p2b: Meowscarada|[spread] p2b
+|-activate|p2a: Whimsicott|move: Protect
+|-damage|p2b: Meowscarada|70/100
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2b: Zoroark|Illusion
+|
+|upkeep
+|turn|2
+|
+|t:|1750856412
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: BonnibeI|move: Tailwind
+|move|p2b: Zoroark|Body Slam|p1a: Enamorus
+|-damage|p1a: Enamorus|61/100
+|move|p1b: Terapagos|Dazzling Gleam|p2b: Zoroark|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|71/100
+|-damage|p2b: Zoroark|38/100
+|move|p1a: Enamorus|Tailwind|p1a: Enamorus
+|-sidestart|p1: seethemalldie|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1750856430
+|move|p2a: Whimsicott|Encore|p1a: Enamorus
+|-start|p1a: Enamorus|Encore
+|move|p2b: Zoroark|Body Slam|p1a: Enamorus
+|-damage|p1a: Enamorus|24/100
+|move|p1b: Terapagos|Dazzling Gleam|p2a: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|43/100
+|-damage|p2b: Zoroark|4/100
+|move|p1a: Enamorus|Tailwind||[still]
+|-fail|p1a: Enamorus
+|
+|upkeep
+|turn|4
+|
+|t:|1750856450
+|switch|p1a: Infernape|Infernape, L50, M|100/100
+|move|p2a: Whimsicott|Moonblast|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|81/100
+|move|p2b: Zoroark|Body Slam|p1a: Infernape
+|-damage|p1a: Infernape|41/100
+|move|p1b: Terapagos|Dazzling Gleam|p2b: Zoroark|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|16/100
+|-damage|p2b: Zoroark|0 fnt
+|faint|p2b: Zoroark
+|
+|upkeep
+|
+|t:|1750856472
+|switch|p2b: Giratina|Giratina-Origin, L50|100/100
+|turn|5
+|
+|t:|1750856493
+|-terastallize|p2b: Giratina|Fire
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p1a: Infernape|Fire Punch|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Protect
+|move|p1b: Terapagos|Dazzling Gleam|p2b: Giratina|[spread] p2b
+|-activate|p2a: Whimsicott|move: Protect
+|-resisted|p2b: Giratina
+|-damage|p2b: Giratina|94/100
+|move|p2b: Giratina|Poltergeist|p1a: Infernape
+|-activate|p1a: Infernape|move: Poltergeist|Punching Glove
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-sideend|p1: seethemalldie|move: Tailwind
+|-sideend|p2: BonnibeI|move: Tailwind
+|upkeep
+|
+|t:|1750856514
+|switch|p1a: Rayquaza|Rayquaza, L50|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|6
+|
+|t:|1750856531
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|86/100|[silent]
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: BonnibeI|move: Tailwind
+|move|p2b: Giratina|Draco Meteor|p1a: Rayquaza
+|-supereffective|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|-unboost|p2b: Giratina|spa|2
+|faint|p1a: Rayquaza
+|move|p1b: Terapagos|Tera Starstorm|p2b: Giratina|[spread] p2a,p2b
+|-supereffective|p2b: Giratina
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Giratina|34/100
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1750856548
+|switch|p2a: Meowscarada|Meowscarada, L50, M|100/100
+|switch|p1a: Enamorus|Enamorus-Therian, L50, F|24/100
+|turn|7
+|
+|t:|1750856572
+|move|p2b: Giratina|Shadow Sneak|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|move|p2a: Meowscarada|Flower Trick|p1b: Terapagos
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|44/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Meowscarada|[spread] p2a,p2b
+|-supereffective|p2b: Giratina
+|-damage|p2a: Meowscarada|38/100
+|-damage|p2b: Giratina|0 fnt
+|faint|p2b: Giratina
+|
+|upkeep
+|turn|8
+|
+|t:|1750856594
+|move|p2a: Meowscarada|Flower Trick|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|BonnibeI
+|raw|seethemalldie's rating: 1076 &rarr; <strong>1054</strong><br />(-22 for losing)
+|raw|BonnibeI's rating: 1072 &rarr; <strong>1102</strong><br />(+30 for winning)
+|l|☆BonnibeI
+|player|p2|
+|l|☆seethemalldie
+|player|p1|

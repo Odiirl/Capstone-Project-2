@@ -1,0 +1,169 @@
+|j|☆Pokeahitana
+|j|☆JSNJS
+|t:|1750730177
+|gametype|doubles
+|player|p1|Pokeahitana|102|1194
+|player|p2|JSNJS|102|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Zebstrika, L50, M|
+|poke|p2|Mudsdale, L50, M|
+|poke|p2|Spectrier, L50|
+|poke|p2|Glastrier, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pokeahitana)
+|
+|t:|1750730233
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Spectrier|Spectrier, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750730257
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: Pokeahitana|move: Tailwind
+|move|p1a: Koraidon|Flame Charge|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-boost|p1a: Koraidon|spe|1
+|move|p2b: Spectrier|Psychic|p1a: Koraidon
+|-damage|p1a: Koraidon|62/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Koraidon|9/100
+|-damage|p1b: Whimsicott|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Pokeahitana has 30 seconds left.
+|
+|t:|1750730284
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Koraidon|Flare Blitz|p2b: Spectrier
+|-damage|p2b: Spectrier|0 fnt
+|faint|p2b: Spectrier
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|move|p1b: Whimsicott|Moonblast|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750730299
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750730328
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Calyrex|Expanding Force|p2b: Farigiraf|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-resisted|p2b: Farigiraf
+|-damage|p2b: Farigiraf|62/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750730351
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Farigiraf|Hyper Voice|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Indeedee|83/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Indeedee|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-immune|p1b: Indeedee
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Pokeahitana|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750730371
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1a
+|-immune|p1b: Indeedee
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Indeedee|Psychic|p2b: Farigiraf
+|-resisted|p2b: Farigiraf
+|-damage|p2b: Farigiraf|46/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Indeedee
+|-damage|p1b: Indeedee|59/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750730387
+|switch|p1a: Whimsicott|Whimsicott, L50, M|5/100
+|turn|6
+|
+|t:|1750730396
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Pokeahitana|move: Tailwind
+|move|p2a: Calyrex|Astral Barrage|p1a: Whimsicott|[spread] p1a
+|-immune|p1b: Indeedee
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Indeedee|Psychic|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Farigiraf|Hyper Voice|p1b: Indeedee
+|-damage|p1b: Indeedee|37/100
+|
+|upkeep
+|
+|t:|1750730406
+|switch|p2a: Mudsdale|Mudsdale, L50, M|100/100
+|turn|7
+|-message|Pokeahitana forfeited.
+|
+|win|JSNJS
+|raw|Pokeahitana's rating: 1194 &rarr; <strong>1163</strong><br />(-31 for losing)
+|raw|JSNJS's rating: 1110 &rarr; <strong>1141</strong><br />(+31 for winning)
+|l|☆Pokeahitana
+|player|p1|
+|l|☆JSNJS
+|player|p2|

@@ -1,0 +1,210 @@
+|j|☆DotBien
+|j|☆alethor
+|t:|1750880787
+|gametype|doubles
+|player|p1|DotBien|102|1078
+|player|p2|alethor|gambler|1020
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lugia, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Arcanine, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Dugtrio, L50, F|
+|poke|p2|Clefairy, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alethor)
+|inactive|DotBien has 60 seconds left.
+|
+|t:|1750880832
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|inactive|DotBien has 30 seconds left.
+|
+|t:|1750880862
+|move|p2b: Gothitelle|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|99/100
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: DotBien|move: Light Screen
+|cant|p1b: Zamazenta|flinch
+|move|p2a: Primarina|Perish Song|p2a: Primarina
+|-start|p1a: Whimsicott|perish3|[silent]
+|-start|p1b: Zamazenta|perish3|[silent]
+|-start|p2a: Primarina|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p1b: Zamazenta|perish3
+|-start|p1a: Whimsicott|perish3
+|-start|p2a: Primarina|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|inactive|DotBien has 30 seconds left.
+|
+|t:|1750880889
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Gothitelle
+|-damage|p2b: Gothitelle|48/100
+|-damage|p1b: Zamazenta|83/100|[from] item: Rocky Helmet|[of] p2b: Gothitelle
+|move|p1a: Whimsicott|Dazzling Gleam|p2a: Primarina|[spread] p2b
+|-activate|p2a: Primarina|move: Protect
+|-damage|p2b: Gothitelle|37/100
+|move|p2b: Gothitelle|Thunder Wave|p1b: Zamazenta
+|-status|p1b: Zamazenta|par
+|
+|-start|p1a: Whimsicott|perish2
+|-start|p2a: Primarina|perish2
+|-start|p1b: Zamazenta|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|DotBien has 30 seconds left.
+|
+|t:|1750880920
+|move|p1a: Whimsicott|Dazzling Gleam|p2a: Primarina|[spread] p2a,p2b
+|-crit|p2a: Primarina
+|-crit|p2b: Gothitelle
+|-damage|p2a: Primarina|79/100
+|-damage|p2b: Gothitelle|20/100
+|move|p2a: Primarina|Flip Turn|p1b: Zamazenta
+|-damage|p1b: Zamazenta|74/100 par
+|
+|t:|1750880928
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100|[from] Flip Turn
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|cant|p1b: Zamazenta|par
+|move|p2b: Gothitelle|Substitute|p2b: Gothitelle
+|-fail|p2b: Gothitelle|move: Substitute|[weak]
+|
+|-start|p1a: Whimsicott|perish1
+|-start|p1b: Zamazenta|perish1
+|-start|p2b: Gothitelle|perish1
+|upkeep
+|turn|4
+|inactive|DotBien has 30 seconds left.
+|inactive|DotBien has 20 seconds left.
+|inactive|DotBien has 15 seconds left.
+|inactive|DotBien has 10 seconds left.
+|
+|t:|1750880975
+|switch|p2b: Dugtrio|Dugtrio, L50, F|100/100
+|move|p1a: Whimsicott|Helping Hand|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Helping Hand|[of] p1a: Whimsicott
+|move|p2a: Flutter Mane|Phantom Force||[still]
+|-prepare|p2a: Flutter Mane|Phantom Force
+|cant|p1b: Zamazenta|par
+|
+|-start|p1a: Whimsicott|perish0
+|-start|p1b: Zamazenta|perish0
+|faint|p1a: Whimsicott
+|faint|p1b: Zamazenta
+|upkeep
+|
+|t:|1750880990
+|switch|p1b: Lugia|Lugia, L50, shiny|100/100
+|switch|p1a: Arcanine|Arcanine, L50, M, shiny|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2b: Dugtrio|atk|1
+|turn|5
+|inactive|alethor has 30 seconds left.
+|inactive|DotBien has 30 seconds left.
+|inactive|alethor has 20 seconds left.
+|inactive|alethor has 15 seconds left.
+|
+|t:|1750881033
+|-terastallize|p1b: Lugia|Ground
+|move|p2a: Flutter Mane|Phantom Force|p1b: Lugia|[from] lockedmove
+|-damage|p1b: Lugia|96/100
+|move|p2b: Dugtrio|Dig||[still]
+|-prepare|p2b: Dugtrio|Dig
+|move|p1b: Lugia|Calm Mind|p1b: Lugia
+|-boost|p1b: Lugia|spa|1
+|-boost|p1b: Lugia|spd|1
+|move|p1a: Arcanine|Substitute|p1a: Arcanine
+|-start|p1a: Arcanine|Substitute
+|-damage|p1a: Arcanine|76/100
+|
+|-sideend|p1: DotBien|move: Light Screen
+|upkeep
+|turn|6
+|inactive|DotBien has 30 seconds left.
+|
+|t:|1750881064
+|move|p2a: Flutter Mane|Perish Song|p2a: Flutter Mane
+|-start|p1a: Arcanine|perish3|[silent]
+|-start|p1b: Lugia|perish3|[silent]
+|-start|p2a: Flutter Mane|perish3|[silent]
+|-miss|p2a: Flutter Mane|p2b: Dugtrio
+|-fieldactivate|move: Perish Song
+|move|p2b: Dugtrio|Dig|p1a: Arcanine|[from] lockedmove
+|-supereffective|p1a: Arcanine
+|-end|p1a: Arcanine|Substitute
+|move|p1b: Lugia|Earth Power|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|50/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1a: Arcanine|60/100|[from] Recoil
+|
+|-start|p1b: Lugia|perish3
+|-start|p1a: Arcanine|perish3
+|upkeep
+|
+|t:|1750881079
+|switch|p2a: Primarina|Primarina, L50, F|79/100
+|turn|7
+|
+|t:|1750881094
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Arcanine|Extreme Speed|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|move|p2b: Dugtrio|Dig||[still]
+|-prepare|p2b: Dugtrio|Dig
+|move|p1b: Lugia|Aeroblast|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2a: Primarina|85/100|[from] item: Leftovers
+|-start|p1b: Lugia|perish2
+|-start|p1a: Arcanine|perish2
+|upkeep
+|turn|8
+|l|☆DotBien
+|inactive|DotBien disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|DotBien has 30 seconds left.
+|inactive|alethor has 30 seconds left.
+|inactive|DotBien has 20 seconds left.
+|inactive|DotBien has 15 seconds left.
+|inactive|DotBien has 10 seconds left.
+|inactive|DotBien has 5 seconds left.
+|-message|DotBien lost due to inactivity.
+|
+|win|alethor
+|raw|DotBien's rating: 1078 &rarr; <strong>1053</strong><br />(-25 for losing)
+|raw|alethor's rating: 1020 &rarr; <strong>1063</strong><br />(+43 for winning)

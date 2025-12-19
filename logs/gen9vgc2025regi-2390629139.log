@@ -1,0 +1,142 @@
+|j|☆gdyee
+|j|☆ghyy
+|t:|1750738882
+|gametype|doubles
+|player|p1|gdyee|102|1170
+|player|p2|ghyy|1|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p1|Cinderace, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ghyy)
+|
+|t:|1750738912
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750738933
+|move|p2a: Koraidon|Collision Course|p1b: Miraidon
+|-damage|p1b: Miraidon|41/100
+|move|p1b: Miraidon|Volt Switch|p2b: Incineroar
+|-damage|p2b: Incineroar|7/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|32/100|[from] item: Sitrus Berry
+|
+|t:|1750738943
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|move|p2b: Incineroar|Flare Blitz|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|10/100
+|-damage|p2b: Incineroar|11/100|[from] Recoil
+|move|p1a: Farigiraf|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|23/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750738955
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750738965
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Iron Bundle|Icy Wind|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Flutter Mane|75/100
+|-unboost|p2b: Flutter Mane|spe|1
+|move|p2b: Flutter Mane|Dazzling Gleam|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|74/100
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|move|p1a: Farigiraf|Psychic|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750738983
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|3
+|
+|t:|1750738997
+|move|p2a: Koraidon|Flare Blitz|p1b: Landorus
+|-damage|p1b: Landorus|13/100
+|-status|p1b: Landorus|brn
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|move|p2b: Flutter Mane|Shadow Ball|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|move|p1a: Farigiraf|Dazzling Gleam|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750739008
+|switch|p2b: Kyurem|Kyurem-White, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|41/100
+|-ability|p2b: Kyurem|Turboblaze
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750739015
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Kyurem|Blizzard|p1a: Farigiraf|[spread] p1a
+|-miss|p2b: Kyurem|p1b: Miraidon
+|-damage|p1a: Farigiraf|30/100
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|0 fnt
+|faint|p2b: Kyurem
+|
+|win|gdyee
+|raw|gdyee's rating: 1170 &rarr; <strong>1190</strong><br />(+20 for winning)
+|raw|ghyy's rating: 1103 &rarr; <strong>1083</strong><br />(-20 for losing)
+|l|☆ghyy
+|player|p2|
+|l|☆gdyee
+|player|p1|

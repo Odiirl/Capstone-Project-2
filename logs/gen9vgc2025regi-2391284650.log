@@ -1,0 +1,178 @@
+|j|☆JSNJS
+|j|☆Ghost992663
+|t:|1750828391
+|gametype|doubles
+|player|p1|JSNJS|1|1165
+|player|p2|Ghost992663|170|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zebstrika, L50, F|
+|poke|p1|Mudsdale, L50, F|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750828429
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Spectrier|Spectrier, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750828454
+|-terastallize|p2a: Lunala|Fairy
+|move|p1b: Spectrier|Snarl|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|98/100
+|-damage|p2b: Miraidon|92/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Miraidon|spa|1
+|move|p1a: Calyrex|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|59/100
+|-damage|p2b: Miraidon|65/100
+|move|p2b: Miraidon|Volt Switch|p1b: Spectrier
+|-damage|p1b: Spectrier|43/100
+|
+|t:|1750828467
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750828485
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Ursaluna|Earthquake|p1a: Calyrex|[spread] p1a,p1b
+|-activate|p2a: Lunala|move: Wide Guard
+|-damage|p1a: Calyrex|15/100
+|-damage|p1b: Spectrier|0 fnt
+|faint|p1b: Spectrier
+|move|p1a: Calyrex|Psychic|p2b: Ursaluna
+|-damage|p2b: Ursaluna|52/100 brn
+|-unboost|p2b: Ursaluna|spd|1
+|
+|-damage|p2b: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|
+|t:|1750828493
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1750828511
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Ursaluna|Earthquake|p1a: Calyrex|[spread] p1b
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Farigiraf|41/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-damage|p2b: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750828527
+|switch|p2b: Miraidon|Miraidon, L50|65/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Calyrex|Psychic|p2a: Lunala
+|-damage|p2a: Lunala|2/100
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|5
+|
+|t:|1750828545
+|switch|p1a: Zebstrika|Zebstrika, L50, F|100/100
+|move|p1b: Farigiraf|Hyper Voice|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|0 fnt
+|-damage|p2b: Miraidon|52/100
+|faint|p2a: Lunala
+|move|p2b: Miraidon|Volt Switch|p1a: Zebstrika
+|-ability|p1a: Zebstrika|Lightning Rod|boost
+|-boost|p1a: Zebstrika|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750828556
+|switch|p2a: Ursaluna|Ursaluna, L50, F|40/100 brn
+|turn|6
+|
+|t:|1750828568
+|move|p2a: Ursaluna|Headlong Rush|p1a: Zebstrika
+|-supereffective|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Zebstrika
+|move|p2b: Miraidon|Draco Meteor|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Farigiraf
+|
+|-damage|p2a: Ursaluna|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1750828571
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|15/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750828587
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Miraidon|Snarl|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-damage|p2a: Ursaluna|29/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750828613
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p2a: Ursaluna|Headlong Rush|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Calyrex
+|
+|win|Ghost992663
+|raw|JSNJS's rating: 1165 &rarr; <strong>1143</strong><br />(-22 for losing)
+|raw|Ghost992663's rating: 1204 &rarr; <strong>1226</strong><br />(+22 for winning)
+|l|☆Ghost992663
+|player|p2|
+|l|☆JSNJS
+|player|p1|

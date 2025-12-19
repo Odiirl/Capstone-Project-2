@@ -1,0 +1,143 @@
+|j|☆victorlien
+|j|☆wuhanyiluanma
+|t:|1750881776
+|gametype|doubles
+|player|p1|victorlien|170|1495
+|player|p2|wuhanyiluanma|1|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Shiftry, L50, M|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Palkia, L50|
+|poke|p2|Lanturn, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Oranguru, L50, M|
+|teampreview|4
+|
+|t:|1750881920
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Palkia|Palkia, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750881957
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: wuhanyiluanma|Reflect
+|move|p1b: Koraidon|Flare Blitz|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-damage|p1b: Koraidon|62/100|[from] Recoil
+|-damage|p1b: Koraidon|53/100|[from] item: Life Orb
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Palkia
+|-activate|p2b: Palkia|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| 1TrickRoom
+|
+|t:|1750881979
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|2
+|
+|t:|1750881986
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p1a: Lunala|Expanding Force|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|53/100
+|-damage|p2b: Palkia|25/100
+|move|p2b: Palkia|Hydro Pump|p1b: Indeedee
+|-damage|p1b: Indeedee|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|l| 1TrickRoom
+|
+|t:|1750882008
+|move|p1b: Indeedee|Helping Hand|p1a: Lunala
+|-singleturn|p1a: Lunala|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Miraidon|Parabolic Charge|p1a: Lunala|[spread] p1a,p1b
+|-activate|p2b: Palkia|ability: Telepathy
+|-damage|p1a: Lunala|88/100
+|-heal|p2a: Miraidon|60/100|[from] drain|[of] p1a: Lunala
+|-damage|p1b: Indeedee|27/100
+|-heal|p2a: Miraidon|75/100|[from] drain|[of] p1b: Indeedee
+|move|p1a: Lunala|Expanding Force|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|2/100
+|-damage|p2b: Palkia|0 fnt
+|faint|p2b: Palkia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750882024
+|switch|p2b: Lanturn|Lanturn, L50, M|100/100
+|turn|4
+|
+|t:|1750882037
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Indeedee|Alluring Voice|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Lanturn|Eerie Impulse|p1a: Lunala
+|-unboost|p1a: Lunala|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750882052
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Miraidon|Parabolic Charge|p1b: Indeedee|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Indeedee|move: Wide Guard
+|-immune|p2b: Lanturn|[from] ability: Volt Absorb
+|move|p1b: Indeedee|Alluring Voice|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Lanturn|Soak|p1a: Lunala
+|-start|p1a: Lunala|typechange|Water
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|wuhanyiluanma forfeited.
+|
+|win|victorlien
+|raw|victorlien's rating: 1495 &rarr; <strong>1516</strong><br />(+21 for winning)
+|raw|wuhanyiluanma's rating: 1518 &rarr; <strong>1497</strong><br />(-21 for losing)
+|l|☆wuhanyiluanma
+|player|p2|
+|l|☆victorlien
+|player|p1|

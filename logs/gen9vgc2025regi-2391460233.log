@@ -1,0 +1,180 @@
+|j|☆FluxVGC
+|j|☆dabster2187
+|t:|1750858930
+|gametype|doubles
+|player|p1|FluxVGC|266|1153
+|player|p2|dabster2187|2|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dabster2187)
+|inactive|FluxVGC also wants the timer to be on.
+|inactive|FluxVGC has 60 seconds left.
+|
+|t:|1750858981
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|1
+|
+|t:|1750859004
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: FluxVGC|move: Light Screen
+|move|p2a: Flutter Mane|Perish Song|p2a: Flutter Mane
+|-start|p1a: Grimmsnarl|perish3|[silent]
+|-start|p1b: Terapagos|perish3|[silent]
+|-start|p2a: Flutter Mane|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2b: Gothitelle|Taunt|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Taunt
+|
+|-start|p2a: Flutter Mane|perish3
+|-start|p1b: Terapagos|perish3
+|-start|p1a: Grimmsnarl|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750859021
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2a: Flutter Mane|[spread] 
+|-activate|p2a: Flutter Mane|move: Protect
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|
+|-start|p2a: Flutter Mane|perish2
+|-start|p1b: Terapagos|perish2
+|-start|p1a: Grimmsnarl|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|dabster2187 has 30 seconds left.
+|
+|t:|1750859046
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Flutter Mane|Moonblast|p1b: Terapagos
+|-damage|p1b: Terapagos|88/100
+|-unboost|p1b: Terapagos|spa|1
+|move|p1b: Terapagos|Tera Starstorm|p2b: Amoonguss|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|68/100
+|-damage|p2b: Amoonguss|73/100
+|-enditem|p2b: Amoonguss|Eject Button
+|
+|t:|1750859055
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Gothitelle
+|-damage|p2b: Gothitelle|75/100
+|-unboost|p2b: Gothitelle|spa|1
+|
+|-heal|p1b: Terapagos|94/100|[from] item: Leftovers
+|-heal|p2b: Gothitelle|81/100|[from] item: Leftovers
+|-start|p2a: Flutter Mane|perish1
+|-start|p1b: Terapagos|perish1
+|-start|p1a: Grimmsnarl|perish1
+|upkeep
+|turn|4
+|
+|t:|1750859078
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2a: Amoonguss|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-damage|p2a: Amoonguss|75/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|60/100
+|-unboost|p2a: Amoonguss|spa|1
+|
+|-heal|p1b: Terapagos|100/100|[from] item: Leftovers
+|-heal|p2b: Gothitelle|88/100|[from] item: Leftovers
+|-end|p1a: Grimmsnarl|move: Taunt
+|-start|p1b: Terapagos|perish0
+|-start|p1a: Grimmsnarl|perish0
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|t:|1750859091
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|inactive|dabster2187 has 30 seconds left.
+|
+|t:|1750859121
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Calyrex|Glacial Lance|p2b: Zamazenta|[spread] p2b
+|-activate|p2a: Amoonguss|move: Protect
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|84/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1750859141
+|-terastallize|p2a: Amoonguss|Dark
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Calyrex|Glacial Lance|p2b: Zamazenta|[spread] 
+|-activate|p2a: Amoonguss|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Amoonguss|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|24/100
+|
+|upkeep
+|turn|7
+|-message|FluxVGC forfeited.
+|
+|win|dabster2187
+|raw|FluxVGC's rating: 1153 &rarr; <strong>1127</strong><br />(-26 for losing)
+|raw|dabster2187's rating: 1141 &rarr; <strong>1167</strong><br />(+26 for winning)
+|l|☆FluxVGC
+|player|p1|

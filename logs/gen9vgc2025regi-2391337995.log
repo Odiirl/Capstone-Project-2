@@ -1,0 +1,140 @@
+|j|‽glowsharp
+|j|☆NotThinkingVGC
+|t:|1750839003
+|gametype|doubles
+|player|p1|glowsharp|nate|1381
+|player|p2|NotThinkingVGC|hiker-gen4|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750839033
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1750839068
+|move|p1a: Urshifu|U-turn|p2a: Smeargle
+|-damage|p2a: Smeargle|52/100
+|
+|t:|1750839071
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100|[from] U-turn
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|move|p1b: Lunala|Moonblast|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|29/100
+|move|p2a: Smeargle|Spore|p1b: Lunala
+|-status|p1b: Lunala|slp|[from] move: Spore
+|move|p2b: Raging Bolt|Draco Meteor|p1a: Chi-Yu
+|-enditem|p1a: Chi-Yu|Focus Sash
+|-damage|p1a: Chi-Yu|1/100
+|-unboost|p2b: Raging Bolt|spa|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750839106
+|cant|p1b: Lunala|slp
+|move|p2b: Raging Bolt|Thunderclap|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|move|p2a: Smeargle|Spore|p1b: Lunala
+|-fail|p1b: Lunala|slp
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|
+|t:|1750839112
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750839129
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Smeargle|Decorate|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|2
+|-boost|p2b: Calyrex|spa|2
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Smeargle|[spread] p2a,p2b
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2b: Calyrex|45/100
+|faint|p2a: Smeargle
+|cant|p1b: Lunala|slp
+|
+|upkeep
+|
+|t:|1750839137
+|switch|p2a: Raging Bolt|Raging Bolt, L50|29/100
+|turn|4
+|
+|t:|1750839154
+|-terastallize|p2b: Calyrex|Dark
+|-curestatus|p1b: Lunala|slp|[msg]
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|Psychic|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|36/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Lunala
+|-damage|p1b: Lunala|76/100
+|
+|upkeep
+|
+|t:|1750839162
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|
+|t:|1750839175
+|move|p2a: Raging Bolt|Thunderclap|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|move|p2b: Calyrex|Astral Barrage|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-damage|p2b: Calyrex|26/100|[from] item: Life Orb
+|
+|win|NotThinkingVGC
+|raw|glowsharp's rating: 1381 &rarr; <strong>1360</strong><br />(-21 for losing)
+|raw|NotThinkingVGC's rating: 1362 &rarr; <strong>1383</strong><br />(+21 for winning)
+|l|‽glowsharp
+|player|p1|

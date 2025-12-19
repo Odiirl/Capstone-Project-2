@@ -1,0 +1,113 @@
+|j|☆sprezzatura_ck
+|j|☆iAmGrant
+|t:|1750723274
+|gametype|doubles
+|player|p1|sprezzatura_ck|266|
+|player|p2|iAmGrant|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Wyrdeer, L50, M|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Greninja-*, L50, M|
+|poke|p1|Infernape, L50, M|
+|poke|p1|Heracross, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Golurk, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|
+|t:|1750723296
+|start
+|switch|p1a: Heracross|Heracross, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1750723343
+|-terastallize|p2b: Indeedee|Rock
+|move|p1a: Heracross|Megahorn|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|move|p1b: Jumpluff|Sleep Powder|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Sleep Powder
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Heracross|95/100|[from] Sandstorm
+|-damage|p1b: Jumpluff|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750723359
+|switch|p2b: Tornadus|Tornadus-Therian, L50, M|100/100
+|turn|2
+|
+|t:|1750723387
+|move|p1a: Heracross|Megahorn|p2b: Tornadus
+|-resisted|p2b: Tornadus
+|-damage|p2b: Tornadus|27/100
+|move|p2b: Tornadus|Air Slash|p1a: Heracross
+|-supereffective|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: sprezzatura_ck|move: Tailwind
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Jumpluff|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750723397
+|switch|p1a: Tsareena|Tsareena, L50, F|100/100
+|turn|3
+|
+|t:|1750723414
+|switch|p1b: Wyrdeer|Wyrdeer, L50, M|100/100
+|-terastallize|p1a: Tsareena|Grass
+|move|p1a: Tsareena|Petal Blizzard|p2b: Tornadus|[spread] p2a,p2b
+|-ability|p1b: Wyrdeer|Sap Sipper|boost
+|-boost|p1b: Wyrdeer|atk|1
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-resisted|p2b: Tornadus
+|-enditem|p2a: Tyranitar|Focus Sash
+|-damage|p2a: Tyranitar|1/100 slp
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tsareena|94/100|[from] Sandstorm
+|-damage|p1b: Wyrdeer|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750723429
+|switch|p2b: Golurk|Golurk, L50|100/100
+|turn|4
+|
+|t:|1750723440
+|move|p1a: Tsareena|Petal Blizzard|p2b: Golurk|[spread] p2a,p2b
+|-ability|p1b: Wyrdeer|Sap Sipper|boost
+|-boost|p1b: Wyrdeer|atk|1
+|-supereffective|p2a: Tyranitar
+|-supereffective|p2b: Golurk
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Golurk|0 fnt
+|faint|p2a: Tyranitar
+|faint|p2b: Golurk
+|
+|win|sprezzatura_ck
+|c|☆iAmGrant|gg

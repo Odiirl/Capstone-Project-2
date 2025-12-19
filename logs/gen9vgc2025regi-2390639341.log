@@ -1,0 +1,171 @@
+|j|☆bananahammuck
+|j|☆Light_Sky.L
+|t:|1750740599
+|gametype|doubles
+|player|p1|bananahammuck|266|1521
+|player|p2|Light_Sky.L|266|1478
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Light_Sky.L)
+|inactive|bananahammuck has 60 seconds left.
+|inactive|Light_Sky.L has 60 seconds left.
+|
+|t:|1750740651
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750740670
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|move: Light Screen
+|move|p1b: Raichu|Nuzzle|p2b: Annihilape
+|-damage|p2b: Annihilape|93/100
+|-status|p2b: Annihilape|par
+|move|p1a: Miraidon|Electro Drift|p2b: Annihilape
+|-damage|p2b: Annihilape|14/100 par
+|cant|p2b: Annihilape|par
+|
+|upkeep
+|turn|2
+|
+|t:|1750740691
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Miraidon
+|-status|p1a: Miraidon|par
+|move|p1b: Raichu|Electroweb|p2b: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|87/100
+|-damage|p2b: Annihilape|0 fnt
+|-unboost|p2a: Grimmsnarl|spe|1
+|faint|p2b: Annihilape
+|cant|p1a: Miraidon|par
+|
+|upkeep
+|
+|t:|1750740701
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750740715
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Raichu|atk|1
+|move|p1b: Raichu|Electroweb|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Incineroar|84/100
+|-damage|p2b: Miraidon|97/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p2b: Miraidon|Calm Mind|p2b: Miraidon
+|-boost|p2b: Miraidon|spa|1
+|-boost|p2b: Miraidon|spd|1
+|move|p1a: Miraidon|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1a: Miraidon|84/100 par|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1750740732
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|87/100
+|turn|4
+|
+|t:|1750740740
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Raichu|Encore|p2b: Miraidon
+|-start|p2b: Miraidon|Encore
+|move|p2b: Miraidon|Calm Mind|p2b: Miraidon
+|-boost|p2b: Miraidon|spa|1
+|-boost|p2b: Miraidon|spd|1
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Raichu
+|-damage|p1b: Raichu|14/100
+|-unboost|p1b: Raichu|spa|1
+|
+|upkeep
+|turn|5
+|
+|t:|1750740763
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|-terastallize|p2b: Miraidon|Electric
+|move|p2b: Miraidon|Calm Mind|p2b: Miraidon
+|-boost|p2b: Miraidon|spa|1
+|-boost|p2b: Miraidon|spd|1
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|79/100
+|-unboost|p1b: Volcarona|spa|1
+|-damage|p2a: Grimmsnarl|70/100|[from] item: Rocky Helmet|[of] p1b: Volcarona
+|-status|p2a: Grimmsnarl|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-damage|p2a: Grimmsnarl|64/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750740783
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|Reflect
+|move|p1a: Calyrex|High Horsepower|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|45/100
+|move|p1b: Volcarona|Fiery Dance|p2b: Miraidon
+|-damage|p2b: Miraidon|39/100
+|-boost|p1b: Volcarona|spa|1
+|move|p2b: Miraidon|Calm Mind|p2b: Miraidon
+|-boost|p2b: Miraidon|spa|1
+|-boost|p2b: Miraidon|spd|1
+|
+|-damage|p2a: Grimmsnarl|58/100 brn|[from] brn
+|-end|p2b: Miraidon|Encore
+|upkeep
+|turn|7
+|
+|t:|1750740800
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Volcarona
+|-status|p1b: Volcarona|par
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|4/100 brn
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-damage|p2a: Grimmsnarl|0 fnt|[from] brn
+|faint|p2a: Grimmsnarl
+|
+|win|bananahammuck
+|raw|bananahammuck's rating: 1521 &rarr; <strong>1539</strong><br />(+18 for winning)
+|raw|Light_Sky.L's rating: 1478 &rarr; <strong>1460</strong><br />(-18 for losing)
+|l|☆Light_Sky.L
+|player|p2|
+|l|☆bananahammuck
+|player|p1|

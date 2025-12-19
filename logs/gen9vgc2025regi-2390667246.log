@@ -1,0 +1,178 @@
+|j|☆groundskin
+|j|☆Jameson Murray
+|t:|1750745948
+|gametype|doubles
+|player|p1|groundskin|102|1498
+|player|p2|Jameson Murray|elesa|1572
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750745968
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750745981
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|-terastallize|p1b: Urshifu|Water
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p1b: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|67/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|33/100
+|-enditem|p2b: Calyrex|Sitrus Berry|[eat]
+|-heal|p2b: Calyrex|58/100|[from] item: Sitrus Berry
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|22/100
+|-hitcount|p2b: Calyrex|3
+|move|p2b: Calyrex|Glacial Lance|p1b: Urshifu|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Urshifu
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Urshifu|75/100
+|faint|p1a: Tornadus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750745995
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750746019
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1b: Urshifu|Taunt|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Taunt
+|move|p2b: Calyrex|Imprison|p2b: Calyrex
+|-start|p2b: Calyrex|move: Imprison
+|cant|p1a: Calyrex|move: Imprison|Glacial Lance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750746032
+|move|p1b: Urshifu|Detect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Calyrex|High Horsepower|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750746036
+|switch|p2b: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750746058
+|switch|p2b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|move|p1b: Urshifu|Surging Strikes|p2b: Flutter Mane
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|62/100
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|22/100
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-hitcount|p2: Flutter Mane|3
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Calyrex
+|-damage|p1a: Calyrex|43/100
+|-damage|p2a: Raging Bolt|91/100|[from] item: Life Orb
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746064
+|switch|p2b: Groudon|Groudon, L50, shiny|100/100
+|turn|5
+|
+|t:|1750746081
+|-terastallize|p2a: Raging Bolt|Electric
+|move|p2a: Raging Bolt|Thunderclap|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Raging Bolt|81/100|[from] item: Life Orb
+|move|p2b: Groudon|Precipice Blades|p1b: Urshifu|[miss]
+|-miss|p2b: Groudon|p1b: Urshifu
+|move|p1b: Urshifu|Surging Strikes|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|80/100
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|58/100
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|38/100
+|-hitcount|p2b: Groudon|3
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Raging Bolt|move: Taunt
+|upkeep
+|
+|t:|1750746090
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750746103
+|move|p2a: Raging Bolt|Thunderclap|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-damage|p2a: Raging Bolt|71/100|[from] item: Life Orb
+|move|p2b: Groudon|Precipice Blades|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|Jameson Murray
+|raw|groundskin's rating: 1498 &rarr; <strong>1482</strong><br />(-16 for losing)
+|raw|Jameson Murray's rating: 1572 &rarr; <strong>1588</strong><br />(+16 for winning)
+|l|☆groundskin
+|player|p1|

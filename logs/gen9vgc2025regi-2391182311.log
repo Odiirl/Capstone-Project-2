@@ -1,0 +1,184 @@
+|j|☆Hikawari
+|j|☆xiaoliyunVGC
+|t:|1750813041
+|gametype|doubles
+|player|p1|Hikawari|1|1684
+|player|p2|xiaoliyunVGC|lillie-masters2|1673
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Iron Jugulis, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xiaoliyunVGC)
+|j| joli.sv
+|
+|t:|1750813072
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750813091
+|-terastallize|p2a: Zamazenta|Grass
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Zamazenta|Behemoth Bash|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750813110
+|move|p2b: Chien-Pao|Sucker Punch|p1b: Chien-Pao
+|-resisted|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|79/100
+|move|p1b: Chien-Pao|Icicle Crash|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|52/100
+|move|p1a: Zamazenta|Body Press|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100
+|move|p2a: Zamazenta|Body Press|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|
+|upkeep
+|
+|t:|1750813126
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|inactive|Hikawari has 30 seconds left.
+|
+|t:|1750813151
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Chien-Pao|Crunch|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750813167
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|move|p2b: Chien-Pao|Crunch|p1b: Amoonguss
+|-damage|p1b: Amoonguss|56/100
+|-damage|p2b: Chien-Pao|0 fnt|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p2b: Chien-Pao
+|move|p1a: Zamazenta|Body Press|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|31/100
+|
+|upkeep
+|
+|t:|1750813174
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|5
+|
+|t:|1750813187
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Iron Jugulis|Hurricane|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Zamazenta|Body Press|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750813193
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750813203
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Iron Jugulis|Tailwind|p2a: Iron Jugulis
+|-sidestart|p2: xiaoliyunVGC|move: Tailwind
+|move|p2b: Kyogre|Origin Pulse|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|70/100
+|move|p1a: Zamazenta|Body Press|p2b: Kyogre
+|-damage|p2b: Kyogre|36/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750813217
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2a: Iron Jugulis|Snarl|p1a: Zamazenta|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p2b: Kyogre|Origin Pulse|p1a: Zamazenta|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p1b: Calyrex|Astral Barrage|p2a: Iron Jugulis|[spread] p2a,p2b
+|-resisted|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|faint|p2b: Kyogre
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|xiaoliyunVGC forfeited.
+|
+|win|Hikawari
+|raw|Hikawari's rating: 1684 &rarr; <strong>1703</strong><br />(+19 for winning)
+|raw|xiaoliyunVGC's rating: 1673 &rarr; <strong>1654</strong><br />(-19 for losing)
+|l|☆xiaoliyunVGC
+|player|p2|
+|l|☆Hikawari
+|player|p1|
+|l| joli.sv

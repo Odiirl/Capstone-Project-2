@@ -1,0 +1,219 @@
+|j|☆CEExy
+|j|☆KheaVGC
+|t:|1750777169
+|gametype|doubles
+|player|p1|CEExy|1|1372
+|player|p2|KheaVGC|1|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750777215
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KheaVGC)
+|
+|t:|1750777241
+|-terastallize|p1a: Lunala|Water
+|move|p2b: Calyrex|Substitute|p2b: Calyrex
+|-start|p2b: Calyrex|Substitute
+|-damage|p2b: Calyrex|76/100
+|move|p2a: Flutter Mane|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|move|p1a: Lunala|Moongeist Beam|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|move|p1b: Incineroar|U-turn|p2a: Flutter Mane
+|-resisted|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|t:|1750777251
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1750777258
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750777281
+|move|p2b: Calyrex|Astral Barrage|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|82/100
+|-damage|p1b: Raging Bolt|66/100
+|move|p2a: Koraidon|Collision Course|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|10/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-end|p2b: Calyrex|Substitute
+|move|p1b: Raging Bolt|Electroweb|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|89/100
+|-damage|p2b: Calyrex|49/100
+|-unboost|p2b: Calyrex|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|CEExy has 30 seconds left.
+|inactive|KheaVGC has 30 seconds left.
+|inactive|CEExy has 20 seconds left.
+|inactive|KheaVGC has 20 seconds left.
+|inactive|KheaVGC has 15 seconds left.
+|
+|t:|1750777322
+|move|p1b: Raging Bolt|Thunderclap|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|68/100
+|move|p2a: Koraidon|Flame Charge|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Calyrex|Leech Seed|p1a: Lunala|[miss]
+|-miss|p2b: Calyrex|p1a: Lunala
+|move|p1a: Lunala|Moongeist Beam|p2a: Koraidon
+|-damage|p2a: Koraidon|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Lunala|move: Taunt
+|upkeep
+|
+|t:|1750777331
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Calyrex|atk|1
+|turn|4
+|
+|t:|1750777344
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Calyrex|Substitute|p2b: Calyrex
+|-start|p2b: Calyrex|Substitute
+|-damage|p2b: Calyrex|24/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750777356
+|-terastallize|p2b: Calyrex|Normal
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-end|p2b: Calyrex|Substitute
+|move|p1a: Lunala|Moongeist Beam|p2a: Koraidon
+|-crit|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Lunala|69/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|40/100|[silent]
+|upkeep
+|
+|t:|1750777363
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|6
+|
+|t:|1750777381
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1b: Incineroar|U-turn|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|-weather|none
+|-end|p2a: Scream Tail|Protosynthesis
+|-damage|p1a: Lunala|57/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|55/100|[silent]
+|upkeep
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|7
+|inactive|KheaVGC has 30 seconds left.
+|
+|t:|1750777408
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|13/100
+|-enditem|p2b: Calyrex|Spooky Plate|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Lunala|Moongeist Beam|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|move|p2b: Calyrex|Substitute|p2b: Calyrex
+|-fail|p2b: Calyrex|move: Substitute|[weak]
+|
+|-damage|p1a: Lunala|44/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|29/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750777421
+|switch|p1a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1a: Ogerpon|Mold Breaker
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|-message|KheaVGC forfeited.
+|
+|win|CEExy
+|raw|CEExy's rating: 1372 &rarr; <strong>1392</strong><br />(+20 for winning)
+|raw|KheaVGC's rating: 1364 &rarr; <strong>1344</strong><br />(-20 for losing)
+|l|☆KheaVGC
+|player|p2|

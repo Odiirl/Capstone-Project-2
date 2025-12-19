@@ -1,0 +1,141 @@
+|j|☆sycarisdag
+|j|☆Bmkc5
+|t:|1750827346
+|gametype|doubles
+|player|p1|sycarisdag|266|1144
+|player|p2|Bmkc5|1|1246
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Regieleki, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750827382
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750827399
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: sycarisdag|move: Tailwind
+|move|p1a: Flutter Mane|Moonblast|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|37/100
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Flutter Mane|37/100
+|-damage|p1b: Whimsicott|18/100
+|-enditem|p1b: Whimsicott|Sitrus Berry|[eat]
+|-heal|p1b: Whimsicott|42/100|[from] item: Sitrus Berry
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|faint|p1b: Whimsicott
+|
+|upkeep
+|
+|t:|1750827415
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|2
+|
+|t:|1750827439
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Tornadus|Protect|p2a: Tornadus
+|-singleturn|p2a: Tornadus|Protect
+|move|p1a: Incineroar|Fake Out||[still]
+|cant|p2b: Tsareena|ability: Queenly Majesty|Fake Out|[of] p1a: Incineroar
+|move|p1b: Koraidon|Dragon Claw|p2a: Tornadus
+|-activate|p2a: Tornadus|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750827460
+|move|p2b: Tsareena|Protect|p2b: Tsareena
+|-singleturn|p2b: Tsareena|Protect
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Bmkc5|move: Tailwind
+|move|p1b: Koraidon|Dragon Claw|p2a: Tornadus
+|-enditem|p2a: Tornadus|Focus Sash
+|-damage|p2a: Tornadus|1/100
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2b: Tsareena
+|-activate|p2b: Tsareena|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750827489
+|move|p2b: Tsareena|Helping Hand|p2a: Tornadus
+|-singleturn|p2a: Tornadus|Helping Hand|[of] p2b: Tsareena
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Incineroar|47/100
+|-damage|p1b: Koraidon|29/100
+|move|p1b: Koraidon|Dragon Claw|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1b: Koraidon|19/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2b: Tsareena
+|-supereffective|p2b: Tsareena
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2b: Tsareena
+|-damage|p1a: Incineroar|18/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: sycarisdag|move: Tailwind
+|upkeep
+|
+|t:|1750827494
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50, tera:Fairy|37/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750827504
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Incineroar|[spread] p1a,p1b
+|-crit|p1a: Incineroar
+|-resisted|p1b: Koraidon
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Koraidon
+|
+|win|Bmkc5
+|raw|sycarisdag's rating: 1144 &rarr; <strong>1126</strong><br />(-18 for losing)
+|raw|Bmkc5's rating: 1246 &rarr; <strong>1264</strong><br />(+18 for winning)
+|l|☆sycarisdag
+|player|p1|
+|l|☆Bmkc5
+|player|p2|

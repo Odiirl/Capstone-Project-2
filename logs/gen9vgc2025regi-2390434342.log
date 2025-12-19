@@ -1,0 +1,141 @@
+|j|☆testing_cha
+|j|☆Cheasleywithaw
+|t:|1750712849
+|gametype|doubles
+|player|p1|testing_cha|parasollady|1500
+|player|p2|Cheasleywithaw|cyclist|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testing_cha)
+|inactive|testing_cha has 60 seconds left.
+|
+|t:|1750712889
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Bjorn|Tornadus, L50, M|100/100
+|switch|p2b: Glarb|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Glarb
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750712902
+|move|p2b: Glarb|Protect|p2b: Glarb
+|-singleturn|p2b: Glarb|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Glarb
+|-activate|p2b: Glarb|move: Protect
+|move|p2a: Bjorn|Hurricane|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-crit|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750712907
+|switch|p1b: Kyurem|Kyurem-White, L50|100/100
+|-ability|p1b: Kyurem|Turboblaze
+|turn|2
+|
+|t:|1750712928
+|move|p2a: Bjorn|Hurricane|p1a: Lunala
+|-damage|p1a: Lunala|88/100
+|-start|p1a: Lunala|confusion
+|-activate|p1a: Lunala|confusion
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p1b: Kyurem|Freeze-Dry|p2a: Bjorn
+|-supereffective|p2a: Bjorn
+|-damage|p2a: Bjorn|0 fnt
+|faint|p2a: Bjorn
+|move|p2b: Glarb|Water Spout|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Kyurem
+|-damage|p1a: Lunala|50/100
+|-damage|p1b: Kyurem|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|56/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|62/100|[from] item: Leftovers
+|-heal|p1b: Kyurem|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750712944
+|switch|p2a: Corolikis|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1750712968
+|move|p2b: Glarb|Protect|p2b: Glarb
+|-singleturn|p2b: Glarb|Protect
+|-end|p1a: Lunala|confusion
+|move|p1a: Lunala|Moonblast|p2a: Corolikis
+|-damage|p2a: Corolikis|38/100
+|move|p1b: Kyurem|Freeze-Dry|p2a: Corolikis
+|-damage|p2a: Corolikis|0 fnt
+|faint|p2a: Corolikis
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|68/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|75/100|[from] item: Leftovers
+|-heal|p1b: Kyurem|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750712976
+|switch|p2a: Bimeon|Calyrex-Ice, L50|100/100
+|-ability|p2a: Bimeon|As One
+|-ability|p2a: Bimeon|Unnerve
+|turn|4
+|
+|t:|1750712982
+|-terastallize|p2a: Bimeon|Ground
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p1b: Kyurem|Freeze-Dry|p2b: Glarb
+|-supereffective|p2b: Glarb
+|-damage|p2b: Glarb|35/100
+|move|p2b: Glarb|Water Spout|p1a: Lunala|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-resisted|p1b: Kyurem
+|-damage|p1b: Kyurem|73/100
+|move|p2a: Bimeon|High Horsepower|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|81/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|87/100|[from] item: Leftovers
+|-heal|p1b: Kyurem|79/100|[from] Grassy Terrain
+|-heal|p2b: Glarb|41/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|-message|Cheasleywithaw forfeited.
+|
+|win|testing_cha
+|raw|testing_cha's rating: 1500 &rarr; <strong>1525</strong><br />(+25 for winning)
+|raw|Cheasleywithaw's rating: 1591 &rarr; <strong>1566</strong><br />(-25 for losing)
+|l|☆Cheasleywithaw
+|player|p2|
+|l|☆testing_cha
+|player|p1|

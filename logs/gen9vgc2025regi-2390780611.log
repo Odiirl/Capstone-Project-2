@@ -1,0 +1,178 @@
+|j|☆Swiftstorm
+|j|☆OffMetaUser4Life
+|t:|1750766720
+|gametype|doubles
+|player|p1|Swiftstorm|101|1330
+|player|p2|OffMetaUser4Life|1|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Great Tusk, L50|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|
+|t:|1750766769
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Great Tusk|Great Tusk, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1b: Great Tusk|ability: Protosynthesis
+|-start|p1b: Great Tusk|protosynthesisatk
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Eternatus|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Swiftstorm)
+|
+|t:|1750766782
+|-end|p1b: Great Tusk|Protosynthesis|[silent]
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p2a: Koraidon|Outrage|p1b: Politoed
+|-damage|p1b: Politoed|17/100
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Eternatus|Sludge Bomb|p2b: Lilligant
+|-supereffective|p2b: Lilligant
+|-enditem|p2b: Lilligant|Focus Sash
+|-damage|p2b: Lilligant|1/100
+|move|p2b: Lilligant|Sleep Powder|p1b: Politoed
+|-status|p1b: Politoed|slp|[from] move: Sleep Powder
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|23/100 slp|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750766803
+|-terastallize|p1a: Eternatus|Fairy
+|move|p2a: Koraidon|Outrage|p1a: Eternatus|[from] lockedmove
+|-immune|p1a: Eternatus
+|-start|p2a: Koraidon|confusion|[fatigue]
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Lilligant|Sleep Powder|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Sleep Powder
+|cant|p1b: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|29/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750766813
+|switch|p2a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|turn|3
+|
+|t:|1750766826
+|cant|p1a: Eternatus|slp
+|move|p2b: Lilligant|Leaf Blade|p1b: Politoed
+|-supereffective|p1b: Politoed
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|move|p2a: Ho-Oh|Tailwind|p2a: Ho-Oh
+|-sidestart|p2: OffMetaUser4Life|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750766835
+|switch|p1b: Weavile|Weavile, L50, F|100/100
+|turn|4
+|
+|t:|1750766841
+|move|p1b: Weavile|Protect|p1b: Weavile
+|-singleturn|p1b: Weavile|Protect
+|move|p2b: Lilligant|Coaching|p2a: Ho-Oh
+|-boost|p2a: Ho-Oh|atk|1
+|-boost|p2a: Ho-Oh|def|1
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Weavile
+|-activate|p1b: Weavile|move: Protect
+|cant|p1a: Eternatus|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750766854
+|move|p1b: Weavile|Ice Shard|p2b: Lilligant
+|-supereffective|p2b: Lilligant
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2b: Lilligant
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Eternatus
+|-damage|p1a: Eternatus|77/100 slp
+|cant|p1a: Eternatus|slp
+|
+|-weather|none
+|upkeep
+|
+|t:|1750766863
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750766870
+|move|p1b: Weavile|Protect|p1b: Weavile
+|-singleturn|p1b: Weavile|Protect
+|-curestatus|p1a: Eternatus|slp|[msg]
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Weavile
+|-activate|p1b: Weavile|move: Protect
+|
+|-sideend|p2: OffMetaUser4Life|move: Tailwind
+|upkeep
+|turn|7
+|inactive|Swiftstorm has 30 seconds left.
+|
+|t:|1750766899
+|-terastallize|p2b: Amoonguss|Water
+|move|p1b: Weavile|Ice Spinner|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|86/100
+|-damage|p1b: Weavile|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p1a: Eternatus|Meteor Beam||[still]
+|-prepare|p1a: Eternatus|Meteor Beam
+|-boost|p1a: Eternatus|spa|1
+|-enditem|p1a: Eternatus|Power Herb
+|-anim|p1a: Eternatus|Meteor Beam|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|move|p2b: Amoonguss|Pollen Puff|p2: Ho-Oh|[notarget]
+|-fail|p2b: Amoonguss
+|
+|upkeep
+|turn|8
+|l|☆OffMetaUser4Life
+|inactive|OffMetaUser4Life disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|OffMetaUser4Life has 30 seconds left.
+|inactive|OffMetaUser4Life has 20 seconds left.
+|inactive|OffMetaUser4Life has 15 seconds left.
+|inactive|OffMetaUser4Life has 10 seconds left.
+|inactive|OffMetaUser4Life has 5 seconds left.
+|-message|OffMetaUser4Life lost due to inactivity.
+|
+|win|Swiftstorm
+|raw|Swiftstorm's rating: 1330 &rarr; <strong>1351</strong><br />(+21 for winning)
+|raw|OffMetaUser4Life's rating: 1344 &rarr; <strong>1323</strong><br />(-21 for losing)
+|l|☆Swiftstorm
+|player|p1|

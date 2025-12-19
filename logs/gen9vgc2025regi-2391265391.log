@@ -1,0 +1,163 @@
+|j|☆OKCCTV
+|j|☆GPOSTIGOF
+|t:|1750824998
+|gametype|doubles
+|player|p1|OKCCTV|2|1079
+|player|p2|GPOSTIGOF|101|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Regigigas, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750825035
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1b: Eternatus|Pressure
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1b: Eternatus|atk|1
+|turn|1
+|
+|t:|1750825087
+|move|p2a: Incineroar|Fake Out|p1b: Eternatus
+|-damage|p1b: Eternatus|92/100
+|move|p1a: Sableye|Quash|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Quash
+|cant|p1b: Eternatus|flinch
+|move|p2b: Miraidon|Dragon Pulse|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|
+|upkeep
+|
+|t:|1750825094
+|switch|p1b: Regigigas|Regigigas, L50|100/100
+|-start|p1b: Regigigas|ability: Slow Start
+|turn|2
+|
+|t:|1750825106
+|-terastallize|p1b: Regigigas|Normal
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Sableye|Skill Swap|p1b: Regigigas
+|-activate|p1a: Sableye|move: Skill Swap|||[of] p1b: Regigigas
+|-end|p1b: Regigigas|Slow Start|[silent]
+|-start|p1a: Sableye|ability: Slow Start
+|move|p1b: Regigigas|Crush Grip|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Regigigas
+|-fail|p1b: Regigigas|unboost|[from] item: Clear Amulet|[of] p1b: Regigigas
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OKCCTV)
+|
+|t:|1750825136
+|-end|p1a: Sableye|Slow Start|[silent]
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|86/100
+|-damage|p1b: Regigigas|73/100
+|move|p1b: Regigigas|Crush Grip|p2b: Miraidon
+|-damage|p2b: Miraidon|8/100
+|move|p2a: Incineroar|Snarl|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|81/100
+|-damage|p1b: Regigigas|64/100
+|-unboost|p1a: Zacian|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750825157
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Zacian|Play Rough|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p1b: Regigigas|Crush Grip|p2a: Incineroar
+|-damage|p2a: Incineroar|28/100
+|-damage|p1b: Regigigas|48/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p2a: Incineroar|Flare Blitz|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-damage|p2a: Incineroar|6/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750825166
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|turn|5
+|
+|t:|1750825183
+|move|p1a: Sableye|Quash|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Quash
+|move|p1b: Regigigas|Knock Off|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-enditem|p2b: Miraidon|Wise Glasses|[from] move: Knock Off|[of] p1b: Regigigas
+|faint|p2b: Miraidon
+|move|p2a: Incineroar|Snarl|p1b: Regigigas|[spread] p1a,p1b
+|-damage|p1a: Sableye|85/100
+|-damage|p1b: Regigigas|39/100
+|-unboost|p1a: Sableye|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750825200
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|6
+|
+|t:|1750825208
+|move|p1a: Sableye|Quash|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Quash
+|move|p1b: Regigigas|Crush Grip|p2b: Urshifu
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Sableye
+|-damage|p1a: Sableye|36/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|move|p2b: Urshifu|Surging Strikes|p1b: Regigigas
+|-crit|p1b: Regigigas
+|-damage|p1b: Regigigas|18/100
+|-crit|p1b: Regigigas
+|-damage|p1b: Regigigas|0 fnt
+|faint|p1b: Regigigas
+|-hitcount|p1: Regigigas|2
+|
+|upkeep
+|-message|OKCCTV forfeited.
+|
+|win|GPOSTIGOF
+|raw|OKCCTV's rating: 1079 &rarr; <strong>1056</strong><br />(-23 for losing)
+|raw|GPOSTIGOF's rating: 1053 &rarr; <strong>1087</strong><br />(+34 for winning)
+|l|☆OKCCTV
+|player|p1|
+|l|☆GPOSTIGOF
+|player|p2|

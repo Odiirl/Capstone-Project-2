@@ -1,0 +1,149 @@
+|j|☆danuwu
+|j|☆greboo
+|t:|1750737742
+|gametype|doubles
+|player|p1|danuwu|liko|1256
+|player|p2|greboo|wallace|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garganacl, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by danuwu)
+|
+|t:|1750737769
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Raging Bolt|atk|1
+|turn|1
+|
+|t:|1750737787
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p2a: Calyrex|Dark
+|move|p1a: Incineroar|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|91/100
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1b: Kyogre|Origin Pulse|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Calyrex|74/100
+|-damage|p2b: Koraidon|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750737809
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Koraidon|Close Combat|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Koraidon
+|-status|p2b: Koraidon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Koraidon|72/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750737822
+|move|p2a: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|33/100
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Koraidon|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1a: Incineroar
+|-damage|p2b: Koraidon|62/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Koraidon|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1750737826
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|inactive|greboo has 30 seconds left.
+|
+|t:|1750737861
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: danuwu|move: Tailwind
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Koraidon|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750737876
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|5
+|
+|t:|1750737892
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Chi-Yu|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Chi-Yu|20/100
+|faint|p2a: Calyrex
+|move|p1a: Whimsicott|Moonblast|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|
+|-weather|none
+|upkeep
+|
+|t:|1750737894
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|6
+|-message|greboo forfeited.
+|
+|win|danuwu
+|raw|danuwu's rating: 1256 &rarr; <strong>1281</strong><br />(+25 for winning)
+|raw|greboo's rating: 1258 &rarr; <strong>1233</strong><br />(-25 for losing)
+|l|☆greboo
+|player|p2|
+|l|☆danuwu
+|player|p1|

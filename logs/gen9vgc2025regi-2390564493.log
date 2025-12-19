@@ -1,0 +1,149 @@
+|j|☆Lei43
+|j|☆magiuz
+|t:|1750729549
+|gametype|doubles
+|player|p1|Lei43|unknown|1494
+|player|p2|magiuz|101|1435
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Pikachu, L50, M|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by magiuz)
+|inactive|Lei43 has 60 seconds left.
+|
+|t:|1750729601
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Pikachu|Pikachu, L50, M, shiny|100/100
+|switch|p2b: Moltres|Moltres-Galar, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750729621
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Pikachu|atk|1
+|-unboost|p2b: Moltres|atk|1
+|move|p2a: Pikachu|Nuzzle|p1b: Lunala
+|-damage|p1b: Lunala|99/100
+|-status|p1b: Lunala|par
+|move|p2b: Moltres|Fiery Wrath|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Lunala
+|-damage|p1a: Incineroar|92/100
+|-damage|p1b: Lunala|13/100 par
+|cant|p1b: Lunala|par
+|
+|upkeep
+|turn|2
+|inactive|Lei43 has 30 seconds left.
+|inactive|Lei43 has 20 seconds left.
+|
+|t:|1750729657
+|move|p2a: Pikachu|Upper Hand||[still]
+|-fail|p2a: Pikachu
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Moltres|Fiery Wrath|p1b: Lunala|[spread] 
+|-activate|p1a: Incineroar|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Incineroar|U-turn|p2a: Pikachu
+|-damage|p2a: Pikachu|33/100
+|
+|t:|1750729671
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1750729679
+|cant|p1b: Lunala|par
+|move|p2a: Pikachu|Endeavor|p1a: Urshifu
+|-damage|p1a: Urshifu|20/100
+|move|p1a: Urshifu|U-turn|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|t:|1750729690
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Moltres|Tailwind|p2b: Moltres
+|-sidestart|p2: magiuz|move: Tailwind
+|
+|upkeep
+|
+|t:|1750729695
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|4
+|
+|t:|1750729709
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Zacian|Play Rough|p1a: Miraidon
+|-damage|p1a: Miraidon|22/100
+|move|p1a: Miraidon|Electro Drift|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750729719
+|switch|p2a: Moltres|Moltres-Galar, L50|100/100
+|turn|5
+|
+|t:|1750729730
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Kyogre|Thunder|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2a: Moltres|Hurricane|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750729739
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|20/100
+|switch|p1b: Incineroar|Incineroar, L50, F|92/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|6
+|-message|Lei43 forfeited.
+|
+|win|magiuz
+|raw|Lei43's rating: 1494 &rarr; <strong>1471</strong><br />(-23 for losing)
+|raw|magiuz's rating: 1435 &rarr; <strong>1458</strong><br />(+23 for winning)
+|l|☆Lei43
+|player|p1|
+|l|☆magiuz
+|player|p2|

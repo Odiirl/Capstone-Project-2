@@ -1,0 +1,196 @@
+|j|☆pitermax
+|j|☆Saguito
+|t:|1750799011
+|gametype|doubles
+|player|p1|pitermax|marley|
+|player|p2|Saguito|bianca|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Toxtricity-Low-Key, L50, M|
+|poke|p1|Grafaiai, L50, F|
+|poke|p2|Mimikyu, L50, F|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Ribombee, L50, F|
+|poke|p2|Fezandipiti, L50, M|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+Saguito has agreed to open team sheets.
+|j| okkito
+|j| MultiZapdos
+pitermax has agreed to open team sheets.
+|showteam|p1|Glimmora||FocusSash|ToxicDebris|StealthRock,MortalSpin,PowerGem,EarthPower|||F|||50|,,,,,Rock]Toxapex||BlackSludge|Regenerator|Recover,BanefulBunker,Haze,ToxicSpikes|||F|||50|,,,,,Water]Amoonguss||RockyHelmet|Regenerator|Spore,GigaDrain,SludgeBomb,ClearSmog|||F|||50|,,,,,Water]Iron Moth||BoosterEnergy|QuarkDrive|Flamethrower,SludgeWave,EnergyBall,Substitute||||||50|,,,,,Fire]Toxtricity-Low-Key||ChoiceSpecs|PunkRock|Overdrive,Boomburst,SludgeWave,VoltSwitch|||M|||50|,,,,,Electric]Grafaiai||Leftovers|Prankster|KnockOff,Encore,Taunt,PartingShot|||F|||50|,,,,,Poison
+|showteam|p2|Mimikyu||FocusSash|Disguise|ShadowClaw,PlayRough,ShadowSneak,SwordsDance|||F|||50|,,,,,Ghost]Tinkaton||LifeOrb|MoldBreaker|GigatonHammer,KnockOff,FakeOut,Protect|||F|||50|,,,,,Steel]Iron Valiant||BoosterEnergy|QuarkDrive|Moonblast,CloseCombat,FocusBlast,Protect||||||50|,,,,,Fighting]Ribombee||EjectPack|ShieldDust|PollenPuff,Tailwind,LightScreen,Protect|||F|||50|,,,,,Ghost]Fezandipiti||Leftovers|ToxicChain|AlluringVoice,Tailwind,DazzlingGleam,Protect|||M|||50|,,,,,Fairy]Sylveon||ThroatSpray|Pixilate|HyperVoice,TeraBlast,CalmMind,Protect|||F|||50|,,,,,Fairy
+|j| alexeido
+|
+|t:|1750799133
+|start
+|switch|p1a: Glimmora|Glimmora, L50, F, shiny|100/100
+|switch|p1b: Grafaiai|Grafaiai, L50, F|100/100
+|switch|p2a: Mivoir|Iron Valiant, L50|100/100
+|switch|p2b: Miseel|Sylveon, L50, F|100/100
+|-enditem|p2a: Mivoir|Booster Energy
+|-activate|p2a: Mivoir|ability: Quark Drive|[fromitem]
+|-start|p2a: Mivoir|quarkdrivespe
+|turn|1
+|
+|t:|1750799164
+|move|p2a: Mivoir|Protect|p2a: Mivoir
+|-singleturn|p2a: Mivoir|Protect
+|move|p2b: Miseel|Protect|p2b: Miseel
+|-singleturn|p2b: Miseel|Protect
+|move|p1b: Grafaiai|Parting Shot|p2a: Mivoir
+|-activate|p2a: Mivoir|move: Protect
+|move|p1a: Glimmora|Stealth Rock|p2b: Miseel
+|-sidestart|p2: Saguito|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1750799205
+|move|p1b: Grafaiai|Encore|p2a: Mivoir
+|-start|p2a: Mivoir|Encore
+|move|p2a: Mivoir|Protect||[still]
+|-fail|p2a: Mivoir
+|move|p1a: Glimmora|Power Gem|p2b: Miseel
+|-damage|p2b: Miseel|70/100
+|move|p2b: Miseel|Hyper Voice|p1a: Glimmora|[spread] p1a,p1b
+|-resisted|p1a: Glimmora
+|-resisted|p1b: Grafaiai
+|-crit|p1b: Grafaiai
+|-damage|p1a: Glimmora|72/100
+|-damage|p1b: Grafaiai|55/100
+|-enditem|p2b: Miseel|Throat Spray
+|-boost|p2b: Miseel|spa|1|[from] item: Throat Spray
+|
+|-heal|p1b: Grafaiai|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750799250
+|move|p2a: Mivoir|Protect|p2a: Mivoir
+|-singleturn|p2a: Mivoir|Protect
+|move|p1b: Grafaiai|Parting Shot|p2b: Miseel
+|-unboost|p2b: Miseel|atk|1
+|-unboost|p2b: Miseel|spa|1
+|
+|t:|1750799258
+|switch|p1b: Iron Moth|Iron Moth, L50|100/100|[from] Parting Shot
+|-enditem|p1b: Iron Moth|Booster Energy
+|-activate|p1b: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Moth|quarkdrivespa
+|move|p1a: Glimmora|Mortal Spin|p2a: Mivoir|[spread] p2b
+|-activate|p2a: Mivoir|move: Protect
+|-supereffective|p2b: Miseel
+|-damage|p2b: Miseel|60/100
+|-status|p2b: Miseel|psn
+|move|p2b: Miseel|Hyper Voice|p1a: Glimmora|[spread] p1a,p1b
+|-resisted|p1a: Glimmora
+|-resisted|p1b: Iron Moth
+|-damage|p1a: Glimmora|47/100
+|-damage|p1b: Iron Moth|90/100
+|
+|-damage|p2b: Miseel|48/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750799303
+|-end|p2a: Mivoir|Quark Drive|[silent]
+|switch|p2a: Mimi|Mimikyu, L50, F|100/100
+|-damage|p2a: Mimi|88/100|[from] Stealth Rock
+|move|p2b: Miseel|Protect|p2b: Miseel
+|-singleturn|p2b: Miseel|Protect
+|move|p1b: Iron Moth|Sludge Wave|p2b: Miseel|[spread] p1a,p2a
+|-activate|p2b: Miseel|move: Protect
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|30/100
+|-activate|p2a: Mimi|ability: Disguise
+|-damage|p2a: Mimi|88/100
+|detailschange|p2a: Mimi|Mimikyu-Busted, L50, F
+|-damage|p2a: Mimi|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Glimmora|Mortal Spin|p2b: Miseel|[spread] p2a
+|-activate|p2b: Miseel|move: Protect
+|-damage|p2a: Mimi|69/100
+|-status|p2a: Mimi|psn
+|
+|-damage|p2a: Mimi|57/100 psn|[from] psn
+|-damage|p2b: Miseel|36/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750799342
+|move|p1b: Iron Moth|Sludge Wave|p2a: Mimi|[spread] p1a,p2a,p2b
+|-resisted|p1a: Glimmora
+|-supereffective|p2b: Miseel
+|-damage|p1a: Glimmora|13/100
+|-damage|p2a: Mimi|0 fnt
+|-damage|p2b: Miseel|0 fnt
+|faint|p2a: Mimi
+|faint|p2b: Miseel
+|move|p1a: Glimmora|Mortal Spin|p2: Mimi|[notarget]
+|-fail|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1750799350
+|switch|p2a: Mivoir|Iron Valiant, L50|100/100
+|switch|p2b: Mika|Tinkaton, L50, F|100/100
+|-damage|p2a: Mivoir|94/100|[from] Stealth Rock
+|-damage|p2b: Mika|94/100|[from] Stealth Rock
+|-ability|p2b: Mika|Mold Breaker
+|turn|6
+|
+|t:|1750799389
+|-terastallize|p1b: Iron Moth|Fire
+|-terastallize|p2b: Mika|Steel
+|move|p2b: Mika|Fake Out|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|4/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Saguito|move: Toxic Spikes
+|-damage|p2b: Mika|84/100|[from] item: Life Orb
+|move|p2a: Mivoir|Moonblast|p1b: Iron Moth
+|-resisted|p1b: Iron Moth
+|-damage|p1b: Iron Moth|67/100
+|move|p1b: Iron Moth|Flamethrower|p2b: Mika
+|-supereffective|p2b: Mika
+|-damage|p2b: Mika|0 fnt
+|faint|p2b: Mika
+|cant|p1a: Glimmora|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1750799420
+|move|p2a: Mivoir|Protect|p2a: Mivoir
+|-singleturn|p2a: Mivoir|Protect
+|move|p1b: Iron Moth|Flamethrower|p2a: Mivoir
+|-activate|p2a: Mivoir|move: Protect
+|move|p1a: Glimmora|Mortal Spin|p2a: Mivoir
+|-activate|p2a: Mivoir|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750799442
+|move|p2a: Mivoir|Moonblast|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|move|p1b: Iron Moth|Flamethrower|p2a: Mivoir
+|-damage|p2a: Mivoir|0 fnt
+|faint|p2a: Mivoir
+|-end|p2a: Mivoir|Quark Drive|[silent]
+|
+|win|pitermax
+|l|☆Saguito
+|player|p2|

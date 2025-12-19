@@ -1,0 +1,205 @@
+|j|☆pjgtyd
+|j|☆Big Blue Whale
+|t:|1750876729
+|gametype|doubles
+|player|p1|pjgtyd|266|1278
+|player|p2|Big Blue Whale|2|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|
+|t:|1750876771
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750876808
+|-terastallize|p2b: Calyrex|Fire
+|move|p1b: Calyrex|Psychic|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Weezing|Taunt|p2a: Smeargle
+|-start|p2a: Smeargle|move: Taunt
+|cant|p2a: Smeargle|move: Taunt|Decorate
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750876834
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Weezing|[spread] p1a,p1b
+|-damage|p1a: Weezing|52/100
+|-damage|p1b: Calyrex|22/100
+|move|p1a: Weezing|Strange Steam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|78/100
+|-start|p2a: Ursaluna|confusion
+|move|p1b: Calyrex|Astral Barrage|p2a: Ursaluna|[spread] p2b
+|-immune|p2a: Ursaluna
+|-damage|p2b: Calyrex|55/100
+|-damage|p1b: Calyrex|12/100|[from] item: Life Orb
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750876860
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|-activate|p2a: Ursaluna|confusion
+|-damage|p2a: Ursaluna|66/100 brn|[from] confusion
+|move|p2b: Calyrex|Glacial Lance|p1a: Weezing|[spread] 
+|-activate|p1a: Weezing|move: Protect
+|-activate|p1b: Calyrex|move: Protect
+|
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750876883
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Weezing|3/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|-activate|p2a: Ursaluna|confusion
+|move|p2a: Ursaluna|Facade|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|
+|t:|1750876892
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|t:|1750876916
+|switch|p2a: Smeargle|Smeargle, L50, M|1/100
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p1a: Chien-Pao|Protect|p1a: Chien-Pao
+|-singleturn|p1a: Chien-Pao|Protect
+|move|p2b: Calyrex|High Horsepower|p1a: Chien-Pao
+|-activate|p1a: Chien-Pao|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750876945
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|1/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750876958
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|
+|t:|1750876981
+|-terastallize|p1b: Zamazenta|Dragon
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p2a: Torkoal|Weather Ball|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|move|p1b: Zamazenta|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750877010
+|switch|p2b: Ursaluna|Ursaluna, L50, M|54/100 brn
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p2a: Torkoal|Weather Ball|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|63/100
+|move|p1b: Zamazenta|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1750877023
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Fire|1/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750877049
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Chien-Pao|[spread] p1a
+|-activate|p1b: Zamazenta|move: Protect
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Ursaluna|Facade|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|pjgtyd forfeited.
+|
+|win|Big Blue Whale
+|raw|pjgtyd's rating: 1278 &rarr; <strong>1259</strong><br />(-19 for losing)
+|raw|Big Blue Whale's rating: 1358 &rarr; <strong>1373</strong><br />(+15 for winning)
+|l|☆pjgtyd
+|player|p1|

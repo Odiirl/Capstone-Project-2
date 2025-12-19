@@ -1,0 +1,142 @@
+|j|☆Crasteau
+|j|☆Lil HD
+|t:|1750802244
+|gametype|doubles
+|player|p1|Crasteau|ghetsis|1135
+|player|p2|Lil HD|fisherman-gen4|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|
+|t:|1750802359
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion-F, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|1
+|
+|t:|1750802386
+|-terastallize|p2b: Basculegion|Fairy
+|-terastallize|p1a: Lunala|Dark
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Basculegion|Shadow Ball|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750802405
+|move|p1b: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|81/100
+|-damage|p2b: Basculegion|23/100
+|move|p2a: Incineroar|Parting Shot|p1a: Lunala
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1a: Lunala|spa|1
+|
+|t:|1750802417
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Amoonguss
+|-damage|p2a: Amoonguss|67/100
+|move|p2b: Basculegion|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|17/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Crasteau)
+|
+|t:|1750802437
+|switch|p2b: Incineroar|Incineroar, L50, M|81/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Calyrex|Glacial Lance|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-resisted|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p2b: Incineroar|50/100
+|faint|p2a: Amoonguss
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|21/100
+|
+|upkeep
+|
+|t:|1750802449
+|switch|p2a: Basculegion|Basculegion-F, L50, F, tera:Fairy|23/100
+|turn|4
+|
+|t:|1750802466
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|11/100
+|cant|p1b: Calyrex|flinch
+|move|p1a: Lunala|Moongeist Beam|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Basculegion|Tera Blast|p1a: Lunala|[anim] Tera Blast Fairy
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|51/100
+|
+|upkeep
+|
+|t:|1750802480
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|5
+|inactive|Crasteau has 30 seconds left.
+|
+|t:|1750802510
+|move|p1b: Calyrex|Glacial Lance|p2a: Basculegion|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Basculegion|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Basculegion
+|faint|p2b: Miraidon
+|
+|win|Crasteau
+|raw|Crasteau's rating: 1135 &rarr; <strong>1155</strong><br />(+20 for winning)
+|raw|Lil HD's rating: 1064 &rarr; <strong>1048</strong><br />(-16 for losing)
+|l|☆Lil HD
+|player|p2|
+|l|☆Crasteau
+|player|p1|

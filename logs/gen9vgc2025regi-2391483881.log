@@ -1,0 +1,168 @@
+|j|☆krolol
+|j|☆Sir Quag VIII
+|t:|1750861714
+|gametype|doubles
+|player|p1|krolol|170|1058
+|player|p2|Sir Quag VIII|101|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Thorns, L50|
+|poke|p2|Cobalion, L50|
+|poke|p2|Necrozma, L50|
+|poke|p2|Ariados, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sir Quag VIII)
+|inactive|Sir Quag VIII has 60 seconds left.
+|inactive|krolol has 60 seconds left.
+|
+|t:|1750861764
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|switch|p2b: Ariados|Ariados, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1750861784
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Ursaluna|Facade|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|move|p2b: Ariados|Focus Energy|p2b: Ariados
+|-start|p2b: Ariados|move: Focus Energy
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Sir Quag VIII has 30 seconds left.
+|
+|t:|1750861815
+|move|p2b: Ariados|Night Slash|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|10/100
+|-damage|p2b: Ariados|91/100|[from] item: Life Orb
+|move|p1b: Ursaluna|Facade|p2b: Ariados
+|-damage|p2b: Ariados|0 fnt
+|faint|p2b: Ariados
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Ursaluna|51/100 brn
+|faint|p1a: Lunala
+|
+|-damage|p1b: Ursaluna|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1750861833
+|switch|p2b: Necrozma|Necrozma, L50|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Necrozma|atk|1
+|turn|3
+|
+|t:|1750861848
+|move|p1a: Incineroar|Fake Out|p2b: Necrozma
+|-damage|p2b: Necrozma|90/100
+|move|p1b: Ursaluna|Headlong Rush|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|50/100
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Incineroar|80/100
+|-heal|p2a: Sinistcha|62/100|[from] drain|[of] p1a: Incineroar
+|-damage|p1b: Ursaluna|0 fnt
+|-heal|p2a: Sinistcha|90/100|[from] drain|[of] p1b: Ursaluna
+|faint|p1b: Ursaluna
+|cant|p2b: Necrozma|flinch
+|
+|-heal|p2a: Sinistcha|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750861854
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1750861873
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: krolol|move: Light Screen
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|72/100
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Incineroar
+|-damage|p1b: Grimmsnarl|86/100
+|move|p2b: Necrozma|Meteor Beam||[still]
+|-prepare|p2b: Necrozma|Meteor Beam
+|-boost|p2b: Necrozma|spa|1
+|-enditem|p2b: Necrozma|Power Herb
+|-anim|p2b: Necrozma|Meteor Beam|p1a: Incineroar|[miss]
+|-miss|p2b: Necrozma|p1a: Incineroar
+|move|p1a: Incineroar|Knock Off|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|29/100
+|-enditem|p2a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|5
+|
+|t:|1750861897
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p2b: Necrozma|Meteor Beam||[still]
+|-prepare|p2b: Necrozma|Meteor Beam
+|-boost|p2b: Necrozma|spa|1
+|move|p1a: Incineroar|Knock Off|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Necrozma
+|-damage|p2b: Necrozma|58/100
+|-unboost|p2b: Necrozma|spa|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750861913
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|move|p1a: Incineroar|Knock Off|p2b: Necrozma
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|22/100
+|move|p2b: Necrozma|Meteor Beam|p1a: Incineroar|[from] lockedmove
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|-message|krolol forfeited.
+|
+|win|Sir Quag VIII
+|raw|krolol's rating: 1058 &rarr; <strong>1044</strong><br />(-14 for losing)
+|raw|Sir Quag VIII's rating: 1143 &rarr; <strong>1162</strong><br />(+19 for winning)
+|l|☆krolol
+|player|p1|
+|l|☆Sir Quag VIII
+|player|p2|

@@ -1,0 +1,141 @@
+|j|☆Adkae
+|j|☆QuagsireJelly
+|t:|1750831984
+|gametype|doubles
+|player|p1|Adkae|2|1243
+|player|p2|QuagsireJelly|266|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Serperior, L50, F|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Hawlucha, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Muk-Alola, L50, F|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by QuagsireJelly)
+|
+|t:|1750832010
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Hawlucha|Hawlucha, L50, M|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Muk|Muk-Alola, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Hawlucha|Electric Seed
+|-boost|p1b: Hawlucha|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750832026
+|move|p2a: Smeargle|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|92/100
+|move|p1b: Hawlucha|Close Combat|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|-unboost|p1b: Hawlucha|def|1
+|-unboost|p1b: Hawlucha|spd|1
+|cant|p1a: Miraidon|flinch
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750832045
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1b: Hawlucha|Acrobatics|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-ability|p2b: Muk|Moody|[from] ability: Power of Alchemy|[of] p2a: Smeargle
+|move|p1a: Miraidon|Electro Drift|p2b: Muk|[miss]
+|-miss|p1a: Miraidon|p2b: Muk
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|spe|2
+|-unboost|p2b: Muk|spa|1
+|upkeep
+|
+|t:|1750832058
+|switch|p2a: Flamigo|Flamigo, L50, M|100/100
+|-copyboost|p2a: Flamigo|p2b: Muk|[from] ability: Costar
+|turn|3
+|inactive|Adkae has 30 seconds left.
+|
+|t:|1750832086
+|move|p1b: Hawlucha|Acrobatics|p2a: Flamigo
+|-supereffective|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|move|p1a: Miraidon|Electro Drift|p2b: Muk|[miss]
+|-miss|p1a: Miraidon|p2b: Muk
+|move|p2b: Muk|Minimize|p2b: Muk
+|-boost|p2b: Muk|evasion|2
+|
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|atk|2
+|-unboost|p2b: Muk|def|1
+|upkeep
+|
+|t:|1750832091
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750832096
+|move|p1b: Hawlucha|Lunge|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|79/100
+|-unboost|p2a: Calyrex|atk|1
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|10/100
+|-enditem|p2a: Calyrex|Sitrus Berry|[eat]
+|-heal|p2a: Calyrex|34/100|[from] item: Sitrus Berry
+|move|p2b: Muk|Poison Jab|p1a: Miraidon
+|-damage|p1a: Miraidon|38/100
+|move|p2a: Calyrex|Psych Up|p2b: Muk
+|-copyboost|p2a: Calyrex|p2b: Muk|[from] move: Psych Up
+|
+|-ability|p2b: Muk|Moody|boost
+|-boost|p2b: Muk|spa|2
+|-unboost|p2b: Muk|spe|1
+|upkeep
+|turn|5
+|inactive|Adkae has 30 seconds left.
+|inactive|Adkae has 20 seconds left.
+|inactive|Adkae has 15 seconds left.
+|l|☆Adkae
+|inactive|Adkae disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Adkae has 10 seconds left.
+|inactive|Adkae has 5 seconds left.
+|-message|Adkae lost due to inactivity.
+|
+|win|QuagsireJelly
+|raw|Adkae's rating: 1243 &rarr; <strong>1216</strong><br />(-27 for losing)
+|raw|QuagsireJelly's rating: 1212 &rarr; <strong>1239</strong><br />(+27 for winning)
+|l|☆QuagsireJelly
+|player|p2|
+|j|☆Adkae
+|player|p1|Adkae|2|
+|l|☆Adkae
+|player|p1|

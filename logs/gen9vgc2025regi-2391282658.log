@@ -1,0 +1,170 @@
+|j|☆Honored1
+|j|☆Auragami
+|t:|1750828008
+|gametype|doubles
+|player|p1|Honored1|silver|
+|player|p2|Auragami|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tatsugiri-Droopy, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Decidueye-Hisui, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Palkia, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750828067
+|start
+|switch|p1a: Wahwee|Calyrex-Shadow, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-ability|p1a: Wahwee|As One
+|-ability|p1a: Wahwee|Unnerve
+|turn|1
+|
+|t:|1750828093
+|move|p1a: Wahwee|Astral Barrage|p2a: Tornadus|[spread] p2a,p2b
+|-damage|p2a: Tornadus|20/100
+|-damage|p2b: Sylveon|50/100
+|-damage|p1a: Wahwee|91/100|[from] item: Life Orb
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Auragami|move: Tailwind
+|move|p2b: Sylveon|Moonblast|p1a: Wahwee
+|-damage|p1a: Wahwee|30/100
+|move|p1b: Weezing|Toxic Spikes|p2b: Sylveon
+|-sidestart|p2: Auragami|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1750828109
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Weezing|[spread] p1a
+|-miss|p2a: Tornadus|p1b: Weezing
+|-damage|p1a: Wahwee|0 fnt
+|faint|p1a: Wahwee
+|move|p2b: Sylveon|Moonblast|p1b: Weezing
+|-resisted|p1b: Weezing
+|-damage|p1b: Weezing|62/100
+|move|p1b: Weezing|Dazzling Gleam|p2b: Sylveon|[spread] p2a,p2b
+|-damage|p2a: Tornadus|1/100
+|-damage|p2b: Sylveon|37/100
+|
+|upkeep
+|
+|t:|1750828122
+|switch|p1a: Tatsugiri|Tatsugiri-Droopy, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1750828131
+|move|p1b: Weezing|Protect|p1b: Weezing
+|-singleturn|p1b: Weezing|Protect
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Weezing|[spread] p1a
+|-activate|p1b: Weezing|move: Protect
+|-damage|p1a: Tatsugiri|56/100
+|move|p2b: Sylveon|Moonblast|p1a: Tatsugiri
+|-supereffective|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|faint|p1a: Tatsugiri
+|
+|upkeep
+|
+|t:|1750828141
+|switch|p1a: Weewah|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750828154
+|-terastallize|p1a: Weewah|Water
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Weewah|[spread] p1a,p1b
+|-damage|p1a: Weewah|48/100
+|-damage|p1b: Weezing|25/100
+|move|p1a: Weewah|Surging Strikes|p2b: Sylveon
+|-crit|p2b: Sylveon
+|-damage|p2b: Sylveon|5/100
+|-crit|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|-hitcount|p2: Sylveon|2
+|move|p1b: Weezing|Dazzling Gleam|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-sideend|p2: Auragami|move: Tailwind
+|upkeep
+|
+|t:|1750828174
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Palkia|Palkia, L50|100/100
+|-status|p2b: Palkia|psn
+|-status|p2a: Ursaluna|psn
+|turn|5
+|
+|t:|1750828187
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|move|p1a: Weewah|Surging Strikes|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 psn
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|18/100 psn
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-hitcount|p2: Ursaluna|3
+|move|p1b: Weezing|Poison Gas|p2b: Palkia
+|-activate|p2b: Palkia|move: Protect
+|
+|-damage|p2b: Palkia|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750828211
+|-terastallize|p2b: Palkia|Stellar
+|move|p1a: Weewah|Surging Strikes|p2b: Palkia
+|-resisted|p2b: Palkia
+|-crit|p2b: Palkia
+|-damage|p2b: Palkia|81/100 psn
+|-resisted|p2b: Palkia
+|-crit|p2b: Palkia
+|-damage|p2b: Palkia|74/100 psn
+|-resisted|p2b: Palkia
+|-crit|p2b: Palkia
+|-damage|p2b: Palkia|68/100 psn
+|-hitcount|p2b: Palkia|3
+|move|p2b: Palkia|Spacial Rend|p1a: Weewah
+|-damage|p1a: Weewah|0 fnt
+|faint|p1a: Weewah
+|move|p1b: Weezing|Dazzling Gleam|p2b: Palkia
+|-supereffective|p2b: Palkia
+|-damage|p2b: Palkia|19/100 psn
+|
+|-damage|p2b: Palkia|7/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750828230
+|move|p1b: Weezing|Protect|p1b: Weezing
+|-singleturn|p1b: Weezing|Protect
+|move|p2b: Palkia|Hydro Pump|p1b: Weezing
+|-activate|p1b: Weezing|move: Protect
+|
+|-damage|p2b: Palkia|0 fnt|[from] psn
+|faint|p2b: Palkia
+|
+|win|Honored1

@@ -1,0 +1,151 @@
+|j|☆oliverfakemawn
+|j|☆fabioso421
+|t:|1750738057
+|gametype|doubles
+|player|p1|oliverfakemawn|alder|1267
+|player|p2|fabioso421|scientist|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Gyarados, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fabioso421)
+|inactive|oliverfakemawn has 60 seconds left.
+|
+|t:|1750738144
+|start
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Gyarados|Gyarados, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750738164
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Gyarados
+|-damage|p2a: Gyarados|88/100
+|cant|p2a: Gyarados|flinch
+|move|p1a: Sylveon|Hyper Voice|p2a: Gyarados|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Gyarados|50/100
+|-damage|p2b: Amoonguss|86/100
+|-enditem|p1a: Sylveon|Throat Spray
+|-boost|p1a: Sylveon|spa|1|[from] item: Throat Spray
+|
+|-heal|p2a: Gyarados|55/100|[from] item: Leftovers
+|-heal|p2b: Amoonguss|91/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750738186
+|move|p1b: Rillaboom|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Gyarados|Thunder Wave|p1b: Rillaboom
+|-status|p1b: Rillaboom|par
+|move|p1a: Sylveon|Hyper Voice|p2a: Gyarados|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p2b: Amoonguss|57/100
+|faint|p2a: Gyarados
+|cant|p2b: Amoonguss|move: Taunt|Spore
+|
+|-heal|p2b: Amoonguss|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750738200
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750738212
+|-terastallize|p1a: Sylveon|Fairy
+|move|p2a: Calyrex|Astral Barrage|p1a: Sylveon|[spread] p1a,p1b
+|-damage|p1a: Sylveon|61/100
+|-damage|p1b: Rillaboom|30/100 par
+|move|p1a: Sylveon|Hyper Beam|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-mustrecharge|p1a: Sylveon
+|cant|p1b: Rillaboom|par
+|move|p2b: Amoonguss|Clear Smog|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|41/100
+|-clearboost|p1a: Sylveon
+|
+|-heal|p2a: Calyrex|7/100|[from] Grassy Terrain
+|-heal|p1a: Sylveon|47/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|36/100 par|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|68/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750738236
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|cant|p1a: Sylveon|recharge
+|move|p2b: Amoonguss|Clear Smog|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|26/100
+|-clearboost|p1a: Sylveon
+|
+|-heal|p2a: Calyrex|12/100|[from] Grassy Terrain
+|-heal|p1a: Sylveon|32/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|74/100|[from] Grassy Terrain
+|-end|p2b: Amoonguss|move: Taunt
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|fabioso421 has 30 seconds left.
+|
+|t:|1750738264
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Calyrex|Astral Barrage|p1b: Ursaluna|[spread] 
+|-activate|p1a: Sylveon|move: Protect
+|-immune|p1b: Ursaluna
+|move|p1b: Ursaluna|Facade|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-damage|p1b: Ursaluna|84/100 brn|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|faint|p2b: Amoonguss
+|
+|-heal|p2a: Calyrex|18/100|[from] Grassy Terrain
+|-heal|p1a: Sylveon|38/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|90/100 brn|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|84/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|fabioso421 forfeited.
+|
+|win|oliverfakemawn
+|raw|oliverfakemawn's rating: 1267 &rarr; <strong>1288</strong><br />(+21 for winning)
+|raw|fabioso421's rating: 1205 &rarr; <strong>1184</strong><br />(-21 for losing)
+|l|☆fabioso421
+|player|p2|
+|l|☆oliverfakemawn
+|player|p1|

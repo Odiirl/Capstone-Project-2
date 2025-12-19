@@ -1,0 +1,195 @@
+|j|☆casper427
+|j|☆Lewissquire
+|t:|1750838884
+|gametype|doubles
+|player|p1|casper427|1|1453
+|player|p2|Lewissquire|169|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750838945
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1b: Roaring Moon|Booster Energy
+|-activate|p1b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1b: Roaring Moon|protosynthesisspe
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1750838983
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Roaring Moon|Tailwind|p1b: Roaring Moon
+|-sidestart|p1: casper427|move: Tailwind
+|move|p1a: Annihilape|Final Gambit|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Annihilape
+|-damage|p1a: Annihilape|41/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750839005
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Annihilape|atk|1
+|-ability|p1a: Annihilape|Defiant|boost
+|-boost|p1a: Annihilape|atk|2
+|-unboost|p1b: Roaring Moon|atk|1
+|move|p1b: Roaring Moon|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|89/100
+|-damage|p1b: Roaring Moon|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|-enditem|p2a: Incineroar|Rocky Helmet|[from] move: Knock Off|[of] p1b: Roaring Moon
+|move|p1a: Annihilape|Final Gambit|p2a: Incineroar
+|-damage|p2a: Incineroar|46/100
+|faint|p1a: Annihilape
+|move|p2b: Raging Bolt|Dragon Pulse|p1b: Roaring Moon
+|-supereffective|p1b: Roaring Moon
+|-damage|p1b: Roaring Moon|0 fnt
+|faint|p1b: Roaring Moon
+|-end|p1b: Roaring Moon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750839008
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750839063
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|cant|p1a: Zamazenta|flinch
+|move|p2b: Raging Bolt|Dragon Pulse|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750839086
+|-terastallize|p1b: Kyogre|Grass
+|move|p2b: Raging Bolt|Protect|p2b: Raging Bolt
+|-singleturn|p2b: Raging Bolt|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Raging Bolt
+|-activate|p2b: Raging Bolt|move: Protect
+|move|p1b: Kyogre|Water Spout|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Raging Bolt|move: Protect
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: casper427|move: Tailwind
+|upkeep
+|
+|t:|1750839109
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750839122
+|move|p2b: Raging Bolt|Thunderclap|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100
+|move|p2a: Calyrex|Psychic|p1a: Zamazenta
+|-damage|p1a: Zamazenta|7/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Heavy Slam|p2a: Calyrex
+|-damage|p2a: Calyrex|49/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Raging Bolt|[spread] p2a,p2b
+|-resisted|p2b: Raging Bolt
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Raging Bolt|63/100
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839138
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|
+|t:|1750839173
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p2b: Raging Bolt|Protect|p2b: Raging Bolt
+|-singleturn|p2b: Raging Bolt|Protect
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Kyogre|Thunder|p2b: Raging Bolt
+|-activate|p2b: Raging Bolt|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750839199
+|move|p1a: Zamazenta|Body Press|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|6/100
+|move|p2a: Zamazenta|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|23/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Zamazenta|[spread] p2a,p2b
+|-resisted|p2b: Raging Bolt
+|-damage|p2a: Zamazenta|40/100
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750839218
+|-terastallize|p2a: Zamazenta|Water
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p1b: Kyogre|Origin Pulse|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|casper427
+|raw|casper427's rating: 1453 &rarr; <strong>1471</strong><br />(+18 for winning)
+|raw|Lewissquire's rating: 1423 &rarr; <strong>1405</strong><br />(-18 for losing)
+|c|☆casper427|im so goated at vgc
+|c|☆Lewissquire|Me too

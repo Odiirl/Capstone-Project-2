@@ -1,0 +1,139 @@
+|j|☆crimdawgx2
+|j|☆Failerthebest
+|t:|1750847987
+|gametype|doubles
+|player|p1|crimdawgx2|1|1309
+|player|p2|Failerthebest|giovanni|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|
+|t:|1750848017
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750848041
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Failerthebest|move: Tailwind
+|move|p2b: Archaludon|Draco Meteor|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2b: Archaludon|spa|2
+|faint|p1b: Miraidon
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1750848050
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750848075
+|switch|p1a: Scraggy|Scraggy, L50, M|100/100
+|-ability|p1a: Scraggy|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|-terastallize|p2b: Archaludon|Electric
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1b: Calyrex|Glacial Lance|p2b: Archaludon|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Archaludon|58/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Tornadus
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Calyrex
+|-damage|p1b: Calyrex|58/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by crimdawgx2)
+|
+|t:|1750848098
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|3
+|
+|t:|1750848109
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1a: Scraggy|Coaching|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|1
+|-boost|p1b: Calyrex|def|1
+|move|p1b: Calyrex|Glacial Lance|p2b: Archaludon|[spread] p2b
+|-activate|p2a: Eternatus|move: Protect
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750848121
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|turn|4
+|
+|t:|1750848134
+|move|p1a: Scraggy|Coaching|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|1
+|-boost|p1b: Calyrex|def|1
+|move|p1b: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2a,p2b
+|-supereffective|p2a: Eternatus
+|-resisted|p2b: Kyogre
+|-damage|p2a: Eternatus|0 fnt
+|-damage|p2b: Kyogre|20/100
+|faint|p2a: Eternatus
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1a,p1b
+|-crit|p1b: Calyrex
+|-damage|p1a: Scraggy|81/100
+|-damage|p1b: Calyrex|33/100
+|-damage|p2b: Kyogre|10/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Failerthebest|move: Tailwind
+|upkeep
+|turn|5
+|-message|Failerthebest forfeited.
+|
+|win|crimdawgx2
+|raw|crimdawgx2's rating: 1309 &rarr; <strong>1324</strong><br />(+15 for winning)
+|raw|Failerthebest's rating: 1218 &rarr; <strong>1199</strong><br />(-19 for losing)
+|l|☆Failerthebest
+|player|p2|

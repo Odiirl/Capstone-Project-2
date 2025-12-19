@@ -1,0 +1,226 @@
+|j|☆azzazzl
+|j|☆pom321321321
+|t:|1750832203
+|gametype|doubles
+|player|p1|azzazzl|dawn|1462
+|player|p2|pom321321321|wattson|1529
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pom321321321)
+|
+|t:|1750832222
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750832235
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Sableye|Gravity|p2b: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Iron Valiant|Hypnosis|p1b: Indeedee
+|-status|p1b: Indeedee|slp|[from] move: Hypnosis
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750832247
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Iron Valiant|Wide Guard|p2a: Iron Valiant
+|-singleturn|p2a: Iron Valiant|Wide Guard
+|move|p2b: Sableye|Reflect|p2b: Sableye
+|-sidestart|p2: pom321321321|Reflect
+|move|p1a: Calyrex|Glacial Lance|p2a: Iron Valiant|[spread] 
+|-activate|p2a: Iron Valiant|move: Wide Guard
+|-activate|p2b: Sableye|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|pom321321321 has 30 seconds left.
+|
+|t:|1750832278
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Cerus|Lunala, L50|100/100
+|move|p1b: Kyogre|Hydro Pump|p2a: Cerus
+|-damage|p2a: Cerus|89/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Cerus|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Cerus|62/100
+|-damage|p2b: Groudon|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cerus|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750832298
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Kyogre|Hydro Pump|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Cerus|[spread] p2a
+|-activate|p2b: Groudon|move: Protect
+|-damage|p2a: Cerus|38/100
+|move|p2a: Cerus|Hypnosis|p1a: Calyrex
+|-status|p1a: Calyrex|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cerus|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750832323
+|move|p1b: Kyogre|Hydro Pump|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|cant|p1a: Calyrex|slp
+|move|p2a: Cerus|Hypnosis|p1b: Kyogre
+|-status|p1b: Kyogre|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cerus|50/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Gravity
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750832331
+|switch|p2b: Iron Valiant|Iron Valiant, L50|100/100
+|turn|6
+|
+|t:|1750832339
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100 slp
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Iron Valiant|Wide Guard|p2b: Iron Valiant
+|-singleturn|p2b: Iron Valiant|Wide Guard
+|move|p2a: Cerus|Dream Eater|p1b: Indeedee
+|-resisted|p1b: Indeedee
+|-damage|p1b: Indeedee|67/100 slp
+|-heal|p2a: Cerus|63/100|[from] drain|[of] p1b: Indeedee
+|cant|p1a: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cerus|70/100|[from] item: Leftovers
+|-sideend|p2: pom321321321|Reflect
+|upkeep
+|turn|7
+|
+|t:|1750832358
+|move|p2b: Iron Valiant|Wide Guard|p2b: Iron Valiant
+|-singleturn|p2b: Iron Valiant|Wide Guard
+|cant|p1b: Indeedee|slp
+|move|p2a: Cerus|Calm Mind|p2a: Cerus
+|-boost|p2a: Cerus|spa|1
+|-boost|p2a: Cerus|spd|1
+|-curestatus|p1a: Calyrex|slp|[msg]
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|none
+|-heal|p2a: Cerus|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|azzazzl has 30 seconds left.
+|
+|t:|1750832383
+|switch|p1b: Kyogre|Kyogre, L50|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Calyrex|High Horsepower|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|54/100
+|move|p2a: Cerus|Dream Eater|p1b: Kyogre
+|-damage|p1b: Kyogre|33/100 slp
+|-heal|p2a: Cerus|100/100|[from] drain|[of] p1b: Kyogre
+|move|p2b: Iron Valiant|Hypnosis|p1a: Calyrex|[miss]
+|-miss|p2b: Iron Valiant|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750832402
+|cant|p1b: Kyogre|slp
+|move|p1a: Calyrex|High Horsepower|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|9/100
+|move|p2a: Cerus|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2b: Iron Valiant|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|-unboost|p2b: Iron Valiant|def|1
+|-unboost|p2b: Iron Valiant|spd|1
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750832416
+|switch|p1a: Indeedee|Indeedee-F, L50, F|67/100 slp
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|turn|10
+|
+|t:|1750832427
+|cant|p1a: Indeedee|slp
+|move|p1b: Gallade|Sacred Sword|p2b: Iron Valiant
+|-resisted|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|-damage|p1b: Gallade|91/100|[from] item: Life Orb
+|move|p2a: Cerus|Moongeist Beam|p1b: Gallade
+|-supereffective|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750832432
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|turn|11
+|-message|azzazzl forfeited.
+|
+|win|pom321321321
+|raw|azzazzl's rating: 1462 &rarr; <strong>1446</strong><br />(-16 for losing)
+|raw|pom321321321's rating: 1529 &rarr; <strong>1545</strong><br />(+16 for winning)
+|l|☆azzazzl
+|player|p1|
+|l|☆pom321321321
+|player|p2|

@@ -1,0 +1,230 @@
+|j|☆Landovoir
+|j|☆Eyfri
+|t:|1750870258
+|gametype|doubles
+|player|p1|Landovoir|rosa|1390
+|player|p2|Eyfri|pokemaniac|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Latios, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Landovoir)
+|inactive|Landovoir has 60 seconds left.
+|
+|t:|1750870293
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|switch|p2b: Latios|Latios, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750870307
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p2b: Latios|Simple Beam|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-endability|p1b: Weezing|Neutralizing Gas|[from] move: Simple Beam
+|-ability|p1b: Weezing|Simple|[from] move: Simple Beam
+|move|p1b: Weezing|Play Rough|p2b: Latios
+|-supereffective|p2b: Latios
+|-damage|p2b: Latios|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Landovoir has 30 seconds left.
+|
+|t:|1750870338
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisdef
+|move|p2b: Latios|Simple Beam|p2a: Dondozo
+|-endability|p2a: Dondozo|Water Veil|[from] move: Simple Beam
+|-ability|p2a: Dondozo|Simple|[from] move: Simple Beam
+|move|p1b: Weezing|Poison Gas|p2b: Latios|[spread] p2a,p2b
+|-status|p2a: Dondozo|psn
+|-status|p2b: Latios|psn
+|move|p2a: Dondozo|Earthquake|p1a: Brute Bonnet|[spread] p1a,p1b
+|-immune|p2b: Latios|[from] ability: Levitate
+|-resisted|p1a: Brute Bonnet
+|-supereffective|p1b: Weezing
+|-crit|p1b: Weezing
+|-damage|p1a: Brute Bonnet|95/100
+|-damage|p1b: Weezing|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Latios|13/100 psn|[from] psn
+|-damage|p2a: Dondozo|88/100 psn|[from] psn
+|upkeep
+|turn|3
+|inactive|Landovoir has 30 seconds left.
+|inactive|Eyfri has 30 seconds left.
+|inactive|Landovoir has 20 seconds left.
+|inactive|Landovoir has 15 seconds left.
+|
+|t:|1750870382
+|switch|p2b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|4
+|-boost|p2a: Dondozo|spa|4
+|-boost|p2a: Dondozo|spe|4
+|-boost|p2a: Dondozo|def|4
+|-boost|p2a: Dondozo|spd|4
+|move|p2a: Dondozo|Order Up|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|60/100
+|-boost|p2a: Dondozo|atk|2
+|move|p1b: Weezing|Play Rough|p2b: Tatsugiri|[miss]
+|-miss|p1b: Weezing|p2b: Tatsugiri
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|71/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dondozo|59/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750870402
+|move|p2a: Dondozo|Earthquake|p1b: Weezing|[spread] p1a,p1b
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-resisted|p1a: Brute Bonnet
+|-supereffective|p1b: Weezing
+|-damage|p1a: Brute Bonnet|39/100
+|-damage|p1b: Weezing|0 fnt
+|faint|p1b: Weezing
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|42/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dondozo|29/100 psn|[from] psn
+|upkeep
+|inactive|Landovoir has 30 seconds left.
+|inactive|Landovoir has 20 seconds left.
+|
+|t:|1750870441
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750870447
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Dondozo|Order Up|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-boost|p2a: Dondozo|atk|0
+|
+|-weather|none
+|-damage|p2a: Dondozo|17/100 psn|[from] psn
+|upkeep
+|
+|t:|1750870457
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|Landovoir has 30 seconds left.
+|
+|t:|1750870490
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Dondozo|Earthquake|p1b: Calyrex|[spread] p1a
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Koraidon|32/100
+|move|p1a: Koraidon|Flame Charge|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|12/100 psn
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dondozo|0 fnt|[from] psn
+|faint|p2a: Dondozo
+|upkeep
+|
+|t:|1750870493
+|switch|p2a: Latios|Latios, L50, M|13/100 psn
+|turn|7
+|
+|t:|1750870515
+|move|p1a: Koraidon|Flare Blitz|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|-damage|p1a: Koraidon|29/100|[from] Recoil
+|move|p1b: Calyrex|Astral Barrage|p2b: Tatsugiri
+|-enditem|p2b: Tatsugiri|Focus Sash
+|-damage|p2b: Tatsugiri|1/100
+|move|p2b: Tatsugiri|Icy Wind|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|3/100
+|-damage|p1b: Calyrex|86/100
+|-unboost|p1a: Koraidon|spe|1
+|-unboost|p1b: Calyrex|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870517
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|8
+|inactive|Landovoir has 30 seconds left.
+|inactive|Eyfri has 30 seconds left.
+|inactive|Landovoir has 20 seconds left.
+|inactive|Eyfri has 20 seconds left.
+|
+|t:|1750870557
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p2b: Tatsugiri|Muddy Water|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750870567
+|-terastallize|p2a: Zacian|Stellar
+|move|p2a: Zacian|Behemoth Blade|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Eyfri
+|raw|Landovoir's rating: 1390 &rarr; <strong>1370</strong><br />(-20 for losing)
+|raw|Eyfri's rating: 1387 &rarr; <strong>1407</strong><br />(+20 for winning)
+|l|☆Landovoir
+|player|p1|
+|l|☆Eyfri
+|player|p2|

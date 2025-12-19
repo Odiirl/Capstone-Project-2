@@ -1,0 +1,154 @@
+|j|☆spart819
+|j|☆Aragon_Neotrix
+|t:|1750774390
+|gametype|doubles
+|player|p1|spart819|265|1346
+|player|p2|Aragon_Neotrix|cheren-gen5bw2|1247
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Goodra-Hisui, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Weavile, L50, F|
+|teampreview|4
+|
+|t:|1750774438
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750774470
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2a: Necrozma
+|-supereffective|p2b: Flutter Mane
+|-damage|p2a: Necrozma|38/100
+|-damage|p2b: Flutter Mane|0 fnt
+|-enditem|p2a: Necrozma|Weakness Policy
+|-boost|p2a: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Necrozma|spa|2|[from] item: Weakness Policy
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p1b: Zamazenta|Body Press|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|
+|upkeep
+|
+|t:|1750774487
+|switch|p2b: Goodra|Goodra-Hisui, L50, M|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|2
+|
+|t:|1750774499
+|-terastallize|p2b: Goodra|Fairy
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Groudon|[spread] p2b
+|-activate|p2a: Groudon|move: Protect
+|-damage|p2b: Goodra|59/100
+|move|p1b: Zamazenta|Body Press|p2b: Goodra
+|-resisted|p2b: Goodra
+|-damage|p2b: Goodra|30/100
+|move|p2b: Goodra|Breaking Swipe|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Zamazenta|97/100
+|-unboost|p1b: Zamazenta|atk|1
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774519
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|
+|t:|1750774533
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p1b: Zamazenta|Heavy Slam|p2b: Goodra
+|-supereffective|p2b: Goodra
+|-damage|p2b: Goodra|0 fnt
+|faint|p2b: Goodra
+|move|p2a: Groudon|Fire Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|88/100
+|-damage|p2a: Groudon|84/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Groudon|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750774547
+|move|p1b: Zamazenta|Body Press|p2a: Groudon
+|-damage|p2a: Groudon|44/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Groudon
+|-damage|p2a: Groudon|17/100
+|-unboost|p2a: Groudon|spe|1
+|move|p2a: Groudon|Bulk Up|p2a: Groudon
+|-boost|p2a: Groudon|atk|1
+|-boost|p2a: Groudon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Groudon|22/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆Aragon_Neotrix|Damn bro
+|c|☆Aragon_Neotrix|Your team just hard counters mine
+|
+|t:|1750774575
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Zamazenta|Body Press|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Groudon|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750774582
+|move|p1b: Zamazenta|Body Press|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|win|spart819
+|raw|spart819's rating: 1346 &rarr; <strong>1360</strong><br />(+14 for winning)
+|raw|Aragon_Neotrix's rating: 1247 &rarr; <strong>1229</strong><br />(-18 for losing)
+|l|☆spart819
+|player|p1|
+|l|☆Aragon_Neotrix
+|player|p2|

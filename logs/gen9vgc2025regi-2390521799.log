@@ -1,0 +1,239 @@
+|j|☆Llama18
+|j|☆condret
+|t:|1750723684
+|gametype|doubles
+|player|p1|Llama18|1|1154
+|player|p2|condret|169|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Entei, L50|
+|poke|p2|Gastrodon-East, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Conkeldurr, L50, M|
+|teampreview|4
+|
+|t:|1750723735
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750723763
+|move|p1b: Iron Hands|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|86/100
+|cant|p2a: Grimmsnarl|flinch
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|18/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750723794
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p2a: Grimmsnarl|Trick|p1a: Calyrex
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Calyrex
+|-item|p1a: Calyrex|Lagging Tail|[from] move: Trick
+|-item|p2a: Grimmsnarl|Clear Amulet|[from] move: Trick
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] 
+|-activate|p2a: Grimmsnarl|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1b: Iron Hands|Play Rough|p2b: Lunala
+|-damage|p2b: Lunala|88/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750723823
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Lunala|Lunala, L50|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Lunala
+|-damage|p1b: Lunala|88/100
+|-unboost|p1b: Lunala|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750723843
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Lunala
+|-activate|p1b: Lunala|move: Psychic Terrain
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|upkeep
+|
+|t:|1750723859
+|switch|p2b: Conkeldurr|Conkeldurr, L50, M|100/100
+|-enditem|p2b: Conkeldurr|Psychic Seed
+|-boost|p2b: Conkeldurr|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1750723883
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Conkeldurr|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|26/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Lunala|Expanding Force|p2a: Grimmsnarl|[spread] p2b
+|-immune|p2a: Grimmsnarl
+|-supereffective|p2b: Conkeldurr
+|-damage|p2b: Conkeldurr|27/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750723899
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|turn|6
+|
+|t:|1750723925
+|-terastallize|p1a: Iron Hands|Electric
+|move|p2b: Conkeldurr|Protect|p2b: Conkeldurr
+|-singleturn|p2b: Conkeldurr|Protect
+|move|p1a: Iron Hands|Fake Out|p2b: Conkeldurr
+|-activate|p2b: Conkeldurr|move: Psychic Terrain
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|32/100
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Lunala
+|-damage|p1b: Lunala|63/100
+|-unboost|p1b: Lunala|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1750723965
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2b: Conkeldurr|Mach Punch|p1a: Iron Hands
+|-damage|p1a: Iron Hands|83/100
+|move|p1b: Lunala|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|74/100
+|move|p1a: Iron Hands|Play Rough|p2b: Conkeldurr|[miss]
+|-miss|p1a: Iron Hands|p2b: Conkeldurr
+|
+|upkeep
+|turn|8
+|
+|t:|1750724004
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|18/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Conkeldurr|Mach Punch|p1a: Calyrex
+|-damage|p1a: Calyrex|3/100
+|move|p2a: Miraidon|Volt Switch|p1b: Lunala
+|-damage|p1b: Lunala|18/100
+|
+|t:|1750724013
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|32/100|[from] Volt Switch
+|move|p1b: Lunala|Moonblast|p2b: Conkeldurr
+|-supereffective|p2b: Conkeldurr
+|-damage|p2b: Conkeldurr|0 fnt
+|faint|p2b: Conkeldurr
+|
+|upkeep
+|
+|t:|1750724020
+|switch|p2b: Miraidon|Miraidon, L50|74/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750724030
+|switch|p1b: Iron Hands|Iron Hands, L50, tera:Electric|83/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Iron Hands
+|-resisted|p1b: Iron Hands
+|-damage|p1b: Iron Hands|51/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750724065
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Iron Hands|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|56/100
+|cant|p2b: Miraidon|flinch
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750724076
+|switch|p1a: Lunala|Lunala, L50|18/100
+|turn|11
+|
+|t:|1750724093
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Iron Hands|Supercell Slam|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Iron Hands
+|-damage|p1b: Iron Hands|32/100
+|-unboost|p1b: Iron Hands|spa|1
+|
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|turn|12
+|
+|t:|1750724108
+|move|p1b: Iron Hands|Supercell Slam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|Llama18
+|raw|Llama18's rating: 1154 &rarr; <strong>1178</strong><br />(+24 for winning)
+|raw|condret's rating: 1139 &rarr; <strong>1115</strong><br />(-24 for losing)

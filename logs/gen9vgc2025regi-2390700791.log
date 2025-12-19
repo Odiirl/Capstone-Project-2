@@ -1,0 +1,202 @@
+|j|☆Tokito 10
+|j|☆NarutoUzumaki1234
+|t:|1750752565
+|gametype|doubles
+|player|p1|Tokito 10|1|1163
+|player|p2|NarutoUzumaki1234|1|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Barraskewda, L50, M|
+|teampreview|4
+|
+|t:|1750752593
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Barraskewda|Barraskewda, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750752626
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Barraskewda|Psychic Fangs|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|49/100
+|move|p1a: Flutter Mane|Moonblast|p2b: Barraskewda
+|-crit|p2b: Barraskewda
+|-enditem|p2b: Barraskewda|Focus Sash
+|-damage|p2b: Barraskewda|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750752659
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Blastoise|Blastoise, L50, M|100/100
+|move|p2b: Barraskewda|Psychic Fangs|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|50/100
+|-damage|p2b: Barraskewda|0 fnt|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p2b: Barraskewda
+|move|p1a: Flutter Mane|Moonblast|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|32/100
+|-unboost|p2a: Blastoise|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750752682
+|switch|p2b: Palkia|Palkia-Origin, L50, shiny|100/100
+|-ability|p2b: Palkia|Pressure
+|turn|3
+|
+|t:|1750752706
+|-terastallize|p2b: Palkia|Fire
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Palkia|Hydro Pump|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|35/100
+|move|p1a: Flutter Mane|Moonblast|p2b: Palkia
+|-resisted|p2b: Palkia
+|-damage|p2b: Palkia|67/100
+|move|p2a: Blastoise|Rock Slide|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Flutter Mane|67/100
+|-damage|p1b: Amoonguss|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750752737
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2b: Palkia|Spacial Rend|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|72/100
+|move|p1a: Flutter Mane|Moonblast|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750752754
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-end|p1a: Flutter Mane|Protosynthesis
+|turn|5
+|
+|t:|1750752767
+|switch|p1b: Koraidon|Koraidon, L50|49/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Palkia|Spacial Rend|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Palkia
+|-damage|p2b: Palkia|11/100
+|move|p2a: Kyogre|Ice Beam|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750752786
+|switch|p1b: Amoonguss|Amoonguss, L50, F|54/100
+|turn|6
+|
+|t:|1750752805
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Palkia|Spacial Rend|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Flutter Mane|Moonblast|p2b: Palkia
+|-resisted|p2b: Palkia
+|-damage|p2b: Palkia|0 fnt
+|faint|p2b: Palkia
+|move|p2a: Kyogre|Water Spout|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750752813
+|switch|p1b: Terapagos|Terapagos-Terastal, L50, M|78/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tokito 10)
+|
+|t:|1750752830
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750752838
+|move|p2a: Kyogre|Water Spout|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|31/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Kyogre
+|-damage|p2a: Kyogre|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|37/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750752850
+|move|p2a: Kyogre|Water Spout|p1b: Terapagos
+|-damage|p1b: Terapagos|28/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|Tokito 10
+|raw|Tokito 10's rating: 1163 &rarr; <strong>1187</strong><br />(+24 for winning)
+|raw|NarutoUzumaki1234's rating: 1148 &rarr; <strong>1124</strong><br />(-24 for losing)
+|l|☆NarutoUzumaki1234
+|player|p2|
+|l|☆Tokito 10
+|player|p1|

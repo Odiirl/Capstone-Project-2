@@ -1,0 +1,162 @@
+|j|☆Romero47
+|j|☆ryw434
+|t:|1750856537
+|gametype|doubles
+|player|p1|Romero47|giovanni|1106
+|player|p2|ryw434|blue|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Sableye, L50, F|
+|teampreview|4
+|
+|t:|1750856562
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750856589
+|move|p2b: Sableye|Thunder Wave|p1a: Calyrex
+|-status|p1a: Calyrex|par
+|move|p1b: Hydreigon|Tailwind|p1b: Hydreigon
+|-sidestart|p1: Romero47|move: Tailwind
+|move|p1a: Calyrex|Astral Barrage|p2b: Sableye|[spread] p2b
+|-immune|p2a: Farigiraf
+|-damage|p2b: Sableye|4/100
+|-damage|p1a: Calyrex|91/100 par|[from] item: Life Orb
+|move|p2a: Farigiraf|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|18/100 par
+|
+|upkeep
+|turn|2
+|
+|t:|1750856620
+|-terastallize|p1a: Calyrex|Dark
+|move|p2b: Sableye|Thunder Wave|p1b: Hydreigon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Hydreigon
+|move|p1b: Hydreigon|Draco Meteor|p2a: Farigiraf
+|-damage|p2a: Farigiraf|44/100
+|-unboost|p1b: Hydreigon|spa|2
+|move|p1a: Calyrex|Energy Ball|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|8/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750856640
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750856663
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Hydreigon|Draco Meteor|p2b: Sableye
+|-damage|p2b: Sableye|0 fnt
+|-unboost|p1b: Hydreigon|spa|2
+|faint|p2b: Sableye
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-supereffective|p1b: Hydreigon
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1b: Hydreigon|Focus Sash
+|-damage|p1b: Hydreigon|1/100
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750856677
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|4
+|
+|t:|1750856695
+|move|p1b: Hydreigon|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Hydreigon|[spread] p1a,p1b
+|-supereffective|p1b: Hydreigon
+|-damage|p1a: Kyogre|73/100
+|-damage|p1b: Hydreigon|0 fnt
+|faint|p1b: Hydreigon
+|move|p1a: Kyogre|Water Spout|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|47/100
+|-damage|p2b: Calyrex|61/100
+|cant|p2b: Calyrex|move: Taunt|Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|79/100|[from] item: Leftovers
+|-sideend|p1: Romero47|move: Tailwind
+|upkeep
+|
+|t:|1750856710
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|turn|5
+|
+|t:|1750856719
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kyogre|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-damage|p1b: Tornadus|39/100
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Miraidon|10/100
+|-damage|p2b: Calyrex|41/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Kyogre|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750856741
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kyogre
+|-damage|p1a: Kyogre|46/100
+|move|p1a: Kyogre|Origin Pulse|p2b: Calyrex|[spread] p2b
+|-miss|p1a: Kyogre|p2a: Miraidon
+|-damage|p2b: Calyrex|3/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|win|ryw434
+|raw|Romero47's rating: 1106 &rarr; <strong>1078</strong><br />(-28 for losing)
+|raw|ryw434's rating: 1063 &rarr; <strong>1097</strong><br />(+34 for winning)
+|l|☆ryw434
+|player|p2|
+|l|☆Romero47
+|player|p1|

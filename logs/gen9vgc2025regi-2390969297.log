@@ -1,0 +1,174 @@
+|j|☆Nodefogsgiven2
+|j|‽sonicteamrocket
+|t:|1750788235
+|gametype|doubles
+|player|p1|Nodefogsgiven2|170|1306
+|player|p2|sonicteamrocket|rocketgrunt|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nodefogsgiven2)
+|
+|t:|1750788270
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|turn|1
+|inactive|sonicteamrocket has 30 seconds left.
+|
+|t:|1750788295
+|move|p2b: Incineroar|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|93/100
+|move|p1a: Miraidon|Volt Switch|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|4/100
+|
+|t:|1750788302
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100|[from] Volt Switch
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2a: Flutter Mane|Icy Wind|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|89/100
+|-damage|p1b: Iron Hands|85/100
+|-unboost|p1a: Farigiraf|spe|1
+|-unboost|p1b: Iron Hands|spe|1
+|cant|p1b: Iron Hands|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750788319
+|move|p2a: Flutter Mane|Moonblast|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|36/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Farigiraf
+|-damage|p1a: Farigiraf|59/100
+|-damage|p2b: Incineroar|89/100|[from] Recoil
+|move|p1b: Iron Hands|Drain Punch|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|37/100
+|-heal|p1b: Iron Hands|58/100|[from] drain|[of] p2b: Incineroar
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|3
+|inactive|Nodefogsgiven2 has 30 seconds left.
+|inactive|Nodefogsgiven2 has 20 seconds left.
+|
+|t:|1750788355
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Dialga|Dialga, L50|100/100
+|-ability|p1b: Dialga|Pressure
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1a: Farigiraf|Bulldoze|p2a: Flutter Mane|[spread] p1b,p2b
+|-activate|p2a: Flutter Mane|move: Protect
+|-supereffective|p1b: Dialga
+|-supereffective|p2b: Incineroar
+|-damage|p1b: Dialga|88/100
+|-damage|p2b: Incineroar|24/100
+|-unboost|p1b: Dialga|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|-enditem|p1b: Dialga|Weakness Policy
+|-boost|p1b: Dialga|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Dialga|spa|2|[from] item: Weakness Policy
+|move|p2b: Incineroar|Parting Shot|p1a: Farigiraf
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1a: Farigiraf|spa|1
+|
+|t:|1750788374
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|4
+|inactive|Nodefogsgiven2 has 30 seconds left.
+|inactive|Nodefogsgiven2 has 20 seconds left.
+|
+|t:|1750788409
+|move|p1a: Farigiraf|Night Shade|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Amoonguss|Spore|p1b: Dialga
+|-activate|p1b: Dialga|move: Electric Terrain
+|move|p1b: Dialga|Flamethrower|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|upkeep
+|
+|t:|1750788424
+|switch|p2b: Incineroar|Incineroar, L50, F|24/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Dialga|atk|1
+|turn|5
+|
+|t:|1750788449
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p1a: Farigiraf|Night Shade|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Dialga|Dragon Pulse|p2a: Terapagos
+|-damage|p2a: Terapagos|28/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|34/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750788471
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldend|move: Trick Room
+|move|p1b: Dialga|Trick Room|p1b: Dialga
+|-fieldstart|move: Trick Room|[of] p1b: Dialga
+|
+|-heal|p2a: Terapagos|41/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-message|sonicteamrocket forfeited.
+|
+|win|Nodefogsgiven2
+|raw|Nodefogsgiven2's rating: 1306 &rarr; <strong>1325</strong><br />(+19 for winning)
+|raw|sonicteamrocket's rating: 1296 &rarr; <strong>1272</strong><br />(-24 for losing)
+|l|‽sonicteamrocket
+|player|p2|

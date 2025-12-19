@@ -1,0 +1,280 @@
+|j|☆bodeylee
+|j|☆Meijis
+|t:|1750731693
+|gametype|doubles
+|player|p1|bodeylee|169|1068
+|player|p2|Meijis|102|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rampardos, L50, F|
+|poke|p1|Hippowdon, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Carbink, L50|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Eternatus, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Meijis)
+Meijis rejected open team sheets.
+|
+|t:|1750731739
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Carbink|Carbink, L50|100/100
+|switch|p2a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Eternatus|Pressure
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Eternatus|atk|1
+|-unboost|p1b: Carbink|atk|1
+|turn|1
+|
+|t:|1750731761
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|move|p2a: Iron Bundle|Icy Wind|p1b: Carbink|[spread] p1b
+|-activate|p1a: Eternatus|move: Protect
+|-damage|p1b: Carbink|89/100
+|move|p1b: Carbink|Trick Room|p1b: Carbink
+|-fieldstart|move: Trick Room|[of] p1b: Carbink
+|
+|upkeep
+|turn|2
+|inactive|bodeylee has 30 seconds left.
+|
+|t:|1750731795
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p1b: Carbink|Gravity|p1b: Carbink
+|-fieldstart|move: Gravity
+|move|p1a: Eternatus|Toxic|p2a: Iron Bundle
+|-status|p2a: Iron Bundle|tox
+|move|p2a: Iron Bundle|Aurora Veil|p2a: Iron Bundle
+|-sidestart|p2: Meijis|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Bundle|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|bodeylee has 30 seconds left.
+|inactive|bodeylee has 20 seconds left.
+|inactive|bodeylee has 15 seconds left.
+|
+|t:|1750731836
+|move|p1b: Carbink|Protect|p1b: Carbink
+|-singleturn|p1b: Carbink|Protect
+|move|p1a: Eternatus|Fire Blast|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|32/100
+|move|p2b: Ninetales|Blizzard|p1a: Eternatus|[spread] p1a
+|-activate|p1b: Carbink|move: Protect
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|58/100
+|-status|p1a: Eternatus|frz
+|move|p2a: Iron Bundle|Encore|p1b: Carbink
+|-activate|p1b: Carbink|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Bundle|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|bodeylee has 30 seconds left.
+|inactive|bodeylee has 20 seconds left.
+|
+|t:|1750731871
+|move|p1b: Carbink|Endeavor|p2a: Iron Bundle
+|-immune|p2a: Iron Bundle
+|cant|p1a: Eternatus|frz
+|move|p2b: Ninetales|Blizzard|p1a: Eternatus|[spread] p1a,p1b
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|17/100 frz
+|-damage|p1b: Carbink|72/100
+|move|p2a: Iron Bundle|Encore|p1b: Carbink
+|-start|p1b: Carbink|Encore
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Bundle|63/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750731894
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|cant|p1a: Eternatus|frz
+|move|p2b: Ninetales|Blizzard|p1a: Eternatus|[spread] p1a,p1b
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Tyranitar|82/100
+|faint|p1a: Eternatus
+|move|p2a: Iron Bundle|Icy Wind|p1b: Tyranitar
+|-damage|p1b: Tyranitar|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Ninetales|26/100|[from] Sandstorm
+|-damage|p2a: Iron Bundle|57/100 tox|[from] Sandstorm
+|-damage|p2a: Iron Bundle|33/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750731911
+|switch|p1a: Carbink|Carbink, L50|72/100
+|turn|6
+|
+|t:|1750731927
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Carbink|atk|1
+|-fail|p1b: Tyranitar|unboost|[from] item: Clear Amulet|[of] p1b: Tyranitar
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2a: Iron Bundle|Freeze-Dry|p1a: Carbink
+|-damage|p1a: Carbink|60/100
+|move|p1a: Carbink|Trick Room|p1a: Carbink
+|-fieldstart|move: Trick Room|[of] p1a: Carbink
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Bundle|26/100 tox|[from] Sandstorm
+|-damage|p2a: Iron Bundle|0 fnt|[from] psn
+|faint|p2a: Iron Bundle
+|-end|p2a: Iron Bundle|Quark Drive|[silent]
+|-sideend|p2: Meijis|move: Aurora Veil
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750731941
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|26/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|7
+|
+|t:|1750731957
+|move|p2b: Incineroar|Fake Out|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|64/100
+|move|p1a: Carbink|Gravity|p1a: Carbink
+|-fieldstart|move: Gravity
+|cant|p1b: Tyranitar|flinch
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Meijis|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750731979
+|move|p1a: Carbink|Endeavor|p2b: Incineroar
+|-damage|p2b: Incineroar|47/100
+|move|p2b: Incineroar|Knock Off|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|44/100
+|-enditem|p1b: Tyranitar|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Tyranitar|Stone Edge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750731989
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750732007
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Carbink|Endeavor|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Tyranitar
+|-unboost|p1b: Tyranitar|atk|1
+|-unboost|p1b: Tyranitar|spa|1
+|move|p1b: Tyranitar|Stone Edge|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750732024
+|move|p1a: Carbink|Endeavor|p2a: Calyrex
+|-damage|p2a: Calyrex|45/100
+|move|p2a: Calyrex|Leech Seed|p1a: Carbink
+|-start|p1a: Carbink|move: Leech Seed
+|move|p1b: Tyranitar|Stone Edge|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|24/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|30/100|[from] item: Leftovers
+|-damage|p1a: Carbink|48/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|39/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1750732043
+|switch|p1b: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|move|p1a: Carbink|Protect|p1a: Carbink
+|-singleturn|p1a: Carbink|Protect
+|move|p2a: Calyrex|Leech Seed|p1b: Necrozma
+|-start|p1b: Necrozma|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|45/100|[from] item: Leftovers
+|-damage|p1b: Necrozma|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|57/100|[silent]
+|-damage|p1a: Carbink|36/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|66/100|[silent]
+|-sideend|p2: Meijis|move: Aurora Veil
+|-fieldend|move: Gravity
+|upkeep
+|turn|12
+|
+|t:|1750732064
+|switch|p1b: Tyranitar|Tyranitar, L50, F|44/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Carbink|Endeavor|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Calyrex|60/100|[from] Sandstorm
+|-heal|p2a: Calyrex|66/100|[from] item: Leftovers
+|-damage|p1a: Carbink|23/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|75/100|[silent]
+|upkeep
+|turn|13
+|inactive|bodeylee has 30 seconds left.
+|
+|t:|1750732092
+|move|p1b: Tyranitar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Calyrex
+|
+|win|bodeylee
+|raw|bodeylee's rating: 1068 &rarr; <strong>1101</strong><br />(+33 for winning)
+|raw|Meijis's rating: 1101 &rarr; <strong>1074</strong><br />(-27 for losing)
+|l|☆Meijis
+|player|p2|
+|l|☆bodeylee
+|player|p1|

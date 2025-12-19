@@ -1,0 +1,169 @@
+|j|☆lild00sh
+|j|☆NarutoUzumaki1234
+|t:|1750738717
+|gametype|doubles
+|player|p1|lild00sh|169|1110
+|player|p2|NarutoUzumaki1234|1|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Volbeat, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Decidueye-Hisui, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Skeledirge, L50, M|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Bronzong, L50|
+|teampreview|4
+|
+|t:|1750738751
+|start
+|switch|p1a: Volbeat|Volbeat, L50, M|100/100
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750738781
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Volbeat|Tail Glow|p1a: Volbeat
+|-boost|p1a: Volbeat|spa|3
+|move|p2b: Primarina|Hyper Voice|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Volbeat|75/100
+|-damage|p1b: Clefairy|76/100
+|-enditem|p2b: Primarina|Throat Spray
+|-boost|p2b: Primarina|spa|1|[from] item: Throat Spray
+|move|p2a: Calyrex|Glacial Lance|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Volbeat|26/100
+|-damage|p1b: Clefairy|11/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750738810
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Volbeat|Baton Pass|p1a: Volbeat
+|
+|t:|1750738815
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100|[from] Baton Pass
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750738843
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p1b: Clefairy|Helping Hand|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Helping Hand|[of] p1b: Clefairy
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Terapagos|74/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Primarina|Hyper Voice|p1a: Terapagos
+|-damage|p1a: Terapagos|19/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Primarina|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Primarina|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Primarina
+|
+|upkeep
+|
+|t:|1750738865
+|switch|p2a: Decidueye|Decidueye-Hisui, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2b: Skeledirge|Skeledirge, L50, M|100/100
+|turn|4
+|
+|t:|1750738887
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Decidueye|Triple Arrows|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|move|p2b: Skeledirge|Torch Song|p1b: Lunala
+|-damage|p1b: Lunala|85/100
+|-boost|p2b: Skeledirge|spa|1
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Skeledirge
+|-supereffective|p2b: Skeledirge
+|-damage|p2b: Skeledirge|8/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750738926
+|switch|p1a: Volbeat|Volbeat, L50, M|26/100
+|move|p2a: Decidueye|Triple Arrows|p1a: Volbeat
+|-resisted|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|faint|p1a: Volbeat
+|move|p2b: Skeledirge|Shadow Ball|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|upkeep
+|
+|t:|1750738939
+|switch|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|19/100
+|turn|6
+|
+|t:|1750738950
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Decidueye|Grass Pledge|p1b: Terapagos
+|-waiting|p2a: Decidueye|p2b: Skeledirge
+|move|p2b: Skeledirge|Fire Pledge|p1b: Terapagos|[from] move: Grass Pledge
+|-activate|p1b: Terapagos|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750738983
+|move|p2b: Skeledirge|Protect|p2b: Skeledirge
+|-singleturn|p2b: Skeledirge|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2b: Skeledirge|[spread] p2a
+|-activate|p2b: Skeledirge|move: Protect
+|-damage|p2a: Decidueye|76/100
+|move|p2a: Decidueye|Triple Arrows|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|NarutoUzumaki1234
+|raw|lild00sh's rating: 1110 &rarr; <strong>1088</strong><br />(-22 for losing)
+|raw|NarutoUzumaki1234's rating: 1156 &rarr; <strong>1178</strong><br />(+22 for winning)
+|l|☆NarutoUzumaki1234
+|player|p2|
+|l|☆lild00sh
+|player|p1|

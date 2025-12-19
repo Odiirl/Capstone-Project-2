@@ -1,0 +1,229 @@
+|j|☆ShellyV25
+|j|☆CinnaMink
+|t:|1750738031
+|gametype|doubles
+|player|p1|ShellyV25|hilbert|1174
+|player|p2|CinnaMink|backpackerf|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750738075
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750738122
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Miraidon|Volt Switch|p1a: Koraidon
+|-damage|p1a: Koraidon|47/100
+|
+|t:|1750738128
+|switch|p2a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|move|p1a: Koraidon|Flare Blitz|p2b: Tornadus
+|-enditem|p2b: Tornadus|Focus Sash
+|-damage|p2b: Tornadus|1/100
+|-damage|p1a: Koraidon|21/100|[from] Recoil
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: CinnaMink|move: Tailwind
+|move|p1b: Weezing|Strange Steam|p2a: Kyogre
+|-damage|p2a: Kyogre|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750738169
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Kyogre|Water Spout|p1b: Weezing|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Weezing|73/100
+|move|p1b: Weezing|Strange Steam|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750738189
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Kyogre|Water Spout|p1b: Weezing|[spread] p1a,p1b
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|89/100
+|-damage|p1b: Weezing|41/100
+|move|p1b: Weezing|Strange Steam|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750738224
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Kyogre|Water Spout|p1a: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1a: Brute Bonnet
+|-crit|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|79/100
+|-damage|p1b: Weezing|11/100
+|move|p1b: Weezing|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|-enditem|p2b: Amoonguss|Mental Herb
+|-end|p2b: Amoonguss|move: Taunt
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|12/100
+|-enditem|p2a: Kyogre|Sitrus Berry|[eat]
+|-heal|p2a: Kyogre|37/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brute Bonnet|85/100|[from] item: Leftovers
+|-sideend|p2: CinnaMink|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750738253
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Weezing|Protect|p1b: Weezing
+|-singleturn|p1b: Weezing|Protect
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Weezing
+|-activate|p1b: Weezing|move: Protect
+|
+|-weather|none
+|-heal|p1a: Brute Bonnet|91/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750738280
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Brute Bonnet|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750738323
+|move|p1b: Calyrex|Psychic|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|78/100|[from] item: Life Orb
+|move|p2a: Kyogre|Thunder|p1b: Calyrex
+|-damage|p1b: Calyrex|32/100
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Brute Bonnet|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738341
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|1/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|8
+|
+|t:|1750738356
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Brute Bonnet|Rage Powder|p1a: Brute Bonnet
+|-singleturn|p1a: Brute Bonnet|move: Rage Powder
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: CinnaMink|move: Tailwind
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|1/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Brute Bonnet|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738375
+|switch|p1b: Koraidon|Koraidon, L50, tera:Fire|21/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisdef
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|9
+|
+|t:|1750738390
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|-end|p1a: Brute Bonnet|Protosynthesis
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Koraidon|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750738399
+|switch|p1a: Weezing|Weezing-Galar, L50, M, shiny|11/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Koraidon|item: Ability Shield
+|turn|10
+|-message|ShellyV25 forfeited.
+|
+|win|CinnaMink
+|raw|ShellyV25's rating: 1174 &rarr; <strong>1155</strong><br />(-19 for losing)
+|raw|CinnaMink's rating: 1258 &rarr; <strong>1277</strong><br />(+19 for winning)
+|l|☆ShellyV25
+|player|p1|
+|l|☆CinnaMink
+|player|p2|

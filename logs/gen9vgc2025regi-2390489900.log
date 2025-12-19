@@ -1,0 +1,220 @@
+|j|☆ohuiytfgyhuji
+|j|☆WolfesGimp
+|t:|1750719569
+|gametype|doubles
+|player|p1|ohuiytfgyhuji|preschooler|1094
+|player|p2|WolfesGimp|170|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Squawkabilly, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|
+|t:|1750719581
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Zoomzoom|Dragonite, L50, F|100/100
+|switch|p2b: Poww|Chien-Pao, L50|100/100
+|-ability|p2b: Poww|Sword of Ruin
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Zoomzoom|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Zoomzoom
+|-unboost|p2b: Poww|atk|1
+|turn|1
+|
+|t:|1750719603
+|-terastallize|p2a: Zoomzoom|Normal
+|move|p1a: Incineroar|Fake Out|p2b: Poww
+|-damage|p2b: Poww|80/100
+|move|p2a: Zoomzoom|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|2/100
+|cant|p2b: Poww|flinch
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Zoomzoom
+|-damage|p2a: Zoomzoom|38/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750719653
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-terastallize|p1b: Lunala|Dark
+|move|p2a: Zoomzoom|Extreme Speed|p1a: Calyrex
+|-damage|p1a: Calyrex|51/100
+|move|p2b: Poww|Snarl|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Lunala
+|-damage|p1a: Calyrex|36/100
+|-damage|p1b: Lunala|98/100
+|-unboost|p1b: Lunala|spa|1
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|upkeep
+|turn|3
+|
+|t:|1750719682
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Zoomzoom|Extreme Speed|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|move|p2b: Poww|Snarl|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Lunala
+|-damage|p1b: Lunala|94/100
+|-unboost|p1b: Lunala|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750719700
+|move|p2a: Zoomzoom|Extreme Speed|p1b: Lunala
+|-damage|p1b: Lunala|19/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Zoomzoom|[spread] p2a,p2b
+|-resisted|p2b: Poww
+|-damage|p2a: Zoomzoom|0 fnt
+|-damage|p2b: Poww|43/100
+|faint|p2a: Zoomzoom
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Lunala|Meteor Beam|p2b: Poww|[from] lockedmove|[miss]
+|-miss|p1b: Lunala|p2b: Poww
+|move|p2b: Poww|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1a: Calyrex|18/100
+|-damage|p1b: Lunala|12/100
+|-unboost|p1b: Lunala|spa|1
+|
+|upkeep
+|
+|t:|1750719719
+|switch|p2a: Lulz|Sableye, L50, F|100/100
+|turn|5
+|
+|t:|1750719736
+|move|p2a: Lulz|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|13/100
+|cant|p1a: Calyrex|flinch
+|move|p1b: Lunala|Moongeist Beam|p2b: Poww
+|-resisted|p2b: Poww
+|-damage|p2b: Poww|10/100
+|move|p2b: Poww|Sacred Sword|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|upkeep
+|
+|t:|1750719750
+|switch|p1b: Incineroar|Incineroar, L50, F|2/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lulz|atk|1
+|-unboost|p2b: Poww|atk|1
+|turn|6
+|
+|t:|1750719766
+|move|p1a: Calyrex|Glacial Lance|p2b: Poww|[spread] p2a,p2b
+|-resisted|p2b: Poww
+|-damage|p2a: Lulz|0 fnt
+|-damage|p2b: Poww|0 fnt
+|faint|p2a: Lulz
+|faint|p2b: Poww
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|move|p1b: Incineroar|Knock Off|p2: Lulz|[notarget]
+|-fail|p1b: Incineroar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750719778
+|switch|p2a: Sapphire|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Sapphire
+|turn|7
+|
+|t:|1750719786
+|switch|p1b: Squawkabilly|Squawkabilly, L50, M|100/100
+|-ability|p1b: Squawkabilly|Intimidate|boost
+|-unboost|p2a: Sapphire|atk|1
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Sapphire|Muddy Water|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-miss|p2a: Sapphire|p1b: Squawkabilly
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WolfesGimp)
+|
+|t:|1750719808
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Squawkabilly|Dual Wingbeat|p2a: Sapphire
+|-damage|p2a: Sapphire|87/100
+|-damage|p2a: Sapphire|75/100
+|-hitcount|p2a: Sapphire|2
+|move|p2a: Sapphire|Muddy Water|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Squawkabilly|0 fnt
+|faint|p1b: Squawkabilly
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719819
+|switch|p1b: Incineroar|Incineroar, L50, F|2/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sapphire|atk|1
+|turn|9
+|
+|t:|1750719826
+|move|p1b: Incineroar|Fake Out|p2a: Sapphire
+|-damage|p2a: Sapphire|62/100
+|cant|p2a: Sapphire|flinch
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750719834
+|move|p1a: Calyrex|Glacial Lance|p2a: Sapphire
+|-resisted|p2a: Sapphire
+|-damage|p2a: Sapphire|0 fnt
+|faint|p2a: Sapphire
+|
+|win|ohuiytfgyhuji
+|raw|ohuiytfgyhuji's rating: 1094 &rarr; <strong>1117</strong><br />(+23 for winning)
+|raw|WolfesGimp's rating: 1059 &rarr; <strong>1042</strong><br />(-17 for losing)
+|l|☆WolfesGimp
+|player|p2|
+|l|☆ohuiytfgyhuji
+|player|p1|

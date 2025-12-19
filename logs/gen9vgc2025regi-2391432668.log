@@ -1,0 +1,154 @@
+|j|☆leolc0926
+|j|☆Raph_dog666
+|t:|1750855362
+|gametype|doubles
+|player|p1|leolc0926|hilbert-wonderlauncher|1105
+|player|p2|Raph_dog666|265|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Maushold, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750855388
+|start
+|switch|p1a: 宇宙第一|Incineroar, L50, M|100/100
+|switch|p1b: 麒麟侠|Farigiraf, L50, F|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: 宇宙第一|Intimidate|boost
+|-unboost|p2a: Maushold|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: 宇宙第一|atk|1
+|-unboost|p1b: 麒麟侠|atk|1
+|turn|1
+|
+|t:|1750855410
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: 宇宙第一|Fake Out|p2a: Calyrex
+|-immune|p2a: Calyrex
+|move|p2b: Incineroar|Knock Off|p1b: 麒麟侠
+|-supereffective|p1b: 麒麟侠
+|-damage|p1b: 麒麟侠|42/100
+|-enditem|p1b: 麒麟侠|Electric Seed|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: 麒麟侠|Trick Room|p1b: 麒麟侠
+|-fieldstart|move: Trick Room|[of] p1b: 麒麟侠
+|-enditem|p1a: 宇宙第一|Room Service
+|-unboost|p1a: 宇宙第一|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|2
+|
+|t:|1750855449
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: 宇宙第一|Knock Off|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: 宇宙第一
+|-resisted|p1a: 宇宙第一
+|-damage|p1a: 宇宙第一|90/100
+|move|p1b: 麒麟侠|Roar|p2b: Incineroar
+|drag|p2b: Maushold|Maushold, L50|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750855477
+|-terastallize|p2b: Maushold|Normal
+|move|p1a: 宇宙第一|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Covert Cloak|[from] move: Knock Off|[of] p1a: 宇宙第一
+|faint|p2a: Calyrex
+|move|p2b: Maushold|Population Bomb|p1a: 宇宙第一
+|-damage|p1a: 宇宙第一|77/100
+|-damage|p1a: 宇宙第一|63/100
+|-damage|p1a: 宇宙第一|49/100
+|-damage|p1a: 宇宙第一|36/100
+|-damage|p1a: 宇宙第一|21/100
+|-damage|p1a: 宇宙第一|7/100
+|-damage|p1a: 宇宙第一|0 fnt
+|faint|p1a: 宇宙第一
+|-hitcount|p1: 宇宙第一|7
+|move|p1b: 麒麟侠|Roar|p2b: Maushold
+|drag|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750855497
+|switch|p1a: バドレックス|Calyrex-Ice, L50|100/100
+|switch|p2a: Maushold|Maushold, L50, tera:Normal|100/100
+|-ability|p1a: バドレックス|As One
+|-ability|p1a: バドレックス|Unnerve
+|turn|4
+|
+|t:|1750855517
+|move|p1b: 麒麟侠|Helping Hand|p1a: バドレックス
+|-singleturn|p1a: バドレックス|Helping Hand|[of] p1b: 麒麟侠
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: バドレックス|Glacial Lance|p2a: Maushold|[spread] p2a
+|-activate|p2b: Miraidon|move: Protect
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|-ability|p1a: バドレックス|Chilling Neigh|boost
+|-boost|p1a: バドレックス|atk|1
+|
+|upkeep
+|
+|t:|1750855527
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: バドレックス|unboost|[from] item: Clear Amulet|[of] p1a: バドレックス
+|-unboost|p1b: 麒麟侠|atk|1
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leolc0926)
+|
+|t:|1750855545
+|-terastallize|p1a: バドレックス|Fire
+|move|p1b: 麒麟侠|Helping Hand|p1a: バドレックス
+|-singleturn|p1a: バドレックス|Helping Hand|[of] p1b: 麒麟侠
+|move|p1a: バドレックス|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Incineroar|42/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: バドレックス|Chilling Neigh|boost
+|-boost|p1a: バドレックス|atk|1
+|move|p2a: Incineroar|Flare Blitz|p1a: バドレックス
+|-resisted|p1a: バドレックス
+|-damage|p1a: バドレックス|83/100
+|-damage|p2a: Incineroar|36/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|Raph_dog666 forfeited.
+|
+|win|leolc0926
+|raw|leolc0926's rating: 1105 &rarr; <strong>1135</strong><br />(+30 for winning)
+|raw|Raph_dog666's rating: 1174 &rarr; <strong>1144</strong><br />(-30 for losing)
+|l|☆Raph_dog666
+|player|p2|
+|c|☆leolc0926|gg

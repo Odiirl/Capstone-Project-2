@@ -1,0 +1,177 @@
+|j|☆Dalucks89
+|j|☆helo hru
+|t:|1750775079
+|gametype|doubles
+|player|p1|Dalucks89|hiker-gen4|1335
+|player|p2|helo hru|unknownf|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Bronzong, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Avalugg, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|
+|t:|1750775100
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Keii|Miraidon, L50|100/100
+|switch|p2b: Baguette|Farigiraf, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Keii
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Keii|atk|1
+|-unboost|p2b: Baguette|atk|1
+|turn|1
+|
+|t:|1750775124
+|move|p1a: Flutter Mane|Moonblast|p2a: Keii
+|-supereffective|p2a: Keii
+|-damage|p2a: Keii|51/100
+|-unboost|p2a: Keii|spa|1
+|move|p2a: Keii|Volt Switch|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|54/100
+|
+|t:|1750775131
+|switch|p2a: Oh-Ho|Ho-Oh, L50|100/100|[from] Volt Switch
+|move|p1b: Incineroar|Knock Off|p2a: Oh-Ho
+|-damage|p2a: Oh-Ho|58/100
+|-enditem|p2a: Oh-Ho|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Baguette|Trick Room|p2b: Baguette
+|-fieldstart|move: Trick Room|[of] p2b: Baguette
+|
+|upkeep
+|turn|2
+|
+|t:|1750775163
+|switch|p2b: GEM|Avalugg, L50, M|100/100
+|-enditem|p2b: GEM|Electric Seed
+|-boost|p2b: GEM|def|1|[from] item: Electric Seed
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p1b: Incineroar|Parting Shot|p2a: Oh-Ho
+|-unboost|p2a: Oh-Ho|atk|1
+|-unboost|p2a: Oh-Ho|spa|1
+|
+|t:|1750775174
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Oh-Ho|Brave Bird|p1a: Kyogre
+|-damage|p1a: Kyogre|64/100
+|-damage|p2a: Oh-Ho|47/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750775193
+|-terastallize|p2b: GEM|Fighting
+|move|p2a: Oh-Ho|Protect|p2a: Oh-Ho
+|-singleturn|p2a: Oh-Ho|Protect
+|move|p2b: GEM|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|move|p1b: Calyrex|Zen Headbutt|p2b: GEM
+|-supereffective|p2b: GEM
+|-damage|p2b: GEM|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750775206
+|switch|p1a: Flutter Mane|Flutter Mane, L50|54/100
+|turn|4
+|c|☆helo hru|first time seeing that 1
+|
+|t:|1750775215
+|move|p2b: GEM|Wide Guard|p2b: GEM
+|-singleturn|p2b: GEM|Wide Guard
+|move|p1b: Calyrex|Glacial Lance|p2a: Oh-Ho|[spread] 
+|-activate|p2a: Oh-Ho|move: Wide Guard
+|-activate|p2b: GEM|move: Wide Guard
+|move|p2a: Oh-Ho|Brave Bird|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2a: Oh-Ho|36/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750775229
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Oh-Ho|atk|1
+|-unboost|p2b: GEM|atk|1
+|turn|5
+|
+|t:|1750775241
+|switch|p2a: Baguette|Farigiraf, L50, M|100/100
+|move|p1a: Incineroar|Fake Out||[still]
+|cant|p2a: Baguette|ability: Armor Tail|Fake Out|[of] p1a: Incineroar
+|move|p2b: GEM|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Calyrex|Glacial Lance|p2b: GEM|[spread] p2a,p2b
+|-crit|p2b: GEM
+|-damage|p2a: Baguette|52/100
+|-damage|p2b: GEM|34/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750775257
+|move|p2a: Baguette|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|50/100
+|move|p1b: Calyrex|Glacial Lance|p2b: GEM|[spread] p2a,p2b
+|-damage|p2a: Baguette|5/100
+|-damage|p2b: GEM|17/100
+|move|p2b: GEM|Recover|p2b: GEM
+|-heal|p2b: GEM|67/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750775269
+|-terastallize|p1b: Calyrex|Dark
+|move|p2a: Baguette|Foul Play|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|37/100
+|move|p1b: Calyrex|Glacial Lance|p2b: GEM|[spread] p2a,p2b
+|-damage|p2a: Baguette|0 fnt
+|-damage|p2b: GEM|52/100
+|faint|p2a: Baguette
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: GEM|Body Press|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|helo hru
+|raw|Dalucks89's rating: 1335 &rarr; <strong>1314</strong><br />(-21 for losing)
+|raw|helo hru's rating: 1316 &rarr; <strong>1337</strong><br />(+21 for winning)
+|l|☆Dalucks89
+|player|p1|

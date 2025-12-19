@@ -1,0 +1,135 @@
+|j|☆MMB? Ezy
+|j|☆Ganlhi
+|t:|1750859897
+|gametype|doubles
+|player|p1|MMB? Ezy|skyla|1117
+|player|p2|Ganlhi|2|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|
+|t:|1750859952
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750859977
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Kyogre|Origin Pulse|p2a: Calyrex|[spread] p2a,p2b
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|6/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1a: Amoonguss|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2a: Calyrex|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆MMB? Ezy|ih
+|
+|t:|1750859995
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-enditem|p2b: Gallade|Psychic Seed
+|-boost|p2b: Gallade|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1750860012
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Kyogre|Origin Pulse|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Gallade|43/100
+|faint|p2a: Calyrex
+|move|p2b: Gallade|Psycho Cut|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750860022
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1750860053
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Kyogre|Origin Pulse|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|16/100
+|-damage|p2b: Gallade|26/100
+|move|p2b: Gallade|Psycho Cut|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|move|p2a: Torkoal|Eruption|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860072
+|switch|p1a: Decidueye|Decidueye-Hisui, L50, M|100/100
+|turn|4
+|
+|t:|1750860089
+|move|p1b: Kyogre|Water Spout|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Gallade|4/100
+|faint|p2a: Torkoal
+|move|p2b: Gallade|Air Slash|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860096
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|turn|5
+|
+|t:|1750860106
+|move|p1a: Iron Hands|Fake Out|p2b: Gallade
+|-activate|p2b: Gallade|move: Psychic Terrain
+|move|p1b: Kyogre|Ice Beam|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|win|MMB? Ezy
+|raw|MMB? Ezy's rating: 1117 &rarr; <strong>1140</strong><br />(+23 for winning)
+|raw|Ganlhi's rating: 1092 &rarr; <strong>1070</strong><br />(-22 for losing)
+|l|☆Ganlhi
+|player|p2|
+|l|☆MMB? Ezy
+|player|p1|

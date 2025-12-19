@@ -1,0 +1,207 @@
+|j|☆CertifiedCartiFan
+|j|☆Sallust
+|t:|1750768060
+|gametype|doubles
+|player|p1|CertifiedCartiFan|artist|1378
+|player|p2|Sallust|li|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Thundurus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|
+|t:|1750768086
+|start
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100
+|switch|p1b: Xander|Calyrex-Shadow, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Xander|As One
+|-ability|p1b: Xander|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|-unboost|p1b: Xander|atk|1
+|turn|1
+|
+|t:|1750768093
+|-terastallize|p1b: Xander|Fighting
+|move|p1a: Thundurus|Taunt|p2a: Lunala
+|-start|p2a: Lunala|move: Taunt
+|move|p1b: Xander|Tera Blast|p2b: Incineroar|[anim] Tera Blast Fighting
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|15/100
+|-damage|p1b: Xander|91/100|[from] item: Life Orb
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|move|p2b: Incineroar|Knock Off|p1b: Xander
+|-resisted|p1b: Xander
+|-damage|p1b: Xander|62/100
+|-enditem|p1b: Xander|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750768110
+|switch|p1a: Xavier|Zacian-Crowned, L50|100/100
+|-ability|p1a: Xavier|Intrepid Sword|boost
+|-boost|p1a: Xavier|atk|1
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CertifiedCartiFan)
+|
+|t:|1750768120
+|switch|p2b: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p2b: Hitmontop|Intimidate|boost
+|-unboost|p1a: Xavier|atk|1
+|-unboost|p1b: Xander|atk|1
+|move|p1b: Xander|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|28/100
+|-damage|p2b: Hitmontop|54/100
+|-enditem|p2b: Hitmontop|Eject Button
+|
+|t:|1750768129
+|switch|p2b: Incineroar|Incineroar, L50, F|15/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Xavier|atk|1
+|-unboost|p1b: Xander|atk|1
+|move|p1a: Xavier|Behemoth Blade|p2a: Lunala
+|-damage|p2a: Lunala|1/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Xavier
+|-damage|p1a: Xavier|29/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750768149
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2b: Incineroar|Fake Out|p1b: Xander
+|-damage|p1b: Xander|51/100
+|cant|p1b: Xander|flinch
+|move|p2a: Lunala|Moongeist Beam|p1b: Xander
+|-damage|p1b: Xander|0 fnt
+|faint|p1b: Xander
+|
+|-end|p2a: Lunala|move: Taunt
+|upkeep
+|
+|t:|1750768156
+|switch|p1b: Xavier|Zacian-Crowned, L50|29/100
+|turn|4
+|
+|t:|1750768170
+|switch|p2b: Hitmontop|Hitmontop, L50, M|54/100
+|-ability|p2b: Hitmontop|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Xavier|atk|1
+|move|p1b: Xavier|Behemoth Blade|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p1a: Incineroar|Knock Off|p2b: Hitmontop
+|-resisted|p2b: Hitmontop
+|-damage|p2b: Hitmontop|44/100
+|
+|upkeep
+|
+|t:|1750768182
+|switch|p2a: Incineroar|Incineroar, L50, F|15/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Xavier|atk|1
+|turn|5
+|
+|t:|1750768198
+|move|p1b: Xavier|Protect|p1b: Xavier
+|-singleturn|p1b: Xavier|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Xavier
+|-activate|p1b: Xavier|move: Protect
+|move|p2b: Hitmontop|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|38/100
+|-unboost|p2b: Hitmontop|def|1
+|-unboost|p2b: Hitmontop|spd|1
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|63/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|7/100
+|-enditem|p2a: Incineroar|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|6
+|inactive|CertifiedCartiFan has 30 seconds left.
+|
+|t:|1750768227
+|move|p1b: Xavier|Play Rough|p2b: Hitmontop
+|-supereffective|p2b: Hitmontop
+|-damage|p2b: Hitmontop|0 fnt
+|faint|p2b: Hitmontop
+|move|p1a: Incineroar|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|move|p2a: Incineroar|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|
+|t:|1750768235
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|upkeep
+|
+|t:|1750768242
+|switch|p2b: Incineroar|Incineroar, L50, F|1/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Xavier|atk|1
+|turn|7
+|
+|t:|1750768248
+|-terastallize|p2a: Calyrex|Ghost
+|move|p1b: Xavier|Protect|p1b: Xavier
+|-singleturn|p1b: Xavier|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|38/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Xavier|[spread] p1a
+|-activate|p1b: Xavier|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|upkeep
+|turn|8
+|-message|CertifiedCartiFan forfeited.
+|
+|win|Sallust
+|raw|CertifiedCartiFan's rating: 1378 &rarr; <strong>1354</strong><br />(-24 for losing)
+|raw|Sallust's rating: 1302 &rarr; <strong>1326</strong><br />(+24 for winning)
+|l|☆CertifiedCartiFan
+|player|p1|
+|c|☆Sallust|ggs
+|l|☆Sallust
+|player|p2|

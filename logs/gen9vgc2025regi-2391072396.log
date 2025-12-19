@@ -1,0 +1,152 @@
+|j|☆Gambit05
+|j|☆Njath
+|t:|1750799253
+|gametype|doubles
+|player|p1|Gambit05|1|1152
+|player|p2|Njath|102|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Luxray, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Infernape, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+Gambit05 has agreed to open team sheets.
+|
+|t:|1750799279
+|start
+|switch|p1a: Luxray|Luxray, L50, F, shiny|100/100
+|switch|p1b: Infernape|Infernape, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1a: Luxray|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750799301
+|move|p1a: Luxray|Helping Hand|p1b: Infernape
+|-singleturn|p1b: Infernape|Helping Hand|[of] p1a: Luxray
+|move|p2a: Miraidon|Volt Switch|p1b: Infernape
+|-crit|p1b: Infernape
+|-enditem|p1b: Infernape|Focus Sash
+|-damage|p1b: Infernape|1/100
+|
+|t:|1750799310
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Luxray|atk|1
+|-unboost|p1b: Infernape|atk|1
+|move|p1b: Infernape|Flare Blitz|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|10/100
+|-damage|p1b: Infernape|0 fnt|[from] Recoil
+|faint|p1b: Infernape
+|move|p2b: Calyrex|Leech Seed|p1a: Luxray
+|-start|p1a: Luxray|move: Leech Seed
+|
+|-heal|p2b: Calyrex|15/100|[from] item: Leftovers
+|-damage|p1a: Luxray|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|27/100|[silent]
+|upkeep
+|
+|t:|1750799324
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|2
+|
+|t:|1750799348
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p2a: Incineroar|Fake Out|p1b: Terapagos
+|-damage|p1b: Terapagos|94/100
+|cant|p1b: Terapagos|flinch
+|move|p1a: Luxray|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p2b: Calyrex|Leech Seed|p1b: Terapagos
+|-start|p1b: Terapagos|move: Leech Seed
+|
+|-heal|p2b: Calyrex|32/100 par|[from] item: Leftovers
+|-damage|p1b: Terapagos|82/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|48/100 par|[silent]
+|-damage|p1a: Luxray|76/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|59/100 par|[silent]
+|upkeep
+|turn|3
+|
+|t:|1750799377
+|move|p1a: Luxray|Helping Hand|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Helping Hand|[of] p1a: Luxray
+|cant|p2b: Calyrex|par
+|move|p1b: Terapagos|Tera Starstorm|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|46/100
+|-damage|p2b: Calyrex|3/100 par
+|move|p2a: Incineroar|U-turn|p1b: Terapagos
+|-damage|p1b: Terapagos|70/100
+|
+|t:|1750799401
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] U-turn
+|
+|-heal|p2b: Calyrex|9/100 par|[from] item: Leftovers
+|-damage|p1b: Terapagos|57/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|25/100 par|[silent]
+|-damage|p1a: Luxray|64/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|36/100 par|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750799414
+|move|p1a: Luxray|Helping Hand|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Helping Hand|[of] p1a: Luxray
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Urshifu|Surging Strikes|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|45/100
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|32/100
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|19/100
+|-hitcount|p1b: Terapagos|3
+|move|p1b: Terapagos|Tera Starstorm|p2a: Urshifu|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Urshifu|5/100
+|
+|-heal|p2b: Calyrex|42/100 par|[from] item: Leftovers
+|-damage|p1b: Terapagos|7/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|58/100 par|[silent]
+|-damage|p1a: Luxray|51/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|69/100 par|[silent]
+|upkeep
+|turn|5
+|-message|Gambit05 forfeited.
+|
+|win|Njath
+|raw|Gambit05's rating: 1152 &rarr; <strong>1130</strong><br />(-22 for losing)
+|raw|Njath's rating: 1200 &rarr; <strong>1222</strong><br />(+22 for winning)
+|l|☆Gambit05
+|player|p1|
+|l|☆Njath
+|player|p2|

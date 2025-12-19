@@ -1,0 +1,161 @@
+|j|☆lazyp
+|j|☆Shuliora
+|t:|1750826000
+|gametype|doubles
+|player|p1|lazyp|caitlin|1124
+|player|p2|Shuliora|wattson|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Shiftry, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Breloom, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Articuno, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shuliora)
+|
+|t:|1750826029
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Shiftry|Shiftry, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Kyurem|Kyurem-White, L50|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Shiftry|atk|1
+|turn|1
+|inactive|Shuliora has 30 seconds left.
+|
+|t:|1750826059
+|move|p1b: Shiftry|Fake Out|p2b: Kyurem
+|-damage|p2b: Kyurem|92/100
+|move|p2a: Incineroar|Fake Out|p1b: Shiftry
+|-damage|p1b: Shiftry|82/100
+|cant|p2b: Kyurem|flinch
+|move|p1a: Lunala|Tailwind|p1a: Lunala
+|-sidestart|p1: lazyp|move: Tailwind
+|-ability|p1b: Shiftry|Wind Rider|boost
+|-boost|p1b: Shiftry|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750826078
+|-terastallize|p1b: Shiftry|Normal
+|move|p2b: Kyurem|Protect|p2b: Kyurem
+|-singleturn|p2b: Kyurem|Protect
+|move|p1b: Shiftry|Explosion|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Kyurem|move: Protect
+|-immune|p1a: Lunala
+|-damage|p2a: Incineroar|0 fnt
+|faint|p1b: Shiftry
+|faint|p2a: Incineroar
+|move|p1a: Lunala|Moongeist Beam|p2b: Kyurem
+|-activate|p2b: Kyurem|move: Protect
+|
+|upkeep
+|
+|t:|1750826096
+|switch|p1b: Breloom|Breloom, L50, F|100/100
+|switch|p2a: Articuno|Articuno, L50|100/100
+|turn|3
+|
+|t:|1750826109
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1b: Breloom|Spore|p2a: Ninetales
+|-status|p2a: Ninetales|slp|[from] move: Spore
+|move|p1a: Lunala|Moonblast|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|22/100
+|move|p2b: Kyurem|Fusion Flare|p1b: Breloom
+|-supereffective|p1b: Breloom
+|-enditem|p1b: Breloom|Focus Sash
+|-damage|p1b: Breloom|1/100
+|-damage|p2b: Kyurem|12/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|lazyp has 30 seconds left.
+|
+|t:|1750826140
+|cant|p2a: Ninetales|slp
+|move|p2b: Kyurem|Protect|p2b: Kyurem
+|-singleturn|p2b: Kyurem|Protect
+|move|p1b: Breloom|Mach Punch|p2b: Kyurem
+|-activate|p2b: Kyurem|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|37/100 slp
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: lazyp|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750826159
+|move|p1b: Breloom|Mach Punch|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|0 fnt
+|faint|p2b: Kyurem
+|cant|p2a: Ninetales|slp
+|move|p1a: Lunala|Tailwind|p1a: Lunala
+|-sidestart|p1: lazyp|move: Tailwind
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750826168
+|switch|p2b: Articuno|Articuno, L50|100/100
+|turn|6
+|
+|t:|1750826174
+|-terastallize|p2b: Articuno|Ice
+|-curestatus|p2a: Ninetales|slp|[msg]
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1b: Breloom|Spore|p2b: Articuno
+|-status|p2b: Articuno|slp|[from] move: Spore
+|move|p1a: Lunala|Moongeist Beam|p2b: Articuno
+|-damage|p2b: Articuno|55/100 slp
+|cant|p2b: Articuno|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750826193
+|move|p1b: Breloom|Mach Punch|p2b: Articuno
+|-supereffective|p2b: Articuno
+|-damage|p2b: Articuno|20/100 slp
+|move|p1a: Lunala|Moongeist Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|cant|p2b: Articuno|slp
+|
+|-weather|none
+|upkeep
+|turn|8
+|-message|Shuliora forfeited.
+|
+|win|lazyp
+|raw|lazyp's rating: 1124 &rarr; <strong>1146</strong><br />(+22 for winning)
+|raw|Shuliora's rating: 1087 &rarr; <strong>1066</strong><br />(-21 for losing)
+|l|☆Shuliora
+|player|p2|
+|l|☆lazyp
+|player|p1|

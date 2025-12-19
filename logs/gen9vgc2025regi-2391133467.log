@@ -1,0 +1,204 @@
+|j|☆armandopalsud
+|j|☆bodeylee
+|t:|1750806622
+|gametype|doubles
+|player|p1|armandopalsud|hilbert|1050
+|player|p2|bodeylee|101|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Slaking, L50, F|
+|poke|p2|Regigigas, L50|
+|poke|p2|Cobalion, L50|
+|teampreview|4
+|
+|t:|1750806678
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Cobalion|Cobalion, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by armandopalsud)
+|
+|t:|1750806712
+|move|p1b: Urshifu|U-turn|p2b: Cobalion
+|-resisted|p2b: Cobalion
+|-damage|p2b: Cobalion|94/100
+|
+|t:|1750806719
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2b: Cobalion|Volt Switch|p1b: Lunala
+|-damage|p1b: Lunala|82/100
+|-damage|p2b: Cobalion|84/100|[from] item: Life Orb
+|
+|t:|1750806730
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Weezing
+|-status|p2a: Weezing|par
+|move|p2a: Weezing|Pain Split|p1b: Lunala
+|-sethp|p1b: Lunala|79/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|100/100 par|[from] move: Pain Split
+|
+|upkeep
+|turn|2
+|
+|t:|1750806752
+|-terastallize|p2b: Calyrex|Dark
+|-terastallize|p1b: Lunala|Fairy
+|move|p2b: Calyrex|Snarl|p1b: Lunala|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-resisted|p1b: Lunala
+|-damage|p1a: Grimmsnarl|94/100
+|-damage|p1b: Lunala|69/100
+|-unboost|p1a: Grimmsnarl|spa|1
+|-unboost|p1b: Lunala|spa|1
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|80/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: armandopalsud|move: Light Screen
+|cant|p2a: Weezing|par
+|
+|upkeep
+|turn|3
+|
+|t:|1750806776
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1a: Grimmsnarl|[spread] 
+|-activate|p1a: Grimmsnarl|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Weezing|Strange Steam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|63/100
+|
+|upkeep
+|
+|t:|1750806792
+|switch|p2b: Cobalion|Cobalion, L50|84/100
+|turn|4
+|
+|t:|1750806803
+|move|p2b: Cobalion|Calm Mind|p2b: Cobalion
+|-boost|p2b: Cobalion|spa|1
+|-boost|p2b: Cobalion|spd|1
+|move|p1b: Lunala|Moongeist Beam|p2a: Weezing
+|-damage|p2a: Weezing|45/100 par
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Cobalion
+|-status|p2b: Cobalion|par
+|move|p2a: Weezing|Strange Steam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|29/100
+|
+|-heal|p2a: Weezing|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750806826
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1b: Lunala|Moongeist Beam|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: armandopalsud|Reflect
+|cant|p2b: Cobalion|par
+|
+|-heal|p2a: Weezing|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750806844
+|move|p1b: Lunala|Moongeist Beam|p2a: Weezing
+|-damage|p2a: Weezing|2/100 par
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|cant|p2b: Cobalion|par
+|
+|upkeep
+|
+|t:|1750806856
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|7
+|inactive|armandopalsud has 30 seconds left.
+|
+|t:|1750806885
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Eternatus
+|-status|p2a: Eternatus|par
+|move|p1b: Lunala|Moonblast|p2a: Eternatus
+|-damage|p2a: Eternatus|73/100 par
+|-unboost|p2a: Eternatus|spa|1
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p2b: Cobalion|Flash Cannon|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|5/100
+|-damage|p2b: Cobalion|75/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750806906
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|8
+|
+|t:|1750806916
+|move|p1a: Urshifu|Close Combat|p2b: Cobalion
+|-supereffective|p2b: Cobalion
+|-damage|p2b: Cobalion|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2b: Cobalion
+|move|p1b: Lunala|Moonblast|p2a: Eternatus
+|-damage|p2a: Eternatus|49/100 par
+|move|p2a: Eternatus|Sludge Bomb|p1a: Urshifu
+|-damage|p1a: Urshifu|21/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750806929
+|move|p1a: Urshifu|Close Combat|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Eternatus
+|
+|win|armandopalsud
+|raw|armandopalsud's rating: 1050 &rarr; <strong>1091</strong><br />(+41 for winning)
+|raw|bodeylee's rating: 1138 &rarr; <strong>1107</strong><br />(-31 for losing)
+|l|☆bodeylee
+|player|p2|
+|l|☆armandopalsud
+|player|p1|

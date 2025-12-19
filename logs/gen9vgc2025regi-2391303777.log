@@ -1,0 +1,181 @@
+|j|☆m3e
+|j|☆vloggers
+|t:|1750832100
+|gametype|doubles
+|player|p1|m3e|266|1243
+|player|p2|vloggers|ghetsis|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by m3e)
+|
+|t:|1750832136
+|start
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Moltres|Moltres-Galar, L50, shiny|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750832152
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-terastallize|p2b: Moltres|Fairy
+|move|p2a: Rillaboom|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|97/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Rillaboom|[miss]
+|-miss|p1a: Chien-Pao|p2a: Rillaboom
+|move|p2b: Moltres|Tailwind|p2b: Moltres
+|-sidestart|p2: vloggers|move: Tailwind
+|
+|-heal|p1b: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750832173
+|move|p2b: Moltres|Fiery Wrath|p1b: Zamazenta|[spread] p1a,p1b
+|-resisted|p1a: Chien-Pao
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Chien-Pao|78/100
+|-damage|p1b: Zamazenta|89/100
+|move|p2a: Rillaboom|U-turn|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|86/100
+|
+|t:|1750832177
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Calyrex
+|-damage|p2a: Calyrex|30/100
+|cant|p1b: Zamazenta|flinch
+|
+|-heal|p2a: Calyrex|36/100|[from] Grassy Terrain
+|-heal|p1a: Chien-Pao|84/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|93/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750832194
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Moltres|Fiery Wrath|p1b: Zamazenta|[spread] p1a,p1b
+|-resisted|p1a: Chien-Pao
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Chien-Pao|58/100
+|-damage|p1b: Zamazenta|82/100
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Moltres
+|-supereffective|p2b: Moltres
+|-damage|p2b: Moltres|0 fnt
+|faint|p2b: Moltres
+|
+|-heal|p1a: Chien-Pao|64/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750832200
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750832215
+|move|p2b: Rillaboom|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|85/100
+|move|p2a: Zamazenta|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|cant|p1b: Zamazenta|flinch
+|
+|-heal|p1b: Zamazenta|91/100|[from] Grassy Terrain
+|-sideend|p2: vloggers|move: Tailwind
+|upkeep
+|
+|t:|1750832224
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|
+|t:|1750832236
+|move|p1a: Urshifu|Coaching|p1b: Zamazenta
+|-boost|p1b: Zamazenta|atk|1
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|30/100
+|move|p1b: Zamazenta|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|30/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|81/100
+|-damage|p2b: Rillaboom|98/100|[from] Recoil
+|
+|-heal|p1a: Urshifu|36/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|37/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|87/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750832251
+|move|p1a: Urshifu|Coaching|p1b: Zamazenta
+|-boost|p1b: Zamazenta|atk|1
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|53/100
+|move|p1b: Zamazenta|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|move|p2b: Rillaboom|Wood Hammer|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-damage|p2b: Rillaboom|91/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750832263
+|switch|p1a: Giratina|Giratina-Origin, L50|100/100
+|turn|7
+|
+|t:|1750832268
+|move|p1b: Zamazenta|Body Press|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|win|m3e
+|raw|m3e's rating: 1243 &rarr; <strong>1265</strong><br />(+22 for winning)
+|raw|vloggers's rating: 1208 &rarr; <strong>1186</strong><br />(-22 for losing)
+|l|☆vloggers
+|player|p2|
+|l|☆m3e
+|player|p1|

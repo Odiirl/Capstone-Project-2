@@ -1,0 +1,226 @@
+|j|☆Brilliant_Idt
+|j|☆okjihgvhjk
+|t:|1750734164
+|gametype|doubles
+|player|p1|Brilliant_Idt|veteran|1200
+|player|p2|okjihgvhjk|preschooler|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Squawkabilly, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+okjihgvhjk rejected open team sheets.
+|
+|t:|1750734196
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Scream Tail|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|turn|1
+|
+|t:|1750734230
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|move|p1b: Gothitelle|Taunt|p2b: Lunala
+|-start|p2b: Lunala|move: Taunt
+|
+|upkeep
+|turn|2
+|l|☆Brilliant_Idt
+|player|p1|
+|j|☆Brilliant_Idt
+|player|p1|Brilliant_Idt|veteran|
+|
+|t:|1750734307
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Scream Tail|Encore|p2b: Lunala
+|-start|p2b: Lunala|Encore
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|move|p2a: Incineroar|Flare Blitz|p1a: Scream Tail
+|-damage|p1a: Scream Tail|48/100
+|-damage|p2a: Incineroar|81/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1750734353
+|move|p1b: Calyrex|Astral Barrage|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Lunala
+|-damage|p2a: Incineroar|53/100
+|-damage|p2b: Lunala|31/100
+|move|p1a: Scream Tail|Disable|p2b: Lunala
+|-start|p2b: Lunala|Disable|Meteor Beam
+|cant|p2b: Lunala|Disable|Meteor Beam
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750734394
+|switch|p2b: Squawkabilly|Squawkabilly, L50, M|100/100
+|-ability|p2b: Squawkabilly|Intimidate|boost
+|-unboost|p1a: Scream Tail|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p1b: Calyrex|Encore|p2a: Incineroar
+|-start|p2a: Incineroar|Encore
+|move|p1a: Scream Tail|Disable|p2a: Incineroar
+|-start|p2a: Incineroar|Disable|Knock Off
+|cant|p2a: Incineroar|Disable|Knock Off
+|
+|upkeep
+|turn|5
+|
+|t:|1750734432
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Squawkabilly|Final Gambit|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p2b: Squawkabilly
+|faint|p1a: Koraidon
+|-activate|p2a: Incineroar|move: Struggle
+|move|p2a: Incineroar|Struggle|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750734461
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750734507
+|switch|p1b: Scream Tail|Scream Tail, L50|48/100
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Gothitelle|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|97/100
+|-activate|p2a: Incineroar|move: Struggle
+|move|p2a: Incineroar|Struggle|p1b: Scream Tail
+|-damage|p1b: Scream Tail|33/100
+|-damage|p2a: Incineroar|28/100|[from] recoil
+|cant|p2b: Calyrex|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Incineroar|Encore
+|upkeep
+|turn|7
+|
+|t:|1750734541
+|-terastallize|p1a: Gothitelle|Water
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Calyrex|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Gothitelle|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2a: Incineroar|Flare Blitz|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|64/100
+|-damage|p2a: Incineroar|17/100|[from] Recoil
+|move|p2b: Calyrex|Glacial Lance|p1a: Gothitelle|[spread] p1a,p1b
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|45/100
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|51/100|[from] item: Leftovers
+|-end|p2a: Incineroar|Disable
+|-start|p1a: Gothitelle|perish3
+|-start|p2a: Incineroar|perish3
+|-start|p2b: Calyrex|perish3
+|upkeep
+|
+|t:|1750734565
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|1/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by okjihgvhjk)
+|
+|t:|1750734620
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Gothitelle|Psychic|p2b: Calyrex
+|-damage|p2b: Calyrex|78/100
+|move|p2a: Incineroar|Knock Off|p1a: Gothitelle
+|-damage|p1a: Gothitelle|11/100
+|-enditem|p1a: Gothitelle|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Incineroar|perish2
+|-start|p2b: Calyrex|perish2
+|upkeep
+|turn|9
+|
+|t:|1750734641
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|okjihgvhjk
+|raw|Brilliant_Idt's rating: 1200 &rarr; <strong>1167</strong><br />(-33 for losing)
+|raw|okjihgvhjk's rating: 1078 &rarr; <strong>1116</strong><br />(+38 for winning)
+|l|☆Brilliant_Idt
+|player|p1|
+|l|☆okjihgvhjk
+|player|p2|

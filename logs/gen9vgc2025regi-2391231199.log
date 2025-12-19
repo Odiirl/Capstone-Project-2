@@ -1,0 +1,136 @@
+|j|☆Alox01
+|j|☆unowns-in-owns
+|t:|1750819732
+|gametype|doubles
+|player|p1|Alox01|101|1189
+|player|p2|unowns-in-owns|worker-gen4|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Heatran, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by unowns-in-owns)
+unowns-in-owns rejected open team sheets.
+|
+|t:|1750819748
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750819769
+|move|p2a: Kyogre|Water Spout|p1a: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|59/100
+|-damage|p1b: Indeedee|43/100
+|move|p2b: Gothitelle|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|4/100
+|cant|p1b: Indeedee|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|unowns-in-owns has 30 seconds left.
+|
+|t:|1750819796
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Gothitelle|Electric Seed
+|-boost|p2b: Gothitelle|def|1|[from] item: Electric Seed
+|move|p2b: Gothitelle|Taunt|p1a: Brute Bonnet
+|-start|p1a: Brute Bonnet|move: Taunt
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Gothitelle|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|75/100
+|-damage|p2b: Gothitelle|89/100
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750819815
+|switch|p2b: Kyogre|Kyogre, L50|4/100
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-end|p1b: Indeedee|move: Taunt
+|upkeep
+|
+|t:|1750819820
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|89/100
+|turn|4
+|
+|t:|1750819844
+|move|p2b: Gothitelle|Fake Out|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|54/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Urshifu|Surging Strikes|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-hitcount|p1: Indeedee|1
+|cant|p1a: Brute Bonnet|flinch
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Brute Bonnet|move: Taunt
+|upkeep
+|
+|t:|1750819858
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750819876
+|move|p1a: Brute Bonnet|Sucker Punch|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|move|p1b: Koraidon|Close Combat|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Urshifu
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|win|Alox01
+|raw|Alox01's rating: 1189 &rarr; <strong>1215</strong><br />(+26 for winning)
+|raw|unowns-in-owns's rating: 1208 &rarr; <strong>1182</strong><br />(-26 for losing)

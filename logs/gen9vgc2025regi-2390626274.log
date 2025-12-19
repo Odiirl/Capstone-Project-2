@@ -1,0 +1,214 @@
+|j|☆column11
+|j|☆Galact7adi
+|t:|1750738416
+|gametype|doubles
+|player|p1|column11|ninjaboy|1343
+|player|p2|Galact7adi|n|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Galact7adi)
+|
+|t:|1750738445
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p1b: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1b: Iron Jugulis|Booster Energy
+|-activate|p1b: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Jugulis|quarkdrivespe
+|turn|1
+|inactive|column11 has 30 seconds left.
+|inactive|Galact7adi has 30 seconds left.
+|inactive|column11 has 20 seconds left.
+|inactive|Galact7adi has 20 seconds left.
+|
+|t:|1750738481
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Clefairy
+|-status|p2a: Clefairy|par
+|move|p1b: Iron Jugulis|Tailwind|p1b: Iron Jugulis
+|-sidestart|p1: column11|move: Tailwind
+|move|p2b: Whimsicott|Moonblast|p1b: Iron Jugulis
+|-supereffective|p1b: Iron Jugulis
+|-damage|p1b: Iron Jugulis|40/100
+|-unboost|p1b: Iron Jugulis|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750738506
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Clefairy|Protect|p2a: Clefairy
+|-singleturn|p2a: Clefairy|Protect
+|move|p1b: Iron Jugulis|Air Slash|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|93/100
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|36/100
+|-unboost|p2b: Miraidon|spa|1
+|
+|upkeep
+|turn|3
+|inactive|Galact7adi has 30 seconds left.
+|
+|t:|1750738536
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Clefairy
+|-unboost|p2a: Clefairy|atk|1
+|-unboost|p2a: Clefairy|spa|1
+|
+|t:|1750738542
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100|[from] Parting Shot
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Iron Jugulis|Taunt|p2a: Clefairy
+|-start|p2a: Clefairy|move: Taunt
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Iron Jugulis|[spread] p1a,p1b
+|-supereffective|p1b: Iron Jugulis
+|-damage|p1a: Zamazenta|70/100
+|-damage|p1b: Iron Jugulis|0 fnt
+|faint|p1b: Iron Jugulis
+|-end|p1b: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750738554
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750738567
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Calyrex
+|-damage|p2b: Calyrex|55/100
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Calyrex
+|-damage|p2b: Calyrex|11/100
+|-unboost|p2b: Calyrex|spa|1
+|
+|-sideend|p1: column11|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750738584
+|move|p2a: Whimsicott|Fake Tears|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|spd|2
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|8/100
+|move|p2b: Calyrex|Astral Barrage|p1a: Zamazenta|[spread] p1a,p1b
+|-resisted|p1b: Grimmsnarl
+|-damage|p1a: Zamazenta|12/100
+|-damage|p1b: Grimmsnarl|82/100
+|
+|upkeep
+|turn|6
+|
+|t:|1750738606
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Galact7adi|move: Tailwind
+|move|p2b: Calyrex|Astral Barrage|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Grimmsnarl
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Grimmsnarl|64/100
+|faint|p1a: Zamazenta
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750738616
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|36/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|7
+|
+|t:|1750738634
+|-terastallize|p1a: Calyrex|Normal
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|9/100
+|
+|t:|1750738639
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100 par|[from] Volt Switch
+|move|p1a: Calyrex|Astral Barrage|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Clefairy|58/100 par
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Clefairy
+|-damage|p2a: Clefairy|25/100 par
+|-unboost|p2a: Clefairy|spa|1
+|
+|upkeep
+|
+|t:|1750738646
+|switch|p2b: Miraidon|Miraidon, L50, tera:Fairy|36/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|8
+|
+|t:|1750738658
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|
+|upkeep
+|turn|9
+|
+|t:|1750738670
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|cant|p2a: Clefairy|par
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Galact7adi
+|raw|column11's rating: 1343 &rarr; <strong>1327</strong><br />(-16 for losing)
+|raw|Galact7adi's rating: 1411 &rarr; <strong>1427</strong><br />(+16 for winning)
+|l|☆column11
+|player|p1|
+|l|☆Galact7adi
+|player|p2|

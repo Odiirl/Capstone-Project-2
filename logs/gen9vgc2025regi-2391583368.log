@@ -1,0 +1,227 @@
+|j|☆Scottyboi3
+|j|☆TipoLucha
+|t:|1750872647
+|gametype|doubles
+|player|p1|Scottyboi3|2|1111
+|player|p2|TipoLucha|169|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Gastrodon, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750872684
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750872730
+|move|p2b: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|93/100
+|cant|p1a: Incineroar|flinch
+|move|p2a: Miraidon|Volt Switch|p1a: Incineroar
+|-damage|p1a: Incineroar|41/100
+|
+|t:|1750872742
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100|[from] Volt Switch
+|move|p1b: Amoonguss|Spore|p2a: Gastrodon
+|-activate|p2a: Gastrodon|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1750872763
+|-terastallize|p2a: Gastrodon|Water
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Incineroar|Parting Shot|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|atk|1
+|-unboost|p2a: Gastrodon|spa|1
+|
+|t:|1750872778
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100|[from] Parting Shot
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2b: Incineroar|Flare Blitz|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|35/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2b: Incineroar|60/100|[from] Recoil
+|move|p2a: Gastrodon|Chilling Water|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|27/100
+|-unboost|p1b: Amoonguss|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750872826
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-terastallize|p1a: Roaring Moon|Flying
+|move|p1a: Roaring Moon|Acrobatics|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750872884
+|switch|p1b: Amoonguss|Amoonguss, L50, M|60/100
+|move|p1a: Roaring Moon|Protect|p1a: Roaring Moon
+|-singleturn|p1a: Roaring Moon|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] p1b
+|-activate|p1a: Roaring Moon|move: Protect
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|48/100
+|move|p2b: Koraidon|Close Combat|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|8/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2b: Koraidon|74/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750872911
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Roaring Moon|67/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p2b: Koraidon|Flare Blitz|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|-damage|p2b: Koraidon|51/100|[from] Recoil
+|-damage|p2b: Koraidon|42/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750872926
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|41/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Koraidon|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|6
+|
+|t:|1750872940
+|move|p1b: Incineroar|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|27/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|80/100
+|-damage|p1b: Incineroar|28/100
+|cant|p2b: Koraidon|flinch
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750872957
+|move|p1a: Ting-Lu|Protect|p1a: Ting-Lu
+|-singleturn|p1a: Ting-Lu|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ting-Lu|[spread] p1b
+|-activate|p1a: Ting-Lu|move: Protect
+|-damage|p1b: Incineroar|13/100
+|move|p2b: Koraidon|Close Combat|p1a: Ting-Lu
+|-activate|p1a: Ting-Lu|move: Protect
+|move|p1b: Incineroar|Snarl|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Koraidon|20/100
+|-unboost|p2b: Koraidon|spa|1
+|faint|p2a: Miraidon
+|
+|-weather|none
+|-heal|p1a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750872972
+|switch|p2a: Incineroar|Incineroar, L50, M|60/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|8
+|
+|t:|1750873007
+|move|p2b: Koraidon|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|23/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|11/100|[from] item: Life Orb
+|move|p2a: Incineroar|Earthquake|p1b: Incineroar|[spread] p2b,p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p2b: Koraidon|0 fnt
+|-damage|p1a: Ting-Lu|7/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p2b: Koraidon
+|faint|p1b: Incineroar
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|
+|-heal|p1a: Ting-Lu|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750873025
+|switch|p2b: Gastrodon|Gastrodon, L50, M, tera:Water|100/100
+|turn|9
+|-message|Scottyboi3 forfeited.
+|
+|win|TipoLucha
+|raw|Scottyboi3's rating: 1111 &rarr; <strong>1082</strong><br />(-29 for losing)
+|raw|TipoLucha's rating: 1057 &rarr; <strong>1093</strong><br />(+36 for winning)
+|l|☆TipoLucha
+|player|p2|
+|l|☆Scottyboi3
+|player|p1|
+|j|☆Scottyboi3
+|player|p1|Scottyboi3|2|

@@ -1,0 +1,135 @@
+|j|☆JawedWorm
+|j|☆plsdontspeaktome
+|t:|1750718973
+|gametype|doubles
+|player|p1|JawedWorm|ghetsis-gen5bw|1173
+|player|p2|plsdontspeaktome|2|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Regieleki, L50|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Latias, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by plsdontspeaktome)
+|
+|t:|1750719004
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Regieleki|Regieleki, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750719017
+|-terastallize|p2b: Kyogre|Water
+|move|p1b: Smeargle|Wide Guard|p1b: Smeargle
+|-singleturn|p1b: Smeargle|Wide Guard
+|move|p2a: Regieleki|Electroweb|p1a: Miraidon|[spread] 
+|-activate|p1a: Miraidon|move: Wide Guard
+|-activate|p1b: Smeargle|move: Wide Guard
+|move|p1a: Miraidon|Volt Switch|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|t:|1750719029
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719036
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|2
+|
+|t:|1750719057
+|move|p2a: Regieleki|Electroweb|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|88/100
+|-damage|p1b: Smeargle|37/100
+|-unboost|p1a: Lunala|spe|1
+|-unboost|p1b: Smeargle|spe|1
+|-damage|p2a: Regieleki|91/100|[from] item: Life Orb
+|move|p2b: Zacian|Behemoth Blade|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|move|p1a: Lunala|Moongeist Beam|p2b: Zacian
+|-damage|p2b: Zacian|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719072
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750719085
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Regieleki|atk|1
+|-unboost|p2b: Zacian|atk|1
+|move|p2a: Regieleki|Electroweb|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|63/100
+|-damage|p1b: Incineroar|59/100
+|-unboost|p1a: Lunala|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|-damage|p2a: Regieleki|81/100|[from] item: Life Orb
+|move|p2b: Zacian|Play Rough|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719098
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750719110
+|move|p1a: Lunala|Moongeist Beam|p2a: Regieleki
+|-damage|p2a: Regieleki|0 fnt
+|faint|p2a: Regieleki
+|move|p1b: Miraidon|Electro Drift|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719119
+|switch|p2b: Latias|Latias, L50, F|100/100
+|turn|5
+|-message|plsdontspeaktome forfeited.
+|
+|win|JawedWorm
+|raw|JawedWorm's rating: 1173 &rarr; <strong>1201</strong><br />(+28 for winning)
+|raw|plsdontspeaktome's rating: 1209 &rarr; <strong>1181</strong><br />(-28 for losing)
+|l|☆plsdontspeaktome
+|player|p2|
+|l|☆JawedWorm
+|player|p1|

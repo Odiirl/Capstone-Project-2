@@ -1,0 +1,195 @@
+|j|☆Switum
+|j|☆Charmilleon
+|t:|1750825308
+|gametype|doubles
+|player|p1|Switum|170|1158
+|player|p2|Charmilleon|170|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Masquerain, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raichu-Alola, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750825317
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750825333
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Switum|move: Tailwind
+|move|p2a: Raichu|Nuzzle|p1b: Indeedee
+|-damage|p1b: Indeedee|94/100
+|-status|p1b: Indeedee|par
+|
+|upkeep
+|turn|2
+|
+|t:|1750825351
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Tornadus|Nasty Plot|p1a: Tornadus
+|-boost|p1a: Tornadus|spa|2
+|move|p2a: Raichu|Encore|p1b: Indeedee
+|-start|p1b: Indeedee|Encore
+|move|p2b: Miraidon|Volt Switch|p1b: Indeedee
+|-damage|p1b: Indeedee|15/100 par
+|
+|t:|1750825361
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1750825384
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-terastallize|p1a: Tornadus|Flying
+|move|p2a: Raichu|Volt Switch|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|65/100
+|
+|t:|1750825393
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Volt Switch
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-supereffective|p2b: Urshifu
+|-damage|p2a: Miraidon|46/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750825405
+|switch|p2b: Raichu|Raichu-Alola, L50, M|100/100
+|turn|4
+|
+|t:|1750825415
+|move|p2b: Raichu|Nuzzle|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|83/100
+|-status|p1a: Tornadus|par
+|-enditem|p1a: Tornadus|Eject Button
+|
+|t:|1750825423
+|switch|p1a: Indeedee|Indeedee-F, L50, F|15/100 par
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Kyogre|Icy Wind|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|14/100
+|-damage|p2b: Raichu|72/100
+|-unboost|p2a: Miraidon|spe|1
+|move|p2a: Miraidon|Discharge|p1b: Kyogre|[spread] p2b,p1a,p1b
+|-resisted|p2b: Raichu
+|-supereffective|p1b: Kyogre
+|-damage|p2b: Raichu|43/100
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Kyogre|35/100
+|-status|p1b: Kyogre|par
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Switum|move: Tailwind
+|upkeep
+|
+|t:|1750825438
+|switch|p1a: Tornadus|Tornadus, L50, M, tera:Flying|83/100 par
+|turn|5
+|
+|t:|1750825452
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Switum|move: Tailwind
+|move|p2b: Raichu|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|18/100 par
+|
+|t:|1750825462
+|switch|p2b: Miraidon|Miraidon, L50|14/100|[from] Volt Switch
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Kyogre|Icy Wind|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Calyrex|82/100
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p2a: Calyrex|spe|1
+|faint|p2b: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750825475
+|switch|p2b: Raichu|Raichu-Alola, L50, M|43/100
+|turn|6
+|
+|t:|1750825496
+|move|p2b: Raichu|Fake Out|p1b: Kyogre
+|-damage|p1b: Kyogre|27/100 par
+|move|p2a: Calyrex|Astral Barrage|p1a: Tornadus|[spread] p1a,p1b
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Kyogre|2/100 par
+|faint|p1a: Tornadus
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|cant|p1b: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750825507
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750825518
+|-terastallize|p2a: Calyrex|Normal
+|move|p1a: Calyrex|Astral Barrage|p2b: Raichu|[spread] p2b
+|-immune|p2a: Calyrex
+|-supereffective|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Kyogre
+|
+|win|Charmilleon
+|raw|Switum's rating: 1158 &rarr; <strong>1129</strong><br />(-29 for losing)
+|raw|Charmilleon's rating: 1104 &rarr; <strong>1133</strong><br />(+29 for winning)
+|l|☆Switum
+|player|p1|
+|l|☆Charmilleon
+|player|p2|

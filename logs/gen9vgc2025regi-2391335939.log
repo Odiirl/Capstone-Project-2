@@ -1,0 +1,131 @@
+|j|☆Fin98
+|j|☆Matutinha
+|t:|1750838598
+|gametype|doubles
+|player|p1|Fin98|102|1140
+|player|p2|Matutinha|102|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Regieleki, L50|
+|poke|p1|Avalugg, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|
+|t:|1750838648
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750838680
+|move|p2b: Whimsicott|Taunt|p1a: Tornadus
+|-start|p1a: Tornadus|move: Taunt
+|cant|p1a: Tornadus|move: Taunt|Tailwind
+|move|p1b: Indeedee|Shadow Ball|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|37/100
+|-enditem|p2a: Solgaleo|Weakness Policy
+|-boost|p2a: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p2a: Solgaleo|Flare Blitz|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2a: Solgaleo|16/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750838699
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|2
+|
+|t:|1750838711
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Matutinha|move: Tailwind
+|move|p2a: Solgaleo|Psychic Fangs|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Solgaleo|[spread] p2a,p2b
+|-resisted|p2a: Solgaleo
+|-supereffective|p2b: Whimsicott
+|-damage|p2a: Solgaleo|0 fnt
+|-damage|p2b: Whimsicott|17/100
+|faint|p2a: Solgaleo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750838727
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750838744
+|-terastallize|p2a: Calyrex|Normal
+|-terastallize|p1b: Lunala|Normal
+|move|p2a: Calyrex|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|18/100
+|move|p2b: Whimsicott|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-immune|p2a: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750838764
+|move|p2a: Calyrex|Psychic|p1b: Lunala
+|-damage|p1b: Lunala|70/100
+|move|p2b: Whimsicott|Moonblast|p1b: Lunala
+|-damage|p1b: Lunala|48/100
+|move|p1b: Lunala|Expanding Force|p2b: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Calyrex|35/100
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750838773
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750838789
+|move|p2b: Flutter Mane|Dazzling Gleam|p1b: Lunala
+|-damage|p1b: Lunala|16/100
+|move|p2a: Calyrex|Psychic|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|Matutinha
+|raw|Fin98's rating: 1140 &rarr; <strong>1121</strong><br />(-19 for losing)
+|raw|Matutinha's rating: 1223 &rarr; <strong>1242</strong><br />(+19 for winning)
+|l|☆Fin98
+|player|p1|
+|l|☆Matutinha
+|player|p2|

@@ -1,0 +1,223 @@
+|j|☆DreadcastTC
+|j|☆Dannnnnnnnnry
+|t:|1750831024
+|gametype|doubles
+|player|p1|DreadcastTC|1|1089
+|player|p2|Dannnnnnnnnry|1|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Klefki, L50, F|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Bastiodon, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+Dannnnnnnnnry has agreed to open team sheets.
+|
+|t:|1750831054
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p1b: Klefki|Klefki, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdrivedef
+|turn|1
+|
+|t:|1750831086
+|move|p2b: Iron Hands|Fake Out|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|96/100
+|move|p1b: Klefki|Light Screen|p1b: Klefki
+|-sidestart|p1: DreadcastTC|move: Light Screen
+|cant|p1a: Arcanine|flinch
+|move|p2a: Miraidon|Volt Switch|p1a: Arcanine
+|-damage|p1a: Arcanine|16/100
+|
+|t:|1750831096
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|-unboost|p1b: Klefki|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750831120
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Landorus
+|-damage|p1a: Landorus|89/100
+|move|p1b: Klefki|Sandstorm|p1b: Klefki
+|-weather|Sandstorm
+|move|p2b: Iron Hands|Heavy Slam|p1b: Klefki
+|-damage|p1b: Klefki|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Iron Hands|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1750831145
+|move|p1b: Klefki|Reflect|p1b: Klefki
+|-sidestart|p1: DreadcastTC|Reflect
+|move|p1a: Landorus|Scorching Sands|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|37/100
+|move|p2a: Incineroar|Parting Shot|p1a: Landorus
+|-unboost|p1a: Landorus|atk|1
+|-unboost|p1a: Landorus|spa|1
+|
+|t:|1750831155
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Parting Shot
+|move|p2b: Iron Hands|Heavy Slam|p1b: Klefki
+|-damage|p1b: Klefki|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|94/100|[from] Sandstorm
+|-damage|p2b: Iron Hands|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1750831178
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|16/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|move|p1b: Klefki|Thunder Wave|p2a: Urshifu
+|-status|p2a: Urshifu|par
+|move|p2a: Urshifu|Surging Strikes|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-hitcount|p1: Arcanine|1
+|move|p2b: Iron Hands|Heavy Slam|p1b: Klefki
+|-damage|p1b: Klefki|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|88/100 par|[from] Sandstorm
+|-damage|p2b: Iron Hands|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750831188
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|turn|5
+|
+|t:|1750831205
+|switch|p1b: Landorus|Landorus, L50, M|89/100
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, F|37/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|-unboost|p1b: Landorus|atk|1
+|-terastallize|p1a: Excadrill|Ground
+|move|p1a: Excadrill|Drill Run|p2a: Urshifu
+|-damage|p2a: Urshifu|33/100 par
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|cant|p2a: Urshifu|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|27/100 par|[from] Sandstorm
+|-sideend|p1: DreadcastTC|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750831237
+|move|p2b: Incineroar|Fake Out|p1b: Landorus
+|-damage|p1b: Landorus|80/100
+|move|p1a: Excadrill|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Urshifu|18/100 par
+|-damage|p2b: Incineroar|2/100
+|-damage|p1a: Excadrill|81/100|[from] item: Life Orb
+|cant|p1b: Landorus|flinch
+|move|p2a: Urshifu|Surging Strikes|p1b: Landorus
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|33/100
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|-hitcount|p1: Landorus|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|12/100 par|[from] Sandstorm
+|upkeep
+|
+|t:|1750831249
+|switch|p1b: Klefki|Klefki, L50, F|37/100
+|turn|7
+|
+|t:|1750831265
+|move|p1b: Klefki|Thunder Wave|p2b: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Incineroar
+|move|p1a: Excadrill|Rock Slide|p2a: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Urshifu|3/100 par
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1a: Excadrill|71/100|[from] item: Life Orb
+|move|p2a: Urshifu|Surging Strikes|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|10/100
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-hitcount|p1: Excadrill|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Urshifu|0 fnt|[from] Sandstorm
+|faint|p2a: Urshifu
+|-sideend|p1: DreadcastTC|Reflect
+|upkeep
+|
+|t:|1750831283
+|switch|p2a: Iron Hands|Iron Hands, L50|82/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|8
+|c|☆DreadcastTC|Gg
+|
+|t:|1750831292
+|move|p2a: Iron Hands|Fake Out|p1b: Klefki
+|-resisted|p1b: Klefki
+|-crit|p1b: Klefki
+|-damage|p1b: Klefki|21/100
+|cant|p1b: Klefki|flinch
+|move|p2b: Miraidon|Electro Drift|p1b: Klefki
+|-damage|p1b: Klefki|0 fnt
+|faint|p1b: Klefki
+|
+|win|Dannnnnnnnnry
+|raw|DreadcastTC's rating: 1089 &rarr; <strong>1065</strong><br />(-24 for losing)
+|raw|Dannnnnnnnnry's rating: 1085 &rarr; <strong>1113</strong><br />(+28 for winning)
+|l|☆DreadcastTC
+|player|p1|
+|l|☆Dannnnnnnnnry
+|player|p2|

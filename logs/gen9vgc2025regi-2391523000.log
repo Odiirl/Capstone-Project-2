@@ -1,0 +1,214 @@
+|j|‽Barrelfish
+|j|☆column11
+|t:|1750866055
+|gametype|doubles
+|player|p1|Barrelfish|1|1447
+|player|p2|column11|ninjaboy|1519
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+Barrelfish has agreed to open team sheets.
+|
+|t:|1750866095
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750866115
+|move|p2b: Grimmsnarl|Fake Out|p1b: Smeargle
+|-crit|p1b: Smeargle
+|-damage|p1b: Smeargle|64/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Barrelfish|move: Tailwind
+|cant|p1b: Smeargle|flinch
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750866133
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Tornadus
+|-status|p1a: Tornadus|par
+|move|p1b: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2a: Calyrex|slp
+|cant|p1a: Tornadus|par
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750866162
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Smeargle
+|-status|p1b: Smeargle|par
+|move|p1b: Smeargle|Decorate|p1a: Tornadus
+|-boost|p1a: Tornadus|atk|2
+|-boost|p1a: Tornadus|spa|2
+|cant|p2a: Calyrex|slp
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|6/100 slp
+|-damage|p2b: Grimmsnarl|7/100
+|-unboost|p2a: Calyrex|spe|1
+|-enditem|p2b: Grimmsnarl|Sitrus Berry|[eat]
+|-heal|p2b: Grimmsnarl|32/100|[from] item: Sitrus Berry
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|4
+|
+|t:|1750866190
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Smeargle|Spore|p2b: Clefairy
+|-status|p2b: Clefairy|slp|[from] move: Spore
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Clefairy|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-miss|p1a: Tornadus|p2b: Clefairy
+|
+|-sideend|p1: Barrelfish|move: Tailwind
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|5
+|
+|t:|1750866207
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|cant|p1a: Tornadus|par
+|move|p1b: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2a: Calyrex|slp
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750866225
+|-terastallize|p2b: Zamazenta|Grass
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Barrelfish|move: Tailwind
+|cant|p1b: Smeargle|par
+|move|p2b: Zamazenta|Body Press|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|65/100 par
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Astral Barrage|p1b: Smeargle|[spread] p1a
+|-immune|p1b: Smeargle
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|
+|t:|1750866242
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750866257
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|32/100
+|move|p1a: Calyrex|Psychic|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: Zamazenta|Body Press|p1b: Smeargle
+|-supereffective|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|upkeep
+|
+|t:|1750866263
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|8
+|
+|t:|1750866282
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Zamazenta|Heavy Slam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|50/100
+|
+|upkeep
+|
+|t:|1750866287
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|6/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750866312
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Calyrex|Psychic|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Heavy Slam|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-sideend|p1: Barrelfish|move: Tailwind
+|upkeep
+|
+|t:|1750866336
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100 slp
+|turn|10
+|-message|column11 forfeited.
+|
+|win|Barrelfish
+|raw|Barrelfish's rating: 1447 &rarr; <strong>1471</strong><br />(+24 for winning)
+|raw|column11's rating: 1519 &rarr; <strong>1495</strong><br />(-24 for losing)

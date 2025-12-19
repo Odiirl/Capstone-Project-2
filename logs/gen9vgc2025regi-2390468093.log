@@ -1,0 +1,197 @@
+|j|☆PociaGG
+|j|☆ness#1glazer
+|t:|1750716837
+|gametype|doubles
+|player|p1|PociaGG|170|1087
+|player|p2|ness#1glazer|n|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Clawitzer, L50, F|
+|poke|p1|Decidueye-Hisui, L50, F|
+|poke|p1|Articuno, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750716862
+|start
+|switch|p1a: Yanmega|Yanmega, L50, F|100/100
+|switch|p1b: Decidueye|Decidueye-Hisui, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Yanmega|atk|1
+|-fail|p1b: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p1b: Decidueye
+|turn|1
+|
+|t:|1750716877
+|-terastallize|p1b: Decidueye|Ghost
+|move|p2b: Incineroar|Fake Out|p1a: Yanmega
+|-damage|p1a: Yanmega|89/100
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|cant|p1a: Yanmega|flinch
+|move|p1b: Decidueye|Shadow Claw|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750716896
+|switch|p1b: Articuno|Articuno, L50|100/100
+|-ability|p1b: Articuno|Pressure
+|move|p2b: Incineroar|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Incineroar
+|move|p1a: Yanmega|Air Slash|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|
+|t:|1750716906
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750716916
+|move|p1a: Yanmega|Tailwind|p1a: Yanmega
+|-sidestart|p1: PociaGG|move: Tailwind
+|move|p1b: Articuno|Hurricane|p2a: Zamazenta
+|-damage|p2a: Zamazenta|71/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p2b: Incineroar|Flare Blitz|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|-damage|p2b: Incineroar|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750716928
+|switch|p1a: Decidueye|Decidueye-Hisui, L50, F, tera:Ghost|100/100
+|turn|4
+|
+|t:|1750716934
+|move|p1b: Articuno|Hurricane|p2a: Zamazenta|[miss]
+|-miss|p1b: Articuno|p2a: Zamazenta
+|move|p1a: Decidueye|Triple Arrows|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|
+|t:|1750716940
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|5
+|
+|t:|1750716955
+|move|p2b: Indeedee|Helping Hand|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Articuno|Hurricane|p2a: Zamazenta|[miss]
+|-miss|p1b: Articuno|p2a: Zamazenta
+|move|p1a: Decidueye|Triple Arrows|p2b: Indeedee
+|-damage|p2b: Indeedee|12/100
+|-unboost|p2b: Indeedee|def|1
+|-enditem|p2b: Indeedee|Sitrus Berry|[eat]
+|-heal|p2b: Indeedee|37/100|[from] item: Sitrus Berry
+|move|p2a: Zamazenta|Body Press|p1b: Articuno
+|-damage|p1b: Articuno|0 fnt
+|faint|p1b: Articuno
+|
+|upkeep
+|c|☆PociaGG|CAN I HIT IT !?
+|
+|t:|1750716967
+|switch|p1b: Clawitzer|Clawitzer, L50, F|100/100
+|turn|6
+|
+|t:|1750716976
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Clawitzer|Aura Sphere|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1a: Decidueye|Triple Arrows|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|52/100
+|cant|p2a: Zamazenta|flinch
+|
+|-sideend|p1: PociaGG|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750716988
+|move|p2a: Zamazenta|Body Press|p1b: Clawitzer
+|-damage|p1b: Clawitzer|0 fnt
+|faint|p1b: Clawitzer
+|move|p1a: Decidueye|Triple Arrows|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|31/100
+|-unboost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750716994
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Decidueye|Triple Arrows|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|13/100
+|-unboost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1750717005
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Decidueye|Triple Arrows|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|t:|1750717014
+|move|p2a: Zamazenta|Body Press|p1a: Decidueye
+|-immune|p1a: Decidueye
+|move|p1a: Decidueye|Triple Arrows|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|PociaGG
+|raw|PociaGG's rating: 1087 &rarr; <strong>1114</strong><br />(+27 for winning)
+|raw|ness#1glazer's rating: 1090 &rarr; <strong>1066</strong><br />(-24 for losing)
+|l|☆ness#1glazer
+|player|p2|
+|l|☆PociaGG
+|player|p1|

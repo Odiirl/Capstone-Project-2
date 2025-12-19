@@ -1,0 +1,186 @@
+|j|☆Backalaking
+|j|☆Classyyassen
+|t:|1750827397
+|gametype|doubles
+|player|p1|Backalaking|101|1157
+|player|p2|Classyyassen|102|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Hydrapple, L50, M|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|
+|t:|1750827415
+|start
+|switch|p1a: Hydrapple|Hydrapple, L50, M|100/100
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|switch|p2a: Boss|Calyrex-Shadow, L50|100/100
+|switch|p2b: Big Body|Incineroar, L50, M|100/100
+|-ability|p2a: Boss|As One
+|-ability|p2a: Boss|Unnerve
+|-ability|p1b: Palkia|Pressure
+|-ability|p2b: Big Body|Intimidate|boost
+|-unboost|p1a: Hydrapple|atk|1
+|-unboost|p1b: Palkia|atk|1
+|-enditem|p1a: Hydrapple|Eject Pack
+|
+|t:|1750827429
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|1
+|
+|t:|1750827444
+|-terastallize|p1a: Ho-Oh|Fire
+|move|p2b: Big Body|Fake Out|p1b: Palkia
+|-damage|p1b: Palkia|92/100
+|move|p2a: Boss|Astral Barrage|p1b: Palkia|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|66/100
+|-damage|p1b: Palkia|52/100
+|cant|p1b: Palkia|flinch
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Boss
+|-enditem|p2a: Boss|Focus Sash
+|-damage|p2a: Boss|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750827465
+|switch|p1a: Hydrapple|Hydrapple, L50, M|100/100
+|move|p2b: Big Body|Helping Hand|p2a: Boss
+|-singleturn|p2a: Boss|Helping Hand|[of] p2b: Big Body
+|move|p2a: Boss|Astral Barrage|p1a: Hydrapple|[spread] p1a,p1b
+|-damage|p1a: Hydrapple|27/100
+|-damage|p1b: Palkia|0 fnt
+|faint|p1b: Palkia
+|-ability|p2a: Boss|Grim Neigh|boost
+|-boost|p2a: Boss|spa|1
+|
+|upkeep
+|
+|t:|1750827477
+|switch|p1b: Ho-Oh|Ho-Oh, L50, tera:Fire|99/100
+|turn|3
+|
+|t:|1750827489
+|move|p2b: Big Body|Helping Hand|p2a: Boss
+|-singleturn|p2a: Boss|Helping Hand|[of] p2b: Big Body
+|move|p1a: Hydrapple|Protect|p1a: Hydrapple
+|-singleturn|p1a: Hydrapple|Protect
+|move|p2a: Boss|Astral Barrage|p1b: Ho-Oh|[spread] p1b
+|-activate|p1a: Hydrapple|move: Protect
+|-damage|p1b: Ho-Oh|27/100
+|move|p1b: Ho-Oh|Earthquake|p2a: Boss|[spread] p2a,p2b
+|-activate|p1a: Hydrapple|move: Protect
+|-supereffective|p2b: Big Body
+|-damage|p2a: Boss|0 fnt
+|-damage|p2b: Big Body|29/100
+|faint|p2a: Boss
+|
+|upkeep
+|
+|t:|1750827506
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|
+|t:|1750827513
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p2b: Big Body|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Big Body
+|move|p2a: Kyogre|Water Spout|p1a: Hydrapple|[spread] p1a,p1b
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|5/100
+|-damage|p1b: Ninetales|2/100
+|move|p1a: Hydrapple|Leaf Storm|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1a: Hydrapple|spa|2
+|faint|p2a: Kyogre
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750827531
+|switch|p2a: Healer|Amoonguss, L50, M|100/100
+|turn|5
+|
+|t:|1750827544
+|move|p2a: Healer|Rage Powder|p2a: Healer
+|-singleturn|p2a: Healer|move: Rage Powder
+|move|p1b: Ninetales|Blizzard|p2b: Big Body|[spread] p2a,p2b
+|-supereffective|p2a: Healer
+|-resisted|p2b: Big Body
+|-damage|p2a: Healer|64/100
+|-damage|p2b: Big Body|19/100
+|move|p2b: Big Body|Knock Off|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750827553
+|switch|p1a: Ho-Oh|Ho-Oh, L50, tera:Fire|61/100
+|turn|6
+|
+|t:|1750827570
+|-terastallize|p2a: Healer|Water
+|move|p1b: Ninetales|Blizzard|p2b: Big Body|[spread] p2a,p2b
+|-resisted|p2a: Healer
+|-crit|p2a: Healer
+|-resisted|p2b: Big Body
+|-damage|p2a: Healer|49/100
+|-damage|p2b: Big Body|8/100
+|-enditem|p2a: Healer|Sitrus Berry|[eat]
+|-heal|p2a: Healer|74/100|[from] item: Sitrus Berry
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Healer|[miss]
+|-miss|p1a: Ho-Oh|p2a: Healer
+|move|p2b: Big Body|Knock Off|p1b: Ninetales
+|-resisted|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|-enditem|p1b: Ninetales|Light Clay|[from] move: Knock Off|[of] p2b: Big Body
+|faint|p1b: Ninetales
+|move|p2a: Healer|Spore|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750827594
+|cant|p1a: Ho-Oh|slp
+|move|p2b: Big Body|Knock Off|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|31/100 slp
+|-enditem|p1a: Ho-Oh|Choice Band|[from] move: Knock Off|[of] p2b: Big Body
+|move|p2a: Healer|Pollen Puff|p2b: Big Body
+|-heal|p2b: Big Body|58/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|-message|Backalaking forfeited.
+|
+|win|Classyyassen
+|raw|Backalaking's rating: 1157 &rarr; <strong>1130</strong><br />(-27 for losing)
+|raw|Classyyassen's rating: 1131 &rarr; <strong>1158</strong><br />(+27 for winning)
+|l|☆Backalaking
+|player|p1|
+|l|☆Classyyassen
+|player|p2|

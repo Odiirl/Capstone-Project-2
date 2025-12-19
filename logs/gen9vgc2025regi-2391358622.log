@@ -1,0 +1,124 @@
+|j|☆wulushan
+|j|☆givi
+|t:|1750843014
+|gametype|doubles
+|player|p1|wulushan|2|1257
+|player|p2|givi|1|1264
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Slither Wing, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Chandelure, L50, F|
+|poke|p2|Magmar, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by givi)
+|
+|t:|1750843065
+|start
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Chandelure|Chandelure, L50, F|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|1
+|
+|t:|1750843089
+|-terastallize|p2b: Groudon|Fire
+|move|p1a: Landorus|Sandsear Storm|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Chandelure
+|-supereffective|p2b: Groudon
+|-enditem|p2a: Chandelure|Focus Sash
+|-damage|p2a: Chandelure|1/100
+|-damage|p2b: Groudon|4/100
+|move|p2b: Groudon|Heat Crash|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|move|p1b: Calyrex|Astral Barrage|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p2b: Groudon|0 fnt
+|faint|p2a: Chandelure
+|faint|p2b: Groudon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|wulushan has 30 seconds left.
+|inactive|wulushan has 20 seconds left.
+|inactive|wulushan has 15 seconds left.
+|
+|t:|1750843132
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Calyrex|atk|1
+|turn|2
+|
+|t:|1750843150
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|92/100
+|move|p1b: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Miraidon|3/100
+|-damage|p2b: Incineroar|68/100
+|-damage|p1b: Calyrex|81/100|[from] item: Life Orb
+|cant|p1a: Koraidon|flinch
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Calyrex|43/100
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750843157
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1750843180
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p1b: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Incineroar|37/100
+|faint|p2a: Miraidon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|33/100|[from] item: Life Orb
+|move|p1a: Raging Bolt|Draco Meteor|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2b: Incineroar
+|
+|win|wulushan
+|raw|wulushan's rating: 1257 &rarr; <strong>1283</strong><br />(+26 for winning)
+|raw|givi's rating: 1264 &rarr; <strong>1238</strong><br />(-26 for losing)
+|l|☆givi
+|player|p2|
+|l|☆wulushan
+|player|p1|

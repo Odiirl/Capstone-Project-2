@@ -1,0 +1,168 @@
+|j|☆chico linguiceta
+|j|☆laizans
+|t:|1750826503
+|gametype|doubles
+|player|p1|chico linguiceta|harlequin|1337
+|player|p2|laizans|101|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by laizans)
+|
+|t:|1750826511
+|start
+|switch|p1a: Oranguru|Oranguru, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Chi-Yu|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750826528
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|move|p1b: Incineroar|Fake Out|p2b: Flutter Mane
+|-immune|p2b: Flutter Mane
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Oranguru
+|-supereffective|p1a: Oranguru
+|-damage|p1a: Oranguru|12/100
+|-damage|p2a: Chi-Yu|90/100|[from] item: Life Orb
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|inactive|chico linguiceta has 30 seconds left.
+|
+|t:|1750826556
+|move|p1a: Oranguru|Protect|p1a: Oranguru
+|-singleturn|p1a: Oranguru|Protect
+|move|p2a: Chi-Yu|Protect|p2a: Chi-Yu
+|-singleturn|p2a: Chi-Yu|Protect
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1b: Incineroar|Fire Punch|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|
+|upkeep
+|turn|3
+|inactive|laizans has 30 seconds left.
+|inactive|laizans has 20 seconds left.
+|
+|t:|1750826594
+|move|p1a: Oranguru|Expanding Force|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|61/100
+|move|p1b: Incineroar|Parting Shot|p2a: Chi-Yu
+|-unboost|p2a: Chi-Yu|atk|1
+|-unboost|p2a: Chi-Yu|spa|1
+|
+|t:|1750826602
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Chi-Yu|Heat Wave|p1a: Oranguru|[spread] p1a
+|-miss|p2a: Chi-Yu|p1b: Calyrex
+|-damage|p1a: Oranguru|0 fnt
+|faint|p1a: Oranguru
+|-damage|p2a: Chi-Yu|80/100|[from] item: Life Orb
+|move|p2b: Flutter Mane|Moonblast|p1b: Calyrex
+|-damage|p1b: Calyrex|56/100
+|
+|upkeep
+|
+|t:|1750826615
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1750826622
+|move|p2a: Chi-Yu|Protect|p2a: Chi-Yu
+|-singleturn|p2a: Chi-Yu|Protect
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Chi-Yu|[spread] 
+|-activate|p2a: Chi-Yu|move: Protect
+|-activate|p2b: Flutter Mane|move: Protect
+|move|p1a: Ursaluna|Hyper Voice|p2b: Flutter Mane|[spread] 
+|-activate|p2a: Chi-Yu|move: Protect
+|-activate|p2b: Flutter Mane|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750826639
+|move|p2a: Chi-Yu|Protect||[still]
+|-fail|p2a: Chi-Yu
+|move|p2b: Flutter Mane|Protect||[still]
+|-fail|p2b: Flutter Mane
+|move|p1b: Calyrex|Glacial Lance|p2b: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2a: Chi-Yu
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|move|p1a: Ursaluna|Hyper Voice|p2: Chi-Yu|[notarget]
+|-fail|p1a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750826647
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750826669
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Miraidon|atk|1
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2a: Koraidon|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Ursaluna
+|move|p2b: Miraidon|Electro Drift|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|chico linguiceta forfeited.
+|
+|win|laizans
+|raw|chico linguiceta's rating: 1337 &rarr; <strong>1315</strong><br />(-22 for losing)
+|raw|laizans's rating: 1297 &rarr; <strong>1325</strong><br />(+28 for winning)
+|l|☆chico linguiceta
+|player|p1|
+|l|☆laizans
+|player|p2|

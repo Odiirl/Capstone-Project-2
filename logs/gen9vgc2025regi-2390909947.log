@@ -1,0 +1,145 @@
+|j|☆Calango1828
+|j|☆ldvbl.pwq
+|t:|1750781988
+|gametype|doubles
+|player|p1|Calango1828|lass-gen4dp|1130
+|player|p2|ldvbl.pwq|265|1117
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Dusclops, L50, M|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Carbink, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750782034
+|start
+|switch|p1a: Dusclops|Dusclops, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Dusclops|Pressure
+|turn|1
+|
+|t:|1750782069
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Indeedee|Expanding Force|p1a: Dusclops|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Dusclops|61/100
+|-damage|p2b: Indeedee|91/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dusclops
+|-damage|p1a: Dusclops|32/100
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750782119
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Dusclops|Pain Split|p2a: Calyrex
+|-sethp|p2a: Calyrex|62/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|83/100|[from] move: Pain Split
+|move|p1b: Ursaluna|Earthquake|p2a: Calyrex|[spread] p1a,p2a,p2b
+|-damage|p1a: Dusclops|40/100
+|-damage|p2a: Calyrex|19/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750782162
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750782182
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Dusclops|Pain Split|p2b: Lunala
+|-sethp|p2b: Lunala|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|99/100|[from] move: Pain Split
+|move|p1b: Ursaluna|Earthquake|p2b: Lunala|[spread] p1a,p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p1a: Dusclops|58/100
+|-damage|p2b: Lunala|22/100
+|move|p2b: Lunala|Expanding Force|p1a: Dusclops|[spread] p1a,p1b
+|-damage|p1a: Dusclops|28/100
+|-damage|p1b: Ursaluna|44/100 brn
+|
+|-damage|p1b: Ursaluna|38/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750782213
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Calyrex
+|-status|p2a: Calyrex|brn
+|move|p2a: Calyrex|Glacial Lance|p1a: Dusclops|[spread] p1a,p1b
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Dusclops|13/100
+|-damage|p1b: Ursaluna|3/100 brn
+|move|p1b: Ursaluna|Headlong Rush|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Lunala
+|
+|-damage|p2a: Calyrex|13/100 brn|[from] brn
+|-damage|p1b: Ursaluna|0 fnt|[from] brn
+|faint|p1b: Ursaluna
+|upkeep
+|
+|t:|1750782233
+|switch|p1b: Cavalo do Djabo|Calyrex-Ice, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1b: Cavalo do Djabo|As One
+|-ability|p1b: Cavalo do Djabo|Unnerve
+|turn|5
+|
+|t:|1750782250
+|move|p2b: Raging Bolt|Thunderclap|p1b: Cavalo do Djabo
+|-activate|p1b: Cavalo do Djabo|move: Psychic Terrain
+|move|p1a: Dusclops|Pain Split|p2b: Raging Bolt
+|-sethp|p2b: Raging Bolt|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|81/100|[from] move: Pain Split
+|move|p2a: Calyrex|Glacial Lance|p1a: Dusclops|[spread] p1a,p1b
+|-resisted|p1b: Cavalo do Djabo
+|-damage|p1a: Dusclops|67/100
+|-damage|p1b: Cavalo do Djabo|94/100
+|move|p1b: Cavalo do Djabo|Glacial Lance|p2b: Raging Bolt|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Raging Bolt
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Calango1828
+|raw|Calango1828's rating: 1130 &rarr; <strong>1154</strong><br />(+24 for winning)
+|raw|ldvbl.pwq's rating: 1117 &rarr; <strong>1093</strong><br />(-24 for losing)
+|l|☆ldvbl.pwq
+|player|p2|

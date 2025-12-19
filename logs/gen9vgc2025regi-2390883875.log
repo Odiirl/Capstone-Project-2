@@ -1,0 +1,219 @@
+|j|☆Brakmeritus
+|j|☆jaffro1738
+|t:|1750779214
+|gametype|doubles
+|player|p1|Brakmeritus|lady|1265
+|player|p2|jaffro1738|266|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Regidrago, L50|
+|poke|p2|Dusclops, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+jaffro1738 rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jaffro1738)
+|inactive|Brakmeritus has 60 seconds left.
+|
+|t:|1750779294
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: D|Dusclops, L50, F|100/100
+|switch|p2b: CI|Calyrex-Ice, L50|100/100
+|-ability|p2b: CI|As One
+|-ability|p2b: CI|Unnerve
+|-item|p1a: Tornadus|Sharp Beak|[from] ability: Frisk|[of] p2a: D
+|-item|p1b: Smeargle|Focus Sash|[from] ability: Frisk|[of] p2a: D
+|turn|1
+|
+|t:|1750779317
+|-terastallize|p2a: D|Dark
+|move|p1b: Smeargle|Fake Out|p2a: D
+|-damage|p2a: D|98/100
+|move|p1a: Tornadus|Taunt|p2b: CI
+|-start|p2b: CI|move: Taunt
+|move|p2b: CI|Glacial Lance|p1a: Tornadus|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|2/100
+|-damage|p1b: Smeargle|16/100
+|cant|p2a: D|flinch
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750779340
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Brakmeritus|move: Tailwind
+|move|p1b: Smeargle|Spore|p2b: CI
+|-status|p2b: CI|slp|[from] move: Spore
+|cant|p2b: CI|slp
+|move|p2a: D|Trick Room|p2a: D
+|-fieldstart|move: Trick Room|[of] p2a: D
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|3
+|inactive|Brakmeritus has 30 seconds left.
+|inactive|Brakmeritus has 20 seconds left.
+|inactive|Brakmeritus has 15 seconds left.
+|inactive|Brakmeritus has 10 seconds left.
+|
+|t:|1750779386
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2a: D|Haze|p2a: D
+|-clearallboost
+|cant|p2b: CI|slp
+|
+|-end|p2b: CI|move: Taunt
+|upkeep
+|turn|4
+|inactive|Brakmeritus has 30 seconds left.
+|
+|t:|1750779420
+|switch|p2a: O|Oranguru, L50, M|100/100
+|move|p1a: Tornadus|Taunt|p2a: O
+|-start|p2a: O|move: Taunt
+|-enditem|p2a: O|Mental Herb
+|-end|p2a: O|move: Taunt
+|-curestatus|p2b: CI|slp|[msg]
+|move|p2b: CI|Glacial Lance|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Zamazenta|88/100
+|faint|p1a: Tornadus
+|-ability|p2b: CI|Chilling Neigh|boost
+|-boost|p2b: CI|atk|1
+|move|p1b: Zamazenta|Body Press|p2a: O
+|-damage|p2a: O|63/100
+|
+|upkeep
+|
+|t:|1750779444
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750779457
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: CI|Crunch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2b: CI|Chilling Neigh|boost
+|-boost|p2b: CI|atk|1
+|move|p2a: O|Instruct|p2b: CI
+|-singleturn|p2b: CI|move: Instruct|[of] p2a: O
+|move|p2b: CI|Crunch|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|72/100
+|
+|-sideend|p1: Brakmeritus|move: Tailwind
+|upkeep
+|
+|t:|1750779472
+|switch|p1a: Smeargle|Smeargle, L50, M|16/100
+|turn|6
+|
+|t:|1750779481
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p1a: Smeargle|Fake Out|p2b: CI
+|-damage|p2b: CI|98/100
+|cant|p2b: CI|flinch
+|move|p2a: O|Instruct|p2b: CI
+|-singleturn|p2b: CI|move: Instruct|[of] p2a: O
+|cant|p2b: CI|flinch
+|
+|-fieldend|move: Trick Room
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|7
+|
+|t:|1750779505
+|move|p1b: Zamazenta|Body Press|p2b: CI
+|-damage|p2b: CI|73/100
+|move|p1a: Smeargle|Spore|p2b: CI
+|-status|p2b: CI|slp|[from] move: Spore
+|cant|p2b: CI|slp
+|move|p2a: O|Trick Room|p2a: O
+|-fieldstart|move: Trick Room|[of] p2a: O
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|8
+|
+|t:|1750779523
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|cant|p2b: CI|slp
+|move|p2a: O|Taunt|p1a: Smeargle
+|-start|p1a: Smeargle|move: Taunt
+|move|p1b: Zamazenta|Body Press|p2b: CI
+|-damage|p2b: CI|45/100 slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|9
+|
+|t:|1750779546
+|move|p1a: Smeargle|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Smeargle
+|-curestatus|p2b: CI|slp|[msg]
+|move|p2b: CI|Glacial Lance|p1a: Smeargle|[spread] p1a,p1b
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Smeargle|0 fnt
+|-damage|p1b: Zamazenta|44/100
+|faint|p1a: Smeargle
+|-ability|p2b: CI|Chilling Neigh|boost
+|-boost|p2b: CI|atk|1
+|move|p2a: O|Taunt|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Taunt
+|move|p1b: Zamazenta|Body Press|p2b: CI
+|-damage|p2b: CI|19/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750779563
+|move|p2b: CI|High Horsepower|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|win|jaffro1738
+|raw|Brakmeritus's rating: 1265 &rarr; <strong>1245</strong><br />(-20 for losing)
+|raw|jaffro1738's rating: 1336 &rarr; <strong>1352</strong><br />(+16 for winning)

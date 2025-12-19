@@ -1,0 +1,197 @@
+|j|☆knucklee
+|j|☆super ozone
+|t:|1750863073
+|gametype|doubles
+|player|p1|knucklee|266|1199
+|player|p2|super ozone|101|1117
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by knucklee)
+|
+|t:|1750863097
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750863113
+|-terastallize|p2a: Hydreigon|Poison
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Hydreigon|perish3|[silent]
+|-start|p2b: Farigiraf|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Hydreigon|Snarl|p1a: Gothitelle|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-damage|p1b: Scream Tail|83/100
+|-unboost|p1b: Scream Tail|spa|1
+|move|p2b: Farigiraf|Imprison|p2b: Farigiraf
+|-start|p2b: Farigiraf|move: Imprison
+|
+|-start|p1b: Scream Tail|perish3
+|-start|p2a: Hydreigon|perish3
+|-start|p2b: Farigiraf|perish3
+|-start|p1a: Gothitelle|perish3
+|upkeep
+|turn|2
+|inactive|knucklee has 30 seconds left.
+|inactive|super ozone has 30 seconds left.
+|inactive|knucklee has 20 seconds left.
+|
+|t:|1750863148
+|-terastallize|p1a: Gothitelle|Water
+|move|p1b: Scream Tail|Disable|p2a: Hydreigon
+|-start|p2a: Hydreigon|Disable|Snarl
+|cant|p2a: Hydreigon|Disable|Snarl
+|move|p2b: Farigiraf|Foul Play|p1a: Gothitelle
+|-damage|p1a: Gothitelle|89/100
+|move|p1a: Gothitelle|Psychic|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|31/100
+|
+|-heal|p1a: Gothitelle|95/100|[from] item: Leftovers
+|-start|p1b: Scream Tail|perish2
+|-start|p2a: Hydreigon|perish2
+|-start|p2b: Farigiraf|perish2
+|-start|p1a: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|knucklee has 30 seconds left.
+|inactive|knucklee has 20 seconds left.
+|inactive|knucklee has 15 seconds left.
+|inactive|knucklee has 10 seconds left.
+|
+|t:|1750863193
+|move|p1b: Scream Tail|Encore|p2b: Farigiraf
+|-start|p2b: Farigiraf|Encore
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gothitelle
+|-damage|p1a: Gothitelle|39/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p2b: Farigiraf|Foul Play|p1a: Gothitelle
+|-damage|p1a: Gothitelle|26/100
+|move|p1a: Gothitelle|Psychic|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Gothitelle|33/100|[from] item: Leftovers
+|-start|p1b: Scream Tail|perish1
+|-start|p2b: Farigiraf|perish1
+|-start|p1a: Gothitelle|perish1
+|upkeep
+|
+|t:|1750863209
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750863231
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Amoonguss|perish3|[silent]
+|-start|p2a: Zamazenta|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Zamazenta|Heavy Slam|p1b: Scream Tail
+|-supereffective|p1b: Scream Tail
+|-damage|p1b: Scream Tail|13/100
+|move|p2b: Farigiraf|Foul Play|p1b: Scream Tail
+|-damage|p1b: Scream Tail|4/100
+|
+|-start|p1b: Scream Tail|perish0
+|-start|p2a: Zamazenta|perish3
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|-start|p2b: Farigiraf|perish0
+|-start|p1a: Amoonguss|perish3
+|faint|p2b: Farigiraf
+|upkeep
+|
+|t:|1750863253
+|switch|p1b: Gothitelle|Gothitelle, L50, M, tera:Water|33/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|5
+|
+|t:|1750863268
+|move|p1b: Gothitelle|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|99/100
+|cant|p2a: Zamazenta|flinch
+|move|p2b: Ho-Oh|Brave Bird|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2b: Ho-Oh|66/100|[from] Recoil
+|
+|-heal|p1b: Gothitelle|39/100|[from] item: Leftovers
+|-start|p2a: Zamazenta|perish2
+|upkeep
+|
+|t:|1750863279
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|knucklee has 30 seconds left.
+|
+|t:|1750863306
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Zamazenta|Body Press|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: super ozone|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gothitelle|45/100|[from] item: Leftovers
+|-start|p2a: Zamazenta|perish1
+|upkeep
+|turn|7
+|
+|t:|1750863327
+|move|p2a: Zamazenta|Body Press|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|move|p2b: Ho-Oh|Brave Bird|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-damage|p2b: Ho-Oh|39/100|[from] Recoil
+|
+|win|super ozone
+|raw|knucklee's rating: 1199 &rarr; <strong>1168</strong><br />(-31 for losing)
+|raw|super ozone's rating: 1117 &rarr; <strong>1148</strong><br />(+31 for winning)
+|c|☆super ozone|play a real team next time
+|l|☆knucklee
+|player|p1|
+|l|☆super ozone
+|player|p2|

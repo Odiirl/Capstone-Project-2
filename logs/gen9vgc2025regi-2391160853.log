@@ -1,0 +1,146 @@
+|j|☆eriksp9
+|j|☆mega6816
+|t:|1750810184
+|gametype|doubles
+|player|p1|eriksp9|calem-masters|1078
+|player|p2|mega6816|gambler|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Brionne, L50, F|
+|poke|p2|Calyrex, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+eriksp9 has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mega6816)
+|
+|t:|1750810216
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M, shiny|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|eriksp9 has 30 seconds left.
+|
+|t:|1750810246
+|move|p1a: Miraidon|Volt Switch|p2a: Gothitelle
+|-damage|p2a: Gothitelle|45/100
+|
+|t:|1750810249
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p1b: Volcarona|Fiery Dance|p2a: Gothitelle
+|-damage|p2a: Gothitelle|17/100
+|-boost|p1b: Volcarona|spa|1
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Iron Hands|perish3|[silent]
+|-start|p1b: Volcarona|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Gothitelle|Light Screen|p2a: Gothitelle
+|-sidestart|p2: mega6816|move: Light Screen
+|
+|-start|p1b: Volcarona|perish3
+|-start|p2b: Scream Tail|perish3
+|-start|p1a: Iron Hands|perish3
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750810263
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p1b: Volcarona|Struggle Bug|p2b: Scream Tail|[spread] p2a
+|-activate|p2b: Scream Tail|move: Protect
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|move|p1a: Iron Hands|Wild Charge|p2b: Scream Tail
+|-activate|p2b: Scream Tail|move: Protect
+|
+|-start|p1b: Volcarona|perish2
+|-start|p2b: Scream Tail|perish2
+|-start|p1a: Iron Hands|perish2
+|upkeep
+|
+|t:|1750810269
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750810281
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p1b: Volcarona|Struggle Bug|p2a: Terapagos|[spread] p2a
+|-activate|p2b: Scream Tail|move: Protect
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|93/100
+|-unboost|p2a: Terapagos|spa|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|99/100|[from] item: Leftovers
+|-start|p1b: Volcarona|perish1
+|-start|p2b: Scream Tail|perish1
+|upkeep
+|turn|4
+|
+|t:|1750810293
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Brionne|Brionne, L50, F, shiny|100/100
+|move|p2a: Terapagos|Earth Power|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|69/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Brionne|[spread] p2a,p2b
+|-resisted|p2b: Brionne
+|-damage|p2a: Terapagos|55/100
+|-damage|p2b: Brionne|77/100
+|
+|-heal|p2a: Terapagos|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l|☆mega6816
+|inactive|mega6816 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|eriksp9 has 30 seconds left.
+|inactive|mega6816 has 30 seconds left.
+|inactive|mega6816 has 20 seconds left.
+|inactive|mega6816 has 15 seconds left.
+|inactive|mega6816 has 10 seconds left.
+|inactive|mega6816 has 5 seconds left.
+|-message|mega6816 lost due to inactivity.
+|
+|win|eriksp9
+|raw|eriksp9's rating: 1078 &rarr; <strong>1105</strong><br />(+27 for winning)
+|raw|mega6816's rating: 1058 &rarr; <strong>1040</strong><br />(-18 for losing)
+|l|☆eriksp9
+|player|p1|

@@ -1,0 +1,143 @@
+|j|☆schmarble
+|j|☆BlznFrnzy
+|t:|1750827695
+|gametype|doubles
+|player|p1|schmarble|skyla|1269
+|player|p2|BlznFrnzy|1|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Comfey, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+BlznFrnzy rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlznFrnzy)
+|inactive|schmarble has 60 seconds left.
+|
+|t:|1750827767
+|start
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Ogerpon|Mold Breaker
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750827792
+|move|p2b: Rillaboom|Fake Out|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|91/100
+|move|p2a: Kyogre|Water Spout|p1a: Raging Bolt|[spread] p1a,p1b
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|64/100
+|-damage|p1b: Ogerpon|13/100
+|move|p1b: Ogerpon|Wood Hammer|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-damage|p1b: Ogerpon|0 fnt|[from] Recoil
+|faint|p1b: Ogerpon
+|cant|p1a: Raging Bolt|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827807
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|2
+|inactive|schmarble has 30 seconds left.
+|
+|t:|1750827838
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|move|p2b: Rillaboom|U-turn|p1b: Incineroar
+|-damage|p1b: Incineroar|89/100
+|
+|t:|1750827844
+|switch|p2b: Comfey|Comfey, L50, M|100/100|[from] U-turn
+|-enditem|p2b: Comfey|Grassy Seed
+|-boost|p2b: Comfey|def|1|[from] item: Grassy Seed
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|76/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|95/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750827873
+|move|p2b: Comfey|Helping Hand|p2a: Landorus
+|-singleturn|p2a: Landorus|Helping Hand|[of] p2b: Comfey
+|move|p2a: Landorus|Sandsear Storm|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Raging Bolt
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Raging Bolt|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827880
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750827889
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Landorus|[spread] p2b
+|-activate|p2a: Landorus|move: Protect
+|-damage|p2b: Comfey|44/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Comfey|Tailwind|p2b: Comfey
+|-sidestart|p2: BlznFrnzy|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Comfey|49/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750827907
+|move|p2b: Comfey|Helping Hand|p2a: Landorus
+|-singleturn|p2a: Landorus|Helping Hand|[of] p2b: Comfey
+|move|p2a: Landorus|Earth Power|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|BlznFrnzy
+|raw|schmarble's rating: 1269 &rarr; <strong>1245</strong><br />(-24 for losing)
+|raw|BlznFrnzy's rating: 1288 &rarr; <strong>1312</strong><br />(+24 for winning)
+|l|☆schmarble
+|player|p1|
+|l|☆BlznFrnzy
+|player|p2|

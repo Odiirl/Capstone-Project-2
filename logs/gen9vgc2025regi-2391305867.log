@@ -1,0 +1,150 @@
+|j|☆Adriannihaje
+|j|☆yurmememek2
+|t:|1750832523
+|gametype|doubles
+|player|p1|Adriannihaje|ghetsis-gen5bw|1090
+|player|p2|yurmememek2|colress|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Umbreon, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kyurem-White, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yurmememek2)
+|
+|t:|1750832541
+|start
+|switch|p1a: Cresselia|Cresselia, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750832558
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Sneasler|Fake Out|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Flutter Mane|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|-enditem|p1a: Cresselia|Mental Herb
+|-end|p1a: Cresselia|move: Taunt
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|2
+|
+|t:|1750832578
+|move|p1a: Cresselia|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Cresselia
+|move|p1b: Calyrex|Glacial Lance|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Sneasler
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|
+|upkeep
+|
+|t:|1750832584
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Iron Bundle|Iron Bundle, L50|100/100
+|turn|3
+|
+|t:|1750832596
+|move|p1a: Cresselia|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Cresselia
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|cant|p1b: Calyrex|slp
+|move|p2a: Iron Bundle|Hydro Pump|p1a: Cresselia
+|-damage|p1a: Cresselia|70/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750832611
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Amoonguss|Spore|p1a: Cresselia
+|-status|p1a: Cresselia|slp|[from] move: Spore
+|cant|p1a: Cresselia|slp
+|move|p2a: Iron Bundle|Hydro Pump|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750832630
+|cant|p1a: Cresselia|slp
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|cant|p1b: Calyrex|slp
+|move|p2a: Iron Bundle|Hydro Pump|p1b: Calyrex
+|-damage|p1b: Calyrex|67/100 slp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750832652
+|switch|p1b: Umbreon|Umbreon, L50, M|100/100
+|move|p2a: Iron Bundle|Hydro Pump|p1b: Umbreon
+|-damage|p1b: Umbreon|71/100
+|cant|p1a: Cresselia|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Umbreon
+|-supereffective|p1b: Umbreon
+|-damage|p1b: Umbreon|50/100
+|
+|-heal|p1b: Umbreon|56/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|yurmememek2 has 30 seconds left.
+|
+|t:|1750832685
+|move|p2a: Iron Bundle|Hydro Pump|p1b: Umbreon
+|-damage|p1b: Umbreon|29/100
+|-curestatus|p1a: Cresselia|slp|[msg]
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|95/100
+|-heal|p1b: Umbreon|53/100
+|move|p1b: Umbreon|Yawn|p2a: Iron Bundle
+|-start|p2a: Iron Bundle|move: Yawn|[of] p1b: Umbreon
+|move|p2b: Amoonguss|Pollen Puff|p1b: Umbreon
+|-supereffective|p1b: Umbreon
+|-damage|p1b: Umbreon|34/100
+|
+|-heal|p1b: Umbreon|40/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|yurmememek2 forfeited.
+|
+|win|Adriannihaje
+|raw|Adriannihaje's rating: 1090 &rarr; <strong>1117</strong><br />(+27 for winning)
+|raw|yurmememek2's rating: 1100 &rarr; <strong>1074</strong><br />(-26 for losing)
+|l|☆yurmememek2
+|player|p2|

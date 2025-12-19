@@ -1,0 +1,148 @@
+|j|☆Yugi wit da hoodie
+|j|☆slickfast
+|t:|1750804390
+|gametype|doubles
+|player|p1|Yugi wit da hoodie|265|1503
+|player|p2|slickfast|266|1475
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by slickfast)
+|
+|t:|1750804455
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Kyurem|Kyurem-White, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Yugi wit da hoodie has 30 seconds left.
+|inactive|Yugi wit da hoodie has 20 seconds left.
+|
+|t:|1750804493
+|-terastallize|p2a: Kyurem|Ground
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: slickfast|move: Tailwind
+|move|p1b: Flutter Mane|Thunder Wave|p2a: Kyurem
+|-immune|p2a: Kyurem
+|move|p2a: Kyurem|Freeze-Dry|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1750804517
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|2
+|
+|t:|1750804536
+|move|p2b: Tornadus|Snowscape|p2b: Tornadus
+|-weather|Snowscape
+|move|p1b: Flutter Mane|Moonblast|p2a: Kyurem
+|-damage|p2a: Kyurem|77/100
+|move|p2a: Kyurem|Blizzard|p1a: Chien-Pao|[spread] p1a,p1b
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|52/100
+|-damage|p1b: Flutter Mane|46/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750804550
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|inactive|Yugi wit da hoodie has 30 seconds left.
+|
+|t:|1750804585
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Chien-Pao|Protect|p1a: Chien-Pao
+|-singleturn|p1a: Chien-Pao|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Chien-Pao|[spread] p1b
+|-activate|p1a: Chien-Pao|move: Protect
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750804600
+|switch|p1b: Rayquaza|Rayquaza, L50|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|turn|4
+|
+|t:|1750804623
+|-terastallize|p1b: Rayquaza|Normal
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Astral Barrage|p1b: Rayquaza|[spread] p1a
+|-immune|p1b: Rayquaza
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Rayquaza|Dragon Ascent|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1b: Rayquaza|def|1
+|-unboost|p1b: Rayquaza|spd|1
+|-damage|p1b: Rayquaza|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|faint|p2b: Indeedee
+|-damage|p1b: Rayquaza|74/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: slickfast|move: Tailwind
+|upkeep
+|
+|t:|1750804644
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|turn|5
+|
+|t:|1750804652
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: slickfast|move: Tailwind
+|move|p2a: Calyrex|Expanding Force|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|
+|win|slickfast
+|raw|Yugi wit da hoodie's rating: 1503 &rarr; <strong>1481</strong><br />(-22 for losing)
+|raw|slickfast's rating: 1475 &rarr; <strong>1497</strong><br />(+22 for winning)
+|l|☆Yugi wit da hoodie
+|player|p1|
+|l|☆slickfast
+|player|p2|

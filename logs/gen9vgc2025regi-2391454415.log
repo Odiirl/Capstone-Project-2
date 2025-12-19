@@ -1,0 +1,172 @@
+|j|☆wiranVGC
+|j|☆3TRex
+|t:|1750858235
+|gametype|doubles
+|player|p1|wiranVGC|silver|1369
+|player|p2|3TRex|palmer|1427
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wiranVGC)
+|
+|t:|1750858250
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750858262
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: wiranVGC|move: Tailwind
+|move|p1b: Rillaboom|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-enditem|p2b: Calyrex|Life Orb|[from] move: Knock Off|[of] p1b: Rillaboom
+|faint|p2b: Calyrex
+|move|p2a: Zamazenta|Heavy Slam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1750858271
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|2
+|
+|t:|1750858280
+|-terastallize|p1a: Groudon|Fire
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Rillaboom|Knock Off|p2b: Ogerpon
+|-damage|p2b: Ogerpon|75/100
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Ogerpon|move: Wide Guard
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Rillaboom|[anim] Ivy Cudgel Fire
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ogerpon|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750858284
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750858302
+|-terastallize|p2a: Zamazenta|Water
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|move|p1a: Groudon|Heat Crash|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750858309
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|t:|1750858316
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p2a: Zamazenta|Protect||[still]
+|-fail|p2a: Zamazenta
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|move|p1a: Groudon|Heat Crash|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|81/100|[from] Grassy Terrain
+|-sideend|p1: wiranVGC|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750858336
+|move|p2b: Chien-Pao|Ruination|p1b: Zamazenta
+|-damage|p1b: Zamazenta|50/100
+|move|p2a: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|53/100
+|-damage|p2b: Chien-Pao|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Chien-Pao|33/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|59/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750858346
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Chien-Pao|Ruination|p1a: Groudon
+|-damage|p1a: Groudon|51/100
+|move|p1a: Groudon|Heat Crash|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750858354
+|move|p2a: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|1/100
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1750858360
+|move|p2a: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|win|3TRex
+|raw|wiranVGC's rating: 1369 &rarr; <strong>1352</strong><br />(-17 for losing)
+|raw|3TRex's rating: 1427 &rarr; <strong>1444</strong><br />(+17 for winning)

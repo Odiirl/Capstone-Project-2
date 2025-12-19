@@ -1,0 +1,136 @@
+|j|‽xGSx3ntr0py
+|j|☆go0bler
+|t:|1750740985
+|gametype|doubles
+|player|p1|xGSx3ntr0py|169|1458
+|player|p2|go0bler|170|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Muk-Alola, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|
+|t:|1750741027
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Iron Treads|Iron Treads, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by go0bler)
+|
+|t:|1750741055
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2a: Iron Treads|Ice Spinner|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|54/100
+|-fieldend|move: Grassy Terrain
+|move|p1b: Rillaboom|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|82/100
+|-damage|p1b: Rillaboom|37/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|
+|t:|1750741070
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2b: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|turn|2
+|inactive|xGSx3ntr0py has 30 seconds left.
+|
+|t:|1750741103
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100
+|-damage|p1a: Incineroar|67/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p2b: Incineroar|flinch
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|upkeep
+|turn|3
+|inactive|go0bler has 30 seconds left.
+|
+|t:|1750741128
+|switch|p2a: Iron Treads|Iron Treads, L50|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Lunala
+|-activate|p1b: Lunala|move: Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|1
+|-unboost|p2a: Iron Treads|spa|1
+|
+|t:|1750741141
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|upkeep
+|turn|4
+|
+|t:|1750741155
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Incineroar|97/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1a: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Sinistcha
+|-resisted|p2b: Incineroar
+|-damage|p2a: Sinistcha|5/100
+|-damage|p2b: Incineroar|68/100
+|move|p2b: Incineroar|Parting Shot|p1a: Calyrex
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|move|p1b: Lunala|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|11/100
+|
+|upkeep
+|turn|5
+|inactive|go0bler has 30 seconds left.
+|inactive|go0bler has 20 seconds left.
+|inactive|go0bler has 15 seconds left.
+|l|☆go0bler
+|inactive|go0bler disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|go0bler has 10 seconds left.
+|inactive|go0bler has 5 seconds left.
+|-message|go0bler lost due to inactivity.
+|
+|win|xGSx3ntr0py
+|raw|xGSx3ntr0py's rating: 1458 &rarr; <strong>1473</strong><br />(+15 for winning)
+|raw|go0bler's rating: 1363 &rarr; <strong>1348</strong><br />(-15 for losing)
+|l|‽xGSx3ntr0py
+|player|p1|
+|j|☆go0bler
+|player|p2|go0bler|170|
+|l|☆go0bler
+|player|p2|

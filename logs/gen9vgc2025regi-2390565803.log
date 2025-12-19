@@ -1,0 +1,241 @@
+|j|☆tavares vgc
+|j|☆jjkko
+|t:|1750729731
+|gametype|doubles
+|player|p1|tavares vgc|hilbert|1485
+|player|p2|jjkko|1|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Appletun, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Moth, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jjkko)
+|
+|t:|1750729770
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Appletun|Appletun, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|tavares vgc has 30 seconds left.
+|
+|t:|1750729799
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Miraidon|Overheat|p2b: Calyrex|[miss]
+|-miss|p1a: Miraidon|p2b: Calyrex
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Farigiraf|65/100
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750729823
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|2
+|
+|t:|1750729833
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1b: Groudon|atk|1
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p1a: Raging Bolt|Rising Voltage|p2b: Calyrex
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750729856
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|3
+|inactive|jjkko has 30 seconds left.
+|
+|t:|1750729891
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Raging Bolt|Protect|p1a: Raging Bolt
+|-singleturn|p1a: Raging Bolt|Protect
+|move|p2b: Miraidon|Volt Switch|p1a: Raging Bolt
+|-activate|p1a: Raging Bolt|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|tavares vgc has 30 seconds left.
+|inactive|jjkko has 30 seconds left.
+|
+|t:|1750729919
+|switch|p2a: Appletun|Appletun, L50, F|100/100
+|move|p2b: Miraidon|Volt Switch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|56/100
+|
+|t:|1750729924
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1b: Groudon|atk|1
+|move|p1b: Groudon|Swords Dance|p1b: Groudon
+|-boost|p1b: Groudon|atk|2
+|move|p1a: Raging Bolt|Rising Voltage|p2a: Appletun
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|53/100
+|-damage|p1a: Raging Bolt|46/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Appletun|59/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|jjkko has 30 seconds left.
+|inactive|tavares vgc has 30 seconds left.
+|inactive|jjkko has 20 seconds left.
+|inactive|jjkko has 15 seconds left.
+|inactive|tavares vgc has 20 seconds left.
+|inactive|tavares vgc has 15 seconds left.
+|
+|t:|1750729975
+|switch|p1b: Farigiraf|Farigiraf, L50, F|65/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1a: Raging Bolt|Rising Voltage|p2b: Miraidon
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|48/100
+|-damage|p1a: Raging Bolt|36/100|[from] item: Life Orb
+|move|p2a: Appletun|Grass Knot|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Appletun|65/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750729990
+|switch|p1a: Groudon|Groudon, L50|100/100
+|turn|6
+|inactive|tavares vgc has 30 seconds left.
+|inactive|tavares vgc has 20 seconds left.
+|inactive|tavares vgc has 15 seconds left.
+|inactive|tavares vgc has 10 seconds left.
+|
+|t:|1750730038
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|move|p1b: Farigiraf|Psychic|p2a: Appletun
+|-damage|p2a: Appletun|38/100
+|move|p2a: Appletun|Leech Seed|p1a: Groudon
+|-start|p1a: Groudon|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Appletun|44/100|[from] item: Leftovers
+|-damage|p1a: Groudon|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|55/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750730060
+|move|p1b: Farigiraf|Helping Hand|p1a: Groudon
+|-singleturn|p1a: Groudon|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Groudon|Precipice Blades|p2a: Appletun|[spread] p2a,p2b
+|-resisted|p2a: Appletun
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Appletun|18/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Appletun|Grass Knot|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|25/100
+|
+|-heal|p1a: Groudon|30/100|[from] item: Leftovers
+|-heal|p2a: Appletun|24/100|[from] item: Leftovers
+|-damage|p1a: Groudon|18/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|36/100|[silent]
+|upkeep
+|
+|t:|1750730062
+|switch|p2b: Miraidon|Miraidon, L50|48/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|8
+|inactive|tavares vgc has 30 seconds left.
+|inactive|tavares vgc has 20 seconds left.
+|inactive|tavares vgc has 15 seconds left.
+|inactive|tavares vgc has 10 seconds left.
+|inactive|jjkko has 30 seconds left.
+|
+|t:|1750730121
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Miraidon|Draco Meteor|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Farigiraf
+|move|p2a: Appletun|Grass Knot|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|
+|-heal|p1a: Groudon|24/100|[from] item: Leftovers
+|-heal|p2a: Appletun|42/100|[from] item: Leftovers
+|-damage|p1a: Groudon|12/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|53/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1750730142
+|move|p2b: Miraidon|Draco Meteor|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Groudon
+|
+|win|jjkko
+|raw|tavares vgc's rating: 1485 &rarr; <strong>1466</strong><br />(-19 for losing)
+|raw|jjkko's rating: 1496 &rarr; <strong>1515</strong><br />(+19 for winning)
+|l|☆tavares vgc
+|player|p1|
+|l|☆jjkko
+|player|p2|

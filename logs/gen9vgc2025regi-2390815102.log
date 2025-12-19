@@ -1,0 +1,178 @@
+|j|☆crayons_7110
+|j|☆Kuschki
+|t:|1750771475
+|gametype|doubles
+|player|p1|crayons_7110|169|1406
+|player|p2|Kuschki|170|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Hydrapple, L50, F|
+|poke|p2|Illumise, L50, F|
+|teampreview|4
+|
+|t:|1750771523
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Illumise|Illumise, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Illumise|atk|1
+|turn|1
+|
+|t:|1750771545
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Illumise|Tailwind|p2b: Illumise
+|-sidestart|p2: Kuschki|move: Tailwind
+|move|p1a: Kyogre|Water Spout|p2b: Illumise|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Illumise|21/100
+|-enditem|p2b: Illumise|Sitrus Berry|[eat]
+|-heal|p2b: Illumise|46/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750771567
+|-terastallize|p1b: Incineroar|Bug
+|move|p2b: Illumise|Fake Tears|p1a: Kyogre
+|-unboost|p1a: Kyogre|spd|2
+|move|p1a: Kyogre|Water Spout|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|67/100
+|-damage|p2b: Illumise|0 fnt
+|faint|p2b: Illumise
+|move|p2a: Kyogre|Water Spout|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|47/100
+|-damage|p1b: Incineroar|36/100
+|move|p1b: Incineroar|Parting Shot|p2a: Kyogre
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2a: Kyogre|spa|1
+|
+|t:|1750771592
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750771603
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|3
+|
+|t:|1750771618
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Bug|36/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Zacian|atk|1
+|move|p2b: Zacian|Sacred Sword|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|23/100
+|move|p2a: Kyogre|Origin Pulse|p1b: Farigiraf|[spread] p1b
+|-miss|p2a: Kyogre|p1a: Incineroar
+|-damage|p1b: Farigiraf|60/100
+|move|p1b: Farigiraf|Psychic|p2a: Kyogre
+|-damage|p2a: Kyogre|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750771637
+|-terastallize|p2b: Zacian|Ghost
+|move|p1a: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|46/100
+|move|p2b: Zacian|Behemoth Blade|p1b: Farigiraf
+|-damage|p1b: Farigiraf|4/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|29/100|[from] item: Sitrus Berry
+|cant|p2a: Kyogre|flinch
+|move|p1b: Farigiraf|Psychic|p2a: Kyogre
+|-damage|p2a: Kyogre|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|28/100|[from] item: Leftovers
+|-sideend|p2: Kuschki|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750771662
+|move|p2b: Zacian|Behemoth Blade|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p2a: Kyogre|Origin Pulse|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|none
+|-heal|p2a: Kyogre|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750771667
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|47/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|6
+|
+|t:|1750771682
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1b: Kyogre|Origin Pulse|p2a: Kyogre|[spread] 
+|-activate|p2b: Zacian|move: Protect
+|-miss|p1b: Kyogre|p2a: Kyogre
+|move|p1a: Zacian|Behemoth Blade|p2b: Zacian
+|-activate|p2b: Zacian|move: Protect
+|move|p2a: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|40/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750771698
+|move|p2b: Zacian|Behemoth Blade|p1a: Zacian
+|-damage|p1a: Zacian|54/100
+|move|p1a: Zacian|Behemoth Blade|p2b: Zacian
+|-damage|p2b: Zacian|27/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|win|Kuschki
+|raw|crayons_7110's rating: 1406 &rarr; <strong>1386</strong><br />(-20 for losing)
+|raw|Kuschki's rating: 1406 &rarr; <strong>1426</strong><br />(+20 for winning)
+|l|☆crayons_7110
+|player|p1|
+|l|☆Kuschki
+|player|p2|

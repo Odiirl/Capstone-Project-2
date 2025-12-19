@@ -1,0 +1,168 @@
+|j|☆kunna1
+|j|☆Npc red panther
+|t:|1750858326
+|gametype|doubles
+|player|p1|kunna1|1|1429
+|player|p2|Npc red panther|265|1466
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ditto, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kunna1)
+|inactive|Npc red panther has 60 seconds left.
+|inactive|Npc red panther has 30 seconds left.
+|
+|t:|1750858387
+|start
+|switch|p1a: Scovillain|Scovillain, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750858409
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Npc red panther|Reflect
+|move|p1a: Scovillain|Spicy Extract|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|move|p1b: Koraidon|Flare Blitz|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-damage|p1b: Koraidon|63/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858422
+|switch|p2a: Ditto|Ditto, L50|100/100
+|-transform|p2a: Ditto|p1b: Koraidon|[from] ability: Imposter
+|-activate|p2a: Ditto|ability: Orichalcum Pulse
+|turn|2
+|
+|t:|1750858435
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Scovillain|Rage Powder|p1a: Scovillain
+|-singleturn|p1a: Scovillain|move: Rage Powder
+|move|p2a: Ditto|Flare Blitz|p1a: Scovillain
+|-enditem|p1a: Scovillain|Focus Sash
+|-damage|p1a: Scovillain|1/100
+|-damage|p2a: Ditto|71/100|[from] Recoil
+|move|p1b: Koraidon|Collision Course|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|move|p2b: Calyrex|Glacial Lance|p1b: Koraidon|[spread] p1a,p1b
+|-supereffective|p1b: Koraidon
+|-damage|p1a: Scovillain|0 fnt
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1a: Scovillain
+|faint|p1b: Koraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858449
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750858466
+|-terastallize|p1a: Miraidon|Electric
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Miraidon|Electro Drift|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Miraidon|70/100
+|-damage|p1b: Clefairy|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750858481
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|72/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Clefairy|[spread] p1a,p1b
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|25/100
+|-damage|p1b: Clefairy|20/100
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Miraidon|50/100
+|-heal|p1b: Clefairy|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750858489
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|43/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|23/100
+|-damage|p1b: Clefairy|1/100
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Miraidon|48/100
+|-heal|p1b: Clefairy|26/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750858497
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|12/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|19/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|
+|upkeep
+|turn|7
+|
+|t:|1750858506
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|win|kunna1
+|raw|kunna1's rating: 1429 &rarr; <strong>1451</strong><br />(+22 for winning)
+|raw|Npc red panther's rating: 1466 &rarr; <strong>1444</strong><br />(-22 for losing)
+|l|☆Npc red panther
+|player|p2|
+|l|☆kunna1
+|player|p1|

@@ -1,0 +1,153 @@
+|j|☆SlamTTHM
+|j|☆YaBoiCT
+|t:|1750726109
+|gametype|doubles
+|player|p1|SlamTTHM|265|1009
+|player|p2|YaBoiCT|drayden|1032
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Empoleon, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Alcremie, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|
+|t:|1750726140
+|start
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2a: Reaper|Urshifu, L50, M|100/100
+|switch|p2b: Nightafall|Lunala, L50|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SlamTTHM)
+|
+|t:|1750726191
+|-terastallize|p1b: Brute Bonnet|Fighting
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2a: Reaper|Close Combat|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|40/100
+|-unboost|p2a: Reaper|def|1
+|-unboost|p2a: Reaper|spd|1
+|move|p2b: Nightafall|Meteor Beam||[still]
+|-prepare|p2b: Nightafall|Meteor Beam
+|-boost|p2b: Nightafall|spa|1
+|-enditem|p2b: Nightafall|Power Herb
+|-anim|p2b: Nightafall|Meteor Beam|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|12/100
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|-enditem|p1b: Brute Bonnet|Room Service
+|-unboost|p1b: Brute Bonnet|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|2
+|inactive|SlamTTHM has 30 seconds left.
+|inactive|SlamTTHM has 20 seconds left.
+|
+|t:|1750726229
+|switch|p2a: Bastion|Ting-Lu, L50|100/100
+|-ability|p2a: Bastion|Vessel of Ruin
+|move|p1b: Brute Bonnet|Close Combat|p2a: Bastion
+|-supereffective|p2a: Bastion
+|-damage|p2a: Bastion|31/100
+|-unboost|p1b: Brute Bonnet|def|1
+|-unboost|p1b: Brute Bonnet|spd|1
+|move|p1a: Necrozma|Moongeist Beam|p2a: Bastion
+|-resisted|p2a: Bastion
+|-damage|p2a: Bastion|17/100
+|move|p2b: Nightafall|Trick Room|p2b: Nightafall
+|-fieldend|move: Trick Room
+|
+|-heal|p2a: Bastion|23/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750726251
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2b: Nightafall|Moongeist Beam|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|move|p2a: Bastion|Snarl|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|73/100
+|-unboost|p1a: Necrozma|spa|1
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|
+|-heal|p2a: Bastion|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750726265
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750726281
+|move|p1b: Calyrex|Glacial Lance|p2b: Nightafall|[spread] p2a,p2b
+|-supereffective|p2a: Bastion
+|-damage|p2a: Bastion|0 fnt
+|-damage|p2b: Nightafall|76/100
+|faint|p2a: Bastion
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Necrozma|Moongeist Beam|p2b: Nightafall
+|-supereffective|p2b: Nightafall
+|-damage|p2b: Nightafall|0 fnt
+|faint|p2b: Nightafall
+|
+|upkeep
+|
+|t:|1750726294
+|switch|p2a: Inferno|Groudon, L50|100/100
+|switch|p2b: Reaper|Urshifu, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Inferno
+|turn|5
+|
+|t:|1750726306
+|-terastallize|p2a: Inferno|Rock
+|move|p2b: Reaper|Sucker Punch|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|move|p1b: Calyrex|Glacial Lance|p2a: Inferno|[spread] p2a,p2b
+|-damage|p2a: Inferno|43/100
+|-damage|p2b: Reaper|0 fnt
+|faint|p2b: Reaper
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Inferno|Tera Blast|p1b: Calyrex|[anim] Tera Blast Rock
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750726319
+|switch|p1a: Alcremie|Alcremie, L50, F|100/100
+|turn|6
+|-message|YaBoiCT forfeited.
+|
+|win|SlamTTHM
+|raw|SlamTTHM's rating: 1009 &rarr; <strong>1050</strong><br />(+41 for winning)
+|raw|YaBoiCT's rating: 1032 &rarr; <strong>1016</strong><br />(-16 for losing)
+|l|☆YaBoiCT
+|player|p2|

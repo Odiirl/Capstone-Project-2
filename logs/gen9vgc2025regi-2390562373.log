@@ -1,0 +1,211 @@
+|j|☆JSNJS
+|j|☆gui2xx
+|t:|1750729259
+|gametype|doubles
+|player|p1|JSNJS|102|1087
+|player|p2|gui2xx|preschoolerf|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zebstrika, L50, M|
+|poke|p1|Mudsdale, L50, F|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Rhyperior, L50, M|
+|poke|p2|Oranguru, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Skeledirge, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gui2xx)
+|
+|t:|1750729285
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|inactive|JSNJS has 30 seconds left.
+|inactive|JSNJS has 20 seconds left.
+|inactive|JSNJS has 15 seconds left.
+|inactive|JSNJS has 10 seconds left.
+|inactive|JSNJS has 5 seconds left.
+|
+|t:|1750729340
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750729359
+|switch|p1b: Zebstrika|Zebstrika, L50, M|100/100
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Miraidon|Electro Drift|p1b: Zebstrika
+|-activate|p1b: Zebstrika|ability: Lightning Rod
+|-ability|p1b: Zebstrika|Lightning Rod|boost
+|-boost|p1b: Zebstrika|spa|1
+|move|p1a: Farigiraf|Imprison|p1a: Farigiraf
+|-start|p1a: Farigiraf|move: Imprison
+|
+|upkeep
+|turn|3
+|inactive|gui2xx has 30 seconds left.
+|inactive|gui2xx has 20 seconds left.
+|inactive|gui2xx has 15 seconds left.
+|
+|t:|1750729400
+|switch|p2a: Rhyperior|Rhyperior, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|move|p1a: Farigiraf|Helping Hand|p1b: Zebstrika
+|-singleturn|p1b: Zebstrika|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Zebstrika|Supercell Slam|p2a: Rhyperior
+|-activate|p2a: Rhyperior|ability: Lightning Rod
+|-ability|p2a: Rhyperior|Lightning Rod|boost
+|-boost|p2a: Rhyperior|spa|1
+|-damage|p1b: Zebstrika|51/100|[from] supercellslam
+|
+|upkeep
+|turn|4
+|
+|t:|1750729454
+|move|p1a: Farigiraf|Helping Hand|p1b: Zebstrika
+|-singleturn|p1b: Zebstrika|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Zebstrika|Low Kick|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|-damage|p1b: Zebstrika|41/100|[from] item: Life Orb
+|move|p2b: Sinistcha|Curse|p1a: Farigiraf
+|-start|p1a: Farigiraf|Curse|[of] p2b: Sinistcha
+|-damage|p2b: Sinistcha|51/100
+|
+|-heal|p2b: Sinistcha|57/100|[from] item: Leftovers
+|-damage|p1a: Farigiraf|76/100|[from] Curse
+|upkeep
+|
+|t:|1750729469
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|5
+|
+|t:|1750729486
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Zebstrika|Flame Charge|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|23/100
+|-boost|p1b: Zebstrika|spe|1
+|-damage|p1b: Zebstrika|31/100|[from] item: Life Orb
+|move|p2b: Sinistcha|Night Shade|p1b: Zebstrika
+|-damage|p1b: Zebstrika|0 fnt
+|faint|p1b: Zebstrika
+|move|p2a: Farigiraf|Calm Mind|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spa|1
+|-boost|p2a: Farigiraf|spd|1
+|
+|-heal|p2b: Sinistcha|29/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750729499
+|switch|p1b: Glastrier|Glastrier, L50|100/100
+|turn|6
+|
+|t:|1750729517
+|move|p1a: Calyrex|Astral Barrage|p2a: Farigiraf|[spread] p2b
+|-immune|p2a: Farigiraf
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Farigiraf|Calm Mind|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spa|1
+|-boost|p2a: Farigiraf|spd|1
+|move|p1b: Glastrier|Icicle Crash|p2a: Farigiraf
+|-damage|p2a: Farigiraf|71/100
+|
+|upkeep
+|
+|t:|1750729530
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750729553
+|-terastallize|p2b: Miraidon|Steel
+|move|p2a: Farigiraf|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2b
+|-immune|p2a: Farigiraf
+|-damage|p2b: Miraidon|18/100
+|move|p2b: Miraidon|Electro Drift|p1b: Glastrier
+|-damage|p1b: Glastrier|0 fnt
+|-damage|p2b: Miraidon|2/100|[from] item: Rocky Helmet|[of] p1b: Glastrier
+|faint|p1b: Glastrier
+|
+|upkeep
+|
+|t:|1750729561
+|switch|p1b: Farigiraf|Farigiraf, L50, F|76/100
+|turn|8
+|
+|t:|1750729574
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2b
+|-immune|p2a: Farigiraf
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p1b: Farigiraf|Hyper Voice|p2a: Farigiraf
+|-damage|p2a: Farigiraf|53/100
+|move|p2a: Farigiraf|Calm Mind|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spa|1
+|-boost|p2a: Farigiraf|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1750729589
+|move|p1a: Calyrex|Psychic|p2a: Farigiraf
+|-resisted|p2a: Farigiraf
+|-damage|p2a: Farigiraf|30/100
+|move|p1b: Farigiraf|Hyper Voice|p2a: Farigiraf
+|-damage|p2a: Farigiraf|16/100
+|move|p2a: Farigiraf|Hyper Voice|p1b: Farigiraf|[spread] p1b
+|-immune|p1a: Calyrex
+|-damage|p1b: Farigiraf|14/100
+|-enditem|p1b: Farigiraf|Aguav Berry|[eat]
+|-heal|p1b: Farigiraf|47/100|[from] item: Aguav Berry
+|
+|upkeep
+|turn|10
+|-message|gui2xx forfeited.
+|
+|win|JSNJS
+|raw|JSNJS's rating: 1087 &rarr; <strong>1114</strong><br />(+27 for winning)
+|raw|gui2xx's rating: 1089 &rarr; <strong>1066</strong><br />(-23 for losing)
+|l|☆gui2xx
+|player|p2|
+|l|☆JSNJS
+|player|p1|

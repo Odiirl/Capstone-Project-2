@@ -1,0 +1,130 @@
+|j|☆food14
+|j|☆TipoLucha
+|t:|1750873061
+|gametype|doubles
+|player|p1|food14|preschooler|1141
+|player|p2|TipoLucha|169|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Clodsire, L50, F|
+|poke|p1|Regidrago, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Gastrodon, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750873105
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1750873137
+|-terastallize|p1a: Lunala|Fairy
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: food14|move: Light Screen
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: TipoLucha|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|91/100
+|-enditem|p1a: Lunala|Electric Seed|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Lunala|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|69/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750873173
+|switch|p1b: Clodsire|Clodsire, L50, F|100/100
+|move|p2a: Whimsicott|Energy Ball|p1a: Lunala
+|-damage|p1a: Lunala|77/100
+|move|p2b: Incineroar|Knock Off|p1b: Clodsire
+|-damage|p1b: Clodsire|39/100
+|-enditem|p1b: Clodsire|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|3
+|
+|t:|1750873194
+|move|p1b: Clodsire|Gunk Shot|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1a: Lunala|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|38/100
+|-unboost|p2b: Incineroar|spa|1
+|move|p2b: Incineroar|Flare Blitz|p1a: Lunala
+|-damage|p1a: Lunala|35/100
+|-damage|p2b: Incineroar|21/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750873212
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750873225
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Clodsire|High Horsepower|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Lunala|Moonblast|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: TipoLucha|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750873272
+|switch|p2a: Incineroar|Incineroar, L50, M|21/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Clodsire|atk|1
+|move|p1b: Clodsire|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Lunala|Moonblast|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: food14|move: Light Screen
+|upkeep
+|-message|TipoLucha forfeited.
+|
+|win|food14
+|raw|food14's rating: 1141 &rarr; <strong>1163</strong><br />(+22 for winning)
+|raw|TipoLucha's rating: 1093 &rarr; <strong>1072</strong><br />(-21 for losing)
+|l|☆TipoLucha
+|player|p2|
+|l|☆food14
+|player|p1|

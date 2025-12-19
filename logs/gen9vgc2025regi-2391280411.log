@@ -1,0 +1,183 @@
+|j|☆ron97201
+|j|☆brodoes
+|t:|1750827574
+|gametype|doubles
+|player|p1|ron97201|266|1234
+|player|p2|brodoes|crasherwake|1202
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rhydon, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Bronzong, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|
+|t:|1750827617
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Bronzong|Bronzong, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750827637
+|move|p2a: Koraidon|Collision Course|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Kyogre|Origin Pulse|p2b: Bronzong|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Koraidon
+|-damage|p2b: Bronzong|28/100
+|move|p2b: Bronzong|Gravity|p2b: Bronzong
+|-fieldstart|move: Gravity
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Bronzong|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827651
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|2
+|
+|t:|1750827666
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Kyogre|Origin Pulse|p2b: Bronzong|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Bronzong|0 fnt
+|faint|p2b: Bronzong
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827678
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|3
+|
+|t:|1750827705
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-enditem|p1b: Sinistcha|Electric Seed
+|-boost|p1b: Sinistcha|def|1|[from] item: Electric Seed
+|move|p1a: Miraidon|Volt Switch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|48/100
+|
+|t:|1750827717
+|switch|p1a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-end|p2a: Walking Wake|Protosynthesis
+|move|p2b: Groudon|Thunder Punch|p1b: Sinistcha
+|-resisted|p1b: Sinistcha
+|-damage|p1b: Sinistcha|88/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750827743
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2a: Walking Wake|Draco Meteor|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Miraidon
+|move|p2b: Groudon|Thunder Punch|p1b: Sinistcha
+|-resisted|p1b: Sinistcha
+|-damage|p1b: Sinistcha|74/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Walking Wake|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Walking Wake|21/100
+|-heal|p1b: Sinistcha|87/100|[from] drain|[of] p2a: Walking Wake
+|-damage|p2b: Groudon|41/100
+|-heal|p1b: Sinistcha|100/100|[from] drain|[of] p2b: Groudon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827764
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|turn|5
+|
+|t:|1750827780
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Koraidon|Koraidon, L50|91/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Kyogre|Origin Pulse|p2a: Koraidon|[spread] p2a
+|-activate|p2b: Groudon|move: Protect
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|70/100
+|move|p1b: Sinistcha|Calm Mind|p1b: Sinistcha
+|-boost|p1b: Sinistcha|spa|1
+|-boost|p1b: Sinistcha|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1750827825
+|-terastallize|p1b: Sinistcha|Dark
+|move|p2a: Koraidon|Collision Course|p1a: Kyogre
+|-damage|p1a: Kyogre|19/100
+|-damage|p2a: Koraidon|60/100|[from] item: Life Orb
+|move|p2b: Groudon|Heat Crash|p1b: Sinistcha
+|-crit|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Kyogre|Origin Pulse|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-supereffective|p2b: Groudon
+|-damage|p2a: Koraidon|41/100
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750827842
+|switch|p2b: Walking Wake|Walking Wake, L50|21/100
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1750827854
+|move|p2a: Koraidon|Collision Course|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-damage|p2a: Koraidon|31/100|[from] item: Life Orb
+|
+|win|brodoes
+|raw|ron97201's rating: 1234 &rarr; <strong>1207</strong><br />(-27 for losing)
+|raw|brodoes's rating: 1202 &rarr; <strong>1229</strong><br />(+27 for winning)
+|l|☆brodoes
+|player|p2|

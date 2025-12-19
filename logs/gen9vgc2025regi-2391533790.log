@@ -1,0 +1,166 @@
+|j|☆cyndakyu
+|j|☆Toasteduck
+|t:|1750867266
+|gametype|doubles
+|player|p1|cyndakyu|skierf|1486
+|player|p2|Toasteduck|2|1589
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Mienshao, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cyndakyu)
+|inactive|Toasteduck has 60 seconds left.
+|
+|t:|1750867322
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Bundle|Iron Bundle, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: Iron Bundle|ability: Quark Drive
+|-start|p2b: Iron Bundle|quarkdrivespe
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Iron Bundle|atk|1
+|turn|1
+|
+|t:|1750867340
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Iron Bundle|Protect|p2b: Iron Bundle
+|-singleturn|p2b: Iron Bundle|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|86/100
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a
+|-activate|p2b: Iron Bundle|move: Protect
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|23/100
+|cant|p2a: Miraidon|flinch
+|
+|upkeep
+|turn|2
+|inactive|cyndakyu has 30 seconds left.
+|inactive|cyndakyu has 20 seconds left.
+|
+|t:|1750867379
+|move|p2b: Iron Bundle|Icy Wind|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Incineroar
+|-damage|p1a: Miraidon|47/100
+|-damage|p1b: Incineroar|88/100
+|-unboost|p1a: Miraidon|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|-damage|p2b: Iron Bundle|91/100|[from] item: Life Orb
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Incineroar|18/100
+|-enditem|p1b: Incineroar|Aguav Berry|[eat]
+|-heal|p1b: Incineroar|51/100|[from] item: Aguav Berry
+|faint|p1a: Miraidon
+|move|p1b: Incineroar|Knock Off|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-enditem|p2a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Miraidon
+|
+|upkeep
+|
+|t:|1750867398
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: Giratina|Giratina-Origin, L50|100/100
+|turn|3
+|inactive|Toasteduck has 30 seconds left.
+|
+|t:|1750867425
+|move|p2b: Iron Bundle|Hydro Pump|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2b: Iron Bundle|81/100|[from] item: Life Orb
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Iron Bundle|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|0 fnt
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|move|p2a: Giratina|Poltergeist|p1a: Ogerpon|[miss]
+|-miss|p2a: Giratina|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1750867439
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|4
+|
+|t:|1750867457
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|40/100
+|move|p2a: Giratina|Poltergeist|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Poltergeist|Cornerstone Mask
+|-damage|p1a: Ogerpon|13/100
+|
+|upkeep
+|turn|5
+|inactive|Toasteduck has 30 seconds left.
+|
+|t:|1750867490
+|-terastallize|p1b: Calyrex|Water
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Calyrex|Glacial Lance|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|c|☆Toasteduck|ggs
+|
+|t:|1750867512
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Giratina|[anim] Ivy Cudgel Rock
+|-damage|p2a: Giratina|75/100
+|move|p2a: Giratina|Poltergeist|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Poltergeist|Clear Amulet
+|-damage|p1b: Calyrex|57/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|win|cyndakyu
+|raw|cyndakyu's rating: 1486 &rarr; <strong>1512</strong><br />(+26 for winning)
+|raw|Toasteduck's rating: 1589 &rarr; <strong>1563</strong><br />(-26 for losing)
+|l|☆Toasteduck
+|player|p2|

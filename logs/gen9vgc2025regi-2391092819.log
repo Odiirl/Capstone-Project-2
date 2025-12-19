@@ -1,0 +1,198 @@
+|j|☆etherboy22
+|j|☆blu3cr33p3r
+|t:|1750801605
+|gametype|doubles
+|player|p1|etherboy22|2|1272
+|player|p2|blu3cr33p3r|bruno|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+etherboy22 rejected open team sheets.
+|
+|t:|1750801651
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespa
+|turn|1
+|
+|t:|1750801689
+|-terastallize|p1b: Iron Bundle|Ice
+|move|p1a: Ninetales|Helping Hand|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Helping Hand|[of] p1a: Ninetales
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: blu3cr33p3r|move: Light Screen
+|move|p1b: Iron Bundle|Blizzard|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|22/100
+|-damage|p2b: Grimmsnarl|35/100
+|-status|p2b: Grimmsnarl|frz
+|move|p2a: Miraidon|Electro Drift|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750801704
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|2
+|
+|t:|1750801742
+|move|p1a: Ninetales|Blizzard|p2b: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|6/100
+|-damage|p2b: Grimmsnarl|20/100 frz
+|move|p2a: Miraidon|Volt Switch|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|72/100
+|
+|t:|1750801757
+|switch|p2a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|cant|p2b: Grimmsnarl|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Terapagos|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750801793
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: etherboy22|move: Aurora Veil
+|move|p1b: Terapagos|Tera Starstorm|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Lunala|Moongeist Beam|p1b: Terapagos
+|-immune|p1b: Terapagos
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Terapagos|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750801805
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1750801845
+|move|p1a: Ninetales|Blizzard|p2b: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2b: Ursaluna
+|-damage|p2a: Lunala|94/100
+|-damage|p2b: Ursaluna|71/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2b: Ursaluna|Facade|p1b: Terapagos
+|-damage|p1b: Terapagos|62/100
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Terapagos|69/100|[from] item: Leftovers
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750801877
+|switch|p1a: Lunala|Lunala, L50|100/100
+|move|p2b: Ursaluna|Facade|p1b: Terapagos
+|-damage|p1b: Terapagos|7/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|56/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Ursaluna
+|-damage|p2b: Ursaluna|13/100 brn
+|
+|-weather|none
+|-heal|p1b: Terapagos|13/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|7/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750801936
+|-terastallize|p2a: Lunala|Fairy
+|move|p2b: Ursaluna|Facade|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Ursaluna
+|-resisted|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p2a: Lunala|Moonblast|p1a: Lunala
+|-damage|p1a: Lunala|34/100
+|-unboost|p1a: Lunala|spa|1
+|
+|upkeep
+|
+|t:|1750801955
+|switch|p2b: Miraidon|Miraidon, L50|6/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|7
+|
+|t:|1750801971
+|move|p1a: Lunala|Moongeist Beam|p2a: Lunala
+|-damage|p2a: Lunala|69/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p2b: Miraidon|Electro Drift|p1b: Ninetales
+|-damage|p1b: Ninetales|35/100
+|move|p1b: Ninetales|Blizzard|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Lunala|57/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: etherboy22|move: Aurora Veil
+|upkeep
+|turn|8
+|
+|t:|1750801997
+|move|p2a: Lunala|Moonblast|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|win|blu3cr33p3r
+|raw|etherboy22's rating: 1272 &rarr; <strong>1248</strong><br />(-24 for losing)
+|raw|blu3cr33p3r's rating: 1288 &rarr; <strong>1312</strong><br />(+24 for winning)

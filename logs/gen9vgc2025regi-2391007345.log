@@ -1,0 +1,148 @@
+|j|☆vguekdk
+|j|☆Blinding Fires
+|t:|1750792234
+|gametype|doubles
+|player|p1|vguekdk|266|1511
+|player|p2|Blinding Fires|benga|1452
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Lugia, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vguekdk)
+|inactive|vguekdk has 60 seconds left.
+|inactive|Blinding Fires has 60 seconds left.
+|
+|t:|1750792294
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Lugia|Lugia, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Groudon|atk|1
+|turn|1
+|
+|t:|1750792316
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1a: Incineroar|Fake Out|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|93/100
+|move|p2a: Zamazenta|Body Press|p1a: Incineroar
+|-immune|p1a: Incineroar
+|move|p1b: Lugia|Calm Mind|p1b: Lugia
+|-boost|p1b: Lugia|spa|1
+|-boost|p1b: Lugia|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Blinding Fires has 30 seconds left.
+|
+|t:|1750792345
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-terastallize|p2b: Brute Bonnet|Water
+|move|p1b: Lugia|Aeroblast|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|49/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|-damage|p1a: Incineroar|78/100|[from] Recoil
+|move|p2b: Brute Bonnet|Spore|p1b: Lugia
+|-status|p1b: Lugia|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|vguekdk has 30 seconds left.
+|inactive|Blinding Fires has 30 seconds left.
+|inactive|Blinding Fires has 20 seconds left.
+|
+|t:|1750792386
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Brute Bonnet|Sucker Punch||[still]
+|-fail|p2b: Brute Bonnet
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|64/100
+|cant|p1b: Lugia|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Flutter Mane|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|70/100|[from] Grassy Terrain
+|-heal|p2b: Brute Bonnet|55/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|Blinding Fires has 30 seconds left.
+|
+|t:|1750792412
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|cant|p1b: Lugia|slp
+|move|p1a: Rillaboom|Wood Hammer|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p1a: Rillaboom|51/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750792428
+|switch|p2b: Groudon|Groudon, L50|100/100
+|turn|5
+|
+|t:|1750792440
+|switch|p1a: Incineroar|Incineroar, L50, M, tera:Ghost|78/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Groudon|atk|1
+|move|p2a: Zamazenta|Behemoth Bash|p1b: Lugia
+|-damage|p1b: Lugia|92/100 slp
+|-curestatus|p1b: Lugia|slp|[msg]
+|move|p1b: Lugia|Calm Mind|p1b: Lugia
+|-boost|p1b: Lugia|spa|1
+|-boost|p1b: Lugia|spd|1
+|move|p2b: Groudon|Rock Slide|p1b: Lugia|[spread] p1a,p1b
+|-supereffective|p1b: Lugia
+|-damage|p1a: Incineroar|62/100
+|-damage|p1b: Lugia|74/100
+|
+|-weather|none
+|-heal|p1b: Lugia|80/100|[from] item: Leftovers
+|-heal|p1a: Incineroar|68/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Blinding Fires forfeited.
+|
+|win|vguekdk
+|raw|vguekdk's rating: 1511 &rarr; <strong>1528</strong><br />(+17 for winning)
+|raw|Blinding Fires's rating: 1452 &rarr; <strong>1435</strong><br />(-17 for losing)
+|l|☆Blinding Fires
+|player|p2|

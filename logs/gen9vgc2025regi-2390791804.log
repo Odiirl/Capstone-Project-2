@@ -1,0 +1,154 @@
+|j|☆smario1705
+|j|☆candyflip21
+|t:|1750768356
+|gametype|doubles
+|player|p1|smario1705|alder|1143
+|player|p2|candyflip21|170|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|j| thejigglypuff03
+|
+|t:|1750768391
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Snorlax|Snorlax, L50, F|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|1
+|
+|t:|1750768424
+|move|p1b: Incineroar|Fake Out|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|move|p2b: Iron Hands|Fake Out|p1a: Lunala
+|-immune|p1a: Lunala
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|82/100
+|cant|p2a: Snorlax|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750768467
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Cresselia|Cresselia, L50, F|100/100
+|-terastallize|p1a: Lunala|Fairy
+|move|p1a: Lunala|Dazzling Gleam|p2a: Snorlax|[spread] p2a,p2b
+|-damage|p2a: Snorlax|55/100
+|-damage|p2b: Cresselia|72/100
+|move|p1b: Incineroar|U-turn|p2b: Cresselia
+|-supereffective|p2b: Cresselia
+|-damage|p2b: Cresselia|43/100
+|
+|t:|1750768480
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100|[from] U-turn
+|move|p2a: Snorlax|Belly Drum|p2a: Snorlax
+|-damage|p2a: Snorlax|5/100
+|-setboost|p2a: Snorlax|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|30/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1750768519
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2a: Snorlax|54/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1a: Lunala|Dazzling Gleam|p2b: Sinistcha|[spread] p2a,p2b
+|-damage|p2a: Snorlax|24/100
+|-damage|p2b: Sinistcha|50/100
+|move|p2a: Snorlax|Facade|p1a: Lunala
+|-damage|p1a: Lunala|46/100
+|move|p1b: Amoonguss|Spore|p2b: Sinistcha
+|-immune|p2b: Sinistcha
+|
+|upkeep
+|turn|4
+|
+|t:|1750768545
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Lunala|Moongeist Beam|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Snorlax|Facade|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|upkeep
+|
+|t:|1750768560
+|switch|p2b: Iron Hands|Iron Hands, L50|82/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Snorlax|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|5
+|
+|t:|1750768575
+|move|p1b: Incineroar|Fake Out|p2a: Snorlax
+|-damage|p2a: Snorlax|11/100
+|move|p2b: Iron Hands|Fake Out|p1a: Lunala
+|-damage|p1a: Lunala|38/100
+|cant|p1a: Lunala|flinch
+|cant|p2a: Snorlax|flinch
+|
+|upkeep
+|turn|6
+|
+|t:|1750768613
+|move|p1a: Lunala|Dazzling Gleam|p2b: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2b: Iron Hands
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p2b: Iron Hands|24/100
+|faint|p2a: Snorlax
+|move|p1b: Incineroar|U-turn|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|15/100
+|
+|t:|1750768621
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Iron Hands|Low Kick|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|candyflip21 forfeited.
+|
+|win|smario1705
+|raw|smario1705's rating: 1143 &rarr; <strong>1162</strong><br />(+19 for winning)
+|raw|candyflip21's rating: 1062 &rarr; <strong>1047</strong><br />(-15 for losing)
+|l|☆candyflip21
+|player|p2|

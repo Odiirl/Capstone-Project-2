@@ -1,0 +1,100 @@
+|j|☆MTH0612
+|j|☆BRdilas
+|t:|1750810303
+|gametype|doubles
+|player|p1|MTH0612|169|1456
+|player|p2|BRdilas|266|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, F|
+|teampreview|4
+BRdilas rejected open team sheets.
+|
+|t:|1750810357
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MTH0612)
+|
+|t:|1750810418
+|-terastallize|p2a: Armarouge|Psychic
+|move|p2b: Koraidon|U-turn|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|42/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|t:|1750810430
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2a: Armarouge|Heat Wave|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|7/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Volcarona|Tailwind|p1a: Volcarona
+|-sidestart|p1: MTH0612|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750810442
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|
+|t:|1750810450
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Volcarona|Struggle Bug|p2a: Armarouge|[spread] p2a,p2b
+|-supereffective|p2a: Armarouge
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Armarouge|1/100
+|-damage|p2b: Indeedee|80/100
+|-unboost|p2a: Armarouge|spa|1
+|-unboost|p2b: Indeedee|spa|1
+|move|p2a: Armarouge|Heat Wave|p1b: Miraidon|[spread] p1a
+|-activate|p1b: Miraidon|move: Protect
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|MTH0612 forfeited.
+|
+|win|BRdilas
+|raw|MTH0612's rating: 1456 &rarr; <strong>1438</strong><br />(-18 for losing)
+|raw|BRdilas's rating: 1496 &rarr; <strong>1514</strong><br />(+18 for winning)
+|l|☆MTH0612
+|player|p1|
+|l|☆BRdilas
+|player|p2|

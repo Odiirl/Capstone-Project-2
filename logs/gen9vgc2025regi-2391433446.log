@@ -1,0 +1,183 @@
+|j|☆Rhizzen
+|j|☆bleezo
+|t:|1750855475
+|gametype|doubles
+|player|p1|Rhizzen|265|1310
+|player|p2|bleezo|101|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Comfey, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bleezo)
+|inactive|bleezo has 60 seconds left.
+|
+|t:|1750855514
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-enditem|p2a: Calyrex|Electric Seed
+|-boost|p2a: Calyrex|def|1|[from] item: Electric Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|inactive|bleezo has 30 seconds left.
+|inactive|bleezo has 20 seconds left.
+|inactive|bleezo has 15 seconds left.
+|inactive|bleezo has 10 seconds left.
+|inactive|bleezo has 5 seconds left.
+|
+|t:|1750855566
+|move|p2b: Miraidon|Volt Switch|p1a: Incineroar
+|-damage|p1a: Incineroar|28/100
+|
+|t:|1750855570
+|switch|p2b: Comfey|Comfey, L50, M|100/100|[from] Volt Switch
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Calyrex
+|-status|p2a: Calyrex|brn
+|move|p2a: Calyrex|Curse|p2a: Calyrex
+|-unboost|p2a: Calyrex|spe|1
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-damage|p2a: Calyrex|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750855594
+|move|p2a: Calyrex|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2a: Calyrex|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|7/100 brn
+|move|p2b: Comfey|Light Screen|p2b: Comfey
+|-sidestart|p2: bleezo|move: Light Screen
+|
+|-damage|p2a: Calyrex|1/100 brn|[from] brn
+|upkeep
+|
+|t:|1750855608
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|3
+|inactive|bleezo has 30 seconds left.
+|
+|t:|1750855634
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p2b: Comfey|Draining Kiss|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|35/100
+|move|p1a: Urshifu|Aqua Jet|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|85/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Comfey
+|-damage|p2b: Comfey|64/100
+|
+|upkeep
+|turn|4
+|inactive|bleezo has 30 seconds left.
+|
+|t:|1750855669
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Comfey|Draining Kiss|p1b: Lunala
+|-damage|p1b: Lunala|94/100
+|-heal|p2b: Comfey|71/100|[from] drain|[of] p1b: Lunala
+|move|p1b: Lunala|Moongeist Beam|p2a: Miraidon
+|-damage|p2a: Miraidon|55/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|70/100
+|-damage|p1b: Lunala|73/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750855690
+|-terastallize|p2b: Comfey|Fairy
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Comfey|Draining Kiss|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|31/100
+|-heal|p2b: Comfey|100/100|[from] drain|[of] p1a: Miraidon
+|move|p1a: Miraidon|Draco Meteor|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Miraidon
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750855701
+|switch|p2a: Urshifu|Urshifu, L50, F|100/100
+|turn|6
+|
+|t:|1750855725
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Comfey|Draining Kiss|p1a: Miraidon
+|-damage|p1a: Miraidon|14/100
+|move|p2a: Urshifu|Wicked Blow|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p1a: Miraidon|Electro Drift|p2a: Urshifu
+|-damage|p2a: Urshifu|62/100
+|
+|-sideend|p2: bleezo|move: Light Screen
+|upkeep
+|
+|t:|1750855736
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|35/100
+|turn|7
+|
+|t:|1750855754
+|move|p2b: Comfey|Draining Kiss|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2a: Urshifu|Sucker Punch|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|bleezo
+|raw|Rhizzen's rating: 1310 &rarr; <strong>1292</strong><br />(-18 for losing)
+|raw|bleezo's rating: 1352 &rarr; <strong>1370</strong><br />(+18 for winning)
+|l|☆Rhizzen
+|player|p1|
+|l|☆bleezo
+|player|p2|

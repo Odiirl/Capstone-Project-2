@@ -1,0 +1,191 @@
+|j|☆testing_cha
+|j|☆Yuans Reive
+|t:|1750710775
+|gametype|doubles
+|player|p1|testing_cha|parasollady|1514
+|player|p2|Yuans Reive|2|1563
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Alcremie-Lemon-Cream, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testing_cha)
+Yuans Reive has agreed to open team sheets.
+testing_cha has agreed to open team sheets.
+|showteam|p1|Alcremie-Lemon-Cream||RoomService|SweetVeil|Decorate,HelpingHand,Encore,AlluringVoice|||F|||50|,,,,,Steel]Calyrex-Ice||ClearAmulet|AsOneGlastrier|HighHorsepower,GlacialLance,Protect,TrickRoom||||||50|,,,,,Fire]Lunala||Leftovers|ShadowShield|TrickRoom,WideGuard,ExpandingForce,MoongeistBeam||||||50|,,,,,Fairy]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,Imprison,TrickRoom,Psychic|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Urshifu-Rapid-Strike||FocusSash|UnseenFist|SurgingStrikes,CloseCombat,Taunt,Detect|||M|||50|,,,,,Water
+|showteam|p2|Koraidon||LifeOrb|OrichalcumPulse|CloseCombat,FlareBlitz,Uturn,Protect||||||50|,,,,,Fire]Lunala||Leftovers|ShadowShield|MoongeistBeam,Moonblast,CalmMind,Protect||||||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,WillOWisp,PartingShot|||F|||50|,,,,,Bug]Rillaboom||AssaultVest|GrassySurge|FakeOut,DrumBeating,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Scream Tail||CovertCloak|Protosynthesis|Encore,Disable,PsychicFangs,Protect||||||50|,,,,,Dark]Raging Bolt||Magnet|Protosynthesis|Thunderbolt,Thunderclap,DracoMeteor,Protect||||||50|,,,,,Electric
+|inactive|Yuans Reive has 60 seconds left.
+|
+|t:|1750710821
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750710835
+|-terastallize|p1a: Calyrex|Fire
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|15/100
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|
+|t:|1750710839
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Incineroar|Flare Blitz|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Incineroar|96/100|[from] Recoil
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750710845
+|switch|p1b: Alcremie|Alcremie-Lemon-Cream, L50, F|100/100
+|-enditem|p1b: Alcremie|Room Service
+|-unboost|p1b: Alcremie|spe|1|[from] item: Room Service
+|turn|2
+|
+|t:|1750710864
+|move|p2a: Rillaboom|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|94/100
+|move|p1b: Alcremie|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|cant|p1a: Calyrex|flinch
+|move|p2b: Incineroar|Flare Blitz|p1b: Alcremie
+|-damage|p1b: Alcremie|34/100
+|-damage|p2b: Incineroar|82/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Alcremie|40/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|99/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|88/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750710883
+|-terastallize|p2a: Rillaboom|Fire
+|move|p1b: Alcremie|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Alcremie
+|move|p2a: Rillaboom|Grassy Glide|p1b: Alcremie
+|-damage|p1b: Alcremie|15/100
+|move|p1a: Calyrex|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Alcremie|21/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750710896
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750710915
+|move|p2a: Rillaboom|Grassy Glide|p1b: Alcremie
+|-damage|p1b: Alcremie|0 fnt
+|faint|p1b: Alcremie
+|move|p1a: Calyrex|High Horsepower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750710920
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|91/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750710929
+|move|p2b: Lunala|Moongeist Beam|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|26/100
+|move|p2a: Koraidon|Close Combat|p1a: Calyrex
+|-damage|p1a: Calyrex|3/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|81/100|[from] item: Life Orb
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldend|move: Trick Room
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|none
+|-heal|p1a: Calyrex|9/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|32/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|38/100|[from] item: Leftovers
+|-heal|p2a: Koraidon|87/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750710952
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Lunala|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Lunala|37/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-heal|p1b: Lunala|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆Yuans Reive|gg
+|-message|Yuans Reive forfeited.
+|
+|win|testing_cha
+|raw|testing_cha's rating: 1514 &rarr; <strong>1537</strong><br />(+23 for winning)
+|raw|Yuans Reive's rating: 1563 &rarr; <strong>1540</strong><br />(-23 for losing)
+|l|☆Yuans Reive
+|player|p2|
+|l|☆testing_cha
+|player|p1|

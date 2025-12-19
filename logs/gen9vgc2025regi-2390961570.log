@@ -1,0 +1,194 @@
+|j|☆004B
+|j|☆EPeaceVGC
+|t:|1750787401
+|gametype|doubles
+|player|p1|004B|ghetsis|1441
+|player|p2|EPeaceVGC|1|1381
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Conkeldurr, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EPeaceVGC)
+|inactive|EPeaceVGC has 480 seconds left.
+|
+|t:|1750787465
+|start
+|switch|p1a: Zekrom-|Miraidon, L50|100/100
+|switch|p1b: Deerling-|Farigiraf, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Zekrom-
+|-enditem|p1b: Deerling-|Electric Seed
+|-boost|p1b: Deerling-|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|EPeaceVGC has 30 seconds left.
+|inactive|004B has 30 seconds left.
+|inactive|EPeaceVGC has 20 seconds left.
+|
+|t:|1750787505
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Zekrom-|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|70/100
+|
+|t:|1750787510
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Deerling-|Foul Play|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|43/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|81/100
+|-damage|p1b: Deerling-|65/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750787531
+|-terastallize|p2b: Calyrex|Fire
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Deerling-|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Deerling-
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Calyrex|71/100
+|faint|p2a: Indeedee
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1b: Deerling-|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|53/100
+|-damage|p1b: Deerling-|15/100
+|
+|upkeep
+|
+|t:|1750787549
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-enditem|p2a: Lunala|Psychic Seed
+|-boost|p2a: Lunala|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1750787564
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Lunala|Expanding Force|p1b: Deerling-|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Deerling-
+|-damage|p1b: Deerling-|0 fnt
+|faint|p1b: Deerling-
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750787578
+|switch|p1b: Zekrom-|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Zekrom-
+|turn|4
+|
+|t:|1750787589
+|-terastallize|p1a: Calyrex|Water
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Zekrom-|Volt Switch|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Lunala|Moonblast|p1b: Zekrom-
+|-supereffective|p1b: Zekrom-
+|-damage|p1b: Zekrom-|36/100
+|move|p1a: Calyrex|High Horsepower|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750787609
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|move|p1b: Zekrom-|Volt Switch|p2b: Incineroar
+|-damage|p2b: Incineroar|44/100
+|
+|t:|1750787612
+|switch|p1b: Y.M.C.A|Conkeldurr, L50, F|100/100|[from] Volt Switch
+|move|p2a: Lunala|Expanding Force|p1a: Calyrex
+|-damage|p1a: Calyrex|22/100
+|move|p1a: Calyrex|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-damage|p1a: Calyrex|6/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-status|p1b: Y.M.C.A|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750787625
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Fire|71/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750787642
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Y.M.C.A|Wide Guard|p1b: Y.M.C.A
+|-singleturn|p1b: Y.M.C.A|Wide Guard
+|move|p2a: Lunala|Expanding Force|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-damage|p1b: Y.M.C.A|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750787648
+|switch|p1a: Zekrom-|Miraidon, L50|36/100
+|-activate|p1a: Zekrom-|ability: Hadron Engine
+|turn|7
+|
+|t:|1750787664
+|move|p1a: Zekrom-|Electro Drift|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Lunala|Moonblast|p1a: Zekrom-
+|-supereffective|p1a: Zekrom-
+|-damage|p1a: Zekrom-|0 fnt
+|faint|p1a: Zekrom-
+|move|p1b: Y.M.C.A|Knock Off|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|43/100
+|
+|-damage|p1b: Y.M.C.A|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750787688
+|move|p2a: Lunala|Expanding Force|p1b: Y.M.C.A
+|-supereffective|p1b: Y.M.C.A
+|-damage|p1b: Y.M.C.A|0 fnt
+|faint|p1b: Y.M.C.A
+|
+|win|EPeaceVGC
+|raw|004B's rating: 1441 &rarr; <strong>1418</strong><br />(-23 for losing)
+|raw|EPeaceVGC's rating: 1381 &rarr; <strong>1404</strong><br />(+23 for winning)

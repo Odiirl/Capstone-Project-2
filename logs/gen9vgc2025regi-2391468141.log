@@ -1,0 +1,149 @@
+|j|☆dabidow
+|j|☆ArazetHD
+|t:|1750859870
+|gametype|doubles
+|player|p1|dabidow|preschooler|1199
+|player|p2|ArazetHD|hilbert-wonderlauncher|1264
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750859941
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|1
+|
+|t:|1750859974
+|-terastallize|p1a: Koraidon|Fire
+|-terastallize|p2b: Brute Bonnet|Water
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p2a: Koraidon|Flame Charge|p1b: Scovillain
+|-damage|p1b: Scovillain|12/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Koraidon|Flame Charge|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|66/100
+|-boost|p1a: Koraidon|spe|1
+|move|p2b: Brute Bonnet|Spore|p1a: Koraidon
+|-status|p1a: Koraidon|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750860004
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2a: Koraidon|Close Combat|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Koraidon
+|-damage|p2a: Koraidon|81/100|[from] item: Life Orb
+|move|p2b: Brute Bonnet|Seed Bomb|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860015
+|switch|p1a: Clefairy|Clefairy, L50, M|100/100
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dabidow)
+|
+|t:|1750860072
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p1b: Miraidon|Volt Switch|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|t:|1750860079
+|switch|p1b: Scovillain|Scovillain, L50, M|12/100|[from] Volt Switch
+|move|p2a: Koraidon|Flare Blitz|p1a: Clefairy
+|-damage|p1a: Clefairy|16/100
+|-damage|p2a: Koraidon|53/100|[from] Recoil
+|-damage|p2a: Koraidon|44/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860084
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750860099
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p2b: Flutter Mane|Icy Wind|p1a: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Clefairy|3/100
+|-damage|p1b: Scovillain|0 fnt
+|-unboost|p1a: Clefairy|spe|1
+|faint|p1b: Scovillain
+|move|p2a: Koraidon|Flame Charge|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1a: Clefairy
+|-damage|p2a: Koraidon|34/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860107
+|switch|p1b: Miraidon|Miraidon, L50|84/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750860115
+|move|p2a: Koraidon|Flare Blitz|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|26/100
+|-damage|p2a: Koraidon|15/100|[from] Recoil
+|-damage|p2a: Koraidon|6/100|[from] item: Life Orb
+|move|p2b: Flutter Mane|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|ArazetHD
+|raw|dabidow's rating: 1199 &rarr; <strong>1179</strong><br />(-20 for losing)
+|raw|ArazetHD's rating: 1264 &rarr; <strong>1284</strong><br />(+20 for winning)
+|l|☆dabidow
+|player|p1|
+|c|☆ArazetHD|ggs

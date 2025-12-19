@@ -1,0 +1,152 @@
+|j|☆Test-on-calls
+|j|☆1shing1
+|t:|1750738262
+|gametype|doubles
+|player|p1|Test-on-calls|169|1481
+|player|p2|1shing1|266|1421
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Swampert, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1shing1)
+|
+|t:|1750738315
+|start
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Giratina|Giratina-Origin, L50, shiny|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750738329
+|move|p1b: Giratina|Protect|p1b: Giratina
+|-singleturn|p1b: Giratina|Protect
+|move|p1a: Chien-Pao|Throat Chop|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-enditem|p2a: Lunala|Focus Sash
+|-damage|p2a: Lunala|1/100
+|-start|p2a: Lunala|Throat Chop|[silent]
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Bitter Malice|p1b: Giratina
+|-activate|p1b: Giratina|move: Protect
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|-status|p1a: Chien-Pao|brn
+|
+|-damage|p1a: Chien-Pao|0 fnt|[from] brn
+|faint|p1a: Chien-Pao
+|upkeep
+|
+|t:|1750738351
+|switch|p1a: Milotic|Milotic, L50, F|100/100
+|turn|2
+|
+|t:|1750738359
+|move|p2a: Zoroark|Bitter Malice|p1b: Giratina
+|-supereffective|p1b: Giratina
+|-damage|p1b: Giratina|35/100
+|-unboost|p1b: Giratina|atk|1
+|move|p1b: Giratina|Poltergeist|p2b: Ho-Oh
+|-activate|p2b: Ho-Oh|move: Poltergeist|Covert Cloak
+|-damage|p2b: Ho-Oh|69/100
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Giratina
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|18/100
+|-status|p1b: Giratina|brn
+|move|p1a: Milotic|Muddy Water|p2b: Ho-Oh|[spread] p2a
+|-miss|p1a: Milotic|p2b: Ho-Oh
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-damage|p1b: Giratina|12/100 brn|[from] brn
+|upkeep
+|c|☆Test-on-calls|Cool rolls!
+|
+|t:|1750738382
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750738388
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Giratina|Shadow Sneak|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|88/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|
+|-heal|p2a: Lunala|94/100|[from] item: Leftovers
+|-damage|p1b: Giratina|6/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750738402
+|move|p2a: Lunala|Protect|p2a: Lunala
+|-singleturn|p2a: Lunala|Protect
+|move|p1b: Giratina|Poltergeist|p2a: Lunala
+|-activate|p2a: Lunala|move: Protect
+|move|p1a: Milotic|Hypnosis|p2b: Amoonguss
+|-status|p2b: Amoonguss|slp|[from] move: Hypnosis
+|cant|p2b: Amoonguss|slp
+|
+|-heal|p2a: Lunala|99/100|[from] item: Leftovers
+|-damage|p1b: Giratina|0 fnt|[from] brn
+|faint|p1b: Giratina
+|upkeep
+|
+|t:|1750738405
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|5
+|
+|t:|1750738426
+|move|p1b: Zamazenta|Heavy Slam|p2b: Amoonguss
+|-damage|p2b: Amoonguss|56/100 slp
+|-damage|p1b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p2a: Lunala|Moongeist Beam|p1a: Milotic
+|-damage|p1a: Milotic|34/100
+|move|p1a: Milotic|Hypnosis|p2a: Lunala|[miss]
+|-miss|p1a: Milotic|p2a: Lunala
+|-curestatus|p2b: Amoonguss|slp|[msg]
+|move|p2b: Amoonguss|Spore|p1b: Zamazenta
+|-status|p1b: Zamazenta|slp|[from] move: Spore
+|
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|-heal|p1a: Milotic|41/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|-message|Test-on-calls forfeited.
+|
+|win|1shing1
+|raw|Test-on-calls's rating: 1481 &rarr; <strong>1458</strong><br />(-23 for losing)
+|raw|1shing1's rating: 1421 &rarr; <strong>1444</strong><br />(+23 for winning)
+|l|☆Test-on-calls
+|player|p1|
+|l|☆1shing1
+|player|p2|

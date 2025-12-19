@@ -1,0 +1,162 @@
+|j|☆Lewissquire
+|j|☆sandstrummie
+|t:|1750814910
+|gametype|doubles
+|player|p1|Lewissquire|170|1395
+|player|p2|sandstrummie|unknown|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Scream Tail, L50|
+|teampreview|4
+|
+|t:|1750814948
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|turn|1
+|
+|t:|1750814970
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|94/100
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|cant|p2a: Incineroar|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750814984
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Terapagos
+|-unboost|p2b: Terapagos|atk|1
+|-unboost|p2b: Terapagos|spa|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sandstrummie)
+|
+|t:|1750814995
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|
+|upkeep
+|turn|3
+|inactive|sandstrummie has 30 seconds left.
+|inactive|sandstrummie has 20 seconds left.
+|inactive|sandstrummie has 15 seconds left.
+|
+|t:|1750815040
+|move|p1a: Calyrex|Psychic|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|71/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p2b: Terapagos|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750815054
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|4
+|inactive|Lewissquire has 30 seconds left.
+|inactive|sandstrummie has 30 seconds left.
+|
+|t:|1750815083
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|83/100|[silent]
+|move|p2a: Scream Tail|Thunder Wave|p1a: Calyrex|[miss]
+|-miss|p2a: Scream Tail|p1a: Calyrex
+|move|p1a: Calyrex|Astral Barrage|p2a: Scream Tail|[spread] p2a
+|-immune|p2b: Terapagos
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Heavy Slam|p2b: Terapagos
+|-damage|p2b: Terapagos|58/100
+|move|p2b: Terapagos|Tera Starstorm|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|19/100
+|-damage|p1b: Zamazenta|52/100
+|
+|-heal|p2b: Terapagos|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750815107
+|switch|p2a: Giratina|Giratina-Origin, L50|100/100
+|turn|5
+|
+|t:|1750815117
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Giratina|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|move|p2a: Giratina|Shadow Sneak|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|94/100
+|-damage|p2a: Giratina|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p1b: Zamazenta|Body Press|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|upkeep
+|turn|6
+|-message|sandstrummie forfeited.
+|
+|win|Lewissquire
+|raw|Lewissquire's rating: 1395 &rarr; <strong>1419</strong><br />(+24 for winning)
+|raw|sandstrummie's rating: 1465 &rarr; <strong>1441</strong><br />(-24 for losing)
+|l|☆sandstrummie
+|player|p2|

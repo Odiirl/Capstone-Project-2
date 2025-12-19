@@ -1,0 +1,376 @@
+|j|☆manct
+|j|☆KuroiRyu1122
+|t:|1750815590
+|gametype|doubles
+|player|p1|manct|ghetsis-gen5bw|1357
+|player|p2|KuroiRyu1122|cilan|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Toxapex, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KuroiRyu1122)
+|inactive|KuroiRyu1122 has 60 seconds left.
+|
+|t:|1750815623
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|turn|1
+|
+|t:|1750815643
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|70/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750815661
+|switch|p2b: Mankey blud|Rillaboom, L50, F|100/100
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Rillaboom|Fake Out|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1b: Groudon|Bulk Up|p1b: Groudon
+|-boost|p1b: Groudon|atk|1
+|-boost|p1b: Groudon|def|1
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Groudon
+|-status|p1b: Groudon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|76/100|[from] Grassy Terrain
+|-damage|p1b: Groudon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750815678
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Rillaboom|U-turn|p2b: Mankey blud
+|-supereffective|p2b: Mankey blud
+|-damage|p2b: Mankey blud|62/100
+|
+|t:|1750815684
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100|[from] U-turn
+|move|p2b: Mankey blud|Drum Beating|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|100/100 brn|[from] Grassy Terrain
+|-heal|p2b: Mankey blud|67/100|[from] Grassy Terrain
+|-damage|p1b: Groudon|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750815701
+|move|p1a: Ho-Oh|Psych Up|p1b: Groudon
+|-copyboost|p1a: Ho-Oh|p1b: Groudon|[from] move: Psych Up
+|move|p1b: Groudon|Precipice Blades|p2b: Mankey blud|[spread] p2a
+|-miss|p1b: Groudon|p2b: Mankey blud
+|-damage|p2a: Incineroar|66/100
+|move|p2b: Mankey blud|U-turn|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|98/100
+|
+|t:|1750815706
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] U-turn
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Incineroar|Parting Shot|p1b: Groudon
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ho-Oh|100/100|[from] item: Leftovers
+|-heal|p1b: Groudon|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Incineroar|72/100|[from] Grassy Terrain
+|-damage|p1b: Groudon|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750815726
+|-terastallize|p1b: Groudon|Fire
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Groudon|Precipice Blades|p2b: Calyrex|[spread] 
+|-activate|p2b: Calyrex|move: Protect
+|-miss|p1b: Groudon|p2a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1a: Ho-Oh
+|-unboost|p1a: Ho-Oh|atk|1
+|-unboost|p1a: Ho-Oh|spa|1
+|
+|t:|1750815731
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|-weather|none
+|-damage|p1b: Groudon|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|manct has 30 seconds left.
+|
+|t:|1750815757
+|switch|p1a: Rillaboom|Rillaboom, L50, F|76/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|move|p2a: Miraidon|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|51/100
+|
+|t:|1750815763
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny, tera:Ghost|72/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-heal|p2a: Incineroar|78/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750815778
+|switch|p1a: Groudon|Groudon, L50, shiny, tera:Fire|88/100 brn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Groudon
+|-fail|p1a: Groudon|brn
+|move|p1b: Incineroar|Knock Off|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|32/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|38/100|[from] Grassy Terrain
+|-heal|p1a: Groudon|94/100 brn|[from] Grassy Terrain
+|-damage|p1a: Groudon|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750815797
+|move|p2a: Incineroar|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|61/100 brn
+|-enditem|p1a: Groudon|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Calyrex|Leech Seed|p1b: Incineroar
+|-start|p1b: Incineroar|move: Leech Seed
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|72/100
+|-enditem|p2b: Calyrex|Weakness Policy
+|-boost|p2b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p1a: Groudon|Bulk Up|p1a: Groudon
+|-boost|p1a: Groudon|atk|1
+|-boost|p1a: Groudon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|77/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|44/100|[from] Grassy Terrain
+|-heal|p1a: Groudon|67/100 brn|[from] Grassy Terrain
+|-damage|p1b: Incineroar|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|89/100|[silent]
+|-damage|p1a: Groudon|61/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750815815
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Calyrex|Leech Seed|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|95/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|50/100|[from] Grassy Terrain
+|-heal|p1a: Groudon|67/100 brn|[from] Grassy Terrain
+|-damage|p1a: Groudon|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1750815836
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|88/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-resisted|p1b: Incineroar
+|-damage|p1a: Groudon|51/100 brn
+|-damage|p1b: Incineroar|69/100
+|move|p2a: Incineroar|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|59/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Groudon|Bulk Up|p1a: Groudon
+|-boost|p1a: Groudon|atk|1
+|-boost|p1a: Groudon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Incineroar|56/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|65/100|[from] Grassy Terrain
+|-heal|p1a: Groudon|57/100 brn|[from] Grassy Terrain
+|-damage|p1a: Groudon|51/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1750815860
+|move|p1a: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|8/100
+|-damage|p2b: Calyrex|71/100
+|move|p1b: Incineroar|Knock Off|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Calyrex|Leech Seed|p1a: Groudon
+|-start|p1a: Groudon|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Groudon|39/100 brn|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|83/100|[silent]
+|-damage|p1a: Groudon|33/100 brn|[from] brn
+|upkeep
+|
+|t:|1750815867
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|12
+|
+|t:|1750815878
+|switch|p1a: Rillaboom|Rillaboom, L50, F|57/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Miraidon|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|15/100
+|
+|t:|1750815881
+|switch|p2a: Mankey blud|Rillaboom, L50, F|67/100|[from] Volt Switch
+|move|p1b: Incineroar|Parting Shot|p2a: Mankey blud
+|-unboost|p2a: Mankey blud|atk|1
+|-unboost|p2a: Mankey blud|spa|1
+|
+|t:|1750815891
+|switch|p1b: Groudon|Groudon, L50, shiny, tera:Fire|33/100 brn|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Calyrex|Glacial Lance|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-resisted|p1b: Groudon
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Groudon|16/100 brn
+|faint|p1a: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|22/100 brn|[from] Grassy Terrain
+|-heal|p2a: Mankey blud|73/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|88/100|[from] Grassy Terrain
+|-damage|p1b: Groudon|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1750815907
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|15/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mankey blud|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|13
+|
+|t:|1750815917
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Mankey blud|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|11/100 brn
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|cant|p1b: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|17/100 brn|[from] Grassy Terrain
+|-heal|p2a: Mankey blud|79/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|21/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|94/100|[from] Grassy Terrain
+|-damage|p1b: Groudon|11/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1750815937
+|move|p1b: Groudon|Precipice Blades|p2a: Mankey blud|[spread] p2a
+|-miss|p1b: Groudon|p2b: Calyrex
+|-resisted|p2a: Mankey blud
+|-damage|p2a: Mankey blud|68/100
+|move|p2a: Mankey blud|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|12/100
+|
+|t:|1750815941
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|67/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Groudon
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Groudon|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Groudon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆KuroiRyu1122|gg
+|-message|manct forfeited.
+|
+|win|KuroiRyu1122
+|raw|manct's rating: 1357 &rarr; <strong>1342</strong><br />(-15 for losing)
+|raw|KuroiRyu1122's rating: 1455 &rarr; <strong>1470</strong><br />(+15 for winning)
+|l|☆manct
+|player|p1|

@@ -1,0 +1,146 @@
+|j|☆anlingyuze
+|j|☆fac new worm god
+|t:|1750862990
+|gametype|doubles
+|player|p1|anlingyuze|169|1443
+|player|p2|fac new worm god|miku-ice|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Gouging Fire, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fac new worm god)
+|
+|t:|1750863018
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Chesnaught|Chesnaught, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Chesnaught|Electric Seed
+|-boost|p1b: Chesnaught|def|1|[from] item: Electric Seed
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750863039
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|30/100
+|
+|t:|1750863043
+|switch|p1a: Gouging Fire|Gouging Fire, L50|100/100|[from] Volt Switch
+|move|p2a: Calyrex|Psychic|p1b: Chesnaught
+|-supereffective|p1b: Chesnaught
+|-damage|p1b: Chesnaught|0 fnt
+|faint|p1b: Chesnaught
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|20/100|[from] item: Life Orb
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|56/100
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|
+|t:|1750863056
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|inactive|fac new worm god has 30 seconds left.
+|
+|t:|1750863086
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1b: Miraidon|Snarl|p2a: Calyrex|[spread] p2a
+|-activate|p2b: Chien-Pao|move: Protect
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p1a: Gouging Fire|Flare Blitz|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|upkeep
+|
+|t:|1750863102
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|3
+|
+|t:|1750863117
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Gouging Fire|ability: Protosynthesis
+|-start|p1a: Gouging Fire|protosynthesisspe
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p2a: Raging Bolt|Protect|p2a: Raging Bolt
+|-singleturn|p2a: Raging Bolt|Protect
+|move|p1a: Gouging Fire|Breaking Swipe|p2b: Chien-Pao|[spread] p2b
+|-activate|p2a: Raging Bolt|move: Protect
+|-damage|p2b: Chien-Pao|73/100
+|-unboost|p2b: Chien-Pao|atk|1
+|move|p2b: Chien-Pao|Ice Spinner|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|53/100
+|-fieldend|move: Electric Terrain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|anlingyuze has 30 seconds left.
+|inactive|fac new worm god has 30 seconds left.
+|inactive|anlingyuze has 20 seconds left.
+|inactive|fac new worm god has 20 seconds left.
+|inactive|fac new worm god has 15 seconds left.
+|inactive|fac new worm god has 10 seconds left.
+|
+|t:|1750863162
+|-terastallize|p1b: Groudon|Fire
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Gouging Fire|Howl|p1a: Gouging Fire|[spread] p1a,p1b
+|-boost|p1a: Gouging Fire|atk|1
+|-boost|p1b: Groudon|atk|1
+|move|p1b: Groudon|Precipice Blades|p2b: Chien-Pao|[spread] p2a
+|-activate|p2b: Chien-Pao|move: Protect
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750863169
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|-message|fac new worm god forfeited.
+|
+|win|anlingyuze
+|raw|anlingyuze's rating: 1443 &rarr; <strong>1458</strong><br />(+15 for winning)
+|raw|fac new worm god's rating: 1358 &rarr; <strong>1343</strong><br />(-15 for losing)
+|l|☆fac new worm god
+|player|p2|
+|l|☆anlingyuze
+|player|p1|

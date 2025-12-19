@@ -1,0 +1,128 @@
+|j|☆chill1830
+|j|☆chapino
+|t:|1750827268
+|gametype|doubles
+|player|p1|chill1830|falkner|1155
+|player|p2|chapino|chuck|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Phantump, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750827300
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Phantump|Phantump, L50, M, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-item|p1a: Koraidon|Life Orb|[from] ability: Frisk|[of] p2b: Phantump
+|-item|p1b: Ogerpon|Cornerstone Mask|[from] ability: Frisk|[of] p2b: Phantump
+|turn|1
+|
+|t:|1750827319
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Phantump|Protect|p2b: Phantump
+|-singleturn|p2b: Phantump|Protect
+|move|p1b: Ogerpon|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|cant|p2a: Calyrex|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750827352
+|move|p2b: Phantump|Ally Switch|p2b: Phantump
+|swap|p2b: Phantump|0|[from] move: Ally Switch
+|move|p1a: Koraidon|Close Combat|p2a: Phantump
+|-immune|p2a: Phantump
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Phantump|[anim] Ivy Cudgel Rock
+|-damage|p2a: Phantump|50/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-supereffective|p1b: Ogerpon
+|-damage|p1a: Koraidon|0 fnt
+|-ability|p1b: Ogerpon|Sturdy
+|-damage|p1b: Ogerpon|1/100
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827356
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1750827375
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Rillaboom|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|93/100
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Miraidon|[anim] Ivy Cudgel Rock
+|-damage|p2a: Miraidon|49/100
+|cant|p2b: Calyrex|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Calyrex|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1750827386
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Ogerpon|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|73/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Rillaboom|Wood Hammer|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|17/100
+|-damage|p1a: Rillaboom|49/100|[from] Recoil
+|move|p2b: Calyrex|Glacial Lance|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827390
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|5
+|-message|chill1830 forfeited.
+|
+|win|chapino
+|raw|chill1830's rating: 1155 &rarr; <strong>1128</strong><br />(-27 for losing)
+|raw|chapino's rating: 1125 &rarr; <strong>1152</strong><br />(+27 for winning)
+|l|☆chill1830
+|player|p1|
+|l|☆chapino
+|player|p2|

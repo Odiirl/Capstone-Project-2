@@ -1,0 +1,164 @@
+|j|☆Sparky Doge
+|j|☆Nydira
+|t:|1750767472
+|gametype|doubles
+|player|p1|Sparky Doge|blue|1542
+|player|p2|Nydira|fisher-gen8|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nydira)
+|
+|t:|1750767490
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750767508
+|move|p1a: Whimsicott|Moonblast|p2b: Indeedee
+|-damage|p2b: Indeedee|66/100
+|move|p1b: Annihilape|Final Gambit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Indeedee
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|
+|t:|1750767523
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|inactive|Nydira has 30 seconds left.
+|
+|t:|1750767552
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p2b: Ursaluna|Headlong Rush|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750767555
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|3
+|inactive|Nydira has 30 seconds left.
+|inactive|Nydira has 20 seconds left.
+|
+|t:|1750767591
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Ursaluna|Earthquake|p1a: Whimsicott|[spread] p1a
+|-activate|p2a: Koraidon|move: Protect
+|-activate|p1b: Zacian|move: Protect
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|62/100
+|move|p1a: Whimsicott|Moonblast|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Nydira has 30 seconds left.
+|
+|t:|1750767617
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-terastallize|p1b: Zacian|Fighting
+|move|p1a: Whimsicott|Encore|p2b: Ursaluna
+|-start|p2b: Ursaluna|Encore
+|move|p2b: Ursaluna|Earthquake|p1a: Whimsicott|[spread] p2a,p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p2a: Lunala|75/100
+|-damage|p1a: Whimsicott|22/100
+|-damage|p1b: Zacian|45/100
+|move|p1b: Zacian|Sacred Sword|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750767629
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|inactive|Nydira has 30 seconds left.
+|inactive|Nydira has 20 seconds left.
+|
+|t:|1750767665
+|-terastallize|p2b: Koraidon|Fire
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Lunala|Moonblast|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p1a: Whimsicott|Moonblast|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|87/100
+|-unboost|p2b: Koraidon|spa|1
+|move|p2b: Koraidon|Flame Charge|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1a: Whimsicott
+|-damage|p2b: Koraidon|77/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|88/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750767685
+|move|p2b: Koraidon|Flare Blitz|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-damage|p2b: Koraidon|61/100|[from] Recoil
+|-damage|p2b: Koraidon|51/100|[from] item: Life Orb
+|
+|win|Nydira
+|raw|Sparky Doge's rating: 1542 &rarr; <strong>1516</strong><br />(-26 for losing)
+|raw|Nydira's rating: 1443 &rarr; <strong>1469</strong><br />(+26 for winning)
+|l|☆Sparky Doge
+|player|p1|
+|l|☆Nydira
+|player|p2|

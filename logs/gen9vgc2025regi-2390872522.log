@@ -1,0 +1,148 @@
+|j|☆Gassie
+|j|☆yanxi0421
+|t:|1750778000
+|gametype|doubles
+|player|p1|Gassie|ethan|1421
+|player|p2|yanxi0421|169|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gassie)
+|inactive|Gassie has 60 seconds left.
+|inactive|yanxi0421 has 60 seconds left.
+|inactive|Gassie has 30 seconds left.
+|inactive|yanxi0421 has 30 seconds left.
+|
+|t:|1750778065
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Lunala|atk|1
+|turn|1
+|inactive|Gassie has 30 seconds left.
+|
+|t:|1750778100
+|-terastallize|p2b: Lunala|Normal
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|move|p2a: Groudon|Precipice Blades|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Flutter Mane|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778110
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|2
+|
+|t:|1750778130
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|-item|p1a: Flutter Mane|Focus Sash|[from] ability: Frisk|[of] p2b: Typhlosion
+|-item|p1b: Koraidon|Life Orb|[from] ability: Frisk|[of] p2b: Typhlosion
+|move|p1a: Flutter Mane|Icy Wind|p2b: Typhlosion|[spread] p2a,p2b
+|-supereffective|p2a: Groudon
+|-resisted|p2b: Typhlosion
+|-damage|p2a: Groudon|72/100
+|-damage|p2b: Typhlosion|90/100
+|-unboost|p2b: Typhlosion|spe|1
+|move|p1b: Koraidon|Close Combat|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Groudon
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778148
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2a: Ogerpon|Mold Breaker
+|turn|3
+|
+|t:|1750778165
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Ogerpon|Follow Me|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Follow Me
+|move|p1b: Koraidon|Flare Blitz|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1b: Koraidon|60/100|[from] Recoil
+|-damage|p1b: Koraidon|50/100|[from] item: Life Orb
+|move|p2b: Typhlosion|Eruption|p1b: Koraidon|[spread] p1b
+|-activate|p1a: Flutter Mane|move: Protect
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778177
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Lunala|Lunala, L50, tera:Normal|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750778195
+|-terastallize|p1b: Calyrex|Fire
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Typhlosion
+|-supereffective|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p2a: Lunala|Moongeist Beam|p1a: Flutter Mane
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|3/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Lunala
+|-damage|p2a: Lunala|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|yanxi0421 forfeited.
+|
+|win|Gassie
+|raw|Gassie's rating: 1421 &rarr; <strong>1435</strong><br />(+14 for winning)
+|raw|yanxi0421's rating: 1318 &rarr; <strong>1304</strong><br />(-14 for losing)
+|l|☆yanxi0421
+|player|p2|
+|l|☆Gassie
+|player|p1|

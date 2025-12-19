@@ -1,0 +1,148 @@
+|j|☆soolers
+|j|☆BlackLocks
+|t:|1750774268
+|gametype|doubles
+|player|p1|soolers|266|1407
+|player|p2|BlackLocks|hugh|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Toxicroak, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750774301
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by soolers)
+|
+|t:|1750774312
+|move|p1b: Palkia|Spacial Rend|p2a: Amoonguss
+|-damage|p2a: Amoonguss|37/100
+|move|p2b: Zamazenta|Body Press|p1b: Palkia
+|-damage|p1b: Palkia|26/100
+|move|p1a: Pelipper|Hurricane|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750774322
+|switch|p2a: Tornadus|Tornadus, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1750774330
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: BlackLocks|move: Tailwind
+|move|p2b: Zamazenta|Body Press|p1b: Palkia
+|-damage|p1b: Palkia|0 fnt
+|faint|p1b: Palkia
+|move|p1a: Pelipper|Weather Ball|p2b: Zamazenta
+|-damage|p2b: Zamazenta|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750774338
+|switch|p1b: Dialga|Dialga-Origin, L50|100/100
+|turn|3
+|
+|t:|1750774348
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-terastallize|p1b: Dialga|Fairy
+|move|p1a: Pelipper|Wide Guard|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Wide Guard
+|move|p2b: Zamazenta|Body Press|p1b: Dialga
+|-resisted|p1b: Dialga
+|-damage|p1b: Dialga|74/100
+|move|p1b: Dialga|Trick Room|p1b: Dialga
+|-fieldstart|move: Trick Room|[of] p1b: Dialga
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|BlackLocks has 30 seconds left.
+|
+|t:|1750774381
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Dialga|Flash Cannon|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Pelipper|Weather Ball|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750774388
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1750774395
+|move|p2b: Tornadus|Taunt|p1a: Pelipper
+|-start|p1a: Pelipper|move: Taunt
+|move|p1b: Dialga|Flash Cannon|p2a: Calyrex
+|-damage|p2a: Calyrex|40/100
+|move|p1a: Pelipper|Weather Ball|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|none
+|-sideend|p2: BlackLocks|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1750774410
+|switch|p1a: Toxicroak|Toxicroak, L50, F|100/100
+|move|p1b: Dialga|Flash Cannon|p2b: Tornadus
+|-damage|p2b: Tornadus|39/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Toxicroak|[spread] 
+|-miss|p2b: Tornadus|p1a: Toxicroak
+|-miss|p2b: Tornadus|p1b: Dialga
+|
+|upkeep
+|turn|7
+|
+|t:|1750774420
+|move|p1a: Toxicroak|Fake Out|p2b: Tornadus
+|-damage|p2b: Tornadus|24/100
+|move|p1b: Dialga|Flash Cannon|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|win|soolers
+|raw|soolers's rating: 1407 &rarr; <strong>1428</strong><br />(+21 for winning)
+|raw|BlackLocks's rating: 1433 &rarr; <strong>1412</strong><br />(-21 for losing)
+|c|☆soolers|Gg
+|l|☆soolers
+|player|p1|
+|c|☆BlackLocks|how do you figure
+|l|☆BlackLocks
+|player|p2|

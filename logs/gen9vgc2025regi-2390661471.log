@@ -1,0 +1,150 @@
+|j|☆Keltch
+|j|☆Tommytheog
+|t:|1750744803
+|gametype|doubles
+|player|p1|Keltch|swimmer-gen4|1128
+|player|p2|Tommytheog|266|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Keltch)
+|inactive|Keltch has 60 seconds left.
+|inactive|Keltch has 30 seconds left.
+|
+|t:|1750744866
+|start
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Charizard|atk|1
+|turn|1
+|
+|t:|1750744882
+|-terastallize|p1a: Venusaur|Fairy
+|move|p1b: Incineroar|Fake Out|p2b: Charizard
+|-damage|p2b: Charizard|80/100
+|move|p1a: Venusaur|Tera Blast|p2a: Koraidon|[anim] Tera Blast Fairy
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|cant|p2b: Charizard|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|67/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1750744895
+|switch|p2a: Groudon|Groudon, L50|100/100
+|turn|2
+|inactive|Keltch has 30 seconds left.
+|inactive|Keltch has 20 seconds left.
+|
+|t:|1750744932
+|move|p1a: Venusaur|Sludge Bomb|p2b: Charizard
+|-damage|p2b: Charizard|10/100
+|-status|p2b: Charizard|psn
+|move|p2b: Charizard|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Venusaur|14/100
+|-damage|p1b: Incineroar|44/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|69/100|[from] item: Sitrus Berry
+|move|p2a: Groudon|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2b: Charizard
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Venusaur
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|0 fnt|[from] ability: Solar Power|[of] p2b: Charizard
+|faint|p2b: Charizard
+|upkeep
+|
+|t:|1750744949
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1a: Solgaleo|Solgaleo, L50|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750744967
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|26/100
+|move|p2a: Groudon|Earthquake|p1b: Terapagos|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Solgaleo
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|-damage|p1a: Solgaleo|0 fnt
+|-damage|p1b: Terapagos|59/100
+|faint|p1a: Solgaleo
+|move|p1b: Terapagos|Ice Beam|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Tommytheog has 30 seconds left.
+|
+|t:|1750744992
+|-terastallize|p2a: Groudon|Fighting
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Groudon|Earthquake|p1b: Terapagos|[spread] p2b
+|-activate|p1b: Terapagos|move: Protect
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750745005
+|move|p2a: Groudon|Earthquake|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|win|Tommytheog
+|raw|Keltch's rating: 1128 &rarr; <strong>1100</strong><br />(-28 for losing)
+|raw|Tommytheog's rating: 1090 &rarr; <strong>1119</strong><br />(+29 for winning)
+|l|☆Keltch
+|player|p1|

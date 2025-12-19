@@ -1,0 +1,188 @@
+|j|‽estudassespt
+|j|☆Slowpoke Well YT
+|t:|1750877271
+|gametype|doubles
+|player|p1|estudassespt|2|1478
+|player|p2|Slowpoke Well YT|ethan|1472
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Bastiodon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Slowpoke Well YT)
+|
+|t:|1750877291
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Yanmega|Yanmega, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750877308
+|move|p1b: Yanmega|Protect|p1b: Yanmega
+|-singleturn|p1b: Yanmega|Protect
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2b: Chien-Pao|Taunt|p1b: Yanmega
+|-activate|p1b: Yanmega|move: Protect
+|move|p2a: Zamazenta|Behemoth Bash|p1b: Yanmega
+|-activate|p1b: Yanmega|move: Protect
+|
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750877323
+|move|p1a: Sableye|Will-O-Wisp|p2b: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Chien-Pao
+|move|p1b: Yanmega|Hypnosis|p2a: Zamazenta
+|-status|p2a: Zamazenta|slp|[from] move: Hypnosis
+|move|p2b: Chien-Pao|Icicle Crash|p1b: Yanmega
+|-supereffective|p1b: Yanmega
+|-enditem|p1b: Yanmega|Focus Sash
+|-damage|p1b: Yanmega|1/100
+|cant|p2a: Zamazenta|slp
+|
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750877344
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Yanmega|Hypnosis|p2b: Chien-Pao
+|-status|p2b: Chien-Pao|slp|[from] move: Hypnosis
+|cant|p2b: Chien-Pao|slp
+|cant|p2a: Zamazenta|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|4
+|
+|t:|1750877357
+|-terastallize|p1a: Groudon|Ground
+|cant|p2a: Zamazenta|slp
+|move|p1b: Yanmega|Tailwind|p1b: Yanmega
+|-sidestart|p1: estudassespt|move: Tailwind
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|22/100 slp
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100 slp
+|-curestatus|p2b: Chien-Pao|slp|[msg]
+|move|p2b: Chien-Pao|Icicle Crash|p1b: Yanmega
+|-supereffective|p1b: Yanmega
+|-damage|p1b: Yanmega|0 fnt
+|faint|p1b: Yanmega
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750877377
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750877389
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Chien-Pao|[spread] 
+|-activate|p2a: Zamazenta|move: Protect
+|-activate|p2b: Chien-Pao|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Protect
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1750877411
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1a: Groudon|Precipice Blades|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Chien-Pao|move: Wide Guard
+|move|p2b: Chien-Pao|Icicle Crash|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|18/100
+|move|p1b: Calyrex|High Horsepower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750877425
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|turn|7
+|
+|t:|1750877433
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Chien-Pao|Sucker Punch||[still]
+|-fail|p2b: Chien-Pao
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|none
+|-sideend|p1: estudassespt|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1750877457
+|move|p2b: Chien-Pao|Sucker Punch||[still]
+|-fail|p2b: Chien-Pao
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Calyrex|[miss]
+|-miss|p2a: Incineroar|p1b: Calyrex
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|turn|9
+|-message|Slowpoke Well YT forfeited.
+|
+|win|estudassespt
+|raw|estudassespt's rating: 1478 &rarr; <strong>1498</strong><br />(+20 for winning)
+|raw|Slowpoke Well YT's rating: 1472 &rarr; <strong>1452</strong><br />(-20 for losing)
+|l|☆Slowpoke Well YT
+|player|p2|
+|l|‽estudassespt
+|player|p1|

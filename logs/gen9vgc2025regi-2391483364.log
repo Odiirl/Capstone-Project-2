@@ -1,0 +1,206 @@
+|j|☆ultrazzy
+|j|☆Ninjabsol
+|t:|1750861654
+|gametype|doubles
+|player|p1|ultrazzy|lillie-masters2|1136
+|player|p2|Ninjabsol|266|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Zekrom, L50|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ninjabsol)
+|
+|t:|1750861681
+|start
+|switch|p1a: Zekrom|Zekrom, L50, shiny|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M, shiny|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1a: Zekrom|Teravolt
+|turn|1
+|
+|t:|1750861697
+|-terastallize|p2b: Farigiraf|Grass
+|move|p1a: Zekrom|Protect|p1a: Zekrom
+|-singleturn|p1a: Zekrom|Protect
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1b: Smeargle|Spore|p2b: Farigiraf
+|-immune|p2b: Farigiraf
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|2
+|inactive|ultrazzy has 30 seconds left.
+|
+|t:|1750861729
+|move|p2b: Farigiraf|Ally Switch|p2b: Farigiraf
+|swap|p2b: Farigiraf|0|[from] move: Ally Switch
+|move|p2b: Sylveon|Hyper Voice|p1a: Zekrom|[spread] p1a,p1b
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|32/100
+|-damage|p1b: Smeargle|12/100
+|-enditem|p2b: Sylveon|Throat Spray
+|-boost|p2b: Sylveon|spa|1|[from] item: Throat Spray
+|move|p1a: Zekrom|Fusion Bolt|p2a: Farigiraf
+|-resisted|p2a: Farigiraf
+|-damage|p2a: Farigiraf|79/100
+|move|p1b: Smeargle|Fusion Flare|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|45/100
+|
+|upkeep
+|turn|3
+|inactive|ultrazzy has 30 seconds left.
+|
+|t:|1750861754
+|move|p2a: Farigiraf|Helping Hand|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Zekrom|Protect|p1a: Zekrom
+|-singleturn|p1a: Zekrom|Protect
+|move|p2b: Sylveon|Hyper Voice|p1b: Smeargle|[spread] p1b
+|-activate|p1a: Zekrom|move: Protect
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|upkeep
+|
+|t:|1750861769
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|turn|4
+|
+|t:|1750861791
+|move|p2a: Farigiraf|Helping Hand|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Zekrom|Protect||[still]
+|-fail|p1a: Zekrom
+|move|p2b: Sylveon|Hyper Voice|p1a: Zekrom|[spread] p1a,p1b
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|-damage|p1b: Incineroar|42/100
+|faint|p1a: Zekrom
+|move|p1b: Incineroar|Flare Blitz|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|-damage|p1b: Incineroar|25/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750861800
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1a: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1a: Kyurem|Turboblaze
+|turn|5
+|
+|t:|1750861811
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|13/100
+|move|p2b: Sylveon|Hyper Voice|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Kyurem|move: Protect
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750861826
+|-terastallize|p1a: Kyurem|Fire
+|move|p1a: Kyurem|Fusion Flare|p2b: Sylveon
+|-damage|p2b: Sylveon|30/100
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|move|p2a: Incineroar|Parting Shot|p1a: Kyurem
+|-unboost|p1a: Kyurem|atk|1
+|-unboost|p1a: Kyurem|spa|1
+|
+|t:|1750861835
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100|[from] Parting Shot
+|move|p2b: Sylveon|Hyper Voice|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|57/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750861852
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Gastrodon|Earth Power|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|move|p2b: Sylveon|Psyshock|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750861861
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|-damage|p1a: Kyurem|47/100|[from] item: Life Orb
+|move|p2b: Sylveon|Psyshock|p1a: Kyurem
+|-damage|p1a: Kyurem|11/100
+|
+|upkeep
+|
+|t:|1750861864
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|turn|9
+|
+|t:|1750861870
+|move|p1a: Kyurem|Protect|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|move|p2b: Sylveon|Psyshock|p1a: Kyurem
+|-activate|p1a: Kyurem|move: Protect
+|
+|upkeep
+|turn|10
+|c|☆Ninjabsol|Gg wp
+|
+|t:|1750861882
+|move|p1a: Kyurem|Draco Meteor|p2a: Incineroar
+|-damage|p2a: Incineroar|23/100
+|-unboost|p1a: Kyurem|spa|2
+|-damage|p1a: Kyurem|1/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-enditem|p1a: Kyurem|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Kyurem
+|
+|win|Ninjabsol
+|raw|ultrazzy's rating: 1136 &rarr; <strong>1109</strong><br />(-27 for losing)
+|raw|Ninjabsol's rating: 1108 &rarr; <strong>1135</strong><br />(+27 for winning)
+|l|☆ultrazzy
+|player|p1|

@@ -1,0 +1,186 @@
+|j|☆Zeebers
+|j|☆CadaverLuke
+|t:|1750803540
+|gametype|doubles
+|player|p1|Zeebers|flannery|1214
+|player|p2|CadaverLuke|266|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Cetitan, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750803573
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750803594
+|-terastallize|p2b: Calyrex|Ghost
+|move|p1b: Smeargle|Wide Guard|p1b: Smeargle
+|-singleturn|p1b: Smeargle|Wide Guard
+|move|p2a: Sableye|Feint|p1b: Smeargle
+|-activate|p1b: Smeargle|move: Feint
+|-damage|p1b: Smeargle|87/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Smeargle|[spread] p1a
+|-immune|p1b: Smeargle
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|upkeep
+|c|☆CadaverLuke|i'm not falling for that
+|c|☆CadaverLuke|feint gets rid of wide guard fyi
+|c|☆Zeebers|Didn't expect it to break the other side
+|c|☆CadaverLuke|oh fair
+|c|☆CadaverLuke|i specced the horse
+|c|☆CadaverLuke|specs + tera is too much damage
+|c|☆Zeebers|When you targeted smeargle I thought you sold
+|c|☆Zeebers|Then I died and had brain lag
+|c|☆CadaverLuke|all good
+|
+|t:|1750803687
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750803709
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Sableye|Feint|p1b: Smeargle
+|-damage|p1b: Smeargle|74/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Smeargle|[spread] 
+|-activate|p1a: Koraidon|move: Protect
+|-immune|p1b: Smeargle
+|move|p1b: Smeargle|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750803748
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Sableye|Encore|p1a: Koraidon
+|-start|p1a: Koraidon|Encore
+|move|p1a: Koraidon|Protect||[still]
+|-fail|p1a: Koraidon
+|move|p1b: Smeargle|Decorate|p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|-boost|p1a: Koraidon|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750803776
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|move|p2a: Sableye|Encore|p1b: Smeargle
+|-start|p1b: Smeargle|Encore
+|move|p2b: Ninetales|Aurora Veil||[still]
+|-fail|p2b: Ninetales
+|move|p1b: Smeargle|Decorate|p1a: Torkoal
+|-boost|p1a: Torkoal|atk|2
+|-boost|p1a: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750803818
+|switch|p2b: Calyrex|Calyrex-Shadow, L50, tera:Ghost|100/100 slp
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|switch|p1b: Koraidon|Koraidon, L50, tera:Fire|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Sableye|Encore||[still]
+|-fail|p2a: Sableye
+|move|p1a: Torkoal|Eruption|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Sableye
+|faint|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803835
+|switch|p2b: Cetitan|Cetitan, L50, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|turn|6
+|
+|t:|1750803855
+|move|p1b: Koraidon|Collision Course|p2b: Cetitan
+|-supereffective|p2b: Cetitan
+|-damage|p2b: Cetitan|0 fnt
+|faint|p2b: Cetitan
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|move|p1a: Torkoal|Eruption|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-enditem|p2a: Ninetales|Focus Sash
+|-damage|p2a: Ninetales|1/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|c|☆Zeebers|I'll be real I'm very surprised by this outcome
+|c|☆CadaverLuke|gg gg
+|c|☆Zeebers|Why do you keep using Veil
+|c|☆Zeebers|Got my brain spinning
+|
+|t:|1750803882
+|move|p1b: Koraidon|Flare Blitz|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|-damage|p1b: Koraidon|90/100|[from] Recoil
+|-damage|p1b: Koraidon|80/100|[from] item: Life Orb
+|
+|win|Zeebers
+|raw|Zeebers's rating: 1214 &rarr; <strong>1235</strong><br />(+21 for winning)
+|raw|CadaverLuke's rating: 1155 &rarr; <strong>1134</strong><br />(-21 for losing)
+|c|☆CadaverLuke|i didn't realize you had the double drought honestly.
+|c|☆Zeebers|ggs btw
+|c|☆Zeebers|But you aren't snow warning..?
+|c|☆CadaverLuke|wait am i not
+|c|☆CadaverLuke|woops
+|c|☆Zeebers|No LOL
+|c|☆Zeebers|That's why I was so confused
+|c|☆CadaverLuke|thanks i was wondering why i didnt see any animations happening
+|c|☆CadaverLuke|hahahah
+|c|☆CadaverLuke|have a good day
+|c|☆Zeebers|oml you goof
+|c|☆Zeebers|GL next haha
+|l|☆CadaverLuke
+|player|p2|
+|l|☆Zeebers
+|player|p1|

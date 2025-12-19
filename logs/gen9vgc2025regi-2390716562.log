@@ -1,0 +1,243 @@
+|j|☆Hanshappy
+|j|☆relooo
+|t:|1750755561
+|gametype|doubles
+|player|p1|Hanshappy|169|1427
+|player|p2|relooo|1|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Scream Tail, L50|
+|teampreview|4
+|
+|t:|1750755630
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-fail|p2b: Smeargle|unboost|Attack|[from] ability: Own Tempo|[of] p2b: Smeargle
+|turn|1
+|
+|t:|1750755656
+|move|p2b: Smeargle|Fake Out|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|99/100
+|move|p1b: Incineroar|Fake Out|p2b: Smeargle
+|-damage|p2b: Smeargle|86/100
+|cant|p1a: Zamazenta|flinch
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750755674
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p1b: Incineroar|U-turn|p2b: Smeargle
+|-damage|p2b: Smeargle|60/100
+|
+|t:|1750755680
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100|[from] U-turn
+|move|p2b: Smeargle|Spore|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p2a: Calyrex|Leech Seed|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750755696
+|-terastallize|p2b: Smeargle|Grass
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Smeargle|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|cant|p1a: Zamazenta|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1750755708
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Amoonguss|Spore|p2b: Smeargle
+|-immune|p2b: Smeargle
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Zamazenta|93/100 slp
+|-damage|p1b: Amoonguss|48/100
+|cant|p1a: Zamazenta|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1750755727
+|-terastallize|p1b: Amoonguss|Water
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Amoonguss|Pollen Puff|p2b: Smeargle
+|-supereffective|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Calyrex|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|cant|p1a: Zamazenta|slp
+|
+|-damage|p1a: Zamazenta|80/100 slp|[from] Leech Seed|[of] p2a: Calyrex
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750755737
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|6
+|
+|t:|1750755760
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Terapagos|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|44/100
+|move|p2a: Calyrex|Leech Seed|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Leech Seed
+|move|p1b: Amoonguss|Spore|p2b: Terapagos
+|-status|p2b: Terapagos|slp|[from] move: Spore
+|
+|-damage|p1a: Zamazenta|32/100|[from] Leech Seed|[of] p2a: Calyrex
+|-damage|p1b: Amoonguss|36/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|7
+|
+|t:|1750755781
+|cant|p2b: Terapagos|slp
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|80/100 slp
+|move|p1b: Amoonguss|Spore|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-heal|p2b: Terapagos|86/100 slp|[from] item: Leftovers
+|-damage|p1a: Zamazenta|19/100|[from] Leech Seed|[of] p2a: Calyrex
+|-damage|p1b: Amoonguss|24/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|8
+|
+|t:|1750755809
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|cant|p2b: Terapagos|slp
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Amoonguss|move: Wide Guard
+|move|p1b: Amoonguss|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|
+|-heal|p2b: Terapagos|92/100 slp|[from] item: Leftovers
+|-damage|p1a: Zamazenta|7/100|[from] Leech Seed|[of] p2a: Calyrex
+|-damage|p1b: Amoonguss|11/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|9
+|
+|t:|1750755820
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Zamazenta|Body Press|p2b: Rillaboom
+|-damage|p2b: Rillaboom|41/100
+|cant|p2a: Calyrex|slp
+|
+|-heal|p1a: Zamazenta|13/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|46/100|[from] Grassy Terrain
+|-damage|p1a: Zamazenta|0 fnt|[from] Leech Seed|[of] p2a: Calyrex
+|faint|p1a: Zamazenta
+|upkeep
+|
+|t:|1750755834
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|10
+|
+|t:|1750755848
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|95/100
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|cant|p1a: Incineroar|flinch
+|cant|p2a: Calyrex|slp
+|
+|-heal|p2b: Rillaboom|52/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1750755867
+|move|p2b: Rillaboom|Grassy Glide|p1b: Calyrex
+|-damage|p1b: Calyrex|78/100
+|move|p1b: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Rillaboom
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|-damage|p1b: Calyrex|68/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2: Calyrex|[notarget]
+|-fail|p1a: Incineroar
+|
+|-heal|p1b: Calyrex|74/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750755872
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|92/100 slp
+|turn|12
+|
+|t:|1750755881
+|cant|p2a: Terapagos|slp
+|move|p1b: Calyrex|Psychic|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|-damage|p1b: Calyrex|65/100|[from] item: Life Orb
+|
+|win|Hanshappy
+|raw|Hanshappy's rating: 1427 &rarr; <strong>1447</strong><br />(+20 for winning)
+|raw|relooo's rating: 1433 &rarr; <strong>1413</strong><br />(-20 for losing)
+|l|☆relooo
+|player|p2|

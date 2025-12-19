@@ -1,0 +1,174 @@
+|j|☆Iusjs
+|j|☆CadaverLuke
+|t:|1750740971
+|gametype|doubles
+|player|p1|Iusjs|102|1249
+|player|p2|CadaverLuke|101|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mudsdale, L50, F|
+|poke|p1|Dialga, L50|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|c|☆Iusjs|Yooo
+|c|☆Iusjs|metagross
+|
+|t:|1750741043
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Metagross|Metagross, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750741073
+|-terastallize|p2a: Whimsicott|Ghost
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: CadaverLuke|move: Tailwind
+|move|p2b: Metagross|Explosion|p1b: Indeedee|[spread] p1a,p1b
+|-immune|p2a: Whimsicott
+|-enditem|p1a: Gallade|Focus Sash
+|-damage|p1a: Gallade|1/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p2b: Metagross
+|faint|p1b: Indeedee
+|move|p1a: Gallade|Psycho Cut|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1750741094
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Dialga|Dialga, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-enditem|p1b: Dialga|Psychic Seed
+|-boost|p1b: Dialga|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1750741122
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Kyogre|Water Spout|p1a: Gallade|[spread] 
+|-activate|p1a: Gallade|move: Wide Guard
+|-activate|p1b: Dialga|move: Wide Guard
+|move|p1b: Dialga|Roar of Time|p2b: Indeedee|[miss]
+|-miss|p1b: Dialga|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750741146
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Kyogre|Water Spout|p1b: Dialga|[spread] 
+|-activate|p1a: Gallade|move: Wide Guard
+|-activate|p1b: Dialga|move: Wide Guard
+|move|p1b: Dialga|Trick Room|p1b: Dialga
+|-fieldstart|move: Trick Room|[of] p1b: Dialga
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750741166
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p1b: Dialga|Roar of Time|p2a: Kyogre
+|-damage|p2a: Kyogre|30/100
+|-mustrecharge|p1b: Dialga
+|move|p2a: Kyogre|Water Spout|p1b: Dialga|[spread] 
+|-activate|p1a: Gallade|move: Wide Guard
+|-activate|p1b: Dialga|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: CadaverLuke|move: Tailwind
+|upkeep
+|turn|5
+|c|☆CadaverLuke|am i crazy or does wide guard have a fail chance when spamming it?
+|
+|t:|1750741209
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|cant|p1b: Dialga|recharge
+|move|p2a: Kyogre|Water Spout|p1a: Gallade|[spread] 
+|-activate|p1a: Gallade|move: Wide Guard
+|-activate|p1b: Dialga|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|c|☆Iusjs|It doesn’t
+|
+|t:|1750741227
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p2b: Indeedee|Psychic|p2a: Kyogre
+|-damage|p2a: Kyogre|2/100
+|move|p1b: Dialga|Roar of Time|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-mustrecharge|p1b: Dialga
+|faint|p2a: Kyogre
+|
+|-weather|none
+|upkeep
+|turn|7
+|c|☆Iusjs|Were you choice locked?
+|
+|t:|1750741255
+|move|p2b: Indeedee|Psychic|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|cant|p1b: Dialga|recharge
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750741262
+|switch|p1a: Mudsdale|Mudsdale, L50, F|100/100
+|turn|8
+|
+|t:|1750741270
+|move|p1b: Dialga|Flash Cannon|p2b: Indeedee
+|-damage|p2b: Indeedee|55/100
+|move|p2b: Indeedee|Psychic|p1a: Mudsdale
+|-damage|p1a: Mudsdale|63/100
+|move|p1a: Mudsdale|Earthquake|p2b: Indeedee|[spread] p2b
+|-activate|p1b: Dialga|ability: Telepathy
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|Iusjs
+|raw|Iusjs's rating: 1249 &rarr; <strong>1274</strong><br />(+25 for winning)
+|raw|CadaverLuke's rating: 1252 &rarr; <strong>1227</strong><br />(-25 for losing)
+|l|☆CadaverLuke
+|player|p2|
+|l|☆Iusjs
+|player|p1|

@@ -1,0 +1,152 @@
+|j|☆Diegopf21
+|j|‽Ggeacc
+|t:|1750802596
+|gametype|doubles
+|player|p1|Diegopf21|dawn-gen4pt|1133
+|player|p2|Ggeacc|101|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Swampert, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Dewgong, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ggeacc)
+|
+|t:|1750802613
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Dewgong|Dewgong, L50, F|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Sneasler|Electric Seed
+|-boost|p1b: Sneasler|def|1|[from] item: Electric Seed
+|-item|p2a: Dewgong|Air Balloon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|1
+|inactive|Ggeacc has 30 seconds left.
+|
+|t:|1750802641
+|move|p1b: Sneasler|Fake Out|p2b: Groudon
+|-damage|p2b: Groudon|89/100
+|move|p2a: Dewgong|Aqua Jet|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|82/100
+|-enditem|p2b: Groudon|Weakness Policy
+|-boost|p2b: Groudon|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Groudon|spa|2|[from] item: Weakness Policy
+|move|p1a: Miraidon|Volt Switch|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|-enditem|p2a: Dewgong|Air Balloon
+|faint|p2a: Dewgong
+|
+|t:|1750802657
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|cant|p2b: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750802670
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|turn|2
+|inactive|Diegopf21 has 30 seconds left.
+|
+|t:|1750802696
+|-terastallize|p2b: Groudon|Fire
+|move|p2a: Incineroar|Fake Out|p1b: Sneasler
+|-damage|p1b: Sneasler|89/100
+|cant|p1b: Sneasler|flinch
+|move|p2b: Groudon|Precipice Blades|p1b: Sneasler|[spread] p1a,p1b
+|-supereffective|p1b: Sneasler
+|-damage|p1a: Calyrex|35/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p1a: Calyrex|Glacial Lance|p2b: Groudon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Groudon
+|-damage|p2a: Incineroar|82/100
+|-damage|p2b: Groudon|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750802709
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|-heal|p1a: Calyrex|60/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|3
+|
+|t:|1750802731
+|move|p2b: Groudon|Precipice Blades|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Sinistcha
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Sinistcha|59/100
+|faint|p1a: Calyrex
+|move|p1b: Sinistcha|Shadow Ball|p2b: Groudon
+|-damage|p2b: Groudon|39/100
+|move|p2a: Incineroar|Knock Off|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|6/100
+|-enditem|p1b: Sinistcha|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750802742
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750802755
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p1a: Miraidon|Electro Drift|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750802780
+|move|p1a: Miraidon|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Groudon|Heat Crash|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|Ggeacc
+|raw|Diegopf21's rating: 1133 &rarr; <strong>1104</strong><br />(-29 for losing)
+|raw|Ggeacc's rating: 1081 &rarr; <strong>1113</strong><br />(+32 for winning)
+|l|☆Diegopf21
+|player|p1|
+|l|‽Ggeacc
+|player|p2|

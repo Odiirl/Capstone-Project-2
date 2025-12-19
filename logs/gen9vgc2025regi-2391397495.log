@@ -1,0 +1,241 @@
+|j|☆dror1234
+|j|☆eran13aba
+|t:|1750849975
+|gametype|doubles
+|player|p1|dror1234|265|
+|player|p2|eran13aba|hilbert|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Gouging Fire, L50|
+|poke|p1|Leafeon, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|
+|t:|1750849988
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Flutter Mane|atk|1
+|turn|1
+|
+|t:|1750850009
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Flutter Mane|Icy Wind|p2b: Incineroar|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Incineroar|move: Wide Guard
+|move|p1a: Koraidon|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Incineroar
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750850022
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-end|p1b: Flutter Mane|Protosynthesis
+|turn|2
+|
+|t:|1750850036
+|switch|p1a: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspa
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2a: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|56/100
+|move|p2b: Kyogre|Water Spout|p1a: Groudon|[spread] p1a
+|-activate|p1b: Flutter Mane|move: Protect
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750850057
+|-terastallize|p1a: Groudon|Grass
+|move|p2a: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Kyogre
+|-damage|p2b: Kyogre|73/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Flutter Mane
+|-crit|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750850073
+|switch|p1a: Leafeon|Leafeon, L50, F|100/100
+|turn|4
+|
+|t:|1750850084
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Kyogre|98/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|4/100
+|move|p1b: Flutter Mane|Icy Wind|p2a: Sinistcha|[spread] p2a,p2b
+|-supereffective|p2a: Sinistcha
+|-resisted|p2b: Kyogre
+|-damage|p2a: Sinistcha|65/100
+|-damage|p2b: Kyogre|0 fnt
+|-unboost|p2a: Sinistcha|spe|1
+|faint|p2b: Kyogre
+|-enditem|p2a: Sinistcha|Eject Button
+|
+|t:|1750850098
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750850102
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|65/100
+|turn|5
+|
+|t:|1750850129
+|move|p1a: Leafeon|Weather Ball|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|22/100
+|move|p2a: Zamazenta|Behemoth Bash|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Sinistcha|Life Dew||[still]|[spread] p2a,p2b
+|-fail|p2a: Zamazenta|heal
+|-heal|p2b: Sinistcha|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750850142
+|switch|p1b: Koraidon|Koraidon, L50|91/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|6
+|
+|t:|1750850163
+|-terastallize|p2a: Zamazenta|Dragon
+|move|p1a: Leafeon|Weather Ball|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|93/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1b: Koraidon|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|52/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|81/100|[from] item: Life Orb
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Leafeon|[spread] p1a,p1b
+|-resisted|p1a: Leafeon
+|-resisted|p1b: Koraidon
+|-damage|p1a: Leafeon|85/100
+|-heal|p2b: Sinistcha|54/100|[from] drain|[of] p1a: Leafeon
+|-damage|p1b: Koraidon|63/100
+|-heal|p2b: Sinistcha|64/100|[from] drain|[of] p1b: Koraidon
+|-status|p1a: Leafeon|brn
+|-status|p1b: Koraidon|brn
+|
+|-weather|none
+|-damage|p1a: Leafeon|79/100 brn|[from] brn
+|-damage|p1b: Koraidon|58/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆eran13aba|yooooo
+|c|☆dror1234|wtf
+|c|☆eran13aba|the moves
+|
+|t:|1750850209
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p2a: Zamazenta|Body Press|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Leafeon|Sunny Day|p1a: Leafeon
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Leafeon|73/100 brn|[from] brn
+|-damage|p1b: Koraidon|52/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750850228
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Leafeon|Weather Ball|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|24/100
+|move|p2a: Zamazenta|Body Press|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Leafeon|68/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750850243
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Leafeon|Weather Ball|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Zamazenta|Body Press|p1a: Leafeon
+|-damage|p1a: Leafeon|3/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Leafeon|0 fnt|[from] brn
+|faint|p1a: Leafeon
+|
+|win|eran13aba
+|c|☆dror1234|noooooooooooo
+|c|☆eran13aba|ooooh
+|c|☆dror1234|the burn
+|c|☆dror1234|gggs
+|c|☆dror1234|rematch ?
+|c|☆eran13aba|the fkn burns
+|c|☆eran13aba|not rn
+|c|☆dror1234|kk
+|c|☆eran13aba|ill dm
+|c|☆dror1234|kk
+|c|☆dror1234|byeeeeeeeee
+|l|☆dror1234
+|player|p1|

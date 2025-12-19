@@ -1,0 +1,147 @@
+|j|☆Rotomotopoto
+|j|☆prochesnaughtgamur
+|t:|1750821109
+|gametype|doubles
+|player|p1|Rotomotopoto|cynthia|1478
+|player|p2|prochesnaughtgamur|2|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750821153
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750821164
+|move|p2b: Gothitelle|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|96/100
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Lunala|perish3|[silent]
+|-start|p1b: Miraidon|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Miraidon|flinch
+|move|p1a: Lunala|Moongeist Beam|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|25/100
+|
+|-heal|p2b: Gothitelle|31/100|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Miraidon|perish3
+|-start|p1a: Lunala|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750821174
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: Brute Bonnet
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|72/100
+|
+|t:|1750821180
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p1a: Lunala|Moongeist Beam|p2a: Brute Bonnet
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|50/100
+|
+|-heal|p2b: Gothitelle|37/100|[from] item: Leftovers
+|-start|p1a: Lunala|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750821194
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisdef
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|73/100
+|move|p1b: Urshifu|U-turn|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|
+|t:|1750821198
+|switch|p1b: Miraidon|Miraidon, L50|96/100|[from] U-turn
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Lunala|Moongeist Beam|p2b: Koraidon
+|-damage|p2b: Koraidon|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Lunala|perish1
+|upkeep
+|
+|t:|1750821203
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|4
+|
+|t:|1750821220
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Scream Tail|atk|1
+|-unboost|p2b: Koraidon|atk|1
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Scream Tail|Disable||[still]
+|-fail|p2a: Scream Tail
+|move|p2b: Koraidon|Close Combat|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|37/100|[from] item: Life Orb
+|move|p1b: Miraidon|Draco Meteor|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750821223
+|switch|p2b: Gothitelle|Gothitelle, L50, F|37/100
+|turn|5
+|-message|prochesnaughtgamur forfeited.
+|
+|win|Rotomotopoto
+|raw|Rotomotopoto's rating: 1478 &rarr; <strong>1494</strong><br />(+16 for winning)
+|raw|prochesnaughtgamur's rating: 1403 &rarr; <strong>1387</strong><br />(-16 for losing)
+|l|☆prochesnaughtgamur
+|player|p2|

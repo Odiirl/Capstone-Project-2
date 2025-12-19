@@ -1,0 +1,190 @@
+|j|☆peter_polenta
+|j|☆Testingstuffuser4
+|t:|1750769495
+|gametype|doubles
+|player|p1|peter_polenta|169|1416
+|player|p2|Testingstuffuser4|101|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Testingstuffuser4)
+|
+|t:|1750769533
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750769552
+|move|p2a: Gothitelle|Fake Out|p1a: Urshifu
+|-damage|p1a: Urshifu|95/100
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Urshifu|perish3|[silent]
+|-start|p1b: Calyrex|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Urshifu|flinch
+|move|p1b: Calyrex|Glacial Lance|p2a: Gothitelle|[spread] p2a,p2b
+|-damage|p2a: Gothitelle|56/100
+|-damage|p2b: Scream Tail|60/100
+|
+|-heal|p2a: Gothitelle|62/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish3
+|-start|p1a: Urshifu|perish3
+|-start|p2a: Gothitelle|perish3
+|-start|p1b: Calyrex|perish3
+|upkeep
+|turn|2
+|
+|t:|1750769575
+|-terastallize|p2a: Gothitelle|Water
+|move|p2b: Scream Tail|Disable|p1b: Calyrex
+|-start|p1b: Calyrex|Disable|Glacial Lance
+|move|p1a: Urshifu|U-turn|p2a: Gothitelle
+|-damage|p2a: Gothitelle|34/100
+|
+|t:|1750769592
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Gothitelle|Taunt|p1b: Calyrex
+|-start|p1b: Calyrex|move: Taunt
+|cant|p1b: Calyrex|Disable|Glacial Lance
+|
+|-heal|p2a: Gothitelle|40/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish2
+|-start|p2a: Gothitelle|perish2
+|-start|p1b: Calyrex|perish2
+|upkeep
+|turn|3
+|inactive|peter_polenta has 30 seconds left.
+|
+|t:|1750769620
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Scream Tail
+|-activate|p2b: Scream Tail|move: Protect
+|-activate|p1b: Calyrex|move: Struggle
+|move|p1b: Calyrex|Struggle|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-heal|p2a: Gothitelle|46/100|[from] item: Leftovers
+|-start|p2b: Scream Tail|perish1
+|-start|p2a: Gothitelle|perish1
+|-start|p1b: Calyrex|perish1
+|upkeep
+|turn|4
+|inactive|peter_polenta has 30 seconds left.
+|
+|t:|1750769645
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2b: Scream Tail|Disable|p1a: Miraidon
+|-start|p1a: Miraidon|Disable|Electro Drift
+|cant|p1a: Miraidon|Disable|Electro Drift
+|-activate|p1b: Calyrex|move: Struggle
+|move|p1b: Calyrex|Struggle|p2a: Incineroar
+|-damage|p2a: Incineroar|89/100
+|-damage|p1b: Calyrex|75/100|[from] recoil
+|
+|-heal|p1b: Calyrex|81/100|[from] item: Leftovers
+|-end|p1b: Calyrex|move: Taunt
+|-start|p2b: Scream Tail|perish0
+|-start|p1b: Calyrex|perish0
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|faint|p1b: Calyrex
+|upkeep
+|inactive|peter_polenta has 30 seconds left.
+|
+|t:|1750769670
+|switch|p2b: Gothitelle|Gothitelle, L50, M, tera:Water|46/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|turn|5
+|
+|t:|1750769690
+|move|p1b: Incineroar|Fake Out|p2b: Gothitelle
+|-damage|p2b: Gothitelle|38/100
+|cant|p2b: Gothitelle|flinch
+|-activate|p1a: Miraidon|move: Struggle
+|move|p1a: Miraidon|Struggle|p2b: Gothitelle
+|-damage|p2b: Gothitelle|33/100
+|-damage|p1a: Miraidon|76/100|[from] recoil
+|move|p2a: Incineroar|Parting Shot|p1a: Miraidon
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1a: Miraidon|spa|1
+|
+|t:|1750769700
+|switch|p2a: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|39/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750769719
+|-terastallize|p1b: Incineroar|Grass
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p2a: Koraidon|Close Combat|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Incineroar
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|-activate|p1a: Miraidon|move: Struggle
+|move|p1a: Miraidon|Struggle|p2a: Koraidon
+|-damage|p2a: Koraidon|85/100
+|-damage|p1a: Miraidon|51/100|[from] recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|46/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750769736
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|95/100
+|turn|7
+|-message|peter_polenta forfeited.
+|
+|win|Testingstuffuser4
+|raw|peter_polenta's rating: 1416 &rarr; <strong>1397</strong><br />(-19 for losing)
+|raw|Testingstuffuser4's rating: 1433 &rarr; <strong>1452</strong><br />(+19 for winning)
+|l|☆peter_polenta
+|player|p1|
+|l|☆Testingstuffuser4
+|player|p2|

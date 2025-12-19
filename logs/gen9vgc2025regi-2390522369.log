@@ -1,0 +1,400 @@
+|j|☆KheaVGC
+|j|☆Strin
+|t:|1750723760
+|gametype|doubles
+|player|p1|KheaVGC|169|1235
+|player|p2|Strin|102|1269
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Poliwhirl, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Strin)
+|
+|t:|1750723779
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|1
+|
+|t:|1750723802
+|move|p1a: Grimmsnarl|Fake Out|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|95/100
+|cant|p2b: Zacian|flinch
+|move|p1b: Flutter Mane|Icy Wind|p2b: Zacian|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-resisted|p2b: Zacian
+|-crit|p2b: Zacian
+|-damage|p2a: Tornadus|64/100
+|-damage|p2b: Zacian|85/100
+|-unboost|p2a: Tornadus|spe|1
+|-unboost|p2b: Zacian|spe|1
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Grimmsnarl|[spread] p1a
+|-miss|p2a: Tornadus|p1b: Flutter Mane
+|-damage|p1a: Grimmsnarl|45/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750723822
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Strin|move: Tailwind
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: KheaVGC|Reflect
+|move|p2b: Zacian|Behemoth Blade|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1b: Flutter Mane|Icy Wind|p2a: Tornadus|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-resisted|p2b: Zacian
+|-damage|p2a: Tornadus|28/100
+|-damage|p2b: Zacian|79/100
+|-unboost|p2a: Tornadus|spe|1
+|-unboost|p2b: Zacian|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750723846
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: KheaVGC|move: Light Screen
+|move|p2b: Zacian|Behemoth Blade|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p1b: Flutter Mane|Icy Wind|p2a: Tornadus|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-resisted|p2b: Zacian
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Zacian|72/100
+|-unboost|p2b: Zacian|spe|1
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1750723857
+|switch|p2a: Poliwhirl|Poliwhirl, L50, F|100/100
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|turn|4
+|
+|t:|1750723876
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p2a: Poliwhirl|Icy Wind|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|98/100
+|-damage|p1b: Flutter Mane|0 fnt
+|-unboost|p1a: Volcarona|spe|1
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750723882
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|5
+|
+|t:|1750723895
+|switch|p2b: Zacian|Zacian-Crowned, L50|72/100
+|move|p2a: Poliwhirl|Protect|p2a: Poliwhirl
+|-singleturn|p2a: Poliwhirl|Protect
+|move|p1b: Groudon|High Horsepower|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Strin|move: Tailwind
+|upkeep
+|
+|t:|1750723905
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|
+|t:|1750723915
+|-terastallize|p1a: Volcarona|Water
+|-terastallize|p2b: Kyogre|Water
+|move|p2a: Poliwhirl|Icy Wind|p1b: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-supereffective|p1b: Groudon
+|-damage|p1a: Volcarona|99/100
+|-damage|p1b: Groudon|93/100
+|-unboost|p1a: Volcarona|spe|1
+|-unboost|p1b: Groudon|spe|1
+|move|p2b: Kyogre|Origin Pulse|p1b: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-supereffective|p1b: Groudon
+|-damage|p1a: Volcarona|79/100
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2b: Kyogre|91/100|[from] item: Life Orb
+|move|p1a: Volcarona|Giga Drain|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|20/100
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750723939
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|99/100
+|-unboost|p1a: Volcarona|spe|1
+|move|p1a: Volcarona|Giga Drain|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750723957
+|move|p2a: Poliwhirl|Endeavor|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|move|p2b: Kyogre|Origin Pulse|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|40/100
+|-damage|p2b: Kyogre|11/100|[from] item: Life Orb
+|move|p1a: Volcarona|Giga Drain|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|-heal|p1a: Volcarona|45/100|[from] drain|[of] p2b: Kyogre
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750723968
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|57/100|[from] item: Leftovers
+|-sideend|p1: KheaVGC|Reflect
+|upkeep
+|turn|10
+|
+|t:|1750723973
+|move|p2a: Poliwhirl|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|-weather|none
+|-heal|p1a: Volcarona|64/100|[from] item: Leftovers
+|-sideend|p1: KheaVGC|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1750723982
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-heal|p1a: Volcarona|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750723990
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-heal|p1a: Volcarona|76/100|[from] item: Leftovers
+|-end|p1a: Volcarona|Encore
+|upkeep
+|turn|13
+|
+|t:|1750723998
+|move|p2a: Poliwhirl|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|-heal|p1a: Volcarona|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750724009
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Endeavor|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-heal|p1a: Volcarona|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1750724019
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|82/100
+|-unboost|p1a: Volcarona|spe|1
+|
+|-heal|p1a: Volcarona|88/100|[from] item: Leftovers
+|-end|p1a: Volcarona|Encore
+|upkeep
+|turn|16
+|
+|t:|1750724028
+|move|p2a: Poliwhirl|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|-heal|p1a: Volcarona|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1750724038
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Endeavor|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1750724046
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|98/100
+|-unboost|p1a: Volcarona|spe|1
+|
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|-end|p1a: Volcarona|Encore
+|upkeep
+|turn|19
+|
+|t:|1750724059
+|move|p2a: Poliwhirl|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|upkeep
+|turn|20
+|
+|t:|1750724068
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|upkeep
+|turn|21
+|
+|t:|1750724070
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-end|p1a: Volcarona|Encore
+|upkeep
+|turn|22
+|
+|t:|1750724073
+|move|p2a: Poliwhirl|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|upkeep
+|turn|23
+|
+|t:|1750724083
+|move|p2a: Poliwhirl|Protect|p2a: Poliwhirl
+|-singleturn|p2a: Poliwhirl|Protect
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|
+|upkeep
+|turn|24
+|
+|t:|1750724090
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Poliwhirl|Icy Wind|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-end|p1a: Volcarona|Encore
+|upkeep
+|turn|25
+|
+|t:|1750724093
+|move|p2a: Poliwhirl|Encore||[still]
+|-fail|p2a: Poliwhirl
+|move|p1a: Volcarona|Giga Drain|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-enditem|p2a: Poliwhirl|Focus Sash
+|-damage|p2a: Poliwhirl|1/100
+|
+|upkeep
+|turn|26
+|
+|t:|1750724110
+|move|p2a: Poliwhirl|Endeavor|p1a: Volcarona
+|-damage|p1a: Volcarona|1/100
+|-status|p2a: Poliwhirl|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1a: Volcarona|Giga Drain|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|-heal|p1a: Volcarona|2/100|[from] drain|[of] p2a: Poliwhirl
+|faint|p2a: Poliwhirl
+|
+|win|KheaVGC
+|raw|KheaVGC's rating: 1235 &rarr; <strong>1262</strong><br />(+27 for winning)
+|raw|Strin's rating: 1269 &rarr; <strong>1242</strong><br />(-27 for losing)
+|l|☆KheaVGC
+|player|p1|

@@ -1,0 +1,151 @@
+|j|☆leuc
+|j|☆dingdanglin
+|t:|1750868765
+|gametype|doubles
+|player|p1|leuc|acetrainer-gen4dp|1275
+|player|p2|dingdanglin|1|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p1|Thundurus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leuc)
+|inactive|dingdanglin has 60 seconds left.
+|
+|t:|1750868811
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750868834
+|move|p1b: Enamorus|Protect|p1b: Enamorus
+|-singleturn|p1b: Enamorus|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|96/100
+|cant|p1a: Zacian|flinch
+|move|p2b: Miraidon|Volt Switch|p1b: Enamorus
+|-activate|p1b: Enamorus|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|leuc has 30 seconds left.
+|
+|t:|1750868859
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: dingdanglin|Reflect
+|move|p1a: Zacian|Behemoth Blade|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p2b: Miraidon|Volt Switch|p1b: Enamorus
+|-supereffective|p1b: Enamorus
+|-damage|p1b: Enamorus|0 fnt
+|faint|p1b: Enamorus
+|
+|t:|1750868875
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|upkeep
+|
+|t:|1750868894
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750868916
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zacian|Play Rough|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|6/100
+|move|p2a: Miraidon|Volt Switch|p1a: Zacian
+|-damage|p1a: Zacian|5/100
+|
+|t:|1750868930
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|leuc has 30 seconds left.
+|inactive|leuc has 20 seconds left.
+|
+|t:|1750868967
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100
+|-terastallize|p1b: Kyogre|Grass
+|move|p2a: Urshifu|Aqua Jet|p1a: Thundurus
+|-damage|p1a: Thundurus|52/100
+|move|p1b: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|21/100
+|-damage|p2b: Calyrex|16/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|leuc has 30 seconds left.
+|inactive|dingdanglin has 30 seconds left.
+|inactive|leuc has 20 seconds left.
+|
+|t:|1750869006
+|move|p1a: Thundurus|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p2b: Calyrex|Glacial Lance|p1a: Thundurus|[spread] p1a,p1b
+|-supereffective|p1a: Thundurus
+|-supereffective|p1b: Kyogre
+|-damage|p1a: Thundurus|0 fnt
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1a: Thundurus
+|faint|p1b: Kyogre
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|move|p2a: Urshifu|Close Combat|p1: Thundurus|[notarget]
+|-fail|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750869011
+|switch|p1b: Zacian|Zacian-Crowned, L50|5/100
+|turn|6
+|-message|leuc forfeited.
+|
+|win|dingdanglin
+|raw|leuc's rating: 1275 &rarr; <strong>1252</strong><br />(-23 for losing)
+|raw|dingdanglin's rating: 1296 &rarr; <strong>1319</strong><br />(+23 for winning)
+|l|☆leuc
+|player|p1|
+|l|☆dingdanglin
+|player|p2|

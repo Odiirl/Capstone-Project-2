@@ -1,0 +1,166 @@
+|j|☆paulchamp
+|j|☆etaniol1024
+|t:|1750718190
+|gametype|doubles
+|player|p1|paulchamp|cyrus|1436
+|player|p2|etaniol1024|266|1515
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Goodra-Hisui, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by paulchamp)
+|inactive|paulchamp has 60 seconds left.
+|
+|t:|1750718228
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Goodra|Goodra-Hisui, L50, M, shiny|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750718251
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|15/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Goodra|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Goodra|59/100
+|faint|p1a: Calyrex
+|move|p1b: Goodra|Acid Spray|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|99/100
+|-unboost|p2b: Lunala|spd|2
+|
+|upkeep
+|
+|t:|1750718263
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|2
+|inactive|paulchamp has 30 seconds left.
+|inactive|etaniol1024 has 30 seconds left.
+|inactive|etaniol1024 has 20 seconds left.
+|inactive|etaniol1024 has 15 seconds left.
+|inactive|etaniol1024 has 10 seconds left.
+|
+|t:|1750718311
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Lunala|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|-damage|p2b: Lunala|58/100
+|move|p2b: Lunala|Tailwind|p2b: Lunala
+|-sidestart|p2: etaniol1024|move: Tailwind
+|move|p1b: Goodra|Flash Cannon|p2b: Lunala
+|-damage|p2b: Lunala|2/100
+|
+|upkeep
+|turn|3
+|inactive|paulchamp has 30 seconds left.
+|inactive|paulchamp has 20 seconds left.
+|
+|t:|1750718346
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|52/100
+|move|p1a: Miraidon|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|56/100
+|
+|t:|1750718352
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100|[from] Volt Switch
+|move|p1b: Goodra|Acid Spray|p2a: Amoonguss
+|-damage|p2a: Amoonguss|44/100
+|-unboost|p2a: Amoonguss|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1750718372
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Lunala|Moongeist Beam|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|move|p1b: Goodra|Bulldoze|p2a: Amoonguss|[spread] p2a,p2b
+|-damage|p2a: Amoonguss|35/100
+|-damage|p2b: Lunala|0 fnt
+|-unboost|p2a: Amoonguss|spe|1
+|faint|p2b: Lunala
+|
+|upkeep
+|
+|t:|1750718384
+|switch|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|100/100
+|switch|p1a: Miraidon|Miraidon, L50|52/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|inactive|paulchamp has 30 seconds left.
+|
+|t:|1750718420
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Terapagos|Tera Starstorm|p1b: Goodra|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Goodra|21/100
+|faint|p1a: Miraidon
+|move|p1b: Goodra|Flash Cannon|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-sideend|p2: etaniol1024|move: Tailwind
+|upkeep
+|
+|t:|1750718430
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|turn|6
+|
+|t:|1750718437
+|move|p2a: Smeargle|Fake Out|p1b: Goodra
+|-resisted|p1b: Goodra
+|-damage|p1b: Goodra|18/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Goodra
+|-damage|p1b: Goodra|0 fnt
+|faint|p1b: Goodra
+|
+|win|etaniol1024
+|raw|paulchamp's rating: 1436 &rarr; <strong>1420</strong><br />(-16 for losing)
+|raw|etaniol1024's rating: 1515 &rarr; <strong>1531</strong><br />(+16 for winning)
+|l|☆paulchamp
+|player|p1|
+|l|☆etaniol1024
+|player|p2|

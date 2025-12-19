@@ -1,0 +1,174 @@
+|j|☆YugiMotoKOG
+|j|☆xerekira
+|t:|1750729352
+|gametype|doubles
+|player|p1|YugiMotoKOG|1|1054
+|player|p2|xerekira|preschooler|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primeape, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Toedscruel, L50, F|
+|poke|p2|Bronzong, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|
+|t:|1750729372
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Monster|Kyogre, L50|100/100
+|switch|p2b: Lepto|Raichu, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Monster
+|turn|1
+|
+|t:|1750729410
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Lepto|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Urshifu|Sucker Punch|p2a: Monster
+|-damage|p2a: Monster|64/100
+|move|p2a: Monster|Water Spout|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Urshifu|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750729435
+|move|p1a: Koraidon|Close Combat|p2a: Monster
+|-damage|p2a: Monster|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Monster
+|move|p2b: Lepto|Nuzzle|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|97/100
+|-status|p1a: Koraidon|par
+|move|p1b: Urshifu|Wicked Blow|p2b: Lepto
+|-crit|p2b: Lepto
+|-damage|p2b: Lepto|0 fnt
+|faint|p2b: Lepto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750729451
+|switch|p2b: Copo de Cerveja|Bronzong, L50|100/100
+|switch|p2a: Urso gordo|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1750729468
+|-terastallize|p2b: Copo de Cerveja|Flying
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Urshifu|Close Combat|p2a: Urso gordo
+|-supereffective|p2a: Urso gordo
+|-damage|p2a: Urso gordo|7/100
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|move|p2a: Urso gordo|Earthquake|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-immune|p2b: Copo de Cerveja
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2b: Copo de Cerveja|Trick Room|p2b: Copo de Cerveja
+|-fieldstart|move: Trick Room|[of] p2b: Copo de Cerveja
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Urso gordo|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750729486
+|switch|p1b: Primeape|Primeape, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750729515
+|move|p2b: Copo de Cerveja|Confuse Ray|p1b: Primeape
+|-start|p1b: Primeape|confusion
+|move|p2a: Urso gordo|Earthquake|p1b: Primeape|[spread] p1a,p1b
+|-immune|p2b: Copo de Cerveja
+|-damage|p1a: Koraidon|7/100 par
+|-damage|p1b: Primeape|28/100
+|move|p1a: Koraidon|Close Combat|p2b: Copo de Cerveja
+|-resisted|p2b: Copo de Cerveja
+|-damage|p2b: Copo de Cerveja|73/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-activate|p1b: Primeape|confusion
+|move|p1b: Primeape|Ice Punch|p2a: Urso gordo
+|-supereffective|p2a: Urso gordo
+|-damage|p2a: Urso gordo|0 fnt
+|faint|p2a: Urso gordo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750729537
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Copo de Cerveja|Confuse Ray|p1a: Calyrex
+|-start|p1a: Calyrex|confusion
+|-activate|p1b: Primeape|confusion
+|-damage|p1b: Primeape|11/100|[from] confusion
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750729552
+|move|p2b: Copo de Cerveja|Substitute|p2b: Copo de Cerveja
+|-start|p2b: Copo de Cerveja|Substitute
+|-damage|p2b: Copo de Cerveja|48/100
+|-activate|p1b: Primeape|confusion
+|-damage|p1b: Primeape|0 fnt|[from] confusion
+|faint|p1b: Primeape
+|-activate|p1a: Calyrex|confusion
+|move|p1a: Calyrex|Astral Barrage|p2b: Copo de Cerveja
+|-end|p2b: Copo de Cerveja|Substitute
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750729564
+|switch|p1b: Koraidon|Koraidon, L50|7/100 par
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750729573
+|move|p2b: Copo de Cerveja|Confuse Ray|p1b: Koraidon
+|-start|p1b: Koraidon|confusion
+|-activate|p1b: Koraidon|confusion
+|-damage|p1b: Koraidon|0 fnt|[from] confusion
+|faint|p1b: Koraidon
+|-activate|p1a: Calyrex|confusion
+|move|p1a: Calyrex|Astral Barrage|p2b: Copo de Cerveja
+|-damage|p2b: Copo de Cerveja|0 fnt
+|faint|p2b: Copo de Cerveja
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|
+|win|YugiMotoKOG
+|raw|YugiMotoKOG's rating: 1054 &rarr; <strong>1092</strong><br />(+38 for winning)
+|raw|xerekira's rating: 1123 &rarr; <strong>1093</strong><br />(-30 for losing)
+|l|☆YugiMotoKOG
+|player|p1|

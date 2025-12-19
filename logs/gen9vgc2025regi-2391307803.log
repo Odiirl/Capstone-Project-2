@@ -1,0 +1,134 @@
+|j|☆pom321321321
+|j|☆ddy999
+|t:|1750832900
+|gametype|doubles
+|player|p1|pom321321321|wattson|1510
+|player|p2|ddy999|2|1584
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Latias, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pom321321321)
+|inactive|ddy999 has 60 seconds left.
+|
+|t:|1750832950
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|inactive|ddy999 has 30 seconds left.
+|
+|t:|1750832981
+|-terastallize|p2b: Chien-Pao|Stellar
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Sableye|Gravity|p1b: Sableye
+|-fieldstart|move: Gravity
+|move|p1a: Iron Valiant|Hypnosis|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2b: Chien-Pao|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750832986
+|switch|p1a: Cerus|Lunala, L50|100/100
+|turn|2
+|inactive|pom321321321 has 30 seconds left.
+|inactive|ddy999 has 30 seconds left.
+|inactive|pom321321321 has 20 seconds left.
+|
+|t:|1750833023
+|-terastallize|p1a: Cerus|Fairy
+|move|p1b: Sableye|Reflect|p1b: Sableye
+|-sidestart|p1: pom321321321|Reflect
+|move|p2a: Calyrex|Astral Barrage|p1b: Sableye|[spread] p1a,p1b
+|-damage|p1a: Cerus|78/100
+|-damage|p1b: Sableye|5/100
+|move|p2b: Chien-Pao|Throat Chop|p1a: Cerus
+|-resisted|p1a: Cerus
+|-damage|p1a: Cerus|55/100
+|-start|p1a: Cerus|Throat Chop|[silent]
+|-damage|p2b: Chien-Pao|81/100|[from] item: Life Orb
+|move|p1a: Cerus|Hypnosis|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Hypnosis
+|
+|-heal|p1a: Cerus|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|pom321321321 has 30 seconds left.
+|inactive|ddy999 has 30 seconds left.
+|
+|t:|1750833057
+|move|p1b: Sableye|Thunder Wave|p2b: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Chien-Pao
+|cant|p2a: Calyrex|slp
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Cerus
+|-damage|p1a: Cerus|27/100
+|-damage|p2b: Chien-Pao|71/100|[from] item: Life Orb
+|move|p1a: Cerus|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100 slp
+|
+|-heal|p1a: Cerus|34/100|[from] item: Leftovers
+|-end|p1a: Cerus|Throat Chop|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750833076
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|cant|p2a: Calyrex|slp
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Cerus
+|-damage|p1a: Cerus|4/100
+|-damage|p2b: Chien-Pao|62/100|[from] item: Life Orb
+|move|p1a: Cerus|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cerus|10/100|[from] item: Leftovers
+|upkeep
+|inactive|ddy999 has 30 seconds left.
+|
+|t:|1750833101
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|turn|5
+|-message|pom321321321 forfeited.
+|
+|win|ddy999
+|raw|pom321321321's rating: 1510 &rarr; <strong>1494</strong><br />(-16 for losing)
+|raw|ddy999's rating: 1584 &rarr; <strong>1600</strong><br />(+16 for winning)
+|l|☆pom321321321
+|player|p1|

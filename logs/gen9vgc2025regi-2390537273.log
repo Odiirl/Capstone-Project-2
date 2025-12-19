@@ -1,0 +1,175 @@
+|j|☆sortilum
+|j|☆alolatiago
+|t:|1750725790
+|gametype|doubles
+|player|p1|sortilum|170|1083
+|player|p2|alolatiago|101|1056
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toxicroak, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Pachirisu, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Cinderace, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Duraludon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alolatiago)
+|
+|t:|1750725820
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|switch|p2b: Duraludon|Duraludon, L50, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750725835
+|move|p1b: Gothitelle|Fake Out|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|97/100
+|move|p1a: Scream Tail|Perish Song|p1a: Scream Tail
+|-start|p1a: Scream Tail|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Excadrill|perish3|[silent]
+|-start|p2b: Duraludon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2a: Excadrill|flinch
+|move|p2b: Duraludon|Flash Cannon|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|55/100
+|
+|-start|p1a: Scream Tail|perish3
+|-start|p2a: Excadrill|perish3
+|-start|p2b: Duraludon|perish3
+|-start|p1b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750725854
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Excadrill|Iron Head|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|move|p2b: Duraludon|Dark Pulse|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-start|p1a: Scream Tail|perish2
+|-start|p2a: Excadrill|perish2
+|-start|p2b: Duraludon|perish2
+|-start|p1b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750725874
+|-terastallize|p1b: Gothitelle|Dark
+|move|p1a: Scream Tail|Disable|p2a: Excadrill
+|-start|p2a: Excadrill|Disable|Iron Head
+|move|p2a: Excadrill|Drill Run|p1b: Gothitelle
+|-crit|p1b: Gothitelle
+|-damage|p1b: Gothitelle|25/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|50/100|[from] item: Sitrus Berry
+|move|p2b: Duraludon|Dark Pulse|p1b: Gothitelle
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|41/100
+|move|p1b: Gothitelle|Taunt|p2a: Excadrill
+|-start|p2a: Excadrill|move: Taunt
+|
+|-start|p1a: Scream Tail|perish1
+|-start|p2a: Excadrill|perish1
+|-start|p2b: Duraludon|perish1
+|-start|p1b: Gothitelle|perish1
+|upkeep
+|turn|4
+|inactive|alolatiago has 30 seconds left.
+|inactive|sortilum has 30 seconds left.
+|
+|t:|1750725909
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Excadrill|Drill Run|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2b: Duraludon|Flash Cannon|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|88/100
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-start|p2a: Excadrill|perish0
+|-start|p2b: Duraludon|perish0
+|-start|p1b: Gothitelle|perish0
+|faint|p2a: Excadrill
+|faint|p2b: Duraludon
+|faint|p1b: Gothitelle
+|upkeep
+|
+|t:|1750725929
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Cinderace|Cinderace, L50, F|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|55/100
+|turn|5
+|inactive|sortilum has 30 seconds left.
+|inactive|sortilum has 20 seconds left.
+|
+|t:|1750725965
+|-terastallize|p2b: Cinderace|Stellar
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: alolatiago|move: Tailwind
+|move|p2b: Cinderace|Pyro Ball|p1b: Scream Tail
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750725968
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750725984
+|move|p2b: Cinderace|Sucker Punch|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Talonflame|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|24/100
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Cinderace
+|-resisted|p2b: Cinderace
+|-damage|p2b: Cinderace|72/100
+|
+|upkeep
+|turn|7
+|-message|sortilum forfeited.
+|
+|win|alolatiago
+|raw|sortilum's rating: 1083 &rarr; <strong>1059</strong><br />(-24 for losing)
+|raw|alolatiago's rating: 1056 &rarr; <strong>1090</strong><br />(+34 for winning)
+|l|☆sortilum
+|player|p1|
+|l|☆alolatiago
+|player|p2|

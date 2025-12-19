@@ -1,0 +1,127 @@
+|j|‽estudassespt
+|j|☆Azemon
+|t:|1750767095
+|gametype|doubles
+|player|p1|estudassespt|266|1514
+|player|p2|Azemon|266|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Yanmega, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Bastiodon, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by estudassespt)
+|inactive|Azemon has 60 seconds left.
+|
+|t:|1750767137
+|start
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|switch|p1b: Yanmega|Yanmega, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750767157
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Azemon|move: Tailwind
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Kyogre|Water Spout|p1a: Sableye|[spread] p1a,p1b
+|-damage|p1a: Sableye|0 fnt
+|-enditem|p1b: Yanmega|Focus Sash
+|-damage|p1b: Yanmega|1/100
+|faint|p1a: Sableye
+|move|p1b: Yanmega|Hypnosis|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Hypnosis
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|
+|t:|1750767172
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|2
+|
+|t:|1750767180
+|cant|p2a: Kyogre|slp
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Yanmega
+|-damage|p1a: Groudon|68/100
+|-damage|p1b: Yanmega|0 fnt
+|faint|p1b: Yanmega
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750767188
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750767198
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|cant|p2a: Kyogre|slp
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|0 fnt
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2a: Kyogre
+|faint|p2b: Tornadus
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750767211
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|4
+|
+|t:|1750767222
+|-terastallize|p1a: Groudon|Ground
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Calyrex|High Horsepower|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Farigiraf|[spread] p2b
+|-activate|p2a: Zacian|move: Protect
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Azemon|move: Tailwind
+|upkeep
+|turn|5
+|-message|Azemon forfeited.
+|
+|win|estudassespt
+|raw|estudassespt's rating: 1514 &rarr; <strong>1528</strong><br />(+14 for winning)
+|raw|Azemon's rating: 1411 &rarr; <strong>1397</strong><br />(-14 for losing)
+|l|☆Azemon
+|player|p2|
+|l|‽estudassespt
+|player|p1|

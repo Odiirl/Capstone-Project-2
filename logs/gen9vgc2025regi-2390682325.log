@@ -1,0 +1,278 @@
+|j|☆izerial
+|j|☆HiroGimmick
+|t:|1750748920
+|gametype|doubles
+|player|p1|izerial|bellelba|1155
+|player|p2|HiroGimmick|lucas|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Grumpig, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HiroGimmick)
+|
+|t:|1750748951
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Grumpig|Grumpig, L50, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|izerial has 30 seconds left.
+|
+|t:|1750748982
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1b: Grimmsnarl
+|move|p1a: Zamazenta|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|46/100
+|-enditem|p2a: Indeedee|Eject Button
+|
+|t:|1750748990
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p2b: Grumpig|Trick Room|p2b: Grumpig
+|-fieldstart|move: Trick Room|[of] p2b: Grumpig
+|
+|upkeep
+|turn|2
+|
+|t:|1750749008
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Grumpig|Simple Beam|p2a: Eternatus
+|-endability|p2a: Eternatus|Pressure|[from] move: Simple Beam
+|-ability|p2a: Eternatus|Simple|[from] move: Simple Beam
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|2
+|-boost|p2a: Eternatus|spd|2
+|
+|upkeep
+|turn|3
+|
+|t:|1750749029
+|move|p1b: Rillaboom|Fake Out|p2a: Eternatus
+|-damage|p2a: Eternatus|95/100
+|move|p2b: Grumpig|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|cant|p2a: Eternatus|flinch
+|move|p1a: Zamazenta|Wide Guard||[still]
+|-fail|p1a: Zamazenta
+|
+|-heal|p2a: Eternatus|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|izerial has 30 seconds left.
+|
+|t:|1750749055
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Grumpig|Encore||[still]
+|-fail|p2b: Grumpig
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|2
+|-boost|p2a: Eternatus|spd|2
+|
+|upkeep
+|turn|5
+|
+|t:|1750749076
+|switch|p2b: Indeedee|Indeedee-F, L50, F|46/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Psychic Terrain
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|2
+|-boost|p2a: Eternatus|spd|2
+|move|p1a: Calyrex|Calm Mind|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|1
+|-boost|p1a: Calyrex|spd|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|HiroGimmick has 30 seconds left.
+|
+|t:|1750749104
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: izerial|move: Light Screen
+|move|p1a: Calyrex|Calm Mind|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|1
+|-boost|p1a: Calyrex|spd|1
+|move|p2a: Eternatus|Toxic|p1a: Calyrex
+|-status|p1a: Calyrex|tox
+|move|p2b: Indeedee|Psych Up|p2a: Eternatus
+|-copyboost|p2b: Indeedee|p2a: Eternatus|[from] move: Psych Up
+|
+|-damage|p1a: Calyrex|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750749126
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Draining Kiss|p2b: Indeedee
+|-damage|p2b: Indeedee|21/100
+|-heal|p1a: Calyrex|100/100 tox|[from] drain|[of] p2b: Indeedee
+|-damage|p1a: Calyrex|91/100 tox|[from] item: Life Orb
+|move|p2a: Eternatus|Flamethrower|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|43/100 tox
+|
+|-heal|p1a: Calyrex|48/100 tox|[from] Grassy Terrain
+|-heal|p2b: Indeedee|28/100|[from] Grassy Terrain
+|-damage|p1a: Calyrex|37/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|HiroGimmick has 30 seconds left.
+|
+|t:|1750749153
+|move|p1b: Rillaboom|Fake Out|p2b: Indeedee
+|-damage|p2b: Indeedee|24/100
+|cant|p2b: Indeedee|flinch
+|move|p1a: Calyrex|Draining Kiss|p2a: Eternatus
+|-damage|p2a: Eternatus|88/100
+|-heal|p1a: Calyrex|51/100 tox|[from] drain|[of] p2a: Eternatus
+|-damage|p1a: Calyrex|41/100 tox|[from] item: Life Orb
+|move|p2a: Eternatus|Toxic|p1b: Rillaboom
+|-status|p1b: Rillaboom|tox
+|
+|-heal|p1a: Calyrex|47/100 tox|[from] Grassy Terrain
+|-heal|p2a: Eternatus|94/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|99/100|[from] item: Leftovers
+|-heal|p2b: Indeedee|30/100|[from] Grassy Terrain
+|-damage|p1a: Calyrex|30/100 tox|[from] psn
+|-damage|p1b: Rillaboom|95/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750749178
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Rillaboom|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|19/100
+|
+|t:|1750749186
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100|[from] U-turn
+|move|p2a: Eternatus|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|74/100
+|
+|-heal|p1a: Zamazenta|80/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|100/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|25/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1750749208
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Indeedee
+|-status|p2b: Indeedee|par
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Indeedee
+|-damage|p2b: Indeedee|15/100 par
+|move|p2a: Eternatus|Toxic|p1b: Grimmsnarl
+|-status|p1b: Grimmsnarl|tox
+|
+|-heal|p1a: Zamazenta|86/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|21/100 par|[from] Grassy Terrain
+|-damage|p1b: Grimmsnarl|95/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1750749229
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Indeedee
+|-fail|p2b: Indeedee|par
+|move|p1a: Zamazenta|Body Press|p2b: Indeedee
+|-damage|p2b: Indeedee|11/100 par
+|move|p2a: Eternatus|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100
+|
+|-heal|p1a: Zamazenta|64/100|[from] Grassy Terrain
+|-heal|p1b: Grimmsnarl|100/100 tox|[from] Grassy Terrain
+|-heal|p2b: Indeedee|17/100 par|[from] Grassy Terrain
+|-damage|p1b: Grimmsnarl|89/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|inactive|izerial has 30 seconds left.
+|
+|t:|1750749254
+|switch|p1b: Calyrex|Calyrex-Shadow, L50, tera:Fairy|30/100 tox
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|cant|p2b: Indeedee|par
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Indeedee
+|-damage|p2b: Indeedee|7/100 par
+|move|p2a: Eternatus|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|39/100
+|
+|-damage|p1b: Calyrex|24/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|HiroGimmick has 30 seconds left.
+|inactive|izerial has 30 seconds left.
+|
+|t:|1750749286
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|95/100 tox
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p2b: Grumpig|Grumpig, L50, M|100/100
+|move|p1b: Calyrex|Draining Kiss|p2a: Eternatus
+|-damage|p2a: Eternatus|94/100
+|-heal|p1b: Calyrex|31/100 tox|[from] drain|[of] p2a: Eternatus
+|-damage|p1b: Calyrex|22/100 tox|[from] item: Life Orb
+|move|p2a: Eternatus|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|60/100 tox
+|
+|-heal|p1b: Calyrex|27/100 tox|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|66/100 tox|[from] Grassy Terrain
+|-heal|p2a: Eternatus|99/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|100/100|[from] item: Leftovers
+|-damage|p1b: Calyrex|16/100 tox|[from] psn
+|-damage|p1a: Rillaboom|60/100 tox|[from] psn
+|-sideend|p1: izerial|move: Light Screen
+|upkeep
+|turn|14
+|-message|izerial forfeited.
+|
+|win|HiroGimmick
+|raw|izerial's rating: 1155 &rarr; <strong>1132</strong><br />(-23 for losing)
+|raw|HiroGimmick's rating: 1177 &rarr; <strong>1200</strong><br />(+23 for winning)
+|l|☆izerial
+|player|p1|
+|l|☆HiroGimmick
+|player|p2|

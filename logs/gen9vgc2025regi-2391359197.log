@@ -1,0 +1,160 @@
+|j|☆BiscuitBob
+|j|☆protodrake
+|t:|1750843126
+|gametype|doubles
+|player|p1|BiscuitBob|hilbert|1475
+|player|p2|protodrake|169|1579
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Frosmoth, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BiscuitBob)
+|inactive|BiscuitBob has 60 seconds left.
+|
+|t:|1750843186
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750843210
+|-terastallize|p1a: Groudon|Fire
+|move|p1a: Groudon|Precipice Blades|p2a: Calyrex|[spread] p2b
+|-miss|p1a: Groudon|p2a: Calyrex
+|-damage|p2b: Indeedee|48/100
+|move|p1b: Sableye|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|21/100
+|move|p2a: Calyrex|Curse|p2a: Calyrex
+|-unboost|p2a: Calyrex|spe|1
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750843232
+|switch|p1b: Frosmoth|Frosmoth, L50, F|100/100
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|High Horsepower|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750843252
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Frosmoth|[spread] p1a,p1b
+|-resisted|p1b: Frosmoth
+|-enditem|p1a: Sableye|Focus Sash
+|-damage|p1a: Sableye|1/100
+|-damage|p1b: Frosmoth|52/100
+|move|p2b: Indeedee|Tera Blast|p1a: Sableye
+|-immune|p1a: Sableye
+|move|p1b: Frosmoth|Bug Buzz|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750843266
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1750843280
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Sableye|Fake Out|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|94/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|cant|p2a: Ursaluna|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750843302
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Ursaluna|Earthquake|p1b: Miraidon|[spread] p2b,p1a
+|-activate|p1b: Miraidon|move: Protect
+|-damage|p2b: Indeedee|0 fnt
+|-damage|p1a: Sableye|0 fnt
+|faint|p2b: Indeedee
+|faint|p1a: Sableye
+|
+|-weather|none
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750843314
+|switch|p1a: Groudon|Groudon, L50, tera:Fire|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|6
+|
+|t:|1750843328
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2b: Urshifu
+|-damage|p2a: Ursaluna|55/100 brn
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-damage|p1b: Miraidon|91/100|[from] item: Life Orb
+|move|p1a: Groudon|Precipice Blades|p2a: Ursaluna
+|-damage|p2a: Ursaluna|6/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Groudon|15/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|win|BiscuitBob
+|raw|BiscuitBob's rating: 1475 &rarr; <strong>1501</strong><br />(+26 for winning)
+|raw|protodrake's rating: 1579 &rarr; <strong>1553</strong><br />(-26 for losing)
+|l|☆protodrake
+|player|p2|
+|l|☆BiscuitBob
+|player|p1|

@@ -1,0 +1,187 @@
+|j|☆Light_Sky.L
+|j|☆Serbol03
+|t:|1750765993
+|gametype|doubles
+|player|p1|Light_Sky.L|2|1254
+|player|p2|Serbol03|giovanni|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Light_Sky.L)
+|
+|t:|1750766019
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|1
+|inactive|Serbol03 has 30 seconds left.
+|
+|t:|1750766050
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdrivedef
+|move|p1a: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|57/100
+|-damage|p2b: Iron Hands|71/100
+|move|p1b: Incineroar|Knock Off|p2a: Miraidon
+|-damage|p2a: Miraidon|17/100
+|-enditem|p2a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Iron Hands|Wild Charge|p1a: Calyrex
+|-damage|p1a: Calyrex|49/100
+|-damage|p2b: Iron Hands|61/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|inactive|Serbol03 has 30 seconds left.
+|
+|t:|1750766080
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Urshifu|43/100
+|-damage|p2b: Iron Hands|27/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|-damage|p1b: Incineroar|88/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750766092
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750766107
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Calyrex|Astral Barrage|p2a: Urshifu|[spread] 
+|-activate|p2a: Urshifu|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1b: Incineroar|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|68/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|12/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-hitcount|p1: Calyrex|2
+|
+|upkeep
+|
+|t:|1750766125
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750766134
+|switch|p2a: Miraidon|Miraidon, L50|17/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-terastallize|p1a: Miraidon|Electric
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1b: Incineroar|Knock Off|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|61/100
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|upkeep
+|
+|t:|1750766148
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|43/100
+|turn|5
+|
+|t:|1750766161
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Lunala|Moonblast|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p2a: Urshifu|Surging Strikes|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|68/100
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|37/100
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|5/100
+|-hitcount|p1a: Miraidon|3
+|move|p1b: Incineroar|Flare Blitz|p2b: Lunala
+|-damage|p2b: Lunala|31/100
+|-damage|p1b: Incineroar|75/100|[from] Recoil
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750766178
+|move|p2b: Lunala|Moonblast|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2a: Urshifu|Surging Strikes|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|3/100
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-hitcount|p1: Incineroar|2
+|
+|upkeep
+|
+|t:|1750766190
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|7
+|
+|t:|1750766196
+|move|p1b: Ursaluna|Blood Moon|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1b: Ursaluna|90/100|[from] item: Life Orb
+|move|p2b: Lunala|Moonblast|p1b: Ursaluna
+|-damage|p1b: Ursaluna|26/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750766208
+|move|p1b: Ursaluna|Hyper Voice|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|-damage|p1b: Ursaluna|16/100|[from] item: Life Orb
+|
+|win|Light_Sky.L
+|raw|Light_Sky.L's rating: 1254 &rarr; <strong>1280</strong><br />(+26 for winning)
+|raw|Serbol03's rating: 1273 &rarr; <strong>1247</strong><br />(-26 for losing)

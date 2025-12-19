@@ -1,0 +1,135 @@
+|j|☆VbEsca
+|j|☆7yka0n
+|t:|1750800012
+|gametype|doubles
+|player|p1|VbEsca|265|1080
+|player|p2|7yka0n|1|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Porygon-Z, L50|
+|poke|p2|Conkeldurr, L50, F|
+|poke|p2|Gastrodon-East, L50, F|
+|teampreview|4
+|
+|t:|1750800052
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Porygon-Z|Porygon-Z, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750800087
+|move|p1b: Urshifu|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Urshifu
+|move|p1a: Calyrex|Astral Barrage|p2a: Koraidon|[spread] p2a
+|-immune|p2b: Porygon-Z
+|-damage|p2a: Koraidon|26/100
+|move|p2a: Koraidon|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|move|p2b: Porygon-Z|Icy Wind|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|78/100
+|-damage|p2b: Porygon-Z|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750800112
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|2
+|
+|t:|1750800139
+|-terastallize|p2b: Porygon-Z|Ground
+|move|p2a: Calyrex|Astral Barrage|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Zacian|18/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Porygon-Z|Tera Blast|p1a: Zacian|[anim] Tera Blast Ground
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-damage|p2b: Porygon-Z|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750800155
+|switch|p2a: Conkeldurr|Conkeldurr, L50, F|100/100
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750800179
+|-terastallize|p1a: Flutter Mane|Ghost
+|move|p1a: Flutter Mane|Energy Ball|p2b: Porygon-Z
+|-supereffective|p2b: Porygon-Z
+|-damage|p2b: Porygon-Z|10/100
+|move|p2b: Porygon-Z|Tera Blast|p1a: Flutter Mane|[anim] Tera Blast Ground
+|-damage|p1a: Flutter Mane|17/100
+|-damage|p2b: Porygon-Z|0 fnt|[from] item: Life Orb
+|faint|p2b: Porygon-Z
+|move|p2a: Conkeldurr|High Horsepower|p1a: Flutter Mane|[miss]
+|-miss|p2a: Conkeldurr|p1a: Flutter Mane
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750800194
+|move|p1a: Flutter Mane|Dazzling Gleam|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|win|VbEsca
+|raw|VbEsca's rating: 1080 &rarr; <strong>1111</strong><br />(+31 for winning)
+|raw|7yka0n's rating: 1119 &rarr; <strong>1091</strong><br />(-28 for losing)
+|c|☆7yka0n|gg
+|c|☆7yka0n|wow man
+|c|☆VbEsca|Gg
+|c|☆7yka0n|to bad
+|c|☆VbEsca|?
+|c|☆7yka0n|5% chance
+|c|☆7yka0n|unlucky
+|c|☆VbEsca|Sometimes you highroll
+|c|☆7yka0n|fair
+|c|☆7yka0n|gg man
+|l|☆VbEsca
+|player|p1|
+|l|☆7yka0n
+|player|p2|

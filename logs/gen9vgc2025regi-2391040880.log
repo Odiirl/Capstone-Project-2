@@ -1,0 +1,157 @@
+|j|‽andreas500
+|j|☆Invitado 1793701
+|t:|1750795761
+|gametype|doubles
+|player|p1|andreas500|2|1086
+|player|p2|Invitado 1793701|102|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Cresselia, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750795798
+|start
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by andreas500)
+|
+|t:|1750795827
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Invitado 1793701|move: Tailwind
+|move|p2a: Miraidon|Electro Drift|p1b: Ogerpon
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|47/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|15/100
+|-fieldend|move: Electric Terrain
+|move|p1b: Ogerpon|Taunt|p2b: Whimsicott
+|-start|p2b: Whimsicott|move: Taunt
+|
+|upkeep
+|turn|2
+|inactive|Invitado 1793701 has 30 seconds left.
+|
+|t:|1750795854
+|move|p2a: Miraidon|Volt Switch|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|40/100
+|
+|t:|1750795858
+|switch|p2a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|move|p2b: Whimsicott|Moonblast|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Lunala
+|-damage|p2a: Lunala|84/100
+|
+|-heal|p2a: Lunala|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750795871
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|3
+|inactive|Invitado 1793701 has 30 seconds left.
+|
+|t:|1750795905
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p2a: Lunala|97/100|[from] item: Leftovers
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750795916
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|4
+|
+|t:|1750795936
+|-terastallize|p1b: Kyogre|Ghost
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p1b: Kyogre|Tera Blast|p2a: Lunala|[anim] Tera Blast Ghost
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p2b: Ursaluna|Facade|p1b: Kyogre
+|-immune|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|-sideend|p2: Invitado 1793701|move: Tailwind
+|upkeep
+|
+|t:|1750795959
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|turn|5
+|
+|t:|1750795982
+|move|p2a: Whimsicott|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Whimsicott
+|move|p1a: Zamazenta|Body Press|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p1b: Kyogre|Water Spout|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750795992
+|switch|p2b: Miraidon|Miraidon, L50|15/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750796010
+|move|p2a: Whimsicott|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Whimsicott
+|move|p2b: Miraidon|Electro Drift|p1b: Kyogre
+|-damage|p1b: Kyogre|31/100
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Kyogre|Ice Beam|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|andreas500
+|raw|andreas500's rating: 1086 &rarr; <strong>1116</strong><br />(+30 for winning)
+|raw|Invitado 1793701's rating: 1129 &rarr; <strong>1101</strong><br />(-28 for losing)
+|l|☆Invitado 1793701
+|player|p2|

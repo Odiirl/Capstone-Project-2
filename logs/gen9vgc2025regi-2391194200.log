@@ -1,0 +1,147 @@
+|j|☆fan_sylve
+|j|☆masterdr6sh
+|t:|1750814646
+|gametype|doubles
+|player|p1|fan_sylve|101|1059
+|player|p2|masterdr6sh|ghetsis|1066
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Barraskewda, L50, F|
+|poke|p2|Dipplin, L50, M|
+|poke|p2|Toxicroak, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|
+|t:|1750814674
+|start
+|switch|p1a: VACALO|Calyrex-Shadow, L50|100/100
+|switch|p1b: Macaco|Rillaboom, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1a: VACALO|As One
+|-ability|p1a: VACALO|Unnerve
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Macaco
+|turn|1
+|
+|t:|1750814726
+|switch|p2a: Dipplin|Dipplin, L50, M, shiny|100/100
+|-terastallize|p1a: VACALO|Ghost
+|move|p1a: VACALO|Astral Barrage|p2b: Zacian|[spread] p2a,p2b
+|-damage|p2a: Dipplin|59/100
+|-damage|p2b: Zacian|35/100
+|move|p2b: Zacian|Play Rough|p1a: VACALO
+|-damage|p1a: VACALO|4/100
+|move|p1b: Macaco|Wood Hammer|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-damage|p1b: Macaco|91/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: VACALO|11/100|[from] Grassy Terrain
+|-heal|p1b: Macaco|97/100|[from] Grassy Terrain
+|-heal|p2a: Dipplin|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750814744
+|switch|p2b: Barraskewda|Barraskewda, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1750814758
+|move|p1a: VACALO|Protect|p1a: VACALO
+|-singleturn|p1a: VACALO|Protect
+|move|p2b: Barraskewda|Crunch|p1a: VACALO
+|-activate|p1a: VACALO|move: Protect
+|move|p1b: Macaco|U-turn|p2a: Dipplin
+|-supereffective|p2a: Dipplin
+|-damage|p2a: Dipplin|38/100
+|
+|t:|1750814766
+|switch|p1b: Ursinho|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|move|p2a: Dipplin|Recover|p2a: Dipplin
+|-heal|p2a: Dipplin|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: VACALO|17/100|[from] Grassy Terrain
+|-heal|p2a: Dipplin|94/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750814784
+|move|p2b: Barraskewda|Crunch|p1a: VACALO
+|-supereffective|p1a: VACALO
+|-damage|p1a: VACALO|0 fnt
+|faint|p1a: VACALO
+|-damage|p2b: Barraskewda|91/100|[from] item: Life Orb
+|move|p1b: Ursinho|U-turn|p2a: Dipplin
+|-supereffective|p2a: Dipplin
+|-damage|p2a: Dipplin|63/100
+|
+|t:|1750814795
+|switch|p1b: Cotonete|Whimsicott, L50, F|100/100|[from] U-turn
+|move|p2a: Dipplin|Giga Drain|p1b: Cotonete
+|-resisted|p1b: Cotonete
+|-damage|p1b: Cotonete|72/100
+|-heal|p2a: Dipplin|74/100|[from] drain|[of] p1b: Cotonete
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Barraskewda|97/100|[from] Grassy Terrain
+|-heal|p1b: Cotonete|78/100|[from] Grassy Terrain
+|-heal|p2a: Dipplin|80/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750814804
+|switch|p1a: Ursinho|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750814826
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|move|p1b: Cotonete|Tailwind|p1b: Cotonete
+|-sidestart|p1: fan_sylve|move: Tailwind
+|move|p1a: Ursinho|Surging Strikes|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|79/100
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|58/100
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|38/100
+|-hitcount|p2b: Kyogre|3
+|move|p2a: Dipplin|Giga Drain|p1a: Ursinho
+|-supereffective|p1a: Ursinho
+|-damage|p1a: Ursinho|0 fnt
+|-heal|p2a: Dipplin|100/100|[from] drain|[of] p1a: Ursinho
+|faint|p1a: Ursinho
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Cotonete|84/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|44/100|[from] Grassy Terrain
+|upkeep
+|-message|fan_sylve forfeited.
+|
+|win|masterdr6sh
+|raw|fan_sylve's rating: 1059 &rarr; <strong>1041</strong><br />(-18 for losing)
+|raw|masterdr6sh's rating: 1066 &rarr; <strong>1095</strong><br />(+29 for winning)
+|l|☆fan_sylve
+|player|p1|
+|l|☆masterdr6sh
+|player|p2|

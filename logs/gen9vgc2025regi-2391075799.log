@@ -1,0 +1,218 @@
+|j|☆Grimxcore
+|j|☆jestrid
+|t:|1750799641
+|gametype|doubles
+|player|p1|Grimxcore|blackbelt|1144
+|player|p2|jestrid|roxie|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Comfey, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grimxcore)
+|
+|t:|1750799663
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|inactive|Grimxcore has 30 seconds left.
+|inactive|jestrid has 30 seconds left.
+|
+|t:|1750799689
+|move|p1b: Incineroar|Fake Out|p2b: Amoonguss
+|-damage|p2b: Amoonguss|89/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p1a: Zamazenta|Heavy Slam|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|3/100
+|-damage|p1a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|-status|p1a: Zamazenta|slp|[from] ability: Effect Spore|[of] p2b: Amoonguss
+|move|p2a: Groudon|Eruption|p1a: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Zamazenta
+|-resisted|p1b: Incineroar
+|-damage|p1a: Zamazenta|18/100 slp
+|-damage|p1b: Incineroar|66/100
+|cant|p2b: Amoonguss|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Grimxcore has 30 seconds left.
+|
+|t:|1750799718
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|cant|p1a: Zamazenta|slp
+|move|p2a: Groudon|Eruption|p1a: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-resisted|p1b: Incineroar
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Incineroar|50/100
+|faint|p1a: Zamazenta
+|move|p1b: Incineroar|Flare Blitz|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799723
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1750799738
+|move|p1a: Rillaboom|Fake Out|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|faint|p2b: Amoonguss
+|move|p2a: Groudon|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-resisted|p1b: Incineroar
+|-damage|p1a: Rillaboom|19/100
+|-damage|p1b: Incineroar|33/100
+|move|p1b: Incineroar|Parting Shot|p2a: Groudon
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2a: Groudon|spa|1
+|
+|t:|1750799748
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100|[from] Parting Shot
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750799762
+|switch|p2b: Chandelure|Chandelure, L50, M|100/100
+|turn|4
+|
+|t:|1750799781
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1a: Rillaboom|Wood Hammer|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|2/100
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|move|p1b: Terapagos|Earth Power|p2b: Chandelure
+|-supereffective|p2b: Chandelure
+|-damage|p2b: Chandelure|26/100
+|move|p2b: Chandelure|Calm Mind|p2b: Chandelure
+|-boost|p2b: Chandelure|spa|1
+|-boost|p2b: Chandelure|spd|1
+|move|p2a: Groudon|Eruption|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|99/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|100/100|[from] Grassy Terrain
+|-heal|p2b: Chandelure|32/100|[from] Grassy Terrain
+|-heal|p2a: Groudon|8/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750799799
+|switch|p1a: Incineroar|Incineroar, L50, F|33/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2b: Chandelure|atk|1
+|turn|5
+|inactive|jestrid has 30 seconds left.
+|
+|t:|1750799830
+|move|p1a: Incineroar|Fake Out|p2a: Groudon
+|-damage|p2a: Groudon|1/100
+|move|p1b: Terapagos|Earth Power|p2b: Chandelure
+|-supereffective|p2b: Chandelure
+|-damage|p2b: Chandelure|0 fnt
+|faint|p2b: Chandelure
+|cant|p2a: Groudon|flinch
+|
+|-weather|none
+|-heal|p2a: Groudon|7/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750799841
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|turn|6
+|
+|t:|1750799866
+|move|p2b: Walking Wake|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|6/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2a: Groudon|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Incineroar|6/100
+|-damage|p1b: Terapagos|99/100
+|move|p1a: Incineroar|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-enditem|p2a: Groudon|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Groudon
+|
+|-heal|p1b: Terapagos|100/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|12/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750799887
+|move|p2b: Walking Wake|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750799902
+|move|p2b: Walking Wake|Flip Turn|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|93/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Walking Wake
+|-damage|p2b: Walking Wake|0 fnt
+|faint|p2b: Walking Wake
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|
+|win|Grimxcore
+|raw|Grimxcore's rating: 1144 &rarr; <strong>1162</strong><br />(+18 for winning)
+|raw|jestrid's rating: 1045 &rarr; <strong>1033</strong><br />(-12 for losing)
+|c|☆Grimxcore|GG
+|l|☆jestrid
+|player|p2|

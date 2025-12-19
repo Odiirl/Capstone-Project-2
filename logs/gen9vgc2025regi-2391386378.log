@@ -1,0 +1,192 @@
+|j|☆frmx
+|j|☆bonobobohemio
+|t:|1750848067
+|gametype|doubles
+|player|p1|frmx|2|1439
+|player|p2|bonobobohemio|drayden|1315
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Reshiram, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonobobohemio)
+|inactive|frmx has 60 seconds left.
+|
+|t:|1750848109
+|start
+|switch|p1a: Raichu|Raichu-Alola, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Murkrow|Murkrow, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750848121
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Raichu|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: bonobobohemio|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-enditem|p2a: Murkrow|Focus Sash
+|-damage|p2a: Murkrow|1/100
+|
+|t:|1750848136
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750848158
+|switch|p1b: Iron Jugulis|Iron Jugulis, L50|100/100
+|-activate|p1b: Iron Jugulis|ability: Quark Drive
+|-start|p1b: Iron Jugulis|quarkdrivespe
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Murkrow|Sunny Day|p2a: Murkrow
+|-weather|SunnyDay
+|move|p2b: Koraidon|Close Combat|p1b: Iron Jugulis
+|-crit|p1b: Iron Jugulis
+|-damage|p1b: Iron Jugulis|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Iron Jugulis
+|-end|p1b: Iron Jugulis|Quark Drive|[silent]
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Raichu|Nuzzle|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-crit|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|frmx has 30 seconds left.
+|
+|t:|1750848183
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Reshiram|Reshiram, L50, shiny|100/100
+|-ability|p2a: Reshiram|Turboblaze
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750848206
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|move|p1a: Raichu|Nuzzle|p2b: Ogerpon
+|-damage|p2b: Ogerpon|92/100
+|-status|p2b: Ogerpon|par
+|move|p2a: Reshiram|Draco Meteor|p1b: Kyogre
+|-damage|p1b: Kyogre|59/100
+|-unboost|p2a: Reshiram|spa|2
+|move|p1b: Kyogre|Origin Pulse|p2a: Reshiram|[spread] p2a
+|-heal|p2b: Ogerpon|100/100 par|[from] ability: Water Absorb|[of] p1b: Kyogre
+|-damage|p2a: Reshiram|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750848222
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Raichu|Nuzzle|p2a: Reshiram
+|-resisted|p2a: Reshiram
+|-damage|p2a: Reshiram|53/100
+|-status|p2a: Reshiram|par
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Raichu|[anim] Ivy Cudgel Water
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|cant|p2a: Reshiram|par
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: bonobobohemio|move: Tailwind
+|upkeep
+|
+|t:|1750848232
+|switch|p1a: Kyogre|Kyogre, L50|59/100
+|turn|5
+|inactive|frmx has 30 seconds left.
+|inactive|frmx has 20 seconds left.
+|inactive|frmx has 15 seconds left.
+|inactive|frmx has 10 seconds left.
+|
+|t:|1750848278
+|-terastallize|p1b: Miraidon|Fairy
+|cant|p2b: Ogerpon|par
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Reshiram|[spread] p2a,p2b
+|-damage|p2a: Reshiram|20/100 par
+|-damage|p2b: Ogerpon|36/100 par
+|move|p1a: Kyogre|Ice Beam|p2b: Ogerpon
+|-damage|p2b: Ogerpon|1/100 par
+|move|p2a: Reshiram|Draco Meteor|p1a: Kyogre
+|-damage|p1a: Kyogre|39/100
+|-unboost|p2a: Reshiram|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750848296
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Ogerpon|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p2a: Reshiram|0 fnt
+|faint|p2a: Reshiram
+|move|p1a: Kyogre|Ice Beam|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750848301
+|switch|p2a: Koraidon|Koraidon, L50, tera:Fire|91/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750848306
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|67/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Koraidon|Flare Blitz|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-damage|p2a: Koraidon|34/100|[from] Recoil
+|-damage|p2a: Koraidon|24/100|[from] item: Life Orb
+|move|p1a: Kyogre|Origin Pulse|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|win|frmx
+|raw|frmx's rating: 1439 &rarr; <strong>1452</strong><br />(+13 for winning)
+|raw|bonobobohemio's rating: 1315 &rarr; <strong>1302</strong><br />(-13 for losing)
+|l|☆bonobobohemio
+|player|p2|
+|l|☆frmx
+|player|p1|

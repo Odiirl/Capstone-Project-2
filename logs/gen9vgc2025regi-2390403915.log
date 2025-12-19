@@ -1,0 +1,247 @@
+|j|☆La Firma VGC
+|j|☆narphase
+|t:|1750709471
+|gametype|doubles
+|player|p1|La Firma VGC|shadowtriad|1464
+|player|p2|narphase|volkner|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Raichu-Alola, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by La Firma VGC)
+|inactive|La Firma VGC has 60 seconds left.
+|
+|t:|1750709510
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Thundurus|Thundurus, L50, M|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|narphase has 30 seconds left.
+|
+|t:|1750709539
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p1b: Thundurus|Thunder Wave|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p2a: Iron Hands|Drain Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|55/100
+|
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750709554
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Thundurus|Thunder Wave|p2b: Miraidon
+|-immune|p2b: Miraidon
+|move|p1a: Rillaboom|High Horsepower|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|13/100
+|-damage|p1a: Rillaboom|51/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Drain Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1750709571
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750709589
+|-terastallize|p2a: Iron Hands|Water
+|move|p2b: Miraidon|Draco Meteor|p1b: Thundurus
+|-damage|p1b: Thundurus|10/100
+|-unboost|p2b: Miraidon|spa|2
+|move|p1a: Kyogre|Water Spout|p2a: Iron Hands|[spread] p2a,p2b
+|-resisted|p2a: Iron Hands
+|-resisted|p2b: Miraidon
+|-damage|p2a: Iron Hands|72/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p1b: Thundurus|Wildbolt Storm|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|24/100
+|move|p2a: Iron Hands|Low Kick|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750709610
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|inactive|La Firma VGC has 30 seconds left.
+|
+|t:|1750709636
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Thundurus|Thunder Wave|p2b: Zamazenta
+|-status|p2b: Zamazenta|par
+|move|p2a: Iron Hands|Low Kick|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|move|p1a: Calyrex|Leech Seed|p2a: Iron Hands
+|-start|p2a: Iron Hands|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|48/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|12/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|62/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750709657
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Thundurus|Wildbolt Storm|p2b: Zamazenta|[spread] p2a,p2b
+|-crit|p2b: Zamazenta
+|-damage|p2a: Volcarona|72/100
+|-damage|p2b: Zamazenta|70/100 par
+|cant|p2b: Zamazenta|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|78/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750709681
+|-terastallize|p1a: Calyrex|Water
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Thundurus|Taunt|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|cant|p2b: Zamazenta|par
+|move|p1a: Calyrex|Leech Seed|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|84/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|74/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|c|☆narphase|dude
+|inactive|La Firma VGC has 30 seconds left.
+|
+|t:|1750709706
+|move|p2a: Volcarona|Struggle Bug|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Thundurus
+|-damage|p1a: Calyrex|65/100
+|-damage|p1b: Thundurus|3/100
+|-unboost|p1a: Calyrex|spa|1
+|move|p1b: Thundurus|Wildbolt Storm|p2b: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Volcarona|56/100
+|-damage|p2b: Zamazenta|50/100 par
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|34/100
+|move|p1a: Calyrex|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Volcarona|62/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|40/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|50/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|51/100|[silent]
+|upkeep
+|turn|8
+|inactive|La Firma VGC has 30 seconds left.
+|
+|t:|1750709735
+|move|p1b: Thundurus|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|move|p2a: Volcarona|Struggle Bug|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Thundurus
+|-crit|p1b: Thundurus
+|-damage|p1a: Calyrex|41/100
+|-damage|p1b: Thundurus|0 fnt
+|-unboost|p1a: Calyrex|spa|1
+|faint|p1b: Thundurus
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|11/100
+|move|p1a: Calyrex|Leech Seed|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Leech Seed
+|
+|-heal|p2a: Volcarona|56/100 par|[from] item: Leftovers
+|-heal|p1a: Calyrex|17/100|[from] item: Leftovers
+|-damage|p2b: Zamazenta|38/100 par|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|29/100|[silent]
+|-damage|p2a: Volcarona|44/100 par|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|40/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1750709754
+|switch|p2a: Iron Hands|Iron Hands, L50, tera:Water|12/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|46/100|[from] item: Leftovers
+|-damage|p2b: Zamazenta|25/100 par|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|58/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1750709768
+|switch|p2b: Volcarona|Volcarona, L50, F|44/100 par
+|move|p2a: Iron Hands|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|48/100
+|cant|p1a: Calyrex|flinch
+|
+|-heal|p2b: Volcarona|50/100 par|[from] item: Leftovers
+|-heal|p1a: Calyrex|54/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750709781
+|move|p2a: Iron Hands|Wild Charge|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Iron Hands|0 fnt|[from] Recoil
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|narphase
+|raw|La Firma VGC's rating: 1464 &rarr; <strong>1441</strong><br />(-23 for losing)
+|raw|narphase's rating: 1420 &rarr; <strong>1443</strong><br />(+23 for winning)
+|l|☆La Firma VGC
+|player|p1|
+|l|☆narphase
+|player|p2|

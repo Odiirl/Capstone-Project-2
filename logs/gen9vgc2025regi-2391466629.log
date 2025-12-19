@@ -1,0 +1,194 @@
+|j|☆Greghammer
+|j|☆sturbyy
+|t:|1750859694
+|gametype|doubles
+|player|p1|Greghammer|266|1546
+|player|p2|sturbyy|2|1657
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|j| Natural harmoni2
+|j| Rhizzen
+|
+|t:|1750859741
+|start
+|switch|p1a: PrettyPlease|Smeargle, L50, F|100/100
+|switch|p1b: Hallucinate|Terapagos, L50, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-activate|p1b: Hallucinate|ability: Tera Shift
+|detailschange|p1b: Hallucinate|Terapagos-Terastal, L50, M
+|-heal|p1b: Hallucinate|100/100|[silent]
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750859754
+|move|p1a: PrettyPlease|Fake Out|p2a: Urshifu
+|-damage|p2a: Urshifu|95/100
+|cant|p2a: Urshifu|flinch
+|move|p1b: Hallucinate|Tera Starstorm|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|move|p2b: Calyrex|Glacial Lance|p1b: Hallucinate|[spread] p1a,p1b
+|-activate|p1b: Hallucinate|ability: Tera Shell
+|-resisted|p1b: Hallucinate
+|-damage|p1a: PrettyPlease|6/100
+|-damage|p1b: Hallucinate|76/100
+|
+|-ability|p1a: PrettyPlease|Moody|boost
+|-boost|p1a: PrettyPlease|spa|2
+|-unboost|p1a: PrettyPlease|spd|1
+|upkeep
+|
+|t:|1750859763
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|2
+|
+|t:|1750859775
+|move|p1a: PrettyPlease|Follow Me|p1a: PrettyPlease
+|-singleturn|p1a: PrettyPlease|move: Follow Me
+|move|p2a: Miraidon|Volt Switch|p1a: PrettyPlease
+|-damage|p1a: PrettyPlease|0 fnt
+|faint|p1a: PrettyPlease
+|
+|t:|1750859781
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100|[from] Volt Switch
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1b: Hallucinate|Tera Starstorm|p2a: Farigiraf
+|-damage|p2a: Farigiraf|11/100
+|move|p2b: Calyrex|Leech Seed|p1b: Hallucinate
+|-start|p1b: Hallucinate|move: Leech Seed
+|
+|-damage|p1b: Hallucinate|64/100|[from] Leech Seed|[of] p2b: Calyrex
+|upkeep
+|
+|t:|1750859800
+|switch|p1a: Physical|Iron Hands, L50|100/100
+|-activate|p1a: Physical|ability: Quark Drive
+|-start|p1a: Physical|quarkdriveatk
+|turn|3
+|l|☆sturbyy
+|player|p2|
+|j|☆sturbyy
+|player|p2|sturbyy|2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Greghammer)
+|
+|t:|1750859864
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Hallucinate|Tera Starstorm|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1a: Physical|Low Kick|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-damage|p1b: Hallucinate|52/100|[from] Leech Seed|[of] p2b: Calyrex
+|upkeep
+|
+|t:|1750859875
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750859896
+|-terastallize|p1b: Hallucinate|Stellar
+|detailschange|p1b: Hallucinate|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Hallucinate|65/100|[silent]
+|-ability|p1b: Hallucinate|Teraform Zero
+|-fieldend|move: Electric Terrain
+|-end|p1a: Physical|Quark Drive
+|move|p2a: Miraidon|Draco Meteor|p1b: Hallucinate
+|-damage|p1b: Hallucinate|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Hallucinate
+|detailschange|p1: Hallucinate|Terapagos, L50, M|[silent]
+|move|p1a: Physical|Low Kick|p2a: Miraidon
+|-damage|p2a: Miraidon|40/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750859911
+|switch|p1b: Levitating|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Levitating|As One
+|-ability|p1b: Levitating|Unnerve
+|turn|5
+|
+|t:|1750859918
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Physical|Low Kick|p2b: Calyrex
+|-damage|p2b: Calyrex|56/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Physical|[spread] p1a,p1b
+|-damage|p1a: Physical|67/100
+|-damage|p1b: Levitating|40/100
+|move|p2a: Miraidon|Draco Meteor|p1b: Levitating
+|-damage|p1b: Levitating|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Levitating
+|
+|-heal|p2b: Calyrex|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750859934
+|move|p1a: Physical|Low Kick|p2b: Calyrex
+|-damage|p2b: Calyrex|17/100
+|move|p2b: Calyrex|Leech Seed|p1a: Physical
+|-start|p1a: Physical|move: Leech Seed
+|move|p2a: Miraidon|Draco Meteor|p1a: Physical
+|-damage|p1a: Physical|47/100
+|-unboost|p2a: Miraidon|spa|2
+|
+|-heal|p2b: Calyrex|23/100|[from] item: Leftovers
+|-damage|p1a: Physical|34/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|37/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750859948
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Physical|Low Kick|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|6/100
+|move|p2a: Miraidon|Draco Meteor|p1a: Physical
+|-damage|p1a: Physical|19/100
+|
+|-heal|p2b: Calyrex|43/100|[from] item: Leftovers
+|-damage|p1a: Physical|6/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|57/100|[silent]
+|upkeep
+|turn|8
+|-message|Greghammer forfeited.
+|
+|win|sturbyy
+|raw|Greghammer's rating: 1546 &rarr; <strong>1532</strong><br />(-14 for losing)
+|raw|sturbyy's rating: 1657 &rarr; <strong>1671</strong><br />(+14 for winning)
+|l|☆Greghammer
+|player|p1|
+|c|☆sturbyy|Gg
+|l|☆sturbyy
+|player|p2|
+|l| Natural harmoni2

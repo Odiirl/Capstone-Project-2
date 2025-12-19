@@ -1,0 +1,195 @@
+|j|☆shockeim
+|j|☆HelloPathfinder
+|t:|1750845896
+|gametype|doubles
+|player|p1|shockeim|palmer|1420
+|player|p2|HelloPathfinder|101|1421
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HelloPathfinder)
+|inactive|shockeim has 60 seconds left.
+|inactive|HelloPathfinder has 60 seconds left.
+|
+|t:|1750845951
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p2a: Wo-Chien|Wo-Chien, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|1
+|
+|t:|1750845971
+|-terastallize|p2b: Zacian|Ground
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: shockeim|move: Tailwind
+|move|p1a: Miraidon|Electro Drift|p2b: Zacian
+|-immune|p2b: Zacian
+|move|p2b: Zacian|Behemoth Blade|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p2a: Wo-Chien|Leech Seed|p1a: Miraidon
+|-start|p1a: Miraidon|move: Leech Seed
+|
+|-damage|p1a: Miraidon|88/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|upkeep
+|
+|t:|1750845979
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|2
+|inactive|HelloPathfinder has 30 seconds left.
+|inactive|HelloPathfinder has 20 seconds left.
+|inactive|HelloPathfinder has 15 seconds left.
+|inactive|HelloPathfinder has 10 seconds left.
+|inactive|HelloPathfinder has 5 seconds left.
+|
+|t:|1750846033
+|move|p1a: Miraidon|Electro Drift|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|57/100
+|move|p1b: Urshifu|Surging Strikes|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-crit|p2b: Zacian
+|-damage|p2b: Zacian|60/100
+|-supereffective|p2b: Zacian
+|-crit|p2b: Zacian
+|-damage|p2b: Zacian|19/100
+|-supereffective|p2b: Zacian
+|-crit|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-hitcount|p2: Zacian|3
+|move|p2a: Wo-Chien|Pollen Puff|p2: Zacian|[notarget]
+|-fail|p2a: Wo-Chien
+|
+|-heal|p2a: Wo-Chien|64/100|[from] item: Leftovers
+|-damage|p1a: Miraidon|75/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|75/100|[silent]
+|upkeep
+|
+|t:|1750846054
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|
+|t:|1750846064
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: HelloPathfinder|move: Tailwind
+|move|p1a: Miraidon|Electro Drift|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-enditem|p2b: Tornadus|Focus Sash
+|-damage|p2b: Tornadus|1/100
+|move|p1b: Urshifu|Surging Strikes|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|66/100
+|-resisted|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|58/100
+|-resisted|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|49/100
+|-hitcount|p2a: Wo-Chien|3
+|move|p2a: Wo-Chien|Foul Play|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|77/100
+|
+|-heal|p2a: Wo-Chien|56/100|[from] item: Leftovers
+|-damage|p1a: Miraidon|63/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|67/100|[silent]
+|upkeep
+|turn|4
+|inactive|HelloPathfinder has 30 seconds left.
+|inactive|shockeim has 30 seconds left.
+|
+|t:|1750846098
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-terastallize|p1b: Urshifu|Ghost
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p1b: Urshifu|Surging Strikes|p2b: Tornadus
+|-crit|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|-hitcount|p2: Tornadus|1
+|move|p2a: Wo-Chien|Leech Seed|p1b: Urshifu
+|-start|p1b: Urshifu|move: Leech Seed
+|
+|-heal|p2a: Wo-Chien|73/100|[from] item: Leftovers
+|-damage|p1b: Urshifu|65/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|85/100|[silent]
+|-sideend|p1: shockeim|move: Tailwind
+|upkeep
+|
+|t:|1750846116
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|5
+|
+|t:|1750846125
+|move|p2b: Landorus|Earth Power|p1a: Calyrex
+|-damage|p1a: Calyrex|20/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Landorus|[spread] p2a,p2b
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|64/100
+|-damage|p2b: Landorus|15/100
+|-damage|p1a: Calyrex|10/100|[from] item: Life Orb
+|move|p2a: Wo-Chien|Foul Play|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-heal|p2a: Wo-Chien|70/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750846134
+|switch|p1b: Miraidon|Miraidon, L50|63/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750846145
+|move|p2b: Landorus|Earth Power|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Calyrex|Astral Barrage|p2a: Wo-Chien|[spread] p2a,p2b
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|47/100
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p1a: Calyrex
+|
+|win|HelloPathfinder
+|raw|shockeim's rating: 1420 &rarr; <strong>1400</strong><br />(-20 for losing)
+|raw|HelloPathfinder's rating: 1421 &rarr; <strong>1441</strong><br />(+20 for winning)
+|l|☆shockeim
+|player|p1|
+|l|☆HelloPathfinder
+|player|p2|

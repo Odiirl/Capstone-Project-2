@@ -1,0 +1,259 @@
+|j|☆Venquas
+|j|☆Light_Sky.L
+|t:|1750856114
+|gametype|doubles
+|player|p1|Venquas|102|1291
+|player|p2|Light_Sky.L|1|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Light_Sky.L)
+|
+|t:|1750856145
+|start
+|switch|p1a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Ogerpon|Mold Breaker
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|turn|1
+|
+|t:|1750856165
+|move|p2b: Incineroar|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|92/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|Reflect
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Grimmsnarl|[anim] Ivy Cudgel Fire
+|-damage|p2a: Grimmsnarl|70/100
+|cant|p1b: Iron Hands|flinch
+|
+|upkeep
+|turn|2
+|inactive|Light_Sky.L has 30 seconds left.
+|
+|t:|1750856194
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ogerpon|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Ogerpon
+|move|p2b: Incineroar|Will-O-Wisp|p1a: Ogerpon
+|-immune|p1a: Ogerpon
+|
+|upkeep
+|turn|3
+|inactive|Venquas has 30 seconds left.
+|
+|t:|1750856220
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Light_Sky.L|move: Light Screen
+|move|p1b: Miraidon|Volt Switch|p2b: Incineroar
+|-damage|p2b: Incineroar|22/100
+|
+|t:|1750856227
+|switch|p1b: Iron Hands|Iron Hands, L50|92/100|[from] Volt Switch
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p2b: Incineroar|Parting Shot|p1b: Iron Hands
+|-unboost|p1b: Iron Hands|atk|1
+|-unboost|p1b: Iron Hands|spa|1
+|
+|t:|1750856234
+|switch|p2b: Wo-Chien|Wo-Chien, L50|100/100|[from] Parting Shot
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|
+|upkeep
+|turn|4
+|
+|t:|1750856246
+|move|p1b: Iron Hands|Fake Out|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|95/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|cant|p2b: Wo-Chien|flinch
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Grimmsnarl|[anim] Ivy Cudgel Fire
+|-damage|p2a: Grimmsnarl|47/100
+|
+|-heal|p2b: Wo-Chien|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750856261
+|move|p2b: Wo-Chien|Leech Seed|p1b: Iron Hands
+|-start|p1b: Iron Hands|move: Leech Seed
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|56/100
+|-unboost|p1b: Iron Hands|spa|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Grimmsnarl|[anim] Ivy Cudgel Fire
+|-damage|p2a: Grimmsnarl|24/100
+|move|p1b: Iron Hands|Low Kick|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-damage|p1b: Iron Hands|44/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|upkeep
+|
+|t:|1750856274
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750856296
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p2b: Wo-Chien|Foul Play|p1a: Ogerpon
+|-damage|p1a: Ogerpon|65/100 par
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750856313
+|-terastallize|p2a: Miraidon|Electric
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Wo-Chien
+|-damage|p2a: Miraidon|84/100
+|-damage|p2b: Wo-Chien|55/100
+|move|p2b: Wo-Chien|Pollen Puff|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100 par
+|
+|-heal|p2b: Wo-Chien|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750856337
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Miraidon|Parabolic Charge|p1b: Miraidon|[spread] p2b,p1a,p1b
+|-resisted|p2b: Wo-Chien
+|-resisted|p1a: Ogerpon
+|-damage|p2b: Wo-Chien|46/100
+|-heal|p2a: Miraidon|92/100|[from] drain|[of] p2b: Wo-Chien
+|-damage|p1a: Ogerpon|7/100 par
+|-heal|p2a: Miraidon|100/100|[from] drain|[of] p1a: Ogerpon
+|-damage|p1b: Miraidon|38/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Wo-Chien
+|-damage|p2a: Miraidon|84/100
+|-damage|p2b: Wo-Chien|3/100
+|move|p2b: Wo-Chien|Foul Play|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2b: Wo-Chien|9/100|[from] item: Leftovers
+|-sideend|p2: Light_Sky.L|Reflect
+|upkeep
+|
+|t:|1750856351
+|switch|p1a: Iron Hands|Iron Hands, L50|44/100
+|turn|9
+|
+|t:|1750856360
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p1a: Iron Hands|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|72/100
+|move|p2a: Miraidon|Parabolic Charge|p1b: Miraidon|[spread] p1a,p1b
+|-activate|p2b: Wo-Chien|move: Protect
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|27/100
+|-heal|p2a: Miraidon|84/100|[from] drain|[of] p1a: Iron Hands
+|-damage|p1b: Miraidon|0 fnt
+|-heal|p2a: Miraidon|100/100|[from] drain|[of] p1b: Miraidon
+|faint|p1b: Miraidon
+|
+|-heal|p2b: Wo-Chien|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750856372
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750856393
+|move|p2a: Miraidon|Parabolic Charge|p1b: Calyrex|[spread] p2b,p1a,p1b
+|-resisted|p2b: Wo-Chien
+|-resisted|p1a: Iron Hands
+|-damage|p2b: Wo-Chien|0 fnt
+|-damage|p1a: Iron Hands|8/100
+|-damage|p1b: Calyrex|54/100
+|faint|p2b: Wo-Chien
+|move|p1a: Iron Hands|Drain Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|52/100
+|-heal|p1a: Iron Hands|26/100|[from] drain|[of] p2a: Miraidon
+|move|p1b: Calyrex|High Horsepower|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-sideend|p2: Light_Sky.L|move: Light Screen
+|upkeep
+|
+|t:|1750856416
+|switch|p2a: Incineroar|Incineroar, L50, F|22/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|11
+|
+|t:|1750856424
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|2/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Calyrex|High Horsepower|p2a: Incineroar|[miss]
+|-miss|p1b: Calyrex|p2a: Incineroar
+|move|p1a: Iron Hands|Low Kick|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1a: Iron Hands|10/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|
+|win|Venquas
+|raw|Venquas's rating: 1291 &rarr; <strong>1318</strong><br />(+27 for winning)
+|raw|Light_Sky.L's rating: 1312 &rarr; <strong>1291</strong><br />(-21 for losing)
+|l|☆Light_Sky.L
+|player|p2|
+|l|☆Venquas
+|player|p1|

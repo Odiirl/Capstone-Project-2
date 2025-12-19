@@ -1,0 +1,274 @@
+|j|☆Touchfirestone
+|j|☆Vkh
+|t:|1750797156
+|gametype|doubles
+|player|p1|Touchfirestone|flannery|1171
+|player|p2|Vkh|2|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Houndoom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Touchfirestone)
+|
+|t:|1750797194
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750797217
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Vkh|Reflect
+|move|p1a: Koraidon|Heavy Slam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|8/100
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Touchfirestone|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750797240
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Koraidon
+|-status|p1a: Koraidon|par
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|cant|p1a: Koraidon|par
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797253
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Ho-Oh|atk|1
+|turn|3
+|
+|t:|1750797271
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|move|p2a: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|93/100
+|move|p1b: Ho-Oh|Brave Bird|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|92/100
+|-damage|p1b: Ho-Oh|98/100|[from] Recoil
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Ho-Oh|100/100|[from] item: Leftovers
+|-heal|p2b: Terapagos|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Touchfirestone has 30 seconds left.
+|
+|t:|1750797303
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Ho-Oh|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Incineroar|100/100
+|-fail|p1b: Ho-Oh|heal
+|move|p1a: Incineroar|Parting Shot|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|75/100
+|-enditem|p1b: Ho-Oh|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|-sideend|p1: Touchfirestone|move: Tailwind
+|upkeep
+|turn|5
+|inactive|Vkh has 30 seconds left.
+|inactive|Vkh has 20 seconds left.
+|
+|t:|1750797343
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Touchfirestone|move: Tailwind
+|move|p1a: Incineroar|Parting Shot|p2b: Terapagos
+|-unboost|p2b: Terapagos|atk|1
+|-unboost|p2b: Terapagos|spa|1
+|
+|t:|1750797354
+|switch|p1a: Houndoom|Houndoom, L50, F|100/100|[from] Parting Shot
+|move|p2b: Terapagos|Tera Starstorm|p1b: Ho-Oh|[spread] p1a,p1b
+|-damage|p1a: Houndoom|40/100
+|-damage|p1b: Ho-Oh|48/100
+|move|p2a: Incineroar|Knock Off|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|31/100
+|
+|upkeep
+|turn|6
+|
+|t:|1750797373
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|move|p1a: Houndoom|Heat Wave|p2a: Incineroar|[spread] p2b
+|-miss|p1a: Houndoom|p2a: Incineroar
+|-damage|p2b: Terapagos|91/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Incineroar|U-turn|p1a: Houndoom
+|-damage|p1a: Houndoom|19/100
+|
+|t:|1750797386
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-heal|p2b: Terapagos|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750797409
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1a: Houndoom|Sucker Punch||[still]
+|-fail|p1a: Houndoom
+|
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750797429
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Houndoom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p1a: Houndoom|Protect|p1a: Houndoom
+|-singleturn|p1a: Houndoom|Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Terapagos
+|-unboost|p2b: Terapagos|atk|1
+|-unboost|p2b: Terapagos|spa|1
+|
+|t:|1750797434
+|switch|p1b: Ho-Oh|Ho-Oh, L50|64/100|[from] Parting Shot
+|move|p2b: Terapagos|Tera Starstorm|p1b: Ho-Oh|[spread] p1b
+|-activate|p1a: Houndoom|move: Protect
+|-damage|p1b: Ho-Oh|37/100
+|
+|-sideend|p2: Vkh|Reflect
+|-sideend|p1: Touchfirestone|move: Tailwind
+|upkeep
+|turn|9
+|inactive|Vkh has 30 seconds left.
+|
+|t:|1750797461
+|move|p2a: Incineroar|Fake Out|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|26/100
+|move|p1a: Houndoom|Sucker Punch|p2b: Terapagos
+|-damage|p2b: Terapagos|89/100
+|cant|p1b: Ho-Oh|flinch
+|move|p2b: Terapagos|Tera Starstorm|p1a: Houndoom|[spread] p1a,p1b
+|-damage|p1a: Houndoom|0 fnt
+|-damage|p1b: Ho-Oh|1/100
+|faint|p1a: Houndoom
+|
+|-heal|p2b: Terapagos|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750797472
+|switch|p1a: Koraidon|Koraidon, L50|91/100 par
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|10
+|
+|t:|1750797487
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|cant|p1a: Koraidon|par
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Touchfirestone|move: Tailwind
+|move|p2a: Incineroar|U-turn|p1b: Ho-Oh
+|-resisted|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|
+|t:|1750797497
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750797499
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|turn|11
+|
+|t:|1750797517
+|-terastallize|p1a: Koraidon|Stellar
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Terapagos
+|-damage|p2b: Terapagos|94/100
+|cant|p1a: Koraidon|par
+|cant|p2b: Terapagos|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-message|Touchfirestone forfeited.
+|
+|win|Vkh
+|raw|Touchfirestone's rating: 1171 &rarr; <strong>1153</strong><br />(-18 for losing)
+|raw|Vkh's rating: 1272 &rarr; <strong>1290</strong><br />(+18 for winning)
+|l|☆Touchfirestone
+|player|p1|
+|l|☆Vkh
+|player|p2|

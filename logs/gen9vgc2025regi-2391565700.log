@@ -1,0 +1,196 @@
+|j|☆jscampos
+|j|☆appax234)
+|t:|1750870743
+|gametype|doubles
+|player|p1|jscampos|steven|1108
+|player|p2|appax234)|101|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Regigigas, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750870758
+|start
+|switch|p1a: Weezing|Weezing, L50, M, shiny|100/100
+|switch|p1b: Regigigas|Regigigas, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jscampos)
+|
+|t:|1750870788
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|move|p1b: Regigigas|Knock Off|p2a: Miraidon
+|-damage|p2a: Miraidon|68/100
+|-enditem|p2a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1b: Regigigas
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: appax234)|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1750870809
+|move|p2a: Miraidon|Volt Switch|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|33/100
+|
+|t:|1750870813
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Regigigas|High Horsepower|p2a: Calyrex
+|-damage|p2a: Calyrex|87/100
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: appax234)|move: Light Screen
+|move|p1a: Weezing|Sludge Bomb|p2a: Calyrex
+|-damage|p2a: Calyrex|76/100
+|-status|p2a: Calyrex|psn
+|
+|-heal|p2a: Calyrex|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Calyrex|70/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750870835
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Regigigas|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100 psn
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1b: Regigigas
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Regigigas
+|-status|p1b: Regigigas|par
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-damage|p2a: Calyrex|30/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750870850
+|move|p1b: Regigigas|Wide Guard|p1b: Regigigas
+|-singleturn|p1b: Regigigas|Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1b: Regigigas|[spread] 
+|-activate|p1a: Weezing|move: Wide Guard
+|-activate|p1b: Regigigas|move: Wide Guard
+|move|p1a: Weezing|Taunt|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Taunt
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Regigigas
+|-damage|p1b: Regigigas|78/100 par
+|
+|-damage|p2a: Calyrex|18/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750870864
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Regigigas|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Regigigas
+|-damage|p1b: Regigigas|57/100 par
+|
+|upkeep
+|
+|t:|1750870870
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|turn|6
+|
+|t:|1750870888
+|cant|p1b: Regigigas|par
+|move|p1a: Weezing|Taunt|p2a: Incineroar
+|-start|p2a: Incineroar|move: Taunt
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Regigigas
+|-damage|p1b: Regigigas|36/100 par
+|move|p2a: Incineroar|Knock Off|p1a: Weezing
+|-damage|p1a: Weezing|7/100
+|-enditem|p1a: Weezing|Mental Herb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-end|p2b: Grimmsnarl|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1750870907
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Regigigas|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Regigigas
+|-damage|p1b: Regigigas|16/100 par
+|move|p2a: Incineroar|Flare Blitz|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750870920
+|move|p1a: Weezing|Protect||[still]
+|-fail|p1a: Weezing
+|move|p2a: Incineroar|Flare Blitz|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Regigigas|atk|1
+|-start|p1b: Regigigas|ability: Slow Start
+|-damage|p2a: Incineroar|49/100|[from] Recoil
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Regigigas
+|-damage|p1b: Regigigas|0 fnt
+|faint|p1b: Regigigas
+|-end|p1b: Regigigas|Slow Start|[silent]
+|
+|-end|p2a: Incineroar|move: Taunt
+|-sideend|p2: appax234)|Reflect
+|upkeep
+|
+|t:|1750870924
+|switch|p1b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|9
+|l|☆appax234)
+|inactive|appax234) disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|appax234) has 30 seconds left.
+|inactive|appax234) has 20 seconds left.
+|inactive|appax234) has 15 seconds left.
+|inactive|appax234) has 10 seconds left.
+|inactive|appax234) has 5 seconds left.
+|-message|appax234) lost due to inactivity.
+|
+|win|jscampos
+|raw|jscampos's rating: 1108 &rarr; <strong>1136</strong><br />(+28 for winning)
+|raw|appax234)'s rating: 1154 &rarr; <strong>1126</strong><br />(-28 for losing)
+|j|☆appax234)
+|player|p2|appax234)|101|
+|l|☆appax234)
+|player|p2|
+|l|☆jscampos
+|player|p1|

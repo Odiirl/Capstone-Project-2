@@ -1,0 +1,162 @@
+|j|☆Zazzary
+|j|☆Boulette14
+|t:|1750877783
+|gametype|doubles
+|player|p1|Zazzary|wallace|1080
+|player|p2|Boulette14|2|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Bellibolt, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|
+|t:|1750877820
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Bellibolt|Bellibolt, L50, F|100/100
+|switch|p2a: Napoléon|Calyrex-Ice, L50|100/100
+|switch|p2b: Jeanne D'arc|Indeedee-F, L50, F, shiny|100/100
+|-ability|p2a: Napoléon|As One
+|-ability|p2a: Napoléon|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Jeanne D'arc
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1750877840
+|move|p2b: Jeanne D'arc|Follow Me|p2b: Jeanne D'arc
+|-singleturn|p2b: Jeanne D'arc|move: Follow Me
+|move|p1a: Tyranitar|Knock Off|p2b: Jeanne D'arc
+|-supereffective|p2b: Jeanne D'arc
+|-damage|p2b: Jeanne D'arc|0 fnt
+|-damage|p1a: Tyranitar|84/100|[from] item: Rocky Helmet|[of] p2b: Jeanne D'arc
+|-enditem|p2b: Jeanne D'arc|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2b: Jeanne D'arc
+|move|p1b: Bellibolt|Discharge|p2a: Napoléon|[spread] p1a,p2a
+|-damage|p1a: Tyranitar|67/100
+|-damage|p2a: Napoléon|83/100
+|-status|p1a: Tyranitar|par
+|move|p2a: Napoléon|Trick Room|p2a: Napoléon
+|-fieldstart|move: Trick Room|[of] p2a: Napoléon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Napoléon|77/100|[from] Sandstorm
+|-damage|p1b: Bellibolt|94/100|[from] Sandstorm
+|-heal|p1b: Bellibolt|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750877865
+|switch|p2b: Marie Antoinette|Hatterene, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1750877881
+|cant|p1a: Tyranitar|par
+|move|p2b: Marie Antoinette|Expanding Force|p1a: Tyranitar|[spread] p1b
+|-immune|p1a: Tyranitar
+|-damage|p1b: Bellibolt|13/100
+|-start|p1b: Bellibolt|Charge|Expanding Force|[from] ability: Electromorphosis
+|-damage|p2b: Marie Antoinette|91/100|[from] item: Life Orb
+|move|p2a: Napoléon|Glacial Lance|p1b: Bellibolt|[spread] p1a,p1b
+|-damage|p1a: Tyranitar|15/100 par
+|-damage|p1b: Bellibolt|0 fnt
+|faint|p1b: Bellibolt
+|-ability|p2a: Napoléon|Chilling Neigh|boost
+|-boost|p2a: Napoléon|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Marie Antoinette|85/100|[from] Sandstorm
+|-damage|p2a: Napoléon|71/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750877897
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750877908
+|-terastallize|p2a: Napoléon|Fairy
+|move|p2a: Napoléon|Protect|p2a: Napoléon
+|-singleturn|p2a: Napoléon|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Tyranitar|Rock Slide|p2b: Marie Antoinette|[spread] p2b
+|-activate|p2a: Napoléon|move: Protect
+|-damage|p2b: Marie Antoinette|44/100
+|move|p2b: Marie Antoinette|Dazzling Gleam|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2b: Marie Antoinette|34/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Marie Antoinette|28/100|[from] Sandstorm
+|-damage|p1b: Calyrex|95/100|[from] Sandstorm
+|-damage|p2a: Napoléon|65/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750877925
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1750877941
+|move|p2b: Marie Antoinette|Expanding Force|p1a: Iron Valiant|[spread] p1a,p1b
+|-supereffective|p1a: Iron Valiant
+|-resisted|p1b: Calyrex
+|-damage|p1a: Iron Valiant|0 fnt
+|-damage|p1b: Calyrex|65/100
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2b: Marie Antoinette|18/100|[from] item: Life Orb
+|move|p2a: Napoléon|Glacial Lance|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|34/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Marie Antoinette|[spread] p2a,p2b
+|-damage|p2a: Napoléon|35/100
+|-damage|p2b: Marie Antoinette|0 fnt
+|faint|p2b: Marie Antoinette
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Calyrex|28/100|[from] Sandstorm
+|-damage|p2a: Napoléon|29/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750877957
+|switch|p2b: Clovis|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Clovis
+|turn|5
+|
+|t:|1750877963
+|move|p2b: Clovis|Eruption|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Boulette14
+|raw|Zazzary's rating: 1080 &rarr; <strong>1060</strong><br />(-20 for losing)
+|raw|Boulette14's rating: 1112 &rarr; <strong>1135</strong><br />(+23 for winning)
+|l|☆Zazzary
+|player|p1|
+|l|☆Boulette14
+|player|p2|

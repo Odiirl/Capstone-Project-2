@@ -1,0 +1,173 @@
+|j|☆YugiMotoKOG
+|j|☆fat messmer
+|t:|1750728862
+|gametype|doubles
+|player|p1|YugiMotoKOG|1|1088
+|player|p2|fat messmer|1|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primeape, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fat messmer)
+|
+|t:|1750728872
+|start
+|switch|p1a: Primeape|Primeape, L50, M, shiny|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F, shiny|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|inactive|YugiMotoKOG has 30 seconds left.
+|
+|t:|1750728901
+|move|p2a: Iron Jugulis|Taunt|p1b: Smeargle
+|-start|p1b: Smeargle|move: Taunt
+|move|p1b: Smeargle|Flower Trick|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|92/100
+|-setboost|p1a: Primeape|atk|6|[from] ability: Anger Point
+|move|p1a: Primeape|Drain Punch|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|-heal|p1a: Primeape|100/100|[from] drain|[of] p2a: Iron Jugulis
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|move|p2b: Kyogre|Calm Mind|p2b: Kyogre
+|-boost|p2b: Kyogre|spa|1
+|-boost|p2b: Kyogre|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750728908
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|2
+|
+|t:|1750728926
+|move|p2a: Rillaboom|Fake Out|p1a: Primeape
+|-damage|p1a: Primeape|86/100
+|move|p1b: Smeargle|Dire Claw|p2b: Kyogre
+|-damage|p2b: Kyogre|95/100
+|cant|p1a: Primeape|flinch
+|move|p2b: Kyogre|Origin Pulse|p1a: Primeape|[spread] p1a,p1b
+|-damage|p1a: Primeape|0 fnt
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|faint|p1a: Primeape
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Smeargle|7/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750728940
+|switch|p1a: Urshifu|Urshifu, L50, F|100/100
+|turn|3
+|
+|t:|1750728952
+|move|p2a: Rillaboom|Grassy Glide|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|move|p1a: Urshifu|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|58/100
+|
+|t:|1750728960
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Kyogre|Origin Pulse|p1a: Calyrex|[miss]
+|-miss|p2b: Kyogre|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750728969
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|turn|4
+|
+|t:|1750728989
+|move|p2a: Rillaboom|Grassy Glide|p1b: Urshifu
+|-damage|p1b: Urshifu|59/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Rillaboom|[spread] p2a,p2b
+|-damage|p2a: Rillaboom|14/100
+|-damage|p2b: Kyogre|73/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Urshifu|Wicked Blow|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|6/100
+|move|p2b: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Urshifu
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Urshifu|65/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|20/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|12/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|18/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|YugiMotoKOG has 30 seconds left.
+|
+|t:|1750729021
+|move|p1b: Urshifu|Sucker Punch|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p2a: Rillaboom|U-turn|p1b: Urshifu
+|-damage|p1b: Urshifu|40/100
+|inactive|fat messmer has 30 seconds left.
+|inactive|fat messmer has 20 seconds left.
+|inactive|fat messmer has 15 seconds left.
+|inactive|fat messmer has 10 seconds left.
+|
+|t:|1750729067
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|100/100|[from] U-turn
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|
+|-weather|none
+|-heal|p1b: Urshifu|46/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750729068
+|switch|p2b: Rillaboom|Rillaboom, L50, F|20/100
+|turn|6
+|
+|t:|1750729084
+|move|p2b: Rillaboom|Grassy Glide|p1b: Urshifu
+|-damage|p1b: Urshifu|10/100
+|move|p2a: Zacian|Play Rough|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|win|fat messmer
+|raw|YugiMotoKOG's rating: 1088 &rarr; <strong>1070</strong><br />(-18 for losing)
+|raw|fat messmer's rating: 1168 &rarr; <strong>1187</strong><br />(+19 for winning)
+|l|☆fat messmer
+|player|p2|
+|l|☆YugiMotoKOG
+|player|p1|

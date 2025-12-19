@@ -1,0 +1,172 @@
+|j|☆pva7
+|j|☆Hydracrew
+|t:|1750773156
+|gametype|doubles
+|player|p1|pva7|pokemaniac|1243
+|player|p2|Hydracrew|169|1180
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hydracrew)
+|
+|t:|1750773189
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|inactive|pva7 has 30 seconds left.
+|
+|t:|1750773214
+|switch|p2b: Snorlax|Snorlax, L50, F|100/100
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Groudon|Will-O-Wisp|p2b: Snorlax
+|-status|p2b: Snorlax|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Snorlax|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750773237
+|move|p2a: Koraidon|Collision Course|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Groudon|Spikes|p2a: Koraidon
+|-sidestart|p2: Hydracrew|Spikes
+|move|p2b: Snorlax|Yawn|p1b: Groudon
+|-start|p1b: Groudon|move: Yawn|[of] p2b: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Snorlax|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Snorlax|94/100 brn|[from] brn
+|upkeep
+|inactive|pva7 has 30 seconds left.
+|
+|t:|1750773265
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|3
+|inactive|pva7 has 30 seconds left.
+|
+|t:|1750773291
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Koraidon|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|3/100
+|-damage|p2a: Koraidon|69/100|[from] Recoil
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Snorlax|Encore|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Grimmsnarl|9/100|[from] Grassy Terrain
+|-heal|p2b: Snorlax|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Snorlax|94/100 brn|[from] brn
+|-end|p1b: Groudon|move: Yawn|[silent]
+|-status|p1b: Groudon|slp
+|upkeep
+|
+|t:|1750773303
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-damage|p2a: Calyrex|88/100|[from] Spikes
+|turn|4
+|
+|t:|1750773322
+|move|p2a: Calyrex|Astral Barrage|p1b: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Groudon|64/100 slp
+|faint|p1a: Grimmsnarl
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|cant|p1b: Groudon|slp
+|move|p2b: Snorlax|Encore|p1b: Groudon
+|-start|p1b: Groudon|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|94/100|[from] Grassy Terrain
+|-heal|p1b: Groudon|70/100 slp|[from] Grassy Terrain
+|-heal|p1b: Groudon|76/100 slp|[from] item: Leftovers
+|-heal|p2b: Snorlax|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Snorlax|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750773343
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|t:|1750773355
+|cant|p1b: Groudon|slp
+|move|p2a: Calyrex|Psychic|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|move|p1a: Zamazenta|Body Press|p2b: Snorlax
+|-supereffective|p2b: Snorlax
+|-damage|p2b: Snorlax|2/100 brn
+|move|p2b: Snorlax|Yawn|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Yawn|[of] p2b: Snorlax
+|
+|-weather|none
+|-heal|p2a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|48/100|[from] Grassy Terrain
+|-heal|p1b: Groudon|82/100 slp|[from] Grassy Terrain
+|-heal|p1b: Groudon|87/100 slp|[from] item: Leftovers
+|-heal|p2b: Snorlax|8/100 brn|[from] Grassy Terrain
+|-damage|p2b: Snorlax|2/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|l|☆pva7
+|inactive|pva7 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|pva7 has 30 seconds left.
+|inactive|pva7 has 20 seconds left.
+|inactive|pva7 has 15 seconds left.
+|inactive|pva7 has 10 seconds left.
+|inactive|pva7 has 5 seconds left.
+|-message|pva7 lost due to inactivity.
+|
+|win|Hydracrew
+|raw|pva7's rating: 1243 &rarr; <strong>1214</strong><br />(-29 for losing)
+|raw|Hydracrew's rating: 1180 &rarr; <strong>1209</strong><br />(+29 for winning)
+|l|☆Hydracrew
+|player|p2|
+|j|☆pva7
+|player|p1|pva7|pokemaniac|
+|l|☆pva7
+|player|p1|

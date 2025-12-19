@@ -1,0 +1,250 @@
+|j|☆Jackbouncy
+|j|☆luislegend0712
+|t:|1750860092
+|gametype|doubles
+|player|p1|Jackbouncy|266|1414
+|player|p2|luislegend0712|265|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750860113
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750860145
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Rillaboom|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|89/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: luislegend0712|Reflect
+|move|p1b: Smeargle|Spore|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Electric Terrain
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750860177
+|move|p2b: Miraidon|Volt Switch|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|
+|t:|1750860180
+|switch|p2b: Cresselia|Cresselia, L50, F|100/100|[from] Volt Switch
+|move|p1b: Smeargle|Decorate|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|2
+|-boost|p1a: Rillaboom|spa|2
+|move|p1a: Rillaboom|U-turn|p2b: Cresselia
+|-supereffective|p2b: Cresselia
+|-damage|p2b: Cresselia|63/100
+|
+|t:|1750860190
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Calyrex
+|-damage|p1a: Calyrex|61/100
+|-unboost|p1a: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1750860209
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: luislegend0712|move: Light Screen
+|move|p1a: Calyrex|Astral Barrage|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|85/100
+|-damage|p2b: Kyogre|86/100
+|-damage|p1a: Calyrex|51/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1750860231
+|-terastallize|p2b: Kyogre|Grass
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750860256
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750860266
+|switch|p2b: Cresselia|Cresselia, L50, F|63/100
+|move|p1b: Rillaboom|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|77/100
+|cant|p2a: Grimmsnarl|flinch
+|move|p1a: Calyrex|Astral Barrage|p2a: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2a: Grimmsnarl
+|-supereffective|p2b: Cresselia
+|-damage|p2a: Grimmsnarl|42/100
+|-damage|p2b: Cresselia|0 fnt
+|faint|p2b: Cresselia
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|42/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Calyrex|47/100|[from] Grassy Terrain
+|-heal|p2a: Grimmsnarl|48/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750860273
+|switch|p2b: Miraidon|Miraidon, L50|89/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750860299
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Calyrex
+|-status|p1a: Calyrex|par
+|move|p2b: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|t:|1750860301
+|switch|p2b: Kyogre|Kyogre, L50, tera:Grass|86/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: Rillaboom|U-turn|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|57/100
+|
+|t:|1750860312
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750860319
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1750860337
+|switch|p2b: Miraidon|Miraidon, L50|89/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Rillaboom|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|82/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Zamazenta
+|-status|p1b: Zamazenta|par
+|cant|p1b: Zamazenta|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750860354
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|move|p2b: Miraidon|Volt Switch|p1b: Zamazenta
+|-damage|p1b: Zamazenta|24/100 par
+|
+|t:|1750860359
+|switch|p2b: Kyogre|Kyogre, L50, tera:Grass|57/100|[from] Volt Switch
+|move|p1b: Zamazenta|Body Press|p2b: Kyogre
+|-damage|p2b: Kyogre|8/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1a: Rillaboom|98/100 par|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: luislegend0712|Reflect
+|upkeep
+|
+|t:|1750860360
+|switch|p2b: Miraidon|Miraidon, L50|82/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750860381
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: luislegend0712|Reflect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Zamazenta|move: Protect
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|48/100 par
+|move|p1a: Rillaboom|Wood Hammer|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|63/100
+|-damage|p1a: Rillaboom|42/100 par|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750860400
+|cant|p1b: Zamazenta|par
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|7/100 par
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|luislegend0712
+|raw|Jackbouncy's rating: 1414 &rarr; <strong>1390</strong><br />(-24 for losing)
+|raw|luislegend0712's rating: 1343 &rarr; <strong>1367</strong><br />(+24 for winning)
+|l|☆Jackbouncy
+|player|p1|
+|l|☆luislegend0712
+|player|p2|

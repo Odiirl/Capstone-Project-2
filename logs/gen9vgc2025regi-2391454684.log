@@ -1,0 +1,201 @@
+|j|☆crik9494
+|j|☆caterqu2
+|t:|1750858269
+|gametype|doubles
+|player|p1|crik9494|266|1258
+|player|p2|caterqu2|hau-stance|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caterqu2)
+|inactive|crik9494 has 60 seconds left.
+|inactive|caterqu2 has 60 seconds left.
+|
+|t:|1750858308
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750858329
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Sableye|Gravity|p1b: Sableye
+|-fieldstart|move: Gravity
+|move|p1a: Iron Valiant|Hypnosis|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Volcarona|Overheat|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2b: Volcarona|spa|2
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858346
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750858356
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Sableye|atk|1
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Sableye|Reflect|p1b: Sableye
+|-sidestart|p1: crik9494|Reflect
+|move|p2a: Koraidon|Flare Blitz|p1b: Sableye
+|-damage|p1b: Sableye|15/100
+|-damage|p2a: Koraidon|78/100|[from] Recoil
+|-damage|p2a: Koraidon|68/100|[from] item: Life Orb
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750858377
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Sableye|Foul Play|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|79/100
+|-damage|p1b: Sableye|0 fnt|[from] item: Rocky Helmet|[of] p2a: Volcarona
+|faint|p1b: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858393
+|switch|p1b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|turn|4
+|
+|t:|1750858414
+|move|p2a: Volcarona|Rage Powder|p2a: Volcarona
+|-singleturn|p2a: Volcarona|move: Rage Powder
+|move|p1a: Calyrex|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|move|p1b: Necrozma|Meteor Beam||[still]
+|-prepare|p1b: Necrozma|Meteor Beam
+|-boost|p1b: Necrozma|spa|1
+|-enditem|p1b: Necrozma|Power Herb
+|-anim|p1b: Necrozma|Meteor Beam|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|move|p2b: Incineroar|Knock Off|p1b: Necrozma
+|-supereffective|p1b: Necrozma
+|-damage|p1b: Necrozma|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858423
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|5
+|
+|t:|1750858448
+|move|p1a: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-resisted|p2b: Incineroar
+|-damage|p2a: Terapagos|90/100
+|-damage|p2b: Incineroar|86/100
+|move|p1b: Necrozma|Photon Geyser|p2a: Terapagos
+|-damage|p2a: Terapagos|6/100
+|move|p2b: Incineroar|Knock Off|p1b: Necrozma
+|-supereffective|p1b: Necrozma
+|-damage|p1b: Necrozma|18/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-weather|none
+|-heal|p2a: Terapagos|12/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|inactive|crik9494 has 30 seconds left.
+|
+|t:|1750858478
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Terapagos|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100
+|move|p1b: Necrozma|Moongeist Beam|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|23/100
+|move|p2b: Incineroar|Taunt|p1a: Calyrex
+|-start|p1a: Calyrex|move: Taunt
+|
+|-heal|p2a: Terapagos|19/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750858499
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|39/100|[silent]
+|move|p2a: Terapagos|Tera Starstorm|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|37/100
+|-damage|p1b: Necrozma|0 fnt
+|faint|p1b: Necrozma
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-damage|p1a: Calyrex|21/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Terapagos|22/100
+|-damage|p2b: Incineroar|8/100
+|
+|-heal|p2a: Terapagos|28/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|crik9494 forfeited.
+|
+|win|caterqu2
+|raw|crik9494's rating: 1258 &rarr; <strong>1236</strong><br />(-22 for losing)
+|raw|caterqu2's rating: 1303 &rarr; <strong>1320</strong><br />(+17 for winning)
+|l|☆crik9494
+|player|p1|
+|l|☆caterqu2
+|player|p2|

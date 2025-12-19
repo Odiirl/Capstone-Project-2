@@ -1,0 +1,169 @@
+|j|☆dumbatus
+|j|☆Iusjs
+|t:|1750742423
+|gametype|doubles
+|player|p1|dumbatus|2|1174
+|player|p2|Iusjs|102|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Mudsdale, L50, M|
+|poke|p2|Dialga, L50|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750742467
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Urshifu|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Iusjs)
+|
+|t:|1750742517
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-terastallize|p2a: Incineroar|Grass
+|move|p1b: Urshifu|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|39/100
+|
+|t:|1750742525
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2a: Incineroar|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1750742530
+|switch|p2a: Mudsdale|Mudsdale, L50, M|100/100|[from] Parting Shot
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|Iusjs has 30 seconds left.
+|inactive|dumbatus has 30 seconds left.
+|inactive|Iusjs has 20 seconds left.
+|inactive|dumbatus has 20 seconds left.
+|inactive|dumbatus has 15 seconds left.
+|inactive|Iusjs has 15 seconds left.
+|inactive|Iusjs has 10 seconds left.
+|
+|t:|1750742582
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Mudsdale|Superpower|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|2/100
+|-unboost|p2a: Mudsdale|atk|1
+|-unboost|p2a: Mudsdale|def|1
+|move|p1a: Ursaluna|Blood Moon|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1750742606
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Dialga|Dialga, L50|100/100
+|turn|3
+|
+|t:|1750742630
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Grass|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|-unboost|p1b: Lunala|atk|1
+|move|p2b: Dialga|Flash Cannon|p1b: Lunala
+|-damage|p1b: Lunala|83/100
+|move|p1a: Urshifu|Close Combat|p2a: Incineroar
+|-damage|p2a: Incineroar|57/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|inactive|dumbatus has 30 seconds left.
+|inactive|Iusjs has 30 seconds left.
+|
+|t:|1750742663
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|switch|p2b: Mudsdale|Mudsdale, L50, M|100/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1750742675
+|switch|p2a: Dialga|Dialga, L50|100/100
+|turn|5
+|
+|t:|1750742697
+|move|p1a: Miraidon|Draco Meteor|p2b: Mudsdale
+|-damage|p2b: Mudsdale|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Mudsdale
+|move|p1b: Lunala|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|69/100
+|move|p2a: Dialga|Trick Room|p2a: Dialga
+|-fieldstart|move: Trick Room|[of] p2a: Dialga
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750742715
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p2a: Dialga|Flash Cannon|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|67/100
+|move|p1b: Lunala|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|38/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750742737
+|move|p2a: Dialga|Roar of Time|p1b: Lunala
+|-damage|p1b: Lunala|19/100
+|-mustrecharge|p2a: Dialga
+|move|p1b: Lunala|Moonblast|p2a: Dialga
+|-damage|p2a: Dialga|7/100
+|move|p1a: Urshifu|Close Combat|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Dialga
+|
+|win|dumbatus
+|raw|dumbatus's rating: 1174 &rarr; <strong>1205</strong><br />(+31 for winning)
+|raw|Iusjs's rating: 1253 &rarr; <strong>1222</strong><br />(-31 for losing)

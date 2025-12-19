@@ -1,0 +1,472 @@
+|j|☆lost oblitus
+|j|☆hacicomoescuchaste
+|t:|1750734311
+|gametype|doubles
+|player|p1|lost oblitus|supernerd|1178
+|player|p2|hacicomoescuchaste|shauntal|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tentacruel, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Dipplin, L50, M|
+|poke|p1|Giratina, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750734357
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Tentacruel|Tentacruel, L50, F, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Kyogre|Electric Seed
+|-boost|p2a: Kyogre|def|1|[from] item: Electric Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750734379
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Tentacruel|Protect|p1b: Tentacruel
+|-singleturn|p1b: Tentacruel|Protect
+|move|p2b: Miraidon|Volt Switch|p1b: Tentacruel
+|-activate|p1b: Tentacruel|move: Protect
+|move|p1a: Rillaboom|U-turn|p2b: Miraidon
+|-damage|p2b: Miraidon|82/100
+|
+|t:|1750734389
+|switch|p1a: Giratina|Giratina, L50|100/100|[from] U-turn
+|-ability|p1a: Giratina|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon|87/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750734404
+|-terastallize|p1b: Tentacruel|Poison
+|move|p2b: Miraidon|Volt Switch|p1b: Tentacruel
+|-damage|p1b: Tentacruel|55/100
+|
+|t:|1750734410
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100|[from] Volt Switch
+|move|p1b: Tentacruel|Toxic|p2a: Kyogre
+|-status|p2a: Kyogre|tox
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tentacruel|61/100|[from] ability: Rain Dish
+|-heal|p1b: Tentacruel|68/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|74/100|[from] item: Black Sludge
+|-damage|p2a: Kyogre|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750734437
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Miraidon|Miraidon, L50|87/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Tentacruel|Toxic|p2b: Miraidon
+|-status|p2b: Miraidon|tox
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|move|p1a: Giratina|Shadow Force|p2a: Kyogre|[from] lockedmove
+|-damage|p2a: Kyogre|63/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tentacruel|80/100|[from] ability: Rain Dish
+|-heal|p1b: Tentacruel|86/100|[from] item: Black Sludge
+|-damage|p2b: Miraidon|82/100 tox|[from] psn
+|-damage|p2a: Kyogre|51/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750734455
+|switch|p2b: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Kyogre|Origin Pulse|p1a: Giratina|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Giratina|65/100
+|-damage|p1b: Rillaboom|51/100
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|57/100 tox|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|57/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|71/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|40/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750734479
+|move|p1b: Rillaboom|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|33/100 tox
+|cant|p2a: Kyogre|flinch
+|move|p1a: Giratina|Shadow Force|p2b: Wo-Chien|[from] lockedmove
+|-resisted|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|85/100
+|move|p2b: Wo-Chien|Pollen Puff|p2a: Kyogre
+|-heal|p2a: Kyogre|83/100 tox
+|
+|-weather|none
+|-heal|p2a: Kyogre|89/100 tox|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|63/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|77/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|83/100|[from] item: Leftovers
+|-heal|p2b: Wo-Chien|91/100|[from] Grassy Terrain
+|-heal|p2b: Wo-Chien|97/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|66/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750734500
+|move|p1b: Rillaboom|Grassy Glide|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|34/100 tox
+|move|p2a: Kyogre|Origin Pulse|p1b: Rillaboom|[spread] p1a
+|-miss|p2a: Kyogre|p1b: Rillaboom
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|62/100
+|move|p1a: Giratina|Curse|p2b: Wo-Chien
+|-start|p2b: Wo-Chien|Curse|[of] p1a: Giratina
+|-damage|p1a: Giratina|12/100
+|move|p2b: Wo-Chien|Pollen Puff|p2a: Kyogre
+|-heal|p2a: Kyogre|84/100 tox
+|
+|-heal|p2a: Kyogre|89/100 tox|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|69/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|18/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|24/100|[from] item: Leftovers
+|-heal|p2b: Wo-Chien|100/100|[from] Grassy Terrain
+|-damage|p2a: Kyogre|60/100 tox|[from] psn
+|-damage|p2b: Wo-Chien|76/100|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1750734519
+|switch|p2b: Miraidon|Miraidon, L50|82/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2a: Kyogre|Origin Pulse|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Giratina|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|36/100
+|move|p1b: Rillaboom|U-turn|p2b: Miraidon
+|-damage|p2b: Miraidon|61/100 tox
+|
+|t:|1750734530
+|switch|p1b: Tentacruel|Tentacruel, L50, F, shiny, tera:Poison|86/100|[from] U-turn
+|
+|-heal|p1b: Tentacruel|92/100|[from] item: Black Sludge
+|-heal|p1a: Giratina|30/100|[from] item: Leftovers
+|-damage|p2b: Miraidon|55/100 tox|[from] psn
+|-damage|p2a: Kyogre|25/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750734544
+|switch|p2a: Wo-Chien|Wo-Chien, L50|76/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|switch|p1a: Rillaboom|Rillaboom, L50, F|36/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Miraidon|Electro Drift|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|5/100
+|move|p1b: Tentacruel|Acid Spray|p2b: Miraidon
+|-damage|p2b: Miraidon|34/100 tox
+|-unboost|p2b: Miraidon|spd|2
+|
+|-heal|p2b: Miraidon|39/100 tox|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|98/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|100/100|[from] item: Black Sludge
+|-heal|p1a: Rillaboom|11/100|[from] Grassy Terrain
+|-heal|p2a: Wo-Chien|82/100|[from] Grassy Terrain
+|-heal|p2a: Wo-Chien|88/100|[from] item: Leftovers
+|-damage|p2b: Miraidon|28/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750734565
+|switch|p2b: Kyogre|Kyogre, L50|25/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-terastallize|p2a: Wo-Chien|Poison
+|move|p1a: Rillaboom|Fake Out|p2b: Kyogre
+|-damage|p2b: Kyogre|18/100 tox
+|move|p1b: Tentacruel|Muddy Water|p2b: Kyogre|[spread] p2a,p2b
+|-crit|p2a: Wo-Chien
+|-resisted|p2b: Kyogre
+|-damage|p2a: Wo-Chien|56/100
+|-damage|p2b: Kyogre|7/100 tox
+|move|p2a: Wo-Chien|Leech Seed|p1b: Tentacruel
+|-start|p1b: Tentacruel|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Kyogre|13/100 tox|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|17/100|[from] Grassy Terrain
+|-heal|p2a: Wo-Chien|62/100|[from] Grassy Terrain
+|-heal|p2a: Wo-Chien|68/100|[from] item: Leftovers
+|-damage|p1b: Tentacruel|88/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|80/100|[silent]
+|-damage|p2b: Kyogre|7/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1750734597
+|switch|p1a: Giratina|Giratina, L50|30/100
+|-ability|p1a: Giratina|Pressure
+|move|p1b: Tentacruel|Acid Spray|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|72/100
+|-unboost|p2a: Wo-Chien|spd|2
+|move|p2b: Kyogre|Origin Pulse|p1a: Giratina|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|13/100
+|-damage|p1b: Tentacruel|34/100
+|move|p2a: Wo-Chien|Pollen Puff|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tentacruel|40/100|[from] ability: Rain Dish
+|-heal|p2b: Kyogre|13/100 tox|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|46/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|52/100|[from] item: Black Sludge
+|-heal|p1a: Giratina|15/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|21/100|[from] item: Leftovers
+|-heal|p2a: Wo-Chien|79/100|[from] Grassy Terrain
+|-heal|p2a: Wo-Chien|85/100|[from] item: Leftovers
+|-damage|p1b: Tentacruel|40/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|97/100|[silent]
+|-damage|p2b: Kyogre|2/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1750734622
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Giratina|Shadow Sneak|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p1b: Tentacruel|Muddy Water|p2a: Wo-Chien
+|-activate|p2a: Wo-Chien|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tentacruel|46/100|[from] ability: Rain Dish
+|-heal|p1b: Tentacruel|52/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|59/100|[from] item: Black Sludge
+|-heal|p1a: Giratina|27/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|33/100|[from] item: Leftovers
+|-heal|p2a: Wo-Chien|100/100|[from] Grassy Terrain
+|-damage|p1b: Tentacruel|46/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|upkeep
+|
+|t:|1750734630
+|switch|p2b: Miraidon|Miraidon, L50|28/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|12
+|
+|t:|1750734643
+|switch|p1a: Rillaboom|Rillaboom, L50, F|17/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Miraidon|Draco Meteor|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Rillaboom
+|move|p1b: Tentacruel|Muddy Water|p2b: Miraidon|[spread] p2b
+|-miss|p1b: Tentacruel|p2a: Wo-Chien
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|15/100 tox
+|-unboost|p2b: Miraidon|accuracy|1
+|move|p2a: Wo-Chien|Pollen Puff|p2b: Miraidon
+|-heal|p2b: Miraidon|64/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tentacruel|52/100|[from] ability: Rain Dish
+|-heal|p2b: Miraidon|70/100 tox|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|59/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|65/100|[from] item: Black Sludge
+|-damage|p1b: Tentacruel|52/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-damage|p2b: Miraidon|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1750734662
+|switch|p1a: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1a: Palkia|Pressure
+|turn|13
+|
+|t:|1750734675
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|move|p2b: Miraidon|Draco Meteor|p1b: Tentacruel
+|-damage|p1b: Tentacruel|12/100
+|-unboost|p2b: Miraidon|spa|2
+|move|p1a: Palkia|Spacial Rend|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p1b: Tentacruel|Muddy Water|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|89/100
+|-unboost|p2a: Raging Bolt|accuracy|1
+|
+|-weather|none
+|-heal|p1b: Tentacruel|18/100|[from] Grassy Terrain
+|-heal|p1b: Tentacruel|24/100|[from] item: Black Sludge
+|-heal|p2a: Raging Bolt|95/100|[from] Grassy Terrain
+|-damage|p1b: Tentacruel|12/100|[from] Leech Seed|[of] p2a: Raging Bolt
+|-heal|p2a: Raging Bolt|100/100|[silent]
+|upkeep
+|
+|t:|1750734687
+|switch|p2b: Wo-Chien|Wo-Chien, L50, tera:Poison|100/100
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|turn|14
+|
+|t:|1750734697
+|switch|p1b: Giratina|Giratina, L50|33/100
+|-ability|p1b: Giratina|Pressure
+|move|p1a: Palkia|Spacial Rend|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|34/100
+|move|p2a: Raging Bolt|Electroweb|p1a: Palkia|[spread] p1a,p1b
+|-resisted|p1b: Giratina
+|-damage|p1a: Palkia|80/100
+|-damage|p1b: Giratina|26/100
+|-unboost|p1a: Palkia|spe|1
+|-unboost|p1b: Giratina|spe|1
+|move|p2b: Wo-Chien|Leech Seed|p1a: Palkia
+|-start|p1a: Palkia|move: Leech Seed
+|
+|-heal|p1a: Palkia|86/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|40/100|[from] Grassy Terrain
+|-heal|p1b: Giratina|32/100|[from] Grassy Terrain
+|-heal|p1b: Giratina|38/100|[from] item: Leftovers
+|-damage|p1a: Palkia|74/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|upkeep
+|turn|15
+|
+|t:|1750734718
+|switch|p1a: Tentacruel|Tentacruel, L50, F, shiny, tera:Poison|12/100
+|move|p2a: Raging Bolt|Draco Meteor|p1b: Giratina
+|-supereffective|p1b: Giratina
+|-damage|p1b: Giratina|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1b: Giratina
+|move|p2b: Wo-Chien|Pollen Puff|p2a: Raging Bolt
+|-heal|p2a: Raging Bolt|90/100
+|
+|-heal|p1a: Tentacruel|18/100|[from] Grassy Terrain
+|-heal|p1a: Tentacruel|24/100|[from] item: Black Sludge
+|-heal|p2a: Raging Bolt|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750734728
+|switch|p1b: Palkia|Palkia-Origin, L50|74/100
+|-ability|p1b: Palkia|Pressure
+|turn|16
+|
+|t:|1750734737
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p1a: Tentacruel|Acid Spray|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|83/100
+|-unboost|p2a: Raging Bolt|spd|2
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Tentacruel
+|move|p2b: Wo-Chien|Leech Seed|p1b: Palkia
+|-activate|p1b: Palkia|move: Protect
+|
+|-heal|p1b: Palkia|80/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|89/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1750734749
+|move|p1b: Palkia|Spacial Rend|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Wo-Chien|Leech Seed|p1b: Palkia
+|-start|p1b: Palkia|move: Leech Seed
+|
+|-damage|p1b: Palkia|68/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|upkeep
+|turn|18
+|
+|t:|1750734758
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p1b: Palkia|Hydro Pump|p2b: Wo-Chien
+|-activate|p2b: Wo-Chien|move: Protect
+|
+|-damage|p1b: Palkia|56/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|upkeep
+|turn|19
+|
+|t:|1750734765
+|move|p1b: Palkia|Hydro Pump|p2b: Wo-Chien
+|-crit|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|32/100
+|move|p2b: Wo-Chien|Ruination|p1b: Palkia
+|-damage|p1b: Palkia|28/100
+|
+|-heal|p2b: Wo-Chien|38/100|[from] item: Leftovers
+|-damage|p1b: Palkia|16/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|-heal|p2b: Wo-Chien|52/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1750734778
+|move|p2b: Wo-Chien|Protect|p2b: Wo-Chien
+|-singleturn|p2b: Wo-Chien|Protect
+|move|p1b: Palkia|Spacial Rend|p2b: Wo-Chien
+|-activate|p2b: Wo-Chien|move: Protect
+|
+|-heal|p2b: Wo-Chien|58/100|[from] item: Leftovers
+|-damage|p1b: Palkia|4/100|[from] Leech Seed|[of] p2b: Wo-Chien
+|-heal|p2b: Wo-Chien|71/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1750734787
+|move|p1b: Palkia|Hydro Pump|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|31/100
+|move|p2b: Wo-Chien|Pollen Puff|p1b: Palkia
+|-damage|p1b: Palkia|0 fnt
+|faint|p1b: Palkia
+|
+|win|hacicomoescuchaste
+|raw|lost oblitus's rating: 1178 &rarr; <strong>1151</strong><br />(-27 for losing)
+|raw|hacicomoescuchaste's rating: 1147 &rarr; <strong>1174</strong><br />(+27 for winning)
+|l|☆lost oblitus
+|player|p1|
+|l|☆hacicomoescuchaste
+|player|p2|

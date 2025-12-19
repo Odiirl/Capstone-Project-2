@@ -1,0 +1,145 @@
+|j|☆HMGAMING
+|j|☆zeraby
+|t:|1750746897
+|gametype|doubles
+|player|p1|HMGAMING|2|1331
+|player|p2|zeraby|2|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zekrom, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chesnaught, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750746931
+|start
+|switch|p1a: Zekrom|Zekrom, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1a: Zekrom|Teravolt
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HMGAMING)
+|
+|t:|1750746947
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Zekrom|unboost|[from] item: Clear Amulet|[of] p1a: Zekrom
+|-unboost|p1b: Incineroar|atk|1
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|94/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p2a: Grimmsnarl|Fake Out|p1a: Zekrom
+|-damage|p1a: Zekrom|95/100
+|cant|p1a: Zekrom|flinch
+|
+|upkeep
+|turn|2
+|inactive|HMGAMING has 30 seconds left.
+|
+|t:|1750746981
+|move|p2a: Grimmsnarl|Fake Tears|p1a: Zekrom
+|-fail|p1a: Zekrom|unboost|[from] item: Clear Amulet|[of] p1a: Zekrom
+|move|p1a: Zekrom|Dragon Dance|p1a: Zekrom
+|-boost|p1a: Zekrom|atk|1
+|-boost|p1a: Zekrom|spe|1
+|move|p1b: Incineroar|Knock Off|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|83/100
+|-damage|p1b: Incineroar|68/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|-enditem|p2b: Incineroar|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Incineroar|U-turn|p1a: Zekrom
+|-damage|p1a: Zekrom|81/100
+|
+|t:|1750747003
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|upkeep
+|turn|3
+|
+|t:|1750747014
+|-terastallize|p2b: Calyrex|Ground
+|move|p1a: Zekrom|Protect|p1a: Zekrom
+|-singleturn|p1a: Zekrom|Protect
+|move|p2a: Grimmsnarl|Fake Tears|p1a: Zekrom
+|-activate|p1a: Zekrom|move: Protect
+|move|p2b: Calyrex|Tera Blast|p1a: Zekrom|[anim] Tera Blast Ground
+|-activate|p1a: Zekrom|move: Protect
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|68/100
+|-enditem|p2b: Calyrex|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|4
+|inactive|HMGAMING has 30 seconds left.
+|inactive|HMGAMING has 20 seconds left.
+|inactive|HMGAMING has 15 seconds left.
+|inactive|HMGAMING has 10 seconds left.
+|
+|t:|1750747061
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Incineroar|Incineroar, L50, F|83/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2b: Calyrex|Tera Blast|p1b: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750747072
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|
+|t:|1750747081
+|move|p1a: Pelipper|Wide Guard|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Wide Guard
+|move|p2a: Incineroar|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|89/100
+|cant|p1b: Urshifu|flinch
+|move|p2b: Calyrex|Expanding Force|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|HMGAMING forfeited.
+|
+|win|zeraby
+|raw|HMGAMING's rating: 1331 &rarr; <strong>1307</strong><br />(-24 for losing)
+|raw|zeraby's rating: 1261 &rarr; <strong>1291</strong><br />(+30 for winning)
+|l|☆HMGAMING
+|player|p1|
+|l|☆zeraby
+|player|p2|

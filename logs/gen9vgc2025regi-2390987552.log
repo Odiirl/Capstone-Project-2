@@ -1,0 +1,162 @@
+|j|☆Zakmancho
+|j|☆bimbo mafioso
+|t:|1750790153
+|gametype|doubles
+|player|p1|Zakmancho|2|1599
+|player|p2|bimbo mafioso|swimmerf|1601
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bimbo mafioso)
+|inactive|Zakmancho also wants the timer to be on.
+|
+|t:|1750790184
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750790200
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ogerpon
+|-status|p2a: Ogerpon|par
+|move|p2b: Zamazenta|Heavy Slam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p1b: Urshifu|Surging Strikes|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|58/100 par
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|17/100 par
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-hitcount|p2: Ogerpon|3
+|
+|upkeep
+|
+|t:|1750790212
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750790224
+|-terastallize|p1a: Calyrex|Grass
+|move|p2a: Calyrex|Astral Barrage|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Calyrex|57/100
+|-damage|p1b: Urshifu|22/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Zamazenta|Body Press|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750790233
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|3
+|
+|t:|1750790242
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Calyrex|Leech Seed|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Leech Seed
+|move|p1b: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|64/100
+|
+|-heal|p1a: Calyrex|69/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|74/100|[from] item: Leftovers
+|-heal|p2b: Zamazenta|69/100|[from] Grassy Terrain
+|-damage|p2b: Zamazenta|57/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|86/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750790266
+|move|p2a: Rillaboom|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|88/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Zamazenta
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Zamazenta|47/100
+|faint|p2a: Rillaboom
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Zamazenta|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|27/100
+|move|p1b: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|10/100
+|
+|-heal|p1a: Calyrex|91/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|97/100|[from] item: Leftovers
+|-heal|p2b: Zamazenta|15/100|[from] Grassy Terrain
+|-heal|p1b: Miraidon|33/100|[from] Grassy Terrain
+|-damage|p2b: Zamazenta|3/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|100/100|[silent]
+|upkeep
+|
+|t:|1750790276
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|91/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750790294
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p1b: Miraidon|move: Protect
+|
+|-heal|p2b: Zamazenta|9/100|[from] Grassy Terrain
+|-heal|p1b: Miraidon|39/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|97/100|[from] Grassy Terrain
+|-damage|p2b: Zamazenta|0 fnt|[from] Leech Seed|[of] p1a: Calyrex
+|faint|p2b: Zamazenta
+|upkeep
+|turn|6
+|c|☆bimbo mafioso|huh
+|-message|bimbo mafioso forfeited.
+|
+|win|Zakmancho
+|raw|Zakmancho's rating: 1599 &rarr; <strong>1619</strong><br />(+20 for winning)
+|raw|bimbo mafioso's rating: 1601 &rarr; <strong>1581</strong><br />(-20 for losing)
+|l|☆Zakmancho
+|player|p1|

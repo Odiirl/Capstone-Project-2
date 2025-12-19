@@ -1,0 +1,180 @@
+|j|☆Lore805
+|j|☆den45
+|t:|1750856680
+|gametype|doubles
+|player|p1|Lore805|1|1485
+|player|p2|den45|1|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Chesnaught, L50, F|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lore805)
+|inactive|den45 also wants the timer to be on.
+|inactive|den45 has 60 seconds left.
+|
+|t:|1750856718
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Chesnaught|Chesnaught, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Chesnaught|Electric Seed
+|-boost|p2a: Chesnaught|def|1|[from] item: Electric Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|inactive|den45 has 30 seconds left.
+|
+|t:|1750856747
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Tornadus|Taunt|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Lore805 has 30 seconds left.
+|
+|t:|1750856775
+|-terastallize|p1b: Kyogre|Water
+|move|p2a: Chesnaught|Wide Guard|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|Wide Guard
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Calyrex|[spread] 
+|-activate|p2a: Chesnaught|move: Wide Guard
+|-activate|p2b: Calyrex|move: Wide Guard
+|move|p1b: Kyogre|Tera Blast|p2b: Calyrex|[anim] Tera Blast Water
+|-damage|p2b: Calyrex|18/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Kyogre
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Kyogre|80/100
+|faint|p1a: Tornadus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750856783
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|turn|3
+|
+|t:|1750856804
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Raichu|Fake Out|p2a: Chesnaught
+|-damage|p2a: Chesnaught|94/100
+|move|p1b: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|43/100
+|cant|p2a: Chesnaught|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750856822
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Raichu|Volt Tackle|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Raichu|92/100|[from] Recoil
+|move|p1b: Kyogre|Tera Blast|p2a: Chesnaught|[anim] Tera Blast Water
+|-activate|p2a: Chesnaught|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750856834
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|5
+|
+|t:|1750856857
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Raichu|Nuzzle|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|40/100
+|-status|p2a: Chesnaught|par
+|move|p2a: Chesnaught|Body Press|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750856869
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|inactive|den45 has 30 seconds left.
+|
+|t:|1750856895
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Chesnaught|Wide Guard|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|Wide Guard
+|move|p1b: Kyogre|Tera Blast|p2a: Chesnaught|[anim] Tera Blast Water
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|10/100 par
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|7
+|
+|t:|1750856919
+|-terastallize|p2b: Miraidon|Electric
+|cant|p2a: Chesnaught|par
+|move|p1a: Calyrex|Glacial Lance|p2a: Chesnaught|[spread] p2a,p2b
+|-supereffective|p2a: Chesnaught
+|-crit|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|-damage|p2b: Miraidon|39/100
+|faint|p2a: Chesnaught
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Kyogre|Tera Blast|p2b: Miraidon|[anim] Tera Blast Water
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|-message|den45 forfeited.
+|
+|win|Lore805
+|raw|Lore805's rating: 1485 &rarr; <strong>1499</strong><br />(+14 for winning)
+|raw|den45's rating: 1385 &rarr; <strong>1371</strong><br />(-14 for losing)
+|l|☆den45
+|player|p2|
+|l|☆Lore805
+|player|p1|

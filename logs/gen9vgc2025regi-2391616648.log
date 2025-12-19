@@ -1,0 +1,149 @@
+|j|☆FrogJay
+|j|☆chi'xi
+|t:|1750876236
+|gametype|doubles
+|player|p1|FrogJay|n|1389
+|player|p2|chi'xi|roxie|1284
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|
+|t:|1750876365
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Cara Luna|Lunala, L50, shiny|100/100
+|switch|p2b: Chascona|Flutter Mane, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Cara Luna|atk|1
+|-unboost|p2b: Chascona|atk|1
+|turn|1
+|
+|t:|1750876407
+|-terastallize|p2a: Cara Luna|Fairy
+|move|p1a: Calyrex|Astral Barrage|p2b: Chascona|[spread] p2a,p2b
+|-supereffective|p2b: Chascona
+|-damage|p2a: Cara Luna|80/100
+|-enditem|p2b: Chascona|Focus Sash
+|-damage|p2b: Chascona|1/100
+|move|p2b: Chascona|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-unboost|p1a: Calyrex|spd|1
+|move|p2a: Cara Luna|Meteor Beam||[still]
+|-prepare|p2a: Cara Luna|Meteor Beam
+|-boost|p2a: Cara Luna|spa|1
+|-enditem|p2a: Cara Luna|Power Herb
+|-anim|p2a: Cara Luna|Meteor Beam|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750876412
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|2
+|
+|t:|1750876444
+|move|p2b: Chascona|Protect|p2b: Chascona
+|-singleturn|p2b: Chascona|Protect
+|move|p1a: Calyrex|Psychic|p2a: Cara Luna
+|-damage|p2a: Cara Luna|39/100
+|move|p2a: Cara Luna|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Rillaboom|Wood Hammer|p2a: Cara Luna
+|-damage|p2a: Cara Luna|0 fnt
+|faint|p2a: Cara Luna
+|-damage|p1b: Rillaboom|87/100|[from] Recoil
+|
+|-heal|p2b: Chascona|7/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750876461
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Chascona|ability: Protosynthesis
+|-start|p2b: Chascona|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750876477
+|-terastallize|p1b: Rillaboom|Fire
+|move|p1b: Rillaboom|Grassy Glide|p2b: Chascona
+|-damage|p2b: Chascona|0 fnt
+|faint|p2b: Chascona
+|-end|p2b: Chascona|Protosynthesis|[silent]
+|move|p2a: Koraidon|Flame Charge|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|71/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Koraidon|Collision Course|p2a: Koraidon
+|-damage|p2a: Koraidon|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|33/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|76/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750876482
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1750876507
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Koraidon|Close Combat|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Rillaboom
+|-damage|p2a: Koraidon|24/100|[from] item: Life Orb
+|move|p1a: Koraidon|Collision Course|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750876523
+|move|p1a: Koraidon|Collision Course|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|FrogJay
+|raw|FrogJay's rating: 1389 &rarr; <strong>1403</strong><br />(+14 for winning)
+|raw|chi&apos;xi's rating: 1284 &rarr; <strong>1266</strong><br />(-18 for losing)
+|l|☆chi'xi
+|player|p2|

@@ -1,0 +1,142 @@
+|j|☆walreinoverme
+|j|☆garchomp el buques
+|t:|1750776528
+|gametype|doubles
+|player|p1|walreinoverme|pokemaniac|1330
+|player|p2|garchomp el buques|265|1247
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Gastrodon-East, L50, F|
+|poke|p1|Cacturne, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hariyama, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by garchomp el buques)
+garchomp el buques rejected open team sheets.
+|
+|t:|1750776549
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Hariyama|Hariyama, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750776562
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Hariyama
+|-supereffective|p1b: Hariyama
+|-damage|p1b: Hariyama|0 fnt
+|faint|p1b: Hariyama
+|move|p2a: Calyrex|Leech Seed|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750776572
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|2
+|
+|t:|1750776587
+|switch|p1a: Cacturne|Cacturne, L50, M|100/100
+|move|p2b: Flutter Mane|Moonblast|p1b: Kyogre
+|-damage|p1b: Kyogre|63/100
+|move|p1b: Kyogre|Surf|p2a: Calyrex|[spread] p2a,p2b
+|-immune|p1a: Cacturne|[from] ability: Water Absorb
+|-damage|p2a: Calyrex|63/100
+|-damage|p2b: Flutter Mane|38/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750776612
+|move|p1a: Cacturne|Sucker Punch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Cacturne|[spread] p1a,p1b
+|-supereffective|p1a: Cacturne
+|-resisted|p1b: Kyogre
+|-enditem|p1a: Cacturne|Focus Sash
+|-damage|p1a: Cacturne|1/100
+|-damage|p1b: Kyogre|42/100
+|move|p1b: Kyogre|Surf|p2a: Calyrex|[spread] p2a,p2b
+|-heal|p1a: Cacturne|26/100|[from] ability: Water Absorb|[of] p1b: Kyogre
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750776619
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Cacturne|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|turn|4
+|
+|t:|1750776635
+|move|p1a: Cacturne|Spiky Shield|p1a: Cacturne
+|-singleturn|p1a: Cacturne|move: Protect
+|move|p2b: Incineroar|Fake Out|p1a: Cacturne
+|-activate|p1a: Cacturne|move: Protect
+|-damage|p2b: Incineroar|88/100|[from] Spiky Shield|[of] p1a: Cacturne
+|move|p2a: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|2/100
+|move|p1b: Kyogre|Thunder|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750776658
+|move|p1a: Cacturne|Seed Bomb|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|move|p2b: Incineroar|U-turn|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|move|p1b: Kyogre|Surf|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|walreinoverme
+|raw|walreinoverme's rating: 1330 &rarr; <strong>1345</strong><br />(+15 for winning)
+|raw|garchomp el buques's rating: 1247 &rarr; <strong>1228</strong><br />(-19 for losing)
+|l|☆garchomp el buques
+|player|p2|
+|l|☆walreinoverme
+|player|p1|

@@ -1,0 +1,123 @@
+|j|☆SilverBlaze4106
+|j|☆bovine ghoti
+|t:|1750726690
+|gametype|doubles
+|player|p1|SilverBlaze4106|steven|1175
+|player|p2|bovine ghoti|mars|1189
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bovine ghoti)
+|
+|t:|1750726702
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|bovine ghoti has 30 seconds left.
+|
+|t:|1750726732
+|move|p2b: Incineroar|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|87/100
+|cant|p1b: Grimmsnarl|flinch
+|move|p1a: Flutter Mane|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|27/100
+|move|p2a: Miraidon|Electro Drift|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750726743
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750726753
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: SilverBlaze4106|move: Light Screen
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|37/100
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|1/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|3
+|inactive|SilverBlaze4106 has 30 seconds left.
+|
+|t:|1750726783
+|move|p1a: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-resisted|p2b: Incineroar
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Incineroar|84/100
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Incineroar
+|-damage|p2b: Incineroar|63/100
+|-unboost|p2b: Incineroar|spa|1
+|-damage|p1b: Grimmsnarl|70/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750726799
+|switch|p1a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750726818
+|-terastallize|p2a: Calyrex|Ice
+|move|p1b: Grimmsnarl|Sucker Punch|p2a: Calyrex
+|-damage|p2a: Calyrex|84/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Grimmsnarl|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-crit|p1b: Grimmsnarl
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Amoonguss
+|faint|p1b: Grimmsnarl
+|
+|win|bovine ghoti
+|raw|SilverBlaze4106's rating: 1175 &rarr; <strong>1151</strong><br />(-24 for losing)
+|raw|bovine ghoti's rating: 1189 &rarr; <strong>1213</strong><br />(+24 for winning)

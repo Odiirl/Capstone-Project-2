@@ -1,0 +1,190 @@
+|j|☆Felduin
+|j|☆prettiest trainer
+|t:|1750826048
+|gametype|doubles
+|player|p1|Felduin|psychic|1079
+|player|p2|prettiest trainer|266|1102
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Articuno, L50|
+|poke|p1|Glaceon, L50, M|
+|poke|p1|Sandslash-Alola, L50, F|
+|poke|p1|Lugia, L50|
+|poke|p1|Weavile, L50, M|
+|poke|p2|Cinccino, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Grafaiai, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Porygon-Z, L50|
+|teampreview|4
+|
+|t:|1750826076
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Articuno|Articuno, L50|100/100
+|switch|p2a: Cinccino|Cinccino, L50, F|100/100
+|switch|p2b: Grafaiai|Grafaiai, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1750826100
+|move|p2b: Grafaiai|Taunt|p1a: Ninetales
+|-start|p1a: Ninetales|move: Taunt
+|cant|p1a: Ninetales|move: Taunt|Aurora Veil
+|move|p2a: Cinccino|Hyper Voice|p1b: Articuno|[spread] p1a
+|-miss|p2a: Cinccino|p1b: Articuno
+|-damage|p1a: Ninetales|62/100
+|move|p1b: Articuno|Agility|p1b: Articuno
+|-boost|p1b: Articuno|spe|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750826126
+|move|p2b: Grafaiai|Encore|p1b: Articuno
+|-start|p1b: Articuno|Encore
+|move|p1b: Articuno|Agility|p1b: Articuno
+|-boost|p1b: Articuno|spe|2
+|move|p1a: Ninetales|Blizzard|p2a: Cinccino|[spread] p2a,p2b
+|-damage|p2a: Cinccino|50/100
+|-damage|p2b: Grafaiai|70/100
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Hyper Voice|p1a: Ninetales|[spread] p1a
+|-miss|p2a: Zoroark|p1b: Articuno
+|-damage|p1a: Ninetales|24/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750826172
+|switch|p1b: Weavile|Weavile, L50, M|100/100
+|-ability|p1b: Weavile|Pressure
+|switch|p1a: Glaceon|Glaceon, L50, M, shiny|100/100
+|move|p2b: Grafaiai|Parting Shot|p1a: Glaceon
+|-unboost|p1a: Glaceon|atk|1
+|-unboost|p1a: Glaceon|spa|1
+|
+|t:|1750826182
+|switch|p2b: Maushold|Maushold-Four, L50, shiny|100/100|[from] Parting Shot
+|move|p2a: Zoroark|Hyper Voice|p1b: Weavile|[spread] p1a,p1b
+|-damage|p1a: Glaceon|63/100
+|-damage|p1b: Weavile|47/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|69/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750826211
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1b: Weavile|Knock Off|p2b: Maushold
+|-crit|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|-enditem|p2b: Maushold|Wide Lens|[from] move: Knock Off|[of] p1b: Weavile
+|faint|p2b: Maushold
+|move|p2a: Zoroark|Hyper Voice|p1a: Glaceon|[spread] p1a,p1b
+|-damage|p1a: Glaceon|32/100
+|-damage|p1b: Weavile|0 fnt
+|faint|p1b: Weavile
+|move|p1a: Glaceon|Calm Mind|p1a: Glaceon
+|-boost|p1a: Glaceon|spa|1
+|-boost|p1a: Glaceon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|38/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750826228
+|switch|p1b: Articuno|Articuno, L50|100/100
+|switch|p2b: Grafaiai|Grafaiai, L50, M|70/100
+|turn|5
+|
+|t:|1750826251
+|move|p2b: Grafaiai|Encore|p1a: Glaceon
+|-start|p1a: Glaceon|Encore
+|move|p2a: Zoroark|Hyper Voice|p1b: Articuno|[spread] p1a,p1b
+|-crit|p1b: Articuno
+|-damage|p1a: Glaceon|16/100
+|-damage|p1b: Articuno|59/100
+|move|p1b: Articuno|Light Screen|p1b: Articuno
+|-sidestart|p1: Felduin|move: Light Screen
+|move|p1a: Glaceon|Calm Mind|p1a: Glaceon
+|-boost|p1a: Glaceon|spa|1
+|-boost|p1a: Glaceon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|22/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750826272
+|move|p2b: Grafaiai|Taunt|p1b: Articuno
+|-start|p1b: Articuno|move: Taunt
+|move|p2a: Zoroark|Hyper Voice|p1b: Articuno|[spread] p1a,p1b
+|-damage|p1a: Glaceon|15/100
+|-damage|p1b: Articuno|41/100
+|move|p1b: Articuno|Blizzard|p2b: Grafaiai|[spread] p2a,p2b
+|-damage|p2a: Zoroark|0 fnt
+|-damage|p2b: Grafaiai|24/100
+|faint|p2a: Zoroark
+|move|p1a: Glaceon|Calm Mind|p1a: Glaceon
+|-boost|p1a: Glaceon|spa|1
+|-boost|p1a: Glaceon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|21/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750826287
+|switch|p2a: Cinccino|Cinccino, L50, F|100/100
+|turn|7
+|
+|t:|1750826310
+|move|p2b: Grafaiai|Taunt|p1a: Glaceon
+|-start|p1a: Glaceon|move: Taunt
+|move|p2a: Cinccino|Triple Axel|p1b: Articuno|[miss]
+|-miss|p2a: Cinccino|p1b: Articuno
+|move|p1b: Articuno|Blizzard|p2a: Cinccino|[spread] p2a,p2b
+|-damage|p2a: Cinccino|30/100
+|-damage|p2b: Grafaiai|0 fnt
+|-status|p2a: Cinccino|frz
+|faint|p2b: Grafaiai
+|cant|p1a: Glaceon|move: Taunt|Calm Mind
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|32/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|38/100|[from] item: Leftovers
+|-end|p1a: Glaceon|Encore
+|upkeep
+|turn|8
+|
+|t:|1750826333
+|-terastallize|p1a: Glaceon|Fairy
+|cant|p2a: Cinccino|frz
+|move|p1b: Articuno|Blizzard|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|win|Felduin
+|raw|Felduin's rating: 1079 &rarr; <strong>1109</strong><br />(+30 for winning)
+|raw|prettiest trainer's rating: 1102 &rarr; <strong>1075</strong><br />(-27 for losing)
+|l|☆prettiest trainer
+|player|p2|
+|l|☆Felduin
+|player|p1|

@@ -1,0 +1,198 @@
+|j|☆Paikuro
+|j|☆Adkae
+|t:|1750827997
+|gametype|doubles
+|player|p1|Paikuro|170|1130
+|player|p2|Adkae|2|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Serperior, L50, M|
+|poke|p2|Thundurus, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Hawlucha, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adkae)
+|
+|t:|1750828028
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Serperior|Serperior, L50, M|100/100
+|switch|p2b: Thundurus|Thundurus, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-boost|p2a: Serperior|atk|1
+|-unboost|p2b: Thundurus|atk|1
+|turn|1
+|inactive|Paikuro has 30 seconds left.
+|inactive|Paikuro has 20 seconds left.
+|
+|t:|1750828065
+|-terastallize|p1b: Miraidon|Steel
+|move|p2b: Thundurus|Eerie Impulse|p2a: Serperior
+|-boost|p2a: Serperior|spa|2
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Thundurus|[spread] p2a,p2b
+|-damage|p2a: Serperior|76/100
+|-damage|p2b: Thundurus|57/100
+|-damage|p1b: Miraidon|91/100|[from] item: Life Orb
+|move|p2a: Serperior|Leaf Storm|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|59/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Incineroar|Flare Blitz|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|-damage|p1a: Incineroar|78/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750828081
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|2
+|
+|t:|1750828099
+|move|p2b: Thundurus|Scary Face|p1b: Miraidon
+|-unboost|p1b: Miraidon|spe|2
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Incineroar|Knock Off|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|95/100
+|
+|upkeep
+|
+|t:|1750828111
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750828136
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Thundurus|Thunder Wave|p1b: Flutter Mane
+|-status|p1b: Flutter Mane|par
+|move|p1b: Flutter Mane|Icy Wind|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Thundurus|move: Wide Guard
+|move|p1a: Incineroar|Flare Blitz|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|-damage|p1a: Incineroar|66/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1750828155
+|move|p2b: Thundurus|Thunder Wave|p1a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Incineroar
+|move|p2a: Zamazenta|Heavy Slam|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Incineroar|Flare Blitz|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|22/100
+|-damage|p1a: Incineroar|54/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750828168
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|inactive|Adkae has 30 seconds left.
+|
+|t:|1750828193
+|move|p2b: Thundurus|Thunder Wave|p1b: Calyrex
+|-status|p1b: Calyrex|par
+|move|p1b: Calyrex|Astral Barrage|p2b: Thundurus|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|0 fnt
+|-damage|p2b: Thundurus|0 fnt
+|faint|p2a: Zamazenta
+|faint|p2b: Thundurus
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|move|p1a: Incineroar|Knock Off|p2: Zamazenta|[notarget]
+|-fail|p1a: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750828201
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|t:|1750828214
+|-terastallize|p2b: Chien-Pao|Fighting
+|move|p2b: Chien-Pao|Throat Chop|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Incineroar|Knock Off|p2b: Chien-Pao
+|-resisted|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|74/100
+|-enditem|p2b: Chien-Pao|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|7
+|l|☆Adkae
+|inactive|Adkae disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Adkae has 30 seconds left.
+|inactive|Adkae has 20 seconds left.
+|j|☆Adkae
+|inactive|Adkae reconnected and has 20 seconds left.
+|player|p2|Adkae|2|
+|inactive|Adkae has 15 seconds left.
+|
+|t:|1750828256
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1a: Incineroar|Flare Blitz|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750828266
+|move|p2b: Chien-Pao|Throat Chop|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|28/100
+|-start|p1a: Incineroar|Throat Chop|[silent]
+|move|p1a: Incineroar|Flare Blitz|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|-damage|p1a: Incineroar|9/100|[from] Recoil
+|
+|win|Paikuro
+|raw|Paikuro's rating: 1130 &rarr; <strong>1163</strong><br />(+33 for winning)
+|raw|Adkae's rating: 1245 &rarr; <strong>1212</strong><br />(-33 for losing)
+|l|☆Adkae
+|player|p2|
+|l|☆Paikuro
+|player|p1|

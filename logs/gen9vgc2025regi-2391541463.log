@@ -1,0 +1,167 @@
+|j|☆mgc1999ps
+|j|☆oppePoiZ
+|t:|1750868117
+|gametype|doubles
+|player|p1|mgc1999ps|265|1095
+|player|p2|oppePoiZ|unknown|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Leavanny, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Hattrem, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oppePoiZ)
+|inactive|oppePoiZ has 60 seconds left.
+|
+|t:|1750868151
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Volcarona|Electric Seed
+|-boost|p2b: Volcarona|def|1|[from] item: Electric Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750868171
+|switch|p2a: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1b: Kyogre|Origin Pulse|p2b: Volcarona|[spread] p2a,p2b
+|-supereffective|p2a: Groudon
+|-supereffective|p2b: Volcarona
+|-damage|p2a: Groudon|45/100
+|-damage|p2b: Volcarona|45/100
+|move|p2b: Volcarona|Heat Wave|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Kyogre
+|-damage|p1a: Calyrex|22/100
+|-damage|p1b: Kyogre|76/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|oppePoiZ has 30 seconds left.
+|
+|t:|1750868196
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Volcarona|atk|1
+|-terastallize|p2a: Groudon|Fire
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1a: Calyrex|Glacial Lance|p2b: Volcarona|[spread] p2a,p2b
+|-resisted|p2a: Groudon
+|-resisted|p2b: Volcarona
+|-damage|p2a: Groudon|22/100
+|-damage|p2b: Volcarona|16/100
+|move|p2a: Groudon|Precipice Blades|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Incineroar|25/100
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750868214
+|switch|p1a: Kyogre|Kyogre, L50|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|inactive|mgc1999ps has 30 seconds left.
+|
+|t:|1750868241
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1b: Incineroar|Knock Off|p2a: Miraidon
+|-damage|p2a: Miraidon|63/100
+|-enditem|p2a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Volcarona|Heat Wave|p1a: Kyogre|[spread] p1b
+|-miss|p2b: Volcarona|p1a: Kyogre
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|16/100
+|move|p1a: Kyogre|Ice Beam|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750868263
+|switch|p2b: Groudon|Groudon, L50, shiny, tera:Fire|22/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|4
+|
+|t:|1750868281
+|move|p1b: Incineroar|Knock Off|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|-enditem|p2b: Groudon|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Groudon
+|move|p1a: Kyogre|Ice Beam|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750868289
+|switch|p2a: Leavanny|Leavanny, L50, M|100/100
+|turn|5
+|
+|t:|1750868301
+|move|p1b: Incineroar|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Incineroar
+|move|p1a: Kyogre|Ice Beam|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-enditem|p2a: Leavanny|Focus Sash
+|-damage|p2a: Leavanny|1/100
+|move|p2a: Leavanny|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|-enditem|p1b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|-message|oppePoiZ forfeited.
+|
+|win|mgc1999ps
+|raw|mgc1999ps's rating: 1095 &rarr; <strong>1127</strong><br />(+32 for winning)
+|raw|oppePoiZ's rating: 1188 &rarr; <strong>1156</strong><br />(-32 for losing)
+|l|☆mgc1999ps
+|player|p1|
+|l|☆oppePoiZ
+|player|p2|
+|j|☆mgc1999ps
+|player|p1|mgc1999ps|265|
+|l|☆mgc1999ps
+|player|p1|
+|j|☆mgc1999ps
+|player|p1|mgc1999ps|265|
+|l|☆mgc1999ps
+|player|p1|

@@ -1,0 +1,213 @@
+|j|☆gackajink
+|j|☆redkamex
+|t:|1750738812
+|gametype|doubles
+|player|p1|gackajink|miku-flying|1195
+|player|p2|redkamex|li|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Entei, L50|
+|teampreview|4
+|
+|t:|1750738849
+|start
+|switch|p1a: Violently Happy|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1b: Aeroplane|Tornadus, L50, M|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|1
+|
+|t:|1750738866
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|move|p1a: Violently Happy|Protect|p1a: Violently Happy
+|-singleturn|p1a: Violently Happy|Protect
+|move|p1b: Aeroplane|Tailwind|p1b: Aeroplane
+|-sidestart|p1: gackajink|move: Tailwind
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Violently Happy
+|-activate|p1a: Violently Happy|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750738898
+|switch|p1a: Aurora|Ninetales-Alola, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Aurora
+|move|p1b: Aeroplane|Bleakwind Storm|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Lilligant
+|-supereffective|p2b: Koraidon
+|-enditem|p2a: Lilligant|Focus Sash
+|-damage|p2a: Lilligant|1/100
+|-damage|p2b: Koraidon|34/100
+|-unboost|p2a: Lilligant|spe|1
+|move|p2b: Koraidon|Close Combat|p1a: Aurora
+|-damage|p1a: Aurora|28/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|24/100|[from] item: Life Orb
+|move|p2a: Lilligant|Ice Spinner|p1b: Aeroplane
+|-supereffective|p1b: Aeroplane
+|-damage|p1b: Aeroplane|49/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750738921
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|move|p1b: Aeroplane|Snowscape|p1b: Aeroplane
+|-weather|Snowscape
+|move|p1a: Aurora|Aurora Veil|p1a: Aurora
+|-sidestart|p1: gackajink|move: Aurora Veil
+|move|p2a: Lilligant|Sweet Scent|p1b: Aeroplane|[spread] p1a,p1b
+|-unboost|p1a: Aurora|evasion|2
+|-unboost|p1b: Aeroplane|evasion|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750738938
+|switch|p2a: Koraidon|Koraidon, L50|24/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Aeroplane|Bleakwind Storm|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Groudon|68/100
+|faint|p2a: Koraidon
+|move|p1a: Aurora|Moonblast|p2b: Groudon
+|-damage|p2b: Groudon|40/100
+|move|p2b: Groudon|Precipice Blades|p1a: Aurora|[spread] p1a
+|-immune|p1b: Aeroplane
+|-damage|p1a: Aurora|0 fnt
+|faint|p1a: Aurora
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: gackajink|move: Tailwind
+|upkeep
+|
+|t:|1750738954
+|switch|p2a: Entei|Entei, L50|100/100
+|switch|p1a: Violently Happy|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|5
+|
+|t:|1750738971
+|-terastallize|p2a: Entei|Normal
+|move|p1a: Violently Happy|Protect|p1a: Violently Happy
+|-singleturn|p1a: Violently Happy|Protect
+|move|p2a: Entei|Extreme Speed|p1a: Violently Happy
+|-activate|p1a: Violently Happy|move: Protect
+|move|p1b: Aeroplane|Snowscape|p1b: Aeroplane
+|-weather|Snowscape
+|move|p2b: Groudon|Precipice Blades|p1a: Violently Happy|[spread] 
+|-activate|p1a: Violently Happy|move: Protect
+|-immune|p1b: Aeroplane
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750738997
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|1/100
+|move|p2a: Entei|Extreme Speed|p1a: Violently Happy
+|-damage|p1a: Violently Happy|57/100
+|move|p1b: Aeroplane|Tailwind|p1b: Aeroplane
+|-sidestart|p1: gackajink|move: Tailwind
+|move|p1a: Violently Happy|Surging Strikes|p2b: Lilligant
+|-resisted|p2b: Lilligant
+|-crit|p2b: Lilligant
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2b: Lilligant
+|-hitcount|p2: Lilligant|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750739006
+|switch|p2b: Groudon|Groudon, L50|40/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|7
+|
+|t:|1750739017
+|move|p2a: Entei|Extreme Speed|p1a: Violently Happy
+|-damage|p1a: Violently Happy|17/100
+|move|p1b: Aeroplane|Snowscape|p1b: Aeroplane
+|-weather|Snowscape
+|move|p1a: Violently Happy|Close Combat|p2a: Entei
+|-supereffective|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|-unboost|p1a: Violently Happy|def|1
+|-unboost|p1a: Violently Happy|spd|1
+|faint|p2a: Entei
+|move|p2b: Groudon|Precipice Blades|p1a: Violently Happy|[spread] p1a
+|-immune|p1b: Aeroplane
+|-damage|p1a: Violently Happy|0 fnt
+|faint|p1a: Violently Happy
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750739030
+|switch|p1a: Harmonia|Kyurem-White, L50, shiny|100/100
+|-ability|p1a: Harmonia|Turboblaze
+|turn|8
+|c|☆gackajink|gg
+|
+|t:|1750739041
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Aeroplane|Bleakwind Storm|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p1a: Harmonia|Blizzard|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750739049
+|move|p2b: Groudon|Protect||[still]
+|-fail|p2b: Groudon
+|move|p1b: Aeroplane|Tailwind||[still]
+|-fail|p1b: Aeroplane
+|move|p1a: Harmonia|Blizzard|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|
+|win|gackajink
+|raw|gackajink's rating: 1195 &rarr; <strong>1228</strong><br />(+33 for winning)
+|raw|redkamex's rating: 1311 &rarr; <strong>1285</strong><br />(-26 for losing)
+|l|☆redkamex
+|player|p2|
+|j| Moondark876
+|j| parrot1471
+|j| magikarp=cool
+|j| Avi 2007
+|l|☆gackajink
+|player|p1|
+|l| parrot1471
+|l| Avi 2007

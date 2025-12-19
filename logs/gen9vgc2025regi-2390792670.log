@@ -1,0 +1,207 @@
+|j|☆Galactico37
+|j|☆Azemon
+|t:|1750768485
+|gametype|doubles
+|player|p1|Galactico37|265|1368
+|player|p2|Azemon|266|1399
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|
+|t:|1750768508
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750768568
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Sneasler|Fake Out|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|80/100
+|move|p1b: Koraidon|Flame Charge|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|90/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|cant|p1a: Rillaboom|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Koraidon|97/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|96/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|87/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750768594
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|23/100
+|move|p2a: Kyogre|Hydro Pump|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Koraidon|100/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|29/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|14/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750768616
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: Rillaboom|Grassy Glide||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Grassy Glide|[of] p1a: Rillaboom
+|move|p2b: Sneasler|Dire Claw|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|79/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|21/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750768643
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|move|p2b: Sneasler|Dire Claw|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|53/100
+|-status|p1b: Calyrex|psn
+|move|p1a: Rillaboom|U-turn|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|69/100
+|
+|t:|1750768654
+|switch|p1a: Koraidon|Koraidon, L50, tera:Fire|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Farigiraf|Psychic Noise|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|38/100 psn
+|-start|p1b: Calyrex|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Farigiraf|75/100|[from] Grassy Terrain
+|-damage|p1b: Calyrex|25/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750768676
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Farigiraf|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2b: Sneasler|Dire Claw|p1a: Koraidon
+|-damage|p1a: Koraidon|54/100
+|-status|p1a: Koraidon|psn
+|move|p1a: Koraidon|Close Combat|p2a: Farigiraf
+|-activate|p2a: Farigiraf|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Sneasler|7/100|[from] Grassy Terrain
+|-heal|p1a: Koraidon|61/100 psn|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|81/100|[from] Grassy Terrain
+|-damage|p1b: Calyrex|13/100 psn|[from] psn
+|-damage|p1a: Koraidon|48/100 psn|[from] psn
+|-end|p1b: Calyrex|move: Heal Block
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750768701
+|move|p2b: Sneasler|Dire Claw|p1a: Koraidon
+|-damage|p1a: Koraidon|7/100 psn
+|move|p1b: Calyrex|Astral Barrage|p2b: Sneasler|[spread] p2b
+|-immune|p2a: Farigiraf
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Koraidon|Close Combat|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Farigiraf
+|-damage|p1a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Calyrex|0 fnt|[from] psn
+|faint|p1b: Calyrex
+|upkeep
+|
+|t:|1750768724
+|switch|p1b: Rillaboom|Rillaboom, L50, M|21/100
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|29/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|7
+|
+|t:|1750768757
+|-terastallize|p2a: Zacian|Fairy
+|move|p1b: Rillaboom|Fake Out|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|85/100
+|move|p2b: Kyogre|Origin Pulse|p1a: Chi-Yu|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Rillaboom
+|-supereffective|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|cant|p2a: Zacian|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Kyogre|36/100|[from] Grassy Terrain
+|-heal|p2a: Zacian|91/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|-message|Galactico37 forfeited.
+|
+|win|Azemon
+|raw|Galactico37's rating: 1368 &rarr; <strong>1350</strong><br />(-18 for losing)
+|raw|Azemon's rating: 1399 &rarr; <strong>1417</strong><br />(+18 for winning)
+|l|☆Galactico37
+|player|p1|
+|l|☆Azemon
+|player|p2|

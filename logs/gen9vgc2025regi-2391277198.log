@@ -1,0 +1,171 @@
+|j|☆ShirtlessRayRizzo
+|j|☆Jammiz
+|t:|1750827009
+|gametype|doubles
+|player|p1|ShirtlessRayRizzo|266|1443
+|player|p2|Jammiz|265|1494
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750827042
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M, shiny|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|-unboost|p1b: Terapagos|atk|1
+|turn|1
+|
+|t:|1750827063
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2b: Incineroar|Fake Out|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Psychic Terrain
+|move|p1a: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2a: Calyrex|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750827084
+|switch|p1a: Terapagos|Terapagos-Terastal, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Indeedee|Alluring Voice|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|76/100
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|63/100
+|-damage|p1b: Indeedee|46/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750827150
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Terapagos|25/100
+|-damage|p1b: Indeedee|21/100
+|move|p1a: Terapagos|Dark Pulse|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Terapagos|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Terapagos
+|faint|p1b: Indeedee
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|-heal|p2a: Calyrex|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827173
+|switch|p1a: Smeargle|Smeargle, L50, M, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750827181
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Smeargle|Decorate|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|-boost|p1b: Koraidon|spa|2
+|move|p1b: Koraidon|Collision Course|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|47/100|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750827206
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|90/100
+|cant|p1b: Koraidon|flinch
+|move|p1a: Smeargle|Decorate|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|-boost|p1b: Koraidon|spa|2
+|move|p2a: Calyrex|Glacial Lance|p1b: Koraidon|[spread] p1a,p1b
+|-resisted|p1b: Koraidon
+|-damage|p1a: Smeargle|0 fnt
+|-damage|p1b: Koraidon|39/100
+|faint|p1a: Smeargle
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750827232
+|-terastallize|p2a: Calyrex|Water
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Koraidon|Flame Charge|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Knock Off|p1b: Koraidon
+|-damage|p1b: Koraidon|6/100
+|-enditem|p1b: Koraidon|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|59/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|-message|ShirtlessRayRizzo forfeited.
+|
+|win|Jammiz
+|raw|ShirtlessRayRizzo's rating: 1443 &rarr; <strong>1426</strong><br />(-17 for losing)
+|raw|Jammiz's rating: 1494 &rarr; <strong>1511</strong><br />(+17 for winning)
+|l|☆ShirtlessRayRizzo
+|player|p1|
+|l|☆Jammiz
+|player|p2|

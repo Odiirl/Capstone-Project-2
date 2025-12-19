@@ -1,0 +1,252 @@
+|j|☆blu3cr33p3r
+|j|☆ness#1glazer
+|t:|1750814252
+|gametype|doubles
+|player|p1|blu3cr33p3r|bruno|1243
+|player|p2|ness#1glazer|n|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750814323
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750814358
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: blu3cr33p3r|move: Light Screen
+|move|p1a: Miraidon|Volt Switch|p2b: Smeargle
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ness#1glazer)
+|
+|t:|1750814410
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|move|p2b: Smeargle|Decorate|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|2
+|-boost|p2a: Calyrex|spa|2
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|2
+|inactive|blu3cr33p3r has 30 seconds left.
+|inactive|ness#1glazer has 30 seconds left.
+|
+|t:|1750814441
+|-terastallize|p2a: Calyrex|Normal
+|-terastallize|p1a: Lunala|Fairy
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Smeargle|Disable||[still]
+|-fail|p2b: Smeargle
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-immune|p2a: Calyrex
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|
+|upkeep
+|
+|t:|1750814457
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|
+|t:|1750814471
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Rillaboom|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|84/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Grimmsnarl|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Grimmsnarl|move: Wide Guard
+|cant|p1b: Grimmsnarl|flinch
+|
+|-heal|p1b: Grimmsnarl|90/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750814491
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Rillaboom|Grassy Glide|p1a: Lunala
+|-damage|p1a: Lunala|91/100
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Calyrex
+|-damage|p2a: Calyrex|64/100
+|-unboost|p2a: Calyrex|spa|1
+|
+|-heal|p2a: Calyrex|70/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|97/100|[from] Grassy Terrain
+|-heal|p1b: Grimmsnarl|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750814510
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Rillaboom|U-turn|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|91/100
+|
+|t:|1750814516
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-heal|p2a: Calyrex|75/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|97/100|[from] Grassy Terrain
+|-heal|p1b: Grimmsnarl|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750814538
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Dark Pulse|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|70/100
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|-heal|p2a: Calyrex|81/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|76/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|blu3cr33p3r has 30 seconds left.
+|inactive|ness#1glazer has 30 seconds left.
+|inactive|blu3cr33p3r has 20 seconds left.
+|inactive|ness#1glazer has 20 seconds left.
+|inactive|ness#1glazer has 15 seconds left.
+|
+|t:|1750814579
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Dark Pulse|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|44/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|31/100
+|move|p1b: Urshifu|Close Combat|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|faint|p2a: Calyrex
+|
+|-heal|p1b: Urshifu|50/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750814587
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|8
+|inactive|blu3cr33p3r has 30 seconds left.
+|inactive|blu3cr33p3r has 20 seconds left.
+|inactive|blu3cr33p3r has 15 seconds left.
+|inactive|blu3cr33p3r has 10 seconds left.
+|inactive|blu3cr33p3r has 5 seconds left.
+|
+|t:|1750814642
+|move|p2a: Rillaboom|Grassy Glide|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2b: Zamazenta|Heavy Slam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-sideend|p1: blu3cr33p3r|move: Light Screen
+|upkeep
+|
+|t:|1750814654
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|9
+|
+|t:|1750814673
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: blu3cr33p3r|Reflect
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|33/100
+|move|p2b: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|33/100
+|move|p2a: Rillaboom|Wood Hammer|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|53/100
+|-damage|p2a: Rillaboom|86/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|inactive|blu3cr33p3r has 30 seconds left.
+|inactive|blu3cr33p3r has 20 seconds left.
+|inactive|blu3cr33p3r has 15 seconds left.
+|inactive|blu3cr33p3r has 10 seconds left.
+|
+|t:|1750814721
+|move|p1a: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|move|p2a: Rillaboom|Wood Hammer|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|14/100
+|-damage|p2a: Rillaboom|79/100|[from] Recoil
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Rillaboom
+|-damage|p2a: Rillaboom|51/100
+|-unboost|p2a: Rillaboom|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1750814743
+|move|p1a: Miraidon|Draco Meteor|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Rillaboom
+|
+|win|blu3cr33p3r
+|raw|blu3cr33p3r's rating: 1243 &rarr; <strong>1274</strong><br />(+31 for winning)
+|raw|ness#1glazer's rating: 1328 &rarr; <strong>1303</strong><br />(-25 for losing)
+|l|☆ness#1glazer
+|player|p2|

@@ -1,0 +1,191 @@
+|j|☆Gorfgob
+|j|☆LuceyGooseyFTW
+|t:|1750795811
+|gametype|doubles
+|player|p1|Gorfgob|gentleman|1355
+|player|p2|LuceyGooseyFTW|265|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Rhydon, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Medicham, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gorfgob)
+|inactive|Gorfgob has 60 seconds left.
+|
+|t:|1750795852
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2b: Medicham|Medicham, L50, F, shiny|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-enditem|p2a: Iron Bundle|Booster Energy
+|-activate|p2a: Iron Bundle|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Bundle|quarkdrivespe
+|turn|1
+|
+|t:|1750795876
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Medicham|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|96/100
+|-damage|p2b: Medicham|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p2a: Iron Bundle|Freeze-Dry|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|33/100
+|cant|p1b: Amoonguss|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750795900
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2a: Iron Bundle|Freeze-Dry|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750795904
+|switch|p1b: Terapagos|Terapagos-Terastal, L50, M|100/100
+|turn|3
+|
+|t:|1750795912
+|move|p2a: Iron Bundle|Icy Wind|p1b: Terapagos|[spread] p1a,p1b
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Ho-Oh|89/100
+|-damage|p1b: Terapagos|92/100
+|-unboost|p1b: Terapagos|spe|1
+|move|p1a: Ho-Oh|Brave Bird|p2b: Ursaluna
+|-damage|p2b: Ursaluna|60/100 brn
+|-damage|p1a: Ho-Oh|74/100|[from] Recoil
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2b: Ursaluna|Facade|p1b: Terapagos
+|-damage|p1b: Terapagos|4/100
+|
+|-heal|p1b: Terapagos|10/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750795933
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|33/100|[silent]
+|move|p2a: Iron Bundle|Freeze-Dry|p1b: Terapagos
+|-damage|p1b: Terapagos|16/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Iron Bundle
+|-damage|p2a: Iron Bundle|42/100
+|-status|p2a: Iron Bundle|brn
+|move|p1b: Terapagos|Tera Starstorm|p2a: Iron Bundle|[spread] p2a,p2b
+|-damage|p2a: Iron Bundle|0 fnt
+|-damage|p2b: Ursaluna|8/100 brn
+|faint|p2a: Iron Bundle
+|-end|p2a: Iron Bundle|Quark Drive|[silent]
+|move|p2b: Ursaluna|Facade|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|
+|-heal|p1b: Terapagos|23/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1750795952
+|switch|p2a: Medicham|Medicham, L50, F, shiny|84/100
+|switch|p1a: Rhydon|Rhydon, L50, M|100/100
+|turn|5
+|
+|t:|1750795961
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p1a: Rhydon|Protect|p1a: Rhydon
+|-singleturn|p1a: Rhydon|Protect
+|move|p2a: Medicham|Fake Out|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2b: Ursaluna|Earthquake|p1b: Terapagos|[spread] 
+|-activate|p1a: Rhydon|move: Protect
+|-activate|p1b: Terapagos|move: Protect
+|-activate|p2a: Medicham|ability: Telepathy
+|
+|-heal|p1b: Terapagos|29/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|0 fnt|[from] brn
+|faint|p2b: Ursaluna
+|upkeep
+|
+|t:|1750795966
+|switch|p2b: Dialga|Dialga-Origin, L50|100/100
+|turn|6
+|
+|t:|1750795976
+|-terastallize|p2b: Dialga|Stellar
+|move|p2a: Medicham|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Medicham
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Dialga|Dragon Pulse|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p1a: Rhydon|High Horsepower|p2b: Dialga
+|-supereffective|p2b: Dialga
+|-damage|p2b: Dialga|44/100
+|
+|-heal|p1b: Terapagos|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750795987
+|move|p2b: Dialga|Protect|p2b: Dialga
+|-singleturn|p2b: Dialga|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2b: Dialga|[spread] p2a
+|-activate|p2b: Dialga|move: Protect
+|-damage|p2a: Medicham|10/100
+|move|p1a: Rhydon|High Horsepower|p2b: Dialga
+|-activate|p2b: Dialga|move: Protect
+|move|p2a: Medicham|Trick Room|p2a: Medicham
+|-fieldstart|move: Trick Room|[of] p2a: Medicham
+|
+|-heal|p1b: Terapagos|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750796006
+|move|p2a: Medicham|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Medicham
+|move|p1a: Rhydon|High Horsepower|p2b: Dialga
+|-supereffective|p2b: Dialga
+|-damage|p2b: Dialga|0 fnt
+|faint|p2b: Dialga
+|move|p1b: Terapagos|Tera Starstorm|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|win|Gorfgob
+|raw|Gorfgob's rating: 1355 &rarr; <strong>1369</strong><br />(+14 for winning)
+|raw|LuceyGooseyFTW's rating: 1252 &rarr; <strong>1234</strong><br />(-18 for losing)
+|l|☆Gorfgob
+|player|p1|
+|l|☆LuceyGooseyFTW
+|player|p2|

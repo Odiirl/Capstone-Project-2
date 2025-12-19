@@ -1,0 +1,169 @@
+|j|☆Lio_Lyre
+|j|☆MambaNuggets
+|t:|1750825464
+|gametype|doubles
+|player|p1|Lio_Lyre|rood|1047
+|player|p2|MambaNuggets|266|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MambaNuggets)
+|inactive|Lio_Lyre also wants the timer to be on.
+|
+|t:|1750825482
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2a: Miraidon|Electric Seed
+|-boost|p2a: Miraidon|def|1|[from] item: Electric Seed
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1750825501
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: Lio_Lyre|move: Light Screen
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Whimsicott
+|-status|p1b: Whimsicott|par
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750825523
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: MambaNuggets|move: Light Screen
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p1a: Walking Wake|Hydro Steam|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|64/100
+|move|p1b: Whimsicott|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|32/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750825545
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: MambaNuggets|Reflect
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p1a: Walking Wake|Hydro Steam|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|cant|p1b: Whimsicott|par
+|
+|upkeep
+|
+|t:|1750825552
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750825560
+|move|p1a: Walking Wake|Protect|p1a: Walking Wake
+|-singleturn|p1a: Walking Wake|Protect
+|move|p2b: Iron Hands|Fake Out|p1b: Whimsicott
+|-damage|p1b: Whimsicott|79/100 par
+|cant|p1b: Whimsicott|flinch
+|move|p2a: Miraidon|Parabolic Charge|p1b: Whimsicott|[spread] p2b,p1b
+|-activate|p1a: Walking Wake|move: Protect
+|-resisted|p2b: Iron Hands
+|-resisted|p1b: Whimsicott
+|-damage|p2b: Iron Hands|82/100
+|-damage|p1b: Whimsicott|41/100 par
+|
+|upkeep
+|turn|5
+|inactive|Lio_Lyre has 30 seconds left.
+|
+|t:|1750825586
+|cant|p1b: Whimsicott|par
+|move|p2a: Miraidon|Parabolic Charge|p1a: Walking Wake|[spread] p2b,p1a,p1b
+|-resisted|p2b: Iron Hands
+|-resisted|p1b: Whimsicott
+|-damage|p2b: Iron Hands|62/100
+|-damage|p1a: Walking Wake|2/100
+|-damage|p1b: Whimsicott|1/100 par
+|move|p1a: Walking Wake|Dragon Pulse|p2b: Iron Hands
+|-damage|p2b: Iron Hands|42/100
+|move|p2b: Iron Hands|Drain Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-heal|p2b: Iron Hands|42/100|[from] drain|[of] p1a: Walking Wake
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-sideend|p1: Lio_Lyre|move: Light Screen
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750825604
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750825615
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: Lio_Lyre|move: Light Screen
+|move|p1a: Koraidon|Close Combat|p2a: Miraidon
+|-damage|p2a: Miraidon|59/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p2a: Miraidon|Parabolic Charge|p1b: Whimsicott|[spread] p2b,p1a,p1b
+|-resisted|p2b: Iron Hands
+|-resisted|p1b: Whimsicott
+|-damage|p2b: Iron Hands|31/100
+|-heal|p2a: Miraidon|66/100|[from] drain|[of] p2b: Iron Hands
+|-damage|p1a: Koraidon|31/100
+|-heal|p2a: Miraidon|96/100|[from] drain|[of] p1a: Koraidon
+|-damage|p1b: Whimsicott|0 fnt
+|-heal|p2a: Miraidon|96/100|[from] drain|[of] p1b: Whimsicott
+|faint|p1b: Whimsicott
+|move|p2b: Iron Hands|Drain Punch|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-heal|p2b: Iron Hands|44/100|[from] drain|[of] p1a: Koraidon
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Lio_Lyre forfeited.
+|
+|win|MambaNuggets
+|raw|Lio_Lyre's rating: 1047 &rarr; <strong>1031</strong><br />(-16 for losing)
+|raw|MambaNuggets's rating: 1077 &rarr; <strong>1103</strong><br />(+26 for winning)
+|l|☆Lio_Lyre
+|player|p1|

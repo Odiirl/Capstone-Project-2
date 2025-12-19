@@ -1,0 +1,260 @@
+|j|☆JwDYan
+|j|☆azzazzl
+|t:|1750854795
+|gametype|doubles
+|player|p1|JwDYan|169|1461
+|player|p2|azzazzl|dawn|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JwDYan)
+|
+|t:|1750854812
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750854831
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: JwDYan|Reflect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750854849
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Grimmsnarl|Foul Play|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|67/100
+|move|p1b: Amoonguss|Spore|p2b: Indeedee
+|-activate|p2b: Indeedee|item: Safety Goggles|Spore
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750854865
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos|[spread] p1a,p1b
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Grimmsnarl|67/100
+|-damage|p1b: Terapagos|87/100
+|move|p1a: Grimmsnarl|Foul Play|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|35/100
+|
+|-heal|p1b: Terapagos|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|azzazzl has 30 seconds left.
+|inactive|azzazzl has 20 seconds left.
+|inactive|azzazzl has 15 seconds left.
+|inactive|azzazzl has 10 seconds left.
+|
+|t:|1750854911
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1a: Grimmsnarl|Foul Play|p2a: Gallade
+|-damage|p2a: Gallade|23/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750854933
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|99/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|move|p2b: Kyogre|Water Spout|p1a: Ogerpon|[spread] p1b
+|-immune|p1a: Ogerpon|[from] ability: Water Absorb
+|-damage|p1b: Terapagos|70/100
+|move|p2a: Gallade|Sacred Sword|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|3/100
+|-damage|p2a: Gallade|13/100|[from] item: Life Orb
+|move|p1b: Terapagos|Earth Power|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-heal|p1b: Terapagos|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750854956
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750854974
+|switch|p2b: Indeedee|Indeedee-F, L50, F|35/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-damage|p1a: Ogerpon|65/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Indeedee|[anim] Ivy Cudgel Water
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-heal|p1b: Terapagos|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750854988
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|7
+|
+|t:|1750855003
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Water
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|38/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Calyrex|8/100
+|-damage|p2b: Kyogre|70/100
+|move|p2b: Kyogre|Thunder|p1a: Ogerpon
+|-damage|p1a: Ogerpon|26/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750855022
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Kyogre|Thunder|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|27/100|[from] item: Leftovers
+|-sideend|p1: JwDYan|Reflect
+|upkeep
+|
+|t:|1750855028
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|9
+|
+|t:|1750855048
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M, shiny|67/100
+|-terastallize|p2b: Kyogre|Grass
+|move|p2b: Kyogre|Water Spout|p1a: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|74/100
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2a: Calyrex|Glacial Lance|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750855057
+|switch|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|27/100
+|turn|10
+|
+|t:|1750855065
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Kyogre|Water Spout|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|33/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1750855075
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Kyogre|Water Spout|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|
+|-weather|none
+|-heal|p1b: Terapagos|39/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1750855095
+|move|p1b: Terapagos|Tera Starstorm|p2b: Kyogre|[spread] p2a,p2b
+|-supereffective|p2b: Kyogre
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Kyogre|33/100
+|faint|p2a: Calyrex
+|move|p2b: Kyogre|Origin Pulse|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|azzazzl
+|raw|JwDYan's rating: 1461 &rarr; <strong>1444</strong><br />(-17 for losing)
+|raw|azzazzl's rating: 1521 &rarr; <strong>1538</strong><br />(+17 for winning)
+|l|☆azzazzl
+|player|p2|
+|l|☆JwDYan
+|player|p1|

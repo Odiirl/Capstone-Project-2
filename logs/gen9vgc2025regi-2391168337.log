@@ -1,0 +1,115 @@
+|j|☆sandbeetle
+|j|☆TwiztedMelmetal
+|t:|1750811175
+|gametype|doubles
+|player|p1|sandbeetle|colress|1131
+|player|p2|TwiztedMelmetal|policeman|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Pawmot, L50, M|
+|poke|p1|Iron Thorns, L50|
+|poke|p1|Kyogre, L50|
+|poke|p2|Riolu, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Clefairy, L50, M|
+|teampreview|4
+|
+|t:|1750811201
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Riolu|Riolu, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750811231
+|move|p2b: Annihilape|Final Gambit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p2b: Annihilape
+|faint|p1a: Miraidon
+|move|p2a: Riolu|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|54/100
+|-unboost|p2a: Riolu|def|1
+|-unboost|p2a: Riolu|spd|1
+|move|p1b: Kyogre|Origin Pulse|p2a: Riolu
+|-enditem|p2a: Riolu|Focus Sash
+|-damage|p2a: Riolu|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750811251
+|switch|p1a: Pawmot|Pawmot, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sandbeetle)
+|inactive|TwiztedMelmetal has 60 seconds left.
+|
+|t:|1750811370
+|switch|p1b: Iron Thorns|Iron Thorns, L50|100/100
+|-activate|p1b: Iron Thorns|ability: Quark Drive
+|-start|p1b: Iron Thorns|quarkdriveatk
+|move|p1a: Pawmot|Fake Out|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|move|p2b: Koraidon|Close Combat|p1b: Iron Thorns
+|-supereffective|p1b: Iron Thorns
+|-damage|p1b: Iron Thorns|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Iron Thorns
+|-end|p1b: Iron Thorns|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750811383
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|60/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750811395
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Koraidon|Close Combat|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1750811402
+|-heal|p1: Miraidon|50/100|[from] move: Revival Blessing
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-message|TwiztedMelmetal forfeited.
+|
+|win|sandbeetle
+|raw|sandbeetle's rating: 1131 &rarr; <strong>1154</strong><br />(+23 for winning)
+|raw|TwiztedMelmetal's rating: 1097 &rarr; <strong>1075</strong><br />(-22 for losing)
+|l|☆TwiztedMelmetal
+|player|p2|
+|l|☆sandbeetle
+|player|p1|

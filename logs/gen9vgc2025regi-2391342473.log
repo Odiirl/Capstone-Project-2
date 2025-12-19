@@ -1,0 +1,201 @@
+|j|☆Dandraker
+|j|☆UtterlyIncapable
+|t:|1750839887
+|gametype|doubles
+|player|p1|Dandraker|102|1092
+|player|p2|UtterlyIncapable|firebreather|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Riolu, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+UtterlyIncapable rejected open team sheets.
+|
+|t:|1750839929
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Riolu|Riolu, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Riolu|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|1
+|
+|t:|1750839952
+|move|p2a: Riolu|Quick Guard|p2a: Riolu
+|-singleturn|p2a: Riolu|Quick Guard
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-start|p1a: Zacian|Substitute
+|-damage|p1a: Zacian|76/100
+|move|p1b: Incineroar|Parting Shot|p2a: Riolu
+|-unboost|p2a: Riolu|atk|1
+|-unboost|p2a: Riolu|spa|1
+|
+|t:|1750839960
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750839972
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Riolu|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p2a: Riolu|Sunny Day|p2a: Riolu
+|-weather|SunnyDay
+|move|p2b: Calyrex|High Horsepower|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-end|p1a: Zacian|Substitute
+|move|p1a: Zacian|Behemoth Blade|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750839991
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Riolu|Coaching|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|1
+|-boost|p2b: Calyrex|def|1
+|move|p1b: Incineroar|Snarl|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Riolu
+|-damage|p2a: Riolu|84/100
+|-unboost|p2a: Riolu|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750840012
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Riolu|Coaching|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|1
+|-boost|p2b: Calyrex|def|1
+|move|p2b: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|7/100|[from] Grassy Terrain
+|-heal|p2a: Riolu|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750840026
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750840039
+|move|p2a: Riolu|Quick Guard|p2a: Riolu
+|-singleturn|p2a: Riolu|Quick Guard
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Quick Guard
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|13/100|[from] Grassy Terrain
+|-heal|p2a: Riolu|96/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750840047
+|switch|p1a: Zacian|Zacian-Crowned, L50|76/100
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dandraker)
+|
+|t:|1750840094
+|move|p2a: Riolu|Feint|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|75/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Riolu
+|-damage|p2a: Riolu|0 fnt
+|faint|p2a: Riolu
+|move|p1b: Kyogre|Thunder|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zacian|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750840100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750840119
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p2a: Koraidon|Flame Charge|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|6/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Zacian|Substitute|p1a: Zacian
+|-fail|p1a: Zacian|move: Substitute|[weak]
+|move|p1b: Kyogre|Water Spout|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|75/100
+|-damage|p2b: Clefairy|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|81/100|[from] Grassy Terrain
+|-heal|p1a: Zacian|12/100|[from] Grassy Terrain
+|-heal|p2b: Clefairy|77/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|-message|Dandraker forfeited.
+|
+|win|UtterlyIncapable
+|raw|Dandraker's rating: 1092 &rarr; <strong>1066</strong><br />(-26 for losing)
+|raw|UtterlyIncapable's rating: 1067 &rarr; <strong>1099</strong><br />(+32 for winning)
+|l|☆Dandraker
+|player|p1|
+|l|☆UtterlyIncapable
+|player|p2|

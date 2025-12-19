@@ -1,0 +1,135 @@
+|j|☆ShellyV25
+|j|☆Patapem
+|t:|1750794973
+|gametype|doubles
+|player|p1|ShellyV25|hilbert|1111
+|player|p2|Patapem|102|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750795048
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p2a: ET|Lunala, L50|100/100
+|switch|p2b: Incierto|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750795083
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incierto|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Weezing|Taunt|p2a: ET
+|-start|p2a: ET|move: Taunt
+|cant|p2a: ET|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750795108
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2a: ET
+|-damage|p2a: ET|0 fnt
+|faint|p2a: ET
+|-damage|p1a: Koraidon|63/100|[from] Recoil
+|move|p1b: Weezing|Strange Steam|p2b: Incierto
+|-damage|p2b: Incierto|75/100
+|move|p2b: Incierto|Flare Blitz|p1b: Weezing
+|-damage|p1b: Weezing|38/100
+|-damage|p2b: Incierto|57/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750795123
+|switch|p2a: Rápido|Koraidon, L50|100/100
+|turn|3
+|
+|t:|1750795147
+|-terastallize|p2a: Rápido|Fire
+|move|p2a: Rápido|Flame Charge|p1b: Weezing
+|-damage|p1b: Weezing|0 fnt
+|-boost|p2a: Rápido|spe|1
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-activate|p2a: Rápido|ability: Orichalcum Pulse
+|-ability|p2b: Incierto|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-damage|p2a: Rápido|91/100|[from] item: Life Orb
+|move|p1a: Koraidon|Collision Course|p2b: Incierto
+|-supereffective|p2b: Incierto
+|-damage|p2b: Incierto|0 fnt
+|faint|p2b: Incierto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750795164
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2b: Ushuaia|Ursaluna, L50, M|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1750795196
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Ushuaia|Protect|p2b: Ushuaia
+|-singleturn|p2b: Ushuaia|Protect
+|move|p2a: Rápido|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Rápido|54/100|[from] Recoil
+|-damage|p2a: Rápido|45/100|[from] item: Life Orb
+|move|p1b: Walking Wake|Hydro Steam|p2a: Rápido
+|-supereffective|p2a: Rápido
+|-damage|p2a: Rápido|0 fnt
+|faint|p2a: Rápido
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ushuaia|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750795213
+|switch|p1a: Koraidon|Koraidon, L50, tera:Fire|63/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750795223
+|move|p1b: Walking Wake|Hydro Steam|p2b: Ushuaia
+|-supereffective|p2b: Ushuaia
+|-damage|p2b: Ushuaia|0 fnt
+|faint|p2b: Ushuaia
+|
+|win|ShellyV25
+|raw|ShellyV25's rating: 1111 &rarr; <strong>1135</strong><br />(+24 for winning)
+|raw|Patapem's rating: 1095 &rarr; <strong>1072</strong><br />(-23 for losing)
+|l|☆Patapem
+|player|p2|
+|c|☆ShellyV25|Ggs

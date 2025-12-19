@@ -1,0 +1,166 @@
+|j|☆MigraineMan
+|j|☆poppledinger
+|t:|1750834330
+|gametype|doubles
+|player|p1|MigraineMan|169|1334
+|player|p2|poppledinger|hiker-gen4|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750834366
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Scovillain|atk|1
+|turn|1
+|
+|t:|1750834383
+|move|p1b: Scovillain|Protect|p1b: Scovillain
+|-singleturn|p1b: Scovillain|Protect
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750834404
+|move|p1b: Scovillain|Rage Powder|p1b: Scovillain
+|-singleturn|p1b: Scovillain|move: Rage Powder
+|move|p2a: Miraidon|Draco Meteor|p1b: Scovillain
+|-enditem|p1b: Scovillain|Focus Sash
+|-damage|p1b: Scovillain|1/100
+|-unboost|p2a: Miraidon|spa|2
+|move|p1a: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750834414
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750834429
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p1a: Koraidon|Collision Course|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750834446
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|-terastallize|p2b: Calyrex|Water
+|move|p1a: Koraidon|Flare Blitz|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|-damage|p1a: Koraidon|66/100|[from] Recoil
+|move|p2a: Farigiraf|Foul Play|p1a: Koraidon
+|-damage|p1a: Koraidon|21/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|17/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750834457
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Clefairy|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Koraidon|46/100
+|-fail|p1b: Clefairy|heal
+|move|p2b: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Clefairy|42/100
+|
+|-weather|none
+|-heal|p2b: Calyrex|23/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750834464
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Clefairy|After You|p1a: Koraidon
+|-activate|p1a: Koraidon|move: After You
+|move|p1a: Koraidon|Collision Course|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750834470
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750834491
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Farigiraf|Foul Play|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|39/100
+|move|p1a: Koraidon|Collision Course|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|turn|8
+|-message|poppledinger forfeited.
+|
+|win|MigraineMan
+|raw|MigraineMan's rating: 1334 &rarr; <strong>1356</strong><br />(+22 for winning)
+|raw|poppledinger's rating: 1364 &rarr; <strong>1342</strong><br />(-22 for losing)
+|l|☆poppledinger
+|player|p2|
+|l|☆MigraineMan
+|player|p1|

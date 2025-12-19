@@ -1,0 +1,208 @@
+|j|☆WeWantBreathOfFire
+|j|☆HecklerSupreme
+|t:|1750771707
+|gametype|doubles
+|player|p1|WeWantBreathOfFire|pryce|1654
+|player|p2|HecklerSupreme|170|1541
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Eternatus, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p2|Palkia, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Entei, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HecklerSupreme)
+|inactive|WeWantBreathOfFire has 60 seconds left.
+|
+|t:|1750771740
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Eternatus|Pressure
+|turn|1
+|
+|t:|1750771758
+|-terastallize|p1a: Eternatus|Dark
+|-terastallize|p2a: Calyrex|Fairy
+|move|p1b: Dragapult|Protect|p1b: Dragapult
+|-singleturn|p1b: Dragapult|Protect
+|move|p1a: Eternatus|Substitute|p1a: Eternatus
+|-start|p1a: Eternatus|Substitute
+|-damage|p1a: Eternatus|76/100
+|move|p2b: Smeargle|Spore||[still]
+|-fail|p2b: Smeargle
+|move|p2a: Calyrex|Glacial Lance|p1a: Eternatus|[spread] p1a
+|-activate|p1b: Dragapult|move: Protect
+|-end|p1a: Eternatus|Substitute
+|
+|-heal|p1a: Eternatus|82/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750771770
+|move|p2b: Smeargle|Spore|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Spore
+|move|p1b: Dragapult|Disable|p2a: Calyrex
+|-start|p2a: Calyrex|Disable|Glacial Lance
+|cant|p1a: Eternatus|slp
+|cant|p2a: Calyrex|Disable|Glacial Lance
+|
+|-heal|p1a: Eternatus|88/100 slp|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|3
+|inactive|WeWantBreathOfFire has 30 seconds left.
+|
+|t:|1750771796
+|switch|p2a: Palkia|Palkia, L50|100/100
+|-ability|p2a: Palkia|Pressure
+|move|p2b: Smeargle|Spore|p1b: Dragapult
+|-status|p1b: Dragapult|slp|[from] move: Spore
+|cant|p1b: Dragapult|slp
+|-curestatus|p1a: Eternatus|slp|[msg]
+|move|p1a: Eternatus|Cosmic Power|p1a: Eternatus
+|-boost|p1a: Eternatus|def|1
+|-boost|p1a: Eternatus|spd|1
+|
+|-heal|p1a: Eternatus|94/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1750771811
+|cant|p1b: Dragapult|slp
+|move|p2b: Smeargle|Spore|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Spore
+|cant|p1a: Eternatus|slp
+|move|p2a: Palkia|Spacial Rend|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|
+|-heal|p1a: Eternatus|99/100 slp|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|
+|t:|1750771823
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|turn|5
+|
+|t:|1750771837
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Smeargle|Decorate|p2a: Palkia
+|-boost|p2a: Palkia|atk|2
+|-boost|p2a: Palkia|spa|2
+|-curestatus|p1a: Eternatus|slp|[msg]
+|move|p1a: Eternatus|Sludge Bomb|p2b: Smeargle
+|-damage|p2b: Smeargle|25/100
+|move|p2a: Palkia|Spacial Rend|p1a: Eternatus
+|-damage|p1a: Eternatus|23/100
+|
+|-heal|p1a: Eternatus|29/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|6
+|inactive|WeWantBreathOfFire has 30 seconds left.
+|
+|t:|1750771872
+|move|p2b: Smeargle|Spore|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Spore
+|cant|p1a: Eternatus|slp
+|move|p1b: Urshifu|Wicked Blow|p2b: Smeargle
+|-crit|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Palkia|Spacial Rend|p1b: Urshifu
+|-crit|p1b: Urshifu
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|
+|-heal|p1a: Eternatus|35/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750771887
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Fairy|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750771902
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|cant|p1a: Eternatus|slp
+|move|p2b: Calyrex|Glacial Lance|p1a: Eternatus|[spread] p1a
+|-activate|p1b: Urshifu|move: Protect
+|-damage|p1a: Eternatus|12/100 slp
+|move|p2a: Palkia|Trick Room|p2a: Palkia
+|-fieldstart|move: Trick Room|[of] p2a: Palkia
+|
+|-heal|p1a: Eternatus|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750771913
+|move|p1b: Urshifu|Sucker Punch|p2a: Palkia
+|-damage|p2a: Palkia|63/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Eternatus|[spread] p1a,p1b
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1a: Eternatus
+|faint|p1b: Urshifu
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|move|p2a: Palkia|Spacial Rend|p1: Eternatus|[notarget]
+|-fail|p2a: Palkia
+|
+|upkeep
+|
+|t:|1750771917
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|9
+|
+|t:|1750771922
+|move|p2b: Calyrex|Glacial Lance|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|16/100
+|move|p2a: Palkia|Spacial Rend|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|win|HecklerSupreme
+|raw|WeWantBreathOfFire's rating: 1654 &rarr; <strong>1628</strong><br />(-26 for losing)
+|raw|HecklerSupreme's rating: 1541 &rarr; <strong>1567</strong><br />(+26 for winning)
+|l|☆WeWantBreathOfFire
+|player|p1|
+|c|☆HecklerSupreme|gg
+|l|☆HecklerSupreme
+|player|p2|

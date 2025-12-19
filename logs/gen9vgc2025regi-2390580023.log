@@ -1,0 +1,161 @@
+|j|☆ggmotox
+|j|☆larrylove4
+|t:|1750731640
+|gametype|doubles
+|player|p1|ggmotox|2|1056
+|player|p2|larrylove4|170|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Honchkrow, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Dusknoir, L50, F|
+|poke|p1|Slowking, L50, F|
+|poke|p1|Chandelure, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Scraggy, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750731693
+|start
+|switch|p1a: Dusknoir|Dusknoir, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1a: Dusknoir|Pressure
+|turn|1
+|
+|t:|1750731744
+|move|p2b: Farigiraf|Foul Play|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|69/100
+|move|p1b: Ursaluna|High Horsepower|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|move|p1a: Dusknoir|Trick Room|p1a: Dusknoir
+|-fieldstart|move: Trick Room|[of] p1a: Dusknoir
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750731758
+|switch|p2a: Scraggy|Scraggy, L50, M|100/100
+|-ability|p2a: Scraggy|Intimidate|boost
+|-unboost|p1a: Dusknoir|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|2
+|
+|t:|1750731773
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Scraggy|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|95/100 brn
+|cant|p1b: Ursaluna|flinch
+|
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750731821
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Scraggy|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|25/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Scraggy|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Scraggy|45/100
+|move|p1b: Ursaluna|Earthquake|p2a: Scraggy|[spread] p1a,p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p2a: Scraggy|4/100
+|faint|p1a: Calyrex
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1750731836
+|switch|p1a: Chandelure|Chandelure, L50, M|100/100
+|turn|4
+|
+|t:|1750731855
+|move|p2a: Scraggy|Coaching|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|1
+|-boost|p2b: Calyrex|def|1
+|move|p2b: Calyrex|Glacial Lance|p1b: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Chandelure
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Chandelure|41/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1a: Chandelure|Flamethrower|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750731869
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Dusknoir|Dusknoir, L50, F|69/100
+|-ability|p1b: Dusknoir|Pressure
+|turn|5
+|
+|t:|1750731893
+|-terastallize|p2b: Farigiraf|Water
+|move|p2a: Scraggy|Endeavor|p1b: Dusknoir
+|-immune|p1b: Dusknoir
+|move|p1b: Dusknoir|Phantom Force||[still]
+|-prepare|p1b: Dusknoir|Phantom Force
+|move|p2b: Farigiraf|Foul Play|p1b: Dusknoir|[miss]
+|-miss|p2b: Farigiraf|p1b: Dusknoir
+|move|p1a: Chandelure|Flamethrower|p2b: Farigiraf
+|-resisted|p2b: Farigiraf
+|-damage|p2b: Farigiraf|63/100
+|-status|p2b: Farigiraf|brn
+|
+|-damage|p2b: Farigiraf|57/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750731914
+|move|p1a: Chandelure|Flamethrower|p2a: Scraggy
+|-damage|p2a: Scraggy|0 fnt
+|faint|p2a: Scraggy
+|move|p2b: Farigiraf|Foul Play|p1b: Dusknoir|[miss]
+|-miss|p2b: Farigiraf|p1b: Dusknoir
+|move|p1b: Dusknoir|Phantom Force|p2b: Farigiraf|[from] lockedmove
+|-damage|p2b: Farigiraf|32/100 brn
+|
+|-damage|p2b: Farigiraf|26/100 brn|[from] brn
+|upkeep
+|turn|7
+|-message|larrylove4 forfeited.
+|
+|win|ggmotox
+|raw|ggmotox's rating: 1056 &rarr; <strong>1093</strong><br />(+37 for winning)
+|raw|larrylove4's rating: 1119 &rarr; <strong>1090</strong><br />(-29 for losing)
+|l|☆larrylove4
+|player|p2|
+|l|☆ggmotox
+|player|p1|

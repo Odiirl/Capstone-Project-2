@@ -1,0 +1,150 @@
+|j|☆ittsaTRAP
+|j|☆one hat trick
+|t:|1750719244
+|gametype|doubles
+|player|p1|ittsaTRAP|1|1236
+|player|p2|one hat trick|miriam|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750719278
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Necrozma|atk|1
+|turn|1
+|
+|t:|1750719294
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Miraidon|Volt Switch|p1a: Indeedee
+|-damage|p1a: Indeedee|51/100
+|
+|t:|1750719298
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Incineroar|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|2/100
+|
+|t:|1750719311
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100|[from] U-turn
+|move|p1b: Necrozma|Trick Room|p1b: Necrozma
+|-fieldstart|move: Trick Room|[of] p1b: Necrozma
+|
+|upkeep
+|turn|2
+|
+|t:|1750719351
+|move|p1a: Indeedee|Helping Hand|p1b: Necrozma
+|-singleturn|p1b: Necrozma|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Necrozma|Expanding Force|p2b: Ogerpon|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-ability|p2b: Ogerpon|Sturdy
+|-damage|p2b: Ogerpon|1/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Necrozma|[anim] Ivy Cudgel Rock
+|-crit|p1b: Necrozma
+|-damage|p1b: Necrozma|28/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750719381
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Stomping Tantrum|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Necrozma|Expanding Force|p2b: Ogerpon|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|76/100
+|
+|upkeep
+|
+|t:|1750719395
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1750719415
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Necrozma|atk|1
+|-terastallize|p1a: Torkoal|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Torkoal|Eruption|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|65/100
+|move|p1b: Necrozma|Expanding Force|p2b: Incineroar|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-immune|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750719443
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Torkoal|Eruption|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|35/100
+|-damage|p2b: Incineroar|27/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Necrozma|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|68/100
+|-damage|p1b: Necrozma|0 fnt
+|faint|p1b: Necrozma
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Incineroar|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|32/100
+|-enditem|p1a: Torkoal|Charcoal|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|ittsaTRAP forfeited.
+|
+|win|one hat trick
+|raw|ittsaTRAP's rating: 1236 &rarr; <strong>1208</strong><br />(-28 for losing)
+|raw|one hat trick's rating: 1190 &rarr; <strong>1218</strong><br />(+28 for winning)
+|l|☆ittsaTRAP
+|player|p1|

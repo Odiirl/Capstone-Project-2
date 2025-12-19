@@ -1,0 +1,159 @@
+|j|☆Caveot
+|j|☆Noreb
+|t:|1750867258
+|gametype|doubles
+|player|p1|Caveot|101|1074
+|player|p2|Noreb|miku-psychic|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Great Tusk, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noreb)
+|inactive|Noreb has 60 seconds left.
+|
+|t:|1750867313
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|inactive|Caveot has 30 seconds left.
+|inactive|Noreb has 30 seconds left.
+|inactive|Noreb has 20 seconds left.
+|inactive|Noreb has 15 seconds left.
+|
+|t:|1750867358
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Iron Hands|Drain Punch|p1b: Indeedee
+|-damage|p1b: Indeedee|34/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|Noreb has 30 seconds left.
+|inactive|Caveot has 30 seconds left.
+|inactive|Noreb has 20 seconds left.
+|
+|t:|1750867394
+|move|p1a: Calyrex|High Horsepower|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|57/100
+|move|p2b: Iron Hands|Low Kick|p1a: Calyrex
+|-damage|p1a: Calyrex|68/100
+|move|p1b: Indeedee|Psychic|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1750867408
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750867429
+|-terastallize|p1a: Calyrex|Fire
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|81/100
+|-damage|p2b: Iron Hands|28/100
+|move|p2b: Iron Hands|Drain Punch|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-heal|p2b: Iron Hands|39/100|[from] drain|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|27/100
+|
+|upkeep
+|
+|t:|1750867442
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750867461
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|42/100
+|-damage|p2b: Iron Hands|11/100
+|move|p2b: Iron Hands|Drain Punch|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|83/100
+|-heal|p2b: Iron Hands|18/100|[from] drain|[of] p1b: Terapagos
+|move|p1b: Terapagos|Earth Power|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-heal|p1b: Terapagos|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750867478
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Discharger|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Discharger
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|turn|5
+|inactive|Caveot has 30 seconds left.
+|inactive|Noreb has 30 seconds left.
+|
+|t:|1750867520
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Lunala|Psychic|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|move|p2b: Discharger|Electro Drift|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|
+|-heal|p1b: Terapagos|95/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750867536
+|move|p2b: Discharger|Electro Drift|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|win|Noreb
+|raw|Caveot's rating: 1074 &rarr; <strong>1055</strong><br />(-19 for losing)
+|raw|Noreb's rating: 1114 &rarr; <strong>1136</strong><br />(+22 for winning)
+|l|☆Caveot
+|player|p1|
+|c|☆Noreb|Gg
+|l|☆Noreb
+|player|p2|
+|j|☆Noreb
+|player|p2|Noreb|miku-psychic|

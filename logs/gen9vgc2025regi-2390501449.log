@@ -1,0 +1,155 @@
+|j|☆goat77
+|j|☆hxzevevo
+|t:|1750721039
+|gametype|doubles
+|player|p1|goat77|101|1073
+|player|p2|hxzevevo|2|1094
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Hitmontop, L50, M|
+|poke|p2|Toedscruel, L50, M|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+goat77 has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hxzevevo)
+hxzevevo rejected open team sheets.
+|
+|t:|1750721072
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Toedscruel|Toedscruel, L50, M|100/100
+|switch|p2b: Meowstic|Meowstic, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1750721097
+|-terastallize|p2a: Toedscruel|Ghost
+|move|p2b: Meowstic|Skill Swap|p2a: Toedscruel
+|-activate|p2b: Meowstic|move: Skill Swap|||[of] p2a: Toedscruel
+|move|p2a: Toedscruel|Spore|p1b: Torkoal
+|-status|p1b: Torkoal|slp|[from] move: Spore
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|cant|p1b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|hxzevevo has 30 seconds left.
+|
+|t:|1750721123
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-curestatus|p1b: Torkoal|slp|[msg]
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Toedscruel|Acupressure|p2b: Calyrex
+|-boost|p2b: Calyrex|def|2
+|move|p1a: Lilligant|Sleep Powder|p2a: Toedscruel
+|-status|p2a: Toedscruel|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750721146
+|cant|p2a: Toedscruel|slp
+|move|p1a: Lilligant|Sleep Powder|p2b: Calyrex|[miss]
+|-miss|p1a: Lilligant|p2b: Calyrex
+|move|p2b: Calyrex|Astral Barrage|p1a: Lilligant|[spread] p1a,p1b
+|-damage|p1a: Lilligant|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1a: Lilligant
+|faint|p1b: Torkoal
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750721158
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisspd
+|turn|4
+|
+|t:|1750721175
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|cant|p2a: Toedscruel|slp
+|move|p2b: Calyrex|Astral Barrage|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|67/100
+|-damage|p2b: Calyrex|81/100|[from] item: Life Orb
+|move|p1b: Brute Bonnet|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Brute Bonnet|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|goat77 has 30 seconds left.
+|
+|t:|1750721205
+|cant|p2b: Calyrex|slp
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|-curestatus|p2a: Toedscruel|slp|[msg]
+|move|p2a: Toedscruel|Spore|p1b: Brute Bonnet
+|-immune|p1b: Brute Bonnet
+|move|p1a: Koraidon|Dragon Claw|p2b: Calyrex
+|-damage|p2b: Calyrex|48/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Brute Bonnet|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750721225
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|-curestatus|p2b: Calyrex|slp|[msg]
+|move|p2b: Calyrex|Astral Barrage|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Brute Bonnet|43/100
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|38/100|[from] item: Life Orb
+|move|p2a: Toedscruel|Earth Power|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Brute Bonnet|42/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-message|goat77 forfeited.
+|
+|win|hxzevevo
+|raw|goat77's rating: 1073 &rarr; <strong>1053</strong><br />(-20 for losing)
+|raw|hxzevevo's rating: 1094 &rarr; <strong>1118</strong><br />(+24 for winning)
+|l|☆goat77
+|player|p1|
+|l|☆hxzevevo
+|player|p2|

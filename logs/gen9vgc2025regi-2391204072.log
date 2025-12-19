@@ -1,0 +1,166 @@
+|j|☆halcyonfury
+|j|☆namrekca ivel
+|t:|1750815972
+|gametype|doubles
+|player|p1|halcyonfury|1|1311
+|player|p2|namrekca ivel|shadowtriad|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Pikachu, L50, M|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by halcyonfury)
+|inactive|namrekca ivel has 60 seconds left.
+|
+|t:|1750816019
+|start
+|switch|p1a: Pikachu|Pikachu, L50, M|100/100
+|switch|p1b: Moltres|Moltres-Galar, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750816043
+|move|p1a: Pikachu|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|99/100
+|cant|p2a: Zamazenta|flinch
+|move|p1b: Moltres|Tailwind|p1b: Moltres
+|-sidestart|p1: halcyonfury|move: Tailwind
+|move|p2b: Rillaboom|U-turn|p1a: Pikachu
+|-damage|p1a: Pikachu|11/100
+|
+|t:|1750816051
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100|[from] U-turn
+|
+|-heal|p1a: Pikachu|16/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750816066
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: namrekca ivel|move: Tailwind
+|move|p2a: Zamazenta|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|27/100
+|move|p1b: Moltres|Hurricane|p2a: Zamazenta
+|-damage|p2a: Zamazenta|69/100
+|-start|p2a: Zamazenta|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|75/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|33/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|namrekca ivel has 30 seconds left.
+|
+|t:|1750816094
+|-activate|p2a: Zamazenta|confusion
+|move|p2a: Zamazenta|Body Press|p1b: Moltres
+|-damage|p1b: Moltres|33/100
+|-ability|p1b: Moltres|Berserk|boost
+|-boost|p1b: Moltres|spa|1
+|move|p1a: Kyogre|Origin Pulse|p2a: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|26/100
+|-damage|p2b: Tornadus|26/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Moltres|[spread] p1a,p1b
+|-damage|p1a: Kyogre|13/100
+|-damage|p1b: Moltres|1/100
+|move|p1b: Moltres|Hurricane|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|19/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750816106
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750816119
+|-terastallize|p2a: Calyrex|Dark
+|move|p2a: Calyrex|Astral Barrage|p1b: Moltres|[spread] p1a,p1b
+|-resisted|p1b: Moltres
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Moltres|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Moltres
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Tornadus|Bleakwind Storm|p1: Kyogre|[notarget]
+|-fail|p2b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|97/100|[from] Grassy Terrain
+|-sideend|p1: halcyonfury|move: Tailwind
+|upkeep
+|
+|t:|1750816135
+|switch|p1a: Pikachu|Pikachu, L50, M|16/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|5
+|
+|t:|1750816144
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Pikachu|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Zacian|Behemoth Blade|p2b: Tornadus
+|-activate|p2b: Tornadus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1a: Pikachu|22/100|[from] Grassy Terrain
+|-sideend|p2: namrekca ivel|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750816160
+|move|p1a: Pikachu|Upper Hand||[still]
+|-fail|p1a: Pikachu
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: namrekca ivel|move: Tailwind
+|move|p2a: Calyrex|Astral Barrage|p1b: Zacian|[spread] p1a,p1b
+|-damage|p1a: Pikachu|0 fnt
+|-damage|p1b: Zacian|0 fnt
+|faint|p1a: Pikachu
+|faint|p1b: Zacian
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|
+|win|namrekca ivel
+|raw|halcyonfury's rating: 1311 &rarr; <strong>1295</strong><br />(-16 for losing)
+|raw|namrekca ivel's rating: 1375 &rarr; <strong>1391</strong><br />(+16 for winning)
+|l|☆halcyonfury
+|player|p1|
+|l|☆namrekca ivel
+|player|p2|

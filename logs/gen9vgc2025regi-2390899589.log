@@ -1,0 +1,234 @@
+|j|☆Fredzhangg
+|j|☆dawdawdadad
+|t:|1750780873
+|gametype|doubles
+|player|p1|Fredzhangg|170|1297
+|player|p2|dawdawdadad|norman|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Raichu-Alola, L50, F|
+|teampreview|4
+|
+|t:|1750780904
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dawdawdadad)
+|
+|t:|1750780925
+|-terastallize|p2a: Miraidon|Fairy
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|86/100
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: Fredzhangg|move: Light Screen
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|56/100
+|-damage|p1b: Miraidon|46/100
+|cant|p1b: Miraidon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750780942
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Fredzhangg|move: Tailwind
+|move|p1b: Miraidon|Electro Drift|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|66/100
+|move|p2b: Incineroar|Knock Off|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|22/100
+|-enditem|p1b: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1750780961
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2a: Iron Hands|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|87/100
+|move|p1a: Whimsicott|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|38/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-damage|p2b: Incineroar|86/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750780980
+|switch|p1a: Miraidon|Miraidon, L50, tera:Fairy|22/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750780996
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|75/100
+|-damage|p1b: Incineroar|70/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Incineroar|35/100
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|cant|p2b: Incineroar|flinch
+|
+|upkeep
+|
+|t:|1750781006
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750781021
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|60/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Incineroar|U-turn|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|52/100
+|
+|t:|1750781026
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Lunala|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Lunala|85/100
+|faint|p1a: Miraidon
+|
+|-heal|p1b: Lunala|91/100|[from] item: Leftovers
+|-sideend|p1: Fredzhangg|move: Light Screen
+|-sideend|p1: Fredzhangg|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750781037
+|switch|p1a: Incineroar|Incineroar, L50, M|70/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|6
+|
+|t:|1750781053
+|move|p1a: Incineroar|Fake Out|p2b: Kyogre
+|-damage|p2b: Kyogre|88/100
+|cant|p2b: Kyogre|flinch
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Lunala|[spread] p1a,p1b
+|-damage|p1a: Incineroar|36/100
+|-damage|p1b: Lunala|57/100
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750781076
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Incineroar|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|47/100
+|-enditem|p2b: Kyogre|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Kyogre|Origin Pulse|p1b: Lunala|[spread] 
+|-activate|p1a: Incineroar|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Lunala|[spread] 
+|-activate|p1a: Incineroar|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Fredzhangg has 30 seconds left.
+|inactive|Fredzhangg has 20 seconds left.
+|
+|t:|1750781115
+|move|p1a: Incineroar|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|19/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Lunala|[spread] p1a,p1b
+|-damage|p1a: Incineroar|7/100
+|-damage|p1b: Lunala|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750781128
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Incineroar|U-turn|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|43/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Incineroar|[spread] 
+|-activate|p1a: Incineroar|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750781141
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Incineroar|U-turn|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|35/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Incineroar|[spread] 
+|-activate|p1a: Incineroar|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|
+|-weather|none
+|-heal|p1b: Lunala|57/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|-message|dawdawdadad forfeited.
+|
+|win|Fredzhangg
+|raw|Fredzhangg's rating: 1297 &rarr; <strong>1324</strong><br />(+27 for winning)
+|raw|dawdawdadad's rating: 1325 &rarr; <strong>1303</strong><br />(-22 for losing)
+|l|☆dawdawdadad
+|player|p2|

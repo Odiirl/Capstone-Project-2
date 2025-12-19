@@ -1,0 +1,236 @@
+|j|☆perk1
+|j|☆TMD99
+|t:|1750875459
+|gametype|doubles
+|player|p1|perk1|169|1292
+|player|p2|TMD99|grimsley|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750875509
+|start
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1b: Groudon|atk|1
+|turn|1
+|
+|t:|1750875546
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|move|p2a: Incineroar|Fake Out|p1b: Walking Wake
+|-damage|p1b: Walking Wake|88/100
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2b: Scream Tail|Encore|p1a: Sableye
+|-start|p1a: Sableye|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750875569
+|switch|p1a: Groudon|Groudon, L50|100/100
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1b: Walking Wake|Hydro Steam|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Protect
+|move|p2b: Scream Tail|Disable|p1b: Walking Wake
+|-start|p1b: Walking Wake|Disable|Hydro Steam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750875596
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|-terastallize|p2a: Incineroar|Grass
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Groudon|perish3|[silent]
+|-start|p1b: Sableye|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|62/100
+|-damage|p2b: Scream Tail|49/100
+|-damage|p1a: Groudon|91/100|[from] item: Life Orb
+|move|p2a: Incineroar|Parting Shot|p1a: Groudon
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1a: Groudon|spa|1
+|
+|t:|1750875598
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Scream Tail|perish3
+|-start|p1a: Groudon|perish3
+|-start|p1b: Sableye|perish3
+|upkeep
+|turn|4
+|
+|t:|1750875629
+|move|p2a: Gothitelle|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|86/100
+|move|p1b: Sableye|Encore|p2b: Scream Tail
+|-start|p2b: Scream Tail|Encore
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p2a: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Scream Tail|perish2
+|-start|p1a: Groudon|perish2
+|-start|p1b: Sableye|perish2
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|5
+|
+|t:|1750875647
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Grass|62/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Sableye|atk|1
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1b: Sableye|Encore|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2a: Gothitelle|[spread] p2b
+|-activate|p2a: Gothitelle|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|48/100
+|-damage|p1a: Groudon|77/100|[from] item: Life Orb
+|
+|-weather|none
+|-start|p1a: Groudon|perish1
+|-start|p1b: Sableye|perish1
+|-start|p2a: Gothitelle|perish2
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1750875682
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Incineroar|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|70/100
+|cant|p1a: Groudon|flinch
+|
+|-start|p1a: Groudon|perish0
+|upkeep
+|faint|p1a: Groudon
+|
+|t:|1750875694
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|turn|7
+|
+|t:|1750875715
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Calyrex|Taunt|p1b: Lunala
+|-start|p1b: Lunala|move: Taunt
+|cant|p1b: Lunala|move: Taunt|Hypnosis
+|move|p2b: Incineroar|Parting Shot|p1a: Sableye
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1a: Sableye|spa|1
+|
+|t:|1750875720
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|49/100|[from] Parting Shot
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|
+|upkeep
+|turn|8
+|
+|t:|1750875750
+|move|p1a: Sableye|Quash|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Quash
+|move|p2b: Scream Tail|Encore||[still]
+|-fail|p2b: Scream Tail
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Scream Tail
+|-damage|p2b: Scream Tail|10/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Sableye|[spread] p1a,p1b
+|-supereffective|p1b: Lunala
+|-damage|p1a: Sableye|33/100
+|-damage|p1b: Lunala|34/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750875771
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p1a: Sableye|Quash|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Quash
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Sableye|[spread] p1a,p1b
+|-supereffective|p1b: Lunala
+|-damage|p1a: Sableye|0 fnt
+|-damage|p1b: Lunala|0 fnt
+|faint|p1a: Sableye
+|faint|p1b: Lunala
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|
+|upkeep
+|
+|t:|1750875782
+|switch|p1b: Walking Wake|Walking Wake, L50|88/100
+|turn|10
+|c|☆TMD99|Gg wp
+|
+|t:|1750875802
+|-terastallize|p1b: Walking Wake|Steel
+|move|p1b: Walking Wake|Hydro Steam|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|move|p2a: Calyrex|Astral Barrage|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|
+|win|TMD99
+|raw|perk1's rating: 1292 &rarr; <strong>1264</strong><br />(-28 for losing)
+|raw|TMD99's rating: 1250 &rarr; <strong>1278</strong><br />(+28 for winning)

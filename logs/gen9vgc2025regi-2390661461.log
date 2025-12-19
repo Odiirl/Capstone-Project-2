@@ -1,0 +1,170 @@
+|j|☆flemmardo
+|j|☆D Hazey
+|t:|1750744801
+|gametype|doubles
+|player|p1|flemmardo|ghetsis-gen5bw|1316
+|player|p2|D Hazey|cynthia-masters|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Araquanid, L50, F|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|
+|t:|1750744864
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Valiant|Iron Valiant, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Valiant|ability: Quark Drive
+|-start|p2b: Iron Valiant|quarkdrivespe
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750744897
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2b: Iron Valiant|Trick||[still]
+|-fail|p2b: Iron Valiant
+|move|p1b: Miraidon|Volt Switch|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1750744934
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|
+|upkeep
+|
+|t:|1750744943
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|2
+|
+|t:|1750744955
+|move|p2b: Iron Hands|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|88/100
+|move|p1a: Ogerpon|Power Whip|p2a: Necrozma
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|76/100
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Necrozma|66/100|[from] item: Life Orb
+|cant|p1b: Iron Hands|flinch
+|
+|upkeep
+|
+|t:|1750744967
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750745021
+|move|p2a: Necrozma|Protect|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Necrozma
+|-activate|p2a: Necrozma|move: Protect
+|move|p1b: Iron Hands|Low Kick|p2a: Necrozma
+|-activate|p2a: Necrozma|move: Protect
+|move|p2b: Iron Hands|Close Combat|p1a: Miraidon
+|-damage|p1a: Miraidon|18/100
+|-unboost|p2b: Iron Hands|def|1
+|-unboost|p2b: Iron Hands|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750745043
+|move|p1a: Miraidon|Volt Switch|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|48/100
+|
+|t:|1750745051
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Necrozma|Photon Geyser|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-damage|p2a: Necrozma|56/100|[from] item: Life Orb
+|move|p2b: Iron Hands|Close Combat|p1a: Calyrex
+|-damage|p1a: Calyrex|50/100
+|-unboost|p2b: Iron Hands|def|1
+|-unboost|p2b: Iron Hands|spd|1
+|
+|upkeep
+|
+|t:|1750745053
+|switch|p1b: Miraidon|Miraidon, L50|18/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750745088
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Iron Hands|[spread] p2a,p2b
+|-resisted|p2a: Necrozma
+|-supereffective|p2b: Iron Hands
+|-damage|p2a: Necrozma|40/100
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Necrozma|Sunsteel Strike|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Necrozma|30/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750745099
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750745111
+|-terastallize|p2b: Miraidon|Electric
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon
+|-immune|p1b: Miraidon
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|7/100
+|-damage|p2b: Miraidon|38/100
+|move|p2a: Necrozma|Photon Geyser|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-damage|p2a: Necrozma|0 fnt|[from] item: Life Orb
+|faint|p2a: Necrozma
+|
+|win|D Hazey
+|raw|flemmardo's rating: 1316 &rarr; <strong>1291</strong><br />(-25 for losing)
+|raw|D Hazey's rating: 1218 &rarr; <strong>1250</strong><br />(+32 for winning)
+|l|☆D Hazey
+|player|p2|
+|l|☆flemmardo
+|player|p1|

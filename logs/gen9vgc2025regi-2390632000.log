@@ -1,0 +1,239 @@
+|j|☆suc vat vk
+|j|☆shuijun3烈空坐侠
+|t:|1750739338
+|gametype|doubles
+|player|p1|suc vat vk|kimonogirl|1549
+|player|p2|shuijun3烈空坐侠|iono|1535
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by suc vat vk)
+|
+|t:|1750739398
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Cresselia|Cresselia, L50, F|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Cresselia|atk|1
+|turn|1
+|inactive|suc vat vk has 30 seconds left.
+|inactive|suc vat vk has 20 seconds left.
+|inactive|suc vat vk has 15 seconds left.
+|inactive|suc vat vk has 10 seconds left.
+|
+|t:|1750739448
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2b: Cresselia|Trick Room|p2b: Cresselia
+|-fieldstart|move: Trick Room|[of] p2b: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750739466
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Cresselia|atk|1
+|move|p2b: Cresselia|Ally Switch|p2b: Cresselia
+|swap|p2b: Cresselia|0|[from] move: Ally Switch
+|move|p2b: Ursaluna|Earthquake|p1b: Terapagos|[spread] p1a,p1b
+|-immune|p2a: Cresselia|[from] ability: Levitate
+|-supereffective|p1a: Incineroar
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Incineroar|17/100
+|-damage|p1b: Terapagos|86/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Terapagos|93/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|shuijun3烈空坐侠 has 30 seconds left.
+|
+|t:|1750739491
+|-terastallize|p2b: Ursaluna|Ghost
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|95/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|move|p1a: Incineroar|Fake Out|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|move|p2b: Ursaluna|Earthquake|p1b: Terapagos|[spread] p1a,p1b
+|-immune|p2a: Cresselia|[from] ability: Levitate
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Terapagos|72/100
+|faint|p1a: Incineroar
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia|[spread] p2a,p2b
+|-heal|p2b: Ursaluna|100/100 brn
+|-curestatus|p2b: Ursaluna|brn|[msg]
+|move|p1b: Terapagos|Tera Starstorm|p2b: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2b: Ursaluna
+|-damage|p2a: Cresselia|63/100
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-heal|p1b: Terapagos|78/100|[from] item: Leftovers
+|upkeep
+|inactive|shuijun3烈空坐侠 has 30 seconds left.
+|
+|t:|1750739516
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|switch|p1a: Sableye|Sableye, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750739530
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p1a: Sableye|Will-O-Wisp|p2b: Dragonite|[miss]
+|-miss|p1a: Sableye|p2b: Dragonite
+|move|p2b: Dragonite|Scale Shot|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia|[spread] p2a,p2b
+|-heal|p2a: Cresselia|88/100
+|
+|-heal|p1b: Terapagos|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750739541
+|move|p2a: Cresselia|Ally Switch|p2a: Cresselia
+|swap|p2a: Cresselia|1|[from] move: Ally Switch
+|move|p1a: Sableye|Will-O-Wisp|p2b: Cresselia
+|-status|p2b: Cresselia|brn
+|move|p2a: Dragonite|Scale Shot|p1b: Terapagos
+|-damage|p1b: Terapagos|77/100
+|-damage|p1b: Terapagos|70/100
+|-damage|p1b: Terapagos|63/100
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|51/100
+|-damage|p1b: Terapagos|44/100
+|-hitcount|p1b: Terapagos|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1b: Terapagos|Tera Starstorm|p2b: Cresselia|[spread] p2a,p2b
+|-damage|p2a: Dragonite|70/100
+|-damage|p2b: Cresselia|55/100 brn
+|
+|-heal|p1b: Terapagos|50/100|[from] item: Leftovers
+|-damage|p2b: Cresselia|49/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750739565
+|move|p1a: Sableye|Disable|p2a: Dragonite
+|-start|p2a: Dragonite|Disable|Scale Shot
+|cant|p2a: Dragonite|Disable|Scale Shot
+|move|p1b: Terapagos|Tera Starstorm|p2a: Dragonite|[spread] p2a,p2b
+|-damage|p2a: Dragonite|13/100
+|-damage|p2b: Cresselia|15/100 brn
+|move|p2b: Cresselia|Lunar Blessing|p2b: Cresselia|[spread] p2a,p2b
+|-heal|p2a: Dragonite|38/100
+|-heal|p2b: Cresselia|40/100 brn
+|-curestatus|p2b: Cresselia|brn|[msg]
+|
+|-heal|p1b: Terapagos|56/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750739590
+|move|p2a: Dragonite|Extreme Speed|p1b: Terapagos
+|-damage|p1b: Terapagos|41/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|move|p1b: Terapagos|Tera Starstorm|p2b: Cresselia|[spread] p2a,p2b
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2b: Cresselia|7/100
+|faint|p2a: Dragonite
+|move|p2b: Cresselia|Trick Room|p2b: Cresselia
+|-fieldstart|move: Trick Room|[of] p2b: Cresselia
+|
+|-heal|p1b: Terapagos|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750739596
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+|
+|t:|1750739602
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2b: Cresselia|Skill Swap|p2a: Kyogre
+|-activate|p2b: Cresselia|move: Skill Swap|||[of] p2a: Kyogre
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Cresselia
+|move|p2a: Kyogre|Water Spout|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|47/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750739624
+|move|p2b: Cresselia|Lunar Blessing|p2b: Cresselia|[spread] p2a,p2b
+|-heal|p2b: Cresselia|32/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Cresselia|[spread] p2a,p2b
+|-damage|p2a: Kyogre|64/100
+|-damage|p2b: Cresselia|0 fnt
+|faint|p2b: Cresselia
+|move|p2a: Kyogre|Water Spout|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|11/100
+|-damage|p1b: Terapagos|31/100
+|move|p1a: Koraidon|Close Combat|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Kyogre
+|-damage|p1a: Koraidon|1/100|[from] item: Life Orb
+|
+|win|suc vat vk
+|raw|suc vat vk's rating: 1549 &rarr; <strong>1568</strong><br />(+19 for winning)
+|raw|shuijun3烈空坐侠's rating: 1535 &rarr; <strong>1516</strong><br />(-19 for losing)
+|l|☆shuijun3烈空坐侠
+|player|p2|

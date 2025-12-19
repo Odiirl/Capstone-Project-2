@@ -1,0 +1,128 @@
+|j|☆AlreadyConfused
+|j|☆Mr.FlippyFlop
+|t:|1750865565
+|gametype|doubles
+|player|p1|AlreadyConfused|101|1269
+|player|p2|Mr.FlippyFlop|170|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Zekrom, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlreadyConfused)
+|inactive|Mr.FlippyFlop also wants the timer to be on.
+|inactive|Mr.FlippyFlop has 60 seconds left.
+|
+|t:|1750865600
+|start
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Zekrom|Zekrom, L50|100/100
+|-ability|p2b: Zekrom|Teravolt
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750865619
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Flutter Mane|Icy Wind|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|23/100
+|-unboost|p1a: Landorus|spe|1
+|move|p2b: Zekrom|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2b: Zekrom|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750865633
+|switch|p1a: Giratina|Giratina-Origin, L50|100/100
+|turn|2
+|
+|t:|1750865647
+|-terastallize|p1a: Giratina|Fire
+|move|p1a: Giratina|Shadow Sneak|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|1/100
+|move|p2a: Flutter Mane|Moonblast|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|81/100
+|move|p2b: Zekrom|Bolt Strike|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2b: Zekrom|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750865653
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|3
+|
+|t:|1750865663
+|move|p2b: Zekrom|Protect|p2b: Zekrom
+|-singleturn|p2b: Zekrom|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Giratina|Poltergeist|p2b: Zekrom
+|-activate|p2b: Zekrom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Zekrom|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750865668
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1750865676
+|move|p2a: Indeedee|Helping Hand|p2b: Zekrom
+|-singleturn|p2b: Zekrom|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Zekrom|Bolt Strike|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|-damage|p2b: Zekrom|78/100|[from] item: Life Orb
+|move|p1b: Rillaboom|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|-message|AlreadyConfused forfeited.
+|
+|win|Mr.FlippyFlop
+|raw|AlreadyConfused's rating: 1269 &rarr; <strong>1248</strong><br />(-21 for losing)
+|raw|Mr.FlippyFlop's rating: 1323 &rarr; <strong>1340</strong><br />(+17 for winning)
+|l|☆AlreadyConfused
+|player|p1|

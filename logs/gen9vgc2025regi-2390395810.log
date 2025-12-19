@@ -1,0 +1,163 @@
+|j|☆UserIntel
+|j|☆kschoch08
+|t:|1750708602
+|gametype|doubles
+|player|p1|UserIntel|n|1152
+|player|p2|kschoch08|102|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Fezandipiti, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750708642
+|start
+|switch|p1a: Fezandipiti|Fezandipiti, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Fezandipiti|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|1
+|
+|t:|1750708663
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p2b: Urshifu|Fighting
+|move|p2a: Incineroar|Fake Out|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p2b: Urshifu|Close Combat|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p1a: Fezandipiti|Poison Gas|p2a: Incineroar|[spread] p2a,p2b
+|-status|p2a: Incineroar|psn
+|-status|p2b: Urshifu|psn
+|
+|-damage|p2b: Urshifu|88/100 psn|[from] psn
+|-damage|p2a: Incineroar|88/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1750708692
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|move|p2b: Urshifu|Wicked Blow|p1a: Fezandipiti
+|-resisted|p1a: Fezandipiti
+|-crit|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|71/100
+|move|p1a: Fezandipiti|Sludge Bomb|p2b: Urshifu
+|-damage|p2b: Urshifu|50/100 psn
+|move|p2a: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1750708706
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100|[from] Parting Shot
+|
+|-damage|p2b: Urshifu|37/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750708725
+|-terastallize|p1b: Incineroar|Ghost
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Fezandipiti|[anim] Ivy Cudgel Rock
+|-damage|p1a: Fezandipiti|3/100
+|move|p2b: Urshifu|Close Combat|p1b: Incineroar
+|-immune|p1b: Incineroar
+|move|p1a: Fezandipiti|Tailwind|p1a: Fezandipiti
+|-sidestart|p1: UserIntel|move: Tailwind
+|move|p1b: Incineroar|Close Combat|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|19/100
+|-unboost|p1b: Incineroar|def|1
+|-unboost|p1b: Incineroar|spd|1
+|
+|-damage|p2b: Urshifu|25/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750708744
+|move|p2b: Urshifu|Sucker Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Fezandipiti|Sludge Bomb|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-damage|p2b: Urshifu|12/100 psn|[from] psn
+|upkeep
+|
+|t:|1750708753
+|switch|p2a: Incineroar|Incineroar, L50, F|88/100 psn
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Fezandipiti|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|5
+|
+|t:|1750708765
+|move|p2a: Incineroar|Fake Out|p1a: Fezandipiti
+|-crit|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|0 fnt
+|faint|p1a: Fezandipiti
+|move|p1b: Zamazenta|Body Press|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-damage|p2a: Incineroar|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1750708773
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750708790
+|move|p1a: Calyrex|Astral Barrage|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|43/100 psn
+|-damage|p2b: Koraidon|29/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Play Rough|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Incineroar|Parting Shot|p1a: Calyrex
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Incineroar|31/100 psn|[from] psn
+|-sideend|p1: UserIntel|move: Tailwind
+|upkeep
+|turn|7
+|-message|kschoch08 forfeited.
+|
+|win|UserIntel
+|raw|UserIntel's rating: 1152 &rarr; <strong>1180</strong><br />(+28 for winning)
+|raw|kschoch08's rating: 1197 &rarr; <strong>1169</strong><br />(-28 for losing)
+|l|☆kschoch08
+|player|p2|

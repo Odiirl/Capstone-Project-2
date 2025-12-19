@@ -1,0 +1,188 @@
+|j|☆Rusty Old Key
+|j|☆Mitch-BOT
+|t:|1750871943
+|gametype|doubles
+|player|p1|Rusty Old Key|1|1570
+|player|p2|Mitch-BOT|nate|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750872033
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Garganacl|Garganacl, L50, F, shiny|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|1
+|
+|t:|1750872046
+|-terastallize|p1b: Garganacl|Bug
+|move|p2b: Urshifu|Surging Strikes|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|81/100
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|61/100
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|42/100
+|-hitcount|p1a: Zacian|3
+|move|p1a: Zacian|Play Rough|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Zacian
+|-damage|p1a: Zacian|9/100
+|-unboost|p1a: Zacian|spd|1
+|move|p1b: Garganacl|Salt Cure|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|71/100
+|-start|p2a: Flutter Mane|Salt Cure
+|
+|-damage|p2a: Flutter Mane|59/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750872066
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750872089
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1a: Zacian|Behemoth Blade|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|move|p2b: Calyrex|High Horsepower|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Garganacl|Salt Cure|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|83/100
+|-start|p2b: Calyrex|Salt Cure
+|
+|-damage|p2a: Flutter Mane|46/100|[from] Salt Cure
+|-damage|p2b: Calyrex|71/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750872108
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|j| naibot2814
+|
+|t:|1750872122
+|move|p1a: Rillaboom|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|62/100
+|move|p2a: Flutter Mane|Moonblast|p1b: Garganacl
+|-damage|p1b: Garganacl|59/100
+|cant|p2b: Calyrex|flinch
+|move|p1b: Garganacl|Salt Cure|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|17/100
+|
+|-heal|p2a: Flutter Mane|23/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|68/100|[from] Grassy Terrain
+|-heal|p1b: Garganacl|65/100|[from] Grassy Terrain
+|-damage|p2a: Flutter Mane|10/100|[from] Salt Cure
+|-damage|p2b: Calyrex|56/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1750872164
+|move|p2a: Flutter Mane|Moonblast|p1b: Garganacl
+|-damage|p1b: Garganacl|29/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Calyrex
+|-damage|p2b: Calyrex|10/100
+|-damage|p1a: Rillaboom|85/100|[from] Recoil
+|move|p2b: Calyrex|Glacial Lance|p1b: Garganacl|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Garganacl|0 fnt
+|faint|p1a: Rillaboom
+|faint|p1b: Garganacl
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-heal|p2a: Flutter Mane|17/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|15/100|[from] Grassy Terrain
+|-damage|p2a: Flutter Mane|4/100|[from] Salt Cure
+|-damage|p2b: Calyrex|3/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750872175
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rusty Old Key)
+|
+|t:|1750872227
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|
+|-heal|p2b: Calyrex|9/100|[from] Grassy Terrain
+|-damage|p2b: Calyrex|0 fnt|[from] Salt Cure
+|faint|p2b: Calyrex
+|upkeep
+|
+|t:|1750872232
+|switch|p2b: Flutter Mane|Flutter Mane, L50|4/100
+|turn|6
+|
+|t:|1750872257
+|move|p1b: Chien-Pao|Sucker Punch|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Zamazenta|Body Press|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-enditem|p1b: Chien-Pao|Focus Sash
+|-damage|p1b: Chien-Pao|1/100
+|
+|-heal|p1b: Chien-Pao|7/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750872267
+|-terastallize|p2a: Zamazenta|Ground
+|move|p1b: Chien-Pao|Sacred Sword|p2a: Zamazenta
+|-damage|p2a: Zamazenta|79/100
+|move|p2a: Zamazenta|Body Press|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|
+|win|Mitch-BOT
+|raw|Rusty Old Key's rating: 1570 &rarr; <strong>1552</strong><br />(-18 for losing)
+|raw|Mitch-BOT's rating: 1611 &rarr; <strong>1629</strong><br />(+18 for winning)
+|l|☆Rusty Old Key
+|player|p1|
+|l|☆Mitch-BOT
+|player|p2|
+|l| naibot2814

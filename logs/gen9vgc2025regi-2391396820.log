@@ -1,0 +1,127 @@
+|j|☆boi7264
+|j|☆agent jaam
+|t:|1750849864
+|gametype|doubles
+|player|p1|boi7264|265|1238
+|player|p2|agent jaam|n|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Ludicolo, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750849882
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750849889
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|84/100
+|cant|p1a: Grimmsnarl|flinch
+|move|p2b: Scream Tail|Thunder Wave|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|-heal|p1a: Grimmsnarl|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750849899
+|-terastallize|p2b: Scream Tail|Dark
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Scream Tail
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Scream Tail
+|move|p2b: Scream Tail|Encore|p1b: Zacian
+|-start|p1b: Zacian|Encore
+|move|p1b: Zacian|Protect||[still]
+|-fail|p1b: Zacian
+|move|p2a: Rillaboom|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|60/100
+|
+|t:|1750849908
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-heal|p1a: Grimmsnarl|66/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750849926
+|switch|p1b: Ludicolo|Ludicolo, L50, F|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Scream Tail|Disable|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Disable|Thunder Wave
+|
+|-heal|p1a: Grimmsnarl|72/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750849937
+|move|p1b: Ludicolo|Fake Out|p2b: Scream Tail
+|-damage|p2b: Scream Tail|95/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: boi7264|move: Light Screen
+|cant|p2b: Scream Tail|flinch
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|
+|-heal|p2b: Scream Tail|100/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|78/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750849953
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2b: Scream Tail|Encore|p1b: Ludicolo
+|-start|p1b: Ludicolo|Encore
+|move|p1b: Ludicolo|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Ludicolo
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|boi7264 forfeited.
+|
+|win|agent jaam
+|raw|boi7264's rating: 1238 &rarr; <strong>1219</strong><br />(-19 for losing)
+|raw|agent jaam's rating: 1320 &rarr; <strong>1335</strong><br />(+15 for winning)
+|l|☆boi7264
+|player|p1|
+|l|☆agent jaam
+|player|p2|

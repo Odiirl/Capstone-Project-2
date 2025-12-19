@@ -1,0 +1,183 @@
+|j|☆CharlesCk
+|j|☆Caveot
+|t:|1750867031
+|gametype|doubles
+|player|p1|CharlesCk|102|1175
+|player|p2|Caveot|101|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750867059
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Great Tusk|Great Tusk, L50|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|1
+|
+|t:|1750867086
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: CharlesCk|move: Tailwind
+|move|p1a: Basculegion|Wave Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Basculegion|63/100|[from] Recoil
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|upkeep
+|
+|t:|1750867100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750867117
+|-terastallize|p1a: Basculegion|Water
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1b: Whimsicott|Encore|p2b: Terapagos
+|-start|p2b: Terapagos|Encore
+|move|p1a: Basculegion|Wave Crash|p2a: Calyrex
+|-damage|p2a: Calyrex|40/100
+|-damage|p1a: Basculegion|42/100|[from] Recoil
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caveot)
+|
+|t:|1750867148
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Whimsicott|Encore|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Psychic Terrain
+|move|p2a: Calyrex|Glacial Lance|p1a: Basculegion|[spread] p1a,p1b
+|-resisted|p1a: Basculegion
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Basculegion|12/100
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|move|p1a: Basculegion|Wave Crash|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1750867165
+|switch|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|4
+|
+|t:|1750867179
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Whimsicott|Encore|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Terapagos|Tera Starstorm|p1b: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Miraidon|64/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Terapagos|75/100
+|
+|-heal|p2b: Terapagos|81/100|[from] item: Leftovers
+|-sideend|p1: CharlesCk|move: Tailwind
+|upkeep
+|
+|t:|1750867192
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750867204
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Kyogre
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Kyogre|78/100
+|faint|p1a: Miraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Terapagos|Tera Starstorm|p1b: Kyogre
+|-damage|p1b: Kyogre|49/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Terapagos|33/100
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|39/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750867226
+|move|p2b: Terapagos|Tera Starstorm|p1b: Kyogre
+|-damage|p1b: Kyogre|21/100
+|move|p1b: Kyogre|Thunder|p2b: Terapagos
+|-damage|p2b: Terapagos|2/100
+|-status|p2b: Terapagos|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|8/100 par|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750867241
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Kyogre|Thunder|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750867250
+|move|p1b: Kyogre|Thunder|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|CharlesCk
+|raw|CharlesCk's rating: 1175 &rarr; <strong>1194</strong><br />(+19 for winning)
+|raw|Caveot's rating: 1092 &rarr; <strong>1074</strong><br />(-18 for losing)
+|l|☆Caveot
+|player|p2|

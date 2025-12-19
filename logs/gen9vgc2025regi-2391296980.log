@@ -1,0 +1,250 @@
+|j|☆calamity Jon
+|j|☆sceptileROCK
+|t:|1750830745
+|gametype|doubles
+|player|p1|calamity Jon|2|1215
+|player|p2|sceptileROCK|pokemonbreeder-gen4|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Dusclops, L50, F|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Hariyama, L50, M|
+|poke|p1|Rhydon, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Hariyama, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sceptileROCK)
+|
+|t:|1750830782
+|start
+|switch|p1a: Dusclops|Dusclops, L50, F|100/100
+|switch|p1b: Hariyama|Hariyama, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Hariyama|Hariyama, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-item|p2a: Calyrex|Focus Sash|[from] ability: Frisk|[of] p1a: Dusclops
+|-item|p2b: Hariyama|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|1
+|inactive|sceptileROCK has 30 seconds left.
+|inactive|sceptileROCK has 20 seconds left.
+|
+|t:|1750830821
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Hariyama|Wide Guard|p1b: Hariyama
+|-singleturn|p1b: Hariyama|Wide Guard
+|move|p2b: Hariyama|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|45/100
+|-enditem|p1a: Dusclops|Leftovers|[from] move: Knock Off|[of] p2b: Hariyama
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Hariyama|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|sceptileROCK has 30 seconds left.
+|
+|t:|1750830853
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Dusclops|Pain Split|p2b: Hariyama
+|-sethp|p2b: Hariyama|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|100/100|[from] move: Pain Split
+|move|p1b: Hariyama|Facade|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Hariyama|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Hariyama|69/100|[from] item: Leftovers
+|-damage|p1b: Hariyama|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750830875
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Dusclops|Pain Split|p2a: Calyrex
+|-sethp|p2a: Calyrex|74/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|88/100|[from] move: Pain Split
+|move|p1b: Hariyama|Facade|p2a: Calyrex
+|-immune|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dusclops|94/100|[from] Grassy Terrain
+|-heal|p1b: Hariyama|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Calyrex|79/100|[from] Grassy Terrain
+|-damage|p1b: Hariyama|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750830896
+|-terastallize|p2a: Calyrex|Ghost
+|move|p1b: Hariyama|Wide Guard|p1b: Hariyama
+|-singleturn|p1b: Hariyama|Wide Guard
+|move|p2b: Rillaboom|Fake Out|p1b: Hariyama
+|-damage|p1b: Hariyama|79/100 brn
+|move|p1a: Dusclops|Night Shade|p2a: Calyrex
+|-damage|p2a: Calyrex|51/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Hariyama|[spread] 
+|-activate|p1a: Dusclops|move: Wide Guard
+|-activate|p1b: Hariyama|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dusclops|99/100|[from] Grassy Terrain
+|-heal|p1b: Hariyama|85/100 brn|[from] Grassy Terrain
+|-heal|p2a: Calyrex|57/100|[from] Grassy Terrain
+|-damage|p1b: Hariyama|79/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|sceptileROCK has 30 seconds left.
+|
+|t:|1750830929
+|move|p1a: Dusclops|Night Shade|p2a: Calyrex
+|-damage|p2a: Calyrex|28/100
+|move|p1b: Hariyama|Facade|p2b: Rillaboom
+|-damage|p2b: Rillaboom|42/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Hariyama
+|-damage|p1b: Hariyama|0 fnt
+|faint|p1b: Hariyama
+|-damage|p2b: Rillaboom|13/100|[from] Recoil
+|move|p2a: Calyrex|Psychic|p1a: Dusclops
+|-damage|p1a: Dusclops|54/100
+|
+|-weather|none
+|-heal|p1a: Dusclops|60/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|18/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|34/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750830946
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|6
+|
+|t:|1750830964
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Calyrex|Astral Barrage|p1b: Ho-Oh|[spread] p1a,p1b
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|-damage|p1b: Ho-Oh|60/100
+|faint|p1a: Dusclops
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750830983
+|switch|p2a: Hariyama|Hariyama, L50, F, shiny|69/100
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|7
+|
+|t:|1750831002
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|18/100
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Hariyama|Wide Guard|p2a: Hariyama
+|-singleturn|p2a: Hariyama|Wide Guard
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: calamity Jon|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p2a: Hariyama|75/100|[from] Grassy Terrain
+|-heal|p2a: Hariyama|81/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|inactive|sceptileROCK has 30 seconds left.
+|inactive|sceptileROCK has 20 seconds left.
+|
+|t:|1750831038
+|move|p2b: Rillaboom|Fake Out|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|76/100
+|cant|p1a: Kyogre|flinch
+|move|p1b: Ho-Oh|Brave Bird|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-crit|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1b: Ho-Oh|53/100|[from] Recoil
+|move|p2a: Hariyama|Low Kick|p1a: Kyogre
+|-damage|p1a: Kyogre|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hariyama|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750831052
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|9
+|
+|t:|1750831074
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Kyogre|Origin Pulse|p2b: Koraidon|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Hariyama|60/100
+|move|p1b: Ho-Oh|Brave Bird|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p2a: Hariyama|Low Kick|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hariyama|66/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|sceptileROCK has 30 seconds left.
+|
+|t:|1750831100
+|move|p1b: Ho-Oh|Brave Bird|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|2/100
+|-damage|p1b: Ho-Oh|23/100|[from] Recoil
+|move|p2b: Koraidon|Flame Charge|p1b: Ho-Oh
+|-resisted|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|5/100
+|-boost|p2b: Koraidon|spe|1
+|move|p2a: Hariyama|Knock Off|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|-enditem|p1b: Ho-Oh|Clear Amulet|[from] move: Knock Off|[of] p2a: Hariyama
+|faint|p1b: Ho-Oh
+|
+|win|sceptileROCK
+|raw|calamity Jon's rating: 1215 &rarr; <strong>1191</strong><br />(-24 for losing)
+|raw|sceptileROCK's rating: 1233 &rarr; <strong>1257</strong><br />(+24 for winning)
+|l|☆sceptileROCK
+|player|p2|
+|l|☆calamity Jon
+|player|p1|

@@ -1,0 +1,156 @@
+|j|☆PikaTROD
+|j|☆CallMeLexi
+|t:|1750797715
+|gametype|doubles
+|player|p1|PikaTROD|170|1536
+|player|p2|CallMeLexi|266|1490
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CallMeLexi)
+PikaTROD has agreed to open team sheets.
+|inactive|PikaTROD has 60 seconds left.
+|inactive|CallMeLexi has 60 seconds left.
+|
+|t:|1750797760
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750797782
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Lilligant|Sleep Powder|p1a: Flutter Mane|[miss]
+|-miss|p2a: Lilligant|p1a: Flutter Mane
+|move|p1a: Flutter Mane|Icy Wind|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Lilligant
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Lilligant|62/100
+|-damage|p2b: Koraidon|72/100
+|-unboost|p2a: Lilligant|spe|1
+|move|p2b: Koraidon|Collision Course|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750797804
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Flutter Mane|Moonblast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|move|p1b: Groudon|Precipice Blades|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797809
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|t:|1750797822
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|move|p1a: Flutter Mane|Moonblast|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|35/100
+|move|p2a: Walking Wake|Snarl|p1b: Clefairy|[spread] p1b
+|-miss|p2a: Walking Wake|p1a: Flutter Mane
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|97/100
+|-unboost|p1b: Clefairy|spa|1
+|move|p2b: Koraidon|Flare Blitz|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|-damage|p2b: Koraidon|48/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|PikaTROD has 30 seconds left.
+|
+|t:|1750797849
+|-terastallize|p2a: Walking Wake|Water
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Flutter Mane|Moonblast|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Walking Wake|Snarl|p1b: Clefairy|[spread] p1a,p1b
+|-resisted|p1b: Clefairy
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Clefairy|93/100
+|-unboost|p1b: Clefairy|spa|1
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797864
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750797882
+|-terastallize|p1a: Groudon|Fire
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Walking Wake|Hydro Steam|p1b: Clefairy
+|-damage|p1b: Clefairy|44/100
+|move|p1a: Groudon|High Horsepower|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|move|p2b: Calyrex|Glacial Lance|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|86/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|none
+|upkeep
+|-message|CallMeLexi forfeited.
+|
+|win|PikaTROD
+|raw|PikaTROD's rating: 1536 &rarr; <strong>1553</strong><br />(+17 for winning)
+|raw|CallMeLexi's rating: 1490 &rarr; <strong>1473</strong><br />(-17 for losing)
+|l|☆CallMeLexi
+|player|p2|
+|l|☆PikaTROD
+|player|p1|

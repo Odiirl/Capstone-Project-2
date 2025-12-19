@@ -1,0 +1,105 @@
+|j|☆Pastor/Sinner
+|j|☆adomell
+|t:|1750824651
+|gametype|doubles
+|player|p1|Pastor/Sinner|170|1079
+|player|p2|adomell|fisherman-gen4|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Hariyama, L50, M|
+|poke|p1|Cinccino, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Suicune, L50|
+|poke|p2|Sceptile, L50, F|
+|poke|p2|Glalie, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Typhlosion, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adomell)
+|
+|t:|1750824677
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750824696
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p1a: Koraidon|Flame Charge|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Indeedee
+|move|p2b: Dragonite|Dragon Dance|p2b: Dragonite
+|-boost|p2b: Dragonite|atk|1
+|-boost|p2b: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750824716
+|switch|p2a: Sceptile|Sceptile, L50, F|100/100
+|turn|2
+|
+|t:|1750824725
+|move|p2b: Dragonite|Extreme Speed|p1a: Koraidon
+|-damage|p1a: Koraidon|62/100
+|move|p1b: Scovillain|Overheat|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-unboost|p1b: Scovillain|spa|2
+|faint|p2a: Sceptile
+|move|p1a: Koraidon|Flame Charge|p2b: Dragonite
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|62/100
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dragonite|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750824739
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|-item|p2a: Raichu|Air Balloon
+|turn|3
+|
+|t:|1750824749
+|move|p1a: Koraidon|Drain Punch|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-heal|p1a: Koraidon|100/100|[from] drain|[of] p2a: Raichu
+|-enditem|p2a: Raichu|Air Balloon
+|faint|p2a: Raichu
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p2b: Dragonite|Waterfall|p1b: Scovillain
+|-damage|p1b: Scovillain|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dragonite|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-message|adomell forfeited.
+|
+|win|Pastor/Sinner
+|raw|Pastor&#x2f;Sinner's rating: 1079 &rarr; <strong>1105</strong><br />(+26 for winning)
+|raw|adomell's rating: 1058 &rarr; <strong>1040</strong><br />(-18 for losing)
+|l|☆adomell
+|player|p2|

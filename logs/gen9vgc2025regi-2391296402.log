@@ -1,0 +1,192 @@
+|j|☆donettinho
+|j|☆alethor
+|t:|1750830635
+|gametype|doubles
+|player|p1|donettinho|clown|1096
+|player|p2|alethor|gambler|1019
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Dugtrio, L50, F|
+|poke|p2|Clefairy, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alethor)
+|
+|t:|1750830655
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Primarina|Primarina, L50, M|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|inactive|donettinho has 30 seconds left.
+|
+|t:|1750830682
+|-terastallize|p1b: Calyrex|Grass
+|move|p2b: Gothitelle|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|97/100
+|move|p2a: Primarina|Perish Song|p2a: Primarina
+|-start|p1a: Lunala|perish3|[silent]
+|-start|p1b: Calyrex|perish3|[silent]
+|-start|p2a: Primarina|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Lunala|Moongeist Beam|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|32/100
+|cant|p1b: Calyrex|flinch
+|
+|-start|p2a: Primarina|perish3
+|-start|p1a: Lunala|perish3
+|-start|p2b: Gothitelle|perish3
+|-start|p1b: Calyrex|perish3
+|upkeep
+|turn|2
+|inactive|donettinho has 30 seconds left.
+|
+|t:|1750830712
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p2a: Primarina|Flip Turn|p1a: Lunala
+|-damage|p1a: Lunala|94/100
+|
+|t:|1750830721
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100|[from] Flip Turn
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|move|p1a: Lunala|Moongeist Beam|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|19/100
+|move|p1b: Calyrex|Seed Bomb|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-start|p1a: Lunala|perish2
+|-start|p2b: Gothitelle|perish2
+|-start|p1b: Calyrex|perish2
+|upkeep
+|inactive|alethor has 30 seconds left.
+|inactive|alethor has 20 seconds left.
+|
+|t:|1750830759
+|switch|p2a: Dugtrio|Dugtrio, L50, F|100/100
+|turn|3
+|
+|t:|1750830771
+|-terastallize|p2b: Gothitelle|Normal
+|move|p2a: Dugtrio|Dig||[still]
+|-prepare|p2a: Dugtrio|Dig
+|move|p2b: Gothitelle|Substitute|p2b: Gothitelle
+|-start|p2b: Gothitelle|Substitute
+|-damage|p2b: Gothitelle|7/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Dugtrio|[spread] p2b
+|-miss|p1b: Calyrex|p2a: Dugtrio
+|-end|p2b: Gothitelle|Substitute
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-start|p1b: Calyrex|perish1
+|-start|p2b: Gothitelle|perish1
+|-start|p1a: Lunala|perish1
+|upkeep
+|turn|4
+|inactive|donettinho has 30 seconds left.
+|inactive|donettinho has 20 seconds left.
+|inactive|donettinho has 15 seconds left.
+|
+|t:|1750830813
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Gothitelle|[spread] 
+|-miss|p1b: Calyrex|p2a: Dugtrio
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2a: Dugtrio|[miss]
+|-miss|p1a: Lunala|p2a: Dugtrio
+|move|p2a: Dugtrio|Dig|p1b: Calyrex|[from] lockedmove
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|88/100
+|
+|-start|p1b: Calyrex|perish0
+|-start|p2b: Gothitelle|perish0
+|-start|p1a: Lunala|perish0
+|faint|p1b: Calyrex
+|faint|p2b: Gothitelle
+|faint|p1a: Lunala
+|upkeep
+|
+|t:|1750830835
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|-unboost|p2b: Primarina|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|5
+|
+|t:|1750830860
+|move|p1b: Incineroar|Fake Out|p2a: Dugtrio
+|-damage|p2a: Dugtrio|68/100
+|move|p1a: Rillaboom|Fake Out|p2b: Primarina
+|-damage|p2b: Primarina|83/100
+|cant|p2b: Primarina|flinch
+|cant|p2a: Dugtrio|flinch
+|
+|-heal|p2b: Primarina|89/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|95/100|[from] item: Leftovers
+|-heal|p2a: Dugtrio|74/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|inactive|donettinho has 30 seconds left.
+|
+|t:|1750830892
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Dugtrio
+|-activate|p2a: Dugtrio|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Primarina
+|-supereffective|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|-damage|p1a: Rillaboom|72/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|78/100|[from] Grassy Terrain
+|-heal|p2a: Dugtrio|79/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750830911
+|move|p1b: Incineroar|U-turn|p2a: Dugtrio
+|-damage|p2a: Dugtrio|28/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|-damage|p1a: Rillaboom|72/100|[from] Recoil
+|
+|win|donettinho
+|raw|donettinho's rating: 1096 &rarr; <strong>1116</strong><br />(+20 for winning)
+|raw|alethor's rating: 1019 &rarr; <strong>1009</strong><br />(-10 for losing)
+|l|☆donettinho
+|player|p1|

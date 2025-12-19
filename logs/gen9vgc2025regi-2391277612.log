@@ -1,0 +1,167 @@
+|j|☆jgvitvyvt
+|j|☆4thD
+|t:|1750827082
+|gametype|doubles
+|player|p1|jgvitvyvt|unknown|1242
+|player|p2|4thD|101|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Palossand, L50, F|
+|teampreview|4
+|
+|t:|1750827156
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Palossand|Palossand, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750827190
+|move|p1a: Miraidon|Overheat|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Rillaboom
+|move|p1b: Farigiraf|Twin Beam|p2a: Palossand
+|-damage|p2a: Palossand|83/100
+|-damage|p2a: Palossand|62/100
+|-hitcount|p2a: Palossand|2
+|move|p2a: Palossand|Stealth Rock|p1b: Farigiraf
+|-sidestart|p1: jgvitvyvt|move: Stealth Rock
+|
+|-heal|p2a: Palossand|69/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827211
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|2
+|
+|t:|1750827226
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-damage|p1a: Groudon|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p1b: Farigiraf|Twin Beam|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|96/100
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|91/100
+|-hitcount|p2b: Terapagos|2
+|move|p2a: Palossand|Scorching Sands|p1a: Groudon
+|-damage|p1a: Groudon|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|97/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|-heal|p1a: Groudon|79/100|[from] Grassy Terrain
+|-heal|p2a: Palossand|75/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750827278
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p2b: Terapagos|Tera Starstorm|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Groudon|35/100
+|-damage|p1b: Farigiraf|56/100
+|move|p1a: Groudon|Precipice Blades|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Palossand|34/100
+|-damage|p2b: Terapagos|77/100
+|-enditem|p2a: Palossand|Sitrus Berry|[eat]
+|-heal|p2a: Palossand|59/100|[from] item: Sitrus Berry
+|move|p1b: Farigiraf|Gravity|p1b: Farigiraf
+|-fieldstart|move: Gravity
+|move|p2a: Palossand|Scorching Sands|p1b: Farigiraf
+|-damage|p1b: Farigiraf|33/100
+|
+|-heal|p2b: Terapagos|83/100|[from] item: Leftovers
+|-heal|p1b: Farigiraf|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750827312
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Terapagos|Tera Starstorm|p1a: Groudon|[spread] p1b
+|-activate|p1a: Groudon|move: Protect
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p2a: Palossand|Scorching Sands|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|
+|-heal|p2b: Terapagos|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827330
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-damage|p1b: Miraidon|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750827350
+|switch|p1a: Scovillain|Scovillain, L50, F|100/100
+|-damage|p1a: Scovillain|76/100|[from] Stealth Rock
+|-terastallize|p1b: Miraidon|Electric
+|move|p1b: Miraidon|Volt Switch|p2b: Terapagos
+|-damage|p2b: Terapagos|26/100
+|
+|t:|1750827357
+|switch|p1b: Groudon|Groudon, L50|35/100|[from] Volt Switch
+|-damage|p1b: Groudon|29/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Terapagos|Tera Starstorm|p1a: Scovillain|[spread] p1a,p1b
+|-damage|p1a: Scovillain|3/100
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2a: Palossand|Scorching Sands|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827361
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|88/100
+|-damage|p1b: Miraidon|75/100|[from] Stealth Rock
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|6
+|-message|jgvitvyvt forfeited.
+|
+|win|4thD
+|raw|jgvitvyvt's rating: 1242 &rarr; <strong>1211</strong><br />(-31 for losing)
+|raw|4thD's rating: 1153 &rarr; <strong>1184</strong><br />(+31 for winning)
+|l|☆jgvitvyvt
+|player|p1|
+|l|☆4thD
+|player|p2|

@@ -1,0 +1,196 @@
+|j|☆urukhai01
+|j|‽estudassespt
+|t:|1750877024
+|gametype|doubles
+|player|p1|urukhai01|zinzolin|1488
+|player|p2|estudassespt|2|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Yanmega, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Bastiodon, L50, M|
+|teampreview|4
+|
+|t:|1750877071
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Yanmega|Yanmega, L50, M|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by urukhai01)
+|
+|t:|1750877081
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2b: Yanmega|Protect|p2b: Yanmega
+|-singleturn|p2b: Yanmega|Protect
+|move|p2a: Sableye|Gravity|p2a: Sableye
+|-fieldstart|move: Gravity
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Yanmega|[anim] Ivy Cudgel Rock
+|-activate|p2b: Yanmega|move: Protect
+|
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750877098
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Sableye|Will-O-Wisp|p1b: Ogerpon
+|-status|p1b: Ogerpon|brn
+|move|p2b: Yanmega|Hypnosis||[still]
+|-fail|p2b: Yanmega
+|move|p1a: Eternatus|Meteor Beam||[still]
+|-prepare|p1a: Eternatus|Meteor Beam
+|-boost|p1a: Eternatus|spa|1
+|-enditem|p1a: Eternatus|Power Herb
+|-anim|p1a: Eternatus|Meteor Beam|p2b: Yanmega
+|-supereffective|p2b: Yanmega
+|-enditem|p2b: Yanmega|Focus Sash
+|-damage|p2b: Yanmega|1/100
+|
+|-damage|p1b: Ogerpon|95/100 brn|[from] brn
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750877119
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: Yanmega|Tailwind|p2b: Yanmega
+|-sidestart|p2: estudassespt|move: Tailwind
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Groudon
+|-damage|p2a: Groudon|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ogerpon|89/100 brn|[from] brn
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|4
+|inactive|estudassespt has 30 seconds left.
+|
+|t:|1750877145
+|-terastallize|p2a: Groudon|Ground
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Yanmega|Hypnosis|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|move|p2a: Groudon|Precipice Blades|p1a: Eternatus|[spread] 
+|-activate|p1a: Eternatus|move: Protect
+|-activate|p1b: Ogerpon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ogerpon|83/100 brn|[from] brn
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750877164
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-terastallize|p1a: Eternatus|Ghost
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Groudon|Precipice Blades|p1a: Eternatus|[spread] p1a,p1b
+|-damage|p1a: Eternatus|30/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750877189
+|switch|p1b: Heatran|Heatran, L50, F|100/100
+|switch|p2a: Yanmega|Yanmega, L50, M|1/100
+|turn|6
+|
+|t:|1750877205
+|move|p2a: Yanmega|Hypnosis|p1b: Heatran
+|-status|p1b: Heatran|slp|[from] move: Hypnosis
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|move|p2b: Calyrex|Glacial Lance|p1b: Heatran|[spread] p1a,p1b
+|-crit|p1a: Eternatus
+|-resisted|p1b: Heatran
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Heatran|89/100 slp
+|faint|p1a: Eternatus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|cant|p1b: Heatran|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: estudassespt|move: Tailwind
+|upkeep
+|
+|t:|1750877220
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|7
+|
+|t:|1750877232
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Sableye|Will-O-Wisp|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|-curestatus|p1b: Heatran|slp|[msg]
+|move|p1b: Heatran|Heat Wave|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Sableye|31/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|inactive|estudassespt has 30 seconds left.
+|
+|t:|1750877258
+|move|p1a: Zacian|Behemoth Blade|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1b: Heatran|Heat Wave|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|win|urukhai01
+|raw|urukhai01's rating: 1488 &rarr; <strong>1509</strong><br />(+21 for winning)
+|raw|estudassespt's rating: 1499 &rarr; <strong>1478</strong><br />(-21 for losing)
+|l|‽estudassespt
+|player|p2|
+|l|☆urukhai01
+|player|p1|

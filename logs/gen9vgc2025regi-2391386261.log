@@ -1,0 +1,166 @@
+|j|☆magyomi
+|j|☆TCBro89
+|t:|1750848045
+|gametype|doubles
+|player|p1|magyomi|102|1671
+|player|p2|TCBro89|169|1633
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|
+|t:|1750848077
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750848121
+|move|p2b: Raging Bolt|Protect|p2b: Raging Bolt
+|-singleturn|p2b: Raging Bolt|Protect
+|move|p1b: Grimmsnarl|Fake Out|p2b: Raging Bolt
+|-activate|p2b: Raging Bolt|move: Protect
+|move|p1a: Miraidon|Draco Meteor|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Miraidon
+|
+|upkeep
+|
+|t:|1750848134
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|2
+|
+|t:|1750848141
+|-terastallize|p2b: Raging Bolt|Electric
+|move|p1a: Miraidon|Draco Meteor|p2b: Raging Bolt|[miss]
+|-miss|p1a: Miraidon|p2b: Raging Bolt
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|71/100
+|-unboost|p2b: Raging Bolt|spa|1
+|move|p2b: Raging Bolt|Rising Voltage|p1b: Grimmsnarl
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-enditem|p1b: Grimmsnarl|Focus Sash
+|-damage|p1b: Grimmsnarl|1/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|-enditem|p2a: Farigiraf|Room Service
+|-unboost|p2a: Farigiraf|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|3
+|
+|t:|1750848171
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: magyomi|move: Light Screen
+|move|p2a: Farigiraf|Foul Play|p1b: Grimmsnarl
+|-resisted|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2b: Raging Bolt|Draco Meteor|p1a: Volcarona
+|-damage|p1a: Volcarona|69/100
+|-unboost|p2b: Raging Bolt|spa|2
+|
+|upkeep
+|
+|t:|1750848185
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750848198
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2a: Farigiraf|Foul Play|p1a: Volcarona
+|-damage|p1a: Volcarona|59/100
+|-damage|p2a: Farigiraf|84/100|[from] item: Rocky Helmet|[of] p1a: Volcarona
+|-status|p2a: Farigiraf|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1b: Calyrex|Glacial Lance|p2a: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Farigiraf|44/100 brn
+|-damage|p2b: Groudon|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Farigiraf|38/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750848223
+|-terastallize|p1b: Calyrex|Water
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Farigiraf|Foul Play|p1b: Calyrex
+|-damage|p1b: Calyrex|89/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Farigiraf|[spread] p2a
+|-activate|p2b: Groudon|move: Protect
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750848237
+|switch|p2a: Raging Bolt|Raging Bolt, L50, tera:Electric|71/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|6
+|
+|t:|1750848252
+|move|p2a: Raging Bolt|Rising Voltage|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|23/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Raging Bolt|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Raging Bolt|6/100
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Volcarona|Tailwind|p1a: Volcarona
+|-sidestart|p1: magyomi|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|-message|TCBro89 forfeited.
+|
+|win|magyomi
+|raw|magyomi's rating: 1671 &rarr; <strong>1689</strong><br />(+18 for winning)
+|raw|TCBro89's rating: 1633 &rarr; <strong>1615</strong><br />(-18 for losing)
+|l|☆magyomi
+|player|p1|
+|l|☆TCBro89
+|player|p2|

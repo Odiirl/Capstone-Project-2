@@ -1,0 +1,214 @@
+|j|☆TheParasectKing
+|j|☆entei enthusiast
+|t:|1750824730
+|gametype|doubles
+|player|p1|TheParasectKing|acetrainer-gen4dp|1366
+|player|p2|entei enthusiast|brycen|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheParasectKing)
+|inactive|entei enthusiast has 60 seconds left.
+|
+|t:|1750824766
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Calyrex|Electric Seed
+|-boost|p2a: Calyrex|def|1|[from] item: Electric Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750824784
+|move|p1a: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|88/100
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|30/100
+|cant|p2b: Miraidon|flinch
+|move|p2a: Calyrex|Leech Seed|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Leech Seed
+|
+|-damage|p1b: Zamazenta|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|2
+|
+|t:|1750824801
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-terastallize|p1b: Zamazenta|Dragon
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|69/100
+|move|p1a: Incineroar|U-turn|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|
+|t:|1750824805
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2a: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|
+|-damage|p1b: Zamazenta|76/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|59/100|[silent]
+|-damage|p1a: Lunala|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|75/100|[silent]
+|upkeep
+|turn|3
+|inactive|entei enthusiast has 30 seconds left.
+|
+|t:|1750824834
+|-terastallize|p2a: Calyrex|Fire
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p2a: Calyrex|Glacial Lance|p1b: Zamazenta|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|
+|-damage|p1b: Zamazenta|63/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|48/100|[silent]
+|-damage|p1a: Lunala|75/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|63/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750824851
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Volcarona|Fiery Dance|p1a: Lunala
+|-damage|p1a: Lunala|38/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-damage|p1b: Zamazenta|51/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|75/100|[silent]
+|-damage|p1a: Lunala|25/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|90/100|[silent]
+|upkeep
+|
+|t:|1750824863
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|5
+|
+|t:|1750824873
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: entei enthusiast|move: Light Screen
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|58/100
+|move|p1a: Lunala|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|32/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Zamazenta
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Zamazenta|15/100
+|faint|p1a: Lunala
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p1b: Zamazenta|3/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|69/100|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750824884
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|turn|6
+|
+|t:|1750824902
+|move|p1a: Incineroar|Fake Out|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|20/100
+|cant|p2b: Grimmsnarl|flinch
+|move|p1b: Zamazenta|Heavy Slam|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Calyrex|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|
+|-damage|p1b: Zamazenta|0 fnt|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|71/100|[silent]
+|faint|p1b: Zamazenta
+|-damage|p1a: Incineroar|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|83/100|[silent]
+|upkeep
+|
+|t:|1750824908
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|30/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|7
+|inactive|TheParasectKing has 30 seconds left.
+|inactive|TheParasectKing has 20 seconds left.
+|
+|t:|1750824947
+|move|p1b: Rillaboom|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|17/100
+|cant|p2b: Miraidon|flinch
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-damage|p2a: Calyrex|68/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Incineroar|70/100
+|-damage|p1b: Rillaboom|26/100
+|
+|-heal|p2b: Miraidon|23/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|32/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|75/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|74/100|[from] Grassy Terrain
+|-damage|p1a: Incineroar|63/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|85/100|[silent]
+|upkeep
+|turn|8
+|-message|TheParasectKing forfeited.
+|
+|win|entei enthusiast
+|raw|TheParasectKing's rating: 1366 &rarr; <strong>1348</strong><br />(-18 for losing)
+|raw|entei enthusiast's rating: 1407 &rarr; <strong>1425</strong><br />(+18 for winning)
+|l|☆TheParasectKing
+|player|p1|
+|l|☆entei enthusiast
+|player|p2|

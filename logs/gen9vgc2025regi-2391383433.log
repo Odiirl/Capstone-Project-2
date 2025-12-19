@@ -1,0 +1,131 @@
+|j|☆donly1165
+|j|☆GIGAGOON432
+|t:|1750847545
+|gametype|doubles
+|player|p1|donly1165|ghetsis|1065
+|player|p2|GIGAGOON432|169|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Scizor, L50, F|
+|poke|p1|Rhydon, L50, F|
+|poke|p1|Zapdos, L50|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750847561
+|start
+|switch|p1a: Zapdos|Zapdos, L50, shiny|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-end|p2a: Flutter Mane|Protosynthesis
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GIGAGOON432)
+|inactive|donly1165 has 60 seconds left.
+|inactive|donly1165 has 30 seconds left.
+|
+|t:|1750847623
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p2a: Flutter Mane|Icy Wind|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Zapdos
+|-resisted|p1b: Kyogre
+|-damage|p1a: Zapdos|79/100
+|-damage|p1b: Kyogre|95/100
+|-unboost|p1a: Zapdos|spe|1
+|-unboost|p1b: Kyogre|spe|1
+|move|p1a: Zapdos|Hurricane|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1b: Kyogre|Water Spout|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750847647
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Zapdos|Hurricane|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p1b: Kyogre|Blizzard|p2a: Incineroar|[miss]
+|-miss|p1b: Kyogre|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750847652
+|switch|p2b: Flutter Mane|Flutter Mane, L50|1/100
+|turn|3
+|
+|t:|1750847669
+|move|p2a: Incineroar|Fake Out|p1b: Kyogre
+|-damage|p1b: Kyogre|89/100
+|move|p2b: Flutter Mane|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|41/100
+|move|p1a: Zapdos|Hurricane|p2a: Incineroar
+|-damage|p2a: Incineroar|57/100
+|-start|p2a: Incineroar|confusion
+|cant|p1b: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750847688
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Zapdos|Hurricane|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p1b: Kyogre|Water Spout|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|-activate|p2a: Incineroar|confusion
+|-damage|p2a: Incineroar|0 fnt|[from] confusion
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Kyogre|100/100|[from] item: Leftovers
+|upkeep
+|-message|GIGAGOON432 forfeited.
+|
+|win|donly1165
+|raw|donly1165's rating: 1065 &rarr; <strong>1096</strong><br />(+31 for winning)
+|raw|GIGAGOON432's rating: 1078 &rarr; <strong>1055</strong><br />(-23 for losing)
+|l|☆GIGAGOON432
+|player|p2|
+|l|☆donly1165
+|player|p1|

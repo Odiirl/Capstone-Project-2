@@ -1,0 +1,138 @@
+|j|☆Shashterpiece
+|j|☆YokaiDhenner
+|t:|1750713318
+|gametype|doubles
+|player|p1|Shashterpiece|blue|1044
+|player|p2|YokaiDhenner|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palkia, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Glimmora, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Carbink, L50|
+|poke|p2|Braviary-Hisui, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Pincurchin, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shashterpiece)
+Shashterpiece has agreed to open team sheets.
+|
+|t:|1750713348
+|start
+|switch|p1a: Big Raga|Palkia, L50|100/100
+|switch|p1b: Mogged.|Whimsicott, L50, F, shiny|100/100
+|switch|p2a: Carbink|Carbink, L50|100/100
+|switch|p2b: Pincurchin|Pincurchin, L50, M|100/100
+|-ability|p1a: Big Raga|Pressure
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2b: Pincurchin
+|turn|1
+|inactive|Shashterpiece has 30 seconds left.
+|inactive|Shashterpiece has 20 seconds left.
+|inactive|Shashterpiece has 15 seconds left.
+|inactive|Shashterpiece has 10 seconds left.
+|
+|t:|1750713398
+|move|p1a: Big Raga|Earth Power|p2b: Pincurchin
+|-supereffective|p2b: Pincurchin
+|-damage|p2b: Pincurchin|0 fnt
+|faint|p2b: Pincurchin
+|move|p1b: Mogged.|Trick Room|p1b: Mogged.
+|-fieldstart|move: Trick Room|[of] p1b: Mogged.
+|move|p2a: Carbink|Trick Room|p2a: Carbink
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1750713410
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1750713425
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Carbink|Protect|p2a: Carbink
+|-singleturn|p2a: Carbink|Protect
+|move|p1b: Mogged.|Taunt|p2a: Carbink
+|-activate|p2a: Carbink|move: Protect
+|move|p1a: Big Raga|Surf|p2a: Carbink|[spread] p1b
+|-activate|p2a: Carbink|move: Protect
+|-activate|p2b: Ursaluna|move: Protect
+|-resisted|p1b: Mogged.
+|-damage|p1b: Mogged.|61/100
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|YokaiDhenner has 30 seconds left.
+|
+|t:|1750713451
+|move|p1b: Mogged.|Taunt|p2a: Carbink
+|-start|p2a: Carbink|move: Taunt
+|move|p1a: Big Raga|Surf|p2a: Carbink|[spread] p1b,p2a,p2b
+|-resisted|p1b: Mogged.
+|-supereffective|p2a: Carbink
+|-supereffective|p2b: Ursaluna
+|-damage|p1b: Mogged.|14/100
+|-damage|p2a: Carbink|27/100
+|-damage|p2b: Ursaluna|15/100 brn
+|move|p2b: Ursaluna|Headlong Rush|p1a: Big Raga
+|-damage|p1a: Big Raga|3/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|cant|p2a: Carbink|move: Taunt|Trick Room
+|
+|-damage|p2b: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750713471
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Mogged.|Tailwind|p1b: Mogged.
+|-sidestart|p1: Shashterpiece|move: Tailwind
+|move|p1a: Big Raga|Surf|p2b: Ursaluna|[spread] p1b,p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-resisted|p1b: Mogged.
+|-supereffective|p2a: Carbink
+|-damage|p1b: Mogged.|0 fnt
+|-damage|p2a: Carbink|0 fnt
+|faint|p1b: Mogged.
+|faint|p2a: Carbink
+|
+|-damage|p2b: Ursaluna|3/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713485
+|switch|p1b: SPECTER NO HARVEY|Roaring Moon, L50, shiny|100/100
+|switch|p2a: Rhydon|Rhydon, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1750713498
+|move|p2b: Ursaluna|Protect||[still]
+|-fail|p2b: Ursaluna
+|move|p1b: SPECTER NO HARVEY|Breaking Swipe|p2a: Rhydon|[spread] p2a,p2b
+|-damage|p2a: Rhydon|79/100
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p2a: Rhydon|atk|1
+|faint|p2b: Ursaluna
+|move|p1a: Big Raga|Surf|p2a: Rhydon|[spread] p1b,p2a
+|-resisted|p1b: SPECTER NO HARVEY
+|-supereffective|p2a: Rhydon
+|-damage|p1b: SPECTER NO HARVEY|80/100
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|Shashterpiece
+|raw|Shashterpiece's rating: 1044 &rarr; <strong>1073</strong><br />(+29 for winning)
+|raw|YokaiDhenner's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

@@ -1,0 +1,181 @@
+|j|☆radical radar
+|j|☆Rexshiny
+|t:|1750742283
+|gametype|doubles
+|player|p1|radical radar|cynthia-gen4|1433
+|player|p2|Rexshiny|hilbert|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Crown, L50|
+|teampreview|4
+|
+|t:|1750742349
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Iron Crown|Iron Crown, L50|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p2b: Iron Crown|Booster Energy
+|-activate|p2b: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Crown|quarkdrivespa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rexshiny)
+|inactive|radical radar has 60 seconds left.
+|
+|t:|1750742394
+|-terastallize|p1b: Tornadus|Dark
+|move|p2b: Iron Crown|Quick Guard|p2b: Iron Crown
+|-singleturn|p2b: Iron Crown|Quick Guard
+|move|p1b: Tornadus|Taunt|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Quick Guard
+|move|p1a: Terapagos|Earth Power|p2b: Iron Crown
+|-supereffective|p2b: Iron Crown
+|-damage|p2b: Iron Crown|18/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750742416
+|move|p2a: Calyrex|Glacial Lance|p1b: Tornadus|[spread] p1a,p1b
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|77/100
+|-damage|p1b: Tornadus|40/100
+|move|p1a: Terapagos|Earth Power|p2b: Iron Crown
+|-supereffective|p2b: Iron Crown
+|-damage|p2b: Iron Crown|0 fnt
+|faint|p2b: Iron Crown
+|-end|p2b: Iron Crown|Quark Drive|[silent]
+|move|p1b: Tornadus|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|24/100
+|
+|upkeep
+|
+|t:|1750742431
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|3
+|
+|t:|1750742454
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Tornadus|Taunt|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|move|p1a: Terapagos|Earth Power|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|24/100
+|-unboost|p2b: Kingambit|spd|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1750742471
+|move|p1b: Tornadus|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|move|p2a: Calyrex|Glacial Lance|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750742482
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|5
+|
+|t:|1750742493
+|move|p1b: Urshifu|Detect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Kingambit|Iron Head|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Zacian|[spread] 
+|-activate|p1a: Zacian|move: Protect
+|-activate|p1b: Urshifu|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750742512
+|-terastallize|p2b: Kingambit|Ghost
+|move|p1b: Urshifu|Aqua Jet|p2b: Kingambit
+|-damage|p2b: Kingambit|6/100
+|move|p1a: Zacian|Sacred Sword|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Kingambit|Iron Head|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1750742522
+|switch|p2a: Dialga|Dialga-Origin, L50|100/100
+|turn|7
+|
+|t:|1750742543
+|move|p1b: Urshifu|Aqua Jet|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p2a: Dialga|Draco Meteor|p1b: Urshifu
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|-unboost|p2a: Dialga|spa|2
+|
+|upkeep
+|turn|8
+|
+|t:|1750742555
+|move|p1b: Urshifu|Close Combat|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-crit|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|faint|p2a: Dialga
+|
+|win|radical radar
+|raw|radical radar's rating: 1433 &rarr; <strong>1448</strong><br />(+15 for winning)
+|raw|Rexshiny's rating: 1350 &rarr; <strong>1335</strong><br />(-15 for losing)
+|l|☆Rexshiny
+|player|p2|
+|l|☆radical radar
+|player|p1|

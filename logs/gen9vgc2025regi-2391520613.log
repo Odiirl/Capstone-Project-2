@@ -1,0 +1,152 @@
+|j|☆CharlesCk
+|j|☆hkings234
+|t:|1750865792
+|gametype|doubles
+|player|p1|CharlesCk|102|1190
+|player|p2|hkings234|ghetsis|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|teampreview|4
+|
+|t:|1750865812
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Chien-Pao|atk|1
+|turn|1
+|
+|t:|1750865833
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Incineroar|Fake Out|p2a: Jumpluff
+|-damage|p2a: Jumpluff|83/100
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: hkings234|move: Tailwind
+|move|p2b: Chien-Pao|Icicle Crash|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|85/100
+|move|p1a: Koraidon|Flame Charge|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|75/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750865858
+|move|p2a: Jumpluff|Sleep Powder|p1a: Koraidon|[miss]
+|-miss|p2a: Jumpluff|p1a: Koraidon
+|move|p2b: Chien-Pao|Throat Chop|p1a: Koraidon
+|-damage|p1a: Koraidon|46/100
+|-start|p1a: Koraidon|Throat Chop|[silent]
+|move|p1a: Koraidon|Flame Charge|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Chien-Pao
+|-damage|p1a: Koraidon|36/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|35/100
+|-enditem|p2a: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865869
+|switch|p2b: Groudon|Groudon, L50|100/100
+|turn|3
+|
+|t:|1750865879
+|move|p2a: Jumpluff|Sleep Powder|p1a: Koraidon
+|-status|p1a: Koraidon|slp|[from] move: Sleep Powder
+|cant|p1a: Koraidon|slp
+|move|p2b: Groudon|Precipice Blades|p1a: Koraidon|[spread] p1a
+|-miss|p2b: Groudon|p1b: Incineroar
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Incineroar|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865885
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|t:|1750865900
+|-terastallize|p2b: Groudon|Fire
+|move|p2a: Jumpluff|Leech Seed|p1a: Chien-Pao
+|-start|p1a: Chien-Pao|move: Leech Seed
+|move|p2b: Groudon|Rock Slide|p1a: Chien-Pao|[spread] p1a,p1b
+|-supereffective|p1a: Chien-Pao
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Chien-Pao|39/100
+|-damage|p1b: Incineroar|37/100
+|cant|p1a: Chien-Pao|flinch
+|cant|p1b: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chien-Pao|26/100|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p2a: Jumpluff|14/100|[silent]
+|-sideend|p2: hkings234|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750865916
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: hkings234|move: Tailwind
+|move|p2b: Groudon|Rock Slide|p1a: Chien-Pao|[spread] p1a,p1b
+|-supereffective|p1a: Chien-Pao
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Chien-Pao|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Chien-Pao
+|faint|p1b: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1750865928
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|6
+|-message|CharlesCk forfeited.
+|
+|win|hkings234
+|raw|CharlesCk's rating: 1190 &rarr; <strong>1168</strong><br />(-22 for losing)
+|raw|hkings234's rating: 1233 &rarr; <strong>1255</strong><br />(+22 for winning)
+|l|☆CharlesCk
+|player|p1|

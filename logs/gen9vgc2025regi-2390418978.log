@@ -1,0 +1,188 @@
+|j|☆SpinnerVGC
+|j|☆Rofus10
+|t:|1750711116
+|gametype|doubles
+|player|p1|SpinnerVGC|benga|1286
+|player|p2|Rofus10|170|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpinnerVGC)
+SpinnerVGC rejected open team sheets.
+|inactive|Rofus10 has 60 seconds left.
+|
+|t:|1750711151
+|start
+|switch|p1a: Mewtwo|Mewtwo, L50, shiny|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1a: Mewtwo|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750711173
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Urshifu|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|35/100
+|
+|t:|1750711184
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|move|p1a: Mewtwo|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-resisted|p2b: Indeedee
+|-damage|p2a: Lunala|90/100
+|-damage|p2b: Indeedee|2/100
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|31/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750711207
+|move|p2b: Indeedee|Helping Hand|p2a: Lunala
+|-singleturn|p2a: Lunala|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Mewtwo|Expanding Force|p2a: Lunala|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-resisted|p2b: Indeedee
+|-damage|p2a: Lunala|70/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Lunala|Expanding Force|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Mewtwo
+|-resisted|p1b: Indeedee
+|-damage|p1a: Mewtwo|0 fnt
+|-damage|p1b: Indeedee|42/100
+|faint|p1a: Mewtwo
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750711221
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750711230
+|-terastallize|p1a: Calyrex|Ice
+|-terastallize|p2a: Lunala|Water
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Amoonguss|Spore|p1b: Indeedee
+|-activate|p1b: Indeedee|item: Safety Goggles|Spore
+|move|p1a: Calyrex|Glacial Lance|p2b: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Lunala|16/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Lunala|Expanding Force|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Indeedee
+|-damage|p1a: Calyrex|27/100
+|-damage|p1b: Indeedee|2/100
+|
+|upkeep
+|
+|t:|1750711247
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750711263
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|11/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-resisted|p2b: Calyrex
+|-damage|p2a: Lunala|0 fnt
+|-damage|p2b: Calyrex|50/100
+|faint|p2a: Lunala
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|-damage|p1a: Calyrex|1/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750711268
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|
+|t:|1750711281
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Urshifu|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|66/100
+|move|p1b: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|38/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|25/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|-hitcount|p2b: Calyrex|3
+|
+|upkeep
+|turn|6
+|
+|t:|1750711290
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Urshifu
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Urshifu|31/100
+|faint|p1a: Calyrex
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-hitcount|p2: Calyrex|1
+|
+|win|SpinnerVGC
+|raw|SpinnerVGC's rating: 1286 &rarr; <strong>1312</strong><br />(+26 for winning)
+|raw|Rofus10's rating: 1304 &rarr; <strong>1283</strong><br />(-21 for losing)
+|l|☆Rofus10
+|player|p2|

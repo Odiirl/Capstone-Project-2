@@ -1,0 +1,106 @@
+|j|☆redkamex
+|j|☆han br0lo
+|t:|1750740150
+|gametype|doubles
+|player|p1|redkamex|li|1211
+|player|p2|han br0lo|veteran|1254
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Entei, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|
+|t:|1750740190
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750740226
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|33/100
+|move|p2b: Flutter Mane|Icy Wind|p1a: Lilligant|[spread] p1a,p1b
+|-supereffective|p1a: Lilligant
+|-supereffective|p1b: Groudon
+|-damage|p1a: Lilligant|45/100
+|-damage|p1b: Groudon|63/100
+|-unboost|p1a: Lilligant|spe|1
+|-damage|p2b: Flutter Mane|90/100|[from] item: Life Orb
+|move|p1b: Groudon|Precipice Blades|p2b: Flutter Mane|[spread] p2a,p2b
+|-crit|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2a: Groudon
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750740242
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|turn|2
+|
+|t:|1750740283
+|switch|p1a: Entei|Entei, L50|100/100
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Entei
+|-damage|p1a: Entei|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750740313
+|move|p1a: Entei|Extreme Speed|p2a: Miraidon
+|-damage|p2a: Miraidon|58/100
+|move|p2a: Miraidon|Electro Drift|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|move|p1b: Groudon|Precipice Blades|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Incineroar
+|
+|win|redkamex
+|raw|redkamex's rating: 1211 &rarr; <strong>1239</strong><br />(+28 for winning)
+|raw|han br0lo's rating: 1254 &rarr; <strong>1226</strong><br />(-28 for losing)
+|l|☆redkamex
+|player|p1|
+|l|☆han br0lo
+|player|p2|

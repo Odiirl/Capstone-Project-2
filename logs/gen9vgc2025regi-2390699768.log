@@ -1,0 +1,160 @@
+|j|☆dawdawdadad
+|j|☆zidanezim
+|t:|1750752368
+|gametype|doubles
+|player|p1|dawdawdadad|norman|1390
+|player|p2|zidanezim|2|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Raichu, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dawdawdadad)
+|
+|t:|1750752424
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|1
+|inactive|dawdawdadad has 30 seconds left.
+|
+|t:|1750752451
+|switch|p2a: Raichu|Raichu, L50, F|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Raichu
+|-damage|p2a: Raichu|75/100
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: zidanezim|move: Tailwind
+|move|p1a: Miraidon|Volt Switch|p2a: Raichu
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750752471
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Raichu|Fake Out|p1a: Iron Hands
+|-damage|p1a: Iron Hands|94/100
+|move|p1b: Incineroar|Knock Off|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-enditem|p2a: Raichu|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Raichu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750752483
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750752496
+|move|p1a: Iron Hands|Fake Out|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|68/100
+|move|p2a: Calyrex|Psychic|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|44/100
+|cant|p2b: Kyogre|flinch
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750752503
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|turn|4
+|
+|t:|1750752520
+|move|p2b: Kyogre|Origin Pulse|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Iron Hands|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|faint|p1b: Incineroar
+|move|p2a: Tornadus|Bleakwind Storm|p1: Iron Hands|[notarget]
+|-fail|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: zidanezim|move: Tailwind
+|upkeep
+|
+|t:|1750752532
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750752556
+|-terastallize|p2b: Kyogre|Water
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: zidanezim|move: Tailwind
+|move|p2b: Kyogre|Origin Pulse|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-resisted|p1b: Miraidon
+|-damage|p1a: Kyogre|45/100
+|-damage|p1b: Miraidon|32/100
+|move|p1a: Kyogre|Thunder|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Tornadus
+|-damage|p2a: Tornadus|40/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750752575
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Kyogre|19/100
+|-damage|p1b: Miraidon|1/100
+|-unboost|p1b: Miraidon|spe|1
+|move|p1a: Kyogre|Thunder|p2a: Tornadus|[miss]
+|-miss|p1a: Kyogre|p2a: Tornadus
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|win|dawdawdadad
+|raw|dawdawdadad's rating: 1390 &rarr; <strong>1405</strong><br />(+15 for winning)
+|raw|zidanezim's rating: 1303 &rarr; <strong>1288</strong><br />(-15 for losing)
+|l|☆dawdawdadad
+|player|p1|
+|l|☆zidanezim
+|player|p2|

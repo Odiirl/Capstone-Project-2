@@ -1,0 +1,135 @@
+|j|☆gsaaan
+|j|☆victini hope
+|t:|1750709708
+|gametype|doubles
+|player|p1|gsaaan|1|1202
+|player|p2|victini hope|102|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sandy Shocks, L50|
+|poke|p1|Cobalion, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gsaaan)
+|inactive|victini hope has 60 seconds left.
+|inactive|victini hope has 30 seconds left.
+|inactive|victini hope has 20 seconds left.
+|
+|t:|1750709780
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Cobalion|Cobalion, L50|100/100
+|switch|p2a: Rayquaza|Rayquaza, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-ability|p2a: Rayquaza|Air Lock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Cobalion|Grassy Seed
+|-boost|p1b: Cobalion|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750709803
+|-terastallize|p2b: Chien-Pao|Ghost
+|move|p1a: Rillaboom|Fake Out|p2b: Chien-Pao
+|-immune|p2b: Chien-Pao
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p1a: Rillaboom
+|move|p1b: Cobalion|Iron Defense|p1b: Cobalion
+|-boost|p1b: Cobalion|def|2
+|move|p2a: Rayquaza|Dragon Ascent|p1b: Cobalion
+|-damage|p1b: Cobalion|65/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|
+|upkeep
+|
+|t:|1750709821
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|2
+|
+|t:|1750709829
+|move|p2b: Chien-Pao|Throat Chop|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|58/100
+|-start|p1a: Ho-Oh|Throat Chop|[silent]
+|move|p1b: Cobalion|Body Press|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|30/100
+|-status|p2b: Chien-Pao|brn
+|
+|-damage|p2b: Chien-Pao|24/100 brn|[from] brn
+|upkeep
+|
+|t:|1750709842
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|
+|t:|1750709863
+|-terastallize|p1b: Cobalion|Fairy
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: victini hope|move: Tailwind
+|move|p2b: Chien-Pao|Throat Chop|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|37/100
+|move|p1b: Cobalion|Body Press|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|87/100
+|
+|-damage|p2b: Chien-Pao|19/100 brn|[from] brn
+|-end|p1a: Ho-Oh|Throat Chop|[silent]
+|upkeep
+|
+|t:|1750709887
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|
+|t:|1750709905
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Chien-Pao|Ice Spinner|p1b: Cobalion
+|-damage|p1b: Cobalion|58/100
+|move|p2a: Kyogre|Water Spout|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|79/100
+|-damage|p1b: Cobalion|10/100
+|move|p1b: Cobalion|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Chien-Pao|13/100 brn|[from] brn
+|upkeep
+|turn|5
+|-message|victini hope forfeited.
+|
+|win|gsaaan
+|raw|gsaaan's rating: 1202 &rarr; <strong>1227</strong><br />(+25 for winning)
+|raw|victini hope's rating: 1207 &rarr; <strong>1182</strong><br />(-25 for losing)
+|l|☆victini hope
+|player|p2|
+|l|☆gsaaan
+|player|p1|

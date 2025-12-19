@@ -1,0 +1,378 @@
+|j|☆Billy2006
+|j|☆peachykeane
+|t:|1750729713
+|gametype|doubles
+|player|p1|Billy2006|twins-gen4dp|1406
+|player|p2|peachykeane|cowgirl|1376
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Muk-Alola, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750729736
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p1b: Muk|Muk-Alola, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|-unboost|p1b: Muk|atk|1
+|turn|1
+|
+|t:|1750729749
+|move|p1a: Smeargle|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|95/100
+|move|p2a: Incineroar|Fake Out|p1a: Smeargle
+|-damage|p1a: Smeargle|59/100
+|cant|p2b: Urshifu|flinch
+|move|p1b: Muk|Minimize|p1b: Muk
+|-boost|p1b: Muk|evasion|2
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750729769
+|move|p1a: Smeargle|Spore|p2b: Urshifu
+|-status|p2b: Urshifu|slp|[from] move: Spore
+|cant|p2b: Urshifu|slp
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Muk
+|-status|p1b: Muk|brn
+|move|p1b: Muk|Minimize|p1b: Muk
+|-boost|p1b: Muk|evasion|2
+|
+|-damage|p1b: Muk|94/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750729784
+|move|p1a: Smeargle|Endeavor|p2a: Incineroar
+|-damage|p2a: Incineroar|45/100
+|-curestatus|p2b: Urshifu|slp|[msg]
+|move|p2b: Urshifu|Taunt|p1b: Muk
+|-start|p1b: Muk|move: Taunt
+|move|p2a: Incineroar|Knock Off|p1b: Muk|[miss]
+|-miss|p2a: Incineroar|p1b: Muk
+|cant|p1b: Muk|move: Taunt|Minimize
+|
+|-heal|p1b: Muk|100/100 brn|[from] item: Leftovers
+|-damage|p1b: Muk|94/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|4
+|
+|t:|1750729802
+|move|p1a: Smeargle|Spore|p2b: Urshifu
+|-status|p2b: Urshifu|slp|[from] move: Spore
+|cant|p2b: Urshifu|slp
+|move|p2a: Incineroar|Knock Off|p1b: Muk
+|-resisted|p1b: Muk
+|-damage|p1b: Muk|76/100 brn
+|-enditem|p1b: Muk|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Muk|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|38/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Muk
+|
+|-damage|p1b: Muk|70/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|5
+|
+|t:|1750729822
+|move|p1a: Smeargle|Spore|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Spore
+|cant|p2b: Urshifu|slp
+|cant|p2a: Incineroar|slp
+|move|p1b: Muk|Knock Off|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|89/100 slp
+|-enditem|p2b: Urshifu|Focus Sash|[from] move: Knock Off|[of] p1b: Muk
+|
+|-damage|p1b: Muk|64/100 brn|[from] brn
+|-end|p1b: Muk|move: Taunt
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750729831
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|-curestatus|p2b: Urshifu|slp|[msg]
+|move|p2b: Urshifu|Taunt|p1a: Smeargle
+|-start|p1a: Smeargle|move: Taunt
+|cant|p2a: Incineroar|slp
+|move|p1b: Muk|Minimize|p1b: Muk
+|-boost|p1b: Muk|evasion|2
+|
+|-damage|p1b: Muk|58/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|7
+|
+|t:|1750729859
+|move|p1a: Smeargle|Endeavor|p2b: Urshifu
+|-damage|p2b: Urshifu|44/100
+|move|p2b: Urshifu|Surging Strikes|p1b: Muk|[miss]
+|-miss|p2b: Urshifu|p1b: Muk
+|cant|p2a: Incineroar|slp
+|move|p1b: Muk|Knock Off|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-enditem|p1a: Smeargle|Focus Sash|[from] move: Knock Off|[of] p1b: Muk
+|faint|p1a: Smeargle
+|-ability|p1b: Muk|Moody|[from] ability: Power of Alchemy|[of] p1a: Smeargle
+|
+|-damage|p1b: Muk|52/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|atk|2
+|-unboost|p1b: Muk|spe|1
+|upkeep
+|
+|t:|1750729874
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|8
+|
+|t:|1750729899
+|-terastallize|p1a: Ho-Oh|Grass
+|move|p2b: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|91/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|81/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|71/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Psych Up|p1b: Muk
+|-copyboost|p1a: Ho-Oh|p1b: Muk|[from] move: Psych Up
+|-curestatus|p2a: Incineroar|slp|[msg]
+|move|p2a: Incineroar|Knock Off|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|29/100
+|-enditem|p1a: Ho-Oh|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Muk|Knock Off|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|35/100
+|
+|-damage|p1b: Muk|46/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spe|2
+|-unboost|p1b: Muk|spd|1
+|upkeep
+|turn|9
+|
+|t:|1750729911
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Muk|Poison Gas|p2b: Urshifu|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-status|p2a: Incineroar|psn
+|move|p2a: Incineroar|Flare Blitz|p1a: Ho-Oh|[miss]
+|-miss|p2a: Incineroar|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Life Dew|p1a: Ho-Oh|[spread] p1a,p1b
+|-heal|p1a: Ho-Oh|54/100
+|-heal|p1b: Muk|71/100 brn
+|
+|-damage|p2a: Incineroar|26/100 psn|[from] psn
+|-damage|p1b: Muk|65/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spd|2
+|-unboost|p1b: Muk|spe|1
+|upkeep
+|turn|10
+|
+|t:|1750729926
+|move|p2b: Urshifu|Taunt|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|move: Taunt
+|move|p2a: Incineroar|Flare Blitz|p1a: Ho-Oh|[miss]
+|-miss|p2a: Incineroar|p1a: Ho-Oh
+|cant|p1a: Ho-Oh|move: Taunt|Life Dew
+|move|p1b: Muk|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|16/100 psn
+|
+|-damage|p2a: Incineroar|3/100 psn|[from] psn
+|-damage|p1b: Muk|59/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spa|2
+|-unboost|p1b: Muk|spe|1
+|upkeep
+|turn|11
+|
+|t:|1750729947
+|move|p2b: Urshifu|Taunt|p1b: Muk|[miss]
+|-miss|p2b: Urshifu|p1b: Muk
+|move|p2a: Incineroar|Flare Blitz|p1a: Ho-Oh|[miss]
+|-miss|p2a: Incineroar|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1b: Muk|Knock Off|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|26/100
+|
+|-damage|p1b: Muk|52/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spe|2
+|-unboost|p1b: Muk|def|1
+|upkeep
+|
+|t:|1750729961
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|12
+|
+|t:|1750729979
+|-terastallize|p2a: Calyrex|Dark
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Urshifu|Close Combat|p1a: Ho-Oh|[miss]
+|-miss|p2b: Urshifu|p1a: Ho-Oh
+|move|p1b: Muk|Knock Off|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|87/100
+|-enditem|p2a: Calyrex|Covert Cloak|[from] move: Knock Off|[of] p1b: Muk
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-damage|p2a: Calyrex|18/100
+|
+|-damage|p1b: Muk|46/100 brn|[from] brn
+|-end|p1a: Ho-Oh|move: Taunt
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spe|2
+|-unboost|p1b: Muk|def|1
+|upkeep
+|turn|13
+|
+|t:|1750729989
+|move|p2a: Calyrex|Astral Barrage|p1b: Muk|[spread] 
+|-miss|p2a: Calyrex|p1a: Ho-Oh
+|-miss|p2a: Calyrex|p1b: Muk
+|move|p1b: Muk|Minimize|p1b: Muk
+|-boost|p1b: Muk|evasion|0
+|move|p2b: Urshifu|Close Combat|p1a: Ho-Oh|[miss]
+|-miss|p2b: Urshifu|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-damage|p1b: Muk|40/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spa|2
+|-unboost|p1b: Muk|def|1
+|upkeep
+|
+|t:|1750729993
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|14
+|
+|t:|1750729999
+|move|p2a: Calyrex|Astral Barrage|p1b: Muk|[spread] p1a
+|-miss|p2a: Calyrex|p1b: Muk
+|-damage|p1a: Ho-Oh|8/100
+|move|p2b: Zamazenta|Body Press|p1b: Muk|[miss]
+|-miss|p2b: Zamazenta|p1b: Muk
+|move|p1b: Muk|Knock Off|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|9/100
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|42/100
+|
+|-damage|p1b: Muk|34/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|def|2
+|-unboost|p1b: Muk|spe|1
+|upkeep
+|turn|15
+|
+|t:|1750730018
+|move|p1b: Muk|Protect|p1b: Muk
+|-singleturn|p1b: Muk|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Muk|[spread] p1a
+|-activate|p1b: Muk|move: Protect
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Zamazenta|Body Press|p1b: Muk
+|-activate|p1b: Muk|move: Protect
+|
+|-damage|p1b: Muk|28/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|atk|2
+|-unboost|p1b: Muk|spd|1
+|upkeep
+|
+|t:|1750730025
+|switch|p1a: Flamigo|Flamigo, L50, F|100/100
+|-copyboost|p1a: Flamigo|p1b: Muk|[from] ability: Costar
+|-enditem|p1a: Flamigo|White Herb
+|-clearnegativeboost|p1a: Flamigo|[silent]
+|turn|16
+|
+|t:|1750730032
+|move|p1a: Flamigo|Acrobatics|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Zamazenta|Body Press|p1a: Flamigo|[miss]
+|-miss|p2b: Zamazenta|p1a: Flamigo
+|move|p1b: Muk|Knock Off|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|36/100
+|
+|-damage|p1b: Muk|22/100 brn|[from] brn
+|-ability|p1b: Muk|Moody|boost
+|-boost|p1b: Muk|spa|2
+|-unboost|p1b: Muk|spd|1
+|upkeep
+|turn|17
+|
+|t:|1750730041
+|move|p1a: Flamigo|Acrobatics|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|win|Billy2006
+|raw|Billy2006's rating: 1406 &rarr; <strong>1424</strong><br />(+18 for winning)
+|raw|peachykeane's rating: 1376 &rarr; <strong>1358</strong><br />(-18 for losing)
+|l|☆peachykeane
+|player|p2|
+|l|☆Billy2006
+|player|p1|

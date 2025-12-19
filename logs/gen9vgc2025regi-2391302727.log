@@ -1,0 +1,126 @@
+|j|☆4212ZVGC
+|j|☆GabyBaby22
+|t:|1750831886
+|gametype|doubles
+|player|p1|4212ZVGC|101|1326
+|player|p2|GabyBaby22|1|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dusclops, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750831918
+|start
+|switch|p1a: Dusclops|Dusclops, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Scrafty|Scrafty, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Dusclops|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-item|p2a: Scrafty|Focus Sash|[from] ability: Frisk|[of] p1a: Dusclops
+|-item|p2b: Calyrex|Covert Cloak|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|1
+|
+|t:|1750831953
+|-terastallize|p2b: Calyrex|Fairy
+|move|p2a: Scrafty|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|94/100
+|move|p2b: Calyrex|Nasty Plot|p2b: Calyrex
+|-boost|p2b: Calyrex|spa|2
+|cant|p1b: Incineroar|flinch
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|upkeep
+|turn|2
+|
+|t:|1750831985
+|move|p1a: Dusclops|Curse|p2b: Calyrex
+|-start|p2b: Calyrex|Curse|[of] p1a: Dusclops
+|-damage|p1a: Dusclops|51/100
+|move|p1b: Incineroar|Parting Shot|p2a: Scrafty
+|-unboost|p2a: Scrafty|atk|1
+|-unboost|p2a: Scrafty|spa|1
+|
+|t:|1750831993
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2a: Scrafty|Coaching|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|1
+|-boost|p2b: Calyrex|def|1
+|move|p2b: Calyrex|Astral Barrage|p1a: Dusclops|[spread] p1a,p1b
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1a: Dusclops
+|faint|p1b: Torkoal
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Calyrex|76/100|[from] Curse
+|upkeep
+|
+|t:|1750832012
+|switch|p1b: Incineroar|Incineroar, L50, M|94/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|3
+|
+|t:|1750832033
+|-terastallize|p1a: Calyrex|Fire
+|move|p1a: Calyrex|Glacial Lance|p2a: Scrafty|[spread] p2a,p2b
+|-damage|p2a: Scrafty|21/100
+|-damage|p2b: Calyrex|26/100
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|14/100
+|-enditem|p2b: Calyrex|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Scrafty|Coaching|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|1
+|-boost|p2b: Calyrex|def|1
+|move|p2b: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Calyrex|22/100
+|-damage|p1b: Incineroar|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Calyrex|0 fnt|[from] Curse
+|faint|p2b: Calyrex
+|upkeep
+|-message|4212ZVGC forfeited.
+|
+|win|GabyBaby22
+|raw|4212ZVGC's rating: 1326 &rarr; <strong>1302</strong><br />(-24 for losing)
+|raw|GabyBaby22's rating: 1262 &rarr; <strong>1292</strong><br />(+30 for winning)
+|l|☆4212ZVGC
+|player|p1|
+|l|☆GabyBaby22
+|player|p2|

@@ -1,0 +1,218 @@
+|j|☆TheHillMann
+|j|☆testy accounty 2
+|t:|1750859141
+|gametype|doubles
+|player|p1|TheHillMann|rood|1601
+|player|p2|testy accounty 2|101|1673
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheHillMann)
+|inactive|testy accounty 2 has 60 seconds left.
+|
+|t:|1750859179
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|TheHillMann has 30 seconds left.
+|inactive|testy accounty 2 has 30 seconds left.
+|
+|t:|1750859212
+|switch|p2a: Ian|Incineroar, L50, M|100/100
+|-ability|p2a: Ian|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Raichu|atk|1
+|move|p1b: Raichu|Nuzzle|p2a: Ian
+|-damage|p2a: Ian|96/100
+|-status|p2a: Ian|par
+|-damage|p1b: Raichu|84/100|[from] item: Rocky Helmet|[of] p2a: Ian
+|move|p1a: Calyrex|Glacial Lance|p2a: Ian|[spread] p2a,p2b
+|-resisted|p2a: Ian
+|-damage|p2a: Ian|84/100 par
+|-damage|p2b: Farigiraf|84/100
+|move|p2b: Farigiraf|Foul Play|p1b: Raichu
+|-damage|p1b: Raichu|59/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750859237
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Raichu|Nuzzle|p2b: Farigiraf
+|-damage|p2b: Farigiraf|81/100
+|-status|p2b: Farigiraf|par
+|move|p2a: Ian|Will-O-Wisp|p1a: Groudon
+|-status|p1a: Groudon|brn
+|move|p2b: Farigiraf|Psychic|p1b: Raichu
+|-damage|p1b: Raichu|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750859260
+|move|p1b: Raichu|Volt Switch|p2a: Ian
+|-damage|p2a: Ian|51/100 par
+|
+|t:|1750859267
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100|[from] Volt Switch
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|move|p1a: Groudon|Precipice Blades|p2a: Ian|[spread] p2a,p2b
+|-supereffective|p2a: Ian
+|-damage|p2a: Ian|7/100 par
+|-damage|p2b: Farigiraf|67/100 par
+|cant|p2a: Ian|par
+|move|p2b: Farigiraf|Psychic|p1b: Chi-Yu
+|-immune|p1b: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|89/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|testy accounty 2 has 30 seconds left.
+|
+|t:|1750859296
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1a: Groudon|Precipice Blades|p2a: Ian|[miss]
+|-miss|p1a: Groudon|p2a: Ian
+|move|p2a: Ian|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|61/100 brn
+|-enditem|p1a: Groudon|Assault Vest|[from] move: Knock Off|[of] p2a: Ian
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|55/100 brn|[from] brn
+|upkeep
+|
+|t:|1750859307
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750859321
+|switch|p1b: Raichu|Raichu, L50, F|3/100
+|move|p2b: Miraidon|Draco Meteor|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Groudon
+|move|p2a: Ian|Parting Shot|p1b: Raichu
+|-unboost|p1b: Raichu|atk|1
+|-unboost|p1b: Raichu|spa|1
+|
+|t:|1750859332
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750859335
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750859358
+|switch|p2b: Ian|Incineroar, L50, M|7/100 par
+|-ability|p2b: Ian|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Raichu|atk|1
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Raichu|Fake Out|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Ian|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Ian
+|-damage|p2b: Ian|0 fnt
+|faint|p2b: Ian
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|none
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750859374
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750859397
+|-terastallize|p2b: Miraidon|Electric
+|move|p2b: Miraidon|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|71/100
+|-damage|p1b: Raichu|0 fnt
+|-unboost|p1a: Calyrex|spa|1
+|faint|p1b: Raichu
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|26/100 brn
+|-damage|p2b: Miraidon|59/100
+|move|p2a: Ursaluna|Facade|p1a: Calyrex
+|-damage|p1a: Calyrex|8/100
+|-enditem|p1a: Calyrex|Sitrus Berry|[eat]
+|-heal|p1a: Calyrex|33/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Ursaluna|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1750859401
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|8
+|
+|t:|1750859415
+|move|p2b: Miraidon|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Chi-Yu
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Chi-Yu|89/100
+|-unboost|p1b: Chi-Yu|spa|1
+|faint|p1a: Calyrex
+|move|p1b: Chi-Yu|Overheat|p2b: Miraidon
+|-damage|p2b: Miraidon|2/100
+|-unboost|p1b: Chi-Yu|spa|2
+|move|p2a: Ursaluna|Facade|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|
+|win|testy accounty 2
+|raw|TheHillMann's rating: 1601 &rarr; <strong>1585</strong><br />(-16 for losing)
+|raw|testy accounty 2's rating: 1673 &rarr; <strong>1689</strong><br />(+16 for winning)
+|l|☆TheHillMann
+|player|p1|
+|l|☆testy accounty 2
+|player|p2|

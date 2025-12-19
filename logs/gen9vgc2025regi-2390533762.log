@@ -1,0 +1,260 @@
+|j|☆fernsthedruids
+|j|☆Novicebest
+|t:|1750725313
+|gametype|doubles
+|player|p1|fernsthedruids|266|1515
+|player|p2|Novicebest|170|1587
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Novicebest)
+|inactive|fernsthedruids has 60 seconds left.
+|inactive|fernsthedruids has 30 seconds left.
+|
+|t:|1750725377
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750725401
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Miraidon|Volt Switch|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750725417
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1b: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|94/100
+|-damage|p1b: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1a: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-damage|p1a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|move|p2a: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|45/100
+|
+|-heal|p1a: Zamazenta|52/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750725436
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|
+|t:|1750725450
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Miraidon|Volt Switch|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-crit|p1b: Rillaboom
+|-damage|p1b: Rillaboom|57/100
+|
+|t:|1750725456
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p1b: Rillaboom|U-turn|p2b: Ursaluna
+|-damage|p2b: Ursaluna|88/100
+|
+|t:|1750725462
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|fernsthedruids has 30 seconds left.
+|
+|t:|1750725488
+|-terastallize|p1b: Incineroar|Bug
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|14/100
+|move|p1a: Zamazenta|Body Press|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-damage|p2b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|fernsthedruids has 30 seconds left.
+|
+|t:|1750725520
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Ursaluna|Facade|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p2a: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1750725531
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Bug|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|6
+|
+|t:|1750725553
+|-terastallize|p2a: Lunala|Fairy
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Lunala
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2a: Lunala|spa|1
+|
+|t:|1750725563
+|switch|p1a: Rillaboom|Rillaboom, L50, F|57/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Lunala|Moongeist Beam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-heal|p2b: Ursaluna|83/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|fernsthedruids has 30 seconds left.
+|inactive|Novicebest has 30 seconds left.
+|
+|t:|1750725598
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|switch|p1b: Incineroar|Incineroar, L50, F, tera:Bug|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|move|p1a: Rillaboom|U-turn|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|98/100
+|
+|t:|1750725610
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Lunala|Moongeist Beam|p1b: Incineroar
+|-damage|p1b: Incineroar|67/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|inactive|Novicebest has 30 seconds left.
+|inactive|fernsthedruids has 30 seconds left.
+|inactive|fernsthedruids has 20 seconds left.
+|
+|t:|1750725655
+|switch|p2b: Ursaluna|Ursaluna, L50, F|77/100 brn
+|switch|p1b: Rillaboom|Rillaboom, L50, F|63/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-heal|p2b: Ursaluna|83/100 brn|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|69/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|100/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|fernsthedruids has 30 seconds left.
+|inactive|Novicebest has 30 seconds left.
+|inactive|fernsthedruids has 20 seconds left.
+|inactive|fernsthedruids has 15 seconds left.
+|
+|t:|1750725700
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Bug|67/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|move|p2b: Ursaluna|Facade|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2a: Lunala|Moongeist Beam|p1a: Incineroar
+|-damage|p1a: Incineroar|30/100
+|
+|-heal|p2b: Ursaluna|83/100 brn|[from] Grassy Terrain
+|-heal|p1a: Incineroar|36/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1750725707
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|10
+|inactive|Novicebest has 30 seconds left.
+|
+|t:|1750725732
+|move|p1a: Incineroar|Fake Out|p2b: Ursaluna
+|-damage|p2b: Ursaluna|68/100 brn
+|cant|p2b: Ursaluna|flinch
+|move|p2a: Lunala|Moongeist Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-heal|p2b: Ursaluna|74/100 brn|[from] Grassy Terrain
+|-heal|p1a: Incineroar|42/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|fernsthedruids forfeited.
+|
+|win|Novicebest
+|raw|fernsthedruids's rating: 1515 &rarr; <strong>1499</strong><br />(-16 for losing)
+|raw|Novicebest's rating: 1587 &rarr; <strong>1603</strong><br />(+16 for winning)
+|l|☆fernsthedruids
+|player|p1|

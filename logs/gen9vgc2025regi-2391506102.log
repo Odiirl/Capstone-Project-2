@@ -1,0 +1,159 @@
+|j|☆QCPMSY
+|j|☆caskade
+|t:|1750864169
+|gametype|doubles
+|player|p1|QCPMSY|infielder|1107
+|player|p2|caskade|red|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Slowking, L50, F|
+|poke|p2|Gastrodon, L50, M|
+|poke|p2|Pincurchin, L50, M|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caskade)
+|
+|t:|1750864183
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Slowking|Slowking, L50, F|100/100
+|switch|p2b: Gastrodon|Gastrodon, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750864199
+|switch|p2b: Pincurchin|Pincurchin, L50, M|100/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: QCPMSY|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2b: Pincurchin
+|-activate|p2b: Pincurchin|ability: Lightning Rod
+|-ability|p2b: Pincurchin|Lightning Rod|boost
+|-boost|p2b: Pincurchin|spa|1
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|2
+|
+|t:|1750864217
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2b: Pincurchin|Surf|p1b: Archaludon|[spread] p1b
+|-activate|p1a: Tornadus|move: Protect
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|85/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750864239
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2b: Pincurchin|Surf|p1b: Archaludon|[spread] p1a
+|-activate|p1b: Archaludon|move: Protect
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-damage|p1a: Tornadus|73/100
+|move|p2a: Gastrodon|Earth Power|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Gastrodon|[spread] p2b
+|-miss|p1a: Tornadus|p2a: Gastrodon
+|-resisted|p2b: Pincurchin
+|-damage|p2b: Pincurchin|81/100
+|
+|upkeep
+|turn|4
+|inactive|QCPMSY has 30 seconds left.
+|
+|t:|1750864265
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2b: Pincurchin|Surf|p1a: Tornadus|[spread] p1b
+|-activate|p1a: Tornadus|move: Protect
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|70/100
+|move|p2a: Gastrodon|Earth Power|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|
+|-sideend|p1: QCPMSY|move: Tailwind
+|upkeep
+|
+|t:|1750864285
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750864301
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: QCPMSY|move: Tailwind
+|move|p2b: Pincurchin|Thunderbolt|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p2a: Gastrodon|Earth Power|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750864313
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|6
+|
+|t:|1750864327
+|-terastallize|p1b: Kyogre|Water
+|-terastallize|p2b: Pincurchin|Water
+|move|p1b: Kyogre|Ice Beam|p2b: Pincurchin
+|-resisted|p2b: Pincurchin
+|-crit|p2b: Pincurchin
+|-damage|p2b: Pincurchin|51/100
+|move|p2a: Gastrodon|Earth Power|p1b: Kyogre
+|-damage|p1b: Kyogre|46/100
+|move|p2b: Pincurchin|Recover|p2b: Pincurchin
+|-heal|p2b: Pincurchin|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750864340
+|move|p1b: Kyogre|Ice Beam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|63/100
+|move|p2a: Gastrodon|Earth Power|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|win|caskade
+|raw|QCPMSY's rating: 1107 &rarr; <strong>1081</strong><br />(-26 for losing)
+|raw|caskade's rating: 1096 &rarr; <strong>1122</strong><br />(+26 for winning)
+|l|☆QCPMSY
+|player|p1|
+|l|☆caskade
+|player|p2|

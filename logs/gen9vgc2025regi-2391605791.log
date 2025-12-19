@@ -1,0 +1,226 @@
+|j|‽Caller5
+|j|☆oppePoiZ
+|t:|1750875068
+|gametype|doubles
+|player|p1|Caller5|265|1215
+|player|p2|oppePoiZ|unknown|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Porygon2, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Leavanny, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Hattrem, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by oppePoiZ)
+|
+|t:|1750875100
+|start
+|switch|p1a: Araquanid|Araquanid, L50, F|100/100
+|switch|p1b: Dialga|Dialga-Origin, L50|100/100
+|switch|p2a: Groudon|Groudon, L50, shiny|100/100
+|switch|p2b: Leavanny|Leavanny, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-ability|p1b: Dialga|Pressure
+|turn|1
+|
+|t:|1750875120
+|move|p1b: Dialga|Protect|p1b: Dialga
+|-singleturn|p1b: Dialga|Protect
+|move|p2b: Leavanny|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|68/100
+|-enditem|p1a: Araquanid|Mystic Water|[from] move: Knock Off|[of] p2b: Leavanny
+|move|p2a: Groudon|High Horsepower|p1b: Dialga
+|-activate|p1b: Dialga|move: Protect
+|move|p1a: Araquanid|Liquidation|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|oppePoiZ has 30 seconds left.
+|
+|t:|1750875149
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Leavanny|Knock Off|p1b: Rillaboom
+|-damage|p1b: Rillaboom|72/100
+|-enditem|p1b: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2b: Leavanny
+|move|p2a: Groudon|High Horsepower|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|44/100
+|move|p1a: Araquanid|Leech Life|p2b: Leavanny
+|-supereffective|p2b: Leavanny
+|-damage|p2b: Leavanny|20/100
+|-heal|p1a: Araquanid|100/100|[from] drain|[of] p2b: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Leavanny|26/100|[from] Grassy Terrain
+|-heal|p2a: Groudon|59/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|50/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Caller5 has 30 seconds left.
+|inactive|oppePoiZ has 30 seconds left.
+|inactive|Caller5 has 20 seconds left.
+|
+|t:|1750875188
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|move|p2b: Leavanny|Protect|p2b: Leavanny
+|-singleturn|p2b: Leavanny|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|79/100
+|move|p1a: Araquanid|Leech Life|p2b: Leavanny
+|-activate|p2b: Leavanny|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Leavanny|32/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|86/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|56/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|oppePoiZ has 30 seconds left.
+|
+|t:|1750875217
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Volcarona|Electric Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Electric Seed
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|move|p2a: Volcarona|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Araquanid|76/100
+|-damage|p1b: Incineroar|76/100
+|move|p1a: Araquanid|Liquidation|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750875238
+|switch|p2a: Groudon|Groudon, L50, shiny|59/100
+|turn|5
+|
+|t:|1750875258
+|switch|p1b: Rillaboom|Rillaboom, L50, M|56/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Araquanid|Electric
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p2b: Miraidon|Volt Switch|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|52/100
+|
+|t:|1750875269
+|switch|p2b: Leavanny|Leavanny, L50, M|32/100|[from] Volt Switch
+|move|p1a: Araquanid|Liquidation|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|
+|-weather|none
+|-heal|p2b: Leavanny|38/100|[from] Grassy Terrain
+|-heal|p2a: Groudon|65/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p1a: Araquanid|58/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750875292
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Araquanid|Protect|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Protect
+|move|p2b: Leavanny|Pollen Puff|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|6/100
+|move|p1b: Rillaboom|Wood Hammer|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|66/100
+|-damage|p1b: Rillaboom|0 fnt|[from] Recoil
+|faint|p1b: Rillaboom
+|
+|upkeep
+|
+|t:|1750875310
+|switch|p1b: Dialga|Dialga-Origin, L50|100/100
+|-ability|p1b: Dialga|Pressure
+|turn|7
+|
+|t:|1750875326
+|switch|p1a: Incineroar|Incineroar, L50, M|76/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Leavanny|atk|1
+|move|p2a: Miraidon|Draco Meteor|p1b: Dialga
+|-damage|p1b: Dialga|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Dialga
+|move|p2b: Leavanny|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|68/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Leavanny
+|
+|upkeep
+|
+|t:|1750875339
+|switch|p1b: Araquanid|Araquanid, L50, F, tera:Electric|58/100
+|turn|8
+|
+|t:|1750875361
+|switch|p2a: Groudon|Groudon, L50, shiny|65/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p2b: Leavanny|Pollen Puff|p2a: Groudon
+|-heal|p2a: Groudon|100/100
+|move|p1a: Incineroar|Knock Off|p2b: Leavanny
+|-damage|p2b: Leavanny|0 fnt
+|-enditem|p2b: Leavanny|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Leavanny
+|move|p1b: Araquanid|Liquidation|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750875378
+|switch|p2b: Miraidon|Miraidon, L50|66/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750875400
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Groudon|High Horsepower|p1b: Araquanid
+|-supereffective|p1b: Araquanid
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|
+|win|oppePoiZ
+|raw|Caller5's rating: 1215 &rarr; <strong>1189</strong><br />(-26 for losing)
+|raw|oppePoiZ's rating: 1200 &rarr; <strong>1226</strong><br />(+26 for winning)
+|l|☆oppePoiZ
+|player|p2|
+|l|‽Caller5
+|player|p1|

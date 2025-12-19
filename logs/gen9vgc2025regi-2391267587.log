@@ -1,0 +1,174 @@
+|j|☆huanchen
+|j|☆MewYou64
+|t:|1750825367
+|gametype|doubles
+|player|p1|huanchen|red|1138
+|player|p2|MewYou64|emmet|1195
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Regigigas, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Weezing, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by huanchen)
+|
+|t:|1750825389
+|start
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750825405
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: MewYou64|move: Tailwind
+|move|p1b: Ting-Lu|Taunt|p2b: Whimsicott
+|-start|p2b: Whimsicott|move: Taunt
+|move|p1a: Dondozo|Yawn|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|MewYou64 has 30 seconds left.
+|
+|t:|1750825433
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Calyrex|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|78/100
+|move|p1b: Ting-Lu|Ruination|p2a: Calyrex
+|-damage|p2a: Calyrex|50/100
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|move|p1a: Dondozo|Yawn|p2a: Zoroark
+|-start|p2a: Zoroark|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750825454
+|move|p2a: Zoroark|Helping Hand|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Helping Hand|[of] p2a: Zoroark
+|move|p2b: Zamazenta|Body Press|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|0 fnt
+|-damage|p2b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1b: Ting-Lu
+|faint|p1b: Ting-Lu
+|move|p1a: Dondozo|Yawn|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|90/100|[from] item: Leftovers
+|-end|p2a: Zoroark|move: Yawn|[silent]
+|-status|p2a: Zoroark|slp
+|upkeep
+|
+|t:|1750825466
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750825483
+|cant|p2a: Zoroark|slp
+|move|p2b: Zamazenta|Heavy Slam|p1b: Calyrex
+|-damage|p1b: Calyrex|38/100
+|move|p1b: Calyrex|Psychic|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Dondozo|Wave Crash|p2b: Zamazenta
+|-damage|p2b: Zamazenta|69/100
+|-damage|p1a: Dondozo|86/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|93/100|[from] item: Leftovers
+|-end|p2b: Zamazenta|move: Yawn|[silent]
+|-status|p2b: Zamazenta|slp
+|-sideend|p2: MewYou64|move: Tailwind
+|upkeep
+|
+|t:|1750825499
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|5
+|
+|t:|1750825513
+|cant|p2b: Zamazenta|slp
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: MewYou64|move: Tailwind
+|move|p1b: Calyrex|Astral Barrage|p2a: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Zamazenta|16/100 slp
+|faint|p2a: Whimsicott
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Dondozo|Fissure|p2b: Zamazenta|[miss]
+|-miss|p1a: Dondozo|p2b: Zamazenta
+|
+|-heal|p1a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750825526
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750825541
+|cant|p2b: Zamazenta|slp
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Dondozo|58/100
+|move|p1a: Dondozo|Wave Crash|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-damage|p1a: Dondozo|54/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750825563
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Calyrex|Astral Barrage|p1a: Dondozo|[spread] p1a,p1b
+|-damage|p1a: Dondozo|19/100
+|-damage|p1b: Zamazenta|61/100
+|move|p1a: Dondozo|Yawn|p2a: Calyrex
+|-start|p2a: Calyrex|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|MewYou64 forfeited.
+|
+|win|huanchen
+|raw|huanchen's rating: 1138 &rarr; <strong>1167</strong><br />(+29 for winning)
+|raw|MewYou64's rating: 1195 &rarr; <strong>1166</strong><br />(-29 for losing)
+|l|☆MewYou64
+|player|p2|
+|l|☆huanchen
+|player|p1|

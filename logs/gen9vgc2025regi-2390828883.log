@@ -1,0 +1,107 @@
+|j|☆soolers
+|j|☆004B
+|t:|1750773125
+|gametype|doubles
+|player|p1|soolers|266|1430
+|player|p2|004B|ghetsis|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Toxicroak, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Conkeldurr, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 004B)
+|
+|t:|1750773167
+|start
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|switch|p1b: Toxicroak|Toxicroak, L50, M|100/100
+|switch|p2a: Zekrom-|Miraidon, L50|100/100
+|switch|p2b: Deerling-|Farigiraf, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|-enditem|p2b: Deerling-|Electric Seed
+|-boost|p2b: Deerling-|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750773192
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Zekrom-|atk|1
+|-unboost|p2b: Deerling-|atk|1
+|move|p2a: Zekrom-|Volt Switch|p1b: Landorus
+|-immune|p1b: Landorus
+|move|p1a: Dialga|Steel Beam|p2b: Deerling-
+|-damage|p2b: Deerling-|12/100
+|-damage|p1a: Dialga|50/100|[from] steelbeam
+|move|p2b: Deerling-|Trick Room|p2b: Deerling-
+|-fieldstart|move: Trick Room|[of] p2b: Deerling-
+|
+|upkeep
+|turn|2
+|
+|t:|1750773211
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|switch|p2a: Y.M.C.A|Conkeldurr, L50, M|100/100
+|move|p1a: Dialga|Steel Beam|p2a: Y.M.C.A
+|-crit|p2a: Y.M.C.A
+|-damage|p2a: Y.M.C.A|0 fnt
+|-damage|p1a: Dialga|0 fnt|[from] steelbeam
+|faint|p1a: Dialga
+|faint|p2a: Y.M.C.A
+|move|p1b: Landorus|Earthquake|p2b: Calyrex
+|-damage|p2b: Calyrex|63/100
+|
+|upkeep
+|
+|t:|1750773228
+|switch|p2a: Deerling-|Farigiraf, L50, M|12/100
+|switch|p1a: Toxicroak|Toxicroak, L50, M|100/100
+|turn|3
+|inactive|soolers has 30 seconds left.
+|
+|t:|1750773254
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|-terastallize|p1a: Toxicroak|Dark
+|move|p2b: Calyrex|Glacial Lance|p1a: Toxicroak|[spread] p1a,p1b
+|-crit|p1b: Palkia
+|-damage|p1a: Toxicroak|19/100
+|-damage|p1b: Palkia|9/100
+|move|p2a: Deerling-|Foul Play|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|t:|1750773256
+|switch|p1a: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Deerling-|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|4
+|-message|soolers forfeited.
+|
+|win|004B
+|raw|soolers's rating: 1430 &rarr; <strong>1413</strong><br />(-17 for losing)
+|raw|004B's rating: 1491 &rarr; <strong>1508</strong><br />(+17 for winning)
+|l|☆soolers
+|player|p1|
+|l|☆004B
+|player|p2|

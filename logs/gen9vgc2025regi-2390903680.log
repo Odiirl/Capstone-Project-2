@@ -1,0 +1,235 @@
+|j|☆Blinding Fires
+|j|☆i_epix
+|t:|1750781319
+|gametype|doubles
+|player|p1|Blinding Fires|benga|1366
+|player|p2|i_epix|pokekid|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Iron Boulder, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by i_epix)
+|inactive|Blinding Fires has 60 seconds left.
+|inactive|i_epix has 60 seconds left.
+|
+|t:|1750781368
+|start
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Iron Boulder|Iron Boulder, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|1
+|inactive|i_epix has 30 seconds left.
+|
+|t:|1750781396
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-terastallize|p2b: Iron Boulder|Rock
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: i_epix|move: Tailwind
+|move|p2b: Iron Boulder|Mighty Cleave|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Iron Boulder
+|-damage|p2b: Iron Boulder|60/100
+|
+|upkeep
+|turn|2
+|inactive|Blinding Fires has 30 seconds left.
+|inactive|i_epix has 30 seconds left.
+|
+|t:|1750781426
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Iron Boulder|Mighty Cleave|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|69/100
+|move|p2a: Whimsicott|Moonblast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|81/100
+|move|p1a: Zamazenta|Body Press|p2b: Iron Boulder
+|-supereffective|p2b: Iron Boulder
+|-damage|p2b: Iron Boulder|0 fnt
+|faint|p2b: Iron Boulder
+|-end|p2b: Iron Boulder|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750781444
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|
+|t:|1750781454
+|move|p2a: Whimsicott|Moonblast|p1b: Groudon
+|-damage|p1b: Groudon|53/100
+|move|p2b: Miraidon|Volt Switch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100
+|
+|t:|1750781459
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100|[from] Volt Switch
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Groudon|Heat Crash|p2b: Ho-Oh
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ho-Oh|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750781468
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|inactive|Blinding Fires has 30 seconds left.
+|
+|t:|1750781495
+|-terastallize|p1b: Groudon|Fire
+|move|p2a: Miraidon|Draco Meteor|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Groudon
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ho-Oh|88/100|[from] item: Leftovers
+|-sideend|p2: i_epix|move: Tailwind
+|upkeep
+|
+|t:|1750781510
+|switch|p1a: Flutter Mane|Flutter Mane, L50|1/100
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750781525
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1a: Flutter Mane|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|31/100
+|move|p1b: Chi-Yu|Dark Pulse|p2a: Miraidon
+|-damage|p2a: Miraidon|1/100
+|move|p2a: Miraidon|Snarl|p1b: Chi-Yu|[spread] p1b
+|-miss|p2a: Miraidon|p1a: Flutter Mane
+|-resisted|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|95/100
+|-unboost|p1b: Chi-Yu|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ho-Oh|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|c|☆i_epix|wow
+|inactive|Blinding Fires has 30 seconds left.
+|inactive|i_epix has 30 seconds left.
+|
+|t:|1750781553
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|62/100
+|move|p1b: Chi-Yu|Dark Pulse|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Ho-Oh|Brave Bird|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Ho-Oh|61/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2b: Ho-Oh|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750781569
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-activate|p2b: Ho-Oh|move: Protect
+|
+|-heal|p2b: Ho-Oh|73/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|t:|1750781579
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|52/100
+|move|p2b: Ho-Oh|Brave Bird|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|10/100
+|-damage|p2b: Ho-Oh|30/100|[from] Recoil
+|
+|-heal|p2b: Ho-Oh|36/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750781590
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-activate|p2b: Ho-Oh|move: Protect
+|
+|-heal|p2b: Ho-Oh|42/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750781599
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|22/100
+|cant|p2b: Ho-Oh|flinch
+|
+|-heal|p2b: Ho-Oh|28/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750781607
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-activate|p2b: Ho-Oh|move: Protect
+|
+|-heal|p2b: Ho-Oh|33/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750781616
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|13/100
+|move|p2b: Ho-Oh|Brave Bird|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|-damage|p2b: Ho-Oh|10/100|[from] Recoil
+|
+|win|i_epix
+|raw|Blinding Fires's rating: 1366 &rarr; <strong>1345</strong><br />(-21 for losing)
+|raw|i_epix's rating: 1356 &rarr; <strong>1377</strong><br />(+21 for winning)
+|l|☆i_epix
+|player|p2|

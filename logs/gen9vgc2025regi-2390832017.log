@@ -1,0 +1,129 @@
+|j|☆kastroooo
+|j|☆SerperiorMaxNoodle
+|t:|1750773483
+|gametype|doubles
+|player|p1|kastroooo|2|1050
+|player|p2|SerperiorMaxNoodle|hugh|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Latios, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Cloyster, L50, M|
+|teampreview|4
+|
+|t:|1750773527
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Kyurem|Kyurem-White, L50|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|-enditem|p1b: Raging Bolt|Booster Energy
+|-activate|p1b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1b: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1750773547
+|-terastallize|p1b: Raging Bolt|Grass
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Kyurem|Blizzard|p1a: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-supereffective|p1b: Raging Bolt
+|-damage|p1a: Amoonguss|8/100
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Meowscarada|Triple Axel|p1a: Amoonguss
+|-start|p2b: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2b: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|-hitcount|p1: Amoonguss|1
+|
+|upkeep
+|
+|t:|1750773562
+|switch|p1b: Latios|Latios, L50, M|100/100
+|switch|p1a: Kingambit|Kingambit, L50, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|2
+|
+|t:|1750773576
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Latios|Draco Meteor|p2a: Dondozo|[miss]
+|-miss|p1b: Latios|p2a: Dondozo
+|move|p2b: Meowscarada|Triple Axel|p1b: Latios
+|-supereffective|p1b: Latios
+|-damage|p1b: Latios|54/100
+|-supereffective|p1b: Latios
+|-damage|p1b: Latios|0 fnt
+|faint|p1b: Latios
+|-hitcount|p1: Latios|2
+|
+|upkeep
+|turn|3
+|
+|t:|1750773596
+|switch|p2b: Gengar|Gengar, L50, M, shiny|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Dondozo|Earthquake|p1a: Kingambit|[spread] p2b,p1a
+|-supereffective|p2b: Gengar
+|-supereffective|p1a: Kingambit
+|-damage|p2b: Gengar|31/100
+|-damage|p1a: Kingambit|75/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750773616
+|move|p1a: Kingambit|Sucker Punch|p2a: Dondozo
+|-damage|p2a: Dondozo|70/100
+|move|p2b: Gengar|Trick|p1a: Kingambit
+|-activate|p2b: Gengar|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Specs|[from] move: Trick
+|-item|p2b: Gengar|Black Glasses|[from] move: Trick
+|move|p2a: Dondozo|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|6/100
+|
+|-heal|p2a: Dondozo|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l|☆kastroooo
+|player|p1|
+|c|☆SerperiorMaxNoodle|Gg
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SerperiorMaxNoodle)
+|j|☆kastroooo
+|inactive|kastroooo reconnected and has 70 seconds left.
+|player|p1|kastroooo|2|
+|
+|t:|1750773667
+|move|p2b: Gengar|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|win|SerperiorMaxNoodle
+|raw|kastroooo's rating: 1050 &rarr; <strong>1030</strong><br />(-20 for losing)
+|raw|SerperiorMaxNoodle's rating: 1000 &rarr; <strong>1046</strong><br />(+46 for winning)

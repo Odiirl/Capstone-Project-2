@@ -1,0 +1,182 @@
+|j|☆VVVincenTTT
+|j|☆Tophat hare
+|t:|1750777321
+|gametype|doubles
+|player|p1|VVVincenTTT|cyrus|1471
+|player|p2|Tophat hare|lass-gen4dp|1447
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|j| sfeh
+|
+|t:|1750777357
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750777377
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1b: Miraidon|Volt Switch|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Protect
+|move|p2a: Gothitelle|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|move|p1a: Lunala|Moongeist Beam|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|upkeep
+|
+|t:|1750777395
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|turn|2
+|
+|t:|1750777424
+|-terastallize|p1a: Lunala|Fairy
+|-terastallize|p2b: Sylveon|Fairy
+|move|p1b: Miraidon|Volt Switch|p2a: Urshifu
+|-enditem|p2a: Urshifu|Focus Sash
+|-damage|p2a: Urshifu|1/100
+|
+|t:|1750777432
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|move|p2a: Urshifu|Wicked Blow|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|68/100
+|move|p1a: Lunala|Moonblast|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|move|p2b: Sylveon|Hyper Voice|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|79/100
+|-damage|p1b: Incineroar|29/100
+|
+|upkeep
+|
+|t:|1750777446
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750777460
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|88/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Sylveon|Hyper Beam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1750777487
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750777511
+|move|p2a: Miraidon|Draco Meteor|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Miraidon
+|cant|p2b: Sylveon|recharge
+|move|p1b: Incineroar|U-turn|p2b: Sylveon
+|-resisted|p2b: Sylveon
+|-damage|p2b: Sylveon|86/100
+|
+|t:|1750777520
+|switch|p1b: Lunala|Lunala, L50, tera:Fairy|79/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1750777525
+|switch|p1a: Incineroar|Incineroar, L50, F|29/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|turn|5
+|
+|t:|1750777554
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Incineroar|[miss]
+|-miss|p2a: Miraidon|p1a: Incineroar
+|move|p1b: Lunala|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750777575
+|move|p1b: Lunala|Moonblast|p2b: Sylveon
+|-damage|p2b: Sylveon|40/100
+|move|p2b: Sylveon|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Lunala|34/100
+|faint|p1a: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1750777588
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1b: Lunala|Moonblast|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750777598
+|move|p1b: Lunala|Moonblast|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|win|VVVincenTTT
+|raw|VVVincenTTT's rating: 1471 &rarr; <strong>1490</strong><br />(+19 for winning)
+|raw|Tophat hare's rating: 1447 &rarr; <strong>1428</strong><br />(-19 for losing)
+|c|☆Tophat hare|Ggqp
+|c|☆Tophat hare|Ggwp*
+|l|☆Tophat hare
+|player|p2|
+|l|☆VVVincenTTT
+|player|p1|
+|l| sfeh
+|j|☆Tophat hare
+|player|p2|Tophat hare|lass-gen4dp|

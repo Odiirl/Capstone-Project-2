@@ -1,0 +1,189 @@
+|j|☆MalteseShark
+|j|☆Troller313
+|t:|1750857695
+|gametype|doubles
+|player|p1|MalteseShark|acetrainer-gen4dp|1337
+|player|p2|Troller313|lucas-gen4pt|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Suicune, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750857741
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Rhydon|Rhydon, L50, M|100/100
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MalteseShark)
+|inactive|Troller313 has 60 seconds left.
+|
+|t:|1750857775
+|-terastallize|p1b: Amoonguss|Water
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2b: Rhydon|Protect|p2b: Rhydon
+|-singleturn|p2b: Rhydon|Protect
+|move|p2a: Ho-Oh|Substitute|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|Substitute
+|-damage|p2a: Ho-Oh|75/100
+|move|p1b: Amoonguss|Spore||[still]
+|-fail|p1b: Amoonguss
+|
+|-heal|p2a: Ho-Oh|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|MalteseShark has 30 seconds left.
+|inactive|Troller313 has 30 seconds left.
+|inactive|Troller313 has 20 seconds left.
+|
+|t:|1750857810
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Flutter Mane|Moonblast|p2b: Rhydon
+|-damage|p2b: Rhydon|65/100
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|81/100
+|move|p2b: Rhydon|Earthquake|p1a: Flutter Mane|[spread] p1a,p1b
+|-immune|p2a: Ho-Oh
+|-damage|p1a: Flutter Mane|32/100
+|-damage|p1b: Amoonguss|57/100
+|
+|-heal|p2a: Ho-Oh|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Troller313 has 30 seconds left.
+|inactive|Troller313 has 20 seconds left.
+|
+|t:|1750857850
+|switch|p2b: Suicune|Suicune, L50|100/100
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Ho-Oh|Brave Bird|p1a: Flutter Mane
+|-activate|p1a: Flutter Mane|move: Protect
+|move|p1b: Amoonguss|Spore|p2b: Suicune
+|-status|p2b: Suicune|slp|[from] move: Spore
+|
+|-heal|p2a: Ho-Oh|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|MalteseShark has 30 seconds left.
+|inactive|MalteseShark has 20 seconds left.
+|
+|t:|1750857886
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|cant|p2b: Suicune|slp
+|move|p2a: Ho-Oh|Brave Bird|p1b: Amoonguss
+|-damage|p1b: Amoonguss|15/100
+|-damage|p2a: Ho-Oh|78/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2a: Ho-Oh|63/100|[from] Recoil
+|move|p1b: Amoonguss|Spore|p2b: Suicune
+|-fail|p2b: Suicune|slp
+|
+|-heal|p2a: Ho-Oh|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750857911
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Ogerpon|Leech Seed|p2b: Eternatus|[miss]
+|-miss|p1a: Ogerpon|p2b: Eternatus
+|move|p2a: Ho-Oh|Brave Bird|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|11/100
+|-damage|p2a: Ho-Oh|43/100|[from] Recoil
+|
+|-heal|p2a: Ho-Oh|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|MalteseShark has 30 seconds left.
+|inactive|Troller313 has 30 seconds left.
+|inactive|Troller313 has 20 seconds left.
+|inactive|Troller313 has 15 seconds left.
+|inactive|Troller313 has 10 seconds left.
+|
+|t:|1750857961
+|switch|p2b: Suicune|Suicune, L50|100/100 slp
+|move|p1a: Ogerpon|Leech Seed|p2b: Suicune
+|-start|p2b: Suicune|move: Leech Seed
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|50/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Ho-Oh|[spread] p2a,p2b
+|-end|p2a: Ho-Oh|Substitute
+|-resisted|p2b: Suicune
+|-damage|p2b: Suicune|80/100 slp
+|
+|-heal|p2a: Ho-Oh|56/100|[from] item: Leftovers
+|-damage|p2b: Suicune|67/100 slp|[from] Leech Seed|[of] p1a: Ogerpon
+|-heal|p1a: Ogerpon|23/100|[silent]
+|upkeep
+|turn|7
+|inactive|Troller313 has 30 seconds left.
+|inactive|Troller313 has 20 seconds left.
+|
+|t:|1750857999
+|switch|p2b: Rhydon|Rhydon, L50, M|65/100
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ho-Oh|[anim] Ivy Cudgel Water
+|-activate|p2a: Ho-Oh|move: Protect
+|
+|-heal|p2a: Ho-Oh|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Troller313 has 30 seconds left.
+|
+|t:|1750858025
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Rhydon|[anim] Ivy Cudgel Water
+|-supereffective|p2b: Rhydon
+|-damage|p2b: Rhydon|0 fnt
+|faint|p2b: Rhydon
+|move|p1b: Calyrex|Glacial Lance|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|-message|Troller313 forfeited.
+|
+|win|MalteseShark
+|raw|MalteseShark's rating: 1337 &rarr; <strong>1363</strong><br />(+26 for winning)
+|raw|Troller313's rating: 1436 &rarr; <strong>1410</strong><br />(-26 for losing)
+|l|☆Troller313
+|player|p2|
+|l|☆MalteseShark
+|player|p1|

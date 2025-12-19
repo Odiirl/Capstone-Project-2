@@ -1,0 +1,125 @@
+|j|☆Rhizzen
+|j|☆founded
+|t:|1750849602
+|gametype|doubles
+|player|p1|Rhizzen|265|1314
+|player|p2|founded|firebreather|1298
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Spectrier, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Talonflame, L50, M|
+|teampreview|4
+|
+|t:|1750849820
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Spectrier|Spectrier, L50|100/100
+|switch|p2b: Solgaleo|Solgaleo, L50|100/100
+|turn|1
+|
+|t:|1750849843
+|-terastallize|p1a: Lunala|Fairy
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Spectrier|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|84/100
+|-unboost|p1a: Lunala|spd|1
+|move|p2b: Solgaleo|Sunsteel Strike|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|14/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750849872
+|move|p2b: Solgaleo|Protect|p2b: Solgaleo
+|-singleturn|p2b: Solgaleo|Protect
+|move|p1b: Ursaluna|Earthquake|p2b: Solgaleo|[spread] p1a,p2a
+|-activate|p2b: Solgaleo|move: Protect
+|-crit|p1a: Lunala
+|-crit|p2a: Spectrier
+|-damage|p1a: Lunala|0 fnt
+|-enditem|p2a: Spectrier|Focus Sash
+|-damage|p2a: Spectrier|1/100
+|faint|p1a: Lunala
+|move|p2a: Spectrier|Shadow Ball|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750849895
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|3
+|
+|t:|1750849907
+|move|p1b: Ursaluna|Earthquake|p2a: Spectrier|[spread] p1a,p2a,p2b
+|-supereffective|p2b: Solgaleo
+|-damage|p1a: Urshifu|39/100
+|-damage|p2a: Spectrier|0 fnt
+|-damage|p2b: Solgaleo|2/100
+|-enditem|p2b: Solgaleo|Weakness Policy
+|-boost|p2b: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Solgaleo|spa|2|[from] item: Weakness Policy
+|faint|p2a: Spectrier
+|move|p1a: Urshifu|Surging Strikes|p2b: Solgaleo
+|-crit|p2b: Solgaleo
+|-damage|p2b: Solgaleo|0 fnt
+|faint|p2b: Solgaleo
+|-hitcount|p2: Solgaleo|1
+|
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750849912
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1750849948
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1b: Ursaluna|Facade|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1a: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|59/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|23/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-hitcount|p2: Calyrex|3
+|
+|win|Rhizzen
+|raw|Rhizzen's rating: 1314 &rarr; <strong>1333</strong><br />(+19 for winning)
+|raw|founded's rating: 1298 &rarr; <strong>1274</strong><br />(-24 for losing)
+|l|☆founded
+|player|p2|
+|l|☆Rhizzen
+|player|p1|

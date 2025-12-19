@@ -1,0 +1,214 @@
+|j|☆anlingyuze
+|j|☆Slowpoke Well YT
+|t:|1750864030
+|gametype|doubles
+|player|p1|anlingyuze|169|1409
+|player|p2|Slowpoke Well YT|ethan|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Gouging Fire, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Weezing, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Slowpoke Well YT)
+|
+|t:|1750864059
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Gouging Fire|Gouging Fire, L50|100/100
+|switch|p2a: Weezing|Weezing, L50, F, shiny|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-block|p2b: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750864077
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Miraidon|Volt Switch|p2b: Koraidon
+|-damage|p2b: Koraidon|61/100
+|
+|t:|1750864083
+|switch|p1a: Groudon|Groudon, L50|100/100|[from] Volt Switch
+|move|p2b: Koraidon|Collision Course|p1a: Groudon
+|-damage|p1a: Groudon|52/100
+|move|p1b: Gouging Fire|Breaking Swipe|p2b: Koraidon|[spread] p2a,p2b
+|-damage|p2a: Weezing|84/100
+|-damage|p2b: Koraidon|42/100
+|-unboost|p2b: Koraidon|atk|1
+|move|p2a: Weezing|Poison Gas|p1a: Groudon|[spread] p1a,p1b
+|-status|p1a: Groudon|psn
+|-status|p1b: Gouging Fire|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Gouging Fire|88/100 psn|[from] psn
+|-damage|p1a: Groudon|40/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1750864108
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-terastallize|p1b: Gouging Fire|Fire
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1b: Gouging Fire|Flare Blitz|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|move|p1a: Groudon|High Horsepower|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Gouging Fire|75/100 psn|[from] psn
+|-damage|p1a: Groudon|27/100 psn|[from] psn
+|upkeep
+|turn|3
+|inactive|anlingyuze has 30 seconds left.
+|
+|t:|1750864134
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-activate|p1b: Gouging Fire|ability: Protosynthesis
+|-start|p1b: Gouging Fire|protosynthesisspe
+|switch|p2a: Koraidon|Koraidon, L50, tera:Fire|42/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|move|p1b: Gouging Fire|Flare Blitz|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-damage|p1b: Gouging Fire|63/100 psn|[from] Recoil
+|move|p2b: Chi-Yu|Heat Wave|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1b: Gouging Fire
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Gouging Fire|25/100 psn
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Gouging Fire|13/100 psn|[from] psn
+|upkeep
+|
+|t:|1750864152
+|switch|p2a: Weezing|Weezing, L50, F, shiny|84/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|4
+|
+|t:|1750864165
+|move|p1a: Miraidon|Electro Drift|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|38/100
+|move|p2b: Chi-Yu|Heat Wave|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-resisted|p1b: Gouging Fire
+|-damage|p1a: Miraidon|72/100
+|-damage|p1b: Gouging Fire|0 fnt
+|faint|p1b: Gouging Fire
+|-end|p1b: Gouging Fire|Protosynthesis|[silent]
+|move|p2a: Weezing|Sludge Bomb|p1a: Miraidon
+|-damage|p1a: Miraidon|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750864176
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|5
+|
+|t:|1750864182
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|move|p1b: Farigiraf|Psychic|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-weather|none
+|upkeep
+|
+|t:|1750864191
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750864206
+|move|p1a: Miraidon|Electro Drift|p2a: Weezing
+|-damage|p2a: Weezing|33/100
+|move|p2b: Calyrex|Psychic|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Weezing|Poison Gas|p1b: Farigiraf
+|-status|p1b: Farigiraf|psn
+|move|p1b: Farigiraf|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p1b: Farigiraf|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750864222
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-damage|p1b: Farigiraf|76/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750864228
+|move|p1b: Farigiraf|Foul Play|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|32/100
+|move|p2b: Calyrex|Psychic|p1b: Farigiraf
+|-resisted|p1b: Farigiraf
+|-damage|p1b: Farigiraf|41/100 psn
+|
+|-damage|p1b: Farigiraf|29/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750864235
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Farigiraf|Foul Play|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-damage|p1b: Farigiraf|17/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1750864241
+|move|p2b: Calyrex|Protect||[still]
+|-fail|p2b: Calyrex
+|move|p1b: Farigiraf|Foul Play|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|anlingyuze
+|raw|anlingyuze's rating: 1409 &rarr; <strong>1433</strong><br />(+24 for winning)
+|raw|Slowpoke Well YT's rating: 1474 &rarr; <strong>1450</strong><br />(-24 for losing)
+|l|☆anlingyuze
+|player|p1|
+|l|☆Slowpoke Well YT
+|player|p2|

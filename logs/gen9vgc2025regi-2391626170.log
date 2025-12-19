@@ -1,0 +1,310 @@
+|j|☆SolVGC14
+|j|☆mutthunter1
+|t:|1750877242
+|gametype|doubles
+|player|p1|SolVGC14|hilbert|1535
+|player|p2|mutthunter1|ash-kalos|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mutthunter1)
+|inactive|SolVGC14 has 60 seconds left.
+|inactive|mutthunter1 has 60 seconds left.
+|
+|t:|1750877294
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-end|p1b: Iron Bundle|Quark Drive
+|turn|1
+|
+|t:|1750877311
+|move|p1b: Iron Bundle|Protect|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|83/100
+|
+|t:|1750877318
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|move|p2b: Rillaboom|U-turn|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|95/100
+|
+|t:|1750877325
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Iron Bundle|atk|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p1a: Zacian|100/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|90/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750877339
+|move|p2b: Incineroar|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|96/100
+|cant|p1a: Zacian|flinch
+|move|p1b: Iron Bundle|Encore|p2a: Terapagos
+|-start|p2a: Terapagos|Encore
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p1a: Zacian|100/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750877354
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p1b: Iron Bundle|Encore|p2b: Incineroar
+|-start|p2b: Incineroar|Encore
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p2b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1750877377
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1a: Zacian|Play Rough|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1b: Iron Bundle|Icy Wind|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|96/100
+|-unboost|p2a: Terapagos|spe|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|100/100|[from] Grassy Terrain
+|-end|p2a: Terapagos|Encore
+|upkeep
+|
+|t:|1750877387
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Iron Bundle|atk|1
+|turn|5
+|
+|t:|1750877405
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p1b: Iron Bundle|Protect|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Iron Bundle
+|-activate|p1b: Iron Bundle|move: Protect
+|move|p2a: Terapagos|Tera Starstorm|p1b: Iron Bundle|[spread] 
+|-activate|p1a: Zacian|move: Protect
+|-activate|p1b: Iron Bundle|move: Protect
+|
+|upkeep
+|turn|6
+|inactive|SolVGC14 has 30 seconds left.
+|inactive|SolVGC14 has 20 seconds left.
+|inactive|SolVGC14 has 15 seconds left.
+|
+|t:|1750877449
+|-terastallize|p1a: Zacian|Fairy
+|move|p1a: Zacian|Play Rough|p2a: Terapagos
+|-damage|p2a: Terapagos|51/100
+|move|p1b: Iron Bundle|Encore|p2b: Incineroar
+|-start|p2b: Incineroar|Encore
+|move|p2b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Incineroar
+|move|p2a: Terapagos|Tera Starstorm|p1b: Iron Bundle|[spread] p1a,p1b
+|-supereffective|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|-enditem|p1b: Iron Bundle|Focus Sash
+|-damage|p1b: Iron Bundle|1/100
+|faint|p1a: Zacian
+|
+|-heal|p2a: Terapagos|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750877465
+|switch|p1a: Araquanid|Araquanid, L50, F|100/100
+|turn|7
+|
+|t:|1750877470
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p1b: Iron Bundle|Icy Wind|p2a: Terapagos|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Terapagos|52/100
+|-damage|p2b: Koraidon|59/100
+|-unboost|p2a: Terapagos|spe|1
+|-unboost|p2b: Koraidon|spe|1
+|move|p2a: Terapagos|Tera Starstorm|p1b: Iron Bundle|[spread] 
+|-activate|p1a: Araquanid|move: Wide Guard
+|-activate|p1b: Iron Bundle|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750877491
+|move|p1a: Araquanid|Protect|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Protect
+|move|p1b: Iron Bundle|Icy Wind|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Terapagos|54/100
+|-damage|p2b: Koraidon|14/100
+|-unboost|p2a: Terapagos|spe|1
+|-unboost|p2b: Koraidon|spe|1
+|move|p2b: Koraidon|Flame Charge|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|-damage|p2b: Koraidon|4/100|[from] item: Life Orb
+|move|p2a: Terapagos|Earth Power|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750877505
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|9
+|inactive|SolVGC14 has 30 seconds left.
+|inactive|SolVGC14 has 20 seconds left.
+|inactive|SolVGC14 has 15 seconds left.
+|
+|t:|1750877546
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p1b: Miraidon|Snarl|p2a: Terapagos|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750877554
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Araquanid|unboost|[from] item: Clear Amulet|[of] p1a: Araquanid
+|-unboost|p1b: Miraidon|atk|1
+|turn|10
+|
+|t:|1750877564
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|91/100
+|cant|p1b: Miraidon|flinch
+|move|p1a: Araquanid|Liquidation|p2a: Terapagos
+|-damage|p2a: Terapagos|52/100
+|move|p2a: Terapagos|Earth Power|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750877581
+|move|p1a: Araquanid|Protect|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Protect
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p2b: Incineroar|Taunt|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Protect
+|
+|-weather|none
+|-heal|p2a: Terapagos|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750877588
+|move|p2b: Incineroar|Taunt|p1a: Araquanid
+|-start|p1a: Araquanid|move: Taunt
+|move|p2a: Terapagos|Earth Power|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|59/100
+|move|p1a: Araquanid|Liquidation|p2a: Terapagos
+|-damage|p2a: Terapagos|34/100
+|
+|-heal|p2a: Terapagos|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750877600
+|move|p2b: Incineroar|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|19/100
+|-enditem|p1a: Araquanid|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Araquanid|Liquidation|p2a: Terapagos
+|-damage|p2a: Terapagos|9/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|win|mutthunter1
+|raw|SolVGC14's rating: 1535 &rarr; <strong>1513</strong><br />(-22 for losing)
+|raw|mutthunter1's rating: 1500 &rarr; <strong>1522</strong><br />(+22 for winning)
+|l|☆SolVGC14
+|player|p1|

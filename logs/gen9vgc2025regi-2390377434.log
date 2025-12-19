@@ -1,0 +1,185 @@
+|j|☆Pedro9600Cunha
+|j|☆tomastoes
+|t:|1750706631
+|gametype|doubles
+|player|p1|Pedro9600Cunha|riley|1160
+|player|p2|tomastoes|265|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flaaffy, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|
+|t:|1750706671
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Flaaffy|Flaaffy, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Flaaffy|atk|1
+|turn|1
+|
+|t:|1750706690
+|-terastallize|p2a: Calyrex|Water
+|move|p2b: Incineroar|Fake Out|p1b: Flaaffy
+|-damage|p1b: Flaaffy|91/100
+|-status|p2b: Incineroar|par|[from] ability: Static|[of] p1b: Flaaffy
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|cant|p1b: Flaaffy|flinch
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750706700
+|switch|p2b: Gothitelle|Gothitelle, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1750706726
+|move|p2b: Gothitelle|Fake Out|p1b: Flaaffy
+|-damage|p1b: Flaaffy|86/100
+|move|p2a: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|cant|p1b: Flaaffy|flinch
+|move|p1a: Lunala|Moongeist Beam|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|
+|-damage|p1a: Lunala|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|
+|t:|1750706738
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|turn|3
+|
+|t:|1750706779
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|54/100
+|-damage|p1b: Flaaffy|40/100
+|move|p1b: Flaaffy|Reflect|p1b: Flaaffy
+|-sidestart|p1: Pedro9600Cunha|Reflect
+|move|p1a: Lunala|Moongeist Beam|p2b: Eternatus
+|-damage|p2b: Eternatus|68/100
+|move|p2b: Eternatus|Dynamax Cannon|p1b: Flaaffy
+|-damage|p1b: Flaaffy|0 fnt
+|faint|p1b: Flaaffy
+|
+|-damage|p1a: Lunala|41/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|
+|t:|1750706798
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|turn|4
+|
+|t:|1750706812
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Brute Bonnet|move: Wide Guard
+|move|p1b: Brute Bonnet|Spore|p2b: Eternatus
+|-status|p2b: Eternatus|slp|[from] move: Spore
+|cant|p2b: Eternatus|slp
+|
+|-damage|p1a: Lunala|29/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|5
+|
+|t:|1750706835
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Leech Seed|p1b: Brute Bonnet
+|-immune|p1b: Brute Bonnet
+|move|p1b: Brute Bonnet|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|cant|p2b: Eternatus|slp
+|
+|-damage|p1a: Lunala|17/100|[from] Leech Seed|[of] p2a: Calyrex
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750706848
+|cant|p2a: Calyrex|slp
+|-curestatus|p2b: Eternatus|slp|[msg]
+|move|p2b: Eternatus|Dynamax Cannon|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Brute Bonnet|Seed Bomb|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|68/100 slp
+|
+|-heal|p2a: Calyrex|73/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750706861
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|7
+|
+|t:|1750706893
+|-terastallize|p1b: Brute Bonnet|Water
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Urshifu|Surging Strikes|p2b: Eternatus
+|-resisted|p2b: Eternatus
+|-crit|p2b: Eternatus
+|-damage|p2b: Eternatus|59/100
+|-resisted|p2b: Eternatus
+|-crit|p2b: Eternatus
+|-damage|p2b: Eternatus|52/100
+|-resisted|p2b: Eternatus
+|-crit|p2b: Eternatus
+|-damage|p2b: Eternatus|43/100
+|-hitcount|p2b: Eternatus|3
+|move|p2b: Eternatus|Sludge Bomb|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|71/100
+|move|p1b: Brute Bonnet|Spore|p2b: Eternatus
+|-status|p2b: Eternatus|slp|[from] move: Spore
+|
+|-heal|p2a: Calyrex|79/100|[from] item: Leftovers
+|-sideend|p1: Pedro9600Cunha|Reflect
+|upkeep
+|turn|8
+|-message|tomastoes forfeited.
+|
+|win|Pedro9600Cunha
+|raw|Pedro9600Cunha's rating: 1160 &rarr; <strong>1186</strong><br />(+26 for winning)
+|raw|tomastoes's rating: 1170 &rarr; <strong>1144</strong><br />(-26 for losing)
+|l|☆tomastoes
+|player|p2|
+|l|☆Pedro9600Cunha
+|player|p1|
+|j|☆Pedro9600Cunha
+|player|p1|Pedro9600Cunha|riley|
+|l|☆Pedro9600Cunha
+|player|p1|

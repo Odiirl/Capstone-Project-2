@@ -1,0 +1,181 @@
+|j|☆Rathanegren
+|j|☆3gris
+|t:|1750875870
+|gametype|doubles
+|player|p1|Rathanegren|clerkf|1141
+|player|p2|3gris|depotagent|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Rotom-Heat, L50|
+|poke|p2|Seedot, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750875901
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdriveatk
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750875929
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|-terastallize|p2b: Incineroar|Bug
+|move|p1b: Grimmsnarl|Fake Out||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Grimmsnarl
+|move|p1a: Iron Valiant|Spirit Break|p2a: Farigiraf
+|-damage|p2a: Farigiraf|70/100
+|-unboost|p2a: Farigiraf|spa|1
+|-damage|p1a: Iron Valiant|91/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|67/100
+|-enditem|p1a: Iron Valiant|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750875972
+|move|p1a: Iron Valiant|Wide Guard|p1a: Iron Valiant
+|-singleturn|p1a: Iron Valiant|Wide Guard
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Rathanegren|move: Light Screen
+|move|p2b: Incineroar|Knock Off|p1b: Grimmsnarl
+|-resisted|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|85/100
+|-enditem|p1b: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Farigiraf|Psychic|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|11/100
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750875994
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Rathanegren|Reflect
+|move|p2b: Incineroar|Parting Shot|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p2a: Farigiraf|Psychic|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750876014
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|switch|p2a: Seedot|Seedot, L50, F|100/100
+|-terastallize|p1a: Gholdengo|Steel
+|move|p1a: Gholdengo|Make It Rain|p2b: Incineroar|[spread] p2a,p2b
+|-enditem|p2a: Seedot|Focus Sash
+|-damage|p2a: Seedot|1/100
+|-damage|p2b: Incineroar|12/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2b: Incineroar|Flare Blitz|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Incineroar|0 fnt|[from] Recoil
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750876029
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|85/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|70/100
+|turn|5
+|
+|t:|1750876042
+|move|p1a: Grimmsnarl|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Grimmsnarl
+|move|p1b: Miraidon|Electro Drift|p2b: Farigiraf
+|-damage|p2b: Farigiraf|4/100
+|move|p2a: Seedot|Endeavor|p1b: Miraidon
+|-damage|p1b: Miraidon|1/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750876082
+|move|p2a: Seedot|Quick Attack|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2b: Farigiraf|Psychic|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Seedot
+|-damage|p2a: Seedot|0 fnt
+|faint|p2a: Seedot
+|
+|upkeep
+|
+|t:|1750876088
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|11/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdriveatk
+|turn|7
+|
+|t:|1750876106
+|move|p2b: Farigiraf|Psychic|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p2a: Miraidon|Electro Drift|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100
+|
+|-sideend|p1: Rathanegren|Reflect
+|upkeep
+|turn|8
+|
+|t:|1750876114
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|-unboost|p2a: Miraidon|spa|1
+|move|p2a: Miraidon|Electro Drift|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|win|3gris
+|raw|Rathanegren's rating: 1141 &rarr; <strong>1119</strong><br />(-22 for losing)
+|raw|3gris's rating: 1181 &rarr; <strong>1203</strong><br />(+22 for winning)
+|l|☆3gris
+|player|p2|

@@ -1,0 +1,157 @@
+|j|☆Alox01
+|j|☆codeman112101
+|t:|1750818882
+|gametype|doubles
+|player|p1|Alox01|101|1171
+|player|p2|codeman112101|170|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|j| Mojojo1000
+|
+|t:|1750818926
+|start
+|switch|p1a: Heatran|Heatran, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750818970
+|move|p2b: Chi-Yu|Dark Pulse|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|69/100
+|move|p1b: Koraidon|Scale Shot|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|64/100
+|-damage|p2b: Chi-Yu|20/100
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|-hitcount|p2: Chi-Yu|3
+|-unboost|p1b: Koraidon|def|1
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|59/100|[from] item: Life Orb
+|move|p2a: Ho-Oh|Tailwind|p2a: Ho-Oh
+|-sidestart|p2: codeman112101|move: Tailwind
+|move|p1a: Heatran|Heat Wave|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750819011
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|2
+|
+|t:|1750819038
+|switch|p2a: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Ninetales|Moonblast|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|42/100
+|move|p1b: Koraidon|Flare Blitz|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|-damage|p1b: Koraidon|14/100|[from] Recoil
+|-damage|p1b: Koraidon|4/100|[from] item: Life Orb
+|move|p1a: Heatran|Heat Wave|p2a: Kyurem
+|-damage|p2a: Kyurem|60/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750819047
+|switch|p2b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|turn|3
+|
+|t:|1750819059
+|-terastallize|p2a: Kyurem|Fire
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Ho-Oh|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-damage|p2b: Ho-Oh|93/100|[from] Recoil
+|move|p2a: Kyurem|Blizzard|p1b: Koraidon|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|67/100
+|-damage|p2a: Kyurem|50/100|[from] item: Life Orb
+|move|p1a: Heatran|Flash Cannon|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|31/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750819083
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2b: Ho-Oh|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|39/100
+|-damage|p2b: Ho-Oh|84/100|[from] Recoil
+|move|p2a: Kyurem|Blizzard|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|30/100
+|-damage|p1b: Indeedee|61/100
+|-status|p1b: Indeedee|frz
+|-damage|p2a: Kyurem|21/100|[from] item: Life Orb
+|move|p1a: Heatran|Earth Power|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: codeman112101|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750819113
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Ho-Oh|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|3/100
+|-damage|p2b: Ho-Oh|75/100|[from] Recoil
+|move|p1a: Heatran|Dark Pulse|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|57/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|-message|codeman112101 forfeited.
+|
+|win|Alox01
+|raw|Alox01's rating: 1171 &rarr; <strong>1194</strong><br />(+23 for winning)
+|raw|codeman112101's rating: 1142 &rarr; <strong>1119</strong><br />(-23 for losing)
+|l|☆codeman112101
+|player|p2|

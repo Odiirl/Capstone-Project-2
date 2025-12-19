@@ -1,0 +1,156 @@
+|j|☆uzui.exe
+|j|☆nonpippi
+|t:|1750832071
+|gametype|doubles
+|player|p1|uzui.exe|101|1209
+|player|p2|nonpippi|169|1202
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Regigigas, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uzui.exe)
+|inactive|nonpippi has 60 seconds left.
+|
+|t:|1750832107
+|start
+|switch|p1a: Thundurus|Thundurus, L50, M, shiny|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750832125
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1a: Thundurus
+|-damage|p1a: Thundurus|88/100
+|cant|p1a: Thundurus|flinch
+|move|p2b: Miraidon|Volt Switch|p1a: Thundurus
+|-damage|p1a: Thundurus|31/100
+|-enditem|p1a: Thundurus|Sitrus Berry|[eat]
+|-heal|p1a: Thundurus|55/100|[from] item: Sitrus Berry
+|
+|t:|1750832137
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|
+|upkeep
+|turn|2
+|
+|t:|1750832154
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: nonpippi|Reflect
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Grimmsnarl|[spread] 
+|-miss|p1a: Thundurus|p2a: Grimmsnarl
+|-miss|p1a: Thundurus|p2b: Iron Hands
+|move|p2b: Iron Hands|Low Kick|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|53/100
+|
+|upkeep
+|turn|3
+|inactive|nonpippi has 30 seconds left.
+|
+|t:|1750832182
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|move|p1b: Zamazenta|Body Press|p2b: Iron Hands
+|-damage|p2b: Iron Hands|56/100
+|move|p1a: Thundurus|Wildbolt Storm|p2b: Iron Hands|[spread] 
+|-immune|p2a: Landorus
+|-miss|p1a: Thundurus|p2b: Iron Hands
+|move|p2b: Iron Hands|Wild Charge|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-damage|p2b: Iron Hands|45/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750832199
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750832214
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Landorus|[spread] p2b
+|-activate|p2a: Landorus|move: Protect
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|66/100
+|move|p1b: Zamazenta|Body Press|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750832236
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: nonpippi|move: Light Screen
+|move|p1b: Zamazenta|Heavy Slam|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Landorus|Earth Power|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750832250
+|switch|p1b: Regigigas|Regigigas, L50, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-start|p1b: Regigigas|ability: Slow Start
+|turn|6
+|
+|t:|1750832269
+|-terastallize|p2b: Miraidon|Electric
+|move|p2b: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2a: Landorus|Sandsear Storm|p1b: Regigigas
+|-damage|p1b: Regigigas|42/100
+|move|p1b: Regigigas|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|92/100
+|
+|upkeep
+|turn|7
+|-message|uzui.exe forfeited.
+|
+|win|nonpippi
+|raw|uzui.exe's rating: 1209 &rarr; <strong>1183</strong><br />(-26 for losing)
+|raw|nonpippi's rating: 1202 &rarr; <strong>1228</strong><br />(+26 for winning)
+|l|☆uzui.exe
+|player|p1|
+|l|☆nonpippi
+|player|p2|

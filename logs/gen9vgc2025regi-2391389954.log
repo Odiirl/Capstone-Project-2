@@ -1,0 +1,295 @@
+|j|☆Jammyphantom
+|j|☆Jaso2008
+|t:|1750848682
+|gametype|doubles
+|player|p1|Jammyphantom|169|1095
+|player|p2|Jaso2008|clair|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Scrafty, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jaso2008)
+|
+|t:|1750848710
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1750848734
+|switch|p2a: Scrafty|Scrafty, L50, F|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Brute Bonnet|atk|1
+|move|p1a: Incineroar|Fake Out|p2a: Scrafty
+|-damage|p2a: Scrafty|93/100
+|move|p2b: Whimsicott|Taunt|p1b: Brute Bonnet
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Brute Bonnet
+|move|p1b: Brute Bonnet|Spore|p2a: Scrafty
+|-status|p2a: Scrafty|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scrafty|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Jaso2008 has 30 seconds left.
+|
+|t:|1750848763
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|cant|p2a: Scrafty|slp
+|move|p2b: Whimsicott|Encore|p1a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Incineroar
+|move|p1a: Incineroar|Flare Blitz|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|72/100
+|-damage|p1a: Incineroar|92/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scrafty|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750848787
+|move|p2b: Whimsicott|Taunt|p1b: Oranguru
+|-start|p1b: Oranguru|move: Taunt
+|move|p1a: Incineroar|Parting Shot|p2b: Whimsicott
+|-unboost|p2b: Whimsicott|atk|1
+|-unboost|p2b: Whimsicott|spa|1
+|
+|t:|1750848792
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|cant|p2a: Scrafty|slp
+|cant|p1b: Oranguru|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750848809
+|move|p2b: Whimsicott|Fake Tears|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|spd|2
+|move|p1b: Oranguru|Foul Play|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|95/100 slp
+|-curestatus|p2a: Scrafty|slp|[msg]
+|move|p2a: Scrafty|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|37/100 brn
+|-unboost|p2a: Scrafty|def|1
+|-unboost|p2a: Scrafty|spd|1
+|move|p1a: Ursaluna|Facade|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scrafty|100/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|31/100 brn|[from] brn
+|upkeep
+|
+|t:|1750848826
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|turn|5
+|
+|t:|1750848835
+|switch|p2a: Kingdra|Kingdra, L50, M|100/100
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Kyogre|Water Spout|p1b: Oranguru|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Oranguru|39/100
+|move|p1b: Oranguru|Foul Play|p2a: Kingdra
+|-damage|p2a: Kingdra|78/100
+|
+|-weather|none
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|-end|p1b: Oranguru|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1750848849
+|switch|p2b: Scrafty|Scrafty, L50, F|100/100
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Oranguru|atk|1
+|move|p2a: Kingdra|Protect|p2a: Kingdra
+|-singleturn|p2a: Kingdra|Protect
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|-damage|p1a: Ursaluna|19/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750848863
+|move|p2b: Scrafty|Fake Out|p1a: Ursaluna
+|-damage|p1a: Ursaluna|13/100 brn
+|cant|p1a: Ursaluna|flinch
+|move|p1b: Oranguru|Instruct|p2b: Scrafty
+|-singleturn|p2b: Scrafty|move: Instruct|[of] p1b: Oranguru
+|move|p2b: Scrafty|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Scrafty
+|move|p2a: Kingdra|Draco Meteor|p1b: Oranguru
+|-damage|p1b: Oranguru|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1b: Oranguru
+|-damage|p2a: Kingdra|68/100|[from] item: Life Orb
+|
+|-damage|p1a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1750848868
+|switch|p1b: Incineroar|Incineroar, L50, M|92/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingdra|atk|1
+|-unboost|p2b: Scrafty|atk|1
+|turn|8
+|
+|t:|1750848885
+|move|p2b: Scrafty|Detect|p2b: Scrafty
+|-singleturn|p2b: Scrafty|Protect
+|move|p2a: Kingdra|Protect|p2a: Kingdra
+|-singleturn|p2a: Kingdra|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Kingdra
+|-activate|p2a: Kingdra|move: Protect
+|move|p1a: Ursaluna|Earthquake|p2b: Scrafty|[spread] p1b
+|-activate|p2a: Kingdra|move: Protect
+|-activate|p2b: Scrafty|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|
+|-damage|p1a: Ursaluna|1/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Jaso2008 has 30 seconds left.
+|
+|t:|1750848917
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Ursaluna|Facade|p2a: Kyogre
+|-damage|p2a: Kyogre|12/100
+|move|p2b: Scrafty|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-enditem|p1b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Scrafty
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1750848939
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|turn|10
+|
+|t:|1750848954
+|move|p2b: Scrafty|Close Combat|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|58/100
+|-unboost|p2b: Scrafty|def|1
+|-unboost|p2b: Scrafty|spd|1
+|move|p1b: Brute Bonnet|Pollen Puff|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Brute Bonnet|64/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750848963
+|switch|p2a: Kingdra|Kingdra, L50, M|68/100
+|turn|11
+|
+|t:|1750848974
+|-terastallize|p1b: Brute Bonnet|Grass
+|move|p2a: Kingdra|Weather Ball|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|29/100
+|-damage|p2a: Kingdra|58/100|[from] item: Life Orb
+|move|p1b: Brute Bonnet|Spore|p2a: Kingdra
+|-status|p2a: Kingdra|slp|[from] move: Spore
+|move|p2b: Scrafty|Close Combat|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|11/100
+|-unboost|p2b: Scrafty|def|1
+|-unboost|p2b: Scrafty|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Brute Bonnet|17/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750848988
+|move|p2b: Scrafty|Detect|p2b: Scrafty
+|-singleturn|p2b: Scrafty|Protect
+|move|p1b: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1b: Brute Bonnet
+|cant|p2a: Kingdra|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Brute Bonnet|23/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750849008
+|-terastallize|p2b: Scrafty|Dark
+|cant|p2a: Kingdra|slp
+|move|p1b: Brute Bonnet|Pollen Puff|p2b: Scrafty
+|-supereffective|p2b: Scrafty
+|-damage|p2b: Scrafty|33/100
+|move|p2b: Scrafty|Knock Off|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|1/100
+|-enditem|p1b: Brute Bonnet|Leftovers|[from] move: Knock Off|[of] p2b: Scrafty
+|
+|-weather|none
+|-heal|p2b: Scrafty|39/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750849028
+|-curestatus|p2a: Kingdra|slp|[msg]
+|move|p2a: Kingdra|Draco Meteor|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p2a: Kingdra|48/100|[from] item: Life Orb
+|
+|win|Jaso2008
+|raw|Jammyphantom's rating: 1095 &rarr; <strong>1075</strong><br />(-20 for losing)
+|raw|Jaso2008's rating: 1154 &rarr; <strong>1175</strong><br />(+21 for winning)
+|l|☆Jammyphantom
+|player|p1|
+|c|☆Jaso2008|Gg
+|l|☆Jaso2008
+|player|p2|

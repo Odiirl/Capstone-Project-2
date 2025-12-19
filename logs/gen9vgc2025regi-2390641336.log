@@ -1,0 +1,195 @@
+|j|☆anlingyuze
+|j|☆faceless_knigght
+|t:|1750740958
+|gametype|doubles
+|player|p1|anlingyuze|1|1459
+|player|p2|faceless_knigght|101|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Gouging Fire, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by faceless_knigght)
+|inactive|faceless_knigght has 60 seconds left.
+|
+|t:|1750741016
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Gouging Fire|Gouging Fire, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Gouging Fire|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Gouging Fire|ability: Protosynthesis
+|-start|p1b: Gouging Fire|protosynthesisspe
+|turn|1
+|
+|t:|1750741035
+|move|p2a: Incineroar|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|94/100
+|move|p1b: Gouging Fire|Howl|p1b: Gouging Fire|[spread] p1a,p1b
+|-boost|p1a: Groudon|atk|1
+|-boost|p1b: Gouging Fire|atk|1
+|move|p2b: Urshifu|Wicked Blow|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|52/100
+|cant|p1a: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|faceless_knigght has 30 seconds left.
+|
+|t:|1750741062
+|-terastallize|p2a: Incineroar|Grass
+|move|p1b: Gouging Fire|Flare Blitz|p2b: Urshifu
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|-damage|p1b: Gouging Fire|71/100|[from] Recoil
+|move|p2b: Urshifu|Wicked Blow|p1a: Groudon
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|6/100
+|move|p2a: Incineroar|U-turn|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|t:|1750741075
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750741083
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750741105
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Grass|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Gouging Fire|atk|1
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Miraidon|Volt Switch|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|move|p1b: Gouging Fire|Breaking Swipe|p2b: Urshifu|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-damage|p2a: Incineroar|88/100
+|-unboost|p2a: Incineroar|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|faceless_knigght has 30 seconds left.
+|inactive|faceless_knigght has 20 seconds left.
+|inactive|faceless_knigght has 15 seconds left.
+|
+|t:|1750741149
+|switch|p1a: Chesnaught|Chesnaught, L50, M|100/100
+|-enditem|p1a: Chesnaught|Electric Seed
+|-boost|p1a: Chesnaught|def|1|[from] item: Electric Seed
+|move|p2a: Incineroar|Fake Out|p1b: Gouging Fire
+|-crit|p1b: Gouging Fire
+|-damage|p1b: Gouging Fire|57/100
+|move|p2b: Urshifu|Sucker Punch||[still]
+|-fail|p2b: Urshifu
+|cant|p1b: Gouging Fire|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750741171
+|move|p2b: Urshifu|Sucker Punch|p1b: Gouging Fire
+|-crit|p1b: Gouging Fire
+|-damage|p1b: Gouging Fire|9/100
+|move|p1b: Gouging Fire|Flare Blitz|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1b: Gouging Fire|0 fnt|[from] Recoil
+|faint|p1b: Gouging Fire
+|-end|p1b: Gouging Fire|Protosynthesis|[silent]
+|move|p1a: Chesnaught|Body Press|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-weather|none
+|upkeep
+|
+|t:|1750741184
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750741207
+|move|p1b: Miraidon|Electro Drift|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|move|p2a: Miraidon|Draco Meteor|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Miraidon
+|move|p1a: Chesnaught|Leech Seed|p2a: Miraidon
+|-start|p2a: Miraidon|move: Leech Seed
+|
+|-damage|p2a: Miraidon|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750741222
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|
+|-damage|p2a: Miraidon|75/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|8
+|
+|t:|1750741229
+|move|p2a: Miraidon|Draco Meteor|p1a: Chesnaught
+|-damage|p1a: Chesnaught|48/100
+|-unboost|p2a: Miraidon|spa|2
+|move|p1a: Chesnaught|Body Press|p2a: Miraidon
+|-damage|p2a: Miraidon|12/100
+|
+|-damage|p2a: Miraidon|0 fnt|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|59/100|[silent]
+|faint|p2a: Miraidon
+|
+|win|anlingyuze
+|raw|anlingyuze's rating: 1459 &rarr; <strong>1473</strong><br />(+14 for winning)
+|raw|faceless_knigght's rating: 1352 &rarr; <strong>1338</strong><br />(-14 for losing)
+|l|☆faceless_knigght
+|player|p2|
+|l|☆anlingyuze
+|player|p1|

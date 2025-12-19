@@ -1,0 +1,145 @@
+|j|☆md999
+|j|☆IIDarkhero
+|t:|1750738576
+|gametype|doubles
+|player|p1|md999|265|1107
+|player|p2|IIDarkhero|169|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|teampreview|4
+|
+|t:|1750738604
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750738647
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1a: Rillaboom|76/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750738661
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|turn|2
+|
+|t:|1750738689
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Calyrex|Draining Kiss|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|40/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Miraidon|Discharge|p1b: Calyrex|[spread] p1a,p1b
+|-activate|p2b: Zamazenta|move: Wide Guard
+|-damage|p1a: Incineroar|38/100
+|-damage|p1b: Calyrex|22/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|62/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1750738716
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-enditem|p2b: Sinistcha|Electric Seed
+|-boost|p2b: Sinistcha|def|1|[from] item: Electric Seed
+|-heal|p2a: Miraidon|65/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|47/100
+|move|p1b: Calyrex|Draining Kiss|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|4/100
+|-heal|p1b: Calyrex|57/100|[from] drain|[of] p2a: Miraidon
+|-damage|p1b: Calyrex|47/100|[from] item: Life Orb
+|cant|p2a: Miraidon|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1750738739
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|76/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Calyrex|Astral Barrage|p2a: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2b: Sinistcha
+|-damage|p2a: Zamazenta|52/100
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|38/100|[from] item: Life Orb
+|
+|-heal|p1b: Calyrex|43/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|58/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750738754
+|switch|p2b: Miraidon|Miraidon, L50|4/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|5
+|
+|t:|1750738772
+|move|p1b: Calyrex|Draining Kiss|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|-heal|p1b: Calyrex|66/100|[from] drain|[of] p2a: Zamazenta
+|-damage|p1b: Calyrex|56/100|[from] item: Life Orb
+|move|p2b: Miraidon|Discharge|p1a: Rillaboom|[spread] p2a,p1a,p1b
+|-resisted|p1a: Rillaboom
+|-damage|p2a: Zamazenta|0 fnt
+|-damage|p1a: Rillaboom|58/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p2a: Zamazenta
+|faint|p1b: Calyrex
+|move|p1a: Rillaboom|Grassy Glide|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|md999
+|raw|md999's rating: 1107 &rarr; <strong>1130</strong><br />(+23 for winning)
+|raw|IIDarkhero's rating: 1079 &rarr; <strong>1059</strong><br />(-20 for losing)
+|l|☆IIDarkhero
+|player|p2|
+|l|☆md999
+|player|p1|

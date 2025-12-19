@@ -1,0 +1,219 @@
+|j|☆dingdanglin
+|j|☆goldenaibo105
+|t:|1750755397
+|gametype|doubles
+|player|p1|dingdanglin|1|1284
+|player|p2|goldenaibo105|2|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750755447
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dingdanglin)
+|inactive|dingdanglin has 60 seconds left.
+|inactive|goldenaibo105 has 60 seconds left.
+|inactive|dingdanglin has 30 seconds left.
+|
+|t:|1750755515
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Miraidon|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|64/100
+|
+|t:|1750755524
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Incineroar|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|27/100
+|-enditem|p2a: Amoonguss|Mental Herb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|dingdanglin has 30 seconds left.
+|
+|t:|1750755554
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-resisted|p2b: Calyrex
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p2b: Calyrex|83/100
+|faint|p2a: Amoonguss
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Calyrex|Leech Seed|p1a: Calyrex
+|-start|p1a: Calyrex|move: Leech Seed
+|move|p1b: Incineroar|U-turn|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|60/100
+|
+|t:|1750755572
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Calyrex|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|72/100|[silent]
+|upkeep
+|
+|t:|1750755575
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|3
+|inactive|dingdanglin has 30 seconds left.
+|inactive|dingdanglin has 20 seconds left.
+|
+|t:|1750755611
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Calyrex|High Horsepower|p2b: Calyrex
+|-damage|p2b: Calyrex|37/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Incineroar
+|-damage|p1a: Calyrex|62/100
+|-damage|p1b: Incineroar|54/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Calyrex|50/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|49/100|[silent]
+|upkeep
+|turn|4
+|inactive|dingdanglin has 30 seconds left.
+|
+|t:|1750755645
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Pelipper|[spread] p1a
+|-activate|p1b: Incineroar|move: Protect
+|-damage|p1a: Pelipper|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750755669
+|move|p1a: Pelipper|Wide Guard|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Wide Guard
+|move|p1b: Incineroar|U-turn|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|66/100
+|
+|t:|1750755688
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldend|move: Trick Room
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|dingdanglin has 30 seconds left.
+|inactive|dingdanglin has 20 seconds left.
+|inactive|dingdanglin has 15 seconds left.
+|inactive|dingdanglin has 10 seconds left.
+|
+|t:|1750755733
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Pelipper|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Pelipper
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Farigiraf|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|-weather|none
+|upkeep
+|
+|t:|1750755755
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|54/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|inactive|dingdanglin has 30 seconds left.
+|
+|t:|1750755781
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|43/100
+|cant|p2b: Calyrex|flinch
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Calyrex|9/100
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750755798
+|switch|p1a: Calyrex|Calyrex-Ice, L50|50/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|34/100
+|-damage|p1b: Miraidon|40/100
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|dingdanglin
+|raw|dingdanglin's rating: 1284 &rarr; <strong>1308</strong><br />(+24 for winning)
+|raw|goldenaibo105's rating: 1273 &rarr; <strong>1249</strong><br />(-24 for losing)
+|l|☆goldenaibo105
+|player|p2|

@@ -1,0 +1,154 @@
+|j|☆Sickboypro
+|j|☆Mathethe
+|t:|1750815783
+|gametype|doubles
+|player|p1|Sickboypro|cress|1069
+|player|p2|Mathethe|266|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Pikachu-Sinnoh, L50, M|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Garganacl, L50, M|
+|teampreview|4
+|
+|t:|1750815810
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750815835
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Mathethe|move: Tailwind
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Sickboypro|move: Light Screen
+|move|p2a: Iron Valiant|Close Combat|p1b: Koraidon
+|-damage|p1b: Koraidon|29/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+|move|p1b: Koraidon|Flare Blitz|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1b: Koraidon|4/100|[from] Recoil
+|-damage|p1b: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815873
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|
+|t:|1750815904
+|-terastallize|p1b: Miraidon|Electric
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Calyrex
+|move|p2a: Calyrex|Astral Barrage|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|86/100
+|-damage|p1b: Miraidon|78/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Miraidon
+|-damage|p1a: Grimmsnarl|69/100
+|-damage|p1b: Miraidon|71/100
+|move|p1b: Miraidon|Electro Drift|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815920
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750815929
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Electric Terrain
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2a: Calyrex|Astral Barrage|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100
+|-damage|p1b: Miraidon|49/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Grimmsnarl|33/100
+|-damage|p1b: Miraidon|18/100
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Calyrex|79/100 par
+|-damage|p2b: Terapagos|87/100
+|
+|-heal|p2b: Terapagos|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750815958
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Terapagos|[miss]
+|-miss|p1a: Grimmsnarl|p2b: Terapagos
+|move|p2a: Calyrex|Astral Barrage|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Terapagos|Tera Starstorm|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2b: Terapagos|99/100|[from] item: Leftovers
+|-sideend|p2: Mathethe|move: Tailwind
+|upkeep
+|
+|t:|1750815974
+|switch|p1a: Pikachu|Pikachu-Sinnoh, L50, M|100/100
+|turn|5
+|
+|t:|1750815980
+|move|p1a: Pikachu|Fake Out|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|90/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|win|Mathethe
+|raw|Sickboypro's rating: 1069 &rarr; <strong>1049</strong><br />(-20 for losing)
+|raw|Mathethe's rating: 1076 &rarr; <strong>1104</strong><br />(+28 for winning)
+|l|☆Sickboypro
+|player|p1|

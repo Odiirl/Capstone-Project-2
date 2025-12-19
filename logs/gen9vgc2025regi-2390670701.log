@@ -1,0 +1,134 @@
+|j|☆WerewolfJerry
+|j|☆eclair08
+|t:|1750746647
+|gametype|doubles
+|player|p1|WerewolfJerry|169|1291
+|player|p2|eclair08|backersf|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lucario, L50, M|
+|poke|p1|Granbull, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Mamoswine, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WerewolfJerry)
+|
+|t:|1750746677
+|start
+|switch|p1a: Luma|Clefairy, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750746698
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Luma|Follow Me|p1a: Luma
+|-singleturn|p1a: Luma|move: Follow Me
+|move|p2a: Iron Valiant|Coaching|p2b: Ho-Oh
+|-boost|p2b: Ho-Oh|atk|1
+|-boost|p2b: Ho-Oh|def|1
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Luma
+|-damage|p1a: Luma|24/100
+|-status|p1a: Luma|brn
+|move|p1b: Calyrex|Glacial Lance|p2a: Iron Valiant|[spread] p2a,p2b
+|-damage|p2a: Iron Valiant|42/100
+|-damage|p2b: Ho-Oh|64/100
+|
+|-damage|p1a: Luma|18/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750746720
+|move|p2a: Iron Valiant|Wide Guard|p2a: Iron Valiant
+|-singleturn|p2a: Iron Valiant|Wide Guard
+|move|p1a: Luma|Follow Me|p1a: Luma
+|-singleturn|p1a: Luma|move: Follow Me
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Luma
+|-damage|p1a: Luma|0 fnt
+|faint|p1a: Luma
+|move|p1b: Calyrex|Glacial Lance|p2b: Ho-Oh|[spread] 
+|-activate|p2a: Iron Valiant|move: Wide Guard
+|-activate|p2b: Ho-Oh|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750746736
+|switch|p1a: Granbull|Granbull, L50, F|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|-fail|p2b: Ho-Oh|unboost|[from] item: Clear Amulet|[of] p2b: Ho-Oh
+|turn|3
+|
+|t:|1750746753
+|move|p2a: Iron Valiant|Wide Guard|p2a: Iron Valiant
+|-singleturn|p2a: Iron Valiant|Wide Guard
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|75/100
+|-status|p1b: Calyrex|brn
+|move|p1b: Calyrex|Leech Seed|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|move: Leech Seed
+|move|p1a: Granbull|Psychic Fangs|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-damage|p2b: Ho-Oh|52/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|87/100 brn|[silent]
+|-damage|p1b: Calyrex|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1750746771
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|4
+|
+|t:|1750746780
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Ho-Oh|Brave Bird|p1a: Granbull
+|-crit|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|-damage|p2b: Ho-Oh|26/100|[from] Recoil
+|
+|-damage|p2b: Ho-Oh|14/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|94/100 brn|[silent]
+|-damage|p1b: Calyrex|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1750746796
+|switch|p1a: Lucario|Lucario, L50, M|100/100
+|turn|5
+|-message|WerewolfJerry forfeited.
+|
+|win|eclair08
+|raw|WerewolfJerry's rating: 1291 &rarr; <strong>1273</strong><br />(-18 for losing)
+|raw|eclair08's rating: 1391 &rarr; <strong>1405</strong><br />(+14 for winning)
+|l|☆WerewolfJerry
+|player|p1|
+|l|☆eclair08
+|player|p2|

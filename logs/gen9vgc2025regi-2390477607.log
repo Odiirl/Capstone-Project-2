@@ -1,0 +1,207 @@
+|j|☆Wildgoobys
+|j|☆TommyGuapo
+|t:|1750718017
+|gametype|doubles
+|player|p1|Wildgoobys|ethan|1511
+|player|p2|TommyGuapo|102|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lapras, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Comfey, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wildgoobys)
+TommyGuapo has agreed to open team sheets.
+|inactive|TommyGuapo has 60 seconds left.
+|inactive|TommyGuapo has 30 seconds left.
+|inactive|TommyGuapo has 20 seconds left.
+|inactive|TommyGuapo has 15 seconds left.
+|inactive|TommyGuapo has 10 seconds left.
+|
+|t:|1750718102
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Giratina|Giratina-Origin, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|Wildgoobys has 20 seconds left.
+|inactive|Wildgoobys has 15 seconds left.
+|inactive|Wildgoobys has 10 seconds left.
+|
+|t:|1750718147
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|move|p2b: Giratina|Poltergeist|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750718171
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Scream Tail|Disable|p2b: Giratina
+|-start|p2b: Giratina|Disable|Poltergeist
+|move|p2a: Rillaboom|Taunt|p1b: Koraidon
+|-start|p1b: Koraidon|move: Taunt
+|cant|p2b: Giratina|Disable|Poltergeist
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|TommyGuapo has 30 seconds left.
+|
+|t:|1750718203
+|-terastallize|p1b: Koraidon|Fire
+|move|p1a: Scream Tail|Encore|p2b: Giratina
+|-start|p2b: Giratina|Encore
+|move|p1b: Koraidon|Flame Charge|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-enditem|p2a: Rillaboom|Focus Sash
+|-damage|p2a: Rillaboom|1/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p2a: Rillaboom|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|81/100
+|
+|t:|1750718222
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100|[from] U-turn
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|cant|p2b: Giratina|Disable|Poltergeist
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Koraidon|96/100|[from] Grassy Terrain
+|-heal|p1a: Scream Tail|87/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750718246
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|1/100
+|move|p1b: Koraidon|Flare Blitz|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1b: Koraidon|96/100|[from] Recoil
+|-damage|p1b: Koraidon|86/100|[from] item: Life Orb
+|move|p2a: Scream Tail|Encore||[still]
+|-fail|p2a: Scream Tail
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Koraidon|92/100|[from] Grassy Terrain
+|-end|p1b: Koraidon|move: Taunt
+|upkeep
+|
+|t:|1750718267
+|switch|p2b: Giratina|Giratina-Origin, L50|100/100
+|turn|5
+|inactive|TommyGuapo has 30 seconds left.
+|
+|t:|1750718297
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1b: Koraidon|Flame Charge|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|move|p2b: Giratina|Poltergeist|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Poltergeist|Rusted Shield
+|-damage|p1a: Zamazenta|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Koraidon|98/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|82/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|TommyGuapo has 30 seconds left.
+|inactive|TommyGuapo has 20 seconds left.
+|inactive|TommyGuapo has 15 seconds left.
+|
+|t:|1750718340
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Comfey|Comfey, L50, F|100/100
+|move|p1b: Koraidon|Flare Blitz|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|-damage|p1b: Koraidon|68/100|[from] Recoil
+|-damage|p1b: Koraidon|58/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Body Press|p2b: Giratina
+|-immune|p2b: Giratina
+|move|p2b: Giratina|Draco Meteor|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|-unboost|p2b: Giratina|spa|2
+|faint|p1b: Koraidon
+|
+|-weather|none
+|upkeep
+|
+|t:|1750718355
+|switch|p1b: Scream Tail|Scream Tail, L50|87/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|7
+|
+|t:|1750718365
+|move|p2a: Scream Tail|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Zamazenta|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Giratina|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Zamazenta|Body Press|p2a: Scream Tail
+|-resisted|p2a: Scream Tail
+|-damage|p2a: Scream Tail|86/100
+|move|p2b: Giratina|Poltergeist||[still]
+|-fail|p2b: Giratina
+|
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Scream Tail|perish3
+|-start|p1a: Zamazenta|perish3
+|-start|p2b: Giratina|perish3
+|upkeep
+|turn|8
+|-message|TommyGuapo forfeited.
+|
+|win|Wildgoobys
+|raw|Wildgoobys's rating: 1511 &rarr; <strong>1528</strong><br />(+17 for winning)
+|raw|TommyGuapo's rating: 1451 &rarr; <strong>1434</strong><br />(-17 for losing)
+|l|☆TommyGuapo
+|player|p2|
+|l|☆Wildgoobys
+|player|p1|

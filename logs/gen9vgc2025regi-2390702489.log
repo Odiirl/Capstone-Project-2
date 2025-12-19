@@ -1,0 +1,128 @@
+|j|☆xcaleavorz
+|j|☆Gexi01
+|t:|1750752881
+|gametype|doubles
+|player|p1|xcaleavorz|nate|1278
+|player|p2|Gexi01|266|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Lugia, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gexi01)
+|
+|t:|1750752900
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2b: Regieleki|Regieleki, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-item|p1a: Miraidon|Choice Scarf|[from] ability: Frisk|[of] p2a: Typhlosion
+|turn|1
+|
+|t:|1750752913
+|-terastallize|p2a: Typhlosion|Fire
+|move|p1a: Miraidon|Volt Switch|p2a: Typhlosion
+|-damage|p2a: Typhlosion|4/100
+|
+|t:|1750752923
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100|[from] Volt Switch
+|move|p2b: Regieleki|Electroweb|p1b: Farigiraf|[spread] p1b
+|-immune|p1a: Ursaluna
+|-damage|p1b: Farigiraf|64/100
+|-unboost|p1b: Farigiraf|spe|1
+|move|p2a: Typhlosion|Eruption|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|98/100
+|-damage|p1b: Farigiraf|61/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|xcaleavorz has 30 seconds left.
+|
+|t:|1750752957
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|move|p2b: Regieleki|Protect|p2b: Regieleki
+|-singleturn|p2b: Regieleki|Protect
+|move|p1a: Ursaluna|Rock Slide|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Regieleki|move: Protect
+|-damage|p2a: Flutter Mane|34/100
+|move|p1b: Farigiraf|Foul Play|p2b: Regieleki
+|-activate|p2b: Regieleki|move: Protect
+|
+|-damage|p1a: Ursaluna|92/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750752980
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1a: Ursaluna|Facade|p2b: Regieleki
+|-damage|p2b: Regieleki|0 fnt
+|faint|p2b: Regieleki
+|move|p1b: Farigiraf|Foul Play|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|
+|-damage|p1a: Ursaluna|86/100 brn|[from] brn
+|upkeep
+|
+|t:|1750752992
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750753020
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1a: Ursaluna|Rock Slide|p2a: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Koraidon|85/100
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Farigiraf|Foul Play|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|68/100
+|move|p2b: Koraidon|Close Combat|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|80/100 brn|[from] brn
+|upkeep
+|
+|t:|1750753024
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F, tera:Fire|4/100
+|-item|p1a: Ursaluna|Flame Orb|[from] ability: Frisk|[of] p2a: Typhlosion
+|turn|5
+|-message|Gexi01 forfeited.
+|
+|win|xcaleavorz
+|raw|xcaleavorz's rating: 1278 &rarr; <strong>1300</strong><br />(+22 for winning)
+|raw|Gexi01's rating: 1234 &rarr; <strong>1212</strong><br />(-22 for losing)
+|l|☆Gexi01
+|player|p2|
+|l|☆xcaleavorz
+|player|p1|

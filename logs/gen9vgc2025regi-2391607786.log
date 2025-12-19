@@ -1,0 +1,174 @@
+|j|☆coderthegreat
+|j|☆Revenant Imp
+|t:|1750875292
+|gametype|doubles
+|player|p1|coderthegreat|1|1296
+|player|p2|Revenant Imp|medium|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Quagsire, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Rhydon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by coderthegreat)
+|
+|t:|1750875311
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|1
+|inactive|Revenant Imp has 30 seconds left.
+|
+|t:|1750875340
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|-terastallize|p1a: Kyogre|Water
+|move|p1b: Clefairy|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Clefairy
+|move|p1a: Kyogre|Water Spout|p2a: Eternatus|[spread] p2a,p2b
+|-resisted|p2a: Eternatus
+|-supereffective|p2b: Ting-Lu
+|-damage|p2a: Eternatus|58/100
+|-damage|p2b: Ting-Lu|0 fnt
+|faint|p2b: Ting-Lu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750875345
+|switch|p2b: Quagsire|Quagsire, L50, M|100/100
+|turn|2
+|
+|t:|1750875356
+|move|p1b: Clefairy|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Clefairy
+|move|p1a: Kyogre|Water Spout|p2a: Eternatus|[spread] p2a
+|-immune|p2b: Quagsire|[from] ability: Water Absorb
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|3/100
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|53/100
+|move|p2b: Quagsire|Toxic|p1a: Kyogre
+|-status|p1a: Kyogre|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kyogre|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750875378
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p2b: Quagsire|Toxic|p1b: Clefairy
+|-status|p1b: Clefairy|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Clefairy|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750875395
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p1a: Urshifu|Close Combat|p2b: Quagsire
+|-damage|p2b: Quagsire|35/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2b: Quagsire|Toxic|p1b: Clefairy
+|-fail|p1b: Clefairy|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Quagsire|41/100|[from] item: Leftovers
+|-damage|p1b: Clefairy|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750875411
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p1a: Urshifu|Close Combat|p2b: Ho-Oh
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|70/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2b: Ho-Oh
+|
+|-weather|none
+|-damage|p1b: Clefairy|63/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750875430
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|switch|p1b: Kyogre|Kyogre, L50, tera:Water|94/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p2b: Ho-Oh|Life Dew||[still]|[spread] p2a,p2b
+|-fail|p2a: Eternatus|heal
+|-heal|p2b: Ho-Oh|94/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Kyogre|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750875444
+|switch|p2b: Quagsire|Quagsire, L50, M|41/100
+|-terastallize|p2a: Eternatus|Fairy
+|move|p1b: Kyogre|Water Spout|p2b: Quagsire|[spread] p2a
+|-heal|p2b: Quagsire|66/100|[from] ability: Water Absorb|[of] p1b: Kyogre
+|-damage|p2a: Eternatus|72/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Eternatus
+|-immune|p2a: Eternatus
+|move|p2a: Eternatus|Fire Spin|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|86/100 tox
+|-activate|p1b: Kyogre|move: Fire Spin|[of] p2a: Eternatus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Quagsire|72/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|74/100 tox|[from] psn
+|-damage|p1b: Kyogre|61/100 tox|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|8
+|-message|coderthegreat forfeited.
+|
+|win|Revenant Imp
+|raw|coderthegreat's rating: 1296 &rarr; <strong>1271</strong><br />(-25 for losing)
+|raw|Revenant Imp's rating: 1296 &rarr; <strong>1321</strong><br />(+25 for winning)
+|l|☆coderthegreat
+|player|p1|
+|l|☆Revenant Imp
+|player|p2|

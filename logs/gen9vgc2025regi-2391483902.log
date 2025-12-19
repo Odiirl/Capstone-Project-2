@@ -1,0 +1,210 @@
+|j|☆ptyago07
+|j|☆AMGURU
+|t:|1750861716
+|gametype|doubles
+|player|p1|ptyago07|volkner|1232
+|player|p2|AMGURU|brock|1290
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Entei, L50|
+|poke|p1|Raikou, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ptyago07)
+|
+|t:|1750861734
+|start
+|switch|p1a: Raikou|Raikou, L50, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Raikou|Electric Seed
+|-boost|p1a: Raikou|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|ptyago07 has 30 seconds left.
+|inactive|AMGURU has 30 seconds left.
+|inactive|ptyago07 has 20 seconds left.
+|
+|t:|1750861772
+|move|p1a: Raikou|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Raikou
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Miraidon|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|41/100
+|inactive|ptyago07 has 30 seconds left.
+|
+|t:|1750861802
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Groudon|[anim] Ivy Cudgel Rock
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750861819
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|move|p1a: Raikou|Helping Hand|p1b: Groudon
+|-singleturn|p1b: Groudon|Helping Hand|[of] p1a: Raikou
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Groudon|[anim] Ivy Cudgel Rock
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|61/100
+|move|p1b: Groudon|Precipice Blades|p2a: Koraidon|[spread] p2a,p2b
+|-damage|p2a: Koraidon|33/100
+|-damage|p2b: Ogerpon|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|ptyago07 has 30 seconds left.
+|
+|t:|1750861849
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Koraidon|Flame Charge|p1a: Raikou
+|-damage|p1a: Raikou|70/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|23/100|[from] item: Life Orb
+|move|p2b: Ogerpon|Wood Hammer|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p1a: Raikou|Electroweb|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-resisted|p2b: Ogerpon
+|-damage|p2a: Koraidon|15/100
+|-damage|p2b: Ogerpon|0 fnt
+|-unboost|p2a: Koraidon|spe|1
+|faint|p2b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861862
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|4
+|
+|t:|1750861877
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Zacian|atk|1
+|-terastallize|p2b: Zacian|Ground
+|move|p2b: Zacian|Tera Blast|p1a: Raikou|[anim] Tera Blast Ground
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|8/100
+|move|p2a: Koraidon|Collision Course|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2a: Koraidon|6/100|[from] item: Life Orb
+|move|p1a: Raikou|Thunder Wave|p2b: Zacian
+|-immune|p2b: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|ptyago07 has 30 seconds left.
+|
+|t:|1750861906
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750861913
+|switch|p2a: Indeedee|Indeedee-F, L50, F|41/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Raikou|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Raikou
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Zacian|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Zacian|52/100
+|faint|p2a: Indeedee
+|move|p2b: Zacian|Tera Blast|p1b: Miraidon|[anim] Tera Blast Ground
+|-damage|p1b: Miraidon|53/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750861925
+|switch|p2a: Koraidon|Koraidon, L50|6/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750861941
+|move|p1a: Raikou|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Raikou
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Zacian|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Zacian|8/100
+|move|p2b: Zacian|Behemoth Blade|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861957
+|switch|p1b: Groudon|Groudon, L50, shiny|61/100
+|turn|7
+|
+|t:|1750861972
+|move|p2b: Zacian|Behemoth Blade|p1b: Groudon
+|-damage|p1b: Groudon|25/100
+|move|p2a: Koraidon|Collision Course|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2a: Koraidon
+|move|p1a: Raikou|Thunderbolt|p2b: Zacian
+|-immune|p2b: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|ptyago07 has 30 seconds left.
+|inactive|ptyago07 has 20 seconds left.
+|inactive|ptyago07 has 15 seconds left.
+|inactive|ptyago07 has 10 seconds left.
+|inactive|ptyago07 has 5 seconds left.
+|
+|t:|1750862027
+|move|p1a: Raikou|Helping Hand|null|[notarget]
+|-fail|p1a: Raikou
+|move|p2b: Zacian|Tera Blast|p1a: Raikou|[anim] Tera Blast Ground
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|win|AMGURU
+|raw|ptyago07's rating: 1232 &rarr; <strong>1211</strong><br />(-21 for losing)
+|raw|AMGURU's rating: 1290 &rarr; <strong>1311</strong><br />(+21 for winning)
+|l|☆AMGURU
+|player|p2|
+|l|☆ptyago07
+|player|p1|

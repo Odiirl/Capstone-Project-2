@@ -1,0 +1,187 @@
+|j|☆xiaoliyunVGC
+|j|☆je8
+|t:|1750726324
+|gametype|doubles
+|player|p1|xiaoliyunVGC|lillie-masters2|1631
+|player|p2|je8|266|1622
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xiaoliyunVGC)
+|j| paid by pikachu
+|inactive|je8 has 60 seconds left.
+|l| paid by pikachu
+|inactive|je8 has 30 seconds left.
+|
+|t:|1750726391
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p1b: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-enditem|p1b: Iron Jugulis|Booster Energy
+|-activate|p1b: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750726413
+|move|p1b: Iron Jugulis|Protect|p1b: Iron Jugulis
+|-singleturn|p1b: Iron Jugulis|Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: je8|move: Tailwind
+|move|p2a: Zacian|Play Rough|p1b: Iron Jugulis
+|-activate|p1b: Iron Jugulis|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Zacian
+|-damage|p2a: Zacian|39/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750726428
+|-end|p1b: Iron Jugulis|Quark Drive|[silent]
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-terastallize|p2a: Zacian|Stellar
+|move|p2a: Zacian|Sacred Sword|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|31/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Zamazenta|[spread] p1b
+|-miss|p2b: Tornadus|p1a: Zamazenta
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|39/100
+|-unboost|p1b: Amoonguss|spe|1
+|move|p1a: Zamazenta|Body Press|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|upkeep
+|
+|t:|1750726447
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|3
+|
+|t:|1750726459
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Zamazenta|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Amoonguss|move: Wide Guard
+|
+|upkeep
+|turn|4
+|
+|t:|1750726478
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|12/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|2
+|move|p1b: Amoonguss|Spore|p2b: Tornadus
+|-status|p2b: Tornadus|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: je8|move: Tailwind
+|upkeep
+|
+|t:|1750726487
+|switch|p1a: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|turn|5
+|
+|t:|1750726501
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Iron Jugulis|Tailwind|p1a: Iron Jugulis
+|-sidestart|p1: xiaoliyunVGC|move: Tailwind
+|move|p2a: Urshifu|Surging Strikes|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|24/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|9/100
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-damage|p2a: Urshifu|51/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p1b: Amoonguss
+|-hitcount|p1: Amoonguss|3
+|cant|p2b: Tornadus|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750726507
+|switch|p1b: Kyogre|Kyogre, L50, shiny|100/100
+|turn|6
+|
+|t:|1750726516
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|cant|p2b: Tornadus|slp
+|move|p1a: Iron Jugulis|Hurricane|p2a: Urshifu
+|-activate|p2a: Urshifu|move: Protect
+|move|p1b: Kyogre|Water Spout|p2a: Urshifu|[spread] p2b
+|-activate|p2a: Urshifu|move: Protect
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750726520
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750726539
+|-terastallize|p1b: Kyogre|Water
+|move|p2a: Urshifu|Aqua Jet|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|86/100
+|move|p1a: Iron Jugulis|Hurricane|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|move|p1b: Kyogre|Water Spout|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|xiaoliyunVGC
+|raw|xiaoliyunVGC's rating: 1631 &rarr; <strong>1650</strong><br />(+19 for winning)
+|raw|je8's rating: 1622 &rarr; <strong>1603</strong><br />(-19 for losing)
+|l|☆je8
+|player|p2|

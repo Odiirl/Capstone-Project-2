@@ -1,0 +1,246 @@
+|j|☆Doey_exe
+|j|☆hdlshshxvqjw
+|t:|1750745127
+|gametype|doubles
+|player|p1|Doey_exe|cynthia|1255
+|player|p2|hdlshshxvqjw|102|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Hydrapple, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Toxapex, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Doey_exe)
+|
+|t:|1750745148
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750745164
+|-terastallize|p2b: Toxapex|Dark
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Doey_exe|Reflect
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|16/100
+|move|p2a: Incineroar|U-turn|p1a: Lunala
+|-damage|p1a: Lunala|96/100
+|
+|t:|1750745175
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100|[from] U-turn
+|move|p2b: Toxapex|Toxic Spikes|p1a: Lunala
+|-sidestart|p1: Doey_exe|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1750745199
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Doey_exe|move: Light Screen
+|move|p1a: Lunala|Moongeist Beam|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|54/100
+|move|p2b: Toxapex|Toxic Spikes|p1a: Lunala
+|-sidestart|p1: Doey_exe|move: Toxic Spikes
+|move|p2a: Ho-Oh|Whirlwind|p1a: Lunala
+|drag|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-status|p1a: Indeedee|tox
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|
+|-damage|p1a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Doey_exe has 30 seconds left.
+|
+|t:|1750745231
+|switch|p2a: Incineroar|Incineroar, L50, F|16/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Toxapex|[spread] p2a,p2b
+|-supereffective|p2b: Toxapex
+|-damage|p2a: Incineroar|8/100
+|-damage|p2b: Toxapex|81/100
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Toxapex
+|-supereffective|p2b: Toxapex
+|-damage|p2b: Toxapex|55/100
+|-unboost|p2b: Toxapex|spa|1
+|move|p2b: Toxapex|Infestation|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|92/100 tox
+|-activate|p1a: Indeedee|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1a: Indeedee|80/100 tox|[from] psn
+|-damage|p1a: Indeedee|68/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|Doey_exe has 30 seconds left.
+|
+|t:|1750745262
+|switch|p2a: Ho-Oh|Ho-Oh, L50|87/100
+|switch|p1b: Lunala|Lunala, L50, shiny|96/100
+|-status|p1b: Lunala|tox
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Toxapex|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|84/100
+|
+|-damage|p1b: Lunala|90/100 tox|[from] psn
+|-damage|p1a: Indeedee|49/100 tox|[from] psn
+|-damage|p1a: Indeedee|37/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1750745280
+|move|p1a: Indeedee|Helping Hand|p1b: Lunala
+|-singleturn|p1b: Lunala|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Lunala|Moongeist Beam|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|39/100
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Lunala
+|-damage|p1b: Lunala|65/100 tox
+|
+|-damage|p1b: Lunala|52/100 tox|[from] psn
+|-damage|p1a: Indeedee|12/100 tox|[from] psn
+|-damage|p1a: Indeedee|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1a: Indeedee
+|upkeep
+|
+|t:|1750745293
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-status|p1a: Calyrex|tox
+|turn|6
+|
+|t:|1750745309
+|switch|p2a: Incineroar|Incineroar, L50, F|8/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Lunala|atk|1
+|-terastallize|p1a: Calyrex|Fire
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Wide Guard
+|
+|-damage|p1b: Lunala|34/100 tox|[from] psn
+|-damage|p1a: Calyrex|95/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750745325
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750745336
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Calyrex|Disable|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2b: Toxapex|Infestation|p1b: Lunala
+|-damage|p1b: Lunala|33/100 tox
+|-activate|p1b: Lunala|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1b: Lunala|9/100 tox|[from] psn
+|-damage|p1a: Calyrex|83/100 tox|[from] psn
+|-damage|p1b: Lunala|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Lunala
+|upkeep
+|
+|t:|1750745349
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-status|p1b: Grimmsnarl|tox
+|turn|8
+|
+|t:|1750745365
+|move|p2a: Calyrex|Encore|p1a: Calyrex
+|-start|p1a: Calyrex|Encore
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Toxapex|Infestation|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|82/100 tox
+|-activate|p1a: Calyrex|move: Infestation|[of] p2b: Toxapex
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|
+|-damage|p1b: Grimmsnarl|95/100 tox|[from] psn
+|-damage|p1a: Calyrex|65/100 tox|[from] psn
+|-damage|p1a: Calyrex|52/100 tox|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: Doey_exe|Reflect
+|upkeep
+|
+|t:|1750745370
+|switch|p2a: Ho-Oh|Ho-Oh, L50|72/100
+|turn|9
+|
+|t:|1750745384
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Ho-Oh|Recover|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|100/100
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|89/100
+|move|p2b: Toxapex|Infestation|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|93/100 tox
+|-activate|p1b: Grimmsnarl|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1b: Grimmsnarl|81/100 tox|[from] psn
+|-damage|p1a: Calyrex|29/100 tox|[from] psn
+|-damage|p1b: Grimmsnarl|69/100 tox|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Calyrex|16/100 tox|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: Doey_exe|move: Light Screen
+|upkeep
+|turn|10
+|-message|Doey_exe forfeited.
+|
+|win|hdlshshxvqjw
+|raw|Doey_exe's rating: 1255 &rarr; <strong>1234</strong><br />(-21 for losing)
+|raw|hdlshshxvqjw's rating: 1308 &rarr; <strong>1325</strong><br />(+17 for winning)
+|l|☆Doey_exe
+|player|p1|
+|l|☆hdlshshxvqjw
+|player|p2|

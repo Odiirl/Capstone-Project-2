@@ -1,0 +1,157 @@
+|j|☆Yisun
+|j|☆ZEATHS
+|t:|1750846287
+|gametype|doubles
+|player|p1|Yisun|2|1055
+|player|p2|ZEATHS|pokemaniac|1035
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ditto, L50|
+|teampreview|4
+ZEATHS has agreed to open team sheets.
+|
+|t:|1750846342
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Ditto|Ditto, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-transform|p2a: Ditto|p1b: Landorus|[from] ability: Imposter
+|turn|1
+|
+|t:|1750846400
+|move|p2b: Tornadus|Snowscape|p2b: Tornadus
+|-weather|Snowscape
+|move|p1a: Zacian|Behemoth Blade|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p2a: Ditto|Sludge Bomb|p1a: Zacian
+|-immune|p1a: Zacian
+|move|p1b: Landorus|Sandsear Storm|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750846417
+|switch|p2b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|turn|2
+|
+|t:|1750846438
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Zacian|Fairy
+|-terastallize|p2b: Kyurem|Ice
+|move|p1a: Zacian|Play Rough|p2b: Kyurem
+|-damage|p2b: Kyurem|45/100
+|move|p2b: Kyurem|Blizzard|p1b: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Zacian|15/100
+|-damage|p1b: Rillaboom|0 fnt
+|-status|p1a: Zacian|frz
+|faint|p1b: Rillaboom
+|move|p2a: Ditto|Sandsear Storm|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Kyurem|51/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750846457
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750846475
+|move|p1b: Landorus|Protect|p1b: Landorus
+|-singleturn|p1b: Landorus|Protect
+|move|p2b: Kyurem|Blizzard|p1b: Landorus|[spread] p1a
+|-activate|p1b: Landorus|move: Protect
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|64/100
+|move|p1a: Kyogre|Water Spout|p2a: Ditto|[spread] p2a,p2b
+|-supereffective|p2a: Ditto
+|-enditem|p2a: Ditto|Focus Sash
+|-damage|p2a: Ditto|1/100
+|-damage|p2b: Kyurem|0 fnt
+|faint|p2b: Kyurem
+|move|p2a: Ditto|Sandsear Storm|p1a: Kyogre|[spread] p1a
+|-activate|p1b: Landorus|move: Protect
+|-damage|p1a: Kyogre|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750846489
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750846506
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Kyogre|Origin Pulse|p2a: Ditto|[spread] 
+|-activate|p2a: Ditto|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Ditto|Sandsear Storm|p1b: Landorus|[spread] p1a
+|-immune|p1b: Landorus
+|-damage|p1a: Kyogre|10/100
+|move|p1b: Landorus|Sandsear Storm|p2b: Zamazenta|[spread] 
+|-activate|p2a: Ditto|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|16/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750846531
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Kyogre|Thunder|p2b: Zamazenta
+|-damage|p2b: Zamazenta|74/100
+|move|p1b: Landorus|Sandsear Storm|p2b: Zamazenta|[spread] 
+|-activate|p2a: Ditto|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Ditto|Sandsear Storm|p1b: Landorus|[spread] p1a
+|-immune|p1b: Landorus
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Zamazenta|80/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Yisun forfeited.
+|
+|win|ZEATHS
+|raw|Yisun's rating: 1055 &rarr; <strong>1036</strong><br />(-19 for losing)
+|raw|ZEATHS's rating: 1035 &rarr; <strong>1072</strong><br />(+37 for winning)
+|l|☆Yisun
+|player|p1|
+|c|☆ZEATHS|gg

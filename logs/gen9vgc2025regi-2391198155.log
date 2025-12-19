@@ -1,0 +1,251 @@
+|j|☆yueyueniao
+|j|☆Felduin
+|t:|1750815180
+|gametype|doubles
+|player|p1|yueyueniao|265|1096
+|player|p2|Felduin|psychic|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gothorita, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Chesnaught, L50, F|
+|poke|p2|Galvantula, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Decidueye, L50, F|
+|poke|p2|Suicune, L50|
+|teampreview|4
+|
+|t:|1750815229
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Galvantula|Galvantula, L50, F|100/100
+|switch|p2b: Suicune|Suicune, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|-fail|p2b: Suicune|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Suicune
+|turn|1
+|
+|t:|1750815251
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|switch|p1b: Gothorita|Gothorita, L50, F|100/100
+|move|p2a: Galvantula|Sticky Web|p1a: Scream Tail
+|-sidestart|p1: yueyueniao|move: Sticky Web
+|move|p2b: Suicune|Tailwind|p2b: Suicune
+|-sidestart|p2: Felduin|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750815280
+|move|p1b: Gothorita|Fake Out|p2b: Suicune
+|-damage|p2b: Suicune|97/100
+|move|p2a: Galvantula|Sticky Web||[still]
+|-fail|p2a: Galvantula
+|move|p1a: Scream Tail|Perish Song|p1a: Scream Tail
+|-start|p1a: Scream Tail|perish3|[silent]
+|-start|p1b: Gothorita|perish3|[silent]
+|-start|p2a: Galvantula|perish3|[silent]
+|-start|p2b: Suicune|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Suicune|Shadow Ball|p1b: Gothorita
+|-supereffective|p1b: Gothorita
+|-damage|p1b: Gothorita|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Suicune|100/100|[from] item: Leftovers
+|-heal|p1b: Gothorita|51/100|[from] item: Leftovers
+|-start|p2a: Galvantula|perish3
+|-start|p1a: Scream Tail|perish3
+|-start|p2b: Suicune|perish3
+|-start|p1b: Gothorita|perish3
+|upkeep
+|turn|3
+|
+|t:|1750815306
+|move|p1b: Gothorita|Protect|p1b: Gothorita
+|-singleturn|p1b: Gothorita|Protect
+|move|p2a: Galvantula|Sticky Web||[still]
+|-fail|p2a: Galvantula
+|move|p1a: Scream Tail|Encore|p2a: Galvantula
+|-start|p2a: Galvantula|Encore
+|move|p2b: Suicune|Shadow Ball|p1b: Gothorita
+|-activate|p1b: Gothorita|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gothorita|57/100|[from] item: Leftovers
+|-start|p2a: Galvantula|perish2
+|-start|p1a: Scream Tail|perish2
+|-start|p2b: Suicune|perish2
+|-start|p1b: Gothorita|perish2
+|upkeep
+|turn|4
+|
+|t:|1750815337
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-activate|p1a: Incineroar|move: Sticky Web
+|-unboost|p1a: Incineroar|spe|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|-fail|p2b: Suicune|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Suicune
+|-terastallize|p1b: Gothorita|Water
+|move|p2a: Galvantula|Sticky Web||[still]
+|-fail|p2a: Galvantula
+|move|p2b: Suicune|Shadow Ball|p1b: Gothorita
+|-damage|p1b: Gothorita|32/100
+|move|p1b: Gothorita|Taunt|p2b: Suicune
+|-start|p2b: Suicune|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gothorita|38/100|[from] item: Leftovers
+|-start|p2a: Galvantula|perish1
+|-start|p2b: Suicune|perish1
+|-start|p1b: Gothorita|perish1
+|-sideend|p2: Felduin|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750815363
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-activate|p1b: Scream Tail|move: Sticky Web
+|-unboost|p1b: Scream Tail|spe|1
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspd
+|move|p2a: Galvantula|Sticky Web||[still]
+|-fail|p2a: Galvantula
+|move|p2b: Suicune|Scald|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|move|p1a: Incineroar|Parting Shot|p2b: Suicune
+|-unboost|p2b: Suicune|atk|1
+|-unboost|p2b: Suicune|spa|1
+|
+|t:|1750815376
+|switch|p1a: Gothorita|Gothorita, L50, F, tera:Water|38/100|[from] Parting Shot
+|-activate|p1a: Gothorita|move: Sticky Web
+|-unboost|p1a: Gothorita|spe|1
+|
+|-weather|none
+|-end|p1b: Scream Tail|Protosynthesis
+|-heal|p1a: Gothorita|44/100|[from] item: Leftovers
+|-start|p2a: Galvantula|perish0
+|-start|p2b: Suicune|perish0
+|upkeep
+|faint|p2a: Galvantula
+|faint|p2b: Suicune
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspd
+|
+|t:|1750815387
+|switch|p2a: Zacian|Zacian, L50|100/100
+|switch|p2b: Decidueye|Decidueye, L50, F|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|6
+|
+|t:|1750815425
+|move|p1a: Gothorita|Fake Out|p2a: Zacian
+|-damage|p2a: Zacian|96/100
+|cant|p2a: Zacian|flinch
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothorita|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Zacian|perish3|[silent]
+|-start|p2b: Decidueye|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Decidueye|Swords Dance|p2b: Decidueye
+|-boost|p2b: Decidueye|atk|2
+|
+|-heal|p1a: Gothorita|50/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish3
+|-start|p1b: Scream Tail|perish3
+|-start|p2b: Decidueye|perish3
+|-start|p1a: Gothorita|perish3
+|upkeep
+|turn|7
+|
+|t:|1750815447
+|move|p1a: Gothorita|Protect|p1a: Gothorita
+|-singleturn|p1a: Gothorita|Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Gothorita
+|-activate|p1a: Gothorita|move: Protect
+|move|p1b: Scream Tail|Encore|p2b: Decidueye
+|-start|p2b: Decidueye|Encore
+|move|p2b: Decidueye|Swords Dance|p2b: Decidueye
+|-boost|p2b: Decidueye|atk|2
+|
+|-heal|p1a: Gothorita|56/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish2
+|-start|p1b: Scream Tail|perish2
+|-start|p2b: Decidueye|perish2
+|-start|p1a: Gothorita|perish2
+|upkeep
+|turn|8
+|
+|t:|1750815475
+|switch|p1a: Incineroar|Incineroar, L50, M|74/100
+|-activate|p1a: Incineroar|move: Sticky Web
+|-unboost|p1a: Incineroar|spe|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Decidueye|atk|1
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|3/100
+|move|p2b: Decidueye|Swords Dance|p2b: Decidueye
+|-boost|p2b: Decidueye|atk|2
+|
+|-start|p2a: Zacian|perish1
+|-start|p1b: Scream Tail|perish1
+|-start|p2b: Decidueye|perish1
+|upkeep
+|turn|9
+|
+|t:|1750815499
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|move: Sticky Web
+|-unboost|p1b: Koraidon|spe|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Incineroar|Fake Out|p2a: Zacian
+|-damage|p2a: Zacian|85/100
+|cant|p2a: Zacian|flinch
+|move|p2b: Decidueye|Swords Dance|p2b: Decidueye
+|-boost|p2b: Decidueye|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Decidueye|Encore
+|-start|p2a: Zacian|perish0
+|-start|p2b: Decidueye|perish0
+|upkeep
+|faint|p2a: Zacian
+|faint|p2b: Decidueye
+|
+|win|yueyueniao
+|raw|yueyueniao's rating: 1096 &rarr; <strong>1120</strong><br />(+24 for winning)
+|raw|Felduin's rating: 1076 &rarr; <strong>1056</strong><br />(-20 for losing)
+|l|☆Felduin
+|player|p2|
+|l|☆yueyueniao
+|player|p1|

@@ -1,0 +1,200 @@
+|j|☆kevinok45
+|j|☆testLean
+|t:|1750882732
+|gametype|doubles
+|player|p1|kevinok45|youngster-gen4dp|1157
+|player|p2|testLean|266|1086
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Klefki, L50, F|
+|poke|p2|Dragalge, L50, F|
+|poke|p2|Decidueye-Hisui, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testLean)
+|
+|t:|1750882777
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Klefki|Klefki, L50, F|100/100
+|switch|p2b: Dragalge|Dragalge, L50, F, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750882798
+|-terastallize|p2b: Dragalge|Ghost
+|move|p1b: Tornadus|Taunt|p2b: Dragalge
+|-start|p2b: Dragalge|move: Taunt
+|move|p1a: Calyrex|Leech Seed|p2b: Dragalge
+|-start|p2b: Dragalge|move: Leech Seed
+|move|p2b: Dragalge|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|35/100
+|move|p2a: Klefki|Trick Room|p2a: Klefki
+|-fieldstart|move: Trick Room|[of] p2a: Klefki
+|
+|-heal|p1a: Calyrex|41/100|[from] item: Leftovers
+|-damage|p2b: Dragalge|88/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|49/100|[silent]
+|upkeep
+|turn|2
+|inactive|testLean has 30 seconds left.
+|
+|t:|1750882823
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: testLean|Reflect
+|move|p1b: Tornadus|Taunt|p2a: Klefki
+|-start|p2a: Klefki|move: Taunt
+|move|p2b: Dragalge|Shadow Ball|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|55/100|[from] item: Leftovers
+|-damage|p2b: Dragalge|76/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|63/100|[silent]
+|upkeep
+|turn|3
+|inactive|testLean has 30 seconds left.
+|
+|t:|1750882849
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Dragalge|Shadow Ball|p1a: Terapagos
+|-immune|p1a: Terapagos
+|move|p2a: Klefki|Dazzling Gleam|p1a: Terapagos|[spread] p1a,p1b
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|93/100
+|-damage|p1b: Tornadus|75/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Klefki|[spread] p2a,p2b
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|77/100
+|-damage|p2b: Dragalge|50/100
+|
+|-damage|p2b: Dragalge|38/100|[from] Leech Seed|[of] p1a: Terapagos
+|-heal|p1a: Terapagos|100/100|[silent]
+|-end|p2b: Dragalge|move: Taunt
+|upkeep
+|turn|4
+|inactive|kevinok45 has 30 seconds left.
+|inactive|testLean has 30 seconds left.
+|
+|t:|1750882881
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Dragalge|Sludge Wave|p1a: Terapagos|[spread] p1a,p1b
+|-immune|p2a: Klefki
+|-damage|p1a: Terapagos|79/100
+|-damage|p1b: Amoonguss|73/100
+|move|p2a: Klefki|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Terapagos|68/100
+|-damage|p1b: Amoonguss|65/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Klefki|[spread] p2a,p2b
+|-supereffective|p2b: Dragalge
+|-damage|p2a: Klefki|9/100
+|-damage|p2b: Dragalge|0 fnt
+|faint|p2b: Dragalge
+|
+|upkeep
+|
+|t:|1750882902
+|switch|p2b: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|5
+|
+|t:|1750882912
+|move|p1b: Amoonguss|Spore|p2b: Groudon
+|-status|p2b: Groudon|slp|[from] move: Spore
+|move|p2a: Klefki|Dazzling Gleam|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Terapagos|56/100
+|-damage|p1b: Amoonguss|58/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Groudon|[spread] p2a,p2b
+|-damage|p2a: Klefki|0 fnt
+|-damage|p2b: Groudon|51/100 slp
+|faint|p2a: Klefki
+|cant|p2b: Groudon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750882927
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|turn|6
+|
+|t:|1750882939
+|move|p2a: Incineroar|Fake Out|p1a: Terapagos
+|-damage|p1a: Terapagos|50/100
+|-curestatus|p2b: Groudon|slp|[msg]
+|move|p2b: Groudon|Precipice Blades|p1a: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Terapagos|17/100
+|-damage|p1b: Amoonguss|22/100
+|cant|p1a: Terapagos|flinch
+|move|p1b: Amoonguss|Pollen Puff|p1a: Terapagos
+|-heal|p1a: Terapagos|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: testLean|Reflect
+|upkeep
+|turn|7
+|
+|t:|1750882964
+|switch|p1b: Tornadus|Tornadus, L50, M|75/100
+|move|p2b: Groudon|Precipice Blades|p1a: Terapagos|[spread] p1a
+|-immune|p1b: Tornadus
+|-damage|p1a: Terapagos|33/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Groudon|[spread] p2a,p2b
+|-damage|p2a: Incineroar|50/100
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|move|p2a: Incineroar|Flare Blitz|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|-damage|p2a: Incineroar|30/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750882974
+|switch|p1b: Amoonguss|Amoonguss, L50, F|55/100
+|turn|8
+|
+|t:|1750882987
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Terapagos|Tera Starstorm|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|kevinok45
+|raw|kevinok45's rating: 1157 &rarr; <strong>1177</strong><br />(+20 for winning)
+|raw|testLean's rating: 1086 &rarr; <strong>1068</strong><br />(-18 for losing)
+|l|☆testLean
+|player|p2|
+|l|☆kevinok45
+|player|p1|

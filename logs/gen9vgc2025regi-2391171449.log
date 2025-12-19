@@ -1,0 +1,158 @@
+|j|☆azzazzl
+|j|☆Abl6y
+|t:|1750811602
+|gametype|doubles
+|player|p1|azzazzl|dawn|1406
+|player|p2|Abl6y|swimmer-gen4dp|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Abl6y)
+|j| empm
+|
+|t:|1750811615
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-end|p2b: Iron Hands|Quark Drive
+|turn|1
+|inactive|Abl6y has 30 seconds left.
+|
+|t:|1750811642
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Miraidon|Volt Switch|p1b: Indeedee
+|-damage|p1b: Indeedee|41/100
+|
+|t:|1750811647
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Iron Hands|Low Kick|p1b: Indeedee
+|-damage|p1b: Indeedee|9/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750811666
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Iron Hands|Low Kick|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|77/100
+|move|p1a: Calyrex|Imprison|p1a: Calyrex
+|-start|p1a: Calyrex|move: Imprison
+|
+|upkeep
+|
+|t:|1750811676
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750811686
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Kyogre|Water Spout|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Iron Hands|49/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Iron Hands|5/100
+|move|p2b: Iron Hands|Wild Charge|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2b: Iron Hands|0 fnt|[from] Recoil
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750811706
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|4
+|
+|t:|1750811716
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|67/100
+|-damage|p2b: Miraidon|37/100
+|move|p1b: Gallade|Sacred Sword|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-damage|p1b: Gallade|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750811732
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750811746
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Urshifu|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|33/100
+|move|p1b: Gallade|Sacred Sword|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1b: Gallade|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|Abl6y forfeited.
+|
+|win|azzazzl
+|raw|azzazzl's rating: 1406 &rarr; <strong>1424</strong><br />(+18 for winning)
+|raw|Abl6y's rating: 1363 &rarr; <strong>1345</strong><br />(-18 for losing)
+|l|☆azzazzl
+|player|p1|
+|l|☆Abl6y
+|player|p2|
+|l| empm

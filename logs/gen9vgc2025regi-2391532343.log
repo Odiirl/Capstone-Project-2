@@ -1,0 +1,151 @@
+|j|☆aires17
+|j|☆CEExy
+|t:|1750867096
+|gametype|doubles
+|player|p1|aires17|1|1516
+|player|p2|CEExy|170|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Eternatus, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri-Droopy, L50, M|
+|teampreview|4
+aires17 rejected open team sheets.
+|
+|t:|1750867129
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750867157
+|-terastallize|p2b: Weezing|Normal
+|move|p1b: Rillaboom|Fake Out|p2b: Weezing
+|-damage|p2b: Weezing|86/100
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|cant|p2b: Weezing|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750867174
+|move|p1a: Volcarona|Fiery Dance|p2b: Weezing
+|-damage|p2b: Weezing|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Volcarona|Grassy Seed
+|-boost|p1a: Volcarona|def|1|[from] item: Grassy Seed
+|move|p2a: Calyrex|Astral Barrage|p1b: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Volcarona|13/100
+|-damage|p1b: Rillaboom|11/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Rillaboom|Wood Hammer|p2a: Calyrex
+|-damage|p2a: Calyrex|5/100
+|-damage|p1b: Rillaboom|0 fnt|[from] Recoil
+|faint|p1b: Rillaboom
+|
+|-heal|p1a: Volcarona|19/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|11/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750867193
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|3
+|
+|t:|1750867219
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Volcarona|Giga Drain|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-heal|p1a: Volcarona|24/100|[from] drain|[of] p2a: Calyrex
+|faint|p2a: Calyrex
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|65/100
+|-enditem|p1b: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-heal|p1b: Calyrex|71/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|30/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750867225
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|4
+|
+|t:|1750867242
+|move|p1b: Calyrex|Leech Seed|p2a: Eternatus
+|-start|p2a: Eternatus|move: Leech Seed
+|move|p2b: Incineroar|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|10/100
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p1a: Volcarona|16/100|[from] Grassy Terrain
+|upkeep
+|c|☆aires17|lol double crit
+|
+|t:|1750867257
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750867286
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-damage|p2b: Incineroar|96/100|[from] Recoil
+|move|p2a: Eternatus|Dynamax Cannon|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|CEExy
+|raw|aires17's rating: 1516 &rarr; <strong>1491</strong><br />(-25 for losing)
+|raw|CEExy's rating: 1436 &rarr; <strong>1461</strong><br />(+25 for winning)
+|l|☆aires17
+|player|p1|

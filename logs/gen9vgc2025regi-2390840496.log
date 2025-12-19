@@ -1,0 +1,162 @@
+|j|☆yuy123
+|j|☆BlackLocks
+|t:|1750774447
+|gametype|doubles
+|player|p1|yuy123|li|1432
+|player|p2|BlackLocks|hugh|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750774466
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750774488
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Urshifu|Surging Strikes|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|78/100
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|56/100
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|36/100
+|-hitcount|p1a: Indeedee|3
+|move|p2b: Amoonguss|Spore|p1a: Indeedee
+|-activate|p1a: Indeedee|item: Safety Goggles|Spore
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1750774513
+|-terastallize|p1b: Hatterene|Psychic
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Hatterene|Expanding Force|p2a: Urshifu|[spread] p2a
+|-activate|p2b: Amoonguss|move: Protect
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750774522
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750774543
+|-terastallize|p2a: Zamazenta|Dragon
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Hatterene|Expanding Force|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Zamazenta|2/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Hatterene|81/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750774563
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|4
+|
+|t:|1750774581
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Hatterene|Expanding Force|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Calyrex|move: Wide Guard
+|move|p1a: Kyogre|Ice Beam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|move|p2b: Calyrex|Astral Barrage|p1b: Hatterene|[spread] p1a,p1b
+|-supereffective|p1b: Hatterene
+|-damage|p1a: Kyogre|69/100
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750774601
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlackLocks)
+|
+|t:|1750774612
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Kyogre|Origin Pulse|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750774623
+|move|p2b: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Kyogre|25/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|82/100|[from] item: Life Orb
+|move|p1a: Kyogre|Origin Pulse|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|yuy123
+|raw|yuy123's rating: 1432 &rarr; <strong>1451</strong><br />(+19 for winning)
+|raw|BlackLocks's rating: 1412 &rarr; <strong>1393</strong><br />(-19 for losing)
+|l|☆yuy123
+|player|p1|

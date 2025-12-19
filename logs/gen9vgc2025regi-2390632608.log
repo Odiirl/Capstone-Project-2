@@ -1,0 +1,193 @@
+|j|☆Nihilego2105
+|j|☆Teamtest09
+|t:|1750739436
+|gametype|doubles
+|player|p1|Nihilego2105|169|1547
+|player|p2|Teamtest09|unknown|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750739478
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: The GOAT|Incineroar, L50, F|100/100
+|switch|p2b: The Bike|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: The Bike|ability: Hadron Engine
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: The GOAT|atk|1
+|-unboost|p2b: The Bike|atk|1
+|-ability|p2a: The GOAT|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750739533
+|switch|p2b: The Elephant|Iron Treads, L50|100/100
+|-activate|p2b: The Elephant|ability: Quark Drive
+|-start|p2b: The Elephant|quarkdrivespe
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p1a: Miraidon|Draco Meteor|p2b: The Elephant
+|-resisted|p2b: The Elephant
+|-damage|p2b: The Elephant|28/100
+|-unboost|p1a: Miraidon|spa|2
+|move|p2a: The GOAT|U-turn|p1a: Miraidon
+|-damage|p1a: Miraidon|89/100
+|
+|t:|1750739550
+|switch|p2a: The Horse|Calyrex-Ice, L50|100/100|[from] U-turn
+|-ability|p2a: The Horse|As One
+|-ability|p2a: The Horse|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750739598
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: The Horse|atk|1
+|-unboost|p2b: The Elephant|atk|1
+|-terastallize|p1b: Groudon|Fire
+|-terastallize|p2a: The Horse|Water
+|move|p2b: The Elephant|High Horsepower|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|52/100
+|-damage|p2b: The Elephant|18/100|[from] item: Life Orb
+|move|p1b: Groudon|Swords Dance|p1b: Groudon
+|-boost|p1b: Groudon|atk|2
+|move|p2a: The Horse|Glacial Lance|p1b: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Groudon
+|-damage|p1a: Incineroar|82/100
+|-damage|p1b: Groudon|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750739662
+|move|p2b: The Elephant|Protect|p2b: The Elephant
+|-singleturn|p2b: The Elephant|Protect
+|move|p1b: Groudon|Precipice Blades|p2a: The Horse|[spread] p2a
+|-activate|p2b: The Elephant|move: Protect
+|-damage|p2a: The Horse|41/100
+|move|p1a: Incineroar|Knock Off|p2a: The Horse
+|-damage|p2a: The Horse|19/100
+|-enditem|p2a: The Horse|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: The Horse|Leech Seed|p1b: Groudon
+|-start|p1b: Groudon|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Groudon|28/100|[from] Leech Seed|[of] p2a: The Horse
+|-heal|p2a: The Horse|31/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750739690
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|-enditem|p1b: Volcarona|Electric Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Electric Seed
+|switch|p2a: The GOAT|Incineroar, L50, F|100/100
+|-ability|p2a: The GOAT|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Volcarona|atk|1
+|move|p2b: The Elephant|High Horsepower|p1b: Volcarona
+|-damage|p1b: Volcarona|74/100
+|-status|p2b: The Elephant|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|-damage|p2b: The Elephant|9/100 brn|[from] item: Life Orb
+|move|p1a: Incineroar|Parting Shot|p2a: The GOAT
+|-unboost|p2a: The GOAT|atk|1
+|-unboost|p2a: The GOAT|spa|1
+|
+|t:|1750739714
+|switch|p1a: Miraidon|Miraidon, L50|89/100|[from] Parting Shot
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: The Elephant|3/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750739746
+|move|p1a: Miraidon|Volt Switch|p2a: The GOAT
+|-damage|p2a: The GOAT|57/100
+|
+|t:|1750739749
+|switch|p1a: Incineroar|Incineroar, L50, F|82/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: The GOAT|atk|1
+|-unboost|p2b: The Elephant|atk|1
+|move|p2b: The Elephant|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|56/100
+|-damage|p2b: The Elephant|0 fnt|[from] item: Life Orb
+|faint|p2b: The Elephant
+|-end|p2b: The Elephant|Quark Drive|[silent]
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2a: The GOAT|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|46/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|71/100|[from] item: Sitrus Berry
+|
+|t:|1750739766
+|switch|p2a: The Horse|Calyrex-Ice, L50, tera:Water|31/100|[from] U-turn
+|-ability|p2a: The Horse|As One
+|-ability|p2a: The Horse|Unnerve
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750739774
+|switch|p2b: The GOAT|Incineroar, L50, F|57/100
+|-ability|p2b: The GOAT|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Volcarona|atk|1
+|turn|6
+|
+|t:|1750739791
+|move|p1a: Incineroar|Fake Out|p2b: The GOAT
+|-damage|p2b: The GOAT|51/100
+|cant|p2b: The GOAT|flinch
+|move|p1b: Volcarona|Giga Drain|p2a: The Horse
+|-supereffective|p2a: The Horse
+|-crit|p2a: The Horse
+|-damage|p2a: The Horse|0 fnt
+|-heal|p1b: Volcarona|91/100|[from] drain|[of] p2a: The Horse
+|faint|p2a: The Horse
+|
+|upkeep
+|-message|Teamtest09 forfeited.
+|
+|win|Nihilego2105
+|raw|Nihilego2105's rating: 1547 &rarr; <strong>1567</strong><br />(+20 for winning)
+|raw|Teamtest09's rating: 1553 &rarr; <strong>1533</strong><br />(-20 for losing)
+|l|☆Teamtest09
+|player|p2|
+|l|☆Nihilego2105
+|player|p1|

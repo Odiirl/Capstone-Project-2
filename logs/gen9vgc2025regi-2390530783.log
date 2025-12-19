@@ -1,0 +1,167 @@
+|j|☆leathy
+|j|☆MegaBadHector
+|t:|1750724905
+|gametype|doubles
+|player|p1|leathy|cynthia-gen4|1472
+|player|p2|MegaBadHector|1|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Drifblim, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|
+|t:|1750724961
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Drifblim|Drifblim, L50, M|100/100
+|switch|p2a: Death|Miraidon, L50|100/100
+|switch|p2b: War|Iron Bundle, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Death
+|-activate|p2b: War|ability: Quark Drive
+|-start|p2b: War|quarkdrivespe
+|-enditem|p1b: Drifblim|Electric Seed
+|-boost|p1b: Drifblim|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750725018
+|-terastallize|p2b: War|Ghost
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p2b: War|Icy Wind|p1a: Smeargle|[spread] p1a,p1b
+|-supereffective|p1b: Drifblim
+|-damage|p1a: Smeargle|57/100
+|-damage|p1b: Drifblim|56/100
+|-unboost|p1a: Smeargle|spe|1
+|-unboost|p1b: Drifblim|spe|1
+|move|p2a: Death|Electro Drift|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|move|p1b: Drifblim|Minimize|p1b: Drifblim
+|-boost|p1b: Drifblim|evasion|2
+|
+|upkeep
+|
+|t:|1750725033
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750725061
+|move|p2b: War|Icy Wind|p1b: Drifblim|[spread] p1a
+|-miss|p2b: War|p1b: Drifblim
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|94/100
+|-unboost|p1a: Calyrex|spe|1
+|move|p2a: Death|Electro Drift|p1b: Drifblim
+|-supereffective|p1b: Drifblim
+|-damage|p1b: Drifblim|0 fnt
+|faint|p1b: Drifblim
+|move|p1a: Calyrex|Glacial Lance|p2a: Death|[spread] p2a,p2b
+|-supereffective|p2a: Death
+|-damage|p2a: Death|1/100
+|-damage|p2b: War|30/100
+|
+|-heal|p1a: Calyrex|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750725075
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750725089
+|-terastallize|p1b: Miraidon|Electric
+|move|p2b: War|Freeze-Dry|p1b: Miraidon
+|-damage|p1b: Miraidon|70/100
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2a: Death|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|9/100
+|move|p1a: Calyrex|Glacial Lance|p2b: War|[spread] p2a,p2b
+|-supereffective|p2a: Death
+|-damage|p2a: Death|0 fnt
+|-damage|p2b: War|0 fnt
+|faint|p2a: Death
+|faint|p2b: War
+|-end|p2b: War|Quark Drive|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-heal|p1a: Calyrex|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750725104
+|switch|p2b: Long Horse|Farigiraf, L50, M|100/100
+|switch|p2a: Horseman|Calyrex-Ice, L50|100/100
+|-ability|p2a: Horseman|As One
+|-ability|p2a: Horseman|Unnerve
+|-enditem|p2b: Long Horse|Electric Seed
+|-boost|p2b: Long Horse|def|1|[from] item: Electric Seed
+|turn|4
+|
+|t:|1750725125
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Miraidon|Parabolic Charge|p2b: Long Horse|[spread] p2a,p2b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p2a: Horseman|31/100
+|-heal|p1b: Miraidon|100/100|[from] drain|[of] p2a: Horseman
+|-damage|p2b: Long Horse|0 fnt
+|faint|p2b: Long Horse
+|-damage|p1b: Miraidon|91/100|[from] item: Life Orb
+|move|p2a: Horseman|Glacial Lance|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Miraidon|49/100
+|
+|-heal|p2a: Horseman|37/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|20/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750725150
+|move|p2a: Horseman|Protect|p2a: Horseman
+|-singleturn|p2a: Horseman|Protect
+|move|p1b: Miraidon|Parabolic Charge|p2a: Horseman|[spread] p1a
+|-activate|p2a: Horseman|move: Protect
+|-damage|p1a: Calyrex|0 fnt
+|-heal|p1b: Miraidon|60/100|[from] drain|[of] p1a: Calyrex
+|faint|p1a: Calyrex
+|-damage|p1b: Miraidon|51/100|[from] item: Life Orb
+|
+|-heal|p2a: Horseman|43/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750725162
+|move|p1b: Miraidon|Parabolic Charge|p2a: Horseman
+|-damage|p2a: Horseman|0 fnt
+|-heal|p1b: Miraidon|74/100|[from] drain|[of] p2a: Horseman
+|faint|p2a: Horseman
+|-damage|p1b: Miraidon|65/100|[from] item: Life Orb
+|
+|win|leathy
+|raw|leathy's rating: 1472 &rarr; <strong>1497</strong><br />(+25 for winning)
+|raw|MegaBadHector's rating: 1554 &rarr; <strong>1529</strong><br />(-25 for losing)
+|l|☆MegaBadHector
+|player|p2|
+|l|☆leathy
+|player|p1|

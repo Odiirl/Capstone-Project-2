@@ -1,0 +1,222 @@
+|j|☆Ricola7_YT
+|j|☆LiqOCE
+|t:|1750724322
+|gametype|doubles
+|player|p1|Ricola7_YT|2|1098
+|player|p2|LiqOCE|170|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dodrio, L50, M|
+|poke|p1|Hariyama, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|teampreview|4
+|
+|t:|1750724361
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|1
+|
+|t:|1750724387
+|-terastallize|p1b: Zacian|Ground
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Ricola7_YT|move: Tailwind
+|move|p1b: Zacian|Tera Blast|p2b: Amoonguss|[anim] Tera Blast Ground
+|-damage|p2b: Amoonguss|39/100
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750724418
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: Ricola7_YT|move: Light Screen
+|move|p2b: Amoonguss|Spore|p1b: Zacian
+|-status|p1b: Zacian|slp|[from] move: Spore
+|move|p2a: Lunala|Moongeist Beam|p1b: Zacian
+|-damage|p1b: Zacian|69/100 slp
+|cant|p1b: Zacian|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750724444
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|cant|p1b: Zacian|slp
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Whimsicott|Moonblast|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750724466
+|cant|p1b: Zacian|slp
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|7/100
+|move|p2a: Groudon|Precipice Blades|p1a: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Zacian|28/100 slp
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Ricola7_YT|move: Tailwind
+|upkeep
+|
+|t:|1750724469
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisdef
+|turn|5
+|
+|t:|1750724485
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|75/100
+|-status|p1a: Brute Bonnet|psn
+|move|p1a: Brute Bonnet|Pollen Puff|p1b: Zacian
+|-heal|p1b: Zacian|78/100 slp
+|move|p2a: Groudon|Precipice Blades|p1a: Brute Bonnet|[spread] p1a
+|-miss|p2a: Groudon|p1b: Zacian
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|62/100 psn
+|-curestatus|p1b: Zacian|slp|[msg]
+|move|p1b: Zacian|Tera Blast|p2b: Amoonguss|[anim] Tera Blast Ground
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Brute Bonnet|50/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|-enditem|p1a: Brute Bonnet|Sitrus Berry|[eat]
+|-heal|p1a: Brute Bonnet|75/100 psn|[from] item: Sitrus Berry
+|
+|t:|1750724502
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|turn|6
+|
+|t:|1750724528
+|move|p1b: Zacian|Behemoth Blade|p2b: Lunala
+|-damage|p2b: Lunala|69/100
+|move|p2a: Groudon|Heat Crash|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|4/100 psn
+|move|p1a: Brute Bonnet|Spore|p2a: Groudon
+|-status|p2a: Groudon|slp|[from] move: Spore
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Brute Bonnet|0 fnt|[from] psn
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-sideend|p1: Ricola7_YT|move: Light Screen
+|upkeep
+|
+|t:|1750724531
+|switch|p1a: Dodrio|Dodrio, L50, M|100/100
+|turn|7
+|
+|t:|1750724569
+|cant|p2a: Groudon|slp
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-enditem|p1a: Dodrio|Focus Sash
+|-damage|p1a: Dodrio|1/100
+|move|p1a: Dodrio|Drill Run|p2b: Lunala
+|-damage|p2b: Lunala|51/100
+|move|p1b: Zacian|Tera Blast|p2b: Lunala|[anim] Tera Blast Ground
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|none
+|upkeep
+|
+|t:|1750724577
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dodrio|atk|1
+|-unboost|p1b: Zacian|atk|1
+|turn|8
+|
+|t:|1750724588
+|-terastallize|p2b: Incineroar|Ghost
+|move|p1a: Dodrio|Protect|p1a: Dodrio
+|-singleturn|p1a: Dodrio|Protect
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|-curestatus|p2a: Groudon|slp|[msg]
+|move|p2a: Groudon|Precipice Blades|p1a: Dodrio|[spread] 
+|-activate|p1a: Dodrio|move: Protect
+|-activate|p1b: Zacian|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1750724613
+|move|p2b: Incineroar|Flare Blitz|p1b: Zacian
+|-damage|p1b: Zacian|39/100
+|-damage|p2b: Incineroar|88/100|[from] Recoil
+|move|p2a: Groudon|Precipice Blades|p1b: Zacian|[spread] 
+|-immune|p1a: Dodrio
+|-miss|p2a: Groudon|p1b: Zacian
+|move|p1a: Dodrio|Drill Peck|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100
+|move|p1b: Zacian|Tera Blast|p2a: Groudon|[anim] Tera Blast Ground
+|-damage|p2a: Groudon|72/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750724628
+|move|p2b: Incineroar|Flare Blitz|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-damage|p2b: Incineroar|60/100|[from] Recoil
+|move|p2a: Groudon|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|win|LiqOCE
+|raw|Ricola7_YT's rating: 1098 &rarr; <strong>1077</strong><br />(-21 for losing)
+|raw|LiqOCE's rating: 1147 &rarr; <strong>1168</strong><br />(+21 for winning)
+|l|☆Ricola7_YT
+|player|p1|
+|l|☆LiqOCE
+|player|p2|

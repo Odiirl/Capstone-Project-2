@@ -1,0 +1,196 @@
+|j|☆dyhdhdh
+|j|☆ANDR06
+|t:|1750822183
+|gametype|doubles
+|player|p1|dyhdhdh|ltsurge|1165
+|player|p2|ANDR06|phoebe-masters|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Inteleon, L50, M|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dyhdhdh)
+|
+|t:|1750822213
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Inteleon|Inteleon, L50, M|100/100
+|switch|p2b: Sceptile|Sceptile, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2b: Sceptile|Electric Seed
+|-boost|p2b: Sceptile|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750822230
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: dyhdhdh|move: Tailwind
+|move|p1b: Miraidon|Electro Drift|p2a: Inteleon
+|-supereffective|p2a: Inteleon
+|-enditem|p2a: Inteleon|Focus Sash
+|-damage|p2a: Inteleon|1/100
+|move|p2b: Sceptile|Grass Pledge|p1a: Tornadus
+|-waiting|p2b: Sceptile|p2a: Inteleon
+|move|p2a: Inteleon|Water Pledge|p1a: Tornadus|[from] move: Grass Pledge
+|-combine
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|55/100
+|-sidestart|p1: dyhdhdh|Grass Pledge
+|
+|upkeep
+|turn|2
+|
+|t:|1750822254
+|move|p2a: Inteleon|Protect|p2a: Inteleon
+|-singleturn|p2a: Inteleon|Protect
+|move|p2b: Sceptile|Shed Tail|p2b: Sceptile
+|-start|p2b: Sceptile|Substitute|[from] move: Shed Tail
+|-damage|p2b: Sceptile|50/100
+|
+|t:|1750822256
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] Shed Tail
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Miraidon|Electro Drift|p2a: Inteleon
+|-activate|p2a: Inteleon|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Inteleon|[spread] p2b
+|-activate|p2a: Inteleon|move: Protect
+|-resisted|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Substitute|[damage]
+|
+|upkeep
+|turn|3
+|inactive|dyhdhdh has 30 seconds left.
+|inactive|dyhdhdh has 20 seconds left.
+|inactive|dyhdhdh has 15 seconds left.
+|inactive|dyhdhdh has 10 seconds left.
+|inactive|dyhdhdh has 5 seconds left.
+|
+|t:|1750822308
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Miraidon|Electro Drift|p1b: Miraidon
+|-damage|p1b: Miraidon|11/100
+|move|p2a: Inteleon|Soak|p1b: Miraidon
+|-fail|p1b: Miraidon
+|move|p1b: Miraidon|Electro Drift|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-end|p2b: Miraidon|Substitute
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Inteleon|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Inteleon|0 fnt
+|-damage|p2b: Miraidon|82/100
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|t:|1750822320
+|switch|p2a: Sceptile|Sceptile, L50, M|50/100
+|turn|4
+|inactive|dyhdhdh has 30 seconds left.
+|inactive|dyhdhdh has 20 seconds left.
+|inactive|dyhdhdh has 15 seconds left.
+|
+|t:|1750822360
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Miraidon|Electro Drift|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p2a: Sceptile|Grass Pledge|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-crit|p1b: Koraidon
+|-damage|p1b: Koraidon|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: dyhdhdh|move: Tailwind
+|-sideend|p1: dyhdhdh|Grass Pledge
+|upkeep
+|
+|t:|1750822379
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|5
+|inactive|dyhdhdh has 30 seconds left.
+|inactive|dyhdhdh has 20 seconds left.
+|inactive|dyhdhdh has 15 seconds left.
+|inactive|dyhdhdh has 10 seconds left.
+|
+|t:|1750822427
+|move|p2b: Miraidon|Draco Meteor|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Koraidon
+|move|p2a: Sceptile|Dragon Cheer|p2b: Miraidon
+|-start|p2b: Miraidon|move: Dragon Cheer
+|move|p1a: Walking Wake|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2b: Miraidon
+|-damage|p1a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750822439
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|11/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1750822459
+|move|p2b: Iron Hands|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2a: Sceptile|Dragon Cheer|p2b: Iron Hands
+|-start|p2b: Iron Hands|move: Dragon Cheer
+|move|p1a: Walking Wake|Flamethrower|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|-damage|p1a: Walking Wake|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750822484
+|-terastallize|p2b: Iron Hands|Dragon
+|move|p1a: Walking Wake|Draco Meteor|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|44/100
+|-unboost|p1a: Walking Wake|spa|2
+|-damage|p1a: Walking Wake|71/100|[from] item: Life Orb
+|move|p2b: Iron Hands|Low Kick|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|win|ANDR06
+|raw|dyhdhdh's rating: 1165 &rarr; <strong>1133</strong><br />(-32 for losing)
+|raw|ANDR06's rating: 1063 &rarr; <strong>1102</strong><br />(+39 for winning)
+|l|☆dyhdhdh
+|player|p1|

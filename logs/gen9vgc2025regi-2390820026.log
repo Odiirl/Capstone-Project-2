@@ -1,0 +1,273 @@
+|j|☆Bloobrry
+|j|☆nicopejo
+|t:|1750772080
+|gametype|doubles
+|player|p1|Bloobrry|170|1066
+|player|p2|nicopejo|blaine|1055
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sceptile, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Sableye, L50, F|
+|teampreview|4
+|
+|t:|1750772111
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Glimmora|Glimmora, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750772132
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Sableye|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|93/100
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Bloobrry|move: Tailwind
+|cant|p1a: Miraidon|flinch
+|move|p2b: Glimmora|Toxic Spikes|p1b: Tornadus
+|-sidestart|p1: Bloobrry|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1750772154
+|move|p1b: Tornadus|Taunt|p2b: Glimmora
+|-start|p2b: Glimmora|move: Taunt
+|-enditem|p2b: Glimmora|Mental Herb
+|-end|p2b: Glimmora|move: Taunt
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: nicopejo|move: Light Screen
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Sableye|[spread] p2a,p2b
+|-supereffective|p2a: Sableye
+|-resisted|p2b: Glimmora
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2b: Glimmora|76/100
+|faint|p2a: Sableye
+|move|p2b: Glimmora|Mortal Spin|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|82/100
+|-damage|p1b: Tornadus|96/100
+|-status|p1a: Miraidon|psn
+|
+|-damage|p1a: Miraidon|70/100 psn|[from] psn
+|upkeep
+|
+|t:|1750772175
+|switch|p2a: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|3
+|
+|t:|1750772189
+|-terastallize|p2a: Wo-Chien|Poison
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Wo-Chien|[spread] p2a,p2b
+|-resisted|p2a: Wo-Chien
+|-resisted|p2b: Glimmora
+|-damage|p2a: Wo-Chien|84/100
+|-damage|p2b: Glimmora|51/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Wo-Chien|[spread] 
+|-miss|p1b: Tornadus|p2a: Wo-Chien
+|-miss|p1b: Tornadus|p2b: Glimmora
+|move|p2b: Glimmora|Toxic|p1b: Tornadus
+|-status|p1b: Tornadus|tox
+|move|p2a: Wo-Chien|Leech Seed|p1a: Miraidon
+|-start|p1a: Miraidon|move: Leech Seed
+|
+|-damage|p1a: Miraidon|57/100 psn|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|96/100|[silent]
+|-damage|p1a: Miraidon|45/100 psn|[from] psn
+|-damage|p1b: Tornadus|89/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750772212
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Glimmora|[spread] p2a
+|-activate|p2b: Glimmora|move: Protect
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|81/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Wo-Chien|[spread] p2a
+|-activate|p2b: Glimmora|move: Protect
+|-damage|p2a: Wo-Chien|67/100
+|-unboost|p2a: Wo-Chien|spe|1
+|move|p2a: Wo-Chien|Ruination|p1b: Tornadus
+|-damage|p1b: Tornadus|45/100 tox
+|
+|-damage|p1a: Miraidon|32/100 psn|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|79/100|[silent]
+|-damage|p1a: Miraidon|20/100 psn|[from] psn
+|-damage|p1b: Tornadus|33/100 tox|[from] psn
+|-sideend|p1: Bloobrry|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750772235
+|switch|p1a: Sceptile|Sceptile, L50, M|100/100
+|-status|p1a: Sceptile|psn
+|-enditem|p1a: Sceptile|Lum Berry|[eat]
+|-curestatus|p1a: Sceptile|psn|[msg]
+|move|p1b: Tornadus|Swagger|p1a: Sceptile
+|-boost|p1a: Sceptile|atk|2
+|-start|p1a: Sceptile|confusion
+|move|p2b: Glimmora|Toxic Spikes|p1b: Tornadus
+|-sidestart|p1: Bloobrry|move: Toxic Spikes
+|move|p2a: Wo-Chien|Ingrain|p2a: Wo-Chien
+|-start|p2a: Wo-Chien|move: Ingrain
+|
+|-heal|p2a: Wo-Chien|85/100|[from] Ingrain
+|-damage|p1b: Tornadus|15/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750772271
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Bloobrry|move: Tailwind
+|-activate|p1a: Sceptile|confusion
+|-damage|p1a: Sceptile|60/100|[from] confusion
+|move|p2a: Wo-Chien|Ruination|p1a: Sceptile
+|-damage|p1a: Sceptile|31/100
+|
+|-heal|p2a: Wo-Chien|91/100|[from] Ingrain
+|-damage|p1b: Tornadus|0 fnt|[from] psn
+|faint|p1b: Tornadus
+|upkeep
+|
+|t:|1750772282
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Wo-Chien|atk|1
+|-unboost|p2b: Glimmora|atk|1
+|turn|7
+|
+|t:|1750772296
+|-activate|p1a: Sceptile|confusion
+|-damage|p1a: Sceptile|0 fnt|[from] confusion
+|faint|p1a: Sceptile
+|move|p1b: Landorus|Earthquake|p2a: Wo-Chien|[spread] p2a,p2b
+|-supereffective|p2a: Wo-Chien
+|-supereffective|p2b: Glimmora
+|-damage|p2a: Wo-Chien|15/100
+|-damage|p2b: Glimmora|0 fnt
+|faint|p2b: Glimmora
+|move|p2a: Wo-Chien|Leech Seed|p1b: Landorus
+|-start|p1b: Landorus|move: Leech Seed
+|
+|-heal|p2a: Wo-Chien|21/100|[from] Ingrain
+|-damage|p1b: Landorus|88/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|33/100|[silent]
+|upkeep
+|
+|t:|1750772309
+|switch|p1a: Miraidon|Miraidon, L50, tera:Fairy|20/100 psn
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|8
+|
+|t:|1750772349
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Ting-Lu|[spread] 
+|-activate|p2a: Wo-Chien|move: Protect
+|-activate|p2b: Ting-Lu|move: Protect
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu|[spread] p1a
+|-activate|p2a: Wo-Chien|move: Protect
+|-activate|p2b: Ting-Lu|move: Protect
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-heal|p2a: Wo-Chien|39/100|[from] Ingrain
+|-damage|p1b: Landorus|76/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|50/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1750772372
+|move|p1b: Landorus|Earthquake|p2a: Wo-Chien|[spread] p2a,p2b
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|-damage|p2b: Ting-Lu|76/100
+|faint|p2a: Wo-Chien
+|move|p2b: Ting-Lu|Ruination|p1b: Landorus
+|-damage|p1b: Landorus|38/100
+|
+|-heal|p2b: Ting-Lu|82/100|[from] item: Leftovers
+|-sideend|p2: nicopejo|move: Light Screen
+|-sideend|p1: Bloobrry|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1750772389
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|39/100
+|move|p2b: Ting-Lu|Ruination|p1b: Landorus
+|-damage|p1b: Landorus|19/100
+|
+|-heal|p2b: Ting-Lu|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750772398
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|-heal|p2b: Ting-Lu|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750772409
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|13/100
+|move|p2b: Ting-Lu|Ruination|p1b: Landorus
+|-damage|p1b: Landorus|10/100
+|
+|-heal|p2b: Ting-Lu|19/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+|
+|t:|1750772418
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|-heal|p2b: Ting-Lu|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750772429
+|move|p1b: Landorus|Earthquake|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|0 fnt
+|faint|p2b: Ting-Lu
+|
+|win|Bloobrry
+|raw|Bloobrry's rating: 1066 &rarr; <strong>1099</strong><br />(+33 for winning)
+|raw|nicopejo's rating: 1094 &rarr; <strong>1068</strong><br />(-26 for losing)
+|l|☆nicopejo
+|player|p2|
+|l|☆Bloobrry
+|player|p1|

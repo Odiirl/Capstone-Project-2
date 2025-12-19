@@ -1,0 +1,140 @@
+|j|☆VioletsandViolence
+|j|☆just_an_amoeba
+|t:|1750864823
+|gametype|doubles
+|player|p1|VioletsandViolence|darach-caitlin|1262
+|player|p2|just_an_amoeba|1|1289
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Tsareena, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by just_an_amoeba)
+|inactive|VioletsandViolence has 60 seconds left.
+|
+|t:|1750864860
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Tsareena|atk|1
+|turn|1
+|inactive|just_an_amoeba has 30 seconds left.
+|inactive|just_an_amoeba has 20 seconds left.
+|
+|t:|1750864899
+|move|p1b: Landorus|Sludge Bomb|p2b: Tsareena
+|-supereffective|p2b: Tsareena
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2b: Tsareena
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|inactive|just_an_amoeba has 30 seconds left.
+|
+|t:|1750864928
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|inactive|just_an_amoeba has 30 seconds left.
+|
+|t:|1750864953
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Whimsicott|Encore|p2a: Lunala
+|-start|p2a: Lunala|Encore
+|move|p2b: Koraidon|Flame Charge|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|57/100
+|-boost|p2b: Koraidon|spe|1
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750864973
+|switch|p2b: Raichu|Raichu, L50, F|100/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: VioletsandViolence|move: Tailwind
+|move|p1b: Kyogre|Origin Pulse|p2b: Raichu|[spread] p2a,p2b
+|-damage|p2a: Lunala|70/100
+|-enditem|p2b: Raichu|Focus Sash
+|-damage|p2b: Raichu|1/100
+|move|p2a: Lunala|Meteor Beam|p1b: Kyogre|[from] lockedmove
+|-damage|p1b: Kyogre|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750864997
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50, tera:Fire|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Raichu|Fake Out|p1b: Landorus
+|-damage|p1b: Landorus|91/100
+|move|p1a: Whimsicott|Moonblast|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865008
+|switch|p2b: Lunala|Lunala, L50|70/100
+|turn|5
+|
+|t:|1750865025
+|switch|p1a: Kyogre|Kyogre, L50|65/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p1b: Landorus|Earth Power|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Lunala|Moongeist Beam|p1b: Landorus
+|-damage|p1b: Landorus|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|-message|just_an_amoeba forfeited.
+|
+|win|VioletsandViolence
+|raw|VioletsandViolence's rating: 1262 &rarr; <strong>1289</strong><br />(+27 for winning)
+|raw|just_an_amoeba's rating: 1289 &rarr; <strong>1262</strong><br />(-27 for losing)
+|l|☆just_an_amoeba
+|player|p2|

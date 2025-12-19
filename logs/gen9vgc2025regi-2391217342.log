@@ -1,0 +1,152 @@
+|j|☆RadicalDan
+|j|☆lupothewulf
+|t:|1750817787
+|gametype|doubles
+|player|p1|RadicalDan|1|1085
+|player|p2|lupothewulf|102|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Leafeon, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750817797
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Flutter Mane|atk|1
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750817833
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|move|p2b: Incineroar|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|93/100
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|8/100
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1b: Flutter Mane|0 fnt|[from] item: Life Orb
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750817861
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Leafeon|Leafeon, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750817883
+|-terastallize|p1b: Leafeon|Fire
+|move|p1b: Leafeon|Swords Dance|p1b: Leafeon
+|-boost|p1b: Leafeon|atk|2
+|move|p2a: Calyrex|Astral Barrage|p1b: Leafeon|[spread] p1a,p1b
+|-damage|p1a: Groudon|30/100
+|-damage|p1b: Leafeon|0 fnt
+|faint|p1b: Leafeon
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1a: Groudon|Crunch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Incineroar|Will-O-Wisp|p1a: Groudon
+|-status|p1a: Groudon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1750817903
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750817922
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: RadicalDan|move: Tailwind
+|move|p1a: Groudon|Precipice Blades|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Zamazenta
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Zamazenta|79/100
+|-damage|p2b: Incineroar|50/100
+|move|p2a: Zamazenta|Body Press|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Tornadus
+|-status|p1b: Tornadus|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Incineroar|56/100|[from] item: Leftovers
+|-damage|p1b: Tornadus|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750817955
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Zamazenta|[spread] p2a
+|-miss|p1b: Tornadus|p2b: Incineroar
+|-damage|p2a: Zamazenta|50/100
+|-unboost|p2a: Zamazenta|spe|1
+|move|p2a: Zamazenta|Heavy Slam|p1b: Tornadus
+|-damage|p1b: Tornadus|28/100 brn
+|move|p2b: Incineroar|Parting Shot|p1b: Tornadus
+|-unboost|p1b: Tornadus|atk|1
+|-unboost|p1b: Tornadus|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Incineroar|62/100|[from] item: Leftovers
+|-damage|p1b: Tornadus|23/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750817972
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|30/100
+|-damage|p2b: Incineroar|48/100
+|move|p2a: Zamazenta|Heavy Slam|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|win|lupothewulf
+|raw|RadicalDan's rating: 1085 &rarr; <strong>1064</strong><br />(-21 for losing)
+|raw|lupothewulf's rating: 1118 &rarr; <strong>1141</strong><br />(+23 for winning)
+|c|☆RadicalDan|Gg
+|l|☆lupothewulf
+|player|p2|
+|l|☆RadicalDan
+|player|p1|

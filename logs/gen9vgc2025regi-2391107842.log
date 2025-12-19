@@ -1,0 +1,132 @@
+|j|☆KrosFace
+|j|☆RSA9
+|t:|1750803426
+|gametype|doubles
+|player|p1|KrosFace|1|1237
+|player|p2|RSA9|265|1183
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Quagsire, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Brionne, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RSA9)
+|inactive|KrosFace has 60 seconds left.
+|
+|t:|1750803466
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, M|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Eternatus|Pressure
+|turn|1
+|inactive|KrosFace has 30 seconds left.
+|inactive|KrosFace has 20 seconds left.
+|inactive|KrosFace has 15 seconds left.
+|inactive|KrosFace has 10 seconds left.
+|inactive|KrosFace has 5 seconds left.
+|
+|t:|1750803518
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p1a: Koraidon|Flare Blitz|p2b: Ho-Oh
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|12/100
+|-damage|p1a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p2b: Ho-Oh
+|-damage|p1a: Koraidon|50/100|[from] Recoil
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Scovillain
+|-enditem|p1b: Scovillain|Focus Sash
+|-damage|p1b: Scovillain|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|RSA9 has 30 seconds left.
+|inactive|RSA9 has 20 seconds left.
+|inactive|RSA9 has 15 seconds left.
+|
+|t:|1750803561
+|switch|p2b: Brionne|Brionne, L50, M|100/100
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|move|p1a: Koraidon|Flare Blitz|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|-damage|p1a: Koraidon|6/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803577
+|switch|p2a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|3
+|inactive|RSA9 has 30 seconds left.
+|
+|t:|1750803614
+|move|p1b: Scovillain|Rage Powder|p1b: Scovillain
+|-singleturn|p1b: Scovillain|move: Rage Powder
+|move|p2b: Brionne|Aqua Jet|p1b: Scovillain
+|-damage|p1b: Scovillain|0 fnt
+|faint|p1b: Scovillain
+|move|p1a: Koraidon|Collision Course|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803628
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|46/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750803639
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Brionne|Aqua Jet|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-crit|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|-damage|p1b: Miraidon|84/100|[from] item: Rocky Helmet|[of] p2a: Ho-Oh
+|faint|p2a: Ho-Oh
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|RSA9 forfeited.
+|
+|win|KrosFace
+|raw|KrosFace's rating: 1237 &rarr; <strong>1258</strong><br />(+21 for winning)
+|raw|RSA9's rating: 1183 &rarr; <strong>1162</strong><br />(-21 for losing)
+|l|☆RSA9
+|player|p2|

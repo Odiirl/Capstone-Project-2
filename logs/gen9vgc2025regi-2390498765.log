@@ -1,0 +1,178 @@
+|j|☆rman500
+|j|☆zephnix
+|t:|1750720704
+|gametype|doubles
+|player|p1|rman500|265|1327
+|player|p2|zephnix|lucas-gen4pt|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Great Tusk, L50|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750720745
+|start
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p1b: Tsareena|Tsareena, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Tsareena|atk|1
+|turn|1
+|
+|t:|1750720766
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p1b: Tsareena|Protect|p1b: Tsareena
+|-singleturn|p1b: Tsareena|Protect
+|move|p2b: Rillaboom|Wood Hammer|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750720789
+|-terastallize|p1a: Kyogre|Grass
+|move|p1a: Kyogre|Water Spout|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Rillaboom|62/100
+|faint|p2a: Incineroar
+|move|p1b: Tsareena|Triple Axel|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|51/100
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|35/100
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|10/100
+|-hitcount|p2b: Rillaboom|3
+|move|p2b: Rillaboom|U-turn|p1b: Tsareena
+|-supereffective|p1b: Tsareena
+|-damage|p1b: Tsareena|50/100
+|
+|t:|1750720809
+|switch|p2b: Kyogre|Kyogre, L50|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Tsareena|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750720815
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750720840
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Tsareena
+|-damage|p1b: Tsareena|0 fnt
+|faint|p1b: Tsareena
+|move|p2b: Kyogre|Ice Beam|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750720850
+|switch|p1b: Great Tusk|Great Tusk, L50, shiny|100/100
+|turn|4
+|
+|t:|1750720866
+|move|p1b: Great Tusk|Close Combat|p2b: Kyogre
+|-damage|p2b: Kyogre|43/100
+|-unboost|p1b: Great Tusk|def|1
+|-unboost|p1b: Great Tusk|spd|1
+|move|p1a: Kyogre|Water Spout|p2a: Lunala|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Lunala|62/100
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p2a: Lunala|Moongeist Beam|p1b: Great Tusk
+|-damage|p1b: Great Tusk|0 fnt
+|faint|p1b: Great Tusk
+|-end|p1b: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lunala|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750720883
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|10/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|5
+|
+|t:|1750720905
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|-weather|none
+|-heal|p2a: Lunala|74/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|16/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750720930
+|-terastallize|p2a: Lunala|Water
+|move|p1b: Zacian|Behemoth Blade|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|40/100
+|move|p1a: Kyogre|Water Spout|p2b: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Lunala
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Lunala|13/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Lunala|Moongeist Beam|p1a: Kyogre
+|-damage|p1a: Kyogre|38/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750720946
+|move|p1b: Zacian|Play Rough|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|win|rman500
+|raw|rman500's rating: 1327 &rarr; <strong>1342</strong><br />(+15 for winning)
+|raw|zephnix's rating: 1232 &rarr; <strong>1214</strong><br />(-18 for losing)
+|l|☆rman500
+|player|p1|
+|l|☆zephnix
+|player|p2|

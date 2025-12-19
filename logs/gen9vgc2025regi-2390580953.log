@@ -1,0 +1,185 @@
+|j|☆JMDWMD
+|j|☆condret
+|t:|1750731771
+|gametype|doubles
+|player|p1|JMDWMD|2|1261
+|player|p2|condret|169|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Dondozo, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Entei, L50|
+|poke|p2|Gastrodon-East, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Conkeldurr, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JMDWMD)
+|inactive|condret has 60 seconds left.
+|
+|t:|1750731826
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750731844
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Miraidon|Volt Switch|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Indeedee|Trick|p2b: Miraidon
+|-activate|p1b: Indeedee|move: Trick|[of] p2b: Miraidon
+|-item|p2b: Miraidon|Lagging Tail|[from] move: Trick
+|-item|p1b: Indeedee|Assault Vest|[from] move: Trick
+|
+|upkeep
+|turn|2
+|inactive|JMDWMD has 30 seconds left.
+|inactive|condret has 30 seconds left.
+|inactive|condret has 20 seconds left.
+|inactive|condret has 15 seconds left.
+|
+|t:|1750731885
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|move|p1a: Calyrex|Taunt|p2a: Lunala
+|-start|p2a: Lunala|move: Taunt
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|move|p2b: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|61/100
+|
+|t:|1750731901
+|switch|p2b: Conkeldurr|Conkeldurr, L50, M|100/100|[from] Volt Switch
+|-enditem|p2b: Conkeldurr|Psychic Seed
+|-boost|p2b: Conkeldurr|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|
+|t:|1750731909
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|inactive|condret has 30 seconds left.
+|
+|t:|1750731935
+|switch|p2a: Gastrodon|Gastrodon-East, L50, M|100/100
+|-terastallize|p1b: Kyogre|Water
+|-terastallize|p2b: Conkeldurr|Dark
+|move|p1a: Calyrex|Astral Barrage|p2b: Conkeldurr|[spread] p2a,p2b
+|-resisted|p2b: Conkeldurr
+|-damage|p2a: Gastrodon|62/100
+|-damage|p2b: Conkeldurr|79/100
+|move|p1b: Kyogre|Water Spout|p2a: Gastrodon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-damage|p2b: Conkeldurr|0 fnt
+|faint|p2b: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750731960
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Gastrodon|Electric Seed
+|-boost|p2a: Gastrodon|def|1|[from] item: Electric Seed
+|turn|4
+|
+|t:|1750731976
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Lunala|[spread] p2a,p2b
+|-supereffective|p2b: Lunala
+|-damage|p2a: Gastrodon|27/100
+|-damage|p2b: Lunala|28/100
+|move|p1b: Kyogre|Water Spout|p2a: Gastrodon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p2a: Gastrodon|Muddy Water|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1b: Kyogre
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Kyogre|75/100
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750731995
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|
+|t:|1750732011
+|move|p1b: Kyogre|Water Spout|p2b: Miraidon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|38/100
+|-activate|p1a: Indeedee|move: Struggle
+|move|p1a: Indeedee|Struggle|p2b: Miraidon
+|-damage|p2b: Miraidon|33/100
+|-damage|p1a: Indeedee|76/100|[from] recoil
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|77/100
+|move|p2b: Miraidon|Draco Meteor|p1a: Indeedee|[miss]
+|-miss|p2b: Miraidon|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750732033
+|move|p1b: Kyogre|Water Spout|p2b: Miraidon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-activate|p1a: Indeedee|move: Struggle
+|move|p1a: Indeedee|Struggle|p2a: Gastrodon
+|-damage|p2a: Gastrodon|72/100
+|-damage|p1a: Indeedee|51/100|[from] recoil
+|move|p2a: Gastrodon|Muddy Water|p1b: Kyogre|[spread] p1a
+|-miss|p2a: Gastrodon|p1b: Kyogre
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|-message|JMDWMD forfeited.
+|
+|win|condret
+|raw|JMDWMD's rating: 1261 &rarr; <strong>1231</strong><br />(-30 for losing)
+|raw|condret's rating: 1192 &rarr; <strong>1222</strong><br />(+30 for winning)
+|l|☆JMDWMD
+|player|p1|

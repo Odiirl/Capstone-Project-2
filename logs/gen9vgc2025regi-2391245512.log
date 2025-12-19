@@ -1,0 +1,202 @@
+|j|☆anubisjr
+|j|☆hdlshshxvqjw
+|t:|1750821856
+|gametype|doubles
+|player|p1|anubisjr|102|1495
+|player|p2|hdlshshxvqjw|170|1567
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|
+|t:|1750821874
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Toxapex|Toxapex, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hdlshshxvqjw)
+|
+|t:|1750821890
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: anubisjr|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|6/100
+|
+|t:|1750821894
+|switch|p1b: Iron Treads|Iron Treads, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Treads|ability: Quark Drive
+|-start|p1b: Iron Treads|quarkdrivespe
+|move|p2a: Calyrex|Astral Barrage|p1a: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|35/100
+|-damage|p1b: Iron Treads|35/100
+|move|p2b: Toxapex|Toxic Spikes|p1b: Iron Treads
+|-sidestart|p1: anubisjr|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1750821913
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-fail|p1b: Iron Treads|unboost|[from] item: Clear Amulet|[of] p1b: Iron Treads
+|move|p1b: Iron Treads|High Horsepower|p2b: Toxapex
+|-supereffective|p2b: Toxapex
+|-damage|p2b: Toxapex|36/100
+|move|p1a: Whimsicott|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|83/100
+|move|p2b: Toxapex|Infestation|p1b: Iron Treads
+|-resisted|p1b: Iron Treads
+|-damage|p1b: Iron Treads|32/100
+|-activate|p1b: Iron Treads|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1b: Iron Treads|20/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750821944
+|move|p2a: Incineroar|Fake Out|p1b: Iron Treads
+|-resisted|p1b: Iron Treads
+|-damage|p1b: Iron Treads|16/100
+|move|p1a: Whimsicott|Taunt|p2b: Toxapex
+|-start|p2b: Toxapex|move: Taunt
+|-enditem|p2b: Toxapex|Mental Herb
+|-end|p2b: Toxapex|move: Taunt
+|cant|p1b: Iron Treads|flinch
+|move|p2b: Toxapex|Infestation|p1a: Whimsicott
+|-damage|p1a: Whimsicott|31/100
+|-activate|p1a: Whimsicott|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1b: Iron Treads|4/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Whimsicott|19/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750821977
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Iron Treads|High Horsepower|p2a: Ho-Oh
+|-immune|p2a: Ho-Oh
+|move|p1a: Whimsicott|Moonblast|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|93/100
+|
+|-damage|p1b: Iron Treads|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Iron Treads
+|-end|p1b: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Whimsicott|7/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: anubisjr|move: Tailwind
+|upkeep
+|
+|t:|1750821985
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-status|p1b: Calyrex|psn
+|turn|5
+|
+|t:|1750822004
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: anubisjr|move: Tailwind
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Calyrex
+|-damage|p1b: Calyrex|44/100 psn
+|
+|-damage|p1b: Calyrex|32/100 psn|[from] psn
+|-damage|p1a: Whimsicott|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1a: Whimsicott
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750822007
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-status|p1a: Miraidon|psn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|inactive|anubisjr has 30 seconds left.
+|inactive|hdlshshxvqjw has 30 seconds left.
+|
+|t:|1750822038
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Calyrex|Psychic|p2a: Ho-Oh
+|-activate|p2a: Ho-Oh|move: Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Ho-Oh
+|-activate|p2a: Ho-Oh|move: Protect
+|
+|-damage|p1b: Calyrex|20/100 psn|[from] psn
+|-damage|p1a: Miraidon|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750822061
+|switch|p2a: Incineroar|Incineroar, L50, M|83/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Calyrex|Psychic|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1a: Miraidon|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|4/100
+|
+|-damage|p1b: Calyrex|8/100 psn|[from] psn
+|-damage|p1a: Miraidon|76/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750822084
+|move|p2a: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|66/100 psn
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|cant|p1a: Miraidon|flinch
+|
+|-damage|p1b: Calyrex|0 fnt|[from] psn
+|faint|p1b: Calyrex
+|-damage|p1a: Miraidon|54/100 psn|[from] psn
+|-sideend|p1: anubisjr|move: Tailwind
+|upkeep
+|turn|9
+|-message|anubisjr forfeited.
+|
+|win|hdlshshxvqjw
+|raw|anubisjr's rating: 1495 &rarr; <strong>1479</strong><br />(-16 for losing)
+|raw|hdlshshxvqjw's rating: 1567 &rarr; <strong>1583</strong><br />(+16 for winning)
+|l|☆anubisjr
+|player|p1|
+|l|☆hdlshshxvqjw
+|player|p2|

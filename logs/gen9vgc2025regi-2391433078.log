@@ -1,0 +1,192 @@
+|j|☆fskhan
+|j|☆Swiftstorm
+|t:|1750855422
+|gametype|doubles
+|player|p1|fskhan|2|1458
+|player|p2|Swiftstorm|1|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Weavile, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Great Tusk, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fskhan)
+|inactive|fskhan has 60 seconds left.
+|inactive|Swiftstorm has 60 seconds left.
+|
+|t:|1750855476
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Raichu|Raichu, L50, M|100/100
+|-ability|p2a: Eternatus|Pressure
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-enditem|p1b: Iron Valiant|Booster Energy
+|-activate|p1b: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750855488
+|move|p2b: Raichu|Fake Out|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|91/100
+|cant|p1b: Iron Valiant|flinch
+|move|p2a: Eternatus|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750855499
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750855512
+|move|p1b: Iron Valiant|Coaching|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|1
+|-boost|p1a: Calyrex|def|1
+|move|p2a: Eternatus|Sludge Bomb|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p2b: Raichu|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|89/100
+|
+|t:|1750855521
+|switch|p2b: Politoed|Politoed, L50, M|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|move|p1a: Calyrex|Glacial Lance|p2b: Politoed|[spread] p2a,p2b
+|-supereffective|p2a: Eternatus
+|-resisted|p2b: Politoed
+|-damage|p2a: Eternatus|0 fnt
+|-damage|p2b: Politoed|64/100
+|faint|p2a: Eternatus
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|70/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750855532
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|3
+|
+|t:|1750855545
+|move|p2a: Raichu|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|91/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Raichu|[spread] p2a,p2b
+|-damage|p2a: Raichu|79/100
+|-damage|p2b: Politoed|48/100
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1a: Calyrex|perish3|[silent]
+|-start|p1b: Miraidon|perish3|[silent]
+|-start|p2a: Raichu|perish3|[silent]
+|-start|p2b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Calyrex|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|54/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|97/100|[from] item: Leftovers
+|-start|p1b: Miraidon|perish3
+|-start|p2a: Raichu|perish3
+|-start|p2b: Politoed|perish3
+|-start|p1a: Calyrex|perish3
+|upkeep
+|turn|4
+|
+|t:|1750855568
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Politoed|[spread] p2a
+|-activate|p2b: Politoed|move: Protect
+|-damage|p2a: Zamazenta|81/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Politoed|[spread] p2a
+|-activate|p2b: Politoed|move: Protect
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|60/100|[from] item: Leftovers
+|-heal|p1a: Calyrex|100/100|[from] item: Leftovers
+|-start|p1b: Miraidon|perish2
+|-start|p2b: Politoed|perish2
+|-start|p1a: Calyrex|perish2
+|upkeep
+|turn|5
+|
+|t:|1750855591
+|switch|p2b: Raichu|Raichu, L50, M|79/100
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Miraidon|Electro Drift|p2b: Raichu
+|-activate|p2b: Raichu|ability: Lightning Rod
+|-ability|p2b: Raichu|Lightning Rod|boost
+|-boost|p2b: Raichu|spa|1
+|move|p1a: Calyrex|Body Press|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Miraidon|perish1
+|-start|p1a: Calyrex|perish1
+|upkeep
+|
+|t:|1750855607
+|switch|p2b: Politoed|Politoed, L50, M|60/100
+|turn|6
+|
+|t:|1750855615
+|-terastallize|p2a: Zamazenta|Grass
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|24/100
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|30/100
+|move|p1a: Calyrex|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100
+|
+|-weather|none
+|-heal|p2b: Politoed|66/100|[from] item: Leftovers
+|-start|p1b: Miraidon|perish0
+|-start|p1a: Calyrex|perish0
+|faint|p1b: Miraidon
+|faint|p1a: Calyrex
+|
+|win|Swiftstorm
+|raw|fskhan's rating: 1458 &rarr; <strong>1434</strong><br />(-24 for losing)
+|raw|Swiftstorm's rating: 1379 &rarr; <strong>1403</strong><br />(+24 for winning)
+|c|☆fskhan|Cool team
+|l|☆Swiftstorm
+|player|p2|

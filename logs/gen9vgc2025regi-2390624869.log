@@ -1,0 +1,231 @@
+|j|☆crj2002
+|j|☆Rotomotopoto
+|t:|1750738187
+|gametype|doubles
+|player|p1|crj2002|rosa|1453
+|player|p2|Rotomotopoto|cynthia|1413
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+crj2002 has agreed to open team sheets.
+|
+|t:|1750738241
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750738269
+|switch|p2b: Lunala|Lunala, L50|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Rotomotopoto|Reflect
+|move|p1b: Rillaboom|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|84/100
+|
+|t:|1750738278
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Calyrex|Leech Seed|p2b: Lunala
+|-start|p2b: Lunala|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Grimmsnarl|90/100|[from] Grassy Terrain
+|-damage|p2b: Lunala|88/100|[from] Leech Seed|[of] p1a: Calyrex
+|upkeep
+|turn|2
+|
+|t:|1750738295
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Rotomotopoto|move: Light Screen
+|move|p2b: Lunala|Moongeist Beam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Kyogre|Water Spout|p2a: Grimmsnarl|[spread] p2a,p2b
+|-crit|p2b: Lunala
+|-damage|p2a: Grimmsnarl|14/100
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Grimmsnarl|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750738302
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rotomotopoto)
+|
+|t:|1750738327
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p2b: Miraidon|Electric
+|-terastallize|p1b: Kyogre|Grass
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Kyogre
+|-status|p1b: Kyogre|par
+|move|p2b: Miraidon|Electro Drift|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|76/100 par
+|move|p1b: Kyogre|Origin Pulse|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Miraidon|65/100
+|faint|p2a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon|71/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|82/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750738341
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750738358
+|move|p1a: Rillaboom|Fake Out|p2a: Urshifu
+|-damage|p2a: Urshifu|90/100
+|move|p2b: Miraidon|Electro Drift|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|70/100
+|cant|p2a: Urshifu|flinch
+|move|p1b: Kyogre|Origin Pulse|p2b: Miraidon|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Urshifu
+|-damage|p2b: Miraidon|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon|42/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|96/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|76/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|87/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750738373
+|move|p2b: Miraidon|Electro Drift|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|47/100
+|move|p2a: Urshifu|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p1b: Kyogre|Origin Pulse|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|52/100
+|-damage|p2b: Miraidon|12/100
+|
+|-weather|none
+|-heal|p2b: Miraidon|17/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|57/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|93/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750738393
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|6
+|
+|t:|1750738403
+|move|p1a: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|11/100
+|cant|p2b: Miraidon|flinch
+|move|p2a: Urshifu|U-turn|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|46/100 par
+|cant|p1b: Kyogre|par
+|
+|-heal|p2b: Miraidon|17/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|63/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|51/100 par|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|Rotomotopoto has 30 seconds left.
+|
+|t:|1750738434
+|move|p2b: Miraidon|Draco Meteor|p1a: Incineroar
+|-damage|p1a: Incineroar|30/100
+|-unboost|p2b: Miraidon|spa|2
+|move|p2a: Urshifu|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|11/100
+|-damage|p2a: Urshifu|47/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Urshifu|[miss]
+|-miss|p1a: Incineroar|p2a: Urshifu
+|cant|p1b: Kyogre|par
+|
+|-heal|p2b: Miraidon|23/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|53/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|17/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|57/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750738452
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2b: Miraidon|6/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|move|p2a: Urshifu|U-turn|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|5/100 par
+|move|p1b: Kyogre|Origin Pulse|p2a: Urshifu|[spread] p2a
+|-miss|p1b: Kyogre|p2b: Miraidon
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|22/100
+|
+|-sideend|p2: Rotomotopoto|Reflect
+|upkeep
+|
+|t:|1750738464
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750738476
+|move|p2b: Miraidon|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|91/100
+|-damage|p1b: Kyogre|0 fnt
+|-unboost|p1a: Calyrex|spa|1
+|faint|p1b: Kyogre
+|move|p2a: Urshifu|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|61/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Urshifu
+|faint|p2b: Miraidon
+|
+|win|crj2002
+|raw|crj2002's rating: 1453 &rarr; <strong>1471</strong><br />(+18 for winning)
+|raw|Rotomotopoto's rating: 1413 &rarr; <strong>1395</strong><br />(-18 for losing)
+|l|☆crj2002
+|player|p1|

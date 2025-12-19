@@ -1,0 +1,215 @@
+|j|☆oops i cooked
+|j|☆TridungTang
+|t:|1750835123
+|gametype|doubles
+|player|p1|oops i cooked|preschooler|1197
+|player|p2|TridungTang|n|1270
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Rotom-Heat, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|
+|t:|1750835173
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TridungTang)
+|inactive|oops i cooked has 60 seconds left.
+|inactive|oops i cooked has 30 seconds left.
+|inactive|oops i cooked has 20 seconds left.
+|inactive|oops i cooked has 15 seconds left.
+|
+|t:|1750835253
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Gothitelle|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1b: Rotom|Reflect|p1b: Rotom
+|-sidestart|p1: oops i cooked|Reflect
+|move|p2a: Lunala|Moongeist Beam|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835273
+|move|p2b: Koraidon|U-turn|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|
+|t:|1750835279
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100|[from] U-turn
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|move|p1b: Rotom|Volt Switch|p2a: Lunala
+|-damage|p2a: Lunala|91/100
+|
+|t:|1750835287
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100|[from] Volt Switch
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2a: Lunala|Moongeist Beam|p1b: Terapagos
+|-immune|p1b: Terapagos
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750835300
+|switch|p1a: Rotom|Rotom-Heat, L50|100/100
+|turn|3
+|
+|t:|1750835317
+|switch|p2a: Gothitelle|Gothitelle, L50, M, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Rotom|perish3|[silent]
+|-start|p1b: Koraidon|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Rotom|Overheat|p2a: Gothitelle
+|-damage|p2a: Gothitelle|24/100
+|-unboost|p1a: Rotom|spa|2
+|-enditem|p2a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2a: Gothitelle|49/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Scream Tail|perish3
+|-start|p1b: Koraidon|perish3
+|-start|p1a: Rotom|perish3
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|4
+|
+|t:|1750835340
+|move|p2a: Gothitelle|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|97/100
+|move|p2b: Scream Tail|Disable|p1a: Rotom
+|-start|p1a: Rotom|Disable|Overheat
+|cant|p1b: Koraidon|flinch
+|move|p1a: Rotom|Volt Switch|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|88/100
+|
+|t:|1750835347
+|switch|p1a: Terapagos|Terapagos-Terastal, L50, M|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Scream Tail|perish2
+|-start|p1b: Koraidon|perish2
+|-start|p2a: Gothitelle|perish2
+|upkeep
+|turn|5
+|inactive|oops i cooked has 30 seconds left.
+|
+|t:|1750835373
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Terapagos|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Koraidon|Flare Blitz|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|move|p1a: Terapagos|Meteor Beam||[still]
+|-prepare|p1a: Terapagos|Meteor Beam
+|-boost|p1a: Terapagos|spa|1
+|-enditem|p1a: Terapagos|Power Herb
+|-anim|p1a: Terapagos|Meteor Beam|p2b: Scream Tail
+|-damage|p2b: Scream Tail|61/100
+|
+|-weather|none
+|-end|p2b: Scream Tail|Protosynthesis
+|-start|p2b: Scream Tail|perish1
+|-start|p1b: Koraidon|perish1
+|-start|p1a: Terapagos|perish3
+|-start|p2a: Gothitelle|perish1
+|-sideend|p1: oops i cooked|Reflect
+|upkeep
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|6
+|inactive|oops i cooked has 30 seconds left.
+|inactive|TridungTang has 30 seconds left.
+|
+|t:|1750835402
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|91/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|switch|p2a: Lunala|Lunala, L50, shiny|97/100
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|24/100
+|-damage|p1b: Koraidon|55/100|[from] Recoil
+|-damage|p1b: Koraidon|45/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|30/100|[from] item: Leftovers
+|-start|p1b: Koraidon|perish0
+|-start|p1a: Terapagos|perish2
+|faint|p1b: Koraidon
+|upkeep
+|
+|t:|1750835414
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100
+|turn|7
+|
+|t:|1750835426
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-weather|none
+|move|p2b: Koraidon|Collision Course|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-damage|p2b: Koraidon|81/100|[from] item: Life Orb
+|move|p1b: Rotom|Overheat|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-unboost|p1b: Rotom|spa|2
+|faint|p2a: Lunala
+|
+|upkeep
+|-message|oops i cooked forfeited.
+|
+|win|TridungTang
+|raw|oops i cooked's rating: 1197 &rarr; <strong>1177</strong><br />(-20 for losing)
+|raw|TridungTang's rating: 1270 &rarr; <strong>1290</strong><br />(+20 for winning)
+|l|☆oops i cooked
+|player|p1|
+|l|☆TridungTang
+|player|p2|

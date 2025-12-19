@@ -1,0 +1,208 @@
+|j|☆FragileCanadian
+|j|☆Pidpidpid
+|t:|1750860034
+|gametype|doubles
+|player|p1|FragileCanadian|workerice|1339
+|player|p2|Pidpidpid|birdkeeper-gen4dp|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Arcanine, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FragileCanadian)
+|
+|t:|1750860067
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-enditem|p2a: Brute Bonnet|Booster Energy
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p2a: Brute Bonnet|protosynthesisdef
+|turn|1
+|inactive|FragileCanadian has 30 seconds left.
+|
+|t:|1750860097
+|move|p1a: Whimsicott|Tickle|p2b: Zacian
+|-unboost|p2b: Zacian|atk|1
+|-unboost|p2b: Zacian|def|1
+|move|p2b: Zacian|Behemoth Blade|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Zacian
+|-damage|p2b: Zacian|49/100
+|move|p2a: Brute Bonnet|Spore|p1b: Zamazenta
+|-status|p1b: Zamazenta|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750860115
+|switch|p2b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p2b: Palkia|Pressure
+|cant|p1b: Zamazenta|slp
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: FragileCanadian|move: Tailwind
+|move|p2a: Brute Bonnet|Seed Bomb|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1750860131
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|3
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750860157
+|move|p1a: Raging Bolt|Protect|p1a: Raging Bolt
+|-singleturn|p1a: Raging Bolt|Protect
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|-curestatus|p1b: Zamazenta|slp|[msg]
+|move|p1b: Zamazenta|Body Press|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|18/100
+|move|p2a: Brute Bonnet|Spore|p1a: Raging Bolt
+|-activate|p1a: Raging Bolt|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750860175
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Brute Bonnet|Rage Powder|p2a: Brute Bonnet
+|-singleturn|p2a: Brute Bonnet|move: Rage Powder
+|move|p1b: Zamazenta|Body Press|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|move|p1a: Raging Bolt|Thunderbolt|p2b: Palkia
+|-damage|p2b: Palkia|19/100
+|move|p2b: Palkia|Spacial Rend|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|33/100
+|
+|upkeep
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750860206
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100
+|turn|5
+|
+|t:|1750860221
+|move|p2a: Iron Valiant|Protect|p2a: Iron Valiant
+|-singleturn|p2a: Iron Valiant|Protect
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Protect
+|
+|-sideend|p1: FragileCanadian|move: Tailwind
+|upkeep
+|turn|6
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750860246
+|switch|p2b: Zacian|Zacian-Crowned, L50|49/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Iron Valiant|Spirit Break|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-enditem|p2a: Iron Valiant|Focus Sash
+|-damage|p2a: Iron Valiant|1/100
+|
+|upkeep
+|
+|t:|1750860257
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|7
+|inactive|FragileCanadian has 30 seconds left.
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750860292
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Zacian|Behemoth Blade|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p2a: Iron Valiant|Coaching|p2b: Zacian
+|-boost|p2b: Zacian|atk|1
+|-boost|p2b: Zacian|def|1
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750860304
+|switch|p2a: Palkia|Palkia-Origin, L50|19/100
+|-ability|p2a: Palkia|Pressure
+|turn|8
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750860339
+|-terastallize|p2a: Palkia|Water
+|move|p2b: Zacian|Behemoth Blade|p1a: Lunala
+|-damage|p1a: Lunala|72/100
+|move|p2a: Palkia|Hydro Pump|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Zacian
+|-damage|p2b: Zacian|24/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750860356
+|move|p2b: Zacian|Play Rough|p1b: Zamazenta
+|-damage|p1b: Zamazenta|71/100
+|move|p2a: Palkia|Earth Power|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|14/100
+|-unboost|p1b: Zamazenta|spd|1
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Zacian
+|-damage|p2b: Zacian|2/100
+|
+|upkeep
+|turn|10
+|-message|FragileCanadian forfeited.
+|
+|win|Pidpidpid
+|raw|FragileCanadian's rating: 1339 &rarr; <strong>1322</strong><br />(-17 for losing)
+|raw|Pidpidpid's rating: 1398 &rarr; <strong>1415</strong><br />(+17 for winning)
+|l|☆FragileCanadian
+|player|p1|
+|l|☆Pidpidpid
+|player|p2|

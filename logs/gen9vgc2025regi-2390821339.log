@@ -1,0 +1,179 @@
+|j|☆saruvivien3
+|j|☆Wizardoad
+|t:|1750772241
+|gametype|doubles
+|player|p1|saruvivien3|2|1084
+|player|p2|Wizardoad|ghetsis|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Iron Moth, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by saruvivien3)
+|
+|t:|1750772284
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Chesnaught|Chesnaught, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Chesnaught|Electric Seed
+|-boost|p2b: Chesnaught|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|saruvivien3 has 30 seconds left.
+|inactive|Wizardoad has 30 seconds left.
+|
+|t:|1750772315
+|-terastallize|p1b: Flutter Mane|Fairy
+|-terastallize|p2b: Chesnaught|Fire
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Flutter Mane|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Chesnaught|Body Press|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772330
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750772347
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] p1a,p1b
+|-damage|p1a: Koraidon|53/100
+|-damage|p1b: Flutter Mane|41/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-damage|p1a: Koraidon|52/100|[from] Recoil
+|move|p2b: Chesnaught|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|saruvivien3 has 30 seconds left.
+|
+|t:|1750772376
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|3
+|inactive|saruvivien3 has 30 seconds left.
+|
+|t:|1750772408
+|move|p1b: Flutter Mane|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|12/100
+|-unboost|p2a: Landorus|spa|1
+|move|p1a: Scream Tail|Encore|p2b: Chesnaught
+|-start|p2b: Chesnaught|Encore
+|move|p2a: Landorus|Sludge Bomb|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Chesnaught|Body Press|p1a: Scream Tail
+|-resisted|p1a: Scream Tail
+|-damage|p1a: Scream Tail|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772421
+|switch|p1b: Groudon|Groudon, L50|100/100
+|turn|4
+|
+|t:|1750772433
+|move|p1a: Scream Tail|Disable|p2a: Landorus
+|-start|p2a: Landorus|Disable|Sludge Bomb
+|cant|p2a: Landorus|Disable|Sludge Bomb
+|move|p1b: Groudon|Rock Slide|p2a: Landorus|[spread] p2a,p2b
+|-supereffective|p2b: Chesnaught
+|-damage|p2a: Landorus|0 fnt
+|-damage|p2b: Chesnaught|81/100
+|faint|p2a: Landorus
+|move|p2b: Chesnaught|Body Press|p1b: Groudon
+|-damage|p1b: Groudon|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750772450
+|move|p1a: Scream Tail|Disable|p2b: Chesnaught
+|-start|p2b: Chesnaught|Disable|Body Press
+|move|p1b: Groudon|Precipice Blades|p2b: Chesnaught|[miss]
+|-miss|p1b: Groudon|p2b: Chesnaught
+|cant|p2b: Chesnaught|Disable|Body Press
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|-heal|p1b: Groudon|70/100|[from] item: Leftovers
+|-end|p2b: Chesnaught|Encore
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750772464
+|move|p1a: Scream Tail|Encore|p2b: Chesnaught
+|-start|p2b: Chesnaught|Encore
+|move|p1b: Groudon|Precipice Blades|p2b: Chesnaught|[miss]
+|-miss|p1b: Groudon|p2b: Chesnaught
+|cant|p2b: Chesnaught|Disable|Body Press
+|
+|-heal|p1b: Groudon|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750772473
+|move|p1a: Scream Tail|Psych Up|p2b: Chesnaught
+|-copyboost|p1a: Scream Tail|p2b: Chesnaught|[from] move: Psych Up
+|move|p1b: Groudon|Precipice Blades|p2b: Chesnaught
+|-supereffective|p2b: Chesnaught
+|-damage|p2b: Chesnaught|26/100
+|-activate|p2b: Chesnaught|move: Struggle
+|move|p2b: Chesnaught|Struggle|p1a: Scream Tail
+|-damage|p1a: Scream Tail|82/100
+|-damage|p2b: Chesnaught|0 fnt|[from] recoil
+|faint|p2b: Chesnaught
+|
+|win|saruvivien3
+|raw|saruvivien3's rating: 1084 &rarr; <strong>1114</strong><br />(+30 for winning)
+|raw|Wizardoad's rating: 1122 &rarr; <strong>1094</strong><br />(-28 for losing)
+|l|☆saruvivien3
+|player|p1|
+|l|☆Wizardoad
+|player|p2|

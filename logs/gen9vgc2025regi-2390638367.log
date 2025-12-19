@@ -1,0 +1,239 @@
+|j|☆ChickenZX
+|j|☆fskhan
+|t:|1750740424
+|gametype|doubles
+|player|p1|ChickenZX|fisherman-gen4|1464
+|player|p2|fskhan|169|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChickenZX)
+|
+|t:|1750740450
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750740459
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-end|p1a: Flutter Mane|Protosynthesis
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Flutter Mane|Moonblast|p2a: Ninetales
+|-damage|p2a: Ninetales|45/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Flutter Mane|[spread] p1a
+|-activate|p1b: Groudon|move: Protect
+|-damage|p1a: Flutter Mane|23/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|inactive|ChickenZX has 30 seconds left.
+|
+|t:|1750740489
+|-terastallize|p1b: Groudon|Fire
+|move|p1a: Flutter Mane|Moonblast|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|move|p1b: Groudon|Precipice Blades|p2b: Calyrex
+|-damage|p2b: Calyrex|73/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1b: Groudon
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Groudon|85/100
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Calyrex|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750740503
+|switch|p1a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Ogerpon|Mold Breaker
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|turn|3
+|
+|t:|1750740512
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2b: Calyrex|Leech Seed|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Calyrex|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750740525
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1b: Ogerpon|Mold Breaker
+|-terastallize|p2a: Incineroar|Ghost
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Ogerpon
+|-damage|p1b: Ogerpon|84/100
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Calyrex|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750740539
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Calyrex|[anim] Ivy Cudgel Fire
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|49/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Ogerpon
+|-damage|p1b: Ogerpon|52/100
+|-damage|p2a: Incineroar|90/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|19/100
+|-enditem|p2b: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Calyrex|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|54/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750740559
+|switch|p1a: Groudon|Groudon, L50, tera:Fire|85/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Calyrex|[anim] Ivy Cudgel Fire
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Ogerpon
+|-unboost|p1b: Ogerpon|atk|1
+|-unboost|p1b: Ogerpon|spa|1
+|
+|t:|1750740571
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750740583
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Miraidon|Volt Switch|p1b: Ogerpon
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|13/100
+|
+|t:|1750740588
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Ghost|90/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Groudon|unboost|[from] item: Clear Amulet|[of] p1a: Groudon
+|-unboost|p1b: Ogerpon|atk|1
+|move|p1a: Groudon|Precipice Blades|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Incineroar|45/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750740597
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|8
+|
+|t:|1750740609
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Groudon|[spread] 
+|-activate|p1a: Groudon|move: Protect
+|-activate|p1b: Ogerpon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750740633
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p1a: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Miraidon|move: Protect
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750740642
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-resisted|p1b: Ogerpon
+|-damage|p1a: Groudon|72/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Groudon|Precipice Blades|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|ChickenZX
+|raw|ChickenZX's rating: 1464 &rarr; <strong>1478</strong><br />(+14 for winning)
+|raw|fskhan's rating: 1363 &rarr; <strong>1349</strong><br />(-14 for losing)
+|l|☆fskhan
+|player|p2|
+|l|☆ChickenZX
+|player|p1|

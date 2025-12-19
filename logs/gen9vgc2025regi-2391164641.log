@@ -1,0 +1,174 @@
+|j|☆Saltwater7
+|j|☆BRdilas
+|t:|1750810690
+|gametype|doubles
+|player|p1|Saltwater7|265|1590
+|player|p2|BRdilas|266|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Saltwater7)
+|j| joli.sv
+|inactive|Saltwater7 has 60 seconds left.
+|inactive|Saltwater7 has 30 seconds left.
+|
+|t:|1750810760
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|1
+|inactive|Saltwater7 has 30 seconds left.
+|inactive|Saltwater7 has 20 seconds left.
+|inactive|Saltwater7 has 15 seconds left.
+|inactive|Saltwater7 has 10 seconds left.
+|
+|t:|1750810806
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|-terastallize|p2b: Armarouge|Psychic
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2a: Koraidon|U-turn|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|65/100
+|-ability|p2b: Armarouge|Weak Armor|boost
+|-unboost|p2b: Armarouge|def|1
+|-boost|p2b: Armarouge|spe|2
+|-enditem|p2b: Armarouge|Weakness Policy
+|-boost|p2b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|t:|1750810818
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2b: Armarouge|Expanding Force|p1a: Incineroar|[spread] 
+|-activate|p1b: Flutter Mane|move: Protect
+|-immune|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750810837
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Flutter Mane|Icy Wind|p2b: Armarouge|[spread] p2a,p2b
+|-damage|p2a: Indeedee|91/100
+|-damage|p2b: Armarouge|48/100
+|-unboost|p2a: Indeedee|spe|1
+|-unboost|p2b: Armarouge|spe|1
+|move|p2b: Armarouge|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|59/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|BRdilas has 30 seconds left.
+|
+|t:|1750810865
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2b: Armarouge|Heat Wave|p1b: Flutter Mane|[spread] p1a
+|-activate|p1b: Flutter Mane|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750810882
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750810896
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Flutter Mane|Icy Wind|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|28/100
+|-damage|p2b: Armarouge|30/100
+|-unboost|p2a: Indeedee|spe|1
+|-unboost|p2b: Armarouge|spe|1
+|move|p2b: Armarouge|Expanding Force|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750810912
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|turn|5
+|inactive|Saltwater7 has 30 seconds left.
+|inactive|Saltwater7 has 20 seconds left.
+|inactive|Saltwater7 has 15 seconds left.
+|
+|t:|1750810952
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Koraidon|Flame Charge|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Indeedee
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Armarouge|Expanding Force|p1b: Raging Bolt|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1a: Koraidon
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|win|BRdilas
+|raw|Saltwater7's rating: 1590 &rarr; <strong>1565</strong><br />(-25 for losing)
+|raw|BRdilas's rating: 1500 &rarr; <strong>1525</strong><br />(+25 for winning)
+|l|☆Saltwater7
+|player|p1|
+|l| joli.sv
+|c|☆BRdilas|gg
+|l|☆BRdilas
+|player|p2|

@@ -1,0 +1,226 @@
+|j|☆DimensionalFool
+|j|☆yaasuto
+|t:|1750795812
+|gametype|doubles
+|player|p1|DimensionalFool|265|1435
+|player|p2|yaasuto|hilbert|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Toxapex, L50, M|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yaasuto)
+|inactive|DimensionalFool also wants the timer to be on.
+|inactive|yaasuto has 60 seconds left.
+|
+|t:|1750795843
+|start
+|switch|p1a: Scovillain|Scovillain, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Eternatus|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|inactive|DimensionalFool has 30 seconds left.
+|
+|t:|1750795869
+|move|p1a: Scovillain|Protect|p1a: Scovillain
+|-singleturn|p1a: Scovillain|Protect
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|82/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|88/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|inactive|yaasuto has 30 seconds left.
+|
+|t:|1750795895
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-terastallize|p1b: Koraidon|Fire
+|move|p1a: Scovillain|Spicy Extract|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|move|p1b: Koraidon|Flame Charge|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|-boost|p1b: Koraidon|spe|1
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Scovillain
+|-damage|p1a: Scovillain|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scovillain|19/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|94/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|99/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|DimensionalFool has 30 seconds left.
+|inactive|yaasuto has 30 seconds left.
+|inactive|yaasuto has 20 seconds left.
+|inactive|yaasuto has 15 seconds left.
+|inactive|yaasuto has 10 seconds left.
+|
+|t:|1750795943
+|switch|p1a: Clefairy|Clefairy, L50, M|100/100
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Protect
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Clefairy
+|-damage|p1a: Clefairy|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|100/100|[from] Grassy Terrain
+|-heal|p1a: Clefairy|52/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|DimensionalFool has 30 seconds left.
+|inactive|yaasuto has 30 seconds left.
+|inactive|yaasuto has 20 seconds left.
+|inactive|yaasuto has 15 seconds left.
+|inactive|yaasuto has 10 seconds left.
+|
+|t:|1750795988
+|move|p1a: Clefairy|Protect|p1a: Clefairy
+|-singleturn|p1a: Clefairy|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|8/100
+|-damage|p1b: Koraidon|59/100|[from] Recoil
+|move|p2a: Eternatus|Toxic|p1b: Koraidon
+|-status|p1b: Koraidon|tox
+|move|p2b: Ho-Oh|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Eternatus|33/100
+|-fail|p2b: Ho-Oh|heal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Koraidon|65/100 tox|[from] Grassy Terrain
+|-heal|p2a: Eternatus|40/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|46/100|[from] item: Black Sludge
+|-heal|p1a: Clefairy|58/100|[from] Grassy Terrain
+|-damage|p1b: Koraidon|59/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|yaasuto has 30 seconds left.
+|
+|t:|1750796013
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Clefairy|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1b: Koraidon|22/100 tox|[from] Recoil
+|move|p1a: Clefairy|Life Dew|p1a: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Clefairy|83/100
+|-heal|p1b: Koraidon|47/100 tox
+|
+|-weather|none
+|-heal|p1b: Koraidon|53/100 tox|[from] Grassy Terrain
+|-heal|p2a: Eternatus|52/100|[from] Grassy Terrain
+|-heal|p2a: Eternatus|58/100|[from] item: Black Sludge
+|-heal|p1a: Clefairy|89/100|[from] Grassy Terrain
+|-damage|p1b: Koraidon|41/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750796027
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|6
+|
+|t:|1750796042
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p1b: Koraidon|Flare Blitz|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|11/100
+|-damage|p1b: Koraidon|19/100 tox|[from] Recoil
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-fail|p2a: Eternatus|move: Substitute|[weak]
+|move|p2b: Ho-Oh|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Eternatus|37/100
+|-fail|p2b: Ho-Oh|heal
+|
+|-heal|p2a: Eternatus|43/100|[from] item: Black Sludge
+|-damage|p1b: Koraidon|1/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|DimensionalFool has 30 seconds left.
+|inactive|DimensionalFool has 20 seconds left.
+|
+|t:|1750796079
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p1b: Koraidon|Flare Blitz|p2b: Ho-Oh
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|50/100
+|-damage|p1b: Koraidon|0 fnt|[from] item: Rocky Helmet|[of] p2b: Ho-Oh
+|faint|p1b: Koraidon
+|move|p2b: Ho-Oh|Life Dew|p2b: Ho-Oh|[spread] p2a,p2b
+|-heal|p2a: Eternatus|68/100
+|-heal|p2b: Ho-Oh|75/100
+|
+|-heal|p2a: Eternatus|74/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1750796090
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|8
+|
+|t:|1750796102
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|switch|p1a: Scovillain|Scovillain, L50, M|19/100
+|move|p2b: Ho-Oh|Life Dew||[still]|[spread] p2a,p2b
+|-fail|p2a: Rillaboom|heal
+|-heal|p2b: Ho-Oh|99/100
+|move|p1b: Indeedee|Psychic|p2a: Rillaboom
+|-damage|p2a: Rillaboom|86/100
+|
+|-heal|p1a: Scovillain|25/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|91/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|-message|DimensionalFool forfeited.
+|
+|win|yaasuto
+|raw|DimensionalFool's rating: 1435 &rarr; <strong>1423</strong><br />(-12 for losing)
+|raw|yaasuto's rating: 1586 &rarr; <strong>1598</strong><br />(+12 for winning)
+|l|☆DimensionalFool
+|player|p1|
+|l|☆yaasuto
+|player|p2|

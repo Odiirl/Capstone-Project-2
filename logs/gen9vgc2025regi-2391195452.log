@@ -1,0 +1,103 @@
+|j|☆billbond
+|j|☆herfandmerf
+|t:|1750814817
+|gametype|doubles
+|player|p1|billbond|steven|1497
+|player|p2|herfandmerf|169|1490
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Overqwil, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|
+|t:|1750814906
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Overqwil|Overqwil, L50, F|100/100
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p1b: Overqwil|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|1
+|j| joli.sv
+|
+|t:|1750814934
+|move|p1a: Rillaboom|Fake Out|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|cant|p2a: Landorus|flinch
+|move|p1b: Overqwil|Toxic Spikes|p2a: Landorus
+|-sidestart|p2: herfandmerf|move: Toxic Spikes
+|move|p2b: Calyrex|Glacial Lance|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Overqwil|58/100
+|faint|p1a: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-heal|p1b: Overqwil|65/100|[from] Grassy Terrain
+|-heal|p1b: Overqwil|71/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1750814942
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750814994
+|-terastallize|p2a: Landorus|Steel
+|move|p1b: Overqwil|Protect|p1b: Overqwil
+|-singleturn|p1b: Overqwil|Protect
+|move|p2a: Landorus|Earth Power|p1a: Calyrex
+|-damage|p1a: Calyrex|57/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Overqwil|[spread] p1a
+|-activate|p1b: Overqwil|move: Protect
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|34/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-resisted|p2b: Calyrex
+|-damage|p2a: Landorus|38/100
+|-damage|p2b: Calyrex|86/100
+|
+|-heal|p2a: Landorus|44/100|[from] Grassy Terrain
+|-heal|p1b: Overqwil|77/100|[from] Grassy Terrain
+|-heal|p1b: Overqwil|83/100|[from] item: Black Sludge
+|-heal|p2b: Calyrex|92/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|40/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|-message|billbond forfeited.
+|
+|win|herfandmerf
+|raw|billbond's rating: 1497 &rarr; <strong>1477</strong><br />(-20 for losing)
+|raw|herfandmerf's rating: 1490 &rarr; <strong>1510</strong><br />(+20 for winning)
+|l|☆billbond
+|player|p1|
+|l| joli.sv
+|l|☆herfandmerf
+|player|p2|

@@ -1,0 +1,179 @@
+|j|☆tendgt01
+|j|‽miketrash123
+|t:|1750744106
+|gametype|doubles
+|player|p1|tendgt01|2|1266
+|player|p2|miketrash123|turo-ai|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+miketrash123 has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tendgt01)
+|
+|t:|1750744137
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Farigiraf|atk|1
+|turn|1
+|inactive|tendgt01 has 30 seconds left.
+|
+|t:|1750744168
+|-terastallize|p2a: Calyrex|Fire
+|move|p1b: Miraidon|Volt Switch|p2b: Farigiraf
+|-damage|p2b: Farigiraf|9/100
+|
+|t:|1750744174
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|move|p1a: Incineroar|U-turn|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|93/100
+|
+|t:|1750744182
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100|[from] U-turn
+|move|p2b: Farigiraf|Psychic Noise|p1b: Lunala
+|-resisted|p1b: Lunala
+|-damage|p1b: Lunala|96/100
+|-start|p1b: Lunala|move: Heal Block
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750744196
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1b: Lunala|[spread] 
+|-activate|p1a: Ursaluna|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Ursaluna|Earthquake|p2a: Calyrex|[spread] p2a,p2b
+|-activate|p1b: Lunala|move: Wide Guard
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|3/100
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|-end|p1b: Lunala|move: Heal Block
+|upkeep
+|
+|t:|1750744212
+|switch|p2b: Iron Hands|Iron Hands, L50, shiny|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750744221
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Iron Hands|Fake Out|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Calyrex|High Horsepower|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|47/100
+|move|p1b: Lunala|Moonblast|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|65/100
+|-unboost|p2b: Iron Hands|spa|1
+|
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750744242
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Iron Hands|Ice Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|30/100 brn
+|move|p1a: Ursaluna|Earthquake|p2b: Iron Hands|[spread] p2b
+|-activate|p1b: Lunala|move: Wide Guard
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-damage|p1a: Ursaluna|24/100 brn|[from] brn
+|upkeep
+|
+|t:|1750744253
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750744276
+|move|p2a: Calyrex|Glacial Lance|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Lunala|14/100
+|faint|p1a: Ursaluna
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Lunala|Moonblast|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750744290
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2b: Miraidon|atk|1
+|turn|6
+|
+|t:|1750744303
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|86/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|tendgt01
+|raw|tendgt01's rating: 1266 &rarr; <strong>1286</strong><br />(+20 for winning)
+|raw|miketrash123's rating: 1198 &rarr; <strong>1178</strong><br />(-20 for losing)

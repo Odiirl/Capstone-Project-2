@@ -1,0 +1,112 @@
+|j|☆sibylla_system
+|j|☆something123
+|t:|1750743858
+|gametype|doubles
+|player|p1|sibylla_system|170|1683
+|player|p2|something123|102|1722
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rhyperior, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|
+|t:|1750743896
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750743925
+|move|p1a: Sneasler|Fake Out|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|86/100
+|cant|p2a: Iron Jugulis|flinch
+|move|p2b: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|15/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Iron Jugulis|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Iron Jugulis
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750743951
+|move|p2a: Iron Jugulis|Hurricane|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|move|p1a: Sneasler|Dire Claw|p2b: Kyogre
+|-damage|p2b: Kyogre|22/100
+|-status|p2b: Kyogre|par
+|move|p1b: Kyogre|Origin Pulse|p2b: Kyogre|[spread] 
+|-miss|p1b: Kyogre|p2a: Iron Jugulis
+|-miss|p1b: Kyogre|p2b: Kyogre
+|move|p2b: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by something123)
+|
+|t:|1750743971
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750743983
+|move|p1a: Sneasler|Dire Claw|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|45/100
+|-status|p2a: Iron Jugulis|par
+|move|p2a: Iron Jugulis|Snarl|p1a: Sneasler|[spread] p1a,p1b
+|-resisted|p1a: Sneasler
+|-supereffective|p1b: Lunala
+|-damage|p1a: Sneasler|0 fnt
+|-damage|p1b: Lunala|78/100
+|-unboost|p1b: Lunala|spa|1
+|faint|p1a: Sneasler
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Iron Jugulis|[miss]
+|-miss|p1b: Lunala|p2a: Iron Jugulis
+|move|p2b: Kyogre|Thunder|p1b: Lunala
+|-damage|p1b: Lunala|33/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆something123|f
+|-message|sibylla_system forfeited.
+|
+|win|something123
+|raw|sibylla_system's rating: 1683 &rarr; <strong>1665</strong><br />(-18 for losing)
+|raw|something123's rating: 1722 &rarr; <strong>1740</strong><br />(+18 for winning)
+|l|☆sibylla_system
+|player|p1|
+|l|☆something123
+|player|p2|

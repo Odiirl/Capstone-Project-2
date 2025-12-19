@@ -1,0 +1,224 @@
+|j|☆fntzz
+|j|☆Dragoonlong1
+|t:|1750859939
+|gametype|doubles
+|player|p1|fntzz|clown|1217
+|player|p2|Dragoonlong1|cynthia|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Pawmot, L50, M|
+|poke|p2|Ho-Oh, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fntzz)
+|inactive|Dragoonlong1 has 60 seconds left.
+|inactive|Dragoonlong1 has 30 seconds left.
+|inactive|Dragoonlong1 has 20 seconds left.
+|inactive|Dragoonlong1 has 15 seconds left.
+|inactive|Dragoonlong1 has 10 seconds left.
+|inactive|Dragoonlong1 has 5 seconds left.
+|
+|t:|1750860097
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Dragoonlong1 has 30 seconds left.
+|
+|t:|1750860126
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Miraidon|Volt Switch|p1b: Weezing
+|-damage|p1b: Weezing|40/100
+|
+|t:|1750860134
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100|[from] Volt Switch
+|move|p1b: Weezing|Taunt|p2b: Incineroar
+|-start|p2b: Incineroar|move: Taunt
+|move|p2b: Incineroar|Knock Off|p1b: Weezing
+|-resisted|p1b: Weezing
+|-damage|p1b: Weezing|26/100
+|-enditem|p1b: Weezing|Safety Goggles|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750860156
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Weezing|atk|1
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Ho-Oh|Brave Bird|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|77/100
+|-damage|p2a: Ho-Oh|92/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860173
+|switch|p2b: Pawmot|Pawmot, L50, M|100/100
+|turn|3
+|
+|t:|1750860185
+|move|p2b: Pawmot|Fake Out|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|66/100
+|cant|p1b: Raging Bolt|flinch
+|move|p1a: Koraidon|Flame Charge|p2b: Pawmot
+|-damage|p2b: Pawmot|44/100
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Ho-Oh|Tailwind|p2a: Ho-Oh
+|-sidestart|p2: Dragoonlong1|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750860204
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p1a: Koraidon|Flame Charge|p2b: Pawmot
+|-damage|p2b: Pawmot|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Pawmot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750860215
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|5
+|
+|t:|1750860234
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p2a: Miraidon|Parabolic Charge|p1a: Koraidon|[spread] p1b
+|-activate|p2b: Ho-Oh|move: Protect
+|-activate|p1a: Koraidon|move: Protect
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|59/100
+|move|p1b: Raging Bolt|Draco Meteor|p2a: Miraidon|[miss]
+|-miss|p1b: Raging Bolt|p2a: Miraidon
+|
+|-weather|none
+|-end|p1b: Raging Bolt|Protosynthesis
+|upkeep
+|turn|6
+|inactive|Dragoonlong1 has 30 seconds left.
+|
+|t:|1750860269
+|move|p1a: Koraidon|Flare Blitz|p2a: Miraidon
+|-damage|p2a: Miraidon|59/100
+|-damage|p1a: Koraidon|86/100|[from] Recoil
+|move|p2a: Miraidon|Electro Drift|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|38/100
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Ho-Oh
+|-supereffective|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|34/100
+|
+|-sideend|p2: Dragoonlong1|move: Tailwind
+|upkeep
+|
+|t:|1750860283
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|7
+|
+|t:|1750860294
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p1a: Chi-Yu|Heat Wave|p2b: Ho-Oh|[spread] p2a,p2b
+|-resisted|p2b: Ho-Oh
+|-damage|p2a: Miraidon|23/100
+|-damage|p2b: Ho-Oh|19/100
+|move|p2a: Miraidon|Electro Drift|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: Dragoonlong1|move: Tailwind
+|
+|upkeep
+|
+|t:|1750860305
+|switch|p1a: Weezing|Weezing-Galar, L50, M|26/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|8
+|
+|t:|1750860323
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p2a: Miraidon|Parabolic Charge|p1b: Raging Bolt|[spread] p1a,p1b
+|-activate|p2b: Ho-Oh|move: Protect
+|-resisted|p1b: Raging Bolt
+|-damage|p1a: Weezing|0 fnt
+|-heal|p2a: Miraidon|36/100|[from] drain|[of] p1a: Weezing
+|-damage|p1b: Raging Bolt|32/100
+|-heal|p2a: Miraidon|40/100|[from] drain|[of] p1b: Raging Bolt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1b: Raging Bolt|Electroweb|p2a: Miraidon|[spread] p2a
+|-activate|p2b: Ho-Oh|move: Protect
+|-resisted|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|28/100
+|-unboost|p2a: Miraidon|spe|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1750860345
+|move|p2a: Miraidon|Draco Meteor|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Dragoonlong1
+|raw|fntzz's rating: 1217 &rarr; <strong>1198</strong><br />(-19 for losing)
+|raw|Dragoonlong1's rating: 1304 &rarr; <strong>1319</strong><br />(+15 for winning)
+|l|☆Dragoonlong1
+|player|p2|
+|l|☆fntzz
+|player|p1|

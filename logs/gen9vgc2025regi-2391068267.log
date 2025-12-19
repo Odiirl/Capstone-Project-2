@@ -1,0 +1,188 @@
+|j|☆TannerIGuess
+|j|☆ArosConPollo85
+|t:|1750798785
+|gametype|doubles
+|player|p1|TannerIGuess|flannery|1347
+|player|p2|ArosConPollo85|169|1332
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Glalie, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArosConPollo85)
+TannerIGuess has agreed to open team sheets.
+|
+|t:|1750798808
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Glalie|Glalie, L50, M|100/100
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdriveatk
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-fail|p1b: Glalie|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Glalie
+|turn|1
+|
+|t:|1750798829
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|91/100
+|move|p1b: Glalie|Switcheroo|p2b: Incineroar
+|-activate|p1b: Glalie|move: Trick|[of] p2b: Incineroar
+|-item|p2b: Incineroar|Choice Scarf|[from] move: Switcheroo
+|-item|p1b: Glalie|Safety Goggles|[from] move: Switcheroo
+|cant|p1a: Miraidon|flinch
+|move|p2a: Iron Leaves|Psyblade|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2a: Iron Leaves|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750798846
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750798864
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Iron Leaves|Protect|p2a: Iron Leaves
+|-singleturn|p2a: Iron Leaves|Protect
+|move|p1b: Glalie|Fake Tears|p2a: Iron Leaves
+|-activate|p2a: Iron Leaves|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750798880
+|-terastallize|p2a: Iron Leaves|Normal
+|move|p1b: Glalie|Ice Shard|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|78/100
+|move|p1a: Calyrex|Disable|p2b: Incineroar
+|-start|p2b: Incineroar|Disable|Knock Off
+|move|p2a: Iron Leaves|Sacred Sword|p1b: Glalie
+|-supereffective|p1b: Glalie
+|-damage|p1b: Glalie|0 fnt
+|faint|p1b: Glalie
+|-damage|p2a: Iron Leaves|68/100|[from] item: Life Orb
+|cant|p2b: Incineroar|Disable|Knock Off
+|
+|upkeep
+|
+|t:|1750798892
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1750798907
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Whimsicott|Fake Tears|p2a: Iron Leaves
+|-unboost|p2a: Iron Leaves|spd|2
+|move|p1a: Calyrex|Psychic|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750798910
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|5
+|
+|t:|1750798927
+|-terastallize|p1b: Whimsicott|Water
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Whimsicott|Fake Tears|p2b: Calyrex
+|-unboost|p2b: Calyrex|spd|2
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Whimsicott|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|62/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750798944
+|move|p1b: Whimsicott|Fake Tears|p2a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Incineroar
+|move|p1a: Calyrex|Astral Barrage|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Incineroar|63/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|
+|upkeep
+|
+|t:|1750798957
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750798972
+|move|p1b: Whimsicott|Fake Tears|p2b: Miraidon
+|-unboost|p2b: Miraidon|spd|2
+|move|p1a: Calyrex|Astral Barrage|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|12/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|turn|8
+|
+|t:|1750798988
+|move|p1b: Whimsicott|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|TannerIGuess
+|raw|TannerIGuess's rating: 1347 &rarr; <strong>1366</strong><br />(+19 for winning)
+|raw|ArosConPollo85's rating: 1332 &rarr; <strong>1313</strong><br />(-19 for losing)
+|l|☆ArosConPollo85
+|player|p2|

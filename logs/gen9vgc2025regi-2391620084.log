@@ -1,0 +1,163 @@
+|j|☆Esper_Compleat
+|j|☆LostCityofAtlanta
+|t:|1750876601
+|gametype|doubles
+|player|p1|Esper_Compleat|brycenman|1080
+|player|p2|LostCityofAtlanta|169|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|
+|t:|1750876624
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750876641
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2b: Mewtwo|Pressure
+|-terastallize|p2a: Smeargle|Ghost
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Smeargle
+|-immune|p2a: Smeargle
+|move|p2a: Smeargle|Entrainment|p2b: Mewtwo
+|-endability|p2b: Mewtwo|Pressure|[from] move: Entrainment
+|-ability|p2b: Mewtwo|Moody|[from] move: Entrainment
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Mewtwo|Moody|boost
+|-boost|p2b: Mewtwo|def|2
+|-unboost|p2b: Mewtwo|atk|1
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750876668
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Mewtwo|Protect|p2b: Mewtwo
+|-singleturn|p2b: Mewtwo|Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Mewtwo
+|-activate|p2b: Mewtwo|move: Protect
+|move|p2a: Smeargle|Spore|p1b: Koraidon
+|-status|p1b: Koraidon|slp|[from] move: Spore
+|move|p1a: Incineroar|Flare Blitz|p2a: Smeargle
+|-damage|p2a: Smeargle|49/100
+|-damage|p1a: Incineroar|87/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Mewtwo|Moody|boost
+|-boost|p2b: Mewtwo|spa|2
+|-unboost|p2b: Mewtwo|atk|1
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750876687
+|cant|p1b: Koraidon|slp
+|move|p2b: Mewtwo|Stored Power|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2a: Smeargle|Decorate|p2b: Mewtwo
+|-boost|p2b: Mewtwo|atk|2
+|-boost|p2b: Mewtwo|spa|2
+|move|p1a: Incineroar|Knock Off|p2b: Mewtwo
+|-supereffective|p2b: Mewtwo
+|-damage|p2b: Mewtwo|82/100
+|-enditem|p2b: Mewtwo|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Mewtwo|Moody|boost
+|-boost|p2b: Mewtwo|spa|2
+|-unboost|p2b: Mewtwo|def|1
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|
+|t:|1750876697
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|turn|4
+|
+|t:|1750876710
+|move|p2b: Mewtwo|Protect|p2b: Mewtwo
+|-singleturn|p2b: Mewtwo|Protect
+|move|p2a: Smeargle|Decorate|p2b: Mewtwo
+|-boost|p2b: Mewtwo|atk|2
+|-boost|p2b: Mewtwo|spa|0
+|move|p1a: Incineroar|Flare Blitz|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-damage|p1a: Incineroar|74/100|[from] Recoil
+|move|p1b: Brute Bonnet|Spore|p2b: Mewtwo
+|-activate|p2b: Mewtwo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Mewtwo|Moody|boost
+|-boost|p2b: Mewtwo|def|2
+|-unboost|p2b: Mewtwo|atk|1
+|upkeep
+|
+|t:|1750876716
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750876724
+|move|p2a: Calyrex|Disable|p1b: Brute Bonnet
+|-start|p1b: Brute Bonnet|Disable|Spore
+|move|p2b: Mewtwo|Aura Sphere|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|cant|p1b: Brute Bonnet|Disable|Spore
+|
+|-weather|none
+|-end|p1b: Brute Bonnet|Protosynthesis
+|-ability|p2b: Mewtwo|Moody|boost
+|-boost|p2b: Mewtwo|def|2
+|-unboost|p2b: Mewtwo|atk|1
+|upkeep
+|-message|Esper_Compleat forfeited.
+|
+|win|LostCityofAtlanta
+|raw|Esper_Compleat's rating: 1080 &rarr; <strong>1060</strong><br />(-20 for losing)
+|raw|LostCityofAtlanta's rating: 1113 &rarr; <strong>1136</strong><br />(+23 for winning)
+|l|☆Esper_Compleat
+|player|p1|

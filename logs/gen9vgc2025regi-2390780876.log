@@ -1,0 +1,133 @@
+|j|☆raykit123
+|j|☆Awfulping
+|t:|1750766761
+|gametype|doubles
+|player|p1|raykit123|hilbert|1463
+|player|p2|Awfulping|1|1402
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Weezing, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Awfulping)
+|
+|t:|1750766784
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Iron Leaves|Iron Leaves, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1a: Rayquaza|Air Lock
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Iron Leaves|atk|1
+|turn|1
+|inactive|Awfulping has 30 seconds left.
+|inactive|Awfulping has 20 seconds left.
+|inactive|Awfulping has 15 seconds left.
+|inactive|Awfulping has 10 seconds left.
+|inactive|Awfulping has 5 seconds left.
+|
+|t:|1750766835
+|-terastallize|p1a: Rayquaza|Normal
+|move|p2b: Iron Leaves|Quick Guard|p2b: Iron Leaves
+|-singleturn|p2b: Iron Leaves|Quick Guard
+|move|p1b: Incineroar|Fake Out|p2b: Iron Leaves
+|-activate|p2b: Iron Leaves|move: Quick Guard
+|move|p2a: Kyogre|Water Spout|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Rayquaza|22/100
+|-damage|p1b: Incineroar|10/100
+|move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750766851
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|move|p2b: Iron Leaves|Quick Guard|p2b: Iron Leaves
+|-singleturn|p2b: Iron Leaves|Quick Guard
+|move|p2a: Kyogre|Water Spout|p1a: Rayquaza|[spread] p1b
+|-activate|p1a: Rayquaza|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750766860
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750766874
+|move|p2b: Iron Leaves|Quick Guard|p2b: Iron Leaves
+|-singleturn|p2b: Iron Leaves|Quick Guard
+|move|p1a: Rayquaza|Extreme Speed|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Quick Guard
+|move|p1b: Calyrex|Astral Barrage|p2b: Iron Leaves|[spread] p2a,p2b
+|-supereffective|p2b: Iron Leaves
+|-damage|p2a: Kyogre|39/100
+|-enditem|p2b: Iron Leaves|Focus Sash
+|-damage|p2b: Iron Leaves|1/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Kyogre|Origin Pulse|p1a: Rayquaza|[spread] p1b
+|-miss|p2a: Kyogre|p1a: Rayquaza
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|5/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Awfulping has 30 seconds left.
+|
+|t:|1750766906
+|-end|p2b: Iron Leaves|Quark Drive|[silent]
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Zacian|[spread] p2a,p2b
+|-damage|p2a: Zacian|37/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Awfulping forfeited.
+|
+|win|raykit123
+|raw|raykit123's rating: 1463 &rarr; <strong>1480</strong><br />(+17 for winning)
+|raw|Awfulping's rating: 1402 &rarr; <strong>1385</strong><br />(-17 for losing)
+|l|☆Awfulping
+|player|p2|
+|l|☆raykit123
+|player|p1|

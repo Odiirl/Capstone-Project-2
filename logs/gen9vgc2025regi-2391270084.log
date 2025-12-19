@@ -1,0 +1,204 @@
+|j|☆MetroStar
+|j|☆Ashnz966
+|t:|1750825792
+|gametype|doubles
+|player|p1|MetroStar|striker|1168
+|player|p2|Ashnz966|266|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MetroStar)
+|
+|t:|1750825820
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|MetroStar has 30 seconds left.
+|
+|t:|1750825850
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p2a: Jumpluff|Sleep Powder|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Sleep Powder
+|move|p1a: Walking Wake|Hydro Steam|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|cant|p1b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750825869
+|cant|p1b: Calyrex|slp
+|move|p2a: Jumpluff|Sleep Powder|p1a: Walking Wake
+|-status|p1a: Walking Wake|slp|[from] move: Sleep Powder
+|cant|p1a: Walking Wake|slp
+|move|p2b: Koraidon|Flame Charge|p1b: Calyrex
+|-damage|p1b: Calyrex|43/100 slp
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750825891
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Koraidon|Flame Charge|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|-curestatus|p1a: Walking Wake|slp|[msg]
+|move|p1a: Walking Wake|Hydro Steam|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|MetroStar has 30 seconds left.
+|
+|t:|1750825917
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Koraidon|Flame Charge|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1b: Calyrex
+|-damage|p2b: Koraidon|81/100|[from] item: Life Orb
+|move|p1a: Walking Wake|Draco Meteor|p2a: Jumpluff
+|-damage|p2a: Jumpluff|5/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825933
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|turn|5
+|
+|t:|1750825950
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1a: Walking Wake|Aqua Jet|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-crit|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|move|p2b: Koraidon|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2b: Koraidon|71/100|[from] item: Life Orb
+|move|p1b: Brute Bonnet|Spore|p2b: Koraidon
+|-status|p2b: Koraidon|slp|[from] move: Spore
+|
+|-weather|none
+|-end|p1b: Brute Bonnet|Protosynthesis
+|upkeep
+|
+|t:|1750825970
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|MetroStar has 30 seconds left.
+|
+|t:|1750825996
+|-terastallize|p1a: Koraidon|Fire
+|cant|p2b: Koraidon|slp
+|move|p1b: Brute Bonnet|Sucker Punch|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|40/100
+|move|p2a: Flutter Mane|Moonblast|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|23/100
+|-unboost|p1b: Brute Bonnet|spa|1
+|move|p1a: Koraidon|Flare Blitz|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-damage|p1a: Koraidon|81/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826009
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|7
+|
+|t:|1750826027
+|-terastallize|p2b: Zacian|Water
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2b: Zacian|Behemoth Blade|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|-damage|p2b: Zacian|84/100|[from] item: Rocky Helmet|[of] p1b: Brute Bonnet
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|move|p1a: Koraidon|Flare Blitz|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|31/100
+|-damage|p1a: Koraidon|65/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750826048
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Koraidon
+|-damage|p1a: Koraidon|29/100
+|move|p2b: Zacian|Close Combat|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2b: Zacian|def|1
+|-unboost|p2b: Zacian|spd|1
+|faint|p1a: Koraidon
+|
+|win|Ashnz966
+|raw|MetroStar's rating: 1168 &rarr; <strong>1146</strong><br />(-22 for losing)
+|raw|Ashnz966's rating: 1204 &rarr; <strong>1226</strong><br />(+22 for winning)
+|l|☆MetroStar
+|player|p1|
+|l|☆Ashnz966
+|player|p2|

@@ -1,0 +1,182 @@
+|j|☆LittleYoshi0
+|j|☆frmx
+|t:|1750875288
+|gametype|doubles
+|player|p1|LittleYoshi0|aaron|1401
+|player|p2|frmx|102|1380
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Mienshao, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raichu-Alola, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|
+|t:|1750875317
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1b: Mienshao|Mienshao, L50, M|100/100
+|switch|p2a: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750875341
+|move|p2a: Raichu|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|97/100
+|move|p1b: Mienshao|Fake Out|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|80/100
+|cant|p1a: Zacian|flinch
+|cant|p2b: Miraidon|flinch
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frmx)
+|
+|t:|1750875363
+|-terastallize|p1a: Zacian|Stellar
+|move|p2a: Raichu|Nuzzle|p1a: Zacian
+|-damage|p1a: Zacian|90/100
+|-status|p1a: Zacian|par
+|move|p2b: Miraidon|Electro Drift|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|move|p1b: Mienshao|Close Combat|p2b: Miraidon
+|-damage|p2b: Miraidon|20/100
+|-unboost|p1b: Mienshao|def|1
+|-unboost|p1b: Mienshao|spd|1
+|
+|upkeep
+|
+|t:|1750875377
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750875392
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Okidogi|Okidogi, L50, M|100/100
+|-terastallize|p2a: Raichu|Normal
+|move|p2a: Raichu|Nuzzle|p1a: Calyrex
+|-damage|p1a: Calyrex|90/100
+|-status|p1a: Calyrex|par
+|move|p1a: Calyrex|Astral Barrage|p2b: Farigiraf|[spread] 
+|-immune|p2a: Raichu
+|-immune|p2b: Farigiraf
+|
+|upkeep
+|turn|4
+|
+|t:|1750875416
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|switch|p1a: Mienshao|Mienshao, L50, M|100/100
+|move|p2b: Farigiraf|Ally Switch|p2b: Farigiraf
+|swap|p2b: Farigiraf|0|[from] move: Ally Switch
+|move|p1b: Okidogi|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|57/100
+|-enditem|p2b: Kyogre|Assault Vest|[from] move: Knock Off|[of] p1b: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|LittleYoshi0 has 30 seconds left.
+|
+|t:|1750875446
+|switch|p2b: Raichu|Raichu-Alola, L50, M, tera:Normal|100/100
+|move|p1a: Mienshao|Wide Guard|p1a: Mienshao
+|-singleturn|p1a: Mienshao|Wide Guard
+|move|p1b: Okidogi|Drain Punch|p2b: Raichu
+|-supereffective|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|move|p2a: Farigiraf|Endeavor|p1b: Okidogi
+|-immune|p1b: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750875459
+|switch|p2b: Miraidon|Miraidon, L50|20/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|inactive|LittleYoshi0 has 30 seconds left.
+|
+|t:|1750875494
+|move|p2b: Miraidon|Volt Switch|p1a: Mienshao
+|-enditem|p1a: Mienshao|Focus Sash
+|-damage|p1a: Mienshao|1/100
+|
+|t:|1750875497
+|switch|p2b: Kyogre|Kyogre, L50|57/100|[from] Volt Switch
+|move|p1a: Mienshao|Close Combat|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|faint|p2b: Kyogre
+|move|p1b: Okidogi|Knock Off|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|29/100
+|-enditem|p2a: Farigiraf|Mental Herb|[from] move: Knock Off|[of] p1b: Okidogi
+|move|p2a: Farigiraf|Foul Play|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750875508
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|90/100 par
+|switch|p2b: Miraidon|Miraidon, L50|20/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|7
+|
+|t:|1750875521
+|move|p2a: Farigiraf|Ally Switch|p2a: Farigiraf
+|swap|p2a: Farigiraf|1|[from] move: Ally Switch
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Okidogi|Drain Punch|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750875530
+|move|p2a: Miraidon|Electro Drift|p1b: Okidogi
+|-damage|p1b: Okidogi|0 fnt
+|faint|p1b: Okidogi
+|
+|win|frmx
+|raw|LittleYoshi0's rating: 1401 &rarr; <strong>1380</strong><br />(-21 for losing)
+|raw|frmx's rating: 1380 &rarr; <strong>1401</strong><br />(+21 for winning)
+|l|☆LittleYoshi0
+|player|p1|
+|l|☆frmx
+|player|p2|

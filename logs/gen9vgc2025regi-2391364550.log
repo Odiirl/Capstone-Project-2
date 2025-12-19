@@ -1,0 +1,240 @@
+|j|☆abttd
+|j|☆zhuxiaoxuan
+|t:|1750844132
+|gametype|doubles
+|player|p1|abttd|101|1508
+|player|p2|zhuxiaoxuan|dawn|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zhuxiaoxuan)
+zhuxiaoxuan rejected open team sheets.
+|
+|t:|1750844162
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750844180
+|-terastallize|p2a: Chien-Pao|Ghost
+|move|p1b: Smeargle|Fake Out|p2a: Chien-Pao
+|-immune|p2a: Chien-Pao
+|move|p2a: Chien-Pao|Throat Chop|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|31/100
+|-start|p1a: Calyrex|Throat Chop|[silent]
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Calyrex|[anim] Ivy Cudgel Water
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750844185
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|2
+|
+|t:|1750844202
+|-terastallize|p1a: Lunala|Grass
+|move|p2a: Chien-Pao|Throat Chop|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|-start|p1b: Smeargle|Throat Chop|[silent]
+|move|p1b: Smeargle|Spore|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|slp|[from] move: Spore
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Smeargle|[anim] Ivy Cudgel Water
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|
+|t:|1750844211
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1750844218
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|cant|p2a: Chien-Pao|slp
+|move|p1b: Torkoal|Eruption|p2b: Ogerpon|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100 slp
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750844237
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|cant|p2a: Chien-Pao|slp
+|move|p1b: Torkoal|Eruption|p2a: Chien-Pao|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p1a: Lunala|Moongeist Beam|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844247
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1750844254
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2b: Ogerpon|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Ogerpon|move: Wide Guard
+|move|p1a: Lunala|Moongeist Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|37/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750844273
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Ogerpon|move: Wide Guard
+|move|p1a: Lunala|Moongeist Beam|p2b: Ogerpon
+|-damage|p2b: Ogerpon|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750844299
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|32/100
+|move|p1b: Torkoal|Eruption|p2b: Ogerpon|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Ogerpon|move: Wide Guard
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750844316
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Ogerpon|move: Wide Guard
+|move|p1a: Lunala|Moongeist Beam|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|upkeep
+|
+|t:|1750844325
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|9
+|
+|t:|1750844332
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2b: Terapagos|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Terapagos|move: Wide Guard
+|move|p2b: Terapagos|Meteor Beam||[still]
+|-prepare|p2b: Terapagos|Meteor Beam
+|-boost|p2b: Terapagos|spa|1
+|-enditem|p2b: Terapagos|Power Herb
+|-anim|p2b: Terapagos|Meteor Beam|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|move|p1a: Lunala|Moongeist Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|turn|10
+|
+|t:|1750844347
+|move|p2b: Terapagos|Tera Starstorm|p1a: Lunala
+|-damage|p1a: Lunala|68/100
+|move|p1a: Lunala|Expanding Force|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|71/100
+|
+|upkeep
+|turn|11
+|
+|t:|1750844353
+|move|p2b: Terapagos|Tera Starstorm|p1a: Lunala
+|-damage|p1a: Lunala|8/100
+|move|p1a: Lunala|Expanding Force|p2b: Terapagos
+|-damage|p2b: Terapagos|13/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1750844359
+|move|p1a: Lunala|Expanding Force|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|
+|win|abttd
+|raw|abttd's rating: 1508 &rarr; <strong>1525</strong><br />(+17 for winning)
+|raw|zhuxiaoxuan's rating: 1459 &rarr; <strong>1442</strong><br />(-17 for losing)
+|l|☆abttd
+|player|p1|
+|l|☆zhuxiaoxuan
+|player|p2|

@@ -1,0 +1,302 @@
+|j|☆pokephil95
+|j|☆GranolaBear
+|t:|1750833796
+|gametype|doubles
+|player|p1|pokephil95|1|1227
+|player|p2|GranolaBear|bugcatcher-gen4dp|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Vikavolt, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|
+|t:|1750833837
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: PROPHET|Sableye, L50, M|100/100
+|switch|p2b: FAMINE|Lunala, L50, shiny|100/100
+|turn|1
+|
+|t:|1750833864
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: pokephil95|move: Light Screen
+|move|p2a: PROPHET|Gravity|p2a: PROPHET
+|-fieldstart|move: Gravity
+|move|p2b: FAMINE|Hypnosis|p1b: Lunala
+|-status|p1b: Lunala|slp|[from] move: Hypnosis
+|cant|p1b: Lunala|slp
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pokephil95)
+|
+|t:|1750833913
+|switch|p2a: ABBADON|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: ABBADON
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: FAMINE
+|-status|p2b: FAMINE|par
+|cant|p1b: Lunala|slp
+|cant|p2b: FAMINE|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750833936
+|-terastallize|p2a: ABBADON|Ground
+|-curestatus|p1b: Lunala|slp|[msg]
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: pokephil95|Reflect
+|move|p2a: ABBADON|Precipice Blades|p1a: Grimmsnarl|[spread] 
+|-activate|p1a: Grimmsnarl|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p2b: FAMINE|Meteor Beam||[still]
+|-prepare|p2b: FAMINE|Meteor Beam
+|-boost|p2b: FAMINE|spa|1
+|-enditem|p2b: FAMINE|Power Herb
+|-anim|p2b: FAMINE|Meteor Beam|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|pokephil95 has 30 seconds left.
+|
+|t:|1750833967
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Lunala|Grassy Seed
+|-boost|p1b: Lunala|def|1|[from] item: Grassy Seed
+|move|p2a: ABBADON|Precipice Blades|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|70/100
+|-damage|p1b: Lunala|81/100
+|move|p2b: FAMINE|Hypnosis|p1b: Lunala
+|-status|p1b: Lunala|slp|[from] move: Hypnosis
+|cant|p1b: Lunala|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|87/100 slp|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|77/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|GranolaBear has 30 seconds left.
+|
+|t:|1750834000
+|switch|p2a: PROPHET|Sableye, L50, M|100/100
+|move|p1a: Rillaboom|Fake Out|p2a: PROPHET
+|-immune|p2a: PROPHET
+|cant|p1b: Lunala|slp
+|cant|p2b: FAMINE|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|93/100 slp|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|83/100|[from] Grassy Terrain
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1750834019
+|move|p2a: PROPHET|Encore|p1a: Rillaboom
+|-start|p1a: Rillaboom|Encore
+|-curestatus|p1b: Lunala|slp|[msg]
+|move|p1b: Lunala|Moongeist Beam|p2a: PROPHET
+|-damage|p2a: PROPHET|37/100
+|move|p1a: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Rillaboom
+|move|p2b: FAMINE|Heat Wave|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|22/100
+|-damage|p1b: Lunala|69/100
+|
+|-weather|none
+|-heal|p1b: Lunala|75/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|28/100|[from] Grassy Terrain
+|-heal|p2a: PROPHET|43/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|GranolaBear has 30 seconds left.
+|
+|t:|1750834048
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: PROPHET|Disable|p1b: Lunala
+|-start|p1b: Lunala|Disable|Moongeist Beam
+|move|p2b: FAMINE|Hypnosis|p1a: Calyrex|[miss]
+|-miss|p2b: FAMINE|p1a: Calyrex
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-heal|p2a: PROPHET|49/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|81/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|pokephil95 has 30 seconds left.
+|inactive|GranolaBear has 30 seconds left.
+|
+|t:|1750834078
+|move|p2a: PROPHET|Encore|p1b: Lunala
+|-start|p1b: Lunala|Encore
+|move|p1a: Calyrex|Glacial Lance|p2a: PROPHET|[spread] p2a,p2b
+|-damage|p2a: PROPHET|0 fnt
+|-damage|p2b: FAMINE|79/100 par
+|faint|p2a: PROPHET
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: FAMINE|Heat Wave|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|66/100
+|-damage|p1b: Lunala|63/100
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldend|move: Trick Room
+|
+|-heal|p1b: Lunala|70/100|[from] Grassy Terrain
+|-heal|p2b: FAMINE|85/100 par|[from] Grassy Terrain
+|-heal|p1a: Calyrex|72/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|78/100|[from] item: Leftovers
+|-sideend|p1: pokephil95|move: Light Screen
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750834097
+|switch|p2a: ABBADON|Groudon, L50, shiny, tera:Ground|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: ABBADON
+|turn|9
+|
+|t:|1750834110
+|switch|p1b: Rillaboom|Rillaboom, L50, M|28/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: ABBADON|Precipice Blades|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2b: FAMINE|Heat Wave|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: FAMINE|92/100 par|[from] Grassy Terrain
+|-heal|p1a: Calyrex|84/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750834122
+|switch|p1b: Lunala|Lunala, L50|70/100
+|turn|10
+|
+|t:|1750834144
+|switch|p2a: WORMWOOD|Vikavolt, L50, F, shiny|100/100
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: FAMINE|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|33/100
+|move|p1a: Calyrex|Glacial Lance|p2a: WORMWOOD|[spread] p2a,p2b
+|-damage|p2a: WORMWOOD|30/100
+|-damage|p2b: FAMINE|31/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|76/100|[from] Grassy Terrain
+|-heal|p2b: FAMINE|37/100 par|[from] Grassy Terrain
+|-heal|p1a: Calyrex|39/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|45/100|[from] item: Leftovers
+|-sideend|p1: pokephil95|Reflect
+|upkeep
+|turn|11
+|inactive|GranolaBear has 30 seconds left.
+|
+|t:|1750834169
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: FAMINE|Moongeist Beam|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2a: WORMWOOD|Thunderbolt|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: FAMINE|43/100 par|[from] Grassy Terrain
+|-heal|p1a: Calyrex|51/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750834176
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|58/100
+|turn|12
+|inactive|GranolaBear has 30 seconds left.
+|inactive|GranolaBear has 20 seconds left.
+|
+|t:|1750834214
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: pokephil95|move: Light Screen
+|move|p2b: FAMINE|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|17/100
+|move|p1a: Calyrex|Glacial Lance|p2a: WORMWOOD|[spread] p2a,p2b
+|-damage|p2a: WORMWOOD|0 fnt
+|-damage|p2b: FAMINE|0 fnt
+|faint|p2a: WORMWOOD
+|faint|p2b: FAMINE
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Grimmsnarl|64/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|23/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750834231
+|switch|p2b: ABBADON|Groudon, L50, shiny, tera:Ground|100/100
+|turn|13
+|
+|t:|1750834239
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: ABBADON|Precipice Blades|p1b: Grimmsnarl|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|
+|-weather|none
+|-heal|p1a: Calyrex|35/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|41/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1750834253
+|move|p2b: ABBADON|Precipice Blades|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|GranolaBear
+|raw|pokephil95's rating: 1227 &rarr; <strong>1205</strong><br />(-22 for losing)
+|raw|GranolaBear's rating: 1271 &rarr; <strong>1293</strong><br />(+22 for winning)
+|l|☆GranolaBear
+|player|p2|
+|l|☆pokephil95
+|player|p1|

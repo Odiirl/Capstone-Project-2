@@ -1,0 +1,175 @@
+|j|☆food14
+|j|☆MolassesPotato
+|t:|1750876137
+|gametype|doubles
+|player|p1|food14|preschooler|1132
+|player|p2|MolassesPotato|jogger|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Clodsire, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+MolassesPotato has agreed to open team sheets.
+|j| jorgefelipe96
+|
+|t:|1750876171
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750876225
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p1b: Miraidon|Electro Drift|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|33/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Lunala|77/100
+|-damage|p1b: Miraidon|35/100
+|
+|-heal|p2a: Calyrex|39/100|[from] item: Leftovers
+|upkeep
+|l| jorgefelipe96
+|
+|t:|1750876261
+|switch|p2b: Landorus|Landorus, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1750876285
+|move|p1b: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Landorus|Sludge Bomb|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|
+|t:|1750876294
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p1b: Clodsire|Clodsire, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Clodsire|atk|1
+|turn|3
+|
+|t:|1750876333
+|-terastallize|p2b: Landorus|Poison
+|move|p1b: Clodsire|Protect|p1b: Clodsire
+|-singleturn|p1b: Clodsire|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Clodsire
+|-activate|p1b: Clodsire|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2b: Landorus
+|-damage|p2b: Landorus|44/100
+|move|p2b: Landorus|Earth Power|p1b: Clodsire
+|-activate|p1b: Clodsire|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750876352
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1b: Clodsire|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|45/100
+|-damage|p1b: Clodsire|90/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|16/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Landorus
+|-activate|p2b: Landorus|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750876379
+|move|p1b: Clodsire|High Horsepower|p2a: Incineroar|[miss]
+|-miss|p1b: Clodsire|p2a: Incineroar
+|move|p2a: Incineroar|Flare Blitz|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-damage|p2a: Incineroar|39/100|[from] Recoil
+|move|p2b: Landorus|Sandsear Storm|p1b: Clodsire|[miss]
+|-miss|p2b: Landorus|p1b: Clodsire
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750876389
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|6
+|
+|t:|1750876425
+|move|p1a: Urshifu|Protect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p1b: Clodsire|High Horsepower|p2a: Incineroar|[miss]
+|-miss|p1b: Clodsire|p2a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1b: Clodsire
+|-damage|p1b: Clodsire|41/100
+|-enditem|p1b: Clodsire|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Landorus|Sandsear Storm|p1a: Urshifu|[spread] 
+|-activate|p1a: Urshifu|move: Protect
+|-miss|p2b: Landorus|p1b: Clodsire
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750876470
+|move|p1a: Urshifu|Surging Strikes|p2b: Landorus
+|-crit|p2b: Landorus
+|-damage|p2b: Landorus|17/100
+|-crit|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|-hitcount|p2: Landorus|2
+|move|p2a: Incineroar|Flare Blitz|p1b: Clodsire
+|-damage|p1b: Clodsire|0 fnt
+|faint|p1b: Clodsire
+|-damage|p2a: Incineroar|23/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|-message|MolassesPotato forfeited.
+|
+|win|food14
+|raw|food14's rating: 1132 &rarr; <strong>1164</strong><br />(+32 for winning)
+|raw|MolassesPotato's rating: 1227 &rarr; <strong>1195</strong><br />(-32 for losing)
+|l|☆MolassesPotato
+|player|p2|
+|l|☆food14
+|player|p1|

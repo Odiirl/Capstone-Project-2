@@ -1,0 +1,200 @@
+|j|☆pigs2fly
+|j|☆004B
+|t:|1750771071
+|gametype|doubles
+|player|p1|pigs2fly|dexio|1646
+|player|p2|004B|ghetsis|1542
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Conkeldurr, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750771089
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2a: Zekrom-|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|1
+|
+|t:|1750771112
+|-terastallize|p2a: Zekrom-|Electric
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Zekrom-|Volt Switch|p1b: Zacian
+|-damage|p1b: Zacian|31/100
+|
+|t:|1750771120
+|switch|p2a: Deerling-|Farigiraf, L50, F|100/100|[from] Volt Switch
+|-enditem|p2a: Deerling-|Electric Seed
+|-boost|p2a: Deerling-|def|1|[from] item: Electric Seed
+|move|p1b: Zacian|Behemoth Blade|p2a: Deerling-
+|-damage|p2a: Deerling-|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750771142
+|switch|p2b: Y.M.C.A|Conkeldurr, L50, M|100/100
+|move|p1b: Zacian|Behemoth Blade|p2b: Y.M.C.A
+|-damage|p2b: Y.M.C.A|24/100
+|move|p1a: Tornadus|Hurricane|p2b: Y.M.C.A
+|-supereffective|p2b: Y.M.C.A
+|-damage|p2b: Y.M.C.A|0 fnt
+|faint|p2b: Y.M.C.A
+|move|p2a: Deerling-|Trick Room|p2a: Deerling-
+|-fieldstart|move: Trick Room|[of] p2a: Deerling-
+|
+|upkeep
+|
+|t:|1750771152
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750771157
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Zacian|[spread] 
+|-activate|p1a: Tornadus|move: Protect
+|-activate|p1b: Zacian|move: Protect
+|move|p2a: Deerling-|Foul Play|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750771174
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|move|p2b: Calyrex|Glacial Lance|p1a: Dondozo|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|90/100
+|move|p2a: Deerling-|Foul Play|p1a: Dondozo
+|-damage|p1a: Dondozo|80/100
+|
+|-heal|p1a: Dondozo|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750771191
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Deerling-|Foul Play|p1a: Dondozo
+|-damage|p1a: Dondozo|77/100
+|move|p1a: Dondozo|Wave Crash|p2a: Deerling-
+|-damage|p2a: Deerling-|0 fnt
+|faint|p2a: Deerling-
+|-damage|p1a: Dondozo|61/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|67/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750771198
+|switch|p2a: Zekrom-|Miraidon, L50, tera:Electric|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|turn|6
+|
+|t:|1750771206
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Calyrex|High Horsepower|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2a: Zekrom-|Electro Drift|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|74/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750771219
+|-terastallize|p1a: Dondozo|Grass
+|move|p2a: Zekrom-|Electro Drift|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|41/100
+|move|p1a: Dondozo|Earthquake|p2b: Calyrex|[spread] p2a,p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-supereffective|p2a: Zekrom-
+|-damage|p2a: Zekrom-|19/100
+|-damage|p2b: Calyrex|73/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Calyrex|p1b: Tatsugiri
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750771229
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|31/100
+|turn|8
+|
+|t:|1750771240
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Zekrom-|Electro Drift|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p1b: Tatsugiri|Dragon Pulse|p2a: Zekrom-
+|-damage|p2a: Zekrom-|0 fnt
+|faint|p2a: Zekrom-
+|
+|upkeep
+|
+|t:|1750771243
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|31/100
+|turn|9
+|
+|t:|1750771246
+|move|p1a: Zacian|Behemoth Blade|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|pigs2fly
+|raw|pigs2fly's rating: 1646 &rarr; <strong>1660</strong><br />(+14 for winning)
+|raw|004B's rating: 1542 &rarr; <strong>1528</strong><br />(-14 for losing)
+|l|☆004B
+|player|p2|
+|l|☆pigs2fly
+|player|p1|

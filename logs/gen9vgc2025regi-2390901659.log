@@ -1,0 +1,209 @@
+|j|☆PaldeaChampRed
+|j|☆vguekdk
+|t:|1750781100
+|gametype|doubles
+|player|p1|PaldeaChampRed|red|1408
+|player|p2|vguekdk|1|1488
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lugia, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vguekdk)
+|inactive|PaldeaChampRed also wants the timer to be on.
+|
+|t:|1750781130
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750781149
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Rillaboom|Fake Out|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p2b: Eternatus|Toxic|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Tornadus|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|12/100
+|-start|p2a: Rillaboom|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|18/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750781173
+|-terastallize|p1b: Kyogre|Grass
+|-activate|p2a: Rillaboom|confusion
+|-damage|p2a: Rillaboom|5/100|[from] confusion
+|move|p2b: Eternatus|Toxic|p1b: Kyogre
+|-status|p1b: Kyogre|tox
+|move|p1a: Tornadus|Hurricane|p2b: Eternatus
+|-damage|p2b: Eternatus|67/100
+|move|p1b: Kyogre|Ice Beam|p2b: Eternatus
+|-supereffective|p2b: Eternatus
+|-damage|p2b: Eternatus|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Eternatus|31/100|[from] Grassy Terrain
+|-heal|p2b: Eternatus|38/100|[from] item: Black Sludge
+|-heal|p2a: Rillaboom|11/100|[from] Grassy Terrain
+|-damage|p1b: Kyogre|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750781196
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1a: Tornadus|Hurricane|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|-end|p2a: Rillaboom|confusion
+|move|p2a: Rillaboom|U-turn|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|50/100 tox
+|
+|t:|1750781207
+|switch|p2a: Lugia|Lugia, L50|100/100|[from] U-turn
+|move|p1b: Kyogre|Water Spout|p2a: Lugia|[spread] p2a
+|-activate|p2b: Eternatus|move: Protect
+|-damage|p2a: Lugia|84/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Eternatus|44/100|[from] Grassy Terrain
+|-heal|p2b: Eternatus|50/100|[from] item: Black Sludge
+|-heal|p2a: Lugia|90/100|[from] item: Leftovers
+|-heal|p1b: Kyogre|56/100 tox|[from] Grassy Terrain
+|-damage|p1b: Kyogre|44/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750781227
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|move|p1a: Tornadus|Hurricane|p2b: Eternatus
+|-crit|p2b: Eternatus
+|-damage|p2b: Eternatus|0 fnt
+|faint|p2b: Eternatus
+|move|p2a: Lugia|Calm Mind|p2a: Lugia
+|-boost|p2a: Lugia|spa|1
+|-boost|p2a: Lugia|spd|1
+|move|p1b: Kyogre|Ice Beam|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lugia|68/100|[from] item: Leftovers
+|-heal|p1b: Kyogre|50/100 tox|[from] Grassy Terrain
+|-damage|p1b: Kyogre|33/100 tox|[from] psn
+|upkeep
+|
+|t:|1750781245
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|5
+|
+|t:|1750781261
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: PaldeaChampRed|move: Tailwind
+|move|p1b: Kyogre|Ice Beam|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|11/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Tornadus|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|move|p2a: Lugia|Aeroblast|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-crit|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|none
+|-heal|p2b: Ogerpon|17/100|[from] Grassy Terrain
+|-heal|p2a: Lugia|75/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750781279
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|t:|1750781297
+|-terastallize|p2a: Lugia|Normal
+|move|p1b: Chien-Pao|Icicle Crash|p2a: Lugia
+|-damage|p2a: Lugia|42/100
+|move|p1a: Urshifu|Surging Strikes|p2b: Ogerpon
+|-crit|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|-hitcount|p2: Ogerpon|1
+|-damage|p1a: Urshifu|91/100|[from] item: Life Orb
+|move|p2a: Lugia|Aeroblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Lugia|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750781314
+|switch|p2b: Rillaboom|Rillaboom, L50, M|11/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|7
+|
+|t:|1750781325
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|move|p2a: Lugia|Calm Mind|p2a: Lugia
+|-boost|p2a: Lugia|spa|1
+|-boost|p2a: Lugia|spd|1
+|
+|-heal|p2a: Lugia|55/100|[from] Grassy Terrain
+|-heal|p2a: Lugia|61/100|[from] item: Leftovers
+|-heal|p2b: Rillaboom|17/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750781344
+|move|p2b: Rillaboom|Grassy Glide|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|53/100
+|move|p1b: Chien-Pao|Sacred Sword|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|13/100
+|move|p2a: Lugia|Aeroblast|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|
+|win|vguekdk
+|raw|PaldeaChampRed's rating: 1408 &rarr; <strong>1393</strong><br />(-15 for losing)
+|raw|vguekdk's rating: 1488 &rarr; <strong>1503</strong><br />(+15 for winning)
+|l|☆PaldeaChampRed
+|player|p1|

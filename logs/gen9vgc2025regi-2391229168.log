@@ -1,0 +1,203 @@
+|j|☆anubisjr
+|j|☆bman311
+|t:|1750819442
+|gametype|doubles
+|player|p1|anubisjr|102|1618
+|player|p2|bman311|elesa-masters|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bman311)
+|
+|t:|1750819460
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750819472
+|-terastallize|p2a: Lunala|Fairy
+|move|p1a: Whimsicott|Taunt|p2a: Lunala
+|-start|p2a: Lunala|move: Taunt
+|move|p1b: Miraidon|Volt Switch|p2a: Lunala
+|-damage|p2a: Lunala|63/100
+|
+|t:|1750819480
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p2a: Lunala|Moonblast|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|36/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-damage|p2b: Incineroar|73/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750819487
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750819510
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1a: Miraidon|Electro Drift|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|move|p2b: Incineroar|U-turn|p1a: Miraidon
+|-damage|p1a: Miraidon|78/100
+|
+|t:|1750819519
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Iron Hands|Low Kick|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1750819523
+|switch|p2a: Incineroar|Incineroar, L50, M|73/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|turn|3
+|
+|t:|1750819545
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Incineroar|Fake Out|p1a: Calyrex
+|-immune|p1a: Calyrex
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Calyrex|52/100
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750819549
+|switch|p1b: Miraidon|Miraidon, L50|78/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750819560
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|52/100
+|-damage|p2b: Miraidon|35/100
+|-damage|p1a: Calyrex|43/100|[from] item: Life Orb
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Incineroar|14/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750819571
+|switch|p2b: Lunala|Lunala, L50, tera:Fairy|63/100
+|turn|5
+|
+|t:|1750819584
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] 
+|-activate|p2a: Incineroar|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Incineroar|Flare Blitz|p1b: Miraidon
+|-damage|p1b: Miraidon|27/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750819591
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Lunala
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|7
+|c|☆bman311|pls forfeit
+|c|☆bman311|i will stall all 13 out
+|
+|t:|1750819608
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Lunala
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|8
+|c|☆anubisjr|why didn't you just kill me
+|c|☆anubisjr|you won't die
+|c|☆bman311|crit risk
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750819637
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Lunala
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|9
+|
+|t:|1750819641
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Lunala
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|10
+|-message|anubisjr forfeited.
+|
+|win|bman311
+|raw|anubisjr's rating: 1618 &rarr; <strong>1595</strong><br />(-23 for losing)
+|raw|bman311's rating: 1565 &rarr; <strong>1588</strong><br />(+23 for winning)
+|l|☆anubisjr
+|player|p1|
+|c|☆bman311|ty
+|c|☆bman311|gg

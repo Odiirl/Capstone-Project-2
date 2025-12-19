@@ -1,0 +1,146 @@
+|j|☆Tr1g4
+|j|☆shush slush
+|t:|1750796932
+|gametype|doubles
+|player|p1|Tr1g4|170|1040
+|player|p2|shush slush|acetrainerf|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Sandslash-Alola, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750796953
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|switch|p2b: Sandslash|Sandslash-Alola, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-end|p1b: Flutter Mane|Protosynthesis
+|turn|1
+|
+|t:|1750796992
+|move|p1a: Koraidon|Flame Charge|p2b: Sandslash
+|-supereffective|p2b: Sandslash
+|-damage|p2b: Sandslash|43/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|46/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: shush slush|move: Aurora Veil
+|move|p2b: Sandslash|Iron Head|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750797024
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p1a: Koraidon|Flame Charge|p2b: Sandslash|[miss]
+|-miss|p1a: Koraidon|p2b: Sandslash
+|move|p2a: Ninetales|Moonblast|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p2b: Sandslash|Iron Head|p1b: Flutter Mane
+|-activate|p1b: Flutter Mane|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750797039
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750797065
+|move|p1a: Calyrex|Astral Barrage|p2b: Sandslash|[spread] p2a,p2b
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Sandslash|0 fnt
+|faint|p2a: Ninetales
+|faint|p2b: Sandslash
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|2
+|move|p1b: Flutter Mane|Shadow Ball|p2: Ninetales|[notarget]
+|-fail|p1b: Flutter Mane
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750797071
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Kyurem|Kyurem-White, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Kyurem|Turboblaze
+|turn|4
+|
+|t:|1750797092
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|35/100
+|-damage|p2b: Kyurem|57/100
+|move|p1b: Flutter Mane|Moonblast|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|24/100
+|move|p2b: Kyurem|Blizzard|p1b: Flutter Mane|[spread] p1a,p1b
+|-damage|p1a: Calyrex|41/100
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750797109
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1b: Ogerpon|Mold Breaker
+|turn|5
+|
+|t:|1750797129
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Ogerpon|52/100
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Kyurem|Blizzard|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|
+|win|shush slush
+|raw|Tr1g4's rating: 1040 &rarr; <strong>1022</strong><br />(-18 for losing)
+|raw|shush slush's rating: 1000 &rarr; <strong>1045</strong><br />(+45 for winning)
+|l|☆Tr1g4
+|player|p1|

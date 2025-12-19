@@ -1,0 +1,174 @@
+|j|☆phonecount
+|j|☆Moosewii7
+|t:|1750840645
+|gametype|doubles
+|player|p1|phonecount|169|1448
+|player|p2|Moosewii7|170|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Oranguru, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phonecount)
+|
+|t:|1750840656
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750840673
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: phonecount|move: Tailwind
+|move|p1a: Calyrex|Astral Barrage|p2a: Indeedee|[spread] 
+|-activate|p2b: Kyogre|move: Protect
+|-immune|p2a: Indeedee
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|phonecount has 30 seconds left.
+|
+|t:|1750840702
+|-terastallize|p2b: Kyogre|Water
+|move|p2a: Indeedee|Helping Hand|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840713
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|3
+|
+|t:|1750840722
+|move|p2a: Indeedee|Helping Hand|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: phonecount|move: Light Screen
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p1a: Calyrex|Astral Barrage|p2a: Indeedee|[spread] p2b
+|-immune|p2a: Indeedee
+|-damage|p2b: Kyogre|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840735
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750840751
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Indeedee|Psychic|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2b: Kyogre|Origin Pulse|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p1b: Terapagos|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: phonecount|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750840775
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Indeedee|Psychic|p1b: Terapagos
+|-damage|p1b: Terapagos|88/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Terapagos|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Terapagos|57/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Kyogre|[spread] p2a,p2b
+|-supereffective|p2b: Kyogre
+|-damage|p2a: Indeedee|49/100
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1b: Terapagos|47/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750840798
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|turn|6
+|
+|t:|1750840809
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Psychic|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|26/100
+|move|p2b: Maushold|Population Bomb|p1b: Terapagos
+|-damage|p1b: Terapagos|41/100
+|-damage|p1b: Terapagos|34/100
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|23/100
+|-damage|p1b: Terapagos|16/100
+|-damage|p1b: Terapagos|9/100
+|-damage|p1b: Terapagos|2/100
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-hitcount|p1: Terapagos|7
+|
+|upkeep
+|turn|7
+|-message|phonecount forfeited.
+|
+|win|Moosewii7
+|raw|phonecount's rating: 1448 &rarr; <strong>1431</strong><br />(-17 for losing)
+|raw|Moosewii7's rating: 1494 &rarr; <strong>1511</strong><br />(+17 for winning)
+|l|☆phonecount
+|player|p1|
+|l|☆Moosewii7
+|player|p2|

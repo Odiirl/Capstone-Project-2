@@ -1,0 +1,210 @@
+|j|☆W3S05
+|j|☆QuagsireJelly
+|t:|1750829768
+|gametype|doubles
+|player|p1|W3S05|266|1183
+|player|p2|QuagsireJelly|266|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Bundle, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Muk-Alola, L50, F|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by QuagsireJelly)
+|
+|t:|1750829795
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|1
+|
+|t:|1750829809
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Smeargle|atk|1
+|move|p2b: Smeargle|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|94/100
+|cant|p1b: Miraidon|flinch
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750829832
+|move|p1a: Incineroar|Fake Out|p2b: Smeargle
+|-damage|p2b: Smeargle|68/100
+|move|p2a: Porygon2|Tera Blast|p1a: Incineroar
+|-damage|p1a: Incineroar|79/100
+|cant|p2b: Smeargle|flinch
+|move|p1b: Miraidon|Volt Switch|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|
+|t:|1750829848
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Volt Switch
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|upkeep
+|
+|t:|1750829858
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1750829881
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Ursaluna|Blood Moon|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Porygon2|Tera Blast|p1a: Incineroar
+|-damage|p1a: Incineroar|58/100
+|move|p1a: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1750829895
+|switch|p1a: Miraidon|Miraidon, L50|94/100|[from] Parting Shot
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|
+|upkeep
+|turn|4
+|
+|t:|1750829910
+|switch|p2b: Flamigo|Flamigo, L50, M|100/100
+|-copyboost|p2b: Flamigo|p2a: Porygon2|[from] ability: Costar
+|-terastallize|p1a: Miraidon|Electric
+|move|p2a: Porygon2|Tera Blast|p1a: Miraidon
+|-damage|p1a: Miraidon|69/100
+|move|p1a: Miraidon|Electro Drift|p2b: Flamigo
+|-supereffective|p2b: Flamigo
+|-damage|p2b: Flamigo|0 fnt
+|faint|p2b: Flamigo
+|move|p1b: Calyrex|Psychic|p2a: Porygon2
+|-damage|p2a: Porygon2|68/100
+|-unboost|p2a: Porygon2|spd|1
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750829918
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1750829931
+|switch|p1a: Incineroar|Incineroar, L50, F|58/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|move|p2b: Ursaluna|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Ursaluna|90/100|[from] item: Life Orb
+|move|p2a: Porygon2|Tera Blast|p1b: Scream Tail
+|-damage|p1b: Scream Tail|80/100
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750829951
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|69/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750829956
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Miraidon|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Porygon2|perish3|[silent]
+|-start|p2b: Ursaluna|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Miraidon|Volt Switch|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|t:|1750829962
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|91/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Ursaluna|Earth Power|p1a: Calyrex
+|-damage|p1a: Calyrex|14/100
+|-damage|p2b: Ursaluna|80/100|[from] item: Life Orb
+|
+|-start|p1b: Scream Tail|perish3
+|-start|p2b: Ursaluna|perish3
+|upkeep
+|turn|7
+|
+|t:|1750829973
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Scream Tail|Disable|p2b: Ursaluna
+|-start|p2b: Ursaluna|Disable|Earth Power
+|move|p2b: Ursaluna|Hyper Voice|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Scream Tail|44/100
+|-damage|p2b: Ursaluna|70/100|[from] item: Life Orb
+|
+|-start|p1b: Scream Tail|perish2
+|-start|p2b: Ursaluna|perish2
+|upkeep
+|turn|8
+|
+|t:|1750829991
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Calyrex|Draining Kiss|p2b: Ursaluna
+|-damage|p2b: Ursaluna|40/100
+|-heal|p1a: Calyrex|43/100|[from] drain|[of] p2b: Ursaluna
+|-damage|p1a: Calyrex|33/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Hyper Voice|p1b: Scream Tail|[spread] p1a
+|-activate|p1b: Scream Tail|move: Protect
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Ursaluna|30/100|[from] item: Life Orb
+|
+|-start|p1b: Scream Tail|perish1
+|-start|p2b: Ursaluna|perish1
+|upkeep
+|-message|QuagsireJelly forfeited.
+|
+|win|W3S05
+|raw|W3S05's rating: 1183 &rarr; <strong>1203</strong><br />(+20 for winning)
+|raw|QuagsireJelly's rating: 1116 &rarr; <strong>1096</strong><br />(-20 for losing)
+|l|☆QuagsireJelly
+|player|p2|
+|l|☆W3S05
+|player|p1|

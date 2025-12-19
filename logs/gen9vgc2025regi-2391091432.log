@@ -1,0 +1,133 @@
+|j|☆Kamish's struggle
+|j|☆Zeus199
+|t:|1750801440
+|gametype|doubles
+|player|p1|Kamish's struggle|veteran|1137
+|player|p2|Zeus199|cynthia-gen4|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Basculegion-F, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Drifblim, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|
+|t:|1750801460
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Drifblim|Drifblim, L50, M, shiny|100/100
+|switch|p2b: Basculegion|Basculegion-F, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Drifblim|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1750801491
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Kamish's struggle|move: Tailwind
+|move|p1b: Incineroar|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-enditem|p2a: Drifblim|Focus Sash
+|-damage|p2a: Drifblim|1/100
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: Zeus199|move: Tailwind
+|move|p2b: Basculegion|Hydro Pump|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2b: Basculegion|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750801500
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|
+|t:|1750801536
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p1a: Whimsicott|Encore|p2a: Drifblim
+|-start|p2a: Drifblim|Encore
+|move|p2a: Drifblim|Tailwind||[still]
+|-fail|p2a: Drifblim
+|move|p1b: Miraidon|Electro Drift|p2b: Basculegion
+|-activate|p2b: Basculegion|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750801554
+|switch|p2a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p2b: Groudon|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p1b: Miraidon|Electro Drift|p2b: Groudon
+|-immune|p2b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750801580
+|-terastallize|p2a: Ho-Oh|Ground
+|move|p1a: Whimsicott|Taunt|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|move: Taunt
+|move|p1b: Miraidon|Electro Drift|p2a: Ho-Oh
+|-immune|p2a: Ho-Oh
+|move|p2b: Groudon|Precipice Blades|p1a: Whimsicott|[spread] p1a
+|-miss|p2b: Groudon|p1b: Miraidon
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|72/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Zeus199|move: Tailwind
+|-sideend|p1: Kamish's struggle|move: Tailwind
+|upkeep
+|
+|t:|1750801583
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750801607
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Groudon|[spread] p2a,p2b
+|-damage|p2a: Ho-Oh|83/100
+|-damage|p2b: Groudon|56/100
+|-damage|p1b: Miraidon|91/100|[from] item: Life Orb
+|move|p2b: Groudon|Precipice Blades|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Calyrex|73/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Zeus199
+|raw|Kamish&apos;s struggle's rating: 1137 &rarr; <strong>1111</strong><br />(-26 for losing)
+|raw|Zeus199's rating: 1125 &rarr; <strong>1151</strong><br />(+26 for winning)
+|l|☆Kamish's struggle
+|player|p1|

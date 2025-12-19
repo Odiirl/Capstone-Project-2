@@ -1,0 +1,170 @@
+|j|☆comrade5
+|j|☆Lau2529
+|t:|1750738155
+|gametype|doubles
+|player|p1|comrade5|2|1234
+|player|p2|Lau2529|hilda-wonderlauncher|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Comfey, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|
+|t:|1750738209
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Raichu|Raichu, L50, M, shiny|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Gastrodon|Gastrodon, L50, M|100/100
+|turn|1
+|
+|t:|1750738230
+|move|p2a: Meowstic|Fake Out|p1a: Urshifu
+|-damage|p1a: Urshifu|95/100
+|move|p1b: Raichu|Fake Out|p2b: Gastrodon
+|-damage|p2b: Gastrodon|94/100
+|cant|p1a: Urshifu|flinch
+|cant|p2b: Gastrodon|flinch
+|
+|-heal|p2b: Gastrodon|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750738248
+|move|p2a: Meowstic|Thunder Wave|p1b: Raichu
+|-activate|p1b: Raichu|ability: Lightning Rod
+|-ability|p1b: Raichu|Lightning Rod|boost
+|-boost|p1b: Raichu|spa|1
+|move|p1a: Urshifu|Surging Strikes|p2b: Gastrodon
+|-activate|p2b: Gastrodon|ability: Storm Drain
+|-ability|p2b: Gastrodon|Storm Drain|boost
+|-boost|p2b: Gastrodon|spa|1
+|move|p1b: Raichu|Nuzzle|p2a: Meowstic
+|-damage|p2a: Meowstic|94/100
+|-status|p2a: Meowstic|par
+|move|p2b: Gastrodon|Earth Power|p1b: Raichu
+|-supereffective|p1b: Raichu
+|-enditem|p1b: Raichu|Focus Sash
+|-damage|p1b: Raichu|1/100
+|
+|-heal|p2b: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750738276
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Raichu|Endeavor|p2b: Gastrodon
+|-damage|p2b: Gastrodon|1/100
+|move|p2a: Meowstic|Psychic|p1a: Zamazenta
+|-damage|p1a: Zamazenta|83/100
+|move|p2b: Gastrodon|Icy Wind|p1b: Raichu|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|79/100
+|-damage|p1b: Raichu|0 fnt
+|-unboost|p1a: Zamazenta|spe|1
+|faint|p1b: Raichu
+|
+|-heal|p2b: Gastrodon|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738300
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750738323
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|95/100
+|move|p2a: Meowstic|Thunder Wave|p1b: Calyrex
+|-status|p1b: Calyrex|par
+|move|p1b: Calyrex|Astral Barrage|p2a: Meowstic|[spread] p2a,p2b
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|-damage|p2b: Gastrodon|0 fnt
+|faint|p2a: Meowstic
+|faint|p2b: Gastrodon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|-damage|p1b: Calyrex|91/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750738332
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|5
+|
+|t:|1750738358
+|cant|p1b: Calyrex|par
+|move|p2a: Chi-Yu|Dark Pulse|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Urshifu|Surging Strikes|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-crit|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|-hitcount|p2: Chi-Yu|1
+|move|p2b: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|15/100
+|
+|upkeep
+|
+|t:|1750738370
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|79/100
+|turn|6
+|
+|t:|1750738380
+|-terastallize|p1b: Zamazenta|Grass
+|move|p1a: Urshifu|Surging Strikes|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|83/100
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|66/100
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|49/100
+|-hitcount|p2b: Zamazenta|3
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|14/100
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1750738396
+|move|p1a: Urshifu|Surging Strikes|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-hitcount|p2: Zamazenta|1
+|
+|win|comrade5
+|raw|comrade5's rating: 1234 &rarr; <strong>1254</strong><br />(+20 for winning)
+|raw|Lau2529's rating: 1157 &rarr; <strong>1137</strong><br />(-20 for losing)
+|l|☆comrade5
+|player|p1|

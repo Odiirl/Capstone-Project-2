@@ -1,0 +1,151 @@
+|j|☆93w
+|j|☆caZISA
+|t:|1750740164
+|gametype|doubles
+|player|p1|93w|lacey|1570
+|player|p2|caZISA|red|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|j| MARGARETVGC
+|
+|t:|1750740212
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Skidush|Urshifu-Rapid-Strike, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750740232
+|-terastallize|p1b: Volcarona|Grass
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2a: Miraidon|Volt Switch|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|69/100
+|
+|t:|1750740238
+|switch|p2a: Chicken Jockey|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Chicken Jockey|As One
+|-ability|p2a: Chicken Jockey|Unnerve
+|move|p2b: Skidush|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|move|p1a: Calyrex|Glacial Lance|p2b: Skidush|[spread] p2a,p2b
+|-resisted|p2a: Chicken Jockey
+|-resisted|p2b: Skidush
+|-damage|p2a: Chicken Jockey|84/100
+|-damage|p2b: Skidush|71/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750740263
+|-terastallize|p2a: Chicken Jockey|Fire
+|move|p2b: Skidush|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|89/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|77/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|65/100
+|-hitcount|p1a: Calyrex|3
+|move|p1b: Volcarona|Fiery Dance|p2a: Chicken Jockey
+|-resisted|p2a: Chicken Jockey
+|-damage|p2a: Chicken Jockey|73/100
+|move|p1a: Calyrex|Leech Seed|p2a: Chicken Jockey
+|-start|p2a: Chicken Jockey|move: Leech Seed
+|move|p2a: Chicken Jockey|Trick Room|p2a: Chicken Jockey
+|-fieldstart|move: Trick Room|[of] p2a: Chicken Jockey
+|
+|-damage|p2a: Chicken Jockey|60/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|77/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1750740302
+|move|p2a: Chicken Jockey|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Volcarona
+|-damage|p1a: Calyrex|63/100
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-ability|p2a: Chicken Jockey|Chilling Neigh|boost
+|-boost|p2a: Chicken Jockey|atk|1
+|move|p2b: Skidush|Taunt|p1a: Calyrex
+|-start|p1a: Calyrex|move: Taunt
+|cant|p1a: Calyrex|move: Taunt|Trick Room
+|
+|-damage|p2a: Chicken Jockey|48/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|75/100|[silent]
+|upkeep
+|
+|t:|1750740329
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caZISA)
+|
+|t:|1750740353
+|move|p1b: Landorus|Protect|p1b: Landorus
+|-singleturn|p1b: Landorus|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Chicken Jockey|[spread] p2a,p2b
+|-resisted|p2a: Chicken Jockey
+|-resisted|p2b: Skidush
+|-damage|p2a: Chicken Jockey|32/100
+|-damage|p2b: Skidush|43/100
+|move|p2a: Chicken Jockey|Glacial Lance|p1b: Landorus|[spread] p1a
+|-activate|p1b: Landorus|move: Protect
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|54/100
+|move|p2b: Skidush|Surging Strikes|p1b: Landorus
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|56/100
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|17/100
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|-hitcount|p1: Landorus|3
+|
+|-damage|p2a: Chicken Jockey|20/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|66/100|[silent]
+|upkeep
+|
+|t:|1750740377
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|-message|93w forfeited.
+|
+|win|caZISA
+|raw|93w's rating: 1570 &rarr; <strong>1550</strong><br />(-20 for losing)
+|raw|caZISA's rating: 1565 &rarr; <strong>1585</strong><br />(+20 for winning)
+|l|☆93w
+|player|p1|
+|l|☆caZISA
+|player|p2|
+|l| MARGARETVGC

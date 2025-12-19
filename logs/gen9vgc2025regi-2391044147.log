@@ -1,0 +1,143 @@
+|j|☆LuceyGooseyFTW
+|j|☆3zra_safari
+|t:|1750796118
+|gametype|doubles
+|player|p1|LuceyGooseyFTW|265|1234
+|player|p2|3zra_safari|marlon|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Medicham, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Iron Bundle, L50|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Arcanine, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 3zra_safari)
+|c|☆3zra_safari|wsg?
+|
+|t:|1750796135
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Medicham|Medicham, L50, F, shiny|100/100
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|switch|p2b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|turn|1
+|inactive|3zra_safari has 30 seconds left.
+|
+|t:|1750796160
+|-terastallize|p1a: Miraidon|Electric
+|move|p1b: Medicham|Fake Out|p2a: Dondozo
+|-damage|p2a: Dondozo|98/100
+|move|p1a: Miraidon|Electro Drift|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1750796169
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750796183
+|move|p2a: Flutter Mane|Moonblast|p1a: Miraidon
+|-damage|p1a: Miraidon|55/100
+|move|p1a: Miraidon|Electro Drift|p2b: Tatsugiri
+|-crit|p2b: Tatsugiri
+|-enditem|p2b: Tatsugiri|Focus Sash
+|-damage|p2b: Tatsugiri|1/100
+|move|p2b: Tatsugiri|Draco Meteor|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2b: Tatsugiri|spa|2
+|faint|p1a: Miraidon
+|move|p1b: Medicham|Trick Room|p1b: Medicham
+|-fieldstart|move: Trick Room|[of] p1b: Medicham
+|
+|upkeep
+|
+|t:|1750796195
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|turn|3
+|
+|t:|1750796205
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1a: Dialga|Flash Cannon|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Tatsugiri|Draco Meteor|p1a: Dialga
+|-damage|p1a: Dialga|74/100
+|-unboost|p2b: Tatsugiri|spa|2
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|inactive|3zra_safari has 30 seconds left.
+|
+|t:|1750796230
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750796242
+|move|p1a: Dialga|Protect|p1a: Dialga
+|-singleturn|p1a: Dialga|Protect
+|move|p1b: Ursaluna|Earthquake|p2a: Iron Hands|[spread] p2a,p2b
+|-activate|p1a: Dialga|move: Protect
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|15/100
+|-damage|p2b: Tatsugiri|0 fnt
+|faint|p2b: Tatsugiri
+|move|p2a: Iron Hands|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1750796249
+|switch|p1b: Medicham|Medicham, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1750796260
+|move|p1b: Medicham|Fake Out|p2a: Iron Hands
+|-damage|p2a: Iron Hands|9/100
+|cant|p2a: Iron Hands|flinch
+|move|p1a: Dialga|Dragon Pulse|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|LuceyGooseyFTW
+|raw|LuceyGooseyFTW's rating: 1234 &rarr; <strong>1259</strong><br />(+25 for winning)
+|raw|3zra_safari's rating: 1234 &rarr; <strong>1209</strong><br />(-25 for losing)
+|l|☆LuceyGooseyFTW
+|player|p1|
+|l|☆3zra_safari
+|player|p2|

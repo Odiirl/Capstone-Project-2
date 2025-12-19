@@ -1,0 +1,157 @@
+|j|☆004B
+|j|☆Teamtest09
+|t:|1750738504
+|gametype|doubles
+|player|p1|004B|ghetsis|1595
+|player|p2|Teamtest09|unknown|1529
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Conkeldurr, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750738550
+|start
+|switch|p1a: Zekrom-|Miraidon, L50|100/100
+|switch|p1b: Macho Man|Tornadus, L50, M|100/100
+|switch|p2a: The Bike|Miraidon, L50|100/100
+|switch|p2b: The Horse|Calyrex-Ice, L50|100/100
+|-ability|p2b: The Horse|As One
+|-ability|p2b: The Horse|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Zekrom-
+|-activate|p2a: The Bike|ability: Hadron Engine
+|turn|1
+|
+|t:|1750738572
+|-terastallize|p1a: Zekrom-|Electric
+|move|p2a: The Bike|Draco Meteor|p1a: Zekrom-
+|-damage|p1a: Zekrom-|15/100
+|-unboost|p2a: The Bike|spa|2
+|move|p1a: Zekrom-|Electro Drift|p2b: The Horse
+|-damage|p2b: The Horse|25/100
+|move|p1b: Macho Man|Bleakwind Storm|p2b: The Horse|[spread] p2a
+|-miss|p1b: Macho Man|p2b: The Horse
+|-resisted|p2a: The Bike
+|-damage|p2a: The Bike|85/100
+|move|p2b: The Horse|Trick Room|p2b: The Horse
+|-fieldstart|move: Trick Room|[of] p2b: The Horse
+|
+|-heal|p2b: The Horse|31/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750738602
+|switch|p2a: The GOAT|Incineroar, L50, F|100/100
+|-ability|p2a: The GOAT|Intimidate|boost
+|-unboost|p1a: Zekrom-|atk|1
+|-unboost|p1b: Macho Man|atk|1
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: The Horse|Glacial Lance|p1b: Macho Man|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Macho Man
+|-damage|p1a: Calyrex|84/100
+|-enditem|p1b: Macho Man|Focus Sash
+|-damage|p1b: Macho Man|1/100
+|move|p1b: Macho Man|Bleakwind Storm|p2b: The Horse|[spread] p2a
+|-miss|p1b: Macho Man|p2b: The Horse
+|-damage|p2a: The GOAT|79/100
+|
+|-heal|p2b: The Horse|37/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750738627
+|move|p1b: Macho Man|Taunt|p2b: The Horse
+|-start|p2b: The Horse|move: Taunt
+|move|p1a: Calyrex|High Horsepower|p2a: The GOAT
+|-supereffective|p2a: The GOAT
+|-damage|p2a: The GOAT|21/100
+|move|p2b: The Horse|Glacial Lance|p1b: Macho Man|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Macho Man
+|-damage|p1a: Calyrex|69/100
+|-damage|p1b: Macho Man|0 fnt
+|faint|p1b: Macho Man
+|-ability|p2b: The Horse|Chilling Neigh|boost
+|-boost|p2b: The Horse|atk|1
+|move|p2a: The GOAT|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|46/100
+|
+|t:|1750738636
+|switch|p2a: The Bear|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|
+|-heal|p2b: The Horse|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738645
+|switch|p1b: Young Man|Landorus, L50, M|100/100
+|turn|4
+|
+|t:|1750738671
+|switch|p1b: Zekrom-|Miraidon, L50, tera:Electric|15/100
+|-activate|p1b: Zekrom-|ability: Hadron Engine
+|move|p1a: Calyrex|High Horsepower|p2b: The Horse
+|-damage|p2b: The Horse|15/100
+|move|p2b: The Horse|Glacial Lance|p1b: Zekrom-|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|23/100
+|-damage|p1b: Zekrom-|0 fnt
+|faint|p1b: Zekrom-
+|-ability|p2b: The Horse|Chilling Neigh|boost
+|-boost|p2b: The Horse|atk|1
+|move|p2a: The Bear|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|5/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-hitcount|p1: Calyrex|2
+|
+|-heal|p2b: The Horse|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738681
+|switch|p1b: Young Man|Landorus, L50, M|100/100
+|turn|5
+|
+|t:|1750738689
+|move|p1b: Young Man|Protect|p1b: Young Man
+|-singleturn|p1b: Young Man|Protect
+|move|p2b: The Horse|Glacial Lance|p1b: Young Man
+|-activate|p1b: Young Man|move: Protect
+|move|p2a: The Bear|Surging Strikes|p1b: Young Man
+|-supereffective|p1b: Young Man
+|-crit|p1b: Young Man
+|-damage|p1b: Young Man|42/100
+|-supereffective|p1b: Young Man
+|-crit|p1b: Young Man
+|-damage|p1b: Young Man|0 fnt
+|faint|p1b: Young Man
+|-hitcount|p1: Young Man|2
+|
+|win|Teamtest09
+|raw|004B's rating: 1595 &rarr; <strong>1571</strong><br />(-24 for losing)
+|raw|Teamtest09's rating: 1529 &rarr; <strong>1553</strong><br />(+24 for winning)
+|l|☆004B
+|player|p1|
+|l|☆Teamtest09
+|player|p2|

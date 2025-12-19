@@ -1,0 +1,175 @@
+|j|☆BotWFan15
+|j|☆bugsy the clown
+|t:|1750797489
+|gametype|doubles
+|player|p1|BotWFan15|265|1110
+|player|p2|bugsy the clown|170|1052
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lilligant, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Slowking, L50, M|
+|teampreview|4
+|
+|t:|1750797519
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BotWFan15)
+|inactive|bugsy the clown has 60 seconds left.
+|
+|t:|1750797554
+|-terastallize|p2b: Calyrex|Grass
+|move|p1a: Calyrex|Astral Barrage|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Weezing|28/100
+|-damage|p2b: Calyrex|74/100
+|move|p2a: Weezing|Dazzling Gleam|p1b: Kingambit|[spread] p1a,p1b
+|-damage|p1a: Calyrex|81/100
+|-damage|p1b: Kingambit|84/100
+|move|p1b: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-crit|p1a: Calyrex
+|-resisted|p1b: Kingambit
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Kingambit|60/100
+|faint|p1a: Calyrex
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750797575
+|switch|p1a: Lilligant|Lilligant, L50, F, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|2
+|
+|t:|1750797592
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1a: Lilligant|Fire
+|move|p1a: Lilligant|Weather Ball|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Annihilape|Coaching|p2: Calyrex|[notarget]
+|-fail|p2a: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797600
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750797619
+|switch|p1b: Kingambit|Kingambit, L50, M|60/100
+|move|p1a: Lilligant|Protect|p1a: Lilligant
+|-singleturn|p1a: Lilligant|Protect
+|move|p2b: Kyogre|Ice Beam|p1a: Lilligant
+|-activate|p1a: Lilligant|move: Protect
+|move|p2a: Annihilape|Close Combat|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|faint|p1b: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750797632
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750797643
+|move|p1a: Lilligant|Solar Beam||[still]
+|-prepare|p1a: Lilligant|Solar Beam
+|-anim|p1a: Lilligant|Solar Beam|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|1/100
+|move|p2b: Kyogre|Ice Beam|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|36/100
+|move|p1b: Koraidon|Dragon Claw|p2a: Annihilape
+|-enditem|p2a: Annihilape|Focus Sash
+|-damage|p2a: Annihilape|1/100
+|move|p2a: Annihilape|Close Combat|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750797665
+|move|p1a: Lilligant|Protect|p1a: Lilligant
+|-singleturn|p1a: Lilligant|Protect
+|move|p2b: Kyogre|Ice Beam|p1a: Lilligant
+|-activate|p1a: Lilligant|move: Protect
+|move|p2a: Annihilape|Close Combat|p1a: Lilligant
+|-activate|p1a: Lilligant|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750797679
+|move|p1a: Lilligant|Weather Ball|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p2a: Annihilape|Close Combat|p1a: Lilligant
+|-damage|p1a: Lilligant|4/100
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750797689
+|move|p1a: Lilligant|Weather Ball|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|
+|win|BotWFan15
+|raw|BotWFan15's rating: 1110 &rarr; <strong>1131</strong><br />(+21 for winning)
+|raw|bugsy the clown's rating: 1052 &rarr; <strong>1037</strong><br />(-15 for losing)
+|l|☆bugsy the clown
+|player|p2|
+|l|☆BotWFan15
+|player|p1|

@@ -1,0 +1,131 @@
+|j|☆MarcieISForager
+|j|☆camden8348
+|t:|1750795979
+|gametype|doubles
+|player|p1|MarcieISForager|marley|1157
+|player|p2|camden8348|steven|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Slowking-Galar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Enamorus-Therian, L50, F|
+|poke|p2|Dragapult, L50, M|
+|teampreview|4
+|
+|t:|1750796005
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p2a: BIG BEAR|Ursaluna, L50, F|100/100
+|switch|p2b: BIG BISON|Slowking-Galar, L50, M|100/100
+|-ability|p1b: Hitmontop|Intimidate|boost
+|-unboost|p2a: BIG BEAR|atk|1
+|-unboost|p2b: BIG BISON|atk|1
+|turn|1
+|
+|t:|1750796032
+|move|p1b: Hitmontop|Fake Out|p2a: BIG BEAR
+|-damage|p2a: BIG BEAR|92/100
+|move|p1a: Lunala|Moongeist Beam|p2b: BIG BISON
+|-supereffective|p2b: BIG BISON
+|-damage|p2b: BIG BISON|40/100
+|cant|p2a: BIG BEAR|flinch
+|move|p2b: BIG BISON|Trick Room|p2b: BIG BISON
+|-fieldstart|move: Trick Room|[of] p2b: BIG BISON
+|
+|-status|p2a: BIG BEAR|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750796065
+|-prepare|p2b: BIG BISON|Chilly Reception|[premajor]
+|move|p2b: BIG BISON|Chilly Reception|p2b: BIG BISON
+|-weather|Snowscape
+|
+|t:|1750796072
+|switch|p2b: Elephant man|Great Tusk, L50|100/100|[from] Chilly Reception
+|move|p2a: BIG BEAR|Facade|p1a: Lunala
+|-immune|p1a: Lunala
+|move|p1b: Hitmontop|Close Combat|p2a: BIG BEAR
+|-supereffective|p2a: BIG BEAR
+|-damage|p2a: BIG BEAR|18/100 brn
+|-unboost|p1b: Hitmontop|def|1
+|-unboost|p1b: Hitmontop|spd|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Elephant man
+|-damage|p2b: Elephant man|50/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Elephant man|56/100|[from] item: Leftovers
+|-damage|p2a: BIG BEAR|12/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750796119
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: BIG BEAR|Facade|p1b: Basculegion
+|-immune|p1b: Basculegion
+|move|p2b: Elephant man|Earthquake|p1a: Lunala|[spread] p2a,p1a,p1b
+|-damage|p2a: BIG BEAR|0 fnt
+|-damage|p1a: Lunala|86/100
+|-damage|p1b: Basculegion|56/100
+|faint|p2a: BIG BEAR
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Elephant man|[miss]
+|-miss|p1a: Lunala|p2b: Elephant man
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Elephant man|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750796135
+|switch|p2a: PEW PEW|Dragapult, L50, M|100/100
+|turn|4
+|
+|t:|1750796156
+|switch|p1b: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p1b: Hitmontop|Intimidate|boost
+|-unboost|p2a: PEW PEW|atk|1
+|-unboost|p2b: Elephant man|atk|1
+|-terastallize|p1a: Lunala|Fairy
+|move|p2b: Elephant man|Earthquake|p1a: Lunala|[spread] p2a,p1a,p1b
+|-damage|p2a: PEW PEW|70/100
+|-damage|p1a: Lunala|65/100
+|-damage|p1b: Hitmontop|77/100
+|move|p1a: Lunala|Moonblast|p2a: PEW PEW
+|-supereffective|p2a: PEW PEW
+|-damage|p2a: PEW PEW|0 fnt
+|faint|p2a: PEW PEW
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Elephant man|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750796170
+|switch|p2a: BIG BISON|Slowking-Galar, L50, M|73/100
+|turn|5
+|-message|camden8348 forfeited.
+|
+|win|MarcieISForager
+|raw|MarcieISForager's rating: 1157 &rarr; <strong>1179</strong><br />(+22 for winning)
+|raw|camden8348's rating: 1112 &rarr; <strong>1090</strong><br />(-22 for losing)
+|l|☆camden8348
+|player|p2|
+|l|☆MarcieISForager
+|player|p1|

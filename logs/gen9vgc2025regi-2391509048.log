@@ -1,0 +1,131 @@
+|j|☆quantumking12
+|j|☆ImLoadingC
+|t:|1750864510
+|gametype|doubles
+|player|p1|quantumking12|biker-gen4|1159
+|player|p2|ImLoadingC|hilbert-wonderlauncher|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quantumking12)
+|
+|t:|1750864540
+|start
+|switch|p1a: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|1
+|
+|t:|1750864558
+|move|p2a: Rillaboom|Fake Out|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|75/100
+|move|p2b: Whimsicott|Taunt|p1a: Kilowattrel
+|-start|p1a: Kilowattrel|move: Taunt
+|cant|p1b: Chi-Yu|flinch
+|move|p1a: Kilowattrel|Electroweb|p2b: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Rillaboom|89/100
+|-damage|p2b: Whimsicott|81/100
+|-unboost|p2a: Rillaboom|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750864574
+|move|p1b: Chi-Yu|Heat Wave|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-supereffective|p2b: Whimsicott
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2a: Rillaboom
+|faint|p2b: Whimsicott
+|move|p1a: Kilowattrel|Electroweb|p2: Rillaboom|[notarget]
+|-fail|p1a: Kilowattrel
+|
+|upkeep
+|
+|t:|1750864577
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750864597
+|move|p1b: Chi-Yu|Heat Wave|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|77/100
+|-damage|p2b: Calyrex|44/100
+|-status|p2b: Calyrex|brn
+|move|p2b: Calyrex|Astral Barrage|p1b: Chi-Yu|[spread] p1a,p1b
+|-resisted|p1b: Chi-Yu
+|-damage|p1a: Kilowattrel|0 fnt
+|-damage|p1b: Chi-Yu|44/100
+|faint|p1a: Kilowattrel
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Miraidon|Dragon Pulse|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|-damage|p2a: Miraidon|67/100|[from] item: Life Orb
+|
+|-damage|p2b: Calyrex|37/100 brn|[from] brn
+|upkeep
+|
+|t:|1750864614
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|4
+|inactive|ImLoadingC has 30 seconds left.
+|
+|t:|1750864644
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Calyrex|Astral Barrage|p1b: Zacian|[spread] p1a,p1b
+|-damage|p1a: Groudon|31/100
+|-damage|p1b: Zacian|21/100
+|move|p1b: Zacian|Crunch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Miraidon|Electro Drift|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-damage|p2a: Miraidon|57/100|[from] item: Life Orb
+|move|p1a: Groudon|Precipice Blades|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-damage|p1a: Groudon|22/100|[from] item: Life Orb
+|
+|win|quantumking12
+|raw|quantumking12's rating: 1159 &rarr; <strong>1190</strong><br />(+31 for winning)
+|raw|ImLoadingC's rating: 1251 &rarr; <strong>1220</strong><br />(-31 for losing)
+|l|☆ImLoadingC
+|player|p2|
+|l|☆quantumking12
+|player|p1|

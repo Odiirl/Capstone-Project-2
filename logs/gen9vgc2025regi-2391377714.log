@@ -1,0 +1,268 @@
+|j|☆newgoods
+|j|☆Imstuckat1000
+|t:|1750846542
+|gametype|doubles
+|player|p1|newgoods|266|1406
+|player|p2|Imstuckat1000|2|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by newgoods)
+|
+|t:|1750846558
+|start
+|switch|p1a: Seedy Eyes|Calyrex-Ice, L50|100/100
+|switch|p1b: Dire Claw at Home|Porygon2, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-ability|p1a: Seedy Eyes|As One
+|-ability|p1a: Seedy Eyes|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Seedy Eyes|unboost|[from] item: Clear Amulet|[of] p1a: Seedy Eyes
+|-unboost|p1b: Dire Claw at Home|atk|1
+|-ability|p1b: Dire Claw at Home|Download|boost
+|-boost|p1b: Dire Claw at Home|spa|1
+|turn|1
+|inactive|newgoods has 30 seconds left.
+|
+|t:|1750846589
+|move|p2a: Incineroar|Fake Out|p1b: Dire Claw at Home
+|-damage|p1b: Dire Claw at Home|95/100
+|move|p2b: Urshifu|Surging Strikes|p1a: Seedy Eyes
+|-crit|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|87/100
+|-crit|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|74/100
+|-crit|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|62/100
+|-hitcount|p1a: Seedy Eyes|3
+|cant|p1b: Dire Claw at Home|flinch
+|move|p1a: Seedy Eyes|Trick Room|p1a: Seedy Eyes
+|-fieldstart|move: Trick Room|[of] p1a: Seedy Eyes
+|
+|upkeep
+|turn|2
+|
+|t:|1750846608
+|move|p1a: Seedy Eyes|Leech Seed|p2b: Urshifu
+|-start|p2b: Urshifu|move: Leech Seed
+|move|p1b: Dire Claw at Home|Tri Attack|p2b: Urshifu
+|-damage|p2b: Urshifu|46/100
+|-status|p2b: Urshifu|brn
+|move|p2a: Incineroar|U-turn|p1a: Seedy Eyes
+|-supereffective|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|44/100
+|
+|t:|1750846616
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Urshifu|Close Combat|p1b: Dire Claw at Home
+|-supereffective|p1b: Dire Claw at Home
+|-damage|p1b: Dire Claw at Home|61/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|
+|-damage|p2b: Urshifu|34/100 brn|[from] Leech Seed|[of] p1a: Seedy Eyes
+|-heal|p1a: Seedy Eyes|55/100|[silent]
+|-damage|p2b: Urshifu|28/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750846629
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Seedy Eyes|unboost|[from] item: Clear Amulet|[of] p1a: Seedy Eyes
+|-unboost|p1b: Dire Claw at Home|atk|1
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Seedy Eyes|Leech Seed|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Dire Claw at Home|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750846643
+|move|p2b: Incineroar|Fake Out|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|50/100
+|cant|p1a: Seedy Eyes|flinch
+|move|p1b: Dire Claw at Home|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|57/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Seedy Eyes|[spread] p1a,p1b
+|-resisted|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|36/100
+|-damage|p1b: Dire Claw at Home|32/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750846663
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Seedy Eyes|Leech Seed|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Dire Claw at Home|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Flare Blitz|p1a: Seedy Eyes
+|-supereffective|p1a: Seedy Eyes
+|-damage|p1a: Seedy Eyes|0 fnt
+|faint|p1a: Seedy Eyes
+|-damage|p2b: Incineroar|88/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750846667
+|switch|p1a: Slow & Steady|Terapagos, L50, M|100/100
+|-activate|p1a: Slow & Steady|ability: Tera Shift
+|detailschange|p1a: Slow & Steady|Terapagos-Terastal, L50, M
+|-heal|p1a: Slow & Steady|100/100|[silent]
+|turn|6
+|
+|t:|1750846685
+|move|p1a: Slow & Steady|Calm Mind|p1a: Slow & Steady
+|-boost|p1a: Slow & Steady|spa|1
+|-boost|p1a: Slow & Steady|spd|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Slow & Steady|[spread] p1a,p1b
+|-activate|p1a: Slow & Steady|ability: Tera Shell
+|-resisted|p1a: Slow & Steady
+|-damage|p1a: Slow & Steady|77/100
+|-damage|p1b: Dire Claw at Home|7/100
+|move|p2b: Incineroar|U-turn|p1a: Slow & Steady
+|-damage|p1a: Slow & Steady|62/100
+|
+|t:|1750846694
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Dire Claw at Home|Trick Room|p1b: Dire Claw at Home
+|-fieldstart|move: Trick Room|[of] p1b: Dire Claw at Home
+|
+|-heal|p1a: Slow & Steady|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750846706
+|-terastallize|p2a: Calyrex|Water
+|-terastallize|p1a: Slow & Steady|Stellar
+|detailschange|p1a: Slow & Steady|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Slow & Steady|76/100|[silent]
+|-ability|p1a: Slow & Steady|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p1b: Dire Claw at Home|Recover|p1b: Dire Claw at Home
+|-heal|p1b: Dire Claw at Home|57/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Slow & Steady|[spread] p1a,p1b
+|-damage|p1a: Slow & Steady|42/100
+|-damage|p1b: Dire Claw at Home|32/100
+|move|p1a: Slow & Steady|Tera Starstorm|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Miraidon|49/100
+|faint|p2a: Calyrex
+|move|p2b: Miraidon|Electro Drift|p1a: Slow & Steady
+|-damage|p1a: Slow & Steady|2/100
+|
+|-heal|p1a: Slow & Steady|8/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750846718
+|switch|p2a: Incineroar|Incineroar, L50, M|88/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Slow & Steady|atk|1
+|-unboost|p1b: Dire Claw at Home|atk|1
+|turn|8
+|
+|t:|1750846730
+|move|p1a: Slow & Steady|Protect|p1a: Slow & Steady
+|-singleturn|p1a: Slow & Steady|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Dire Claw at Home
+|-damage|p1b: Dire Claw at Home|26/100
+|cant|p1b: Dire Claw at Home|flinch
+|move|p2b: Miraidon|Electro Drift|p1b: Dire Claw at Home
+|-damage|p1b: Dire Claw at Home|0 fnt
+|faint|p1b: Dire Claw at Home
+|
+|-heal|p1a: Slow & Steady|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750846740
+|switch|p1b: Achoo!|Amoonguss, L50, M|100/100
+|turn|9
+|
+|t:|1750846747
+|move|p1b: Achoo!|Rage Powder|p1b: Achoo!
+|-singleturn|p1b: Achoo!|move: Rage Powder
+|move|p2a: Incineroar|Flare Blitz|p1b: Achoo!
+|-supereffective|p1b: Achoo!
+|-damage|p1b: Achoo!|28/100
+|-damage|p2a: Incineroar|72/100|[from] item: Rocky Helmet|[of] p1b: Achoo!
+|-damage|p2a: Incineroar|45/100|[from] Recoil
+|move|p1a: Slow & Steady|Tera Starstorm|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Incineroar|6/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-heal|p1a: Slow & Steady|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750846750
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|28/100 brn
+|turn|10
+|
+|t:|1750846761
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Achoo!|Rage Powder|p1b: Achoo!
+|-singleturn|p1b: Achoo!|move: Rage Powder
+|move|p2a: Incineroar|Flare Blitz|p1b: Achoo!
+|-supereffective|p1b: Achoo!
+|-damage|p1b: Achoo!|0 fnt
+|-damage|p2a: Incineroar|0 fnt|[from] item: Rocky Helmet|[of] p1b: Achoo!
+|faint|p1b: Achoo!
+|faint|p2a: Incineroar
+|move|p1a: Slow & Steady|Tera Starstorm|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|
+|-heal|p1a: Slow & Steady|26/100|[from] item: Leftovers
+|-damage|p2b: Urshifu|22/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1750846771
+|move|p2b: Urshifu|Close Combat|p1a: Slow & Steady
+|-supereffective|p1a: Slow & Steady
+|-damage|p1a: Slow & Steady|0 fnt
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|faint|p1a: Slow & Steady
+|detailschange|p1: Slow & Steady|Terapagos, L50, M|[silent]
+|
+|win|Imstuckat1000
+|raw|newgoods's rating: 1406 &rarr; <strong>1383</strong><br />(-23 for losing)
+|raw|Imstuckat1000's rating: 1350 &rarr; <strong>1373</strong><br />(+23 for winning)
+|c|☆newgoods|Gg
+|l|☆newgoods
+|player|p1|
+|l|☆Imstuckat1000
+|player|p2|

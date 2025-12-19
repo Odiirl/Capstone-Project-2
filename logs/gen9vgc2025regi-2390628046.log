@@ -1,0 +1,151 @@
+|j|☆TheBeeps
+|j|‽GabyBaby22
+|t:|1750738696
+|gametype|doubles
+|player|p1|TheBeeps|cynthia|1150
+|player|p2|GabyBaby22|170|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+TheBeeps has agreed to open team sheets.
+|
+|t:|1750738719
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750738749
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Iron Valiant|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p1a: Miraidon|Volt Switch|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|cant|p2b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750738773
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Iron Valiant|Protect|p1b: Iron Valiant
+|-singleturn|p1b: Iron Valiant|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Valiant|[spread] p1a
+|-activate|p1b: Iron Valiant|move: Protect
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|2/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750738795
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|move|p1b: Iron Valiant|Coaching|p1a: Incineroar
+|-boost|p1a: Incineroar|atk|1
+|-boost|p1a: Incineroar|def|1
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|87/100
+|-damage|p1b: Iron Valiant|42/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Calyrex|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1750738819
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|84/100
+|move|p1b: Iron Valiant|Taunt|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|cant|p2a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750738844
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-terastallize|p1a: Incineroar|Bug
+|move|p1b: Iron Valiant|Coaching|p1a: Incineroar
+|-boost|p1a: Incineroar|atk|1
+|-boost|p1a: Incineroar|def|1
+|move|p2a: Kyogre|Water Spout|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|28/100
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p1a: Incineroar|Flare Blitz|p2b: Basculegion
+|-resisted|p2b: Basculegion
+|-damage|p2b: Basculegion|74/100
+|-damage|p1a: Incineroar|18/100|[from] Recoil
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750738860
+|switch|p1b: Miraidon|Miraidon, L50|2/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750738878
+|move|p2b: Basculegion|Aqua Jet|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-damage|p2b: Basculegion|64/100|[from] item: Life Orb
+|move|p2a: Kyogre|Water Spout|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1750738885
+|switch|p1a: Araquanid|Araquanid, L50, M|100/100
+|turn|7
+|-message|TheBeeps forfeited.
+|
+|win|GabyBaby22
+|raw|TheBeeps's rating: 1150 &rarr; <strong>1129</strong><br />(-21 for losing)
+|raw|GabyBaby22's rating: 1199 &rarr; <strong>1220</strong><br />(+21 for winning)
+|l|☆TheBeeps
+|player|p1|

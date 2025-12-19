@@ -1,0 +1,147 @@
+|j|☆Frostb1te2025
+|j|☆testphalap
+|t:|1750876986
+|gametype|doubles
+|player|p1|Frostb1te2025|102|1519
+|player|p2|testphalap|101|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frostb1te2025)
+|
+|t:|1750877017
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750877039
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Iron Valiant|Spirit Break|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Whimsicott|[spread] p2b
+|-activate|p2a: Landorus|move: Protect
+|-damage|p2b: Whimsicott|21/100
+|move|p2b: Whimsicott|Moonblast|p1a: Miraidon
+|-damage|p1a: Miraidon|77/100
+|-unboost|p1a: Miraidon|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750877063
+|-terastallize|p2a: Landorus|Poison
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: testphalap|move: Tailwind
+|move|p2a: Landorus|Sludge Bomb|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p1b: Iron Valiant|Spirit Break|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|83/100
+|-unboost|p2a: Landorus|spa|1
+|
+|upkeep
+|
+|t:|1750877071
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750877078
+|move|p2b: Whimsicott|Tickle|p1a: Calyrex
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|move|p2a: Landorus|Sludge Bomb|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-enditem|p1b: Iron Valiant|Focus Sash
+|-damage|p1b: Iron Valiant|1/100
+|move|p1b: Iron Valiant|Spirit Break|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750877084
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750877094
+|move|p1b: Iron Valiant|Wide Guard|p1b: Iron Valiant
+|-singleturn|p1b: Iron Valiant|Wide Guard
+|move|p1a: Calyrex|High Horsepower|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Wide Guard
+|-activate|p1b: Iron Valiant|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750877096
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750877109
+|move|p1b: Iron Valiant|Wide Guard|p1b: Iron Valiant
+|-singleturn|p1b: Iron Valiant|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-resisted|p2b: Calyrex
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Calyrex|74/100
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Valiant|[spread] 
+|-activate|p1a: Calyrex|move: Wide Guard
+|-activate|p1b: Iron Valiant|move: Wide Guard
+|
+|-sideend|p2: testphalap|move: Tailwind
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Valiant|Quark Drive
+|upkeep
+|turn|6
+|-message|testphalap forfeited.
+|
+|win|Frostb1te2025
+|raw|Frostb1te2025's rating: 1519 &rarr; <strong>1540</strong><br />(+21 for winning)
+|raw|testphalap's rating: 1537 &rarr; <strong>1516</strong><br />(-21 for losing)
+|l|☆testphalap
+|player|p2|
+|l|☆Frostb1te2025
+|player|p1|

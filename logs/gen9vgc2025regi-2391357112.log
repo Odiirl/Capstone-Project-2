@@ -1,0 +1,226 @@
+|j|☆Sirrichardvgc!
+|j|☆Fredtaco
+|t:|1750842724
+|gametype|doubles
+|player|p1|Sirrichardvgc!|pilot|1078
+|player|p2|Fredtaco|101|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Coalossal, L50, M|
+|poke|p2|Wartortle, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750842736
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Wartortle|Wartortle, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1750842762
+|switch|p2a: Coalossal|Coalossal, L50, M|100/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Sirrichardvgc!|Reflect
+|move|p2b: Wartortle|Aqua Jet|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|92/100
+|-ability|p2a: Coalossal|Steam Engine|boost
+|-boost|p2a: Coalossal|spe|6
+|-enditem|p2a: Coalossal|Weakness Policy
+|-boost|p2a: Coalossal|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Coalossal|spa|2|[from] item: Weakness Policy
+|move|p1a: Calyrex|Leech Seed|p2a: Coalossal|[miss]
+|-miss|p1a: Calyrex|p2a: Coalossal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750842783
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Coalossal
+|-status|p2a: Coalossal|par
+|cant|p2a: Coalossal|par
+|move|p2b: Wartortle|Weather Ball|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|92/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Coalossal|[spread] p2a,p2b
+|-resisted|p2a: Coalossal
+|-resisted|p2b: Wartortle
+|-damage|p2a: Coalossal|75/100 par
+|-damage|p2b: Wartortle|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750842805
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|cant|p2a: Coalossal|par
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Sirrichardvgc!|move: Light Screen
+|move|p2b: Wartortle|Chilling Water|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|98/100
+|-unboost|p1a: Urshifu|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750842832
+|-terastallize|p2a: Coalossal|Water
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Wartortle
+|-status|p2b: Wartortle|par
+|move|p1a: Urshifu|Surging Strikes|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|71/100 par
+|-resisted|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|65/100 par
+|-resisted|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|60/100 par
+|-hitcount|p2a: Coalossal|3
+|move|p2a: Coalossal|Heat Wave|p1a: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Urshifu
+|-crit|p1b: Grimmsnarl
+|-damage|p1a: Urshifu|73/100
+|-damage|p1b: Grimmsnarl|14/100
+|cant|p2b: Wartortle|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750842857
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Coalossal|Heat Wave|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|84/100
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|cant|p2b: Wartortle|par
+|
+|-weather|none
+|upkeep
+|
+|t:|1750842870
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|73/100
+|turn|6
+|
+|t:|1750842882
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|move|p2a: Coalossal|Protect|p2a: Coalossal
+|-singleturn|p2a: Coalossal|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Coalossal
+|-activate|p2a: Coalossal|move: Protect
+|move|p1b: Urshifu|Close Combat|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|faint|p2a: Coalossal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750842898
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|7
+|
+|t:|1750842911
+|switch|p1a: Calyrex|Calyrex-Ice, L50, tera:Water|98/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Miraidon|Discharge|p1a: Calyrex|[spread] p1a,p1b
+|-immune|p2b: Groudon
+|-supereffective|p1a: Calyrex
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Calyrex|29/100
+|-damage|p1b: Urshifu|0 fnt
+|-status|p1a: Calyrex|par
+|faint|p1b: Urshifu
+|move|p2b: Groudon|Brick Break|p1a: Calyrex
+|-sideend|p1: Sirrichardvgc!|Reflect
+|-sideend|p1: Sirrichardvgc!|move: Light Screen
+|-damage|p1a: Calyrex|8/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|14/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1750842928
+|switch|p1b: Miraidon|Miraidon, L50|84/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|8
+|
+|t:|1750842944
+|switch|p2a: Wartortle|Wartortle, L50, F|79/100 par
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Wartortle|[spread] p2a,p2b
+|-damage|p2a: Wartortle|49/100 par
+|-damage|p2b: Groudon|74/100
+|move|p2b: Groudon|High Horsepower|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750842962
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Groudon|[spread] p2a,p2b
+|-damage|p2a: Wartortle|20/100 par
+|-damage|p2b: Groudon|48/100
+|move|p2b: Groudon|High Horsepower|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|cant|p2a: Wartortle|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|26/100 par|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|t:|1750842979
+|move|p2b: Groudon|High Horsepower|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Fredtaco
+|raw|Sirrichardvgc!'s rating: 1078 &rarr; <strong>1056</strong><br />(-22 for losing)
+|raw|Fredtaco's rating: 1076 &rarr; <strong>1105</strong><br />(+29 for winning)
+|l|☆Sirrichardvgc!
+|player|p1|
+|l|☆Fredtaco
+|player|p2|

@@ -1,0 +1,127 @@
+|j|☆consider serpents
+|j|☆jatpark
+|t:|1750712843
+|gametype|doubles
+|player|p1|consider serpents|102|1330
+|player|p2|jatpark|1|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Stonjourner, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Pincurchin, L50, F|
+|teampreview|4
+|
+|t:|1750712876
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Volcarona|Electric Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750712895
+|switch|p2a: Pincurchin|Pincurchin, L50, F|100/100
+|-terastallize|p1b: Volcarona|Grass
+|move|p1a: Miraidon|Volt Switch|p2a: Pincurchin
+|-ability|p2a: Pincurchin|Lightning Rod|boost
+|-boost|p2a: Pincurchin|spa|1
+|move|p2b: Groudon|Rock Slide|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|74/100
+|-damage|p1b: Volcarona|79/100
+|-damage|p2b: Groudon|91/100|[from] item: Life Orb
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750712915
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2b: Groudon|Heat Crash|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p2a: Pincurchin|Electroweb|p1b: Volcarona|[spread] p1a
+|-activate|p1b: Volcarona|move: Protect
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|90/100
+|-unboost|p1a: Rillaboom|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Volcarona|84/100|[from] Grassy Terrain
+|-heal|p2b: Groudon|96/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750712932
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Rillaboom|Fake Out|p2b: Groudon
+|-activate|p2b: Groudon|move: Psychic Terrain
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2b: Groudon|Heat Crash|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-damage|p2b: Groudon|87/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750712945
+|switch|p1b: Miraidon|Miraidon, L50|74/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750712960
+|switch|p2a: Pincurchin|Pincurchin, L50, F|100/100
+|move|p1b: Miraidon|Snarl|p2b: Groudon|[spread] p2a
+|-miss|p1b: Miraidon|p2b: Groudon
+|-damage|p2a: Pincurchin|79/100
+|-unboost|p2a: Pincurchin|spa|1
+|move|p2b: Groudon|Heat Crash|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Groudon|77/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|consider serpents forfeited.
+|
+|win|jatpark
+|raw|consider serpents's rating: 1330 &rarr; <strong>1310</strong><br />(-20 for losing)
+|raw|jatpark's rating: 1325 &rarr; <strong>1345</strong><br />(+20 for winning)
+|l|☆consider serpents
+|player|p1|
+|l|☆jatpark
+|player|p2|

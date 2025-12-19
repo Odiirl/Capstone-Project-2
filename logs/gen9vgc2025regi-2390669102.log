@@ -1,0 +1,181 @@
+|j|☆caprican
+|j|☆Legend farmer
+|t:|1750746328
+|gametype|doubles
+|player|p1|caprican|skyla|1273
+|player|p2|Legend farmer|169|1362
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gastrodon-East, L50, M|
+|teampreview|4
+|
+|t:|1750746386
+|start
+|switch|p1a: THE DON|Miraidon, L50|100/100
+|switch|p1b: MEOW|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: THE DON
+|-ability|p1b: MEOW|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Koraidon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caprican)
+|
+|t:|1750746451
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: THE DON|atk|1
+|-unboost|p1b: MEOW|atk|1
+|move|p1b: MEOW|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|95/100
+|move|p2b: Koraidon|Breaking Swipe|p1b: MEOW|[spread] p1a,p1b
+|-supereffective|p1a: THE DON
+|-damage|p1a: THE DON|60/100
+|-damage|p1b: MEOW|84/100
+|-unboost|p1a: THE DON|atk|1
+|-unboost|p1b: MEOW|atk|1
+|-damage|p2b: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1b: MEOW
+|move|p1a: THE DON|Volt Switch|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|t:|1750746467
+|switch|p1a: ROLL TIDE|Iron Treads, L50|100/100|[from] Volt Switch
+|-activate|p1a: ROLL TIDE|ability: Quark Drive
+|-start|p1a: ROLL TIDE|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746474
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|turn|2
+|inactive|caprican has 30 seconds left.
+|
+|t:|1750746508
+|-terastallize|p1b: MEOW|Bug
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: ROLL TIDE|High Horsepower|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p2b: Koraidon|Collision Course|p1a: ROLL TIDE
+|-supereffective|p1a: ROLL TIDE
+|-damage|p1a: ROLL TIDE|0 fnt
+|faint|p1a: ROLL TIDE
+|-end|p1a: ROLL TIDE|Quark Drive|[silent]
+|move|p1b: MEOW|Will-O-Wisp|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746518
+|switch|p1a: THE DON|Miraidon, L50|60/100
+|-activate|p1a: THE DON|ability: Hadron Engine
+|turn|3
+|inactive|Legend farmer has 30 seconds left.
+|inactive|Legend farmer has 20 seconds left.
+|
+|t:|1750746554
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: TERA ICE|Calyrex-Ice, L50|100/100
+|-ability|p1b: TERA ICE|As One
+|-ability|p1b: TERA ICE|Unnerve
+|-terastallize|p2b: Koraidon|Fire
+|move|p2b: Koraidon|Breaking Swipe|p1a: THE DON|[spread] p1a,p1b
+|-supereffective|p1a: THE DON
+|-damage|p1a: THE DON|21/100
+|-damage|p1b: TERA ICE|86/100
+|-unboost|p1a: THE DON|atk|1
+|move|p1a: THE DON|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|t:|1750746570
+|switch|p1a: MEOW|Incineroar, L50, F, shiny, tera:Bug|84/100|[from] Volt Switch
+|-ability|p1a: MEOW|Intimidate|boost
+|-unboost|p2b: Koraidon|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746576
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|turn|4
+|inactive|Legend farmer has 30 seconds left.
+|
+|t:|1750746605
+|move|p1a: MEOW|Fake Out|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|96/100
+|cant|p2a: Zacian|flinch
+|move|p2b: Koraidon|Flare Blitz|p1a: MEOW
+|-supereffective|p1a: MEOW
+|-crit|p1a: MEOW
+|-damage|p1a: MEOW|0 fnt
+|-damage|p2b: Koraidon|67/100|[from] item: Rocky Helmet|[of] p1a: MEOW
+|faint|p1a: MEOW
+|-damage|p2b: Koraidon|35/100|[from] Recoil
+|move|p1b: TERA ICE|Trick Room|p1b: TERA ICE
+|-fieldstart|move: Trick Room|[of] p1b: TERA ICE
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746617
+|switch|p1a: THE DON|Miraidon, L50|21/100
+|-activate|p1a: THE DON|ability: Hadron Engine
+|turn|5
+|
+|t:|1750746628
+|move|p1b: TERA ICE|High Horsepower|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|20/100
+|move|p1a: THE DON|Electro Drift|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|move|p2b: Koraidon|Flare Blitz|p1b: TERA ICE
+|-supereffective|p1b: TERA ICE
+|-damage|p1b: TERA ICE|0 fnt
+|faint|p1b: TERA ICE
+|-damage|p2b: Koraidon|2/100|[from] Recoil
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750746641
+|move|p1a: THE DON|Electro Drift|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|win|caprican
+|raw|caprican's rating: 1273 &rarr; <strong>1304</strong><br />(+31 for winning)
+|raw|Legend farmer's rating: 1362 &rarr; <strong>1337</strong><br />(-25 for losing)
+|l|☆caprican
+|player|p1|
+|l|☆Legend farmer
+|player|p2|

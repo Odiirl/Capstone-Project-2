@@ -1,0 +1,169 @@
+|j|☆MavenVGC
+|j|☆imperial lemons
+|t:|1750765839
+|gametype|doubles
+|player|p1|MavenVGC|steven|1331
+|player|p2|imperial lemons|266|1347
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MavenVGC)
+MavenVGC rejected open team sheets.
+|
+|t:|1750765861
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750765877
+|-terastallize|p1b: Volcarona|Grass
+|move|p1a: Iron Hands|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|80/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Urshifu|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|cant|p1b: Volcarona|move: Taunt|Quiver Dance
+|
+|upkeep
+|turn|2
+|
+|t:|1750765900
+|-terastallize|p2b: Urshifu|Water
+|move|p2a: Miraidon|Draco Meteor|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Volcarona
+|move|p2b: Urshifu|Surging Strikes|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|75/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|50/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|27/100
+|-hitcount|p1a: Iron Hands|3
+|move|p1a: Iron Hands|Drain Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|19/100
+|-heal|p1a: Iron Hands|50/100|[from] drain|[of] p2a: Miraidon
+|
+|upkeep
+|
+|t:|1750765916
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|3
+|
+|t:|1750765923
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|-enditem|p2a: Volcarona|Electric Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Electric Seed
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Volcarona|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|85/100
+|move|p1a: Iron Hands|Drain Punch|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750765942
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Volcarona|[spread] p2a,p2b
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100
+|-damage|p2b: Urshifu|61/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p2b: Urshifu|Surging Strikes|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|25/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|1/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|-hitcount|p1: Iron Hands|3
+|
+|upkeep
+|
+|t:|1750765951
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750765969
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Volcarona|Fiery Dance|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Urshifu|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|83/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|68/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|51/100
+|-hitcount|p1a: Calyrex|3
+|move|p1b: Flutter Mane|Trick Room|p1b: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p1b: Flutter Mane
+|
+|-heal|p1a: Calyrex|57/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750765992
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Volcarona|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|21/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Calyrex
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Volcarona|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|12/100
+|
+|upkeep
+|turn|7
+|-message|MavenVGC forfeited.
+|
+|win|imperial lemons
+|raw|MavenVGC's rating: 1331 &rarr; <strong>1312</strong><br />(-19 for losing)
+|raw|imperial lemons's rating: 1347 &rarr; <strong>1366</strong><br />(+19 for winning)
+|l|☆MavenVGC
+|player|p1|

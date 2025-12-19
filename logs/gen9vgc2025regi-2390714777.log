@@ -1,0 +1,190 @@
+|j|☆TheMaoriGamer
+|j|☆Cybereli01
+|t:|1750755214
+|gametype|doubles
+|player|p1|TheMaoriGamer|101|1275
+|player|p2|Cybereli01|caitlin|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Jumpluff, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheMaoriGamer)
+|inactive|TheMaoriGamer has 60 seconds left.
+|inactive|Cybereli01 has 60 seconds left.
+|
+|t:|1750755274
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750755291
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Iron Hands|Fake Out|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: TheMaoriGamer|move: Tailwind
+|move|p2b: Ho-Oh|Brave Bird|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-damage|p2b: Ho-Oh|70/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750755302
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|-fail|p2b: Ho-Oh|unboost|[from] item: Clear Amulet|[of] p2b: Ho-Oh
+|turn|2
+|inactive|TheMaoriGamer has 30 seconds left.
+|
+|t:|1750755328
+|-terastallize|p1a: Zamazenta|Water
+|move|p1a: Zamazenta|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|50/100
+|move|p1b: Incineroar|Knock Off|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|38/100
+|-enditem|p2a: Iron Hands|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: Cybereli01|move: Tailwind
+|move|p2a: Iron Hands|Drain Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|48/100
+|-heal|p2a: Iron Hands|59/100|[from] drain|[of] p1b: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1750755355
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Walking Wake
+|-damage|p2a: Walking Wake|23/100
+|move|p1b: Incineroar|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|2/100
+|
+|t:|1750755363
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2b: Ho-Oh|Brave Bird|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|52/100
+|-damage|p2b: Ho-Oh|57/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1750755388
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p2a: Walking Wake|Draco Meteor|p1b: Miraidon|[miss]
+|-miss|p2a: Walking Wake|p1b: Miraidon
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-damage|p2b: Groudon|57/100
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|move|p1a: Zamazenta|Body Press|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: TheMaoriGamer|move: Tailwind
+|upkeep
+|
+|t:|1750755390
+|switch|p2a: Ho-Oh|Ho-Oh, L50, shiny|90/100
+|switch|p2b: Iron Hands|Iron Hands, L50|59/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|5
+|inactive|Cybereli01 has 30 seconds left.
+|
+|t:|1750755417
+|switch|p1b: Incineroar|Incineroar, L50, M|48/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Ho-Oh|unboost|[from] item: Clear Amulet|[of] p2a: Ho-Oh
+|-unboost|p2b: Iron Hands|atk|1
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Iron Hands|Fake Out|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p2a: Ho-Oh|Brave Bird|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2a: Ho-Oh|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Cybereli01|move: Tailwind
+|upkeep
+|
+|t:|1750755431
+|switch|p1b: Miraidon|Miraidon, L50|52/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750755453
+|-terastallize|p2a: Ho-Oh|Grass
+|move|p1b: Miraidon|Electro Drift|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|10/100
+|move|p1a: Zamazenta|Body Press|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Ho-Oh|Tailwind|p2a: Ho-Oh
+|-sidestart|p2: Cybereli01|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|c|☆Cybereli01|wp
+|
+|t:|1750755470
+|move|p2a: Ho-Oh|Brave Bird|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|24/100
+|-damage|p2a: Ho-Oh|67/100|[from] Recoil
+|move|p1b: Miraidon|Electro Drift|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|24/100
+|move|p1a: Zamazenta|Body Press|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|win|TheMaoriGamer
+|raw|TheMaoriGamer's rating: 1275 &rarr; <strong>1296</strong><br />(+21 for winning)
+|raw|Cybereli01's rating: 1223 &rarr; <strong>1202</strong><br />(-21 for losing)
+|l|☆Cybereli01
+|player|p2|
+|c|☆TheMaoriGamer|you too
+|c|☆TheMaoriGamer|only one from the draco miss

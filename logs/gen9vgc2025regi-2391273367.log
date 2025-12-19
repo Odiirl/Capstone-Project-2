@@ -1,0 +1,172 @@
+|j|☆alethor
+|j|‽jeceee
+|t:|1750826352
+|gametype|doubles
+|player|p1|alethor|gambler|1152
+|player|p2|jeceee|266|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Dugtrio, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alethor)
+|inactive|jeceee has 60 seconds left.
+|
+|t:|1750826386
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|alethor has 30 seconds left.
+|
+|t:|1750826421
+|-terastallize|p2b: Calyrex|Ghost
+|-terastallize|p1b: Gothitelle|Normal
+|move|p1b: Gothitelle|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|96/100
+|-damage|p1b: Gothitelle|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|cant|p2a: Incineroar|flinch
+|move|p1a: Flutter Mane|Perish Song|p1a: Flutter Mane
+|-start|p1a: Flutter Mane|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Calyrex|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Calyrex|Astral Barrage|p1b: Gothitelle|[spread] p1a
+|-immune|p1b: Gothitelle
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-start|p2b: Calyrex|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p2a: Incineroar|perish3
+|upkeep
+|
+|t:|1750826444
+|switch|p1a: Dugtrio|Dugtrio, L50, F|100/100
+|turn|2
+|
+|t:|1750826467
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Gothitelle|[spread] 
+|-activate|p1a: Dugtrio|move: Protect
+|-immune|p1b: Gothitelle
+|move|p1b: Gothitelle|Substitute|p1b: Gothitelle
+|-start|p1b: Gothitelle|Substitute
+|-damage|p1b: Gothitelle|59/100
+|move|p2a: Incineroar|Knock Off|p1b: Gothitelle
+|-end|p1b: Gothitelle|Substitute
+|
+|-start|p2b: Calyrex|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p2a: Incineroar|perish2
+|upkeep
+|turn|3
+|inactive|alethor has 30 seconds left.
+|inactive|alethor has 20 seconds left.
+|
+|t:|1750826506
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Calyrex|Psychic|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p1a: Dugtrio|Dig||[still]
+|-prepare|p1a: Dugtrio|Dig
+|move|p2a: Incineroar|Parting Shot|p1a: Dugtrio|[miss]
+|-miss|p2a: Incineroar|p1a: Dugtrio
+|
+|-start|p2b: Calyrex|perish1
+|-start|p1b: Gothitelle|perish1
+|-start|p2a: Incineroar|perish1
+|upkeep
+|turn|4
+|inactive|alethor has 30 seconds left.
+|inactive|jeceee has 30 seconds left.
+|inactive|alethor has 20 seconds left.
+|inactive|alethor has 15 seconds left.
+|
+|t:|1750826546
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|move|p2b: Calyrex|Psychic|p1b: Primarina
+|-damage|p1b: Primarina|28/100
+|move|p1a: Dugtrio|Dig|p2a: Incineroar|[from] lockedmove
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|56/100
+|-damage|p1a: Dugtrio|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1a: Dugtrio
+|-unboost|p1a: Dugtrio|atk|1
+|-unboost|p1a: Dugtrio|spa|1
+|
+|t:|1750826560
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100|[from] Parting Shot
+|
+|-heal|p1b: Primarina|34/100|[from] item: Leftovers
+|-start|p2b: Calyrex|perish0
+|upkeep
+|faint|p2b: Calyrex
+|
+|t:|1750826568
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|5
+|
+|t:|1750826577
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2b: Urshifu|Surging Strikes|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|-hitcount|p1: Dugtrio|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Primarina|[anim] Ivy Cudgel Rock
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|
+|upkeep
+|
+|t:|1750826585
+|switch|p1b: Gothitelle|Gothitelle, L50, F, tera:Normal|59/100
+|turn|6
+|
+|t:|1750826597
+|move|p1b: Gothitelle|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|91/100
+|cant|p2b: Urshifu|flinch
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Gothitelle|[anim] Ivy Cudgel Rock
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|
+|win|jeceee
+|raw|alethor's rating: 1152 &rarr; <strong>1126</strong><br />(-26 for losing)
+|raw|jeceee's rating: 1140 &rarr; <strong>1166</strong><br />(+26 for winning)

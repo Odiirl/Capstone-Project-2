@@ -1,0 +1,174 @@
+|j|☆HarrietThugman
+|j|☆MMB? Ezy
+|t:|1750860699
+|gametype|doubles
+|player|p1|HarrietThugman|102|1168
+|player|p2|MMB? Ezy|skyla|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Minior, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750860727
+|start
+|switch|p1a: Minior|Minior, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|
+|t:|1750860760
+|move|p1b: Rillaboom|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|87/100
+|move|p2a: Flutter Mane|Taunt|p1b: Rillaboom
+|-start|p1b: Rillaboom|move: Taunt
+|cant|p2b: Koraidon|flinch
+|move|p1a: Minior|Dazzling Gleam|p2a: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Flutter Mane|84/100
+|-damage|p2b: Koraidon|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Flutter Mane|90/100|[from] Grassy Terrain
+|-heal|p2b: Koraidon|33/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750860784
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Minior|Protect|p1a: Minior
+|-singleturn|p1a: Minior|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Koraidon|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750860801
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750860811
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p2b: Koraidon|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2b: Koraidon|6/100|[from] Recoil
+|-damage|p2b: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2b: Koraidon
+|move|p1a: Minior|Dazzling Gleam|p2a: Terapagos
+|-damage|p2a: Terapagos|89/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750860829
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|4
+|
+|t:|1750860863
+|move|p1b: Zacian|Brick Break|p2a: Terapagos
+|-supereffective|p2a: Terapagos
+|-damage|p2a: Terapagos|38/100
+|move|p2b: Ogerpon|Power Whip|p1a: Minior
+|-damage|p1a: Minior|3/100
+|move|p1a: Minior|Meteor Beam||[still]
+|-prepare|p1a: Minior|Meteor Beam
+|-boost|p1a: Minior|spa|1
+|move|p2a: Terapagos|Earth Power|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|-heal|p2a: Terapagos|44/100|[from] item: Leftovers
+|-formechange|p1a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|
+|t:|1750860883
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750860903
+|-terastallize|p1b: Calyrex|Ghost
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Ogerpon|[spread] 
+|-activate|p2a: Terapagos|move: Protect
+|-activate|p2b: Ogerpon|move: Protect
+|move|p1a: Minior|Meteor Beam|p2a: Terapagos|[from] lockedmove
+|-activate|p2a: Terapagos|move: Protect
+|
+|-heal|p2a: Terapagos|50/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750860931
+|move|p1b: Calyrex|Astral Barrage|p2b: Ogerpon|[spread] p2b
+|-immune|p2a: Terapagos
+|-damage|p2b: Ogerpon|17/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Calyrex|[anim] Ivy Cudgel Rock
+|-damage|p1b: Calyrex|30/100
+|move|p1a: Minior|Dazzling Gleam|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|38/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Minior|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Minior
+|faint|p1b: Calyrex
+|
+|win|MMB? Ezy
+|raw|HarrietThugman's rating: 1168 &rarr; <strong>1137</strong><br />(-31 for losing)
+|raw|MMB? Ezy's rating: 1087 &rarr; <strong>1120</strong><br />(+33 for winning)
+|l|☆HarrietThugman
+|player|p1|
+|l|☆MMB? Ezy
+|player|p2|

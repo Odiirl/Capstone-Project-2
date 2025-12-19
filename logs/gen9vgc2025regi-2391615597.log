@@ -1,0 +1,144 @@
+|j|☆Netheros
+|j|☆goldfishmemory
+|t:|1750876123
+|gametype|doubles
+|player|p1|Netheros|1|1145
+|player|p2|goldfishmemory|266|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Gouging Fire, L50|
+|poke|p2|Slither Wing, L50|
+|poke|p2|Venusaur, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goldfishmemory)
+|inactive|Netheros has 60 seconds left.
+|inactive|goldfishmemory has 60 seconds left.
+|inactive|goldfishmemory has 30 seconds left.
+|
+|t:|1750876200
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Gouging Fire|Gouging Fire, L50|100/100
+|switch|p2b: Slither Wing|Slither Wing, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|Netheros has 30 seconds left.
+|inactive|goldfishmemory has 30 seconds left.
+|inactive|Netheros has 20 seconds left.
+|inactive|goldfishmemory has 20 seconds left.
+|inactive|Netheros has 15 seconds left.
+|inactive|goldfishmemory has 15 seconds left.
+|inactive|Netheros has 10 seconds left.
+|
+|t:|1750876247
+|move|p1a: Rillaboom|Fake Out|p2a: Gouging Fire
+|-damage|p2a: Gouging Fire|90/100
+|move|p2b: Slither Wing|First Impression|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Slither Wing|91/100|[from] item: Life Orb
+|cant|p2a: Gouging Fire|flinch
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Slither Wing|[spread] p2a,p2b
+|-supereffective|p2b: Slither Wing
+|-damage|p2a: Gouging Fire|50/100
+|-damage|p2b: Slither Wing|0 fnt
+|faint|p2b: Slither Wing
+|-end|p2b: Slither Wing|Protosynthesis|[silent]
+|
+|-heal|p2a: Gouging Fire|56/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750876266
+|switch|p1a: Kyurem|Kyurem-White, L50, shiny|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Gouging Fire|ability: Protosynthesis
+|-start|p2a: Gouging Fire|protosynthesisspe
+|-ability|p1a: Kyurem|Turboblaze
+|turn|2
+|inactive|Netheros has 30 seconds left.
+|inactive|Netheros has 20 seconds left.
+|inactive|Netheros has 15 seconds left.
+|inactive|Netheros has 10 seconds left.
+|
+|t:|1750876314
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Netheros|move: Tailwind
+|move|p2a: Gouging Fire|Outrage|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|move|p1a: Kyurem|Dragon Pulse|p2a: Gouging Fire
+|-supereffective|p2a: Gouging Fire
+|-damage|p2a: Gouging Fire|0 fnt
+|faint|p2a: Gouging Fire
+|-end|p2a: Gouging Fire|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750876331
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|inactive|Netheros has 30 seconds left.
+|inactive|goldfishmemory has 30 seconds left.
+|inactive|goldfishmemory has 20 seconds left.
+|
+|t:|1750876370
+|move|p1b: Ninetales|Helping Hand|p1a: Kyurem
+|-singleturn|p1a: Kyurem|Helping Hand|[of] p1b: Ninetales
+|move|p2a: Groudon|Precipice Blades|p1b: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Kyurem|52/100
+|-damage|p1b: Ninetales|21/100
+|move|p1a: Kyurem|Dragon Pulse|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|move|p2b: Zacian|Behemoth Blade|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyurem|58/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|goldfishmemory has 30 seconds left.
+|
+|t:|1750876401
+|-terastallize|p1a: Kyurem|Fairy
+|-terastallize|p2b: Zacian|Fairy
+|move|p1a: Kyurem|Dragon Pulse|p2b: Zacian
+|-immune|p2b: Zacian
+|move|p2b: Zacian|Play Rough|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|goldfishmemory
+|raw|Netheros's rating: 1145 &rarr; <strong>1120</strong><br />(-25 for losing)
+|raw|goldfishmemory's rating: 1150 &rarr; <strong>1175</strong><br />(+25 for winning)
+|l|☆goldfishmemory
+|player|p2|
+|l|☆Netheros
+|player|p1|

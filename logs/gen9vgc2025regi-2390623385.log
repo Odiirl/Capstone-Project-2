@@ -1,0 +1,175 @@
+|j|☆Abstrakt17
+|j|☆Leexinze
+|t:|1750737940
+|gametype|doubles
+|player|p1|Abstrakt17|cynthia-gen4|1226
+|player|p2|Leexinze|elesa|1246
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750737989
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750738025
+|-terastallize|p1a: Flutter Mane|Rock
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Flutter Mane|Power Gem|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|5/100
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750738077
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Flutter Mane|Icy Wind|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Tyranitar|92/100
+|-damage|p2b: Lunala|95/100
+|-unboost|p2b: Lunala|spe|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1b: Armarouge
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1750738097
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750738126
+|switch|p2a: Iron Hands|Iron Hands, L50, shiny|100/100
+|move|p1a: Flutter Mane|Moonblast|p2b: Lunala
+|-damage|p2b: Lunala|59/100
+|move|p1b: Koraidon|Flare Blitz|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|-damage|p1b: Koraidon|74/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750738142
+|switch|p2b: Ho-Oh|Ho-Oh, L50, shiny|38/100
+|turn|4
+|
+|t:|1750738154
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Iron Hands|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|91/100
+|move|p1b: Koraidon|Flare Blitz|p2b: Ho-Oh
+|-resisted|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|1/100
+|-damage|p1b: Koraidon|59/100|[from] Recoil
+|move|p2b: Ho-Oh|Brave Bird|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|-damage|p2b: Ho-Oh|0 fnt|[from] Recoil
+|faint|p2b: Ho-Oh
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750738172
+|switch|p1b: Flutter Mane|Flutter Mane, L50, shiny, tera:Rock|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|92/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|5
+|
+|t:|1750738206
+|move|p1b: Flutter Mane|Moonblast|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|31/100
+|move|p2b: Tyranitar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|23/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: Tyranitar
+|move|p2a: Iron Hands|Drain Punch|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|65/100
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Hands|59/100|[from] Sandstorm
+|-damage|p1a: Calyrex|16/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1750738230
+|move|p1b: Flutter Mane|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|14/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-heal|p2a: Iron Hands|20/100|[from] drain|[of] p1a: Calyrex
+|faint|p1a: Calyrex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Hands|14/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1750738241
+|move|p1b: Flutter Mane|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|win|Abstrakt17
+|raw|Abstrakt17's rating: 1226 &rarr; <strong>1252</strong><br />(+26 for winning)
+|raw|Leexinze's rating: 1246 &rarr; <strong>1220</strong><br />(-26 for losing)
+|l|☆Abstrakt17
+|player|p1|
+|l|☆Leexinze
+|player|p2|

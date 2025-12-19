@@ -1,0 +1,202 @@
+|j|☆Kzaarai
+|j|☆halcyonfury
+|t:|1750816746
+|gametype|doubles
+|player|p1|Kzaarai|lance|1336
+|player|p2|halcyonfury|1|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Pikachu, L50, F|
+|poke|p2|Moltres-Galar, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by halcyonfury)
+|inactive|Kzaarai also wants the timer to be on.
+|inactive|Kzaarai has 60 seconds left.
+|inactive|halcyonfury has 60 seconds left.
+|
+|t:|1750816787
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Pikachu|Pikachu, L50, F|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750816812
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Pikachu|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|92/100
+|cant|p1b: Grimmsnarl|flinch
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Kyogre|[spread] p2a,p2b
+|-enditem|p2a: Pikachu|Focus Sash
+|-damage|p2a: Pikachu|2/100
+|-damage|p2b: Kyogre|70/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Miraidon|35/100
+|-damage|p1b: Grimmsnarl|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750816836
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Kzaarai|move: Light Screen
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|-damage|p2b: Kyogre|41/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750816848
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|3
+|
+|t:|1750816868
+|-terastallize|p2a: Amoonguss|Water
+|move|p1b: Incineroar|Fake Out|p2b: Kyogre
+|-damage|p2b: Kyogre|30/100
+|cant|p2b: Kyogre|flinch
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-resisted|p2b: Kyogre
+|-damage|p2a: Amoonguss|54/100
+|-damage|p2b: Kyogre|6/100
+|move|p2a: Amoonguss|Spore|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Electric Terrain
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750816888
+|move|p2b: Kyogre|Origin Pulse|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|72/100
+|-damage|p1b: Incineroar|47/100
+|move|p1b: Incineroar|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|-enditem|p2b: Kyogre|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Kyogre
+|move|p1a: Calyrex|Leech Seed|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Leech Seed
+|move|p2a: Amoonguss|Pollen Puff|p2: Kyogre|[notarget]
+|-fail|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|78/100|[from] item: Leftovers
+|-damage|p2a: Amoonguss|42/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|91/100|[silent]
+|upkeep
+|
+|t:|1750816908
+|switch|p2b: Pikachu|Pikachu, L50, F|2/100
+|turn|5
+|
+|t:|1750816918
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Pikachu|Endeavor|p1a: Calyrex
+|-damage|p1a: Calyrex|1/100
+|move|p1b: Incineroar|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|16/100
+|-damage|p1b: Incineroar|30/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-enditem|p2a: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Pikachu|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p2b: Pikachu|0 fnt
+|faint|p2a: Amoonguss
+|faint|p2b: Pikachu
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|none
+|-heal|p1a: Calyrex|7/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750816938
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|6
+|
+|t:|1750816948
+|move|p2b: Zacian|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|42/100
+|
+|-heal|p1a: Calyrex|13/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750816959
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Zacian|Behemoth Blade|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|18/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750816968
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Zacian|Behemoth Blade|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|24/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750816977
+|move|p2b: Zacian|Behemoth Blade|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|halcyonfury
+|raw|Kzaarai's rating: 1336 &rarr; <strong>1315</strong><br />(-21 for losing)
+|raw|halcyonfury's rating: 1322 &rarr; <strong>1343</strong><br />(+21 for winning)
+|l|☆Kzaarai
+|player|p1|
+|l|☆halcyonfury
+|player|p2|

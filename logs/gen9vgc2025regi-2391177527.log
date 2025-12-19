@@ -1,0 +1,179 @@
+|j|☆Crocalors
+|j|☆i_epix
+|t:|1750812407
+|gametype|doubles
+|player|p1|Crocalors|youngster-gen4|1436
+|player|p2|i_epix|pokekid|1393
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Iron Boulder, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by i_epix)
+Crocalors has agreed to open team sheets.
+|
+|t:|1750812432
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Iron Boulder|Iron Boulder, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750812450
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Iron Boulder|atk|1
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: i_epix|move: Tailwind
+|move|p2b: Iron Boulder|Mighty Cleave|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|63/100
+|move|p1b: Raging Bolt|Electroweb|p2b: Iron Boulder|[spread] p2a
+|-miss|p1b: Raging Bolt|p2b: Iron Boulder
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750812470
+|-end|p2b: Iron Boulder|Quark Drive|[silent]
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|89/100
+|move|p2a: Whimsicott|Moonblast|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|33/100
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750812493
+|-terastallize|p1b: Raging Bolt|Fairy
+|move|p2a: Whimsicott|Moonblast|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|18/100
+|move|p2b: Miraidon|Volt Switch|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|t:|1750812504
+|switch|p2b: Iron Boulder|Iron Boulder, L50|100/100|[from] Volt Switch
+|-activate|p2b: Iron Boulder|ability: Quark Drive
+|-start|p2b: Iron Boulder|quarkdrivespe
+|move|p1a: Incineroar|Flare Blitz|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|-damage|p1a: Incineroar|80/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750812516
+|switch|p2a: Miraidon|Miraidon, L50|78/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750812532
+|move|p2b: Iron Boulder|Mighty Cleave|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Miraidon|Electro Drift|p1b: Zamazenta
+|-damage|p1b: Zamazenta|36/100
+|move|p1b: Zamazenta|Body Press|p2a: Miraidon
+|-damage|p2a: Miraidon|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: i_epix|move: Tailwind
+|upkeep
+|
+|t:|1750812535
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|inactive|i_epix has 30 seconds left.
+|inactive|i_epix has 20 seconds left.
+|inactive|i_epix has 15 seconds left.
+|inactive|i_epix has 10 seconds left.
+|inactive|i_epix has 5 seconds left.
+|
+|t:|1750812588
+|move|p2b: Iron Boulder|Mighty Cleave|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|69/100
+|move|p1a: Koraidon|Close Combat|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Miraidon
+|-damage|p1a: Koraidon|60/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Body Press|p2b: Iron Boulder
+|-damage|p2b: Iron Boulder|11/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750812594
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|6
+|
+|t:|1750812611
+|move|p2b: Iron Boulder|Mighty Cleave|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|15/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|78/100
+|-damage|p1a: Koraidon|6/100|[from] Recoil
+|-damage|p1a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p1a: Koraidon
+|move|p1b: Zamazenta|Body Press|p2b: Iron Boulder
+|-damage|p2b: Iron Boulder|0 fnt
+|faint|p2b: Iron Boulder
+|-end|p2b: Iron Boulder|Quark Drive|[silent]
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|1/100
+|-status|p1b: Zamazenta|brn
+|
+|-heal|p2a: Ho-Oh|84/100|[from] item: Leftovers
+|-damage|p1b: Zamazenta|0 fnt|[from] brn
+|faint|p1b: Zamazenta
+|
+|win|i_epix
+|raw|Crocalors's rating: 1436 &rarr; <strong>1414</strong><br />(-22 for losing)
+|raw|i_epix's rating: 1393 &rarr; <strong>1415</strong><br />(+22 for winning)
+|l|☆i_epix
+|player|p2|

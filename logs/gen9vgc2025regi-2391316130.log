@@ -1,0 +1,362 @@
+|j|☆KingOvershield
+|j|☆Detective Shelly
+|t:|1750834582
+|gametype|doubles
+|player|p1|KingOvershield|bugcatcher-gen4dp|1217
+|player|p2|Detective Shelly|iris-gen5bw2|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Detective Shelly)
+|
+|t:|1750834615
+|start
+|switch|p1a: Scovillain|Scovillain, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|inactive|KingOvershield has 30 seconds left.
+|inactive|KingOvershield has 20 seconds left.
+|inactive|KingOvershield has 15 seconds left.
+|inactive|KingOvershield has 10 seconds left.
+|inactive|KingOvershield has 5 seconds left.
+|
+|t:|1750834669
+|-terastallize|p2a: Lunala|Grass
+|move|p1a: Scovillain|Rage Powder|p1a: Scovillain
+|-singleturn|p1a: Scovillain|move: Rage Powder
+|move|p1b: Miraidon|Electro Drift|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|82/100
+|move|p2b: Urshifu|Close Combat|p1a: Scovillain
+|-enditem|p1a: Scovillain|Focus Sash
+|-damage|p1a: Scovillain|1/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|-damage|p2b: Urshifu|91/100|[from] item: Life Orb
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|2
+|inactive|KingOvershield has 30 seconds left.
+|inactive|KingOvershield has 20 seconds left.
+|
+|t:|1750834705
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Lunala|Expanding Force|p1b: Koraidon|[spread] p1a,p1b
+|-supereffective|p1b: Koraidon
+|-damage|p1a: Scovillain|0 fnt
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1a: Scovillain
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750834718
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|inactive|KingOvershield has 30 seconds left.
+|inactive|KingOvershield has 20 seconds left.
+|inactive|KingOvershield has 15 seconds left.
+|inactive|KingOvershield has 10 seconds left.
+|inactive|KingOvershield has 5 seconds left.
+|
+|t:|1750834768
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Clefairy|After You||[still]
+|-fail|p1b: Clefairy
+|move|p2a: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|47/100
+|move|p1a: Miraidon|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Lunala|67/100
+|-damage|p2b: Indeedee|61/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750834784
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Clefairy|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Miraidon|72/100
+|-fail|p1b: Clefairy|heal
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|43/100
+|move|p1a: Miraidon|Snarl|p2a: Lunala|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2a: Lunala|51/100
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p2a: Lunala|spa|1
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750834801
+|switch|p2b: Urshifu|Urshifu, L50, M|91/100
+|turn|5
+|inactive|KingOvershield has 30 seconds left.
+|inactive|Detective Shelly has 30 seconds left.
+|
+|t:|1750834841
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Lunala|Moongeist Beam|p1b: Clefairy
+|-damage|p1b: Clefairy|61/100
+|move|p1a: Miraidon|Snarl|p2b: Urshifu|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-damage|p2a: Lunala|35/100
+|-unboost|p2a: Lunala|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|KingOvershield has 30 seconds left.
+|inactive|KingOvershield has 20 seconds left.
+|inactive|KingOvershield has 15 seconds left.
+|inactive|KingOvershield has 10 seconds left.
+|
+|t:|1750834894
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Miraidon|Snarl|p2b: Urshifu|[spread] p2a
+|-miss|p1a: Miraidon|p2b: Urshifu
+|-damage|p2a: Lunala|18/100
+|-unboost|p2a: Lunala|spa|1
+|move|p2b: Urshifu|Close Combat|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|29/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|-damage|p2b: Urshifu|81/100|[from] item: Life Orb
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750834913
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Miraidon|68/100
+|-heal|p1b: Clefairy|54/100
+|move|p1a: Miraidon|Snarl|p2b: Urshifu|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-damage|p2a: Smeargle|57/100
+|-unboost|p2a: Smeargle|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|inactive|KingOvershield has 30 seconds left.
+|inactive|KingOvershield has 20 seconds left.
+|inactive|KingOvershield has 15 seconds left.
+|inactive|KingOvershield has 10 seconds left.
+|
+|t:|1750834960
+|switch|p2b: Lunala|Lunala, L50, tera:Grass|18/100
+|move|p1b: Clefairy|After You|p1a: Miraidon
+|-activate|p1a: Miraidon|move: After You
+|move|p1a: Miraidon|Snarl|p2a: Smeargle|[spread] p2a,p2b
+|-damage|p2a: Smeargle|27/100
+|-damage|p2b: Lunala|8/100
+|-unboost|p2a: Smeargle|spa|1
+|-unboost|p2b: Lunala|spa|1
+|move|p2a: Smeargle|Spore|p1a: Miraidon
+|-status|p1a: Miraidon|slp|[from] move: Spore
+|
+|upkeep
+|turn|9
+|
+|t:|1750834977
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Miraidon|93/100 slp
+|-heal|p1b: Clefairy|78/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|57/100 slp
+|move|p2a: Smeargle|Spore|p1b: Clefairy
+|-status|p1b: Clefairy|slp|[from] move: Spore
+|cant|p1a: Miraidon|slp
+|
+|upkeep
+|turn|10
+|c|☆KingOvershield|classic clown move
+|
+|t:|1750834994
+|cant|p1b: Clefairy|slp
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|17/100 slp
+|move|p2a: Smeargle|Decorate|p2b: Lunala
+|-boost|p2b: Lunala|atk|2
+|-boost|p2b: Lunala|spa|2
+|-curestatus|p1a: Miraidon|slp|[msg]
+|move|p1a: Miraidon|Snarl|p2a: Smeargle|[spread] p2a,p2b
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p2a: Smeargle
+|faint|p2b: Lunala
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750835001
+|switch|p2b: Urshifu|Urshifu, L50, M|81/100
+|turn|11
+|
+|t:|1750835017
+|cant|p1b: Clefairy|slp
+|move|p2b: Urshifu|Sucker Punch|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2b: Urshifu|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1750835028
+|move|p2b: Urshifu|Wicked Blow|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|46/100 slp
+|-damage|p2b: Urshifu|62/100|[from] item: Life Orb
+|-curestatus|p1b: Clefairy|slp|[msg]
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|71/100
+|
+|upkeep
+|turn|13
+|
+|t:|1750835036
+|move|p2b: Urshifu|Wicked Blow|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|37/100
+|-damage|p2b: Urshifu|52/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|62/100
+|
+|upkeep
+|turn|14
+|
+|t:|1750835043
+|move|p2b: Urshifu|Wicked Blow|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|30/100
+|-damage|p2b: Urshifu|42/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|55/100
+|
+|upkeep
+|turn|15
+|
+|t:|1750835049
+|move|p2b: Urshifu|Wicked Blow|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|26/100
+|-damage|p2b: Urshifu|32/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|51/100
+|
+|upkeep
+|turn|16
+|
+|t:|1750835056
+|move|p2b: Urshifu|Wicked Blow|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|23/100
+|-damage|p2b: Urshifu|23/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|47/100
+|
+|upkeep
+|turn|17
+|
+|t:|1750835063
+|move|p2b: Urshifu|Close Combat|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|12/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|-damage|p2b: Urshifu|13/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|37/100
+|
+|upkeep
+|turn|18
+|
+|t:|1750835071
+|move|p2b: Urshifu|Close Combat|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|6/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|-damage|p2b: Urshifu|3/100|[from] item: Life Orb
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy
+|-heal|p1b: Clefairy|30/100
+|
+|upkeep
+|turn|19
+|
+|t:|1750835079
+|move|p2b: Urshifu|Close Combat|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|0 fnt
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|faint|p1b: Clefairy
+|-damage|p2b: Urshifu|0 fnt|[from] item: Life Orb
+|faint|p2b: Urshifu
+|
+|win|Detective Shelly
+|raw|KingOvershield's rating: 1217 &rarr; <strong>1189</strong><br />(-28 for losing)
+|raw|Detective Shelly's rating: 1181 &rarr; <strong>1209</strong><br />(+28 for winning)
+|c|☆Detective Shelly|gg
+|c|☆KingOvershield|yes gg

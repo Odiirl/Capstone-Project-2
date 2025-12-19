@@ -1,0 +1,137 @@
+|j|☆b_cornell12
+|j|☆vinicio499
+|t:|1750874519
+|gametype|doubles
+|player|p1|b_cornell12|102|1436
+|player|p2|vinicio499|dawn|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Stonjourner, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Enamorus-Therian, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vinicio499)
+|
+|t:|1750874538
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750874561
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Koraidon|Collision Course|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|move|p1b: Weezing|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2b: Calyrex|Glacial Lance|p1b: Weezing|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Weezing|46/100
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750874575
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Stonjourner|Stonjourner, L50, M, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750874584
+|-terastallize|p1a: Calyrex|Ghost
+|move|p1b: Weezing|Protect|p1b: Weezing
+|-singleturn|p1b: Weezing|Protect
+|move|p2a: Stonjourner|Wide Guard|p2a: Stonjourner
+|-singleturn|p2a: Stonjourner|Wide Guard
+|move|p1a: Calyrex|Astral Barrage|p2a: Stonjourner|[spread] 
+|-activate|p2a: Stonjourner|move: Wide Guard
+|-activate|p2b: Calyrex|move: Wide Guard
+|move|p2b: Calyrex|Glacial Lance|p1b: Weezing|[spread] p1a
+|-activate|p1b: Weezing|move: Protect
+|-damage|p1a: Calyrex|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750874601
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Stonjourner|Wide Guard|p2a: Stonjourner
+|-singleturn|p2a: Stonjourner|Wide Guard
+|move|p1b: Weezing|Taunt|p2a: Stonjourner
+|-start|p2a: Stonjourner|move: Taunt
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Weezing|0 fnt
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Calyrex|move: Taunt
+|upkeep
+|
+|t:|1750874613
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1750874618
+|move|p1b: Walking Wake|Hydro Steam|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-enditem|p2a: Stonjourner|Focus Sash
+|-damage|p2a: Stonjourner|1/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Stonjourner|[spread] p2a,p2b
+|-damage|p2a: Stonjourner|0 fnt
+|-damage|p2b: Calyrex|49/100
+|faint|p2a: Stonjourner
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|
+|win|vinicio499
+|raw|b_cornell12's rating: 1436 &rarr; <strong>1415</strong><br />(-21 for losing)
+|raw|vinicio499's rating: 1422 &rarr; <strong>1443</strong><br />(+21 for winning)
+|l|☆b_cornell12
+|player|p1|
+|l|☆vinicio499
+|player|p2|

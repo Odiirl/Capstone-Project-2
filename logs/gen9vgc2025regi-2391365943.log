@@ -1,0 +1,187 @@
+|j|☆dead dende
+|j|☆stsblue
+|t:|1750844378
+|gametype|doubles
+|player|p1|dead dende|rocketgrunt|1194
+|player|p2|stsblue|101|1185
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Regidrago, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Enamorus, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stsblue)
+|inactive|stsblue has 60 seconds left.
+|
+|t:|1750844437
+|start
+|switch|p1a: doo monster|Regidrago, L50|100/100
+|switch|p1b: frankenstein|Whimsicott, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750844455
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: frankenstein|Tailwind|p1b: frankenstein
+|-sidestart|p1: dead dende|move: Tailwind
+|move|p1a: doo monster|Dragon Energy|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Indeedee|41/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750844477
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Calyrex|Astral Barrage|p1a: doo monster|[spread] p1a,p1b
+|-damage|p1a: doo monster|3/100
+|-damage|p1b: frankenstein|0 fnt
+|faint|p1b: frankenstein
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: doo monster|Draco Meteor|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-unboost|p1a: doo monster|spa|2
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750844493
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Enamorus|Enamorus, L50, F|100/100
+|turn|3
+|
+|t:|1750844513
+|move|p2a: Indeedee|Helping Hand|p2b: Enamorus
+|-singleturn|p2b: Enamorus|Helping Hand|[of] p2a: Indeedee
+|move|p1a: doo monster|Protect|p1a: doo monster
+|-singleturn|p1a: doo monster|Protect
+|move|p2b: Enamorus|Superpower|p1a: doo monster
+|-activate|p1a: doo monster|move: Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|21/100
+|-damage|p2b: Enamorus|76/100
+|-unboost|p2a: Indeedee|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750844528
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: doo monster|Protect||[still]
+|-fail|p1a: doo monster
+|move|p2b: Enamorus|Superpower|p1a: doo monster
+|-damage|p1a: doo monster|0 fnt
+|-boost|p2b: Enamorus|atk|1
+|-boost|p2b: Enamorus|def|1
+|faint|p1a: doo monster
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Ho-Oh|[spread] p2b
+|-miss|p1b: Tornadus|p2a: Ho-Oh
+|-crit|p2b: Enamorus
+|-damage|p2b: Enamorus|38/100
+|
+|-sideend|p1: dead dende|move: Tailwind
+|upkeep
+|
+|t:|1750844536
+|switch|p1a: optimus prime|Chi-Yu, L50|100/100
+|-ability|p1a: optimus prime|Beads of Ruin
+|turn|5
+|inactive|stsblue has 30 seconds left.
+|inactive|stsblue has 20 seconds left.
+|
+|t:|1750844572
+|-terastallize|p1a: optimus prime|Fire
+|move|p1b: Tornadus|Sunny Day|p1b: Tornadus
+|-weather|SunnyDay
+|move|p2a: Ho-Oh|Life Dew||[still]|[spread] p2a,p2b
+|-fail|p2a: Ho-Oh|heal
+|-heal|p2b: Enamorus|62/100
+|move|p2b: Enamorus|Play Rough|p1b: Tornadus
+|-damage|p1b: Tornadus|41/100
+|-enditem|p1b: Tornadus|Sitrus Berry|[eat]
+|-heal|p1b: Tornadus|66/100|[from] item: Sitrus Berry
+|move|p1a: optimus prime|Heat Wave|p2a: Ho-Oh|[spread] p2a,p2b
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|61/100
+|-damage|p2b: Enamorus|0 fnt
+|faint|p2b: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750844586
+|switch|p2b: Indeedee|Indeedee-F, L50, F|21/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|6
+|
+|t:|1750844599
+|move|p2b: Indeedee|Helping Hand|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: dead dende|move: Tailwind
+|move|p1a: optimus prime|Heat Wave|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|16/100
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2a: Ho-Oh|Sitrus Berry|[eat]
+|-heal|p2a: Ho-Oh|40/100|[from] item: Sitrus Berry
+|faint|p2b: Indeedee
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750844615
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p1a: optimus prime|Heat Wave|p2a: Ho-Oh
+|-activate|p2a: Ho-Oh|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750844624
+|move|p1a: optimus prime|Heat Wave|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|
+|win|dead dende
+|raw|dead dende's rating: 1194 &rarr; <strong>1218</strong><br />(+24 for winning)
+|raw|stsblue's rating: 1185 &rarr; <strong>1161</strong><br />(-24 for losing)
+|l|☆stsblue
+|player|p2|
+|l|☆dead dende
+|player|p1|

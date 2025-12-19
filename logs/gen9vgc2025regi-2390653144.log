@@ -1,0 +1,154 @@
+|j|☆CamNewtontheGOAT
+|j|☆FlyingDingo
+|t:|1750743195
+|gametype|doubles
+|player|p1|CamNewtontheGOAT|265|1420
+|player|p2|FlyingDingo|hilda-wonderlauncher|1486
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Kleavor, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CamNewtontheGOAT)
+|
+|t:|1750743262
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Giratina|Giratina-Origin, L50|100/100
+|switch|p2b: Kleavor|Kleavor, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750743273
+|-terastallize|p2a: Giratina|Fire
+|move|p1a: Koraidon|Collision Course|p2b: Kleavor
+|-damage|p2b: Kleavor|16/100
+|move|p2b: Kleavor|Stone Axe|p1b: Smeargle|[miss]
+|-miss|p2b: Kleavor|p1b: Smeargle
+|move|p1b: Smeargle|Spore|p2a: Giratina
+|-status|p2a: Giratina|slp|[from] move: Spore
+|cant|p2a: Giratina|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750743295
+|move|p2b: Kleavor|Protect|p2b: Kleavor
+|-singleturn|p2b: Kleavor|Protect
+|move|p1a: Koraidon|Collision Course|p2a: Giratina
+|-damage|p2a: Giratina|54/100 slp
+|move|p1b: Smeargle|Decorate|p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|-boost|p1a: Koraidon|spa|2
+|cant|p2a: Giratina|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|3
+|inactive|CamNewtontheGOAT has 30 seconds left.
+|
+|t:|1750743322
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p1a: Koraidon|Flame Charge|p2b: Kleavor
+|-damage|p2b: Kleavor|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Kleavor
+|-curestatus|p2a: Giratina|slp|[msg]
+|move|p2a: Giratina|Dragon Claw|p1b: Smeargle
+|-damage|p1b: Smeargle|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|spe|1
+|upkeep
+|
+|t:|1750743331
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|4
+|
+|t:|1750743345
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p1a: Koraidon|Collision Course|p2b: Chi-Yu
+|-supereffective|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|move|p2a: Giratina|Dragon Claw|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750743356
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|5
+|
+|t:|1750743372
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p2a: Giratina|Shadow Sneak|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Koraidon|Collision Course|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|
+|-weather|none
+|upkeep
+|
+|t:|1750743381
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|6
+|
+|t:|1750743392
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|10/100
+|-damage|p1a: Koraidon|69/100|[from] Recoil
+|move|p1b: Flutter Mane|Moonblast|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|win|CamNewtontheGOAT
+|raw|CamNewtontheGOAT's rating: 1420 &rarr; <strong>1444</strong><br />(+24 for winning)
+|raw|FlyingDingo's rating: 1486 &rarr; <strong>1462</strong><br />(-24 for losing)
+|l|☆CamNewtontheGOAT
+|player|p1|
+|l|☆FlyingDingo
+|player|p2|

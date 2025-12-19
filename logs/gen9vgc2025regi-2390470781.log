@@ -1,0 +1,280 @@
+|j|☆Wildgoobys
+|j|☆jackon17
+|t:|1750717172
+|gametype|doubles
+|player|p1|Wildgoobys|ethan|1530
+|player|p2|jackon17|169|1608
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lapras, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jackon17)
+|
+|t:|1750717194
+|start
+|switch|p1a: Lapras|Lapras, L50, M|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750717212
+|move|p1b: Gothitelle|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|95/100
+|move|p2a: Urshifu|U-turn|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|46/100
+|
+|t:|1750717216
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100|[from] U-turn
+|cant|p2b: Rillaboom|flinch
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Tornadus|perish3|[silent]
+|-start|p2b: Rillaboom|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|52/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|59/100|[from] item: Leftovers
+|-start|p2a: Tornadus|perish3
+|-start|p2b: Rillaboom|perish3
+|-start|p1a: Lapras|perish3
+|-start|p1b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750717233
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p2b: Rillaboom|U-turn|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Gothitelle|65/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|71/100|[from] item: Leftovers
+|-start|p2a: Tornadus|perish2
+|-start|p2b: Rillaboom|perish2
+|-start|p1a: Lapras|perish2
+|-start|p1b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750717258
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Lapras|[spread] p1a,p1b
+|-damage|p1a: Lapras|82/100
+|-damage|p1b: Zamazenta|78/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|64/100
+|-damage|p2b: Rillaboom|96/100|[from] Recoil
+|move|p1a: Lapras|Freeze-Dry|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Zamazenta|70/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|69/100|[from] Grassy Terrain
+|-heal|p1a: Lapras|87/100|[from] Grassy Terrain
+|-start|p2a: Tornadus|perish1
+|-start|p2b: Rillaboom|perish1
+|-start|p1a: Lapras|perish1
+|upkeep
+|turn|4
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|jackon17 has 30 seconds left.
+|
+|t:|1750717295
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Gothitelle|Gothitelle, L50, M|71/100
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Zamazenta|76/100|[from] Grassy Terrain
+|-heal|p1a: Gothitelle|77/100|[from] Grassy Terrain
+|-heal|p1a: Gothitelle|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Wildgoobys has 30 seconds left.
+|
+|t:|1750717324
+|-terastallize|p2a: Urshifu|Ghost
+|move|p1a: Gothitelle|Fake Out|p2a: Urshifu
+|-immune|p2a: Urshifu
+|move|p2a: Urshifu|Surging Strikes|p1b: Zamazenta
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|58/100
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|41/100
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|22/100
+|-hitcount|p1b: Zamazenta|3
+|move|p1b: Zamazenta|Body Press|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Zamazenta|28/100|[from] Grassy Terrain
+|-heal|p1a: Gothitelle|90/100|[from] Grassy Terrain
+|-heal|p1a: Gothitelle|96/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750717337
+|switch|p2b: Rillaboom|Rillaboom, L50, M|69/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|
+|t:|1750717352
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Rillaboom|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|27/100
+|move|p2a: Urshifu|Surging Strikes|p1b: Zamazenta
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|22/100
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|16/100
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|10/100
+|-hitcount|p1b: Zamazenta|3
+|cant|p1b: Zamazenta|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Zamazenta|16/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750717371
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Rillaboom|Grassy Glide|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|12/100
+|move|p2a: Urshifu|Surging Strikes|p1b: Zamazenta
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|6/100
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|-hitcount|p1: Zamazenta|2
+|move|p1a: Koraidon|Flame Charge|p2a: Urshifu
+|-damage|p2a: Urshifu|13/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|96/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|19/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750717394
+|switch|p1b: Gothitelle|Gothitelle, L50, M|96/100
+|turn|8
+|
+|t:|1750717400
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|move|p1b: Gothitelle|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|75/100
+|move|p1a: Koraidon|Flame Charge|p2a: Tornadus
+|-damage|p2a: Tornadus|23/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|87/100|[from] item: Life Orb
+|cant|p2b: Rillaboom|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|92/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|81/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|100/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750717420
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Koraidon|Flame Charge|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|45/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|83/100|[from] item: Life Orb
+|move|p2b: Rillaboom|U-turn|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|53/100
+|
+|t:|1750717427
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M, tera:Ghost|19/100|[from] U-turn
+|move|p1b: Gothitelle|Psychic|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Koraidon|88/100|[from] Grassy Terrain
+|-heal|p2b: Urshifu|24/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|59/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750717428
+|switch|p2a: Rillaboom|Rillaboom, L50, M|45/100
+|turn|10
+|
+|t:|1750717447
+|move|p1a: Koraidon|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Koraidon|71/100|[from] Recoil
+|-damage|p1a: Koraidon|61/100|[from] item: Life Orb
+|move|p2b: Urshifu|Surging Strikes|p1b: Gothitelle
+|-crit|p1b: Gothitelle
+|-damage|p1b: Gothitelle|32/100
+|-crit|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|-hitcount|p1: Gothitelle|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Koraidon|67/100|[from] Grassy Terrain
+|-heal|p2b: Urshifu|30/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|jackon17 forfeited.
+|
+|win|Wildgoobys
+|raw|Wildgoobys's rating: 1530 &rarr; <strong>1554</strong><br />(+24 for winning)
+|raw|jackon17's rating: 1608 &rarr; <strong>1584</strong><br />(-24 for losing)
+|l|☆jackon17
+|player|p2|
+|l|☆Wildgoobys
+|player|p1|

@@ -1,0 +1,112 @@
+|j|☆chico linguiceta
+|j|☆tcg2vgc
+|t:|1750821846
+|gametype|doubles
+|player|p1|chico linguiceta|harlequin|1321
+|player|p2|tcg2vgc|1|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Poliwrath, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Toedscruel, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|
+|t:|1750821887
+|start
+|switch|p1a: Oranguru|Oranguru, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Scrafty|Scrafty, L50, M, shiny|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750821905
+|move|p1b: Incineroar|Fake Out|p2a: Scrafty
+|-damage|p2a: Scrafty|91/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Scrafty
+|move|p2b: Weezing|Taunt|p1a: Oranguru
+|-start|p1a: Oranguru|move: Taunt
+|-enditem|p1a: Oranguru|Mental Herb
+|-end|p1a: Oranguru|move: Taunt
+|cant|p2a: Scrafty|flinch
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1750821926
+|move|p1a: Oranguru|Expanding Force|p2a: Scrafty
+|-immune|p2a: Scrafty
+|move|p2a: Scrafty|Taunt|p1a: Oranguru
+|-start|p1a: Oranguru|move: Taunt
+|move|p1b: Incineroar|Parting Shot|p2b: Weezing
+|-unboost|p2b: Weezing|atk|1
+|-unboost|p2b: Weezing|spa|1
+|
+|t:|1750821934
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Parting Shot
+|move|p2b: Weezing|Will-O-Wisp|p1b: Ursaluna
+|-status|p1b: Ursaluna|brn
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750821944
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2b: Weezing|Protect|p2b: Weezing
+|-singleturn|p2b: Weezing|Protect
+|move|p1b: Ursaluna|Hyper Voice|p2a: Scrafty|[spread] p2a
+|-activate|p2b: Weezing|move: Protect
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|move|p1a: Oranguru|Expanding Force|p2b: Weezing
+|-activate|p2b: Weezing|move: Protect
+|
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750821958
+|switch|p2a: Toedscruel|Toedscruel, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750821969
+|move|p1b: Ursaluna|Hyper Voice|p2a: Toedscruel|[spread] p2a,p2b
+|-damage|p2a: Toedscruel|32/100
+|-damage|p2b: Weezing|17/100
+|move|p1a: Oranguru|Expanding Force|p2b: Weezing
+|-supereffective|p2b: Weezing
+|-damage|p2b: Weezing|0 fnt
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|move|p2a: Toedscruel|Spore||[still]
+|-fail|p2a: Toedscruel
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|-message|tcg2vgc forfeited.
+|
+|win|chico linguiceta
+|raw|chico linguiceta's rating: 1321 &rarr; <strong>1341</strong><br />(+20 for winning)
+|raw|tcg2vgc's rating: 1326 &rarr; <strong>1306</strong><br />(-20 for losing)
+|l|☆tcg2vgc
+|player|p2|
+|l|☆chico linguiceta
+|player|p1|

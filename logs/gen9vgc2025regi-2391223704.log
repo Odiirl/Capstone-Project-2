@@ -1,0 +1,195 @@
+|j|☆physicsguy
+|j|☆Scottyboi3
+|t:|1750818677
+|gametype|doubles
+|player|p1|physicsguy|2|1085
+|player|p2|Scottyboi3|102|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|
+|t:|1750818717
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|-ability|p1b: Ogerpon|Defiant|boost
+|-boost|p1b: Ogerpon|atk|2
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by physicsguy)
+|inactive|Scottyboi3 has 60 seconds left.
+|
+|t:|1750818750
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Scottyboi3|move: Tailwind
+|move|p1a: Flutter Mane|Icy Wind|p2b: Tornadus|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Incineroar|96/100
+|-damage|p2b: Tornadus|62/100
+|-unboost|p2a: Incineroar|spe|1
+|-unboost|p2b: Tornadus|spe|1
+|move|p2a: Incineroar|Flare Blitz|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|38/100
+|-damage|p2a: Incineroar|81/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|inactive|physicsguy has 30 seconds left.
+|
+|t:|1750818784
+|move|p1a: Flutter Mane|Moonblast|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|50/100
+|move|p2a: Incineroar|Parting Shot|p1b: Ogerpon
+|-unboost|p1b: Ogerpon|atk|1
+|-ability|p1b: Ogerpon|Defiant|boost
+|-boost|p1b: Ogerpon|atk|2
+|-unboost|p1b: Ogerpon|spa|1
+|-ability|p1b: Ogerpon|Defiant|boost
+|-boost|p1b: Ogerpon|atk|2
+|
+|t:|1750818805
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100|[from] Parting Shot
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|
+|upkeep
+|
+|t:|1750818820
+|switch|p2b: Incineroar|Incineroar, L50, F|50/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|-ability|p1b: Ogerpon|Defiant|boost
+|-boost|p1b: Ogerpon|atk|2
+|turn|3
+|inactive|Scottyboi3 has 30 seconds left.
+|
+|t:|1750818847
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Incineroar|Fake Out|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p2b: Incineroar|37/100|[from] Spiky Shield|[of] p1b: Ogerpon
+|move|p2a: Roaring Moon|Acrobatics|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750818859
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750818875
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Roaring Moon|Acrobatics|p1b: Ogerpon
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|move|p2b: Incineroar|Snarl|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|77/100
+|-unboost|p1a: Lunala|spa|1
+|
+|-sideend|p2: Scottyboi3|move: Tailwind
+|upkeep
+|
+|t:|1750818893
+|switch|p2a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|5
+|
+|t:|1750818915
+|-terastallize|p1b: Archaludon|Flying
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|move|p1b: Archaludon|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|move|p2b: Incineroar|Snarl|p1b: Archaludon|[spread] p1a,p1b
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|54/100
+|-damage|p1b: Archaludon|91/100
+|-unboost|p1a: Lunala|spa|1
+|-unboost|p1b: Archaludon|spa|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Ting-Lu|Stomping Tantrum|p1b: Archaludon
+|-immune|p1b: Archaludon
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Scottyboi3 has 30 seconds left.
+|
+|t:|1750818942
+|move|p1a: Lunala|Meteor Beam|p2b: Incineroar|[from] lockedmove
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Archaludon|Body Press|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|26/100
+|move|p2a: Ting-Lu|Ruination|p1b: Archaludon
+|-damage|p1b: Archaludon|46/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p1b: Archaludon|Sitrus Berry|[eat]
+|-heal|p1b: Archaludon|71/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Ting-Lu|33/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-message|Scottyboi3 forfeited.
+|
+|win|physicsguy
+|raw|physicsguy's rating: 1085 &rarr; <strong>1120</strong><br />(+35 for winning)
+|raw|Scottyboi3's rating: 1184 &rarr; <strong>1152</strong><br />(-32 for losing)

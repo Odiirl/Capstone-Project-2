@@ -1,0 +1,237 @@
+|j|☆sryhersg
+|j|☆UtterlyIncapable
+|t:|1750844146
+|gametype|doubles
+|player|p1|sryhersg|2|1187
+|player|p2|UtterlyIncapable|firebreather|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Riolu, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sryhersg)
+|
+|t:|1750844166
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Riolu|Riolu, L50, F|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Riolu|atk|1
+|turn|1
+|
+|t:|1750844175
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Riolu|Quick Guard|p2b: Riolu
+|-singleturn|p2b: Riolu|Quick Guard
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|54/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|UtterlyIncapable has 30 seconds left.
+|
+|t:|1750844200
+|move|p2b: Riolu|Coaching|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-resisted|p1b: Incineroar
+|-damage|p1a: Terapagos|69/100
+|-damage|p1b: Incineroar|70/100
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750844210
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100|[from] Parting Shot
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|-heal|p1a: Terapagos|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750844218
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Riolu|Feint|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Feint
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|97/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Ogerpon|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-heal|p1a: Terapagos|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750844228
+|switch|p1b: Incineroar|Incineroar, L50, F|70/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Riolu|atk|1
+|turn|4
+|
+|t:|1750844245
+|move|p2b: Riolu|Quick Guard|p2b: Riolu
+|-singleturn|p2b: Riolu|Quick Guard
+|move|p1b: Incineroar|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Quick Guard
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Terapagos|33/100
+|-damage|p1b: Incineroar|51/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|-heal|p1a: Terapagos|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750844256
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Riolu|Coaching|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p2a: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|21/100
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750844268
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|-heal|p1a: Terapagos|46/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|UtterlyIncapable has 30 seconds left.
+|
+|t:|1750844296
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|60/100|[silent]
+|move|p2b: Riolu|Feint|p1a: Terapagos
+|-damage|p1a: Terapagos|57/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Riolu|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2b: Riolu|Focus Sash
+|-damage|p2b: Riolu|1/100
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Terapagos|Tera Starstorm|p2b: Riolu
+|-damage|p2b: Riolu|0 fnt
+|faint|p2b: Riolu
+|
+|-heal|p1a: Terapagos|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750844302
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750844322
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2a: Koraidon|[spread] p2a,p2b
+|-damage|p2a: Koraidon|32/100
+|-damage|p2b: Clefairy|41/100
+|move|p2a: Koraidon|Flame Charge|p1b: Calyrex
+|-damage|p1b: Calyrex|7/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|22/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Terapagos|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750844333
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Clefairy|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Terapagos|Tera Starstorm|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Terapagos|76/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750844338
+|move|p2a: Koraidon|Flare Blitz|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|
+|win|sryhersg
+|raw|sryhersg's rating: 1187 &rarr; <strong>1209</strong><br />(+22 for winning)
+|raw|UtterlyIncapable's rating: 1151 &rarr; <strong>1129</strong><br />(-22 for losing)
+|l|☆UtterlyIncapable
+|player|p2|
+|l|☆sryhersg
+|player|p1|
+|j|☆sryhersg
+|player|p1|sryhersg|2|
+|l|☆sryhersg
+|player|p1|

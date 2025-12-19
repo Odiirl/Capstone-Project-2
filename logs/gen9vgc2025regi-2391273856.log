@@ -1,0 +1,224 @@
+|j|☆dalespartan119
+|j|☆jgvitvyvt
+|t:|1750826437
+|gametype|doubles
+|player|p1|dalespartan119|ethan|1168
+|player|p2|jgvitvyvt|unknown|1193
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Scovillain, L50, F|
+|teampreview|4
+|
+|t:|1750826467
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750826492
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Flutter Mane|Dazzling Gleam|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Miraidon|74/100
+|-damage|p2b: Farigiraf|69/100
+|move|p2a: Miraidon|Volt Switch|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|
+|t:|1750826503
+|switch|p2a: Groudon|Groudon, L50|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|move|p1b: Kyogre|Origin Pulse|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|54/100
+|-damage|p2b: Farigiraf|48/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750826539
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2b: Farigiraf|Gravity|p2b: Farigiraf
+|-fieldstart|move: Gravity
+|move|p2a: Groudon|Precipice Blades|p1a: Flutter Mane|[spread] p1b
+|-activate|p1a: Flutter Mane|move: Protect
+|-damage|p1b: Kyogre|41/100
+|-enditem|p1b: Kyogre|Sitrus Berry|[eat]
+|-heal|p1b: Kyogre|66/100|[from] item: Sitrus Berry
+|move|p1b: Kyogre|Ice Beam|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750826561
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|74/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750826576
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Farigiraf|Twin Beam|p1b: Kyogre
+|-damage|p1b: Kyogre|52/100
+|-damage|p1b: Kyogre|36/100
+|-hitcount|p1b: Kyogre|2
+|move|p1b: Kyogre|Surf|p2b: Farigiraf|[spread] p1a,p2a,p2b
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|95/100
+|-damage|p2a: Miraidon|57/100
+|-damage|p2b: Farigiraf|42/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|73/100
+|-damage|p1b: Kyogre|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|49/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|55/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|79/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|16/100|[from] Grassy Terrain
+|-heal|p2a: Miraidon|64/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750826616
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p2b: Farigiraf|Twin Beam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|68/100
+|-damage|p1a: Rillaboom|57/100
+|-hitcount|p1a: Rillaboom|2
+|move|p1a: Rillaboom|Wood Hammer|p2a: Walking Wake
+|-damage|p2a: Walking Wake|30/100
+|-damage|p1a: Rillaboom|33/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|61/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|67/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|39/100|[from] Grassy Terrain
+|-heal|p2a: Walking Wake|36/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750826653
+|-terastallize|p1b: Ogerpon|Water
+|detailschange|p1b: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p1b: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1b: Ogerpon|spd|1
+|move|p2b: Farigiraf|Twin Beam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|29/100
+|-damage|p1a: Rillaboom|17/100
+|-hitcount|p1a: Rillaboom|2
+|move|p1a: Rillaboom|Wood Hammer|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-damage|p1a: Rillaboom|5/100|[from] Recoil
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Farigiraf|[anim] Ivy Cudgel Water
+|-damage|p2b: Farigiraf|37/100
+|
+|-weather|none
+|-heal|p2b: Farigiraf|43/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|49/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|11/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750826655
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|64/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|
+|t:|1750826689
+|switch|p1a: Kyogre|Kyogre, L50|16/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p2a: Miraidon|51/100|[from] Spiky Shield|[of] p1b: Ogerpon
+|move|p2b: Farigiraf|Twin Beam|p1a: Kyogre
+|-damage|p1a: Kyogre|3/100
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-hitcount|p1: Kyogre|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Farigiraf|56/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750826706
+|switch|p1a: Rillaboom|Rillaboom, L50, M|11/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1750826736
+|move|p2a: Miraidon|Electro Drift|p1b: Ogerpon
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|move|p1a: Rillaboom|Wood Hammer|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Miraidon|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750826748
+|switch|p1b: Flutter Mane|Flutter Mane, L50|1/100
+|turn|8
+|
+|t:|1750826758
+|move|p1b: Flutter Mane|Moonblast|p2a: Miraidon
+|-damage|p2a: Miraidon|10/100
+|move|p2a: Miraidon|Electro Drift|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|win|jgvitvyvt
+|raw|dalespartan119's rating: 1168 &rarr; <strong>1145</strong><br />(-23 for losing)
+|raw|jgvitvyvt's rating: 1193 &rarr; <strong>1216</strong><br />(+23 for winning)
+|l|☆jgvitvyvt
+|player|p2|
+|l|☆dalespartan119
+|player|p1|

@@ -1,0 +1,242 @@
+|j|☆Fuchos
+|j|☆plsnotxerneas
+|t:|1750842451
+|gametype|doubles
+|player|p1|Fuchos|265|1266
+|player|p2|plsnotxerneas|maid|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Luvdisc, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by plsnotxerneas)
+|
+|t:|1750842473
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Luvdisc|Luvdisc, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Luvdisc|atk|1
+|turn|1
+|
+|t:|1750842492
+|move|p2b: Luvdisc|Protect|p2b: Luvdisc
+|-singleturn|p2b: Luvdisc|Protect
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1a: Miraidon|Snarl|p2a: Kyogre|[spread] 
+|-activate|p2a: Kyogre|move: Protect
+|-activate|p2b: Luvdisc|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750842516
+|-terastallize|p1b: Incineroar|Water
+|move|p2b: Luvdisc|Entrainment|p2a: Kyogre
+|-endability|p2a: Kyogre|Drizzle|[from] move: Entrainment
+|-ability|p2a: Kyogre|Swift Swim|[from] move: Entrainment
+|move|p2a: Kyogre|Water Spout|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-resisted|p1b: Incineroar
+|-damage|p1a: Miraidon|70/100
+|-damage|p1b: Incineroar|46/100
+|move|p1a: Miraidon|Snarl|p2b: Luvdisc|[spread] p2a,p2b
+|-crit|p2b: Luvdisc
+|-damage|p2a: Kyogre|89/100
+|-damage|p2b: Luvdisc|56/100
+|-unboost|p2a: Kyogre|spa|1
+|-unboost|p2b: Luvdisc|spa|1
+|move|p1b: Incineroar|Parting Shot|p2a: Kyogre
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2a: Kyogre|spa|1
+|
+|t:|1750842537
+|switch|p1b: Ho-Oh|Ho-Oh, L50, shiny|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750842561
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p1b: Ho-Oh|Protect|p1b: Ho-Oh
+|-singleturn|p1b: Ho-Oh|Protect
+|move|p2b: Luvdisc|Entrainment|p2a: Zacian
+|-endability|p2a: Zacian|Intrepid Sword|[from] move: Entrainment
+|-ability|p2a: Zacian|Swift Swim|[from] move: Entrainment
+|move|p1a: Miraidon|Volt Switch|p2b: Luvdisc
+|-supereffective|p2b: Luvdisc
+|-damage|p2b: Luvdisc|0 fnt
+|faint|p2b: Luvdisc
+|
+|t:|1750842577
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny, tera:Water|46/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750842579
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750842599
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Iron Hands
+|-crit|p2b: Iron Hands
+|-damage|p2b: Iron Hands|90/100
+|move|p1b: Ho-Oh|Tailwind|p1b: Ho-Oh
+|-sidestart|p1: Fuchos|move: Tailwind
+|cant|p2b: Iron Hands|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750842615
+|move|p2a: Zacian|Play Rough|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-damage|p2a: Zacian|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Zacian|[miss]
+|-miss|p1b: Ho-Oh|p2a: Zacian
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Iron Hands
+|-status|p2b: Iron Hands|brn
+|move|p2b: Iron Hands|Wild Charge|p1b: Ho-Oh
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|20/100
+|-damage|p2b: Iron Hands|74/100 brn|[from] Recoil
+|
+|-weather|none
+|-heal|p1b: Ho-Oh|27/100|[from] item: Leftovers
+|-damage|p2b: Iron Hands|68/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750842640
+|switch|p1b: Miraidon|Miraidon, L50|70/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Kyogre|Kyogre, L50|89/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p2a: Zacian|Behemoth Blade|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2a: Zacian|67/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750842654
+|switch|p1a: Urshifu|Urshifu, L50, M|100/100
+|turn|7
+|inactive|Fuchos has 30 seconds left.
+|inactive|Fuchos has 20 seconds left.
+|inactive|Fuchos has 15 seconds left.
+|inactive|Fuchos has 10 seconds left.
+|
+|t:|1750842699
+|-terastallize|p2b: Kyogre|Grass
+|move|p2a: Zacian|Play Rough|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-enditem|p1a: Urshifu|Focus Sash
+|-damage|p1a: Urshifu|1/100
+|move|p1b: Miraidon|Electro Drift|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|60/100
+|move|p1a: Urshifu|Close Combat|p2a: Zacian
+|-damage|p2a: Zacian|5/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2b: Kyogre|Ice Beam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Fuchos|move: Tailwind
+|upkeep
+|turn|8
+|inactive|Fuchos has 30 seconds left.
+|inactive|plsnotxerneas has 30 seconds left.
+|
+|t:|1750842731
+|switch|p2a: Iron Hands|Iron Hands, L50|68/100 brn
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Urshifu|Detect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p1b: Miraidon|Snarl|p2b: Kyogre|[spread] p2b
+|-miss|p1b: Miraidon|p2a: Iron Hands
+|-damage|p2b: Kyogre|48/100
+|-unboost|p2b: Kyogre|spa|1
+|move|p2b: Kyogre|Origin Pulse|p1a: Urshifu|[spread] p1b
+|-activate|p1a: Urshifu|move: Protect
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|13/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Iron Hands|62/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750842755
+|switch|p1a: Ho-Oh|Ho-Oh, L50, shiny|60/100
+|move|p2a: Iron Hands|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|5/100
+|cant|p1b: Miraidon|flinch
+|move|p2b: Kyogre|Origin Pulse|p1a: Ho-Oh|[spread] p1a,p1b
+|-supereffective|p1a: Ho-Oh
+|-resisted|p1b: Miraidon
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Ho-Oh
+|faint|p1b: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Iron Hands|56/100 brn|[from] brn
+|upkeep
+|-message|Fuchos forfeited.
+|
+|win|plsnotxerneas
+|raw|Fuchos's rating: 1266 &rarr; <strong>1239</strong><br />(-27 for losing)
+|raw|plsnotxerneas's rating: 1234 &rarr; <strong>1261</strong><br />(+27 for winning)
+|l|☆Fuchos
+|player|p1|
+|l|☆plsnotxerneas
+|player|p2|

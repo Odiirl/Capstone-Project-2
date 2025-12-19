@@ -1,0 +1,158 @@
+|j|☆Abl6y
+|j|☆WindyEng
+|t:|1750807160
+|gametype|doubles
+|player|p1|Abl6y|swimmer-gen4dp|1295
+|player|p2|WindyEng|musician|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Tauros-Paldea-Blaze, L50, M|
+|poke|p2|Yanmega, L50, F|
+|poke|p2|Iron Crown, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Exeggutor, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Abl6y)
+|
+|t:|1750807189
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Iron Crown|Iron Crown, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Iron Crown|atk|1
+|-enditem|p2b: Iron Crown|Booster Energy
+|-activate|p2b: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Crown|quarkdrivespe
+|turn|1
+|inactive|Abl6y has 30 seconds left.
+|
+|t:|1750807215
+|move|p2b: Iron Crown|Tachyon Cutter|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|69/100
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|39/100
+|-hitcount|p1a: Calyrex|2
+|move|p2a: Indeedee|Imprison|p2a: Indeedee
+|-start|p2a: Indeedee|move: Imprison
+|move|p1b: Incineroar|Knock Off|p2b: Iron Crown
+|-supereffective|p2b: Iron Crown
+|-damage|p2b: Iron Crown|49/100
+|cant|p1a: Calyrex|move: Imprison|Trick Room
+|
+|upkeep
+|turn|2
+|inactive|Abl6y has 30 seconds left.
+|
+|t:|1750807240
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p2b: Iron Crown|Gravity|p2b: Iron Crown
+|-fieldstart|move: Gravity
+|move|p1b: Incineroar|Flare Blitz|p2b: Iron Crown
+|-supereffective|p2b: Iron Crown
+|-damage|p2b: Iron Crown|0 fnt
+|faint|p2b: Iron Crown
+|-end|p2b: Iron Crown|Quark Drive|[silent]
+|-damage|p1b: Incineroar|87/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750807252
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|3
+|
+|t:|1750807264
+|move|p1a: Urshifu|Surging Strikes|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|83/100
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|69/100
+|-supereffective|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|55/100
+|-hitcount|p2b: Groudon|3
+|move|p2b: Groudon|Precipice Blades|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Urshifu|18/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Indeedee|Shadow Ball|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750807282
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|39/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|4
+|
+|t:|1750807306
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Groudon|[spread] p2a,p2b
+|-damage|p2a: Indeedee|50/100
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|move|p2a: Indeedee|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750807311
+|switch|p2b: Tauros|Tauros-Paldea-Blaze, L50, M|100/100
+|-ability|p2b: Tauros|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|turn|5
+|
+|t:|1750807331
+|-terastallize|p2b: Tauros|Stellar
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Tauros|[spread] p2a,p2b
+|-damage|p2a: Indeedee|3/100
+|-damage|p2b: Tauros|38/100
+|move|p2b: Tauros|Flare Blitz|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2b: Tauros|0 fnt|[from] Recoil
+|faint|p2b: Tauros
+|
+|win|WindyEng
+|raw|Abl6y's rating: 1295 &rarr; <strong>1266</strong><br />(-29 for losing)
+|raw|WindyEng's rating: 1239 &rarr; <strong>1268</strong><br />(+29 for winning)
+|l|☆WindyEng
+|player|p2|
+|l|☆Abl6y
+|player|p1|

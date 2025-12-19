@@ -1,0 +1,304 @@
+|j|☆alethor
+|j|☆Locochon2000
+|t:|1750826990
+|gametype|doubles
+|player|p1|alethor|gambler|1098
+|player|p2|Locochon2000|shadowtriad|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Dugtrio, L50, M|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Pelipper, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alethor)
+|inactive|Locochon2000 has 60 seconds left.
+|
+|t:|1750827043
+|start
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Swampert|Swampert, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750827061
+|move|p2b: Incineroar|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|87/100
+|cant|p1b: Grimmsnarl|flinch
+|move|p1a: Primarina|Perish Song|p1a: Primarina
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p1b: Grimmsnarl|perish3|[silent]
+|-start|p2a: Swampert|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Swampert|Stealth Rock|p1b: Grimmsnarl
+|-sidestart|p1: alethor|move: Stealth Rock
+|
+|-start|p1a: Primarina|perish3
+|-start|p2a: Swampert|perish3
+|-start|p2b: Incineroar|perish3
+|-start|p1b: Grimmsnarl|perish3
+|upkeep
+|turn|2
+|inactive|Locochon2000 has 30 seconds left.
+|
+|t:|1750827092
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Swampert
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2a: Swampert|spa|1
+|
+|t:|1750827098
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100|[from] Parting Shot
+|-damage|p1b: Gothitelle|88/100|[from] Stealth Rock
+|move|p1a: Primarina|Flip Turn|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|95/100
+|
+|t:|1750827102
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100|[from] Flip Turn
+|-damage|p1a: Flutter Mane|88/100|[from] Stealth Rock
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|move|p2a: Swampert|Icy Wind|p1a: Flutter Mane|[spread] p1a,p1b
+|-crit|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|78/100
+|-damage|p1b: Gothitelle|84/100
+|-unboost|p1a: Flutter Mane|spe|1
+|-unboost|p1b: Gothitelle|spe|1
+|
+|-start|p2a: Swampert|perish2
+|upkeep
+|turn|3
+|
+|t:|1750827127
+|move|p1b: Gothitelle|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|89/100
+|move|p1a: Flutter Mane|Perish Song|p1a: Flutter Mane
+|-start|p1a: Flutter Mane|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2b: Urshifu|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2b: Urshifu|flinch
+|move|p2a: Swampert|Yawn|p1a: Flutter Mane
+|-start|p1a: Flutter Mane|move: Yawn|[of] p2a: Swampert
+|
+|-start|p1a: Flutter Mane|perish3
+|-start|p2b: Urshifu|perish3
+|-start|p2a: Swampert|perish1
+|-start|p1b: Gothitelle|perish3
+|upkeep
+|turn|4
+|inactive|Locochon2000 has 30 seconds left.
+|
+|t:|1750827155
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|87/100
+|-damage|p1a: Grimmsnarl|75/100|[from] Stealth Rock
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Urshifu|U-turn|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|11/100
+|-damage|p2b: Urshifu|72/100|[from] item: Rocky Helmet|[of] p1b: Gothitelle
+|
+|t:|1750827167
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|move|p2a: Swampert|Icy Wind|p1b: Gothitelle|[spread] p1a
+|-activate|p1b: Gothitelle|move: Protect
+|-damage|p1a: Grimmsnarl|70/100
+|-unboost|p1a: Grimmsnarl|spe|1
+|
+|-start|p2a: Swampert|perish0
+|-start|p1b: Gothitelle|perish2
+|faint|p2a: Swampert
+|upkeep
+|
+|t:|1750827182
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|5
+|
+|t:|1750827203
+|move|p2b: Incineroar|Fake Out|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|56/100
+|cant|p1a: Grimmsnarl|flinch
+|move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+|-boost|p2a: Kyogre|spa|1
+|-boost|p2a: Kyogre|spd|1
+|move|p1b: Gothitelle|Thunder Wave|p2a: Kyogre
+|-status|p2a: Kyogre|par
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Gothitelle|perish1
+|upkeep
+|turn|6
+|inactive|Locochon2000 has 30 seconds left.
+|
+|t:|1750827232
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|-damage|p1b: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Kyogre
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2a: Kyogre|spa|1
+|
+|t:|1750827241
+|switch|p1a: Gothitelle|Gothitelle, L50, M|11/100|[from] Parting Shot
+|-damage|p1a: Gothitelle|0 fnt|[from] Stealth Rock
+|faint|p1a: Gothitelle
+|move|p2b: Incineroar|Flare Blitz|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|75/100
+|-damage|p2b: Incineroar|97/100|[from] Recoil
+|move|p2a: Kyogre|Water Spout|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Primarina|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827247
+|switch|p1a: Flutter Mane|Flutter Mane, L50|78/100
+|-damage|p1a: Flutter Mane|66/100|[from] Stealth Rock
+|turn|7
+|inactive|Locochon2000 has 30 seconds left.
+|
+|t:|1750827273
+|-terastallize|p2b: Incineroar|Fire
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Flutter Mane|Phantom Force||[still]
+|-prepare|p1a: Flutter Mane|Phantom Force
+|move|p1b: Primarina|Perish Song|p1b: Primarina
+|-miss|p1b: Primarina|p1a: Flutter Mane
+|-start|p1b: Primarina|perish3|[silent]
+|-start|p2a: Kyogre|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Incineroar|Parting Shot|p1a: Flutter Mane|[miss]
+|-miss|p2b: Incineroar|p1a: Flutter Mane
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Primarina|26/100|[from] item: Leftovers
+|-start|p1b: Primarina|perish3
+|-start|p2b: Incineroar|perish3
+|-start|p2a: Kyogre|perish3
+|upkeep
+|turn|8
+|inactive|alethor has 30 seconds left.
+|
+|t:|1750827299
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|72/100
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p1a: Flutter Mane|Phantom Force|p2a: Kyogre|[from] lockedmove
+|-damage|p2a: Kyogre|82/100 par
+|move|p2a: Kyogre|Water Spout|p1b: Primarina|[spread] p1a
+|-activate|p1b: Primarina|move: Protect
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Primarina|32/100|[from] item: Leftovers
+|-start|p1b: Primarina|perish2
+|-start|p2a: Kyogre|perish2
+|upkeep
+|
+|t:|1750827314
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|56/100
+|-damage|p1a: Grimmsnarl|44/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1750827332
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Fire|97/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Primarina|atk|1
+|move|p1a: Grimmsnarl|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|65/100
+|cant|p2b: Urshifu|flinch
+|move|p1b: Primarina|Hyper Voice|p2b: Urshifu|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-resisted|p2b: Urshifu
+|-damage|p2a: Incineroar|10/100
+|-damage|p2b: Urshifu|31/100
+|
+|-weather|none
+|-heal|p1b: Primarina|37/100|[from] item: Leftovers
+|-start|p1b: Primarina|perish1
+|upkeep
+|turn|10
+|
+|t:|1750827352
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: alethor|Reflect
+|move|p2b: Urshifu|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|15/100
+|
+|t:|1750827358
+|switch|p2b: Kyogre|Kyogre, L50|82/100 par|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: Primarina|Hyper Voice|p2a: Incineroar|[spread] p2b
+|-activate|p2a: Incineroar|move: Protect
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|68/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Primarina|43/100|[from] item: Leftovers
+|-start|p1b: Primarina|perish0
+|faint|p1b: Primarina
+|upkeep
+|turn|11
+|inactive|Locochon2000 has 30 seconds left.
+|inactive|Locochon2000 has 20 seconds left.
+|
+|t:|1750827395
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|31/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: alethor|move: Light Screen
+|cant|p2b: Kyogre|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1750827407
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Urshifu
+|-unboost|p2a: Urshifu|atk|1
+|-unboost|p2a: Urshifu|spa|1
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|1
+|
+|win|Locochon2000
+|raw|alethor's rating: 1098 &rarr; <strong>1067</strong><br />(-31 for losing)
+|raw|Locochon2000's rating: 1000 &rarr; <strong>1051</strong><br />(+51 for winning)

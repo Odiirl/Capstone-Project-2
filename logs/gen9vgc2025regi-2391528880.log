@@ -1,0 +1,152 @@
+|j|☆Ater100
+|j|☆Mameon
+|t:|1750866703
+|gametype|doubles
+|player|p1|Ater100|hilbert|1136
+|player|p2|Mameon|red|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Scraggy, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ater100)
+|j| ProfRawr
+|inactive|Ater100 has 60 seconds left.
+|inactive|Mameon has 60 seconds left.
+|inactive|Ater100 has 30 seconds left.
+|inactive|Ater100 has 20 seconds left.
+|inactive|Ater100 has 15 seconds left.
+|inactive|Ater100 has 10 seconds left.
+|inactive|Ater100 has 5 seconds left.
+|
+|t:|1750866793
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Scraggy|Scraggy, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Scraggy|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Gallade|atk|1
+|turn|1
+|inactive|Ater100 has 30 seconds left.
+|inactive|Mameon has 30 seconds left.
+|inactive|Ater100 has 20 seconds left.
+|inactive|Mameon has 20 seconds left.
+|inactive|Ater100 has 15 seconds left.
+|inactive|Mameon has 15 seconds left.
+|inactive|Ater100 has 10 seconds left.
+|inactive|Mameon has 10 seconds left.
+|inactive|Ater100 has 5 seconds left.
+|
+|t:|1750866847
+|move|p2b: Scraggy|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|96/100
+|move|p1b: Gallade|Sacred Sword|p2a: Calyrex
+|-damage|p2a: Calyrex|72/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|cant|p1a: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750866868
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Scraggy|Coaching|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Scraggy|48/100
+|move|p1b: Gallade|Sacred Sword|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750866889
+|move|p2b: Scraggy|Endeavor|p1a: Calyrex
+|-damage|p1a: Calyrex|29/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Gallade|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-crit|p1b: Gallade
+|-damage|p1a: Calyrex|1/100
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Calyrex|Glacial Lance|p2b: Scraggy|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|60/100
+|-damage|p2b: Scraggy|0 fnt
+|faint|p2b: Scraggy
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750866906
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1750866923
+|-terastallize|p2a: Calyrex|Fire
+|move|p2b: Iron Hands|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Torkoal|Eruption|p2b: Iron Hands|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|24/100
+|-damage|p2b: Iron Hands|43/100
+|move|p2a: Calyrex|High Horsepower|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Ater100 has 30 seconds left.
+|l| ProfRawr
+|
+|t:|1750866958
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|turn|5
+|
+|t:|1750866976
+|-terastallize|p1b: Hatterene|Psychic
+|move|p2b: Iron Hands|Wild Charge|p1b: Hatterene
+|-damage|p1b: Hatterene|38/100
+|-damage|p2b: Iron Hands|32/100|[from] Recoil
+|move|p2a: Calyrex|Glacial Lance|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|
+|win|Mameon
+|raw|Ater100's rating: 1136 &rarr; <strong>1114</strong><br />(-22 for losing)
+|raw|Mameon's rating: 1181 &rarr; <strong>1203</strong><br />(+22 for winning)

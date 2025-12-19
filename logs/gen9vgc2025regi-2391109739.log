@@ -1,0 +1,264 @@
+|j|☆RSA9
+|j|☆Alexfind
+|t:|1750803654
+|gametype|doubles
+|player|p1|RSA9|265|1162
+|player|p2|Alexfind|101|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Quagsire, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Brionne, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RSA9)
+|
+|t:|1750803681
+|start
+|switch|p1a: Quagsire|Quagsire, L50, M|100/100
+|switch|p1b: Brionne|Brionne, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Quagsire|atk|1
+|-unboost|p1b: Brionne|atk|1
+|turn|1
+|
+|t:|1750803700
+|move|p2b: Incineroar|Parting Shot|p1a: Quagsire
+|-unboost|p1a: Quagsire|atk|1
+|-unboost|p1a: Quagsire|spa|1
+|
+|t:|1750803704
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1b: Brionne|Perish Song|p1b: Brionne
+|-immune|p1a: Quagsire|[from] ability: Water Absorb
+|-start|p1b: Brionne|perish3|[silent]
+|-start|p2a: Terapagos|perish3|[silent]
+|-start|p2b: Rillaboom|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Quagsire|Toxic|p2a: Terapagos
+|-status|p2a: Terapagos|tox
+|
+|-damage|p2a: Terapagos|94/100 tox|[from] psn
+|-start|p2a: Terapagos|perish3
+|-start|p2b: Rillaboom|perish3
+|-start|p1b: Brionne|perish3
+|upkeep
+|turn|2
+|inactive|RSA9 has 30 seconds left.
+|inactive|Alexfind has 30 seconds left.
+|
+|t:|1750803733
+|move|p2a: Terapagos|Tera Starstorm|p1b: Brionne
+|-damage|p1b: Brionne|45/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Brionne
+|-supereffective|p1b: Brionne
+|-damage|p1b: Brionne|0 fnt
+|faint|p1b: Brionne
+|-damage|p2b: Rillaboom|89/100|[from] Recoil
+|move|p1a: Quagsire|Toxic|p2b: Rillaboom|[miss]
+|-miss|p1a: Quagsire|p2b: Rillaboom
+|
+|-heal|p2a: Terapagos|100/100 tox|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|95/100|[from] Grassy Terrain
+|-damage|p2a: Terapagos|88/100 tox|[from] psn
+|-start|p2a: Terapagos|perish2
+|-start|p2b: Rillaboom|perish2
+|upkeep
+|
+|t:|1750803753
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|turn|3
+|
+|t:|1750803760
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p2a: Terapagos|Earth Power|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|75/100
+|move|p2b: Rillaboom|U-turn|p1b: Eternatus
+|-resisted|p1b: Eternatus
+|-damage|p1b: Eternatus|69/100
+|
+|t:|1750803771
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Quagsire|atk|1
+|-unboost|p1b: Eternatus|atk|1
+|move|p1a: Quagsire|Toxic|p2b: Incineroar
+|-status|p2b: Incineroar|tox
+|
+|-heal|p1b: Eternatus|75/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|94/100 tox|[from] Grassy Terrain
+|-heal|p2a: Terapagos|100/100 tox|[from] item: Leftovers
+|-damage|p2b: Incineroar|95/100 tox|[from] psn
+|-damage|p2a: Terapagos|82/100 tox|[from] psn
+|-start|p2a: Terapagos|perish1
+|upkeep
+|turn|4
+|
+|t:|1750803791
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1b: Eternatus|Fire Spin|p2b: Incineroar|[miss]
+|-miss|p1b: Eternatus|p2b: Incineroar
+|move|p2b: Incineroar|Taunt|p1b: Eternatus
+|-start|p1b: Eternatus|move: Taunt
+|move|p1a: Quagsire|Toxic|p2a: Ho-Oh
+|-status|p2a: Ho-Oh|tox
+|
+|-heal|p1b: Eternatus|82/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|100/100 tox|[from] Grassy Terrain
+|-damage|p2b: Incineroar|89/100 tox|[from] psn
+|-damage|p2a: Ho-Oh|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|RSA9 has 30 seconds left.
+|
+|t:|1750803822
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1b: Eternatus|Fire Spin|p2b: Incineroar|[miss]
+|-miss|p1b: Eternatus|p2b: Incineroar
+|move|p2b: Incineroar|Knock Off|p1b: Eternatus
+|-damage|p1b: Eternatus|64/100
+|-enditem|p1b: Eternatus|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Eternatus
+|-resisted|p1b: Eternatus
+|-damage|p1b: Eternatus|52/100
+|
+|-heal|p1b: Eternatus|58/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|95/100 tox|[from] Grassy Terrain
+|-damage|p2b: Incineroar|77/100 tox|[from] psn
+|-damage|p2a: Ho-Oh|82/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|RSA9 has 30 seconds left.
+|
+|t:|1750803850
+|move|p1b: Eternatus|Fire Spin|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100 tox
+|-activate|p2b: Incineroar|move: Fire Spin|[of] p1b: Eternatus
+|move|p2b: Incineroar|Knock Off|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|75/100
+|-damage|p2b: Incineroar|55/100 tox|[from] item: Rocky Helmet|[of] p1a: Ho-Oh
+|-enditem|p1a: Ho-Oh|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|64/100 tox
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Eternatus
+|-resisted|p1b: Eternatus
+|-damage|p1b: Eternatus|44/100
+|
+|-damage|p2b: Incineroar|32/100 tox|[from] psn
+|-damage|p2a: Ho-Oh|46/100 tox|[from] psn
+|-damage|p2b: Incineroar|19/100 tox|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1750803873
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|82/100 tox
+|move|p1b: Eternatus|Fire Spin|p2a: Terapagos
+|-damage|p2a: Terapagos|72/100 tox
+|-activate|p2a: Terapagos|move: Fire Spin|[of] p1b: Eternatus
+|move|p2b: Incineroar|Parting Shot|p1a: Ho-Oh
+|-unboost|p1a: Ho-Oh|atk|1
+|-unboost|p1a: Ho-Oh|spa|1
+|
+|t:|1750803882
+|switch|p2b: Ho-Oh|Ho-Oh, L50|79/100 tox|[from] Parting Shot
+|move|p1a: Ho-Oh|Life Dew|p1a: Ho-Oh|[spread] p1a,p1b
+|-heal|p1a: Ho-Oh|99/100
+|-heal|p1b: Eternatus|69/100
+|
+|-heal|p2a: Terapagos|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Terapagos|72/100 tox|[from] psn
+|-damage|p2b: Ho-Oh|73/100 tox|[from] psn
+|-damage|p2a: Terapagos|60/100 tox|[from] move: Fire Spin|[partiallytrapped]
+|-end|p1b: Eternatus|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1750803902
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|70/100 tox|[silent]
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p2a: Terapagos|Tera Starstorm|p1b: Eternatus|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|81/100
+|-damage|p1b: Eternatus|59/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Terapagos
+|-crit|p2a: Terapagos
+|-damage|p2a: Terapagos|38/100 tox
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Eternatus
+|-resisted|p1b: Eternatus
+|-damage|p1b: Eternatus|49/100
+|-status|p1b: Eternatus|brn
+|
+|-heal|p2a: Terapagos|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Terapagos|32/100 tox|[from] psn
+|-damage|p2b: Ho-Oh|61/100 tox|[from] psn
+|-damage|p1b: Eternatus|43/100 brn|[from] brn
+|-damage|p2a: Terapagos|20/100 tox|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|9
+|inactive|RSA9 has 30 seconds left.
+|inactive|Alexfind has 30 seconds left.
+|inactive|RSA9 has 20 seconds left.
+|
+|t:|1750803939
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|93/100 brn
+|move|p2a: Terapagos|Tera Starstorm|p1b: Eternatus|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|63/100
+|-damage|p1b: Eternatus|84/100 brn
+|move|p1a: Ho-Oh|Life Dew|p1a: Ho-Oh|[spread] p1a,p1b
+|-heal|p1a: Ho-Oh|88/100
+|-heal|p1b: Eternatus|100/100 brn
+|move|p2b: Ho-Oh|Brave Bird|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|47/100
+|-damage|p2b: Ho-Oh|47/100 tox|[from] Recoil
+|
+|-heal|p2a: Terapagos|26/100 tox|[from] item: Leftovers
+|-damage|p2a: Terapagos|7/100 tox|[from] psn
+|-damage|p2b: Ho-Oh|29/100 tox|[from] psn
+|-damage|p1b: Eternatus|94/100 brn|[from] brn
+|-damage|p2a: Terapagos|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|upkeep
+|-message|Alexfind forfeited.
+|
+|win|RSA9
+|raw|RSA9's rating: 1162 &rarr; <strong>1193</strong><br />(+31 for winning)
+|raw|Alexfind's rating: 1253 &rarr; <strong>1222</strong><br />(-31 for losing)
+|l|☆Alexfind
+|player|p2|
+|l|☆RSA9
+|player|p1|

@@ -1,0 +1,213 @@
+|j|☆salvx
+|j|☆entrail$
+|t:|1750713182
+|gametype|doubles
+|player|p1|salvx|shadowtriad|1299
+|player|p2|entrail$|lady|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750713218
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Ooh|Ho-Oh, L50, shiny|100/100
+|switch|p2b: Thornton|Tornadus, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750713238
+|switch|p2a: Clodie|Raichu, L50, F, shiny|100/100
+|move|p1b: Iron Hands|Fake Out|p2a: Clodie
+|-damage|p2a: Clodie|54/100
+|-damage|p1b: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p2a: Clodie
+|move|p2b: Thornton|Tailwind|p2b: Thornton
+|-sidestart|p2: entrail$|move: Tailwind
+|move|p1a: Miraidon|Volt Switch|p2a: Clodie
+|-activate|p2a: Clodie|ability: Lightning Rod
+|-ability|p2a: Clodie|Lightning Rod|boost
+|-boost|p2a: Clodie|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750713274
+|switch|p1a: Blaziken|Blaziken, L50, F|100/100
+|move|p2a: Clodie|Endeavor|p1a: Blaziken
+|-damage|p1a: Blaziken|39/100
+|move|p2b: Thornton|Bleakwind Storm|p1a: Blaziken|[spread] 
+|-miss|p2b: Thornton|p1a: Blaziken
+|-miss|p2b: Thornton|p1b: Iron Hands
+|move|p1b: Iron Hands|Low Kick|p2a: Clodie
+|-damage|p2a: Clodie|0 fnt
+|-damage|p1b: Iron Hands|68/100|[from] item: Rocky Helmet|[of] p2a: Clodie
+|faint|p2a: Clodie
+|
+|upkeep
+|
+|t:|1750713289
+|switch|p2a: Ooh|Ho-Oh, L50, shiny|100/100
+|turn|3
+|
+|t:|1750713302
+|move|p2b: Thornton|Protect|p2b: Thornton
+|-singleturn|p2b: Thornton|Protect
+|move|p2a: Ooh|Sacred Fire|p1b: Iron Hands
+|-damage|p1b: Iron Hands|34/100
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p1b: Iron Hands|Volt Switch|p2b: Thornton
+|-activate|p2b: Thornton|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1750713326
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2b: Thornton|Bleakwind Storm|p1a: Blaziken|[spread] 
+|-activate|p1a: Blaziken|move: Protect
+|-miss|p2b: Thornton|p1b: Iron Hands
+|move|p2a: Ooh|Brave Bird|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|move|p1b: Iron Hands|Volt Switch|p2b: Thornton
+|-supereffective|p2b: Thornton
+|-damage|p2b: Thornton|64/100
+|
+|t:|1750713331
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] Volt Switch
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|
+|-sideend|p2: entrail$|move: Tailwind
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750713350
+|move|p2b: Thornton|Tailwind|p2b: Thornton
+|-sidestart|p2: entrail$|move: Tailwind
+|move|p1a: Blaziken|Baton Pass|p1a: Blaziken
+|
+|t:|1750713353
+|switch|p1a: Koraidon|Koraidon, L50|100/100|[from] Baton Pass
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Miraidon|Volt Switch|p2b: Thornton
+|-supereffective|p2b: Thornton
+|-damage|p2b: Thornton|0 fnt
+|faint|p2b: Thornton
+|
+|t:|1750713363
+|switch|p1b: Iron Hands|Iron Hands, L50|34/100|[from] Volt Switch
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p2a: Ooh|Brave Bird|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-damage|p2a: Ooh|72/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750713376
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Baleine|Kyogre, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Baleine
+|turn|6
+|
+|t:|1750713392
+|-terastallize|p1a: Miraidon|Electric
+|-terastallize|p2b: Baleine|Grass
+|move|p1b: Iron Hands|Fake Out|p2b: Baleine
+|-damage|p2b: Baleine|76/100
+|move|p1a: Miraidon|Volt Switch|p2b: Baleine
+|-resisted|p2b: Baleine
+|-damage|p2b: Baleine|43/100
+|
+|t:|1750713397
+|switch|p1a: Blaziken|Blaziken, L50, F|39/100|[from] Volt Switch
+|cant|p2b: Baleine|flinch
+|move|p2a: Ooh|Sacred Fire|p1b: Iron Hands
+|-damage|p1b: Iron Hands|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750713422
+|move|p2b: Baleine|Origin Pulse|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1a: Blaziken
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Ooh|Brave Bird|p1: Blaziken|[notarget]
+|-fail|p2a: Ooh
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750713426
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|8
+|
+|t:|1750713445
+|move|p1b: Miraidon|Electro Drift|p2b: Baleine
+|-resisted|p2b: Baleine
+|-damage|p2b: Baleine|0 fnt
+|faint|p2b: Baleine
+|move|p2a: Ooh|Sacred Fire|p1b: Miraidon
+|-damage|p1b: Miraidon|76/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: entrail$|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1750713456
+|move|p1b: Miraidon|Electro Drift|p2a: Ooh
+|-supereffective|p2a: Ooh
+|-damage|p2a: Ooh|0 fnt
+|faint|p2a: Ooh
+|
+|win|salvx
+|raw|salvx's rating: 1299 &rarr; <strong>1320</strong><br />(+21 for winning)
+|raw|entrail$'s rating: 1249 &rarr; <strong>1228</strong><br />(-21 for losing)
+|c|☆salvx|gg
+|l|☆entrail$
+|player|p2|
+|l|☆salvx
+|player|p1|

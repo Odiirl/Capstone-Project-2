@@ -1,0 +1,161 @@
+|j|☆Fred Corbin
+|j|☆TheGreatRuce
+|t:|1750807670
+|gametype|doubles
+|player|p1|Fred Corbin|volkner|1067
+|player|p2|TheGreatRuce|ethan|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Gastrodon-East, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fred Corbin)
+|inactive|Fred Corbin has 60 seconds left.
+|
+|t:|1750807708
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, L50, M|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis
+|-start|p2a: Brute Bonnet|protosynthesisspd
+|turn|1
+|
+|t:|1750807730
+|-terastallize|p2a: Brute Bonnet|Water
+|move|p1a: Gastrodon|Protect|p1a: Gastrodon
+|-singleturn|p1a: Gastrodon|Protect
+|move|p1b: Charizard|Flamethrower|p2a: Brute Bonnet
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|75/100
+|move|p2b: Groudon|Bulk Up|p2b: Groudon
+|-boost|p2b: Groudon|atk|1
+|-boost|p2b: Groudon|def|1
+|move|p2a: Brute Bonnet|Seed Bomb|p1a: Gastrodon
+|-activate|p1a: Gastrodon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1750807743
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Brute Bonnet|atk|1
+|-fail|p2b: Groudon|unboost|[from] item: Clear Amulet|[of] p2b: Groudon
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|17/100
+|move|p2b: Groudon|Heat Crash|p1b: Charizard
+|-resisted|p1b: Charizard
+|-damage|p1b: Charizard|18/100
+|move|p2a: Brute Bonnet|Seed Bomb|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|6/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1750807760
+|move|p1a: Incineroar|Fake Out|p2a: Brute Bonnet
+|-crit|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|5/100
+|-damage|p1a: Incineroar|75/100|[from] item: Rocky Helmet|[of] p2a: Brute Bonnet
+|cant|p2a: Brute Bonnet|flinch
+|move|p1b: Charizard|Heat Wave|p2a: Brute Bonnet|[spread] p2a,p2b
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|-damage|p2b: Groudon|30/100
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|move|p2b: Groudon|Precipice Blades|p1a: Incineroar|[spread] p1a
+|-immune|p1b: Charizard
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|0 fnt|[from] ability: Solar Power|[of] p1b: Charizard
+|faint|p1b: Charizard
+|upkeep
+|
+|t:|1750807777
+|switch|p1b: Gastrodon|Gastrodon-East, L50, M|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750807792
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Gastrodon|Ice Beam|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Fred Corbin has 30 seconds left.
+|inactive|Fred Corbin has 20 seconds left.
+|inactive|Fred Corbin has 15 seconds left.
+|
+|t:|1750807834
+|switch|p2b: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p2b: Tauros|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Gastrodon|atk|1
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Scale Shot|p2b: Tauros
+|-damage|p2b: Tauros|86/100
+|-damage|p2b: Tauros|72/100
+|-damage|p2b: Tauros|58/100
+|-damage|p2b: Tauros|46/100
+|-hitcount|p2b: Tauros|4
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Miraidon|Draco Meteor|p1b: Gastrodon
+|-damage|p1b: Gastrodon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Gastrodon
+|-damage|p2a: Miraidon|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|Fred Corbin forfeited.
+|
+|win|TheGreatRuce
+|raw|Fred Corbin's rating: 1067 &rarr; <strong>1052</strong><br />(-15 for losing)
+|raw|TheGreatRuce's rating: 1165 &rarr; <strong>1183</strong><br />(+18 for winning)
+|l|☆Fred Corbin
+|player|p1|
+|l|☆TheGreatRuce
+|player|p2|

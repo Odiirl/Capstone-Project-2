@@ -1,0 +1,270 @@
+|j|☆parrotboy
+|j|‽heelkey
+|t:|1750827536
+|gametype|doubles
+|player|p1|parrotboy|hiker-gen4|1360
+|player|p2|heelkey|red|1294
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by parrotboy)
+|inactive|heelkey has 60 seconds left.
+|inactive|parrotboy has 60 seconds left.
+|inactive|heelkey has 30 seconds left.
+|
+|t:|1750827604
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-enditem|p1b: Incineroar|Eject Pack
+|
+|t:|1750827622
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|heelkey has 30 seconds left.
+|
+|t:|1750827649
+|move|p2b: Gothitelle|Fake Out|p1b: Scream Tail
+|-damage|p1b: Scream Tail|97/100
+|move|p1a: Gothitelle|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|97/100
+|cant|p1b: Scream Tail|flinch
+|cant|p2a: Incineroar|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750827667
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p1b: Scream Tail|Encore|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|upkeep
+|turn|3
+|inactive|heelkey has 30 seconds left.
+|
+|t:|1750827701
+|move|p1b: Scream Tail|Disable|p2a: Incineroar
+|-start|p2a: Incineroar|Disable|Knock Off
+|cant|p2a: Incineroar|Disable|Knock Off
+|move|p2b: Gothitelle|Taunt|p1b: Scream Tail
+|-start|p1b: Scream Tail|move: Taunt
+|move|p1a: Gothitelle|Shadow Ball|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|65/100
+|
+|-heal|p2b: Gothitelle|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750827720
+|move|p1b: Scream Tail|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|86/100
+|-damage|p2b: Gothitelle|58/100
+|move|p2a: Incineroar|Parting Shot|p1a: Gothitelle
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1a: Gothitelle|spa|1
+|
+|t:|1750827729
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p2b: Gothitelle|Taunt|p1a: Gothitelle
+|-start|p1a: Gothitelle|move: Taunt
+|move|p1a: Gothitelle|Shadow Ball|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|37/100
+|-unboost|p2b: Gothitelle|spd|1
+|
+|-heal|p2b: Gothitelle|43/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750827748
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Scream Tail|Dazzling Gleam|p2b: Gothitelle|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|93/100
+|move|p2a: Zacian|Behemoth Blade|p1b: Scream Tail
+|-supereffective|p1b: Scream Tail
+|-crit|p1b: Scream Tail
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|
+|-heal|p2b: Gothitelle|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827763
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750827778
+|switch|p2b: Incineroar|Incineroar, L50, F|86/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p1b: Koraidon|Flame Charge|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|71/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750827801
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Zacian|Play Rough|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|-damage|p1a: Incineroar|73/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827819
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|8
+|
+|t:|1750827828
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|49/100
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Koraidon|Protect||[still]
+|-fail|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|55/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750827848
+|move|p2b: Gothitelle|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|85/100
+|cant|p1b: Koraidon|flinch
+|move|p2a: Koraidon|Close Combat|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Koraidon
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Gothitelle|Shadow Ball|p2b: Gothitelle
+|-supereffective|p2b: Gothitelle
+|-damage|p2b: Gothitelle|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827862
+|switch|p1b: Incineroar|Incineroar, L50, F|73/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|turn|10
+|
+|t:|1750827881
+|-terastallize|p1b: Incineroar|Grass
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Gothitelle|Shadow Ball|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|none
+|-heal|p2b: Gothitelle|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|heelkey has 30 seconds left.
+|inactive|heelkey has 20 seconds left.
+|inactive|heelkey has 15 seconds left.
+|
+|t:|1750827926
+|move|p2a: Koraidon|Flare Blitz|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|-status|p1b: Incineroar|brn
+|-damage|p2a: Koraidon|66/100|[from] Recoil
+|-damage|p2a: Koraidon|56/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|43/100
+|-enditem|p2a: Koraidon|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Gothitelle|Taunt|p1a: Gothitelle
+|-start|p1a: Gothitelle|move: Taunt
+|move|p1a: Gothitelle|Shadow Ball|p2a: Koraidon
+|-damage|p2a: Koraidon|17/100
+|
+|-heal|p2b: Gothitelle|42/100|[from] item: Leftovers
+|-damage|p1b: Incineroar|0 fnt|[from] brn
+|faint|p1b: Incineroar
+|upkeep
+|turn|12
+|-message|parrotboy forfeited.
+|
+|win|heelkey
+|raw|parrotboy's rating: 1360 &rarr; <strong>1336</strong><br />(-24 for losing)
+|raw|heelkey's rating: 1294 &rarr; <strong>1324</strong><br />(+30 for winning)
+|l|☆parrotboy
+|player|p1|
+|l|‽heelkey
+|player|p2|

@@ -1,0 +1,164 @@
+|j|☆landonut
+|j|☆bodeylee
+|t:|1750741949
+|gametype|doubles
+|player|p1|landonut|1|1077
+|player|p2|bodeylee|169|1180
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Cloyster, L50, F|
+|poke|p2|Palkia, L50|
+|poke|p2|Medicham, L50, F|
+|poke|p2|Vaporeon, L50, F|
+|poke|p2|Enamorus, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750741990
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Enamorus|Enamorus, L50, F|100/100
+|switch|p2b: Palkia|Palkia, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-boost|p2a: Enamorus|atk|1
+|-unboost|p2b: Palkia|atk|1
+|turn|1
+|
+|t:|1750742030
+|move|p2a: Enamorus|Protect|p2a: Enamorus
+|-singleturn|p2a: Enamorus|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Enamorus
+|-activate|p2a: Enamorus|move: Protect
+|move|p1a: Koraidon|Flare Blitz|p2a: Enamorus
+|-activate|p2a: Enamorus|move: Protect
+|move|p2b: Palkia|Spacial Rend|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750742036
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|2
+|
+|t:|1750742057
+|move|p1a: Walking Wake|Hydro Steam|p2a: Enamorus
+|-damage|p2a: Enamorus|27/100
+|move|p2a: Enamorus|Tailwind|p2a: Enamorus
+|-sidestart|p2: bodeylee|move: Tailwind
+|move|p2b: Palkia|Aura Sphere|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|49/100
+|move|p1b: Incineroar|Parting Shot|p2b: Palkia
+|-unboost|p2b: Palkia|atk|1
+|-unboost|p2b: Palkia|spa|1
+|
+|t:|1750742064
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750742084
+|-terastallize|p2b: Palkia|Dark
+|move|p1a: Walking Wake|Aqua Jet|p2a: Enamorus
+|-damage|p2a: Enamorus|20/100
+|move|p2a: Enamorus|Superpower|p1a: Walking Wake
+|-damage|p1a: Walking Wake|33/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|10/100|[from] item: Life Orb
+|move|p2b: Palkia|Tera Blast|p1b: Calyrex|[anim] Tera Blast Dark
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Palkia|[spread] p2a,p2b
+|-crit|p2a: Enamorus
+|-resisted|p2b: Palkia
+|-damage|p2a: Enamorus|0 fnt
+|-damage|p2b: Palkia|87/100
+|faint|p2a: Enamorus
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750742110
+|switch|p2a: Vaporeon|Vaporeon, L50, F|100/100
+|turn|4
+|
+|t:|1750742118
+|move|p1a: Walking Wake|Draco Meteor|p2b: Palkia
+|-damage|p2b: Palkia|56/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2b: Palkia|Surf|p1b: Calyrex|[spread] p1a,p1b
+|-immune|p2a: Vaporeon|[from] ability: Water Absorb
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|30/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Vaporeon|Icy Wind|p1a: Walking Wake
+|-damage|p1a: Walking Wake|19/100
+|-unboost|p1a: Walking Wake|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750742126
+|switch|p1b: Incineroar|Incineroar, L50, M|49/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Vaporeon|atk|1
+|-unboost|p2b: Palkia|atk|1
+|turn|5
+|
+|t:|1750742141
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|move|p2b: Palkia|Surf|p1a: Walking Wake|[spread] p1a,p1b
+|-activate|p2a: Vaporeon|move: Protect
+|-resisted|p1a: Walking Wake
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Walking Wake|17/100
+|-damage|p1b: Incineroar|27/100
+|move|p1a: Walking Wake|Hydro Steam|p2b: Palkia
+|-damage|p2b: Palkia|40/100
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|-sideend|p2: bodeylee|move: Tailwind
+|upkeep
+|turn|6
+|-message|landonut forfeited.
+|
+|win|bodeylee
+|raw|landonut's rating: 1077 &rarr; <strong>1062</strong><br />(-15 for losing)
+|raw|bodeylee's rating: 1180 &rarr; <strong>1198</strong><br />(+18 for winning)
+|l|☆landonut
+|player|p1|
+|l|☆bodeylee
+|player|p2|

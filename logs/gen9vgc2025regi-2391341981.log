@@ -1,0 +1,135 @@
+|j|☆morganzola868
+|j|☆wholesale bread
+|t:|1750839790
+|gametype|doubles
+|player|p1|morganzola868|psychicf-gen4|1192
+|player|p2|wholesale bread|102|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Cresselia, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wholesale bread)
+|
+|t:|1750839823
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750839845
+|move|p2a: Urshifu|Surging Strikes|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|92/100
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|74/100
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|55/100
+|-hitcount|p1a: Lunala|3
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Lunala|31/100
+|-damage|p1b: Indeedee|86/100
+|move|p1a: Lunala|Expanding Force|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Urshifu
+|-crit|p2b: Miraidon
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Miraidon|18/100
+|faint|p2a: Urshifu
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750839860
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|turn|2
+|
+|t:|1750839871
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Scizor|Lunge|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Lunala|Expanding Force|p2a: Scizor|[spread] p2a,p2b
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|63/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750839886
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750839910
+|-terastallize|p2b: Kyogre|Ground
+|move|p2a: Scizor|Lunge|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p2b: Kyogre|Ice Beam|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|11/100
+|-damage|p2b: Kyogre|91/100|[from] item: Life Orb
+|move|p1b: Koraidon|Flame Charge|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Scizor
+|-damage|p1b: Koraidon|2/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750839927
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|4
+|
+|t:|1750839946
+|move|p2b: Kyogre|Origin Pulse|p1a: Chi-Yu|[spread] p1a,p1b
+|-supereffective|p1a: Chi-Yu
+|-resisted|p1b: Koraidon
+|-damage|p1a: Chi-Yu|23/100
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|-damage|p2b: Kyogre|81/100|[from] item: Life Orb
+|move|p1a: Chi-Yu|Overheat|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|-unboost|p1a: Chi-Yu|spa|2
+|faint|p2b: Kyogre
+|
+|win|morganzola868
+|raw|morganzola868's rating: 1192 &rarr; <strong>1220</strong><br />(+28 for winning)
+|raw|wholesale bread's rating: 1237 &rarr; <strong>1209</strong><br />(-28 for losing)
+|l|☆wholesale bread
+|player|p2|
+|l|☆morganzola868
+|player|p1|

@@ -1,0 +1,154 @@
+|j|☆givi
+|j|☆MikeeZZ
+|t:|1750720708
+|gametype|doubles
+|player|p1|givi|169|1139
+|player|p2|MikeeZZ|265|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slither Wing, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikeeZZ)
+|
+|t:|1750720745
+|start
+|switch|p1a: Chandelure|Chandelure, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750720762
+|move|p2a: Chi-Yu|Overheat|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|64/100
+|-unboost|p2a: Chi-Yu|spa|2
+|move|p1b: Miraidon|Volt Switch|p2a: Chi-Yu
+|-crit|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|
+|t:|1750720776
+|switch|p1b: Slither Wing|Slither Wing, L50|100/100|[from] Volt Switch
+|move|p1a: Chandelure|Imprison|p1a: Chandelure
+|-start|p1a: Chandelure|move: Imprison
+|move|p2b: Farigiraf|Foul Play|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|69/100
+|
+|upkeep
+|
+|t:|1750720791
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p1b: Slither Wing|ability: Protosynthesis
+|-start|p1b: Slither Wing|protosynthesisatk
+|turn|2
+|
+|t:|1750720803
+|move|p2b: Farigiraf|Helping Hand|p2a: Groudon
+|-singleturn|p2a: Groudon|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Chandelure|Heat Wave|p2a: Groudon|[spread] p2a,p2b
+|-damage|p2a: Groudon|68/100
+|-damage|p2b: Farigiraf|49/100
+|move|p1b: Slither Wing|Leech Life|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p2a: Groudon|Precipice Blades|p1a: Chandelure|[spread] p1a,p1b
+|-supereffective|p1a: Chandelure
+|-resisted|p1b: Slither Wing
+|-damage|p1a: Chandelure|0 fnt
+|-damage|p1b: Slither Wing|47/100
+|faint|p1a: Chandelure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750720819
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750720836
+|move|p1b: Slither Wing|Protect|p1b: Slither Wing
+|-singleturn|p1b: Slither Wing|Protect
+|move|p2b: Flutter Mane|Icy Wind|p1a: Groudon|[spread] p1a
+|-activate|p1b: Slither Wing|move: Protect
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|72/100
+|-unboost|p1a: Groudon|spe|1
+|move|p1a: Groudon|Bulldoze|p2a: Groudon|[spread] p2a,p2b
+|-activate|p1b: Slither Wing|move: Protect
+|-damage|p2a: Groudon|50/100
+|-damage|p2b: Flutter Mane|39/100
+|-unboost|p2a: Groudon|spe|1
+|-unboost|p2b: Flutter Mane|spe|1
+|move|p2a: Groudon|Precipice Blades|p1b: Slither Wing|[spread] p1a
+|-activate|p1b: Slither Wing|move: Protect
+|-damage|p1a: Groudon|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750720855
+|move|p2b: Flutter Mane|Icy Wind|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Slither Wing|31/100
+|faint|p1a: Groudon
+|move|p1b: Slither Wing|Close Combat|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-unboost|p1b: Slither Wing|def|1
+|-unboost|p1b: Slither Wing|spd|1
+|faint|p2a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750720863
+|switch|p1a: Miraidon|Miraidon, L50|64/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750720871
+|-terastallize|p2b: Flutter Mane|Normal
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Flutter Mane|Moonblast|p1a: Miraidon
+|-damage|p1a: Miraidon|28/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|win|givi
+|raw|givi's rating: 1139 &rarr; <strong>1167</strong><br />(+28 for winning)
+|raw|MikeeZZ's rating: 1176 &rarr; <strong>1148</strong><br />(-28 for losing)
+|l|☆MikeeZZ
+|player|p2|
+|l|☆givi
+|player|p1|

@@ -1,0 +1,141 @@
+|j|☆IlCuccu
+|j|☆Pepe Risi
+|t:|1750859219
+|gametype|doubles
+|player|p1|IlCuccu|blue|1151
+|player|p2|Pepe Risi|swimmer-gen4dp|1180
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Clefable, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Volbeat, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750859274
+|start
+|switch|p1a: Volbeat|Volbeat, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750859304
+|move|p2b: Smeargle|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|96/100
+|-damage|p2b: Smeargle|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p1a: Volbeat|Tailwind|p1a: Volbeat
+|-sidestart|p1: IlCuccu|move: Tailwind
+|cant|p1b: Amoonguss|flinch
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Volbeat|38/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|
+|t:|1750859347
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|turn|2
+|
+|t:|1750859363
+|-terastallize|p1b: Landorus|Ground
+|-terastallize|p2a: Calyrex|Water
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1a: Volbeat|Encore|p2b: Smeargle
+|-start|p2b: Smeargle|Encore
+|move|p1b: Landorus|Sandsear Storm|p2b: Smeargle|[spread] p2b
+|-miss|p1b: Landorus|p2a: Calyrex
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750859380
+|switch|p2b: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1750859390
+|move|p1a: Volbeat|Encore|p2a: Calyrex
+|-start|p2a: Calyrex|Encore
+|move|p2b: Ursaluna|Facade|p1a: Volbeat
+|-damage|p1a: Volbeat|0 fnt
+|faint|p1a: Volbeat
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldend|move: Trick Room
+|move|p1b: Landorus|Sandsear Storm|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|48/100
+|-damage|p2b: Ursaluna|36/100
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750859403
+|switch|p1a: Clefable|Clefable, L50, F|100/100
+|turn|4
+|
+|t:|1750859424
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Clefable|Follow Me|p1a: Clefable
+|-singleturn|p1a: Clefable|move: Follow Me
+|move|p1b: Landorus|Sandsear Storm|p2b: Ursaluna|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-damage|p2b: Ursaluna|30/100 brn|[from] brn
+|-sideend|p1: IlCuccu|move: Tailwind
+|upkeep
+|
+|t:|1750859437
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|5
+|
+|t:|1750859459
+|move|p2b: Ursaluna|Protect||[still]
+|-fail|p2b: Ursaluna
+|move|p1a: Clefable|Follow Me|p1a: Clefable
+|-singleturn|p1a: Clefable|move: Follow Me
+|move|p1b: Landorus|Sandsear Storm|p2b: Ursaluna|[spread] p2a
+|-miss|p1b: Landorus|p2b: Ursaluna
+|-damage|p2a: Ogerpon|21/100
+|move|p2a: Ogerpon|Wood Hammer|p1a: Clefable
+|-damage|p1a: Clefable|45/100
+|-damage|p2a: Ogerpon|2/100|[from] Recoil
+|
+|-heal|p1a: Clefable|51/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|turn|6
+|-message|Pepe Risi forfeited by changing their name.
+|l| peperisi
+|
+|win|IlCuccu
+|raw|IlCuccu's rating: 1151 &rarr; <strong>1178</strong><br />(+27 for winning)
+|raw|Pepe Risi's rating: 1180 &rarr; <strong>1153</strong><br />(-27 for losing)

@@ -1,0 +1,204 @@
+|j|☆VinnyEndDragonYT
+|j|☆EchoRoze
+|t:|1750706944
+|gametype|doubles
+|player|p1|VinnyEndDragonYT|klara|1000
+|player|p2|EchoRoze|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri-Droopy, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+VinnyEndDragonYT rejected open team sheets.
+|
+|t:|1750706975
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Brute Bonnet|atk|1
+|turn|1
+|
+|t:|1750706995
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|move|p2b: Brute Bonnet|Protect|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|98/100
+|cant|p2a: Zamazenta|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750707018
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|30/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Flare Blitz|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|41/100
+|-damage|p1a: Incineroar|13/100|[from] Recoil
+|move|p2b: Brute Bonnet|Pollen Puff|p2a: Zamazenta
+|-heal|p2a: Zamazenta|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750707051
+|move|p2a: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Groudon|Precipice Blades|p2a: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2a: Zamazenta
+|-resisted|p2b: Brute Bonnet
+|-damage|p2a: Zamazenta|49/100
+|-damage|p2b: Brute Bonnet|88/100
+|move|p2b: Brute Bonnet|Pollen Puff|p2a: Zamazenta
+|-heal|p2a: Zamazenta|98/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750707062
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750707069
+|move|p2b: Brute Bonnet|Sucker Punch|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|59/100
+|move|p1a: Flutter Mane|Moonblast|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|7/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Flutter Mane
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Groudon|Swords Dance|p1b: Groudon
+|-boost|p1b: Groudon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750707076
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1750707086
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p2b: Brute Bonnet|Protect|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|Protect
+|move|p1b: Groudon|Precipice Blades|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Protect
+|-activate|p2b: Brute Bonnet|move: Protect
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|-end|p2b: Brute Bonnet|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1750707119
+|move|p2b: Brute Bonnet|Sucker Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|86/100
+|move|p2a: Zamazenta|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|35/100
+|move|p1b: Groudon|Precipice Blades|p2a: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2a: Zamazenta
+|-resisted|p2b: Brute Bonnet
+|-damage|p2a: Zamazenta|23/100
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1750707127
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|switch|p2b: Tatsugiri|Tatsugiri-Droopy, L50, F|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|turn|7
+|
+|t:|1750707137
+|-terastallize|p2a: Dondozo|Grass
+|move|p1a: Raging Bolt|Thunderclap|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|94/100
+|move|p1b: Groudon|Precipice Blades|p2a: Dondozo|[spread] 
+|-miss|p1b: Groudon|p2b: Tatsugiri
+|-miss|p1b: Groudon|p2a: Dondozo
+|move|p2a: Dondozo|Earthquake|p1a: Raging Bolt|[spread] p1a,p1b
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-supereffective|p1a: Raging Bolt
+|-crit|p1b: Groudon
+|-damage|p1a: Raging Bolt|0 fnt
+|-damage|p1b: Groudon|63/100
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750707154
+|-terastallize|p1b: Groudon|Steel
+|move|p1b: Groudon|Heat Crash|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100
+|move|p2a: Dondozo|Wave Crash|p1b: Groudon
+|-crit|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2a: Dondozo|61/100|[from] Recoil
+|
+|win|EchoRoze
+|raw|VinnyEndDragonYT's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|EchoRoze's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)

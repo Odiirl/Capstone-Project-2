@@ -1,0 +1,235 @@
+|j|☆testdummystuff
+|j|☆cyanide55
+|t:|1750730513
+|gametype|doubles
+|player|p1|testdummystuff|miku-ground|
+|player|p2|cyanide55|rosa|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Kyurem-Black, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testdummystuff)
+|inactiveoff|Battle timer is now OFF.
+|c|☆testdummystuff|i got bored and made a normal team lol
+|c|☆cyanide55|i forgot to change the team lol
+|c|☆testdummystuff|its ok
+|c|☆cyanide55|lets see what i can do xd
+|
+|t:|1750730569
+|start
+|switch|p1a: King|Incineroar, L50, F|100/100
+|switch|p1b: Nebby|Lunala, L50|100/100
+|switch|p2a: Jeffery|Farigiraf, L50, M|100/100
+|switch|p2b: King|Incineroar, L50, F|100/100
+|-ability|p1a: King|Intimidate|boost
+|-unboost|p2a: Jeffery|atk|1
+|-unboost|p2b: King|atk|1
+|-ability|p2b: King|Intimidate|boost
+|-unboost|p1a: King|atk|1
+|-unboost|p1b: Nebby|atk|1
+|turn|1
+|
+|t:|1750730597
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-terastallize|p1b: Nebby|Fairy
+|-terastallize|p2b: King|Ghost
+|move|p2a: Jeffery|Protect|p2a: Jeffery
+|-singleturn|p2a: Jeffery|Protect
+|move|p1b: Nebby|Calm Mind|p1b: Nebby
+|-boost|p1b: Nebby|spa|1
+|-boost|p1b: Nebby|spd|1
+|move|p2b: King|Parting Shot|p1b: Nebby
+|-unboost|p1b: Nebby|atk|1
+|-unboost|p1b: Nebby|spa|1
+|
+|t:|1750730614
+|switch|p2b: Nebby|Lunala, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1750730627
+|move|p1a: Miraidon|Electro Drift|p2a: Jeffery
+|-damage|p2a: Jeffery|0 fnt
+|faint|p2a: Jeffery
+|move|p2b: Nebby|Moonblast|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|38/100
+|move|p1b: Nebby|Moonblast|p2b: Nebby
+|-damage|p2b: Nebby|84/100
+|
+|-heal|p2b: Nebby|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750730647
+|switch|p2a: King|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2a: King|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Nebby|atk|1
+|turn|3
+|
+|t:|1750730667
+|switch|p1a: King|Incineroar, L50, F|100/100
+|-ability|p1a: King|Intimidate|boost
+|-unboost|p2a: King|atk|1
+|-unboost|p2b: Nebby|atk|1
+|move|p2a: King|Fake Out|p1a: King
+|-damage|p1a: King|94/100
+|move|p2b: Nebby|Moongeist Beam|p1b: Nebby
+|-damage|p1b: Nebby|89/100
+|move|p1b: Nebby|Moongeist Beam|p2a: King
+|-supereffective|p2a: King
+|-damage|p2a: King|24/100
+|-enditem|p2a: King|Sitrus Berry|[eat]
+|-heal|p2a: King|48/100|[from] item: Sitrus Berry
+|
+|-heal|p2b: Nebby|96/100|[from] item: Leftovers
+|-heal|p1b: Nebby|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750730695
+|move|p2b: Nebby|Protect|p2b: Nebby
+|-singleturn|p2b: Nebby|Protect
+|move|p1b: Nebby|Moongeist Beam|p2a: King
+|-supereffective|p2a: King
+|-crit|p2a: King
+|-damage|p2a: King|0 fnt
+|faint|p2a: King
+|move|p1a: King|Snarl|p2b: Nebby
+|-activate|p2b: Nebby|move: Protect
+|
+|-heal|p1b: Nebby|100/100|[from] item: Leftovers
+|-heal|p2b: Nebby|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750730708
+|switch|p2a: Alatreon|Kyurem-Black, L50, shiny|100/100
+|-ability|p2a: Alatreon|Teravolt
+|turn|5
+|
+|t:|1750730725
+|move|p1b: Nebby|Moonblast|p2a: Alatreon
+|-supereffective|p2a: Alatreon
+|-damage|p2a: Alatreon|25/100
+|move|p2b: Nebby|Calm Mind|p2b: Nebby
+|-boost|p2b: Nebby|spa|1
+|-boost|p2b: Nebby|spd|1
+|move|p2a: Alatreon|Fusion Bolt|p1b: Nebby
+|-damage|p1b: Nebby|78/100
+|move|p1a: King|Parting Shot|p2a: Alatreon
+|-unboost|p2a: Alatreon|atk|1
+|-unboost|p2a: Alatreon|spa|1
+|
+|t:|1750730735
+|switch|p1a: Miraidon|Miraidon, L50|38/100|[from] Parting Shot
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|
+|-heal|p1b: Nebby|84/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|c|☆cyanide55|lunala is that bulky?
+|c|☆testdummystuff|ability
+|c|☆testdummystuff|halves all dmg if her hp is full
+|c|☆cyanide55|ooooooh
+|c|☆testdummystuff|yep
+|c|☆cyanide55|im more of necrozma prism armor XD
+|c|☆testdummystuff|yeah thats strong
+|
+|t:|1750730844
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Nebby|[spread] p2a,p2b
+|-supereffective|p2a: Alatreon
+|-damage|p2a: Alatreon|0 fnt
+|-damage|p2b: Nebby|93/100
+|faint|p2a: Alatreon
+|move|p1b: Nebby|Moongeist Beam|p2b: Nebby
+|-supereffective|p2b: Nebby
+|-damage|p2b: Nebby|3/100
+|move|p2b: Nebby|Moonblast|p1b: Nebby
+|-damage|p1b: Nebby|60/100
+|
+|-heal|p2b: Nebby|10/100|[from] item: Leftovers
+|-heal|p1b: Nebby|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆testdummystuff|i wish i can use it
+|c|☆testdummystuff|DAMN
+|c|☆cyanide55|THAT was close
+|c|☆cyanide55|XDDDDDDDD
+|c|☆testdummystuff|+1 spdef
+|c|☆testdummystuff|thats crazy
+|c|☆cyanide55|it just saved me
+|c|☆cyanide55|but its still a win for ya
+|c|☆cyanide55|XD
+|c|☆testdummystuff|4v1 lol
+|c|☆testdummystuff|i'll give u this team too
+|c|☆cyanide55|this feels more like real life than a game
+|c|☆cyanide55|lol
+|c|☆cyanide55|:D
+|c|☆testdummystuff|im pretty sure someone used a team like this
+|c|☆testdummystuff|idk i wasnt paying attention
+|c|☆cyanide55|its very meta
+|c|☆testdummystuff|extremely
+|c|☆testdummystuff|i just guessed the stats based on what i noticed
+|c|☆cyanide55|lunala is the only thats not over used
+|c|☆testdummystuff|surprisingly
+|c|☆testdummystuff|its a bulkier option instead of calyrex shadow
+|c|☆testdummystuff|and i like it more :3
+|c|☆cyanide55|well its x4 weakness to dark and ghost
+|c|☆testdummystuff|yeah
+|c|☆cyanide55|isnt the very best option
+|c|☆cyanide55|but
+|c|☆testdummystuff|but they both have tera fairy
+|c|☆testdummystuff|or just tera in general
+|c|☆cyanide55|it is better than calyrex tho
+|c|☆cyanide55|i dont even a lil bit calyrex
+|c|☆testdummystuff|it is but calyrex just gets stronger
+|c|☆testdummystuff|as if its too strong
+|c|☆cyanide55|like*
+|c|☆testdummystuff|yeah
+|c|☆cyanide55|i see a calyrex and i quit
+|c|☆cyanide55|im done with it
+|c|☆testdummystuff|i can deal with shadow
+|c|☆testdummystuff|the ice one? probably
+|c|☆testdummystuff|it really depends if its clear amulet or not
+|c|☆cyanide55|well i can deal with the ice one with necrozma dusk mane
+|c|☆testdummystuff|true
+|c|☆cyanide55|one sunsteel strike
+|c|☆cyanide55|and its done
+|
+|t:|1750731290
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Nebby
+|-damage|p2b: Nebby|0 fnt
+|faint|p2b: Nebby
+|
+|win|testdummystuff
+|c|☆testdummystuff|aight i gotta go for now
+|c|☆cyanide55|i was hating calyrex that much that i forgot we were battling
+|c|☆cyanide55|oh
+|c|☆cyanide55|oki
+|c|☆testdummystuff|keep playing, i believe in you ^_^
+|c|☆testdummystuff|ggs
+|c|☆cyanide55|see ya later :D
+|c|☆cyanide55|thx <3
+|l|☆testdummystuff
+|player|p1|
+|j|☆testdummystuff
+|player|p1|testdummystuff|miku-ground|

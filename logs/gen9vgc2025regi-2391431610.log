@@ -1,0 +1,159 @@
+|j|☆swordfishisgoated
+|j|☆Testingstuffuser4
+|t:|1750855213
+|gametype|doubles
+|player|p1|swordfishisgoated|2|1409
+|player|p2|Testingstuffuser4|1|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Testingstuffuser4)
+|
+|t:|1750855234
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p2b: Roaring Moon|Booster Energy
+|-activate|p2b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2b: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750855248
+|-terastallize|p2a: Calyrex|Dragon
+|move|p1a: Rillaboom|Fake Out|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|87/100
+|cant|p2b: Roaring Moon|flinch
+|move|p1b: Kyogre|Origin Pulse|p2b: Roaring Moon|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Calyrex
+|-resisted|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|38/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Roaring Moon|44/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750855262
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-resisted|p1b: Kyogre
+|-damage|p1a: Zacian|64/100
+|-damage|p1b: Kyogre|66/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Kyogre|Origin Pulse|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Urshifu
+|-damage|p2a: Calyrex|53/100
+|-damage|p2b: Urshifu|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|59/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|71/100|[from] Grassy Terrain
+|-heal|p2b: Urshifu|27/100|[from] Grassy Terrain
+|-heal|p1a: Zacian|70/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750855283
+|move|p2a: Calyrex|High Horsepower|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|-damage|p2a: Calyrex|49/100|[from] item: Life Orb
+|move|p1b: Kyogre|Origin Pulse|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Urshifu
+|-damage|p2a: Calyrex|6/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|12/100|[from] Grassy Terrain
+|-heal|p1b: Kyogre|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750855293
+|switch|p2b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2b: Weezing
+|turn|4
+|
+|t:|1750855305
+|move|p1a: Amoonguss|Spore|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Misty Terrain
+|move|p2a: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-resisted|p1b: Kyogre
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Kyogre|23/100
+|faint|p1a: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|-damage|p2a: Calyrex|2/100|[from] item: Life Orb
+|move|p2b: Weezing|Sludge Bomb|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750855317
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750855321
+|move|p1b: Rillaboom|Grassy Glide|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Weezing|Sludge Bomb|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|35/100
+|
+|-weather|none
+|-heal|p1b: Rillaboom|41/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|-message|swordfishisgoated forfeited.
+|
+|win|Testingstuffuser4
+|raw|swordfishisgoated's rating: 1409 &rarr; <strong>1387</strong><br />(-22 for losing)
+|raw|Testingstuffuser4's rating: 1375 &rarr; <strong>1397</strong><br />(+22 for winning)
+|l|☆swordfishisgoated
+|player|p1|
+|l|☆Testingstuffuser4
+|player|p2|

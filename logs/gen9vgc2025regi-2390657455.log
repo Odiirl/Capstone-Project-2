@@ -1,0 +1,187 @@
+|j|☆Dark Slub
+|j|☆ababab0222
+|t:|1750744016
+|gametype|doubles
+|player|p1|Dark Slub|miku-flying|1207
+|player|p2|ababab0222|169|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Slowbro, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|
+|t:|1750744061
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dark Slub)
+|
+|t:|1750744097
+|move|p2a: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|93/100
+|move|p1b: Incineroar|Fake Out|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|96/100
+|cant|p1a: Koraidon|flinch
+|cant|p2b: Zamazenta|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|ababab0222 has 30 seconds left.
+|inactive|ababab0222 has 20 seconds left.
+|
+|t:|1750744136
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|switch|p1b: Slowbro|Slowbro, L50, M|100/100
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1a: Raging Bolt|spa|1
+|inactive|ababab0222 has 30 seconds left.
+|inactive|ababab0222 has 20 seconds left.
+|
+|t:|1750744171
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750744194
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|move|p2b: Zamazenta|Body Press|p1b: Slowbro
+|-resisted|p1b: Slowbro
+|-damage|p1b: Slowbro|71/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Slowbro
+|-damage|p1a: Incineroar|89/100
+|-damage|p1b: Slowbro|56/100
+|move|p1b: Slowbro|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|69/100
+|-enditem|p2a: Calyrex|Weakness Policy
+|-boost|p2a: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Calyrex|spa|2|[from] item: Weakness Policy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750744218
+|move|p1b: Slowbro|Helping Hand|p1a: Incineroar
+|-singleturn|p1a: Incineroar|Helping Hand|[of] p1b: Slowbro
+|move|p2b: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Calyrex|Glacial Lance|p1b: Slowbro
+|-resisted|p1b: Slowbro
+|-damage|p1b: Slowbro|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750744231
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1750744253
+|move|p1b: Slowbro|Protect|p1b: Slowbro
+|-singleturn|p1b: Slowbro|Protect
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Calyrex
+|-damage|p2a: Calyrex|30/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Raging Bolt|[spread] p1a
+|-activate|p1b: Slowbro|move: Protect
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750744265
+|switch|p1a: Koraidon|Koraidon, L50|93/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750744286
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Slowbro|Protect|p1b: Slowbro
+|-singleturn|p1b: Slowbro|Protect
+|move|p1a: Koraidon|Flare Blitz|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|20/100
+|-damage|p1a: Koraidon|69/100|[from] Recoil
+|-damage|p1a: Koraidon|59/100|[from] item: Life Orb
+|move|p2b: Zamazenta|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p2a: Calyrex|Glacial Lance|p1b: Slowbro
+|-activate|p1b: Slowbro|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750744309
+|move|p2b: Zamazenta|Body Press|p1b: Slowbro
+|-resisted|p1b: Slowbro
+|-damage|p1b: Slowbro|0 fnt
+|faint|p1b: Slowbro
+|
+|win|ababab0222
+|raw|Dark Slub's rating: 1207 &rarr; <strong>1182</strong><br />(-25 for losing)
+|raw|ababab0222's rating: 1204 &rarr; <strong>1229</strong><br />(+25 for winning)
+|l|☆Dark Slub
+|player|p1|
+|l|☆ababab0222
+|player|p2|

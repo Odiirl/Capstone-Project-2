@@ -1,0 +1,139 @@
+|j|☆ihatevalley
+|j|☆Violet1994
+|t:|1750828023
+|gametype|doubles
+|player|p1|ihatevalley|red|1105
+|player|p2|Violet1994|aromalady|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Kyurem-Black, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Garganacl, L50, M|
+|poke|p1|Metagross, L50|
+|poke|p1|Dusclops, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Reshiram, L50|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Violet1994)
+|
+|t:|1750828057
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Dusclops|Dusclops, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-ability|p1b: Dusclops|Pressure
+|turn|1
+|
+|t:|1750828067
+|move|p2a: Farigiraf|Helping Hand|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Dusclops|Helping Hand|p1a: Metagross
+|-singleturn|p1a: Metagross|Helping Hand|[of] p1b: Dusclops
+|move|p1a: Metagross|Explosion|p2b: Ogerpon|[spread] p2a,p2b
+|-immune|p1b: Dusclops
+|-crit|p2b: Ogerpon
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p1a: Metagross
+|faint|p2a: Farigiraf
+|faint|p2b: Ogerpon
+|
+|upkeep
+|
+|t:|1750828076
+|switch|p1a: Kyurem|Kyurem-Black, L50|100/100
+|switch|p2b: Reshiram|Reshiram, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Kyurem|Teravolt
+|-ability|p2b: Reshiram|Turboblaze
+|turn|2
+|
+|t:|1750828091
+|-terastallize|p1a: Kyurem|Ground
+|move|p1a: Kyurem|Rock Slide|p2a: Calyrex|[spread] p2b
+|-miss|p1a: Kyurem|p2a: Calyrex
+|-supereffective|p2b: Reshiram
+|-damage|p2b: Reshiram|67/100
+|move|p2b: Reshiram|Draco Meteor|p1a: Kyurem
+|-damage|p1a: Kyurem|66/100
+|-unboost|p2b: Reshiram|spa|2
+|move|p1b: Dusclops|Icy Wind|p2b: Reshiram|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|99/100
+|-damage|p2b: Reshiram|63/100
+|-unboost|p2b: Reshiram|spe|1
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750828110
+|move|p1b: Dusclops|Will-O-Wisp|p2a: Calyrex
+|-status|p2a: Calyrex|brn
+|move|p2a: Calyrex|Glacial Lance|p1b: Dusclops|[spread] p1a,p1b
+|-supereffective|p1a: Kyurem
+|-crit|p1b: Dusclops
+|-damage|p1a: Kyurem|19/100
+|-damage|p1b: Dusclops|69/100
+|move|p2b: Reshiram|Shadow Ball|p1b: Dusclops
+|-supereffective|p1b: Dusclops
+|-damage|p1b: Dusclops|52/100
+|move|p1a: Kyurem|Dragon Claw|p2b: Reshiram
+|-supereffective|p2b: Reshiram
+|-damage|p2b: Reshiram|0 fnt
+|faint|p2b: Reshiram
+|
+|-damage|p2a: Calyrex|93/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750828127
+|move|p1b: Dusclops|Night Shade|p2a: Calyrex
+|-damage|p2a: Calyrex|69/100 brn
+|move|p2a: Calyrex|Glacial Lance|p1b: Dusclops|[spread] p1a,p1b
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-damage|p1b: Dusclops|31/100
+|faint|p1a: Kyurem
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p2a: Calyrex|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1750828132
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|5
+|
+|t:|1750828138
+|move|p1b: Dusclops|Night Shade|p2a: Calyrex
+|-damage|p2a: Calyrex|39/100 brn
+|move|p2a: Calyrex|High Horsepower|p1a: Kyogre
+|-damage|p1a: Kyogre|70/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|ihatevalley
+|raw|ihatevalley's rating: 1105 &rarr; <strong>1136</strong><br />(+31 for winning)
+|raw|Violet1994's rating: 1191 &rarr; <strong>1160</strong><br />(-31 for losing)
+|l|☆Violet1994
+|player|p2|
+|l|☆ihatevalley
+|player|p1|

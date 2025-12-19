@@ -1,0 +1,174 @@
+|j|☆Magierfracht3
+|j|☆chico linguiceta
+|t:|1750829188
+|gametype|doubles
+|player|p1|Magierfracht3|plasmagrunt-gen5bw|1219
+|player|p2|chico linguiceta|harlequin|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Gouging Fire, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Hitmontop, L50, M|
+|teampreview|4
+|
+|t:|1750829208
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2a: Hitmontop|Hitmontop, L50, M, shiny|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Walking Wake|atk|1
+|turn|1
+|
+|t:|1750829234
+|move|p2a: Hitmontop|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|92/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Walking Wake|Hydro Steam|p2b: Oranguru
+|-damage|p2b: Oranguru|33/100
+|-damage|p1b: Walking Wake|91/100|[from] item: Life Orb
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldstart|move: Trick Room|[of] p2b: Oranguru
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750829253
+|move|p2b: Oranguru|Protect|p2b: Oranguru
+|-singleturn|p2b: Oranguru|Protect
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Hitmontop|Mach Punch|p1b: Walking Wake
+|-damage|p1b: Walking Wake|75/100
+|move|p1b: Walking Wake|Hydro Steam|p2b: Oranguru
+|-activate|p2b: Oranguru|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750829272
+|move|p2a: Hitmontop|Sucker Punch|p1b: Walking Wake
+|-damage|p1b: Walking Wake|56/100
+|move|p2b: Oranguru|Expanding Force|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|34/100
+|move|p1b: Walking Wake|Draco Meteor|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-unboost|p1b: Walking Wake|spa|2
+|faint|p2a: Hitmontop
+|-damage|p1b: Walking Wake|46/100|[from] item: Life Orb
+|move|p1a: Koraidon|Collision Course|p2b: Oranguru
+|-damage|p2b: Oranguru|0 fnt
+|faint|p2b: Oranguru
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750829285
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750829301
+|-terastallize|p1b: Walking Wake|Fire
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-resisted|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Ursaluna|Hyper Voice|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750829320
+|switch|p1b: Gouging Fire|Gouging Fire, L50|100/100
+|-activate|p1b: Gouging Fire|ability: Protosynthesis
+|-start|p1b: Gouging Fire|protosynthesisatk
+|turn|5
+|
+|t:|1750829329
+|move|p1b: Gouging Fire|Burning Bulwark|p1b: Gouging Fire
+|-singleturn|p1b: Gouging Fire|move: Protect
+|move|p1a: Koraidon|Protect||[still]
+|-fail|p1a: Koraidon
+|move|p2b: Calyrex|Glacial Lance|p1b: Gouging Fire|[spread] p1a
+|-activate|p1b: Gouging Fire|move: Protect
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Ursaluna|Hyper Voice|p1b: Gouging Fire
+|-activate|p1b: Gouging Fire|move: Protect
+|
+|-weather|none
+|-end|p1b: Gouging Fire|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750829346
+|switch|p1a: Kyurem|Kyurem-White, L50|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|6
+|c|☆chico linguiceta|kill the calyrex
+|c|☆chico linguiceta|because caly can kill you in one only hit
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chico linguiceta)
+|inactive|Magierfracht3 has 60 seconds left.
+|inactive|Magierfracht3 has 30 seconds left.
+|inactive|Magierfracht3 has 20 seconds left.
+|inactive|Magierfracht3 has 15 seconds left.
+|inactive|Magierfracht3 has 10 seconds left.
+|inactive|Magierfracht3 has 5 seconds left.
+|
+|t:|1750829542
+|-terastallize|p2b: Calyrex|Dragon
+|move|p1b: Gouging Fire|Burning Bulwark||[still]
+|-fail|p1b: Gouging Fire
+|move|p1a: Kyurem|Blizzard|p2a: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-supereffective|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Ursaluna
+|faint|p2b: Calyrex
+|
+|win|Magierfracht3
+|raw|Magierfracht3's rating: 1219 &rarr; <strong>1250</strong><br />(+31 for winning)
+|raw|chico linguiceta's rating: 1304 &rarr; <strong>1279</strong><br />(-25 for losing)
+|l|☆chico linguiceta
+|player|p2|
+|l|☆Magierfracht3
+|player|p1|

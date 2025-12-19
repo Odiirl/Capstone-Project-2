@@ -1,0 +1,177 @@
+|j|☆gingerlike
+|j|☆Nougalex
+|t:|1750800382
+|gametype|doubles
+|player|p1|gingerlike|2|1536
+|player|p2|Nougalex|serena-masters2|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Scraggy, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gingerlike)
+|
+|t:|1750800406
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Pure Vessel|Calyrex-Ice, L50|100/100
+|switch|p2b: Broken Vessel|Scraggy, L50, F, shiny|100/100
+|-ability|p2a: Pure Vessel|As One
+|-ability|p2a: Pure Vessel|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Broken Vessel|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|turn|1
+|inactive|gingerlike has 30 seconds left.
+|inactive|Nougalex has 30 seconds left.
+|
+|t:|1750800433
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Pure Vessel|unboost|[from] item: Clear Amulet|[of] p2a: Pure Vessel
+|-unboost|p2b: Broken Vessel|atk|1
+|-terastallize|p2a: Pure Vessel|Fire
+|move|p2b: Broken Vessel|Fake Out|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|99/100
+|move|p2a: Pure Vessel|Trick Room|p2a: Pure Vessel
+|-fieldstart|move: Trick Room|[of] p2a: Pure Vessel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Nougalex has 30 seconds left.
+|
+|t:|1750800459
+|switch|p2b: Hornet Sentinel|Farigiraf, L50, F, shiny|100/100
+|move|p1b: Incineroar|Fake Out||[still]
+|cant|p2b: Hornet Sentinel|ability: Armor Tail|Fake Out|[of] p1b: Incineroar
+|move|p2a: Pure Vessel|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|30/100
+|-damage|p2a: Pure Vessel|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|move|p1a: Zamazenta|Body Press|p2a: Pure Vessel
+|-damage|p2a: Pure Vessel|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750800477
+|move|p2b: Hornet Sentinel|Helping Hand|p2a: Pure Vessel
+|-singleturn|p2a: Pure Vessel|Helping Hand|[of] p2b: Hornet Sentinel
+|move|p2a: Pure Vessel|High Horsepower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|47/100
+|move|p1b: Incineroar|Knock Off|p2b: Hornet Sentinel
+|-supereffective|p2b: Hornet Sentinel
+|-damage|p2b: Hornet Sentinel|38/100
+|-enditem|p2b: Hornet Sentinel|Electric Seed|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Zamazenta|Body Press|p2a: Pure Vessel
+|-damage|p2a: Pure Vessel|0 fnt
+|faint|p2a: Pure Vessel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750800489
+|switch|p2a: Absolute Radiance|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Absolute Radiance
+|turn|4
+|
+|t:|1750800512
+|move|p2b: Hornet Sentinel|Helping Hand|p2a: Absolute Radiance
+|-singleturn|p2a: Absolute Radiance|Helping Hand|[of] p2b: Hornet Sentinel
+|move|p1b: Incineroar|Knock Off|p2b: Hornet Sentinel
+|-supereffective|p2b: Hornet Sentinel
+|-damage|p2b: Hornet Sentinel|0 fnt
+|faint|p2b: Hornet Sentinel
+|move|p2a: Absolute Radiance|Dazzling Gleam|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Zamazenta
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750800522
+|switch|p2b: Broken Vessel|Scraggy, L50, F, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-ability|p2b: Broken Vessel|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|t:|1750800537
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Lilligant|Protect|p1a: Lilligant
+|-singleturn|p1a: Lilligant|Protect
+|move|p2b: Broken Vessel|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Absolute Radiance|Dazzling Gleam|p1a: Lilligant|[spread] 
+|-activate|p1a: Lilligant|move: Protect
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750800557
+|move|p1b: Koraidon|Close Combat|p2a: Absolute Radiance
+|-damage|p2a: Absolute Radiance|45/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Lilligant|Coaching|p1b: Koraidon
+|-boost|p1b: Koraidon|atk|1
+|-boost|p1b: Koraidon|def|1
+|move|p2a: Absolute Radiance|Dazzling Gleam|p1a: Lilligant|[spread] p1a,p1b
+|-supereffective|p1a: Lilligant
+|-supereffective|p1b: Koraidon
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2b: Broken Vessel|Coaching|p2a: Absolute Radiance
+|-boost|p2a: Absolute Radiance|atk|1
+|-boost|p2a: Absolute Radiance|def|1
+|
+|upkeep
+|turn|7
+|-message|gingerlike forfeited.
+|
+|win|Nougalex
+|raw|gingerlike's rating: 1536 &rarr; <strong>1513</strong><br />(-23 for losing)
+|raw|Nougalex's rating: 1491 &rarr; <strong>1514</strong><br />(+23 for winning)
+|l|☆gingerlike
+|player|p1|
+|c|☆Nougalex|gg
+|l|☆Nougalex
+|player|p2|

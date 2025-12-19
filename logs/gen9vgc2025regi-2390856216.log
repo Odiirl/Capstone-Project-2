@@ -1,0 +1,166 @@
+|j|☆helo hru
+|j|☆Coperr
+|t:|1750776201
+|gametype|doubles
+|player|p1|helo hru|unknownf|1311
+|player|p2|Coperr|169|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Avalugg, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+Coperr has agreed to open team sheets.
+helo hru rejected open team sheets.
+|
+|t:|1750776237
+|start
+|switch|p1a: Oh-Ho|Ho-Oh, L50|100/100
+|switch|p1b: Ledozlom|Ninetales-Alola, L50, F, shiny|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ledozlom
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750776268
+|move|p1b: Ledozlom|Icy Wind|p2b: Chi-Yu|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-resisted|p2b: Chi-Yu
+|-damage|p2a: Koraidon|65/100
+|-damage|p2b: Chi-Yu|93/100
+|-unboost|p2a: Koraidon|spe|1
+|-unboost|p2b: Chi-Yu|spe|1
+|move|p2b: Chi-Yu|Ruination|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|51/100
+|move|p2a: Koraidon|Flame Charge|p1b: Ledozlom
+|-supereffective|p1b: Ledozlom
+|-damage|p1b: Ledozlom|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Ledozlom
+|-damage|p2a: Koraidon|55/100|[from] item: Life Orb
+|move|p1a: Oh-Ho|Brave Bird|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|-damage|p1a: Oh-Ho|32/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750776290
+|switch|p1b: Keii|Miraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Keii
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750776337
+|switch|p1b: GEM|Avalugg, L50, M|100/100
+|-enditem|p1b: GEM|Electric Seed
+|-boost|p1b: GEM|def|1|[from] item: Electric Seed
+|move|p2b: Flutter Mane|Moonblast|p1b: GEM
+|-damage|p1b: GEM|25/100
+|-unboost|p1b: GEM|spa|1
+|move|p2a: Koraidon|Close Combat|p1b: GEM
+|-supereffective|p1b: GEM
+|-damage|p1b: GEM|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: GEM
+|-damage|p2a: Koraidon|46/100|[from] item: Life Orb
+|move|p1a: Oh-Ho|Sacred Fire|p2b: Flutter Mane|[miss]
+|-miss|p1a: Oh-Ho|p2b: Flutter Mane
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750776350
+|switch|p1b: Keii|Miraidon, L50|100/100
+|-activate|p1b: Keii|ability: Hadron Engine
+|turn|3
+|
+|t:|1750776380
+|-terastallize|p1b: Keii|Electric
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Flutter Mane|Icy Wind|p1a: Oh-Ho|[spread] p1a,p1b
+|-damage|p1a: Oh-Ho|24/100
+|-damage|p1b: Keii|93/100
+|-unboost|p1b: Keii|spe|1
+|move|p1a: Oh-Ho|Brave Bird|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Keii|Snarl|p2b: Flutter Mane|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Flutter Mane|77/100
+|-unboost|p2b: Flutter Mane|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750776409
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|8/100
+|move|p2a: Koraidon|Flare Blitz|p1b: Keii
+|-damage|p1b: Keii|0 fnt
+|faint|p1b: Keii
+|-damage|p2a: Koraidon|10/100|[from] Recoil
+|-damage|p2a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2a: Koraidon
+|move|p1a: Oh-Ho|Life Dew|p1a: Oh-Ho
+|-heal|p1a: Oh-Ho|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750776416
+|switch|p2a: Amoongun|Brute Bonnet, L50|100/100
+|-activate|p2a: Amoongun|ability: Protosynthesis
+|-start|p2a: Amoongun|protosynthesisdef
+|turn|5
+|
+|t:|1750776432
+|move|p1a: Oh-Ho|Protect|p1a: Oh-Ho
+|-singleturn|p1a: Oh-Ho|Protect
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Oh-Ho
+|-activate|p1a: Oh-Ho|move: Protect
+|move|p2a: Amoongun|Spore|p1a: Oh-Ho
+|-activate|p1a: Oh-Ho|move: Protect
+|
+|-weather|none
+|-end|p2b: Flutter Mane|Protosynthesis
+|-end|p2a: Amoongun|Protosynthesis
+|upkeep
+|turn|6
+|c|☆Coperr|ggs
+|
+|t:|1750776447
+|move|p2a: Amoongun|Sucker Punch|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|9/100
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|0 fnt
+|faint|p1a: Oh-Ho
+|
+|win|Coperr
+|raw|helo hru's rating: 1311 &rarr; <strong>1290</strong><br />(-21 for losing)
+|raw|Coperr's rating: 1300 &rarr; <strong>1326</strong><br />(+26 for winning)
+|c|☆helo hru|gg

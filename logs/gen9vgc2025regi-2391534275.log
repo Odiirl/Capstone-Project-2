@@ -1,0 +1,137 @@
+|j|☆peedr
+|j|☆broodedgy
+|t:|1750867318
+|gametype|doubles
+|player|p1|peedr|101|1356
+|player|p2|broodedgy|266|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Klefki, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by broodedgy)
+|
+|t:|1750867344
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p2a: Rayquaza|Rayquaza, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p2a: Rayquaza|Air Lock
+|turn|1
+|
+|t:|1750867362
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1a: Kyogre|Ice Beam|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|87/100
+|move|p1b: Basculegion|Flip Turn|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|3/100
+|-damage|p1b: Basculegion|84/100|[from] item: Rocky Helmet|[of] p2b: Volcarona
+|
+|t:|1750867373
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100|[from] Flip Turn
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Kyogre
+|-damage|p1a: Kyogre|25/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750867395
+|move|p2a: Rayquaza|Extreme Speed|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Zacian|Play Rough|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-damage|p1b: Zacian|84/100|[from] item: Rocky Helmet|[of] p2b: Volcarona
+|faint|p2b: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867415
+|switch|p1a: Klefki|Klefki, L50, M, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|
+|t:|1750867426
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|-terastallize|p2b: Miraidon|Electric
+|-terastallize|p1b: Zacian|Ground
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: peedr|Reflect
+|move|p2b: Miraidon|Electro Drift|p1b: Zacian
+|-immune|p1b: Zacian
+|move|p1b: Zacian|Play Rough|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867434
+|switch|p2a: Rayquaza|Rayquaza, L50|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|4
+|
+|t:|1750867446
+|move|p2a: Rayquaza|Protect|p2a: Rayquaza
+|-singleturn|p2a: Rayquaza|Protect
+|move|p1a: Klefki|Thunder Wave|p2a: Rayquaza
+|-activate|p2a: Rayquaza|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|move|p1b: Zacian|Tera Blast|p2b: Miraidon|[anim] Tera Blast Ground
+|-supereffective|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867455
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|84/100
+|turn|5
+|-message|broodedgy forfeited.
+|
+|win|peedr
+|raw|peedr's rating: 1356 &rarr; <strong>1381</strong><br />(+25 for winning)
+|raw|broodedgy's rating: 1446 &rarr; <strong>1421</strong><br />(-25 for losing)
+|l|☆broodedgy
+|player|p2|
+|l|☆peedr
+|player|p1|

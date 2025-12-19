@@ -1,0 +1,195 @@
+|j|☆eevee887
+|j|☆darxzy
+|t:|1750719023
+|gametype|doubles
+|player|p1|eevee887|n|1097
+|player|p2|darxzy|169|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Bellibolt, L50, M|
+|poke|p1|Jolteon, L50, M|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Eelektross, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+darxzy rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by darxzy)
+|
+|t:|1750719058
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Eelektross|Eelektross, L50, F, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p1a: Miraidon|Electric Seed
+|-boost|p1a: Miraidon|def|1|[from] item: Electric Seed
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750719081
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: darxzy|move: Light Screen
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Eelektross|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Eelektross|39/100
+|faint|p1a: Miraidon
+|move|p1b: Eelektross|Bulk Up|p1b: Eelektross
+|-boost|p1b: Eelektross|atk|1
+|-boost|p1b: Eelektross|def|1
+|
+|upkeep
+|
+|t:|1750719096
+|switch|p1a: Kilowattrel|Kilowattrel, L50, M|100/100
+|turn|2
+|
+|t:|1750719116
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: darxzy|Reflect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kilowattrel|[spread] p1a,p1b
+|-damage|p1a: Kilowattrel|20/100
+|-damage|p1b: Eelektross|0 fnt
+|faint|p1b: Eelektross
+|move|p1a: Kilowattrel|Tailwind|p1a: Kilowattrel
+|-sidestart|p1: eevee887|move: Tailwind
+|
+|upkeep
+|
+|t:|1750719122
+|switch|p1b: Jolteon|Jolteon, L50, M|100/100
+|turn|3
+|
+|t:|1750719144
+|move|p1b: Jolteon|Discharge|p2a: Miraidon|[spread] p2a,p2b
+|-heal|p1a: Kilowattrel|45/100|[from] ability: Volt Absorb|[of] p1b: Jolteon
+|-damage|p2a: Miraidon|75/100
+|-damage|p2b: Grimmsnarl|77/100
+|-status|p2a: Miraidon|par
+|move|p1a: Kilowattrel|Air Slash|p2a: Miraidon
+|-damage|p2a: Miraidon|56/100 par
+|cant|p2a: Miraidon|flinch
+|move|p2b: Grimmsnarl|Foul Play|p1b: Jolteon
+|-damage|p1b: Jolteon|76/100
+|
+|upkeep
+|turn|4
+|inactive|eevee887 has 30 seconds left.
+|
+|t:|1750719171
+|-terastallize|p1b: Jolteon|Normal
+|move|p1b: Jolteon|Discharge|p2b: Grimmsnarl|[spread] p2a,p2b
+|-heal|p1a: Kilowattrel|69/100|[from] ability: Volt Absorb|[of] p1b: Jolteon
+|-damage|p2a: Miraidon|32/100 par
+|-damage|p2b: Grimmsnarl|52/100
+|move|p1a: Kilowattrel|Discharge|p2b: Grimmsnarl|[spread] p2a,p2b
+|-heal|p1b: Jolteon|100/100|[from] ability: Volt Absorb|[of] p1a: Kilowattrel
+|-damage|p2a: Miraidon|17/100 par
+|-damage|p2b: Grimmsnarl|37/100
+|-status|p2b: Grimmsnarl|par
+|cant|p2a: Miraidon|par
+|move|p2b: Grimmsnarl|Foul Play|p1b: Jolteon
+|-damage|p1b: Jolteon|76/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750719190
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Jolteon
+|-heal|p1b: Jolteon|100/100|[from] ability: Volt Absorb|[of] p2b: Grimmsnarl
+|move|p1b: Jolteon|Discharge|p2a: Miraidon|[spread] p2a,p2b
+|-heal|p1a: Kilowattrel|94/100|[from] ability: Volt Absorb|[of] p1b: Jolteon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Grimmsnarl|13/100 par
+|faint|p2a: Miraidon
+|move|p1a: Kilowattrel|Discharge|p2b: Grimmsnarl|[spread] p2b
+|-immune|p1b: Jolteon|[from] ability: Volt Absorb
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|-sideend|p1: eevee887|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750719207
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50, shiny|100/100
+|turn|6
+|
+|t:|1750719230
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Iron Hands|Fake Out|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|72/100
+|move|p1b: Jolteon|Discharge|p2a: Lunala|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Iron Hands|move: Wide Guard
+|-heal|p1a: Kilowattrel|97/100|[from] ability: Volt Absorb|[of] p1b: Jolteon
+|cant|p1a: Kilowattrel|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1750719250
+|move|p1b: Jolteon|Discharge|p2a: Lunala|[spread] p2a,p2b
+|-heal|p1a: Kilowattrel|100/100|[from] ability: Volt Absorb|[of] p1b: Jolteon
+|-resisted|p2b: Iron Hands
+|-damage|p2a: Lunala|93/100
+|-damage|p2b: Iron Hands|95/100
+|-status|p2a: Lunala|par
+|move|p1a: Kilowattrel|Tailwind|p1a: Kilowattrel
+|-sidestart|p1: eevee887|move: Tailwind
+|move|p2a: Lunala|Moongeist Beam|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|20/100
+|move|p2b: Iron Hands|Drain Punch|p1b: Jolteon
+|-supereffective|p1b: Jolteon
+|-damage|p1b: Jolteon|0 fnt
+|-heal|p2b: Iron Hands|100/100|[from] drain|[of] p1b: Jolteon
+|faint|p1b: Jolteon
+|
+|upkeep
+|turn|8
+|
+|t:|1750719272
+|move|p1a: Kilowattrel|Protect|p1a: Kilowattrel
+|-singleturn|p1a: Kilowattrel|Protect
+|cant|p2a: Lunala|par
+|move|p2b: Iron Hands|Heavy Slam|p1a: Kilowattrel
+|-activate|p1a: Kilowattrel|move: Protect
+|
+|-sideend|p2: darxzy|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750719288
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Kilowattrel|Air Slash|p2b: Iron Hands
+|-damage|p2b: Iron Hands|85/100
+|move|p2b: Iron Hands|Heavy Slam|p1a: Kilowattrel
+|-resisted|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|win|darxzy
+|raw|eevee887's rating: 1097 &rarr; <strong>1072</strong><br />(-25 for losing)
+|raw|darxzy's rating: 1084 &rarr; <strong>1112</strong><br />(+28 for winning)
+|l|☆eevee887
+|player|p1|
+|l|☆darxzy
+|player|p2|

@@ -1,0 +1,218 @@
+|j|☆Carlinhosmestre123
+|j|☆CoolCarrot
+|t:|1750718669
+|gametype|doubles
+|player|p1|Carlinhosmestre123|169|1080
+|player|p2|CoolCarrot|170|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ho-Oh, L50|
+|teampreview|4
+|
+|t:|1750718698
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Iron Hands|Booster Energy
+|-activate|p2b: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750718720
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|move|p2b: Iron Hands|Fake Out|p1a: Tornadus
+|-damage|p1a: Tornadus|76/100
+|move|p1a: Tornadus|Icy Wind|p2b: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|82/100
+|-damage|p2b: Iron Hands|90/100
+|-unboost|p2a: Rillaboom|spe|1
+|-unboost|p2b: Iron Hands|spe|1
+|move|p2a: Rillaboom|Wood Hammer|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|60/100
+|-damage|p2a: Rillaboom|70/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|76/100|[from] Grassy Terrain
+|-heal|p2b: Iron Hands|96/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750718745
+|move|p1b: Rillaboom|Fake Out|p2b: Iron Hands
+|-damage|p2b: Iron Hands|88/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Carlinhosmestre123|move: Tailwind
+|move|p2a: Rillaboom|U-turn|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|14/100
+|
+|t:|1750718759
+|switch|p2a: Farigiraf|Farigiraf, L50, M, shiny|100/100|[from] U-turn
+|cant|p2b: Iron Hands|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|20/100|[from] Grassy Terrain
+|-heal|p2b: Iron Hands|94/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750718779
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|77/100
+|-damage|p2b: Iron Hands|65/100
+|-unboost|p2b: Iron Hands|spe|1
+|move|p1b: Rillaboom|U-turn|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|31/100
+|
+|t:|1750718788
+|switch|p1b: Volcarona|Volcarona, L50, M, shiny|100/100|[from] U-turn
+|move|p2a: Farigiraf|Hyper Voice|p1b: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Tornadus|49/100
+|-damage|p1b: Volcarona|74/100
+|-enditem|p2a: Farigiraf|Throat Spray
+|-boost|p2a: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p2b: Iron Hands|Wild Charge|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2b: Iron Hands|58/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Volcarona|80/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|37/100|[from] Grassy Terrain
+|-heal|p2b: Iron Hands|64/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750718808
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|turn|4
+|
+|t:|1750718853
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1a: Kyogre|Water Spout|p2b: Iron Hands|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|move|p1b: Volcarona|Struggle Bug|p2a: Farigiraf
+|-activate|p2a: Farigiraf|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Volcarona|86/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750718864
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|5
+|
+|t:|1750718877
+|switch|p1a: Rillaboom|Rillaboom, L50, M|20/100
+|-terastallize|p2b: Groudon|Grass
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2b: Groudon|Precipice Blades|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Volcarona|move: Protect
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p2a: Farigiraf|Psychic|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Volcarona|92/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|49/100|[from] Grassy Terrain
+|-sideend|p1: Carlinhosmestre123|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750718896
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|6
+|
+|t:|1750718947
+|switch|p2b: Rillaboom|Rillaboom, L50, M|76/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1b: Volcarona|Struggle Bug|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|48/100
+|-unboost|p2b: Rillaboom|spa|1
+|move|p1a: Kyogre|Blizzard|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Volcarona|99/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|56/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750718964
+|switch|p2b: Groudon|Groudon, L50, tera:Grass|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|7
+|
+|t:|1750718977
+|-terastallize|p1b: Volcarona|Grass
+|move|p2a: Farigiraf|Helping Hand|p2b: Groudon
+|-singleturn|p2b: Groudon|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Groudon|Precipice Blades|p1b: Volcarona|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Kyogre|26/100
+|-damage|p1b: Volcarona|60/100
+|move|p1a: Kyogre|Blizzard|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Farigiraf|27/100
+|-damage|p2b: Groudon|4/100
+|move|p1b: Volcarona|Hurricane|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kyogre|33/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|66/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|34/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750719002
+|move|p1a: Kyogre|Blizzard|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|win|Carlinhosmestre123
+|raw|Carlinhosmestre123's rating: 1080 &rarr; <strong>1106</strong><br />(+26 for winning)
+|raw|CoolCarrot's rating: 1059 &rarr; <strong>1041</strong><br />(-18 for losing)

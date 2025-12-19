@@ -1,0 +1,212 @@
+|j|☆Cecilego3
+|j|☆Lore805
+|t:|1750856462
+|gametype|doubles
+|player|p1|Cecilego3|2|1482
+|player|p2|Lore805|1|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lore805)
+Cecilego3 has agreed to open team sheets.
+|
+|t:|1750856479
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Raichu|Raichu, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750856494
+|move|p2b: Raichu|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|90/100
+|move|p1b: Iron Hands|Fake Out|p2b: Raichu
+|-damage|p2b: Raichu|58/100
+|cant|p1a: Miraidon|flinch
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750856516
+|move|p2a: Volcarona|Fiery Dance|p1b: Iron Hands
+|-damage|p1b: Iron Hands|71/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Volcarona
+|-damage|p2a: Volcarona|13/100
+|-unboost|p1a: Miraidon|spa|2
+|move|p2b: Raichu|Endeavor|p1a: Miraidon
+|-damage|p1a: Miraidon|45/100
+|move|p1b: Iron Hands|Drain Punch|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|-heal|p1b: Iron Hands|88/100|[from] drain|[of] p2b: Raichu
+|faint|p2b: Raichu
+|
+|upkeep
+|
+|t:|1750856539
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750856551
+|-terastallize|p2b: Kyogre|Water
+|-terastallize|p1b: Iron Hands|Water
+|move|p2a: Volcarona|Bug Buzz|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2b: Kyogre|Water Spout|p1b: Iron Hands
+|-resisted|p1b: Iron Hands
+|-damage|p1b: Iron Hands|27/100
+|move|p1b: Iron Hands|Wild Charge|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-damage|p1b: Iron Hands|5/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750856566
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750856579
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Volcarona|Bug Buzz|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-enditem|p1b: Chien-Pao|Focus Sash
+|-damage|p1b: Chien-Pao|1/100
+|move|p2b: Calyrex|Leech Seed|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750856598
+|move|p2a: Volcarona|Rage Powder|p2a: Volcarona
+|-singleturn|p2a: Volcarona|move: Rage Powder
+|move|p1b: Chien-Pao|Sucker Punch||[still]
+|-fail|p1b: Chien-Pao
+|move|p1a: Zamazenta|Body Press|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Zamazenta|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|move|p2b: Calyrex|Glacial Lance|p1b: Chien-Pao|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-resisted|p1b: Chien-Pao
+|-damage|p1a: Zamazenta|85/100 brn
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zamazenta|79/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750856614
+|switch|p1b: Iron Hands|Iron Hands, L50, tera:Water|5/100
+|turn|6
+|
+|t:|1750856623
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Iron Hands|Drain Punch|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zamazenta|73/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750856633
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Iron Hands|Drain Punch|p2b: Calyrex
+|-damage|p2b: Calyrex|72/100
+|-heal|p1b: Iron Hands|18/100|[from] drain|[of] p2b: Calyrex
+|move|p2b: Calyrex|Leech Seed|p1b: Iron Hands
+|-start|p1b: Iron Hands|move: Leech Seed
+|
+|-weather|none
+|-damage|p1b: Iron Hands|6/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|86/100|[silent]
+|-damage|p1a: Zamazenta|67/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750856651
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-damage|p1b: Iron Hands|0 fnt|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|91/100|[silent]
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Zamazenta|61/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750856664
+|move|p1a: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|68/100
+|move|p2b: Calyrex|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|
+|-damage|p1a: Zamazenta|49/100 brn|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|79/100|[silent]
+|-damage|p1a: Zamazenta|43/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|Cecilego3 forfeited.
+|
+|win|Lore805
+|raw|Cecilego3's rating: 1482 &rarr; <strong>1461</strong><br />(-21 for losing)
+|raw|Lore805's rating: 1464 &rarr; <strong>1485</strong><br />(+21 for winning)
+|l|☆Cecilego3
+|player|p1|
+|l|☆Lore805
+|player|p2|

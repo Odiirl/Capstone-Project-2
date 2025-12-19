@@ -1,0 +1,289 @@
+|j|☆qupieqwert
+|j|☆TheWeepingDalek
+|t:|1750814634
+|gametype|doubles
+|player|p1|qupieqwert|265|1106
+|player|p2|TheWeepingDalek|2|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Salazzle, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Florges, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, F|
+|teampreview|4
+|
+|t:|1750814656
+|start
+|switch|p1a: Toxapex|Toxapex, L50, F|100/100
+|switch|p1b: Florges|Florges, L50, F|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1b: Florges|atk|1
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750814678
+|move|p2b: Incineroar|Fake Out|p1b: Florges
+|-damage|p1b: Florges|91/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Florges
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Toxapex|perish3|[silent]
+|-start|p1b: Florges|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Florges|flinch
+|move|p1a: Toxapex|Toxic Spikes|p2b: Incineroar
+|-sidestart|p2: TheWeepingDalek|move: Toxic Spikes
+|
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Florges|perish3
+|-start|p2b: Incineroar|perish3
+|-start|p1a: Toxapex|perish3
+|upkeep
+|turn|2
+|
+|t:|1750814700
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Scream Tail|Encore||[still]
+|-fail|p2a: Scream Tail
+|move|p2b: Incineroar|Flare Blitz|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Incineroar|62/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Scream Tail|perish2
+|-start|p2b: Incineroar|perish2
+|upkeep
+|
+|t:|1750814720
+|switch|p1b: Florges|Florges, L50, F|91/100
+|turn|3
+|
+|t:|1750814731
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Koraidon|perish3|[silent]
+|-start|p1b: Florges|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Koraidon|Flame Charge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|63/100
+|-boost|p1a: Koraidon|spe|1
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Florges|Calm Mind|p1b: Florges
+|-boost|p1b: Florges|spa|1
+|-boost|p1b: Florges|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Koraidon|perish3
+|-start|p2a: Scream Tail|perish1
+|-start|p1b: Florges|perish3
+|-start|p2b: Incineroar|perish1
+|upkeep
+|turn|4
+|
+|t:|1750814757
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100
+|-status|p2a: Gothitelle|psn
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-status|p2b: Calyrex|psn
+|move|p1a: Koraidon|Flare Blitz|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Koraidon|59/100|[from] Recoil
+|-damage|p1a: Koraidon|49/100|[from] item: Life Orb
+|move|p1b: Florges|Dazzling Gleam|p2a: Gothitelle
+|-damage|p2a: Gothitelle|63/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|69/100 psn|[from] item: Leftovers
+|-damage|p2a: Gothitelle|57/100 psn|[from] psn
+|-start|p1a: Koraidon|perish2
+|-start|p1b: Florges|perish2
+|upkeep
+|
+|t:|1750814773
+|switch|p2b: Incineroar|Incineroar, L50, M|62/100
+|-status|p2b: Incineroar|psn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Florges|atk|1
+|turn|5
+|
+|t:|1750814793
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Florges|Calm Mind|p1b: Florges
+|-boost|p1b: Florges|spa|1
+|-boost|p1b: Florges|spd|1
+|move|p2a: Gothitelle|Psychic|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|63/100 psn|[from] item: Leftovers
+|-damage|p2a: Gothitelle|51/100 psn|[from] psn
+|-damage|p2b: Incineroar|50/100 psn|[from] psn
+|-start|p1a: Koraidon|perish1
+|-start|p1b: Florges|perish1
+|upkeep
+|turn|6
+|
+|t:|1750814814
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p1a: Koraidon|Flare Blitz|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|move|p1b: Florges|Dazzling Gleam|p2b: Incineroar|[spread] 
+|-activate|p2a: Gothitelle|move: Protect
+|-activate|p2b: Incineroar|move: Protect
+|
+|-weather|none
+|-heal|p2a: Gothitelle|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Gothitelle|45/100 psn|[from] psn
+|-damage|p2b: Incineroar|37/100 psn|[from] psn
+|-start|p1a: Koraidon|perish0
+|-start|p1b: Florges|perish0
+|faint|p1a: Koraidon
+|faint|p1b: Florges
+|upkeep
+|
+|t:|1750814836
+|switch|p1a: Toxapex|Toxapex, L50, F|100/100
+|turn|7
+|
+|t:|1750814849
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Gothitelle|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Gothitelle|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Gothitelle|38/100 psn|[from] psn
+|-damage|p2b: Incineroar|25/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750814867
+|-terastallize|p1a: Toxapex|Dark
+|move|p2a: Gothitelle|Psychic|p1a: Toxapex
+|-immune|p1a: Toxapex
+|move|p2b: Incineroar|Parting Shot|p1a: Toxapex
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1a: Toxapex|spa|1
+|
+|t:|1750814873
+|switch|p2b: Scream Tail|Scream Tail, L50|63/100|[from] Parting Shot
+|-status|p2b: Scream Tail|psn
+|move|p1a: Toxapex|Sludge Bomb|p2b: Scream Tail
+|-supereffective|p2b: Scream Tail
+|-crit|p2b: Scream Tail
+|-damage|p2b: Scream Tail|20/100 psn
+|
+|-heal|p2a: Gothitelle|45/100 psn|[from] item: Leftovers
+|-damage|p1a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p2b: Scream Tail|8/100 psn|[from] psn
+|-damage|p2a: Gothitelle|32/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750814890
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Toxapex|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Gothitelle|38/100 psn|[from] item: Leftovers
+|-damage|p1a: Toxapex|76/100|[from] item: Black Sludge
+|-damage|p2b: Scream Tail|0 fnt|[from] psn
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|-damage|p2a: Gothitelle|26/100 psn|[from] psn
+|-start|p2a: Gothitelle|perish3
+|-start|p1a: Toxapex|perish3
+|upkeep
+|
+|t:|1750814899
+|switch|p2b: Incineroar|Incineroar, L50, M|25/100 psn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|turn|10
+|
+|t:|1750814912
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Gothitelle|32/100 psn|[from] item: Leftovers
+|-damage|p1a: Toxapex|57/100|[from] item: Black Sludge
+|-damage|p2a: Gothitelle|20/100 psn|[from] psn
+|-damage|p2b: Incineroar|12/100 psn|[from] psn
+|-start|p2a: Gothitelle|perish2
+|-start|p1a: Toxapex|perish2
+|upkeep
+|turn|11
+|
+|t:|1750814929
+|move|p2a: Gothitelle|Protect||[still]
+|-fail|p2a: Gothitelle
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p1a: Toxapex|Sludge Bomb|p2a: Gothitelle
+|-crit|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-damage|p1a: Toxapex|44/100|[from] item: Black Sludge
+|-damage|p2b: Incineroar|0 fnt|[from] psn
+|faint|p2b: Incineroar
+|
+|win|qupieqwert
+|raw|qupieqwert's rating: 1106 &rarr; <strong>1138</strong><br />(+32 for winning)
+|raw|TheWeepingDalek's rating: 1210 &rarr; <strong>1178</strong><br />(-32 for losing)
+|l|☆TheWeepingDalek
+|player|p2|
+|l|☆qupieqwert
+|player|p1|

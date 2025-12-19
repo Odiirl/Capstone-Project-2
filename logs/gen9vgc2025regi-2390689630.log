@@ -1,0 +1,131 @@
+|j|☆mikoag
+|j|☆Thatonesoulguy
+|t:|1750750368
+|gametype|doubles
+|player|p1|mikoag|266|1483
+|player|p2|Thatonesoulguy|bellelba|1489
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thatonesoulguy)
+|inactive|mikoag has 60 seconds left.
+|
+|t:|1750750418
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|turn|1
+|
+|t:|1750750438
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Terapagos|Tera Starstorm|p2b: Amoonguss|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|50/100
+|-damage|p2b: Amoonguss|57/100
+|move|p2b: Amoonguss|Spore|p1b: Clefairy
+|-status|p1b: Clefairy|slp|[from] move: Spore
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1750750456
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|cant|p1b: Clefairy|slp
+|move|p2b: Amoonguss|Spore|p1a: Terapagos
+|-status|p1a: Terapagos|slp|[from] move: Spore
+|cant|p1a: Terapagos|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750750471
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-terastallize|p2a: Kyogre|Water
+|-curestatus|p1b: Clefairy|slp|[msg]
+|move|p1b: Clefairy|After You|p1a: Terapagos
+|-activate|p1a: Terapagos|move: After You
+|-curestatus|p1a: Terapagos|slp|[msg]
+|move|p1a: Terapagos|Tera Starstorm|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|29/100
+|-damage|p2b: Calyrex|63/100
+|move|p2a: Kyogre|Water Spout|p1a: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Terapagos|78/100
+|-damage|p1b: Clefairy|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|mikoag has 30 seconds left.
+|inactive|Thatonesoulguy has 30 seconds left.
+|
+|t:|1750750505
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Clefairy|After You|p1a: Terapagos
+|-activate|p1a: Terapagos|move: After You
+|move|p1a: Terapagos|Tera Starstorm|p2b: Calyrex|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Calyrex|25/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Terapagos|[spread] p1a,p1b
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|28/100
+|-damage|p1b: Clefairy|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|Thatonesoulguy has 30 seconds left.
+|
+|t:|1750750532
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Clefairy|After You|p1a: Terapagos
+|-activate|p1a: Terapagos|move: After You
+|move|p1a: Terapagos|Tera Starstorm|p2a: Kyogre|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|-message|Thatonesoulguy forfeited.
+|
+|win|mikoag
+|raw|mikoag's rating: 1483 &rarr; <strong>1503</strong><br />(+20 for winning)
+|raw|Thatonesoulguy's rating: 1489 &rarr; <strong>1469</strong><br />(-20 for losing)
+|l|☆mikoag
+|player|p1|

@@ -1,0 +1,181 @@
+|j|☆yaasuto
+|j|☆raezan
+|t:|1750742241
+|gametype|doubles
+|player|p1|yaasuto|hilbert|1465
+|player|p2|raezan|hugh|1559
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yaasuto)
+|inactive|raezan has 60 seconds left.
+|inactive|raezan has 30 seconds left.
+|inactive|raezan has 20 seconds left.
+|
+|t:|1750742317
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Eternatus|Pressure
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Eternatus|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750742326
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1b: Incineroar|Fake Out|p2a: Calyrex
+|-immune|p2a: Calyrex
+|move|p2b: Incineroar|Fake Out|p1a: Eternatus
+|-damage|p1a: Eternatus|96/100
+|cant|p1a: Eternatus|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Eternatus|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1750742334
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|-terastallize|p2a: Calyrex|Dark
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1a: Eternatus|Toxic|p2a: Calyrex
+|-status|p2a: Calyrex|tox
+|move|p2b: Incineroar|Knock Off|p1b: Ting-Lu
+|-resisted|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|92/100
+|-enditem|p1b: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Calyrex|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750742345
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2a: Calyrex|Psychic|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|38/100
+|-unboost|p1a: Ho-Oh|spd|1
+|-damage|p2a: Calyrex|84/100 tox|[from] item: Life Orb
+|move|p2b: Incineroar|U-turn|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|76/100
+|
+|t:|1750742349
+|switch|p2b: Koraidon|Koraidon, L50|100/100|[from] U-turn
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|move|p1b: Ting-Lu|Sand Tomb|p2a: Calyrex
+|-damage|p2a: Calyrex|70/100 tox
+|-activate|p2a: Calyrex|move: Sand Tomb|[of] p1b: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Calyrex|58/100 tox|[from] psn
+|-damage|p2a: Calyrex|46/100 tox|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1750742359
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p1b: Ting-Lu|Protect|p1b: Ting-Lu
+|-singleturn|p1b: Ting-Lu|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Eternatus|[spread] p1a
+|-activate|p1b: Ting-Lu|move: Protect
+|-damage|p1a: Eternatus|33/100
+|-damage|p2a: Calyrex|36/100 tox|[from] item: Life Orb
+|move|p2b: Koraidon|Close Combat|p1b: Ting-Lu
+|-activate|p1b: Ting-Lu|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Eternatus|40/100|[from] item: Black Sludge
+|-damage|p2a: Calyrex|17/100 tox|[from] psn
+|-damage|p2a: Calyrex|5/100 tox|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1750742375
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Ting-Lu|[spread] p1b
+|-activate|p1a: Eternatus|move: Protect
+|-resisted|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|46/100
+|-damage|p2a: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p2a: Calyrex
+|move|p2b: Koraidon|Close Combat|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Ting-Lu
+|
+|-weather|none
+|-heal|p1a: Eternatus|46/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1750742381
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|turn|6
+|
+|t:|1750742395
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Koraidon|Swords Dance|p2b: Koraidon
+|-boost|p2b: Koraidon|atk|2
+|move|p1a: Eternatus|Toxic|p2a: Indeedee
+|-status|p2a: Indeedee|tox
+|move|p1b: Incineroar|Parting Shot|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2a: Indeedee|spa|1
+|
+|t:|1750742397
+|switch|p1b: Ho-Oh|Ho-Oh, L50|71/100|[from] Parting Shot
+|
+|-heal|p1a: Eternatus|52/100|[from] item: Black Sludge
+|-damage|p2a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|-message|raezan forfeited.
+|
+|win|yaasuto
+|raw|yaasuto's rating: 1465 &rarr; <strong>1490</strong><br />(+25 for winning)
+|raw|raezan's rating: 1559 &rarr; <strong>1534</strong><br />(-25 for losing)
+|l|☆raezan
+|player|p2|
+|l|☆yaasuto
+|player|p1|

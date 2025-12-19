@@ -1,0 +1,184 @@
+|j|☆bodeylee
+|j|☆Iusjs
+|t:|1750742166
+|gametype|doubles
+|player|p1|bodeylee|169|1198
+|player|p2|Iusjs|102|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Cloyster, L50, F|
+|poke|p1|Palkia, L50|
+|poke|p1|Medicham, L50, M|
+|poke|p1|Vaporeon, L50, F|
+|poke|p1|Enamorus, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Mudsdale, L50, M|
+|poke|p2|Dialga, L50|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Iusjs)
+Iusjs has agreed to open team sheets.
+|
+|t:|1750742201
+|start
+|switch|p1a: Enamorus|Enamorus, L50, F|100/100
+|switch|p1b: Palkia|Palkia, L50|100/100
+|switch|p2a: Dialga|Dialga, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Dialga|Psychic Seed
+|-boost|p2a: Dialga|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750742225
+|-terastallize|p1b: Palkia|Dark
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Enamorus|Superpower|p2b: Indeedee
+|-damage|p2b: Indeedee|51/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|-damage|p1a: Enamorus|91/100|[from] item: Life Orb
+|move|p1b: Palkia|Tera Blast|p2b: Indeedee|[anim] Tera Blast Dark
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Dialga|Trick Room|p2a: Dialga
+|-fieldstart|move: Trick Room|[of] p2a: Dialga
+|
+|upkeep
+|
+|t:|1750742240
+|switch|p2b: Mudsdale|Mudsdale, L50, M|100/100
+|turn|2
+|
+|t:|1750742252
+|-terastallize|p2b: Mudsdale|Grass
+|move|p2b: Mudsdale|Earthquake|p1a: Enamorus|[spread] p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|-immune|p1a: Enamorus
+|-damage|p1b: Palkia|40/100
+|move|p2a: Dialga|Flash Cannon|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|move|p1b: Palkia|Aura Sphere|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|63/100
+|
+|upkeep
+|
+|t:|1750742273
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750742301
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Mudsdale|Earthquake|p1b: Palkia|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Palkia|move: Wide Guard
+|-activate|p2a: Dialga|ability: Telepathy
+|move|p2a: Dialga|Roar of Time|p1b: Palkia
+|-damage|p1b: Palkia|0 fnt
+|-mustrecharge|p2a: Dialga
+|faint|p1b: Palkia
+|
+|upkeep
+|
+|t:|1750742314
+|switch|p1b: Vaporeon|Vaporeon, L50, F|100/100
+|turn|4
+|
+|t:|1750742335
+|move|p2b: Mudsdale|Earthquake|p1b: Vaporeon|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|-damage|p1a: Lunala|70/100
+|-damage|p1b: Vaporeon|58/100
+|move|p1b: Vaporeon|Scald|p2b: Mudsdale
+|-resisted|p2b: Mudsdale
+|-damage|p2b: Mudsdale|87/100
+|-status|p2b: Mudsdale|brn
+|cant|p2a: Dialga|recharge
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Mudsdale
+|-damage|p2b: Mudsdale|20/100 brn
+|
+|-heal|p1b: Vaporeon|64/100|[from] item: Leftovers
+|-damage|p2b: Mudsdale|15/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|bodeylee has 30 seconds left.
+|inactive|Iusjs has 30 seconds left.
+|
+|t:|1750742365
+|move|p2b: Mudsdale|Earthquake|p1b: Vaporeon|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|-damage|p1a: Lunala|42/100
+|-damage|p1b: Vaporeon|43/100
+|move|p1b: Vaporeon|Icy Wind|p2b: Mudsdale|[spread] p2a,p2b
+|-supereffective|p2b: Mudsdale
+|-damage|p2a: Dialga|57/100
+|-damage|p2b: Mudsdale|0 fnt
+|-unboost|p2a: Dialga|spe|1
+|faint|p2b: Mudsdale
+|move|p2a: Dialga|Roar of Time|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-mustrecharge|p2a: Dialga
+|faint|p1a: Lunala
+|
+|-heal|p1b: Vaporeon|49/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750742378
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|6
+|
+|t:|1750742386
+|move|p2b: Lunala|Moongeist Beam|p1b: Vaporeon
+|-damage|p1b: Vaporeon|4/100
+|move|p1b: Vaporeon|Shadow Ball|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|65/100
+|cant|p2a: Dialga|recharge
+|
+|-heal|p1b: Vaporeon|10/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750742399
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1b: Vaporeon|Protect|p1b: Vaporeon
+|-singleturn|p1b: Vaporeon|Protect
+|move|p2a: Dialga|Roar of Time|p1b: Vaporeon
+|-activate|p1b: Vaporeon|move: Protect
+|
+|-heal|p1b: Vaporeon|16/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750742412
+|move|p2b: Lunala|Moongeist Beam|p1b: Vaporeon
+|-damage|p1b: Vaporeon|0 fnt
+|faint|p1b: Vaporeon
+|
+|win|Iusjs
+|raw|bodeylee's rating: 1198 &rarr; <strong>1175</strong><br />(-23 for losing)
+|raw|Iusjs's rating: 1230 &rarr; <strong>1253</strong><br />(+23 for winning)
+|l|☆bodeylee
+|player|p1|

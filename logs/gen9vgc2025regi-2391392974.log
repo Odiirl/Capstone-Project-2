@@ -1,0 +1,183 @@
+|j|☆SlamTTHM
+|j|☆3771m
+|t:|1750849201
+|gametype|doubles
+|player|p1|SlamTTHM|265|1205
+|player|p2|3771m|lucas|1162
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|
+|t:|1750849229
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750849255
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Indeedee|[spread] p1a,p1b
+|-crit|p1a: Indeedee
+|-crit|p1b: Calyrex
+|-damage|p1a: Indeedee|67/100
+|-damage|p1b: Calyrex|71/100
+|move|p2b: Incineroar|Parting Shot|p1b: Calyrex
+|-unboost|p1b: Calyrex|atk|1
+|-unboost|p1b: Calyrex|spa|1
+|
+|t:|1750849268
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Calyrex|High Horsepower|p2b: Calyrex
+|-damage|p2b: Calyrex|85/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750849294
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Araquanid|Araquanid, L50, F|100/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Araquanid|[spread] p1a,p1b
+|-resisted|p1b: Araquanid
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Araquanid|77/100
+|faint|p1a: Indeedee
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750849315
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|turn|3
+|
+|t:|1750849343
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Araquanid|Wide Guard|p1b: Araquanid
+|-singleturn|p1b: Araquanid|Wide Guard
+|move|p1a: Necrozma|Expanding Force|p2a: Iron Hands|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Necrozma|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750849355
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|-fail|p1b: Araquanid|unboost|[from] item: Clear Amulet|[of] p1b: Araquanid
+|turn|4
+|
+|t:|1750849366
+|-terastallize|p2b: Calyrex|Fire
+|move|p1a: Necrozma|Protect|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Protect
+|move|p2a: Incineroar|Knock Off|p1a: Necrozma
+|-activate|p1a: Necrozma|move: Protect
+|move|p1b: Araquanid|Liquidation|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Araquanid|61/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750849378
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|5
+|
+|t:|1750849396
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Araquanid|Liquidation|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Necrozma|Moongeist Beam|p2a: Miraidon
+|-damage|p2a: Miraidon|17/100
+|-damage|p1a: Necrozma|81/100|[from] item: Life Orb
+|move|p2a: Miraidon|Electro Drift|p1b: Araquanid
+|-supereffective|p1b: Araquanid
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|
+|upkeep
+|
+|t:|1750849412
+|switch|p1b: Calyrex|Calyrex-Ice, L50|71/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750849430
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Necrozma|14/100
+|-damage|p1b: Calyrex|47/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-resisted|p2b: Calyrex
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Calyrex|71/100
+|faint|p2a: Miraidon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Necrozma|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|-damage|p1a: Necrozma|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1750849473
+|move|p2b: Calyrex|Glacial Lance|p1a: Necrozma|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Necrozma|0 fnt
+|-damage|p1b: Calyrex|23/100
+|faint|p1a: Necrozma
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|SlamTTHM
+|raw|SlamTTHM's rating: 1205 &rarr; <strong>1228</strong><br />(+23 for winning)
+|raw|3771m's rating: 1181 &rarr; <strong>1158</strong><br />(-23 for losing)
+|c|☆3771m|gg

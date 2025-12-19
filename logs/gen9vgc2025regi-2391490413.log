@@ -1,0 +1,283 @@
+|j|☆Slowpoke Well YT
+|j|☆aks2876
+|t:|1750862443
+|gametype|doubles
+|player|p1|Slowpoke Well YT|ethan|1486
+|player|p2|aks2876|1|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Eternatus, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Slowpoke Well YT)
+|
+|t:|1750862466
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1a: Eternatus|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750862486
+|switch|p2a: Archaludon|Archaludon, L50, M, shiny|100/100
+|move|p2b: Flutter Mane|Taunt|p1a: Eternatus
+|-start|p1a: Eternatus|move: Taunt
+|cant|p1a: Eternatus|move: Taunt|Cosmic Power
+|move|p1b: Rillaboom|Wood Hammer|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1b: Rillaboom|78/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750862502
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Archaludon|Electric Seed
+|-boost|p2a: Archaludon|def|1|[from] item: Electric Seed
+|turn|2
+|
+|t:|1750862518
+|switch|p1a: Gothitelle|Gothitelle, L50, M, shiny|100/100
+|move|p2b: Miraidon|Draco Meteor|p1a: Gothitelle
+|-damage|p1a: Gothitelle|21/100
+|-unboost|p2b: Miraidon|spa|2
+|-enditem|p1a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1a: Gothitelle|46/100|[from] item: Sitrus Berry
+|-damage|p2b: Miraidon|91/100|[from] item: Life Orb
+|move|p1b: Rillaboom|U-turn|p2b: Miraidon
+|-damage|p2b: Miraidon|62/100
+|
+|t:|1750862529
+|switch|p1b: Eternatus|Eternatus, L50|100/100|[from] U-turn
+|-ability|p1b: Eternatus|Pressure
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Eternatus
+|-resisted|p1b: Eternatus
+|-damage|p1b: Eternatus|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Slowpoke Well YT has 30 seconds left.
+|
+|t:|1750862558
+|move|p1a: Gothitelle|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|99/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Miraidon|Electro Drift|p1a: Gothitelle
+|-damage|p1a: Gothitelle|4/100
+|-damage|p2b: Miraidon|52/100|[from] item: Life Orb
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|cant|p2a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750862581
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Miraidon|Draco Meteor|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|47/100
+|-unboost|p2b: Miraidon|spa|2
+|-damage|p2b: Miraidon|42/100|[from] item: Life Orb
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p2a: Archaludon|Dragon Pulse|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|13/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|19/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750862599
+|switch|p1a: Rillaboom|Rillaboom, L50, M|84/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Eternatus|Protect|p1b: Eternatus
+|-singleturn|p1b: Eternatus|Protect
+|move|p2b: Miraidon|Draco Meteor|p1b: Eternatus
+|-activate|p1b: Eternatus|move: Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|56/100
+|
+|-weather|none
+|-heal|p2b: Miraidon|48/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|25/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|31/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|100/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750862623
+|-terastallize|p1b: Eternatus|Fairy
+|move|p2b: Miraidon|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|56/100
+|-damage|p2b: Miraidon|38/100|[from] item: Life Orb
+|
+|t:|1750862628
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|81/100
+|move|p1a: Rillaboom|U-turn|p2b: Kyogre
+|-damage|p2b: Kyogre|70/100
+|
+|t:|1750862637
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|move|p2a: Archaludon|Dragon Pulse|p1b: Eternatus
+|-immune|p1b: Eternatus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Kyogre|76/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|88/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750862649
+|move|p1a: Urshifu|U-turn|p2b: Kyogre
+|-damage|p2b: Kyogre|45/100
+|
+|t:|1750862652
+|switch|p1a: Rillaboom|Rillaboom, L50, M|56/100|[from] U-turn
+|move|p2b: Kyogre|Water Spout|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|34/100
+|-damage|p1b: Eternatus|74/100
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Kyogre|51/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|80/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750862671
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|8
+|
+|t:|1750862678
+|move|p1a: Urshifu|Surging Strikes|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|32/100
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|12/100
+|-resisted|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|-hitcount|p2: Kyogre|3
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|93/100|[from] Grassy Terrain
+|-heal|p1b: Eternatus|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750862699
+|switch|p2b: Miraidon|Miraidon, L50|38/100
+|switch|p1a: Gothitelle|Gothitelle, L50, M, shiny|4/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|9
+|
+|t:|1750862710
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Eternatus
+|-crit|p1b: Eternatus
+|-damage|p1b: Eternatus|5/100
+|-damage|p2b: Miraidon|29/100|[from] item: Life Orb
+|move|p1b: Eternatus|Sludge Bomb|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750862729
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|win|aks2876
+|raw|Slowpoke Well YT's rating: 1486 &rarr; <strong>1464</strong><br />(-22 for losing)
+|raw|aks2876's rating: 1451 &rarr; <strong>1473</strong><br />(+22 for winning)
+|l|☆Slowpoke Well YT
+|player|p1|
+|l|☆aks2876
+|player|p2|

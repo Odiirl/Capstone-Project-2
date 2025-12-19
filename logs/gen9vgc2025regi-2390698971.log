@@ -1,0 +1,155 @@
+|j|☆crimsonhades123
+|j|☆gr3glk
+|t:|1750752216
+|gametype|doubles
+|player|p1|crimsonhades123|n|1172
+|player|p2|gr3glk|1|1266
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gr3glk)
+|inactive|gr3glk has 60 seconds left.
+|
+|t:|1750752255
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Thundurus|Thundurus, L50, M|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|inactive|crimsonhades123 has 30 seconds left.
+|
+|t:|1750752289
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Roaring Moon|Knock Off|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|67/100
+|-enditem|p1a: Miraidon|Zap Plate|[from] move: Knock Off|[of] p2a: Roaring Moon
+|move|p2b: Chien-Pao|Icicle Crash|p1b: Thundurus
+|-supereffective|p1b: Thundurus
+|-damage|p1b: Thundurus|0 fnt
+|faint|p1b: Thundurus
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Roaring Moon|[spread] p2a,p2b
+|-supereffective|p2a: Roaring Moon
+|-supereffective|p2b: Chien-Pao
+|-damage|p2a: Roaring Moon|0 fnt
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|faint|p2b: Chien-Pao
+|
+|upkeep
+|
+|t:|1750752307
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|2
+|
+|t:|1750752328
+|-terastallize|p2b: Kyogre|Grass
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: crimsonhades123|move: Tailwind
+|move|p2a: Zacian|Behemoth Blade|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p2b: Kyogre|Water Spout|p1a: Miraidon|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750752342
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|turn|3
+|
+|t:|1750752353
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p1b: Urshifu|Wicked Blow|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|23/100
+|move|p2b: Kyogre|Water Spout|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Miraidon|46/100
+|-damage|p1b: Urshifu|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750752372
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|70/100
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p1b: Urshifu|Wicked Blow|p2a: Zacian
+|-resisted|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|38/100
+|move|p2a: Zacian|Play Rough|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750752384
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: crimsonhades123|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750752388
+|move|p2a: Zacian|Behemoth Blade|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|gr3glk
+|raw|crimsonhades123's rating: 1172 &rarr; <strong>1154</strong><br />(-18 for losing)
+|raw|gr3glk's rating: 1266 &rarr; <strong>1284</strong><br />(+18 for winning)
+|l|☆crimsonhades123
+|player|p1|
+|l|☆gr3glk
+|player|p2|

@@ -1,0 +1,154 @@
+|j|☆AppleWalrus1
+|j|☆Megaman087
+|t:|1750879280
+|gametype|doubles
+|player|p1|AppleWalrus1|caitlin|1485
+|player|p2|Megaman087|lucas|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Qwilfish-Hisui, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AppleWalrus1)
+|inactive|AppleWalrus1 has 60 seconds left.
+|
+|t:|1750879319
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Eternatus|atk|1
+|turn|1
+|
+|t:|1750879331
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: AppleWalrus1|move: Tailwind
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Megaman087|Reflect
+|move|p1b: Landorus|Earthquake|p2a: Grimmsnarl|[spread] p1a,p2a,p2b
+|-resisted|p1a: Whimsicott
+|-supereffective|p2b: Eternatus
+|-damage|p1a: Whimsicott|60/100
+|-damage|p2a: Grimmsnarl|66/100
+|-damage|p2b: Eternatus|40/100
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750879353
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Megaman087|move: Light Screen
+|move|p1a: Whimsicott|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|24/100
+|move|p1b: Landorus|Earthquake|p2a: Grimmsnarl|[spread] p1a,p2a
+|-activate|p2b: Eternatus|move: Protect
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|16/100
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1750879364
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1750879377
+|-terastallize|p2b: Eternatus|Fairy
+|move|p1a: Whimsicott|Moonblast|p2b: Eternatus
+|-damage|p2b: Eternatus|33/100
+|move|p1b: Landorus|Earthquake|p2a: Farigiraf|[spread] p1a,p2a,p2b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: Farigiraf|63/100
+|-damage|p2b: Eternatus|11/100
+|faint|p1a: Whimsicott
+|move|p2b: Eternatus|Recover|p2b: Eternatus
+|-heal|p2b: Eternatus|61/100
+|move|p2a: Farigiraf|Psych Up|p2b: Eternatus
+|-copyboost|p2a: Farigiraf|p2b: Eternatus|[from] move: Psych Up
+|
+|upkeep
+|inactive|AppleWalrus1 has 30 seconds left.
+|
+|t:|1750879407
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F, shiny|100/100
+|-item|p2a: Farigiraf|Mental Herb|[from] ability: Frisk|[of] p1a: Typhlosion
+|-item|p2b: Eternatus|Covert Cloak|[from] ability: Frisk|[of] p1a: Typhlosion
+|turn|4
+|
+|t:|1750879417
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1a: Typhlosion|Fire
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1a: Typhlosion|Eruption|p2a: Farigiraf|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-damage|p2b: Eternatus|17/100
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: AppleWalrus1|move: Tailwind
+|upkeep
+|turn|5
+|inactive|AppleWalrus1 has 30 seconds left.
+|
+|t:|1750879443
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Farigiraf
+|-damage|p2a: Farigiraf|19/100
+|-damage|p1b: Koraidon|82/100|[from] Recoil
+|-damage|p1b: Koraidon|72/100|[from] item: Life Orb
+|move|p1a: Typhlosion|Eruption|p2a: Farigiraf|[spread] p2a
+|-activate|p2b: Eternatus|move: Protect
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750879457
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|-message|Megaman087 forfeited.
+|
+|win|AppleWalrus1
+|raw|AppleWalrus1's rating: 1485 &rarr; <strong>1503</strong><br />(+18 for winning)
+|raw|Megaman087's rating: 1451 &rarr; <strong>1433</strong><br />(-18 for losing)
+|l|☆Megaman087
+|player|p2|
+|l|☆AppleWalrus1
+|player|p1|

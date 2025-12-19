@@ -1,0 +1,209 @@
+|j|☆Zordor
+|j|☆Aabraao
+|t:|1750778515
+|gametype|doubles
+|player|p1|Zordor|pilot|1645
+|player|p2|Aabraao|hilbert|1548
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Entei, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aabraao)
+|inactive|Zordor has 60 seconds left.
+|
+|t:|1750778556
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Entei|Entei, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|1
+|inactive|Aabraao has 30 seconds left.
+|j| BrDilas
+|
+|t:|1750778584
+|move|p1b: Entei|Protect|p1b: Entei
+|-singleturn|p1b: Entei|Protect
+|move|p1a: Walking Wake|Draco Meteor|p2b: Ogerpon
+|-damage|p2b: Ogerpon|32/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Entei|[anim] Ivy Cudgel Rock
+|-activate|p1b: Entei|move: Protect
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|l| BrDilas
+|
+|t:|1750778596
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-terastallize|p2a: Calyrex|Ground
+|move|p2a: Calyrex|High Horsepower|p1b: Entei
+|-supereffective|p1b: Entei
+|-damage|p1b: Entei|0 fnt
+|faint|p1b: Entei
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Ogerpon|Horn Leech|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|81/100
+|-heal|p2b: Ogerpon|44/100|[from] drain|[of] p1a: Zacian
+|
+|upkeep
+|
+|t:|1750778618
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750778646
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Calyrex|High Horsepower|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-damage|p2a: Calyrex|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750778668
+|move|p2a: Calyrex|Glacial Lance|p1b: Groudon|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-supereffective|p1b: Groudon
+|-damage|p1a: Zacian|45/100
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: Zacian|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|18/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778676
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Walking Wake|atk|1
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|turn|5
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750778703
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-terastallize|p1b: Walking Wake|Ghost
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Ogerpon|Horn Leech|p1b: Walking Wake
+|-damage|p1b: Walking Wake|54/100
+|-heal|p2b: Ogerpon|73/100|[from] drain|[of] p1b: Walking Wake
+|move|p1b: Walking Wake|Hydro Steam|p2a: Lunala
+|-damage|p2a: Lunala|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|87/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750778712
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Walking Wake|Snarl|p2b: Ogerpon|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|50/100
+|-damage|p2b: Ogerpon|57/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Ogerpon|spa|1
+|move|p1a: Zacian|Behemoth Blade|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750778715
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Walking Wake|atk|1
+|turn|7
+|
+|t:|1750778731
+|move|p1b: Walking Wake|Protect|p1b: Walking Wake
+|-singleturn|p1b: Walking Wake|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|12/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Walking Wake
+|-activate|p1b: Walking Wake|move: Protect
+|cant|p1a: Zacian|flinch
+|
+|-weather|none
+|-end|p1b: Walking Wake|Protosynthesis
+|-heal|p2a: Lunala|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750778750
+|move|p1b: Walking Wake|Protect||[still]
+|-fail|p1b: Walking Wake
+|move|p2b: Incineroar|Knock Off|p1b: Walking Wake
+|-supereffective|p1b: Walking Wake
+|-crit|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Lunala|Moongeist Beam|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|win|Aabraao
+|raw|Zordor's rating: 1645 &rarr; <strong>1620</strong><br />(-25 for losing)
+|raw|Aabraao's rating: 1548 &rarr; <strong>1573</strong><br />(+25 for winning)
+|l|☆Aabraao
+|player|p2|
+|l|☆Zordor
+|player|p1|

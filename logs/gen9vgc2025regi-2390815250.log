@@ -1,0 +1,169 @@
+|j|‽estudassespt
+|j|☆WeWantBreathOfFire
+|t:|1750771492
+|gametype|doubles
+|player|p1|estudassespt|266|1483
+|player|p2|WeWantBreathOfFire|pryce|1643
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Bastiodon, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|
+|t:|1750771528
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Yanmega|Yanmega, L50, F|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Eternatus|Pressure
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1b: Yanmega|atk|1
+|turn|1
+|
+|t:|1750771554
+|-terastallize|p2a: Eternatus|Dark
+|move|p1b: Yanmega|Protect|p1b: Yanmega
+|-singleturn|p1b: Yanmega|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Yanmega
+|-activate|p1b: Yanmega|move: Protect
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|76/100
+|
+|-heal|p2a: Eternatus|82/100|[from] item: Leftovers
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750771582
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Yanmega|Hypnosis|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Hypnosis
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|cant|p2b: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|88/100|[from] item: Leftovers
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750771611
+|move|p1b: Yanmega|Bug Buzz|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|41/100
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|move|p1a: Groudon|Swords Dance|p1a: Groudon
+|-boost|p1a: Groudon|atk|2
+|cant|p2b: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|47/100|[from] item: Leftovers
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|4
+|
+|t:|1750771631
+|-terastallize|p1a: Groudon|Ground
+|move|p1b: Yanmega|Bug Buzz|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|13/100
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|63/100
+|move|p1a: Groudon|Precipice Blades|p2b: Incineroar|[spread] p2a,p2b
+|-end|p2a: Eternatus|Substitute
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|69/100|[from] item: Leftovers
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|
+|t:|1750771636
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|5
+|
+|t:|1750771651
+|move|p1b: Yanmega|Tailwind|p1b: Yanmega
+|-sidestart|p1: estudassespt|move: Tailwind
+|move|p2b: Kyogre|Origin Pulse|p1b: Yanmega|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-enditem|p1b: Yanmega|Focus Sash
+|-damage|p1b: Yanmega|1/100
+|faint|p1a: Groudon
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|51/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|
+|t:|1750771668
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750771676
+|move|p1b: Yanmega|Hypnosis|p2b: Kyogre|[miss]
+|-miss|p1b: Yanmega|p2b: Kyogre
+|move|p2b: Kyogre|Origin Pulse|p1b: Yanmega|[spread] p1a,p1b
+|-damage|p1a: Calyrex|61/100
+|-damage|p1b: Yanmega|0 fnt
+|faint|p1b: Yanmega
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Eternatus|[spread] p2a,p2b
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|67/100|[from] item: Leftovers
+|upkeep
+|-message|estudassespt forfeited.
+|
+|win|WeWantBreathOfFire
+|raw|estudassespt's rating: 1483 &rarr; <strong>1472</strong><br />(-11 for losing)
+|raw|WeWantBreathOfFire's rating: 1643 &rarr; <strong>1654</strong><br />(+11 for winning)
+|l|‽estudassespt
+|player|p1|
+|l|☆WeWantBreathOfFire
+|player|p2|

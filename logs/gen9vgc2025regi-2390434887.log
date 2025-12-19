@@ -1,0 +1,184 @@
+|j|☆got_the_hacks
+|j|☆ampersandwich
+|t:|1750712909
+|gametype|doubles
+|player|p1|got_the_hacks|steven|1203
+|player|p2|ampersandwich|rocketgruntf|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Toxapex, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750712930
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Groudon|atk|1
+|turn|1
+|
+|t:|1750712957
+|-terastallize|p2a: Miraidon|Electric
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2a: Miraidon|Snarl|p1b: Groudon|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750713005
+|-terastallize|p1b: Groudon|Fire
+|move|p2a: Miraidon|Snarl|p1a: Calyrex|[spread] p1b
+|-miss|p2a: Miraidon|p1a: Calyrex
+|-damage|p1b: Groudon|82/100
+|-unboost|p1b: Groudon|spa|1
+|move|p1b: Groudon|Eruption|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Miraidon|59/100
+|-damage|p2b: Incineroar|85/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|2/100
+|-damage|p2b: Incineroar|47/100|[from] Recoil
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750713038
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|move|p1a: Calyrex|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Groudon|Eruption|p2a: Lunala
+|-damage|p2a: Lunala|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713052
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|4
+|
+|t:|1750713107
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|move|p1a: Calyrex|High Horsepower|p2a: Lunala
+|-damage|p2a: Lunala|59/100
+|move|p2a: Lunala|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2b: Ogerpon|Wood Hammer|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|86/100
+|-damage|p2b: Ogerpon|94/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713124
+|switch|p1a: Groudon|Groudon, L50, tera:Fire|82/100
+|turn|5
+|
+|t:|1750713148
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p1a: Groudon|Eruption|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|9/100
+|-damage|p2b: Ogerpon|28/100
+|move|p2b: Ogerpon|Wood Hammer|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|56/100
+|-damage|p2b: Ogerpon|20/100|[from] Recoil
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldend|move: Trick Room
+|
+|-weather|none
+|-end|p1b: Brute Bonnet|Protosynthesis
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750713195
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2b: Ogerpon|Wood Hammer|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|32/100
+|-damage|p2b: Ogerpon|12/100|[from] Recoil
+|move|p2a: Lunala|Moonblast|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|33/100
+|move|p1a: Groudon|Eruption|p2b: Ogerpon|[spread] p2a,p2b
+|-damage|p2a: Lunala|0 fnt
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2a: Lunala
+|faint|p2b: Ogerpon
+|
+|upkeep
+|
+|t:|1750713210
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|59/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750713231
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Brute Bonnet|Sucker Punch|p2b: Miraidon
+|-damage|p2b: Miraidon|26/100
+|move|p2b: Miraidon|Snarl|p1a: Groudon|[spread] p1b
+|-activate|p1a: Groudon|move: Protect
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|25/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750713249
+|move|p1b: Brute Bonnet|Sucker Punch|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|got_the_hacks
+|raw|got_the_hacks's rating: 1203 &rarr; <strong>1226</strong><br />(+23 for winning)
+|raw|ampersandwich's rating: 1179 &rarr; <strong>1156</strong><br />(-23 for losing)

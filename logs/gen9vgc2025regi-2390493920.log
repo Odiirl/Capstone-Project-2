@@ -1,0 +1,141 @@
+|j|☆bubert_ps
+|j|☆ImEnigmaa_
+|t:|1750720093
+|gametype|doubles
+|player|p1|bubert_ps|1|1405
+|player|p2|ImEnigmaa_|n|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Zapdos-Galar, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ImEnigmaa_)
+|inactive|ImEnigmaa_ has 60 seconds left.
+|
+|t:|1750720129
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|1
+|inactive|ImEnigmaa_ has 30 seconds left.
+|
+|t:|1750720159
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|91/100
+|cant|p1a: Miraidon|flinch
+|move|p1b: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|11/100
+|-damage|p1b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p2a: Calyrex|Glacial Lance|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Zamazenta|73/100
+|faint|p1a: Miraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750720167
+|switch|p1a: Zapdos|Zapdos-Galar, L50, shiny|100/100
+|turn|2
+|
+|t:|1750720191
+|switch|p2b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Zapdos|Thunderous Kick|p2a: Calyrex
+|-damage|p2a: Calyrex|71/100
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|32/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Zapdos|[spread] p1a,p1b
+|-supereffective|p1a: Zapdos
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p1b: Zamazenta|56/100
+|faint|p1a: Zapdos
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750720198
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|3
+|
+|t:|1750720218
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Zamazenta
+|-damage|p1b: Zamazenta|27/100
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|2/100
+|-damage|p1a: Incineroar|79/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1750720231
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Zamazenta|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|43/100
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-damage|p2a: Calyrex|9/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|5
+|
+|t:|1750720244
+|move|p2b: Flutter Mane|Moonblast|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|win|ImEnigmaa_
+|raw|bubert_ps's rating: 1405 &rarr; <strong>1390</strong><br />(-15 for losing)
+|raw|ImEnigmaa_'s rating: 1499 &rarr; <strong>1514</strong><br />(+15 for winning)
+|l|☆bubert_ps
+|player|p1|
+|l|☆ImEnigmaa_
+|player|p2|

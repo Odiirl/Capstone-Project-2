@@ -1,0 +1,202 @@
+|j|☆themightyjorlon
+|j|☆Cyclondo3
+|t:|1750835032
+|gametype|doubles
+|player|p1|themightyjorlon|169|1079
+|player|p2|Cyclondo3|hilbert|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Gothorita, L50, F|
+|poke|p2|Altaria, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+Cyclondo3 has agreed to open team sheets.
+|c|☆Cyclondo3|Glhf
+|
+|t:|1750835089
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Altaria|Altaria, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Altaria|Cloud Nine
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cyclondo3)
+|
+|t:|1750835126
+|move|p2b: Altaria|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Altaria
+|move|p2a: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1b: Flutter Mane
+|-crit|p1b: Flutter Mane
+|-damage|p1a: Koraidon|16/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Calyrex
+|-damage|p2a: Calyrex|31/100
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|move|p1b: Flutter Mane|Icy Wind|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Altaria
+|-damage|p2a: Calyrex|17/100
+|-damage|p2b: Altaria|51/100
+|-unboost|p2a: Calyrex|spe|1
+|-unboost|p2b: Altaria|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835140
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|2
+|
+|t:|1750835150
+|-terastallize|p2b: Altaria|Ghost
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Altaria|Tailwind|p2b: Altaria
+|-sidestart|p2: Cyclondo3|move: Tailwind
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750835170
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p1a: Lunala|Moongeist Beam|p2a: Hitmontop
+|-damage|p2a: Hitmontop|46/100
+|move|p2b: Altaria|Perish Song|p2b: Altaria
+|-start|p1a: Lunala|perish3|[silent]
+|-start|p1b: Ursaluna|perish3|[silent]
+|-start|p2a: Hitmontop|perish3|[silent]
+|-start|p2b: Altaria|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Ursaluna|perish3
+|-start|p1a: Lunala|perish3
+|-start|p2b: Altaria|perish3
+|-start|p2a: Hitmontop|perish3
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750835188
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: Hitmontop|Fake Out|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|move|p1b: Ursaluna|Facade|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|move|p1a: Lunala|Moongeist Beam|p2b: Miraidon
+|-damage|p2b: Miraidon|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|-start|p1b: Ursaluna|perish2
+|-start|p1a: Lunala|perish2
+|upkeep
+|
+|t:|1750835200
+|switch|p2a: Altaria|Altaria, L50, F, tera:Ghost|51/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|5
+|
+|t:|1750835210
+|move|p2a: Altaria|Protect|p2a: Altaria
+|-singleturn|p2a: Altaria|Protect
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Protect
+|move|p1a: Lunala|Moongeist Beam|p2a: Altaria
+|-activate|p2a: Altaria|move: Protect
+|
+|-weather|none
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|-start|p1b: Ursaluna|perish1
+|-start|p1a: Lunala|perish1
+|-sideend|p2: Cyclondo3|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1750835235
+|switch|p1a: Flutter Mane|Flutter Mane, L50|1/100
+|move|p2a: Altaria|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Altaria
+|move|p1b: Ursaluna|Headlong Rush|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Miraidon
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|-start|p1b: Ursaluna|perish0
+|-fieldend|move: Trick Room
+|faint|p1b: Ursaluna
+|upkeep
+|
+|t:|1750835244
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|17/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750835258
+|move|p2a: Altaria|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Altaria
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2b: Calyrex|Astral Barrage|p1a: Flutter Mane|[spread] p1b
+|-activate|p1a: Flutter Mane|move: Protect
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|upkeep
+|turn|8
+|-message|themightyjorlon forfeited.
+|
+|win|Cyclondo3
+|raw|themightyjorlon's rating: 1079 &rarr; <strong>1058</strong><br />(-21 for losing)
+|raw|Cyclondo3's rating: 1087 &rarr; <strong>1113</strong><br />(+26 for winning)
+|l|☆themightyjorlon
+|player|p1|
+|c|☆Cyclondo3|Gg
+|l|☆Cyclondo3
+|player|p2|

@@ -1,0 +1,149 @@
+|j|☆Snibreon
+|j|☆zeraby
+|t:|1750832610
+|gametype|doubles
+|player|p1|Snibreon|hilbert-wonderlauncher|1304
+|player|p2|zeraby|2|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Shiftry, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Snibreon)
+|
+|t:|1750832646
+|start
+|switch|p1a: Luka Magic|Koraidon, L50|100/100
+|switch|p1b: Kai E11VEN|Lunala, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Luka Magic
+|-activate|p1a: Luka Magic|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750832671
+|move|p1a: Luka Magic|Protect|p1a: Luka Magic
+|-singleturn|p1a: Luka Magic|Protect
+|move|p2a: Grimmsnarl|Fake Tears|p1b: Kai E11VEN
+|-unboost|p1b: Kai E11VEN|spd|2
+|move|p2b: Miraidon|Volt Switch|p1b: Kai E11VEN
+|-damage|p1b: Kai E11VEN|32/100
+|
+|t:|1750832678
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Luka Magic|unboost|[from] item: Clear Amulet|[of] p1a: Luka Magic
+|-unboost|p1b: Kai E11VEN|atk|1
+|move|p1b: Kai E11VEN|Tailwind|p1b: Kai E11VEN
+|-sidestart|p1: Snibreon|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750832700
+|move|p2b: Incineroar|Fake Out|p1a: Luka Magic
+|-damage|p1a: Luka Magic|90/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Luka Magic
+|-status|p1a: Luka Magic|par
+|move|p1b: Kai E11VEN|Meteor Beam||[still]
+|-prepare|p1b: Kai E11VEN|Meteor Beam
+|-boost|p1b: Kai E11VEN|spa|1
+|-enditem|p1b: Kai E11VEN|Power Herb
+|-anim|p1b: Kai E11VEN|Meteor Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|43/100
+|cant|p1a: Luka Magic|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750832716
+|move|p2a: Grimmsnarl|Sucker Punch|p1b: Kai E11VEN
+|-supereffective|p1b: Kai E11VEN
+|-damage|p1b: Kai E11VEN|0 fnt
+|faint|p1b: Kai E11VEN
+|move|p1a: Luka Magic|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-damage|p1a: Luka Magic|73/100 par|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750832730
+|switch|p1b: Shiftry|Shiftry, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|4
+|inactive|Snibreon has 30 seconds left.
+|inactive|Snibreon has 20 seconds left.
+|
+|t:|1750832766
+|-terastallize|p1a: Luka Magic|Fire
+|move|p1b: Shiftry|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|90/100
+|move|p2a: Grimmsnarl|Fake Tears|p1a: Luka Magic
+|-fail|p1a: Luka Magic|unboost|[from] item: Clear Amulet|[of] p1a: Luka Magic
+|cant|p2b: Miraidon|flinch
+|move|p1a: Luka Magic|Flame Charge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-boost|p1a: Luka Magic|spe|1
+|faint|p2a: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Snibreon|move: Tailwind
+|upkeep
+|
+|t:|1750832779
+|switch|p2a: Chesnaught|Chesnaught, L50, M|100/100
+|-enditem|p2a: Chesnaught|Electric Seed
+|-boost|p2a: Chesnaught|def|1|[from] item: Electric Seed
+|turn|5
+|
+|t:|1750832792
+|-terastallize|p2a: Chesnaught|Fire
+|cant|p1a: Luka Magic|par
+|move|p1b: Shiftry|Tailwind|p1b: Shiftry
+|-sidestart|p1: Snibreon|move: Tailwind
+|move|p2b: Miraidon|Electro Drift|p1a: Luka Magic
+|-damage|p1a: Luka Magic|0 fnt
+|faint|p1a: Luka Magic
+|move|p2a: Chesnaught|Body Press|p1b: Shiftry
+|-supereffective|p1b: Shiftry
+|-damage|p1b: Shiftry|0 fnt
+|faint|p1b: Shiftry
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750832806
+|switch|p1b: Captain Klay|Chi-Yu, L50|100/100
+|-ability|p1b: Captain Klay|Beads of Ruin
+|turn|6
+|-message|Snibreon forfeited.
+|
+|win|zeraby
+|raw|Snibreon's rating: 1304 &rarr; <strong>1286</strong><br />(-18 for losing)
+|raw|zeraby's rating: 1340 &rarr; <strong>1358</strong><br />(+18 for winning)
+|l|☆Snibreon
+|player|p1|

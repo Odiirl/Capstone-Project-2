@@ -1,0 +1,174 @@
+|j|☆Deftox
+|j|☆battlepantas
+|t:|1750798374
+|gametype|doubles
+|player|p1|Deftox|169|1072
+|player|p2|battlepantas|265|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Ampharos, L50, F|
+|poke|p2|Toxtricity-Low-Key, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Scovillain, L50, F|
+|teampreview|4
+|
+|t:|1750798413
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1750798434
+|move|p1a: Incineroar|Fake Out|p2a: Arcanine
+|-activate|p2a: Arcanine|move: Psychic Terrain
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Arcanine|Head Smash|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Arcanine|41/100|[from] Recoil
+|move|p1b: Indeedee|Alluring Voice|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|91/100
+|
+|upkeep
+|c|☆battlepantas|priority moves dont work in psychic terrain
+|
+|t:|1750798449
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Deftox)
+|
+|t:|1750798482
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Lunala|Expanding Force|p2a: Arcanine|[spread] p2a
+|-activate|p2b: Amoonguss|move: Protect
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1750798495
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|
+|t:|1750798513
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Lunala|Expanding Force|p2a: Groudon|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Groudon|45/100
+|-damage|p2b: Amoonguss|12/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|37/100|[from] item: Sitrus Berry
+|move|p2a: Groudon|Precipice Blades|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|75/100
+|-damage|p1b: Indeedee|37/100
+|move|p2b: Amoonguss|Spore|p1b: Indeedee
+|-activate|p1b: Indeedee|item: Safety Goggles|Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|battlepantas has 30 seconds left.
+|
+|t:|1750798538
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Lunala|Expanding Force|p2a: Groudon|[spread] p2b
+|-activate|p2a: Groudon|move: Protect
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750798547
+|switch|p2b: Scovillain|Scovillain, L50, F|100/100
+|turn|5
+|
+|t:|1750798563
+|switch|p1a: Urshifu|Urshifu, L50, F|100/100
+|-terastallize|p2a: Groudon|Steel
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Scovillain|Flamethrower|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2a: Groudon|Precipice Blades|p1a: Urshifu
+|-damage|p1a: Urshifu|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750798572
+|switch|p1b: Lunala|Lunala, L50|75/100
+|turn|6
+|
+|t:|1750798590
+|move|p1a: Urshifu|Protect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p2b: Scovillain|Solar Beam||[still]
+|-prepare|p2b: Scovillain|Solar Beam
+|-anim|p2b: Scovillain|Solar Beam|p1b: Lunala
+|-damage|p1b: Lunala|27/100
+|move|p1b: Lunala|Expanding Force|p2b: Scovillain
+|-damage|p2b: Scovillain|43/100
+|move|p2a: Groudon|Precipice Blades|p1b: Lunala|[spread] p1b
+|-activate|p1a: Urshifu|move: Protect
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|battlepantas has 30 seconds left.
+|
+|t:|1750798618
+|move|p1a: Urshifu|Protect||[still]
+|-fail|p1a: Urshifu
+|move|p2b: Scovillain|Flamethrower|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|win|battlepantas
+|raw|Deftox's rating: 1072 &rarr; <strong>1051</strong><br />(-21 for losing)
+|raw|battlepantas's rating: 1075 &rarr; <strong>1104</strong><br />(+29 for winning)
+|l|☆Deftox
+|player|p1|
+|c|☆battlepantas|ggwp
+|l|☆battlepantas
+|player|p2|

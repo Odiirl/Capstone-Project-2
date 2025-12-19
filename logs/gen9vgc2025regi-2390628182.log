@@ -1,0 +1,147 @@
+|j|☆StellarDevil
+|j|☆eltio97
+|t:|1750738719
+|gametype|doubles
+|player|p1|StellarDevil|dawn-gen4pt|1289
+|player|p2|eltio97|iris-gen5bw2|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750738743
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750738770
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Whimsicott|Taunt|p1b: Whimsicott
+|-start|p1b: Whimsicott|move: Taunt
+|cant|p1b: Whimsicott|move: Taunt|Tailwind
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750738803
+|-terastallize|p1a: Calyrex|Water
+|move|p2a: Whimsicott|Encore|p1a: Calyrex
+|-start|p1a: Calyrex|Encore
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-damage|p1a: Calyrex|68/100
+|move|p1b: Whimsicott|Moonblast|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|68/100
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750738821
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Whimsicott
+|-damage|p1b: Whimsicott|41/100
+|move|p2a: Whimsicott|Moonblast|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|upkeep
+|
+|t:|1750738832
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750738845
+|-terastallize|p2b: Flutter Mane|Fairy
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|move|p2b: Flutter Mane|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2a: Whimsicott|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|37/100
+|
+|-end|p1a: Calyrex|Encore
+|upkeep
+|
+|t:|1750738859
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|turn|5
+|
+|t:|1750738867
+|move|p2a: Whimsicott|Encore|p1a: Calyrex
+|-start|p1a: Calyrex|Encore
+|move|p1b: Urshifu|Sucker Punch||[still]
+|-fail|p1b: Urshifu
+|move|p2b: Flutter Mane|Taunt|p1b: Urshifu
+|-start|p1b: Urshifu|move: Taunt
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|
+|upkeep
+|turn|6
+|
+|t:|1750738889
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Flutter Mane|Moonblast|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Whimsicott|Moonblast|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|move|p1b: Urshifu|U-turn|p2a: Whimsicott
+|-damage|p2a: Whimsicott|62/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750738907
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|move|p2b: Flutter Mane|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2a: Whimsicott|Moonblast|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|win|eltio97
+|raw|StellarDevil's rating: 1289 &rarr; <strong>1269</strong><br />(-20 for losing)
+|raw|eltio97's rating: 1353 &rarr; <strong>1369</strong><br />(+16 for winning)
+|l|☆StellarDevil
+|player|p1|
+|l|☆eltio97
+|player|p2|

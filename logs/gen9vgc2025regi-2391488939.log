@@ -1,0 +1,199 @@
+|j|☆sayrican
+|j|☆Gomme31!
+|t:|1750862284
+|gametype|doubles
+|player|p1|sayrican|102|1171
+|player|p2|Gomme31!|101|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Seedot, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Zapdos-Galar, L50|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750862310
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Bronzong|Bronzong, L50|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1750862331
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: sayrican|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: Bronzong
+|-damage|p2a: Bronzong|13/100
+|
+|t:|1750862336
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2b: Porygon2|Ice Beam|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|93/100
+|move|p2a: Bronzong|Light Screen|p2a: Bronzong
+|-sidestart|p2: Gomme31!|move: Light Screen
+|
+|-heal|p2a: Bronzong|19/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750862370
+|switch|p2b: Seedot|Seedot, L50, M|100/100
+|move|p1a: Whimsicott|Encore|p2a: Bronzong
+|-start|p2a: Bronzong|Encore
+|move|p1b: Zamazenta|Body Press|p2b: Seedot
+|-enditem|p2b: Seedot|Focus Sash
+|-damage|p2b: Seedot|1/100
+|move|p2a: Bronzong|Light Screen||[still]
+|-fail|p2a: Bronzong
+|
+|-heal|p2a: Bronzong|25/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750862393
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Whimsicott|Moonblast|p2b: Calyrex
+|-damage|p2b: Calyrex|88/100
+|move|p1b: Zamazenta|Body Press|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|upkeep
+|
+|t:|1750862417
+|switch|p2a: Bronzong|Bronzong, L50|25/100
+|turn|4
+|
+|t:|1750862450
+|move|p1a: Whimsicott|Moonblast|p2b: Calyrex
+|-damage|p2b: Calyrex|76/100
+|move|p1b: Zamazenta|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-sideend|p1: sayrican|move: Tailwind
+|upkeep
+|
+|t:|1750862459
+|switch|p2a: Seedot|Seedot, L50, M|1/100
+|turn|5
+|
+|t:|1750862471
+|move|p1a: Whimsicott|Encore|p2b: Calyrex
+|-start|p2b: Calyrex|Encore
+|-enditem|p2b: Calyrex|Mental Herb
+|-end|p2b: Calyrex|Encore
+|move|p2a: Seedot|Endeavor|p1b: Zamazenta
+|-damage|p1b: Zamazenta|1/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Zamazenta
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-sideend|p2: Gomme31!|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750862487
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|t:|1750862514
+|-terastallize|p2b: Calyrex|Psychic
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Chien-Pao|Sucker Punch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|16/100
+|move|p2a: Seedot|Endeavor|p1a: Miraidon
+|-damage|p1a: Miraidon|1/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1b: Chien-Pao
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Chien-Pao|39/100
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gomme31!)
+|inactive|Gomme31! has 60 seconds left.
+|inactive|Gomme31! has 30 seconds left.
+|inactive|Gomme31! has 20 seconds left.
+|inactive|Gomme31! has 15 seconds left.
+|inactive|Gomme31! has 10 seconds left.
+|inactive|Gomme31! has 5 seconds left.
+|
+|t:|1750862669
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p2a: Seedot|Quick Attack|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|8
+|
+|t:|1750862684
+|move|p1b: Chien-Pao|Crunch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Seedot|Endeavor|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|1/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750862695
+|move|p1b: Chien-Pao|Sucker Punch|p2a: Seedot
+|-damage|p2a: Seedot|0 fnt
+|faint|p2a: Seedot
+|
+|win|sayrican
+|raw|sayrican's rating: 1171 &rarr; <strong>1190</strong><br />(+19 for winning)
+|raw|Gomme31!'s rating: 1079 &rarr; <strong>1063</strong><br />(-16 for losing)
+|c|☆sayrican|ez
+|l|☆sayrican
+|player|p1|
+|l|☆Gomme31!
+|player|p2|

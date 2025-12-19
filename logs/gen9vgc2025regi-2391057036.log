@@ -1,0 +1,206 @@
+|j|☆Buno_Herique
+|j|☆Cameronbrannen2
+|t:|1750797534
+|gametype|doubles
+|player|p1|Buno_Herique|n|1072
+|player|p2|Cameronbrannen2|giovanni|1060
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Great Tusk, L50|
+|poke|p1|Raikou, L50|
+|poke|p1|Iron Boulder, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|
+|t:|1750797589
+|start
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Ninetales|Ninetales, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Ninetales
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750797625
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Ninetales
+|-damage|p1b: Ninetales|56/100
+|-unboost|p1b: Ninetales|spd|1
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Ninetales|[spread] p1a,p1b
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|35/100
+|-damage|p1b: Ninetales|10/100
+|move|p1b: Ninetales|Heat Wave|p2b: Tornadus|[spread] p2b
+|-miss|p1b: Ninetales|p2a: Flutter Mane
+|-damage|p2b: Tornadus|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750797715
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2b: Tornadus
+|-resisted|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|-damage|p1a: Venusaur|25/100|[from] item: Life Orb
+|move|p1b: Ninetales|Heat Wave|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797730
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750797760
+|move|p2a: Flutter Mane|Substitute|p2a: Flutter Mane
+|-start|p2a: Flutter Mane|Substitute
+|-damage|p2a: Flutter Mane|76/100
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Venusaur|16/100|[from] item: Life Orb
+|move|p1b: Ninetales|Heat Wave|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797774
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750797789
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|move|p1b: Ninetales|Heat Wave|p2a: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Flutter Mane|42/100
+|-damage|p2b: Amoonguss|43/100
+|move|p2b: Amoonguss|Pollen Puff|p1b: Ninetales
+|-resisted|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797806
+|switch|p1b: Great Tusk|Great Tusk, L50|100/100
+|switch|p1a: Raikou|Raikou, L50|100/100
+|-activate|p1b: Great Tusk|ability: Protosynthesis
+|-start|p1b: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1750797870
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p2a: Flutter Mane|Moonblast|p1a: Raikou
+|-damage|p1a: Raikou|55/100
+|move|p1a: Raikou|Thunderbolt|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|3/100
+|move|p1b: Great Tusk|Earthquake|p2a: Flutter Mane|[spread] p1a,p2a
+|-activate|p2b: Amoonguss|move: Protect
+|-supereffective|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p1a: Raikou
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750797913
+|move|p1b: Great Tusk|Close Combat|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|8/100
+|-unboost|p1b: Great Tusk|def|1
+|-unboost|p1b: Great Tusk|spd|1
+|-damage|p1b: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p2b: Amoonguss|Spore|p1b: Great Tusk
+|-status|p1b: Great Tusk|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750797929
+|-terastallize|p1b: Great Tusk|Fire
+|cant|p1b: Great Tusk|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Great Tusk
+|-resisted|p1b: Great Tusk
+|-damage|p1b: Great Tusk|71/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Buno_Herique)
+|
+|t:|1750797953
+|cant|p1b: Great Tusk|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Great Tusk
+|-resisted|p1b: Great Tusk
+|-damage|p1b: Great Tusk|59/100 slp
+|
+|-weather|none
+|-end|p1b: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1750797965
+|cant|p1b: Great Tusk|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Great Tusk
+|-resisted|p1b: Great Tusk
+|-damage|p1b: Great Tusk|46/100 slp
+|
+|upkeep
+|turn|10
+|
+|t:|1750797975
+|-curestatus|p1b: Great Tusk|slp|[msg]
+|move|p1b: Great Tusk|Close Combat|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1b: Great Tusk|def|1
+|-unboost|p1b: Great Tusk|spd|1
+|-damage|p1b: Great Tusk|29/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|faint|p2b: Amoonguss
+|
+|win|Buno_Herique
+|raw|Buno_Herique's rating: 1072 &rarr; <strong>1100</strong><br />(+28 for winning)
+|raw|Cameronbrannen2's rating: 1060 &rarr; <strong>1042</strong><br />(-18 for losing)
+|l|☆Buno_Herique
+|player|p1|
+|l|☆Cameronbrannen2
+|player|p2|

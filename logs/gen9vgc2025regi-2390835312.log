@@ -1,0 +1,176 @@
+|j|☆Skoomie
+|j|☆pob28
+|t:|1750773857
+|gametype|doubles
+|player|p1|Skoomie|101|1055
+|player|p2|pob28|1|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arboliva, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Bellossom, L50, F|
+|poke|p1|Sandy Shocks, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Kyurem-Black, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|
+|t:|1750773875
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Bellossom|Bellossom, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750773907
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: pob28|Reflect
+|move|p1a: Koraidon|Collision Course|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|83/100
+|move|p1b: Bellossom|Quiver Dance|p1b: Bellossom
+|-boost|p1b: Bellossom|spa|1
+|-boost|p1b: Bellossom|spd|1
+|-boost|p1b: Bellossom|spe|1
+|move|p2a: Terapagos|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|50/100
+|-damage|p1b: Bellossom|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750773953
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|87/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|move|p1a: Koraidon|U-turn|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|81/100
+|
+|t:|1750773960
+|switch|p1a: Sandy Shocks|Sandy Shocks, L50|100/100|[from] U-turn
+|move|p1b: Bellossom|Weather Ball|p2a: Terapagos
+|-damage|p2a: Terapagos|74/100
+|move|p2a: Terapagos|Dazzling Gleam|p1b: Bellossom|[spread] p1a,p1b
+|-damage|p1a: Sandy Shocks|68/100
+|-damage|p1b: Bellossom|62/100
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Bellossom
+|-damage|p1b: Bellossom|14/100
+|-unboost|p1b: Bellossom|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750773979
+|move|p1a: Sandy Shocks|Electroweb|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|60/100
+|-damage|p2b: Grimmsnarl|58/100
+|-unboost|p2a: Terapagos|spe|1
+|-unboost|p2b: Grimmsnarl|spe|1
+|move|p1b: Bellossom|Sludge Bomb|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Terapagos|Tera Starstorm|p1b: Bellossom|[spread] p1a,p1b
+|-damage|p1a: Sandy Shocks|16/100
+|-damage|p1b: Bellossom|0 fnt
+|faint|p1b: Bellossom
+|
+|upkeep
+|
+|t:|1750773991
+|switch|p1b: Koraidon|Koraidon, L50|50/100
+|switch|p2b: Kyurem|Kyurem-Black, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis
+|-start|p1a: Sandy Shocks|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Kyurem|Teravolt
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pob28)
+|
+|t:|1750774042
+|move|p2b: Kyurem|Protect|p2b: Kyurem
+|-singleturn|p2b: Kyurem|Protect
+|move|p1b: Koraidon|Dragon Claw|p2b: Kyurem
+|-activate|p2b: Kyurem|move: Protect
+|move|p1a: Sandy Shocks|Volt Switch|p2a: Terapagos
+|-damage|p2a: Terapagos|32/100
+|
+|t:|1750774046
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100|[from] Volt Switch
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Terapagos|Tera Starstorm|p1a: Walking Wake|[spread] p1a,p1b
+|-damage|p1a: Walking Wake|49/100
+|-damage|p1b: Koraidon|22/100
+|-enditem|p1a: Walking Wake|Sitrus Berry|[eat]
+|-heal|p1a: Walking Wake|74/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750774066
+|move|p1b: Koraidon|Dragon Claw|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-crit|p2b: Kyurem
+|-damage|p2b: Kyurem|0 fnt
+|faint|p2b: Kyurem
+|move|p1a: Walking Wake|Hydro Steam|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|pob28 has 30 seconds left.
+|inactive|pob28 has 20 seconds left.
+|
+|t:|1750774103
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|6
+|
+|t:|1750774112
+|move|p2a: Raging Bolt|Thunderclap|p1a: Walking Wake
+|-damage|p1a: Walking Wake|11/100
+|move|p1b: Koraidon|Dragon Claw|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|42/100
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Skoomie
+|raw|Skoomie's rating: 1055 &rarr; <strong>1093</strong><br />(+38 for winning)
+|raw|pob28's rating: 1121 &rarr; <strong>1091</strong><br />(-30 for losing)
+|l|☆pob28
+|player|p2|
+|l|☆Skoomie
+|player|p1|

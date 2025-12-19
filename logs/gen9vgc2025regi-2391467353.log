@@ -1,0 +1,173 @@
+|j|☆OOO0O00O00O0OO0
+|j|☆Zordor
+|t:|1750859781
+|gametype|doubles
+|player|p1|OOO0O00O00O0OO0|hoopster|1506
+|player|p2|Zordor|pilot|1600
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p2|Entei, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Primarina, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OOO0O00O00O0OO0)
+|inactive|Zordor has 60 seconds left.
+|
+|t:|1750859828
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Walking Wake|atk|1
+|turn|1
+|inactive|OOO0O00O00O0OO0 has 30 seconds left.
+|
+|t:|1750859862
+|move|p2b: Walking Wake|Snarl|p1a: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Lunala
+|-resisted|p1b: Incineroar
+|-damage|p1a: Lunala|81/100
+|-damage|p1b: Incineroar|97/100
+|-unboost|p1a: Lunala|spa|1
+|-unboost|p1b: Incineroar|spa|1
+|move|p2a: Groudon|Rock Slide|p1a: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Lunala|67/100
+|-damage|p1b: Incineroar|58/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Groudon
+|-damage|p2a: Groudon|58/100
+|-damage|p1b: Incineroar|43/100|[from] Recoil
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750859884
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p2b: Walking Wake|Protect|p2b: Walking Wake
+|-singleturn|p2b: Walking Wake|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Walking Wake
+|-activate|p2b: Walking Wake|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750859906
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Incineroar|U-turn|p2b: Walking Wake
+|-damage|p2b: Walking Wake|80/100
+|
+|t:|1750859910
+|switch|p1b: Lunala|Lunala, L50|67/100|[from] U-turn
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|move|p2a: Groudon|High Horsepower|p1a: Miraidon
+|-damage|p1a: Miraidon|59/100
+|move|p1a: Miraidon|Volt Switch|p2b: Walking Wake
+|-damage|p2b: Walking Wake|0 fnt
+|faint|p2b: Walking Wake
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|
+|t:|1750859922
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|j| Mr-High-Tower
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750859949
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|4
+|
+|t:|1750859974
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1a: Ursaluna|Facade|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p1b: Lunala|Moongeist Beam|p2a: Groudon
+|-damage|p2a: Groudon|12/100
+|move|p2a: Groudon|High Horsepower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|56/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|OOO0O00O00O0OO0 has 30 seconds left.
+|inactive|OOO0O00O00O0OO0 has 20 seconds left.
+|
+|t:|1750860012
+|-terastallize|p2b: Primarina|Steel
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Ursaluna|Earthquake|p2b: Primarina|[spread] p1b,p2b
+|-activate|p2a: Groudon|move: Protect
+|-supereffective|p2b: Primarina
+|-damage|p1b: Lunala|38/100
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|move|p1b: Lunala|Moongeist Beam|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|
+|-weather|none
+|-damage|p1a: Ursaluna|44/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750860020
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|6
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750860053
+|move|p2b: Zacian|Behemoth Blade|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2a: Groudon|High Horsepower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|5/100 brn
+|move|p1a: Ursaluna|Earthquake|p2a: Groudon|[spread] p2a,p2b
+|-supereffective|p2b: Zacian
+|-damage|p2a: Groudon|0 fnt
+|-damage|p2b: Zacian|0 fnt
+|faint|p2a: Groudon
+|faint|p2b: Zacian
+|
+|win|OOO0O00O00O0OO0
+|raw|OOO0O00O00O0OO0's rating: 1506 &rarr; <strong>1531</strong><br />(+25 for winning)
+|raw|Zordor's rating: 1600 &rarr; <strong>1575</strong><br />(-25 for losing)
+|l|☆Zordor
+|player|p2|
+|l| Mr-High-Tower
+|l|☆OOO0O00O00O0OO0
+|player|p1|

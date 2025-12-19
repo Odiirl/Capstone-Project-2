@@ -1,0 +1,275 @@
+|j|☆renorraven
+|j|☆adynan legal
+|t:|1750712024
+|gametype|doubles
+|player|p1|renorraven|170|1000
+|player|p2|adynan legal|169|1006
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slaking, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Greninja-*, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raichu-Alola, L50, F|
+|teampreview|4
+|
+|t:|1750712054
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Greninja|Greninja, L50, M|100/100
+|switch|p2a: Raichu|Raichu-Alola, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by adynan legal)
+|
+|t:|1750712078
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Greninja|atk|1
+|move|p2a: Raichu|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|94/100
+|move|p1b: Greninja|Water Pledge|p2a: Raichu
+|-waiting|p1b: Greninja|p1a: Rillaboom
+|cant|p1a: Rillaboom|flinch
+|
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|adynan legal has 30 seconds left.
+|
+|t:|1750712104
+|move|p2b: Incineroar|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|91/100
+|move|p1b: Greninja|Water Pledge|p2b: Incineroar
+|-waiting|p1b: Greninja|p1a: Rillaboom
+|cant|p1a: Rillaboom|flinch
+|move|p2a: Raichu|Nuzzle|p1b: Greninja
+|-supereffective|p1b: Greninja
+|-damage|p1b: Greninja|79/100
+|-status|p1b: Greninja|par
+|-enditem|p1b: Greninja|Weakness Policy
+|-boost|p1b: Greninja|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Greninja|spa|2|[from] item: Weakness Policy
+|
+|-heal|p1a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1b: Greninja|85/100 par|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|adynan legal has 30 seconds left.
+|
+|t:|1750712130
+|move|p2a: Raichu|Electroweb|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-supereffective|p1b: Greninja
+|-damage|p1a: Rillaboom|92/100
+|-damage|p1b: Greninja|26/100 par
+|-unboost|p1a: Rillaboom|spe|1
+|-unboost|p1b: Greninja|spe|1
+|move|p2b: Incineroar|Parting Shot|p1b: Greninja
+|-unboost|p1b: Greninja|atk|1
+|-unboost|p1b: Greninja|spa|1
+|
+|t:|1750712144
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Rillaboom|Grass Pledge|p2b: Miraidon
+|-waiting|p1a: Rillaboom|p1b: Greninja
+|move|p1b: Greninja|Water Pledge|p2b: Miraidon|[from] move: Grass Pledge
+|-combine
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|63/100
+|-sidestart|p2: adynan legal|Grass Pledge
+|
+|upkeep
+|turn|4
+|
+|t:|1750712160
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Greninja|atk|1
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Slaking|Slaking, L50, M|100/100
+|move|p2b: Miraidon|Calm Mind|p2b: Miraidon
+|-boost|p2b: Miraidon|spa|1
+|-boost|p2b: Miraidon|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1750712178
+|move|p2a: Incineroar|Fake Out|p1a: Hatterene
+|-damage|p1a: Hatterene|89/100
+|move|p1b: Slaking|Earthquake|p2a: Incineroar|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Miraidon
+|-damage|p1a: Hatterene|52/100
+|-damage|p2a: Incineroar|40/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-damage|p1b: Slaking|91/100|[from] item: Life Orb
+|cant|p1a: Hatterene|flinch
+|
+|upkeep
+|
+|t:|1750712187
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|100/100
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|6
+|
+|t:|1750712207
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|cant|p1b: Slaking|ability: Truant
+|move|p2b: Scream Tail|Disable|p1b: Slaking
+|-start|p1b: Slaking|Disable|Earthquake
+|move|p1a: Hatterene|Skill Swap|p1b: Slaking
+|-activate|p1a: Hatterene|move: Skill Swap|||[of] p1b: Slaking
+|
+|-sideend|p2: adynan legal|Grass Pledge
+|upkeep
+|turn|7
+|
+|t:|1750712229
+|move|p2b: Scream Tail|Encore|p1b: Slaking
+|move|p1b: Slaking|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p1b: Slaking
+|move|p1b: Slaking|Giga Impact|p2b: Scream Tail
+|-damage|p2b: Scream Tail|7/100
+|-mustrecharge|p1b: Slaking
+|-damage|p1b: Slaking|81/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|12/100
+|-enditem|p1a: Hatterene|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|cant|p1a: Hatterene|ability: Truant
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|t:|1750712251
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|cant|p1b: Slaking|recharge
+|move|p2a: Incineroar|Knock Off|p1b: Slaking
+|-damage|p1b: Slaking|50/100
+|-enditem|p1b: Slaking|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Scream Tail|[spread] p2a
+|-activate|p2b: Scream Tail|move: Protect
+|-damage|p2a: Incineroar|14/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750712276
+|switch|p2a: Raichu|Raichu-Alola, L50, F|100/100
+|move|p2b: Scream Tail|Disable|p1a: Hatterene
+|-start|p1a: Hatterene|Disable|Dazzling Gleam
+|move|p1b: Slaking|After You|p1a: Hatterene
+|-activate|p1a: Hatterene|move: After You
+|cant|p1a: Hatterene|ability: Truant
+|
+|upkeep
+|turn|10
+|inactive|renorraven has 30 seconds left.
+|
+|t:|1750712304
+|move|p2a: Raichu|Fake Out|p1b: Slaking
+|-damage|p1b: Slaking|43/100
+|move|p2b: Scream Tail|Encore|p1a: Hatterene
+|-start|p1a: Hatterene|Encore
+|cant|p1b: Slaking|flinch
+|cant|p1a: Hatterene|Disable|Dazzling Gleam
+|
+|-end|p1b: Slaking|Disable
+|upkeep
+|turn|11
+|
+|t:|1750712319
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p2a: Raichu|Nuzzle|p1b: Slaking
+|-damage|p1b: Slaking|38/100
+|-status|p1b: Slaking|par
+|move|p1b: Slaking|Earthquake|p2b: Scream Tail|[spread] p1a,p2a
+|-activate|p2b: Scream Tail|move: Protect
+|-supereffective|p2a: Raichu
+|-damage|p1a: Hatterene|0 fnt
+|-enditem|p2a: Raichu|Focus Sash
+|-damage|p2a: Raichu|1/100
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1750712332
+|switch|p1a: Rillaboom|Rillaboom, L50, F|92/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|12
+|
+|t:|1750712354
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Incineroar|Incineroar, L50, M|14/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Slaking|atk|1
+|move|p2a: Raichu|Protect|p2a: Raichu
+|-singleturn|p2a: Raichu|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|8/100
+|move|p1b: Slaking|Earthquake|p2b: Incineroar|[spread] p1a,p2b
+|-activate|p2a: Raichu|move: Protect
+|-resisted|p1a: Rillaboom
+|-supereffective|p2b: Incineroar
+|-damage|p1a: Rillaboom|88/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-heal|p2a: Raichu|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1b: Slaking|44/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750712366
+|switch|p2b: Scream Tail|Scream Tail, L50, shiny|7/100
+|turn|13
+|
+|t:|1750712385
+|move|p1a: Rillaboom|Grassy Glide|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|move|p2a: Raichu|Electroweb|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|88/100
+|-damage|p1b: Slaking|25/100 par
+|-unboost|p1a: Rillaboom|spe|1
+|-unboost|p1b: Slaking|spe|1
+|move|p1b: Slaking|Earthquake|p2a: Raichu|[spread] p1a,p2a
+|-resisted|p1a: Rillaboom
+|-supereffective|p2a: Raichu
+|-damage|p1a: Rillaboom|84/100
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|win|renorraven
+|raw|renorraven's rating: 1000 &rarr; <strong>1041</strong><br />(+41 for winning)
+|raw|adynan legal's rating: 1006 &rarr; <strong>1000</strong><br />(-6 for losing)

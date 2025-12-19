@@ -1,0 +1,214 @@
+|j|☆Npc red panther
+|j|☆Escatross
+|t:|1750713098
+|gametype|doubles
+|player|p1|Npc red panther|265|1566
+|player|p2|Escatross|bugcatcher-gen4dp|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Seel, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Escatross)
+|
+|t:|1750713115
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, F|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-block|p2a: Koraidon|item: Ability Shield
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750713126
+|-terastallize|p2a: Koraidon|Fire
+|-terastallize|p1b: Calyrex|Fire
+|move|p2a: Koraidon|Scale Shot|p1a: Smeargle
+|-damage|p1a: Smeargle|44/100
+|-crit|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-hitcount|p1: Smeargle|2
+|-unboost|p2a: Koraidon|def|1
+|-boost|p2a: Koraidon|spe|1
+|move|p2b: Weezing|Taunt|p1b: Calyrex
+|-start|p1b: Calyrex|move: Taunt
+|move|p1b: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|62/100
+|-damage|p2b: Weezing|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713135
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|2
+|
+|t:|1750713158
+|move|p2a: Koraidon|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Koraidon|24/100|[from] Recoil
+|move|p2b: Weezing|Poison Gas|p1b: Calyrex
+|-status|p1b: Calyrex|psn
+|move|p1b: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Weezing|8/100
+|faint|p2a: Koraidon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Calyrex|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1750713175
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750713184
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Weezing|Protect|p2b: Weezing
+|-singleturn|p2b: Weezing|Protect
+|move|p1a: Ditto|Transform|p2a: Calyrex
+|-transform|p1a: Ditto|p2a: Calyrex
+|-ability|p1a: Ditto|As One
+|-ability|p1a: Ditto|Unnerve
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-activate|p2b: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|94/100 psn|[from] item: Leftovers
+|-damage|p1b: Calyrex|82/100 psn|[from] psn
+|-end|p1b: Calyrex|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1750713199
+|move|p1a: Ditto|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-damage|p2b: Weezing|0 fnt
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Ditto|Grim Neigh|boost
+|-boost|p1a: Ditto|spa|1
+|move|p2a: Calyrex|Astral Barrage|p1a: Ditto|[spread] p1a,p1b
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-damage|p1b: Calyrex|45/100 psn
+|faint|p1a: Ditto
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|51/100 psn|[from] item: Leftovers
+|-damage|p1b: Calyrex|39/100 psn|[from] psn
+|upkeep
+|
+|t:|1750713203
+|switch|p2b: Seel|Seel, L50, F|100/100
+|turn|5
+|
+|t:|1750713208
+|move|p2b: Seel|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|36/100 psn
+|cant|p1b: Calyrex|flinch
+|
+|-weather|none
+|-heal|p1b: Calyrex|42/100 psn|[from] item: Leftovers
+|-damage|p1b: Calyrex|30/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750713221
+|move|p1b: Calyrex|Glacial Lance|p2b: Seel
+|-resisted|p2b: Seel
+|-damage|p2b: Seel|63/100
+|move|p2b: Seel|Horn Drill|p1b: Calyrex|[miss]
+|-miss|p2b: Seel|p1b: Calyrex
+|
+|-heal|p1b: Calyrex|36/100 psn|[from] item: Leftovers
+|-damage|p1b: Calyrex|24/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750713230
+|move|p1b: Calyrex|Leech Seed|p2b: Seel
+|-start|p2b: Seel|move: Leech Seed
+|move|p2b: Seel|Horn Drill|p1b: Calyrex|[miss]
+|-miss|p2b: Seel|p1b: Calyrex
+|
+|-heal|p1b: Calyrex|29/100 psn|[from] item: Leftovers
+|-damage|p2b: Seel|50/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|40/100 psn|[silent]
+|-damage|p1b: Calyrex|28/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750713241
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Seel|Encore|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-heal|p1b: Calyrex|33/100 psn|[from] item: Leftovers
+|-damage|p2b: Seel|38/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|43/100 psn|[silent]
+|-damage|p1b: Calyrex|31/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750713250
+|move|p1b: Calyrex|Glacial Lance|p2b: Seel
+|-resisted|p2b: Seel
+|-damage|p2b: Seel|7/100
+|move|p2b: Seel|Horn Drill|p1b: Calyrex|[miss]
+|-miss|p2b: Seel|p1b: Calyrex
+|
+|-heal|p1b: Calyrex|37/100 psn|[from] item: Leftovers
+|-damage|p2b: Seel|0 fnt|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|43/100 psn|[silent]
+|faint|p2b: Seel
+|
+|win|Npc red panther
+|raw|Npc red panther's rating: 1566 &rarr; <strong>1580</strong><br />(+14 for winning)
+|raw|Escatross's rating: 1450 &rarr; <strong>1436</strong><br />(-14 for losing)
+|l|☆Escatross
+|player|p2|
+|l|☆Npc red panther
+|player|p1|

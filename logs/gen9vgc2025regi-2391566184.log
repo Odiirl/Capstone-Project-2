@@ -1,0 +1,153 @@
+|j|☆anthonyefra
+|j|☆SnorlaxPikachu1
+|t:|1750870797
+|gametype|doubles
+|player|p1|anthonyefra|benga|1299
+|player|p2|SnorlaxPikachu1|palmer|1349
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+anthonyefra has agreed to open team sheets.
+|
+|t:|1750870855
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1b: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750870887
+|-terastallize|p2b: Calyrex|Grass
+|move|p1b: Toedscruel|Spore|p2a: Smeargle
+|-status|p2a: Smeargle|slp|[from] move: Spore
+|cant|p2a: Smeargle|slp
+|move|p1a: Weezing|Flamethrower|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|68/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Toedscruel|[spread] p1a,p1b
+|-supereffective|p1b: Toedscruel
+|-damage|p1a: Weezing|50/100
+|-enditem|p1b: Toedscruel|Focus Sash
+|-damage|p1b: Toedscruel|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750870907
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|move|p1b: Toedscruel|Earth Power|p2b: Pelipper
+|-immune|p2b: Pelipper
+|-curestatus|p2a: Smeargle|slp|[msg]
+|move|p2a: Smeargle|Spore|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Spore
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750870927
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1b: Toedscruel|Spore|p2a: Smeargle
+|-status|p2a: Smeargle|slp|[from] move: Spore
+|move|p2b: Pelipper|Hurricane|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-damage|p2b: Pelipper|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750870936
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|4
+|
+|t:|1750870944
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Grass|68/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|cant|p2a: Smeargle|slp
+|move|p1b: Toedscruel|Spore|p2b: Calyrex
+|-immune|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750870955
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|-item|p2a: Smeargle|Focus Sash|[from] ability: Frisk|[of] p1a: Typhlosion
+|-item|p2b: Calyrex|Assault Vest|[from] ability: Frisk|[of] p1a: Typhlosion
+|switch|p2a: Pelipper|Pelipper, L50, F|91/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1b: Toedscruel|Protect|p1b: Toedscruel
+|-singleturn|p1b: Toedscruel|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Typhlosion|[spread] p1a
+|-activate|p1b: Toedscruel|move: Protect
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750870969
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-terastallize|p1a: Typhlosion|Fire
+|move|p2a: Pelipper|Wide Guard|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Wide Guard
+|move|p1a: Typhlosion|Eruption|p2a: Pelipper|[spread] 
+|-activate|p2a: Pelipper|move: Wide Guard
+|-activate|p2b: Calyrex|move: Wide Guard
+|move|p2b: Calyrex|High Horsepower|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|anthonyefra forfeited.
+|
+|win|SnorlaxPikachu1
+|raw|anthonyefra's rating: 1299 &rarr; <strong>1278</strong><br />(-21 for losing)
+|raw|SnorlaxPikachu1's rating: 1349 &rarr; <strong>1366</strong><br />(+17 for winning)
+|l|☆anthonyefra
+|player|p1|
+|l|☆SnorlaxPikachu1
+|player|p2|

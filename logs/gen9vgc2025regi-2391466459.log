@@ -1,0 +1,184 @@
+|j|☆areku_orion
+|j|☆Falcon9115
+|t:|1750859674
+|gametype|doubles
+|player|p1|areku_orion|iris-gen5bw2|1178
+|player|p2|Falcon9115|red|1275
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750859703
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750859723
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Whimsicott|Taunt|p2b: Smeargle
+|-start|p2b: Smeargle|move: Taunt
+|cant|p2b: Smeargle|move: Taunt|Coaching
+|move|p2a: Calyrex|Glacial Lance|p1b: Whimsicott|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-supereffective|p1b: Whimsicott
+|-crit|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|
+|t:|1750859742
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750859764
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Flutter Mane|Thunder|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Koraidon|Flame Charge|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Tornadus
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859779
+|switch|p2b: Clefable|Clefable, L50, F|100/100
+|turn|3
+|
+|t:|1750859796
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Flutter Mane|Thunder|p2b: Clefable
+|-damage|p2b: Clefable|75/100
+|move|p1a: Koraidon|Iron Head|p2b: Clefable
+|-supereffective|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|-damage|p1a: Koraidon|74/100|[from] item: Rocky Helmet|[of] p2b: Clefable
+|faint|p2b: Clefable
+|-damage|p1a: Koraidon|64/100|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|21/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859813
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|turn|4
+|
+|t:|1750859832
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Flutter Mane|Thunder|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Koraidon|Close Combat|p2b: Smeargle
+|-supereffective|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Smeargle
+|-damage|p1a: Koraidon|11/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750859862
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p1a: Koraidon|Close Combat|p2a: Calyrex
+|-damage|p2a: Calyrex|4/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|2/100|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1a
+|-activate|p1b: Flutter Mane|move: Protect
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|none
+|-end|p1b: Flutter Mane|Protosynthesis
+|upkeep
+|
+|t:|1750859871
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|turn|6
+|
+|t:|1750859885
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750859896
+|move|p1b: Flutter Mane|Thunder|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|areku_orion
+|raw|areku_orion's rating: 1178 &rarr; <strong>1210</strong><br />(+32 for winning)
+|raw|Falcon9115's rating: 1275 &rarr; <strong>1243</strong><br />(-32 for losing)
+|l|☆Falcon9115
+|player|p2|
+|l|☆areku_orion
+|player|p1|
+|j|☆areku_orion
+|player|p1|areku_orion|iris-gen5bw2|
+|l|☆areku_orion
+|player|p1|

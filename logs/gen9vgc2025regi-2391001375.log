@@ -1,0 +1,240 @@
+|j|‽elixelix
+|j|☆beanxxbot
+|t:|1750791591
+|gametype|doubles
+|player|p1|elixelix|cameraman|1141
+|player|p2|beanxxbot|102|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750791629
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750791680
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Lunala|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-damage|p1b: Groudon|40/100
+|move|p1b: Groudon|Precipice Blades|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Lunala|82/100
+|-damage|p2b: Indeedee|36/100
+|move|p1a: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1750791694
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750791755
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-terastallize|p2a: Lunala|Fairy
+|-terastallize|p1a: Lunala|Grass
+|move|p2b: Indeedee|Helping Hand|p2a: Lunala
+|-singleturn|p2a: Lunala|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Lunala|Expanding Force|p1a: Lunala|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Lunala|66/100
+|move|p1a: Lunala|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Lunala|35/100
+|-damage|p2b: Indeedee|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|42/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750791784
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Incineroar|Flare Blitz|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-damage|p1b: Incineroar|85/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750791801
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750791823
+|switch|p1a: Smeargle|Smeargle, L50, F, shiny|100/100
+|move|p2b: Incineroar|Fake Out|p1b: Incineroar
+|-activate|p1b: Incineroar|move: Psychic Terrain
+|move|p2a: Koraidon|Flare Blitz|p1a: Smeargle
+|-crit|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|-status|p1a: Smeargle|brn
+|-damage|p2a: Koraidon|72/100|[from] Recoil
+|-damage|p2a: Koraidon|62/100|[from] item: Life Orb
+|move|p1b: Incineroar|Parting Shot|p2a: Koraidon
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2a: Koraidon|spa|1
+|
+|t:|1750791842
+|switch|p1b: Groudon|Groudon, L50|40/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Smeargle|0 fnt|[from] brn
+|faint|p1a: Smeargle
+|upkeep
+|
+|t:|1750791848
+|switch|p1a: Incineroar|Incineroar, L50, F|85/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|5
+|
+|t:|1750791860
+|switch|p2a: Indeedee|Indeedee-F, L50, F|5/100
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Incineroar|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|76/100
+|
+|t:|1750791867
+|switch|p2b: Koraidon|Koraidon, L50|62/100|[from] U-turn
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Indeedee|[miss]
+|-miss|p1a: Incineroar|p2a: Indeedee
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750791912
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|move|p1b: Groudon|Protect||[still]
+|-fail|p1b: Groudon
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Indeedee
+|-status|p2a: Indeedee|brn
+|
+|-damage|p2a: Indeedee|0 fnt|[from] brn
+|faint|p2a: Indeedee
+|upkeep
+|
+|t:|1750791924
+|switch|p2a: Koraidon|Koraidon, L50|62/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750791947
+|switch|p1a: Lunala|Lunala, L50, tera:Grass|66/100
+|move|p2b: Incineroar|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|33/100
+|move|p2a: Koraidon|Close Combat|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Lunala
+|-damage|p2a: Koraidon|53/100|[from] item: Life Orb
+|cant|p1b: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750791960
+|switch|p1a: Incineroar|Incineroar, L50, F|76/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|8
+|
+|t:|1750791982
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Groudon|Precipice Blades|p2a: Koraidon|[spread] 
+|-activate|p2a: Koraidon|move: Protect
+|-miss|p1b: Groudon|p2b: Incineroar
+|move|p2b: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|66/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750792004
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Koraidon|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Incineroar
+|-damage|p2a: Koraidon|43/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|-message|elixelix forfeited.
+|
+|win|beanxxbot
+|raw|elixelix's rating: 1141 &rarr; <strong>1121</strong><br />(-20 for losing)
+|raw|beanxxbot's rating: 1209 &rarr; <strong>1229</strong><br />(+20 for winning)
+|l|‽elixelix
+|player|p1|
+|c|☆beanxxbot|gg

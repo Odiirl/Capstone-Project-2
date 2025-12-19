@@ -1,0 +1,202 @@
+|j|☆WindyEng
+|j|☆ness#1glazer
+|t:|1750805849
+|gametype|doubles
+|player|p1|WindyEng|musician|1161
+|player|p2|ness#1glazer|n|1268
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Iron Crown, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Exeggutor, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WindyEng)
+|
+|t:|1750805884
+|start
+|switch|p1a: Yanmega|Yanmega, L50, F|100/100
+|switch|p1b: Iron Crown|Iron Crown, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-enditem|p1b: Iron Crown|Booster Energy
+|-activate|p1b: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1750805908
+|move|p1b: Iron Crown|Protect|p1b: Iron Crown
+|-singleturn|p1b: Iron Crown|Protect
+|move|p1a: Yanmega|Detect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Iron Crown|[spread] 
+|-activate|p1a: Yanmega|move: Protect
+|-activate|p1b: Iron Crown|move: Protect
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750805929
+|move|p1b: Iron Crown|Gravity|p1b: Iron Crown
+|-fieldstart|move: Gravity
+|move|p1a: Yanmega|Hypnosis|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Hypnosis
+|move|p2a: Calyrex|Astral Barrage|p1b: Iron Crown|[spread] p1a,p1b
+|-supereffective|p1b: Iron Crown
+|-damage|p1a: Yanmega|24/100
+|-damage|p1b: Iron Crown|0 fnt
+|faint|p1b: Iron Crown
+|-end|p1b: Iron Crown|Quark Drive|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|cant|p2b: Zamazenta|slp
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|
+|t:|1750805934
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|
+|t:|1750805949
+|move|p1a: Yanmega|Hypnosis|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Hypnosis
+|cant|p2a: Calyrex|slp
+|cant|p2b: Zamazenta|slp
+|move|p1b: Groudon|Precipice Blades|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Zamazenta
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100 slp
+|-damage|p2b: Zamazenta|63/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|4
+|inactive|ness#1glazer has 30 seconds left.
+|
+|t:|1750805983
+|move|p1a: Yanmega|Tailwind|p1a: Yanmega
+|-sidestart|p1: WindyEng|move: Tailwind
+|move|p1b: Groudon|Precipice Blades|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Zamazenta|26/100 slp
+|faint|p2a: Calyrex
+|-curestatus|p2b: Zamazenta|slp|[msg]
+|move|p2b: Zamazenta|Body Press|p1b: Groudon
+|-damage|p1b: Groudon|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|
+|t:|1750805994
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yanmega|atk|1
+|-unboost|p1b: Groudon|atk|1
+|turn|5
+|
+|t:|1750806010
+|switch|p1b: Exeggutor|Exeggutor, L50, M|100/100
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p2a: Incineroar|Fake Out|p1a: Yanmega
+|-damage|p1a: Yanmega|11/100
+|cant|p1a: Yanmega|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750806031
+|move|p1a: Yanmega|Hypnosis|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Hypnosis
+|move|p1b: Exeggutor|Expanding Force|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-damage|p1b: Exeggutor|91/100|[from] item: Life Orb
+|cant|p2a: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|
+|t:|1750806037
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1750806059
+|move|p1a: Yanmega|Detect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Exeggutor|Gravity|p1b: Exeggutor
+|-fieldstart|move: Gravity
+|-curestatus|p2a: Incineroar|slp|[msg]
+|move|p2a: Incineroar|Flare Blitz|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-damage|p1b: Exeggutor|0 fnt
+|faint|p1b: Exeggutor
+|-damage|p2a: Incineroar|74/100|[from] Recoil
+|
+|-weather|none
+|-sideend|p1: WindyEng|move: Tailwind
+|upkeep
+|
+|t:|1750806067
+|switch|p1b: Groudon|Groudon, L50|15/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|8
+|inactive|ness#1glazer has 30 seconds left.
+|inactive|ness#1glazer has 20 seconds left.
+|
+|t:|1750806105
+|-terastallize|p2a: Incineroar|Water
+|move|p1a: Yanmega|Hypnosis|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Hypnosis
+|move|p1b: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Indeedee
+|
+|win|WindyEng
+|raw|WindyEng's rating: 1161 &rarr; <strong>1193</strong><br />(+32 for winning)
+|raw|ness#1glazer's rating: 1268 &rarr; <strong>1236</strong><br />(-32 for losing)
+|l|☆ness#1glazer
+|player|p2|
+|l|☆WindyEng
+|player|p1|

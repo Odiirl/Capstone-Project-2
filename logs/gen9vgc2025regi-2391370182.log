@@ -1,0 +1,121 @@
+|j|☆landromedar
+|j|☆napless
+|t:|1750845155
+|gametype|doubles
+|player|p1|landromedar|cynthia|1313
+|player|p2|napless|2|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Lugia, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Breloom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by landromedar)
+|
+|t:|1750845187
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Lugia|Lugia, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750845209
+|-terastallize|p1b: Kyogre|Water
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: landromedar|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Lugia|57/100
+|-damage|p2b: Indeedee|1/100
+|move|p2a: Lugia|Calm Mind|p2a: Lugia
+|-boost|p2a: Lugia|spa|1
+|-boost|p2a: Lugia|spd|1
+|move|p2b: Indeedee|Heal Pulse|p2a: Lugia
+|-heal|p2a: Lugia|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|napless has 30 seconds left.
+|
+|t:|1750845240
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Lugia|[spread] p2a,p2b
+|-crit|p2b: Indeedee
+|-damage|p2a: Lugia|93/100
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p2a: Lugia|spe|1
+|faint|p2b: Indeedee
+|move|p1b: Kyogre|Thunder|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|59/100
+|-status|p2a: Lugia|par
+|move|p2a: Lugia|Aeroblast|p1b: Kyogre
+|-damage|p1b: Kyogre|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lugia|65/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1750845257
+|switch|p2b: Breloom|Breloom, L50, M|100/100
+|turn|3
+|
+|t:|1750845268
+|move|p2b: Breloom|Protect|p2b: Breloom
+|-singleturn|p2b: Breloom|Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Breloom|[spread] p2a
+|-activate|p2b: Breloom|move: Protect
+|-damage|p2a: Lugia|51/100 par
+|move|p1b: Kyogre|Thunder|p2a: Lugia
+|-supereffective|p2a: Lugia
+|-damage|p2a: Lugia|16/100 par
+|cant|p2a: Lugia|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lugia|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750845290
+|move|p2a: Lugia|Protect|p2a: Lugia
+|-singleturn|p2a: Lugia|Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Breloom|[spread] p2b
+|-activate|p2a: Lugia|move: Protect
+|-supereffective|p2b: Breloom
+|-damage|p2b: Breloom|0 fnt
+|faint|p2b: Breloom
+|move|p1b: Kyogre|Thunder|p2a: Lugia
+|-activate|p2a: Lugia|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lugia|28/100 par|[from] item: Leftovers
+|-sideend|p1: landromedar|move: Tailwind
+|upkeep
+|-message|napless forfeited.
+|
+|win|landromedar
+|raw|landromedar's rating: 1313 &rarr; <strong>1332</strong><br />(+19 for winning)
+|raw|napless's rating: 1296 &rarr; <strong>1272</strong><br />(-24 for losing)
+|l|☆napless
+|player|p2|
+|l|☆landromedar
+|player|p1|

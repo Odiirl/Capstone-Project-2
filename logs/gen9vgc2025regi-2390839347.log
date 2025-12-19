@@ -1,0 +1,229 @@
+|j|☆knucklee
+|j|☆pumpkinflame
+|t:|1750774320
+|gametype|doubles
+|player|p1|knucklee|169|1401
+|player|p2|pumpkinflame|swimmerf-gen4|1382
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750774352
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Storm|Tornadus, L50, M, shiny|100/100
+|switch|p2b: Electrobeast|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Electrobeast
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by knucklee)
+|
+|t:|1750774375
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Storm|Tailwind|p2a: Storm
+|-sidestart|p2: pumpkinflame|move: Tailwind
+|move|p2b: Electrobeast|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|83/100
+|
+|t:|1750774387
+|switch|p2b: Miraidon 2|Archaludon, L50, F|100/100|[from] Volt Switch
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon 2
+|-supereffective|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|4/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|
+|-heal|p2b: Miraidon 2|10/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750774411
+|move|p1a: Rillaboom|Fake Out|p2b: Miraidon 2
+|-resisted|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|7/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|move|p2a: Storm|Rain Dance|p2a: Storm
+|-weather|RainDance
+|cant|p2b: Miraidon 2|flinch
+|move|p1b: Zamazenta|Body Press|p2a: Storm
+|-resisted|p2a: Storm
+|-damage|p2a: Storm|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon 2|13/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750774432
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Rillaboom|Grassy Glide|p2b: Miraidon 2
+|-resisted|p2b: Miraidon 2
+|-damage|p2b: Miraidon 2|10/100
+|-ability|p2b: Miraidon 2|Stamina|boost
+|-boost|p2b: Miraidon 2|def|1
+|move|p2a: Storm|Bleakwind Storm|p1b: Zamazenta|[spread] 
+|-activate|p1a: Rillaboom|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p2b: Miraidon 2|Electro Shot||[still]
+|-prepare|p2b: Miraidon 2|Electro Shot
+|-boost|p2b: Miraidon 2|spa|1
+|-anim|p2b: Miraidon 2|Electro Shot|p1b: Zamazenta
+|-damage|p1b: Zamazenta|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon 2|16/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|66/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|pumpkinflame has 30 seconds left.
+|inactive|pumpkinflame has 20 seconds left.
+|inactive|knucklee has 30 seconds left.
+|inactive|pumpkinflame has 15 seconds left.
+|inactive|knucklee has 20 seconds left.
+|
+|t:|1750774483
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p1b: Raging Bolt|Booster Energy
+|-activate|p1b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1b: Raging Bolt|protosynthesisspa
+|move|p2a: Storm|Taunt|p1b: Raging Bolt
+|-start|p1b: Raging Bolt|move: Taunt
+|move|p2b: Miraidon 2|Electro Shot||[still]
+|-prepare|p2b: Miraidon 2|Electro Shot
+|-boost|p2b: Miraidon 2|spa|1
+|-anim|p2b: Miraidon 2|Electro Shot|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|84/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Storm
+|-resisted|p2a: Storm
+|-damage|p2a: Storm|0 fnt
+|faint|p2a: Storm
+|-damage|p1a: Rillaboom|87/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon 2|22/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|93/100|[from] Grassy Terrain
+|-heal|p1b: Raging Bolt|90/100|[from] Grassy Terrain
+|-sideend|p2: pumpkinflame|move: Tailwind
+|upkeep
+|
+|t:|1750774502
+|switch|p2a: K.O|Kyogre, L50|100/100
+|turn|5
+|inactive|knucklee has 30 seconds left.
+|inactive|knucklee has 20 seconds left.
+|
+|t:|1750774540
+|move|p2a: K.O|Protect|p2a: K.O
+|-singleturn|p2a: K.O|Protect
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p2b: Miraidon 2|Draco Meteor|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|-unboost|p2b: Miraidon 2|spa|2
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|move|p1a: Rillaboom|U-turn|p2a: K.O
+|-activate|p2a: K.O|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon 2|29/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750774546
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750774570
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|66/100
+|-terastallize|p2a: K.O|Dragon
+|move|p1b: Calyrex|Astral Barrage|p2b: Miraidon 2|[spread] p2a,p2b
+|-damage|p2a: K.O|57/100
+|-damage|p2b: Miraidon 2|0 fnt
+|faint|p2b: Miraidon 2
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: K.O|Origin Pulse|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|8/100
+|-damage|p1b: Calyrex|9/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750774587
+|switch|p2b: Electrobeast|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Electrobeast
+|turn|7
+|
+|t:|1750774600
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: K.O|[spread] p2a,p2b
+|-crit|p2a: K.O
+|-damage|p2a: K.O|0 fnt
+|-damage|p2b: Electrobeast|23/100
+|faint|p2a: K.O
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p1b: Calyrex
+|move|p2b: Electrobeast|Electro Drift|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|
+|t:|1750774613
+|switch|p1b: Rillaboom|Rillaboom, L50, M|99/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|8
+|
+|t:|1750774625
+|move|p1b: Rillaboom|Fake Out|p2b: Electrobeast
+|-damage|p2b: Electrobeast|10/100
+|cant|p2b: Electrobeast|flinch
+|move|p1a: Zamazenta|Body Press|p2b: Electrobeast
+|-damage|p2b: Electrobeast|0 fnt
+|faint|p2b: Electrobeast
+|
+|win|knucklee
+|raw|knucklee's rating: 1401 &rarr; <strong>1420</strong><br />(+19 for winning)
+|raw|pumpkinflame's rating: 1382 &rarr; <strong>1363</strong><br />(-19 for losing)
+|l|☆pumpkinflame
+|player|p2|
+|l|☆knucklee
+|player|p1|

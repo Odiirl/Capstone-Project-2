@@ -1,0 +1,228 @@
+|j|☆luoxuedacongming
+|j|☆arkjsmith
+|t:|1750759553
+|gametype|doubles
+|player|p1|luoxuedacongming|dawn|1427
+|player|p2|arkjsmith|roxie|1438
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arkjsmith)
+|
+|t:|1750759580
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Maushold|Maushold-Four, L50|100/100
+|switch|p2a: Hallucinate|Terapagos, L50, M|100/100
+|switch|p2b: PrettyPlease|Smeargle, L50, F|100/100
+|-activate|p2a: Hallucinate|ability: Tera Shift
+|detailschange|p2a: Hallucinate|Terapagos-Terastal, L50, M
+|-heal|p2a: Hallucinate|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750759604
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-terastallize|p2a: Hallucinate|Stellar
+|detailschange|p2a: Hallucinate|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Hallucinate|100/100|[silent]
+|-ability|p2a: Hallucinate|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p2b: PrettyPlease|Follow Me|p2b: PrettyPlease
+|-singleturn|p2b: PrettyPlease|move: Follow Me
+|move|p1b: Maushold|Taunt|p2b: PrettyPlease
+|-start|p2b: PrettyPlease|move: Taunt
+|move|p2a: Hallucinate|Tera Starstorm|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|46/100
+|-damage|p1b: Maushold|12/100
+|
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|atk|2
+|-unboost|p2b: PrettyPlease|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750759628
+|switch|p2b: DontStartNow|Whimsicott, L50, M|100/100
+|move|p1a: Indeedee|Helping Hand|p1b: Maushold
+|-singleturn|p1b: Maushold|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Maushold|Population Bomb|p2a: Hallucinate
+|-damage|p2a: Hallucinate|87/100
+|-damage|p2a: Hallucinate|75/100
+|-damage|p2a: Hallucinate|62/100
+|-damage|p2a: Hallucinate|50/100
+|-damage|p2a: Hallucinate|39/100
+|-damage|p2a: Hallucinate|26/100
+|-damage|p2a: Hallucinate|15/100
+|-damage|p2a: Hallucinate|3/100
+|-damage|p2a: Hallucinate|0 fnt
+|faint|p2a: Hallucinate
+|detailschange|p2: Hallucinate|Terapagos, L50, M|[silent]
+|-hitcount|p2: Hallucinate|9
+|
+|upkeep
+|
+|t:|1750759650
+|switch|p2a: Levitating|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Levitating|As One
+|-ability|p2a: Levitating|Unnerve
+|turn|3
+|
+|t:|1750759668
+|move|p1a: Indeedee|Helping Hand|p1b: Maushold
+|-singleturn|p1b: Maushold|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Levitating|Psychic|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|-ability|p2a: Levitating|Grim Neigh|boost
+|-boost|p2a: Levitating|spa|1
+|-damage|p2a: Levitating|91/100|[from] item: Life Orb
+|move|p2b: DontStartNow|Moonblast|p1a: Indeedee
+|-damage|p1a: Indeedee|22/100
+|
+|upkeep
+|
+|t:|1750759681
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750759694
+|-terastallize|p1b: Calyrex|Ghost
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Levitating|Protect|p2a: Levitating
+|-singleturn|p2a: Levitating|Protect
+|move|p2b: DontStartNow|Tailwind|p2b: DontStartNow
+|-sidestart|p2: arkjsmith|move: Tailwind
+|move|p1b: Calyrex|Astral Barrage|p2b: DontStartNow|[spread] p2b
+|-activate|p2a: Levitating|move: Protect
+|-damage|p2b: DontStartNow|0 fnt
+|faint|p2b: DontStartNow
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750759699
+|switch|p2b: PrettyPlease|Smeargle, L50, F|100/100
+|turn|5
+|
+|t:|1750759721
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Levitating|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-ability|p2a: Levitating|Grim Neigh|boost
+|-boost|p2a: Levitating|spa|1
+|-damage|p2a: Levitating|82/100|[from] item: Life Orb
+|move|p2b: PrettyPlease|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|cant|p1b: Calyrex|slp
+|
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|spa|2
+|-unboost|p2b: PrettyPlease|def|1
+|upkeep
+|
+|t:|1750759738
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|6
+|
+|t:|1750759746
+|move|p2a: Levitating|Astral Barrage|p1a: Kyogre|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Kyogre|0 fnt
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100 slp
+|faint|p1a: Kyogre
+|-ability|p2a: Levitating|Grim Neigh|boost
+|-boost|p2a: Levitating|spa|1
+|-damage|p2a: Levitating|72/100|[from] item: Life Orb
+|move|p2b: PrettyPlease|Spore|p1b: Calyrex
+|-fail|p1b: Calyrex|slp
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Astral Barrage|p2b: PrettyPlease|[spread] p2a
+|-immune|p2b: PrettyPlease
+|-supereffective|p2a: Levitating
+|-damage|p2a: Levitating|0 fnt
+|faint|p2a: Levitating
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|spe|2
+|-unboost|p2b: PrettyPlease|spa|1
+|upkeep
+|turn|7
+|inactive|luoxuedacongming has 30 seconds left.
+|
+|t:|1750759773
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: PrettyPlease|Spore|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: arkjsmith|move: Tailwind
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|spe|2
+|-unboost|p2b: PrettyPlease|spd|1
+|upkeep
+|turn|8
+|
+|t:|1750759785
+|move|p2b: PrettyPlease|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|cant|p1b: Calyrex|slp
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|spe|2
+|-unboost|p2b: PrettyPlease|spd|1
+|upkeep
+|turn|9
+|
+|t:|1750759797
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: PrettyPlease|Decorate|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|2
+|-boost|p1b: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: PrettyPlease|Moody|boost
+|-boost|p2b: PrettyPlease|atk|2
+|-unboost|p2b: PrettyPlease|spe|1
+|upkeep
+|turn|10
+|c|☆arkjsmith|Fucking bullshit.
+|-message|arkjsmith forfeited.
+|
+|win|luoxuedacongming

@@ -1,0 +1,243 @@
+|j|☆yyfyyfyyf
+|j|☆Matutinha
+|t:|1750825747
+|gametype|doubles
+|player|p1|yyfyyfyyf|2|1193
+|player|p2|Matutinha|169|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yyfyyfyyf)
+|
+|t:|1750825763
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|yyfyyfyyf has 30 seconds left.
+|inactive|Matutinha has 30 seconds left.
+|
+|t:|1750825792
+|-terastallize|p2a: Solgaleo|Fire
+|move|p1b: Indeedee|Helping Hand|p1a: Lunala
+|-singleturn|p1a: Lunala|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Farigiraf|Trick|p1a: Lunala
+|-activate|p2b: Farigiraf|move: Trick|[of] p1a: Lunala
+|-item|p1a: Lunala|Choice Scarf|[from] move: Trick
+|-item|p2b: Farigiraf|Leftovers|[from] move: Trick
+|move|p1a: Lunala|Moongeist Beam|p2a: Solgaleo
+|-damage|p2a: Solgaleo|33/100
+|move|p2a: Solgaleo|Flare Blitz|p1b: Indeedee
+|-damage|p1b: Indeedee|30/100
+|-damage|p2a: Solgaleo|13/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|t:|1750825811
+|move|p2a: Solgaleo|Protect|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Lunala|Moongeist Beam|p2a: Solgaleo
+|-activate|p2a: Solgaleo|move: Protect
+|move|p2b: Farigiraf|Bulldoze|p1b: Indeedee|[spread] p1a,p1b
+|-activate|p2a: Solgaleo|move: Protect
+|-damage|p1a: Lunala|98/100
+|-damage|p1b: Indeedee|23/100
+|-unboost|p1a: Lunala|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750825834
+|move|p2a: Solgaleo|Flare Blitz|p1a: Lunala
+|-damage|p1a: Lunala|52/100
+|-damage|p2a: Solgaleo|0 fnt|[from] Recoil
+|faint|p2a: Solgaleo
+|move|p2b: Farigiraf|Hyper Voice|p1a: Lunala|[spread] p1b
+|-immune|p1a: Lunala
+|-damage|p1b: Indeedee|6/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Farigiraf
+|-immune|p2b: Farigiraf
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750825848
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750825861
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|5
+|
+|t:|1750825876
+|-terastallize|p1a: Lunala|Dark
+|move|p2a: Calyrex|Astral Barrage|p1b: Indeedee|[spread] p1a
+|-immune|p1b: Indeedee
+|-resisted|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|25/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Lunala|11/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750825895
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750825919
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Torkoal|31/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825937
+|switch|p1a: Lunala|Lunala, L50, tera:Dark|11/100
+|turn|7
+|
+|t:|1750825958
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1b: Calyrex|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p2b: Farigiraf|Hyper Voice|p1b: Calyrex|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750825975
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Farigiraf|51/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Matutinha has 30 seconds left.
+|inactive|Matutinha has 20 seconds left.
+|
+|t:|1750826013
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Calyrex|Psychic|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|83/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Calyrex|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Farigiraf|5/100
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750826016
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|10
+|
+|t:|1750826036
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|32/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Calyrex|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Calyrex|move: Wide Guard
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Farigiraf
+|
+|win|yyfyyfyyf
+|raw|yyfyyfyyf's rating: 1193 &rarr; <strong>1224</strong><br />(+31 for winning)
+|raw|Matutinha's rating: 1271 &rarr; <strong>1240</strong><br />(-31 for losing)
+|l|☆Matutinha
+|player|p2|
+|l|☆yyfyyfyyf
+|player|p1|
+|j|☆yyfyyfyyf
+|player|p1|yyfyyfyyf|2|
+|l|☆yyfyyfyyf
+|player|p1|

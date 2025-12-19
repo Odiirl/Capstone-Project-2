@@ -1,0 +1,171 @@
+|j|☆What The Groudon
+|j|☆stony_manchez
+|t:|1750740131
+|gametype|doubles
+|player|p1|What The Groudon|acerola-masters2|1188
+|player|p2|stony_manchez|102|1167
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by What The Groudon)
+|inactive|stony_manchez has 60 seconds left.
+|
+|t:|1750740183
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|stony_manchez has 30 seconds left.
+|inactive|stony_manchez has 20 seconds left.
+|inactive|stony_manchez has 15 seconds left.
+|
+|t:|1750740226
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|-enditem|p1a: Volcarona|Electric Seed
+|-boost|p1a: Volcarona|def|1|[from] item: Electric Seed
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: What The Groudon|move: Tailwind
+|move|p2b: Sableye|Light Screen|p2b: Sableye
+|-sidestart|p2: stony_manchez|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1750740248
+|switch|p2b: Reshiram|Reshiram, L50|100/100
+|-ability|p2b: Reshiram|Turboblaze
+|-terastallize|p2a: Zacian|Fire
+|move|p1b: Whimsicott|Moonblast|p2b: Reshiram
+|-damage|p2b: Reshiram|90/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|90/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Zacian|Behemoth Blade|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|upkeep
+|
+|t:|1750740254
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|inactive|stony_manchez has 30 seconds left.
+|inactive|stony_manchez has 20 seconds left.
+|inactive|stony_manchez has 15 seconds left.
+|
+|t:|1750740294
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Volcarona|Struggle Bug|p2a: Zacian|[spread] p2b
+|-activate|p2a: Zacian|move: Protect
+|-resisted|p2b: Reshiram
+|-damage|p2b: Reshiram|86/100
+|-unboost|p2b: Reshiram|spa|1
+|move|p1b: Groudon|Precipice Blades|p2a: Zacian|[spread] p2b
+|-activate|p2a: Zacian|move: Protect
+|-supereffective|p2b: Reshiram
+|-damage|p2b: Reshiram|0 fnt
+|faint|p2b: Reshiram
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750740308
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|turn|4
+|
+|t:|1750740322
+|move|p2b: Sableye|Will-O-Wisp|p1b: Groudon
+|-status|p1b: Groudon|brn
+|move|p1a: Volcarona|Fiery Dance|p2b: Sableye
+|-damage|p2b: Sableye|27/100
+|-boost|p1a: Volcarona|spa|1
+|move|p1b: Groudon|Precipice Blades|p2a: Zacian|[spread] p2a,p2b
+|-supereffective|p2a: Zacian
+|-crit|p2a: Zacian
+|-damage|p2a: Zacian|23/100
+|-damage|p2b: Sableye|0 fnt
+|faint|p2b: Sableye
+|move|p2a: Zacian|Behemoth Blade|p1b: Groudon
+|-damage|p1b: Groudon|34/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Groudon|28/100 brn|[from] brn
+|-sideend|p1: What The Groudon|move: Tailwind
+|upkeep
+|
+|t:|1750740337
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|turn|5
+|inactive|stony_manchez has 30 seconds left.
+|
+|t:|1750740369
+|-terastallize|p1a: Volcarona|Grass
+|move|p2b: Landorus|Stomping Tantrum|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2a: Zacian|Behemoth Blade|p1a: Volcarona
+|-damage|p1a: Volcarona|37/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Zacian
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: stony_manchez|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750740378
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750740388
+|move|p2b: Landorus|Stomping Tantrum|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|26/100
+|move|p1b: Miraidon|Draco Meteor|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2b: Landorus
+|
+|win|What The Groudon
+|raw|What The Groudon's rating: 1188 &rarr; <strong>1211</strong><br />(+23 for winning)
+|raw|stony_manchez's rating: 1167 &rarr; <strong>1144</strong><br />(-23 for losing)
+|l|☆What The Groudon
+|player|p1|
+|l|☆stony_manchez
+|player|p2|

@@ -1,0 +1,150 @@
+|j|‽Shrekers13
+|j|☆sillynator
+|t:|1750741576
+|gametype|doubles
+|player|p1|Shrekers13|170|1285
+|player|p2|sillynator|emmet|1266
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Murkrow, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sillynator)
+|inactive|Shrekers13 has 60 seconds left.
+|
+|t:|1750741619
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750741641
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Iron Bundle|Icy Wind|p2b: Ogerpon|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-supereffective|p2b: Ogerpon
+|-damage|p2a: Kyogre|95/100
+|-damage|p2b: Ogerpon|61/100
+|-unboost|p2a: Kyogre|spe|1
+|-unboost|p2b: Ogerpon|spe|1
+|move|p1a: Miraidon|Volt Switch|p2b: Ogerpon
+|-resisted|p2b: Ogerpon
+|-damage|p2b: Ogerpon|17/100
+|
+|t:|1750741651
+|switch|p1a: Farigiraf|Farigiraf, L50, F, shiny|100/100|[from] Volt Switch
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2a: Kyogre|Water Spout|p1b: Iron Bundle|[spread] p1a,p1b
+|-resisted|p1b: Iron Bundle
+|-damage|p1a: Farigiraf|4/100
+|-enditem|p1b: Iron Bundle|Focus Sash
+|-damage|p1b: Iron Bundle|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Shrekers13 has 30 seconds left.
+|
+|t:|1750741676
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Iron Bundle|Taunt|p2b: Ogerpon
+|-start|p2b: Ogerpon|move: Taunt
+|move|p1a: Farigiraf|Psychic Noise|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Kyogre|Water Spout|p1b: Iron Bundle|[spread] p1a,p1b
+|-resisted|p1b: Iron Bundle
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Iron Bundle|0 fnt
+|faint|p1a: Farigiraf
+|faint|p1b: Iron Bundle
+|-end|p1b: Iron Bundle|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741693
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-ability|p1b: Ogerpon|Mold Breaker
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|turn|3
+|
+|t:|1750741711
+|-terastallize|p2a: Kyogre|Ice
+|move|p2b: Incineroar|Fake Out|p1b: Ogerpon
+|-damage|p1b: Ogerpon|86/100
+|move|p1a: Miraidon|Electro Drift|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|cant|p1b: Ogerpon|flinch
+|move|p2a: Kyogre|Ice Beam|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|2/100
+|-status|p1a: Miraidon|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741727
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750741740
+|-terastallize|p1b: Ogerpon|Fire
+|detailschange|p1b: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p1b: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p1b: Ogerpon|atk|1
+|cant|p1a: Miraidon|frz
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Ogerpon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Ogerpon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Ogerpon|61/100
+|faint|p1a: Miraidon
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Kyogre|[anim] Ivy Cudgel Fire
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|15/100
+|move|p2a: Kyogre|Water Spout|p1b: Ogerpon
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|
+|win|sillynator
+|raw|Shrekers13's rating: 1285 &rarr; <strong>1259</strong><br />(-26 for losing)
+|raw|sillynator's rating: 1266 &rarr; <strong>1292</strong><br />(+26 for winning)
+|l|‽Shrekers13
+|player|p1|
+|l|☆sillynator
+|player|p2|

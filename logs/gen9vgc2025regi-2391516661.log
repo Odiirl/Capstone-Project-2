@@ -1,0 +1,195 @@
+|j|☆beanxxbot
+|j|‽goku black
+|t:|1750865353
+|gametype|doubles
+|player|p1|beanxxbot|169|1127
+|player|p2|goku black|102|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|
+|t:|1750865375
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750865400
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: goku black|move: Light Screen
+|move|p1a: Lunala|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|58/100
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|9/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750865424
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: goku black|Reflect
+|move|p1a: Lunala|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|17/100
+|move|p2a: Incineroar|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|t:|1750865436
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|upkeep
+|
+|t:|1750865443
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750865462
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Koraidon
+|-status|p1b: Koraidon|par
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|move|p1a: Lunala|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|77/100
+|-unboost|p2a: Miraidon|spa|1
+|move|p1b: Koraidon|Close Combat|p2a: Miraidon
+|-damage|p2a: Miraidon|13/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|91/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goku black)
+|c|☆beanxxbot|bruh
+|
+|t:|1750865488
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Lunala
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1a: Lunala|spa|1
+|
+|t:|1750865496
+|switch|p2b: Incineroar|Incineroar, L50, M|84/100|[from] Parting Shot
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|move|p2a: Miraidon|Parabolic Charge|p1a: Lunala|[spread] p2b
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Koraidon|move: Wide Guard
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|25/100
+|-heal|p2a: Miraidon|42/100|[from] drain|[of] p2b: Incineroar
+|move|p1b: Koraidon|Close Combat|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Miraidon
+|-damage|p1b: Koraidon|81/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865500
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|5
+|inactive|beanxxbot has 30 seconds left.
+|
+|t:|1750865528
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|61/100 par
+|cant|p1b: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1750865549
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Ogerpon|Encore|p2a: Ursaluna
+|-start|p2a: Ursaluna|Encore
+|move|p1b: Koraidon|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2b: Incineroar
+|-damage|p1b: Koraidon|51/100 par|[from] item: Life Orb
+|move|p2a: Ursaluna|Protect||[still]
+|-fail|p2a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750865559
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|17/100
+|turn|7
+|
+|t:|1750865572
+|switch|p1b: Lunala|Lunala, L50|100/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Grimmsnarl|[anim] Ivy Cudgel Water
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|-weather|none
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|-message|goku black forfeited.
+|
+|win|beanxxbot
+|raw|beanxxbot's rating: 1127 &rarr; <strong>1159</strong><br />(+32 for winning)
+|raw|goku black's rating: 1220 &rarr; <strong>1188</strong><br />(-32 for losing)
+|l|‽goku black
+|player|p2|
+|c|☆beanxxbot|gg

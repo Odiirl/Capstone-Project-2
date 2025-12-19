@@ -1,0 +1,205 @@
+|j|☆Doggs tw
+|j|☆RedGold010
+|t:|1750840133
+|gametype|doubles
+|player|p1|Doggs tw|266|1357
+|player|p2|RedGold010|red|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Umbreon, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Doggs tw)
+|inactive|RedGold010 has 60 seconds left.
+|inactive|RedGold010 has 30 seconds left.
+|inactive|RedGold010 has 20 seconds left.
+|
+|t:|1750840205
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Scream Tail|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750840229
+|move|p1a: Rillaboom|Fake Out|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|92/100
+|move|p2a: Incineroar|Fake Out|p1b: Scream Tail
+|-damage|p1b: Scream Tail|92/100
+|cant|p1b: Scream Tail|flinch
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: RedGold010|move: Tailwind
+|
+|-heal|p1b: Scream Tail|98/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|RedGold010 has 30 seconds left.
+|inactive|RedGold010 has 20 seconds left.
+|inactive|RedGold010 has 15 seconds left.
+|inactive|RedGold010 has 10 seconds left.
+|
+|t:|1750840274
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p1b: Scream Tail|Encore|p2a: Incineroar
+|-start|p2a: Incineroar|Encore
+|move|p2b: Ho-Oh|Brave Bird|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|74/100
+|-damage|p2b: Ho-Oh|84/100|[from] Recoil
+|move|p2a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Incineroar
+|
+|-heal|p1b: Scream Tail|100/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|81/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|RedGold010 has 30 seconds left.
+|
+|t:|1750840302
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Terapagos
+|-damage|p1a: Terapagos|25/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Terapagos|32/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|38/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|RedGold010 has 30 seconds left.
+|
+|t:|1750840333
+|-terastallize|p1b: Rillaboom|Water
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Ho-Oh|Brave Bird|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|move|p2a: Groudon|Precipice Blades|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-damage|p1b: Rillaboom|55/100
+|move|p1b: Rillaboom|U-turn|p2a: Groudon
+|-damage|p2a: Groudon|86/100
+|
+|t:|1750840348
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100|[from] U-turn
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|92/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|44/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|50/100|[from] item: Leftovers
+|-sideend|p2: RedGold010|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750840368
+|move|p1b: Scream Tail|Disable|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|Disable|Brave Bird
+|move|p1a: Terapagos|Tera Starstorm|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|41/100
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|move|p2a: Groudon|Precipice Blades|p1b: Scream Tail
+|-damage|p1b: Scream Tail|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Scream Tail|48/100|[from] Grassy Terrain
+|-heal|p2a: Groudon|98/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750840375
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|6
+|
+|t:|1750840400
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Rillaboom|Rillaboom, L50, F, tera:Water|55/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Rillaboom|atk|1
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-damage|p1a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|90/100|[from] Grassy Terrain
+|-heal|p2a: Groudon|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|61/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750840421
+|switch|p2b: Ho-Oh|Ho-Oh, L50|74/100
+|turn|7
+|
+|t:|1750840437
+|switch|p2a: Venusaur|Venusaur, L50, F|100/100
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Ho-Oh|Tailwind|p2b: Ho-Oh
+|-sidestart|p2: RedGold010|move: Tailwind
+|move|p1b: Rillaboom|Wood Hammer|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|85/100
+|-damage|p1b: Rillaboom|57/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Venusaur|91/100|[from] Grassy Terrain
+|-heal|p1a: Koraidon|96/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|63/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|-message|Doggs tw forfeited.
+|
+|win|RedGold010
+|raw|Doggs tw's rating: 1357 &rarr; <strong>1339</strong><br />(-18 for losing)
+|raw|RedGold010's rating: 1396 &rarr; <strong>1414</strong><br />(+18 for winning)
+|l|☆Doggs tw
+|player|p1|
+|l|☆RedGold010
+|player|p2|

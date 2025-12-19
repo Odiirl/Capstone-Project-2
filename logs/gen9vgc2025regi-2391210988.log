@@ -1,0 +1,273 @@
+|j|☆Royal_Rumpus
+|j|☆Mathethe
+|t:|1750816912
+|gametype|doubles
+|player|p1|Royal_Rumpus|blue|1204
+|player|p2|Mathethe|266|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Fezandipiti, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Garganacl, L50, M|
+|teampreview|4
+|
+|t:|1750816927
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750816947
+|move|p2a: Iron Valiant|Close Combat|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1b: Urshifu
+|-damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Indeedee
+|-damage|p1a: Indeedee|69/100
+|-unboost|p1a: Indeedee|spe|1
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750816962
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|2
+|
+|t:|1750816974
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p2a: Iron Valiant|Protect|p2a: Iron Valiant
+|-singleturn|p2a: Iron Valiant|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Tornadus
+|-activate|p2b: Tornadus|move: Protect
+|move|p1a: Indeedee|Psychic|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Protect
+|
+|-heal|p1a: Indeedee|76/100|[from] Grassy Terrain
+|-heal|p2a: Iron Valiant|97/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750816996
+|move|p1a: Indeedee|Psychic|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|move|p1b: Rillaboom|U-turn|p2b: Tornadus
+|-resisted|p2b: Tornadus
+|-damage|p2b: Tornadus|85/100
+|
+|t:|1750817002
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Calyrex|[spread] 
+|-miss|p2b: Tornadus|p1a: Indeedee
+|-miss|p2b: Tornadus|p1b: Calyrex
+|
+|-heal|p1a: Indeedee|82/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Royal_Rumpus)
+|
+|t:|1750817025
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|4
+|
+|t:|1750817046
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p2b: Tornadus|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|-enditem|p1a: Indeedee|Mental Herb
+|-end|p1a: Indeedee|move: Taunt
+|move|p1a: Indeedee|Light Screen|p1a: Indeedee
+|-sidestart|p1: Royal_Rumpus|move: Light Screen
+|move|p2a: Terapagos|Tera Starstorm|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|61/100
+|-damage|p1b: Calyrex|75/100
+|move|p1b: Calyrex|Psychic|p2a: Terapagos
+|-damage|p2a: Terapagos|63/100
+|
+|-heal|p2a: Terapagos|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Royal_Rumpus has 30 seconds left.
+|
+|t:|1750817073
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Tornadus|Taunt|p1a: Rillaboom
+|-start|p1a: Rillaboom|move: Taunt
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|83/100
+|-damage|p1b: Calyrex|51/100
+|move|p1b: Calyrex|Psychic|p2a: Terapagos
+|-damage|p2a: Terapagos|35/100
+|
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|41/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|47/100|[from] item: Leftovers
+|-heal|p1b: Calyrex|57/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750817089
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Rillaboom|Fake Out|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p1b: Calyrex|Psychic|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|
+|-heal|p1b: Calyrex|63/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|53/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750817112
+|move|p1b: Calyrex|Psychic|p2a: Terapagos
+|-damage|p2a: Terapagos|18/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|63/100
+|-damage|p1b: Calyrex|43/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|-damage|p1a: Rillaboom|56/100|[from] Recoil
+|
+|-heal|p1b: Calyrex|49/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-end|p1a: Rillaboom|move: Taunt
+|upkeep
+|
+|t:|1750817121
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750817135
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Mathethe|move: Tailwind
+|move|p1a: Rillaboom|Grassy Glide|p2a: Calyrex
+|-damage|p2a: Calyrex|54/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Rillaboom|32/100
+|
+|-heal|p2a: Calyrex|61/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|55/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|38/100|[from] Grassy Terrain
+|-sideend|p1: Royal_Rumpus|move: Light Screen
+|upkeep
+|turn|9
+|inactive|Royal_Rumpus has 30 seconds left.
+|
+|t:|1750817162
+|switch|p1b: Indeedee|Indeedee-F, L50, F|61/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Calyrex|Astral Barrage|p1a: Rillaboom|[spread] p1a
+|-immune|p1b: Indeedee
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Indeedee|[miss]
+|-miss|p2b: Tornadus|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750817172
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|55/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750817181
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-immune|p1b: Indeedee
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Indeedee|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Indeedee|38/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|11
+|inactive|Royal_Rumpus has 30 seconds left.
+|
+|t:|1750817207
+|-terastallize|p1a: Calyrex|Normal
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Indeedee|Light Screen|p1b: Indeedee
+|-sidestart|p1: Royal_Rumpus|move: Light Screen
+|move|p1a: Calyrex|Astral Barrage|p2b: Tornadus|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-activate|p2b: Tornadus|move: Protect
+|
+|-sideend|p2: Mathethe|move: Tailwind
+|upkeep
+|turn|12
+|
+|t:|1750817227
+|move|p1b: Indeedee|Psychic|p2b: Tornadus
+|-damage|p2b: Tornadus|42/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Indeedee|[spread] p1b
+|-miss|p2b: Tornadus|p1a: Calyrex
+|-damage|p1b: Indeedee|23/100
+|-unboost|p1b: Indeedee|spe|1
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Tornadus
+|
+|win|Royal_Rumpus
+|raw|Royal_Rumpus's rating: 1204 &rarr; <strong>1224</strong><br />(+20 for winning)
+|raw|Mathethe's rating: 1139 &rarr; <strong>1119</strong><br />(-20 for losing)

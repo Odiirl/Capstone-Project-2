@@ -1,0 +1,187 @@
+|j|☆ottotheotocyon
+|j|☆FakeoutPhaseOut
+|t:|1750869436
+|gametype|doubles
+|player|p1|ottotheotocyon|dancer|1087
+|player|p2|FakeoutPhaseOut|2|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Armarouge, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FakeoutPhaseOut)
+|
+|t:|1750869460
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Cecelia|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Solar SolarEclispe|Koraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Solar SolarEclispe
+|-activate|p2b: Solar SolarEclispe|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Cecelia
+|-end|p1b: Iron Bundle|Quark Drive
+|turn|1
+|inactive|ottotheotocyon has 30 seconds left.
+|inactive|FakeoutPhaseOut has 30 seconds left.
+|
+|t:|1750869489
+|move|p2a: Cecelia|Fake Out|p1b: Iron Bundle
+|-activate|p1b: Iron Bundle|move: Psychic Terrain
+|move|p1b: Iron Bundle|Icy Wind|p2b: Solar SolarEclispe|[spread] p2a,p2b
+|-supereffective|p2b: Solar SolarEclispe
+|-damage|p2a: Cecelia|81/100
+|-damage|p2b: Solar SolarEclispe|74/100
+|-unboost|p2a: Cecelia|spe|1
+|-unboost|p2b: Solar SolarEclispe|spe|1
+|move|p1a: Miraidon|Draco Meteor|p2b: Solar SolarEclispe
+|-supereffective|p2b: Solar SolarEclispe
+|-damage|p2b: Solar SolarEclispe|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Solar SolarEclispe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆ottotheotocyon|psychic terrain bro
+|
+|t:|1750869503
+|switch|p2b: Ammo|Armarouge, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1750869518
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Cecelia|Follow Me|p2a: Cecelia
+|-singleturn|p2a: Cecelia|move: Follow Me
+|move|p1b: Iron Bundle|Encore|p2a: Cecelia
+|-start|p2a: Cecelia|Encore
+|move|p2b: Ammo|Expanding Force|p1b: Iron Bundle|[spread] p1a,p1b
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|67/100
+|-enditem|p1b: Iron Bundle|Focus Sash
+|-damage|p1b: Iron Bundle|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|ottotheotocyon has 30 seconds left.
+|
+|t:|1750869548
+|-terastallize|p2a: Cecelia|Ghost
+|move|p1b: Iron Bundle|Protect|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Protect
+|move|p2a: Cecelia|Follow Me|p2a: Cecelia
+|-singleturn|p2a: Cecelia|move: Follow Me
+|move|p2b: Ammo|Expanding Force|p1b: Iron Bundle|[spread] p1a
+|-activate|p1b: Iron Bundle|move: Protect
+|-resisted|p1a: Archaludon
+|-crit|p1a: Archaludon
+|-damage|p1a: Archaludon|19/100
+|move|p1a: Archaludon|Draco Meteor|p2b: Ammo
+|-damage|p2b: Ammo|16/100
+|-unboost|p1a: Archaludon|spa|2
+|-enditem|p1a: Archaludon|White Herb
+|-clearnegativeboost|p1a: Archaludon|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750869572
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|move|p2a: Cecelia|Follow Me|p2a: Cecelia
+|-singleturn|p2a: Cecelia|move: Follow Me
+|move|p1b: Iron Bundle|Icy Wind|p2a: Cecelia|[spread] p2a,p2b
+|-resisted|p2b: Ammo
+|-damage|p2a: Cecelia|60/100
+|-damage|p2b: Ammo|3/100
+|-unboost|p2a: Cecelia|spe|1
+|-unboost|p2b: Ammo|spe|1
+|move|p2b: Ammo|Expanding Force|p1a: Miraidon
+|-damage|p1a: Miraidon|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|ottotheotocyon has 30 seconds left.
+|
+|t:|1750869603
+|switch|p2a: BabyMama|Snorlax, L50, F, shiny|100/100
+|move|p1b: Iron Bundle|Icy Wind|p2a: BabyMama|[spread] p2a,p2b
+|-crit|p2a: BabyMama
+|-resisted|p2b: Ammo
+|-damage|p2a: BabyMama|83/100
+|-damage|p2b: Ammo|0 fnt
+|-unboost|p2a: BabyMama|spe|1
+|faint|p2b: Ammo
+|move|p1a: Miraidon|Volt Switch|p2a: BabyMama
+|-damage|p2a: BabyMama|21/100
+|-enditem|p2a: BabyMama|Starf Berry|[eat]
+|-boost|p2a: BabyMama|def|2|[from] item: Starf Berry
+|
+|t:|1750869613
+|switch|p1a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750869621
+|switch|p2b: Cecelia|Indeedee-F, L50, F, shiny, tera:Ghost|60/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Cecelia
+|-end|p1b: Iron Bundle|Quark Drive
+|turn|6
+|
+|t:|1750869640
+|move|p1b: Iron Bundle|Protect|p1b: Iron Bundle
+|-singleturn|p1b: Iron Bundle|Protect
+|move|p2b: Cecelia|Follow Me|p2b: Cecelia
+|-singleturn|p2b: Cecelia|move: Follow Me
+|move|p1a: Kyogre|Calm Mind|p1a: Kyogre
+|-boost|p1a: Kyogre|spa|1
+|-boost|p1a: Kyogre|spd|1
+|move|p2a: BabyMama|Rest|p2a: BabyMama
+|-status|p2a: BabyMama|slp|[from] move: Rest
+|-heal|p2a: BabyMama|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|FakeoutPhaseOut has 30 seconds left.
+|
+|t:|1750869665
+|move|p1b: Iron Bundle|Encore|p2b: Cecelia
+|-start|p2b: Cecelia|Encore
+|move|p1a: Kyogre|Origin Pulse|p2b: Cecelia|[spread] p2a,p2b
+|-crit|p2a: BabyMama
+|-damage|p2a: BabyMama|0 fnt
+|-damage|p2b: Cecelia|0 fnt
+|faint|p2a: BabyMama
+|faint|p2b: Cecelia
+|
+|win|ottotheotocyon
+|raw|ottotheotocyon's rating: 1087 &rarr; <strong>1111</strong><br />(+24 for winning)
+|raw|FakeoutPhaseOut's rating: 1045 &rarr; <strong>1030</strong><br />(-15 for losing)
+|l|☆FakeoutPhaseOut
+|player|p2|

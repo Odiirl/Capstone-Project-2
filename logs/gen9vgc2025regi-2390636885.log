@@ -1,0 +1,131 @@
+|j|☆BlznFrnzy
+|j|☆ketchup_with_toast
+|t:|1750740166
+|gametype|doubles
+|player|p1|BlznFrnzy|170|1405
+|player|p2|ketchup_with_toast|265|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+BlznFrnzy rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ketchup_with_toast)
+|inactive|BlznFrnzy has 60 seconds left.
+|
+|t:|1750740251
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Sableye|atk|1
+|turn|1
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750740283
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Sableye|Fake Out|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Psychic Terrain
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|64/100
+|
+|t:|1750740297
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100|[from] Volt Switch
+|move|p1a: Calyrex|Glacial Lance|p2b: Sableye|[spread] p2a,p2b
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|-damage|p2b: Sableye|14/100
+|
+|-heal|p2a: Hatterene|21/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750740309
+|move|p2a: Hatterene|Protect|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Protect
+|move|p2b: Sableye|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-heal|p2a: Hatterene|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750740320
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1750740339
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|-unboost|p2b: Sableye|atk|1
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|70/100
+|-damage|p1b: Incineroar|76/100
+|move|p1a: Ursaluna|Facade|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750740357
+|switch|p2a: Sableye|Sableye, L50, M|14/100
+|turn|4
+|
+|t:|1750740377
+|-terastallize|p2b: Chi-Yu|Ghost
+|move|p1a: Ursaluna|Headlong Rush|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Chi-Yu
+|move|p1b: Incineroar|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-enditem|p2a: Sableye|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Sableye
+|
+|-damage|p1a: Ursaluna|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1750740391
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|5
+|-message|ketchup_with_toast forfeited.
+|
+|win|BlznFrnzy
+|raw|BlznFrnzy's rating: 1405 &rarr; <strong>1424</strong><br />(+19 for winning)
+|raw|ketchup_with_toast's rating: 1390 &rarr; <strong>1371</strong><br />(-19 for losing)
+|l|☆BlznFrnzy
+|player|p1|
+|l|☆ketchup_with_toast
+|player|p2|

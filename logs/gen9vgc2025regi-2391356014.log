@@ -1,0 +1,152 @@
+|j|☆iMatCia
+|j|☆frangorem
+|t:|1750842518
+|gametype|doubles
+|player|p1|iMatCia|266|1068
+|player|p2|frangorem|hilbert-wonderlauncher|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Ludicolo, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Empoleon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frangorem)
+|
+|t:|1750842560
+|start
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Empoleon|Empoleon, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-end|p1a: Raging Bolt|Protosynthesis
+|turn|1
+|inactive|frangorem has 30 seconds left.
+|
+|t:|1750842591
+|move|p1a: Raging Bolt|Thunderclap|p2b: Empoleon
+|-supereffective|p2b: Empoleon
+|-damage|p2b: Empoleon|2/100
+|move|p1b: Koraidon|U-turn|p2a: Kyogre
+|-damage|p2a: Kyogre|72/100
+|
+|t:|1750842596
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Empoleon|Wave Crash|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|43/100
+|-damage|p2b: Empoleon|0 fnt|[from] Recoil
+|faint|p2b: Empoleon
+|move|p2a: Kyogre|Avalanche|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|78/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|49/100|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750842614
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750842631
+|move|p1b: Rillaboom|Grassy Glide|p2b: Calyrex
+|-damage|p2b: Calyrex|59/100
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|30/100
+|move|p2b: Calyrex|Astral Barrage|p1a: Raging Bolt|[spread] p1a,p1b
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|faint|p1b: Rillaboom
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|move|p2a: Kyogre|Origin Pulse|p1: Raging Bolt|[notarget]
+|-fail|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|65/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750842651
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|3
+|
+|t:|1750842664
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Koraidon|83/100|[from] Recoil
+|move|p1b: Zacian|Play Rough|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750842679
+|switch|p2b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|4
+|
+|t:|1750842686
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p1a: Koraidon|Flare Blitz|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p1a: Koraidon|76/100|[from] Spiky Shield|[of] p2b: Ogerpon
+|move|p1b: Zacian|Sacred Sword|p2b: Ogerpon
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p1b: Zacian|88/100|[from] Spiky Shield|[of] p2b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|82/100|[from] Grassy Terrain
+|-heal|p1b: Zacian|94/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750842703
+|move|p1a: Koraidon|Flare Blitz|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|-damage|p1a: Koraidon|57/100|[from] Recoil
+|
+|win|iMatCia
+|raw|iMatCia's rating: 1068 &rarr; <strong>1098</strong><br />(+30 for winning)
+|raw|frangorem's rating: 1073 &rarr; <strong>1052</strong><br />(-21 for losing)
+|l|☆frangorem
+|player|p2|

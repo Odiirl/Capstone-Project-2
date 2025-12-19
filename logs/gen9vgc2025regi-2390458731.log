@@ -1,0 +1,266 @@
+|j|☆testing_cha
+|j|☆paulchamp
+|t:|1750715695
+|gametype|doubles
+|player|p1|testing_cha|parasollady|1549
+|player|p2|paulchamp|cyrus|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by paulchamp)
+|inactive|paulchamp has 60 seconds left.
+|
+|t:|1750715730
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750715744
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: testing_cha|move: Aurora Veil
+|move|p1b: Rillaboom|U-turn|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|51/100
+|
+|t:|1750715747
+|switch|p1b: Kyurem|Kyurem-White, L50|100/100|[from] U-turn
+|-ability|p1b: Kyurem|Turboblaze
+|move|p2a: Calyrex|Glacial Lance|p1b: Kyurem|[spread] p1a,p1b
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|83/100
+|-damage|p1b: Kyurem|79/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Farigiraf|57/100|[from] Grassy Terrain
+|-heal|p1b: Kyurem|85/100|[from] Grassy Terrain
+|-heal|p1a: Ninetales|89/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750715769
+|move|p2a: Calyrex|Stomping Tantrum|p1b: Kyurem
+|-damage|p1b: Kyurem|74/100
+|move|p2b: Farigiraf|Rain Dance|p2b: Farigiraf
+|-weather|RainDance
+|move|p1b: Kyurem|Fusion Flare|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|68/100
+|move|p1a: Ninetales|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|55/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|63/100|[from] Grassy Terrain
+|-heal|p1b: Kyurem|80/100|[from] Grassy Terrain
+|-heal|p1a: Ninetales|95/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|testing_cha has 30 seconds left.
+|
+|t:|1750715796
+|move|p2b: Farigiraf|Ally Switch|p2b: Farigiraf
+|swap|p2b: Farigiraf|0|[from] move: Ally Switch
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyurem|[spread] p1a,p1b
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|72/100
+|-damage|p1b: Kyurem|46/100
+|move|p1b: Kyurem|Earth Power|p2a: Farigiraf
+|-damage|p2a: Farigiraf|32/100
+|move|p1a: Ninetales|Moonblast|p2a: Farigiraf
+|-damage|p2a: Farigiraf|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|60/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|18/100|[from] Grassy Terrain
+|-heal|p1b: Kyurem|52/100|[from] Grassy Terrain
+|-heal|p1a: Ninetales|78/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750715810
+|switch|p1a: Lunala|Lunala, L50|100/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyurem|[spread] p1a,p1b
+|-damage|p1a: Lunala|84/100
+|-damage|p1b: Kyurem|16/100
+|move|p2a: Farigiraf|Dazzling Gleam|p1b: Kyurem|[spread] p1a,p1b
+|-supereffective|p1b: Kyurem
+|-damage|p1a: Lunala|77/100
+|-damage|p1b: Kyurem|5/100
+|move|p1b: Kyurem|Fusion Flare|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|29/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|35/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|24/100|[from] Grassy Terrain
+|-heal|p1b: Kyurem|12/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|84/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|testing_cha has 30 seconds left.
+|
+|t:|1750715837
+|-terastallize|p1a: Lunala|Fairy
+|move|p2a: Farigiraf|Ally Switch|p2a: Farigiraf
+|swap|p2a: Farigiraf|1|[from] move: Ally Switch
+|move|p2a: Calyrex|Glacial Lance|p1b: Kyurem|[spread] p1a,p1b
+|-damage|p1a: Lunala|61/100
+|-damage|p1b: Kyurem|0 fnt
+|faint|p1b: Kyurem
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|41/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|30/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|67/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|73/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750715840
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|6
+|
+|t:|1750715861
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Lunala|Moonblast|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Rillaboom|Wood Hammer|p2b: Farigiraf
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-damage|p1b: Rillaboom|90/100|[from] Recoil
+|
+|-weather|none
+|-heal|p1a: Lunala|79/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|85/100|[from] item: Leftovers
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750715868
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|inactive|paulchamp has 30 seconds left.
+|inactive|paulchamp has 20 seconds left.
+|inactive|testing_cha has 30 seconds left.
+|
+|t:|1750715919
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|54/100
+|move|p1a: Lunala|Moonblast|p2b: Miraidon
+|-damage|p2b: Miraidon|50/100
+|-unboost|p2b: Miraidon|spa|1
+|move|p1b: Rillaboom|Wood Hammer|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-damage|p1b: Rillaboom|80/100|[from] Recoil
+|
+|-heal|p1a: Lunala|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750715929
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|8
+|
+|t:|1750715952
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p1b: Rillaboom|U-turn|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|36/100
+|
+|t:|1750715962
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|78/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p2a: Annihilape|Rage Fist|p1b: Ninetales
+|-damage|p1b: Ninetales|67/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Lunala|66/100|[from] item: Leftovers
+|-sideend|p1: testing_cha|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1750715983
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|38/100
+|move|p1b: Ninetales|Aurora Veil|p1b: Ninetales
+|-sidestart|p1: testing_cha|move: Aurora Veil
+|move|p1a: Lunala|Moonblast|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Annihilape|Bulk Up|p2a: Annihilape
+|-boost|p2a: Annihilape|atk|1
+|-boost|p2a: Annihilape|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Lunala|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750715999
+|move|p1b: Ninetales|Encore|p2a: Annihilape
+|-start|p2a: Annihilape|Encore
+|move|p1a: Lunala|Moonblast|p2a: Annihilape
+|-supereffective|p2a: Annihilape
+|-damage|p2a: Annihilape|4/100
+|-enditem|p2a: Annihilape|Weakness Policy
+|-boost|p2a: Annihilape|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Annihilape|spa|2|[from] item: Weakness Policy
+|move|p2a: Annihilape|Bulk Up|p2a: Annihilape
+|-boost|p2a: Annihilape|atk|1
+|-boost|p2a: Annihilape|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Lunala|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|-message|paulchamp forfeited.
+|
+|win|testing_cha
+|raw|testing_cha's rating: 1549 &rarr; <strong>1565</strong><br />(+16 for winning)
+|raw|paulchamp's rating: 1474 &rarr; <strong>1458</strong><br />(-16 for losing)
+|l|☆paulchamp
+|player|p2|
+|l|☆testing_cha
+|player|p1|

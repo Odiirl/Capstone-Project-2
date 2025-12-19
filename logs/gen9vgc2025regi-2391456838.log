@@ -1,0 +1,150 @@
+|j|☆Skh11
+|j|☆kunna1
+|t:|1750858530
+|gametype|doubles
+|player|p1|Skh11|bruno|1458
+|player|p2|kunna1|1|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skh11)
+|inactive|kunna1 also wants the timer to be on.
+|inactive|Skh11 has 60 seconds left.
+|
+|t:|1750858560
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Scovillain|Scovillain, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750858568
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2b: Koraidon|Collision Course|p1b: Kyogre
+|-damage|p1b: Kyogre|45/100
+|move|p2a: Scovillain|Spicy Extract|p2b: Koraidon
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|-boost|p2b: Koraidon|atk|2
+|move|p1a: Calyrex|Glacial Lance|p2a: Scovillain|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-enditem|p2a: Scovillain|Focus Sash
+|-damage|p2a: Scovillain|1/100
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750858577
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|2
+|
+|t:|1750858594
+|-terastallize|p2b: Miraidon|Electric
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|22/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon|[spread] p2b
+|-activate|p2a: Scovillain|move: Protect
+|-damage|p2b: Miraidon|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|kunna1 has 30 seconds left.
+|
+|t:|1750858620
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2b: Miraidon|Electro Drift|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2a: Scovillain|Overheat|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-unboost|p2a: Scovillain|spa|2
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750858630
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p1a: Kyogre|Kyogre, L50|45/100
+|turn|4
+|
+|t:|1750858648
+|switch|p2b: Clefairy|Clefairy, L50, F|100/100
+|move|p2a: Scovillain|Overheat|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|96/100
+|-unboost|p2a: Scovillain|spa|2
+|move|p1a: Kyogre|Origin Pulse|p2a: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Scovillain|0 fnt
+|-damage|p2b: Clefairy|20/100
+|faint|p2a: Scovillain
+|move|p1b: Raging Bolt|Snarl|p2b: Clefairy
+|-resisted|p2b: Clefairy
+|-damage|p2b: Clefairy|10/100
+|-unboost|p2b: Clefairy|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750858658
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|26/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750858681
+|-terastallize|p1b: Raging Bolt|Fairy
+|move|p2a: Miraidon|Draco Meteor|p1b: Raging Bolt
+|-immune|p1b: Raging Bolt
+|move|p1a: Kyogre|Origin Pulse|p2a: Miraidon|[spread] p2b
+|-miss|p1a: Kyogre|p2a: Miraidon
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|move|p1b: Raging Bolt|Snarl|p2a: Miraidon|[miss]
+|-miss|p1b: Raging Bolt|p2a: Miraidon
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|kunna1 forfeited.
+|
+|win|Skh11
+|raw|Skh11's rating: 1458 &rarr; <strong>1478</strong><br />(+20 for winning)
+|raw|kunna1's rating: 1451 &rarr; <strong>1431</strong><br />(-20 for losing)
+|l|☆kunna1
+|player|p2|
+|l|☆Skh11
+|player|p1|

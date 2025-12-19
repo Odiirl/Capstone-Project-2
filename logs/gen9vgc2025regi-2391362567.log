@@ -1,0 +1,204 @@
+|j|☆Agent VGD
+|j|☆yanxi0421
+|t:|1750843756
+|gametype|doubles
+|player|p1|Agent VGD|camper|1316
+|player|p2|yanxi0421|1|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Stonjourner, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750843798
+|start
+|switch|p1a: Iron Moth|Iron Moth, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yanxi0421)
+|
+|t:|1750843821
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisdef
+|move|p2a: Incineroar|Fake Out|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|95/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Brute Bonnet
+|move|p1a: Iron Moth|Fiery Dance|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|43/100
+|move|p2b: Koraidon|Scale Shot|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|83/100
+|-damage|p1b: Brute Bonnet|72/100
+|-damage|p1b: Brute Bonnet|60/100
+|-damage|p1b: Brute Bonnet|47/100
+|-hitcount|p1b: Brute Bonnet|4
+|-unboost|p2b: Koraidon|def|1
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|yanxi0421 has 30 seconds left.
+|inactive|yanxi0421 has 20 seconds left.
+|
+|t:|1750843861
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p1a: Iron Moth|Dazzling Gleam|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Incineroar|22/100
+|-damage|p2b: Koraidon|20/100
+|move|p2b: Koraidon|Scale Shot|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|37/100
+|-damage|p1b: Brute Bonnet|25/100
+|-damage|p1b: Brute Bonnet|13/100
+|-damage|p1b: Brute Bonnet|1/100
+|-hitcount|p1b: Brute Bonnet|4
+|-unboost|p2b: Koraidon|def|1
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|10/100|[from] item: Life Orb
+|move|p2a: Incineroar|Parting Shot|p1b: Brute Bonnet
+|-unboost|p1b: Brute Bonnet|atk|1
+|-unboost|p1b: Brute Bonnet|spa|1
+|
+|t:|1750843886
+|switch|p2a: Lunala|Lunala, L50|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750843905
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2b: Koraidon|Scale Shot|p1b: Brute Bonnet|[miss]
+|-miss|p2b: Koraidon|p1b: Brute Bonnet
+|move|p1a: Iron Moth|Fiery Dance|p2a: Lunala
+|-damage|p2a: Lunala|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750843921
+|move|p1b: Brute Bonnet|Rage Powder|p1b: Brute Bonnet
+|-singleturn|p1b: Brute Bonnet|move: Rage Powder
+|move|p2b: Koraidon|Scale Shot|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|-hitcount|p1: Brute Bonnet|1
+|-unboost|p2b: Koraidon|def|1
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2b: Koraidon
+|move|p1a: Iron Moth|Fiery Dance|p2a: Lunala
+|-damage|p2a: Lunala|35/100
+|move|p2a: Lunala|Tailwind|p2a: Lunala
+|-sidestart|p2: yanxi0421|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750843936
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-item|p1b: Terapagos|Leftovers|[from] ability: Frisk|[of] p2b: Typhlosion
+|turn|5
+|
+|t:|1750843950
+|move|p2b: Typhlosion|Eruption|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Iron Moth
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Iron Moth|64/100
+|-damage|p1b: Terapagos|68/100
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-weather|none
+|-heal|p1b: Terapagos|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750843962
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750843985
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|81/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|move|p2b: Typhlosion|Eruption|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|73/100
+|-damage|p1b: Terapagos|57/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Koraidon
+|-damage|p1a: Koraidon|1/100
+|move|p1a: Koraidon|Outrage|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p1b: Terapagos|Tera Starstorm|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-heal|p1b: Terapagos|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750844000
+|switch|p2b: Incineroar|Incineroar, L50, M|22/100
+|turn|7
+|-message|yanxi0421 forfeited.
+|
+|win|Agent VGD
+|raw|Agent VGD's rating: 1316 &rarr; <strong>1333</strong><br />(+17 for winning)
+|raw|yanxi0421's rating: 1257 &rarr; <strong>1236</strong><br />(-21 for losing)
+|l|☆yanxi0421
+|player|p2|
+|l|☆Agent VGD
+|player|p1|

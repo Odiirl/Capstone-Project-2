@@ -1,0 +1,165 @@
+|j|☆protodrake
+|j|☆pom321321321
+|t:|1750858519
+|gametype|doubles
+|player|p1|protodrake|101|1548
+|player|p2|pom321321321|wattson|1498
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pom321321321)
+|
+|t:|1750858546
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Cerus|Lunala, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|inactive|protodrake has 30 seconds left.
+|
+|t:|1750858575
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Sableye|Gravity|p2b: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Cerus|Hypnosis|p1a: Ursaluna
+|-status|p1a: Ursaluna|slp|[from] move: Hypnosis
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|pom321321321 has 30 seconds left.
+|
+|t:|1750858607
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Sableye|Reflect|p2b: Sableye
+|-sidestart|p2: pom321321321|Reflect
+|cant|p1a: Ursaluna|slp
+|move|p2a: Cerus|Hypnosis|p1b: Indeedee
+|-status|p1b: Indeedee|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|3
+|
+|t:|1750858626
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|cant|p1b: Indeedee|slp
+|cant|p1a: Ursaluna|slp
+|move|p2a: Cerus|Calm Mind|p2a: Cerus
+|-boost|p2a: Cerus|spa|1
+|-boost|p2a: Cerus|spd|1
+|
+|upkeep
+|turn|4
+|inactive|protodrake has 30 seconds left.
+|
+|t:|1750858654
+|cant|p1b: Indeedee|slp
+|cant|p1a: Ursaluna|slp
+|move|p2b: Incineroar|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|74/100 slp
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Cerus|Hypnosis|p1a: Ursaluna
+|-fail|p1a: Ursaluna|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1750858675
+|-curestatus|p1b: Indeedee|slp|[msg]
+|move|p1b: Indeedee|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Indeedee
+|-curestatus|p1a: Ursaluna|slp|[msg]
+|move|p1a: Ursaluna|Crunch|p2a: Cerus
+|-supereffective|p2a: Cerus
+|-damage|p2a: Cerus|70/100
+|-unboost|p2a: Cerus|def|1
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|23/100
+|-enditem|p1b: Indeedee|Focus Sash|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Cerus|Calm Mind|p2a: Cerus
+|-boost|p2a: Cerus|spa|1
+|-boost|p2a: Cerus|spd|1
+|
+|-heal|p2a: Cerus|76/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Gravity
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|pom321321321 has 30 seconds left.
+|inactive|pom321321321 has 20 seconds left.
+|inactive|pom321321321 has 15 seconds left.
+|inactive|pom321321321 has 10 seconds left.
+|
+|t:|1750858721
+|-terastallize|p2a: Cerus|Fairy
+|move|p2a: Cerus|Calm Mind|p2a: Cerus
+|-boost|p2a: Cerus|spa|1
+|-boost|p2a: Cerus|spd|1
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Ursaluna|Crunch|p2a: Cerus
+|-resisted|p2a: Cerus
+|-damage|p2a: Cerus|69/100
+|
+|-heal|p2a: Cerus|75/100|[from] item: Leftovers
+|-sideend|p2: pom321321321|Reflect
+|upkeep
+|
+|t:|1750858734
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|7
+|inactive|pom321321321 has 30 seconds left.
+|
+|t:|1750858765
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-terastallize|p1b: Urshifu|Water
+|move|p2a: Cerus|Moongeist Beam|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2b: Incineroar|Parting Shot|p1a: Calyrex
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|
+|-heal|p2a: Cerus|81/100|[from] item: Leftovers
+|upkeep
+|-message|protodrake forfeited.
+|
+|win|pom321321321
+|raw|protodrake's rating: 1548 &rarr; <strong>1525</strong><br />(-23 for losing)
+|raw|pom321321321's rating: 1498 &rarr; <strong>1521</strong><br />(+23 for winning)
+|l|☆protodrake
+|player|p1|
+|l|☆pom321321321
+|player|p2|

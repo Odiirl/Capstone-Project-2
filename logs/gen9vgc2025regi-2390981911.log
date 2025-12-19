@@ -1,0 +1,162 @@
+|j|☆NoahYeehaw
+|j|☆justaVGCplayer
+|t:|1750789567
+|gametype|doubles
+|player|p1|NoahYeehaw|102|1171
+|player|p2|justaVGCplayer|red|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Blissey, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by justaVGCplayer)
+|
+|t:|1750789645
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|inactive|justaVGCplayer has 30 seconds left.
+|
+|t:|1750789673
+|move|p2b: Incineroar|Fake Out|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Psychic Terrain
+|move|p2a: Calyrex|Astral Barrage|p1a: Ogerpon|[spread] p1a
+|-immune|p1b: Indeedee
+|-damage|p1a: Ogerpon|22/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|20/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|NoahYeehaw has 30 seconds left.
+|
+|t:|1750789698
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|move|p1b: Indeedee|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750789703
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|3
+|
+|t:|1750789714
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2b: Incineroar|4/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Indeedee
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750789725
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750789736
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|move|p2a: Smeargle|Lock-On|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Flutter Mane|Icy Wind|p2a: Smeargle|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Smeargle|71/100
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p2a: Smeargle|spe|1
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750789742
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-end|p1a: Flutter Mane|Protosynthesis
+|turn|5
+|
+|t:|1750789761
+|move|p2a: Smeargle|Lock-On|p1b: Koraidon
+|-activate|p2a: Smeargle|move: Lock-On|[of] p1b: Koraidon
+|move|p2b: Kyogre|Water Spout|p1b: Koraidon|[spread] p1a,p1b
+|-resisted|p1b: Koraidon
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Koraidon|55/100
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Koraidon|Close Combat|p2b: Kyogre
+|-damage|p2b: Kyogre|2/100
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|45/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750789777
+|move|p1b: Koraidon|Flame Charge|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2b: Kyogre
+|-damage|p1b: Koraidon|36/100|[from] item: Life Orb
+|move|p2a: Smeargle|Guillotine|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|-ohko
+|
+|win|justaVGCplayer
+|raw|NoahYeehaw's rating: 1171 &rarr; <strong>1140</strong><br />(-31 for losing)
+|raw|justaVGCplayer's rating: 1089 &rarr; <strong>1122</strong><br />(+33 for winning)
+|l|☆NoahYeehaw
+|player|p1|
+|c|☆justaVGCplayer|gg

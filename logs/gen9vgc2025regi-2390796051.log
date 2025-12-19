@@ -1,0 +1,151 @@
+|j|☆thesuperbadtrainer
+|j|☆nico_Kaiser
+|t:|1750768963
+|gametype|doubles
+|player|p1|thesuperbadtrainer|265|1277
+|player|p2|nico_Kaiser|pryce|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Palafin, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thesuperbadtrainer)
+|
+|t:|1750768987
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Palafin|Palafin, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750769009
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: thesuperbadtrainer|move: Tailwind
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: nico_Kaiser|move: Tailwind
+|move|p1a: Kyogre|Water Spout|p2a: Tornadus|[spread] p2a,p2b
+|-resisted|p2b: Palafin
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Palafin|32/100
+|faint|p2a: Tornadus
+|move|p2b: Palafin|Flip Turn|p1b: Tornadus
+|-damage|p1b: Tornadus|42/100
+|
+|t:|1750769031
+|detailschange|p2b: Palafin|Palafin-Hero, L50, M
+|switch|p2b: Eternatus|Eternatus, L50|100/100|[from] Flip Turn
+|-ability|p2b: Eternatus|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750769041
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|2
+|
+|t:|1750769055
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Zacian|Wild Charge|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2b: Eternatus|Sludge Bomb|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750769068
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Eternatus|atk|1
+|turn|3
+|
+|t:|1750769076
+|-terastallize|p1a: Kyogre|Water
+|move|p1b: Incineroar|Fake Out|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|95/100
+|cant|p2a: Zacian|flinch
+|move|p2b: Eternatus|Meteor Beam||[still]
+|-prepare|p2b: Eternatus|Meteor Beam
+|-boost|p2b: Eternatus|spa|1
+|-enditem|p2b: Eternatus|Power Herb
+|-anim|p2b: Eternatus|Meteor Beam|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Kyogre|Water Spout|p2b: Eternatus|[spread] p2a,p2b
+|-resisted|p2b: Eternatus
+|-damage|p2a: Zacian|0 fnt
+|-damage|p2b: Eternatus|34/100
+|faint|p2a: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750769094
+|switch|p2a: Palafin|Palafin-Hero, L50, M|32/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-activate|p2a: Palafin|ability: Zero to Hero
+|turn|4
+|
+|t:|1750769112
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Eternatus|Draco Meteor|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p1b: Terapagos|Tera Starstorm|p2b: Eternatus
+|-damage|p2b: Eternatus|0 fnt
+|faint|p2b: Eternatus
+|move|p2a: Palafin|Drain Punch|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|85/100
+|-heal|p2a: Palafin|39/100|[from] drain|[of] p1b: Terapagos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Terapagos|91/100|[from] item: Leftovers
+|-sideend|p1: thesuperbadtrainer|move: Tailwind
+|-sideend|p2: nico_Kaiser|move: Tailwind
+|upkeep
+|turn|5
+|inactive|thesuperbadtrainer has 30 seconds left.
+|
+|t:|1750769140
+|-terastallize|p2a: Palafin|Water
+|move|p1b: Terapagos|Tera Starstorm|p2a: Palafin
+|-damage|p2a: Palafin|0 fnt
+|faint|p2a: Palafin
+|
+|win|thesuperbadtrainer
+|raw|thesuperbadtrainer's rating: 1277 &rarr; <strong>1305</strong><br />(+28 for winning)
+|raw|nico_Kaiser's rating: 1314 &rarr; <strong>1292</strong><br />(-22 for losing)
+|l|☆nico_Kaiser
+|player|p2|
+|l|☆thesuperbadtrainer
+|player|p1|

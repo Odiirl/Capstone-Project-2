@@ -1,0 +1,154 @@
+|j|☆Fibikeyt
+|j|☆sillynator
+|t:|1750743673
+|gametype|doubles
+|player|p1|Fibikeyt|cilan|1364
+|player|p2|sillynator|emmet|1332
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Murkrow, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sillynator)
+|inactive|Fibikeyt has 60 seconds left.
+|
+|t:|1750743714
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Murkrow|Murkrow, L50, M, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Murkrow|atk|1
+|turn|1
+|
+|t:|1750743728
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Murkrow|Tailwind|p2b: Murkrow
+|-sidestart|p2: sillynator|move: Tailwind
+|move|p1a: Zamazenta|Body Press|p2b: Murkrow
+|-damage|p2b: Murkrow|0 fnt
+|faint|p2b: Murkrow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750743746
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1750743773
+|-terastallize|p1a: Zamazenta|Grass
+|move|p2b: Basculegion|Wave Crash|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2b: Basculegion|66/100|[from] Recoil
+|-damage|p2b: Basculegion|56/100|[from] item: Life Orb
+|move|p2a: Kyogre|Water Spout|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|move|p1a: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|36/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750743791
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|3
+|
+|t:|1750743815
+|-terastallize|p2b: Basculegion|Stellar
+|move|p2b: Basculegion|Wave Crash|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Basculegion|27/100|[from] Recoil
+|-damage|p2b: Basculegion|17/100|[from] item: Life Orb
+|move|p2a: Kyogre|Ice Beam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750743825
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|inactive|sillynator has 30 seconds left.
+|
+|t:|1750743850
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Basculegion|Last Respects|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Kyogre|Water Spout|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: sillynator|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750743873
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p2a: Kyogre|Water Spout|p1b: Calyrex
+|-damage|p1b: Calyrex|34/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750743885
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p2b: Basculegion|Aqua Jet|p1b: Calyrex
+|-damage|p1b: Calyrex|2/100
+|-damage|p2b: Basculegion|7/100|[from] item: Life Orb
+|move|p1b: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Basculegion
+|-damage|p2a: Miraidon|29/100
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p1b: Calyrex
+|
+|win|sillynator
+|raw|Fibikeyt's rating: 1364 &rarr; <strong>1342</strong><br />(-22 for losing)
+|raw|sillynator's rating: 1332 &rarr; <strong>1354</strong><br />(+22 for winning)
+|l|☆sillynator
+|player|p2|
+|l|☆Fibikeyt
+|player|p1|

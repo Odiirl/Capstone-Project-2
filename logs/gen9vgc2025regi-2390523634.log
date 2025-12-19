@@ -1,0 +1,180 @@
+|j|☆cmacc24
+|j|☆rman500
+|t:|1750723935
+|gametype|doubles
+|player|p1|cmacc24|170|1368
+|player|p2|rman500|265|1368
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Chandelure, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cmacc24)
+|
+|t:|1750723954
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Great Tusk|Great Tusk, L50, shiny|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|1
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750723982
+|-terastallize|p2b: Raging Bolt|Fairy
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Flutter Mane|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p2b: Raging Bolt|Electroweb|p1b: Flutter Mane|[spread] p1b
+|-activate|p1a: Groudon|move: Protect
+|-damage|p1b: Flutter Mane|72/100
+|-unboost|p1b: Flutter Mane|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750723992
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|2
+|
+|t:|1750724011
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2a: Zacian|Sacred Sword|p1a: Groudon
+|-damage|p1a: Groudon|64/100
+|move|p1a: Groudon|Precipice Blades|p2a: Zacian|[spread] p2a,p2b
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|3/100
+|-damage|p2b: Raging Bolt|60/100
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Flutter Mane
+|-activate|p1b: Flutter Mane|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750724027
+|move|p2a: Zacian|Behemoth Blade|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p1b: Flutter Mane|Moonblast|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|move|p2b: Raging Bolt|Dragon Pulse|p1b: Flutter Mane
+|-immune|p1b: Flutter Mane
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750724041
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-end|p1b: Flutter Mane|Protosynthesis
+|-end|p2b: Raging Bolt|Protosynthesis
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1750724052
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1b: Flutter Mane|Moonblast|p2b: Raging Bolt
+|-crit|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|24/100
+|-unboost|p2b: Raging Bolt|spa|1
+|move|p2b: Raging Bolt|Dragon Pulse|p1a: Rillaboom
+|-damage|p1a: Rillaboom|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Flutter Mane|78/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|87/100|[from] Grassy Terrain
+|-heal|p2b: Raging Bolt|30/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750724069
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|15/100
+|move|p2a: Kyogre|Origin Pulse|p1b: Flutter Mane|[spread] p1b
+|-miss|p2a: Kyogre|p1a: Rillaboom
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Raging Bolt|Electroweb|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|81/100
+|-unboost|p1a: Rillaboom|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|21/100|[from] Grassy Terrain
+|-heal|p2b: Raging Bolt|36/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|86/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750724080
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspd
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750724088
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1b: Koraidon|85/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Koraidon|91/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|27/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|-message|rman500 forfeited.
+|
+|win|cmacc24
+|raw|cmacc24's rating: 1368 &rarr; <strong>1388</strong><br />(+20 for winning)
+|raw|rman500's rating: 1368 &rarr; <strong>1348</strong><br />(-20 for losing)
+|l|☆rman500
+|player|p2|
+|l|☆cmacc24
+|player|p1|

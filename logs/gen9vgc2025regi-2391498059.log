@@ -1,0 +1,139 @@
+|j|☆reznob
+|j|☆Jaker0125
+|t:|1750863282
+|gametype|doubles
+|player|p1|reznob|pokemonranger-gen4|1340
+|player|p2|Jaker0125|red|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kingdra, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jaker0125)
+|j| graniteadminJA0609
+|inactive|reznob has 60 seconds left.
+|
+|t:|1750863319
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Blastoise|Blastoise, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750863341
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Blastoise|Flip Turn|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|64/100
+|
+|t:|1750863360
+|switch|p2b: Kyogre|Kyogre, L50|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Flutter Mane|70/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750863384
+|switch|p2b: Blastoise|Blastoise, L50, M|100/100
+|-terastallize|p2a: Calyrex|Fairy
+|move|p1b: Flutter Mane|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|71/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Blastoise
+|-supereffective|p2b: Blastoise
+|-damage|p2b: Blastoise|0 fnt
+|faint|p2b: Blastoise
+|-damage|p1a: Rillaboom|71/100|[from] Recoil
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|77/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|83/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|77/100|[from] Grassy Terrain
+|-heal|p1b: Flutter Mane|76/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750863400
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|3
+|
+|t:|1750863423
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|46/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1a: Rillaboom
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|88/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750863433
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750863456
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Amoonguss|Spore|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|99/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-message|reznob forfeited.
+|
+|win|Jaker0125
+|raw|reznob's rating: 1340 &rarr; <strong>1319</strong><br />(-21 for losing)
+|raw|Jaker0125's rating: 1321 &rarr; <strong>1342</strong><br />(+21 for winning)
+|l|☆reznob
+|player|p1|
+|l|☆Jaker0125
+|player|p2|
+|l| graniteadminJA0609

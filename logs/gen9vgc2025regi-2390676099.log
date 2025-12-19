@@ -1,0 +1,134 @@
+|j|☆nodti_tk
+|j|☆forse roberto
+|t:|1750747693
+|gametype|doubles
+|player|p1|nodti_tk|brycen|1165
+|player|p2|forse roberto|169|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Slowking-Galar, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Articuno, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nodti_tk)
+|
+|t:|1750747729
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Slowking|Slowking-Galar, L50, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750747750
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Miraidon|Snarl|p1b: Slowking|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-supereffective|p1b: Slowking
+|-damage|p1b: Slowking|66/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|81/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|62/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|-hitcount|p1a: Calyrex|3
+|move|p1b: Slowking|Trick Room|p1b: Slowking
+|-fieldstart|move: Trick Room|[of] p1b: Slowking
+|
+|upkeep
+|turn|2
+|inactive|nodti_tk has 30 seconds left.
+|inactive|forse roberto has 30 seconds left.
+|inactive|nodti_tk has 20 seconds left.
+|
+|t:|1750747787
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Slowking|atk|1
+|-terastallize|p2b: Miraidon|Electric
+|-prepare|p1b: Slowking|Chilly Reception|[premajor]
+|move|p1b: Slowking|Chilly Reception|p1b: Slowking
+|-weather|Snowscape
+|
+|t:|1750747797
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Chilly Reception
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|79/100
+|-damage|p2b: Miraidon|50/100
+|move|p2b: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|t:|1750747813
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750747819
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|3
+|inactive|nodti_tk has 30 seconds left.
+|
+|t:|1750747844
+|move|p2a: Incineroar|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|92/100
+|cant|p1b: Incineroar|flinch
+|move|p2b: Urshifu|Surging Strikes|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|8/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|33/100|[from] item: Sitrus Berry
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-hitcount|p1: Incineroar|2
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|26/100
+|-damage|p1a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750747850
+|switch|p1b: Slowking|Slowking-Galar, L50, M|99/100
+|turn|4
+|-message|nodti_tk forfeited.
+|
+|win|forse roberto
+|raw|nodti_tk's rating: 1165 &rarr; <strong>1135</strong><br />(-30 for losing)
+|raw|forse roberto's rating: 1097 &rarr; <strong>1127</strong><br />(+30 for winning)
+|l|☆nodti_tk
+|player|p1|
+|l|☆forse roberto
+|player|p2|

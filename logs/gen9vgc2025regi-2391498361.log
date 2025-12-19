@@ -1,0 +1,227 @@
+|j|☆halceonvgc
+|j|☆YanYanwaa
+|t:|1750863316
+|gametype|doubles
+|player|p1|halceonvgc|dawn-gen4pt|1157
+|player|p2|YanYanwaa|clair|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Yanma, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Espathra, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YanYanwaa)
+|inactive|halceonvgc has 60 seconds left.
+|
+|t:|1750863354
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p2a: Yanma|Yanma, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|inactive|YanYanwaa has 30 seconds left.
+|
+|t:|1750863380
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p1b: Rillaboom|Fake Out|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|89/100
+|move|p2a: Yanma|Tailwind|p2a: Yanma
+|-sidestart|p2: YanYanwaa|move: Tailwind
+|cant|p2b: Terapagos|flinch
+|move|p1a: Kyogre|Water Spout|p2b: Terapagos|[spread] p2a,p2b
+|-crit|p2b: Terapagos
+|-enditem|p2a: Yanma|Focus Sash
+|-damage|p2a: Yanma|1/100
+|-damage|p2b: Terapagos|32/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750863404
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|move|p2a: Yanma|Hypnosis|p1a: Kyogre
+|-status|p1a: Kyogre|slp|[from] move: Hypnosis
+|move|p2b: Terapagos|Tera Starstorm|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|70/100 slp
+|-damage|p1b: Tornadus|68/100
+|cant|p1a: Kyogre|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750863417
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Tornadus|Taunt|p2a: Yanma
+|-start|p2a: Yanma|move: Taunt
+|cant|p2a: Yanma|move: Taunt|Hypnosis
+|move|p2b: Terapagos|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|82/100
+|
+|-heal|p2b: Terapagos|38/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750863433
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|move|p2b: Terapagos|Thunderbolt|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|1/100
+|move|p1a: Rillaboom|Low Kick|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|18/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|74/100
+|-damage|p2b: Terapagos|3/100
+|
+|-heal|p2b: Terapagos|9/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|80/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-sideend|p2: YanYanwaa|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750863451
+|switch|p1b: Kyogre|Kyogre, L50|70/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Incineroar|Fake Out|p1b: Kyogre
+|-damage|p1b: Kyogre|58/100 slp
+|move|p1a: Rillaboom|Low Kick|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|63/100 slp|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|86/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750863465
+|switch|p2b: Yanma|Yanma, L50, M|1/100
+|turn|6
+|
+|t:|1750863477
+|move|p2b: Yanma|Air Slash|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|54/100
+|cant|p1b: Kyogre|slp
+|cant|p1a: Rillaboom|flinch
+|move|p2a: Incineroar|Flare Blitz|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Incineroar|70/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|69/100 slp|[from] Grassy Terrain
+|-heal|p2a: Incineroar|76/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750863484
+|switch|p1a: Tornadus|Tornadus, L50, M|1/100
+|turn|7
+|
+|t:|1750863500
+|switch|p2b: Dialga|Dialga-Origin, L50|100/100
+|-ability|p2b: Dialga|Pressure
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: halceonvgc|move: Tailwind
+|-curestatus|p1b: Kyogre|slp|[msg]
+|move|p1b: Kyogre|Water Spout|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Dialga
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Dialga|72/100
+|faint|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|75/100|[from] Grassy Terrain
+|-heal|p2b: Dialga|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750863511
+|switch|p2a: Yanma|Yanma, L50, M|1/100
+|turn|8
+|
+|t:|1750863520
+|move|p1a: Tornadus|Taunt|p2b: Dialga
+|-start|p2b: Dialga|move: Taunt
+|move|p1b: Kyogre|Water Spout|p2a: Yanma|[spread] p2a,p2b
+|-crit|p2a: Yanma
+|-resisted|p2b: Dialga
+|-damage|p2a: Yanma|0 fnt
+|-damage|p2b: Dialga|43/100
+|faint|p2a: Yanma
+|move|p2b: Dialga|Draco Meteor|p1b: Kyogre
+|-damage|p1b: Kyogre|22/100
+|-unboost|p2b: Dialga|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750863533
+|move|p1b: Kyogre|Hydro Pump|p2b: Dialga|[miss]
+|-miss|p1b: Kyogre|p2b: Dialga
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Dialga
+|-resisted|p2b: Dialga
+|-damage|p2b: Dialga|29/100
+|-unboost|p2b: Dialga|spe|1
+|move|p2b: Dialga|Draco Meteor|p1b: Kyogre|[miss]
+|-miss|p2b: Dialga|p1b: Kyogre
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1750863540
+|move|p1b: Kyogre|Hydro Pump|p2b: Dialga
+|-resisted|p2b: Dialga
+|-damage|p2b: Dialga|1/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Dialga
+|-resisted|p2b: Dialga
+|-damage|p2b: Dialga|0 fnt
+|faint|p2b: Dialga
+|
+|win|halceonvgc
+|raw|halceonvgc's rating: 1157 &rarr; <strong>1178</strong><br />(+21 for winning)
+|raw|YanYanwaa's rating: 1107 &rarr; <strong>1086</strong><br />(-21 for losing)
+|l|☆halceonvgc
+|player|p1|
+|l|☆YanYanwaa
+|player|p2|

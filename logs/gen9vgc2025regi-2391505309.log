@@ -1,0 +1,146 @@
+|j|☆berg0123
+|j|☆cjjsir
+|t:|1750864083
+|gametype|doubles
+|player|p1|berg0123|102|1508
+|player|p2|cjjsir|101|1649
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by berg0123)
+|
+|t:|1750864102
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Metagross|Metagross, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750864124
+|-terastallize|p2b: Metagross|Dark
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: cjjsir|move: Light Screen
+|move|p1a: Miraidon|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|66/100
+|
+|t:|1750864136
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] Volt Switch
+|move|p1b: Lunala|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|move|p2b: Metagross|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|70/100
+|-enditem|p1a: Urshifu|Focus Sash|[from] move: Knock Off|[of] p2b: Metagross
+|
+|upkeep
+|turn|2
+|
+|t:|1750864150
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Urshifu
+|-status|p1a: Urshifu|par
+|move|p1b: Lunala|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p2b: Metagross|Psychic Fangs|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1750864162
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750864175
+|-terastallize|p1b: Lunala|Normal
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Lunala|Moongeist Beam|p1b: Lunala
+|-immune|p1b: Lunala
+|move|p2b: Metagross|Knock Off|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|berg0123 has 30 seconds left.
+|inactive|cjjsir has 30 seconds left.
+|
+|t:|1750864200
+|move|p1a: Ursaluna|Facade|p2b: Metagross
+|-damage|p2b: Metagross|22/100
+|move|p2b: Metagross|Psychic Fangs|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100 brn
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Ursaluna|[miss]
+|-miss|p2a: Lunala|p1a: Ursaluna
+|move|p1b: Lunala|Moonblast|p2b: Metagross
+|-supereffective|p2b: Metagross
+|-damage|p2b: Metagross|0 fnt
+|faint|p2b: Metagross
+|
+|-damage|p1a: Ursaluna|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1750864211
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750864219
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|Glacial Lance|p1a: Ursaluna|[spread] 
+|-activate|p1a: Ursaluna|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Ursaluna|Facade|p2b: Calyrex
+|-damage|p2b: Calyrex|38/100
+|move|p2a: Lunala|Moonblast|p1b: Lunala
+|-damage|p1b: Lunala|84/100
+|
+|-damage|p1a: Ursaluna|57/100 brn|[from] brn
+|-sideend|p2: cjjsir|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|-message|cjjsir forfeited.
+|
+|win|berg0123
+|raw|berg0123's rating: 1508 &rarr; <strong>1536</strong><br />(+28 for winning)
+|raw|cjjsir's rating: 1649 &rarr; <strong>1621</strong><br />(-28 for losing)
+|l|☆cjjsir
+|player|p2|
+|l|☆berg0123
+|player|p1|

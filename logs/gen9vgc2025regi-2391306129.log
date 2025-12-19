@@ -1,0 +1,186 @@
+|j|☆momentaueita
+|j|☆Foeluis
+|t:|1750832576
+|gametype|doubles
+|player|p1|momentaueita|flint|1514
+|player|p2|Foeluis|170|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750832612
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750832651
+|switch|p1b: Scraggy|Scraggy, L50, F|100/100
+|-ability|p1b: Scraggy|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|move|p2a: Incineroar|Fake Out|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|82/100
+|cant|p1a: Iron Valiant|flinch
+|move|p2b: Urshifu|Close Combat|p1b: Scraggy
+|-supereffective|p1b: Scraggy
+|-damage|p1b: Scraggy|19/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750832695
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|move|p1b: Scraggy|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|94/100
+|move|p1a: Iron Valiant|Moonblast|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|79/100
+|move|p2a: Incineroar|Parting Shot|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1a: Iron Valiant|spa|1
+|
+|t:|1750832739
+|switch|p2a: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750832749
+|switch|p2a: Incineroar|Incineroar, L50, M|94/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1b: Scraggy|atk|1
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Iron Valiant|Icy Wind|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Zacian
+|-damage|p2a: Incineroar|90/100
+|-damage|p2b: Zacian|75/100
+|-unboost|p2b: Zacian|spe|1
+|move|p2b: Zacian|Behemoth Blade|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750832754
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750832788
+|switch|p1b: Scraggy|Scraggy, L50, F|19/100
+|-ability|p1b: Scraggy|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Zacian|atk|1
+|-terastallize|p1a: Calyrex|Grass
+|move|p2a: Incineroar|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|96/100
+|move|p2b: Zacian|Play Rough|p1b: Scraggy
+|-supereffective|p1b: Scraggy
+|-damage|p1b: Scraggy|0 fnt
+|faint|p1b: Scraggy
+|cant|p1a: Calyrex|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750832796
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750832827
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Zacian|[spread] p2a,p2b
+|-resisted|p2b: Zacian
+|-damage|p2a: Incineroar|60/100
+|-damage|p2b: Zacian|54/100
+|move|p2b: Zacian|Play Rough|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|2/100
+|move|p2a: Incineroar|Parting Shot|p1b: Miraidon
+|-unboost|p1b: Miraidon|atk|1
+|-unboost|p1b: Miraidon|spa|1
+|
+|t:|1750832839
+|switch|p2a: Urshifu|Urshifu, L50, F|100/100|[from] Parting Shot
+|move|p1a: Calyrex|High Horsepower|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750832848
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|turn|6
+|
+|t:|1750832858
+|move|p2a: Urshifu|Sucker Punch|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2b: Kyogre|Ice Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|46/100
+|move|p1a: Calyrex|High Horsepower|p2b: Kyogre
+|-damage|p2b: Kyogre|38/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|-message|momentaueita forfeited.
+|
+|win|Foeluis
+|raw|momentaueita's rating: 1514 &rarr; <strong>1494</strong><br />(-20 for losing)
+|raw|Foeluis's rating: 1517 &rarr; <strong>1537</strong><br />(+20 for winning)
+|l|☆momentaueita
+|player|p1|
+|l|☆Foeluis
+|player|p2|
+|j|☆Foeluis
+|player|p2|Foeluis|170|
+|l|☆Foeluis
+|player|p2|

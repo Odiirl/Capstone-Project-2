@@ -1,0 +1,231 @@
+|j|☆Idontfindaname
+|j|☆ampersandwich
+|t:|1750716508
+|gametype|doubles
+|player|p1|Idontfindaname|170|1158
+|player|p2|ampersandwich|rocketgruntf|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+ampersandwich has agreed to open team sheets.
+|
+|t:|1750716544
+|start
+|switch|p1a: Destiny|Flutter Mane, L50, shiny|100/100
+|switch|p1b: Toxic Kitty|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Toxic Kitty|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750716577
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|move|p1b: Toxic Kitty|Fake Out|p2a: Lunala
+|-immune|p2a: Lunala
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: ampersandwich|move: Light Screen
+|move|p1a: Destiny|Moonblast|p2a: Lunala
+|-damage|p2a: Lunala|87/100
+|-unboost|p2a: Lunala|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750716620
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Destiny
+|-status|p1a: Destiny|par
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Destiny|Icy Wind|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Lunala|83/100
+|-damage|p2b: Grimmsnarl|92/100
+|-unboost|p2a: Lunala|spe|1
+|-unboost|p2b: Grimmsnarl|spe|1
+|move|p1b: Toxic Kitty|Parting Shot|p2a: Lunala
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2a: Lunala|spa|1
+|
+|t:|1750716632
+|switch|p1b: Agent P.|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Agent P.
+|-activate|p1a: Destiny|ability: Protosynthesis
+|-start|p1a: Destiny|protosynthesisspe
+|-activate|p1b: Agent P.|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750716664
+|-terastallize|p1b: Agent P.|Fire
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Agent P.
+|-status|p1b: Agent P.|par
+|move|p1a: Destiny|Mystical Fire|p2a: Lunala
+|-damage|p2a: Lunala|69/100
+|-unboost|p2a: Lunala|spa|1
+|cant|p1b: Agent P.|par
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750716688
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: ampersandwich|Reflect
+|move|p1a: Destiny|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|31/100
+|move|p1b: Agent P.|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|19/100
+|-damage|p1b: Agent P.|80/100 par|[from] Recoil
+|-damage|p1b: Agent P.|71/100 par|[from] item: Life Orb
+|move|p2a: Lunala|Moongeist Beam|p1b: Agent P.
+|-damage|p1b: Agent P.|34/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750716721
+|move|p1a: Destiny|Moonblast|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p1b: Agent P.|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-damage|p1b: Agent P.|26/100 par|[from] Recoil
+|-damage|p1b: Agent P.|17/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750716736
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750716754
+|move|p1a: Destiny|Protect|p1a: Destiny
+|-singleturn|p1a: Destiny|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Agent P.
+|-damage|p1b: Agent P.|0 fnt
+|faint|p1b: Agent P.
+|move|p2a: Landorus|Sludge Bomb|p1a: Destiny
+|-activate|p1a: Destiny|move: Protect
+|
+|-weather|none
+|-end|p1a: Destiny|Protosynthesis
+|upkeep
+|
+|t:|1750716770
+|switch|p1b: Toxic Kitty|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Toxic Kitty|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|7
+|
+|t:|1750716793
+|-terastallize|p2b: Miraidon|Electric
+|move|p1b: Toxic Kitty|Fake Out|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|78/100
+|cant|p2b: Miraidon|flinch
+|move|p2a: Landorus|Sludge Bomb|p1a: Destiny
+|-damage|p1a: Destiny|52/100 par
+|move|p1a: Destiny|Moonblast|p2b: Miraidon
+|-damage|p2b: Miraidon|47/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750716816
+|move|p2b: Miraidon|Electro Drift|p1b: Toxic Kitty
+|-damage|p1b: Toxic Kitty|0 fnt
+|faint|p1b: Toxic Kitty
+|move|p2a: Landorus|Sludge Bomb|p1a: Destiny
+|-damage|p1a: Destiny|0 fnt
+|faint|p1a: Destiny
+|-end|p1a: Destiny|Protosynthesis|[silent]
+|
+|-sideend|p2: ampersandwich|move: Light Screen
+|upkeep
+|
+|t:|1750716825
+|switch|p1b: Moon Stealer|Lunala, L50|100/100
+|turn|9
+|
+|t:|1750716847
+|move|p1b: Moon Stealer|Protect|p1b: Moon Stealer
+|-singleturn|p1b: Moon Stealer|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Moon Stealer
+|-activate|p1b: Moon Stealer|move: Protect
+|move|p2a: Landorus|Earth Power|p1b: Moon Stealer
+|-activate|p1b: Moon Stealer|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1750716865
+|move|p2b: Miraidon|Electro Drift|p1b: Moon Stealer
+|-damage|p1b: Moon Stealer|58/100
+|move|p2a: Landorus|Earth Power|p1b: Moon Stealer
+|-damage|p1b: Moon Stealer|5/100
+|move|p1b: Moon Stealer|Moongeist Beam|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|t:|1750716881
+|move|p1b: Moon Stealer|Protect|p1b: Moon Stealer
+|-singleturn|p1b: Moon Stealer|Protect
+|move|p2a: Landorus|Earth Power|p1b: Moon Stealer
+|-activate|p1b: Moon Stealer|move: Protect
+|
+|-sideend|p2: ampersandwich|Reflect
+|upkeep
+|turn|12
+|
+|t:|1750716893
+|move|p2a: Landorus|Sludge Bomb|p1b: Moon Stealer
+|-resisted|p1b: Moon Stealer
+|-damage|p1b: Moon Stealer|0 fnt
+|faint|p1b: Moon Stealer
+|
+|win|ampersandwich
+|raw|Idontfindaname's rating: 1158 &rarr; <strong>1133</strong><br />(-25 for losing)
+|raw|ampersandwich's rating: 1155 &rarr; <strong>1180</strong><br />(+25 for winning)
+|l|☆Idontfindaname
+|player|p1|

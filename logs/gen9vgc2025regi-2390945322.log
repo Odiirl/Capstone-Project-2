@@ -1,0 +1,165 @@
+|j|☆Witchard
+|j|☆Nvjdjddkdjd
+|t:|1750785695
+|gametype|doubles
+|player|p1|Witchard|2|1022
+|player|p2|Nvjdjddkdjd|265|1038
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Oranguru, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|
+|t:|1750785718
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2b: Terapagos|Electric Seed
+|-boost|p2b: Terapagos|def|1|[from] item: Electric Seed
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750785752
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Iron Hands|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|84/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2a: Miraidon|20/100
+|-damage|p2b: Terapagos|77/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750785779
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Terapagos|100/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Terapagos|[spread] p2a
+|-activate|p2b: Terapagos|move: Protect
+|-damage|p2a: Sinistcha|43/100
+|move|p1a: Iron Hands|Drain Punch|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750785798
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Sinistcha|[spread] p2a,p2b
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2a: Sinistcha|0 fnt
+|-damage|p2b: Terapagos|84/100
+|faint|p2a: Sinistcha
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p1a: Iron Hands|Drain Punch|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|33/100
+|
+|upkeep
+|
+|t:|1750785819
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750785835
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|50/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Hands|Quark Drive
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Urshifu|[spread] p2b
+|-activate|p2a: Urshifu|move: Protect
+|-damage|p2b: Terapagos|36/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Iron Hands|62/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p1a: Iron Hands|Drain Punch|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|2/100
+|-heal|p1a: Iron Hands|81/100|[from] drain|[of] p2b: Terapagos
+|
+|upkeep
+|
+|t:|1750785855
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|turn|5
+|
+|t:|1750785864
+|move|p2a: Urshifu|Surging Strikes|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|63/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|44/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|25/100
+|-hitcount|p1a: Iron Hands|3
+|move|p2b: Terapagos|Tera Starstorm|p1b: Oranguru|[spread] p1a,p1b
+|-damage|p1a: Iron Hands|0 fnt
+|-damage|p1b: Oranguru|48/100
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|upkeep
+|
+|t:|1750785876
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|6
+|
+|t:|1750785898
+|move|p1b: Oranguru|Foul Play|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|84/100
+|move|p2b: Terapagos|Tera Starstorm|p1a: Groudon|[spread] p1a,p1b
+|-crit|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Oranguru|0 fnt
+|faint|p1a: Groudon
+|faint|p1b: Oranguru
+|
+|win|Nvjdjddkdjd
+|raw|Witchard's rating: 1022 &rarr; <strong>1009</strong><br />(-13 for losing)
+|raw|Nvjdjddkdjd's rating: 1038 &rarr; <strong>1071</strong><br />(+33 for winning)

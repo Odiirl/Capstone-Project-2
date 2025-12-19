@@ -1,0 +1,167 @@
+|j|☆OnixBoy423
+|j|☆neko oscar
+|t:|1750723802
+|gametype|doubles
+|player|p1|OnixBoy423|170|1097
+|player|p2|neko oscar|101|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Arboliva, L50, M|
+|poke|p1|Skeledirge, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Granbull, L50, F|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Goodra-Hisui, L50, F|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|
+|t:|1750723831
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Arboliva|Arboliva, L50, M|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1750723848
+|move|p2b: Miraidon|Overheat|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Groudon
+|-damage|p2b: Miraidon|91/100|[from] item: Life Orb
+|move|p2a: Groudon|Heat Crash|p1b: Arboliva
+|-supereffective|p1b: Arboliva
+|-damage|p1b: Arboliva|0 fnt
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1b: Arboliva
+|faint|p1b: Arboliva
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Miraidon|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750723865
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Granbull|Granbull, L50, F|100/100
+|-ability|p1b: Granbull|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Miraidon|atk|1
+|turn|2
+|
+|t:|1750723888
+|switch|p2b: Vaporeon|Vaporeon, L50, M, shiny|100/100
+|move|p2a: Groudon|Precipice Blades|p1b: Granbull|[spread] p1b
+|-miss|p2a: Groudon|p1a: Farigiraf
+|-damage|p1b: Granbull|37/100
+|move|p1b: Granbull|Play Rough|p2b: Vaporeon
+|-crit|p2b: Vaporeon
+|-damage|p2b: Vaporeon|23/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Granbull|44/100|[from] Grassy Terrain
+|-heal|p2b: Vaporeon|29/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750723941
+|-terastallize|p1a: Farigiraf|Normal
+|move|p1b: Granbull|Play Rough|p2b: Vaporeon
+|-damage|p2b: Vaporeon|0 fnt
+|faint|p2b: Vaporeon
+|move|p1a: Farigiraf|Tera Blast|p2a: Groudon|[anim] Tera Blast Normal
+|-damage|p2a: Groudon|41/100
+|move|p2a: Groudon|Precipice Blades|p1b: Granbull|[spread] p1b
+|-miss|p2a: Groudon|p1a: Farigiraf
+|-damage|p1b: Granbull|0 fnt
+|faint|p1b: Granbull
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750723952
+|switch|p2b: Umbreon|Umbreon, L50, M|100/100
+|turn|4
+|
+|t:|1750723962
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Farigiraf|Tera Blast|p2b: Umbreon|[anim] Tera Blast Normal
+|-damage|p2b: Umbreon|69/100
+|move|p2b: Umbreon|Toxic|p1a: Farigiraf
+|-status|p1a: Farigiraf|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Umbreon|75/100|[from] Grassy Terrain
+|-heal|p2b: Umbreon|81/100|[from] item: Leftovers
+|-heal|p2a: Groudon|52/100|[from] Grassy Terrain
+|-damage|p1a: Farigiraf|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750723989
+|move|p2b: Umbreon|Detect|p2b: Umbreon
+|-singleturn|p2b: Umbreon|Protect
+|move|p2a: Groudon|Protect||[still]
+|-fail|p2a: Groudon
+|move|p1a: Farigiraf|Tera Blast|p2a: Groudon|[anim] Tera Blast Normal
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|-weather|none
+|-heal|p1a: Farigiraf|100/100 tox|[from] Grassy Terrain
+|-heal|p2b: Umbreon|87/100|[from] Grassy Terrain
+|-heal|p2b: Umbreon|93/100|[from] item: Leftovers
+|-damage|p1a: Farigiraf|88/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750724001
+|switch|p2a: Miraidon|Miraidon, L50|96/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|
+|t:|1750724027
+|-terastallize|p2b: Umbreon|Ghost
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Farigiraf|Tera Blast|p2a: Miraidon|[anim] Tera Blast Normal
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Umbreon|Foul Play|p1a: Farigiraf
+|-damage|p1a: Farigiraf|62/100 tox
+|
+|-heal|p2b: Umbreon|99/100|[from] item: Leftovers
+|-damage|p1a: Farigiraf|43/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750724045
+|move|p2b: Umbreon|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Umbreon
+|move|p2a: Miraidon|Electro Drift|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|-damage|p2a: Miraidon|87/100|[from] item: Life Orb
+|
+|win|neko oscar
+|raw|OnixBoy423's rating: 1097 &rarr; <strong>1081</strong><br />(-16 for losing)
+|raw|neko oscar's rating: 1217 &rarr; <strong>1234</strong><br />(+17 for winning)
+|l|☆neko oscar
+|player|p2|
+|l|☆OnixBoy423
+|player|p1|

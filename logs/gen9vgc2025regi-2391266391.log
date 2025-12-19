@@ -1,0 +1,151 @@
+|j|☆caprican
+|j|☆chico linguiceta
+|t:|1750825164
+|gametype|doubles
+|player|p1|caprican|skyla|1474
+|player|p2|chico linguiceta|harlequin|1385
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Oranguru, L50, F|
+|poke|p2|Poliwrath, L50, F|
+|teampreview|4
+|
+|t:|1750825216
+|start
+|switch|p1a: TERA ICE|Calyrex-Ice, L50|100/100
+|switch|p1b: MEOW|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Oranguru|Oranguru, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: TERA ICE|As One
+|-ability|p1a: TERA ICE|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: TERA ICE|unboost|[from] item: Clear Amulet|[of] p1a: TERA ICE
+|-unboost|p1b: MEOW|atk|1
+|-ability|p1b: MEOW|Intimidate|boost
+|-fail|p2a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Oranguru
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750825273
+|move|p1a: TERA ICE|Protect|p1a: TERA ICE
+|-singleturn|p1a: TERA ICE|Protect
+|move|p2b: Incineroar|Fake Out|p1b: MEOW
+|-damage|p1b: MEOW|95/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: MEOW
+|cant|p1b: MEOW|flinch
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1750825317
+|move|p2a: Oranguru|Protect|p2a: Oranguru
+|-singleturn|p2a: Oranguru|Protect
+|move|p1a: TERA ICE|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|8/100
+|-enditem|p2b: Incineroar|Eject Button
+|
+|t:|1750825325
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1b: MEOW|Knock Off|p2a: Oranguru
+|-activate|p2a: Oranguru|move: Protect
+|
+|upkeep
+|turn|3
+|c|☆chico linguiceta|ggwp
+|c|☆chico linguiceta|you lost
+|
+|t:|1750825354
+|switch|p1b: NOM NOM GRASS|Farigiraf, L50, F, shiny|100/100
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1a: TERA ICE|Glacial Lance|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Oranguru|37/100
+|-damage|p2b: Ursaluna|57/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: NOM NOM GRASS|[spread] p1a,p1b
+|-damage|p1a: TERA ICE|49/100
+|-damage|p1b: NOM NOM GRASS|29/100
+|move|p2a: Oranguru|Instruct|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|move: Instruct|[of] p2a: Oranguru
+|move|p2b: Ursaluna|Hyper Voice|p1a: TERA ICE|[spread] p1a,p1b
+|-damage|p1a: TERA ICE|0 fnt
+|-damage|p1b: NOM NOM GRASS|0 fnt
+|faint|p1a: TERA ICE
+|faint|p1b: NOM NOM GRASS
+|
+|upkeep
+|
+|t:|1750825368
+|switch|p1a: MEOW|Incineroar, L50, F, shiny|95/100
+|switch|p1b: THE DON|Miraidon, L50|100/100
+|-ability|p1a: MEOW|Intimidate|boost
+|-fail|p2a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Oranguru
+|-unboost|p2b: Ursaluna|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: THE DON
+|turn|4
+|c|☆chico linguiceta|just forfeit i already win
+|
+|t:|1750825405
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|8/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: MEOW|atk|1
+|-unboost|p1b: THE DON|atk|1
+|move|p2a: Oranguru|Protect|p2a: Oranguru
+|-singleturn|p2a: Oranguru|Protect
+|move|p1a: MEOW|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|1/100
+|move|p1b: THE DON|Electro Drift|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750825421
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750825434
+|move|p2b: Calyrex|Glacial Lance|p1b: THE DON|[spread] p1a,p1b
+|-resisted|p1a: MEOW
+|-supereffective|p1b: THE DON
+|-damage|p1a: MEOW|60/100
+|-damage|p1b: THE DON|0 fnt
+|faint|p1b: THE DON
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Oranguru|Instruct|p2b: Calyrex
+|-singleturn|p2b: Calyrex|move: Instruct|[of] p2a: Oranguru
+|move|p2b: Calyrex|Glacial Lance|p1a: MEOW
+|-resisted|p1a: MEOW
+|-damage|p1a: MEOW|0 fnt
+|faint|p1a: MEOW
+|
+|win|chico linguiceta
+|raw|caprican's rating: 1474 &rarr; <strong>1449</strong><br />(-25 for losing)
+|raw|chico linguiceta's rating: 1385 &rarr; <strong>1410</strong><br />(+25 for winning)
+|c|☆caprican|you dont have to be toxic
+|c|☆caprican|your team isnt good lol
+|l|☆caprican
+|player|p1|
+|c|☆chico linguiceta|sorry
+|l|☆chico linguiceta
+|player|p2|

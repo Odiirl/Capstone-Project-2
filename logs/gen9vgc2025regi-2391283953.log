@@ -1,0 +1,176 @@
+|j|☆BlacKonstrikt
+|j|☆chill1830
+|t:|1750828258
+|gametype|doubles
+|player|p1|BlacKonstrikt|bruno|1096
+|player|p2|chill1830|falkner|1175
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Infernape, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750828322
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p1b: Infernape|Infernape, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Infernape|atk|1
+|turn|1
+|
+|t:|1750828342
+|move|p1b: Infernape|Fake Out|p2b: Ogerpon
+|-resisted|p2b: Ogerpon
+|-damage|p2b: Ogerpon|96/100
+|move|p2a: Incineroar|Fake Out|p1b: Infernape
+|-damage|p1b: Infernape|83/100
+|move|p1a: Flutter Mane|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|33/100
+|-unboost|p2a: Incineroar|spa|1
+|cant|p2b: Ogerpon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750828379
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1a: Flutter Mane|Moonblast|p2b: Ogerpon
+|-damage|p2b: Ogerpon|13/100
+|move|p2a: Incineroar|Knock Off|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|18/100
+|-enditem|p1a: Flutter Mane|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1750828398
+|switch|p2a: Lunala|Lunala, L50|100/100
+|move|p1b: Sableye|Sunny Day|p1b: Sableye
+|-weather|SunnyDay
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|move|p1a: Flutter Mane|Dazzling Gleam|p2b: Ogerpon|[spread] p2a,p2b
+|-damage|p2a: Lunala|90/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828409
+|switch|p2b: Incineroar|Incineroar, L50, F|33/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Sableye|atk|1
+|turn|4
+|
+|t:|1750828432
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|move|p1b: Sableye|Will-O-Wisp|p2b: Incineroar
+|-immune|p2b: Incineroar
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Koraidon
+|-damage|p2a: Koraidon|57/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Incineroar|29/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828445
+|switch|p1a: Iron Hands|Iron Hands, L50, shiny|100/100
+|turn|5
+|
+|t:|1750828461
+|switch|p2a: Lunala|Lunala, L50|90/100
+|move|p1a: Iron Hands|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|18/100
+|-damage|p1a: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1b: Sableye|Will-O-Wisp|p2a: Lunala
+|-status|p2a: Lunala|brn
+|cant|p2b: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|84/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750828497
+|move|p2a: Lunala|Moongeist Beam|p1a: Iron Hands
+|-damage|p1a: Iron Hands|59/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|-damage|p2b: Incineroar|0 fnt|[from] Recoil
+|faint|p2b: Incineroar
+|move|p1b: Sableye|Foul Play|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828506
+|switch|p2a: Koraidon|Koraidon, L50|57/100
+|switch|p1a: Infernape|Infernape, L50, F, shiny|83/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|7
+|
+|t:|1750828521
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Infernape|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Sableye|Will-O-Wisp|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750828538
+|-terastallize|p2a: Koraidon|Fire
+|move|p2a: Koraidon|Close Combat|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Infernape
+|-damage|p2a: Koraidon|47/100|[from] item: Life Orb
+|move|p1b: Sableye|Foul Play|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|win|BlacKonstrikt
+|raw|BlacKonstrikt's rating: 1096 &rarr; <strong>1127</strong><br />(+31 for winning)
+|raw|chill1830's rating: 1175 &rarr; <strong>1144</strong><br />(-31 for losing)
+|l|☆chill1830
+|player|p2|
+|l|☆BlacKonstrikt
+|player|p1|

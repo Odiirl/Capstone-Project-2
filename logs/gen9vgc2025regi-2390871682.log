@@ -1,0 +1,156 @@
+|j|☆CyrilIsTheGoat
+|j|☆Fredzhangg
+|t:|1750777915
+|gametype|doubles
+|player|p1|CyrilIsTheGoat|lady|1104
+|player|p2|Fredzhangg|170|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CyrilIsTheGoat)
+|inactive|Fredzhangg has 60 seconds left.
+|
+|t:|1750777972
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|inactive|Fredzhangg has 30 seconds left.
+|
+|t:|1750778002
+|move|p2b: Miraidon|Volt Switch|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|61/100
+|
+|t:|1750778007
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|move|p1b: Ogerpon|Knock Off|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|62/100
+|-enditem|p2a: Lunala|Leftovers|[from] move: Knock Off|[of] p1b: Ogerpon
+|move|p2a: Lunala|Moonblast|p1a: Terapagos
+|-damage|p1a: Terapagos|30/100
+|-unboost|p1a: Terapagos|spa|1
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|inactive|Fredzhangg has 30 seconds left.
+|inactive|Fredzhangg has 20 seconds left.
+|
+|t:|1750778042
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Lunala|Moonblast|p1b: Ogerpon
+|-damage|p1b: Ogerpon|58/100
+|-unboost|p1b: Ogerpon|spa|1
+|
+|upkeep
+|
+|t:|1750778055
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750778064
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Ogerpon|[spread] p1a,p1b
+|-damage|p1a: Terapagos|0 fnt
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1a: Terapagos
+|faint|p1b: Ogerpon
+|move|p2a: Lunala|Moonblast|p1: Terapagos|[notarget]
+|-fail|p2a: Lunala
+|
+|upkeep
+|
+|t:|1750778066
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p1a: Clefairy|Clefairy, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1750778083
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Clefairy|63/100
+|-damage|p1b: Rillaboom|77/100
+|move|p2a: Lunala|Moonblast|p1a: Clefairy
+|-damage|p1a: Clefairy|34/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Miraidon
+|-damage|p2b: Miraidon|20/100
+|-damage|p1b: Rillaboom|53/100|[from] Recoil
+|
+|-heal|p2b: Miraidon|27/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|68/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|59/100|[from] Grassy Terrain
+|-heal|p1a: Clefairy|41/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750778100
+|-terastallize|p1b: Rillaboom|Fire
+|move|p1a: Clefairy|Protect|p1a: Clefairy
+|-singleturn|p1a: Clefairy|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Clefairy|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|48/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Rillaboom
+|-damage|p1b: Rillaboom|7/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-damage|p1b: Rillaboom|0 fnt|[from] Recoil
+|faint|p1b: Rillaboom
+|
+|-heal|p2a: Lunala|75/100|[from] Grassy Terrain
+|-heal|p1a: Clefairy|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750778118
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|turn|6
+|-message|CyrilIsTheGoat forfeited.
+|
+|win|Fredzhangg
+|raw|CyrilIsTheGoat's rating: 1133 &rarr; <strong>1104</strong><br />(-29 for losing)
+|raw|Fredzhangg's rating: 1077 &rarr; <strong>1110</strong><br />(+33 for winning)

@@ -1,0 +1,152 @@
+|j|☆Team Shalacktic
+|j|☆gooddarks123
+|t:|1750836739
+|gametype|doubles
+|player|p1|Team Shalacktic|cyrus|1055
+|player|p2|gooddarks123|lucas-gen4pt|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Magmar, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Porygon-Z, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750836792
+|start
+|switch|p1a: Magmar|Magmar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Magmar|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|1
+|
+|t:|1750836813
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Urshifu|Surging Strikes|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|58/100
+|-supereffective|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|18/100
+|-supereffective|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|-hitcount|p1: Magmar|3
+|
+|upkeep
+|
+|t:|1750836826
+|switch|p1a: Porygon-Z|Porygon-Z, L50|100/100
+|turn|2
+|
+|t:|1750836844
+|move|p1a: Porygon-Z|Tri Attack|p2a: Urshifu
+|-damage|p2a: Urshifu|32/100
+|move|p2a: Urshifu|Close Combat|p1b: Calyrex
+|-damage|p1b: Calyrex|64/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|17/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-resisted|p2b: Incineroar
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Incineroar|78/100
+|faint|p2a: Urshifu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750836856
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750836867
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Porygon-Z|Tri Attack|p2b: Incineroar
+|-damage|p2b: Incineroar|25/100
+|move|p2a: Calyrex|Close Combat|p1a: Porygon-Z
+|-supereffective|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|-unboost|p2a: Calyrex|def|1
+|-unboost|p2a: Calyrex|spd|1
+|faint|p1a: Porygon-Z
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750836877
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1750836891
+|-terastallize|p2a: Calyrex|Water
+|-terastallize|p1a: Ursaluna|Fairy
+|move|p2a: Calyrex|Glacial Lance|p1a: Ursaluna|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Ursaluna|45/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Incineroar|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1750836900
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100|[from] Parting Shot
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1a: Ursaluna|Hyper Voice|p2b: Terapagos|[spread] p2a,p2b
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2a: Calyrex|69/100
+|-damage|p2b: Terapagos|88/100
+|
+|-heal|p2b: Terapagos|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-message|Team Shalacktic forfeited.
+|
+|win|gooddarks123
+|raw|Team Shalacktic's rating: 1055 &rarr; <strong>1039</strong><br />(-16 for losing)
+|raw|gooddarks123's rating: 1103 &rarr; <strong>1125</strong><br />(+22 for winning)
+|l|☆Team Shalacktic
+|player|p1|
+|l|☆gooddarks123
+|player|p2|

@@ -1,0 +1,441 @@
+|j|☆Caly-Dow hater
+|j|☆Rusty Old Key
+|t:|1750871303
+|gametype|doubles
+|player|p1|Caly-Dow hater|1|1450
+|player|p2|Rusty Old Key|1|1598
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Arcanine, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750871339
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Arcanine|Arcanine, L50, M|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caly-Dow hater)
+|
+|t:|1750871357
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|move|p1a: Iron Hands|Protect|p1a: Iron Hands
+|-singleturn|p1a: Iron Hands|Protect
+|move|p1b: Arcanine|Snarl|p2b: Raging Bolt|[spread] p2a,p2b
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|97/100
+|-damage|p2b: Raging Bolt|93/100
+|-unboost|p2a: Terapagos|spa|1
+|-unboost|p2b: Raging Bolt|spa|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|100/100|[from] Grassy Terrain
+|-heal|p2b: Raging Bolt|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Rusty Old Key has 20 seconds left.
+|
+|t:|1750871392
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Arcanine|Snarl|p2b: Zacian|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|97/100
+|-unboost|p2b: Zacian|spa|1
+|move|p1a: Iron Hands|Low Kick|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|
+|-heal|p2b: Zacian|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750871410
+|move|p2b: Zacian|Play Rough|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|24/100
+|-enditem|p1a: Iron Hands|Sitrus Berry|[eat]
+|-heal|p1a: Iron Hands|49/100|[from] item: Sitrus Berry
+|move|p1b: Arcanine|Will-O-Wisp|p2b: Zacian
+|-status|p2b: Zacian|brn
+|move|p2a: Terapagos|Substitute|p2a: Terapagos
+|-start|p2a: Terapagos|Substitute
+|-damage|p2a: Terapagos|76/100
+|move|p1a: Iron Hands|Low Kick|p2a: Terapagos
+|-supereffective|p2a: Terapagos
+|-end|p2a: Terapagos|Substitute
+|
+|-heal|p2a: Terapagos|82/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|88/100|[from] item: Leftovers
+|-heal|p1a: Iron Hands|55/100|[from] Grassy Terrain
+|-damage|p2b: Zacian|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Rusty Old Key has 20 seconds left.
+|inactive|Rusty Old Key has 15 seconds left.
+|
+|t:|1750871453
+|move|p2b: Zacian|Play Rough|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|19/100
+|move|p1b: Arcanine|Snarl|p2b: Zacian|[spread] p2a,p2b
+|-resisted|p2b: Zacian
+|-damage|p2a: Terapagos|83/100
+|-damage|p2b: Zacian|91/100 brn
+|-unboost|p2a: Terapagos|spa|1
+|-unboost|p2b: Zacian|spa|1
+|move|p2a: Terapagos|Tera Starstorm|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p2b: Zacian|97/100 brn|[from] Grassy Terrain
+|-heal|p2a: Terapagos|89/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|95/100|[from] item: Leftovers
+|-damage|p2b: Zacian|91/100 brn|[from] brn
+|upkeep
+|inactive|Caly-Dow hater has 30 seconds left.
+|
+|t:|1750871480
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750871510
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Zacian|Play Rough|p1a: Miraidon
+|-damage|p1a: Miraidon|70/100
+|move|p1a: Miraidon|Snarl|p2b: Zacian|[spread] p2a
+|-miss|p1a: Miraidon|p2b: Zacian
+|-damage|p2a: Rillaboom|92/100
+|-unboost|p2a: Rillaboom|spa|1
+|move|p1b: Arcanine|Flare Blitz|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-damage|p1b: Arcanine|72/100|[from] Recoil
+|
+|-heal|p1a: Miraidon|76/100|[from] Grassy Terrain
+|-heal|p1b: Arcanine|78/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|98/100|[from] Grassy Terrain
+|upkeep
+|inactive|Rusty Old Key has 30 seconds left.
+|
+|t:|1750871537
+|switch|p2b: Terapagos|Terapagos-Terastal, L50, M|95/100
+|turn|6
+|inactive|Caly-Dow hater has 30 seconds left.
+|inactive|Caly-Dow hater has 20 seconds left.
+|inactive|Caly-Dow hater has 15 seconds left.
+|inactive|Caly-Dow hater has 10 seconds left.
+|inactive|Caly-Dow hater has 5 seconds left.
+|
+|t:|1750871589
+|move|p2a: Rillaboom|Fake Out|p1b: Arcanine
+|-damage|p1b: Arcanine|62/100
+|move|p1a: Miraidon|Snarl|p2b: Terapagos|[spread] p2a,p2b
+|-crit|p2b: Terapagos
+|-damage|p2a: Rillaboom|88/100
+|-damage|p2b: Terapagos|78/100
+|-unboost|p2a: Rillaboom|spa|1
+|-unboost|p2b: Terapagos|spa|1
+|cant|p1b: Arcanine|flinch
+|move|p2b: Terapagos|Substitute|p2b: Terapagos
+|-start|p2b: Terapagos|Substitute
+|-damage|p2b: Terapagos|53/100
+|
+|-heal|p1a: Miraidon|82/100|[from] Grassy Terrain
+|-heal|p1b: Arcanine|68/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|59/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|65/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750871605
+|move|p1a: Miraidon|Volt Switch|p2b: Terapagos
+|-end|p2b: Terapagos|Substitute
+|
+|t:|1750871608
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100|[from] Volt Switch
+|move|p1b: Arcanine|Snarl|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Rillaboom|88/100
+|-damage|p2b: Terapagos|57/100
+|-unboost|p2a: Rillaboom|spa|1
+|-unboost|p2b: Terapagos|spa|1
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Rillaboom|Wood Hammer|p1a: Iron Bundle
+|-supereffective|p1a: Iron Bundle
+|-enditem|p1a: Iron Bundle|Focus Sash
+|-damage|p1a: Iron Bundle|1/100
+|-damage|p2a: Rillaboom|68/100|[from] Recoil
+|
+|-heal|p1a: Iron Bundle|7/100|[from] Grassy Terrain
+|-heal|p1b: Arcanine|74/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|63/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|69/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|73/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750871631
+|move|p1a: Iron Bundle|Protect|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Bundle
+|-activate|p1a: Iron Bundle|move: Protect
+|move|p1b: Arcanine|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1b: Arcanine|49/100|[from] Recoil
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p1a: Iron Bundle|13/100|[from] Grassy Terrain
+|-heal|p1b: Arcanine|55/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|75/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750871640
+|switch|p2a: Raging Bolt|Raging Bolt, L50|99/100
+|turn|9
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Rusty Old Key has 20 seconds left.
+|inactive|Rusty Old Key has 15 seconds left.
+|
+|t:|1750871680
+|move|p1a: Iron Bundle|Encore|p2b: Terapagos
+|-start|p2b: Terapagos|Encore
+|move|p1b: Arcanine|Snarl|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Raging Bolt|92/100
+|-damage|p2b: Terapagos|78/100
+|-unboost|p2a: Raging Bolt|spa|1
+|-unboost|p2b: Terapagos|spa|1
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Arcanine
+|-damage|p1b: Arcanine|18/100
+|
+|-heal|p1a: Iron Bundle|19/100|[from] Grassy Terrain
+|-heal|p1b: Arcanine|24/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|84/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|90/100|[from] item: Leftovers
+|-heal|p2a: Raging Bolt|98/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|inactive|Rusty Old Key has 30 seconds left.
+|
+|t:|1750871707
+|move|p1a: Iron Bundle|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|39/100
+|move|p1b: Arcanine|Snarl|p2a: Raging Bolt|[spread] p2a,p2b
+|-damage|p2a: Raging Bolt|31/100
+|-damage|p2b: Terapagos|87/100
+|-unboost|p2a: Raging Bolt|spa|1
+|-unboost|p2b: Terapagos|spa|1
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|
+|-heal|p2b: Terapagos|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750871712
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|82/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespe
+|turn|11
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Rusty Old Key has 20 seconds left.
+|inactive|Rusty Old Key has 15 seconds left.
+|inactive|Rusty Old Key has 10 seconds left.
+|
+|t:|1750871761
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Iron Bundle|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p1b: Miraidon|Electro Drift|p2b: Terapagos
+|-damage|p2b: Terapagos|61/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p2b: Terapagos|67/100|[from] item: Leftovers
+|-end|p2b: Terapagos|Encore
+|upkeep
+|turn|12
+|inactive|Caly-Dow hater has 30 seconds left.
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Caly-Dow hater has 20 seconds left.
+|
+|t:|1750871799
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p2a: Raging Bolt|Thunderclap|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|74/100
+|move|p1a: Iron Bundle|Encore|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|6/100
+|
+|-heal|p2b: Terapagos|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Rusty Old Key has 30 seconds left.
+|inactive|Rusty Old Key has 20 seconds left.
+|
+|t:|1750871837
+|move|p2a: Raging Bolt|Thunderclap|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|66/100
+|move|p1a: Iron Bundle|Encore|p2b: Terapagos
+|-start|p2b: Terapagos|Encore
+|move|p1b: Miraidon|Electro Drift|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|move|p2b: Terapagos|Protect||[still]
+|-fail|p2b: Terapagos
+|
+|-heal|p2b: Terapagos|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750871850
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1a: Iron Bundle|Freeze-Dry|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Miraidon|Snarl|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|
+|-heal|p2b: Terapagos|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1750871865
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|89/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Bundle|Quark Drive
+|move|p2b: Terapagos|Protect||[still]
+|-fail|p2b: Terapagos
+|move|p1a: Iron Bundle|Freeze-Dry|p2b: Terapagos
+|-damage|p2b: Terapagos|82/100
+|move|p1b: Miraidon|Electro Drift|p2b: Terapagos
+|-damage|p2b: Terapagos|70/100
+|
+|-heal|p2b: Terapagos|76/100|[from] item: Leftovers
+|-end|p2b: Terapagos|Encore
+|upkeep
+|turn|16
+|inactive|Rusty Old Key has 30 seconds left.
+|
+|t:|1750871885
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1a: Iron Bundle|Encore|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Miraidon|Snarl|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|
+|-heal|p2b: Terapagos|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Rusty Old Key has 30 seconds left this turn.
+|inactive|Rusty Old Key has 20 seconds left.
+|
+|t:|1750871900
+|move|p1a: Iron Bundle|Encore|p2b: Terapagos
+|-start|p2b: Terapagos|Encore
+|move|p1b: Miraidon|Snarl|p2b: Terapagos
+|-damage|p2b: Terapagos|78/100
+|-unboost|p2b: Terapagos|spa|1
+|move|p2b: Terapagos|Protect||[still]
+|-fail|p2b: Terapagos
+|
+|-heal|p2b: Terapagos|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Rusty Old Key has 20 seconds left this turn.
+|inactive|Rusty Old Key has 15 seconds left.
+|inactive|Rusty Old Key has 10 seconds left.
+|
+|t:|1750871910
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1a: Iron Bundle|Freeze-Dry|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Miraidon|Snarl|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|
+|-heal|p2b: Terapagos|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Rusty Old Key has 10 seconds left this turn.
+|inactive|Rusty Old Key has 5 seconds left.
+|-message|Rusty Old Key lost due to inactivity.
+|
+|win|Caly-Dow hater
+|raw|Caly-Dow hater's rating: 1450 &rarr; <strong>1478</strong><br />(+28 for winning)
+|raw|Rusty Old Key's rating: 1598 &rarr; <strong>1570</strong><br />(-28 for losing)
+|l|☆Caly-Dow hater
+|player|p1|
+|l|☆Rusty Old Key
+|player|p2|

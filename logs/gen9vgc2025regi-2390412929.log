@@ -1,0 +1,251 @@
+|j|☆Zordor
+|j|☆nolemonnomelon
+|t:|1750710443
+|gametype|doubles
+|player|p1|Zordor|pilot|1621
+|player|p2|nolemonnomelon|hilda|1580
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Entei, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nolemonnomelon)
+|inactive|Zordor has 60 seconds left.
+|inactive|nolemonnomelon has 60 seconds left.
+|
+|t:|1750710484
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-unboost|p1b: Zacian|atk|1
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|1
+|
+|t:|1750710500
+|move|p2b: Incineroar|Fake Out|p1a: Walking Wake
+|-damage|p1a: Walking Wake|90/100
+|cant|p1a: Walking Wake|flinch
+|move|p1b: Zacian|Behemoth Blade|p2a: Farigiraf
+|-damage|p2a: Farigiraf|60/100
+|-damage|p1b: Zacian|84/100|[from] item: Rocky Helmet|[of] p2a: Farigiraf
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|2
+|inactive|Zordor has 30 seconds left.
+|inactive|nolemonnomelon has 30 seconds left.
+|
+|t:|1750710531
+|switch|p1b: Entei|Entei, L50|100/100
+|move|p1a: Walking Wake|Protect|p1a: Walking Wake
+|-singleturn|p1a: Walking Wake|Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Walking Wake
+|-activate|p1a: Walking Wake|move: Protect
+|move|p2a: Farigiraf|Foul Play|p1b: Entei
+|-damage|p1b: Entei|77/100
+|
+|-heal|p1b: Entei|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750710556
+|move|p2b: Incineroar|Parting Shot|p1a: Walking Wake
+|-unboost|p1a: Walking Wake|atk|1
+|-unboost|p1a: Walking Wake|spa|1
+|
+|t:|1750710561
+|switch|p2b: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p2a: Farigiraf|Foul Play|p1b: Entei
+|-damage|p1b: Entei|58/100
+|move|p1b: Entei|Substitute|p1b: Entei
+|-start|p1b: Entei|Substitute
+|-damage|p1b: Entei|33/100
+|move|p1a: Walking Wake|Snarl|p2b: Kyogre|[spread] p2a
+|-miss|p1a: Walking Wake|p2b: Kyogre
+|-supereffective|p2a: Farigiraf
+|-crit|p2a: Farigiraf
+|-damage|p2a: Farigiraf|24/100
+|-unboost|p2a: Farigiraf|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Entei|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750710589
+|move|p1b: Entei|Protect|p1b: Entei
+|-singleturn|p1b: Entei|Protect
+|move|p2a: Farigiraf|Foul Play|p1b: Entei
+|-activate|p1b: Entei|move: Protect
+|move|p2b: Kyogre|Water Spout|p1b: Entei|[spread] p1a
+|-activate|p1b: Entei|move: Protect
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|47/100
+|move|p1a: Walking Wake|Snarl|p2a: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|9/100
+|-damage|p2b: Kyogre|94/100
+|-unboost|p2a: Farigiraf|spa|1
+|-unboost|p2b: Kyogre|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Entei|45/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750710622
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Farigiraf|Foul Play|p1b: Entei
+|-activate|p1b: Entei|move: Substitute|[damage]
+|move|p1b: Entei|Sacred Fire|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|76/100
+|move|p1a: Walking Wake|Snarl|p2a: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Farigiraf
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Calyrex|64/100
+|-unboost|p2b: Calyrex|spa|1
+|faint|p2a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Entei|51/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750710632
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-immune|p1b: Entei
+|turn|6
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750710663
+|move|p2a: Incineroar|Fake Out|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|32/100
+|cant|p1a: Walking Wake|flinch
+|move|p1b: Entei|Sacred Fire|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|40/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Entei|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750710679
+|move|p1b: Entei|Protect|p1b: Entei
+|-singleturn|p1b: Entei|Protect
+|move|p1a: Walking Wake|Protect|p1a: Walking Wake
+|-singleturn|p1a: Walking Wake|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Walking Wake|[spread] 
+|-activate|p1a: Walking Wake|move: Protect
+|-activate|p1b: Entei|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Walking Wake
+|-activate|p1a: Walking Wake|move: Protect
+|
+|-weather|none
+|-heal|p1b: Entei|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750710700
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Zacian|Zacian-Crowned, L50|84/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1b: Entei
+|-end|p1b: Entei|Substitute
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|59/100
+|move|p2a: Incineroar|Knock Off|p1b: Entei
+|-damage|p1b: Entei|32/100
+|-enditem|p1b: Entei|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Entei|Sacred Fire|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750710710
+|switch|p2b: Kyogre|Kyogre, L50|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|9
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750710739
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Incineroar|Taunt|p1b: Ogerpon
+|-start|p1b: Ogerpon|move: Taunt
+|move|p2b: Kyogre|Water Spout|p1a: Zacian|[spread] 
+|-activate|p1a: Zacian|move: Protect
+|-immune|p1b: Ogerpon|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|c|☆nolemonnomelon|oh man
+|c|☆nolemonnomelon|i somehow forgot you had another mon HAHA
+|c|☆nolemonnomelon|gg
+|inactive|Zordor has 30 seconds left.
+|
+|t:|1750710766
+|switch|p1a: Entei|Entei, L50|32/100
+|-terastallize|p2a: Incineroar|Ghost
+|move|p2a: Incineroar|Knock Off|p1b: Ogerpon
+|-damage|p1b: Ogerpon|76/100
+|move|p2b: Kyogre|Water Spout|p1b: Ogerpon|[spread] p1a
+|-heal|p1b: Ogerpon|100/100|[from] ability: Water Absorb|[of] p2b: Kyogre
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Incineroar|[anim] Ivy Cudgel Water
+|-damage|p2a: Incineroar|51/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|-message|nolemonnomelon forfeited.
+|
+|win|Zordor
+|raw|Zordor's rating: 1621 &rarr; <strong>1639</strong><br />(+18 for winning)
+|raw|nolemonnomelon's rating: 1580 &rarr; <strong>1562</strong><br />(-18 for losing)
+|l|☆nolemonnomelon
+|player|p2|
+|l|☆Zordor
+|player|p1|

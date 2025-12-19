@@ -1,0 +1,273 @@
+|j|☆joshhawking
+|j|☆vuolod
+|t:|1750847296
+|gametype|doubles
+|player|p1|joshhawking|1|1146
+|player|p2|vuolod|veteran|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Lycanroc, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Arbok, L50, F|
+|poke|p2|Sawsbuck, L50, F|
+|poke|p2|Pikachu, L50, M|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by joshhawking)
+|
+|t:|1750847331
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Pikachu|Pikachu, L50, M|100/100
+|switch|p2b: Arbok|Arbok, L50, F|100/100
+|-ability|p2b: Arbok|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Scream Tail|atk|1
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|joshhawking has 30 seconds left.
+|inactive|vuolod has 30 seconds left.
+|inactive|vuolod has 20 seconds left.
+|inactive|vuolod has 15 seconds left.
+|inactive|vuolod has 10 seconds left.
+|
+|t:|1750847381
+|move|p2a: Pikachu|Fake Out|p1b: Scream Tail
+|-damage|p1b: Scream Tail|87/100
+|move|p1a: Gothitelle|Fake Out|p2b: Arbok
+|-damage|p2b: Arbok|94/100
+|cant|p1b: Scream Tail|flinch
+|cant|p2b: Arbok|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750847401
+|move|p1b: Scream Tail|Encore|p2a: Pikachu
+|-start|p2a: Pikachu|Encore
+|move|p2a: Pikachu|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Pikachu
+|move|p1a: Gothitelle|Taunt|p2b: Arbok
+|-start|p2b: Arbok|move: Taunt
+|move|p2b: Arbok|Dragon Tail|p1a: Gothitelle
+|-damage|p1a: Gothitelle|86/100
+|drag|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|joshhawking has 30 seconds left.
+|inactive|vuolod has 30 seconds left.
+|
+|t:|1750847435
+|switch|p1a: Gothitelle|Gothitelle, L50, M|86/100
+|move|p2a: Pikachu|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Pikachu
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Pikachu|perish3|[silent]
+|-start|p2b: Arbok|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Arbok|Bulldoze|p1b: Scream Tail|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|15/100
+|-damage|p1a: Gothitelle|75/100
+|-damage|p1b: Scream Tail|77/100
+|-unboost|p2a: Pikachu|spe|1
+|-unboost|p1a: Gothitelle|spe|1
+|-unboost|p1b: Scream Tail|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|81/100|[from] item: Leftovers
+|-start|p1b: Scream Tail|perish3
+|-start|p2b: Arbok|perish3
+|-start|p2a: Pikachu|perish3
+|-start|p1a: Gothitelle|perish3
+|upkeep
+|turn|4
+|inactive|joshhawking has 30 seconds left.
+|inactive|vuolod has 30 seconds left.
+|inactive|vuolod has 20 seconds left.
+|
+|t:|1750847471
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Pikachu|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Pikachu
+|move|p1a: Gothitelle|Fake Out|p2b: Arbok
+|-damage|p2b: Arbok|84/100
+|cant|p2b: Arbok|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|88/100|[from] item: Leftovers
+|-end|p2b: Arbok|move: Taunt
+|-end|p2a: Pikachu|Encore
+|-start|p2b: Arbok|perish2
+|-start|p2a: Pikachu|perish2
+|-start|p1a: Gothitelle|perish2
+|upkeep
+|turn|5
+|inactive|joshhawking has 30 seconds left.
+|inactive|vuolod has 30 seconds left.
+|
+|t:|1750847499
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Pikachu|Nuzzle|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|95/100
+|-status|p1b: Amoonguss|par
+|-damage|p2a: Pikachu|0 fnt|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p2a: Pikachu
+|move|p1b: Amoonguss|Spore|p2b: Arbok
+|-status|p2b: Arbok|slp|[from] move: Spore
+|cant|p2b: Arbok|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|94/100|[from] item: Leftovers
+|-start|p2b: Arbok|perish1
+|-start|p1a: Gothitelle|perish1
+|upkeep
+|
+|t:|1750847518
+|switch|p2a: Lycanroc|Lycanroc, L50, M|100/100
+|turn|6
+|
+|t:|1750847533
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Lycanroc|Psychic Fangs|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|14/100 par
+|-damage|p2a: Lycanroc|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2a: Lycanroc|74/100|[from] item: Life Orb
+|cant|p2b: Arbok|slp
+|cant|p1b: Amoonguss|par
+|
+|-weather|none
+|-start|p2b: Arbok|perish0
+|upkeep
+|faint|p2b: Arbok
+|
+|t:|1750847546
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|7
+|
+|t:|1750847567
+|switch|p1b: Gothitelle|Gothitelle, L50, M|94/100
+|-terastallize|p2a: Lycanroc|Rock
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Lycanroc|Rock Slide|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Gothitelle|44/100
+|-damage|p2a: Lycanroc|64/100|[from] item: Life Orb
+|move|p2b: Tyranitar|Knock Off|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Koraidon|95/100|[from] Sandstorm
+|-damage|p1b: Gothitelle|38/100|[from] Sandstorm
+|-heal|p1b: Gothitelle|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|vuolod has 30 seconds left.
+|
+|t:|1750847595
+|switch|p1a: Amoonguss|Amoonguss, L50, F|48/100 par
+|move|p2a: Lycanroc|Protect|p2a: Lycanroc
+|-singleturn|p2a: Lycanroc|Protect
+|move|p2b: Tyranitar|Protect|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Protect
+|move|p1b: Gothitelle|Fake Out|p2a: Lycanroc
+|-activate|p2a: Lycanroc|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gothitelle|38/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|42/100 par|[from] Sandstorm
+|-heal|p1b: Gothitelle|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|joshhawking has 30 seconds left.
+|
+|t:|1750847623
+|switch|p1a: Koraidon|Koraidon, L50|95/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1b: Gothitelle|Water
+|move|p2a: Lycanroc|Psychic Fangs|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|28/100
+|-damage|p2a: Lycanroc|54/100|[from] item: Life Orb
+|move|p1b: Gothitelle|Taunt|p2b: Tyranitar
+|-start|p2b: Tyranitar|move: Taunt
+|move|p2b: Tyranitar|Knock Off|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|-enditem|p1b: Gothitelle|Leftovers|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1b: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750847646
+|switch|p1b: Scream Tail|Scream Tail, L50|77/100
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|10
+|
+|t:|1750847666
+|move|p1b: Scream Tail|Disable|p2a: Lycanroc
+|-start|p2a: Lycanroc|Disable|Psychic Fangs
+|move|p1a: Koraidon|Close Combat|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Tyranitar
+|-damage|p1a: Koraidon|18/100|[from] item: Life Orb
+|cant|p2a: Lycanroc|Disable|Psychic Fangs
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750847691
+|move|p1b: Scream Tail|Encore|p2a: Lycanroc
+|-start|p2a: Lycanroc|Encore
+|move|p1a: Koraidon|Close Combat|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Lycanroc
+|-damage|p1a: Koraidon|8/100|[from] item: Life Orb
+|
+|win|joshhawking
+|raw|joshhawking's rating: 1146 &rarr; <strong>1168</strong><br />(+22 for winning)
+|raw|vuolod's rating: 1111 &rarr; <strong>1089</strong><br />(-22 for losing)
+|l|☆vuolod
+|player|p2|
+|l|☆joshhawking
+|player|p1|

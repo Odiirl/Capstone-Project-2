@@ -1,0 +1,159 @@
+|j|☆magyomi
+|j|☆pabloam2006
+|t:|1750847286
+|gametype|doubles
+|player|p1|magyomi|102|1647
+|player|p2|pabloam2006|skyla|1753
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750847307
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750847323
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|-terastallize|p2b: Calyrex|Dark
+|move|p2a: Smeargle|Fake Out||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Fake Out|[of] p2a: Smeargle
+|move|p2b: Calyrex|Nasty Plot|p2b: Calyrex
+|-boost|p2b: Calyrex|spa|2
+|move|p1b: Urshifu|U-turn|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|1/100
+|
+|t:|1750847340
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750847361
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1b: Miraidon|Snarl|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Smeargle|38/100
+|-damage|p2b: Calyrex|0 fnt
+|-unboost|p2a: Smeargle|spa|1
+|faint|p2b: Calyrex
+|move|p1a: Farigiraf|Psychic Noise|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1750847366
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|
+|t:|1750847403
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|move|p2a: Zamazenta|Body Press|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2b: Rillaboom|Wood Hammer|p1a: Farigiraf
+|-damage|p1a: Farigiraf|57/100
+|-damage|p2b: Rillaboom|85/100|[from] Recoil
+|move|p1a: Farigiraf|Foul Play|p2b: Rillaboom
+|-damage|p2b: Rillaboom|53/100
+|
+|-heal|p2b: Rillaboom|59/100|[from] Grassy Terrain
+|-heal|p1a: Farigiraf|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750847425
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750847432
+|move|p1a: Farigiraf|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Miraidon|Electro Drift|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2b: Rillaboom|Wood Hammer|p1a: Farigiraf
+|-damage|p1a: Farigiraf|29/100
+|-damage|p2b: Rillaboom|47/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750847446
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750847468
+|-terastallize|p1a: Farigiraf|Dragon
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|52/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Calyrex
+|-damage|p1b: Calyrex|12/100
+|-damage|p2b: Rillaboom|35/100|[from] Recoil
+|move|p1b: Calyrex|High Horsepower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|6
+|
+|t:|1750847485
+|move|p1a: Farigiraf|Foul Play|p2b: Rillaboom
+|-damage|p2b: Rillaboom|2/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|win|magyomi
+|raw|magyomi's rating: 1647 &rarr; <strong>1673</strong><br />(+26 for winning)
+|raw|pabloam2006's rating: 1753 &rarr; <strong>1727</strong><br />(-26 for losing)
+|l|☆magyomi
+|player|p1|

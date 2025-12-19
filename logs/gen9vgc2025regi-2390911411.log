@@ -1,0 +1,128 @@
+|j|☆KilamanolaVGC
+|j|☆Jozero
+|t:|1750782146
+|gametype|doubles
+|player|p1|KilamanolaVGC|red|1119
+|player|p2|Jozero|265|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Noivern, L50, M|
+|poke|p1|Shiftry, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jozero)
+|inactive|KilamanolaVGC also wants the timer to be on.
+|inactive|Jozero has 60 seconds left.
+|
+|t:|1750782186
+|start
+|switch|p1a: Shiftry|Shiftry, L50, F, shiny|100/100
+|switch|p1b: Noivern|Noivern, L50, M, shiny|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|1
+|
+|t:|1750782202
+|move|p1a: Shiftry|Fake Out|p2b: Grimmsnarl
+|-enditem|p1a: Shiftry|Normal Gem|[from] gem
+|-damage|p2b: Grimmsnarl|81/100
+|move|p2b: Grimmsnarl|Fake Out|p1b: Noivern
+|-damage|p1b: Noivern|90/100
+|move|p1b: Noivern|Taunt|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Taunt
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750782225
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: Shiftry|Sucker Punch||[still]
+|-fail|p1a: Shiftry
+|move|p1b: Noivern|Tailwind|p1b: Noivern
+|-sidestart|p1: KilamanolaVGC|move: Tailwind
+|-ability|p1a: Shiftry|Wind Rider|boost
+|-boost|p1a: Shiftry|atk|1
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|upkeep
+|turn|3
+|inactive|Jozero has 30 seconds left.
+|
+|t:|1750782251
+|-terastallize|p1a: Shiftry|Normal
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Noivern|Super Fang|p2a: Terapagos
+|-damage|p2a: Terapagos|51/100
+|move|p1a: Shiftry|Explosion|p2a: Terapagos|[spread] p2a
+|-activate|p2b: Ho-Oh|move: Protect
+|-activate|p1b: Noivern|ability: Telepathy
+|-damage|p2a: Terapagos|0 fnt
+|faint|p1a: Shiftry
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|upkeep
+|
+|t:|1750782267
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|inactive|Jozero has 30 seconds left.
+|
+|t:|1750782293
+|move|p1a: Calyrex|Astral Barrage|p2b: Ho-Oh|[spread] p2a,p2b
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|46/100
+|-damage|p2b: Ho-Oh|60/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Noivern|Super Fang|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|24/100
+|move|p2a: Chien-Pao|Ice Spinner|p1b: Noivern
+|-supereffective|p1b: Noivern
+|-damage|p1b: Noivern|0 fnt
+|faint|p1b: Noivern
+|move|p2b: Ho-Oh|Brave Bird|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Ho-Oh|34/100|[from] Recoil
+|
+|upkeep
+|-message|KilamanolaVGC forfeited.
+|
+|win|Jozero
+|raw|KilamanolaVGC's rating: 1119 &rarr; <strong>1100</strong><br />(-19 for losing)
+|raw|Jozero's rating: 1207 &rarr; <strong>1226</strong><br />(+19 for winning)
+|l|☆KilamanolaVGC
+|player|p1|
+|l|☆Jozero
+|player|p2|

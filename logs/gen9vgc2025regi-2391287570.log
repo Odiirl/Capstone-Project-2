@@ -1,0 +1,145 @@
+|j|☆Honored1
+|j|☆Auragami
+|t:|1750828933
+|gametype|doubles
+|player|p1|Honored1|silver|
+|player|p2|Auragami|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|
+|t:|1750828956
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Palafin|Palafin, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750828984
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Auragami|move: Tailwind
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p1b: Palafin|Flip Turn|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|84/100
+|
+|t:|1750828998
+|detailschange|p1b: Palafin|Palafin-Hero, L50, F
+|switch|p1b: Moltres|Moltres-Galar, L50|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1750829021
+|move|p1b: Moltres|Protect|p1b: Moltres
+|-singleturn|p1b: Moltres|Protect
+|move|p2a: Whimsicott|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|move|p2b: Miraidon|Electro Drift|p1b: Moltres
+|-activate|p1b: Moltres|move: Protect
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1750829038
+|move|p2a: Whimsicott|Encore|p1b: Moltres
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Moltres
+|move|p2b: Miraidon|Electro Drift|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p1b: Moltres|Tailwind|p1b: Moltres
+|-sidestart|p1: Honored1|move: Tailwind
+|
+|upkeep
+|
+|t:|1750829051
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|turn|4
+|
+|t:|1750829062
+|move|p2b: Miraidon|Electro Drift|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|11/100
+|move|p2a: Whimsicott|Moonblast|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|move|p1b: Moltres|Fiery Wrath|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|78/100
+|-damage|p2b: Miraidon|60/100
+|
+|-sideend|p2: Auragami|move: Tailwind
+|upkeep
+|
+|t:|1750829073
+|switch|p1a: Palafin|Palafin-Hero, L50, F|100/100
+|-activate|p1a: Palafin|ability: Zero to Hero
+|turn|5
+|
+|t:|1750829087
+|-terastallize|p1a: Palafin|Water
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p1b: Moltres|Protect|p1b: Moltres
+|-singleturn|p1b: Moltres|Protect
+|move|p1a: Palafin|Jet Punch|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|20/100
+|move|p2b: Miraidon|Electro Drift|p1a: Palafin
+|-supereffective|p1a: Palafin
+|-damage|p1a: Palafin|0 fnt
+|faint|p1a: Palafin
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750829109
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|move|p1b: Moltres|Fiery Wrath|p2b: Ogerpon|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|56/100
+|-damage|p2b: Ogerpon|70/100
+|move|p2a: Whimsicott|Moonblast|p1b: Moltres
+|-supereffective|p1b: Moltres
+|-damage|p1b: Moltres|61/100
+|
+|-sideend|p1: Honored1|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750829130
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Auragami|move: Tailwind
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Moltres|[anim] Ivy Cudgel Rock
+|-supereffective|p1b: Moltres
+|-damage|p1b: Moltres|0 fnt
+|faint|p1b: Moltres
+|
+|win|Auragami

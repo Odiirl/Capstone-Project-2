@@ -1,0 +1,150 @@
+|j|☆Hiimniall
+|j|☆dakoite
+|t:|1750871865
+|gametype|doubles
+|player|p1|Hiimniall|1|1390
+|player|p2|dakoite|2|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dakoite)
+|inactive|Hiimniall has 60 seconds left.
+|inactive|dakoite has 60 seconds left.
+|
+|t:|1750871904
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|inactive|dakoite has 30 seconds left.
+|
+|t:|1750871930
+|-terastallize|p1b: Calyrex|Fairy
+|move|p1a: Grimmsnarl|Sucker Punch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Zamazenta|Heavy Slam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750871943
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|2
+|
+|t:|1750871956
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|88/100
+|cant|p1a: Kyogre|flinch
+|move|p2a: Zamazenta|Heavy Slam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|dakoite has 30 seconds left.
+|inactive|dakoite has 20 seconds left.
+|
+|t:|1750871993
+|move|p1b: Calyrex|Leech Seed|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Leech Seed
+|move|p2b: Incineroar|Knock Off|p1a: Kyogre
+|-damage|p1a: Kyogre|52/100
+|-enditem|p1a: Kyogre|Mystic Water|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Kyogre|Hydro Pump|p2a: Zamazenta
+|-damage|p2a: Zamazenta|18/100
+|move|p2a: Zamazenta|Heavy Slam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|88/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|6/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|99/100|[silent]
+|upkeep
+|turn|4
+|inactive|Hiimniall has 30 seconds left.
+|inactive|dakoite has 30 seconds left.
+|inactive|dakoite has 20 seconds left.
+|inactive|dakoite has 15 seconds left.
+|
+|t:|1750872034
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1b: Calyrex|Leech Seed|p2b: Incineroar
+|-start|p2b: Incineroar|move: Leech Seed
+|move|p2b: Incineroar|Knock Off|p1a: Kyogre
+|-damage|p1a: Kyogre|13/100
+|move|p1a: Kyogre|Origin Pulse|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750872047
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|6/100
+|turn|5
+|
+|t:|1750872068
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1b: Calyrex|Glacial Lance|p2a: Chien-Pao|[spread] p2a,p2b
+|-resisted|p2a: Chien-Pao
+|-resisted|p2b: Zamazenta
+|-damage|p2a: Chien-Pao|0 fnt
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2a: Chien-Pao
+|faint|p2b: Zamazenta
+|
+|win|Hiimniall
+|raw|Hiimniall's rating: 1390 &rarr; <strong>1410</strong><br />(+20 for winning)
+|raw|dakoite's rating: 1396 &rarr; <strong>1376</strong><br />(-20 for losing)
+|l|☆Hiimniall
+|player|p1|
+|l|☆dakoite
+|player|p2|

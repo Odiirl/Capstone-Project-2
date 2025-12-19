@@ -1,0 +1,169 @@
+|j|☆we moveing
+|j|☆izerial
+|t:|1750825709
+|gametype|doubles
+|player|p1|we moveing|266|1156
+|player|p2|izerial|bellelba|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|
+|t:|1750825739
+|start
+|switch|p1a: Scovillain|Scovillain, L50, M|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750825775
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: izerial|move: Tailwind
+|move|p2b: Calyrex|Draining Kiss|p1b: Walking Wake
+|-supereffective|p1b: Walking Wake
+|-damage|p1b: Walking Wake|68/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Walking Wake|Snarl|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Whimsicott|92/100
+|-damage|p2b: Calyrex|38/100
+|-unboost|p2b: Calyrex|spa|1
+|move|p1a: Scovillain|Overheat|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-unboost|p1a: Scovillain|spa|2
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1750825794
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Scovillain|atk|1
+|-unboost|p1b: Walking Wake|atk|1
+|turn|2
+|
+|t:|1750825826
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p1a: Scovillain|Protect|p1a: Scovillain
+|-singleturn|p1a: Scovillain|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Walking Wake
+|-damage|p1b: Walking Wake|53/100
+|cant|p1b: Walking Wake|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1750825856
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|move|p2b: Zamazenta|Body Press|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Incineroar|Flare Blitz|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|87/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|-damage|p2a: Incineroar|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750825865
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750825893
+|-terastallize|p2b: Zamazenta|Ghost
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: izerial|move: Tailwind
+|upkeep
+|
+|t:|1750825903
+|switch|p1a: Scovillain|Scovillain, L50, M|100/100
+|turn|5
+|
+|t:|1750825925
+|-terastallize|p1b: Koraidon|Fire
+|move|p1a: Scovillain|Spicy Extract|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|move|p1b: Koraidon|Flare Blitz|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-damage|p1b: Koraidon|70/100|[from] Recoil
+|move|p2a: Incineroar|Parting Shot|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825940
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|38/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750825956
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Scovillain|Overheat|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Koraidon|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750825982
+|move|p1a: Scovillain|Overheat|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-unboost|p1a: Scovillain|spa|2
+|faint|p2b: Calyrex
+|
+|win|we moveing
+|raw|we moveing's rating: 1156 &rarr; <strong>1182</strong><br />(+26 for winning)
+|raw|izerial's rating: 1170 &rarr; <strong>1144</strong><br />(-26 for losing)

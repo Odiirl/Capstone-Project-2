@@ -1,0 +1,194 @@
+|j|☆gmdifficulty
+|j|☆LadyofTheTesting
+|t:|1750743823
+|gametype|doubles
+|player|p1|gmdifficulty|266|1344
+|player|p2|LadyofTheTesting|infielder|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LadyofTheTesting)
+|inactive|LadyofTheTesting has 60 seconds left.
+|
+|t:|1750743857
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750743874
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p1b: Grimmsnarl|Fake Out|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|86/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: gmdifficulty|move: Tailwind
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: LadyofTheTesting|move: Tailwind
+|cant|p2b: Chien-Pao|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750743897
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: gmdifficulty|Reflect
+|move|p2a: Roaring Moon|Acrobatics|p1a: Zamazenta
+|-damage|p1a: Zamazenta|81/100
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|73/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750743916
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|39/100
+|move|p1a: Zamazenta|Body Press|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Annihilape
+|-supereffective|p2a: Annihilape
+|-damage|p2a: Annihilape|34/100
+|-unboost|p2a: Annihilape|spa|1
+|
+|upkeep
+|
+|t:|1750743929
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|inactive|gmdifficulty has 30 seconds left.
+|
+|t:|1750743957
+|move|p2a: Annihilape|Coaching|p2b: Koraidon
+|-boost|p2b: Koraidon|atk|1
+|-boost|p2b: Koraidon|def|1
+|move|p2b: Koraidon|Flame Charge|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|14/100
+|-boost|p2b: Koraidon|spe|1
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: LadyofTheTesting|move: Tailwind
+|-sideend|p1: gmdifficulty|move: Tailwind
+|upkeep
+|
+|t:|1750743965
+|switch|p2a: Roaring Moon|Roaring Moon, L50, tera:Flying|100/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|5
+|inactive|gmdifficulty has 30 seconds left.
+|
+|t:|1750743992
+|move|p2b: Koraidon|Collision Course|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|21/100
+|move|p2a: Roaring Moon|Acrobatics|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750744000
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|6
+|
+|t:|1750744013
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: gmdifficulty|move: Tailwind
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: LadyofTheTesting|move: Tailwind
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|72/100
+|-unboost|p2a: Roaring Moon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750744024
+|move|p2a: Roaring Moon|Acrobatics|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750744029
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750744035
+|move|p2a: Roaring Moon|Protect|p2a: Roaring Moon
+|-singleturn|p2a: Roaring Moon|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Roaring Moon
+|-activate|p2a: Roaring Moon|move: Protect
+|
+|-weather|none
+|-end|p2a: Roaring Moon|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1750744046
+|-terastallize|p1b: Calyrex|Fairy
+|move|p1b: Calyrex|Astral Barrage|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|
+|win|gmdifficulty
+|raw|gmdifficulty's rating: 1344 &rarr; <strong>1359</strong><br />(+15 for winning)
+|raw|LadyofTheTesting's rating: 1252 &rarr; <strong>1233</strong><br />(-19 for losing)
+|l|☆gmdifficulty
+|player|p1|

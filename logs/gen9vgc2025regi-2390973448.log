@@ -1,0 +1,239 @@
+|j|☆Taco_bowl_mx
+|j|☆et252015
+|t:|1750788683
+|gametype|doubles
+|player|p1|Taco_bowl_mx|dawn-gen4pt|1084
+|player|p2|et252015|blue|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+Taco_bowl_mx rejected open team sheets.
+|
+|t:|1750788704
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|-item|p2b: Incineroar|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by et252015)
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1750788740
+|move|p1b: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|-enditem|p2b: Incineroar|Air Balloon
+|move|p1a: Calyrex|Astral Barrage|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Politoed|38/100
+|-damage|p2b: Incineroar|59/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Politoed|Weather Ball|p1a: Calyrex
+|-damage|p1a: Calyrex|34/100
+|cant|p2b: Incineroar|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|40/100|[from] Grassy Terrain
+|-heal|p2a: Politoed|43/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|65/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750788765
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|88/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|46/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|72/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750788799
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p2a: Rillaboom|Frenzy Plant|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|83/100
+|-mustrecharge|p2a: Rillaboom
+|-heal|p2a: Rillaboom|96/100|[from] item: Shell Bell|[of] p1b: Rillaboom
+|move|p1b: Rillaboom|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|66/100
+|
+|t:|1750788818
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|52/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|72/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|78/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750788854
+|switch|p1a: Rillaboom|Rillaboom, L50, M|83/100
+|move|p2b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Incineroar
+|cant|p2a: Rillaboom|recharge
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Incineroar
+|-damage|p2b: Incineroar|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|78/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|24/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750788871
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p1a: Rillaboom|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|97/100
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Incineroar
+|-activate|p2b: Incineroar|move: Protect
+|
+|-weather|none
+|-heal|p2a: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|30/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750788899
+|move|p2b: Incineroar|Protect||[still]
+|-fail|p2b: Incineroar
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rillaboom|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|99/100
+|
+|t:|1750788912
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|52/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750788923
+|switch|p2b: Rillaboom|Rillaboom, L50, M|78/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|7
+|
+|t:|1750788934
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p2b: Rillaboom|Drum Beating|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|59/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750788960
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|switch|p1b: Rillaboom|Rillaboom, L50, M|95/100
+|move|p1a: Calyrex|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|54/100
+|-damage|p1a: Calyrex|49/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2b: Rillaboom|Drain Punch|p1a: Calyrex
+|-immune|p1a: Calyrex
+|
+|-heal|p1a: Calyrex|55/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|60/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750788984
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|9
+|
+|t:|1750789000
+|move|p1b: Raging Bolt|Thunderclap|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100
+|move|p1a: Calyrex|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|46/100|[from] item: Life Orb
+|move|p2b: Rillaboom|Drain Punch|p1a: Calyrex
+|-immune|p1a: Calyrex
+|
+|-heal|p1a: Calyrex|52/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750789016
+|switch|p2a: Politoed|Politoed, L50, F|43/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|10
+|
+|t:|1750789031
+|move|p1b: Raging Bolt|Thunderclap|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|move|p1a: Calyrex|Astral Barrage|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1a: Calyrex|42/100|[from] item: Life Orb
+|
+|win|Taco_bowl_mx
+|raw|Taco_bowl_mx's rating: 1084 &rarr; <strong>1105</strong><br />(+21 for winning)
+|raw|et252015's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

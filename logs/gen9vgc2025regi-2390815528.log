@@ -1,0 +1,194 @@
+|j|☆Morpheus2k6
+|j|☆Norafumi
+|t:|1750771527
+|gametype|doubles
+|player|p1|Morpheus2k6|266|
+|player|p2|Norafumi|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Heracross, L50, M|
+|poke|p1|Volbeat, L50, M|
+|poke|p1|Kleavor, L50, F|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Meowscarada, L50, M|
+|poke|p2|Krookodile, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Eiscue, L50, M|
+|teampreview|4
+|
+|t:|1750771537
+|start
+|switch|p1a: Volbeat|Volbeat, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Eiscue|Eiscue, L50, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Norafumi)
+|
+|t:|1750771560
+|-terastallize|p2b: Eiscue|Water
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Volbeat|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|move|p1b: Volcarona|Heat Wave|p2b: Eiscue|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-resisted|p2b: Eiscue
+|-damage|p2a: Amoonguss|22/100
+|-damage|p2b: Eiscue|77/100
+|-enditem|p2a: Amoonguss|Red Card|[of] p1b: Volcarona
+|drag|p1b: Vivillon|Vivillon, L50, M|100/100
+|move|p2b: Eiscue|Liquidation|p1b: Vivillon
+|-damage|p1b: Vivillon|31/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750771581
+|switch|p2a: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Volbeat|Taunt|p2b: Eiscue
+|-start|p2b: Eiscue|move: Taunt
+|move|p1b: Vivillon|Sleep Powder|p2b: Eiscue
+|-status|p2b: Eiscue|slp|[from] move: Sleep Powder
+|cant|p2b: Eiscue|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750771605
+|move|p1a: Volbeat|Rain Dance|p1a: Volbeat
+|-weather|RainDance
+|move|p1b: Vivillon|Hurricane|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|30/100
+|-start|p2a: Abomasnow|confusion
+|-activate|p2a: Abomasnow|confusion
+|move|p2a: Abomasnow|Blizzard|p1b: Vivillon|[spread] p1a,p1b
+|-supereffective|p1b: Vivillon
+|-damage|p1a: Volbeat|78/100
+|-damage|p1b: Vivillon|0 fnt
+|faint|p1b: Vivillon
+|-curestatus|p2b: Eiscue|slp|[msg]
+|move|p2b: Eiscue|Liquidation|p1a: Volbeat
+|-damage|p1a: Volbeat|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750771619
+|switch|p1b: Araquanid|Araquanid, L50, M|100/100
+|turn|4
+|
+|t:|1750771633
+|switch|p2b: Amoonguss|Amoonguss, L50, F|55/100
+|move|p1a: Volbeat|Tailwind|p1a: Volbeat
+|-sidestart|p1: Morpheus2k6|move: Tailwind
+|move|p1b: Araquanid|Leech Life|p2b: Amoonguss
+|-damage|p2b: Amoonguss|30/100
+|-activate|p2a: Abomasnow|confusion
+|-damage|p2a: Abomasnow|20/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|Norafumi has 30 seconds left.
+|inactive|Norafumi has 20 seconds left.
+|inactive|Norafumi has 15 seconds left.
+|
+|t:|1750771676
+|switch|p2a: Krookodile|Krookodile, L50, M|100/100
+|move|p1a: Volbeat|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p1b: Araquanid|Leech Life|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|37/100
+|-enditem|p2a: Krookodile|Weakness Policy
+|-boost|p2a: Krookodile|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Krookodile|spa|2|[from] item: Weakness Policy
+|cant|p2b: Amoonguss|move: Taunt|Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|inactive|Morpheus2k6 has 30 seconds left.
+|
+|t:|1750771704
+|move|p1a: Volbeat|Encore|p2a: Krookodile
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Krookodile
+|move|p2a: Krookodile|Rock Slide|p1b: Araquanid|[spread] p1a,p1b
+|-supereffective|p1a: Volbeat
+|-supereffective|p1b: Araquanid
+|-damage|p1a: Volbeat|0 fnt
+|-damage|p1b: Araquanid|33/100
+|faint|p1a: Volbeat
+|cant|p1b: Araquanid|flinch
+|move|p2b: Amoonguss|Pollen Puff|p2a: Krookodile
+|-heal|p2a: Krookodile|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750771717
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|turn|7
+|
+|t:|1750771739
+|-terastallize|p1a: Volcarona|Ground
+|move|p1a: Volcarona|Tera Blast|p2a: Krookodile|[anim] Tera Blast Ground
+|-damage|p2a: Krookodile|28/100
+|move|p2a: Krookodile|Rock Slide|p1b: Araquanid|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-supereffective|p1b: Araquanid
+|-damage|p1a: Volcarona|82/100
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|move|p2b: Amoonguss|Pollen Puff|p2a: Krookodile
+|-heal|p2a: Krookodile|78/100
+|
+|-weather|none
+|-end|p2b: Amoonguss|move: Taunt
+|-sideend|p1: Morpheus2k6|move: Tailwind
+|upkeep
+|turn|8
+|inactive|Norafumi has 30 seconds left.
+|
+|t:|1750771766
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Krookodile|Outrage|p1a: Volcarona
+|-damage|p1a: Volcarona|4/100
+|-damage|p2a: Krookodile|62/100|[from] item: Rocky Helmet|[of] p1a: Volcarona
+|move|p1a: Volcarona|Heat Wave|p2b: Amoonguss|[spread] p2b
+|-miss|p1a: Volcarona|p2a: Krookodile
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|upkeep
+|
+|t:|1750771777
+|switch|p2b: Abomasnow|Abomasnow, L50, F|20/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|turn|9
+|
+|t:|1750771784
+|move|p2b: Abomasnow|Ice Shard|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|Norafumi
+|l|☆Morpheus2k6
+|player|p1|

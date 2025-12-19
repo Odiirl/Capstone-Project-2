@@ -1,0 +1,123 @@
+|j|☆CinnaMink
+|j|☆herkleon
+|t:|1750741250
+|gametype|doubles
+|player|p1|CinnaMink|backpackerf|1244
+|player|p2|herkleon|worker-gen4|1175
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Feraligatr, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|
+|t:|1750741263
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Feraligatr|Feraligatr, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750741282
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: CinnaMink|move: Tailwind
+|move|p1a: Miraidon|Volt Switch|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|65/100
+|
+|t:|1750741295
+|switch|p1a: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Tornadus|[spread] p1a,p1b
+|-damage|p1a: Kyogre|56/100
+|-damage|p1b: Tornadus|10/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750741317
+|-terastallize|p1a: Kyogre|Electric
+|move|p2a: Iron Hands|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|36/100
+|-enditem|p1a: Kyogre|Sitrus Berry|[eat]
+|-heal|p1a: Kyogre|60/100|[from] item: Sitrus Berry
+|move|p1b: Tornadus|Hurricane|p2a: Iron Hands
+|-damage|p2a: Iron Hands|37/100
+|-start|p2a: Iron Hands|confusion
+|cant|p1a: Kyogre|flinch
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Tornadus|[spread] p1a,p1b
+|-crit|p1b: Tornadus
+|-damage|p1a: Kyogre|11/100
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741349
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750741368
+|move|p1b: Miraidon|Electro Drift|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p1a: Kyogre|Icy Wind|p2a: Iron Hands
+|-damage|p2a: Iron Hands|26/100
+|-unboost|p2a: Iron Hands|spe|1
+|-activate|p2a: Iron Hands|confusion
+|-damage|p2a: Iron Hands|15/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750741374
+|switch|p2b: Feraligatr|Feraligatr, L50, F|100/100
+|turn|4
+|
+|t:|1750741397
+|move|p1b: Miraidon|Electro Drift|p2b: Feraligatr
+|-supereffective|p2b: Feraligatr
+|-damage|p2b: Feraligatr|0 fnt
+|faint|p2b: Feraligatr
+|move|p1a: Kyogre|Thunder|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: CinnaMink|move: Tailwind
+|upkeep
+|-message|herkleon forfeited.
+|
+|win|CinnaMink
+|raw|CinnaMink's rating: 1244 &rarr; <strong>1264</strong><br />(+20 for winning)
+|raw|herkleon's rating: 1175 &rarr; <strong>1155</strong><br />(-20 for losing)
+|l|☆herkleon
+|player|p2|
+|l|☆CinnaMink
+|player|p1|

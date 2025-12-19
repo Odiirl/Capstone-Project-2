@@ -1,0 +1,168 @@
+|j|☆chonggongwei
+|j|☆MaloYT
+|t:|1750861587
+|gametype|doubles
+|player|p1|chonggongwei|bianca|1148
+|player|p2|MaloYT|101|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|
+|t:|1750861615
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Blaziken|Blaziken, L50, F, shiny|100/100
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750861643
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2b: Kyogre|91/100|[from] item: Life Orb
+|move|p2a: Blaziken|Flare Blitz|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750861661
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1750861672
+|-terastallize|p1b: Calyrex|Fire
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Torkoal|11/100
+|-damage|p1b: Calyrex|58/100
+|-damage|p2b: Kyogre|81/100|[from] item: Life Orb
+|move|p2a: Blaziken|Flare Blitz|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|33/100
+|-damage|p2a: Blaziken|90/100|[from] Recoil
+|move|p1a: Torkoal|Eruption|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Blaziken
+|-resisted|p2b: Kyogre
+|-damage|p2a: Blaziken|82/100
+|-damage|p2b: Kyogre|78/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750861698
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Torkoal|Weather Ball|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2b
+|-activate|p2a: Blaziken|move: Protect
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|44/100
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Calyrex|1/100
+|faint|p1a: Torkoal
+|-damage|p2b: Kyogre|34/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861716
+|switch|p1a: Urshifu|Urshifu, L50, M|100/100
+|turn|4
+|
+|t:|1750861731
+|move|p1b: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Blaziken
+|-resisted|p2b: Kyogre
+|-damage|p2a: Blaziken|39/100
+|-damage|p2b: Kyogre|2/100
+|move|p1a: Urshifu|Iron Head|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|3/100
+|cant|p2a: Blaziken|flinch
+|move|p2b: Kyogre|Water Spout|p1a: Urshifu|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Urshifu|99/100
+|-damage|p1b: Calyrex|1/100
+|-damage|p2b: Kyogre|0 fnt|[from] item: Life Orb
+|faint|p2b: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861749
+|switch|p2b: Hawlucha|Hawlucha, L50, F, shiny|100/100
+|-ability|p2b: Hawlucha|Mold Breaker
+|turn|5
+|
+|t:|1750861762
+|move|p1b: Calyrex|Glacial Lance|p2b: Hawlucha|[spread] p2a,p2b
+|-resisted|p2a: Blaziken
+|-supereffective|p2b: Hawlucha
+|-damage|p2a: Blaziken|0 fnt
+|-damage|p2b: Hawlucha|0 fnt
+|faint|p2a: Blaziken
+|faint|p2b: Hawlucha
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|move|p1a: Urshifu|Iron Head|p2: Blaziken|[notarget]
+|-fail|p1a: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750861775
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chonggongwei)
+|
+|t:|1750861782
+|move|p1b: Calyrex|Glacial Lance|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|win|chonggongwei
+|raw|chonggongwei's rating: 1148 &rarr; <strong>1168</strong><br />(+20 for winning)
+|raw|MaloYT's rating: 1074 &rarr; <strong>1057</strong><br />(-17 for losing)
+|l|☆MaloYT
+|player|p2|

@@ -1,0 +1,183 @@
+|j|☆jerryoftheriver
+|j|☆TalonLameN64
+|t:|1750714797
+|gametype|doubles
+|player|p1|jerryoftheriver|lady|1288
+|player|p2|TalonLameN64|169|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Leafeon, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jerryoftheriver)
+|
+|t:|1750714822
+|start
+|switch|p1a: Leafeon|Leafeon, L50, F|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Roaring Moon|ability: Protosynthesis
+|-start|p2b: Roaring Moon|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|jerryoftheriver has 30 seconds left.
+|
+|t:|1750714847
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Roaring Moon|atk|1
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: TalonLameN64|move: Tailwind
+|move|p2a: Koraidon|Close Combat|p1b: Groudon
+|-damage|p1b: Groudon|52/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Groudon|Precipice Blades|p2a: Koraidon|[spread] p2a,p2b
+|-damage|p2a: Koraidon|6/100
+|-damage|p2b: Roaring Moon|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750714871
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Hitmontop|Fake Out|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|12/100
+|cant|p2b: Roaring Moon|flinch
+|move|p1b: Groudon|Precipice Blades|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Roaring Moon|0 fnt
+|faint|p2b: Roaring Moon
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750714887
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750714897
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1a: Hitmontop|[spread] 
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-activate|p1b: Volcarona|move: Wide Guard
+|move|p2a: Koraidon|U-turn|p1a: Hitmontop
+|-resisted|p1a: Hitmontop
+|-damage|p1a: Hitmontop|86/100
+|-damage|p2a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750714902
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1750714922
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1a: Hitmontop|[spread] 
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-activate|p1b: Volcarona|move: Wide Guard
+|move|p2a: Rillaboom|Drum Beating|p1a: Hitmontop
+|-damage|p1a: Hitmontop|33/100
+|move|p1b: Volcarona|Struggle Bug|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|56/100
+|-damage|p2b: Calyrex|85/100
+|-unboost|p2a: Rillaboom|spa|1
+|-unboost|p2b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|91/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p1a: Hitmontop|39/100|[from] Grassy Terrain
+|-sideend|p2: TalonLameN64|move: Tailwind
+|upkeep
+|turn|5
+|inactive|jerryoftheriver has 30 seconds left.
+|
+|t:|1750714950
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1b: Volcarona|[spread] 
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-activate|p1b: Volcarona|move: Wide Guard
+|move|p2a: Rillaboom|Drum Beating|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|move|p1b: Volcarona|Struggle Bug|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|19/100
+|-damage|p2b: Calyrex|73/100
+|-unboost|p2a: Rillaboom|spa|1
+|-unboost|p2b: Calyrex|spa|1
+|
+|-weather|none
+|-heal|p2b: Calyrex|79/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750714971
+|switch|p1a: Groudon|Groudon, L50|52/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|6
+|
+|t:|1750714987
+|-terastallize|p1a: Groudon|Fire
+|move|p2b: Calyrex|Astral Barrage|p1b: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Groudon|9/100
+|-damage|p1b: Volcarona|66/100
+|move|p2a: Rillaboom|Drum Beating|p1a: Groudon
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p1b: Volcarona|Struggle Bug|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Calyrex|63/100
+|-unboost|p2b: Calyrex|spa|1
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|68/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|72/100|[from] Grassy Terrain
+|upkeep
+|-message|TalonLameN64 forfeited.
+|
+|win|jerryoftheriver
+|raw|jerryoftheriver's rating: 1288 &rarr; <strong>1307</strong><br />(+19 for winning)
+|raw|TalonLameN64's rating: 1207 &rarr; <strong>1188</strong><br />(-19 for losing)
+|l|☆TalonLameN64
+|player|p2|
+|l|☆jerryoftheriver
+|player|p1|

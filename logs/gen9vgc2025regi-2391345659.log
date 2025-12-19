@@ -1,0 +1,131 @@
+|j|☆SuperDruper
+|j|☆raezan
+|t:|1750840515
+|gametype|doubles
+|player|p1|SuperDruper|hooligans|1593
+|player|p2|raezan|hugh|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|teampreview|4
+SuperDruper has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuperDruper)
+|
+|t:|1750840561
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|turn|1
+|
+|t:|1750840580
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Tornadus
+|-damage|p1b: Tornadus|85/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2a: Incineroar|79/100
+|-damage|p2b: Brute Bonnet|42/100
+|move|p2b: Brute Bonnet|Spore|p1b: Tornadus
+|-status|p1b: Tornadus|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750840594
+|move|p1a: Calyrex|Encore|p2a: Incineroar
+|-start|p2a: Incineroar|Encore
+|cant|p1b: Tornadus|slp
+|move|p2a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Incineroar
+|move|p2b: Brute Bonnet|Spore|p1a: Calyrex
+|-status|p1a: Calyrex|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1750840604
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Brute Bonnet|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-curestatus|p1b: Tornadus|slp|[msg]
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2a: Calyrex|63/100
+|-damage|p2b: Brute Bonnet|0 fnt
+|-unboost|p2a: Calyrex|spe|1
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750840620
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|79/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Tornadus|atk|1
+|turn|4
+|inactive|raezan has 30 seconds left.
+|inactive|raezan has 20 seconds left.
+|inactive|raezan has 15 seconds left.
+|
+|t:|1750840664
+|-terastallize|p1b: Tornadus|Dark
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Calyrex|25/100
+|-damage|p2b: Incineroar|57/100
+|-unboost|p2b: Incineroar|spe|1
+|move|p2a: Calyrex|Astral Barrage|p1b: Tornadus|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-resisted|p1b: Tornadus
+|-damage|p1b: Tornadus|41/100
+|-damage|p2a: Calyrex|15/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|raezan forfeited.
+|
+|win|SuperDruper
+|raw|SuperDruper's rating: 1593 &rarr; <strong>1613</strong><br />(+20 for winning)
+|raw|raezan's rating: 1596 &rarr; <strong>1576</strong><br />(-20 for losing)
+|l|☆raezan
+|player|p2|
+|l|☆SuperDruper
+|player|p1|

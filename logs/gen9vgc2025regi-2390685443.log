@@ -1,0 +1,152 @@
+|j|☆Crying for Rain
+|j|☆ilikebluebanana
+|t:|1750749543
+|gametype|doubles
+|player|p1|Crying for Rain|rocketgruntf|1525
+|player|p2|ilikebluebanana|169|1627
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Comfey, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ilikebluebanana)
+|
+|t:|1750749566
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750749586
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p2a: Calyrex|Trick|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|44/100
+|
+|t:|1750749599
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-heal|p2a: Calyrex|50/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750749615
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Calyrex|Trick||[still]
+|-fail|p2a: Calyrex
+|move|p1a: Chien-Pao|Icicle Crash|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-heal|p2a: Calyrex|56/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750749628
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750749641
+|switch|p1a: Volcarona|Volcarona, L50, F, shiny|100/100
+|-terastallize|p2b: Zamazenta|Ghost
+|move|p2a: Calyrex|Trick|p1a: Volcarona
+|-activate|p2a: Calyrex|move: Trick|[of] p1a: Volcarona
+|-item|p1a: Volcarona|Choice Scarf|[from] move: Trick
+|-item|p2a: Calyrex|Leftovers|[from] move: Trick
+|move|p1b: Zamazenta|Heavy Slam|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|upkeep
+|
+|t:|1750749654
+|switch|p2a: Comfey|Comfey, L50, F|100/100
+|turn|4
+|
+|t:|1750749662
+|move|p2a: Comfey|Protect|p2a: Comfey
+|-singleturn|p2a: Comfey|Protect
+|move|p1a: Volcarona|Flamethrower|p2a: Comfey
+|-activate|p2a: Comfey|move: Protect
+|move|p1b: Zamazenta|Heavy Slam|p2a: Comfey
+|-activate|p2a: Comfey|move: Protect
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1750749679
+|move|p2a: Comfey|Protect|p2a: Comfey
+|-singleturn|p2a: Comfey|Protect
+|move|p1a: Volcarona|Flamethrower|p2a: Comfey
+|-activate|p2a: Comfey|move: Protect
+|move|p1b: Zamazenta|Heavy Slam|p2a: Comfey
+|-activate|p2a: Comfey|move: Protect
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750749696
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750749704
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Comfey|Draining Kiss|p1b: Miraidon
+|-damage|p1b: Miraidon|90/100
+|move|p1a: Volcarona|Flamethrower|p2b: Zamazenta
+|-damage|p2b: Zamazenta|76/100
+|move|p1b: Miraidon|Electro Drift|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|upkeep
+|turn|7
+|-message|ilikebluebanana forfeited.
+|
+|win|Crying for Rain
+|raw|Crying for Rain's rating: 1525 &rarr; <strong>1551</strong><br />(+26 for winning)
+|raw|ilikebluebanana's rating: 1627 &rarr; <strong>1601</strong><br />(-26 for losing)
+|l|☆ilikebluebanana
+|player|p2|
+|l|☆Crying for Rain
+|player|p1|

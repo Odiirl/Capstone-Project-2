@@ -1,0 +1,151 @@
+|j|☆Rathanegren
+|j|☆MegaLycanrocEx
+|t:|1750827477
+|gametype|doubles
+|player|p1|Rathanegren|clerkf|1161
+|player|p2|MegaLycanrocEx|101|1270
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750827549
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MegaLycanrocEx)
+|inactive|Rathanegren has 60 seconds left.
+|inactive|MegaLycanrocEx has 60 seconds left.
+|
+|t:|1750827599
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Iron Hands|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|90/100
+|-damage|p1b: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|50/100
+|-damage|p2b: Lunala|84/100
+|move|p2b: Lunala|Calm Mind|p2b: Lunala
+|-boost|p2b: Lunala|spa|1
+|-boost|p2b: Lunala|spd|1
+|
+|-heal|p2b: Lunala|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Rathanegren has 30 seconds left.
+|inactive|MegaLycanrocEx has 30 seconds left.
+|inactive|Rathanegren has 20 seconds left.
+|inactive|MegaLycanrocEx has 20 seconds left.
+|inactive|Rathanegren has 15 seconds left.
+|
+|t:|1750827642
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|89/100
+|cant|p1a: Miraidon|flinch
+|move|p2b: Lunala|Moonblast|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p2b: Lunala|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827656
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1750827667
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Lunala|move: Protect
+|-damage|p2a: Incineroar|4/100
+|move|p1b: Gholdengo|Make It Rain|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Lunala|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Incineroar
+|
+|-heal|p2b: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827683
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1750827702
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: MegaLycanrocEx|move: Light Screen
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-crit|p2b: Lunala
+|-damage|p2a: Grimmsnarl|42/100
+|-damage|p2b: Lunala|72/100
+|move|p1b: Gholdengo|Make It Rain|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-supereffective|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Grimmsnarl
+|faint|p2b: Lunala
+|
+|upkeep
+|
+|t:|1750827719
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750827726
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|33/100
+|move|p2b: Miraidon|Electro Drift|p1a: Miraidon
+|-damage|p1a: Miraidon|1/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|20/100
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|-message|MegaLycanrocEx forfeited.
+|
+|win|Rathanegren
+|raw|Rathanegren's rating: 1161 &rarr; <strong>1194</strong><br />(+33 for winning)
+|raw|MegaLycanrocEx's rating: 1270 &rarr; <strong>1237</strong><br />(-33 for losing)
+|l|☆MegaLycanrocEx
+|player|p2|

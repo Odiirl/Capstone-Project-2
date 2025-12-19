@@ -1,0 +1,142 @@
+|j|☆M4ntovani
+|j|☆MolassesPotato
+|t:|1750810344
+|gametype|doubles
+|player|p1|M4ntovani|ethan|1054
+|player|p2|MolassesPotato|jogger|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Ampharos, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+MolassesPotato has agreed to open team sheets.
+M4ntovani has agreed to open team sheets.
+|showteam|p1|Kyogre||ClearAmulet|Drizzle|MuddyWater,Thunder,Substitute,Protect||||||50|,,,,,Electric]Raichu||ChoiceSpecs|LightningRod|Thunder,Electroweb,FakeOut,AlluringVoice|||M|||50|,,,,,Flying]Miraidon||Magnet|HadronEngine|ElectroDrift,Thunder,DragonPulse,Protect||||||50|,,,,,Electric]Pelipper||FocusSash|Drizzle|MuddyWater,Surf,Hurricane,Blizzard|||F|||50|,,,,,Water]Ditto||Leftovers|Imposter|Transform||||||50|,,,,,Normal]Ampharos||SitrusBerry|Plus|Thunder,ThunderWave,Protect,Electroweb|||F|||50|,,,,,Electric
+|showteam|p2|Incineroar||RockyHelmet|Intimidate|KnockOff,WillOWisp,PartingShot,FakeOut|||F|||50|,,,,,Bug]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Water]Miraidon||ChoiceScarf|HadronEngine|ElectroDrift,DracoMeteor,VoltSwitch,Snarl||||||50|,,,,,Electric]Grimmsnarl||LightClay|Prankster|Reflect,SpiritBreak,LightScreen,ThunderWave|||M|||50|,,,,,Ghost]Ogerpon-Wellspring||WellspringMask|WaterAbsorb|IvyCudgel,Taunt,SpikyShield,FollowMe|||F|||50|,,,,,Water]Lunala||Leftovers|ShadowShield|MoongeistBeam,Moonblast,CalmMind,Protect||||||50|,,,,,Fairy
+|
+|t:|1750810392
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1750810440
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: MolassesPotato|Reflect
+|move|p1b: Raichu|Thunder|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|43/100
+|-status|p2b: Grimmsnarl|par
+|move|p2a: Rillaboom|Wood Hammer|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|-damage|p2a: Rillaboom|79/100|[from] Recoil
+|move|p1a: Pelipper|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|26/100|[from] Grassy Terrain
+|-heal|p2b: Grimmsnarl|49/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750810456
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|
+|t:|1750810480
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Miraidon|Thunder|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|74/100
+|move|p1a: Pelipper|Muddy Water|p2a: Ogerpon|[spread] p2b
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|54/100
+|-unboost|p2b: Miraidon|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750810513
+|move|p2a: Ogerpon|Follow Me|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Follow Me
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon|[miss]
+|-miss|p2b: Miraidon|p1b: Miraidon
+|move|p1b: Miraidon|Dragon Pulse|p2a: Ogerpon
+|-damage|p2a: Ogerpon|45/100
+|move|p1a: Pelipper|Hurricane|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750810525
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|26/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1750810541
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|87/100
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Miraidon|60/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|31/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750810568
+|move|p2a: Rillaboom|Grassy Glide|p1a: Pelipper
+|-damage|p1a: Pelipper|48/100
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon|[miss]
+|-miss|p2b: Miraidon|p1b: Miraidon
+|move|p1b: Miraidon|Dragon Pulse|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p1a: Pelipper|Blizzard|p2a: Rillaboom|[miss]
+|-miss|p1a: Pelipper|p2a: Rillaboom
+|
+|-weather|none
+|-heal|p2a: Rillaboom|37/100|[from] Grassy Terrain
+|upkeep
+|-message|MolassesPotato forfeited.
+|
+|win|M4ntovani
+|raw|M4ntovani's rating: 1054 &rarr; <strong>1091</strong><br />(+37 for winning)
+|raw|MolassesPotato's rating: 1107 &rarr; <strong>1078</strong><br />(-29 for losing)
+|l|☆MolassesPotato
+|player|p2|
+|l|☆M4ntovani
+|player|p1|

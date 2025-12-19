@@ -1,0 +1,163 @@
+|j|☆mousepad burglar
+|j|☆joegrip
+|t:|1750860625
+|gametype|doubles
+|player|p1|mousepad burglar|palmer|1326
+|player|p2|joegrip|lucas|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Cobalion, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Sableye, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mousepad burglar)
+|inactive|mousepad burglar has 60 seconds left.
+|
+|t:|1750860680
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|mousepad burglar has 30 seconds left.
+|inactive|joegrip has 30 seconds left.
+|
+|t:|1750860710
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1b: Amoonguss|Spore|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750860722
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|inactive|mousepad burglar has 30 seconds left.
+|
+|t:|1750860750
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1a: Miraidon|Electro Drift|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|84/100
+|move|p1b: Amoonguss|Spore|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Electric Terrain
+|move|p2a: Ursaluna|Headlong Rush|p1a: Miraidon
+|-damage|p1a: Miraidon|29/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|joegrip has 30 seconds left.
+|
+|t:|1750860784
+|switch|p1a: Cobalion|Cobalion, L50|100/100
+|-enditem|p1a: Cobalion|Electric Seed
+|-boost|p1a: Cobalion|def|1|[from] item: Electric Seed
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Cobalion|52/100
+|-damage|p1b: Amoonguss|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750860801
+|move|p1a: Cobalion|Protect|p1a: Cobalion
+|-singleturn|p1a: Cobalion|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Cobalion|[spread] p1b
+|-activate|p1a: Cobalion|move: Protect
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|62/100
+|move|p1b: Amoonguss|Sludge Bomb|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|60/100
+|-status|p2b: Miraidon|psn
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1b
+|-activate|p1a: Cobalion|move: Protect
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p2b: Miraidon|48/100 psn|[from] psn
+|upkeep
+|
+|t:|1750860814
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|29/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750860834
+|move|p1a: Cobalion|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Cobalion
+|move|p1b: Miraidon|Discharge|p2a: Calyrex|[spread] p1a,p2a,p2b
+|-damage|p1a: Cobalion|0 fnt
+|-damage|p2a: Calyrex|1/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p1a: Cobalion
+|faint|p2b: Miraidon
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750860855
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100 brn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750860865
+|move|p2b: Ursaluna|Facade|p1a: Calyrex
+|-damage|p1a: Calyrex|11/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Miraidon
+|
+|win|joegrip
+|raw|mousepad burglar's rating: 1326 &rarr; <strong>1308</strong><br />(-18 for losing)
+|raw|joegrip's rating: 1354 &rarr; <strong>1372</strong><br />(+18 for winning)
+|l|☆mousepad burglar
+|player|p1|
+|l|☆joegrip
+|player|p2|

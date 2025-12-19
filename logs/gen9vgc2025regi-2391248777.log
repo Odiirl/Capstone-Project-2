@@ -1,0 +1,143 @@
+|j|☆phonecount
+|j|☆MegaP.Trainer
+|t:|1750822358
+|gametype|doubles
+|player|p1|phonecount|169|1463
+|player|p2|MegaP.Trainer|silver|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750822372
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Solgaleo|Solgaleo, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Solgaleo|Psychic Seed
+|-boost|p2b: Solgaleo|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phonecount)
+|
+|t:|1750822384
+|-terastallize|p2b: Solgaleo|Normal
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Astral Barrage|p2a: Indeedee|[spread] 
+|-immune|p2a: Indeedee
+|-immune|p2b: Solgaleo
+|move|p1b: Urshifu|Wicked Blow|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|move|p2b: Solgaleo|Trick Room|p2b: Solgaleo
+|-fieldstart|move: Trick Room|[of] p2b: Solgaleo
+|
+|upkeep
+|turn|2
+|
+|t:|1750822405
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Urshifu|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Calyrex|82/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2b: Solgaleo|Sunsteel Strike|p1a: Calyrex
+|-damage|p1a: Calyrex|4/100
+|move|p1a: Calyrex|Psychic|p2b: Solgaleo
+|-damage|p2b: Solgaleo|59/100
+|
+|upkeep
+|
+|t:|1750822416
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750822439
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Terapagos|89/100
+|move|p2b: Solgaleo|Sunsteel Strike|p1b: Terapagos
+|-damage|p1b: Terapagos|53/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Solgaleo
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Solgaleo|2/100
+|faint|p2a: Indeedee
+|-damage|p1b: Terapagos|43/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750822459
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750822464
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Solgaleo|Sunsteel Strike|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|
+|upkeep
+|
+|t:|1750822469
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|5
+|
+|t:|1750822485
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2a: Calyrex|Glacial Lance|p1b: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1a: Grimmsnarl
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|MegaP.Trainer
+|raw|phonecount's rating: 1463 &rarr; <strong>1445</strong><br />(-18 for losing)
+|raw|MegaP.Trainer's rating: 1491 &rarr; <strong>1509</strong><br />(+18 for winning)
+|l|☆phonecount
+|player|p1|
+|l|☆MegaP.Trainer
+|player|p2|

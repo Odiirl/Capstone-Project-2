@@ -1,0 +1,232 @@
+|j|☆SpinnerVGC
+|j|☆hiidot
+|t:|1750711953
+|gametype|doubles
+|player|p1|SpinnerVGC|benga|1294
+|player|p2|hiidot|1|1294
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpinnerVGC)
+SpinnerVGC rejected open team sheets.
+|inactive|SpinnerVGC has 60 seconds left.
+|
+|t:|1750711994
+|start
+|switch|p1a: Mewtwo|Mewtwo, L50, shiny|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: ET|Lunala, L50|100/100
+|switch|p2b: Incierto|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Mewtwo|Pressure
+|-ability|p2b: Incierto|Intimidate|boost
+|-unboost|p1a: Mewtwo|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|turn|1
+|
+|t:|1750712010
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2b: Incierto|Fake Out|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: ET|[anim] Ivy Cudgel Rock
+|-damage|p2a: ET|82/100
+|move|p2a: ET|Trick Room|p2a: ET
+|-fieldstart|move: Trick Room|[of] p2a: ET
+|
+|-heal|p2a: ET|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750712030
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Incierto|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|59/100
+|
+|t:|1750712035
+|switch|p2b: Ushuaia|Ursaluna, L50, M|100/100|[from] U-turn
+|move|p2a: ET|Moongeist Beam|p1a: Indeedee
+|-immune|p1a: Indeedee
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Ushuaia|[anim] Ivy Cudgel Rock
+|-resisted|p2b: Ushuaia
+|-damage|p2b: Ushuaia|84/100
+|
+|-heal|p2a: ET|94/100|[from] item: Leftovers
+|-status|p2b: Ushuaia|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750712050
+|switch|p2a: Mr. Hongo|Amoonguss, L50, F|100/100
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Ushuaia|Facade|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Ogerpon|Power Whip|p2b: Ushuaia
+|-supereffective|p2b: Ushuaia
+|-damage|p2b: Ushuaia|10/100 brn
+|
+|-damage|p2b: Ushuaia|5/100 brn|[from] brn
+|upkeep
+|
+|t:|1750712063
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750712073
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2a: Mr. Hongo|Spore|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Ushuaia|Headlong Rush|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p2b: Ushuaia|0 fnt|[from] Spiky Shield|[of] p1b: Ogerpon
+|faint|p2b: Ushuaia
+|
+|upkeep
+|
+|t:|1750712084
+|switch|p2b: ET|Lunala, L50|94/100
+|turn|5
+|
+|t:|1750712095
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Mr. Hongo|Spore|p1b: Ogerpon
+|-immune|p1b: Ogerpon
+|move|p1a: Calyrex|Glacial Lance|p2a: Mr. Hongo|[spread] p2a,p2b
+|-supereffective|p2a: Mr. Hongo
+|-damage|p2a: Mr. Hongo|0 fnt
+|-damage|p2b: ET|32/100
+|faint|p2a: Mr. Hongo
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: ET|Moongeist Beam|p1b: Ogerpon
+|-damage|p1b: Ogerpon|27/100
+|
+|-heal|p2b: ET|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750712100
+|switch|p2a: Incierto|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incierto|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|turn|6
+|
+|t:|1750712120
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: ET|Wide Guard|p2b: ET
+|-singleturn|p2b: ET|Wide Guard
+|move|p2a: Incierto|Flare Blitz|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p2a: Incierto|88/100|[from] Spiky Shield|[of] p1b: Ogerpon
+|
+|-heal|p2b: ET|45/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750712135
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: ET|Moongeist Beam|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p2a: Incierto|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|46/100
+|-enditem|p1a: Calyrex|Life Orb|[from] move: Knock Off|[of] p2a: Incierto
+|move|p1a: Calyrex|High Horsepower|p2a: Incierto
+|-supereffective|p2a: Incierto
+|-damage|p2a: Incierto|23/100
+|
+|-heal|p2b: ET|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750712149
+|switch|p1b: Mewtwo|Mewtwo, L50, shiny|100/100
+|-ability|p1b: Mewtwo|Pressure
+|turn|8
+|inactive|hiidot has 30 seconds left.
+|
+|t:|1750712175
+|-terastallize|p2b: ET|Fairy
+|move|p1b: Mewtwo|Dark Pulse|p2b: ET
+|-resisted|p2b: ET
+|-damage|p2b: ET|41/100
+|move|p2b: ET|Moongeist Beam|p1b: Mewtwo
+|-supereffective|p1b: Mewtwo
+|-enditem|p1b: Mewtwo|Focus Sash
+|-damage|p1b: Mewtwo|1/100
+|move|p2a: Incierto|Knock Off|p1b: Mewtwo
+|-supereffective|p1b: Mewtwo
+|-damage|p1b: Mewtwo|0 fnt
+|faint|p1b: Mewtwo
+|move|p1a: Calyrex|High Horsepower|p2a: Incierto
+|-supereffective|p2a: Incierto
+|-damage|p2a: Incierto|0 fnt
+|faint|p2a: Incierto
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-heal|p2b: ET|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|SpinnerVGC has 30 seconds left.
+|inactive|hiidot has 30 seconds left.
+|inactive|SpinnerVGC has 20 seconds left.
+|inactive|SpinnerVGC has 15 seconds left.
+|inactive|hiidot has 20 seconds left.
+|inactive|hiidot has 15 seconds left.
+|
+|t:|1750712221
+|-terastallize|p1a: Calyrex|Ice
+|move|p2b: ET|Wide Guard|p2b: ET
+|-singleturn|p2b: ET|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: ET
+|-activate|p2b: ET|move: Wide Guard
+|
+|-heal|p2b: ET|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750712234
+|move|p2b: ET|Moongeist Beam|p1a: Calyrex
+|-damage|p1a: Calyrex|7/100
+|move|p1a: Calyrex|Glacial Lance|p2b: ET
+|-damage|p2b: ET|0 fnt
+|faint|p2b: ET
+|
+|win|SpinnerVGC
+|raw|SpinnerVGC's rating: 1294 &rarr; <strong>1319</strong><br />(+25 for winning)
+|raw|hiidot's rating: 1294 &rarr; <strong>1269</strong><br />(-25 for losing)

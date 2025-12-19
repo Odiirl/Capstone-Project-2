@@ -1,0 +1,147 @@
+|j|☆InekoAki
+|j|☆khe7marak
+|t:|1750827009
+|gametype|doubles
+|player|p1|InekoAki|lady|1596
+|player|p2|khe7marak|169|1619
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Entei, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750827054
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750827115
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Smeargle|Fake Out|p1a: Calyrex
+|-immune|p1a: Calyrex
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a
+|-immune|p2b: Smeargle
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|
+|t:|1750827123
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|2
+|
+|t:|1750827147
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Calyrex|Psychic|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|32/100
+|move|p1b: Zamazenta|Body Press|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750827158
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|turn|3
+|
+|t:|1750827179
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Smeargle|[spread] p2a
+|-immune|p2b: Smeargle
+|-damage|p2a: Zamazenta|48/100
+|move|p2a: Zamazenta|Heavy Slam|p1a: Calyrex
+|-damage|p1a: Calyrex|47/100
+|move|p2b: Smeargle|Spore|p1a: Calyrex
+|-status|p1a: Calyrex|slp|[from] move: Spore
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1750827213
+|switch|p1a: Entei|Entei, L50|100/100
+|-terastallize|p2b: Smeargle|Ghost
+|move|p1b: Zamazenta|Protect||[still]
+|-fail|p1b: Zamazenta
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p2a: Zamazenta|Heavy Slam|p1a: Entei
+|-resisted|p1a: Entei
+|-damage|p1a: Entei|86/100
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|5
+|
+|t:|1750827245
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|47/100 slp
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Smeargle
+|-crit|p2b: Smeargle
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|move|p2b: Smeargle|Spore|p1a: Calyrex
+|-fail|p1a: Calyrex|slp
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|6
+|-message|khe7marak forfeited.
+|
+|win|InekoAki
+|raw|InekoAki's rating: 1596 &rarr; <strong>1617</strong><br />(+21 for winning)
+|raw|khe7marak's rating: 1619 &rarr; <strong>1598</strong><br />(-21 for losing)
+|l|☆khe7marak
+|player|p2|
+|l|☆InekoAki
+|player|p1|

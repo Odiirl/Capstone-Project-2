@@ -1,0 +1,161 @@
+|j|☆1BreadyBoi
+|j|☆Ulkalar
+|t:|1750796483
+|gametype|doubles
+|player|p1|1BreadyBoi|marlon|1170
+|player|p2|Ulkalar|170|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Zapdos-Galar, L50|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Jolteon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ulkalar)
+|inactive|1BreadyBoi also wants the timer to be on.
+|
+|t:|1750796513
+|start
+|switch|p1a: Pincurchin|Pincurchin, L50, M, shiny|100/100
+|switch|p1b: Raichu|Raichu-Alola, L50, F, shiny|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Milotic|Milotic, L50, F|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|inactive|Ulkalar has 30 seconds left.
+|
+|t:|1750796543
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p1b: Raichu|Electroweb|p2b: Milotic|[spread] p2a
+|-activate|p2b: Milotic|move: Protect
+|-damage|p2a: Zacian|77/100
+|-unboost|p2a: Zacian|spe|1
+|move|p2a: Zacian|Behemoth Blade|p1b: Raichu
+|-resisted|p1b: Raichu
+|-enditem|p1b: Raichu|Focus Sash
+|-damage|p1b: Raichu|1/100
+|move|p1a: Pincurchin|Thunder Wave|p2a: Zacian|[miss]
+|-miss|p1a: Pincurchin|p2a: Zacian
+|
+|upkeep
+|turn|2
+|
+|t:|1750796558
+|move|p1b: Raichu|Electroweb|p2a: Zacian|[spread] p2a,p2b
+|-supereffective|p2b: Milotic
+|-damage|p2a: Zacian|56/100
+|-damage|p2b: Milotic|74/100
+|-unboost|p2a: Zacian|spe|1
+|-unboost|p2b: Milotic|spe|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|move|p2a: Zacian|Behemoth Blade|p1b: Raichu
+|-resisted|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|move|p2b: Milotic|Muddy Water|p1a: Pincurchin
+|-damage|p1a: Pincurchin|21/100
+|-unboost|p1a: Pincurchin|accuracy|1
+|-enditem|p1a: Pincurchin|Eject Button
+|
+|t:|1750796563
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|
+|-heal|p2b: Milotic|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750796564
+|switch|p1b: Ogerpon|Ogerpon, L50, F|100/100
+|turn|3
+|
+|t:|1750796585
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|-terastallize|p1b: Ogerpon|Grass
+|detailschange|p1b: Ogerpon|Ogerpon-Teal-Tera, L50, F, tera:Grass
+|-ability|p1b: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1b: Ogerpon|spe|1
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Milotic
+|-supereffective|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|move|p1a: Zacian|Behemoth Blade|p2a: Necrozma
+|-damage|p2a: Necrozma|28/100
+|
+|upkeep
+|
+|t:|1750796599
+|switch|p2b: Zapdos|Zapdos-Galar, L50|100/100
+|turn|4
+|
+|t:|1750796609
+|-terastallize|p2b: Zapdos|Fighting
+|move|p2b: Zapdos|Thunderous Kick|p1a: Zacian
+|-damage|p1a: Zacian|45/100
+|-unboost|p1a: Zacian|def|1
+|move|p1b: Ogerpon|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-enditem|p2a: Necrozma|Weakness Policy|[from] move: Knock Off|[of] p1b: Ogerpon
+|faint|p2a: Necrozma
+|move|p1a: Zacian|Wild Charge|p2b: Zapdos
+|-damage|p2b: Zapdos|19/100
+|-damage|p1a: Zacian|24/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750796622
+|switch|p2a: Zacian|Zacian-Crowned, L50|56/100
+|turn|5
+|
+|t:|1750796628
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Zapdos|Thunderous Kick|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Zapdos
+|-damage|p2b: Zapdos|0 fnt
+|faint|p2b: Zapdos
+|move|p2a: Zacian|Behemoth Blade|p1b: Ogerpon
+|-damage|p1b: Ogerpon|36/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750796642
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Zacian|Behemoth Blade|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon, L50, F|[silent]
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|win|1BreadyBoi
+|raw|1BreadyBoi's rating: 1170 &rarr; <strong>1192</strong><br />(+22 for winning)
+|raw|Ulkalar's rating: 1125 &rarr; <strong>1103</strong><br />(-22 for losing)
+|l|☆Ulkalar
+|player|p2|
+|l|☆1BreadyBoi
+|player|p1|

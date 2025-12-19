@@ -1,0 +1,233 @@
+|j|☆Bellsproutfanwill
+|j|☆Henry Poor
+|t:|1750797784
+|gametype|doubles
+|player|p1|Bellsproutfanwill|102|1458
+|player|p2|Henry Poor|266|1534
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zapdos-Galar, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+Henry Poor rejected open team sheets.
+|
+|t:|1750797815
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Zapdos|Zapdos-Galar, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750797836
+|move|p1b: Zapdos|Brave Bird|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-status|p1b: Zapdos|brn|[from] ability: Flame Body|[of] p2b: Volcarona
+|faint|p2b: Volcarona
+|-damage|p1b: Zapdos|62/100 brn|[from] Recoil
+|move|p2a: Miraidon|Volt Switch|p1b: Zapdos
+|-supereffective|p1b: Zapdos
+|-damage|p1b: Zapdos|0 fnt
+|faint|p1b: Zapdos
+|
+|t:|1750797842
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Terapagos|95/100|[from] Sandstorm
+|-heal|p1a: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750797858
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|2
+|
+|t:|1750797875
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p1b: Rillaboom|Fake Out|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|98/100
+|cant|p2b: Zamazenta|flinch
+|move|p1a: Terapagos|Tera Starstorm|p2b: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Tyranitar|48/100
+|-damage|p2b: Zamazenta|58/100
+|move|p2a: Tyranitar|Knock Off|p1a: Terapagos
+|-damage|p1a: Terapagos|65/100
+|-enditem|p1a: Terapagos|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|upkeep
+|turn|3
+|
+|t:|1750797910
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|move|p1b: Rillaboom|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|
+|t:|1750797918
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Tyranitar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|
+|upkeep
+|turn|4
+|j| naibot2814
+|
+|t:|1750797944
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Calyrex|Disable|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p1a: Terapagos|Tera Starstorm|p2a: Tyranitar|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|
+|t:|1750797951
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|5
+|
+|t:|1750797974
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Miraidon|Snarl|p1a: Terapagos|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-damage|p1b: Rillaboom|88/100
+|-unboost|p1b: Rillaboom|spa|1
+|move|p2b: Zamazenta|Body Press|p1a: Terapagos
+|-activate|p1a: Terapagos|move: Protect
+|
+|-heal|p2b: Zamazenta|64/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|71/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750797994
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p2a: Miraidon|Snarl|p1b: Rillaboom|[spread] p1a,p1b
+|-crit|p1b: Rillaboom
+|-damage|p1a: Terapagos|64/100
+|-damage|p1b: Rillaboom|77/100
+|-unboost|p1a: Terapagos|spa|1
+|-unboost|p1b: Rillaboom|spa|1
+|move|p1a: Terapagos|Tera Starstorm|p2a: Miraidon|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-damage|p2a: Miraidon|66/100
+|
+|-heal|p2a: Miraidon|72/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|70/100|[from] Grassy Terrain
+|-heal|p1a: Terapagos|70/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|83/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750798016
+|-terastallize|p2b: Zamazenta|Fighting
+|move|p2a: Miraidon|Snarl|p1b: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Terapagos|63/100
+|-damage|p1b: Rillaboom|71/100
+|-unboost|p1a: Terapagos|spa|1
+|-unboost|p1b: Rillaboom|spa|1
+|move|p2b: Zamazenta|Body Press|p1a: Terapagos
+|-supereffective|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p1b: Rillaboom|Wood Hammer|p2b: Zamazenta
+|-damage|p2b: Zamazenta|39/100
+|-damage|p1b: Rillaboom|60/100|[from] Recoil
+|
+|-heal|p2a: Miraidon|78/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|46/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750798033
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|1/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750798041
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p2a: Miraidon|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Rillaboom|54/100
+|-unboost|p1b: Rillaboom|spa|1
+|faint|p1a: Calyrex
+|move|p1b: Rillaboom|Wood Hammer|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|
+|-heal|p2a: Miraidon|84/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|52/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|60/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|l|☆Bellsproutfanwill
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Henry Poor)
+|inactive|Bellsproutfanwill has 30 seconds to reconnect!
+|inactive|Bellsproutfanwill has 20 seconds to reconnect!
+|inactive|Bellsproutfanwill has 15 seconds to reconnect!
+|inactive|Bellsproutfanwill has 10 seconds to reconnect!
+|inactive|Bellsproutfanwill has 5 seconds to reconnect!
+|-message|Bellsproutfanwill lost due to inactivity.
+|
+|win|Henry Poor
+|raw|Bellsproutfanwill's rating: 1458 &rarr; <strong>1442</strong><br />(-16 for losing)
+|raw|Henry Poor's rating: 1534 &rarr; <strong>1550</strong><br />(+16 for winning)
+|l|☆Henry Poor
+|player|p2|
+|l| naibot2814

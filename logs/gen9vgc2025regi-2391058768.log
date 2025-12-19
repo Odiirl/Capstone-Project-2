@@ -1,0 +1,210 @@
+|j|☆Richard123456789
+|j|☆MilGOATs1984
+|t:|1750797725
+|gametype|doubles
+|player|p1|Richard123456789|harlequin|1124
+|player|p2|MilGOATs1984|170|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Slither Wing, L50|
+|poke|p1|Zapdos-Galar, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Richard123456789)
+|inactive|Richard123456789 has 60 seconds left.
+MilGOATs1984 has agreed to open team sheets.
+|
+|t:|1750797768
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Richard123456789 has 30 seconds left.
+|inactive|Richard123456789 has 20 seconds left.
+|inactive|Richard123456789 has 15 seconds left.
+|inactive|MilGOATs1984 has 30 seconds left.
+|inactive|Richard123456789 has 10 seconds left.
+|inactive|Richard123456789 has 5 seconds left.
+|inactive|MilGOATs1984 has 20 seconds left.
+|
+|t:|1750797821
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-terastallize|p2b: Amoonguss|Dragon
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Lilligant|Encore|p2b: Amoonguss
+|-start|p2b: Amoonguss|Encore
+|-enditem|p2b: Amoonguss|Mental Herb
+|-end|p2b: Amoonguss|Encore
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Richard123456789 has 30 seconds left.
+|
+|t:|1750797851
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Amoonguss|Spore|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p1b: Lilligant|Sleep Powder|p2a: Ursaluna
+|-status|p2a: Ursaluna|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Richard123456789 has 30 seconds left.
+|
+|t:|1750797878
+|move|p2b: Amoonguss|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|cant|p2a: Ursaluna|slp
+|cant|p1a: Zamazenta|slp
+|move|p1b: Lilligant|Coaching|p1a: Zamazenta
+|-boost|p1a: Zamazenta|atk|1
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|MilGOATs1984 has 30 seconds left.
+|
+|t:|1750797905
+|move|p2b: Amoonguss|Pollen Puff|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|97/100 slp
+|cant|p2a: Ursaluna|slp
+|cant|p1a: Zamazenta|slp
+|move|p1b: Lilligant|Solar Blade||[still]
+|-prepare|p1b: Lilligant|Solar Blade
+|-anim|p1b: Lilligant|Solar Blade|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|25/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750797929
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|-curestatus|p2a: Ursaluna|slp|[msg]
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta|[spread] p1a,p1b
+|-activate|p2b: Amoonguss|move: Protect
+|-supereffective|p1a: Zamazenta
+|-resisted|p1b: Lilligant
+|-damage|p1a: Zamazenta|69/100 slp
+|-damage|p1b: Lilligant|71/100
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Body Press|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|move|p1b: Lilligant|Solar Blade||[still]
+|-prepare|p1b: Lilligant|Solar Blade
+|-anim|p1b: Lilligant|Solar Blade|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750797950
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|6
+|
+|t:|1750797965
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Lilligant|Sleep Powder|p2a: Lunala
+|-status|p2a: Lunala|slp|[from] move: Sleep Powder
+|move|p1a: Zamazenta|Body Press|p2b: Amoonguss
+|-damage|p2b: Amoonguss|4/100
+|cant|p2a: Lunala|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1750797984
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Zamazenta|Body Press|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-curestatus|p2a: Lunala|slp|[msg]
+|move|p2a: Lunala|Moongeist Beam|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797988
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|8
+|inactive|Richard123456789 has 30 seconds left.
+|inactive|MilGOATs1984 has 30 seconds left.
+|
+|t:|1750798019
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Zacian|Behemoth Blade|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p1b: Koraidon|Flame Charge|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2b: Zacian
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750798041
+|switch|p1a: Slither Wing|Slither Wing, L50|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|9
+|-message|MilGOATs1984 forfeited.
+|
+|win|Richard123456789
+|raw|Richard123456789's rating: 1124 &rarr; <strong>1157</strong><br />(+33 for winning)
+|raw|MilGOATs1984's rating: 1239 &rarr; <strong>1206</strong><br />(-33 for losing)
+|l|☆MilGOATs1984
+|player|p2|
+|l|☆Richard123456789
+|player|p1|

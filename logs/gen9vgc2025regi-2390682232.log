@@ -1,0 +1,194 @@
+|j|☆GzRekt
+|j|☆Ferrous2 000
+|t:|1750748902
+|gametype|doubles
+|player|p1|GzRekt|fisherman-gen4|1424
+|player|p2|Ferrous2 000|hiker|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GzRekt)
+|inactive|GzRekt has 60 seconds left.
+|inactive|Ferrous2 000 has 60 seconds left.
+|
+|t:|1750748952
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Broc|Rillaboom, L50, M, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Broc
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750748973
+|move|p2a: Solgaleo|Sunsteel Strike|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|16/100
+|-damage|p2a: Solgaleo|91/100|[from] item: Life Orb
+|move|p2b: Broc|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|49/100
+|
+|t:|1750748981
+|switch|p2b: Winston|Incineroar, L50, M, shiny|100/100|[from] U-turn
+|-ability|p2b: Winston|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2a: Solgaleo|[spread] p2a,p2b
+|-resisted|p2a: Solgaleo
+|-resisted|p2b: Winston
+|-crit|p2b: Winston
+|-damage|p2a: Solgaleo|70/100
+|-damage|p2b: Winston|60/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750749006
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Solgaleo|Protect|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Protect
+|move|p2b: Winston|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2b: Winston
+|faint|p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750749028
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750749045
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p2a: Solgaleo|Wide Guard|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Wide Guard
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Winston|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Focus Sash|[from] move: Knock Off|[of] p2b: Winston
+|faint|p1a: Indeedee
+|move|p1b: Terapagos|Tera Starstorm|p2a: Solgaleo|[spread] 
+|-activate|p2a: Solgaleo|move: Wide Guard
+|-activate|p2b: Winston|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750749053
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|-unboost|p2b: Winston|atk|1
+|turn|4
+|inactive|Ferrous2 000 has 30 seconds left.
+|inactive|Ferrous2 000 has 20 seconds left.
+|inactive|Ferrous2 000 has 15 seconds left.
+|
+|t:|1750749094
+|move|p1a: Incineroar|Fake Out|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|66/100
+|cant|p2a: Solgaleo|flinch
+|move|p2b: Winston|Knock Off|p1b: Terapagos
+|-damage|p1b: Terapagos|83/100
+|-enditem|p1b: Terapagos|Choice Specs|[from] move: Knock Off|[of] p2b: Winston
+|move|p1b: Terapagos|Tera Starstorm|p2a: Solgaleo|[spread] p2a,p2b
+|-damage|p2a: Solgaleo|33/100
+|-damage|p2b: Winston|27/100
+|
+|upkeep
+|turn|5
+|inactive|Ferrous2 000 has 30 seconds left.
+|inactive|GzRekt has 30 seconds left.
+|inactive|Ferrous2 000 has 20 seconds left.
+|inactive|Ferrous2 000 has 15 seconds left.
+|inactive|Ferrous2 000 has 10 seconds left.
+|
+|t:|1750749148
+|-terastallize|p2b: Winston|Fire
+|move|p2a: Solgaleo|Protect|p2a: Solgaleo
+|-singleturn|p2a: Solgaleo|Protect
+|move|p2b: Winston|Flare Blitz|p1b: Terapagos
+|-damage|p1b: Terapagos|55/100
+|-damage|p2b: Winston|16/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2b: Winston
+|-damage|p2b: Winston|0 fnt
+|-enditem|p2b: Winston|Power Anklet|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Winston
+|move|p1b: Terapagos|Earth Power|p2a: Solgaleo
+|-activate|p2a: Solgaleo|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750749157
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|Ferrous2 000 has 30 seconds left.
+|
+|t:|1750749183
+|move|p2b: Koraidon|Close Combat|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-crit|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|77/100
+|-damage|p2a: Solgaleo|23/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|81/100
+|-enditem|p2b: Koraidon|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|GzRekt forfeited.
+|
+|win|Ferrous2 000
+|raw|GzRekt's rating: 1424 &rarr; <strong>1399</strong><br />(-25 for losing)
+|raw|Ferrous2 000's rating: 1328 &rarr; <strong>1353</strong><br />(+25 for winning)
+|l|☆GzRekt
+|player|p1|
+|l|☆Ferrous2 000
+|player|p2|

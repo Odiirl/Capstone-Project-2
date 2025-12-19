@@ -1,0 +1,158 @@
+|j|☆wudiace
+|j|☆Iamsliverfish
+|t:|1750834366
+|gametype|doubles
+|player|p1|wudiace|101|1675
+|player|p2|Iamsliverfish|silver-masters|1824
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750834424
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750834460
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: wudiace|move: Tailwind
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1750834496
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750834528
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Lunala|Dazzling Gleam|p2b: Zamazenta|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-damage|p2a: Rillaboom|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|70/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750834551
+|move|p2a: Rillaboom|Fake Out|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|82/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Lunala|Moongeist Beam|p2b: Zamazenta
+|-damage|p2b: Zamazenta|33/100
+|move|p2b: Zamazenta|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|28/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|40/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750834572
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Lunala
+|-damage|p1b: Lunala|87/100
+|move|p1a: Koraidon|Collision Course|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p1b: Lunala|Moongeist Beam|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|34/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|93/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|46/100|[from] Grassy Terrain
+|-sideend|p1: wudiace|move: Tailwind
+|upkeep
+|
+|t:|1750834577
+|switch|p2a: Chien-Pao|Chien-Pao, L50|1/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|t:|1750834606
+|move|p1a: Koraidon|Collision Course|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Lunala|Dazzling Gleam|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Lunala|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750834631
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|-message|Iamsliverfish forfeited.
+|
+|win|wudiace
+|raw|wudiace's rating: 1675 &rarr; <strong>1703</strong><br />(+28 for winning)
+|raw|Iamsliverfish's rating: 1824 &rarr; <strong>1796</strong><br />(-28 for losing)
+|l|☆Iamsliverfish
+|player|p2|
+|l|☆wudiace
+|player|p1|

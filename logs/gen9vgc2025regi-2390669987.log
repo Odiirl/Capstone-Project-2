@@ -1,0 +1,168 @@
+|j|☆gingerlike
+|j|☆Grade a type b
+|t:|1750746506
+|gametype|doubles
+|player|p1|gingerlike|2|1476
+|player|p2|Grade a type b|169|1515
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grade a type b)
+|inactive|gingerlike also wants the timer to be on.
+|inactive|gingerlike has 60 seconds left.
+|inactive|Grade a type b has 60 seconds left.
+|
+|t:|1750746556
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Milotic|Milotic, L50, M|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Grade a type b has 30 seconds left.
+|
+|t:|1750746582
+|-terastallize|p2b: Milotic|Grass
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Jumpluff|[anim] Ivy Cudgel Rock
+|-supereffective|p2a: Jumpluff
+|-enditem|p2a: Jumpluff|Focus Sash
+|-damage|p2a: Jumpluff|1/100
+|move|p2b: Milotic|Icy Wind|p1b: Flutter Mane|[spread] p1a
+|-activate|p1b: Flutter Mane|move: Protect
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|71/100
+|-unboost|p1a: Ogerpon|spe|1
+|
+|upkeep
+|turn|2
+|inactive|gingerlike has 30 seconds left.
+|
+|t:|1750746608
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p1b: Flutter Mane|Dazzling Gleam|p2b: Milotic|[spread] p2a,p2b
+|-damage|p2a: Jumpluff|0 fnt
+|-damage|p2b: Milotic|75/100
+|faint|p2a: Jumpluff
+|move|p2b: Milotic|Icy Wind|p1a: Ogerpon|[spread] p1a,p1b
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|44/100
+|-damage|p1b: Flutter Mane|88/100
+|-unboost|p1a: Ogerpon|spe|1
+|-unboost|p1b: Flutter Mane|spe|1
+|
+|-heal|p2b: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750746615
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|3
+|
+|t:|1750746636
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Milotic|atk|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Zacian|Behemoth Blade|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|76/100
+|-damage|p2a: Zacian|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|move|p2b: Milotic|Icy Wind|p1a: Ogerpon|[spread] 
+|-activate|p1a: Ogerpon|move: Protect
+|-miss|p2b: Milotic|p1b: Incineroar
+|
+|-heal|p2b: Milotic|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|gingerlike has 30 seconds left.
+|
+|t:|1750746662
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Zacian|Behemoth Blade|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|move|p1b: Incineroar|Parting Shot|p2a: Zacian
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2a: Zacian|spa|1
+|
+|t:|1750746675
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Milotic|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750746677
+|switch|p1a: Flutter Mane|Flutter Mane, L50|88/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750746689
+|-terastallize|p1b: Koraidon|Fire
+|move|p1a: Flutter Mane|Moonblast|p2b: Milotic
+|-damage|p2b: Milotic|54/100
+|-unboost|p2b: Milotic|spa|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|move|p2a: Zacian|Play Rough|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|86/100
+|move|p1b: Koraidon|Flame Charge|p2b: Milotic
+|-supereffective|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2b: Milotic
+|-damage|p1b: Koraidon|76/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Grade a type b forfeited.
+|
+|win|gingerlike
+|raw|gingerlike's rating: 1476 &rarr; <strong>1498</strong><br />(+22 for winning)
+|raw|Grade a type b's rating: 1515 &rarr; <strong>1493</strong><br />(-22 for losing)
+|l|☆Grade a type b
+|player|p2|
+|l|☆gingerlike
+|player|p1|

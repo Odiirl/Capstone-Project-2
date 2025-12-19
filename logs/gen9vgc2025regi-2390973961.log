@@ -1,0 +1,219 @@
+|j|☆tremty
+|j|☆KatKraydel
+|t:|1750788738
+|gametype|doubles
+|player|p1|tremty|101|1220
+|player|p2|KatKraydel|courtney|1242
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Groudon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Frosmoth, L50, M|
+|teampreview|4
+|
+|t:|1750788824
+|start
+|switch|p1a: Moltres|Moltres-Galar, L50, shiny|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Frosmoth|Frosmoth, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750788838
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Frosmoth|Wide Guard|p2b: Frosmoth
+|-singleturn|p2b: Frosmoth|Wide Guard
+|move|p1a: Moltres|Tailwind|p1a: Moltres
+|-sidestart|p1: tremty|move: Tailwind
+|move|p2a: Kyogre|Water Spout|p1a: Moltres|[spread] p1a,p1b
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Moltres|30/100
+|-damage|p1b: Rillaboom|41/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|47/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750788856
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Frosmoth
+|-damage|p2b: Frosmoth|81/100
+|move|p1a: Moltres|Snarl|p2b: Frosmoth|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Frosmoth|64/100
+|-unboost|p2b: Frosmoth|spa|1
+|cant|p2b: Frosmoth|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|54/100|[from] Grassy Terrain
+|-heal|p2b: Frosmoth|70/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750788892
+|-terastallize|p2a: Kyogre|Grass
+|move|p1a: Moltres|Foul Play|p2a: Kyogre
+|-damage|p2a: Kyogre|77/100
+|move|p1b: Rillaboom|Knock Off|p2b: Frosmoth
+|-damage|p2b: Frosmoth|24/100
+|-enditem|p2b: Frosmoth|Safety Goggles|[from] move: Knock Off|[of] p1b: Rillaboom
+|move|p2a: Kyogre|Water Spout|p1a: Moltres|[spread] p1a,p1b
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Moltres|0 fnt
+|-damage|p1b: Rillaboom|5/100
+|faint|p1a: Moltres
+|move|p2b: Frosmoth|Hurricane|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|83/100|[from] Grassy Terrain
+|-heal|p2b: Frosmoth|30/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750788906
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|4
+|
+|t:|1750788918
+|switch|p2a: Primarina|Primarina, L50, F, shiny|100/100
+|move|p2b: Frosmoth|Wide Guard|p2b: Frosmoth
+|-singleturn|p2b: Frosmoth|Wide Guard
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p1a: Groudon|Heat Crash|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|70/100
+|-damage|p1a: Groudon|84/100|[from] item: Rocky Helmet|[of] p2a: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: tremty|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750788934
+|move|p2b: Frosmoth|Wide Guard|p2b: Frosmoth
+|-singleturn|p2b: Frosmoth|Wide Guard
+|move|p1b: Miraidon|Parabolic Charge|p2a: Primarina|[spread] 
+|-activate|p2a: Primarina|move: Wide Guard
+|-activate|p2b: Frosmoth|move: Wide Guard
+|-immune|p1a: Groudon
+|move|p1a: Groudon|Precipice Blades|p2b: Frosmoth|[spread] 
+|-activate|p2a: Primarina|move: Wide Guard
+|-activate|p2b: Frosmoth|move: Wide Guard
+|move|p2a: Primarina|Perish Song|p2a: Primarina
+|-start|p1a: Groudon|perish3|[silent]
+|-start|p1b: Miraidon|perish3|[silent]
+|-start|p2a: Primarina|perish3|[silent]
+|-start|p2b: Frosmoth|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Miraidon|perish3
+|-start|p1a: Groudon|perish3
+|-start|p2a: Primarina|perish3
+|-start|p2b: Frosmoth|perish3
+|upkeep
+|turn|6
+|
+|t:|1750788952
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p2b: Frosmoth|Protect||[still]
+|-fail|p2b: Frosmoth
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p1a: Groudon|Thunder Punch|p2b: Frosmoth
+|-damage|p2b: Frosmoth|0 fnt
+|faint|p2b: Frosmoth
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Miraidon|perish2
+|-start|p1a: Groudon|perish2
+|-start|p2a: Primarina|perish2
+|upkeep
+|
+|t:|1750788962
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750788981
+|move|p2a: Primarina|Protect||[still]
+|-fail|p2a: Primarina
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Miraidon|Parabolic Charge|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-immune|p1a: Groudon
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|move|p1a: Groudon|Thunder Punch|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Miraidon|perish1
+|-start|p1a: Groudon|perish1
+|upkeep
+|
+|t:|1750788998
+|switch|p2a: Kyogre|Kyogre, L50, shiny, tera:Grass|83/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+|
+|t:|1750789004
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Calyrex|Protect||[still]
+|-fail|p2b: Calyrex
+|move|p1b: Miraidon|Parabolic Charge|p2b: Calyrex|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-immune|p1a: Groudon
+|-damage|p2b: Calyrex|51/100
+|move|p1a: Groudon|Precipice Blades|p2b: Calyrex|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-damage|p2b: Calyrex|24/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|30/100|[from] item: Leftovers
+|-start|p1b: Miraidon|perish0
+|-start|p1a: Groudon|perish0
+|-fieldend|move: Electric Terrain
+|faint|p1b: Miraidon
+|faint|p1a: Groudon
+|
+|win|KatKraydel
+|raw|tremty's rating: 1220 &rarr; <strong>1197</strong><br />(-23 for losing)
+|raw|KatKraydel's rating: 1242 &rarr; <strong>1265</strong><br />(+23 for winning)
+|l|☆tremty
+|player|p1|

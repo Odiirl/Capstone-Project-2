@@ -1,0 +1,242 @@
+|j|☆quagzacian
+|j|☆Jammiz
+|t:|1750827464
+|gametype|doubles
+|player|p1|quagzacian|barry|1519
+|player|p2|Jammiz|265|1536
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750827509
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|turn|1
+|
+|t:|1750827538
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|89/100
+|move|p1b: Iron Hands|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|92/100
+|cant|p1a: Miraidon|flinch
+|cant|p2a: Calyrex|flinch
+|
+|-heal|p2a: Calyrex|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750827557
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Miraidon|Volt Switch|p2b: Landorus
+|-immune|p2b: Landorus
+|move|p1b: Iron Hands|Volt Switch|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750827592
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Sylveon|Sylveon, L50, F, shiny|100/100
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100
+|
+|t:|1750827597
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|move|p2b: Landorus|Earth Power|p1b: Sylveon
+|-damage|p1b: Sylveon|47/100
+|move|p2a: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|
+|-heal|p2a: Calyrex|48/100|[from] item: Leftovers
+|-damage|p1a: Lunala|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|61/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750827618
+|switch|p1a: Miraidon|Miraidon, L50|89/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Sylveon|Hyper Voice|p2b: Landorus|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-activate|p2b: Landorus|move: Protect
+|
+|-heal|p2a: Calyrex|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750827642
+|move|p1a: Miraidon|Draco Meteor|p2a: Calyrex|[miss]
+|-miss|p1a: Miraidon|p2a: Calyrex
+|move|p2b: Landorus|Earth Power|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p1b: Sylveon|Hyper Voice|p2b: Landorus|[spread] p2a,p2b
+|-damage|p2a: Calyrex|40/100
+|-damage|p2b: Landorus|61/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Sylveon
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-heal|p2a: Calyrex|45/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750827653
+|switch|p1a: Lunala|Lunala, L50|88/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|turn|6
+|
+|t:|1750827669
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|move|p1b: Iron Hands|Fake Out|p2b: Landorus
+|-damage|p2b: Landorus|50/100
+|cant|p2b: Landorus|flinch
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|7
+|
+|t:|1750827693
+|-terastallize|p1b: Iron Hands|Ghost
+|move|p2a: Incineroar|Fake Out|p1b: Iron Hands
+|-immune|p1b: Iron Hands
+|move|p1b: Iron Hands|Low Kick|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|41/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|
+|upkeep
+|
+|t:|1750827714
+|switch|p2b: Calyrex|Calyrex-Ice, L50|45/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750827729
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Iron Hands|Low Kick|p2a: Miraidon
+|-damage|p2a: Miraidon|52/100
+|move|p2b: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|
+|-heal|p2b: Calyrex|18/100|[from] item: Leftovers
+|-damage|p1a: Lunala|76/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|31/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1750827751
+|switch|p2a: Incineroar|Incineroar, L50, M|41/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Iron Hands|atk|1
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Lunala|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|17/100
+|
+|-heal|p2b: Calyrex|37/100|[from] item: Leftovers
+|-damage|p1a: Lunala|64/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|51/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1750827770
+|move|p1b: Iron Hands|Wild Charge|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1b: Iron Hands|90/100|[from] Recoil
+|move|p1a: Lunala|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750827782
+|switch|p2a: Miraidon|Miraidon, L50|52/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|11
+|
+|t:|1750827790
+|move|p2a: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Iron Hands|Low Kick|p2a: Miraidon
+|-damage|p2a: Miraidon|17/100
+|
+|upkeep
+|turn|12
+|
+|t:|1750827798
+|move|p2a: Miraidon|Electro Drift|p1b: Iron Hands
+|-damage|p1b: Iron Hands|30/100
+|move|p1b: Iron Hands|Low Kick|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|win|quagzacian
+|raw|quagzacian's rating: 1519 &rarr; <strong>1540</strong><br />(+21 for winning)
+|raw|Jammiz's rating: 1536 &rarr; <strong>1515</strong><br />(-21 for losing)
+|l|☆Jammiz
+|player|p2|
+|l|☆quagzacian
+|player|p1|

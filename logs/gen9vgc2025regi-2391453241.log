@@ -1,0 +1,160 @@
+|j|☆HecklerSupreme
+|j|☆TCBro89
+|t:|1750858092
+|gametype|doubles
+|player|p1|HecklerSupreme|2|1606
+|player|p2|TCBro89|red|1506
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palkia, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Entei, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HecklerSupreme)
+|inactive|HecklerSupreme has 60 seconds left.
+|
+|t:|1750858139
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750858161
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750858180
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p2a: Miraidon|Electro Drift|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Farigiraf|1/100
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Farigiraf|Foul Play|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|upkeep
+|
+|t:|1750858198
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p1b: Palkia|Palkia, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|
+|t:|1750858213
+|move|p2b: Farigiraf|Helping Hand|p2a: Groudon
+|-singleturn|p2a: Groudon|Helping Hand|[of] p2b: Farigiraf
+|move|p1b: Palkia|Spacial Rend|p2a: Groudon
+|-damage|p2a: Groudon|33/100
+|move|p2a: Groudon|Precipice Blades|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|47/100
+|-damage|p1b: Palkia|20/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2a: Groudon
+|faint|p2b: Farigiraf
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750858227
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750858241
+|switch|p1b: Entei|Entei, L50, shiny|100/100
+|-terastallize|p2b: Raging Bolt|Electric
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750858256
+|-terastallize|p1b: Entei|Grass
+|move|p2b: Raging Bolt|Thunderclap|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Entei|Stomping Tantrum|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750858264
+|switch|p1a: Palkia|Palkia, L50|20/100
+|-ability|p1a: Palkia|Pressure
+|turn|6
+|
+|t:|1750858271
+|move|p1a: Palkia|Protect|p1a: Palkia
+|-singleturn|p1a: Palkia|Protect
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1b: Entei|Stomping Tantrum|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|TCBro89 forfeited.
+|
+|win|HecklerSupreme
+|raw|HecklerSupreme's rating: 1606 &rarr; <strong>1620</strong><br />(+14 for winning)
+|raw|TCBro89's rating: 1506 &rarr; <strong>1492</strong><br />(-14 for losing)
+|c|☆HecklerSupreme|gg
+|l|☆HecklerSupreme
+|player|p1|

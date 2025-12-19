@@ -1,0 +1,194 @@
+|j|☆Anothernameagain
+|j|☆Salsbug
+|t:|1750825380
+|gametype|doubles
+|player|p1|Anothernameagain|266|1182
+|player|p2|Salsbug|cynthia-gen4|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Toxapex, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+Salsbug has agreed to open team sheets.
+|
+|t:|1750825411
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Talonflame|Talonflame, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Talonflame|Electric Seed
+|-boost|p1b: Talonflame|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Salsbug)
+|inactive|Anothernameagain has 60 seconds left.
+|
+|t:|1750825444
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: Anothernameagain|move: Tailwind
+|move|p1a: Miraidon|Volt Switch|p2b: Flutter Mane
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|t:|1750825454
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Groudon|Rock Slide|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-supereffective|p1b: Talonflame
+|-crit|p1b: Talonflame
+|-damage|p1a: Calyrex|72/100
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825467
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Toxapex|Toxapex, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1750825481
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p2b: Venusaur|Weather Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Groudon|Precipice Blades|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825487
+|switch|p1a: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750825506
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Venusaur
+|-resisted|p2b: Venusaur
+|-damage|p2b: Venusaur|13/100
+|move|p2b: Venusaur|Growth|p2b: Venusaur
+|-boost|p2b: Venusaur|atk|2
+|-boost|p2b: Venusaur|spa|2
+|move|p1b: Toxapex|Toxic Spikes|p2a: Groudon
+|-sidestart|p2: Salsbug|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750825528
+|move|p1a: Miraidon|Electro Drift|p2b: Venusaur
+|-resisted|p2b: Venusaur
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon|[spread] p1b
+|-miss|p2a: Groudon|p1a: Miraidon
+|-supereffective|p1b: Toxapex
+|-damage|p1b: Toxapex|32/100
+|move|p1b: Toxapex|Liquidation|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|38/100|[from] item: Leftovers
+|-sideend|p1: Anothernameagain|move: Tailwind
+|upkeep
+|
+|t:|1750825537
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-status|p2b: Lunala|psn
+|turn|5
+|
+|t:|1750825549
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala
+|-damage|p2b: Lunala|58/100 psn
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Toxapex
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Lunala|45/100 psn|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750825563
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon
+|-damage|p1a: Miraidon|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750825571
+|move|p1a: Miraidon|Electro Drift|p2a: Groudon
+|-immune|p2a: Groudon
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon|[miss]
+|-miss|p2a: Groudon|p1a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|Anothernameagain has 30 seconds left.
+|inactive|Anothernameagain has 20 seconds left.
+|inactive|Anothernameagain has 15 seconds left.
+|inactive|Anothernameagain has 10 seconds left.
+|inactive|Anothernameagain has 5 seconds left.
+|
+|t:|1750825626
+|move|p1a: Miraidon|Electro Drift|p2a: Groudon
+|-immune|p2a: Groudon
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|Salsbug
+|raw|Anothernameagain's rating: 1182 &rarr; <strong>1154</strong><br />(-28 for losing)
+|raw|Salsbug's rating: 1147 &rarr; <strong>1175</strong><br />(+28 for winning)
+|l|☆Salsbug
+|player|p2|
+|l|☆Anothernameagain
+|player|p1|

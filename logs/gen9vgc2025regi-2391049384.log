@@ -1,0 +1,271 @@
+|j|☆WindyEng
+|j|☆Wkakaka
+|t:|1750796691
+|gametype|doubles
+|player|p1|WindyEng|musician|1115
+|player|p2|Wkakaka|2|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Iron Crown, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Exeggutor, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WindyEng)
+|
+|t:|1750796704
+|start
+|switch|p1a: Yanmega|Yanmega, L50, F|100/100
+|switch|p1b: Iron Crown|Iron Crown, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yanmega|atk|1
+|-unboost|p1b: Iron Crown|atk|1
+|-enditem|p1b: Iron Crown|Booster Energy
+|-activate|p1b: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1750796727
+|move|p1b: Iron Crown|Protect|p1b: Iron Crown
+|-singleturn|p1b: Iron Crown|Protect
+|move|p1a: Yanmega|Detect|p1a: Yanmega
+|-singleturn|p1a: Yanmega|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Yanmega
+|-activate|p1a: Yanmega|move: Protect
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|2
+|inactive|Wkakaka has 30 seconds left.
+|inactive|Wkakaka has 20 seconds left.
+|
+|t:|1750796762
+|move|p1b: Iron Crown|Gravity|p1b: Iron Crown
+|-fieldstart|move: Gravity
+|move|p1a: Yanmega|Hypnosis|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Hypnosis
+|cant|p2b: Zamazenta|slp
+|move|p2a: Incineroar|Parting Shot|p1a: Yanmega
+|-unboost|p1a: Yanmega|atk|1
+|-unboost|p1a: Yanmega|spa|1
+|
+|t:|1750796772
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750796795
+|-end|p1b: Iron Crown|Quark Drive|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p1a: Yanmega|Tailwind|p1a: Yanmega
+|-sidestart|p1: WindyEng|move: Tailwind
+|move|p2a: Miraidon|Volt Switch|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-crit|p1a: Yanmega
+|-enditem|p1a: Yanmega|Focus Sash
+|-damage|p1a: Yanmega|1/100
+|
+|t:|1750796812
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yanmega|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|cant|p2b: Zamazenta|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|4
+|inactive|Wkakaka has 30 seconds left.
+|inactive|Wkakaka has 20 seconds left.
+|inactive|Wkakaka has 15 seconds left.
+|
+|t:|1750796853
+|switch|p1a: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|WindyEng has 30 seconds left.
+|inactive|Wkakaka has 30 seconds left.
+|inactive|Wkakaka has 20 seconds left.
+|
+|t:|1750796891
+|move|p1a: Exeggutor|Expanding Force|p2b: Miraidon
+|-damage|p2b: Miraidon|51/100
+|-damage|p1a: Exeggutor|91/100|[from] item: Life Orb
+|move|p1b: Groudon|Precipice Blades|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750796901
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100 slp
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|
+|t:|1750796921
+|-terastallize|p2b: Rillaboom|Grass
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Exeggutor|Hypnosis|p2b: Rillaboom
+|-status|p2b: Rillaboom|slp|[from] move: Hypnosis
+|move|p1b: Groudon|Precipice Blades|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Zamazenta|move: Protect
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|74/100 slp
+|cant|p2b: Rillaboom|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Exeggutor|96/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|80/100 slp|[from] Grassy Terrain
+|-sideend|p1: WindyEng|move: Tailwind
+|-fieldend|move: Gravity
+|upkeep
+|turn|7
+|
+|t:|1750796945
+|move|p1a: Exeggutor|Gravity|p1a: Exeggutor
+|-fieldstart|move: Gravity
+|move|p2a: Zamazenta|Body Press|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|72/100
+|-curestatus|p2b: Rillaboom|slp|[msg]
+|move|p2b: Rillaboom|Wood Hammer|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-damage|p2b: Rillaboom|47/100|[from] Recoil
+|
+|-weather|none
+|-heal|p1a: Exeggutor|78/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|53/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750796967
+|switch|p1b: Iron Crown|Iron Crown, L50|100/100
+|turn|8
+|inactive|Wkakaka has 30 seconds left.
+|
+|t:|1750796994
+|move|p1b: Iron Crown|Tachyon Cutter|p2b: Rillaboom
+|-damage|p2b: Rillaboom|34/100
+|-damage|p2b: Rillaboom|16/100
+|-hitcount|p2b: Rillaboom|2
+|move|p2b: Rillaboom|Wood Hammer|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|24/100
+|-damage|p2b: Rillaboom|2/100|[from] Recoil
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Exeggutor|Hypnosis|p2a: Zamazenta
+|-status|p2a: Zamazenta|slp|[from] move: Hypnosis
+|
+|-heal|p2b: Rillaboom|8/100|[from] Grassy Terrain
+|-heal|p1a: Exeggutor|30/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750797017
+|-terastallize|p1b: Iron Crown|Ground
+|move|p2b: Rillaboom|Grassy Glide|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|6/100
+|move|p1b: Iron Crown|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Ground
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100 slp
+|cant|p2a: Zamazenta|slp
+|move|p1a: Exeggutor|Expanding Force|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1a: Exeggutor|0 fnt|[from] item: Life Orb
+|faint|p1a: Exeggutor
+|
+|-heal|p2a: Zamazenta|54/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750797032
+|switch|p1a: Yanmega|Yanmega, L50, F|1/100
+|turn|10
+|
+|t:|1750797037
+|move|p1b: Iron Crown|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Ground
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|2/100 slp
+|move|p1a: Yanmega|Tailwind|p1a: Yanmega
+|-sidestart|p1: WindyEng|move: Tailwind
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|move|p2a: Zamazenta|Body Press|p1a: Yanmega
+|-resisted|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|-heal|p2a: Zamazenta|8/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1750797051
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Iron Crown|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Ground
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|12
+|
+|t:|1750797061
+|move|p1b: Iron Crown|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Ground
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|WindyEng
+|raw|WindyEng's rating: 1115 &rarr; <strong>1136</strong><br />(+21 for winning)
+|raw|Wkakaka's rating: 1059 &rarr; <strong>1043</strong><br />(-16 for losing)
+|l|☆WindyEng
+|player|p1|
+|l|☆Wkakaka
+|player|p2|

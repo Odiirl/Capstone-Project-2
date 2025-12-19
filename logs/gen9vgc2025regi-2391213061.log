@@ -1,0 +1,137 @@
+|j|☆ness#1glazer
+|j|☆Kasmir7
+|t:|1750817190
+|gametype|doubles
+|player|p1|ness#1glazer|n|1369
+|player|p2|Kasmir7|rood|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Bruxish, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|
+|t:|1750817229
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Bruxish|Bruxish, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ness#1glazer)
+|inactive|Kasmir7 has 60 seconds left.
+|
+|t:|1750817265
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Bruxish|Icy Wind|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Smeargle|80/100
+|-unboost|p1b: Smeargle|spe|1
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-immune|p1b: Smeargle
+|move|p1b: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750817286
+|move|p2b: Bruxish|Icy Wind|p1b: Smeargle|[spread] p1a,p1b
+|-damage|p1a: Calyrex|90/100
+|-damage|p1b: Smeargle|49/100
+|-unboost|p1a: Calyrex|spe|1
+|-unboost|p1b: Smeargle|spe|1
+|cant|p2a: Calyrex|slp
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-supereffective|p2b: Bruxish
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Bruxish|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Bruxish
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|2
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|
+|t:|1750817300
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1750817322
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Smeargle|Spore|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|4
+|inactive|Kasmir7 has 30 seconds left.
+|
+|t:|1750817352
+|-terastallize|p1a: Calyrex|Steel
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Smeargle|Spore|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Spore
+|move|p1a: Calyrex|Astral Barrage|p2a: Kyogre|[spread] p2a
+|-immune|p2b: Indeedee
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|5
+|-message|Kasmir7 forfeited.
+|
+|win|ness#1glazer
+|raw|ness#1glazer's rating: 1369 &rarr; <strong>1385</strong><br />(+16 for winning)
+|raw|Kasmir7's rating: 1291 &rarr; <strong>1272</strong><br />(-19 for losing)

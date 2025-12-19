@@ -1,0 +1,198 @@
+|j|☆errece1310
+|j|☆put to sleepp
+|t:|1750804430
+|gametype|doubles
+|player|p1|errece1310|101|1099
+|player|p2|put to sleepp|bellelba|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Empoleon, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Baxcalibur, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Wo-Chien, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|
+|t:|1750804466
+|start
+|switch|p1a: Wo-Chien|Wo-Chien, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|turn|1
+|
+|t:|1750804498
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-activate|p1b: Calyrex|item: Safety Goggles|Spore
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750804522
+|move|p2b: Amoonguss|Pollen Puff|p2a: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Calyrex|43/100
+|-damage|p2b: Amoonguss|7/100
+|move|p1a: Wo-Chien|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Calyrex|Astral Barrage|p1a: Wo-Chien|[spread] p1a,p1b
+|-resisted|p1a: Wo-Chien
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Wo-Chien|86/100
+|-damage|p1b: Calyrex|22/100
+|-enditem|p1a: Wo-Chien|Eject Button
+|
+|t:|1750804539
+|switch|p1a: Baxcalibur|Baxcalibur, L50, F|100/100
+|
+|-heal|p2b: Amoonguss|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750804559
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-crit|p2b: Archaludon
+|-damage|p2b: Archaludon|38/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1a: Baxcalibur|Icicle Crash|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750804590
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Archaludon|12/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Calyrex
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Archaludon|Aura Sphere|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Baxcalibur|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|upkeep
+|
+|t:|1750804611
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|46/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1750804647
+|-terastallize|p1a: Baxcalibur|Water
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p2b: Amoonguss|Spore|p1b: Lunala
+|-status|p1b: Lunala|slp|[from] move: Spore
+|move|p1a: Baxcalibur|Icicle Crash|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|cant|p1b: Lunala|slp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750804667
+|move|p2a: Zamazenta|Body Press|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|32/100
+|move|p1a: Baxcalibur|High Horsepower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|cant|p1b: Lunala|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1750804677
+|switch|p1a: Wo-Chien|Wo-Chien, L50|86/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Zamazenta|Body Press|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|faint|p1a: Wo-Chien
+|-curestatus|p1b: Lunala|slp|[msg]
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|upkeep
+|
+|t:|1750804686
+|switch|p1a: Baxcalibur|Baxcalibur, L50, F, tera:Water|32/100
+|turn|8
+|
+|t:|1750804694
+|move|p1a: Baxcalibur|Aqua Tail|p2a: Zamazenta
+|-damage|p2a: Zamazenta|46/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|11/100
+|move|p2a: Zamazenta|Body Press|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|upkeep
+|turn|9
+|
+|t:|1750804708
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Lunala|Moongeist Beam|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1750804716
+|move|p2a: Zamazenta|Protect||[still]
+|-fail|p2a: Zamazenta
+|move|p1b: Lunala|Moongeist Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|errece1310
+|raw|errece1310's rating: 1099 &rarr; <strong>1124</strong><br />(+25 for winning)
+|raw|put to sleepp's rating: 1101 &rarr; <strong>1076</strong><br />(-25 for losing)
+|l|☆errece1310
+|player|p1|
+|l|☆put to sleepp
+|player|p2|

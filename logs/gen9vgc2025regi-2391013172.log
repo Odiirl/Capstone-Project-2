@@ -1,0 +1,155 @@
+|j|☆peter_polenta
+|j|☆Novicebest
+|t:|1750792851
+|gametype|doubles
+|player|p1|peter_polenta|169|1581
+|player|p2|Novicebest|lillie-z|1595
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Novicebest)
+|
+|t:|1750792878
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750792902
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: peter_polenta|move: Light Screen
+|move|p2b: Miraidon|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|63/100
+|
+|t:|1750792912
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|move|p1b: Miraidon|Draco Meteor|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2b: Incineroar
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|
+|t:|1750792921
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1750792942
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Lunala
+|-damage|p2a: Lunala|96/100
+|-unboost|p2a: Lunala|spa|1
+|move|p2a: Lunala|Moongeist Beam|p1b: Miraidon
+|-damage|p1b: Miraidon|84/100
+|move|p1b: Miraidon|Draco Meteor|p2a: Lunala
+|-damage|p2a: Lunala|51/100
+|-unboost|p1b: Miraidon|spa|2
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750792965
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Lunala
+|-status|p2a: Lunala|par
+|move|p2b: Ursaluna|Earthquake|p1b: Miraidon|[spread] p1a,p1b
+|-activate|p2a: Lunala|move: Wide Guard
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Grimmsnarl
+|faint|p1b: Miraidon
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750792980
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750792996
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2b: Ursaluna|Facade|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|71/100
+|move|p1a: Calyrex|Leech Seed|p2b: Ursaluna
+|-start|p2b: Ursaluna|move: Leech Seed
+|
+|-heal|p1a: Calyrex|77/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|83/100 brn|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|90/100|[silent]
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750793015
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Ursaluna|Facade|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|96/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|65/100 brn|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|100/100|[silent]
+|-damage|p2b: Ursaluna|59/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750793034
+|move|p1a: Calyrex|Leech Seed|p2a: Lunala
+|-start|p2a: Lunala|move: Leech Seed
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|67/100
+|move|p2b: Ursaluna|Facade|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Novicebest
+|raw|peter_polenta's rating: 1581 &rarr; <strong>1562</strong><br />(-19 for losing)
+|raw|Novicebest's rating: 1595 &rarr; <strong>1614</strong><br />(+19 for winning)
+|l|☆peter_polenta
+|player|p1|

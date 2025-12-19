@@ -1,0 +1,165 @@
+|j|☆rman500
+|j|☆column11
+|t:|1750796095
+|gametype|doubles
+|player|p1|rman500|101|1339
+|player|p2|column11|ninjaboy|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Great Tusk, L50|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|
+|t:|1750796151
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50, shiny|100/100
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750796173
+|-terastallize|p2b: Clefairy|Grass
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: rman500|move: Tailwind
+|move|p1a: Zacian|Behemoth Blade|p2b: Clefairy
+|-damage|p2b: Clefairy|4/100
+|move|p2a: Iron Jugulis|Tailwind|p2a: Iron Jugulis
+|-sidestart|p2: column11|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1750796197
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p2a: Iron Jugulis|Air Slash|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|85/100
+|move|p1a: Zacian|Play Rough|p2b: Clefairy
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|move|p1b: Whimsicott|Moonblast|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|26/100
+|
+|upkeep
+|
+|t:|1750796216
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750796227
+|move|p1b: Whimsicott|Cotton Spore|p2b: Calyrex|[spread] p2b
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Iron Jugulis
+|-unboost|p2b: Calyrex|spe|2
+|move|p2a: Iron Jugulis|Air Slash|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|move|p1a: Zacian|Behemoth Blade|p2b: Calyrex
+|-damage|p2b: Calyrex|13/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Zacian|40/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750796242
+|switch|p1b: Great Tusk|Great Tusk, L50, shiny|100/100
+|turn|4
+|
+|t:|1750796259
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Iron Jugulis|Air Slash|p1b: Great Tusk
+|-supereffective|p1b: Great Tusk
+|-damage|p1b: Great Tusk|0 fnt
+|faint|p1b: Great Tusk
+|-end|p1b: Great Tusk|Protosynthesis|[silent]
+|
+|-sideend|p1: rman500|move: Tailwind
+|-sideend|p2: column11|move: Tailwind
+|upkeep
+|
+|t:|1750796268
+|switch|p1b: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750796284
+|-terastallize|p1a: Zacian|Fairy
+|move|p2a: Iron Jugulis|Tailwind|p2a: Iron Jugulis
+|-sidestart|p2: column11|move: Tailwind
+|move|p2b: Zamazenta|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|27/100
+|move|p1a: Zacian|Sacred Sword|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|36/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Zamazenta|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Iron Jugulis
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750796295
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|13/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750796303
+|move|p2a: Iron Jugulis|Snarl|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-crit|p1b: Kyogre
+|-damage|p1a: Zacian|32/100
+|-damage|p1b: Kyogre|3/100
+|-unboost|p1a: Zacian|spa|1
+|-unboost|p1b: Kyogre|spa|1
+|move|p2b: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Zacian|0 fnt
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1a: Zacian
+|faint|p1b: Kyogre
+|
+|win|column11
+|raw|rman500's rating: 1339 &rarr; <strong>1321</strong><br />(-18 for losing)
+|raw|column11's rating: 1367 &rarr; <strong>1385</strong><br />(+18 for winning)
+|l|☆rman500
+|player|p1|
+|l|☆column11
+|player|p2|

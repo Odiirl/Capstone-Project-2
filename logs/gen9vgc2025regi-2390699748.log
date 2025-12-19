@@ -1,0 +1,130 @@
+|j|☆Hellifield
+|j|☆Tommytheog
+|t:|1750752363
+|gametype|doubles
+|player|p1|Hellifield|hilbert-wonderlauncher|1214
+|player|p2|Tommytheog|266|1160
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Zoroark, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hellifield)
+|inactive|Tommytheog has 60 seconds left.
+Hellifield has agreed to open team sheets.
+|
+|t:|1750752396
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|1
+|
+|t:|1750752421
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-crit|p2a: Koraidon
+|-damage|p2a: Koraidon|85/100
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Hellifield|move: Tailwind
+|cant|p2a: Koraidon|flinch
+|move|p2b: Flutter Mane|Sludge Bomb|p1b: Tornadus
+|-damage|p1b: Tornadus|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Tommytheog has 30 seconds left.
+|
+|t:|1750752448
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|move|p1b: Tornadus|Rain Dance|p1b: Tornadus
+|-weather|RainDance
+|-end|p2b: Flutter Mane|Protosynthesis
+|move|p2a: Koraidon|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|8/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|75/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|43/100
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750752467
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|inactive|Tommytheog has 30 seconds left.
+|inactive|Tommytheog has 20 seconds left.
+|
+|t:|1750752503
+|move|p1a: Calyrex|Astral Barrage|p2a: Koraidon|[spread] p2a,p2b
+|-supereffective|p2b: Flutter Mane
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2a: Koraidon
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|2
+|move|p1b: Tornadus|Bleakwind Storm|p2: Koraidon|[notarget]
+|-fail|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750752507
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|turn|4
+|
+|t:|1750752521
+|move|p1b: Tornadus|Protect|p1b: Tornadus
+|-singleturn|p1b: Tornadus|Protect
+|move|p2b: Charizard|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Charizard|[spread] p2a,p2b
+|-resisted|p2b: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-damage|p2b: Charizard|0 fnt
+|replace|p2b: Zoroark|Zoroark, L50, F
+|-end|p2b: Zoroark|Illusion
+|faint|p2a: Charizard
+|faint|p2b: Zoroark
+|
+|win|Hellifield
+|raw|Hellifield's rating: 1214 &rarr; <strong>1235</strong><br />(+21 for winning)
+|raw|Tommytheog's rating: 1160 &rarr; <strong>1139</strong><br />(-21 for losing)
+|l|☆Hellifield
+|player|p1|

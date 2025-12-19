@@ -1,0 +1,171 @@
+|j|☆imperial lemons
+|j|☆anubisjr
+|t:|1750718278
+|gametype|doubles
+|player|p1|imperial lemons|2|1268
+|player|p2|anubisjr|102|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750718313
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750718354
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: imperial lemons|move: Light Screen
+|move|p1b: Miraidon|Volt Switch|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750718369
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-terastallize|p1a: Whimsicott|Dark
+|move|p2a: Whimsicott|Encore|p1a: Whimsicott
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Whimsicott
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p1b: Miraidon|Volt Switch|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|27/100
+|
+|t:|1750718379
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750718399
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: imperial lemons|move: Tailwind
+|move|p1b: Zamazenta|Heavy Slam|p2a: Urshifu
+|-damage|p2a: Urshifu|52/100
+|move|p2b: Miraidon|Volt Switch|p1b: Zamazenta
+|-damage|p1b: Zamazenta|57/100
+|
+|t:|1750718414
+|switch|p2b: Whimsicott|Whimsicott, L50, F|27/100|[from] Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1750718433
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: anubisjr|move: Tailwind
+|move|p1b: Zamazenta|Heavy Slam|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p1a: Whimsicott|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|74/100
+|
+|upkeep
+|
+|t:|1750718441
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750718486
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|26/100
+|-damage|p1b: Zamazenta|38/100
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|30/100
+|move|p1a: Whimsicott|Moonblast|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-sideend|p1: imperial lemons|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750718491
+|switch|p2b: Urshifu|Urshifu, L50, M|52/100
+|turn|6
+|
+|t:|1750718523
+|-terastallize|p2a: Calyrex|Dark
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Whimsicott|Encore|p2a: Calyrex
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Calyrex
+|move|p2a: Calyrex|Astral Barrage|p1b: Zamazenta|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Zamazenta
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|-damage|p2a: Calyrex|64/100|[from] item: Life Orb
+|
+|-sideend|p1: imperial lemons|move: Tailwind
+|upkeep
+|
+|t:|1750718528
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Volcarona|Electric Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Electric Seed
+|turn|7
+|
+|t:|1750718541
+|move|p2a: Calyrex|Astral Barrage|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Volcarona
+|-damage|p2a: Calyrex|55/100|[from] item: Life Orb
+|
+|win|anubisjr
+|raw|imperial lemons's rating: 1268 &rarr; <strong>1249</strong><br />(-19 for losing)
+|raw|anubisjr's rating: 1358 &rarr; <strong>1373</strong><br />(+15 for winning)
+|l|☆imperial lemons
+|player|p1|

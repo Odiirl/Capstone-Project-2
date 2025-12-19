@@ -1,0 +1,242 @@
+|j|☆calamity Jon
+|j|☆Rathanegren
+|t:|1750828109
+|gametype|doubles
+|player|p1|calamity Jon|2|1153
+|player|p2|Rathanegren|clerkf|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Dusclops, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Hariyama, L50, F|
+|poke|p1|Rhydon, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750828145
+|start
+|switch|p1a: Dusclops|Dusclops, L50, M|100/100
+|switch|p1b: Rhydon|Rhydon, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Valiant|ability: Quark Drive
+|-start|p2b: Iron Valiant|quarkdrivespe
+|-item|p2a: Miraidon|Choice Scarf|[from] ability: Frisk|[of] p1a: Dusclops
+|-item|p2b: Iron Valiant|Life Orb|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by calamity Jon)
+|
+|t:|1750828191
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1b: Rhydon|Protect|p1b: Rhydon
+|-singleturn|p1b: Rhydon|Protect
+|move|p2b: Iron Valiant|Aura Sphere|p1b: Rhydon
+|-activate|p1b: Rhydon|move: Protect
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|upkeep
+|turn|2
+|inactive|calamity Jon has 30 seconds left.
+|inactive|Rathanegren has 30 seconds left.
+|inactive|Rathanegren has 20 seconds left.
+|
+|t:|1750828230
+|move|p1a: Dusclops|Night Shade|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|67/100
+|move|p1b: Rhydon|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|move|p2a: Chien-Pao|Icicle Crash|p1b: Rhydon
+|-supereffective|p1b: Rhydon
+|-damage|p1b: Rhydon|46/100
+|move|p2b: Iron Valiant|Moonblast|p1a: Dusclops
+|-damage|p1a: Dusclops|56/100
+|-damage|p2b: Iron Valiant|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1750828253
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|move|p1a: Dusclops|Night Shade|p2b: Iron Hands
+|-damage|p2b: Iron Hands|79/100
+|move|p1b: Rhydon|Rock Slide|p2a: Miraidon|[spread] p2a
+|-miss|p1b: Rhydon|p2b: Iron Hands
+|-damage|p2a: Miraidon|74/100
+|
+|upkeep
+|turn|4
+|inactive|Rathanegren has 30 seconds left.
+|
+|t:|1750828285
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Rhydon|Protect|p1b: Rhydon
+|-singleturn|p1b: Rhydon|Protect
+|move|p1a: Dusclops|Pain Split|p2b: Iron Hands
+|-sethp|p2b: Iron Hands|57/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|89/100|[from] move: Pain Split
+|move|p2b: Iron Hands|Ice Punch|p1b: Rhydon
+|-activate|p1b: Rhydon|move: Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Dusclops
+|-damage|p1a: Dusclops|11/100
+|-unboost|p2a: Miraidon|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1750828308
+|move|p1a: Dusclops|Will-O-Wisp|p2b: Iron Hands
+|-status|p2b: Iron Hands|brn
+|move|p1b: Rhydon|Rock Slide|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2b: Iron Hands
+|-damage|p2a: Miraidon|51/100
+|-damage|p2b: Iron Hands|49/100 brn
+|move|p2b: Iron Hands|Thunder Punch|p1b: Rhydon
+|-activate|p1b: Rhydon|ability: Lightning Rod
+|-ability|p1b: Rhydon|Lightning Rod|boost
+|-boost|p1b: Rhydon|spa|1
+|cant|p2a: Miraidon|flinch
+|
+|-damage|p2b: Iron Hands|42/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|inactive|Rathanegren has 30 seconds left.
+|
+|t:|1750828337
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Iron Valiant|Iron Valiant, L50, shiny|58/100
+|move|p2a: Miraidon|Draco Meteor|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Dusclops
+|move|p1b: Rhydon|Body Press|p2b: Iron Valiant
+|-resisted|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|43/100
+|
+|upkeep
+|
+|t:|1750828350
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|7
+|
+|t:|1750828365
+|switch|p2a: Iron Hands|Iron Hands, L50|42/100 brn
+|move|p2b: Iron Valiant|Moonblast|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|83/100
+|-damage|p2b: Iron Valiant|34/100|[from] item: Life Orb
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: calamity Jon|move: Tailwind
+|move|p1b: Rhydon|Rock Slide|p2a: Iron Hands|[spread] 
+|-miss|p1b: Rhydon|p2a: Iron Hands
+|-miss|p1b: Rhydon|p2b: Iron Valiant
+|
+|-damage|p2a: Iron Hands|36/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Rathanegren has 30 seconds left.
+|inactive|Rathanegren has 20 seconds left.
+|inactive|Rathanegren has 15 seconds left.
+|inactive|Rathanegren has 10 seconds left.
+|
+|t:|1750828415
+|move|p2b: Iron Valiant|Helping Hand|p2a: Iron Hands
+|-singleturn|p2a: Iron Hands|Helping Hand|[of] p2b: Iron Valiant
+|move|p1a: Ho-Oh|Brave Bird|p2b: Iron Valiant
+|-supereffective|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Ho-Oh|75/100|[from] Recoil
+|move|p1b: Rhydon|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|19/100 brn
+|move|p2a: Iron Hands|Drain Punch|p1b: Rhydon
+|-supereffective|p1b: Rhydon
+|-damage|p1b: Rhydon|10/100
+|-heal|p2a: Iron Hands|35/100 brn|[from] drain|[of] p1b: Rhydon
+|
+|-damage|p2a: Iron Hands|29/100 brn|[from] brn
+|upkeep
+|
+|t:|1750828435
+|switch|p2b: Chien-Pao|Chien-Pao, L50|1/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|9
+|inactive|Rathanegren has 30 seconds left.
+|inactive|Rathanegren has 20 seconds left.
+|
+|t:|1750828473
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|51/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|move|p1b: Rhydon|Rock Slide|p2a: Miraidon
+|-damage|p2a: Miraidon|18/100
+|
+|upkeep
+|
+|t:|1750828484
+|switch|p2b: Iron Hands|Iron Hands, L50|29/100 brn
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|10
+|inactive|Rathanegren has 30 seconds left.
+|
+|t:|1750828516
+|move|p2b: Iron Hands|Fake Out|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|65/100
+|move|p2a: Miraidon|Draco Meteor|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|9/100
+|-unboost|p2a: Miraidon|spa|2
+|cant|p1a: Ho-Oh|flinch
+|move|p1b: Rhydon|Rock Slide|p2b: Iron Hands|[spread] p2a,p2b
+|-resisted|p2b: Iron Hands
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Iron Hands|21/100 brn
+|faint|p2a: Miraidon
+|
+|-damage|p2b: Iron Hands|15/100 brn|[from] brn
+|-sideend|p1: calamity Jon|move: Tailwind
+|upkeep
+|turn|11
+|
+|t:|1750828534
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|win|calamity Jon
+|raw|calamity Jon's rating: 1153 &rarr; <strong>1183</strong><br />(+30 for winning)
+|raw|Rathanegren's rating: 1226 &rarr; <strong>1196</strong><br />(-30 for losing)
+|c|☆calamity Jon|Gg
+|l|☆calamity Jon
+|player|p1|

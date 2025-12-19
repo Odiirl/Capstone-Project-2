@@ -1,0 +1,219 @@
+|j|☆narphase
+|j|☆Durango420
+|t:|1750710226
+|gametype|doubles
+|player|p1|narphase|volkner|1487
+|player|p2|Durango420|giovanni|1526
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Durango420)
+|inactive|narphase has 60 seconds left.
+|
+|t:|1750710265
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|1
+|
+|t:|1750710280
+|move|p1b: Raichu|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|97/100
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|91/100
+|cant|p1a: Miraidon|flinch
+|cant|p2a: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750710297
+|-terastallize|p1a: Miraidon|Electric
+|-terastallize|p2b: Incineroar|Grass
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Raichu|Encore|p2b: Incineroar
+|-start|p2b: Incineroar|Encore
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2b: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1750710317
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|move|p1b: Raichu|Encore||[still]
+|-fail|p1b: Raichu
+|move|p1a: Miraidon|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1750710339
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p1b: Raichu|Eerie Impulse|p2b: Miraidon
+|-unboost|p2b: Miraidon|spa|2
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Raichu|[spread] p1a,p1b
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|86/100
+|-damage|p1b: Raichu|84/100
+|move|p2a: Landorus|Earth Power|p1b: Raichu
+|-supereffective|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|
+|upkeep
+|
+|t:|1750710352
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|t:|1750710364
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Grass|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|-unboost|p1b: Chien-Pao|atk|1
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Chien-Pao|Icicle Crash|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|move|p1a: Iron Hands|Low Kick|p2b: Incineroar
+|-damage|p2b: Incineroar|64/100
+|-damage|p1a: Iron Hands|69/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750710381
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|91/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|81/100
+|move|p2a: Landorus|Earth Power|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750710392
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|t:|1750710403
+|switch|p2b: Calyrex|Calyrex-Ice, L50|97/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Miraidon|Draco Meteor|p2a: Landorus
+|-activate|p2a: Landorus|move: Protect
+|move|p1a: Chien-Pao|Icicle Crash|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750710418
+|move|p1b: Miraidon|Draco Meteor|p2b: Calyrex
+|-damage|p2b: Calyrex|9/100
+|-unboost|p1b: Miraidon|spa|2
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750710425
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Grass|64/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|9
+|
+|t:|1750710435
+|move|p1a: Chien-Pao|Protect|p1a: Chien-Pao
+|-singleturn|p1a: Chien-Pao|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Chien-Pao
+|-activate|p1a: Chien-Pao|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Miraidon|[spread] p1b
+|-activate|p1a: Chien-Pao|move: Protect
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1750710448
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p2a: Incineroar|Parting Shot|p1a: Chien-Pao
+|-unboost|p1a: Chien-Pao|atk|1
+|-unboost|p1a: Chien-Pao|spa|1
+|
+|t:|1750710449
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|-message|narphase forfeited.
+|
+|win|Durango420
+|raw|narphase's rating: 1487 &rarr; <strong>1469</strong><br />(-18 for losing)
+|raw|Durango420's rating: 1526 &rarr; <strong>1544</strong><br />(+18 for winning)
+|l|☆narphase
+|player|p1|
+|l|☆Durango420
+|player|p2|

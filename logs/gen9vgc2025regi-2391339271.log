@@ -1,0 +1,242 @@
+|j|☆Sparklucario
+|j|☆SGK_KHOA
+|t:|1750839260
+|gametype|doubles
+|player|p1|Sparklucario|170|1151
+|player|p2|SGK_KHOA|lucas|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Muk-Alola, L50, M|
+|poke|p1|Golem, L50, F|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SGK_KHOA)
+|
+|t:|1750839287
+|start
+|switch|p1a: Muk|Muk-Alola, L50, M|100/100
+|switch|p1b: Golem|Golem, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|c|☆Sparklucario|probably works better in reg H
+|
+|t:|1750839310
+|switch|p2b: Con Gâu Gâu|Raging Bolt, L50|100/100
+|-activate|p2b: Con Gâu Gâu|ability: Protosynthesis
+|-start|p2b: Con Gâu Gâu|protosynthesisspa
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: Koraidon|Collision Course|p1b: Golem
+|-supereffective|p1b: Golem
+|-damage|p1b: Golem|0 fnt
+|faint|p1b: Golem
+|-ability|p1a: Muk|Sand Veil|[from] ability: Power of Alchemy|[of] p1b: Golem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750839321
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|-end|p2b: Con Gâu Gâu|Protosynthesis
+|turn|2
+|
+|t:|1750839332
+|-terastallize|p2b: Con Gâu Gâu|Fairy
+|move|p2a: Koraidon|Collision Course|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|-damage|p2a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Tyranitar
+|faint|p1b: Tyranitar
+|move|p2b: Con Gâu Gâu|Dragon Pulse|p1a: Muk
+|-damage|p1a: Muk|60/100
+|move|p1a: Muk|Minimize|p1a: Muk
+|-boost|p1a: Muk|evasion|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Koraidon|78/100|[from] Sandstorm
+|-damage|p2b: Con Gâu Gâu|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750839343
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|inactive|Sparklucario has 30 seconds left.
+|
+|t:|1750839374
+|-terastallize|p1b: Calyrex|Water
+|move|p2a: Koraidon|Flare Blitz|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|87/100
+|-damage|p2a: Koraidon|74/100|[from] Recoil
+|move|p2b: Con Gâu Gâu|Thunderbolt|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|9/100
+|move|p1a: Muk|Minimize|p1a: Muk
+|-boost|p1a: Muk|evasion|2
+|move|p1b: Calyrex|Leech Seed|p2b: Con Gâu Gâu|[miss]
+|-miss|p1b: Calyrex|p2b: Con Gâu Gâu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Koraidon|68/100|[from] Sandstorm
+|-damage|p2b: Con Gâu Gâu|88/100|[from] Sandstorm
+|-damage|p1b: Calyrex|3/100|[from] Sandstorm
+|-heal|p1b: Calyrex|9/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750839397
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Con Gâu Gâu|Thunderbolt|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Muk|Minimize|p1a: Muk
+|-boost|p1a: Muk|evasion|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Koraidon|62/100|[from] Sandstorm
+|-damage|p2b: Con Gâu Gâu|82/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1750839414
+|move|p2a: Koraidon|Flare Blitz|p1a: Muk|[miss]
+|-miss|p2a: Koraidon|p1a: Muk
+|move|p2b: Con Gâu Gâu|Dragon Pulse|p1a: Muk|[miss]
+|-miss|p2b: Con Gâu Gâu|p1a: Muk
+|move|p1a: Muk|Poison Gas|p2a: Koraidon|[spread] p2a,p2b
+|-status|p2a: Koraidon|psn
+|-status|p2b: Con Gâu Gâu|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Koraidon|57/100 psn|[from] Sandstorm
+|-damage|p2b: Con Gâu Gâu|76/100 psn|[from] Sandstorm
+|-damage|p2a: Koraidon|44/100 psn|[from] psn
+|-damage|p2b: Con Gâu Gâu|64/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750839434
+|move|p2a: Koraidon|Flare Blitz|p1a: Muk|[miss]
+|-miss|p2a: Koraidon|p1a: Muk
+|move|p2b: Con Gâu Gâu|Thunderbolt|p1a: Muk|[miss]
+|-miss|p2b: Con Gâu Gâu|p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: Koraidon
+|-damage|p2a: Koraidon|25/100 psn
+|-heal|p1a: Muk|70/100|[from] drain|[of] p2a: Koraidon
+|
+|-weather|none
+|-damage|p2a: Koraidon|13/100 psn|[from] psn
+|-damage|p2b: Con Gâu Gâu|52/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750839448
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|-end|p2b: Con Gâu Gâu|Protosynthesis|[silent]
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Muk|Drain Punch|p2b: Calyrex
+|-immune|p2b: Calyrex
+|
+|upkeep
+|turn|8
+|
+|t:|1750839458
+|move|p2a: Chi-Yu|Ruination|p1a: Muk
+|-damage|p1a: Muk|35/100
+|move|p2b: Calyrex|Encore|p1a: Muk|[miss]
+|-miss|p2b: Calyrex|p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|18/100
+|-heal|p1a: Muk|61/100|[from] drain|[of] p2a: Chi-Yu
+|
+|upkeep
+|turn|9
+|
+|t:|1750839471
+|move|p2a: Chi-Yu|Ruination|p1a: Muk
+|-damage|p1a: Muk|31/100
+|move|p2b: Calyrex|Astral Barrage|p1a: Muk|[miss]
+|-miss|p2b: Calyrex|p1a: Muk
+|move|p1a: Muk|Poison Gas|p2a: Chi-Yu|[spread] p2a,p2b
+|-status|p2a: Chi-Yu|psn
+|-status|p2b: Calyrex|psn
+|
+|-damage|p2a: Chi-Yu|6/100 psn|[from] psn
+|-damage|p2b: Calyrex|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1750839487
+|move|p2a: Chi-Yu|Ruination|p1a: Muk|[miss]
+|-miss|p2a: Chi-Yu|p1a: Muk
+|move|p2b: Calyrex|Psychic|p1a: Muk
+|-immune|p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|-heal|p1a: Muk|33/100|[from] drain|[of] p2a: Chi-Yu
+|faint|p2a: Chi-Yu
+|
+|-damage|p2b: Calyrex|75/100 psn|[from] psn
+|upkeep
+|
+|t:|1750839496
+|switch|p2a: Con Gâu Gâu|Raging Bolt, L50, tera:Fairy|52/100 psn
+|turn|11
+|
+|t:|1750839501
+|move|p2b: Calyrex|Astral Barrage|p1a: Muk|[miss]
+|-miss|p2b: Calyrex|p1a: Muk
+|move|p2a: Con Gâu Gâu|Electroweb|p1a: Muk|[miss]
+|-miss|p2a: Con Gâu Gâu|p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: Con Gâu Gâu
+|-resisted|p2a: Con Gâu Gâu
+|-damage|p2a: Con Gâu Gâu|42/100 psn
+|-heal|p1a: Muk|38/100|[from] drain|[of] p2a: Con Gâu Gâu
+|
+|-damage|p2b: Calyrex|63/100 psn|[from] psn
+|-damage|p2a: Con Gâu Gâu|30/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1750839511
+|move|p2a: Con Gâu Gâu|Thunderclap|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|win|SGK_KHOA
+|raw|Sparklucario's rating: 1151 &rarr; <strong>1127</strong><br />(-24 for losing)
+|raw|SGK_KHOA's rating: 1170 &rarr; <strong>1194</strong><br />(+24 for winning)
+|l|☆Sparklucario
+|player|p1|
+|l|☆SGK_KHOA
+|player|p2|

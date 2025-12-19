@@ -1,0 +1,128 @@
+|j|☆OOmeNN
+|j|☆Skoomie
+|t:|1750855770
+|gametype|doubles
+|player|p1|OOmeNN|265|1135
+|player|p2|Skoomie|102|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Bruxish, L50, M|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Magneton, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Hitmonlee, L50, M|
+|poke|p2|Arcanine, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OOmeNN)
+|
+|t:|1750855810
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Bruxish|Bruxish, L50, M|100/100
+|switch|p2a: Hitmonlee|Hitmonlee, L50, M|100/100
+|switch|p2b: Gengar|Gengar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|inactive|OOmeNN has 30 seconds left.
+|
+|t:|1750855835
+|-terastallize|p2b: Gengar|Dark
+|-terastallize|p1a: Calyrex|Fire
+|move|p2a: Hitmonlee|Fake Out||[still]
+|cant|p1b: Bruxish|ability: Dazzling|Fake Out|[of] p2a: Hitmonlee
+|move|p2b: Gengar|Dark Pulse|p1a: Calyrex
+|-damage|p1a: Calyrex|56/100
+|move|p1b: Bruxish|Flip Turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|5/100
+|-enditem|p1a: Calyrex|Weakness Policy
+|-boost|p1a: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Calyrex|spa|2|[from] item: Weakness Policy
+|
+|t:|1750855855
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100|[from] Flip Turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Calyrex|Expanding Force|p2b: Gengar|[spread] p2a
+|-immune|p2b: Gengar
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750855871
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|turn|2
+|
+|t:|1750855880
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Gengar|Dark Pulse|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|53/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2b: Gengar
+|-damage|p2a: Dragonite|40/100
+|-damage|p2b: Gengar|0 fnt
+|-start|p1a: Calyrex|Disable|Astral Barrage|[from] ability: Cursed Body|[of] p2b: Gengar
+|faint|p2b: Gengar
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Dragonite|Rock Slide|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-crit|p1b: Indeedee
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Indeedee|12/100
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750855900
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Arcanine|Arcanine, L50, F|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750855910
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Arcanine|Wild Charge|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Arcanine|97/100|[from] Recoil
+|-damage|p2b: Arcanine|88/100|[from] item: Life Orb
+|move|p1a: Kyogre|Water Spout|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-supereffective|p2b: Arcanine
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2a: Dragonite
+|faint|p2b: Arcanine
+|
+|win|OOmeNN
+|raw|OOmeNN's rating: 1135 &rarr; <strong>1156</strong><br />(+21 for winning)
+|raw|Skoomie's rating: 1086 &rarr; <strong>1066</strong><br />(-20 for losing)
+|l|☆Skoomie
+|player|p2|
+|l|☆OOmeNN
+|player|p1|

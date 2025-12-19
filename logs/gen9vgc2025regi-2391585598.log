@@ -1,0 +1,164 @@
+|j|☆ManuDVQ
+|j|☆Zillowzest
+|t:|1750872880
+|gametype|doubles
+|player|p1|ManuDVQ|n|1271
+|player|p2|Zillowzest|pokemonbreederf-gen4|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zillowzest)
+|
+|t:|1750872923
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Meowstic|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1750872940
+|move|p2a: Meowstic|Skill Swap|p2b: Amoonguss
+|-activate|p2a: Meowstic|move: Skill Swap|||[of] p2b: Amoonguss
+|move|p2b: Amoonguss|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|cant|p1a: Groudon|slp
+|move|p1b: Incineroar|Knock Off|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|-enditem|p2a: Meowstic|Light Clay|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Meowstic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750872955
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|2
+|inactive|Zillowzest has 30 seconds left.
+|
+|t:|1750872989
+|cant|p1a: Groudon|slp
+|move|p2a: Rillaboom|Wood Hammer|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-damage|p2a: Rillaboom|70/100|[from] Recoil
+|move|p1b: Incineroar|Flare Blitz|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Incineroar|64/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|76/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750872997
+|switch|p1a: Urshifu|Urshifu, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-enditem|p2b: Terapagos|Grassy Seed
+|-boost|p2b: Terapagos|def|1|[from] item: Grassy Seed
+|turn|3
+|inactive|Zillowzest has 30 seconds left.
+|
+|t:|1750873026
+|move|p1a: Urshifu|Wicked Blow|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|58/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Rillaboom|Knock Off|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|92/100
+|-enditem|p1a: Urshifu|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1b: Incineroar|Knock Off|p2b: Terapagos
+|-damage|p2b: Terapagos|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Urshifu|98/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|49/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|76/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|Zillowzest has 30 seconds left.
+|inactive|Zillowzest has 20 seconds left.
+|
+|t:|1750873065
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|62/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p1a: Urshifu|Close Combat|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|9/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2b: Terapagos|Tera Starstorm|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Incineroar|37/100
+|faint|p1a: Urshifu
+|move|p2a: Rillaboom|Wood Hammer|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|-damage|p2a: Rillaboom|72/100|[from] Recoil
+|move|p1b: Incineroar|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750873070
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|turn|5
+|
+|t:|1750873083
+|move|p1b: Walking Wake|Draco Meteor|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|-unboost|p1b: Walking Wake|spa|2
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|ManuDVQ
+|raw|ManuDVQ's rating: 1271 &rarr; <strong>1299</strong><br />(+28 for winning)
+|raw|Zillowzest's rating: 1307 &rarr; <strong>1285</strong><br />(-22 for losing)
+|l|☆ManuDVQ
+|player|p1|
+|l|☆Zillowzest
+|player|p2|

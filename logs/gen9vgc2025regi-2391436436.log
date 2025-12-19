@@ -1,0 +1,216 @@
+|j|☆founded
+|j|☆Swiftstorm
+|t:|1750855882
+|gametype|doubles
+|player|p1|founded|firebreather|1434
+|player|p2|Swiftstorm|1|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Rayquaza, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Weavile, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Great Tusk, L50|
+|teampreview|4
+|
+|t:|1750855911
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Weavile|Weavile, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Eternatus|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Swiftstorm)
+|
+|t:|1750855938
+|-terastallize|p2a: Eternatus|Fairy
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Expanding Force|p2b: Weavile|[spread] p2a
+|-immune|p2b: Weavile
+|-damage|p2a: Eternatus|14/100
+|move|p2b: Weavile|Ice Spinner|p1a: Indeedee
+|-damage|p1a: Indeedee|62/100
+|-fieldend|move: Psychic Terrain
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1a: Indeedee
+|-damage|p1a: Indeedee|20/100
+|
+|upkeep
+|turn|2
+|inactive|founded has 30 seconds left.
+|inactive|founded has 20 seconds left.
+|
+|t:|1750855976
+|switch|p1b: Rayquaza|Rayquaza, L50, shiny|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Weavile|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750855983
+|switch|p1a: Talonflame|Talonflame, L50, F|100/100
+|turn|3
+|
+|t:|1750856006
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-terastallize|p1b: Rayquaza|Normal
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: founded|move: Tailwind
+|move|p1b: Rayquaza|Earth Power|p2a: Politoed
+|-damage|p2a: Politoed|70/100
+|-damage|p1b: Rayquaza|90/100|[from] item: Life Orb
+|move|p2b: Weavile|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|28/100
+|-enditem|p1a: Talonflame|Covert Cloak|[from] move: Knock Off|[of] p2b: Weavile
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Swiftstorm has 30 seconds left.
+|
+|t:|1750856033
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Talonflame|Will-O-Wisp|p2b: Weavile
+|-status|p2b: Weavile|brn
+|move|p1b: Rayquaza|Dragon Ascent|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|move|p2b: Weavile|Ice Spinner|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|82/100|[from] item: Leftovers
+|-damage|p2b: Weavile|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750856039
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|inactive|founded has 30 seconds left.
+|
+|t:|1750856066
+|move|p1b: Rayquaza|Extreme Speed|p2b: Weavile
+|-damage|p2b: Weavile|0 fnt
+|faint|p2b: Weavile
+|-damage|p1b: Rayquaza|80/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2a: Politoed
+|-damage|p2a: Politoed|2/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Calyrex|perish3|[silent]
+|-start|p1b: Rayquaza|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|8/100|[from] item: Leftovers
+|-start|p1a: Calyrex|perish3
+|-start|p1b: Rayquaza|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|
+|t:|1750856081
+|switch|p2b: Eternatus|Eternatus, L50, tera:Fairy|14/100
+|-ability|p2b: Eternatus|Pressure
+|turn|6
+|
+|t:|1750856092
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1b: Rayquaza|Extreme Speed|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Eternatus|[spread] 
+|-activate|p2a: Politoed|move: Protect
+|-activate|p2b: Eternatus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|14/100|[from] item: Leftovers
+|-start|p1a: Calyrex|perish2
+|-start|p1b: Rayquaza|perish2
+|-start|p2a: Politoed|perish2
+|-sideend|p1: founded|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750856117
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|move|p2b: Eternatus|Protect||[still]
+|-fail|p2b: Eternatus
+|move|p1b: Rayquaza|Extreme Speed|p2b: Eternatus
+|-damage|p2b: Eternatus|0 fnt
+|faint|p2b: Eternatus
+|-damage|p1b: Rayquaza|70/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2a: Raichu
+|-damage|p2a: Raichu|7/100
+|
+|-weather|none
+|-start|p1a: Calyrex|perish1
+|-start|p1b: Rayquaza|perish1
+|upkeep
+|
+|t:|1750856131
+|switch|p2b: Politoed|Politoed, L50, M|14/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|8
+|
+|t:|1750856143
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p1b: Rayquaza|Extreme Speed|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|-damage|p1b: Rayquaza|60/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2b: Politoed
+|-activate|p2b: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|20/100|[from] item: Leftovers
+|-start|p1a: Calyrex|perish0
+|-start|p1b: Rayquaza|perish0
+|faint|p1a: Calyrex
+|faint|p1b: Rayquaza
+|
+|win|Swiftstorm
+|raw|founded's rating: 1434 &rarr; <strong>1411</strong><br />(-23 for losing)
+|raw|Swiftstorm's rating: 1381 &rarr; <strong>1404</strong><br />(+23 for winning)
+|c|☆founded|all 2% ps
+|l|☆founded
+|player|p1|
+|l|☆Swiftstorm
+|player|p2|

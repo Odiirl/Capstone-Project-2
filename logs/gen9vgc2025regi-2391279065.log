@@ -1,0 +1,137 @@
+|j|☆brodoes
+|j|☆CadaverLuke
+|t:|1750827337
+|gametype|doubles
+|player|p1|brodoes|crasherwake|1179
+|player|p2|CadaverLuke|266|1146
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Bronzong, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|
+|t:|1750827373
+|start
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750827412
+|-terastallize|p2b: Calyrex|Steel
+|move|p1a: Venusaur|Sleep Powder|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Sleep Powder
+|cant|p2b: Calyrex|slp
+|move|p1b: Koraidon|Flame Charge|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Whimsicott
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆CadaverLuke|what?
+|
+|t:|1750827439
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|2
+|c|☆CadaverLuke|why didnt my horse do anything
+|
+|t:|1750827468
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Koraidon|Collision Course|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100 slp
+|-damage|p1b: Koraidon|81/100|[from] item: Life Orb
+|cant|p2b: Calyrex|slp
+|move|p2a: Kyogre|Water Spout|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-crit|p1a: Groudon
+|-resisted|p1b: Koraidon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Koraidon|60/100
+|faint|p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827492
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|turn|3
+|c|☆CadaverLuke|why isnt astral barrage working
+|c|☆CadaverLuke|i'm so confused
+|c|☆CadaverLuke|oh im asleep
+|c|☆CadaverLuke|no im not
+|c|☆CadaverLuke|huh
+|c|☆CadaverLuke|oh yes
+|
+|t:|1750827523
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Koraidon|Flame Charge|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2b: Calyrex
+|-damage|p1b: Koraidon|51/100|[from] item: Life Orb
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750827537
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|turn|4
+|
+|t:|1750827546
+|move|p2a: Kyogre|Protect||[still]
+|-fail|p2a: Kyogre
+|move|p1b: Koraidon|Flare Blitz|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|-damage|p1b: Koraidon|19/100|[from] Recoil
+|-damage|p1b: Koraidon|9/100|[from] item: Life Orb
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|CadaverLuke forfeited.
+|
+|win|brodoes
+|raw|brodoes's rating: 1179 &rarr; <strong>1202</strong><br />(+23 for winning)
+|raw|CadaverLuke's rating: 1146 &rarr; <strong>1123</strong><br />(-23 for losing)
+|l|☆CadaverLuke
+|player|p2|
+|l|☆brodoes
+|player|p1|

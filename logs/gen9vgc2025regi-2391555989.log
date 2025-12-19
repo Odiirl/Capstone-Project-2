@@ -1,0 +1,159 @@
+|j|☆ulps
+|j|☆HarrietThugman
+|t:|1750869701
+|gametype|doubles
+|player|p1|ulps|volo|1144
+|player|p2|HarrietThugman|102|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Minior, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750869731
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Minior|Minior, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-formechange|p2b: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|
+|t:|1750869758
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|48/100
+|move|p1a: Miraidon|Volt Switch|p2b: Minior
+|-supereffective|p2b: Minior
+|-damage|p2b: Minior|0 fnt
+|faint|p2b: Minior
+|
+|t:|1750869765
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|move|p1b: Lunala|Moongeist Beam|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|9/100
+|
+|upkeep
+|
+|t:|1750869776
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750869809
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750869814
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1750869835
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|88/100
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100
+|
+|-heal|p2b: Calyrex|7/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|94/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750869867
+|switch|p2b: Flutter Mane|Flutter Mane, L50|9/100
+|move|p2a: Rillaboom|Grassy Glide|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|47/100 brn
+|move|p1a: Incineroar|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|67/100
+|
+|t:|1750869874
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Ursaluna|Facade|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-damage|p1b: Ursaluna|41/100 brn|[from] brn
+|upkeep
+|
+|t:|1750869882
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|7/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750869900
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Flutter Mane|Moonblast|p1a: Miraidon
+|-damage|p1a: Miraidon|58/100
+|-unboost|p1a: Miraidon|spa|1
+|move|p2a: Calyrex|Draining Kiss|p1a: Miraidon
+|-damage|p1a: Miraidon|40/100
+|-heal|p2a: Calyrex|20/100|[from] drain|[of] p1a: Miraidon
+|move|p1a: Miraidon|Volt Switch|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|t:|1750869910
+|switch|p1a: Incineroar|Incineroar, L50, F|94/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|move|p1b: Ursaluna|Headlong Rush|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Calyrex
+|
+|win|ulps
+|raw|ulps's rating: 1144 &rarr; <strong>1170</strong><br />(+26 for winning)
+|raw|HarrietThugman's rating: 1164 &rarr; <strong>1138</strong><br />(-26 for losing)
+|l|☆ulps
+|player|p1|
+|l|☆HarrietThugman
+|player|p2|

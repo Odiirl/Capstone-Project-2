@@ -1,0 +1,201 @@
+|j|☆bapdabo
+|j|☆asmr_vampir
+|t:|1750854674
+|gametype|doubles
+|player|p1|bapdabo|hugh|1246
+|player|p2|asmr_vampir|169|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palafin, L50, M|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Lugia, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Politoed, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+bapdabo rejected open team sheets.
+|
+|t:|1750854723
+|start
+|switch|p1a: Palafin|Palafin, L50, M|100/100
+|switch|p1b: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750854746
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Raichu|Electroweb|p2a: Scream Tail|[spread] 
+|-activate|p2a: Scream Tail|move: Protect
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Palafin|Flip Turn|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750854772
+|move|p2a: Scream Tail|Disable|p1a: Palafin
+|-start|p1a: Palafin|Disable|Flip Turn
+|move|p1b: Raichu|Volt Switch|p2a: Scream Tail
+|-damage|p2a: Scream Tail|69/100
+|-damage|p1b: Raichu|91/100|[from] item: Life Orb
+|
+|t:|1750854805
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|cant|p1a: Palafin|Disable|Flip Turn
+|move|p2b: Gothitelle|Psychic|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|87/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750854825
+|-terastallize|p2a: Scream Tail|Fire
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Palafin|perish3|[silent]
+|-start|p1b: Zacian|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Zacian|Behemoth Blade|p2a: Scream Tail
+|-resisted|p2a: Scream Tail
+|-damage|p2a: Scream Tail|32/100
+|-activate|p1a: Palafin|move: Struggle
+|move|p1a: Palafin|Struggle|p2a: Scream Tail
+|-damage|p2a: Scream Tail|18/100
+|-damage|p1a: Palafin|75/100|[from] recoil
+|move|p2b: Gothitelle|Psychic|p1a: Palafin
+|-damage|p1a: Palafin|39/100
+|
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Zacian|perish3
+|-start|p1a: Palafin|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|4
+|
+|t:|1750854856
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p2a: Scream Tail|Disable|p1b: Zacian
+|-start|p1b: Zacian|Disable|Behemoth Blade
+|cant|p1b: Zacian|Disable|Behemoth Blade
+|-activate|p1a: Palafin|move: Struggle
+|move|p1a: Palafin|Struggle|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|-start|p2a: Scream Tail|perish2
+|-start|p1b: Zacian|perish2
+|-start|p1a: Palafin|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|5
+|
+|t:|1750854877
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Scream Tail|Encore|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|-activate|p1a: Palafin|move: Struggle
+|move|p1a: Palafin|Struggle|p2b: Gothitelle
+|-damage|p2b: Gothitelle|82/100
+|-damage|p1a: Palafin|14/100|[from] recoil
+|move|p2b: Gothitelle|Psychic|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|-end|p1a: Palafin|Disable
+|-start|p2a: Scream Tail|perish1
+|-start|p1b: Zacian|perish1
+|-start|p1a: Palafin|perish1
+|-start|p2b: Gothitelle|perish1
+|upkeep
+|turn|6
+|
+|t:|1750854912
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Zacian|Sacred Sword|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Palafin|Flip Turn|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|-start|p2a: Scream Tail|perish0
+|-start|p1b: Zacian|perish0
+|-start|p1a: Palafin|perish0
+|-start|p2b: Gothitelle|perish0
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|faint|p1b: Zacian
+|faint|p1a: Palafin
+|faint|p2b: Gothitelle
+|upkeep
+|
+|t:|1750854929
+|switch|p1b: Politoed|Politoed, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Raichu|Raichu-Alola, L50, M|91/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-end|p2b: Flutter Mane|Protosynthesis
+|turn|7
+|
+|t:|1750854970
+|move|p2a: Koraidon|Close Combat|p1b: Politoed
+|-damage|p1b: Politoed|24/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Flutter Mane|Moonblast|p1b: Politoed
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|move|p1a: Raichu|Expanding Force|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-damage|p1a: Raichu|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750854990
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|win|asmr_vampir
+|raw|bapdabo's rating: 1246 &rarr; <strong>1220</strong><br />(-26 for losing)
+|raw|asmr_vampir's rating: 1237 &rarr; <strong>1263</strong><br />(+26 for winning)
+|l|☆bapdabo
+|player|p1|
+|l|☆asmr_vampir
+|player|p2|

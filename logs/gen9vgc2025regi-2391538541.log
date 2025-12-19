@@ -1,0 +1,225 @@
+|j|☆nwjns999
+|j|☆testy accounty 2
+|t:|1750867795
+|gametype|doubles
+|player|p1|nwjns999|backpackerf|1572
+|player|p2|testy accounty 2|170|1611
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|
+|t:|1750867832
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750867851
+|-terastallize|p2b: Miraidon|Electric
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: nwjns999|move: Light Screen
+|move|p2b: Miraidon|Electro Drift|p1b: Volcarona
+|-damage|p1b: Volcarona|27/100
+|-damage|p2b: Miraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Volcarona
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1b: Volcarona|Struggle Bug|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|96/100
+|-damage|p2b: Miraidon|70/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Miraidon|spa|1
+|
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750867866
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Lunala
+|-status|p2a: Lunala|par
+|move|p2b: Miraidon|Electro Drift|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-damage|p2b: Miraidon|53/100|[from] item: Rocky Helmet|[of] p1b: Volcarona
+|faint|p1b: Volcarona
+|cant|p2a: Lunala|par
+|
+|upkeep
+|
+|t:|1750867876
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|3
+|
+|t:|1750867891
+|switch|p2b: Ian|Incineroar, L50, M|100/100
+|-ability|p2b: Ian|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1b: Rillaboom|U-turn|p2b: Ian
+|-damage|p2b: Ian|90/100
+|-damage|p1b: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2b: Ian
+|
+|t:|1750867899
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Lunala
+|-damage|p2a: Lunala|92/100 par
+|-unboost|p2a: Lunala|spa|1
+|move|p2a: Lunala|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|70/100
+|
+|-heal|p2b: Ian|96/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|76/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|98/100 par|[from] Grassy Terrain
+|-heal|p2a: Lunala|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750867930
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: nwjns999|Reflect
+|move|p1b: Lunala|Calm Mind|p1b: Lunala
+|-boost|p1b: Lunala|spa|1
+|-boost|p1b: Lunala|spd|1
+|move|p2b: Ian|Knock Off|p1b: Lunala
+|-resisted|p1b: Lunala
+|-damage|p1b: Lunala|96/100
+|-enditem|p1b: Lunala|Leftovers|[from] move: Knock Off|[of] p2b: Ian
+|
+|-heal|p1b: Lunala|100/100|[from] Grassy Terrain
+|-heal|p2b: Ian|100/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|82/100|[from] Grassy Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750867958
+|move|p1b: Lunala|Moonblast|p2b: Ian
+|-damage|p2b: Ian|29/100
+|-unboost|p2b: Ian|spa|1
+|move|p2b: Ian|Will-O-Wisp|p1b: Lunala|[miss]
+|-miss|p2b: Ian|p1b: Lunala
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Ian
+|-damage|p2b: Ian|11/100
+|-unboost|p2b: Ian|spa|1
+|-damage|p1a: Grimmsnarl|66/100|[from] item: Rocky Helmet|[of] p2b: Ian
+|move|p2a: Ursaluna|Facade|p1b: Lunala
+|-damage|p1b: Lunala|72/100
+|
+|-heal|p1b: Lunala|78/100|[from] Grassy Terrain
+|-heal|p2b: Ian|17/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|72/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750867980
+|move|p1b: Lunala|Moonblast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|22/100 brn
+|-unboost|p2a: Ursaluna|spa|1
+|move|p2b: Ian|Will-O-Wisp|p1a: Grimmsnarl|[miss]
+|-miss|p2b: Ian|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Ian
+|-damage|p2b: Ian|0 fnt
+|-damage|p1a: Grimmsnarl|55/100|[from] item: Rocky Helmet|[of] p2b: Ian
+|faint|p2b: Ian
+|move|p2a: Ursaluna|Facade|p1b: Lunala
+|-damage|p1b: Lunala|22/100
+|
+|-heal|p1b: Lunala|28/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|61/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|28/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1750867997
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|53/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750868014
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Lunala
+|-activate|p1b: Lunala|move: Protect
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Miraidon
+|-damage|p2b: Miraidon|34/100
+|-unboost|p2b: Miraidon|spa|1
+|move|p2a: Ursaluna|Facade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Ursaluna|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1750868026
+|switch|p1a: Rillaboom|Rillaboom, L50, M|84/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1750868054
+|move|p1a: Rillaboom|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|23/100
+|cant|p2b: Miraidon|flinch
+|move|p1b: Lunala|Moonblast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p2b: Miraidon|29/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|34/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|-sideend|p1: nwjns999|move: Light Screen
+|upkeep
+|
+|t:|1750868061
+|switch|p2a: Lunala|Lunala, L50|100/100 par
+|turn|9
+|
+|t:|1750868076
+|move|p1a: Rillaboom|Grassy Glide|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|81/100 par
+|move|p2b: Miraidon|Electro Drift|p1b: Lunala
+|-damage|p1b: Lunala|8/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-heal|p2b: Miraidon|35/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|14/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|-message|testy accounty 2 forfeited.
+|
+|win|nwjns999
+|raw|nwjns999's rating: 1572 &rarr; <strong>1594</strong><br />(+22 for winning)
+|raw|testy accounty 2's rating: 1611 &rarr; <strong>1589</strong><br />(-22 for losing)
+|l|☆testy accounty 2
+|player|p2|
+|l|☆nwjns999
+|player|p1|

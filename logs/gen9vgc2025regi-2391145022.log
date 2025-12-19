@@ -1,0 +1,165 @@
+|j|☆Saltsizzle
+|j|☆Jzvictini
+|t:|1750808103
+|gametype|doubles
+|player|p1|Saltsizzle|265|1512
+|player|p2|Jzvictini|266|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mimikyu, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Eternatus, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Saltsizzle)
+|inactive|Saltsizzle has 60 seconds left.
+|
+|t:|1750808145
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Mimikyu|Mimikyu, L50, M, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Eternatus|Pressure
+|turn|1
+|
+|t:|1750808168
+|move|p1a: Eternatus|Toxic|p2a: Calyrex
+|-status|p2a: Calyrex|tox
+|move|p2b: Smeargle|Spore|p1a: Eternatus
+|-status|p1a: Eternatus|slp|[from] move: Spore
+|move|p1b: Mimikyu|Taunt|p2b: Smeargle
+|-start|p2b: Smeargle|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1b: Mimikyu|[spread] p1a,p1b
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|27/100 slp
+|-activate|p1b: Mimikyu|ability: Disguise
+|-damage|p1b: Mimikyu|100/100
+|detailschange|p1b: Mimikyu|Mimikyu-Busted, L50, M, shiny
+|-damage|p1b: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p1a: Eternatus|33/100 slp|[from] item: Black Sludge
+|-damage|p2a: Calyrex|95/100 tox|[from] psn
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|2
+|inactive|Saltsizzle has 30 seconds left.
+|
+|t:|1750808201
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Farigiraf|atk|1
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Calyrex
+|-damage|p1a: Incineroar|83/100
+|-damage|p1b: Calyrex|85/100
+|
+|-damage|p2a: Calyrex|83/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750808225
+|move|p2b: Farigiraf|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|58/100
+|-damage|p1b: Calyrex|66/100
+|-enditem|p2b: Farigiraf|Throat Spray
+|-boost|p2b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Incineroar|Snarl|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-supereffective|p2b: Farigiraf
+|-damage|p2a: Calyrex|66/100 tox
+|-damage|p2b: Farigiraf|76/100
+|-unboost|p2b: Farigiraf|spa|1
+|move|p1b: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100 tox
+|-damage|p2b: Farigiraf|23/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-damage|p2a: Calyrex|25/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750808248
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p2a: Calyrex|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|10/100 tox
+|
+|-damage|p2a: Calyrex|0 fnt|[from] psn
+|faint|p2a: Calyrex
+|upkeep
+|c|☆Jzvictini|Forgive me for what I am about to do
+|
+|t:|1750808270
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p1a: Mimikyu|Mimikyu-Busted, L50, M, shiny|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|5
+|
+|t:|1750808279
+|-terastallize|p2a: Kyogre|Water
+|move|p2a: Kyogre|Water Spout|p1a: Mimikyu|[spread] p1a,p1b
+|-damage|p1a: Mimikyu|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Mimikyu
+|faint|p1b: Calyrex
+|move|p2b: Farigiraf|Hyper Voice|p1: Mimikyu|[notarget]
+|-fail|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750808288
+|switch|p1a: Eternatus|Eternatus, L50|33/100 slp
+|-ability|p1a: Eternatus|Pressure
+|turn|6
+|
+|t:|1750808293
+|cant|p1a: Eternatus|slp
+|move|p2a: Kyogre|Water Spout|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|win|Jzvictini
+|raw|Saltsizzle's rating: 1512 &rarr; <strong>1495</strong><br />(-17 for losing)
+|raw|Jzvictini's rating: 1562 &rarr; <strong>1579</strong><br />(+17 for winning)
+|l|☆Saltsizzle
+|player|p1|
+|l|☆Jzvictini
+|player|p2|

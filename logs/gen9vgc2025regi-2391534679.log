@@ -1,0 +1,219 @@
+|j|☆GiantMouche
+|j|☆FOOTKNEES
+|t:|1750867365
+|gametype|doubles
+|player|p1|GiantMouche|265|1181
+|player|p2|FOOTKNEES|169|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Alomomola, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FOOTKNEES)
+|
+|t:|1750867397
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|GiantMouche has 30 seconds left.
+|inactive|FOOTKNEES has 30 seconds left.
+|
+|t:|1750867425
+|move|p2b: Tornadus|Taunt|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p2a: Kyogre|Water Spout|p1b: Lunala|[spread] p1a,p1b
+|-damage|p1a: Indeedee|19/100
+|-damage|p1b: Lunala|67/100
+|-enditem|p1a: Indeedee|Eject Button
+|inactive|GiantMouche has 30 seconds left.
+|
+|t:|1750867450
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|-enditem|p1a: Necrozma|Psychic Seed
+|-boost|p1a: Necrozma|spd|1|[from] item: Psychic Seed
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750867471
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|-enditem|p2a: Brute Bonnet|Booster Energy
+|-activate|p2a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p2a: Brute Bonnet|protosynthesisspd
+|move|p1a: Necrozma|Expanding Force|p2b: Tornadus|[spread] p2b
+|-immune|p2a: Brute Bonnet
+|-damage|p2b: Tornadus|19/100
+|move|p1b: Lunala|Expanding Force|p2b: Tornadus|[spread] p2b
+|-immune|p2a: Brute Bonnet
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867485
+|switch|p2b: Alomomola|Alomomola, L50, M|100/100
+|turn|3
+|inactive|GiantMouche has 30 seconds left.
+|inactive|GiantMouche has 20 seconds left.
+|
+|t:|1750867521
+|-terastallize|p1b: Lunala|Fairy
+|move|p2b: Alomomola|Protect|p2b: Alomomola
+|-singleturn|p2b: Alomomola|Protect
+|move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+|-boost|p1a: Necrozma|spa|1
+|-boost|p1a: Necrozma|spd|1
+|move|p2a: Brute Bonnet|Spore|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Spore
+|move|p1b: Lunala|Moonblast|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|50/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|GiantMouche has 30 seconds left.
+|
+|t:|1750867546
+|move|p2a: Brute Bonnet|Protect|p2a: Brute Bonnet
+|-singleturn|p2a: Brute Bonnet|Protect
+|cant|p1a: Necrozma|slp
+|move|p2b: Alomomola|Wish|p2b: Alomomola
+|move|p1b: Lunala|Moonblast|p2a: Brute Bonnet
+|-activate|p2a: Brute Bonnet|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750867566
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|cant|p1a: Necrozma|slp
+|move|p2b: Alomomola|Flip Turn|p1b: Lunala
+|-damage|p1b: Lunala|49/100
+|
+|t:|1750867573
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|50/100|[from] Flip Turn
+|move|p1b: Lunala|Moonblast|p2a: Kyogre
+|-damage|p2a: Kyogre|77/100
+|
+|-weather|none
+|-heal|p2b: Brute Bonnet|100/100|[from] move: Wish|[wisher] Alomomola
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|GiantMouche has 30 seconds left.
+|inactive|GiantMouche has 20 seconds left.
+|inactive|GiantMouche has 15 seconds left.
+|inactive|GiantMouche has 10 seconds left.
+|
+|t:|1750867619
+|switch|p2a: Alomomola|Alomomola, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|19/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Brute Bonnet|Sucker Punch||[still]
+|-fail|p2b: Brute Bonnet
+|-curestatus|p1a: Necrozma|slp|[msg]
+|move|p1a: Necrozma|Prismatic Laser|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-mustrecharge|p1a: Necrozma
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1750867631
+|switch|p2a: Kyogre|Kyogre, L50|77/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|7
+|inactive|GiantMouche has 30 seconds left.
+|
+|t:|1750867659
+|move|p2b: Brute Bonnet|Sucker Punch||[still]
+|-fail|p2b: Brute Bonnet
+|move|p2a: Kyogre|Water Spout|p1a: Necrozma|[spread] p1a,p1b
+|-damage|p1a: Necrozma|75/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|cant|p1a: Necrozma|recharge
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750867671
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|8
+|
+|t:|1750867687
+|-terastallize|p2a: Kyogre|Water
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Brute Bonnet|Sucker Punch|p1a: Necrozma
+|-activate|p1a: Necrozma|move: Psychic Terrain
+|move|p2a: Kyogre|Water Spout|p1a: Necrozma|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Necrozma|42/100
+|move|p1a: Necrozma|Prismatic Laser|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-mustrecharge|p1a: Necrozma
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1750867711
+|move|p2b: Brute Bonnet|Protect|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|Protect
+|cant|p1a: Necrozma|recharge
+|move|p1b: Ursaluna|Facade|p2b: Brute Bonnet
+|-activate|p2b: Brute Bonnet|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1750867729
+|move|p2b: Brute Bonnet|Spore|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Spore
+|cant|p1a: Necrozma|slp
+|move|p1b: Ursaluna|Facade|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|win|GiantMouche
+|raw|GiantMouche's rating: 1181 &rarr; <strong>1200</strong><br />(+19 for winning)
+|raw|FOOTKNEES's rating: 1090 &rarr; <strong>1073</strong><br />(-17 for losing)
+|l|☆FOOTKNEES
+|player|p2|
+|l|☆GiantMouche
+|player|p1|

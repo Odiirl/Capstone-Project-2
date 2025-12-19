@@ -1,0 +1,163 @@
+|j|☆spacehippy
+|j|☆Greninja_cian
+|t:|1750839662
+|gametype|doubles
+|player|p1|spacehippy|170|1170
+|player|p2|Greninja_cian|2|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Frosmoth, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|
+|t:|1750839679
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750839690
+|-terastallize|p2a: Urshifu|Dark
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Urshifu|Tera Blast|p1a: Indeedee|[anim] Tera Blast Dark
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|19/100
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p1b: Necrozma|Expanding Force|p2b: Volcarona|[spread] p2b
+|-immune|p2a: Urshifu
+|-damage|p2b: Volcarona|53/100
+|-damage|p1b: Necrozma|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1750839723
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|-terastallize|p1b: Necrozma|Dark
+|move|p2a: Urshifu|Tera Blast|p1b: Necrozma|[anim] Tera Blast Dark
+|-resisted|p1b: Necrozma
+|-damage|p1b: Necrozma|75/100
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p1b: Necrozma|Trick Room|p1b: Necrozma
+|-fieldstart|move: Trick Room|[of] p1b: Necrozma
+|
+|upkeep
+|turn|3
+|
+|t:|1750839766
+|switch|p1b: Indeedee|Indeedee-F, L50, F|19/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Garchomp|Stomping Tantrum|p2b: Volcarona
+|-damage|p2b: Volcarona|8/100
+|move|p2b: Volcarona|Fiery Dance|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-boost|p2b: Volcarona|spa|1
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750839781
+|switch|p1b: Necrozma|Necrozma-Dawn-Wings, L50, tera:Dark|75/100
+|turn|4
+|
+|t:|1750839812
+|move|p1b: Necrozma|Moongeist Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|46/100
+|-damage|p1b: Necrozma|65/100|[from] item: Life Orb
+|move|p1a: Garchomp|Stomping Tantrum|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-status|p1a: Garchomp|brn|[from] ability: Flame Body|[of] p2b: Volcarona
+|faint|p2b: Volcarona
+|move|p2a: Zamazenta|Body Press|p1b: Necrozma
+|-supereffective|p1b: Necrozma
+|-damage|p1b: Necrozma|0 fnt
+|faint|p1b: Necrozma
+|
+|-damage|p1a: Garchomp|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750839827
+|switch|p1b: Zacian|Zacian, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M, tera:Dark|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|5
+|
+|t:|1750839852
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p2b: Urshifu|Surging Strikes|p1b: Zacian
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|83/100
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|62/100
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|44/100
+|-hitcount|p1b: Zacian|3
+|move|p1b: Zacian|Play Rough|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-damage|p1a: Garchomp|88/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750839867
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750839877
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|23/100
+|move|p2a: Zamazenta|Body Press|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|Greninja_cian
+|raw|spacehippy's rating: 1170 &rarr; <strong>1143</strong><br />(-27 for losing)
+|raw|Greninja_cian's rating: 1144 &rarr; <strong>1171</strong><br />(+27 for winning)
+|l|☆Greninja_cian
+|player|p2|
+|l|☆spacehippy
+|player|p1|

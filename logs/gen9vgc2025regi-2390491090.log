@@ -1,0 +1,199 @@
+|j|☆lost oblitus
+|j|☆CadaverLuke
+|t:|1750719725
+|gametype|doubles
+|player|p1|lost oblitus|supernerd|1147
+|player|p2|CadaverLuke|101|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tentacruel, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Dipplin, L50, F|
+|poke|p1|Giratina, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|
+|t:|1750719750
+|start
+|switch|p1a: Tentacruel|Tentacruel, L50, F, shiny|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750719764
+|move|p1b: Pelipper|Wide Guard|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Wide Guard
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: CadaverLuke|move: Tailwind
+|move|p2b: Indeedee|Expanding Force|p1b: Pelipper|[spread] 
+|-activate|p1a: Tentacruel|move: Wide Guard
+|-activate|p1b: Pelipper|move: Wide Guard
+|move|p1a: Tentacruel|Acid Spray|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|36/100
+|-unboost|p2a: Whimsicott|spd|2
+|-enditem|p2a: Whimsicott|Eject Button
+|
+|t:|1750719782
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750719799
+|-terastallize|p2a: Kyogre|Water
+|move|p2a: Kyogre|Water Spout|p1a: Tentacruel|[spread] p1a,p1b
+|-resisted|p1a: Tentacruel
+|-resisted|p1b: Pelipper
+|-damage|p1a: Tentacruel|16/100
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|move|p2b: Indeedee|Expanding Force|p1a: Tentacruel|[spread] p1a,p1b
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1a: Tentacruel
+|faint|p1b: Pelipper
+|-damage|p2b: Indeedee|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750719810
+|switch|p1a: Giratina|Giratina, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p1a: Giratina|Pressure
+|turn|3
+|
+|t:|1750719851
+|switch|p2a: Whimsicott|Whimsicott, L50, F|36/100
+|move|p2b: Indeedee|Shadow Ball|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|68/100
+|-damage|p2b: Indeedee|81/100|[from] item: Life Orb
+|move|p1b: Rillaboom|Wood Hammer|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1b: Rillaboom|78/100|[from] Recoil
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Whimsicott|42/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|84/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750719893
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750719929
+|move|p2a: Whimsicott|Encore|p1b: Rillaboom
+|-start|p1b: Rillaboom|Encore
+|move|p1b: Rillaboom|Wood Hammer|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-damage|p1b: Rillaboom|50/100|[from] Recoil
+|move|p1a: Giratina|Shadow Force|p2a: Whimsicott|[from] lockedmove
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|56/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|80/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|86/100|[from] item: Leftovers
+|-sideend|p2: CadaverLuke|move: Tailwind
+|upkeep
+|
+|t:|1750719950
+|switch|p2b: Kyogre|Kyogre, L50, tera:Water|100/100
+|turn|5
+|
+|t:|1750719956
+|move|p2b: Kyogre|Water Spout|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Giratina
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Giratina|36/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|none
+|-heal|p1a: Giratina|42/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750719975
+|move|p2b: Kyogre|Water Spout|p1a: Giratina|[miss]
+|-miss|p2b: Kyogre|p1a: Giratina
+|move|p1a: Giratina|Shadow Force|p2b: Kyogre|[from] lockedmove
+|-damage|p2b: Kyogre|42/100
+|
+|-heal|p2b: Kyogre|48/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|48/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|54/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750719985
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Giratina
+|-activate|p1a: Giratina|move: Protect
+|
+|-heal|p2b: Kyogre|54/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|60/100|[from] Grassy Terrain
+|-heal|p1a: Giratina|66/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750719995
+|move|p1a: Giratina|Shadow Sneak|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|27/100
+|move|p2b: Kyogre|Water Spout|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|54/100
+|
+|-heal|p1a: Giratina|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750720002
+|move|p1a: Giratina|Shadow Sneak|p2b: Kyogre
+|-damage|p2b: Kyogre|7/100
+|-activate|p2b: Kyogre|move: Struggle
+|move|p2b: Kyogre|Struggle|p1a: Giratina
+|-damage|p1a: Giratina|54/100
+|-damage|p2b: Kyogre|0 fnt|[from] recoil
+|faint|p2b: Kyogre
+|
+|win|lost oblitus
+|raw|lost oblitus's rating: 1147 &rarr; <strong>1166</strong><br />(+19 for winning)
+|raw|CadaverLuke's rating: 1069 &rarr; <strong>1053</strong><br />(-16 for losing)
+|l|☆lost oblitus
+|player|p1|
+|l|☆CadaverLuke
+|player|p2|

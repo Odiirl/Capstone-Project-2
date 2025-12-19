@@ -1,0 +1,154 @@
+|j|☆dumbatus
+|j|☆dongdianbkmgod
+|t:|1750743598
+|gametype|doubles
+|player|p1|dumbatus|2|1172
+|player|p2|dongdianbkmgod|cynthia-gen4|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|
+|t:|1750743623
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750743652
+|-terastallize|p1b: Miraidon|Electric
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p1b: Miraidon|Electro Drift|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|move|p1a: Lunala|Moonblast|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|87/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p2b: Terapagos|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743670
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Terapagos|100/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dongdianbkmgod)
+|
+|t:|1750743711
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1a: Lunala|Moongeist Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|upkeep
+|
+|t:|1750743727
+|switch|p2a: Snorlax|Snorlax, L50, F|100/100
+|turn|3
+|inactive|dongdianbkmgod has 30 seconds left.
+|
+|t:|1750743755
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|move|p1b: Urshifu|Surging Strikes|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|83/100
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|65/100
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|48/100
+|-hitcount|p2b: Terapagos|3
+|move|p1a: Lunala|Moonblast|p2b: Terapagos
+|-damage|p2b: Terapagos|37/100
+|move|p2b: Terapagos|Tera Starstorm|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|73/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2a: Snorlax|Belly Drum|p2a: Snorlax
+|-damage|p2a: Snorlax|51/100
+|-setboost|p2a: Snorlax|atk|6|[from] move: Belly Drum
+|
+|-heal|p2b: Terapagos|43/100|[from] item: Leftovers
+|upkeep
+|inactive|dumbatus has 30 seconds left.
+|
+|t:|1750743781
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|4
+|
+|t:|1750743799
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Terapagos|[anim] Ivy Cudgel Rock
+|-damage|p2b: Terapagos|8/100
+|move|p2b: Terapagos|Tera Starstorm|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Ogerpon|move: Wide Guard
+|move|p2a: Snorlax|Crunch|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-heal|p2b: Terapagos|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743811
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750743826
+|move|p1a: Miraidon|Electro Drift|p2b: Terapagos
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Snorlax|[anim] Ivy Cudgel Rock
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|dumbatus
+|raw|dumbatus's rating: 1172 &rarr; <strong>1196</strong><br />(+24 for winning)
+|raw|dongdianbkmgod's rating: 1154 &rarr; <strong>1130</strong><br />(-24 for losing)
+|l|☆dongdianbkmgod
+|player|p2|
+|l|☆dumbatus
+|player|p1|

@@ -1,0 +1,154 @@
+|j|☆roy'tjeb
+|j|☆kealk
+|t:|1750753186
+|gametype|doubles
+|player|p1|roy'tjeb|1|1280
+|player|p2|kealk|101|1301
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Bruxish, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Slither Wing, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|
+|t:|1750753223
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Bruxish|Bruxish, L50, M|100/100
+|switch|p2a: Great Tusk|Great Tusk, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750753250
+|-terastallize|p1a: Calyrex|Fire
+|move|p1b: Bruxish|Flip Turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|79/100
+|-enditem|p1a: Calyrex|Weakness Policy
+|-boost|p1a: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Calyrex|spa|2|[from] item: Weakness Policy
+|
+|t:|1750753257
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100|[from] Flip Turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Great Tusk|Bulldoze|p1a: Calyrex|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p2b: Koraidon|82/100
+|-damage|p1a: Calyrex|33/100
+|-damage|p1b: Indeedee|73/100
+|-unboost|p1a: Calyrex|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|move|p2b: Koraidon|Flare Blitz|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Koraidon|71/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆roy'tjeb|Smart
+|
+|t:|1750753272
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|2
+|
+|t:|1750753288
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Great Tusk|Bulldoze|p1a: Zamazenta|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Zamazenta
+|-damage|p2b: Koraidon|52/100
+|-damage|p1a: Zamazenta|82/100
+|-damage|p1b: Indeedee|48/100
+|-unboost|p1a: Zamazenta|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|move|p2b: Koraidon|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2b: Koraidon|35/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|
+|t:|1750753303
+|switch|p2b: Iron Valiant|Iron Valiant, L50|100/100|[from] U-turn
+|-enditem|p2b: Iron Valiant|Booster Energy
+|-activate|p2b: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Valiant|quarkdrivespe
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750753311
+|switch|p1b: Bruxish|Bruxish, L50, M|100/100
+|turn|3
+|
+|t:|1750753329
+|move|p2b: Iron Valiant|Dazzling Gleam|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|64/100
+|-damage|p1b: Bruxish|54/100
+|move|p1b: Bruxish|Expanding Force|p2a: Great Tusk|[spread] p2a,p2b
+|-supereffective|p2a: Great Tusk
+|-supereffective|p2b: Iron Valiant
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|move|p1a: Zamazenta|Body Press|p2: Great Tusk|[notarget]
+|-fail|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750753343
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|35/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750753357
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Urshifu|Helping Hand|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Helping Hand|[of] p2b: Urshifu
+|move|p1b: Bruxish|Expanding Force|p2b: Urshifu|[spread] p2a
+|-immune|p2b: Urshifu
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p1a: Zamazenta|Body Press|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|win|roy'tjeb
+|raw|roy&apos;tjeb's rating: 1280 &rarr; <strong>1307</strong><br />(+27 for winning)
+|raw|kealk's rating: 1301 &rarr; <strong>1280</strong><br />(-21 for losing)
+|c|☆roy'tjeb|gg
+|l|☆kealk
+|player|p2|
+|l|☆roy'tjeb
+|player|p1|

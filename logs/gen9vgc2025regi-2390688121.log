@@ -1,0 +1,132 @@
+|j|☆penguizz
+|j|☆Freaky Mane
+|t:|1750750070
+|gametype|doubles
+|player|p1|penguizz|colress|1155
+|player|p2|Freaky Mane|miku-ghost|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Glaceon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750750090
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: 夜紛い Yoru Magai|Calyrex-Shadow, L50|100/100
+|switch|p2b: 駆けろ Kakero|Glaceon, L50, F, shiny|100/100
+|-ability|p2a: 夜紛い Yoru Magai|As One
+|-ability|p2a: 夜紛い Yoru Magai|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750750138
+|-terastallize|p1b: Miraidon|Electric
+|move|p2b: 駆けろ Kakero|Helping Hand|p2a: 夜紛い Yoru Magai
+|-singleturn|p2a: 夜紛い Yoru Magai|Helping Hand|[of] p2b: 駆けろ Kakero
+|move|p2a: 夜紛い Yoru Magai|Astral Barrage|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Miraidon|58/100
+|faint|p1a: Lunala
+|-ability|p2a: 夜紛い Yoru Magai|Grim Neigh|boost
+|-boost|p2a: 夜紛い Yoru Magai|spa|1
+|move|p1b: Miraidon|Volt Switch|p2a: 夜紛い Yoru Magai
+|-damage|p2a: 夜紛い Yoru Magai|2/100
+|
+|t:|1750750151
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1750750154
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|58/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750750165
+|move|p2b: 駆けろ Kakero|Detect|p2b: 駆けろ Kakero
+|-singleturn|p2b: 駆けろ Kakero|Protect
+|move|p1b: Urshifu|Aqua Jet|p2a: 夜紛い Yoru Magai
+|-crit|p2a: 夜紛い Yoru Magai
+|-damage|p2a: 夜紛い Yoru Magai|0 fnt
+|faint|p2a: 夜紛い Yoru Magai
+|move|p1a: Miraidon|Electro Drift|p2b: 駆けろ Kakero
+|-activate|p2b: 駆けろ Kakero|move: Protect
+|
+|upkeep
+|
+|t:|1750750179
+|switch|p2a: Freaky Mane|Flutter Mane, L50, shiny|100/100
+|turn|3
+|
+|t:|1750750201
+|-terastallize|p2a: Freaky Mane|Fairy
+|move|p1b: Urshifu|Aqua Jet|p2a: Freaky Mane
+|-damage|p2a: Freaky Mane|55/100
+|move|p2a: Freaky Mane|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Miraidon|37/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Miraidon|Electro Drift|p2a: Freaky Mane
+|-damage|p2a: Freaky Mane|0 fnt
+|faint|p2a: Freaky Mane
+|-end|p2a: Freaky Mane|Protosynthesis|[silent]
+|move|p2b: 駆けろ Kakero|Icy Wind|p1a: Miraidon
+|-damage|p1a: Miraidon|24/100
+|-unboost|p1a: Miraidon|spe|1
+|
+|upkeep
+|
+|t:|1750750215
+|switch|p2a: Koriander|Koraidon, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koriander
+|-activate|p2a: Koriander|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750750236
+|move|p2a: Koriander|Collision Course|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2b: 駆けろ Kakero|Icy Wind|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|54/100
+|-unboost|p1b: Ursaluna|spe|1
+|move|p1b: Ursaluna|Earthquake|p2b: 駆けろ Kakero|[spread] p2a,p2b
+|-damage|p2a: Koriander|61/100
+|-damage|p2b: 駆けろ Kakero|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|-message|penguizz forfeited.
+|
+|win|Freaky Mane
+|raw|penguizz's rating: 1155 &rarr; <strong>1125</strong><br />(-30 for losing)
+|raw|Freaky Mane's rating: 1089 &rarr; <strong>1121</strong><br />(+32 for winning)
+|l|☆penguizz
+|player|p1|
+|l|☆Freaky Mane
+|player|p2|

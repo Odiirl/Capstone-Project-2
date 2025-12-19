@@ -1,0 +1,362 @@
+|j|☆shuijun3烈空坐侠
+|j|☆Lei43
+|t:|1750741388
+|gametype|doubles
+|player|p1|shuijun3烈空坐侠|iono|1431
+|player|p2|Lei43|unknown|1521
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750741417
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750741441
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|90/100
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Lei43|Reflect
+|cant|p2a: Miraidon|flinch
+|move|p1b: Dragonite|Ice Spinner|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|51/100
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|2
+|
+|t:|1750741464
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|move|p2a: Miraidon|Volt Switch|p1a: Incineroar
+|-damage|p1a: Incineroar|67/100
+|
+|t:|1750741474
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100|[from] Volt Switch
+|move|p1a: Incineroar|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|92/100
+|
+|t:|1750741479
+|switch|p1a: Cresselia|Cresselia, L50, F|100/100|[from] U-turn
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750741516
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Cresselia
+|-damage|p1a: Cresselia|86/100
+|-unboost|p1a: Cresselia|spa|1
+|move|p1b: Ursaluna|Earthquake|p2a: Volcarona|[spread] p2a,p2b
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|-damage|p2a: Volcarona|34/100
+|-damage|p2b: Grimmsnarl|55/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750741539
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Ursaluna|Facade|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Ursaluna|100/100 brn
+|-curestatus|p1b: Ursaluna|brn|[msg]
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750741547
+|switch|p2b: Miraidon|Miraidon, L50|51/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Volcarona|Electric Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Electric Seed
+|turn|5
+|
+|t:|1750741559
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-terastallize|p2a: Volcarona|Grass
+|move|p1b: Ursaluna|Earthquake|p2a: Volcarona|[spread] p2a,p2b
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|-resisted|p2a: Volcarona
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Volcarona|14/100
+|-damage|p2b: Zamazenta|71/100
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-curestatus|p1b: Ursaluna|brn|[msg]
+|move|p2a: Volcarona|Giga Drain|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-heal|p2a: Volcarona|84/100|[from] drain|[of] p1b: Ursaluna
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1750741575
+|switch|p1b: Incineroar|Incineroar, L50, F|67/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|turn|6
+|
+|t:|1750741596
+|-terastallize|p1b: Incineroar|Bug
+|move|p1b: Incineroar|Flare Blitz|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|29/100
+|-damage|p1b: Incineroar|52/100|[from] Recoil
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Incineroar|77/100
+|move|p2b: Zamazenta|Body Press|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|52/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1750741619
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Incineroar|Flare Blitz|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Incineroar|77/100
+|move|p2b: Zamazenta|Body Press|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|77/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750741637
+|move|p2a: Volcarona|Fiery Dance|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1b: Incineroar
+|move|p2b: Zamazenta|Body Press|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|52/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-sideend|p2: Lei43|Reflect
+|upkeep
+|
+|t:|1750741641
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|turn|9
+|
+|t:|1750741662
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Dragonite|Scale Shot|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|move|p1a: Cresselia|Skill Swap|p2b: Zamazenta
+|-activate|p1a: Cresselia|move: Skill Swap|Dauntless Shield|Levitate|[of] p2b: Zamazenta
+|-ability|p1a: Cresselia|Dauntless Shield|boost
+|-boost|p1a: Cresselia|def|1
+|move|p2b: Zamazenta|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|82/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|t:|1750741679
+|move|p1b: Dragonite|Scale Shot|p2a: Volcarona
+|-damage|p2a: Volcarona|17/100
+|-damage|p2a: Volcarona|3/100
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-hitcount|p2: Volcarona|3
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|77/100
+|-heal|p1b: Dragonite|100/100
+|move|p2b: Zamazenta|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|77/100
+|
+|upkeep
+|
+|t:|1750741683
+|switch|p2a: Miraidon|Miraidon, L50|51/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|11
+|
+|t:|1750741700
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Dragonite|100/100
+|move|p2b: Zamazenta|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|73/100
+|move|p1b: Dragonite|Scale Shot|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|20/100
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-hitcount|p2: Miraidon|2
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1750741716
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Dragonite|98/100
+|move|p2b: Zamazenta|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|23/100
+|move|p1b: Dragonite|Scale Shot|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|68/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|65/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|62/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|59/100
+|-hitcount|p2b: Zamazenta|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|j| Lavenderawa
+|
+|t:|1750741738
+|move|p1a: Cresselia|Ally Switch|p1a: Cresselia
+|swap|p1a: Cresselia|1|[from] move: Ally Switch
+|move|p1a: Dragonite|Scale Shot|p2b: Zamazenta|[miss]
+|-miss|p1a: Dragonite|p2b: Zamazenta
+|move|p2b: Zamazenta|Body Press|p1b: Cresselia
+|-resisted|p1b: Cresselia
+|-damage|p1b: Cresselia|84/100
+|
+|upkeep
+|turn|14
+|
+|t:|1750741747
+|move|p1b: Cresselia|Ally Switch|p1b: Cresselia
+|swap|p1b: Cresselia|0|[from] move: Ally Switch
+|move|p1b: Dragonite|Scale Shot|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|56/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|53/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|50/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|47/100
+|-hitcount|p2b: Zamazenta|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Zamazenta|Body Press|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|68/100
+|
+|upkeep
+|turn|15
+|
+|t:|1750741757
+|move|p1b: Dragonite|Scale Shot|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|44/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|41/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|38/100
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|36/100
+|-hitcount|p2b: Zamazenta|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Zamazenta|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia
+|-heal|p1a: Cresselia|93/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|16
+|
+|t:|1750741774
+|move|p1a: Cresselia|Ally Switch||[still]
+|-fail|p1a: Cresselia|move: Ally Switch
+|move|p2b: Zamazenta|Body Press|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|76/100
+|
+|upkeep
+|turn|17
+|
+|t:|1750741782
+|move|p1a: Cresselia|Ally Switch||[still]
+|-fail|p1a: Cresselia
+|move|p2b: Zamazenta|Behemoth Bash|p1a: Cresselia
+|-damage|p1a: Cresselia|64/100
+|
+|upkeep
+|turn|18
+|-message|shuijun3烈空坐侠 forfeited.
+|
+|win|Lei43
+|raw|shuijun3烈空坐侠's rating: 1431 &rarr; <strong>1416</strong><br />(-15 for losing)
+|raw|Lei43's rating: 1521 &rarr; <strong>1536</strong><br />(+15 for winning)
+|l|☆shuijun3烈空坐侠
+|player|p1|

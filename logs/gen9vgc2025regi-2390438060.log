@@ -1,0 +1,181 @@
+|j|☆sullayee
+|j|☆Waffles4breakfast
+|t:|1750713278
+|gametype|doubles
+|player|p1|sullayee|102|1420
+|player|p2|Waffles4breakfast|juggler|1470
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sullayee)
+|
+|t:|1750713296
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|inactive|sullayee has 30 seconds left.
+|inactive|sullayee has 20 seconds left.
+|inactive|sullayee has 15 seconds left.
+|
+|t:|1750713340
+|-terastallize|p1a: Calyrex|Dark
+|-terastallize|p2a: Tornadus|Dark
+|move|p1b: Whimsicott|Taunt|p2a: Tornadus
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tornadus
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Waffles4breakfast|move: Tailwind
+|move|p2b: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|67/100
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2a: Tornadus|[spread] p2a,p2b
+|-resisted|p2a: Tornadus
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Tornadus|51/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|57/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Waffles4breakfast has 30 seconds left.
+|
+|t:|1750713367
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|2
+|inactive|sullayee has 30 seconds left.
+|
+|t:|1750713395
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Kyogre|Origin Pulse|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|63/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|69/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|sullayee has 30 seconds left.
+|
+|t:|1750713422
+|switch|p2b: Tornadus|Tornadus, L50, M, tera:Dark|51/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-crit|p1b: Rillaboom
+|-damage|p1a: Koraidon|50/100
+|-damage|p1b: Rillaboom|56/100
+|move|p1b: Rillaboom|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|55/100
+|
+|t:|1750713436
+|switch|p1b: Whimsicott|Whimsicott, L50, F|1/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Tornadus|57/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|62/100|[from] Grassy Terrain
+|-heal|p1a: Koraidon|57/100|[from] Grassy Terrain
+|-heal|p1b: Whimsicott|7/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750713462
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: sullayee|move: Tailwind
+|move|p1a: Koraidon|U-turn|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|t:|1750713480
+|switch|p1a: Calyrex|Calyrex-Shadow, L50, tera:Dark|63/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Whimsicott|13/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|69/100|[from] Grassy Terrain
+|-sideend|p2: Waffles4breakfast|move: Tailwind
+|upkeep
+|
+|t:|1750713483
+|switch|p2b: Indeedee|Indeedee-F, L50, F|62/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|5
+|
+|t:|1750713504
+|move|p1b: Whimsicott|Endeavor|p2a: Kyogre
+|-damage|p2a: Kyogre|8/100
+|move|p1a: Calyrex|Dark Pulse|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|59/100|[from] item: Life Orb
+|move|p2a: Kyogre|Origin Pulse|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750713516
+|switch|p1b: Koraidon|Koraidon, L50|57/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|56/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|-message|Waffles4breakfast forfeited.
+|
+|win|sullayee
+|raw|sullayee's rating: 1420 &rarr; <strong>1443</strong><br />(+23 for winning)
+|raw|Waffles4breakfast's rating: 1470 &rarr; <strong>1447</strong><br />(-23 for losing)
+|l|☆Waffles4breakfast
+|player|p2|

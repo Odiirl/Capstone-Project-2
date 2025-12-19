@@ -1,0 +1,165 @@
+|j|☆RRyan Tsui
+|j|☆beholderqpn
+|t:|1750729154
+|gametype|doubles
+|player|p1|RRyan Tsui|swimmer-gen4|1166
+|player|p2|beholderqpn|102|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Duskull, L50, M|
+|poke|p2|Swablu, L50, M|
+|poke|p2|Horsea, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Reuniclus, L50, M|
+|poke|p2|Ludicolo, L50, F|
+|teampreview|4
+|
+|t:|1750729191
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Swablu|Swablu, L50, M, shiny|100/100
+|switch|p2b: Reuniclus|Reuniclus, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-ability|p2a: Swablu|Cloud Nine
+|turn|1
+|
+|t:|1750729223
+|-terastallize|p1a: Miraidon|Electric
+|move|p2a: Swablu|Protect|p2a: Swablu
+|-singleturn|p2a: Swablu|Protect
+|move|p2b: Reuniclus|Protect|p2b: Reuniclus
+|-singleturn|p2b: Reuniclus|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Reuniclus
+|-activate|p2b: Reuniclus|move: Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Swablu
+|-activate|p2a: Swablu|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750729250
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Reuniclus|Ally Switch|p2b: Reuniclus
+|swap|p2b: Reuniclus|0|[from] move: Ally Switch
+|move|p2b: Swablu|Perish Song|p2b: Swablu
+|-start|p1a: Miraidon|perish3|[silent]
+|-start|p1b: Iron Hands|perish3|[silent]
+|-start|p2a: Reuniclus|perish3|[silent]
+|-start|p2b: Swablu|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Iron Hands|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|82/100
+|
+|t:|1750729260
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100|[from] Volt Switch
+|
+|-start|p1a: Miraidon|perish3
+|-start|p2b: Swablu|perish3
+|-start|p2a: Reuniclus|perish3
+|upkeep
+|turn|3
+|
+|t:|1750729285
+|move|p1a: Miraidon|Volt Switch|p2b: Swablu
+|-supereffective|p2b: Swablu
+|-damage|p2b: Swablu|0 fnt
+|faint|p2b: Swablu
+|
+|t:|1750729293
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p1b: Urshifu|Wicked Blow|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1750729306
+|switch|p2b: Horsea|Horsea, L50, F, shiny|100/100
+|switch|p2a: Ludicolo|Ludicolo, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1750729319
+|move|p2a: Ludicolo|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|94/100
+|move|p1a: Iron Hands|Fake Out|p2a: Ludicolo
+|-damage|p2a: Ludicolo|75/100
+|cant|p1b: Urshifu|flinch
+|move|p2b: Horsea|Rain Dance|p2b: Horsea
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750729347
+|-terastallize|p2a: Ludicolo|Stellar
+|move|p1b: Urshifu|Sucker Punch|p2a: Ludicolo
+|-damage|p2a: Ludicolo|18/100
+|move|p2b: Horsea|Dragon Pulse|p1b: Urshifu
+|-damage|p1b: Urshifu|63/100
+|move|p2a: Ludicolo|Muddy Water|p1a: Iron Hands|[spread] p1a,p1b
+|-damage|p1a: Iron Hands|70/100
+|-damage|p1b: Urshifu|0 fnt
+|-unboost|p1a: Iron Hands|accuracy|1
+|faint|p1b: Urshifu
+|move|p1a: Iron Hands|Volt Switch|p2b: Horsea
+|-supereffective|p2b: Horsea
+|-crit|p2b: Horsea
+|-enditem|p2b: Horsea|Focus Sash
+|-damage|p2b: Horsea|1/100
+|
+|t:|1750729364
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750729373
+|switch|p1b: Iron Hands|Iron Hands, L50|70/100
+|turn|6
+|
+|t:|1750729382
+|move|p1b: Iron Hands|Fake Out|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|move|p2b: Horsea|Dragon Pulse|p1b: Iron Hands
+|-crit|p1b: Iron Hands
+|-damage|p1b: Iron Hands|54/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Horsea
+|-resisted|p2b: Horsea
+|-crit|p2b: Horsea
+|-damage|p2b: Horsea|0 fnt
+|faint|p2b: Horsea
+|
+|win|RRyan Tsui
+|raw|RRyan Tsui's rating: 1166 &rarr; <strong>1183</strong><br />(+17 for winning)
+|raw|beholderqpn's rating: 1056 &rarr; <strong>1043</strong><br />(-13 for losing)
+|l|☆RRyan Tsui
+|player|p1|
+|l|☆beholderqpn
+|player|p2|

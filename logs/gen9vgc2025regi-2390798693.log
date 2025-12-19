@@ -1,0 +1,221 @@
+|j|☆bahuby
+|j|☆1115x
+|t:|1750769335
+|gametype|doubles
+|player|p1|bahuby|266|1150
+|player|p2|1115x|266|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Gastrodon, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750769360
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750769389
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2a: Calyrex|Dark Pulse|p1b: Maushold
+|-damage|p1b: Maushold|41/100
+|move|p2b: Whimsicott|Grass Knot|p1b: Maushold
+|-damage|p1b: Maushold|33/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750769419
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Zamazenta
+|-supereffective|p2b: Whimsicott
+|-damage|p2a: Zamazenta|90/100
+|-enditem|p2b: Whimsicott|Focus Sash
+|-damage|p2b: Whimsicott|1/100
+|move|p2b: Whimsicott|Moonblast|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|78/100
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750769441
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p2b: Whimsicott|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750769474
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Whimsicott|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p2b: Whimsicott|Moonblast|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750769497
+|-terastallize|p1a: Calyrex|Water
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Torkoal|Eruption|p2b: Whimsicott|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p2b: Whimsicott|Moonblast|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750769535
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Whimsicott|Grass Knot|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|15/100
+|move|p1b: Torkoal|Eruption|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750769564
+|switch|p1b: Maushold|Maushold, L50|33/100
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Whimsicott|[spread] 
+|-activate|p2a: Zamazenta|move: Wide Guard
+|-activate|p2b: Whimsicott|move: Wide Guard
+|move|p2b: Whimsicott|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750769577
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|turn|8
+|
+|t:|1750769601
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: 1115x|move: Tailwind
+|move|p1a: Farigiraf|Hyper Voice|p2a: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|75/100
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|-damage|p1a: Farigiraf|91/100|[from] item: Life Orb
+|move|p1b: Maushold|Taunt|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Taunt
+|move|p2a: Zamazenta|Body Press|p1a: Farigiraf
+|-damage|p1a: Farigiraf|39/100
+|
+|upkeep
+|
+|t:|1750769615
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|9
+|
+|t:|1750769628
+|switch|p1a: Torkoal|Torkoal, L50, F|56/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2a: Zamazenta|Body Press|p1b: Maushold
+|-supereffective|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|move|p2b: Calyrex|Dark Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750769648
+|switch|p1a: Farigiraf|Farigiraf, L50, M|39/100
+|turn|10
+|c|☆1115x|nice job
+|
+|t:|1750769659
+|move|p1a: Farigiraf|Hyper Voice|p2b: Calyrex|[spread] p2a
+|-immune|p2b: Calyrex
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|61/100
+|-damage|p1a: Farigiraf|30/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|win|1115x
+|raw|bahuby's rating: 1150 &rarr; <strong>1128</strong><br />(-22 for losing)
+|raw|1115x's rating: 1197 &rarr; <strong>1219</strong><br />(+22 for winning)
+|c|☆bahuby|Gg
+|c|☆1115x|gg
+|l|☆1115x
+|player|p2|
+|l|☆bahuby
+|player|p1|

@@ -1,0 +1,175 @@
+|j|☆matthewew
+|j|☆StarmanWilliam
+|t:|1750860261
+|gametype|doubles
+|player|p1|matthewew|lucas|1350
+|player|p2|StarmanWilliam|101|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Scizor, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Flygon, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by StarmanWilliam)
+|
+|t:|1750860298
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Dialga|Dialga-Origin, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Roaring Moon|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750860315
+|-terastallize|p2a: Dialga|Fairy
+|move|p2b: Incineroar|Fake Out|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|87/100
+|cant|p1a: Roaring Moon|flinch
+|move|p1b: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-damage|p1b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|move|p2a: Dialga|Trick Room|p2a: Dialga
+|-fieldstart|move: Trick Room|[of] p2a: Dialga
+|
+|upkeep
+|inactive|StarmanWilliam has 30 seconds left.
+|inactive|StarmanWilliam has 20 seconds left.
+|inactive|StarmanWilliam has 15 seconds left.
+|
+|t:|1750860356
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1750860367
+|move|p2b: Ursaluna|Earthquake|p1a: Roaring Moon|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|-crit|p1a: Roaring Moon
+|-supereffective|p1b: Zamazenta
+|-damage|p1a: Roaring Moon|5/100
+|-damage|p1b: Zamazenta|52/100
+|move|p2a: Dialga|Dragon Pulse|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|31/100
+|move|p1b: Zamazenta|Heavy Slam|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|82/100
+|move|p1a: Roaring Moon|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|73/100
+|-enditem|p2b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Roaring Moon
+|
+|upkeep
+|turn|3
+|
+|t:|1750860388
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Ursaluna|Earthquake|p1a: Roaring Moon|[spread] p1a
+|-activate|p1b: Zamazenta|move: Protect
+|-activate|p2a: Dialga|ability: Telepathy
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|move|p2a: Dialga|Dragon Pulse|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|upkeep
+|
+|t:|1750860399
+|switch|p1a: Scizor|Scizor, L50, F|100/100
+|turn|4
+|
+|t:|1750860411
+|move|p2b: Ursaluna|Earthquake|p1a: Scizor|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|-supereffective|p1b: Zamazenta
+|-damage|p1a: Scizor|56/100
+|-damage|p1b: Zamazenta|2/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|move|p2a: Dialga|Dragon Pulse|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|move|p1b: Zamazenta|Body Press|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|upkeep
+|
+|t:|1750860419
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|5
+|
+|t:|1750860431
+|move|p1a: Scizor|Bullet Punch|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|faint|p2a: Dialga
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|41/100
+|move|p2b: Miraidon|Discharge|p1b: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Scizor|0 fnt
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1a: Scizor
+|faint|p1b: Zamazenta
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750860437
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750860442
+|-terastallize|p1b: Calyrex|Fairy
+|move|p1b: Calyrex|Draining Kiss|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|8/100
+|move|p2b: Miraidon|Electro Drift|p1b: Calyrex
+|-damage|p1b: Calyrex|41/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750860455
+|move|p1b: Calyrex|Draining Kiss|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-heal|p1b: Calyrex|47/100|[from] drain|[of] p2b: Miraidon
+|faint|p2b: Miraidon
+|
+|win|matthewew
+|raw|matthewew's rating: 1350 &rarr; <strong>1370</strong><br />(+20 for winning)
+|raw|StarmanWilliam's rating: 1357 &rarr; <strong>1337</strong><br />(-20 for losing)
+|l|☆StarmanWilliam
+|player|p2|
+|l|☆matthewew
+|player|p1|

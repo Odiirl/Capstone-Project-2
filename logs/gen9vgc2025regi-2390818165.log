@@ -1,0 +1,237 @@
+|j|‽Allhailhippo
+|j|☆texastrill713
+|t:|1750771855
+|gametype|doubles
+|player|p1|Allhailhippo|101|1533
+|player|p2|texastrill713|lucas-gen4pt|1480
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Allhailhippo)
+|inactive|Allhailhippo has 60 seconds left.
+|
+|t:|1750771888
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|inactive|texastrill713 has 30 seconds left.
+|
+|t:|1750771914
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Tornadus|Sunny Day|p1a: Tornadus
+|-weather|SunnyDay
+|move|p2a: Kyogre|Water Spout|p1a: Tornadus|[spread] p1a,p1b
+|-damage|p1a: Tornadus|60/100
+|-damage|p1b: Calyrex|85/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Kyogre|[spread] p2a
+|-activate|p2b: Amoonguss|move: Protect
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750771934
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-terastallize|p2b: Amoonguss|Water
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Zacian|[spread] p2a
+|-miss|p1a: Tornadus|p2b: Amoonguss
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|84/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Zacian|56/100
+|-damage|p2b: Amoonguss|79/100
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Allhailhippo has 30 seconds left.
+|
+|t:|1750771966
+|-terastallize|p1b: Calyrex|Fire
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2a: Zacian|Behemoth Blade|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|cant|p1b: Calyrex|slp
+|move|p2b: Amoonguss|Pollen Puff|p2a: Zacian
+|-heal|p2a: Zacian|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|texastrill713 has 30 seconds left.
+|
+|t:|1750771999
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|cant|p1b: Calyrex|slp
+|move|p2b: Amoonguss|Spore|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Allhailhippo has 30 seconds left.
+|
+|t:|1750772024
+|move|p2a: Zacian|Behemoth Blade|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|42/100 slp
+|cant|p1a: Necrozma|slp
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|High Horsepower|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|24/100
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Spore
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750772044
+|move|p2a: Zacian|Behemoth Blade|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|50/100 slp
+|-curestatus|p1a: Necrozma|slp|[msg]
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|cant|p1b: Calyrex|slp
+|move|p2b: Amoonguss|Pollen Puff|p2: Zacian|[notarget]
+|-fail|p2b: Amoonguss
+|
+|upkeep
+|
+|t:|1750772054
+|switch|p2a: Kyogre|Kyogre, L50|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|7
+|
+|t:|1750772067
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Kyogre|Hydro Pump|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Necrozma|Knock Off|p2b: Amoonguss
+|-damage|p2b: Amoonguss|48/100
+|-damage|p1a: Necrozma|33/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|-enditem|p2b: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p1a: Necrozma
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750772072
+|switch|p1b: Tornadus|Tornadus, L50, M|60/100
+|turn|8
+|
+|t:|1750772087
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Tornadus|Sunny Day|p1b: Tornadus
+|-weather|SunnyDay
+|move|p2a: Kyogre|Water Spout|p1a: Necrozma|[spread] p1a,p1b
+|-damage|p1a: Necrozma|14/100
+|-damage|p1b: Tornadus|34/100
+|move|p1a: Necrozma|Knock Off|p2b: Amoonguss
+|-damage|p2b: Amoonguss|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|texastrill713 has 30 seconds left.
+|inactive|texastrill713 has 20 seconds left.
+|
+|t:|1750772125
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Amoonguss|[spread] p2a,p2b
+|-damage|p2a: Kyogre|37/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Kyogre|Hydro Pump|p1a: Necrozma|[miss]
+|-miss|p2a: Kyogre|p1a: Necrozma
+|move|p1a: Necrozma|Knock Off|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-enditem|p2a: Kyogre|Splash Plate|[from] move: Knock Off|[of] p1a: Necrozma
+|faint|p2a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772135
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|t:|1750772146
+|move|p2b: Chien-Pao|Sucker Punch|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750772150
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|11
+|
+|t:|1750772156
+|move|p2b: Chien-Pao|Sucker Punch|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|move|p1a: Flutter Mane|Moonblast|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|win|Allhailhippo
+|raw|Allhailhippo's rating: 1533 &rarr; <strong>1550</strong><br />(+17 for winning)
+|raw|texastrill713's rating: 1480 &rarr; <strong>1463</strong><br />(-17 for losing)
+|l|‽Allhailhippo
+|player|p1|
+|l|☆texastrill713
+|player|p2|

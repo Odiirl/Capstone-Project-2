@@ -1,0 +1,193 @@
+|j|☆TotallyNotAutistic
+|j|☆UltraKingVGC
+|t:|1750828212
+|gametype|doubles
+|player|p1|TotallyNotAutistic|n|1214
+|player|p2|UltraKingVGC|hilbert|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Reshiram, L50|
+|poke|p1|Malamar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Gastrodon, L50, F|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Pawmot, L50, M|
+|poke|p2|Hydrapple, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|
+|t:|1750828242
+|start
+|switch|p1a: Reshiram|Reshiram, L50|100/100
+|switch|p1b: Malamar|Malamar, L50, M|100/100
+|switch|p2a: Pawmot|Pawmot, L50, M, shiny|100/100
+|switch|p2b: Hydrapple|Hydrapple, L50, F, shiny|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|-ability|p2b: Hydrapple|Supersweet Syrup
+|-unboost|p1a: Reshiram|evasion|1
+|-boost|p1b: Malamar|evasion|1
+|turn|1
+|
+|t:|1750828270
+|move|p1a: Reshiram|Protect|p1a: Reshiram
+|-singleturn|p1a: Reshiram|Protect
+|move|p2a: Pawmot|Nuzzle|p1a: Reshiram
+|-activate|p1a: Reshiram|move: Protect
+|move|p2b: Hydrapple|Pollen Puff|p1b: Malamar|[miss]
+|-miss|p2b: Hydrapple|p1b: Malamar
+|move|p1b: Malamar|Trick Room|p1b: Malamar
+|-fieldstart|move: Trick Room|[of] p1b: Malamar
+|
+|upkeep
+|turn|2
+|
+|t:|1750828288
+|switch|p2a: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p2a: Porygon2|Contrary|[from] ability: Trace|[of] p1b: Malamar
+|-terastallize|p1a: Reshiram|Fire
+|move|p2b: Hydrapple|Pollen Puff|p1b: Malamar
+|-supereffective|p1b: Malamar
+|-damage|p1b: Malamar|1/100
+|move|p1b: Malamar|Foul Play|p2a: Porygon2
+|-damage|p2a: Porygon2|82/100
+|move|p1a: Reshiram|Heat Wave|p2b: Hydrapple|[spread] p2a,p2b
+|-damage|p2a: Porygon2|40/100
+|-damage|p2b: Hydrapple|56/100
+|-damage|p1a: Reshiram|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1750828317
+|-terastallize|p2b: Hydrapple|Water
+|move|p1b: Malamar|Protect|p1b: Malamar
+|-singleturn|p1b: Malamar|Protect
+|move|p2b: Hydrapple|Tera Blast|p1a: Reshiram|[anim] Tera Blast Water
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|34/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|90/100
+|move|p1a: Reshiram|Overheat|p2b: Hydrapple
+|-resisted|p2b: Hydrapple
+|-damage|p2b: Hydrapple|16/100
+|-unboost|p1a: Reshiram|spa|2
+|-damage|p1a: Reshiram|25/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1750828347
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|move|p1a: Reshiram|Protect|p1a: Reshiram
+|-singleturn|p1a: Reshiram|Protect
+|move|p2b: Hydrapple|Giga Drain|p1a: Reshiram
+|-activate|p1a: Reshiram|move: Protect
+|move|p2a: Porygon2|Tera Blast|p1b: Iron Hands
+|-damage|p1b: Iron Hands|68/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750828384
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L50, shiny|100/100
+|switch|p1a: Malamar|Malamar, L50, M|1/100
+|move|p1b: Iron Hands|Fake Out|p2b: Necrozma
+|-immune|p2b: Necrozma
+|move|p2a: Porygon2|Shadow Ball|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750828397
+|switch|p1a: Reshiram|Reshiram, L50, tera:Fire|25/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|6
+|
+|t:|1750828403
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p1a: Reshiram|Overheat|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|move|p1b: Iron Hands|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|1/100
+|-unboost|p1b: Iron Hands|def|1
+|-unboost|p1b: Iron Hands|spd|1
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|7
+|
+|t:|1750828456
+|switch|p2b: Pawmot|Pawmot, L50, M, shiny|100/100
+|move|p1b: Iron Hands|Wild Charge|p2b: Pawmot
+|-immune|p2b: Pawmot|[from] ability: Volt Absorb
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|51/100
+|move|p1a: Reshiram|Overheat|p2b: Pawmot
+|-enditem|p2b: Pawmot|Focus Sash
+|-damage|p2b: Pawmot|1/100
+|-unboost|p1a: Reshiram|spa|2
+|-damage|p1a: Reshiram|15/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1750828479
+|move|p2b: Pawmot|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|56/100
+|cant|p1b: Iron Hands|flinch
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Reshiram|Heat Wave|p2b: Pawmot|[spread] p2b
+|-miss|p1a: Reshiram|p2a: Porygon2
+|-crit|p2b: Pawmot
+|-damage|p2b: Pawmot|0 fnt
+|faint|p2b: Pawmot
+|-damage|p1a: Reshiram|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750828491
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L50, shiny|100/100
+|turn|9
+|
+|t:|1750828501
+|move|p1b: Iron Hands|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|19/100
+|-unboost|p1b: Iron Hands|def|1
+|-unboost|p1b: Iron Hands|spd|1
+|move|p2a: Porygon2|Tera Blast|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|move|p2b: Necrozma|Iron Defense|p2b: Necrozma
+|-boost|p2b: Necrozma|def|2
+|
+|upkeep
+|
+|t:|1750828509
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|10
+|-message|TotallyNotAutistic forfeited.
+|
+|win|UltraKingVGC
+|raw|TotallyNotAutistic's rating: 1214 &rarr; <strong>1184</strong><br />(-30 for losing)
+|raw|UltraKingVGC's rating: 1138 &rarr; <strong>1168</strong><br />(+30 for winning)
+|l|☆TotallyNotAutistic
+|player|p1|
+|l|☆UltraKingVGC
+|player|p2|

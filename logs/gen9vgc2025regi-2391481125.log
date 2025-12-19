@@ -1,0 +1,229 @@
+|j|☆superpowerpoke
+|j|☆Zordor
+|t:|1750861398
+|gametype|doubles
+|player|p1|superpowerpoke|265|1599
+|player|p2|Zordor|pilot|1599
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Gastrodon, L50, M|
+|poke|p2|Entei, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Primarina, L50, F|
+|teampreview|4
+|
+|t:|1750861450
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Walking Wake|atk|1
+|-enditem|p2b: Walking Wake|Booster Energy
+|-activate|p2b: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2b: Walking Wake|protosynthesisspe
+|turn|1
+|
+|t:|1750861474
+|move|p2b: Walking Wake|Protect|p2b: Walking Wake
+|-singleturn|p2b: Walking Wake|Protect
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Walking Wake
+|-activate|p2b: Walking Wake|move: Protect
+|move|p1b: Kyogre|Origin Pulse|p2a: Zacian|[spread] 
+|-activate|p2a: Zacian|move: Protect
+|-activate|p2b: Walking Wake|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750861494
+|switch|p1a: Iron Jugulis|Iron Jugulis, L50|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|move|p2b: Walking Wake|Snarl|p1a: Iron Jugulis|[spread] p1a,p1b
+|-resisted|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|93/100
+|-damage|p1b: Kyogre|94/100
+|-unboost|p1a: Iron Jugulis|spa|1
+|-unboost|p1b: Kyogre|spa|1
+|move|p2a: Zacian|Play Rough|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|move|p1b: Kyogre|Origin Pulse|p2b: Walking Wake|[spread] p2a,p2b
+|-resisted|p2b: Walking Wake
+|-damage|p2a: Zacian|58/100
+|-damage|p2b: Walking Wake|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750861514
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750861538
+|move|p2b: Walking Wake|Hydro Steam|p1a: Calyrex
+|-damage|p1a: Calyrex|60/100
+|move|p2a: Zacian|Play Rough|p1b: Kyogre
+|-damage|p1b: Kyogre|50/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Walking Wake|[spread] p2a,p2b
+|-resisted|p2b: Walking Wake
+|-damage|p2a: Zacian|12/100
+|-damage|p2b: Walking Wake|72/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750861556
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|move|p2b: Walking Wake|Protect|p2b: Walking Wake
+|-singleturn|p2b: Walking Wake|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Primarina|[spread] p2a
+|-activate|p2b: Walking Wake|move: Protect
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|72/100
+|move|p1b: Kyogre|Thunder|p2b: Walking Wake
+|-activate|p2b: Walking Wake|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750861603
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Walking Wake|[spread] p2b
+|-activate|p2a: Primarina|move: Protect
+|-damage|p2b: Walking Wake|19/100
+|move|p1b: Kyogre|Thunder|p2b: Walking Wake
+|-damage|p2b: Walking Wake|0 fnt
+|faint|p2b: Walking Wake
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1750861617
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|6
+|
+|t:|1750861637
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|-fail|p2b: Groudon|unboost|[from] item: Clear Amulet|[of] p2b: Groudon
+|-terastallize|p2b: Groudon|Fire
+|move|p2a: Primarina|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|28/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Primarina|[spread] p2a,p2b
+|-resisted|p2a: Primarina
+|-resisted|p2b: Groudon
+|-damage|p2a: Primarina|45/100
+|-damage|p2b: Groudon|82/100
+|move|p2b: Groudon|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|8/100
+|-damage|p2b: Groudon|66/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750861681
+|move|p1b: Incineroar|Fake Out|p2b: Groudon
+|-damage|p2b: Groudon|59/100
+|move|p2a: Primarina|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Calyrex|High Horsepower|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|10/100
+|cant|p2b: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750861692
+|switch|p1b: Kyogre|Kyogre, L50|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|8
+|
+|t:|1750861711
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Groudon|Rock Slide|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Kyogre|32/100
+|move|p1b: Kyogre|Origin Pulse|p2b: Groudon|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Primarina
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|move|p2a: Primarina|Hyper Voice|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Kyogre
+|-crit|p1b: Kyogre
+|-damage|p1b: Kyogre|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750861715
+|switch|p2b: Zacian|Zacian-Crowned, L50|12/100
+|turn|9
+|
+|t:|1750861727
+|move|p2b: Zacian|Sacred Sword|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|move|p1a: Calyrex|Glacial Lance|p2a: Primarina|[spread] p2a,p2b
+|-resisted|p2a: Primarina
+|-resisted|p2b: Zacian
+|-damage|p2a: Primarina|19/100
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2a: Primarina|Hyper Voice|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Zordor
+|raw|superpowerpoke's rating: 1599 &rarr; <strong>1579</strong><br />(-20 for losing)
+|raw|Zordor's rating: 1599 &rarr; <strong>1619</strong><br />(+20 for winning)
+|l|☆superpowerpoke
+|player|p1|
+|l|☆Zordor
+|player|p2|

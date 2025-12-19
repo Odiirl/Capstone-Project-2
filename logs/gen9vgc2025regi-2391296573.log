@@ -1,0 +1,170 @@
+|j|☆GPOSTIGOF
+|j|☆ZEATHS
+|t:|1750830664
+|gametype|doubles
+|player|p1|GPOSTIGOF|101|1033
+|player|p2|ZEATHS|pokemaniac|1036
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|
+|t:|1750830695
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750830711
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Tornadus|Snowscape|p2a: Tornadus
+|-weather|Snowscape
+|move|p1a: Miraidon|Electro Drift|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|54/100
+|-damage|p1a: Miraidon|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p1b: Whimsicott|Trick Room|p1b: Whimsicott
+|-fieldstart|move: Trick Room|[of] p1b: Whimsicott
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750830736
+|move|p1b: Whimsicott|Encore|p2a: Tornadus
+|-start|p2a: Tornadus|Encore
+|move|p2b: Amoonguss|Spore|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Electric Terrain
+|move|p2a: Tornadus|Snowscape||[still]
+|-fail|p2a: Tornadus
+|move|p1a: Miraidon|Electro Drift|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|10/100
+|-damage|p1a: Miraidon|67/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750830758
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Tornadus|Snowscape||[still]
+|-fail|p2a: Tornadus
+|move|p1b: Whimsicott|Moonblast|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p1a: Miraidon|Electro Drift|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750830769
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|4
+|
+|t:|1750830792
+|-terastallize|p2a: Kyurem|Ice
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Whimsicott|Moonblast|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|move|p2a: Kyurem|Blizzard|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Miraidon|0 fnt
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|faint|p1a: Miraidon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750830805
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|
+|t:|1750830817
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Whimsicott|Encore|p2b: Urshifu
+|-start|p2b: Urshifu|Encore
+|move|p2b: Urshifu|Detect||[still]
+|-fail|p2b: Urshifu
+|move|p2a: Kyurem|Blizzard|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750830830
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|6
+|
+|t:|1750830837
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p2a: Kyurem|Blizzard|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|5/100 brn
+|-damage|p1b: Ho-Oh|39/100
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|move|p1a: Ursaluna|Earthquake|p2b: Urshifu|[spread] 
+|-activate|p2b: Urshifu|move: Protect
+|-immune|p1b: Ho-Oh
+|
+|-heal|p1b: Ho-Oh|44/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|turn|7
+|
+|t:|1750830871
+|move|p2b: Urshifu|Detect||[still]
+|-fail|p2b: Urshifu
+|move|p1b: Ho-Oh|Brave Bird|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-damage|p1b: Ho-Oh|15/100|[from] Recoil
+|
+|win|GPOSTIGOF
+|raw|GPOSTIGOF's rating: 1033 &rarr; <strong>1068</strong><br />(+35 for winning)
+|raw|ZEATHS's rating: 1036 &rarr; <strong>1020</strong><br />(-16 for losing)
+|c|☆ZEATHS|gg

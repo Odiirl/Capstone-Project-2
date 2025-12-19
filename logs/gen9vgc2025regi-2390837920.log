@@ -1,0 +1,132 @@
+|j|‽tavinn_n
+|j|☆chaostnt
+|t:|1750774156
+|gametype|doubles
+|player|p1|tavinn_n|benga|1252
+|player|p2|chaostnt|102|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Shiftry, L50, M|
+|teampreview|4
+|
+|t:|1750774168
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2a: Shiftry|Shiftry, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|l|☆chaostnt
+|player|p2|
+|j|☆chaostnt
+|player|p2|chaostnt|102|
+|
+|t:|1750774201
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flame Charge|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Shiftry
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: chaostnt|move: Tailwind
+|move|p1b: Weezing|Sludge Bomb|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774207
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|turn|2
+|
+|t:|1750774220
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p2a: Groudon|Precipice Blades|p1b: Weezing|[spread] 
+|-activate|p1a: Koraidon|move: Protect
+|-miss|p2a: Groudon|p1b: Weezing
+|-enditem|p2a: Groudon|Blunder Policy
+|-boost|p2a: Groudon|spe|2
+|move|p1b: Weezing|Toxic|p2b: Miraidon
+|-status|p2b: Miraidon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Miraidon|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750774240
+|move|p2a: Groudon|Precipice Blades|p1b: Weezing|[spread] p1b
+|-miss|p2a: Groudon|p1a: Koraidon
+|-supereffective|p1b: Weezing
+|-damage|p1b: Weezing|12/100
+|move|p2b: Miraidon|Electro Drift|p1b: Weezing
+|-damage|p1b: Weezing|0 fnt
+|-damage|p2b: Miraidon|78/100 tox|[from] item: Rocky Helmet|[of] p1b: Weezing
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Koraidon|Collision Course|p2b: Miraidon
+|-damage|p2b: Miraidon|13/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Miraidon|2/100 tox|[from] psn
+|upkeep
+|
+|t:|1750774258
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|4
+|
+|t:|1750774273
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Groudon|Rock Slide|p1b: Indeedee|[spread] p1b
+|-miss|p2a: Groudon|p1a: Koraidon
+|-damage|p1b: Indeedee|76/100
+|move|p2b: Miraidon|Electro Drift|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Koraidon|Flare Blitz|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|-damage|p1a: Koraidon|67/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Miraidon|0 fnt|[from] psn
+|faint|p2b: Miraidon
+|
+|win|tavinn_n
+|raw|tavinn_n's rating: 1252 &rarr; <strong>1282</strong><br />(+30 for winning)
+|raw|chaostnt's rating: 1318 &rarr; <strong>1294</strong><br />(-24 for losing)
+|l|☆chaostnt
+|player|p2|
+|l|‽tavinn_n
+|player|p1|

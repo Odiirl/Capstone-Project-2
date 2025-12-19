@@ -1,0 +1,137 @@
+|j|☆Jack Adamstim
+|j|☆yongbao
+|t:|1750835442
+|gametype|doubles
+|player|p1|Jack Adamstim|wallace|1589
+|player|p2|yongbao|dawn-gen4pt|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|
+|t:|1750835483
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750835507
+|-terastallize|p2a: Jumpluff|Dark
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Jack Adamstim|move: Tailwind
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: yongbao|move: Tailwind
+|move|p2b: Koraidon|Crunch|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835523
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|move|p2a: Jumpluff|Sleep Powder|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Sleep Powder
+|cant|p1b: Calyrex|slp
+|move|p1a: Whimsicott|Moonblast|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-crit|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835537
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750835591
+|cant|p1b: Calyrex|slp
+|move|p1a: Whimsicott|Fake Tears|p2a: Koraidon
+|-unboost|p2a: Koraidon|spd|2
+|move|p2b: Chi-Yu|Heat Wave|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Calyrex|22/100 slp
+|faint|p1a: Whimsicott
+|move|p2a: Koraidon|Flare Blitz|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2a: Koraidon|93/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835603
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750835633
+|-terastallize|p1b: Zamazenta|Dragon
+|move|p1a: Raging Bolt|Thunderclap|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|12/100
+|move|p2b: Chi-Yu|Heat Wave|p1a: Raging Bolt|[spread] p1a
+|-miss|p2b: Chi-Yu|p1b: Zamazenta
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|68/100
+|move|p2a: Koraidon|Flare Blitz|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|75/100
+|-damage|p2a: Koraidon|3/100|[from] Recoil
+|move|p1b: Zamazenta|Body Press|p2b: Chi-Yu
+|-supereffective|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: yongbao|move: Tailwind
+|-sideend|p1: Jack Adamstim|move: Tailwind
+|upkeep
+|
+|t:|1750835649
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p2b: Ho-Oh|Pressure
+|turn|5
+|-message|yongbao forfeited.
+|
+|win|Jack Adamstim
+|raw|Jack Adamstim's rating: 1589 &rarr; <strong>1609</strong><br />(+20 for winning)
+|raw|yongbao's rating: 1591 &rarr; <strong>1571</strong><br />(-20 for losing)
+|l|☆yongbao
+|player|p2|
+|l|☆Jack Adamstim
+|player|p1|

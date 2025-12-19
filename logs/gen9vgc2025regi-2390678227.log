@@ -1,0 +1,148 @@
+|j|☆Ddree
+|j|☆Arcane_Cube
+|t:|1750748107
+|gametype|doubles
+|player|p1|Ddree|lucas|1326
+|player|p2|Arcane_Cube|depotagent|1290
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Goodra-Hisui, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ddree)
+|inactive|Ddree has 60 seconds left.
+|
+|t:|1750748148
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Flutter Mane|atk|1
+|turn|1
+|inactive|Arcane_Cube has 30 seconds left.
+|
+|t:|1750748178
+|-terastallize|p2b: Landorus|Ground
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1b: Flutter Mane|Icy Wind|p2a: Amoonguss|[spread] p2b
+|-activate|p2a: Amoonguss|move: Protect
+|-supereffective|p2b: Landorus
+|-damage|p2b: Landorus|61/100
+|-unboost|p2b: Landorus|spe|1
+|move|p1a: Koraidon|Flame Charge|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|move|p2b: Landorus|Earthquake|p1b: Flutter Mane|[spread] p1a,p1b
+|-activate|p2a: Amoonguss|move: Protect
+|-damage|p1a: Koraidon|20/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Arcane_Cube has 30 seconds left.
+|
+|t:|1750748207
+|move|p1b: Flutter Mane|Moonblast|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|move|p1a: Koraidon|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Ddree has 30 seconds left.
+|
+|t:|1750748234
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Ogerpon|Mold Breaker
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Ogerpon|atk|1
+|turn|3
+|
+|t:|1750748249
+|move|p1a: Incineroar|Fake Out|p2b: Ogerpon
+|-damage|p2b: Ogerpon|88/100
+|cant|p2b: Ogerpon|flinch
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Flutter Mane
+|-damage|p1a: Incineroar|85/100
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750748256
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750748277
+|-terastallize|p1b: Lunala|Fairy
+|move|p2a: Calyrex|Astral Barrage|p1b: Lunala|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|58/100
+|-damage|p1b: Lunala|74/100
+|move|p2b: Ogerpon|Wood Hammer|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|40/100
+|-damage|p2b: Ogerpon|80/100|[from] Recoil
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|Ddree
+|raw|Ddree's rating: 1326 &rarr; <strong>1344</strong><br />(+18 for winning)
+|raw|Arcane_Cube's rating: 1290 &rarr; <strong>1268</strong><br />(-22 for losing)
+|l|☆Arcane_Cube
+|player|p2|

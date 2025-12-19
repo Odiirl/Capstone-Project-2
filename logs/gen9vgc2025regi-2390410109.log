@@ -1,0 +1,216 @@
+|j|☆bi7han
+|j|☆LilligantFangirl
+|t:|1750710137
+|gametype|doubles
+|player|p1|bi7han|265|1300
+|player|p2|LilligantFangirl|nurseryaide|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Scrafty, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bi7han)
+|
+|t:|1750710163
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Dondozo|Dondozo, L50, M|100/100
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|1
+|
+|t:|1750710178
+|switch|p1a: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1a: Tatsugiri|ability: Commander|[of] p1b: Dondozo
+|-boost|p1b: Dondozo|atk|2
+|-boost|p1b: Dondozo|spa|2
+|-boost|p1b: Dondozo|spe|2
+|-boost|p1b: Dondozo|def|2
+|-boost|p1b: Dondozo|spd|2
+|move|p2a: Walking Wake|Draco Meteor|p1a: Tatsugiri|[miss]
+|-miss|p2a: Walking Wake|p1a: Tatsugiri
+|move|p1b: Dondozo|Order Up|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-boost|p1b: Dondozo|atk|1
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Tatsugiri|[miss]
+|-miss|p2b: Lunala|p1a: Tatsugiri
+|
+|upkeep
+|
+|t:|1750710199
+|switch|p2a: Scrafty|Scrafty, L50, F|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Tatsugiri|atk|1
+|-unboost|p1b: Dondozo|atk|1
+|turn|2
+|
+|t:|1750710205
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2a: Scrafty|Fake Out|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|upkeep
+|turn|3
+|
+|t:|1750710223
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Scrafty|Super Fang|p1b: Dondozo
+|-damage|p1b: Dondozo|51/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Dondozo
+|-damage|p1b: Dondozo|8/100
+|move|p1b: Dondozo|Order Up|p2a: Scrafty
+|-damage|p2a: Scrafty|62/100
+|-boost|p1b: Dondozo|atk|1
+|
+|-heal|p1b: Dondozo|14/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750710240
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2a: Scrafty|Foul Play|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|
+|-heal|p1b: Dondozo|20/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750710254
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2a: Scrafty|Foul Play|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2b: Lunala|Meteor Beam|p1a: Tatsugiri|[from] lockedmove|[miss]
+|-miss|p2b: Lunala|p1a: Tatsugiri
+|
+|-heal|p1b: Dondozo|27/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750710277
+|move|p2a: Scrafty|Foul Play|p1b: Dondozo
+|-damage|p1b: Dondozo|15/100
+|move|p1b: Dondozo|Order Up|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|-boost|p1b: Dondozo|atk|1
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldend|move: Trick Room
+|
+|-heal|p1b: Dondozo|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750710289
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750710297
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2a: Koraidon|Collision Course|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|27/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750710312
+|move|p2b: Lunala|Moongeist Beam|p1b: Dondozo
+|-damage|p1b: Dondozo|0 fnt
+|faint|p1b: Dondozo
+|move|p2a: Koraidon|Collision Course|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|faint|p1a: Tatsugiri
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750710317
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p1b: Eternatus|Pressure
+|turn|9
+|
+|t:|1750710335
+|move|p1a: Rillaboom|Fake Out|p2a: Koraidon
+|-damage|p2a: Koraidon|87/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Eternatus
+|-damage|p1b: Eternatus|14/100
+|move|p1b: Eternatus|Cosmic Power|p1b: Eternatus
+|-boost|p1b: Eternatus|def|1
+|-boost|p1b: Eternatus|spd|1
+|cant|p2a: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Eternatus|20/100|[from] Grassy Terrain
+|-heal|p2a: Koraidon|92/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1750710353
+|-terastallize|p1a: Rillaboom|Fire
+|move|p2b: Lunala|Moongeist Beam|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|move|p1a: Rillaboom|Drum Beating|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|68/100
+|-unboost|p2b: Lunala|spe|1
+|move|p2a: Koraidon|Flare Blitz|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|55/100
+|-damage|p2a: Koraidon|78/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|75/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p2a: Koraidon|83/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|-message|bi7han forfeited.
+|
+|win|LilligantFangirl
+|raw|bi7han's rating: 1300 &rarr; <strong>1277</strong><br />(-23 for losing)
+|raw|LilligantFangirl's rating: 1331 &rarr; <strong>1349</strong><br />(+18 for winning)
+|l|☆bi7han
+|player|p1|
+|l|☆LilligantFangirl
+|player|p2|

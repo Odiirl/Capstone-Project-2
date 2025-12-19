@@ -1,0 +1,221 @@
+|j|☆hanneballe
+|j|☆juho021227
+|t:|1750856132
+|gametype|doubles
+|player|p1|hanneballe|volkner|1187
+|player|p2|juho021227|2|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Electivire, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hanneballe)
+|inactive|hanneballe has 60 seconds left.
+|inactive|juho021227 has 60 seconds left.
+|
+|t:|1750856170
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Electivire|Electivire, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|juho021227 has 30 seconds left.
+|
+|t:|1750856201
+|move|p1a: Rillaboom|Fake Out|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|94/100
+|cant|p2a: Terapagos|flinch
+|move|p2b: Electivire|Taunt|p1b: Terapagos
+|-start|p1b: Terapagos|move: Taunt
+|cant|p1b: Terapagos|move: Taunt|Calm Mind
+|
+|-heal|p2a: Terapagos|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|hanneballe has 30 seconds left.
+|inactive|juho021227 has 30 seconds left.
+|
+|t:|1750856233
+|move|p2b: Electivire|Follow Me|p2b: Electivire
+|-singleturn|p2b: Electivire|move: Follow Me
+|move|p2a: Terapagos|Meteor Beam||[still]
+|-prepare|p2a: Terapagos|Meteor Beam
+|-boost|p2a: Terapagos|spa|1
+|-enditem|p2a: Terapagos|Power Herb
+|-anim|p2a: Terapagos|Meteor Beam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|61/100
+|move|p1b: Terapagos|Tera Starstorm|p2b: Electivire
+|-damage|p2b: Electivire|47/100
+|move|p1a: Rillaboom|Knock Off|p2b: Electivire
+|-damage|p2b: Electivire|18/100
+|-enditem|p2b: Electivire|Mental Herb|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2b: Electivire|24/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|juho021227 has 30 seconds left.
+|inactive|hanneballe has 30 seconds left.
+|inactive|juho021227 has 20 seconds left.
+|
+|t:|1750856273
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p2b: Electivire|Feint|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|98/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Terapagos|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|27/100
+|-damage|p1b: Terapagos|51/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Terapagos
+|-damage|p2a: Terapagos|71/100
+|move|p1a: Rillaboom|U-turn|p2b: Electivire
+|-damage|p2b: Electivire|2/100
+|
+|t:|1750856293
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100|[from] U-turn
+|
+|-heal|p1b: Terapagos|57/100|[from] item: Leftovers
+|-end|p1b: Terapagos|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1750856315
+|move|p1a: Volcarona|Heat Wave|p2a: Terapagos|[spread] p2a
+|-miss|p1a: Volcarona|p2b: Electivire
+|-damage|p2a: Terapagos|51/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|33/100
+|-damage|p1b: Terapagos|11/100
+|move|p2b: Electivire|Electroweb|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|20/100
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|upkeep
+|
+|t:|1750856329
+|switch|p1b: Rillaboom|Rillaboom, L50, M|27/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750856350
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p1a: Volcarona|Tailwind|p1a: Volcarona
+|-sidestart|p1: hanneballe|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|26/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|33/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|58/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750856373
+|move|p2b: Pelipper|Helping Hand|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Helping Hand|[of] p2b: Pelipper
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p1b: Rillaboom|U-turn|p2a: Terapagos
+|-damage|p2a: Terapagos|42/100
+|
+|t:|1750856379
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2a: Terapagos|Tera Starstorm|p1b: Lunala|[spread] p1a,p1b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Lunala|68/100
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|74/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|48/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750856391
+|switch|p1a: Rillaboom|Rillaboom, L50, M|33/100
+|turn|7
+|
+|t:|1750856409
+|move|p1a: Rillaboom|Fake Out|p2a: Terapagos
+|-damage|p2a: Terapagos|39/100
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Pelipper
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|cant|p2a: Terapagos|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Lunala|80/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|40/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750856426
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|8
+|
+|t:|1750856450
+|move|p1a: Rillaboom|Wood Hammer|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|-damage|p1a: Rillaboom|7/100|[from] Recoil
+|move|p2b: Urshifu|Surging Strikes|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|53/100
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|24/100
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-hitcount|p1: Lunala|3
+|move|p2a: Terapagos|Tera Starstorm|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|juho021227
+|raw|hanneballe's rating: 1187 &rarr; <strong>1164</strong><br />(-23 for losing)
+|raw|juho021227's rating: 1212 &rarr; <strong>1235</strong><br />(+23 for winning)
+|l|☆hanneballe
+|player|p1|
+|l|☆juho021227
+|player|p2|

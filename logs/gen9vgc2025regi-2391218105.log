@@ -1,0 +1,266 @@
+|j|☆Hydeal
+|j|☆Eeveefan6
+|t:|1750817895
+|gametype|doubles
+|player|p1|Hydeal|hiker-gen4|1077
+|player|p2|Eeveefan6|guzma|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Blissey, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Azumarill, L50, F|
+|poke|p1|Ceruledge, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|
+|t:|1750817919
+|start
+|switch|p1a: Blissey|Blissey, L50, F, shiny|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|1
+|
+|t:|1750817951
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Whimsicott|Light Screen|p2b: Whimsicott
+|-sidestart|p2: Eeveefan6|move: Light Screen
+|move|p1a: Blissey|Life Dew||[still]|[still]|[spread] 
+|-fail|p1a: Blissey|heal
+|-fail|p1b: Porygon2|heal
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1750817968
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p1b: Porygon2|Ghost
+|move|p1a: Blissey|Helping Hand|p1b: Porygon2
+|-singleturn|p1b: Porygon2|Helping Hand|[of] p1a: Blissey
+|move|p1b: Porygon2|Tera Blast|p2a: Calyrex|[anim] Tera Blast Ghost
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Expanding Force|p1b: Porygon2|[spread] p1a,p1b
+|-damage|p1a: Blissey|70/100
+|-damage|p1b: Porygon2|58/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750817996
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Blissey|Life Dew|p1a: Blissey|[spread] p1a,p1b
+|-heal|p1a: Blissey|96/100
+|-heal|p1b: Porygon2|83/100
+|move|p1b: Porygon2|Tera Blast|p2a: Calyrex|[anim] Tera Blast Ghost
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1750818013
+|switch|p1b: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Astral Barrage|p1a: Blissey|[spread] 
+|-immune|p1a: Blissey
+|-immune|p1b: Ursaluna
+|move|p1a: Blissey|Rock Slide|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Indeedee|97/100
+|faint|p2a: Calyrex
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750818019
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|5
+|
+|t:|1750818044
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Eeveefan6|move: Tailwind
+|move|p2b: Indeedee|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|63/100 brn
+|move|p1a: Blissey|Thunder Wave|p2a: Whimsicott
+|-status|p2a: Whimsicott|par
+|move|p1b: Ursaluna|Facade|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-damage|p1b: Ursaluna|57/100 brn|[from] brn
+|-sideend|p2: Eeveefan6|move: Light Screen
+|upkeep
+|
+|t:|1750818050
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750818058
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Collision Course|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Blissey|Life Dew|p1a: Blissey|[spread] p1a,p1b
+|-heal|p1a: Blissey|100/100
+|-heal|p1b: Ursaluna|82/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|76/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|
+|t:|1750818073
+|switch|p1b: Porygon2|Porygon2, L50, tera:Ghost|83/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Collision Course|p1b: Porygon2
+|-immune|p1b: Porygon2
+|move|p1a: Blissey|Thunder Wave|p2b: Indeedee
+|-status|p2b: Indeedee|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750818092
+|cant|p2b: Indeedee|par
+|move|p2a: Koraidon|Collision Course|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Eeveefan6|move: Tailwind
+|upkeep
+|c|☆Eeveefan6|I honestly have to say gg
+|
+|t:|1750818101
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|76/100 brn
+|turn|9
+|
+|t:|1750818107
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Ursaluna|Facade|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Porygon2|Ice Beam|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1750818125
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|3/100
+|-damage|p2a: Koraidon|75/100|[from] Recoil
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-weather|none
+|-damage|p1a: Ursaluna|65/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1750818166
+|switch|p1b: Hydreigon|Hydreigon, L50, F, shiny|100/100
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Ursaluna|Facade|p2b: Indeedee
+|-damage|p2b: Indeedee|7/100 par
+|move|p2b: Indeedee|Psychic|p1a: Ursaluna
+|-damage|p1a: Ursaluna|36/100 brn
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1750818185
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Ursaluna|Facade|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1b: Hydreigon|Dark Pulse|p2a: Koraidon
+|-damage|p2a: Koraidon|39/100
+|move|p2a: Koraidon|Flare Blitz|p1b: Hydreigon
+|-resisted|p1b: Hydreigon
+|-damage|p1b: Hydreigon|70/100
+|-status|p1b: Hydreigon|brn
+|-damage|p2a: Koraidon|29/100|[from] Recoil
+|
+|-damage|p1a: Ursaluna|24/100 brn|[from] brn
+|-damage|p1b: Hydreigon|64/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1750818199
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Ursaluna|Facade|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Hydreigon|Dark Pulse|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-damage|p1a: Ursaluna|18/100 brn|[from] brn
+|-damage|p1b: Hydreigon|58/100 brn|[from] brn
+|upkeep
+|turn|14
+|c|☆Hydeal|gg
+|
+|t:|1750818208
+|move|p1a: Ursaluna|Facade|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|win|Hydeal
+|raw|Hydeal's rating: 1077 &rarr; <strong>1099</strong><br />(+22 for winning)
+|raw|Eeveefan6's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆Eeveefan6|Ggwp
+|l|☆Hydeal
+|player|p1|

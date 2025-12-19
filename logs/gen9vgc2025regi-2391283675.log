@@ -1,0 +1,158 @@
+|j|☆riazzz
+|j|☆SlowbroJosh2534
+|t:|1750828202
+|gametype|doubles
+|player|p1|riazzz|ghetsis|1152
+|player|p2|SlowbroJosh2534|cynthia-gen4|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+riazzz rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by riazzz)
+|
+|t:|1750828221
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1750828243
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|49/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750828261
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|60/100
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|move|p1b: Indeedee|Psychic|p2b: Urshifu
+|-immune|p2b: Urshifu
+|move|p2a: Incineroar|Knock Off|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|58/100
+|-enditem|p1a: Torkoal|Charcoal|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Urshifu|Wicked Blow|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750828283
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Torkoal|Heat Wave|p2b: Urshifu|[spread] 
+|-activate|p2b: Urshifu|move: Protect
+|-miss|p1a: Torkoal|p2a: Incineroar
+|move|p1b: Indeedee|Psychic|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828294
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1750828304
+|move|p1b: Indeedee|Psychic|p2b: Urshifu
+|-immune|p2b: Urshifu
+|move|p2a: Incineroar|Flare Blitz|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-damage|p2a: Incineroar|33/100|[from] Recoil
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|58/100|[from] item: Sitrus Berry
+|move|p2b: Urshifu|Wicked Blow|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828308
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750828331
+|-terastallize|p1b: Calyrex|Water
+|move|p1b: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|31/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|78/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750828345
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750828352
+|move|p2b: Miraidon|Electro Drift|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|SlowbroJosh2534
+|raw|riazzz's rating: 1152 &rarr; <strong>1125</strong><br />(-27 for losing)
+|raw|SlowbroJosh2534's rating: 1125 &rarr; <strong>1152</strong><br />(+27 for winning)
+|l|☆riazzz
+|player|p1|
+|l|☆SlowbroJosh2534
+|player|p2|

@@ -1,0 +1,173 @@
+|j|☆turtle100000000
+|j|☆Ijnk
+|t:|1750840457
+|gametype|doubles
+|player|p1|turtle100000000|roxanne|1357
+|player|p2|Ijnk|1|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Heatran, L50, M|
+|teampreview|4
+|
+|t:|1750840498
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Heatran|Heatran, L50, M|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750840514
+|move|p1a: Calyrex|Astral Barrage|p2b: Heatran|[spread] p2a,p2b
+|-damage|p2a: Sableye|33/100
+|-damage|p2b: Heatran|50/100
+|move|p1b: Weezing|Taunt|p2a: Sableye
+|-start|p2a: Sableye|move: Taunt
+|move|p2b: Heatran|Heat Wave|p1b: Weezing|[spread] p1a,p1b
+|-damage|p1a: Calyrex|57/100
+|-damage|p1b: Weezing|57/100
+|move|p2a: Sableye|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750840528
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|turn|2
+|
+|t:|1750840539
+|switch|p2a: Iron Hands|Iron Hands, L50, shiny|100/100
+|move|p1a: Zamazenta|Body Press|p2b: Heatran
+|-supereffective|p2b: Heatran
+|-damage|p2b: Heatran|0 fnt
+|-damage|p1a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2b: Heatran
+|faint|p2b: Heatran
+|move|p1b: Weezing|Dazzling Gleam|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|51/100
+|
+|upkeep
+|
+|t:|1750840556
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750840580
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p1a: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|66/100
+|move|p1b: Weezing|Taunt|p2b: Lunala
+|-start|p2b: Lunala|move: Taunt
+|move|p2a: Iron Hands|Drain Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|57/100
+|-heal|p2a: Iron Hands|61/100|[from] drain|[of] p1a: Zamazenta
+|cant|p2b: Lunala|move: Taunt|Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1750840604
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p1b: Weezing|Dazzling Gleam|p2b: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|27/100
+|-damage|p2b: Lunala|54/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750840632
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|19/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|move|p2a: Iron Hands|Supercell Slam|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|71/100
+|
+|-heal|p1a: Zamazenta|9/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|77/100|[from] Grassy Terrain
+|-heal|p2b: Lunala|25/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|33/100|[from] Grassy Terrain
+|-end|p2b: Lunala|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1750840674
+|switch|p2b: Sableye|Sableye, L50, M|33/100
+|move|p1b: Rillaboom|Fake Out|p2a: Iron Hands
+|-damage|p2a: Iron Hands|24/100
+|move|p1a: Zamazenta|Heavy Slam|p2b: Sableye
+|-damage|p2b: Sableye|0 fnt
+|faint|p2b: Sableye
+|move|p2a: Iron Hands|Drain Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Iron Hands|27/100|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|-heal|p1b: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|33/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750840689
+|switch|p1a: Weezing|Weezing-Galar, L50, M|57/100
+|switch|p2b: Lunala|Lunala, L50|25/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|7
+|
+|t:|1750840702
+|move|p1b: Rillaboom|Grassy Glide|p2b: Lunala
+|-damage|p2b: Lunala|1/100
+|move|p2b: Lunala|Will-O-Wisp|p1b: Rillaboom
+|-status|p1b: Rillaboom|brn
+|move|p1a: Weezing|Dazzling Gleam|p2a: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|faint|p2b: Lunala
+|
+|win|turtle100000000
+|raw|turtle100000000's rating: 1357 &rarr; <strong>1375</strong><br />(+18 for winning)
+|raw|Ijnk's rating: 1327 &rarr; <strong>1309</strong><br />(-18 for losing)
+|l|☆turtle100000000
+|player|p1|
+|l|☆Ijnk
+|player|p2|

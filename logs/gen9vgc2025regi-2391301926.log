@@ -1,0 +1,141 @@
+|j|☆momentaueita
+|j|☆cert_boy_lover
+|t:|1750831729
+|gametype|doubles
+|player|p1|momentaueita|flint|1477
+|player|p2|cert_boy_lover|266|1416
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750831759
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|1
+|
+|t:|1750831774
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: cert_boy_lover|move: Tailwind
+|move|p1a: Iron Valiant|Icy Wind|p2b: Groudon|[spread] p2b
+|-miss|p1a: Iron Valiant|p2a: Whimsicott
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|77/100
+|move|p2b: Groudon|Precipice Blades|p1b: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Iron Valiant|26/100
+|-damage|p1b: Miraidon|50/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|26/100
+|-damage|p2b: Groudon|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750831806
+|-terastallize|p2b: Groudon|Fire
+|move|p1a: Iron Valiant|Wide Guard|p1a: Iron Valiant
+|-singleturn|p1a: Iron Valiant|Wide Guard
+|move|p2a: Whimsicott|Light Screen|p2a: Whimsicott
+|-sidestart|p2: cert_boy_lover|move: Light Screen
+|move|p2b: Groudon|Precipice Blades|p1a: Iron Valiant|[spread] 
+|-activate|p1a: Iron Valiant|move: Wide Guard
+|-activate|p1b: Miraidon|move: Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2b: Groudon
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Groudon|0 fnt
+|faint|p2a: Whimsicott
+|faint|p2b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750831820
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750831840
+|switch|p1b: Scraggy|Scraggy, L50, F|100/100
+|-ability|p1b: Scraggy|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|move|p2a: Iron Hands|Fake Out|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|8/100
+|move|p2b: Miraidon|Electro Drift|p1b: Scraggy
+|-damage|p1b: Scraggy|0 fnt
+|faint|p1b: Scraggy
+|cant|p1a: Iron Valiant|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750831847
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750831863
+|move|p2b: Miraidon|Electro Drift|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Iron Valiant|Moonblast|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|39/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: cert_boy_lover|move: Tailwind
+|upkeep
+|
+|t:|1750831867
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|50/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750831879
+|move|p2b: Miraidon|Electro Drift|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|cert_boy_lover
+|raw|momentaueita's rating: 1477 &rarr; <strong>1454</strong><br />(-23 for losing)
+|raw|cert_boy_lover's rating: 1416 &rarr; <strong>1439</strong><br />(+23 for winning)
+|l|☆momentaueita
+|player|p1|
+|l|☆cert_boy_lover
+|player|p2|

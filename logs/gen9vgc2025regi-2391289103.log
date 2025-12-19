@@ -1,0 +1,149 @@
+|j|☆Lucydoosydoo
+|j|☆szoob busziness
+|t:|1750829227
+|gametype|doubles
+|player|p1|Lucydoosydoo|fantina|1126
+|player|p2|szoob busziness|miku-ground|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Regidrago, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|l|☆szoob busziness
+|player|p2|
+|j|☆szoob busziness
+|player|p2|szoob busziness|miku-ground|
+|
+|t:|1750829264
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by szoob busziness)
+|
+|t:|1750829287
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p2a: Necrozma|Normal
+|move|p1a: Roaring Moon|Tailwind|p1a: Roaring Moon
+|-sidestart|p1: Lucydoosydoo|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Necrozma|73/100
+|-damage|p2b: Koraidon|85/100
+|move|p2a: Necrozma|Meteor Beam||[still]
+|-prepare|p2a: Necrozma|Meteor Beam
+|-boost|p2a: Necrozma|spa|1
+|-enditem|p2a: Necrozma|Power Herb
+|-anim|p2a: Necrozma|Meteor Beam|p1b: Kyogre
+|-damage|p1b: Kyogre|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Kyogre|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Lucydoosydoo has 30 seconds left.
+|
+|t:|1750829316
+|-terastallize|p1b: Kyogre|Grass
+|move|p1a: Roaring Moon|Outrage|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p1b: Kyogre|Ice Beam|p2a: Necrozma
+|-damage|p2a: Necrozma|44/100
+|move|p2a: Necrozma|Expanding Force|p1a: Roaring Moon|[spread] p1b
+|-immune|p1a: Roaring Moon
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750829329
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750829339
+|move|p2a: Necrozma|Protect|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Protect
+|move|p1a: Roaring Moon|Outrage|p2b: Indeedee|[from] lockedmove
+|-damage|p2b: Indeedee|9/100
+|-enditem|p2b: Indeedee|Sitrus Berry|[eat]
+|-heal|p2b: Indeedee|34/100|[from] item: Sitrus Berry
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750829355
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Necrozma|Expanding Force|p1b: Zamazenta|[spread] p1b
+|-immune|p1a: Roaring Moon
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Roaring Moon|Outrage|p2b: Indeedee|[from] lockedmove
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-start|p1a: Roaring Moon|confusion|[fatigue]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Lucydoosydoo|move: Tailwind
+|upkeep
+|
+|t:|1750829367
+|switch|p2b: Regidrago|Regidrago, L50|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|turn|5
+|
+|t:|1750829378
+|move|p2a: Necrozma|Moongeist Beam|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p2b: Regidrago|Dragon Energy|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|win|szoob busziness
+|raw|Lucydoosydoo's rating: 1126 &rarr; <strong>1102</strong><br />(-24 for losing)
+|raw|szoob busziness's rating: 1141 &rarr; <strong>1165</strong><br />(+24 for winning)
+|l|☆Lucydoosydoo
+|player|p1|
+|l|☆szoob busziness
+|player|p2|

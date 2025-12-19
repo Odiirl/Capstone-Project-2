@@ -1,0 +1,201 @@
+|j|☆KillrFsh
+|j|☆jobin17
+|t:|1750797166
+|gametype|doubles
+|player|p1|KillrFsh|brycen|1134
+|player|p2|jobin17|1|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Giratina, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Iron Moth, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Milotic, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KillrFsh)
+|
+|t:|1750797183
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Giratina|Giratina, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|jobin17 has 30 seconds left.
+|
+|t:|1750797212
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Sableye|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750797232
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Sableye|Foul Play|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750797251
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|switch|p2b: Milotic|Milotic, L50, F|100/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Sableye|[spread] p2a,p2b
+|-resisted|p2b: Milotic
+|-damage|p2a: Sableye|18/100
+|-damage|p2b: Milotic|71/100
+|move|p2a: Sableye|Foul Play|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|22/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750797273
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Sableye|Taunt|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Psychic Terrain
+|move|p1a: Calyrex|Glacial Lance|p2b: Milotic|[spread] p2a
+|-activate|p2b: Milotic|move: Protect
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750797285
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|5
+|
+|t:|1750797300
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Milotic|atk|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|-enditem|p2b: Milotic|Adrenaline Orb
+|-boost|p2b: Milotic|spe|1|[from] item: Adrenaline Orb
+|switch|p2a: Giratina|Giratina, L50|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Milotic|Scald|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-heal|p1a: Calyrex|28/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|77/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750797306
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|6
+|inactive|jobin17 has 30 seconds left.
+|
+|t:|1750797333
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Milotic|Scald|p1b: Indeedee
+|-damage|p1b: Indeedee|29/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|34/100|[from] Grassy Terrain
+|-heal|p1b: Indeedee|36/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|83/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|KillrFsh has 30 seconds left.
+|
+|t:|1750797367
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Milotic|Scald|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|74/100
+|
+|-heal|p1a: Calyrex|40/100|[from] Grassy Terrain
+|-heal|p1b: Terapagos|80/100|[from] Grassy Terrain
+|-heal|p1b: Terapagos|86/100|[from] item: Leftovers
+|-heal|p2b: Milotic|89/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|jobin17 has 30 seconds left.
+|
+|t:|1750797397
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|89/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-fieldend|move: Grassy Terrain
+|move|p1a: Calyrex|Glacial Lance|p2b: Milotic|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Milotic
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Milotic|42/100
+|faint|p2a: Rillaboom
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Terapagos|Tera Starstorm|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|
+|-heal|p1b: Terapagos|95/100|[from] item: Leftovers
+|upkeep
+|-message|jobin17 forfeited.
+|
+|win|KillrFsh
+|raw|KillrFsh's rating: 1134 &rarr; <strong>1166</strong><br />(+32 for winning)
+|raw|jobin17's rating: 1227 &rarr; <strong>1195</strong><br />(-32 for losing)
+|l|☆jobin17
+|player|p2|

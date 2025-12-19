@@ -1,0 +1,189 @@
+|j|☆testlapras
+|j|☆MigraineMan
+|t:|1750833112
+|gametype|doubles
+|player|p1|testlapras|169|1286
+|player|p2|MigraineMan|169|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Giratina, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testlapras)
+|
+|t:|1750833143
+|start
+|switch|p1a: Giratina|Giratina, L50|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Giratina|Pressure
+|turn|1
+|
+|t:|1750833164
+|-terastallize|p2a: Koraidon|Fire
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p2a: Koraidon|Flame Charge|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|move|p1a: Giratina|Breaking Swipe|p2b: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Koraidon|87/100
+|-damage|p2b: Scovillain|74/100
+|-unboost|p2b: Scovillain|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750833191
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p1b: Scream Tail|Disable|p2a: Koraidon
+|-start|p2a: Koraidon|Disable|Flame Charge
+|cant|p2a: Koraidon|Disable|Flame Charge
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750833211
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p1b: Scream Tail|Encore|p2b: Scovillain
+|-start|p2b: Scovillain|Encore
+|move|p2a: Koraidon|Collision Course|p1b: Scream Tail
+|-resisted|p1b: Scream Tail
+|-damage|p1b: Scream Tail|61/100
+|move|p1a: Giratina|Shadow Force|p2b: Scovillain|[from] lockedmove
+|-damage|p2b: Scovillain|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|MigraineMan has 30 seconds left.
+|
+|t:|1750833240
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p2a: Koraidon|Flare Blitz|p1a: Giratina
+|-resisted|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|-damage|p2a: Koraidon|40/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750833254
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|5
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750833288
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Scream Tail|Disable||[still]
+|-fail|p1b: Scream Tail
+|move|p1a: Eternatus|Sludge Bomb|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|none
+|-end|p1b: Scream Tail|Protosynthesis
+|-end|p2a: Koraidon|Disable
+|upkeep
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|6
+|inactive|testlapras has 30 seconds left.
+|inactive|MigraineMan has 30 seconds left.
+|
+|t:|1750833314
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Scream Tail
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|move|p2a: Koraidon|Flare Blitz|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|
+|upkeep
+|
+|t:|1750833317
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|7
+|
+|t:|1750833336
+|switch|p2b: Scovillain|Scovillain, L50, M|1/100
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Scovillain
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p1a: Eternatus|Sludge Bomb|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-heal|p2a: Koraidon|46/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750833343
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|8
+|inactive|testlapras has 30 seconds left.
+|inactive|MigraineMan has 30 seconds left.
+|
+|t:|1750833378
+|move|p2b: Miraidon|Draco Meteor|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Eternatus
+|move|p2a: Koraidon|Flame Charge|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|30/100|[from] item: Rocky Helmet|[of] p1b: Rillaboom
+|faint|p1b: Rillaboom
+|
+|win|MigraineMan
+|raw|testlapras's rating: 1286 &rarr; <strong>1263</strong><br />(-23 for losing)
+|raw|MigraineMan's rating: 1316 &rarr; <strong>1334</strong><br />(+18 for winning)
+|l|☆testlapras
+|player|p1|
+|l|☆MigraineMan
+|player|p2|

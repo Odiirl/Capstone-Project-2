@@ -1,0 +1,132 @@
+|j|☆Shdydbsk
+|j|☆fgdfgdfadfdf
+|t:|1750826796
+|gametype|doubles
+|player|p1|Shdydbsk|170|1032
+|player|p2|fgdfgdfadfdf|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750826833
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, M, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750826880
+|-terastallize|p2a: Calyrex|Fairy
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Scovillain|Spicy Extract|p2b: Indeedee
+|-boost|p2b: Indeedee|atk|2
+|-unboost|p2b: Indeedee|def|2
+|move|p2a: Calyrex|Draining Kiss|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|84/100
+|move|p1a: Koraidon|Flame Charge|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826897
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|2
+|
+|t:|1750826923
+|move|p2b: Urshifu|Aqua Jet|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Psychic Terrain
+|move|p1a: Koraidon|Flare Blitz|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-damage|p1a: Koraidon|51/100|[from] Recoil
+|move|p1b: Scovillain|Overheat|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-unboost|p1b: Scovillain|spa|2
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826936
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1750826969
+|move|p2b: Urshifu|Aqua Jet|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|30/100
+|-damage|p2b: Urshifu|91/100|[from] item: Life Orb
+|move|p2a: Rillaboom|Grassy Glide|p1b: Scovillain
+|-resisted|p1b: Scovillain
+|-damage|p1b: Scovillain|85/100
+|move|p1a: Koraidon|Collision Course|p2b: Urshifu
+|-damage|p2b: Urshifu|11/100
+|move|p1b: Scovillain|Spicy Extract|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|36/100|[from] Grassy Terrain
+|-heal|p1b: Scovillain|91/100|[from] Grassy Terrain
+|-heal|p2b: Urshifu|17/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750826993
+|move|p1b: Scovillain|Rage Powder|p1b: Scovillain
+|-singleturn|p1b: Scovillain|move: Rage Powder
+|move|p2b: Urshifu|Aqua Jet|p1b: Scovillain
+|-damage|p1b: Scovillain|66/100
+|-damage|p2b: Urshifu|7/100|[from] item: Life Orb
+|move|p2a: Rillaboom|Grassy Glide|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|22/100
+|move|p1a: Koraidon|Collision Course|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|28/100|[from] Grassy Terrain
+|-heal|p1b: Scovillain|72/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|-message|fgdfgdfadfdf forfeited.
+|
+|win|Shdydbsk
+|raw|Shdydbsk's rating: 1032 &rarr; <strong>1064</strong><br />(+32 for winning)
+|raw|fgdfgdfadfdf's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆fgdfgdfadfdf
+|player|p2|

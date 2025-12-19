@@ -1,0 +1,138 @@
+|j|☆Light_Sky.L
+|j|☆Agent VGD
+|t:|1750741857
+|gametype|doubles
+|player|p1|Light_Sky.L|266|1410
+|player|p2|Agent VGD|camper|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Golem-Alola, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Light_Sky.L)
+|
+|t:|1750741881
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Palkia|Palkia-Origin, L50|100/100
+|switch|p2b: Golem|Golem-Alola, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Palkia|atk|1
+|-unboost|p2b: Golem|atk|1
+|turn|1
+|
+|t:|1750741896
+|move|p1b: Incineroar|Fake Out|p2a: Palkia
+|-damage|p2a: Palkia|85/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Light_Sky.L|move: Light Screen
+|cant|p2a: Palkia|flinch
+|move|p2b: Golem|Explosion|p1b: Incineroar|[spread] p1a,p1b
+|-activate|p2a: Palkia|ability: Telepathy
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p2b: Golem
+|faint|p1a: Grimmsnarl
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750741908
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|2
+|
+|t:|1750741926
+|-terastallize|p1b: Miraidon|Electric
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2a: Palkia|Spacial Rend|p1b: Miraidon
+|-damage|p1b: Miraidon|70/100
+|move|p2b: Indeedee|Encore|p1a: Zacian
+|-start|p1a: Zacian|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1750741940
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p1b: Miraidon|Dragon Pulse|p2a: Palkia
+|-supereffective|p2a: Palkia
+|-damage|p2a: Palkia|0 fnt
+|faint|p2a: Palkia
+|move|p2b: Indeedee|Expanding Force|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|65/100
+|-damage|p1b: Miraidon|50/100
+|
+|upkeep
+|
+|t:|1750741945
+|switch|p2a: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2a: Mewtwo|Pressure
+|turn|4
+|
+|t:|1750741960
+|-terastallize|p2a: Mewtwo|Psychic
+|move|p2a: Mewtwo|Expanding Force|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|34/100
+|-damage|p1b: Miraidon|11/100
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|1
+|move|p1b: Miraidon|Parabolic Charge|p2b: Indeedee|[spread] p1a,p2a,p2b
+|-damage|p1a: Zacian|0 fnt
+|-heal|p1b: Miraidon|27/100|[from] drain|[of] p1a: Zacian
+|-damage|p2a: Mewtwo|47/100
+|-heal|p1b: Miraidon|54/100|[from] drain|[of] p2a: Mewtwo
+|-damage|p2b: Indeedee|22/100
+|-heal|p1b: Miraidon|85/100|[from] drain|[of] p2b: Indeedee
+|faint|p1a: Zacian
+|move|p2b: Indeedee|Expanding Force|p1b: Miraidon
+|-damage|p1b: Miraidon|57/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750741981
+|move|p2b: Indeedee|Helping Hand|p2a: Mewtwo
+|-singleturn|p2a: Mewtwo|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Mewtwo|Expanding Force|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|Agent VGD
+|raw|Light_Sky.L's rating: 1410 &rarr; <strong>1386</strong><br />(-24 for losing)
+|raw|Agent VGD's rating: 1343 &rarr; <strong>1367</strong><br />(+24 for winning)
+|l|☆Light_Sky.L
+|player|p1|
+|c|☆Agent VGD|Gg
+|l|☆Agent VGD
+|player|p2|

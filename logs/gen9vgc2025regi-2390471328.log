@@ -1,0 +1,279 @@
+|j|☆Muttonhead
+|j|☆willscharnagl
+|t:|1750717239
+|gametype|doubles
+|player|p1|Muttonhead|swimmerf|1649
+|player|p2|willscharnagl|266|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Muttonhead)
+|inactive|Muttonhead has 60 seconds left.
+|
+|t:|1750717282
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|inactive|Muttonhead has 30 seconds left.
+|
+|t:|1750717310
+|-terastallize|p1b: Ogerpon|Water
+|detailschange|p1b: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p1b: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1b: Ogerpon|spd|1
+|-terastallize|p2a: Calyrex|Water
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: Ogerpon|Power Whip|p1b: Ogerpon
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|move|p2a: Calyrex|Imprison|p2a: Calyrex
+|-start|p2a: Calyrex|move: Imprison
+|cant|p1a: Calyrex|move: Imprison|Trick Room
+|
+|upkeep
+|
+|t:|1750717327
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|turn|2
+|
+|t:|1750717333
+|switch|p1a: Lunala|Lunala, L50|100/100
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Raging Bolt|Thunderbolt|p2b: Ogerpon
+|-resisted|p2b: Ogerpon
+|-damage|p2b: Ogerpon|70/100
+|move|p2a: Calyrex|Leech Seed|p1b: Raging Bolt
+|-start|p1b: Raging Bolt|move: Leech Seed
+|
+|-damage|p1b: Raging Bolt|88/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|3
+|
+|t:|1750717353
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1a: Lunala|Moongeist Beam|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|move|p2a: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Lunala|80/100
+|-damage|p1b: Calyrex|86/100
+|
+|-heal|p1a: Lunala|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750717370
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|turn|4
+|
+|t:|1750717385
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Venusaur|Sleep Powder|p1a: Lunala
+|-status|p1a: Lunala|slp|[from] move: Sleep Powder
+|cant|p1a: Lunala|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750717406
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Water|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|switch|p1b: Raging Bolt|Raging Bolt, L50|88/100
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|move|p2b: Venusaur|Weather Ball|p1b: Raging Bolt
+|-resisted|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|72/100
+|-damage|p2b: Venusaur|91/100|[from] item: Life Orb
+|cant|p1a: Lunala|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750717430
+|switch|p2a: Groudon|Groudon, L50|100/100
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p2b: Venusaur|Sleep Powder|p1b: Raging Bolt
+|-status|p1b: Raging Bolt|slp|[from] move: Sleep Powder
+|-curestatus|p1a: Lunala|slp|[msg]
+|move|p1a: Lunala|Moongeist Beam|p2b: Venusaur
+|-damage|p2b: Venusaur|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Muttonhead has 30 seconds left.
+|
+|t:|1750717461
+|move|p2b: Venusaur|Sleep Powder|p1a: Lunala
+|-status|p1a: Lunala|slp|[from] move: Sleep Powder
+|move|p2a: Groudon|High Horsepower|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|cant|p1a: Lunala|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750717467
+|switch|p1b: Calyrex|Calyrex-Ice, L50|86/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750717473
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Venusaur|Weather Ball|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2a: Groudon|Rock Slide|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Lunala|92/100 slp
+|cant|p1a: Lunala|slp
+|
+|-weather|none
+|-heal|p1a: Lunala|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750717490
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Water|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Venusaur|[spread] p2a
+|-activate|p2b: Venusaur|move: Protect
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|84/100
+|cant|p1a: Lunala|slp
+|
+|-heal|p1a: Lunala|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750717514
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p2b: Venusaur|Sleep Powder|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Sleep Powder
+|-curestatus|p1a: Lunala|slp|[msg]
+|move|p1a: Lunala|Moongeist Beam|p2b: Venusaur
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|cant|p1b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750717524
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Water|84/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|11
+|
+|t:|1750717550
+|cant|p1b: Calyrex|slp
+|move|p2a: Groudon|Heat Crash|p1a: Lunala
+|-damage|p1a: Lunala|75/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Groudon
+|-damage|p2a: Groudon|71/100
+|move|p2b: Calyrex|Imprison|p2b: Calyrex
+|-start|p2b: Calyrex|move: Imprison
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Muttonhead has 30 seconds left.
+|
+|t:|1750717576
+|move|p2a: Groudon|Heat Crash|p1a: Lunala
+|-damage|p1a: Lunala|30/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Groudon
+|-damage|p2a: Groudon|36/100
+|move|p2b: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|cant|p1b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|36/100|[from] item: Leftovers
+|-damage|p1a: Lunala|23/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|99/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1750717593
+|move|p2a: Groudon|Heat Crash|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p2b: Calyrex|Leech Seed|p1b: Calyrex
+|-start|p1b: Calyrex|move: Leech Seed
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|High Horsepower|p2a: Groudon
+|-damage|p2a: Groudon|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Calyrex|73/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|100/100|[silent]
+|upkeep
+|turn|14
+|-message|Muttonhead forfeited.
+|
+|win|willscharnagl
+|raw|Muttonhead's rating: 1649 &rarr; <strong>1620</strong><br />(-29 for losing)
+|raw|willscharnagl's rating: 1487 &rarr; <strong>1516</strong><br />(+29 for winning)
+|l|☆Muttonhead
+|player|p1|
+|l|☆willscharnagl
+|player|p2|
+|j|☆willscharnagl
+|player|p2|willscharnagl|266|
+|l|☆willscharnagl
+|player|p2|

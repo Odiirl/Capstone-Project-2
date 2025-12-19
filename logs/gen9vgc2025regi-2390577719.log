@@ -1,0 +1,288 @@
+|j|☆MakoGP
+|j|☆caprican
+|t:|1750731331
+|gametype|doubles
+|player|p1|MakoGP|elesa-masters2|1150
+|player|p2|caprican|skyla|1034
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|
+|t:|1750731370
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: NO PRIO|Farigiraf, L50, F, shiny|100/100
+|switch|p2b: THE DON|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: THE DON
+|-enditem|p2a: NO PRIO|Electric Seed
+|-boost|p2a: NO PRIO|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750731394
+|move|p2a: NO PRIO|Helping Hand|p2b: THE DON
+|-singleturn|p2b: THE DON|Helping Hand|[of] p2a: NO PRIO
+|move|p2b: THE DON|Volt Switch|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|
+|t:|1750731402
+|switch|p2b: CLAPPER|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p2b: CLAPPER|ability: Quark Drive
+|-start|p2b: CLAPPER|quarkdriveatk
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|upkeep
+|
+|t:|1750731414
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2b: CLAPPER|Quark Drive
+|turn|2
+|
+|t:|1750731449
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: CLAPPER|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|86/100
+|cant|p1b: Rillaboom|flinch
+|move|p2a: NO PRIO|Trick Room|p2a: NO PRIO
+|-fieldstart|move: Trick Room|[of] p2a: NO PRIO
+|
+|-heal|p1b: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caprican)
+|
+|t:|1750731484
+|switch|p2a: THE DON|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: THE DON
+|-activate|p2b: CLAPPER|ability: Quark Drive
+|-start|p2b: CLAPPER|quarkdriveatk
+|move|p2b: CLAPPER|Wild Charge|p1a: Lunala
+|-damage|p1a: Lunala|65/100
+|-damage|p2b: CLAPPER|92/100|[from] Recoil
+|move|p1b: Rillaboom|Grassy Glide|p2a: THE DON
+|-resisted|p2a: THE DON
+|-damage|p2a: THE DON|89/100
+|move|p1a: Lunala|Moonblast|p2b: CLAPPER
+|-supereffective|p2b: CLAPPER
+|-damage|p2b: CLAPPER|33/100
+|-unboost|p2b: CLAPPER|spa|1
+|
+|-heal|p1a: Lunala|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|caprican has 30 seconds left.
+|inactive|caprican has 20 seconds left.
+|inactive|caprican has 15 seconds left.
+|inactive|caprican has 10 seconds left.
+|
+|t:|1750731531
+|switch|p2a: NO PRIO|Farigiraf, L50, F, shiny|100/100
+|move|p2b: CLAPPER|Drain Punch|p1b: Rillaboom
+|-damage|p1b: Rillaboom|38/100
+|-heal|p2b: CLAPPER|57/100|[from] drain|[of] p1b: Rillaboom
+|move|p1b: Rillaboom|U-turn|p2b: CLAPPER
+|-resisted|p2b: CLAPPER
+|-damage|p2b: CLAPPER|49/100
+|
+|t:|1750731540
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|move|p1a: Lunala|Moonblast|p2a: NO PRIO
+|-damage|p2a: NO PRIO|54/100
+|
+|-heal|p1a: Lunala|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750731564
+|-terastallize|p2b: CLAPPER|Water
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: CLAPPER|Drain Punch|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p2a: NO PRIO|Foul Play|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|15/100
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|
+|-heal|p1a: Lunala|21/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750731583
+|switch|p1b: Rillaboom|Rillaboom, L50, M|38/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2b: CLAPPER|Quark Drive
+|move|p2a: NO PRIO|Helping Hand|p2b: CLAPPER
+|-singleturn|p2b: CLAPPER|Helping Hand|[of] p2a: NO PRIO
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: CLAPPER|Drain Punch|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-heal|p2b: CLAPPER|65/100|[from] drain|[of] p1b: Rillaboom
+|faint|p1b: Rillaboom
+|
+|-heal|p2b: CLAPPER|71/100|[from] Grassy Terrain
+|-heal|p2a: NO PRIO|60/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|27/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|33/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750731597
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|7
+|
+|t:|1750731621
+|move|p1b: Urshifu|Surging Strikes|p2a: NO PRIO
+|-crit|p2a: NO PRIO
+|-damage|p2a: NO PRIO|44/100
+|-crit|p2a: NO PRIO
+|-damage|p2a: NO PRIO|26/100
+|-crit|p2a: NO PRIO
+|-damage|p2a: NO PRIO|7/100
+|-hitcount|p2a: NO PRIO|3
+|move|p1a: Lunala|Moongeist Beam|p2b: CLAPPER
+|-damage|p2b: CLAPPER|13/100
+|move|p2b: CLAPPER|Drain Punch|p1b: Urshifu
+|-damage|p1b: Urshifu|54/100
+|-heal|p2b: CLAPPER|30/100|[from] drain|[of] p1b: Urshifu
+|move|p2a: NO PRIO|Trick Room|p2a: NO PRIO
+|-fieldstart|move: Trick Room|[of] p2a: NO PRIO
+|
+|-heal|p2b: CLAPPER|36/100|[from] Grassy Terrain
+|-heal|p2a: NO PRIO|13/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|40/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|46/100|[from] item: Leftovers
+|-heal|p1b: Urshifu|61/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750731645
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p1b: Urshifu|Aqua Jet|p2a: NO PRIO
+|-damage|p2a: NO PRIO|0 fnt
+|faint|p2a: NO PRIO
+|move|p2b: CLAPPER|Drain Punch|p1b: Urshifu
+|-damage|p1b: Urshifu|14/100
+|-heal|p2b: CLAPPER|53/100|[from] drain|[of] p1b: Urshifu
+|
+|-heal|p2b: CLAPPER|59/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|52/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|58/100|[from] item: Leftovers
+|-heal|p1b: Urshifu|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750731659
+|switch|p2a: TERA ICE|Calyrex-Ice, L50|100/100
+|-ability|p2a: TERA ICE|As One
+|-ability|p2a: TERA ICE|Unnerve
+|turn|9
+|
+|t:|1750731683
+|-terastallize|p1a: Lunala|Fairy
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: CLAPPER|Drain Punch|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p2a: TERA ICE|Glacial Lance|p1a: Lunala|[spread] p1a
+|-activate|p1b: Urshifu|move: Protect
+|-damage|p1a: Lunala|13/100
+|move|p1a: Lunala|Moongeist Beam|p2a: TERA ICE
+|-supereffective|p2a: TERA ICE
+|-damage|p2a: TERA ICE|0 fnt
+|faint|p2a: TERA ICE
+|
+|-heal|p2b: CLAPPER|65/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|19/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|25/100|[from] item: Leftovers
+|-heal|p1b: Urshifu|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750731696
+|switch|p2a: THE DON|Miraidon, L50|89/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: THE DON
+|-activate|p2b: CLAPPER|ability: Quark Drive
+|-start|p2b: CLAPPER|quarkdriveatk
+|turn|10
+|inactive|caprican has 30 seconds left.
+|
+|t:|1750731724
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: CLAPPER|Wild Charge|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p2a: THE DON|Electro Drift|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|
+|-heal|p1a: Lunala|32/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750731754
+|move|p2b: CLAPPER|Drain Punch|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|-heal|p2b: CLAPPER|75/100|[from] drain|[of] p1b: Urshifu
+|faint|p1b: Urshifu
+|move|p1a: Lunala|Moonblast|p2a: THE DON
+|-supereffective|p2a: THE DON
+|-damage|p2a: THE DON|0 fnt
+|faint|p2a: THE DON
+|
+|-heal|p1a: Lunala|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1750731766
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: CLAPPER|Wild Charge|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|
+|-heal|p1a: Lunala|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750731779
+|move|p1a: Lunala|Moongeist Beam|p2b: CLAPPER
+|-damage|p2b: CLAPPER|19/100
+|move|p2b: CLAPPER|Wild Charge|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-damage|p2b: CLAPPER|8/100|[from] Recoil
+|
+|win|caprican
+|raw|MakoGP's rating: 1150 &rarr; <strong>1117</strong><br />(-33 for losing)
+|raw|caprican's rating: 1034 &rarr; <strong>1080</strong><br />(+46 for winning)
+|c|☆MakoGP|gg
+|c|☆caprican|ggwp
+|l|☆caprican
+|player|p2|

@@ -1,0 +1,176 @@
+|j|☆shockeim1
+|j|☆LadyofTheTesting
+|t:|1750743480
+|gametype|doubles
+|player|p1|shockeim1|palmer|1232
+|player|p2|LadyofTheTesting|infielder|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LadyofTheTesting)
+|inactive|LadyofTheTesting has 60 seconds left.
+|
+|t:|1750743514
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750743534
+|move|p2b: Walking Wake|Protect|p2b: Walking Wake
+|-singleturn|p2b: Walking Wake|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: shockeim1|move: Tailwind
+|move|p1a: Miraidon|Volt Switch|p2b: Walking Wake
+|-activate|p2b: Walking Wake|move: Protect
+|move|p2a: Annihilape|Final Gambit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750743546
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750743561
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-terastallize|p2a: Koraidon|Fire
+|move|p1b: Whimsicott|Encore|p2b: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Chien-Pao
+|move|p1a: Calyrex|Psychic|p2a: Koraidon
+|-damage|p2a: Koraidon|36/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Koraidon|Flame Charge|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750743569
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750743589
+|-terastallize|p1a: Calyrex|Dark
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1b: Iron Hands|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Chien-Pao|[spread] 
+|-activate|p2a: Koraidon|move: Protect
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750743611
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|45/100
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Iron Hands|Drain Punch|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: shockeim1|move: Tailwind
+|upkeep
+|
+|t:|1750743627
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|turn|5
+|
+|t:|1750743641
+|move|p2b: Walking Wake|Protect|p2b: Walking Wake
+|-singleturn|p2b: Walking Wake|Protect
+|move|p2a: Koraidon|Collision Course|p1b: Iron Hands
+|-damage|p1b: Iron Hands|57/100
+|move|p1b: Iron Hands|Drain Punch|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-heal|p1b: Iron Hands|72/100|[from] drain|[of] p2a: Koraidon
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750743661
+|move|p2b: Walking Wake|Hydro Steam|p1b: Iron Hands
+|-damage|p1b: Iron Hands|30/100
+|-damage|p2b: Walking Wake|91/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Wild Charge|p2b: Walking Wake
+|-damage|p2b: Walking Wake|38/100
+|-damage|p1b: Iron Hands|21/100|[from] Recoil
+|
+|-weather|none
+|-end|p2b: Walking Wake|Protosynthesis
+|upkeep
+|turn|7
+|c|☆shockeim1|that was a mad man play to protect koraidon
+|c|☆LadyofTheTesting|it was my only out
+|
+|t:|1750743682
+|move|p2b: Walking Wake|Dragon Pulse|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-damage|p2b: Walking Wake|28/100|[from] item: Life Orb
+|
+|win|LadyofTheTesting
+|raw|shockeim1's rating: 1232 &rarr; <strong>1207</strong><br />(-25 for losing)
+|raw|LadyofTheTesting's rating: 1227 &rarr; <strong>1252</strong><br />(+25 for winning)
+|c|☆LadyofTheTesting|gg
+|c|☆shockeim1|gg

@@ -1,0 +1,234 @@
+|j|☆langers
+|j|☆ness#1glazer
+|t:|1750747109
+|gametype|doubles
+|player|p1|langers|266|1069
+|player|p2|ness#1glazer|n|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Exeggutor-Alola, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750747146
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750747170
+|-terastallize|p2b: Indeedee|Ghost
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Indeedee|Imprison|p2b: Indeedee
+|-start|p2b: Indeedee|move: Imprison
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Indeedee
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex
+|-damage|p2a: Calyrex|4/100
+|
+|upkeep
+|
+|t:|1750747184
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|2
+|
+|t:|1750747196
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Calyrex|22/100
+|-damage|p1b: Incineroar|46/100
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|-enditem|p1a: Calyrex|Sitrus Berry|[eat]
+|-heal|p1a: Calyrex|47/100|[from] item: Sitrus Berry
+|faint|p2a: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750747206
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1750747222
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Rillaboom|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|34/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Amoonguss
+|-damage|p1a: Amoonguss|52/100
+|cant|p1b: Incineroar|flinch
+|
+|-heal|p1b: Incineroar|40/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|58/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750747246
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|24/100
+|move|p2b: Zamazenta|Body Press|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|move|p1b: Incineroar|Flare Blitz|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|63/100
+|-damage|p1b: Incineroar|12/100|[from] Recoil
+|
+|-heal|p2b: Zamazenta|69/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|18/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|63/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750747263
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Rillaboom|Grassy Glide|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|move|p2b: Zamazenta|Body Press|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|27/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|36/100
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|-heal|p2b: Zamazenta|42/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|33/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750747277
+|switch|p1b: Exeggutor|Exeggutor-Alola, L50, F|100/100
+|-item|p2a: Rillaboom|Assault Vest|[from] ability: Frisk|[of] p1b: Exeggutor
+|-item|p2b: Zamazenta|Rusted Shield|[from] ability: Frisk|[of] p1b: Exeggutor
+|turn|6
+|
+|t:|1750747303
+|switch|p1a: Calyrex|Calyrex-Ice, L50, tera:Fairy|47/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|move|p2a: Rillaboom|Wood Hammer|p1b: Exeggutor
+|-resisted|p1b: Exeggutor
+|-damage|p1b: Exeggutor|79/100
+|-damage|p2a: Rillaboom|94/100|[from] Recoil
+|move|p1b: Exeggutor|Trick Room|p1b: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1b: Exeggutor
+|
+|-heal|p1b: Exeggutor|85/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|53/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|48/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750747333
+|move|p2a: Rillaboom|Grassy Glide|p1b: Exeggutor
+|-resisted|p1b: Exeggutor
+|-damage|p1b: Exeggutor|74/100
+|move|p1b: Exeggutor|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|29/100
+|-damage|p1b: Exeggutor|64/100|[from] item: Life Orb
+|move|p1a: Calyrex|High Horsepower|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|28/100
+|move|p2b: Zamazenta|Body Press|p1b: Exeggutor
+|-damage|p1b: Exeggutor|0 fnt
+|faint|p1b: Exeggutor
+|
+|-heal|p1a: Calyrex|58/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|35/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|34/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750747344
+|switch|p1b: Amoonguss|Amoonguss, L50, M|66/100
+|turn|8
+|
+|t:|1750747359
+|move|p1b: Amoonguss|Spore|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Spore
+|move|p1a: Calyrex|Swords Dance|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|move|p2a: Rillaboom|U-turn|p1b: Amoonguss
+|-damage|p1b: Amoonguss|40/100
+|cant|p2b: Zamazenta|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1750747377
+|-curestatus|p2b: Zamazenta|slp|[msg]
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Amoonguss|Sludge Bomb|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p1a: Calyrex|Glacial Lance|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|upkeep
+|turn|10
+|
+|t:|1750747391
+|move|p1b: Amoonguss|Spore|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Spore
+|move|p1a: Calyrex|High Horsepower|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|win|langers
+|raw|langers's rating: 1069 &rarr; <strong>1104</strong><br />(+35 for winning)
+|raw|ness#1glazer's rating: 1129 &rarr; <strong>1100</strong><br />(-29 for losing)
+|l|☆ness#1glazer
+|player|p2|
+|l|☆langers
+|player|p1|

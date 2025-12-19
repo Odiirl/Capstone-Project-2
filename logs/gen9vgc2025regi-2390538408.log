@@ -1,0 +1,130 @@
+|j|☆LuckasCuckas
+|j|☆qrich27
+|t:|1750725944
+|gametype|doubles
+|player|p1|LuckasCuckas|170|1446
+|player|p2|qrich27|102|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Lokix, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LuckasCuckas)
+|inactive|LuckasCuckas has 60 seconds left.
+|
+|t:|1750725994
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Lokix|Lokix, L50, M|100/100
+|switch|p2b: Solgaleo|Solgaleo, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lokix|atk|1
+|-fail|p2b: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2b: Solgaleo
+|turn|1
+|inactive|LuckasCuckas has 30 seconds left.
+|inactive|LuckasCuckas has 20 seconds left.
+|inactive|LuckasCuckas has 15 seconds left.
+|
+|t:|1750726035
+|move|p2b: Solgaleo|Protect|p2b: Solgaleo
+|-singleturn|p2b: Solgaleo|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Lokix
+|-damage|p2a: Lokix|88/100
+|cant|p2a: Lokix|flinch
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1750726050
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Solgaleo|Psychic Seed
+|-boost|p2b: Solgaleo|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1750726071
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|move|p2b: Solgaleo|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|65/100
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1a: Lunala|55/100
+|-damage|p1b: Brute Bonnet|80/100
+|move|p1a: Lunala|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-resisted|p2b: Solgaleo
+|-damage|p2a: Indeedee|52/100
+|-damage|p2b: Solgaleo|89/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750726094
+|move|p2a: Indeedee|Helping Hand|p2b: Solgaleo
+|-singleturn|p2b: Solgaleo|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Solgaleo|Sunsteel Strike|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|21/100
+|-enditem|p1b: Brute Bonnet|Sitrus Berry|[eat]
+|-heal|p1b: Brute Bonnet|46/100|[from] item: Sitrus Berry
+|move|p1a: Lunala|Moongeist Beam|p2b: Solgaleo
+|-supereffective|p2b: Solgaleo
+|-damage|p2b: Solgaleo|0 fnt
+|faint|p2b: Solgaleo
+|move|p1b: Brute Bonnet|Spore|p2a: Indeedee
+|-activate|p2a: Indeedee|item: Safety Goggles|Spore
+|
+|upkeep
+|
+|t:|1750726109
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750726119
+|-terastallize|p2b: Calyrex|Ghost
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Calyrex|Astral Barrage|p1b: Brute Bonnet|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Brute Bonnet|move: Wide Guard
+|move|p1b: Brute Bonnet|Crunch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|18/100
+|
+|upkeep
+|turn|5
+|-message|qrich27 forfeited.
+|
+|win|LuckasCuckas
+|raw|LuckasCuckas's rating: 1446 &rarr; <strong>1462</strong><br />(+16 for winning)
+|raw|qrich27's rating: 1383 &rarr; <strong>1367</strong><br />(-16 for losing)
+|l|☆qrich27
+|player|p2|

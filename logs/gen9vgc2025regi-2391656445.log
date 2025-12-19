@@ -1,0 +1,265 @@
+|j|☆furrybuoy
+|j|☆Megaman087
+|t:|1750880469
+|gametype|doubles
+|player|p1|furrybuoy|102|1398
+|player|p2|Megaman087|lucas|1458
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Qwilfish-Hisui, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|
+|t:|1750880494
+|start
+|switch|p1a: myosotis|Calyrex-Shadow, L50|100/100
+|switch|p1b: duranta|Tornadus, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p1a: myosotis|As One
+|-ability|p1a: myosotis|Unnerve
+|-ability|p2b: Eternatus|Pressure
+|turn|1
+|
+|t:|1750880519
+|move|p1a: myosotis|Protect|p1a: myosotis
+|-singleturn|p1a: myosotis|Protect
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: duranta|Taunt|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Megaman087|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1750880537
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|-terastallize|p1a: myosotis|Fairy
+|move|p1b: duranta|Taunt||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Taunt|[of] p1b: duranta
+|move|p1a: myosotis|Draining Kiss|p2a: Farigiraf
+|-damage|p2a: Farigiraf|75/100
+|-damage|p1a: myosotis|91/100|[from] item: Life Orb
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750880566
+|switch|p1a: grendelion|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: grendelion|Dauntless Shield|boost
+|-boost|p1a: grendelion|def|1
+|switch|p1b: brittlebush|Urshifu, L50, M|100/100
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|move|p2a: Farigiraf|Psych Up|p2b: Eternatus
+|-copyboost|p2a: Farigiraf|p2b: Eternatus|[from] move: Psych Up
+|
+|upkeep
+|turn|4
+|
+|t:|1750880592
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1a: grendelion|Body Press|p2b: Eternatus
+|-resisted|p2b: Eternatus
+|-damage|p2b: Eternatus|88/100
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|move|p1b: brittlebush|Wicked Blow|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-crit|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|upkeep
+|
+|t:|1750880630
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|5
+|
+|t:|1750880657
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Megaman087|Reflect
+|move|p1a: grendelion|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|61/100
+|move|p2b: Eternatus|Cosmic Power|p2b: Eternatus
+|-boost|p2b: Eternatus|def|1
+|-boost|p2b: Eternatus|spd|1
+|move|p1b: brittlebush|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|21/100
+|-unboost|p1b: brittlebush|def|1
+|-unboost|p1b: brittlebush|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1750880682
+|switch|p1b: duranta|Tornadus, L50, M|100/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: grendelion
+|-status|p1a: grendelion|par
+|move|p2b: Eternatus|Fire Spin|p1b: duranta
+|-damage|p1b: duranta|88/100
+|-activate|p1b: duranta|move: Fire Spin|[of] p2b: Eternatus
+|move|p1a: grendelion|Body Press|p2b: Eternatus
+|-resisted|p2b: Eternatus
+|-damage|p2b: Eternatus|82/100
+|
+|-damage|p1b: duranta|75/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1750880712
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: duranta|Taunt|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: duranta
+|-status|p1b: duranta|par
+|cant|p1a: grendelion|par
+|
+|-damage|p1b: duranta|63/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1750880752
+|move|p1b: duranta|Taunt|p2b: Eternatus
+|-start|p2b: Eternatus|move: Taunt
+|move|p2b: Eternatus|Fire Spin|p1a: grendelion
+|-supereffective|p1a: grendelion
+|-damage|p1a: grendelion|85/100 par
+|-activate|p1a: grendelion|move: Fire Spin|[of] p2b: Eternatus
+|move|p2a: Grimmsnarl|Foul Play|p1b: duranta
+|-damage|p1b: duranta|35/100 par
+|move|p1a: grendelion|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-damage|p1a: grendelion|72/100 par|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p1b: duranta|23/100 par|[from] move: Fire Spin|[partiallytrapped]
+|-sideend|p2: Megaman087|move: Light Screen
+|upkeep
+|
+|t:|1750880763
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Megaman087)
+|
+|t:|1750880781
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Eternatus|Fire Spin|p1b: duranta
+|-damage|p1b: duranta|11/100 par
+|cant|p1a: grendelion|par
+|move|p1b: duranta|Bleakwind Storm|p2b: Eternatus|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Eternatus|75/100
+|
+|-damage|p1a: grendelion|60/100 par|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p1b: duranta|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p1b: duranta
+|upkeep
+|
+|t:|1750880798
+|switch|p1b: brittlebush|Urshifu, L50, M|100/100
+|turn|10
+|
+|t:|1750880809
+|-terastallize|p2a: Calyrex|Water
+|move|p2b: Eternatus|Fire Spin|p1b: brittlebush
+|-damage|p1b: brittlebush|82/100
+|-activate|p1b: brittlebush|move: Fire Spin|[of] p2b: Eternatus
+|move|p1b: brittlebush|Wicked Blow|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|61/100
+|cant|p1a: grendelion|par
+|move|p2a: Calyrex|Psych Up|p2b: Eternatus
+|-copyboost|p2a: Calyrex|p2b: Eternatus|[from] move: Psych Up
+|
+|-damage|p1b: brittlebush|69/100|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p1a: grendelion|47/100 par|[from] move: Fire Spin|[partiallytrapped]
+|-end|p2b: Eternatus|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1750880833
+|move|p2b: Eternatus|Recover|p2b: Eternatus
+|-heal|p2b: Eternatus|100/100
+|move|p1b: brittlebush|Close Combat|p2a: Calyrex
+|-damage|p2a: Calyrex|52/100
+|-unboost|p1b: brittlebush|def|1
+|-unboost|p1b: brittlebush|spd|1
+|move|p1a: grendelion|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100
+|move|p2a: Calyrex|Glacial Lance|p1a: grendelion|[spread] p1a,p1b
+|-resisted|p1a: grendelion
+|-damage|p1a: grendelion|37/100 par
+|-damage|p1b: brittlebush|0 fnt
+|faint|p1b: brittlebush
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p1a: grendelion|25/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|
+|t:|1750880849
+|switch|p1b: myosotis|Calyrex-Shadow, L50, tera:Fairy|91/100
+|-ability|p1b: myosotis|As One
+|-ability|p1b: myosotis|Unnerve
+|turn|12
+|c|☆furrybuoy|this team is evik
+|c|☆furrybuoy|evil
+|inactive|furrybuoy has 30 seconds left.
+|
+|t:|1750880876
+|move|p1b: myosotis|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-crit|p2b: Eternatus
+|-damage|p2a: Calyrex|28/100
+|-damage|p2b: Eternatus|37/100
+|-damage|p1b: myosotis|81/100|[from] item: Life Orb
+|move|p2b: Eternatus|Fire Spin|p1b: myosotis
+|-damage|p1b: myosotis|69/100
+|-activate|p1b: myosotis|move: Fire Spin|[of] p2b: Eternatus
+|move|p1a: grendelion|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|18/100
+|move|p2a: Calyrex|Glacial Lance|p1a: grendelion|[spread] p1a,p1b
+|-resisted|p1a: grendelion
+|-damage|p1a: grendelion|11/100 par
+|-damage|p1b: myosotis|0 fnt
+|faint|p1b: myosotis
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p1a: grendelion|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p1a: grendelion
+|
+|win|Megaman087
+|raw|furrybuoy's rating: 1398 &rarr; <strong>1381</strong><br />(-17 for losing)
+|raw|Megaman087's rating: 1458 &rarr; <strong>1475</strong><br />(+17 for winning)
+|c|☆Megaman087|Thank you
+|c|☆furrybuoy|np ggs man
+|c|☆Megaman087|Ggs

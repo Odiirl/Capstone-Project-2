@@ -1,0 +1,102 @@
+|j|☆Hydracrew
+|j|☆zexal325
+|t:|1750793061
+|gametype|doubles
+|player|p1|Hydracrew|169|1256
+|player|p2|zexal325|265|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Snorlax, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Scyther, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hydracrew)
+|
+|t:|1750793093
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Scyther|Scyther, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750793111
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Scyther|Electric Seed
+|-boost|p2a: Scyther|def|1|[from] item: Electric Seed
+|move|p1b: Rillaboom|Fake Out|p2a: Scyther
+|-damage|p2a: Scyther|95/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Scyther|16/100
+|-damage|p2b: Miraidon|48/100
+|cant|p2a: Scyther|flinch
+|-ability|p2a: Scyther|Steadfast|boost
+|-boost|p2a: Scyther|spe|1
+|
+|upkeep
+|turn|2
+|inactive|Hydracrew has 30 seconds left.
+|
+|t:|1750793138
+|move|p2a: Scyther|Acrobatics|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|21/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Scyther|0 fnt
+|-damage|p2b: Miraidon|4/100
+|faint|p2a: Scyther
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Miraidon|Electro Drift|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|move|p1b: Rillaboom|U-turn|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|t:|1750793149
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750793152
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|3
+|-message|zexal325 forfeited.
+|
+|win|Hydracrew
+|raw|Hydracrew's rating: 1256 &rarr; <strong>1276</strong><br />(+20 for winning)
+|raw|zexal325's rating: 1190 &rarr; <strong>1170</strong><br />(-20 for losing)
+|l|☆Hydracrew
+|player|p1|

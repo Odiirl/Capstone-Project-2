@@ -1,0 +1,158 @@
+|j|☆Mullite
+|j|☆Esh009
+|t:|1750752926
+|gametype|doubles
+|player|p1|Mullite|byron|1071
+|player|p2|Esh009|lucas|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Giratina, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750752986
+|start
+|switch|p1a: luchtballoon|Giratina, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: luchtballoon|Pressure
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: luchtballoon|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750753013
+|-terastallize|p2a: Calyrex|Normal
+|move|p2b: Incineroar|Fake Out|p1b: Grimmsnarl
+|-crit|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|83/100
+|move|p2a: Calyrex|Astral Barrage|p1a: luchtballoon|[spread] p1a,p1b
+|-supereffective|p1a: luchtballoon
+|-resisted|p1b: Grimmsnarl
+|-damage|p1a: luchtballoon|16/100
+|-damage|p1b: Grimmsnarl|51/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: luchtballoon|Shadow Force||[still]
+|-prepare|p1a: luchtballoon|Shadow Force
+|cant|p1b: Grimmsnarl|flinch
+|
+|-heal|p1a: luchtballoon|23/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750753036
+|move|p1b: Grimmsnarl|Torment|p2a: Calyrex
+|-start|p2a: Calyrex|Torment
+|move|p2a: Calyrex|Astral Barrage|p1b: Grimmsnarl|[spread] p1b
+|-miss|p2a: Calyrex|p1a: luchtballoon
+|-resisted|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|20/100
+|-damage|p2a: Calyrex|81/100|[from] item: Life Orb
+|move|p1a: luchtballoon|Shadow Force|p2a: Calyrex|[from] lockedmove
+|-immune|p2a: Calyrex
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Grimmsnarl
+|-status|p1b: Grimmsnarl|brn
+|
+|-heal|p1a: luchtballoon|29/100|[from] item: Leftovers
+|-damage|p1b: Grimmsnarl|14/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750753062
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Mullite|move: Light Screen
+|move|p1a: luchtballoon|Will-O-Wisp|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Flare Blitz|p1a: luchtballoon
+|-resisted|p1a: luchtballoon
+|-damage|p1a: luchtballoon|15/100
+|-damage|p2b: Incineroar|95/100|[from] Recoil
+|
+|-heal|p1a: luchtballoon|21/100|[from] item: Leftovers
+|-damage|p1b: Grimmsnarl|8/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750753098
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p1a: luchtballoon|Shadow Force||[still]
+|-prepare|p1a: luchtballoon|Shadow Force
+|move|p2a: Calyrex|Astral Barrage|p1a: luchtballoon|[spread] p1b
+|-miss|p2a: Calyrex|p1a: luchtballoon
+|-resisted|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|71/100 par|[from] item: Life Orb
+|
+|-heal|p1a: luchtballoon|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750753137
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750753155
+|switch|p2a: Incineroar|Incineroar, L50, M|95/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: luchtballoon|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p2b: Urshifu|U-turn|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|60/100
+|
+|t:|1750753163
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100|[from] U-turn
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1a: luchtballoon|Shadow Force|p2a: Incineroar|[from] lockedmove
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|87/100
+|-damage|p1a: luchtballoon|11/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p1b: Rillaboom|Wood Hammer|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|68/100
+|-damage|p1b: Rillaboom|43/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|-damage|p1b: Rillaboom|37/100|[from] Recoil
+|
+|-heal|p1a: luchtballoon|17/100|[from] Grassy Terrain
+|-heal|p1a: luchtballoon|24/100|[from] item: Leftovers
+|-heal|p1b: Rillaboom|43/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|74/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Mullite forfeited.
+|
+|win|Esh009
+|raw|Mullite's rating: 1071 &rarr; <strong>1053</strong><br />(-18 for losing)
+|raw|Esh009's rating: 1118 &rarr; <strong>1140</strong><br />(+22 for winning)
+|l|☆Mullite
+|player|p1|
+|l|☆Esh009
+|player|p2|

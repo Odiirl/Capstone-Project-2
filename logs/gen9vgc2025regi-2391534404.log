@@ -1,0 +1,169 @@
+|j|☆cutdihacker
+|j|☆Pallow
+|t:|1750867333
+|gametype|doubles
+|player|p1|cutdihacker|266|1402
+|player|p2|Pallow|1|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Spiritomb, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Jolteon, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Eternatus, L50|
+|poke|p2|Dachsbun, L50, M|
+|teampreview|4
+|
+|t:|1750867358
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750867378
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2b: Urshifu|Surging Strikes|p1b: Clefairy
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|81/100
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|63/100
+|-crit|p1b: Clefairy
+|-damage|p1b: Clefairy|42/100
+|-hitcount|p1b: Clefairy|3
+|move|p1a: Calyrex|Psyshock|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|upkeep
+|
+|t:|1750867385
+|switch|p2b: Spiritomb|Spiritomb, L50, F|100/100
+|turn|2
+|
+|t:|1750867406
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Calyrex|Astral Barrage|p2a: Terapagos|[spread] p2b
+|-immune|p2a: Terapagos
+|-damage|p2b: Spiritomb|0 fnt
+|faint|p2b: Spiritomb
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|move|p2a: Terapagos|Tera Starstorm|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Calyrex|41/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|
+|upkeep
+|
+|t:|1750867422
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Eternatus|Pressure
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Eternatus|atk|1
+|turn|3
+|
+|t:|1750867429
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Terapagos
+|-damage|p2a: Terapagos|95/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Terapagos|[spread] 
+|-activate|p2b: Eternatus|move: Protect
+|-immune|p2a: Terapagos
+|move|p2a: Terapagos|Tera Starstorm|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Incineroar|58/100
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750867439
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750867450
+|move|p1a: Zamazenta|Body Press|p2a: Terapagos
+|-supereffective|p2a: Terapagos
+|-damage|p2a: Terapagos|7/100
+|move|p2b: Eternatus|Dynamax Cannon|p1b: Incineroar
+|-damage|p1b: Incineroar|5/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|30/100|[from] item: Sitrus Berry
+|-damage|p2b: Eternatus|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Tera Starstorm|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|59/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|turn|5
+|
+|t:|1750867470
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Zamazenta|Body Press|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p2b: Eternatus|Dynamax Cannon|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100
+|-damage|p2b: Eternatus|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1750867479
+|move|p1a: Zamazenta|Body Press|p2a: Terapagos
+|-supereffective|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|move|p2b: Eternatus|Dynamax Cannon|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2b: Eternatus|72/100|[from] item: Life Orb
+|
+|win|Pallow
+|raw|cutdihacker's rating: 1402 &rarr; <strong>1382</strong><br />(-20 for losing)
+|raw|Pallow's rating: 1396 &rarr; <strong>1416</strong><br />(+20 for winning)
+|l|☆cutdihacker
+|player|p1|
+|l|☆Pallow
+|player|p2|

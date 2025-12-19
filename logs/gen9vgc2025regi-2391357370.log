@@ -1,0 +1,230 @@
+|j|☆givi
+|j|☆plsnotxerneas
+|t:|1750842775
+|gametype|doubles
+|player|p1|givi|1|1237
+|player|p2|plsnotxerneas|maid|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slither Wing, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Luvdisc, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by plsnotxerneas)
+|
+|t:|1750842801
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Luvdisc|Luvdisc, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Luvdisc|atk|1
+|turn|1
+|
+|t:|1750842821
+|move|p2a: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|94/100
+|move|p1b: Incineroar|Fake Out|p2b: Luvdisc
+|-damage|p2b: Luvdisc|80/100
+|cant|p1a: Miraidon|flinch
+|cant|p2b: Luvdisc|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750842833
+|move|p2b: Luvdisc|Protect|p2b: Luvdisc
+|-singleturn|p2b: Luvdisc|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|
+|t:|1750842841
+|switch|p1a: Slither Wing|Slither Wing, L50|100/100|[from] Volt Switch
+|move|p2a: Incineroar|Parting Shot|p1a: Slither Wing
+|-fail|p1a: Slither Wing|unboost|[from] item: Clear Amulet|[of] p1a: Slither Wing
+|move|p1b: Incineroar|U-turn|p2b: Luvdisc
+|-activate|p2b: Luvdisc|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750842856
+|move|p2b: Luvdisc|Protect|p2b: Luvdisc
+|-singleturn|p2b: Luvdisc|Protect
+|move|p1a: Slither Wing|Leech Life|p2b: Luvdisc
+|-activate|p2b: Luvdisc|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1750842866
+|switch|p2a: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1b: Incineroar|U-turn|p2a: Kyogre
+|-damage|p2a: Kyogre|87/100
+|
+|t:|1750842872
+|switch|p1b: Groudon|Groudon, L50|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750842894
+|switch|p2a: Incineroar|Incineroar, L50, F|22/100
+|move|p1b: Groudon|Bulldoze|p2b: Luvdisc|[spread] p1a,p2a,p2b
+|-resisted|p1a: Slither Wing
+|-supereffective|p2a: Incineroar
+|-damage|p1a: Slither Wing|84/100
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Luvdisc|32/100
+|-unboost|p2b: Luvdisc|spe|1
+|faint|p2a: Incineroar
+|move|p1a: Slither Wing|Leech Life|p2b: Luvdisc
+|-damage|p2b: Luvdisc|0 fnt
+|-heal|p1a: Slither Wing|99/100|[from] drain|[of] p2b: Luvdisc
+|faint|p2b: Luvdisc
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750842903
+|switch|p2b: Kyogre|Kyogre, L50|87/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-end|p1a: Slither Wing|Protosynthesis
+|turn|5
+|
+|t:|1750842910
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|move|p1a: Slither Wing|Protect|p1a: Slither Wing
+|-singleturn|p1a: Slither Wing|Protect
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p2b: Kyogre|Origin Pulse|p1a: Slither Wing|[spread] p1b
+|-activate|p1a: Slither Wing|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|10/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|givi has 30 seconds left.
+|
+|t:|1750842943
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p1a: Slither Wing|Close Combat|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p2b: Kyogre|Ice Beam|p1a: Slither Wing
+|-damage|p1a: Slither Wing|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750842960
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Zacian|Behemoth Blade|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|move|p2b: Kyogre|Water Spout|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750842973
+|switch|p1a: Incineroar|Incineroar, L50, F|10/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|8
+|
+|t:|1750842977
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Kyogre
+|-activate|p2b: Kyogre|move: Protect
+|move|p1b: Groudon|Precipice Blades|p2b: Kyogre|[spread] 
+|-activate|p2a: Zacian|move: Protect
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750842986
+|-terastallize|p2a: Zacian|Ground
+|move|p1b: Groudon|Precipice Blades|p2a: Zacian|[spread] p2a,p2b
+|-damage|p2a: Zacian|52/100
+|-damage|p2b: Kyogre|30/100
+|move|p2a: Zacian|Behemoth Blade|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2b: Kyogre|Water Spout|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750842996
+|switch|p1b: Miraidon|Miraidon, L50|94/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|10
+|
+|t:|1750843002
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Zacian|Play Rough|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Zacian|[spread] p2a,p2b
+|-damage|p2a: Zacian|0 fnt
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2a: Zacian
+|faint|p2b: Kyogre
+|
+|win|givi
+|raw|givi's rating: 1237 &rarr; <strong>1264</strong><br />(+27 for winning)
+|raw|plsnotxerneas's rating: 1261 &rarr; <strong>1234</strong><br />(-27 for losing)
+|l|☆plsnotxerneas
+|player|p2|
+|l|☆givi
+|player|p1|

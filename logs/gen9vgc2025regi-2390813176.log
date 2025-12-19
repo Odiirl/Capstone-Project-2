@@ -1,0 +1,168 @@
+|j|☆AndyBadandy
+|j|☆MalteseShark
+|t:|1750771234
+|gametype|doubles
+|player|p1|AndyBadandy|169|1436
+|player|p2|MalteseShark|169|1437
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750771292
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MalteseShark)
+|
+|t:|1750771320
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Amoonguss|atk|1
+|-terastallize|p2a: Calyrex|Fire
+|move|p1a: Calyrex|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Calyrex|22/100
+|-damage|p1b: Incineroar|78/100
+|cant|p2b: Amoonguss|move: Taunt|Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750771342
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Calyrex|Psychic|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750771352
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|3
+|
+|t:|1750771361
+|-terastallize|p1a: Calyrex|Ghost
+|move|p2b: Garchomp|Crunch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-damage|p2a: Calyrex|77/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|11/100
+|-damage|p2a: Calyrex|61/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750771372
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|4
+|
+|t:|1750771383
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Miraidon
+|-unboost|p2b: Miraidon|atk|1
+|-unboost|p2b: Miraidon|spa|1
+|
+|t:|1750771393
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|
+|upkeep
+|turn|5
+|inactive|MalteseShark has 30 seconds left.
+|
+|t:|1750771424
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p1b: Miraidon|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750771434
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Fire|61/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750771447
+|switch|p1b: Incineroar|Incineroar, L50, M|11/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|move|p2a: Garchomp|Rock Slide|p1a: Whimsicott|[spread] p1b
+|-miss|p2a: Garchomp|p1a: Whimsicott
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Whimsicott|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|55/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750771459
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|7
+|-message|AndyBadandy forfeited.
+|
+|win|MalteseShark
+|raw|AndyBadandy's rating: 1436 &rarr; <strong>1416</strong><br />(-20 for losing)
+|raw|MalteseShark's rating: 1437 &rarr; <strong>1457</strong><br />(+20 for winning)
+|l|☆AndyBadandy
+|player|p1|
+|l|☆MalteseShark
+|player|p2|

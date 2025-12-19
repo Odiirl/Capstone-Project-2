@@ -1,0 +1,158 @@
+|j|☆BIDOOF FINAL BOSS
+|j|☆Lopezabn
+|t:|1750797134
+|gametype|doubles
+|player|p1|BIDOOF FINAL BOSS|bellelba|1073
+|player|p2|Lopezabn|101|1146
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Meganium, L50, F|
+|teampreview|4
+|
+|t:|1750797157
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Meganium|Meganium, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750797233
+|move|p2b: Gothitelle|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|95/100
+|move|p1a: Miraidon|Electro Drift|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|cant|p1b: Urshifu|flinch
+|move|p2a: Meganium|Leech Seed|p1a: Miraidon
+|-start|p1a: Miraidon|move: Leech Seed
+|
+|-damage|p1a: Miraidon|88/100|[from] Leech Seed|[of] p2a: Meganium
+|upkeep
+|
+|t:|1750797247
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750797268
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1b: Urshifu|Sucker Punch|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|83/100
+|move|p2b: Koraidon|Close Combat|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Urshifu
+|-damage|p2b: Koraidon|73/100|[from] item: Life Orb
+|move|p2a: Meganium|Light Screen|p2a: Meganium
+|-sidestart|p2: Lopezabn|move: Light Screen
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797278
+|switch|p1b: Miraidon|Miraidon, L50|88/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BIDOOF FINAL BOSS)
+|
+|t:|1750797390
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Farigiraf|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Scream Tail|[spread] p2a,p2b
+|-crit|p2a: Meganium
+|-damage|p2a: Meganium|0 fnt
+|-damage|p2b: Scream Tail|58/100
+|faint|p2a: Meganium
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797406
+|switch|p2a: Koraidon|Koraidon, L50|73/100
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|inactive|BIDOOF FINAL BOSS has 20 seconds left.
+|inactive|BIDOOF FINAL BOSS has 15 seconds left.
+|inactive|BIDOOF FINAL BOSS has 10 seconds left.
+|inactive|BIDOOF FINAL BOSS has 5 seconds left.
+|
+|t:|1750797461
+|move|p2b: Scream Tail|Disable|p1b: Miraidon
+|-start|p1b: Miraidon|Disable|Dazzling Gleam
+|cant|p1b: Miraidon|Disable|Dazzling Gleam
+|move|p2a: Koraidon|Flame Charge|p1b: Miraidon
+|-damage|p1b: Miraidon|40/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|63/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Psychic Noise|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|26/100
+|-start|p2a: Koraidon|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|inactive|Lopezabn has 30 seconds left.
+|inactive|BIDOOF FINAL BOSS has 20 seconds left.
+|inactive|Lopezabn has 20 seconds left.
+|inactive|BIDOOF FINAL BOSS has 15 seconds left.
+|inactive|Lopezabn has 15 seconds left.
+|inactive|BIDOOF FINAL BOSS has 10 seconds left.
+|inactive|Lopezabn has 10 seconds left.
+|inactive|BIDOOF FINAL BOSS has 5 seconds left.
+|inactive|Lopezabn has 5 seconds left.
+|
+|t:|1750797516
+|move|p2a: Koraidon|Flame Charge|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Miraidon
+|-damage|p2a: Koraidon|16/100|[from] item: Life Orb
+|move|p2b: Scream Tail|Encore|p1a: Farigiraf
+|-start|p1a: Farigiraf|Encore
+|move|p1a: Farigiraf|Psychic Noise|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|Lopezabn forfeited.
+|
+|win|BIDOOF FINAL BOSS
+|raw|BIDOOF FINAL BOSS's rating: 1073 &rarr; <strong>1108</strong><br />(+35 for winning)
+|raw|Lopezabn's rating: 1146 &rarr; <strong>1116</strong><br />(-30 for losing)
+|l|☆Lopezabn
+|player|p2|

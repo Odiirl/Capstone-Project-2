@@ -1,0 +1,154 @@
+|j|☆jhimbo2100
+|j|☆6yanGGG
+|t:|1750828553
+|gametype|doubles
+|player|p1|jhimbo2100|1|1165
+|player|p2|6yanGGG|1|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Araquanid, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750828577
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|turn|1
+|
+|t:|1750828601
+|-terastallize|p1a: Lunala|Fairy
+|move|p1b: Annihilape|Final Gambit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Incineroar
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|79/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|
+|t:|1750828615
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750828660
+|-terastallize|p2b: Calyrex|Normal
+|move|p1b: Ursaluna|Hyper Voice|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|57/100
+|-damage|p2b: Calyrex|59/100
+|-enditem|p1b: Ursaluna|Throat Spray
+|-boost|p1b: Ursaluna|spa|1|[from] item: Throat Spray
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-immune|p2b: Calyrex
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|37/100
+|move|p2b: Calyrex|Energy Ball|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|25/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750828686
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Ursaluna|Hyper Voice|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Lunala|Moonblast|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750828698
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750828723
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Ursaluna|Hyper Voice|p2b: Calyrex|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Calyrex|3/100
+|move|p1a: Lunala|Moonblast|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Calyrex|Psychic|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828727
+|switch|p1a: Araquanid|Araquanid, L50, M|100/100
+|turn|5
+|
+|t:|1750828763
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Ursaluna|Earth Power|p2a: Koraidon
+|-damage|p2a: Koraidon|28/100
+|move|p1a: Araquanid|Liquidation|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|12/100
+|move|p2a: Koraidon|Flare Blitz|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-damage|p2a: Koraidon|3/100|[from] Recoil
+|-damage|p2a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750828789
+|move|p2b: Calyrex|Astral Barrage|p1a: Araquanid
+|-damage|p1a: Araquanid|42/100
+|move|p1a: Araquanid|Liquidation|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|jhimbo2100
+|raw|jhimbo2100's rating: 1165 &rarr; <strong>1194</strong><br />(+29 for winning)
+|raw|6yanGGG's rating: 1214 &rarr; <strong>1185</strong><br />(-29 for losing)
+|l|☆jhimbo2100
+|player|p1|
+|c|☆6yanGGG|gg
+|l|☆6yanGGG
+|player|p2|

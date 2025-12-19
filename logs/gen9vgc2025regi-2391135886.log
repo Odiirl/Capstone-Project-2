@@ -1,0 +1,177 @@
+|j|☆WindyEng
+|j|☆vvinterinkanto
+|t:|1750806931
+|gametype|doubles
+|player|p1|WindyEng|musician|1268
+|player|p2|vvinterinkanto|ingo|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Yanmega, L50, M|
+|poke|p1|Iron Crown, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Exeggutor, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vvinterinkanto)
+|
+|t:|1750806959
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Iron Crown|Iron Crown, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p1b: Iron Crown|Booster Energy
+|-activate|p1b: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1750806986
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: vvinterinkanto|move: Light Screen
+|move|p1b: Iron Crown|Tachyon Cutter|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|94/100
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|87/100
+|-hitcount|p2a: Miraidon|2
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|
+|upkeep
+|turn|2
+|inactive|vvinterinkanto has 30 seconds left.
+|inactive|vvinterinkanto has 20 seconds left.
+|inactive|vvinterinkanto has 15 seconds left.
+|inactive|vvinterinkanto has 10 seconds left.
+|
+|t:|1750807031
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Iron Crown
+|-status|p1b: Iron Crown|par
+|move|p2a: Miraidon|Electro Drift|p1b: Iron Crown
+|-damage|p1b: Iron Crown|10/100 par
+|move|p1b: Iron Crown|Gravity|p1b: Iron Crown
+|-fieldstart|move: Gravity
+|move|p1a: Indeedee|Shadow Ball|p2a: Miraidon
+|-damage|p2a: Miraidon|72/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750807052
+|-end|p1b: Iron Crown|Quark Drive|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|switch|p1a: Exeggutor|Exeggutor, L50, M|100/100
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: vvinterinkanto|Reflect
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Groudon|[spread] p1a,p1b
+|-damage|p1a: Exeggutor|64/100
+|-damage|p1b: Groudon|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750807072
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Exeggutor|atk|1
+|-unboost|p1b: Groudon|atk|1
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1b: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-crit|p2b: Grimmsnarl
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Grimmsnarl
+|move|p1a: Exeggutor|Hypnosis|p2: Incineroar|[notarget]
+|-fail|p1a: Exeggutor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750807089
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|72/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750807105
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Miraidon|Protect|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Protect
+|move|p1a: Exeggutor|Expanding Force|p2b: Miraidon|[spread] p2a
+|-activate|p2b: Miraidon|move: Protect
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|89/100
+|-damage|p1a: Exeggutor|54/100 par|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1b: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Exeggutor
+|faint|p1b: Indeedee
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750807115
+|switch|p1a: Iron Crown|Iron Crown, L50|10/100 par
+|switch|p1b: Groudon|Groudon, L50|70/100
+|turn|6
+|
+|t:|1750807138
+|-terastallize|p2a: Calyrex|Fire
+|move|p2b: Miraidon|Dragon Pulse|p1b: Groudon
+|-damage|p1b: Groudon|18/100
+|move|p1b: Groudon|Precipice Blades|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Calyrex|16/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Calyrex|Glacial Lance|p1a: Iron Crown|[spread] p1a,p1b
+|-resisted|p1a: Iron Crown
+|-supereffective|p1b: Groudon
+|-damage|p1a: Iron Crown|0 fnt
+|-damage|p1b: Groudon|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|faint|p1b: Groudon
+|
+|win|vvinterinkanto
+|raw|WindyEng's rating: 1268 &rarr; <strong>1239</strong><br />(-29 for losing)
+|raw|vvinterinkanto's rating: 1212 &rarr; <strong>1241</strong><br />(+29 for winning)
+|l|☆WindyEng
+|player|p1|
+|l|☆vvinterinkanto
+|player|p2|

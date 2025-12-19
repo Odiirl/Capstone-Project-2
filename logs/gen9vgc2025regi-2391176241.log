@@ -1,0 +1,196 @@
+|j|☆Jzvictini
+|j|☆Iamsliverfish
+|t:|1750812240
+|gametype|doubles
+|player|p1|Jzvictini|266|1663
+|player|p2|Iamsliverfish|silver-masters|1800
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750812264
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: combatduck|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Dogtile|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Dogtile|Dauntless Shield|boost
+|-boost|p2b: Dogtile|def|1
+|turn|1
+|
+|t:|1750812279
+|move|p1b: Smeargle|Fake Out|p2a: combatduck
+|-damage|p2a: combatduck|96/100
+|move|p2b: Dogtile|Body Press|p1b: Smeargle
+|-supereffective|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|cant|p2a: combatduck|flinch
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750812290
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: combatduck|Aqua Jet|p1b: Smeargle
+|-activate|p1b: Smeargle|move: Psychic Terrain
+|move|p1b: Smeargle|Spore|p2b: Dogtile
+|-status|p2b: Dogtile|slp|[from] move: Spore
+|cant|p2b: Dogtile|slp
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750812303
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|switch|p2a: duckhair|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: duckhair
+|move|p1b: Smeargle|Spore|p2a: duckhair
+|-immune|p2a: duckhair
+|cant|p2b: Dogtile|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Smeargle|7/100|[from] Grassy Terrain
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|4
+|
+|t:|1750812319
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-terastallize|p1a: Kyogre|Water
+|-terastallize|p2b: Dogtile|Grass
+|move|p1a: Kyogre|Water Spout|p2b: Dogtile|[spread] p2a,p2b
+|-resisted|p2a: duckhair
+|-resisted|p2b: Dogtile
+|-damage|p2a: duckhair|51/100
+|-damage|p2b: Dogtile|50/100 slp
+|move|p2a: duckhair|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|51/100
+|
+|t:|1750812324
+|switch|p2a: Duckwhale|Kyogre, L50|100/100|[from] U-turn
+|-curestatus|p2b: Dogtile|slp|[msg]
+|move|p2b: Dogtile|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750812335
+|move|p1a: Kyogre|Hydro Pump|p2b: Dogtile
+|-resisted|p2b: Dogtile
+|-damage|p2b: Dogtile|0 fnt
+|faint|p2b: Dogtile
+|move|p1b: Indeedee|Psychic|p2a: Duckwhale
+|-crit|p2a: Duckwhale
+|-damage|p2a: Duckwhale|64/100
+|move|p2a: Duckwhale|Water Spout|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|14/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750812352
+|switch|p2b: combatduck|Urshifu-Rapid-Strike, L50, F|96/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750812361
+|move|p2a: Duckwhale|Origin Pulse|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Calyrex|51/100
+|faint|p1a: Kyogre
+|move|p2b: combatduck|Taunt|p1b: Calyrex
+|-start|p1b: Calyrex|move: Taunt
+|cant|p1b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750812364
+|switch|p1a: Smeargle|Smeargle, L50, M|7/100
+|turn|7
+|
+|t:|1750812377
+|switch|p2a: duckhair|Rillaboom, L50, F|51/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: duckhair
+|move|p2b: combatduck|Aqua Jet|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|move|p1b: Calyrex|Glacial Lance|p2a: duckhair|[spread] p2a,p2b
+|-supereffective|p2a: duckhair
+|-resisted|p2b: combatduck
+|-damage|p2a: duckhair|0 fnt
+|-damage|p2b: combatduck|67/100
+|faint|p2a: duckhair
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|none
+|-heal|p2b: combatduck|73/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750812379
+|switch|p2a: Duckwhale|Kyogre, L50|64/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Duckwhale
+|turn|8
+|
+|t:|1750812383
+|move|p2a: Duckwhale|Water Spout|p1b: Calyrex
+|-damage|p1b: Calyrex|4/100
+|move|p2b: combatduck|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-hitcount|p1: Calyrex|1
+|
+|win|Iamsliverfish
+|raw|Jzvictini's rating: 1663 &rarr; <strong>1651</strong><br />(-12 for losing)
+|raw|Iamsliverfish's rating: 1800 &rarr; <strong>1812</strong><br />(+12 for winning)
+|l|☆Jzvictini
+|player|p1|
+|l|☆Iamsliverfish
+|player|p2|

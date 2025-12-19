@@ -1,0 +1,166 @@
+|j|☆thehahathefunny
+|j|☆Azemon
+|t:|1750770650
+|gametype|doubles
+|player|p1|thehahathefunny|dawn|1300
+|player|p2|Azemon|266|1452
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thehahathefunny)
+|inactive|Azemon has 60 seconds left.
+|
+|t:|1750770721
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Glimmora|Glimmora, L50, M|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|1
+|inactive|thehahathefunny has 30 seconds left.
+|
+|t:|1750770759
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2b: Sneasler|Fake Out|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2b: Sneasler|88/100|[from] Spiky Shield|[of] p1a: Ogerpon
+|move|p2a: Zacian|Behemoth Blade|p1b: Glimmora
+|-supereffective|p1b: Glimmora
+|-enditem|p1b: Glimmora|Focus Sash
+|-damage|p1b: Glimmora|1/100
+|-activate|p1b: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Azemon|move: Toxic Spikes
+|move|p1b: Glimmora|Earth Power|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|45/100
+|-unboost|p2a: Zacian|spd|1
+|
+|upkeep
+|turn|2
+|inactive|Azemon has 30 seconds left.
+|
+|t:|1750770792
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Zacian|Behemoth Blade|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-ability|p1a: Ogerpon|Sturdy
+|-damage|p1a: Ogerpon|1/100
+|move|p2b: Sneasler|Dire Claw|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|move|p1b: Glimmora|Earth Power|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1750770810
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-status|p2b: Kyogre|psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1a: Eternatus|Pressure
+|turn|3
+|
+|t:|1750770834
+|-terastallize|p2b: Kyogre|Water
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Eternatus|[spread] p1b
+|-activate|p1a: Eternatus|move: Protect
+|-supereffective|p1b: Glimmora
+|-damage|p1b: Glimmora|0 fnt
+|faint|p1b: Glimmora
+|move|p2a: Zacian|Play Rough|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Kyogre|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1750770850
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|4
+|inactive|thehahathefunny has 30 seconds left.
+|
+|t:|1750770875
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|move|p2b: Kyogre|Water Spout|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|74/100
+|-damage|p1b: Terapagos|58/100
+|move|p2a: Zacian|Sacred Sword|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|move|p1a: Eternatus|Sludge Bomb|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|27/100 psn
+|
+|-heal|p1a: Eternatus|80/100|[from] item: Black Sludge
+|-damage|p2b: Kyogre|14/100 psn|[from] psn
+|upkeep
+|turn|5
+|inactive|Azemon has 30 seconds left.
+|
+|t:|1750770900
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-status|p2b: Farigiraf|psn
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2a: Zacian|Play Rough|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|
+|-heal|p1a: Eternatus|86/100|[from] item: Black Sludge
+|-damage|p2b: Farigiraf|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750770915
+|move|p2a: Zacian|Play Rough|p1a: Eternatus
+|-damage|p1a: Eternatus|35/100
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Zacian
+|-immune|p2a: Zacian
+|move|p2b: Farigiraf|Psychic Noise|p1a: Eternatus
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|
+|win|Azemon
+|raw|thehahathefunny's rating: 1300 &rarr; <strong>1285</strong><br />(-15 for losing)
+|raw|Azemon's rating: 1452 &rarr; <strong>1464</strong><br />(+12 for winning)
+|l|☆thehahathefunny
+|player|p1|
+|l|☆Azemon
+|player|p2|

@@ -1,0 +1,140 @@
+|j|☆Teamtest09
+|j|☆something123
+|t:|1750743561
+|gametype|doubles
+|player|p1|Teamtest09|unknown|1533
+|player|p2|something123|102|1711
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rhyperior, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Teamtest09)
+|inactive|something123 has 60 seconds left.
+|
+|t:|1750743695
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|something123 has 30 seconds left.
+|
+|t:|1750743720
+|-terastallize|p2a: Calyrex|Grass
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Weezing|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750743744
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2b: Amoonguss|Pollen Puff|p1b: Calyrex
+|-damage|p1b: Calyrex|82/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1b
+|-activate|p1a: Weezing|move: Protect
+|-damage|p1b: Calyrex|25/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Amoonguss|[spread] p2a,p2b
+|-damage|p2a: Calyrex|59/100
+|-damage|p2b: Amoonguss|43/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750743761
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Amoonguss|Pollen Puff|p2a: Calyrex
+|-heal|p2a: Calyrex|100/100
+|move|p1a: Weezing|Poison Gas|p2b: Amoonguss|[spread] p2a,p2b
+|-status|p2a: Calyrex|psn
+|-immune|p2b: Amoonguss
+|move|p2a: Calyrex|Glacial Lance|p1a: Weezing|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Weezing|51/100
+|
+|-damage|p2a: Calyrex|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750743784
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2b: Amoonguss|Pollen Puff|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Weezing|[spread] p1b
+|-activate|p1a: Weezing|move: Protect
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p2a: Calyrex|75/100 psn|[from] psn
+|-end|p2b: Amoonguss|move: Taunt
+|upkeep
+|
+|t:|1750743797
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750743806
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Brute Bonnet|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Calyrex|63/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|-message|Teamtest09 forfeited.
+|
+|win|something123
+|raw|Teamtest09's rating: 1533 &rarr; <strong>1522</strong><br />(-11 for losing)
+|raw|something123's rating: 1711 &rarr; <strong>1722</strong><br />(+11 for winning)
+|l|☆Teamtest09
+|player|p1|
+|l|☆something123
+|player|p2|

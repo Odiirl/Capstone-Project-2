@@ -1,0 +1,155 @@
+|j|☆Backalaking
+|j|☆harshachanamolu
+|t:|1750826758
+|gametype|doubles
+|player|p1|Backalaking|101|1136
+|player|p2|harshachanamolu|2|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Hydrapple, L50, F|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by harshachanamolu)
+|inactive|harshachanamolu has 60 seconds left.
+|
+|t:|1750826807
+|start
+|switch|p1a: Landorus|Landorus-Therian, L50, M|100/100
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1b: Palkia|Pressure
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefairy|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750826827
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p2b: Miraidon|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|-unboost|p2b: Miraidon|spa|2
+|-enditem|p1a: Landorus|Sitrus Berry|[eat]
+|-heal|p1a: Landorus|32/100|[from] item: Sitrus Berry
+|move|p1a: Landorus|Taunt|p2a: Clefairy
+|-start|p2a: Clefairy|move: Taunt
+|
+|upkeep
+|turn|2
+|inactive|Backalaking has 30 seconds left.
+|
+|t:|1750826854
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Palkia|Dragon Pulse|p2b: Scovillain
+|-damage|p2b: Scovillain|6/100
+|move|p1a: Landorus|Earth Power|p2b: Scovillain
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826873
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750826886
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2b: Miraidon|Draco Meteor|p1b: Palkia
+|-supereffective|p1b: Palkia
+|-damage|p1b: Palkia|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Palkia
+|move|p2a: Koraidon|Flare Blitz|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826899
+|switch|p1b: Hydrapple|Hydrapple, L50, F|100/100
+|turn|4
+|
+|t:|1750826913
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Miraidon|Draco Meteor|p1b: Hydrapple
+|-supereffective|p1b: Hydrapple
+|-crit|p1b: Hydrapple
+|-damage|p1b: Hydrapple|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Hydrapple
+|move|p2a: Koraidon|Flare Blitz|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Koraidon|90/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826926
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|5
+|
+|t:|1750826931
+|switch|p2b: Clefairy|Clefairy, L50, F|100/100
+|-terastallize|p1b: Ho-Oh|Fire
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Ho-Oh|Earthquake|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Clefairy|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750826949
+|move|p2a: Koraidon|Collision Course|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|28/100
+|move|p1b: Ho-Oh|Earthquake|p2a: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|38/100
+|-damage|p2b: Clefairy|38/100
+|move|p2b: Clefairy|Life Dew|p2b: Clefairy|[spread] p2a,p2b
+|-heal|p2a: Koraidon|63/100
+|-heal|p2b: Clefairy|63/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|-message|Backalaking forfeited.
+|
+|win|harshachanamolu
+|raw|Backalaking's rating: 1136 &rarr; <strong>1119</strong><br />(-17 for losing)
+|raw|harshachanamolu's rating: 1256 &rarr; <strong>1273</strong><br />(+17 for winning)
+|l|☆Backalaking
+|player|p1|
+|l|☆harshachanamolu
+|player|p2|

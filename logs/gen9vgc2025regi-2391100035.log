@@ -1,0 +1,290 @@
+|j|☆KogaJunior23
+|j|☆bimbo mafioso
+|t:|1750802474
+|gametype|doubles
+|player|p1|KogaJunior23|koga|1464
+|player|p2|bimbo mafioso|swimmerf|1543
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Beartic, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bimbo mafioso)
+|inactive|bimbo mafioso has 60 seconds left.
+|
+|t:|1750802517
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750802530
+|-terastallize|p1b: Landorus|Poison
+|move|p2a: Rillaboom|Fake Out|p1b: Landorus
+|-damage|p1b: Landorus|85/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: KogaJunior23|move: Tailwind
+|cant|p1b: Landorus|flinch
+|move|p2b: Zamazenta|Heavy Slam|p1b: Landorus
+|-damage|p1b: Landorus|28/100
+|
+|-heal|p1b: Landorus|34/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750802544
+|move|p1b: Landorus|Protect|p1b: Landorus
+|-singleturn|p1b: Landorus|Protect
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Tornadus|Taunt|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1b: Landorus
+|-activate|p1b: Landorus|move: Protect
+|
+|-heal|p1b: Landorus|40/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750802555
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Tornadus|Taunt|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Taunt
+|move|p2a: Rillaboom|U-turn|p1b: Kyogre
+|-damage|p1b: Kyogre|80/100
+|
+|t:|1750802565
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|86/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750802580
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|72/100
+|-damage|p2b: Zamazenta|75/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p2b: Zamazenta|Body Press|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|92/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|81/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|78/100|[from] Grassy Terrain
+|-sideend|p1: KogaJunior23|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750802594
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-terastallize|p2b: Zamazenta|Dragon
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: KogaJunior23|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-resisted|p2b: Zamazenta
+|-damage|p2a: Rillaboom|64/100
+|-damage|p2b: Zamazenta|38/100
+|move|p2b: Zamazenta|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|36/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|44/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|70/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750802613
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Zamazenta|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|-damage|p2b: Zamazenta|20/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Tornadus
+|-damage|p1a: Tornadus|52/100
+|move|p2a: Rillaboom|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|41/100
+|
+|t:|1750802623
+|switch|p2a: Incineroar|Incineroar, L50, F|78/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Zamazenta|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1750802640
+|switch|p2a: Rillaboom|Rillaboom, L50, F|18/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Zamazenta|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p1b: Kyogre|Ice Beam|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|
+|-weather|none
+|-heal|p1b: Kyogre|41/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|26/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750802649
+|switch|p2a: Incineroar|Incineroar, L50, F|78/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|turn|8
+|inactive|KogaJunior23 has 30 seconds left.
+|
+|t:|1750802675
+|switch|p1a: Landorus|Landorus, L50, M, tera:Poison|40/100
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p2b: Zamazenta|Heavy Slam|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p1b: Kyogre|47/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|32/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|84/100|[from] Grassy Terrain
+|-sideend|p1: KogaJunior23|move: Tailwind
+|upkeep
+|
+|t:|1750802685
+|switch|p1a: Tornadus|Tornadus, L50, M|41/100
+|turn|9
+|
+|t:|1750802708
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: KogaJunior23|move: Tailwind
+|move|p1b: Kyogre|Origin Pulse|p2b: Zamazenta|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-heal|p1b: Kyogre|53/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|38/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750802716
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750802723
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Tornadus|Taunt|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Taunt
+|move|p2a: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|
+|-heal|p1b: Kyogre|59/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|97/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|44/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750802733
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|11
+|
+|t:|1750802745
+|move|p1a: Zacian|Behemoth Blade|p2b: Zamazenta
+|-damage|p2b: Zamazenta|9/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Zamazenta
+|-damage|p2a: Calyrex|33/100
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|move|p2a: Calyrex|Astral Barrage|p1a: Zacian|[spread] p1a,p1b
+|-damage|p1a: Zacian|11/100
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|24/100|[from] item: Life Orb
+|
+|-heal|p1a: Zacian|16/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|30/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1750802759
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-sideend|p1: KogaJunior23|move: Tailwind
+|upkeep
+|turn|13
+|
+|t:|1750802763
+|move|p2a: Calyrex|Psychic|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-damage|p2a: Calyrex|20/100|[from] item: Life Orb
+|
+|win|bimbo mafioso
+|raw|KogaJunior23's rating: 1464 &rarr; <strong>1448</strong><br />(-16 for losing)
+|raw|bimbo mafioso's rating: 1543 &rarr; <strong>1559</strong><br />(+16 for winning)

@@ -1,0 +1,193 @@
+|j|☆itsmemichiel
+|j|☆Professor_J93
+|t:|1750800388
+|gametype|doubles
+|player|p1|itsmemichiel|266|1340
+|player|p2|Professor_J93|265|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Chandelure, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Professor_J93)
+|inactive|itsmemichiel has 60 seconds left.
+|
+|t:|1750800425
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Palkia|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750800442
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Palkia|Gravity|p2b: Palkia
+|-fieldstart|move: Gravity
+|move|p1b: Amoonguss|Spore|p2b: Palkia
+|-status|p2b: Palkia|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750800460
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|100/100
+|cant|p2b: Palkia|slp
+|move|p2a: Rillaboom|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|81/100
+|
+|t:|1750800466
+|switch|p2a: Fuwawa|Zacian-Crowned, L50, shiny|100/100|[from] U-turn
+|-ability|p2a: Fuwawa|Intrepid Sword|boost
+|-boost|p2a: Fuwawa|atk|1
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|87/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|itsmemichiel has 30 seconds left.
+|
+|t:|1750800492
+|move|p1a: Calyrex|Stomping Tantrum|p2a: Fuwawa
+|-supereffective|p2a: Fuwawa
+|-damage|p2a: Fuwawa|49/100
+|move|p1b: Enamorus|Earth Power|p2a: Fuwawa
+|-supereffective|p2a: Fuwawa
+|-damage|p2a: Fuwawa|0 fnt
+|faint|p2a: Fuwawa
+|cant|p2b: Palkia|slp
+|
+|-heal|p1a: Calyrex|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750800503
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1750800511
+|-curestatus|p2b: Palkia|slp|[msg]
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Professor_J93|Reflect
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a
+|-activate|p2b: Palkia|move: Protect
+|-damage|p2a: Grimmsnarl|69/100
+|move|p1b: Enamorus|Moonblast|p2b: Palkia
+|-activate|p2b: Palkia|move: Protect
+|
+|-heal|p1a: Calyrex|99/100|[from] Grassy Terrain
+|-heal|p2a: Grimmsnarl|75/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750800527
+|-terastallize|p2b: Palkia|Water
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Professor_J93|move: Light Screen
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Palkia
+|-damage|p2a: Grimmsnarl|41/100
+|-damage|p2b: Palkia|84/100
+|move|p1b: Enamorus|Moonblast|p2b: Palkia
+|-damage|p2b: Palkia|47/100
+|move|p2b: Palkia|Hydro Pump|p1b: Enamorus
+|-damage|p1b: Enamorus|32/100
+|
+|-heal|p1a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1b: Enamorus|38/100|[from] Grassy Terrain
+|-heal|p2a: Grimmsnarl|47/100|[from] Grassy Terrain
+|-heal|p2b: Palkia|53/100|[from] Grassy Terrain
+|-fieldend|move: Gravity
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|itsmemichiel has 30 seconds left.
+|
+|t:|1750800562
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|73/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Palkia
+|-damage|p2a: Grimmsnarl|13/100
+|-damage|p2b: Palkia|38/100
+|move|p1b: Enamorus|Mystical Fire|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p2b: Palkia|Spacial Rend|p1a: Calyrex
+|-damage|p1a: Calyrex|28/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750800574
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1750800592
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Rillaboom|Fake Out|p1b: Enamorus
+|-damage|p1b: Enamorus|26/100
+|move|p2b: Palkia|Spacial Rend|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|cant|p1b: Enamorus|flinch
+|
+|-heal|p2b: Palkia|44/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|34/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750800615
+|move|p2b: Palkia|Spacial Rend|p1a: Calyrex|[miss]
+|-miss|p2b: Palkia|p1a: Calyrex
+|move|p2a: Rillaboom|Drum Beating|p1b: Enamorus
+|-resisted|p1b: Enamorus
+|-damage|p1b: Enamorus|0 fnt
+|faint|p1b: Enamorus
+|move|p1a: Calyrex|Glacial Lance|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Palkia
+|-damage|p2a: Rillaboom|37/100
+|-damage|p2b: Palkia|28/100
+|
+|-heal|p2b: Palkia|34/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|43/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|40/100|[from] Grassy Terrain
+|upkeep
+|-message|Professor_J93 forfeited.
+|
+|win|itsmemichiel
+|raw|itsmemichiel's rating: 1340 &rarr; <strong>1364</strong><br />(+24 for winning)
+|raw|Professor_J93's rating: 1403 &rarr; <strong>1379</strong><br />(-24 for losing)
+|l|☆Professor_J93
+|player|p2|
+|l|☆itsmemichiel
+|player|p1|

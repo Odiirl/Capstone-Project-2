@@ -1,0 +1,140 @@
+|j|☆something123
+|j|☆dtmf
+|t:|1750739670
+|gametype|doubles
+|player|p1|something123|102|1691
+|player|p2|dtmf|grimsley|1661
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rhyperior, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|j| Lavenderawa
+|
+|t:|1750739706
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-enditem|p1b: Iron Jugulis|Booster Energy
+|-activate|p1b: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750739740
+|-terastallize|p1b: Iron Jugulis|Fire
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Iron Jugulis|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p1a: Kyogre|Water Spout|p2a: Farigiraf|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Calyrex|54/100
+|faint|p2a: Farigiraf
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Jugulis|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-resisted|p1b: Iron Jugulis
+|-damage|p1a: Kyogre|73/100
+|-damage|p1b: Iron Jugulis|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750739753
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by something123)
+|inactive|dtmf has 60 seconds left.
+|
+|t:|1750739837
+|move|p1b: Iron Jugulis|Tailwind|p1b: Iron Jugulis
+|-sidestart|p1: something123|move: Tailwind
+|move|p1a: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-resisted|p2b: Calyrex
+|-damage|p2a: Miraidon|54/100
+|-damage|p2b: Calyrex|26/100
+|move|p2a: Miraidon|Volt Switch|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|t:|1750739841
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Jugulis
+|-resisted|p1b: Iron Jugulis
+|-damage|p1b: Iron Jugulis|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|32/100|[from] item: Leftovers
+|upkeep
+|inactive|something123 has 30 seconds left.
+|
+|t:|1750739871
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|3
+|
+|t:|1750739886
+|switch|p2b: Miraidon|Miraidon, L50|54/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p2a: Urshifu|Aqua Jet|p1b: Iron Jugulis
+|-supereffective|p1b: Iron Jugulis
+|-damage|p1b: Iron Jugulis|0 fnt
+|faint|p1b: Iron Jugulis
+|-end|p1b: Iron Jugulis|Quark Drive|[silent]
+|move|p1a: Urshifu|Surging Strikes|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|32/100
+|-resisted|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|12/100
+|-resisted|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-hitcount|p2: Miraidon|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750739893
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Water|32/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|-message|dtmf forfeited.
+|
+|win|something123
+|raw|something123's rating: 1691 &rarr; <strong>1709</strong><br />(+18 for winning)
+|raw|dtmf's rating: 1661 &rarr; <strong>1643</strong><br />(-18 for losing)
+|l|☆dtmf
+|player|p2|
+|l|☆something123
+|player|p1|
+|l| Lavenderawa

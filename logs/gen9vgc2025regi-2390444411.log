@@ -1,0 +1,184 @@
+|j|☆Raven kama
+|j|☆ladyhershay
+|t:|1750714007
+|gametype|doubles
+|player|p1|Raven kama|265|1033
+|player|p2|ladyhershay|swimmerf-gen4|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gliscor, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Cramorant, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Politoed, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ladyhershay)
+|
+|t:|1750714026
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p1b: Armarouge|Armarouge, L50, F, shiny|100/100
+|switch|p2a: Cammy Streets|Cramorant, L50, F|100/100
+|switch|p2b: Superior|Rhydon, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1750714040
+|move|p2b: Superior|Protect|p2b: Superior
+|-singleturn|p2b: Superior|Protect
+|move|p2a: Cammy Streets|Surf|p1b: Armarouge|[spread] p1a,p1b
+|-activate|p2b: Superior|move: Protect
+|-formechange|p2a: Cammy Streets|Cramorant-Gulping|
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Armarouge
+|-damage|p1a: Torkoal|67/100
+|-damage|p1b: Armarouge|72/100
+|move|p1b: Armarouge|Aura Sphere|p2a: Cammy Streets
+|-resisted|p2a: Cammy Streets
+|-damage|p2a: Cammy Streets|72/100
+|-damage|p1b: Armarouge|47/100|[from] ability: Gulp Missile|[of] p2a: Cammy Streets
+|-unboost|p1b: Armarouge|def|1
+|-formechange|p2a: Cammy Streets|Cramorant|
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2b: Superior
+|-activate|p2b: Superior|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|73/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|ladyhershay has 30 seconds left.
+|
+|t:|1750714072
+|move|p2a: Cammy Streets|Hurricane|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|move|p1b: Armarouge|Aura Sphere|p2a: Cammy Streets
+|-resisted|p2a: Cammy Streets
+|-damage|p2a: Cammy Streets|45/100
+|move|p2b: Superior|Rock Slide|p1a: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Armarouge
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1a: Torkoal
+|faint|p1b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750714087
+|switch|p1b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p1a: Gliscor|Gliscor, L50, F, shiny|100/100
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750714107
+|switch|p2a: Rainbow Connector|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Rainbow Connector
+|-end|p1b: Flutter Mane|Protosynthesis
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|move|p1b: Flutter Mane|Calm Mind|p1b: Flutter Mane
+|-boost|p1b: Flutter Mane|spa|1
+|-boost|p1b: Flutter Mane|spd|1
+|move|p1a: Gliscor|Thunder Fang|p2b: Superior
+|-activate|p2b: Superior|ability: Lightning Rod
+|-ability|p2b: Superior|Lightning Rod|boost
+|-boost|p2b: Superior|spa|1
+|move|p2b: Superior|High Horsepower|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1750714131
+|move|p1a: Gliscor|Earthquake|p2a: Rainbow Connector|[spread] p2a,p2b
+|-supereffective|p2b: Superior
+|-damage|p2a: Rainbow Connector|66/100
+|-damage|p2b: Superior|71/100
+|move|p2a: Rainbow Connector|Perish Song|p2a: Rainbow Connector
+|-start|p1a: Gliscor|perish3|[silent]
+|-start|p2a: Rainbow Connector|perish3|[silent]
+|-start|p2b: Superior|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Superior|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gliscor|perish3
+|-start|p2a: Rainbow Connector|perish3
+|-start|p2b: Superior|perish3
+|upkeep
+|turn|5
+|
+|t:|1750714150
+|move|p2a: Rainbow Connector|Protect|p2a: Rainbow Connector
+|-singleturn|p2a: Rainbow Connector|Protect
+|move|p2b: Superior|Protect|p2b: Superior
+|-singleturn|p2b: Superior|Protect
+|move|p1a: Gliscor|Earthquake|p2b: Superior|[spread] 
+|-activate|p2a: Rainbow Connector|move: Protect
+|-activate|p2b: Superior|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gliscor|perish2
+|-start|p2a: Rainbow Connector|perish2
+|-start|p2b: Superior|perish2
+|upkeep
+|turn|6
+|
+|t:|1750714168
+|move|p2a: Rainbow Connector|Helping Hand|p2b: Superior
+|-singleturn|p2b: Superior|Helping Hand|[of] p2a: Rainbow Connector
+|move|p1a: Gliscor|Poison Jab|p2b: Superior
+|-resisted|p2b: Superior
+|-damage|p2b: Superior|68/100
+|move|p2b: Superior|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gliscor|perish1
+|-start|p2a: Rainbow Connector|perish1
+|-start|p2b: Superior|perish1
+|upkeep
+|turn|7
+|
+|t:|1750714186
+|switch|p2a: Cammy Streets|Cramorant, L50, F|45/100
+|switch|p2b: Speedbridge|Archaludon, L50, M|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Cammy Streets|[spread] p2b
+|-immune|p2a: Cammy Streets
+|-supereffective|p2b: Speedbridge
+|-damage|p2b: Speedbridge|58/100
+|-ability|p2b: Speedbridge|Stamina|boost
+|-boost|p2b: Speedbridge|def|1
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gliscor|perish0
+|faint|p1a: Gliscor
+|
+|win|ladyhershay
+|raw|Raven kama's rating: 1033 &rarr; <strong>1019</strong><br />(-14 for losing)
+|raw|ladyhershay's rating: 1051 &rarr; <strong>1082</strong><br />(+31 for winning)
+|l|☆Raven kama
+|player|p1|

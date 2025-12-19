@@ -1,0 +1,183 @@
+|j|☆InekoAki
+|j|☆Iamsliverfish
+|t:|1750834678
+|gametype|doubles
+|player|p1|InekoAki|lady|1643
+|player|p2|Iamsliverfish|silver-masters|1812
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Entei, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750834833
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750834899
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: Iamsliverfish|move: Tailwind
+|move|p2b: Zamazenta|Imprison|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Imprison
+|move|p1a: Calyrex|Astral Barrage|p2b: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|76/100
+|-damage|p2b: Zamazenta|55/100
+|cant|p1b: Zamazenta|move: Imprison|Body Press
+|
+|upkeep
+|turn|2
+|
+|t:|1750834962
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|-terastallize|p1b: Zamazenta|Dragon
+|move|p2a: Roaring Moon|Knock Off|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|68/100
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|30/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750835016
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p2b: Zamazenta|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|
+|upkeep
+|
+|t:|1750835038
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750835090
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Chien-Pao|[miss]
+|-miss|p2a: Chien-Pao|p1a: Chien-Pao
+|move|p2b: Zamazenta|Heavy Slam|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-sideend|p2: Iamsliverfish|move: Tailwind
+|upkeep
+|
+|t:|1750835107
+|switch|p2a: Roaring Moon|Roaring Moon, L50|30/100
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750835140
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Calyrex|Psychic|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: Iamsliverfish|move: Tailwind
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750835143
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+|
+|t:|1750835161
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Zamazenta|Heavy Slam|p1a: Calyrex
+|-damage|p1a: Calyrex|47/100
+|move|p2a: Kyogre|Hydro Pump|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750835174
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-damage|p1b: Zamazenta|69/100
+|move|p2a: Kyogre|Water Spout|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|25/100
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750835187
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|win|Iamsliverfish
+|raw|InekoAki's rating: 1643 &rarr; <strong>1631</strong><br />(-12 for losing)
+|raw|Iamsliverfish's rating: 1798 &rarr; <strong>1810</strong><br />(+12 for winning)
+|l|☆Iamsliverfish
+|player|p2|
+|l|☆InekoAki
+|player|p1|
+|j|☆InekoAki
+|player|p1|InekoAki|lady|
+|l|☆InekoAki
+|player|p1|

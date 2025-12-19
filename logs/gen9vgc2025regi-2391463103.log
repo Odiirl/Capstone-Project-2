@@ -1,0 +1,197 @@
+|j|☆LowkeyLokei
+|j|☆Wildgoobys
+|t:|1750859275
+|gametype|doubles
+|player|p1|LowkeyLokei|dancer|1297
+|player|p2|Wildgoobys|ethan|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Thundurus-Therian, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wildgoobys)
+|inactive|LowkeyLokei has 60 seconds left.
+|
+|t:|1750859313
+|start
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|LowkeyLokei has 30 seconds left.
+|
+|t:|1750859343
+|-terastallize|p1a: Chien-Pao|Ghost
+|-terastallize|p2b: Gothitelle|Water
+|move|p2b: Gothitelle|Fake Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|96/100
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Chien-Pao|perish3|[silent]
+|-start|p1b: Zacian|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Zacian|flinch
+|move|p1a: Chien-Pao|Crunch|p2b: Gothitelle
+|-damage|p2b: Gothitelle|41/100
+|-unboost|p2b: Gothitelle|def|1
+|
+|-heal|p2b: Gothitelle|47/100|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish3
+|-start|p1b: Zacian|perish3
+|-start|p1a: Chien-Pao|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|inactive|LowkeyLokei has 30 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|Wildgoobys has 20 seconds left.
+|
+|t:|1750859380
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Zacian|Play Rough|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Chien-Pao|Crunch|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|-heal|p2b: Gothitelle|53/100|[from] item: Leftovers
+|-start|p2a: Scream Tail|perish2
+|-start|p1b: Zacian|perish2
+|-start|p1a: Chien-Pao|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|LowkeyLokei has 30 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|LowkeyLokei has 20 seconds left.
+|inactive|Wildgoobys has 20 seconds left.
+|
+|t:|1750859416
+|switch|p1a: Thundurus|Thundurus-Therian, L50, M|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Scream Tail|Disable|p1b: Zacian
+|-start|p1b: Zacian|Disable|Play Rough
+|move|p1b: Zacian|Sacred Sword|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|27/100
+|
+|-start|p2a: Scream Tail|perish1
+|-start|p1b: Zacian|perish1
+|upkeep
+|turn|4
+|inactive|Wildgoobys has 30 seconds left.
+|inactive|Wildgoobys has 20 seconds left.
+|inactive|Wildgoobys has 15 seconds left.
+|inactive|Wildgoobys has 10 seconds left.
+|inactive|Wildgoobys has 5 seconds left.
+|
+|t:|1750859469
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|switch|p1b: Chien-Pao|Chien-Pao, L50, tera:Ghost|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|move|p2b: Zamazenta|Behemoth Bash|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|40/100
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Koraidon|[spread] p2a
+|-miss|p1a: Thundurus|p2b: Zamazenta
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|LowkeyLokei has 30 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|
+|t:|1750859501
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p1b: Chien-Pao|Icicle Crash|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Zamazenta|Behemoth Bash|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750859523
+|switch|p1b: Zacian|Zacian-Crowned, L50|96/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|turn|6
+|
+|t:|1750859542
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Zacian|Behemoth Blade|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|11/100
+|move|p2a: Scream Tail|Disable|p1b: Zacian
+|-start|p1b: Zacian|Disable|Behemoth Blade
+|move|p1a: Kyogre|Origin Pulse|p2a: Scream Tail|[spread] p2a
+|-activate|p2b: Zamazenta|move: Protect
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750859552
+|switch|p2a: Gothitelle|Gothitelle, L50, F, tera:Water|53/100
+|turn|7
+|
+|t:|1750859574
+|move|p2a: Gothitelle|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|93/100
+|move|p1b: Zacian|Sacred Sword|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|cant|p1a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gothitelle|59/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆Wildgoobys|Gg
+|-message|Wildgoobys forfeited.
+|
+|win|LowkeyLokei
+|raw|LowkeyLokei's rating: 1297 &rarr; <strong>1327</strong><br />(+30 for winning)
+|raw|Wildgoobys's rating: 1372 &rarr; <strong>1348</strong><br />(-24 for losing)
+|l|☆Wildgoobys
+|player|p2|

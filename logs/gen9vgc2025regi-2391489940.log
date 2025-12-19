@@ -1,0 +1,170 @@
+|j|☆dasabei
+|j|☆Calamella
+|t:|1750862391
+|gametype|doubles
+|player|p1|dasabei|169|1430
+|player|p2|Calamella|265|1504
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dasabei)
+|
+|t:|1750862419
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750862432
+|-terastallize|p1b: Kyogre|Water
+|-terastallize|p2b: Calyrex|Water
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: dasabei|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-resisted|p2b: Calyrex
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Calyrex|39/100
+|faint|p2a: Miraidon
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-resisted|p1b: Kyogre
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|-damage|p1b: Kyogre|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750862445
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|turn|2
+|
+|t:|1750862459
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2a: Pelipper|Wide Guard|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Wide Guard
+|move|p1a: Whimsicott|Endeavor|p2b: Calyrex
+|-damage|p2b: Calyrex|1/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750862473
+|move|p1a: Whimsicott|Encore|p2b: Calyrex
+|-start|p2b: Calyrex|Encore
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldend|move: Trick Room
+|move|p2a: Pelipper|Hurricane|p1b: Farigiraf
+|-damage|p1b: Farigiraf|53/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|dasabei has 30 seconds left.
+|inactive|dasabei has 20 seconds left.
+|inactive|dasabei has 15 seconds left.
+|inactive|dasabei has 10 seconds left.
+|
+|t:|1750862519
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|move|p2a: Pelipper|Muddy Water|p1b: Farigiraf|[spread] p1a
+|-miss|p2a: Pelipper|p1b: Farigiraf
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p1b: Farigiraf|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|55/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: dasabei|move: Tailwind
+|upkeep
+|
+|t:|1750862527
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750862546
+|move|p1b: Farigiraf|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|5/100
+|move|p2a: Pelipper|Muddy Water|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|89/100
+|-damage|p1b: Farigiraf|9/100
+|-unboost|p1a: Miraidon|accuracy|1
+|move|p2b: Landorus|Sandsear Storm|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|25/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Miraidon|Draco Meteor|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Landorus
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|dasabei has 30 seconds left.
+|
+|t:|1750862572
+|switch|p1b: Kyogre|Kyogre, L50, tera:Water|69/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Water|1/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|6
+|
+|t:|1750862579
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Kyogre
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Kyogre|40/100
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Pelipper|Hurricane|p1b: Kyogre
+|-damage|p1b: Kyogre|6/100
+|-start|p1b: Kyogre|confusion
+|-activate|p1b: Kyogre|confusion
+|-damage|p1b: Kyogre|0 fnt|[from] confusion
+|faint|p1b: Kyogre
+|
+|win|Calamella
+|raw|dasabei's rating: 1430 &rarr; <strong>1414</strong><br />(-16 for losing)
+|raw|Calamella's rating: 1504 &rarr; <strong>1520</strong><br />(+16 for winning)
+|l|☆dasabei
+|player|p1|

@@ -1,0 +1,130 @@
+|j|‽Linchboit
+|j|☆calacadura
+|t:|1750782692
+|gametype|doubles
+|player|p1|Linchboit|170|1042
+|player|p2|calacadura|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Dewgong, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Pachirisu, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Linchboit)
+|inactive|Linchboit has 60 seconds left.
+|
+|t:|1750782722
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Tatsugiri|Tatsugiri, L50, M, shiny|100/100
+|switch|p2b: Pachirisu|Pachirisu, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750782743
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Tatsugiri|Protect|p2a: Tatsugiri
+|-singleturn|p2a: Tatsugiri|Protect
+|move|p2b: Pachirisu|Protect|p2b: Pachirisu
+|-singleturn|p2b: Pachirisu|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Pachirisu|[spread] 
+|-activate|p2a: Tatsugiri|move: Protect
+|-activate|p2b: Pachirisu|move: Protect
+|move|p1b: Iron Hands|Drain Punch|p2a: Tatsugiri
+|-activate|p2a: Tatsugiri|move: Protect
+|
+|-status|p2a: Tatsugiri|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1750782754
+|switch|p2a: Dondozo|Dondozo, L50, M, shiny|100/100
+|move|p2b: Pachirisu|Follow Me|p2b: Pachirisu
+|-singleturn|p2b: Pachirisu|move: Follow Me
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Pachirisu|[spread] p2a,p2b
+|-damage|p2a: Dondozo|55/100
+|-damage|p2b: Pachirisu|16/100
+|-enditem|p2b: Pachirisu|Sitrus Berry|[eat]
+|-heal|p2b: Pachirisu|41/100|[from] item: Sitrus Berry
+|move|p1b: Iron Hands|Swords Dance|p1b: Iron Hands
+|-boost|p1b: Iron Hands|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1750782773
+|switch|p2b: Tatsugiri|Tatsugiri, L50, M, shiny|100/100 tox
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|-terastallize|p2a: Dondozo|Electric
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Tatsugiri|[spread] p2a
+|-miss|p1a: Miraidon|p2b: Tatsugiri
+|-damage|p2a: Dondozo|34/100
+|move|p2a: Dondozo|Waterfall|p1b: Iron Hands
+|-damage|p1b: Iron Hands|59/100
+|move|p1b: Iron Hands|Drain Punch|p2a: Dondozo
+|-damage|p2a: Dondozo|16/100
+|-heal|p1b: Iron Hands|68/100|[from] drain|[of] p2a: Dondozo
+|
+|-damage|p2b: Tatsugiri|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750782798
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Dondozo|[spread] p2a
+|-miss|p1a: Miraidon|p2b: Tatsugiri
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|move|p1b: Iron Hands|Drain Punch|p2b: Tatsugiri
+|-damage|p2b: Tatsugiri|0 fnt
+|-heal|p1b: Iron Hands|94/100|[from] drain|[of] p2b: Tatsugiri
+|faint|p2b: Tatsugiri
+|
+|upkeep
+|
+|t:|1750782805
+|switch|p2b: Pachirisu|Pachirisu, L50, M, shiny|41/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|5
+|
+|t:|1750782815
+|move|p2b: Pachirisu|Follow Me|p2b: Pachirisu
+|-singleturn|p2b: Pachirisu|move: Follow Me
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|47/100
+|-damage|p2b: Pachirisu|0 fnt
+|faint|p2b: Pachirisu
+|move|p2a: Kyogre|Water Spout|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|47/100
+|-damage|p1b: Iron Hands|35/100
+|move|p1b: Iron Hands|Drain Punch|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-heal|p1b: Iron Hands|52/100|[from] drain|[of] p2a: Kyogre
+|faint|p2a: Kyogre
+|
+|win|Linchboit
+|raw|Linchboit's rating: 1042 &rarr; <strong>1072</strong><br />(+30 for winning)
+|raw|calacadura's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

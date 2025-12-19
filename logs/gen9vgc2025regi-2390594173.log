@@ -1,0 +1,150 @@
+|j|☆Artic 1.0
+|j|☆DeezNuzlocks
+|t:|1750733601
+|gametype|doubles
+|player|p1|Artic 1.0|170|1096
+|player|p2|DeezNuzlocks|unknown|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Wyrdeer, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Kleavor, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Artic 1.0)
+|
+|t:|1750733629
+|start
+|switch|p1a: Wyrdeer|Wyrdeer, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Kleavor|Kleavor, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Kleavor|atk|1
+|turn|1
+|inactive|DeezNuzlocks has 30 seconds left.
+|inactive|DeezNuzlocks has 20 seconds left.
+|inactive|DeezNuzlocks has 15 seconds left.
+|inactive|DeezNuzlocks has 10 seconds left.
+|inactive|DeezNuzlocks has 5 seconds left.
+|
+|t:|1750733684
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Kleavor|atk|1
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: DeezNuzlocks|move: Tailwind
+|move|p2b: Kleavor|Fury Cutter|p1a: Wyrdeer
+|-supereffective|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|65/100
+|move|p1a: Wyrdeer|Reflect|p1a: Wyrdeer
+|-sidestart|p1: Artic 1.0|Reflect
+|
+|-heal|p1a: Wyrdeer|71/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Artic 1.0 has 30 seconds left.
+|
+|t:|1750733713
+|move|p2a: Talonflame|Taunt|p1b: Incineroar
+|-start|p1b: Incineroar|move: Taunt
+|move|p2b: Kleavor|Fury Cutter|p1a: Wyrdeer
+|-supereffective|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|14/100
+|move|p1a: Wyrdeer|Light Screen|p1a: Wyrdeer
+|-sidestart|p1: Artic 1.0|move: Light Screen
+|move|p1b: Incineroar|Knock Off|p2b: Kleavor
+|-damage|p2b: Kleavor|40/100
+|-enditem|p2b: Kleavor|Metronome|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-heal|p2b: Kleavor|46/100|[from] Grassy Terrain
+|-heal|p1a: Wyrdeer|20/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Artic 1.0 has 30 seconds left.
+|
+|t:|1750733740
+|move|p2a: Talonflame|Brave Bird|p1b: Incineroar
+|-damage|p1b: Incineroar|88/100
+|-damage|p2a: Talonflame|96/100|[from] Recoil
+|move|p2b: Kleavor|Fury Cutter|p1a: Wyrdeer
+|-supereffective|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|0 fnt
+|faint|p1a: Wyrdeer
+|move|p1b: Incineroar|Flare Blitz|p2b: Kleavor
+|-damage|p2b: Kleavor|0 fnt
+|faint|p2b: Kleavor
+|-damage|p1b: Incineroar|77/100|[from] Recoil
+|
+|-heal|p1b: Incineroar|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750733755
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1750733768
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Lunala|Grassy Seed
+|-boost|p1a: Lunala|def|1|[from] item: Grassy Seed
+|move|p2a: Talonflame|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|move|p2b: Indeedee|Dazzling Gleam|p1b: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Lunala|97/100
+|-damage|p1b: Rillaboom|94/100
+|cant|p1a: Lunala|move: Taunt|Calm Mind
+|
+|-heal|p1a: Lunala|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|99/100|[from] Grassy Terrain
+|-sideend|p2: DeezNuzlocks|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750733792
+|switch|p1b: Incineroar|Incineroar, L50, M|83/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p2a: Talonflame|Will-O-Wisp|p1b: Incineroar|[miss]
+|-miss|p2a: Talonflame|p1b: Incineroar
+|move|p1a: Lunala|Moongeist Beam|p2a: Talonflame
+|-damage|p2a: Talonflame|28/100
+|move|p2b: Indeedee|Dazzling Gleam|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|97/100
+|-damage|p1b: Incineroar|75/100
+|
+|-heal|p1a: Lunala|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|81/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|DeezNuzlocks forfeited.
+|
+|win|Artic 1.0
+|raw|Artic 1.0's rating: 1096 &rarr; <strong>1120</strong><br />(+24 for winning)
+|raw|DeezNuzlocks's rating: 1075 &rarr; <strong>1055</strong><br />(-20 for losing)
+|l|☆DeezNuzlocks
+|player|p2|
+|l|☆Artic 1.0
+|player|p1|

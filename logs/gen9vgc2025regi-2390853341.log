@@ -1,0 +1,161 @@
+|j|☆Skirskir
+|j|☆zbeach
+|t:|1750775893
+|gametype|doubles
+|player|p1|Skirskir|102|1201
+|player|p2|zbeach|101|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Leafeon, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|
+|t:|1750775907
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zbeach)
+|
+|t:|1750775929
+|-terastallize|p2b: Groudon|Fire
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Skirskir|Reflect
+|move|p2a: Sableye|Gravity|p2a: Sableye
+|-fieldstart|move: Gravity
+|move|p2b: Groudon|Precipice Blades|p1b: Basculegion|[spread] p1a
+|-activate|p1b: Basculegion|move: Protect
+|-damage|p1a: Grimmsnarl|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750775946
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2a: Sableye|Will-O-Wisp|p1b: Basculegion
+|-status|p1b: Basculegion|brn
+|move|p1b: Basculegion|Wave Crash|p2b: Groudon
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|19/100
+|-damage|p1b: Basculegion|72/100 brn|[from] Recoil
+|-damage|p1b: Basculegion|62/100 brn|[from] item: Life Orb
+|move|p2b: Groudon|Precipice Blades|p1b: Basculegion|[spread] p1a,p1b
+|-crit|p1b: Basculegion
+|-damage|p1a: Kyogre|63/100
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750775963
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|53/100
+|turn|3
+|
+|t:|1750775976
+|switch|p2b: Leafeon|Leafeon, L50, F|100/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Kyogre
+|-status|p1a: Kyogre|brn
+|move|p1a: Kyogre|Water Spout|p2b: Leafeon|[spread] p2a,p2b
+|-resisted|p2b: Leafeon
+|-damage|p2a: Sableye|9/100
+|-damage|p2b: Leafeon|32/100
+|-enditem|p2a: Sableye|Sitrus Berry|[eat]
+|-heal|p2a: Sableye|34/100|[from] item: Sitrus Berry
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Leafeon
+|-damage|p2b: Leafeon|0 fnt
+|faint|p2b: Leafeon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kyogre|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1750775991
+|switch|p2b: Groudon|Groudon, L50, tera:Fire|19/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|4
+|
+|t:|1750776002
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Kyogre|Water Spout|p2b: Groudon|[spread] p2b
+|-activate|p2a: Sableye|move: Protect
+|-supereffective|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Kyogre|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1750776008
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750776028
+|move|p2a: Sableye|Will-O-Wisp|p1b: Grimmsnarl
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Grimmsnarl
+|move|p2b: Calyrex|Astral Barrage|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Grimmsnarl
+|-crit|p1b: Grimmsnarl
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Grimmsnarl
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750776039
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750776048
+|-terastallize|p1a: Calyrex|Fire
+|move|p2a: Sableye|Will-O-Wisp|p1a: Calyrex
+|-immune|p1a: Calyrex
+|move|p2b: Calyrex|Astral Barrage|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|zbeach
+|raw|Skirskir's rating: 1201 &rarr; <strong>1171</strong><br />(-30 for losing)
+|raw|zbeach's rating: 1124 &rarr; <strong>1154</strong><br />(+30 for winning)
+|l|☆Skirskir
+|player|p1|
+|l|☆zbeach
+|player|p2|

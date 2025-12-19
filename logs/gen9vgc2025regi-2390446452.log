@@ -1,0 +1,132 @@
+|j|☆SpinnerVGC
+|j|☆kevinok45
+|t:|1750714241
+|gametype|doubles
+|player|p1|SpinnerVGC|benga|1258
+|player|p2|kevinok45|101|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Overqwil, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpinnerVGC)
+|
+|t:|1750714268
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Mewtwo|Mewtwo, L50, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Mewtwo|Pressure
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750714291
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Mewtwo|Dark Pulse|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Rock
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Ogerpon|[miss]
+|-miss|p2b: Ting-Lu|p1a: Ogerpon
+|
+|upkeep
+|turn|2
+|inactive|SpinnerVGC has 30 seconds left.
+|inactive|kevinok45 has 30 seconds left.
+|
+|t:|1750714319
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, L50, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|-terastallize|p2a: Calyrex|Water
+|move|p1b: Mewtwo|Psystrike|p2a: Calyrex
+|-damage|p2a: Calyrex|75/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Rock
+|-damage|p2a: Calyrex|25/100
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|77/100
+|-activate|p1a: Ogerpon|move: Sand Tomb|[of] p2b: Ting-Lu
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-heal|p2a: Calyrex|31/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|65/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|3
+|inactive|SpinnerVGC has 30 seconds left.
+|inactive|kevinok45 has 30 seconds left.
+|
+|t:|1750714349
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Mewtwo|[spread] p1a,p1b
+|-damage|p1a: Ogerpon|3/100
+|-damage|p1b: Mewtwo|51/100
+|move|p1a: Ogerpon|Power Whip|p2b: Ting-Lu
+|-supereffective|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|36/100
+|move|p1b: Mewtwo|Psystrike|p2a: Calyrex
+|-damage|p2a: Calyrex|8/100
+|
+|-heal|p2a: Calyrex|14/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|0 fnt|[from] move: Sand Tomb|[partiallytrapped]
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Cornerstone, L50, F|[silent]
+|upkeep
+|
+|t:|1750714356
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750714366
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|0 fnt
+|faint|p2b: Ting-Lu
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Calyrex|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750714374
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|turn|5
+|-message|kevinok45 forfeited.
+|
+|win|SpinnerVGC
+|raw|SpinnerVGC's rating: 1258 &rarr; <strong>1278</strong><br />(+20 for winning)
+|raw|kevinok45's rating: 1194 &rarr; <strong>1174</strong><br />(-20 for losing)
+|l|☆kevinok45
+|player|p2|

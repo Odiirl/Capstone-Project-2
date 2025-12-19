@@ -1,0 +1,223 @@
+|j|☆den45
+|j|☆ferry_6767
+|t:|1750774464
+|gametype|doubles
+|player|p1|den45|266|1391
+|player|p2|ferry_6767|265|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ferry_6767)
+|inactive|den45 also wants the timer to be on.
+|inactive|ferry_6767 has 60 seconds left.
+|
+|t:|1750774496
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Chesnaught|Chesnaught, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Sableye|Sableye, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Chesnaught|Electric Seed
+|-boost|p1b: Chesnaught|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|den45 has 30 seconds left.
+|
+|t:|1750774524
+|-terastallize|p1b: Chesnaught|Steel
+|move|p2b: Sableye|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|92/100
+|cant|p1a: Miraidon|flinch
+|move|p1b: Chesnaught|Coaching|p1a: Miraidon
+|-boost|p1a: Miraidon|atk|1
+|-boost|p1a: Miraidon|def|1
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|ferry_6767 has 30 seconds left.
+|
+|t:|1750774549
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Sableye|Disable|p1b: Chesnaught
+|-start|p1b: Chesnaught|Disable|Coaching
+|move|p2a: Calyrex|Glacial Lance|p1b: Chesnaught|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Chesnaught
+|-damage|p1a: Calyrex|82/100
+|-damage|p1b: Chesnaught|88/100
+|cant|p1b: Chesnaught|Disable|Coaching
+|
+|upkeep
+|turn|3
+|
+|t:|1750774573
+|move|p2b: Sableye|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|50/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|83/100
+|-damage|p2b: Sableye|8/100
+|-enditem|p2b: Sableye|Eject Button
+|
+|t:|1750774582
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p2a: Calyrex|Glacial Lance|p1b: Chesnaught|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Chesnaught
+|-damage|p1a: Calyrex|30/100
+|-damage|p1b: Chesnaught|75/100
+|move|p1b: Chesnaught|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|52/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750774600
+|move|p1b: Chesnaught|Wide Guard|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|Wide Guard
+|move|p1a: Calyrex|High Horsepower|p2a: Calyrex
+|-damage|p2a: Calyrex|29/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Wide Guard
+|-activate|p1b: Chesnaught|move: Wide Guard
+|move|p2b: Kyogre|Water Spout|p1b: Chesnaught|[spread] 
+|-activate|p1a: Calyrex|move: Wide Guard
+|-activate|p1b: Chesnaught|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750774618
+|move|p1a: Calyrex|High Horsepower|p2a: Calyrex
+|-damage|p2a: Calyrex|3/100
+|move|p2a: Calyrex|Close Combat|p1b: Chesnaught
+|-supereffective|p1b: Chesnaught
+|-damage|p1b: Chesnaught|27/100
+|-unboost|p2a: Calyrex|def|1
+|-unboost|p2a: Calyrex|spd|1
+|move|p1b: Chesnaught|Body Press|p2b: Kyogre
+|-damage|p2b: Kyogre|56/100
+|move|p2b: Kyogre|Hydro Pump|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-end|p1b: Chesnaught|Disable
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750774629
+|switch|p1a: Miraidon|Miraidon, L50|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750774645
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Kyogre|43/100
+|faint|p2a: Calyrex
+|move|p2b: Kyogre|Ice Beam|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|35/100
+|-status|p1a: Miraidon|frz
+|move|p1b: Chesnaught|Body Press|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750774664
+|switch|p2b: Sableye|Sableye, L50, M|8/100
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|7
+|
+|t:|1750774686
+|move|p1b: Chesnaught|Spiky Shield|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|move: Protect
+|move|p2b: Sableye|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|26/100 frz
+|cant|p1a: Miraidon|frz
+|move|p2a: Ursaluna|Headlong Rush|p1b: Chesnaught
+|-activate|p1b: Chesnaught|move: Protect
+|-damage|p2a: Ursaluna|88/100|[from] Spiky Shield|[of] p1b: Chesnaught
+|
+|-weather|none
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1750774700
+|move|p2b: Sableye|Encore|p1b: Chesnaught
+|-start|p1b: Chesnaught|Encore
+|cant|p1a: Miraidon|frz
+|move|p1b: Chesnaught|Spiky Shield||[still]
+|-fail|p1b: Chesnaught
+|move|p2a: Ursaluna|Facade|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-damage|p2a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1750774705
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|9
+|
+|t:|1750774715
+|move|p1b: Chesnaught|Spiky Shield|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|move: Protect
+|move|p2b: Sableye|Sucker Punch|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|93/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-damage|p2a: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|den45 forfeited.
+|
+|win|ferry_6767
+|raw|den45's rating: 1391 &rarr; <strong>1366</strong><br />(-25 for losing)
+|raw|ferry_6767's rating: 1307 &rarr; <strong>1332</strong><br />(+25 for winning)
+|l|☆den45
+|player|p1|
+|l|☆ferry_6767
+|player|p2|

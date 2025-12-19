@@ -1,0 +1,182 @@
+|j|☆jamira!?
+|j|☆Mitch-BOT
+|t:|1750874362
+|gametype|doubles
+|player|p1|jamira!?|266|1470
+|player|p2|Mitch-BOT|nate|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750874407
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750874427
+|switch|p2a: Great Tusk|Great Tusk, L50|100/100
+|-terastallize|p1b: Miraidon|Electric
+|-terastallize|p2b: Zamazenta|Ground
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p1b: Miraidon|Electro Drift|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2b: Zamazenta|Body Press|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|69/100
+|-damage|p2b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Volcarona
+|-status|p2b: Zamazenta|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|-damage|p2b: Zamazenta|78/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750874444
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Zamazenta|Body Press|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|move|p1a: Volcarona|Tailwind|p1a: Volcarona
+|-sidestart|p1: jamira!?|move: Tailwind
+|move|p2a: Great Tusk|Rock Slide|p1a: Volcarona|[spread] p1a
+|-activate|p1b: Miraidon|move: Protect
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-damage|p2b: Zamazenta|72/100 brn|[from] brn
+|upkeep
+|
+|t:|1750874455
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750874488
+|move|p1b: Miraidon|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|-unboost|p1b: Miraidon|spa|2
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|78/100
+|move|p1a: Calyrex|High Horsepower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|5/100
+|move|p2a: Great Tusk|Rock Slide|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|50/100
+|-damage|p1b: Miraidon|80/100
+|
+|-damage|p2b: Zamazenta|66/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750874505
+|move|p1b: Miraidon|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1b: Miraidon|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|26/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|15/100 brn
+|
+|-damage|p2b: Zamazenta|9/100 brn|[from] brn
+|upkeep
+|
+|t:|1750874518
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|5
+|
+|t:|1750874528
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2b: Zamazenta|Body Press|p1b: Farigiraf
+|-damage|p1b: Farigiraf|81/100
+|
+|-damage|p2b: Zamazenta|3/100 brn|[from] brn
+|-sideend|p1: jamira!?|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750874539
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|80/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750874571
+|move|p2a: Flutter Mane|Icy Wind|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Miraidon|68/100
+|-damage|p1b: Farigiraf|67/100
+|-unboost|p1a: Miraidon|spe|1
+|-unboost|p1b: Farigiraf|spe|1
+|move|p2b: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|37/100
+|move|p1a: Miraidon|Electro Drift|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|move|p1b: Farigiraf|Psychic|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-damage|p2b: Zamazenta|0 fnt|[from] brn
+|faint|p2b: Zamazenta
+|upkeep
+|
+|t:|1750874574
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750874588
+|move|p1a: Miraidon|Electro Drift|p2b: Calyrex
+|-damage|p2b: Calyrex|9/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Farigiraf|[spread] p1a,p1b
+|-crit|p1b: Farigiraf
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Farigiraf
+|
+|win|Mitch-BOT
+|raw|jamira!?'s rating: 1470 &rarr; <strong>1455</strong><br />(-15 for losing)
+|raw|Mitch-BOT's rating: 1562 &rarr; <strong>1577</strong><br />(+15 for winning)
+|l|☆Mitch-BOT
+|player|p2|
+|c|☆jamira!?|nice
+|l|☆jamira!?
+|player|p1|

@@ -1,0 +1,216 @@
+|j|☆ilianoman¹¹
+|j|☆Ren Hiyama
+|t:|1750766800
+|gametype|doubles
+|player|p1|ilianoman¹¹|wallace|1071
+|player|p2|Ren Hiyama|cyrus|1032
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Rhyperior, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p2|Articuno, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ilianoman¹¹)
+|
+|t:|1750766827
+|start
+|switch|p1a: Cresselia|Cresselia, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|inactive|Ren Hiyama has 30 seconds left.
+|inactive|ilianoman¹¹ has 30 seconds left.
+|inactive|Ren Hiyama has 20 seconds left.
+|inactive|Ren Hiyama has 15 seconds left.
+|
+|t:|1750766870
+|move|p2b: Tornadus|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|-enditem|p1a: Cresselia|Mental Herb
+|-end|p1a: Cresselia|move: Taunt
+|move|p2a: Miraidon|Volt Switch|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|43/100
+|
+|t:|1750766880
+|switch|p2a: Articuno|Articuno, L50, shiny|100/100|[from] Volt Switch
+|move|p1b: Amoonguss|Spore|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Spore
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|2
+|
+|t:|1750766902
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2b: Tornadus|Taunt|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Taunt
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|68/100
+|cant|p2a: Articuno|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750766924
+|move|p1a: Cresselia|Helping Hand|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Helping Hand|[of] p1a: Cresselia
+|move|p2b: Tornadus|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|cant|p2a: Articuno|slp
+|move|p1b: Zamazenta|Body Press|p2a: Articuno
+|-damage|p2a: Articuno|9/100 slp
+|
+|upkeep
+|turn|4
+|
+|t:|1750766949
+|switch|p1a: Rhyperior|Rhyperior, L50, M|100/100
+|cant|p2a: Articuno|slp
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Rhyperior|[spread] p1a,p1b
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|82/100
+|-damage|p1b: Zamazenta|81/100
+|move|p1b: Zamazenta|Body Press|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-end|p1b: Zamazenta|move: Taunt
+|upkeep
+|
+|t:|1750766970
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|5
+|
+|t:|1750766990
+|-terastallize|p1a: Rhyperior|Grass
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Rhyperior|Rock Slide|p2b: Tornadus|[spread] p2a,p2b
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Ogerpon|58/100
+|-damage|p2b: Tornadus|13/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Rhyperior|[spread] p1b
+|-miss|p2b: Tornadus|p1a: Rhyperior
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|48/100
+|-unboost|p1b: Zamazenta|spe|1
+|move|p1b: Zamazenta|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750767011
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|inactive|ilianoman¹¹ has 30 seconds left.
+|
+|t:|1750767042
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Zamazenta|[spread] p1a,p1b
+|-crit|p1a: Rhyperior
+|-damage|p1a: Rhyperior|28/100
+|-damage|p1b: Zamazenta|29/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|-damage|p1b: Zamazenta|7/100
+|-unboost|p1b: Zamazenta|spe|1
+|faint|p1a: Rhyperior
+|move|p1b: Zamazenta|Body Press|p2a: Miraidon
+|-damage|p2a: Miraidon|21/100
+|
+|upkeep
+|
+|t:|1750767058
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|7
+|inactive|ilianoman¹¹ has 30 seconds left.
+|inactive|ilianoman¹¹ has 20 seconds left.
+|
+|t:|1750767095
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Zamazenta|[spread] 
+|-activate|p1a: Amoonguss|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Amoonguss|[spread] 
+|-activate|p1a: Amoonguss|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p1a: Amoonguss|Spore|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Electric Terrain
+|
+|upkeep
+|turn|8
+|inactive|ilianoman¹¹ has 30 seconds left.
+|
+|t:|1750767121
+|switch|p1b: Cresselia|Cresselia, L50, F|68/100
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Amoonguss|[spread] p1b
+|-activate|p1a: Amoonguss|move: Protect
+|-damage|p1b: Cresselia|49/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Amoonguss|[spread] p1b
+|-activate|p1a: Amoonguss|move: Protect
+|-damage|p1b: Cresselia|27/100
+|
+|upkeep
+|turn|9
+|inactive|ilianoman¹¹ has 30 seconds left.
+|
+|t:|1750767152
+|move|p1b: Cresselia|Helping Hand|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Helping Hand|[of] p1b: Cresselia
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Cresselia|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|88/100
+|-damage|p1b: Cresselia|9/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Cresselia|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|-damage|p1b: Cresselia|0 fnt
+|-unboost|p1a: Amoonguss|spe|1
+|faint|p1b: Cresselia
+|move|p1a: Amoonguss|Pollen Puff|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|upkeep
+|
+|t:|1750767169
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|7/100
+|turn|10
+|-message|Ren Hiyama forfeited.
+|
+|win|ilianoman¹¹
+|raw|ilianoman¹¹'s rating: 1071 &rarr; <strong>1097</strong><br />(+26 for winning)
+|raw|Ren Hiyama's rating: 1032 &rarr; <strong>1019</strong><br />(-13 for losing)
+|l|☆Ren Hiyama
+|player|p2|

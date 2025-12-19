@@ -1,0 +1,198 @@
+|j|☆oh666
+|j|☆Rusty Old Key
+|t:|1750845210
+|gametype|doubles
+|player|p1|oh666|2|1432
+|player|p2|Rusty Old Key|169|1558
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Lugia, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|l|☆oh666
+|player|p1|
+|j|☆oh666
+|player|p1|oh666|2|
+|
+|t:|1750845302
+|start
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750845339
+|switch|p1b: Maushold|Maushold-Four, L50|100/100
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1a: Chi-Yu|Heat Wave|p2a: Chien-Pao|[spread] p2a,p2b
+|-supereffective|p2a: Chien-Pao
+|-resisted|p2b: Raging Bolt
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|-damage|p2b: Raging Bolt|66/100
+|-status|p2b: Raging Bolt|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Raging Bolt|60/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750845365
+|move|p2a: Chien-Pao|Protect|p2a: Chien-Pao
+|-singleturn|p2a: Chien-Pao|Protect
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p1a: Chi-Yu|Heat Wave|p2a: Chien-Pao|[spread] 
+|-activate|p2a: Chien-Pao|move: Protect
+|-miss|p1a: Chi-Yu|p2b: Raging Bolt
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Raging Bolt|53/100 brn|[from] brn
+|upkeep
+|
+|t:|1750845387
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750845400
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Chi-Yu
+|-resisted|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|59/100
+|move|p2b: Raging Bolt|Thunderclap|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|move|p1b: Koraidon|Scale Shot|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|8/100 brn
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p2: Raging Bolt|2
+|-unboost|p1b: Koraidon|def|1
+|-boost|p1b: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750845431
+|switch|p1a: Lugia|Lugia, L50|100/100
+|switch|p2b: Garganacl|Garganacl, L50, F|100/100
+|turn|4
+|
+|t:|1750845460
+|move|p2a: Chien-Pao|Protect|p2a: Chien-Pao
+|-singleturn|p2a: Chien-Pao|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Chien-Pao
+|-activate|p2a: Chien-Pao|move: Protect
+|move|p1a: Lugia|Calm Mind|p1a: Lugia
+|-boost|p1a: Lugia|spa|1
+|-boost|p1a: Lugia|spd|1
+|move|p2b: Garganacl|Salt Cure|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-crit|p1b: Koraidon
+|-damage|p1b: Koraidon|83/100
+|-start|p1b: Koraidon|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Koraidon|71/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1750845486
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: Lugia|Aeroblast|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p2b: Garganacl|Salt Cure|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|91/100
+|-start|p1a: Lugia|Salt Cure
+|
+|-weather|none
+|-heal|p1a: Lugia|98/100|[from] item: Leftovers
+|-damage|p1b: Koraidon|58/100|[from] Salt Cure
+|-damage|p1a: Lugia|85/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750845502
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|6
+|
+|t:|1750845540
+|-terastallize|p2a: Zacian|Ground
+|move|p2b: Garganacl|Protect|p2b: Garganacl
+|-singleturn|p2b: Garganacl|Protect
+|move|p1b: Koraidon|Collision Course|p2b: Garganacl
+|-activate|p2b: Garganacl|move: Protect
+|move|p2a: Zacian|Behemoth Blade|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Lugia|Calm Mind|p1a: Lugia
+|-boost|p1a: Lugia|spa|1
+|-boost|p1a: Lugia|spd|1
+|
+|-heal|p1a: Lugia|91/100|[from] item: Leftovers
+|-damage|p1a: Lugia|79/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1750845567
+|-terastallize|p1a: Lugia|Ground
+|move|p2a: Zacian|Substitute|p2a: Zacian
+|-start|p2a: Zacian|Substitute
+|-damage|p2a: Zacian|75/100
+|move|p1a: Lugia|Aeroblast|p2a: Zacian
+|-end|p2a: Zacian|Substitute
+|move|p2b: Garganacl|Salt Cure|p1a: Lugia
+|-resisted|p1a: Lugia
+|-damage|p1a: Lugia|74/100
+|
+|-heal|p1a: Lugia|80/100|[from] item: Leftovers
+|-damage|p1a: Lugia|68/100|[from] Salt Cure
+|upkeep
+|turn|8
+|-message|oh666 forfeited.
+|
+|win|Rusty Old Key
+|raw|oh666's rating: 1432 &rarr; <strong>1419</strong><br />(-13 for losing)
+|raw|Rusty Old Key's rating: 1558 &rarr; <strong>1571</strong><br />(+13 for winning)
+|l|☆oh666
+|player|p1|
+|l|☆Rusty Old Key
+|player|p2|

@@ -1,0 +1,246 @@
+|j|‽wholesale lumber
+|j|☆Jhon Kayes
+|t:|1750852312
+|gametype|doubles
+|player|p1|wholesale lumber|maid|1132
+|player|p2|Jhon Kayes|170|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+Jhon Kayes has agreed to open team sheets.
+|
+|t:|1750852358
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1750852380
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|91/100
+|move|p2b: Whimsicott|Light Screen|p2b: Whimsicott
+|-sidestart|p2: Jhon Kayes|move: Light Screen
+|move|p1a: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|39/100
+|-damage|p2b: Whimsicott|39/100
+|cant|p2a: Miraidon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750852416
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Jhon Kayes|move: Tailwind
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|t:|1750852429
+|switch|p2a: Groudon|Groudon, L50|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1b: Incineroar|Parting Shot|p2a: Groudon
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2a: Groudon|spa|1
+|
+|t:|1750852441
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750852448
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|turn|3
+|
+|t:|1750852473
+|switch|p2a: Miraidon|Miraidon, L50|39/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|29/100
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: wholesale lumber|move: Tailwind
+|move|p2b: Whimsicott|Moonblast|p1b: Whimsicott
+|-damage|p1b: Whimsicott|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750852500
+|switch|p2b: Groudon|Groudon, L50|100/100
+|move|p1b: Whimsicott|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1a: Incineroar|Knock Off|p2b: Groudon
+|-damage|p2b: Groudon|75/100
+|-enditem|p2b: Groudon|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750852514
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1750852544
+|-terastallize|p2b: Groudon|Fire
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Whimsicott|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|81/100
+|move|p2b: Groudon|Precipice Blades|p1b: Whimsicott|[spread] 
+|-miss|p2b: Groudon|p1a: Incineroar
+|-miss|p2b: Groudon|p1b: Whimsicott
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|33/100
+|-status|p1a: Incineroar|par
+|move|p1a: Incineroar|Parting Shot|p2b: Groudon
+|-unboost|p2b: Groudon|atk|1
+|-unboost|p2b: Groudon|spa|1
+|
+|t:|1750852632
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Jhon Kayes|move: Light Screen
+|-sideend|p2: Jhon Kayes|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jhon Kayes)
+|inactive|wholesale lumber has 60 seconds left.
+|
+|t:|1750852666
+|switch|p2b: Whimsicott|Whimsicott, L50, F|39/100
+|move|p1b: Whimsicott|Helping Hand|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Helping Hand|[of] p1b: Whimsicott
+|move|p1a: Zamazenta|Body Press|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Whimsicott
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|20/100
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-sideend|p1: wholesale lumber|move: Tailwind
+|upkeep
+|
+|t:|1750852678
+|switch|p2b: Groudon|Groudon, L50, tera:Fire|75/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|7
+|inactive|Jhon Kayes has 30 seconds left.
+|
+|t:|1750852706
+|switch|p1b: Incineroar|Incineroar, L50, M, tera:Ghost|33/100 par
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Raging Bolt|atk|1
+|-unboost|p2b: Groudon|atk|1
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Groudon|Swords Dance|p2b: Groudon
+|-boost|p2b: Groudon|atk|2
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750852729
+|switch|p1b: Whimsicott|Whimsicott, L50, F|20/100
+|turn|8
+|
+|t:|1750852743
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Whimsicott|Encore|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|10/100
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Whimsicott
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|Jhon Kayes has 30 seconds left.
+|inactive|Jhon Kayes has 20 seconds left.
+|
+|t:|1750852781
+|move|p2a: Raging Bolt|Thunderclap|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|move|p1a: Zamazenta|Body Press|p2b: Groudon
+|-damage|p2b: Groudon|36/100
+|move|p2b: Groudon|Heat Crash|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750852793
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p2b: Groudon|Heat Crash|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750852799
+|move|p2a: Raging Bolt|Thunderclap|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|Jhon Kayes
+|raw|wholesale lumber's rating: 1132 &rarr; <strong>1101</strong><br />(-31 for losing)
+|raw|Jhon Kayes's rating: 1040 &rarr; <strong>1083</strong><br />(+43 for winning)
+|l|‽wholesale lumber
+|player|p1|

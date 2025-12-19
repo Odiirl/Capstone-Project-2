@@ -1,0 +1,159 @@
+|j|☆Kvmr!
+|j|☆Tophat Bunny
+|t:|1750778166
+|gametype|doubles
+|player|p1|Kvmr!|169|1152
+|player|p2|Tophat Bunny|lass-gen4dp|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Trevenant, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750778198
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750778257
+|-terastallize|p2a: Sylveon|Fairy
+|move|p2b: Gothitelle|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|95/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Flutter Mane|Moonblast|p2b: Gothitelle
+|-damage|p2b: Gothitelle|27/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|52/100|[from] item: Sitrus Berry
+|move|p2a: Sylveon|Hyper Voice|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Flutter Mane|27/100
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778271
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|turn|2
+|
+|t:|1750778289
+|-terastallize|p1b: Flutter Mane|Fairy
+|move|p2a: Sylveon|Detect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|move|p1b: Flutter Mane|Dazzling Gleam|p2a: Sylveon|[spread] p2b
+|-activate|p2a: Sylveon|move: Protect
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778314
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|turn|3
+|
+|t:|1750778335
+|move|p2b: Talonflame|Brave Bird|p1b: Flutter Mane
+|-crit|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Talonflame|93/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2b: Talonflame
+|-damage|p2b: Talonflame|30/100
+|-enditem|p2b: Talonflame|Sharp Beak|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Sylveon|Hyper Beam|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-mustrecharge|p2a: Sylveon
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778345
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750778359
+|move|p2b: Talonflame|Brave Bird|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|76/100
+|-damage|p2b: Talonflame|21/100|[from] Recoil
+|move|p1b: Miraidon|Parabolic Charge|p2b: Talonflame|[spread] p2a,p2b
+|-supereffective|p2b: Talonflame
+|-damage|p2a: Sylveon|38/100
+|-heal|p1b: Miraidon|100/100|[from] drain|[of] p2a: Sylveon
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|cant|p2a: Sylveon|recharge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750778367
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750778398
+|move|p2a: Sylveon|Quick Attack|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|78/100
+|move|p2b: Calyrex|Psyshock|p1b: Miraidon
+|-damage|p1b: Miraidon|14/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Miraidon|Parabolic Charge|p2a: Sylveon|[spread] p2a,p2b
+|-damage|p2a: Sylveon|0 fnt
+|-heal|p1b: Miraidon|32/100|[from] drain|[of] p2a: Sylveon
+|-damage|p2b: Calyrex|21/100
+|-heal|p1b: Miraidon|68/100|[from] drain|[of] p2b: Calyrex
+|faint|p2a: Sylveon
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750778415
+|move|p2b: Calyrex|Psyshock|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-damage|p2b: Calyrex|11/100|[from] item: Life Orb
+|
+|win|Tophat Bunny
+|raw|Kvmr!'s rating: 1152 &rarr; <strong>1134</strong><br />(-18 for losing)
+|raw|Tophat Bunny's rating: 1257 &rarr; <strong>1275</strong><br />(+18 for winning)
+|l|☆Tophat Bunny
+|player|p2|
+|j|☆Tophat Bunny
+|player|p2|Tophat Bunny|lass-gen4dp|

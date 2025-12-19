@@ -1,0 +1,234 @@
+|j|☆Pallow
+|j|☆cordab
+|t:|1750871577
+|gametype|doubles
+|player|p1|Pallow|1|1416
+|player|p2|cordab|cynthia|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Spiritomb, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Jolteon, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p1|Dachsbun, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|
+|t:|1750871620
+|start
+|switch|p1a: Spiritomb|Spiritomb, L50, M|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Eternatus|Pressure
+|turn|1
+|
+|t:|1750871648
+|switch|p1a: Dachsbun|Dachsbun, L50, M|100/100
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Flutter Mane|Taunt|p1b: Eternatus
+|-start|p1b: Eternatus|move: Taunt
+|move|p2a: Koraidon|Flare Blitz|p1a: Dachsbun
+|-ability|p1a: Dachsbun|Well-Baked Body|boost
+|-boost|p1a: Dachsbun|def|2
+|move|p1b: Eternatus|Sludge Bomb|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|34/100
+|-damage|p1b: Eternatus|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750871678
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1b: Eternatus|Sludge Bomb|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|move|p1a: Dachsbun|Body Press|p2a: Calyrex
+|-immune|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750871698
+|move|p2b: Flutter Mane|Dazzling Gleam|p1b: Eternatus|[spread] p1a,p1b
+|-damage|p1a: Dachsbun|78/100
+|-damage|p1b: Eternatus|67/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Dachsbun|[spread] p1a,p1b
+|-damage|p1a: Dachsbun|42/100
+|-damage|p1b: Eternatus|30/100
+|move|p1b: Eternatus|Sludge Bomb|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1b: Eternatus|21/100|[from] item: Life Orb
+|move|p1a: Dachsbun|Snarl|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1b: Eternatus|move: Taunt
+|upkeep
+|
+|t:|1750871705
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|4
+|
+|t:|1750871740
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2b: Chi-Yu|Snarl|p1b: Terapagos|[spread] p1a,p1b
+|-resisted|p1a: Dachsbun
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Dachsbun|32/100
+|-damage|p1b: Terapagos|88/100
+|-unboost|p1a: Dachsbun|spa|1
+|move|p2a: Calyrex|Astral Barrage|p1b: Terapagos|[spread] p1a
+|-immune|p1b: Terapagos
+|-damage|p1a: Dachsbun|0 fnt
+|faint|p1a: Dachsbun
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750871751
+|switch|p1a: Spiritomb|Spiritomb, L50, M|100/100
+|turn|5
+|
+|t:|1750871766
+|move|p2b: Chi-Yu|Snarl|p1a: Spiritomb|[spread] p1a,p1b
+|-damage|p1a: Spiritomb|73/100
+|-damage|p1b: Terapagos|66/100
+|-unboost|p1a: Spiritomb|spa|1
+|move|p2a: Calyrex|Psyshock|p1b: Terapagos
+|-damage|p1b: Terapagos|14/100
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p1a: Spiritomb|Trick Room|p1a: Spiritomb
+|-fieldstart|move: Trick Room|[of] p1a: Spiritomb
+|
+|-weather|none
+|-heal|p1a: Spiritomb|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750871782
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|36/100|[silent]
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Spiritomb|Foul Play|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Terapagos|Tera Starstorm|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Chi-Yu|41/100
+|move|p2b: Chi-Yu|Snarl|p1a: Spiritomb|[spread] p1a,p1b
+|-damage|p1a: Spiritomb|49/100
+|-damage|p1b: Terapagos|23/100
+|-unboost|p1a: Spiritomb|spa|1
+|
+|-heal|p1a: Spiritomb|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750871808
+|move|p1a: Spiritomb|Helping Hand|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Helping Hand|[of] p1a: Spiritomb
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|
+|-heal|p1a: Spiritomb|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750871813
+|switch|p2b: Koraidon|Koraidon, L50, tera:Fire|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|8
+|
+|t:|1750871824
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Spiritomb|Ally Switch|p1a: Spiritomb
+|swap|p1a: Spiritomb|1|[from] move: Ally Switch
+|move|p1a: Terapagos|Tera Starstorm|p2b: Koraidon|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Calyrex|25/100
+|move|p2a: Calyrex|Psyshock|p1b: Spiritomb
+|-immune|p1b: Spiritomb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Spiritomb|66/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750871843
+|move|p2b: Koraidon|Protect||[still]
+|-fail|p2b: Koraidon
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Spiritomb|Foul Play|p2b: Koraidon
+|-damage|p2b: Koraidon|56/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Spiritomb|72/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1750871854
+|move|p2a: Calyrex|Psyshock|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Spiritomb|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|Pallow
+|raw|Pallow's rating: 1416 &rarr; <strong>1441</strong><br />(+25 for winning)
+|raw|cordab's rating: 1496 &rarr; <strong>1471</strong><br />(-25 for losing)
+|l|☆cordab
+|player|p2|
+|l|☆Pallow
+|player|p1|

@@ -1,0 +1,168 @@
+|j|☆6$sk8board
+|j|☆chico linguiceta
+|t:|1750825775
+|gametype|doubles
+|player|p1|6$sk8board|n|1303
+|player|p2|chico linguiceta|harlequin|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Sandy Shocks, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Poliwrath, L50, M|
+|teampreview|4
+|
+|t:|1750825801
+|start
+|switch|p1a: Maybe A Horse|Farigiraf, L50, F|100/100
+|switch|p1b: Bruce Bonnet|Brute Bonnet, L50, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Maybe A Horse|atk|1
+|-unboost|p1b: Bruce Bonnet|atk|1
+|turn|1
+|
+|t:|1750825824
+|move|p2a: Incineroar|Fire Punch|p1b: Bruce Bonnet
+|-supereffective|p1b: Bruce Bonnet
+|-damage|p1b: Bruce Bonnet|65/100
+|move|p1a: Maybe A Horse|Imprison|p1a: Maybe A Horse
+|-start|p1a: Maybe A Horse|move: Imprison
+|move|p1b: Bruce Bonnet|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|cant|p2b: Calyrex|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1750825839
+|move|p2a: Incineroar|Fire Punch|p1b: Bruce Bonnet
+|-supereffective|p1b: Bruce Bonnet
+|-damage|p1b: Bruce Bonnet|28/100
+|move|p1a: Maybe A Horse|Foul Play|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|50/100 slp
+|move|p1b: Bruce Bonnet|Spore|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Spore
+|-curestatus|p2b: Calyrex|slp|[msg]
+|move|p2b: Calyrex|Glacial Lance|p1a: Maybe A Horse|[spread] p1a,p1b
+|-supereffective|p1b: Bruce Bonnet
+|-damage|p1a: Maybe A Horse|10/100
+|-damage|p1b: Bruce Bonnet|0 fnt
+|faint|p1b: Bruce Bonnet
+|-end|p1b: Bruce Bonnet|Protosynthesis|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750825854
+|switch|p1b: A Horse|Calyrex-Shadow, L50|100/100
+|-ability|p1b: A Horse|As One
+|-ability|p1b: A Horse|Unnerve
+|turn|3
+|
+|t:|1750825874
+|move|p1a: Maybe A Horse|Helping Hand|p1b: A Horse
+|-singleturn|p1b: A Horse|Helping Hand|[of] p1a: Maybe A Horse
+|move|p1b: A Horse|Astral Barrage|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Incineroar|59/100 slp
+|-damage|p2b: Calyrex|0 fnt
+|-enditem|p1a: Maybe A Horse|Sitrus Berry|[eat]
+|-heal|p1a: Maybe A Horse|35/100|[from] item: Sitrus Berry
+|faint|p2b: Calyrex
+|-ability|p1b: A Horse|Grim Neigh|boost
+|-boost|p1b: A Horse|spa|1
+|-enditem|p2a: Incineroar|Eject Button
+|
+|t:|1750825881
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|
+|upkeep
+|
+|t:|1750825887
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1750825908
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: Maybe A Horse|Helping Hand|p1b: A Horse
+|-singleturn|p1b: A Horse|Helping Hand|[of] p1a: Maybe A Horse
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: A Horse|Psychic|p2b: Indeedee
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|48/100
+|move|p2a: Ursaluna|Hyper Voice|p1b: A Horse|[spread] p1a,p1b
+|-damage|p1a: Maybe A Horse|0 fnt
+|-damage|p1b: A Horse|25/100
+|faint|p1a: Maybe A Horse
+|
+|upkeep
+|
+|t:|1750825920
+|switch|p1a: Chris|Chi-Yu, L50|100/100
+|-ability|p1a: Chris|Beads of Ruin
+|turn|5
+|
+|t:|1750825931
+|move|p1b: A Horse|Protect|p1b: A Horse
+|-singleturn|p1b: A Horse|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Chris|Heat Wave|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|43/100
+|-damage|p2b: Indeedee|12/100
+|move|p2a: Ursaluna|Hyper Voice|p1a: Chris|[spread] p1a
+|-activate|p1b: A Horse|move: Protect
+|-crit|p1a: Chris
+|-damage|p1a: Chris|0 fnt
+|faint|p1a: Chris
+|
+|upkeep
+|turn|6
+|c|☆6$sk8board|gg
+|
+|t:|1750825948
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: A Horse|Psychic|p2b: Indeedee
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-ability|p1b: A Horse|Grim Neigh|boost
+|-boost|p1b: A Horse|spa|1
+|move|p2a: Ursaluna|Hyper Voice|p1b: A Horse
+|-damage|p1b: A Horse|0 fnt
+|faint|p1b: A Horse
+|
+|win|chico linguiceta
+|raw|6$sk8board's rating: 1303 &rarr; <strong>1287</strong><br />(-16 for losing)
+|raw|chico linguiceta's rating: 1367 &rarr; <strong>1383</strong><br />(+16 for winning)
+|c|☆chico linguiceta|gg
+|l|☆6$sk8board
+|player|p1|
+|l|☆chico linguiceta
+|player|p2|

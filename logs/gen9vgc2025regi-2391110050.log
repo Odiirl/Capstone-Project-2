@@ -1,0 +1,193 @@
+|j|☆yinyangchu
+|j|☆billythegamegoat
+|t:|1750803691
+|gametype|doubles
+|player|p1|yinyangchu|169|1277
+|player|p2|billythegamegoat|rocketgrunt|1370
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by billythegamegoat)
+|inactive|yinyangchu has 60 seconds left.
+|
+|t:|1750803728
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Alcremie|Alcremie, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|1
+|
+|t:|1750803743
+|move|p2a: Rillaboom|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|90/100
+|cant|p1a: Rillaboom|flinch
+|move|p1b: Alcremie|Light Screen|p1b: Alcremie
+|-sidestart|p1: yinyangchu|move: Light Screen
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-heal|p1a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|yinyangchu has 30 seconds left.
+|inactive|yinyangchu has 20 seconds left.
+|
+|t:|1750803778
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|move|p2b: Porygon2|Ice Beam|p1b: Scream Tail
+|-damage|p1b: Scream Tail|85/100
+|move|p1a: Rillaboom|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|34/100
+|-damage|p1a: Rillaboom|87/100|[from] item: Life Orb
+|
+|t:|1750803794
+|switch|p1a: Alcremie|Alcremie, L50, F|100/100|[from] U-turn
+|move|p2a: Rillaboom|Wood Hammer|p1b: Scream Tail
+|-damage|p1b: Scream Tail|27/100
+|-damage|p2a: Rillaboom|11/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|16/100|[from] Grassy Terrain
+|-heal|p1b: Scream Tail|33/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|yinyangchu has 30 seconds left.
+|
+|t:|1750803823
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2b: Porygon2|Ice Beam|p1a: Alcremie
+|-damage|p1a: Alcremie|79/100
+|-status|p1a: Alcremie|frz
+|-curestatus|p1a: Alcremie|frz|[msg]
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Rillaboom|[spread] p2a,p2b
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Porygon2|84/100
+|faint|p2a: Rillaboom
+|
+|-heal|p2b: Porygon2|90/100|[from] Grassy Terrain
+|-heal|p1a: Alcremie|85/100|[from] Grassy Terrain
+|-heal|p1b: Scream Tail|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750803833
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|inactive|yinyangchu has 30 seconds left.
+|
+|t:|1750803867
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Rillaboom|Rillaboom, L50, F|87/100
+|-terastallize|p2a: Kyogre|Water
+|move|p2a: Kyogre|Water Spout|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Alcremie|0 fnt
+|-damage|p1b: Rillaboom|27/100
+|faint|p1a: Alcremie
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|33/100|[from] Grassy Terrain
+|upkeep
+|inactive|yinyangchu has 30 seconds left.
+|inactive|yinyangchu has 20 seconds left.
+|
+|t:|1750803903
+|switch|p1a: Scream Tail|Scream Tail, L50|39/100
+|turn|5
+|
+|t:|1750803914
+|switch|p2a: Porygon2|Porygon2, L50|90/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100
+|-damage|p1b: Rillaboom|24/100|[from] item: Life Orb
+|move|p2b: Calyrex|Glacial Lance|p1a: Scream Tail|[spread] p1b
+|-activate|p1a: Scream Tail|move: Protect
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Porygon2|67/100|[from] Grassy Terrain
+|-heal|p1a: Scream Tail|46/100|[from] Grassy Terrain
+|-sideend|p1: yinyangchu|move: Light Screen
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750803924
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|inactive|yinyangchu has 30 seconds left.
+|inactive|yinyangchu has 20 seconds left.
+|inactive|yinyangchu has 15 seconds left.
+|inactive|yinyangchu has 10 seconds left.
+|
+|t:|1750803970
+|move|p1b: Miraidon|Electro Drift|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|move|p1a: Scream Tail|Disable|p2b: Calyrex
+|-start|p2b: Calyrex|Disable|Glacial Lance
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750803980
+|switch|p2a: Kyogre|Kyogre, L50, tera:Water|100/100
+|turn|7
+|
+|t:|1750803997
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Kyogre|Water Spout|p1a: Scream Tail|[spread] p1a,p1b
+|-damage|p1a: Scream Tail|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|faint|p1b: Miraidon
+|
+|win|billythegamegoat
+|raw|yinyangchu's rating: 1277 &rarr; <strong>1259</strong><br />(-18 for losing)
+|raw|billythegamegoat's rating: 1370 &rarr; <strong>1385</strong><br />(+15 for winning)
+|l|☆yinyangchu
+|player|p1|
+|l|☆billythegamegoat
+|player|p2|

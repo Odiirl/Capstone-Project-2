@@ -1,0 +1,165 @@
+|j|☆baha bbblast
+|j|☆lpelpe
+|t:|1750860916
+|gametype|doubles
+|player|p1|baha bbblast|clerk-boss|1395
+|player|p2|lpelpe|102|1388
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Armarouge, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lpelpe)
+|inactive|lpelpe has 60 seconds left.
+|inactive|lpelpe has 30 seconds left.
+|
+|t:|1750860993
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Eternatus|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750861011
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: baha bbblast|move: Tailwind
+|move|p1b: Eternatus|Meteor Beam||[still]
+|-prepare|p1b: Eternatus|Meteor Beam
+|-boost|p1b: Eternatus|spa|1
+|-enditem|p1b: Eternatus|Power Herb
+|-anim|p1b: Eternatus|Meteor Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|10/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Eternatus|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-supereffective|p1b: Eternatus
+|-crit|p1b: Eternatus
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750861023
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1b: Miraidon|Electric Seed
+|-boost|p1b: Miraidon|def|1|[from] item: Electric Seed
+|turn|2
+|
+|t:|1750861037
+|move|p1a: Whimsicott|Moonblast|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|
+|t:|1750861041
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1750861058
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Ursaluna|Earth Power|p1b: Miraidon
+|-damage|p1b: Miraidon|68/100
+|-unboost|p1b: Miraidon|spd|1
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Miraidon|59/100
+|faint|p1a: Whimsicott
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|
+|upkeep
+|
+|t:|1750861063
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1750861080
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Indeedee|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Ninetales|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Ninetales
+|move|p2b: Ursaluna|Hyper Voice|p1a: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Ninetales|6/100
+|-damage|p1b: Miraidon|13/100
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: baha bbblast|move: Tailwind
+|upkeep
+|
+|t:|1750861086
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|inactive|baha bbblast has 30 seconds left.
+|
+|t:|1750861116
+|move|p2b: Urshifu|Surging Strikes|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-hitcount|p1: Miraidon|1
+|move|p1a: Ninetales|Blizzard|p2b: Urshifu
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750861125
+|move|p2b: Urshifu|Surging Strikes|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-hitcount|p1: Ninetales|1
+|
+|win|lpelpe
+|raw|baha bbblast's rating: 1395 &rarr; <strong>1375</strong><br />(-20 for losing)
+|raw|lpelpe's rating: 1388 &rarr; <strong>1408</strong><br />(+20 for winning)
+|l|☆baha bbblast
+|player|p1|
+|l|☆lpelpe
+|player|p2|

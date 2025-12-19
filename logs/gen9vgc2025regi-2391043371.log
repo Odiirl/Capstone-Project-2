@@ -1,0 +1,134 @@
+|j|☆Chimpgaming2024
+|j|☆yeohgi2
+|t:|1750796034
+|gametype|doubles
+|player|p1|Chimpgaming2024|101|1302
+|player|p2|yeohgi2|hilbert-wonderlauncher|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chimpgaming2024)
+Chimpgaming2024 rejected open team sheets.
+|inactive|yeohgi2 has 60 seconds left.
+|
+|t:|1750796078
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Kyogre|atk|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750796097
+|move|p2a: Arcanine|Rock Slide|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|42/100
+|-damage|p1b: Kyogre|70/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1a: Zoroark|Illusion
+|move|p2b: Koraidon|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Kyogre
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|cant|p1a: Zoroark|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750796118
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|2
+|
+|t:|1750796125
+|move|p2a: Arcanine|Rock Slide|p1a: Zoroark|[spread] p1a
+|-miss|p2a: Arcanine|p1b: Farigiraf
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|move|p2b: Koraidon|Close Combat|p1b: Farigiraf
+|-damage|p1b: Farigiraf|36/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|81/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750796129
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750796146
+|-terastallize|p1a: Calyrex|Water
+|-terastallize|p2a: Arcanine|Normal
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Arcanine|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750796163
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|4
+|
+|t:|1750796175
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Koraidon|Protect||[still]
+|-fail|p2b: Koraidon
+|move|p1a: Calyrex|Glacial Lance|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Ho-Oh|0 fnt
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2a: Ho-Oh
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|yeohgi2 forfeited.
+|
+|win|Chimpgaming2024
+|raw|Chimpgaming2024's rating: 1302 &rarr; <strong>1327</strong><br />(+25 for winning)
+|raw|yeohgi2's rating: 1391 &rarr; <strong>1366</strong><br />(-25 for losing)
+|l|☆yeohgi2
+|player|p2|
+|l|☆Chimpgaming2024
+|player|p1|

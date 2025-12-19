@@ -1,0 +1,132 @@
+|j|☆naibot2814
+|j|☆juacox300
+|t:|1750807161
+|gametype|doubles
+|player|p1|naibot2814|ghetsis|1627
+|player|p2|juacox300|unknown|1658
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Alcremie-Salted-Cream, L50, F|
+|teampreview|4
+|
+|t:|1750807211
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750807228
+|-terastallize|p2a: Calyrex|Dragon
+|move|p1b: Rillaboom|Fake Out|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|77/100
+|cant|p2b: Chi-Yu|flinch
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Chi-Yu
+|-damage|p2a: Calyrex|39/100
+|-damage|p2b: Chi-Yu|37/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Calyrex|17/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-heal|p2b: Chi-Yu|43/100|[from] Grassy Terrain
+|-heal|p1a: Calyrex|23/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750807246
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Chi-Yu|atk|1
+|turn|2
+|
+|t:|1750807254
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|93/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1a: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|62/100
+|-damage|p1a: Calyrex|14/100|[from] item: Life Orb
+|
+|-heal|p1a: Calyrex|20/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|68/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|90/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|51/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750807281
+|move|p1b: Incineroar|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Incineroar
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Incineroar|23/100
+|faint|p2a: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|10/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Calyrex
+|
+|-heal|p2b: Incineroar|29/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750807297
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|-message|naibot2814 forfeited.
+|
+|win|juacox300
+|raw|naibot2814's rating: 1627 &rarr; <strong>1609</strong><br />(-18 for losing)
+|raw|juacox300's rating: 1658 &rarr; <strong>1676</strong><br />(+18 for winning)
+|l|☆naibot2814
+|player|p1|
+|l|☆juacox300
+|player|p2|

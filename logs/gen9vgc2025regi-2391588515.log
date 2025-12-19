@@ -1,0 +1,242 @@
+|j|☆TheRealWristTwist
+|j|☆MavenVGC
+|t:|1750873195
+|gametype|doubles
+|player|p1|TheRealWristTwist|170|1344
+|player|p2|MavenVGC|steven|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MavenVGC)
+MavenVGC rejected open team sheets.
+|
+|t:|1750873211
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750873231
+|move|p1a: Gothitelle|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|98/100
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Calyrex|perish3|[silent]
+|-start|p2b: Flutter Mane|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2a: Calyrex|flinch
+|move|p2b: Flutter Mane|Trick Room|p2b: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p2b: Flutter Mane
+|
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|-start|p2a: Calyrex|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p2b: Flutter Mane|perish3
+|-start|p1b: Scream Tail|perish3
+|upkeep
+|turn|2
+|inactive|TheRealWristTwist has 30 seconds left.
+|inactive|TheRealWristTwist has 20 seconds left.
+|inactive|TheRealWristTwist has 15 seconds left.
+|
+|t:|1750873271
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Scream Tail|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-damage|p1b: Scream Tail|66/100
+|move|p1b: Scream Tail|Disable|p2a: Calyrex
+|-start|p2a: Calyrex|Disable|Glacial Lance
+|
+|-start|p2a: Calyrex|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p1b: Scream Tail|perish2
+|upkeep
+|turn|3
+|inactive|TheRealWristTwist has 30 seconds left.
+|inactive|MavenVGC has 30 seconds left.
+|inactive|TheRealWristTwist has 20 seconds left.
+|inactive|TheRealWristTwist has 15 seconds left.
+|inactive|TheRealWristTwist has 10 seconds left.
+|
+|t:|1750873318
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-terastallize|p1a: Gothitelle|Water
+|move|p2a: Calyrex|Leech Seed|p1a: Gothitelle
+|-start|p1a: Gothitelle|move: Leech Seed
+|move|p1a: Gothitelle|Taunt|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|move: Taunt
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|81/100
+|-status|p1a: Gothitelle|brn
+|
+|-heal|p1a: Gothitelle|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Gothitelle|75/100 brn|[from] Leech Seed|[of] p2a: Calyrex
+|-damage|p1a: Gothitelle|68/100 brn|[from] brn
+|-start|p2a: Calyrex|perish1
+|-start|p1a: Gothitelle|perish1
+|upkeep
+|turn|4
+|inactive|TheRealWristTwist has 30 seconds left.
+|
+|t:|1750873349
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p2b: Ho-Oh|Grass
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2a: Calyrex|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|76/100
+|move|p2b: Ho-Oh|Brave Bird|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-damage|p2b: Ho-Oh|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Calyrex|perish0
+|faint|p2a: Calyrex
+|upkeep
+|
+|t:|1750873371
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1a: Scream Tail|Scream Tail, L50|66/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750873394
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|66/100
+|-status|p1b: Miraidon|brn
+|move|p1b: Miraidon|Electro Drift|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|-damage|p1b: Miraidon|56/100 brn|[from] item: Life Orb
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Miraidon|50/100 brn|[from] brn
+|-end|p2b: Ho-Oh|move: Taunt
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|TheRealWristTwist has 30 seconds left.
+|
+|t:|1750873430
+|move|p2a: Flutter Mane|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-crit|p1a: Scream Tail
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Scream Tail|36/100
+|-damage|p1b: Miraidon|2/100 brn
+|move|p1a: Scream Tail|Disable|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|Disable|Sacred Fire
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Ho-Oh|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Ho-Oh|51/100
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p1b: Miraidon|0 fnt|[from] item: Life Orb
+|faint|p1b: Miraidon
+|cant|p2b: Ho-Oh|Disable|Sacred Fire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750873445
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M, tera:Water|68/100 brn
+|turn|7
+|inactive|TheRealWristTwist has 30 seconds left.
+|
+|t:|1750873476
+|move|p1b: Gothitelle|Fake Out|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|49/100
+|-enditem|p2b: Ho-Oh|Sitrus Berry|[eat]
+|-heal|p2b: Ho-Oh|74/100|[from] item: Sitrus Berry
+|move|p1a: Scream Tail|Perish Song|p1a: Scream Tail
+|-start|p1a: Scream Tail|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Ogerpon|perish3|[silent]
+|-start|p2b: Ho-Oh|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Ogerpon|Horn Leech|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|cant|p2b: Ho-Oh|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Scream Tail|perish3
+|-start|p2a: Ogerpon|perish3
+|-start|p2b: Ho-Oh|perish3
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|inactive|TheRealWristTwist has 30 seconds left.
+|
+|t:|1750873504
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Ogerpon|Horn Leech|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|move|p2b: Ho-Oh|Brave Bird|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|-start|p1a: Scream Tail|perish2
+|-start|p2a: Ogerpon|perish2
+|-start|p2b: Ho-Oh|perish2
+|upkeep
+|turn|9
+|
+|t:|1750873519
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scream Tail|[anim] Ivy Cudgel Water
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|win|MavenVGC
+|raw|TheRealWristTwist's rating: 1344 &rarr; <strong>1326</strong><br />(-18 for losing)
+|raw|MavenVGC's rating: 1372 &rarr; <strong>1390</strong><br />(+18 for winning)
+|c|☆MavenVGC|lol
+|c|☆MavenVGC|bro thinks he is wolfey

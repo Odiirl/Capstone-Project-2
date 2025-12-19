@@ -1,0 +1,143 @@
+|j|☆CamNewtontheGOAT
+|j|☆cream 670
+|t:|1750811287
+|gametype|doubles
+|player|p1|CamNewtontheGOAT|169|1436
+|player|p2|cream 670|kimonogirl|1477
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Heatran, L50, F|
+|teampreview|4
+|
+|t:|1750811341
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: YouKnowDaOne|Heatran, L50, F|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750811369
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p2a: YouKnowDaOne|Protect|p2a: YouKnowDaOne
+|-singleturn|p2a: YouKnowDaOne|Protect
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750811381
+|-terastallize|p2b: Scream Tail|Dark
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p2b: Scream Tail|Encore|p1b: Smeargle
+|-start|p1b: Smeargle|Encore
+|move|p1a: Calyrex|Astral Barrage|p2a: YouKnowDaOne|[spread] p2a,p2b
+|-resisted|p2b: Scream Tail
+|-damage|p2a: YouKnowDaOne|0 fnt
+|-damage|p2b: Scream Tail|58/100
+|faint|p2a: YouKnowDaOne
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|
+|t:|1750811393
+|switch|p2a: コライドンv|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: コライドンv
+|-activate|p2a: コライドンv|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750811400
+|move|p2a: コライドンv|Protect|p2a: コライドンv
+|-singleturn|p2a: コライドンv|Protect
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p2b: Scream Tail|Disable|p1b: Smeargle
+|-start|p1b: Smeargle|Disable|Follow Me
+|move|p1a: Calyrex|Astral Barrage|p2a: コライドンv|[spread] p2b
+|-activate|p2a: コライドンv|move: Protect
+|-resisted|p2b: Scream Tail
+|-damage|p2b: Scream Tail|4/100
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|atk|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1750811426
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Scream Tail|Disable|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: コライドンv|Flame Charge|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|18/100
+|-boost|p2a: コライドンv|spe|1
+|-damage|p2a: コライドンv|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750811455
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p1b: Flutter Mane|Dazzling Gleam|p2b: Scream Tail|[spread] p2a,p2b
+|-supereffective|p2a: コライドンv
+|-supereffective|p2b: Scream Tail
+|-damage|p2a: コライドンv|0 fnt
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2a: コライドンv
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|cream 670 forfeited.
+|
+|win|CamNewtontheGOAT
+|raw|CamNewtontheGOAT's rating: 1436 &rarr; <strong>1458</strong><br />(+22 for winning)
+|raw|cream 670's rating: 1477 &rarr; <strong>1455</strong><br />(-22 for losing)
+|l|☆CamNewtontheGOAT
+|player|p1|
+|l|☆cream 670
+|player|p2|

@@ -1,0 +1,290 @@
+|j|☆Scottyboi3
+|j|☆Yukki.2k
+|t:|1750815864
+|gametype|doubles
+|player|p1|Scottyboi3|102|1144
+|player|p2|Yukki.2k|shadowtriad|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Scraggy, L50, F|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|
+|t:|1750815879
+|start
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750815920
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|90/100
+|move|p2b: Iron Hands|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|88/100
+|cant|p2a: Miraidon|flinch
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|39/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750815945
+|move|p1a: Ting-Lu|Protect|p1a: Ting-Lu
+|-singleturn|p1a: Ting-Lu|Protect
+|move|p2a: Miraidon|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|38/100
+|
+|t:|1750815951
+|switch|p2a: Iron Valiant|Iron Valiant, L50|100/100|[from] Volt Switch
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdriveatk
+|move|p1b: Incineroar|Parting Shot|p2a: Iron Valiant
+|-unboost|p2a: Iron Valiant|atk|1
+|-unboost|p2a: Iron Valiant|spa|1
+|
+|t:|1750815967
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p2b: Iron Hands|Drain Punch|p1a: Ting-Lu
+|-activate|p1a: Ting-Lu|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750815983
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Iron Valiant|Icy Wind|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Ting-Lu
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Ting-Lu|92/100
+|-damage|p1b: Amoonguss|86/100
+|-unboost|p1a: Ting-Lu|spe|1
+|-unboost|p1b: Amoonguss|spe|1
+|-damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+|move|p2b: Iron Hands|Ice Punch|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|48/100
+|-status|p1b: Amoonguss|frz
+|-damage|p2b: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p1a: Ting-Lu|Ruination|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|46/100
+|
+|-heal|p1a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750816013
+|switch|p1b: Incineroar|Incineroar, L50, M|38/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|move|p1a: Ting-Lu|Protect|p1a: Ting-Lu
+|-singleturn|p1a: Ting-Lu|Protect
+|move|p2a: Iron Valiant|Spirit Break|p1a: Ting-Lu
+|-activate|p1a: Ting-Lu|move: Protect
+|move|p2b: Iron Hands|Drain Punch|p1a: Ting-Lu
+|-activate|p1a: Ting-Lu|move: Protect
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750816036
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|move|p1b: Incineroar|Fake Out||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Incineroar
+|move|p2b: Iron Hands|Drain Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-heal|p2b: Iron Hands|99/100|[from] drain|[of] p1b: Incineroar
+|faint|p1b: Incineroar
+|move|p1a: Ting-Lu|Ruination|p2b: Iron Hands
+|-damage|p2b: Iron Hands|50/100
+|
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750816052
+|switch|p1b: Amoonguss|Amoonguss, L50, F|81/100 frz
+|turn|6
+|
+|t:|1750816068
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Miraidon|Miraidon, L50|39/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|cant|p1b: Amoonguss|frz
+|move|p2a: Farigiraf|Dazzling Gleam|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Kyogre|92/100
+|-damage|p1b: Amoonguss|74/100 frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750816092
+|-terastallize|p1a: Kyogre|Grass
+|move|p2a: Farigiraf|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Farigiraf
+|cant|p1b: Amoonguss|frz
+|move|p2b: Miraidon|Volt Switch|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|54/100
+|
+|t:|1750816104
+|switch|p2b: Iron Hands|Iron Hands, L50|50/100|[from] Volt Switch
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|move|p1a: Kyogre|Origin Pulse|p2b: Iron Hands|[spread] p2a
+|-miss|p1a: Kyogre|p2b: Iron Hands
+|-damage|p2a: Farigiraf|29/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|54/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750816133
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p2b: Iron Hands|Fake Out|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|88/100
+|cant|p1b: Amoonguss|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750816154
+|switch|p2a: Miraidon|Miraidon, L50|39/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-curestatus|p1b: Amoonguss|frz|[msg]
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Ting-Lu|Stomping Tantrum|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|7/100
+|move|p2b: Iron Hands|Ice Punch|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|11/100
+|-damage|p2b: Iron Hands|0 fnt|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750816170
+|switch|p2b: Iron Valiant|Iron Valiant, L50|46/100
+|-activate|p2b: Iron Valiant|ability: Quark Drive
+|-start|p2b: Iron Valiant|quarkdriveatk
+|turn|10
+|
+|t:|1750816190
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Ting-Lu
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Ting-Lu|62/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p2b: Iron Valiant|Icy Wind|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|-unboost|p1a: Ting-Lu|spe|1
+|-damage|p2b: Iron Valiant|36/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Stomping Tantrum|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|none
+|-heal|p1a: Ting-Lu|38/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Valiant|Quark Drive
+|upkeep
+|
+|t:|1750816210
+|switch|p2a: Farigiraf|Farigiraf, L50, F, shiny|54/100
+|switch|p1b: Kyogre|Kyogre, L50, tera:Grass|54/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|11
+|
+|t:|1750816227
+|move|p2a: Farigiraf|Helping Hand|p2b: Iron Valiant
+|-singleturn|p2b: Iron Valiant|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Iron Valiant|Icy Wind|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|20/100
+|-unboost|p1a: Ting-Lu|spe|1
+|-damage|p2b: Iron Valiant|26/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Stomping Tantrum|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750816252
+|move|p1a: Ting-Lu|Protect|p1a: Ting-Lu
+|-singleturn|p1a: Ting-Lu|Protect
+|move|p1b: Kyogre|Origin Pulse|p2a: Farigiraf|[miss]
+|-miss|p1b: Kyogre|p2a: Farigiraf
+|move|p2a: Farigiraf|Dazzling Gleam|p1b: Kyogre|[spread] p1b
+|-activate|p1a: Ting-Lu|move: Protect
+|-damage|p1b: Kyogre|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|33/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|Yukki.2k forfeited.
+|
+|win|Scottyboi3
+|raw|Scottyboi3's rating: 1144 &rarr; <strong>1166</strong><br />(+22 for winning)
+|raw|Yukki.2k's rating: 1105 &rarr; <strong>1083</strong><br />(-22 for losing)
+|l|☆Yukki.2k
+|player|p2|

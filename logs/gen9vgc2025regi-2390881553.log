@@ -1,0 +1,155 @@
+|j|☆Baseking0
+|j|☆ArtiboniteLadder
+|t:|1750778961
+|gametype|doubles
+|player|p1|Baseking0|alec-anime|1310
+|player|p2|ArtiboniteLadder|firebreather|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Dialga, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Baseking0)
+|inactive|ArtiboniteLadder has 60 seconds left.
+|
+|t:|1750779009
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Dialga|Dialga, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750779017
+|move|p2b: Dialga|Protect|p2b: Dialga
+|-singleturn|p2b: Dialga|Protect
+|move|p1a: Miraidon|Volt Switch|p2b: Dialga
+|-activate|p2b: Dialga|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Miraidon
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750779032
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|2
+|
+|t:|1750779052
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p2a: Ursaluna|Headlong Rush|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|move|p1b: Farigiraf|Foul Play|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750779065
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Dialga|Dialga, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750779078
+|-terastallize|p1b: Farigiraf|Water
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Dialga|54/100
+|-damage|p2b: Kyogre|61/100
+|move|p2a: Dialga|Flash Cannon|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|53/100
+|move|p2b: Kyogre|Water Spout|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Farigiraf
+|-damage|p1a: Calyrex|11/100
+|-damage|p1b: Farigiraf|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750779100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Kyogre|86/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Farigiraf|Foul Play|p2b: Kyogre
+|-damage|p2b: Kyogre|71/100
+|move|p2b: Kyogre|Water Spout|p1b: Farigiraf|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Farigiraf
+|-damage|p1b: Farigiraf|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750779114
+|switch|p2a: Dialga|Dialga, L50|54/100
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Calyrex|Glacial Lance|p2a: Dialga|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Dialga|7/100
+|-damage|p2b: Kyogre|34/100
+|move|p2b: Kyogre|Water Spout|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Farigiraf
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Farigiraf|22/100
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|c|☆ArtiboniteLadder|easy
+|-message|Baseking0 forfeited.
+|
+|win|ArtiboniteLadder
+|raw|Baseking0's rating: 1310 &rarr; <strong>1292</strong><br />(-18 for losing)
+|raw|ArtiboniteLadder's rating: 1342 &rarr; <strong>1360</strong><br />(+18 for winning)
+|l|☆Baseking0
+|player|p1|
+|l|☆ArtiboniteLadder
+|player|p2|

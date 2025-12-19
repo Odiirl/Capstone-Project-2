@@ -1,0 +1,228 @@
+|j|☆Beapboop
+|j|☆h_dizzel37
+|t:|1750798724
+|gametype|doubles
+|player|p1|Beapboop|2|1306
+|player|p2|h_dizzel37|266|1284
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Glastrier, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by h_dizzel37)
+|inactive|Beapboop also wants the timer to be on.
+|
+|t:|1750798766
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Raichu|Raichu, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750798789
+|-terastallize|p1b: Calyrex|Ghost
+|-terastallize|p2b: Calyrex|Water
+|move|p1b: Calyrex|Astral Barrage|p2b: Calyrex|[spread] p2a,p2b
+|-enditem|p2a: Raichu|Focus Sash
+|-damage|p2a: Raichu|1/100
+|-damage|p2b: Calyrex|38/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Smeargle|Spore|p2a: Raichu
+|-status|p2a: Raichu|slp|[from] move: Spore
+|cant|p2a: Raichu|slp
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|-damage|p1b: Calyrex|35/100
+|
+|-heal|p2b: Calyrex|43/100|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|2
+|inactive|Beapboop has 30 seconds left.
+|
+|t:|1750798824
+|switch|p2a: Glastrier|Glastrier, L50|100/100
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|move|p1a: Smeargle|Spore|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|49/100|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|3
+|
+|t:|1750798839
+|switch|p2b: Raichu|Raichu, L50, F|1/100 slp
+|move|p2a: Glastrier|Bitter Malice|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Smeargle|Spore|p2a: Glastrier
+|-status|p2a: Glastrier|slp|[from] move: Spore
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|
+|t:|1750798847
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750798860
+|-curestatus|p2b: Raichu|slp|[msg]
+|move|p2b: Raichu|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|99/100
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|cant|p2a: Glastrier|slp
+|cant|p1b: Zamazenta|flinch
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|5
+|
+|t:|1750798876
+|cant|p2a: Glastrier|slp
+|move|p1b: Zamazenta|Body Press|p2a: Glastrier
+|-immune|p2a: Glastrier
+|move|p1a: Smeargle|Spore|p2b: Raichu
+|-status|p2b: Raichu|slp|[from] move: Spore
+|cant|p2b: Raichu|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|6
+|
+|t:|1750798890
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|cant|p2a: Glastrier|slp
+|move|p1b: Zamazenta|Heavy Slam|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|cant|p2b: Raichu|slp
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750798904
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Water|49/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750798918
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Smeargle|Wide Guard|p1a: Smeargle
+|-singleturn|p1a: Smeargle|Wide Guard
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|cant|p2b: Raichu|slp
+|
+|-heal|p2a: Calyrex|55/100|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|8
+|
+|t:|1750798936
+|move|p1a: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|move|p1b: Zamazenta|Heavy Slam|p2b: Raichu
+|-resisted|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|cant|p2a: Calyrex|slp
+|
+|-heal|p2a: Calyrex|61/100 slp|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750798941
+|switch|p2b: Glastrier|Glastrier, L50|100/100
+|turn|9
+|
+|t:|1750798955
+|move|p2b: Glastrier|Protect|p2b: Glastrier
+|-singleturn|p2b: Glastrier|Protect
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|29/100 slp
+|move|p1a: Smeargle|Spore|p2b: Glastrier
+|-activate|p2b: Glastrier|move: Protect
+|cant|p2a: Calyrex|slp
+|
+|-heal|p2a: Calyrex|35/100 slp|[from] item: Leftovers
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|10
+|
+|t:|1750798966
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p1b: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Glastrier|Icicle Crash|p1a: Smeargle|[miss]
+|-miss|p2b: Glastrier|p1a: Smeargle
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|11
+|-message|h_dizzel37 forfeited.
+|
+|win|Beapboop
+|raw|Beapboop's rating: 1306 &rarr; <strong>1325</strong><br />(+19 for winning)
+|raw|h_dizzel37's rating: 1284 &rarr; <strong>1261</strong><br />(-23 for losing)
+|l|☆h_dizzel37
+|player|p2|
+|l|☆Beapboop
+|player|p1|

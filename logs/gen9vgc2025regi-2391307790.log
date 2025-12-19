@@ -1,0 +1,120 @@
+|j|☆m3e
+|j|☆MarsTesting
+|t:|1750832897
+|gametype|doubles
+|player|p1|m3e|266|1290
+|player|p2|MarsTesting|cyclist|1196
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Zapdos-Galar, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MarsTesting)
+|inactive|m3e has 60 seconds left.
+|
+|t:|1750832927
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Iron Bundle|Iron Bundle, L50, shiny|100/100
+|switch|p2b: Zapdos|Zapdos-Galar, L50, shiny|100/100
+|turn|1
+|
+|t:|1750832943
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: m3e|Reflect
+|move|p2a: Iron Bundle|Freeze-Dry|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|75/100
+|move|p2b: Zapdos|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|cant|p1a: Lunala|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750832967
+|move|p2a: Iron Bundle|Encore||[still]
+|-fail|p2a: Iron Bundle
+|move|p2b: Zapdos|Brave Bird|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|32/100
+|-damage|p2b: Zapdos|86/100|[from] Recoil
+|move|p1a: Lunala|Moonblast|p2b: Zapdos
+|-supereffective|p2b: Zapdos
+|-damage|p2b: Zapdos|17/100
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Zapdos
+|-supereffective|p2b: Zapdos
+|-damage|p2b: Zapdos|0 fnt
+|faint|p2b: Zapdos
+|
+|upkeep
+|
+|t:|1750832982
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Bundle|ability: Quark Drive
+|-start|p2a: Iron Bundle|quarkdrivespe
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750832998
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: m3e|move: Light Screen
+|move|p2a: Iron Bundle|Icy Wind|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Lunala|96/100
+|-damage|p1b: Grimmsnarl|22/100
+|-unboost|p1a: Lunala|spe|1
+|-unboost|p1b: Grimmsnarl|spe|1
+|move|p2b: Miraidon|Electro Drift|p1a: Lunala
+|-damage|p1a: Lunala|32/100
+|move|p1a: Lunala|Moonblast|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|38/100
+|
+|-end|p1a: Lunala|move: Taunt
+|upkeep
+|turn|4
+|inactive|m3e has 30 seconds left.
+|
+|t:|1750833025
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2a: Iron Bundle|Icy Wind|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|79/100
+|-damage|p1b: Grimmsnarl|10/100
+|-unboost|p1a: Ursaluna|spe|1
+|-unboost|p1b: Grimmsnarl|spe|1
+|move|p2b: Miraidon|Electro Drift|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|-message|MarsTesting forfeited.
+|
+|win|m3e
+|raw|m3e's rating: 1290 &rarr; <strong>1308</strong><br />(+18 for winning)
+|raw|MarsTesting's rating: 1196 &rarr; <strong>1178</strong><br />(-18 for losing)
+|l|☆MarsTesting
+|player|p2|
+|l|☆m3e
+|player|p1|

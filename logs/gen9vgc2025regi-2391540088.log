@@ -1,0 +1,185 @@
+|j|☆Test-on-calls
+|j|☆dawdawdadad
+|t:|1750867964
+|gametype|doubles
+|player|p1|Test-on-calls|266|1431
+|player|p2|dawdawdadad|norman|1393
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Raichu-Alola, L50, F|
+|teampreview|4
+|
+|t:|1750868017
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750868045
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Iron Hands|Fake Out|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kingambit|[spread] 
+|-activate|p1a: Kingambit|move: Protect
+|-activate|p1b: Chien-Pao|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750868065
+|-terastallize|p1b: Chien-Pao|Ghost
+|move|p1a: Kingambit|Sucker Punch|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|75/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Chien-Pao|[spread] p1a,p1b
+|-damage|p1a: Kingambit|29/100
+|-enditem|p1b: Chien-Pao|Focus Sash
+|-damage|p1b: Chien-Pao|1/100
+|move|p1b: Chien-Pao|Icicle Crash|p2a: Miraidon
+|-damage|p2a: Miraidon|12/100
+|move|p2b: Iron Hands|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1750868073
+|switch|p1a: Giratina|Giratina-Origin, L50, shiny|100/100
+|turn|3
+|
+|t:|1750868091
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Giratina|atk|1
+|-unboost|p1b: Chien-Pao|atk|1
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p1a: Giratina|Shadow Sneak|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|88/100
+|-damage|p1a: Giratina|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p2b: Iron Hands|Wild Charge|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750868126
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p1a: Giratina|Poltergeist|p2b: Iron Hands
+|-activate|p2b: Iron Hands|move: Poltergeist|Assault Vest
+|-damage|p2b: Iron Hands|66/100
+|move|p2a: Incineroar|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|26/100
+|move|p2b: Iron Hands|Wild Charge|p1b: Zamazenta
+|-damage|p1b: Zamazenta|67/100
+|-damage|p2b: Iron Hands|60/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1750868146
+|move|p1b: Zamazenta|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Zamazenta|50/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|move|p1a: Giratina|Poltergeist|p2b: Iron Hands
+|-activate|p2b: Iron Hands|move: Poltergeist|Assault Vest
+|-damage|p2b: Iron Hands|23/100
+|move|p2b: Iron Hands|Drain Punch|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|3/100
+|-heal|p2b: Iron Hands|42/100|[from] drain|[of] p1b: Zamazenta
+|
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750868160
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|12/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1750868182
+|move|p1a: Giratina|Shadow Sneak|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1b: Zamazenta|Body Press|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750868189
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|7
+|
+|t:|1750868199
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Kyogre|Ice Beam|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750868203
+|switch|p1a: Chien-Pao|Chien-Pao, L50, tera:Ghost|1/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|t:|1750868210
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Kyogre
+|-damage|p2a: Kyogre|47/100
+|move|p2a: Kyogre|Ice Beam|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|move|p1b: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|Test-on-calls
+|raw|Test-on-calls's rating: 1457 &rarr; <strong>1473</strong><br />(+16 for winning)
+|raw|dawdawdadad's rating: 1393 &rarr; <strong>1377</strong><br />(-16 for losing)
+|l|☆Test-on-calls
+|player|p1|
+|j|☆Test-on-calls
+|player|p1|Test-on-calls|266|

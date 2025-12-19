@@ -1,0 +1,294 @@
+|j|☆eldom brosta
+|j|☆KenjiPT
+|t:|1750799800
+|gametype|doubles
+|player|p1|eldom brosta|winona|1232
+|player|p2|KenjiPT|blackbelt-gen4dp|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Cyclizar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Drifblim, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Lugia, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KenjiPT)
+|
+|t:|1750799812
+|start
+|switch|p1a: Cyclizar|Cyclizar, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Drifblim|Drifblim, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Drifblim|atk|1
+|turn|1
+|
+|t:|1750799830
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1a: Cyclizar|Shift Gear|p1a: Cyclizar
+|-boost|p1a: Cyclizar|spe|2
+|-boost|p1a: Cyclizar|atk|1
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|28/100
+|-enditem|p2a: Indeedee|Mental Herb|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750799847
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Cyclizar|Shed Tail|p1a: Cyclizar
+|-start|p1a: Cyclizar|Substitute|[from] move: Shed Tail
+|-damage|p1a: Cyclizar|50/100
+|-enditem|p1a: Cyclizar|Sitrus Berry|[eat]
+|-heal|p1a: Cyclizar|75/100|[from] item: Sitrus Berry
+|
+|t:|1750799854
+|switch|p1a: Koraidon|Koraidon, L50|100/100|[from] Shed Tail
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799865
+|switch|p2a: Tatsugiri|Tatsugiri, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1750799878
+|move|p2a: Tatsugiri|Protect|p2a: Tatsugiri
+|-singleturn|p2a: Tatsugiri|Protect
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1a: Koraidon|Flame Charge|p2b: Drifblim
+|-damage|p2b: Drifblim|54/100
+|-boost|p1a: Koraidon|spe|1
+|move|p1b: Incineroar|Knock Off|p2b: Drifblim|[miss]
+|-miss|p1b: Incineroar|p2b: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750799896
+|move|p2b: Drifblim|Baton Pass|p2b: Drifblim
+|
+|t:|1750799898
+|switch|p2b: Dondozo|Dondozo, L50, M, shiny|100/100|[from] Baton Pass
+|-activate|p2a: Tatsugiri|ability: Commander|[of] p2b: Dondozo
+|-boost|p2b: Dondozo|atk|2
+|-boost|p2b: Dondozo|spa|2
+|-boost|p2b: Dondozo|spe|2
+|-boost|p2b: Dondozo|def|2
+|-boost|p2b: Dondozo|spd|2
+|move|p1a: Koraidon|Flare Blitz|p2b: Dondozo
+|-resisted|p2b: Dondozo
+|-damage|p2b: Dondozo|84/100
+|-damage|p1a: Koraidon|94/100|[from] Recoil
+|move|p1b: Incineroar|Parting Shot|p2a: Tatsugiri|[miss]
+|-miss|p1b: Incineroar|p2a: Tatsugiri
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dondozo|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750799920
+|move|p1a: Koraidon|Collision Course|p2b: Dondozo|[miss]
+|-miss|p1a: Koraidon|p2b: Dondozo
+|move|p2b: Dondozo|Substitute|p2b: Dondozo
+|-start|p2b: Dondozo|Substitute
+|-damage|p2b: Dondozo|65/100
+|move|p1b: Incineroar|Knock Off|p2b: Dondozo|[miss]
+|-miss|p1b: Incineroar|p2b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dondozo|71/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750799931
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Koraidon|Collision Course|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|move|p1b: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-weather|none
+|-heal|p2b: Dondozo|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750799943
+|move|p1a: Koraidon|Collision Course|p2b: Dondozo|[miss]
+|-miss|p1a: Koraidon|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-end|p1a: Koraidon|Substitute
+|-boost|p2b: Dondozo|atk|1
+|move|p1b: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Substitute|[damage]
+|
+|-heal|p2b: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|eldom brosta has 30 seconds left.
+|
+|t:|1750799972
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750799987
+|move|p1a: Koraidon|Collision Course|p2b: Dondozo|[miss]
+|-miss|p1a: Koraidon|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|15/100
+|-boost|p2b: Dondozo|atk|1
+|move|p1b: Incineroar|Parting Shot|p2b: Dondozo
+|-unboost|p2b: Dondozo|atk|1
+|-unboost|p2b: Dondozo|spa|1
+|
+|t:|1750800001
+|switch|p1b: Cyclizar|Cyclizar, L50, F, shiny|100/100|[from] Parting Shot
+|
+|-heal|p2b: Dondozo|96/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750800013
+|move|p1a: Koraidon|Collision Course|p2b: Dondozo|[miss]
+|-miss|p1a: Koraidon|p2b: Dondozo
+|move|p2b: Dondozo|Earthquake|p1b: Cyclizar|[spread] p1a,p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Cyclizar|32/100
+|faint|p1a: Koraidon
+|move|p1b: Cyclizar|Shed Tail|p1b: Cyclizar
+|-fail|p1b: Cyclizar|move: Shed Tail|[weak]
+|
+|-heal|p2b: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750800024
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tatsugiri|atk|1
+|-immune|p2b: Dondozo
+|turn|11
+|
+|t:|1750800034
+|move|p2b: Dondozo|Earthquake|p1b: Cyclizar|[spread] p1a,p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|33/100
+|-damage|p1b: Cyclizar|0 fnt
+|faint|p1b: Cyclizar
+|move|p1a: Incineroar|Parting Shot|p2b: Dondozo|[miss]
+|-miss|p1a: Incineroar|p2b: Dondozo
+|
+|upkeep
+|
+|t:|1750800043
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|12
+|
+|t:|1750800050
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Dondozo|Order Up|p1b: Miraidon
+|-immune|p1b: Miraidon
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|move|p1a: Incineroar|Parting Shot|p2b: Dondozo
+|-unboost|p2b: Dondozo|atk|1
+|-unboost|p2b: Dondozo|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1750800065
+|move|p2b: Dondozo|Earthquake|p1b: Miraidon|[spread] p1a,p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Miraidon|69/100
+|faint|p1a: Incineroar
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|
+|upkeep
+|turn|14
+|
+|t:|1750800074
+|move|p2b: Dondozo|Earthquake|p1b: Miraidon|[spread] p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-damage|p1b: Miraidon|40/100
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|
+|upkeep
+|turn|15
+|
+|t:|1750800082
+|move|p2b: Dondozo|Earthquake|p1b: Miraidon|[spread] p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-damage|p1b: Miraidon|10/100
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|
+|upkeep
+|turn|16
+|
+|t:|1750800090
+|move|p2b: Dondozo|Earthquake|p1b: Miraidon|[spread] p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|KenjiPT
+|raw|eldom brosta's rating: 1232 &rarr; <strong>1208</strong><br />(-24 for losing)
+|raw|KenjiPT's rating: 1249 &rarr; <strong>1273</strong><br />(+24 for winning)
+|l|☆eldom brosta
+|player|p1|
+|l|☆KenjiPT
+|player|p2|

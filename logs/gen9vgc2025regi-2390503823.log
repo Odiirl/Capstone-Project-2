@@ -1,0 +1,230 @@
+|j|☆Alexfind
+|j|☆comrade5
+|t:|1750721334
+|gametype|doubles
+|player|p1|Alexfind|2|1395
+|player|p2|comrade5|2|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Alexfind)
+|
+|t:|1750721359
+|start
+|switch|p1a: Stonjourner|Stonjourner, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Stonjourner|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|turn|1
+|
+|t:|1750721382
+|-terastallize|p1a: Stonjourner|Ghost
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Koraidon|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p1a: Stonjourner
+|-enditem|p1a: Stonjourner|Focus Sash
+|-damage|p1a: Stonjourner|1/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Stonjourner|Bulldoze|p2a: Calyrex|[spread] p2a,p2b
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Calyrex|82/100
+|-damage|p2b: Incineroar|86/100
+|-unboost|p2a: Calyrex|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Alexfind has 30 seconds left.
+|inactive|comrade5 has 30 seconds left.
+|
+|t:|1750721414
+|move|p1b: Koraidon|Flare Blitz|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-damage|p1b: Koraidon|76/100|[from] Recoil
+|move|p1a: Stonjourner|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|34/100
+|move|p2b: Incineroar|Knock Off|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|57/100
+|-enditem|p1b: Koraidon|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750721428
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750721444
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Zamazenta|Body Press|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Stonjourner|Bulldoze|p2b: Incineroar|[spread] p2a,p2b
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p2a: Zamazenta
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Zamazenta|94/100
+|-damage|p2b: Incineroar|18/100
+|-unboost|p2a: Zamazenta|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|move|p2b: Incineroar|Knock Off|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750721461
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|4
+|inactive|Alexfind has 30 seconds left.
+|
+|t:|1750721496
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Walking Wake|Draco Meteor|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p1b: Koraidon|Collision Course|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Alexfind has 30 seconds left.
+|inactive|comrade5 has 30 seconds left.
+|
+|t:|1750721528
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Walking Wake|Flamethrower|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|6/100
+|-damage|p1a: Walking Wake|91/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|53/100
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|-heal|p1b: Calyrex|59/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Alexfind has 30 seconds left.
+|inactive|Alexfind has 20 seconds left.
+|
+|t:|1750721566
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|18/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Walking Wake|Flamethrower|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1a: Walking Wake|81/100|[from] item: Life Orb
+|move|p1b: Calyrex|Swords Dance|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|2
+|
+|-heal|p1b: Calyrex|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750721584
+|switch|p2b: Amoonguss|Amoonguss, L50, M|39/100
+|turn|7
+|inactive|comrade5 has 30 seconds left.
+|
+|t:|1750721610
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Walking Wake|Flamethrower|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|24/100
+|move|p1b: Calyrex|High Horsepower|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|
+|-heal|p1b: Calyrex|30/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|comrade5 has 30 seconds left.
+|inactive|Alexfind has 30 seconds left.
+|
+|t:|1750721644
+|move|p1a: Walking Wake|Draco Meteor|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2b: Amoonguss
+|-damage|p1a: Walking Wake|72/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750721654
+|switch|p1b: Koraidon|Koraidon, L50|57/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|9
+|
+|t:|1750721664
+|-terastallize|p2a: Zamazenta|Grass
+|move|p1a: Walking Wake|Flamethrower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Walking Wake|62/100|[from] item: Life Orb
+|
+|win|Alexfind
+|raw|Alexfind's rating: 1395 &rarr; <strong>1414</strong><br />(+19 for winning)
+|raw|comrade5's rating: 1384 &rarr; <strong>1365</strong><br />(-19 for losing)
+|l|☆Alexfind
+|player|p1|

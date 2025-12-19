@@ -1,0 +1,237 @@
+|j|☆caskade
+|j|☆braynded
+|t:|1750857939
+|gametype|doubles
+|player|p1|caskade|red|1064
+|player|p2|braynded|266|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Slowking, L50, M|
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750857971
+|start
+|switch|p1a: Slowking|Slowking, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750857985
+|switch|p1b: Gastrodon|Gastrodon, L50, F|100/100
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Tornadus|Taunt|p1a: Slowking
+|-immune|p1a: Slowking|[from] ability: Oblivious
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750858001
+|move|p1a: Slowking|Surf|p2a: Tornadus|[spread] p2a,p2b
+|-ability|p1b: Gastrodon|Storm Drain|boost
+|-boost|p1b: Gastrodon|spa|1
+|-resisted|p2b: Kyogre
+|-damage|p2a: Tornadus|56/100
+|-damage|p2b: Kyogre|89/100
+|move|p1b: Gastrodon|Earth Power|p2b: Kyogre
+|-damage|p2b: Kyogre|58/100
+|move|p2b: Kyogre|Thunder|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Gastrodon|[spread] p1a,p1b
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|-damage|p1b: Gastrodon|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Gastrodon|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750858031
+|move|p1a: Slowking|Surf|p2a: Tornadus|[spread] p2a,p2b
+|-ability|p1b: Gastrodon|Storm Drain|boost
+|-boost|p1b: Gastrodon|spa|1
+|-resisted|p2b: Kyogre
+|-damage|p2a: Tornadus|18/100
+|-damage|p2b: Kyogre|46/100
+|move|p1b: Gastrodon|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|move|p2b: Kyogre|Ice Beam|p1b: Gastrodon
+|-damage|p1b: Gastrodon|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Gastrodon|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750858046
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1750858064
+|-terastallize|p1b: Gastrodon|Fire
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Gastrodon
+|-resisted|p1b: Gastrodon
+|-damage|p1b: Gastrodon|36/100
+|move|p1a: Slowking|Heal Pulse|p1b: Gastrodon
+|-heal|p1b: Gastrodon|86/100
+|move|p1b: Gastrodon|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|19/100|[from] Grassy Terrain
+|-heal|p1b: Gastrodon|92/100|[from] Grassy Terrain
+|-heal|p1b: Gastrodon|98/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|59/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|52/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750858094
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Rillaboom|Grassy Glide|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|move|p1b: Gastrodon|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|13/100
+|
+|-weather|none
+|-heal|p1b: Gastrodon|100/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|19/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750858106
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750858127
+|move|p2b: Zamazenta|Behemoth Bash|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|47/100
+|move|p2a: Rillaboom|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|21/100
+|
+|t:|1750858134
+|switch|p2a: Kyogre|Kyogre, L50|52/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Calyrex|Leech Seed|p2b: Zamazenta
+|-start|p2b: Zamazenta|move: Leech Seed
+|move|p1b: Gastrodon|Surf|p2a: Kyogre|[spread] p1a,p2a,p2b
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p2a: Kyogre|18/100
+|-damage|p2b: Zamazenta|50/100
+|faint|p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Zamazenta|57/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|24/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750858142
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|turn|7
+|
+|t:|1750858157
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Kyogre|Surf|p2b: Zamazenta|[spread] 
+|-activate|p2a: Kyogre|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|-ability|p1b: Gastrodon|Storm Drain|boost
+|-boost|p1b: Gastrodon|spa|1
+|move|p2a: Kyogre|Thunder|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|29/100
+|-status|p1a: Kyogre|par
+|move|p1b: Gastrodon|Earth Power|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|30/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|35/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750858177
+|switch|p2b: Rillaboom|Rillaboom, L50, F|19/100
+|turn|8
+|
+|t:|1750858200
+|move|p2a: Kyogre|Thunder|p1b: Gastrodon
+|-damage|p1b: Gastrodon|60/100
+|move|p2b: Rillaboom|Wood Hammer|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-damage|p2b: Rillaboom|9/100|[from] Recoil
+|move|p1b: Gastrodon|Surf|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Kyogre|4/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|10/100|[from] Grassy Terrain
+|-heal|p1b: Gastrodon|66/100|[from] Grassy Terrain
+|-heal|p1b: Gastrodon|72/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caskade)
+|
+|t:|1750858227
+|-terastallize|p2a: Kyogre|Electric
+|move|p2a: Kyogre|Thunder|p1b: Gastrodon
+|-damage|p1b: Gastrodon|12/100
+|move|p1b: Gastrodon|Earth Power|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|caskade
+|raw|caskade's rating: 1064 &rarr; <strong>1094</strong><br />(+30 for winning)
+|raw|braynded's rating: 1061 &rarr; <strong>1042</strong><br />(-19 for losing)
+|l|☆braynded
+|player|p2|
+|l|☆caskade
+|player|p1|

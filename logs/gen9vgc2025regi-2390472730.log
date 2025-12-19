@@ -1,0 +1,148 @@
+|j|‽gooyeguy
+|j|☆Emeuve
+|t:|1750717415
+|gametype|doubles
+|player|p1|gooyeguy|101|1197
+|player|p2|Emeuve|170|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Slowpoke, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750717450
+|start
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Slowpoke|Slowpoke, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p1b: Iron Hands|Booster Energy
+|-activate|p1b: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750717489
+|move|p1b: Iron Hands|Fake Out|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2a: Indeedee|Reflect|p2a: Indeedee
+|-sidestart|p2: Emeuve|Reflect
+|move|p1a: Sinistcha|Shadow Ball|p2b: Slowpoke
+|-supereffective|p2b: Slowpoke
+|-damage|p2b: Slowpoke|39/100
+|move|p2b: Slowpoke|Trick Room|p2b: Slowpoke
+|-fieldstart|move: Trick Room|[of] p2b: Slowpoke
+|
+|upkeep
+|turn|2
+|
+|t:|1750717520
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Slowpoke|Light Screen|p2b: Slowpoke
+|-sidestart|p2: Emeuve|move: Light Screen
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Slowpoke|[spread] p2a,p2b
+|-supereffective|p2b: Slowpoke
+|-damage|p2a: Indeedee|89/100
+|-damage|p2b: Slowpoke|16/100
+|move|p2a: Indeedee|Heal Pulse|p2b: Slowpoke
+|-heal|p2b: Slowpoke|66/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750717546
+|move|p2b: Slowpoke|Surf|p1b: Calyrex|[spread] p2a,p1a,p1b
+|-resisted|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p2a: Indeedee|85/100
+|-damage|p1a: Sinistcha|92/100
+|-damage|p1b: Calyrex|94/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Slowpoke|[spread] p2a,p2b
+|-resisted|p2b: Slowpoke
+|-damage|p2a: Indeedee|49/100
+|-damage|p2b: Slowpoke|50/100
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Sinistcha|79/100
+|-damage|p1b: Calyrex|84/100
+|move|p1a: Sinistcha|Shadow Ball|p2b: Slowpoke
+|-supereffective|p2b: Slowpoke
+|-crit|p2b: Slowpoke
+|-damage|p2b: Slowpoke|0 fnt
+|faint|p2b: Slowpoke
+|
+|upkeep
+|
+|t:|1750717561
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|4
+|
+|t:|1750717582
+|-terastallize|p2b: Torkoal|Fire
+|-terastallize|p1b: Calyrex|Ground
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Torkoal|Eruption|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-damage|p1b: Calyrex|18/100
+|faint|p1a: Sinistcha
+|move|p1b: Calyrex|High Horsepower|p2a: Indeedee
+|-damage|p2a: Indeedee|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750717597
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|turn|5
+|
+|t:|1750717605
+|move|p1a: Iron Hands|Fake Out|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Psychic Terrain
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Torkoal|Eruption|p1a: Iron Hands|[spread] p1a,p1b
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Emeuve|Reflect
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|gooyeguy forfeited.
+|
+|win|Emeuve
+|raw|gooyeguy's rating: 1197 &rarr; <strong>1166</strong><br />(-31 for losing)
+|raw|Emeuve's rating: 1110 &rarr; <strong>1141</strong><br />(+31 for winning)
+|l|‽gooyeguy
+|player|p1|
+|c|☆Emeuve|ggs
+|l|☆Emeuve
+|player|p2|

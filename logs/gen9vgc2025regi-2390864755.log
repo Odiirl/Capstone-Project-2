@@ -1,0 +1,223 @@
+|j|☆k_mal_ayne
+|j|☆LinkDF
+|t:|1750777145
+|gametype|doubles
+|player|p1|k_mal_ayne|1|1299
+|player|p2|LinkDF|riley|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Coalossal, L50, M|
+|poke|p1|Luvdisc, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+k_mal_ayne rejected open team sheets.
+|
+|t:|1750777168
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750777200
+|switch|p1a: Luvdisc|Luvdisc, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|88/100
+|move|p2b: Annihilape|Final Gambit|p1a: Luvdisc
+|-enditem|p1a: Luvdisc|Focus Sash
+|-damage|p1a: Luvdisc|1/100
+|faint|p2b: Annihilape
+|cant|p2a: Miraidon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Luvdisc|7/100|[from] Grassy Terrain
+|-heal|p2a: Miraidon|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750777213
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750777231
+|switch|p1b: Coalossal|Coalossal, L50, M|100/100
+|move|p1a: Luvdisc|Aqua Jet|p1b: Coalossal
+|-supereffective|p1b: Coalossal
+|-damage|p1b: Coalossal|82/100
+|-ability|p1b: Coalossal|Steam Engine|boost
+|-boost|p1b: Coalossal|spe|6
+|-enditem|p1b: Coalossal|Weakness Policy
+|-boost|p1b: Coalossal|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Coalossal|spa|2|[from] item: Weakness Policy
+|move|p2a: Miraidon|Volt Switch|p1b: Coalossal
+|-damage|p1b: Coalossal|48/100
+|
+|t:|1750777242
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Coalossal|55/100|[from] Grassy Terrain
+|-heal|p1a: Luvdisc|13/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750777255
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1b: Coalossal|Protect|p1b: Coalossal
+|-singleturn|p1b: Coalossal|Protect
+|move|p2a: Iron Hands|Drain Punch|p1b: Coalossal
+|-activate|p1b: Coalossal|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Coalossal|[spread] p1a
+|-activate|p1b: Coalossal|move: Protect
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|9/100|[from] Grassy Terrain
+|-heal|p1b: Coalossal|61/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750777271
+|move|p2a: Iron Hands|Detect|p2a: Iron Hands
+|-singleturn|p2a: Iron Hands|Protect
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Rillaboom|Fake Out|p2a: Iron Hands
+|-activate|p2a: Iron Hands|move: Protect
+|move|p1b: Coalossal|Earth Power|p2a: Iron Hands
+|-activate|p2a: Iron Hands|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p1b: Coalossal|67/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750777285
+|switch|p1a: Luvdisc|Luvdisc, L50, F|13/100
+|move|p1b: Coalossal|Protect|p1b: Coalossal
+|-singleturn|p1b: Coalossal|Protect
+|move|p2a: Iron Hands|Drain Punch|p1b: Coalossal
+|-activate|p1b: Coalossal|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Luvdisc|[spread] p1a
+|-activate|p1b: Coalossal|move: Protect
+|-resisted|p1a: Luvdisc
+|-damage|p1a: Luvdisc|0 fnt
+|faint|p1a: Luvdisc
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|none
+|-heal|p1b: Coalossal|73/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750777300
+|switch|p1a: Rillaboom|Rillaboom, L50, M|15/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|t:|1750777309
+|move|p1a: Rillaboom|Fake Out|p2a: Iron Hands
+|-damage|p2a: Iron Hands|91/100
+|cant|p2a: Iron Hands|flinch
+|move|p2b: Calyrex|Glacial Lance|p1b: Coalossal|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-resisted|p1b: Coalossal
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Coalossal|42/100
+|faint|p1a: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Coalossal|Power Gem|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|11/100
+|
+|-heal|p2a: Iron Hands|98/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|16/100|[from] Grassy Terrain
+|-heal|p1b: Coalossal|48/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750777324
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|7
+|
+|t:|1750777343
+|-terastallize|p2a: Iron Hands|Grass
+|move|p1b: Coalossal|Earth Power|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|79/100
+|move|p1a: Kyogre|Water Spout|p2a: Iron Hands|[spread] p2a,p2b
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|43/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Iron Hands|Drain Punch|p1b: Coalossal
+|-supereffective|p1b: Coalossal
+|-damage|p1b: Coalossal|0 fnt
+|-heal|p2a: Iron Hands|62/100|[from] drain|[of] p1b: Coalossal
+|faint|p1b: Coalossal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Hands|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750777358
+|switch|p2b: Miraidon|Miraidon, L50|94/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|-enditem|p2a: Iron Hands|Electric Seed
+|-boost|p2a: Iron Hands|def|1|[from] item: Electric Seed
+|turn|8
+|
+|t:|1750777368
+|-terastallize|p1a: Kyogre|Grass
+|move|p2b: Miraidon|Electro Drift|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|70/100
+|move|p1a: Kyogre|Ice Beam|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|48/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Kyogre
+|-damage|p1a: Kyogre|15/100
+|-heal|p2a: Iron Hands|88/100|[from] drain|[of] p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|-message|k_mal_ayne forfeited.
+|
+|win|LinkDF
+|raw|k_mal_ayne's rating: 1299 &rarr; <strong>1277</strong><br />(-22 for losing)
+|raw|LinkDF's rating: 1336 &rarr; <strong>1354</strong><br />(+18 for winning)
+|l|☆k_mal_ayne
+|player|p1|
+|l|☆LinkDF
+|player|p2|

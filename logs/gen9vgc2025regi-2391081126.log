@@ -1,0 +1,202 @@
+|j|☆KK the Boi VGC
+|j|☆Blopvisbanaan
+|t:|1750800253
+|gametype|doubles
+|player|p1|KK the Boi VGC|steven|1169
+|player|p2|Blopvisbanaan|101|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Lokix, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Heatran, L50, M|
+|teampreview|4
+|
+|t:|1750800274
+|start
+|switch|p1a: Meowscarada|Meowscarada, L50, M, shiny|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Rayquaza|Rayquaza, L50, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Meowscarada|Grassy Seed
+|-boost|p1a: Meowscarada|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750800303
+|-terastallize|p2b: Grimmsnarl|Ghost
+|move|p2a: Rayquaza|Protect|p2a: Rayquaza
+|-singleturn|p2a: Rayquaza|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Rayquaza
+|-activate|p2a: Rayquaza|move: Protect
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Blopvisbanaan|Reflect
+|move|p1a: Meowscarada|Play Rough|p2a: Rayquaza
+|-activate|p2a: Rayquaza|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750800322
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1a: Meowscarada|Protect|p1a: Meowscarada
+|-singleturn|p1a: Meowscarada|Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Blopvisbanaan|move: Light Screen
+|move|p2a: Rayquaza|Tailwind|p2a: Rayquaza
+|-sidestart|p2: Blopvisbanaan|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1750800344
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|faint|p1a: Meowscarada
+|move|p1b: Urshifu|Surging Strikes|p2b: Grimmsnarl
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|70/100
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|40/100
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|10/100
+|-hitcount|p2b: Grimmsnarl|3
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|39/100
+|-unboost|p1b: Urshifu|spa|1
+|
+|-heal|p1b: Urshifu|44/100|[from] Grassy Terrain
+|-heal|p2b: Grimmsnarl|16/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750800347
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|4
+|
+|t:|1750800365
+|move|p2a: Rayquaza|Protect|p2a: Rayquaza
+|-singleturn|p2a: Rayquaza|Protect
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Urshifu
+|-status|p1b: Urshifu|par
+|move|p1a: Rillaboom|U-turn|p2b: Grimmsnarl
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|8/100
+|
+|t:|1750800372
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Urshifu|Surging Strikes|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|77/100
+|-resisted|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|51/100
+|-resisted|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|26/100
+|-hitcount|p2a: Rayquaza|3
+|
+|-heal|p2b: Grimmsnarl|14/100|[from] Grassy Terrain
+|-heal|p1b: Urshifu|50/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750800407
+|-terastallize|p1b: Urshifu|Water
+|move|p2a: Rayquaza|Dragon Ascent|p1a: Zamazenta
+|-damage|p1a: Zamazenta|66/100
+|-unboost|p2a: Rayquaza|def|1
+|-unboost|p2a: Rayquaza|spd|1
+|move|p1a: Zamazenta|Coaching|p1b: Urshifu
+|-boost|p1b: Urshifu|atk|1
+|-boost|p1b: Urshifu|def|1
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Urshifu
+|-damage|p1b: Urshifu|31/100 par
+|-unboost|p1b: Urshifu|spa|1
+|move|p1b: Urshifu|Surging Strikes|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-crit|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|-hitcount|p2: Rayquaza|1
+|
+|-heal|p1a: Zamazenta|72/100|[from] Grassy Terrain
+|-heal|p2b: Grimmsnarl|20/100|[from] Grassy Terrain
+|-heal|p1b: Urshifu|36/100 par|[from] Grassy Terrain
+|-sideend|p2: Blopvisbanaan|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750800428
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|turn|6
+|
+|t:|1750800465
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Zamazenta|[miss]
+|-miss|p2b: Grimmsnarl|p1a: Zamazenta
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1b: Urshifu|Surging Strikes|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|80/100
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|35/100
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-hitcount|p2: Lunala|3
+|
+|upkeep
+|
+|t:|1750800476
+|switch|p2a: Beru|Lokix, L50, M|100/100
+|turn|7
+|
+|t:|1750800488
+|move|p1a: Zamazenta|Body Press|p2a: Beru
+|-damage|p2a: Beru|12/100
+|move|p2a: Beru|Axe Kick|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|40/100
+|move|p1b: Urshifu|Surging Strikes|p2b: Grimmsnarl
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-hitcount|p2: Grimmsnarl|1
+|
+|upkeep
+|turn|8
+|c|☆KK the Boi VGC|ggs
+|-message|Blopvisbanaan forfeited.
+|
+|win|KK the Boi VGC
+|raw|KK the Boi VGC's rating: 1169 &rarr; <strong>1186</strong><br />(+17 for winning)
+|raw|Blopvisbanaan's rating: 1058 &rarr; <strong>1045</strong><br />(-13 for losing)
+|l|☆Blopvisbanaan
+|player|p2|
+|l|☆KK the Boi VGC
+|player|p1|

@@ -1,0 +1,140 @@
+|j|☆Auragami
+|j|☆Honored1
+|t:|1750827759
+|gametype|doubles
+|player|p1|Auragami|burglar|
+|player|p2|Honored1|silver|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slowking, L50, M|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Baxcalibur, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750827791
+|start
+|switch|p1a: LOL GG?|Smeargle, L50, M, shiny|100/100
+|switch|p1b: RRR DEM|Baxcalibur, L50, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750827821
+|move|p2a: Chien-Pao|Icicle Crash|p1a: LOL GG?
+|-enditem|p1a: LOL GG?|Focus Sash
+|-damage|p1a: LOL GG?|1/100
+|move|p1b: RRR DEM|Swords Dance|p1b: RRR DEM
+|-boost|p1b: RRR DEM|atk|2
+|move|p2b: Ogerpon|Ivy Cudgel|p1a: LOL GG?|[anim] Ivy Cudgel Fire
+|-damage|p1a: LOL GG?|0 fnt
+|faint|p1a: LOL GG?
+|
+|upkeep
+|
+|t:|1750827834
+|switch|p1a: THIS IS MY LINT|Weezing-Galar, L50, M|100/100
+|-ability|p1a: THIS IS MY LINT|Neutralizing Gas
+|turn|2
+|
+|t:|1750827849
+|-terastallize|p2b: Ogerpon|Fire
+|detailschange|p2b: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-terastallize|p1a: THIS IS MY LINT|Normal
+|move|p1b: RRR DEM|Protect|p1b: RRR DEM
+|-singleturn|p1b: RRR DEM|Protect
+|move|p2a: Chien-Pao|Icicle Crash|p1a: THIS IS MY LINT
+|-damage|p1a: THIS IS MY LINT|56/100
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: RRR DEM|[anim] Ivy Cudgel Fire
+|-activate|p1b: RRR DEM|move: Protect
+|move|p1a: THIS IS MY LINT|Explosion|p2a: Chien-Pao|[spread] p2a,p2b
+|-activate|p1b: RRR DEM|move: Protect
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|-damage|p2b: Ogerpon|12/100
+|faint|p1a: THIS IS MY LINT
+|-end|p1a: THIS IS MY LINT|ability: Neutralizing Gas
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2b: Ogerpon|atk|1
+|
+|upkeep
+|
+|t:|1750827871
+|switch|p1a: CIG WHALE|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: CIG WHALE
+|turn|3
+|
+|t:|1750827911
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: CIG WHALE|Water Spout|p2b: Ogerpon|[spread] p2a
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p1b: RRR DEM|Swords Dance|p1b: RRR DEM
+|-boost|p1b: RRR DEM|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827925
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750827948
+|move|p2a: Raging Bolt|Thunderclap|p1b: RRR DEM
+|-resisted|p1b: RRR DEM
+|-damage|p1b: RRR DEM|76/100
+|move|p1a: CIG WHALE|Water Spout|p2b: Ogerpon|[spread] p2a,p2b
+|-resisted|p2a: Raging Bolt
+|-supereffective|p2b: Ogerpon
+|-damage|p2a: Raging Bolt|59/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|move|p1b: RRR DEM|Scale Shot|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p2: Raging Bolt|1
+|-unboost|p1b: RRR DEM|def|1
+|-boost|p1b: RRR DEM|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827967
+|switch|p2a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|5
+|
+|t:|1750827982
+|move|p1a: CIG WHALE|Water Spout|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|win|Auragami

@@ -1,0 +1,162 @@
+|j|☆Jar of rod
+|j|☆Meltus23
+|t:|1750773449
+|gametype|doubles
+|player|p1|Jar of rod|266|1330
+|player|p2|Meltus23|steven|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750773491
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750773518
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2a: Farigiraf|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Jar of rod|move: Light Screen
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Grimmsnarl|[spread] p1a,p1b
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1a: Incineroar|43/100
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p1a: Incineroar|Knock Off|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|82/100
+|-enditem|p2b: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|
+|t:|1750773532
+|switch|p1b: Solgaleo|Solgaleo, L50|100/100
+|turn|2
+|
+|t:|1750773548
+|move|p2a: Farigiraf|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Solgaleo|Sunsteel Strike|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750773559
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750773579
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Calyrex|Bulldoze|p2b: Calyrex|[spread] p1b,p2a
+|-activate|p2b: Calyrex|move: Protect
+|-supereffective|p1b: Solgaleo
+|-damage|p1b: Solgaleo|89/100
+|-damage|p2a: Farigiraf|96/100
+|-unboost|p2a: Farigiraf|spe|1
+|-enditem|p1b: Solgaleo|Weakness Policy
+|-boost|p1b: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p1b: Solgaleo|Sunsteel Strike|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|4
+|
+|t:|1750773609
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Farigiraf|Foul Play|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Calyrex|High Horsepower|p1b: Solgaleo
+|-supereffective|p1b: Solgaleo
+|-damage|p1b: Solgaleo|30/100
+|move|p1b: Solgaleo|Sunsteel Strike|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750773614
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750773645
+|move|p1b: Solgaleo|Protect|p1b: Solgaleo
+|-singleturn|p1b: Solgaleo|Protect
+|move|p2b: Iron Hands|Wild Charge|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-damage|p2b: Iron Hands|82/100|[from] Recoil
+|move|p2a: Farigiraf|Foul Play|p1b: Solgaleo
+|-activate|p1b: Solgaleo|move: Protect
+|move|p1a: Calyrex|Psychic|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|26/100
+|
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750773669
+|move|p2b: Iron Hands|Wild Charge|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Iron Hands|26/100|[from] Recoil
+|move|p2a: Farigiraf|Foul Play|p1b: Solgaleo
+|-supereffective|p1b: Solgaleo
+|-damage|p1b: Solgaleo|0 fnt
+|faint|p1b: Solgaleo
+|
+|win|Meltus23
+|raw|Jar of rod's rating: 1330 &rarr; <strong>1314</strong><br />(-16 for losing)
+|raw|Meltus23's rating: 1406 &rarr; <strong>1422</strong><br />(+16 for winning)
+|l|☆Jar of rod
+|player|p1|
+|l|☆Meltus23
+|player|p2|

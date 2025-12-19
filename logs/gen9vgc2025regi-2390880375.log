@@ -1,0 +1,162 @@
+|j|☆rangersxx30
+|j|☆peedr
+|t:|1750778836
+|gametype|doubles
+|player|p1|rangersxx30|hanbei-conquest|1460
+|player|p2|peedr|2|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Klefki, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+rangersxx30 has agreed to open team sheets.
+|
+|t:|1750778878
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750778905
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Basculegion|Flip Turn|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p2a: Kyogre|Origin Pulse|p1a: Amoonguss|[spread] 
+|-activate|p1b: Urshifu|move: Protect
+|-miss|p2a: Kyogre|p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2b: Basculegion
+|-status|p2b: Basculegion|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750778940
+|cant|p2b: Basculegion|slp
+|move|p2a: Kyogre|Origin Pulse|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|74/100
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-crit|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p1a: Amoonguss|Spore|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750778967
+|switch|p2b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|3
+|
+|t:|1750778996
+|move|p2b: Zacian|Play Rough|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|cant|p2a: Kyogre|slp
+|move|p1a: Amoonguss|Spore|p2b: Zacian
+|-status|p2b: Zacian|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750779002
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750779032
+|-terastallize|p1b: Miraidon|Electric
+|-terastallize|p2b: Zacian|Ground
+|cant|p2a: Kyogre|slp
+|move|p1b: Miraidon|Electro Drift|p2b: Zacian
+|-immune|p2b: Zacian
+|cant|p2b: Zacian|slp
+|move|p1a: Amoonguss|Pollen Puff|p2a: Kyogre
+|-damage|p2a: Kyogre|87/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750779050
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Zacian|atk|1
+|cant|p2a: Kyogre|slp
+|move|p1b: Miraidon|Electro Drift|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|cant|p2b: Zacian|slp
+|
+|-weather|none
+|upkeep
+|
+|t:|1750779059
+|switch|p2a: Klefki|Klefki, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750779074
+|move|p1a: Incineroar|Fake Out|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|96/100
+|cant|p2a: Klefki|flinch
+|move|p1b: Miraidon|Electro Drift|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|-curestatus|p2b: Zacian|slp|[msg]
+|move|p2b: Zacian|Tera Blast|p1b: Miraidon|[anim] Tera Blast Ground
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|14/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750779093
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Zacian|Tera Blast|p1b: Amoonguss|[anim] Tera Blast Ground
+|-damage|p1b: Amoonguss|59/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Zacian
+|-damage|p2b: Zacian|59/100
+|-damage|p1a: Incineroar|89/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|-message|peedr forfeited.
+|
+|win|rangersxx30
+|raw|rangersxx30's rating: 1460 &rarr; <strong>1477</strong><br />(+17 for winning)
+|raw|peedr's rating: 1405 &rarr; <strong>1388</strong><br />(-17 for losing)
+|l|☆peedr
+|player|p2|
+|l|☆rangersxx30
+|player|p1|

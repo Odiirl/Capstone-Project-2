@@ -1,0 +1,146 @@
+|j|☆pyde
+|j|☆Scottyboi3
+|t:|1750814658
+|gametype|doubles
+|player|p1|pyde|1|1046
+|player|p2|Scottyboi3|102|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Magmar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Shiftry, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|
+|t:|1750814679
+|start
+|switch|p1a: Shiftry|Shiftry, L50, M|100/100
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Ogerpon|Mold Breaker
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Shiftry|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750814727
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|move|p1b: Ogerpon|Protect|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|Protect
+|move|p1a: Shiftry|Protect|p1a: Shiftry
+|-singleturn|p1a: Shiftry|Protect
+|move|p2b: Incineroar|Flare Blitz|p1a: Shiftry
+|-activate|p1a: Shiftry|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750814754
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Roaring Moon|Acrobatics|p1b: Ogerpon
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Shiftry|Endeavor|p2b: Incineroar
+|-damage|p2b: Incineroar|82/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-enditem|p1a: Shiftry|Focus Sash
+|-damage|p1a: Shiftry|1/100
+|-damage|p2b: Incineroar|55/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750814770
+|switch|p1b: Magmar|Magmar, L50, F|100/100
+|turn|3
+|
+|t:|1750814782
+|move|p2a: Roaring Moon|Protect|p2a: Roaring Moon
+|-singleturn|p2a: Roaring Moon|Protect
+|move|p1b: Magmar|Follow Me|p1b: Magmar
+|-singleturn|p1b: Magmar|move: Follow Me
+|move|p1a: Shiftry|Endeavor|p2a: Roaring Moon
+|-activate|p2a: Roaring Moon|move: Protect
+|move|p2b: Incineroar|Snarl|p1a: Shiftry|[spread] p1a,p1b
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-damage|p1b: Magmar|93/100
+|-unboost|p1b: Magmar|spa|1
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|t:|1750814795
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|turn|4
+|
+|t:|1750814816
+|move|p1b: Magmar|Mach Punch|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|40/100
+|move|p2a: Roaring Moon|Crunch|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2a: Roaring Moon|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|move|p2b: Incineroar|Parting Shot|p1b: Magmar
+|-unboost|p1b: Magmar|atk|1
+|-unboost|p1b: Magmar|spa|1
+|
+|t:|1750814827
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100|[from] Parting Shot
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|5
+|
+|t:|1750814847
+|move|p2a: Roaring Moon|Protect|p2a: Roaring Moon
+|-singleturn|p2a: Roaring Moon|Protect
+|move|p1b: Magmar|Mach Punch|p2a: Roaring Moon
+|-activate|p2a: Roaring Moon|move: Protect
+|move|p2b: Ting-Lu|Stomping Tantrum|p1b: Magmar
+|-supereffective|p1b: Magmar
+|-damage|p1b: Magmar|36/100
+|-status|p2b: Ting-Lu|brn|[from] ability: Flame Body|[of] p1b: Magmar
+|
+|-damage|p2b: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750814865
+|move|p1b: Magmar|Mach Punch|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|80/100
+|move|p2a: Roaring Moon|Acrobatics|p1b: Magmar
+|-damage|p1b: Magmar|0 fnt
+|-status|p2a: Roaring Moon|brn|[from] ability: Flame Body|[of] p1b: Magmar
+|faint|p1b: Magmar
+|
+|win|Scottyboi3
+|raw|pyde's rating: 1046 &rarr; <strong>1033</strong><br />(-13 for losing)
+|raw|Scottyboi3's rating: 1130 &rarr; <strong>1149</strong><br />(+19 for winning)
+|l|☆pyde
+|player|p1|

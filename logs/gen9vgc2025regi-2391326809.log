@@ -1,0 +1,176 @@
+|j|☆margo18
+|j|☆nico_Kaiser
+|t:|1750836739
+|gametype|doubles
+|player|p1|margo18|265|1272
+|player|p2|nico_Kaiser|pryce|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Palafin, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nico_Kaiser)
+|inactive|margo18 has 60 seconds left.
+|
+|t:|1750836791
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Landorus|Landorus-Therian, L50, M|100/100
+|switch|p2b: Palafin|Palafin, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1a: Miraidon|Electric Seed
+|-boost|p1a: Miraidon|def|1|[from] item: Electric Seed
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Scream Tail|atk|1
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750836814
+|detailschange|p2b: Palafin|Palafin-Hero, L50, F
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2a: Landorus|Crunch|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750836832
+|-terastallize|p2b: Eternatus|Fairy
+|move|p1b: Scream Tail|Encore|p2a: Landorus
+|-start|p2a: Landorus|Encore
+|move|p2b: Eternatus|Tera Blast|p1a: Miraidon|[anim] Tera Blast Fairy
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|19/100
+|move|p1a: Miraidon|Calm Mind|p1a: Miraidon
+|-boost|p1a: Miraidon|spa|1
+|-boost|p1a: Miraidon|spd|1
+|move|p2a: Landorus|Crunch|p1a: Miraidon
+|-damage|p1a: Miraidon|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750836855
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Maushold|Maushold, L50|100/100
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Eternatus|Meteor Beam||[still]
+|-prepare|p2b: Eternatus|Meteor Beam
+|-boost|p2b: Eternatus|spa|1
+|-enditem|p2b: Eternatus|Power Herb
+|-anim|p2b: Eternatus|Meteor Beam|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p2a: Landorus|Crunch|p1b: Maushold
+|-damage|p1b: Maushold|57/100
+|-unboost|p1b: Maushold|def|1
+|
+|upkeep
+|turn|4
+|inactive|margo18 has 30 seconds left.
+|
+|t:|1750836881
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2b: Eternatus|Tera Blast|p1b: Maushold|[anim] Tera Blast Fairy
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|move|p1a: Miraidon|Parabolic Charge|p2a: Landorus|[spread] p2b
+|-immune|p2a: Landorus
+|-damage|p2b: Eternatus|46/100
+|-heal|p1a: Miraidon|32/100|[from] drain|[of] p2b: Eternatus
+|move|p2a: Landorus|Crunch|p1a: Miraidon
+|-damage|p1a: Miraidon|14/100
+|
+|-end|p2a: Landorus|Encore
+|upkeep
+|
+|t:|1750836898
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1750836913
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Eternatus|Tera Blast|p1b: Indeedee|[anim] Tera Blast Fairy
+|-damage|p1b: Indeedee|58/100
+|move|p1a: Miraidon|Parabolic Charge|p2b: Eternatus|[spread] p1b,p2b
+|-immune|p2a: Landorus
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|2/100
+|-heal|p1a: Miraidon|40/100|[from] drain|[of] p1b: Indeedee
+|-damage|p2b: Eternatus|10/100
+|-heal|p1a: Miraidon|61/100|[from] drain|[of] p2b: Eternatus
+|move|p2a: Landorus|Crunch|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750836928
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|turn|6
+|
+|t:|1750836937
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Eternatus|Tera Blast|p1a: Miraidon|[anim] Tera Blast Fairy
+|-activate|p1a: Miraidon|move: Protect
+|move|p1b: Scream Tail|Disable|p2a: Landorus
+|-start|p2a: Landorus|Disable|Crunch
+|cant|p2a: Landorus|Disable|Crunch
+|
+|upkeep
+|turn|7
+|
+|t:|1750836951
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|move|p2b: Eternatus|Tera Blast|p1a: Miraidon|[anim] Tera Blast Fairy
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p1b: Scream Tail|Disable|p2b: Eternatus
+|-start|p2b: Eternatus|Disable|Tera Blast
+|
+|upkeep
+|turn|8
+|-message|margo18 forfeited.
+|
+|win|nico_Kaiser
+|raw|margo18's rating: 1272 &rarr; <strong>1244</strong><br />(-28 for losing)
+|raw|nico_Kaiser's rating: 1231 &rarr; <strong>1259</strong><br />(+28 for winning)
+|l|☆margo18
+|player|p1|
+|l|☆nico_Kaiser
+|player|p2|

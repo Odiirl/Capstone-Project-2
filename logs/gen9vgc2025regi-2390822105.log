@@ -1,0 +1,205 @@
+|j|☆Zakmancho
+|j|☆seemeier
+|t:|1750772332
+|gametype|doubles
+|player|p1|Zakmancho|2|1621
+|player|p2|seemeier|169|1757
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Kyurem-Black, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seemeier)
+|inactive|Zakmancho also wants the timer to be on.
+|
+|t:|1750772358
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Okidogi|Okidogi, L50, M|100/100
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-enditem|p2b: Roaring Moon|Booster Energy
+|-activate|p2b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2b: Roaring Moon|protosynthesisspe
+|turn|1
+|inactive|Zakmancho has 30 seconds left.
+|
+|t:|1750772385
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Zakmancho|Reflect
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: seemeier|move: Tailwind
+|move|p2a: Okidogi|Gunk Shot|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750772402
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Zakmancho|move: Light Screen
+|move|p2b: Roaring Moon|Knock Off|p1b: Miraidon
+|-damage|p1b: Miraidon|70/100
+|-enditem|p1b: Miraidon|Covert Cloak|[from] move: Knock Off|[of] p2b: Roaring Moon
+|move|p2a: Okidogi|Low Kick|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|move|p1b: Miraidon|Volt Switch|p2a: Okidogi
+|-damage|p2a: Okidogi|37/100
+|
+|t:|1750772418
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|-heal|p2a: Okidogi|43/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750772433
+|-terastallize|p1b: Calyrex|Water
+|move|p2b: Roaring Moon|Knock Off|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-enditem|p1a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p2b: Roaring Moon
+|faint|p1a: Grimmsnarl
+|move|p2a: Okidogi|Drain Punch|p1b: Calyrex
+|-damage|p1b: Calyrex|83/100
+|-heal|p2a: Okidogi|52/100|[from] drain|[of] p1b: Calyrex
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-heal|p1b: Calyrex|89/100|[from] item: Leftovers
+|-heal|p2a: Okidogi|58/100|[from] item: Leftovers
+|upkeep
+|inactive|Zakmancho has 30 seconds left.
+|
+|t:|1750772463
+|switch|p1a: Miraidon|Miraidon, L50|29/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750772476
+|move|p2a: Okidogi|Protect|p2a: Okidogi
+|-singleturn|p2a: Okidogi|Protect
+|move|p2b: Roaring Moon|Protect|p2b: Roaring Moon
+|-singleturn|p2b: Roaring Moon|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Okidogi|[spread] 
+|-activate|p2a: Okidogi|move: Protect
+|-activate|p2b: Roaring Moon|move: Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Okidogi
+|-activate|p2a: Okidogi|move: Protect
+|
+|-heal|p1b: Calyrex|95/100|[from] item: Leftovers
+|-heal|p2a: Okidogi|65/100|[from] item: Leftovers
+|-sideend|p2: seemeier|move: Tailwind
+|upkeep
+|turn|5
+|j| surgevgc
+|
+|t:|1750772498
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|switch|p2b: Lunala|Lunala, L50|100/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Okidogi|[spread] p2a,p2b
+|-damage|p2a: Okidogi|20/100
+|-damage|p2b: Lunala|81/100
+|move|p2a: Okidogi|Low Kick|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-heal|p1b: Calyrex|100/100|[from] item: Leftovers
+|-heal|p2a: Okidogi|26/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750772507
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|6
+|
+|t:|1750772526
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p2b: Lunala|Water
+|move|p1b: Calyrex|Leech Seed|p2b: Lunala
+|-start|p2b: Lunala|move: Leech Seed
+|move|p2b: Lunala|Expanding Force|p1a: Urshifu|[spread] p1a,p1b
+|-supereffective|p1a: Urshifu
+|-crit|p1b: Calyrex
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Calyrex|41/100
+|faint|p1a: Urshifu
+|
+|-heal|p1b: Calyrex|46/100|[from] item: Leftovers
+|-damage|p2b: Lunala|69/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|61/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750772547
+|move|p1b: Calyrex|Leech Seed|p2a: Indeedee
+|-start|p2a: Indeedee|move: Leech Seed
+|move|p2a: Indeedee|Psychic|p1b: Calyrex
+|-damage|p1b: Calyrex|45/100
+|move|p2b: Lunala|Expanding Force|p1b: Calyrex
+|-damage|p1b: Calyrex|5/100
+|
+|-heal|p1b: Calyrex|11/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|22/100|[silent]
+|-damage|p2b: Lunala|56/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|36/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750772558
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Lunala|Expanding Force|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-heal|p1b: Calyrex|42/100|[from] item: Leftovers
+|-damage|p2b: Lunala|44/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|57/100|[silent]
+|-sideend|p1: Zakmancho|Reflect
+|upkeep
+|turn|9
+|
+|t:|1750772567
+|move|p2a: Roaring Moon|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|23/100
+|-enditem|p1b: Calyrex|Leftovers|[from] move: Knock Off|[of] p2a: Roaring Moon
+|move|p2b: Lunala|Expanding Force|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|seemeier
+|raw|Zakmancho's rating: 1621 &rarr; <strong>1608</strong><br />(-13 for losing)
+|raw|seemeier's rating: 1757 &rarr; <strong>1770</strong><br />(+13 for winning)
+|c|☆seemeier|Gg
+|l| surgevgc
+|l|☆Zakmancho
+|player|p1|
+|l|☆seemeier
+|player|p2|

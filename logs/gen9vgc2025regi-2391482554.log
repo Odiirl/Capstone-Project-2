@@ -1,0 +1,143 @@
+|j|☆Calamella
+|j|☆azzazzl
+|t:|1750861561
+|gametype|doubles
+|player|p1|Calamella|265|1522
+|player|p2|azzazzl|dawn|1614
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|j| Therazer456
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by azzazzl)
+|
+|t:|1750861627
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|inactive|Calamella has 30 seconds left.
+|
+|t:|1750861654
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Miraidon|Electro Drift|p2b: Indeedee
+|-damage|p2b: Indeedee|28/100
+|move|p1b: Farigiraf|Foul Play|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|8/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|azzazzl has 30 seconds left.
+|
+|t:|1750861684
+|-terastallize|p2a: Calyrex|Dragon
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Imprison|p2a: Calyrex
+|-start|p2a: Calyrex|move: Imprison
+|move|p1b: Farigiraf|Foul Play|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|72/100
+|
+|upkeep
+|
+|t:|1750861698
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750861709
+|move|p2b: Kyogre|Water Spout|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Miraidon|8/100
+|-damage|p1b: Farigiraf|2/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Farigiraf
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750861717
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750861737
+|move|p1b: Pelipper|Wide Guard|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Wide Guard
+|move|p2b: Kyogre|Thunder|p1b: Pelipper
+|-supereffective|p1b: Pelipper
+|-crit|p1b: Pelipper
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|move|p2a: Calyrex|High Horsepower|p1a: Calyrex
+|-damage|p1a: Calyrex|52/100
+|move|p1a: Calyrex|Leech Seed|p2a: Calyrex
+|-start|p2a: Calyrex|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Calyrex|60/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|64/100|[silent]
+|upkeep
+|turn|5
+|inactive|azzazzl has 30 seconds left.
+|
+|t:|1750861762
+|move|p1b: Pelipper|Wide Guard|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Wide Guard
+|move|p2b: Kyogre|Thunder|p1b: Pelipper
+|-supereffective|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p2a: Calyrex|High Horsepower|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|azzazzl
+|raw|Calamella's rating: 1522 &rarr; <strong>1507</strong><br />(-15 for losing)
+|raw|azzazzl's rating: 1614 &rarr; <strong>1629</strong><br />(+15 for winning)
+|l|☆Calamella
+|player|p1|
+|l|☆azzazzl
+|player|p2|

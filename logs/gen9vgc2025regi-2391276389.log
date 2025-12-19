@@ -1,0 +1,149 @@
+|j|☆VOLTX2
+|j|☆MrManiacccc
+|t:|1750826865
+|gametype|doubles
+|player|p1|VOLTX2|alder|1140
+|player|p2|MrManiacccc|2|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Slowbro, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750826902
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Slowbro|Slowbro, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750826930
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Sneasler|Dire Claw|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Kyogre|Origin Pulse|p2a: Slowbro|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|58/100
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750826985
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|move|p2b: Calyrex|Glacial Lance|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-resisted|p1b: Incineroar
+|-damage|p1a: Kyogre|48/100
+|-damage|p1b: Incineroar|83/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Kyogre|Origin Pulse|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|55/100
+|-damage|p2b: Calyrex|43/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750827012
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|52/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Calyrex|High Horsepower|p1b: Incineroar|[miss]
+|-miss|p2b: Calyrex|p1b: Incineroar
+|cant|p2a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750827038
+|-terastallize|p1a: Kyogre|Grass
+|move|p2b: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|29/100
+|-damage|p2b: Calyrex|27/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|-damage|p2b: Calyrex|17/100|[from] item: Life Orb
+|move|p1b: Incineroar|Parting Shot|p2a: Archaludon
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2a: Archaludon|spa|1
+|
+|t:|1750827052
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|45/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|2/100
+|-damage|p2b: Calyrex|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827071
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|turn|5
+|l|☆MrManiacccc
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VOLTX2)
+|inactive|MrManiacccc has 30 seconds to reconnect!
+|inactive|MrManiacccc has 20 seconds to reconnect!
+|inactive|MrManiacccc has 15 seconds to reconnect!
+|inactive|MrManiacccc has 10 seconds to reconnect!
+|inactive|MrManiacccc has 5 seconds to reconnect!
+|-message|MrManiacccc lost due to inactivity.
+|
+|win|VOLTX2
+|raw|VOLTX2's rating: 1140 &rarr; <strong>1162</strong><br />(+22 for winning)
+|raw|MrManiacccc's rating: 1104 &rarr; <strong>1082</strong><br />(-22 for losing)
+|l|☆VOLTX2
+|player|p1|

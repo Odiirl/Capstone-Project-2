@@ -1,0 +1,155 @@
+|j|☆nolemonnomelon
+|j|☆RustyTacos27
+|t:|1750718403
+|gametype|doubles
+|player|p1|nolemonnomelon|hilda|1593
+|player|p2|RustyTacos27|101|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Bastiodon, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nolemonnomelon)
+|
+|t:|1750718426
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Don Bastio|Bastiodon, L50, M, shiny|100/100
+|switch|p2b: Don Buttons|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Don Buttons
+|-enditem|p2a: Don Bastio|Electric Seed
+|-boost|p2a: Don Bastio|def|1|[from] item: Electric Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Don Bastio|atk|1
+|-unboost|p2b: Don Buttons|atk|1
+|turn|1
+|
+|t:|1750718443
+|move|p1b: Incineroar|Fake Out|p2b: Don Buttons
+|-damage|p2b: Don Buttons|91/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: nolemonnomelon|move: Tailwind
+|cant|p2b: Don Buttons|flinch
+|move|p2a: Don Bastio|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|34/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|59/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+|
+|t:|1750718454
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Don Bastio|[spread] p2a,p2b
+|-resisted|p2a: Don Bastio
+|-resisted|p2b: Don Buttons
+|-damage|p2a: Don Bastio|94/100
+|-damage|p2b: Don Buttons|73/100
+|-unboost|p2a: Don Bastio|spe|1
+|move|p2b: Don Buttons|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-enditem|p1a: Tornadus|Focus Sash
+|-damage|p1a: Tornadus|1/100
+|
+|t:|1750718466
+|switch|p2b: Don $90|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p1b: Incineroar|Parting Shot|p2b: Don $90
+|-unboost|p2b: Don $90|atk|1
+|-unboost|p2b: Don $90|spa|1
+|
+|t:|1750718471
+|switch|p1b: Tinkaton|Tinkaton, L50, F|100/100|[from] Parting Shot
+|-ability|p1b: Tinkaton|Mold Breaker
+|move|p2a: Don Bastio|Body Press|p1b: Tinkaton
+|-damage|p1b: Tinkaton|57/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750718494
+|move|p2b: Don $90|Detect|p2b: Don $90
+|-singleturn|p2b: Don $90|Protect
+|move|p1b: Tinkaton|Fake Out|p2b: Don $90
+|-activate|p2b: Don $90|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Don $90|[spread] p2a
+|-activate|p2b: Don $90|move: Protect
+|-resisted|p2a: Don Bastio
+|-damage|p2a: Don Bastio|87/100
+|move|p2a: Don Bastio|Body Press|p1b: Tinkaton
+|-damage|p1b: Tinkaton|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750718511
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|switch|p1b: Incineroar|Incineroar, L50, M|59/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Don Bastio|atk|1
+|-unboost|p2b: Don $90|atk|1
+|move|p2a: Don Bastio|Wide Guard|p2a: Don Bastio
+|-singleturn|p2a: Don Bastio|Wide Guard
+|move|p2b: Don $90|Surging Strikes|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|79/100
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|60/100
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|40/100
+|-hitcount|p1a: Kyogre|3
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: nolemonnomelon|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750718533
+|switch|p1b: Tinkaton|Tinkaton, L50, F|16/100
+|-ability|p1b: Tinkaton|Mold Breaker
+|-terastallize|p2a: Don Bastio|Grass
+|move|p2b: Don $90|Surging Strikes|p1b: Tinkaton
+|-crit|p1b: Tinkaton
+|-damage|p1b: Tinkaton|0 fnt
+|faint|p1b: Tinkaton
+|-hitcount|p1: Tinkaton|1
+|move|p1a: Kyogre|Origin Pulse|p2a: Don Bastio|[spread] p2a
+|-miss|p1a: Kyogre|p2b: Don $90
+|-resisted|p2a: Don Bastio
+|-damage|p2a: Don Bastio|50/100
+|move|p2a: Don Bastio|Body Press|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|nolemonnomelon forfeited.
+|
+|win|RustyTacos27
+|raw|nolemonnomelon's rating: 1593 &rarr; <strong>1568</strong><br />(-25 for losing)
+|raw|RustyTacos27's rating: 1499 &rarr; <strong>1524</strong><br />(+25 for winning)
+|l|☆nolemonnomelon
+|player|p1|
+|l|☆RustyTacos27
+|player|p2|

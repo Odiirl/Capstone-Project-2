@@ -1,0 +1,188 @@
+|j|☆Gexi01
+|j|☆aremine
+|t:|1750752299
+|gametype|doubles
+|player|p1|Gexi01|266|1178
+|player|p2|aremine|2|1277
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Lugia, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gexi01)
+|
+|t:|1750752340
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Regieleki|Regieleki, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|1
+|
+|t:|1750752369
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Flutter Mane|Icy Wind|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|93/100
+|-damage|p1b: Regieleki|72/100
+|-unboost|p1a: Koraidon|spe|1
+|-unboost|p1b: Regieleki|spe|1
+|move|p2a: Koraidon|Close Combat|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Koraidon
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Regieleki|Electroweb|p2b: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|68/100
+|-damage|p2b: Flutter Mane|66/100
+|-unboost|p2a: Koraidon|spe|1
+|-unboost|p2b: Flutter Mane|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750752391
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750752403
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Regieleki|atk|1
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|move|p1b: Regieleki|Thunderbolt|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Gexi01 has 30 seconds left.
+|
+|t:|1750752432
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|move|p1b: Regieleki|Protect|p1b: Regieleki
+|-singleturn|p1b: Regieleki|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Regieleki
+|-activate|p1b: Regieleki|move: Protect
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Terapagos
+|-immune|p2b: Terapagos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750752451
+|move|p1a: Flutter Mane|Moonblast|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|79/100
+|-unboost|p2b: Terapagos|spa|1
+|move|p1b: Regieleki|Thunderbolt|p2b: Terapagos
+|-damage|p2b: Terapagos|22/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Incineroar|Knock Off|p1b: Regieleki
+|-damage|p1b: Regieleki|0 fnt
+|-enditem|p1b: Regieleki|Magnet|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Regieleki
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Terapagos|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750752465
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|-item|p2a: Incineroar|Safety Goggles|[from] ability: Frisk|[of] p1b: Typhlosion
+|-item|p2b: Terapagos|Leftovers|[from] ability: Frisk|[of] p1b: Typhlosion
+|turn|5
+|inactive|Gexi01 has 30 seconds left.
+|
+|t:|1750752491
+|move|p1a: Flutter Mane|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|16/100
+|move|p1b: Typhlosion|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Terapagos
+|
+|-weather|none
+|-end|p1a: Flutter Mane|Protosynthesis
+|upkeep
+|
+|t:|1750752495
+|switch|p2b: Koraidon|Koraidon, L50|68/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|66/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|aremine has 30 seconds left.
+|
+|t:|1750752526
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Flutter Mane
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|16/100
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Typhlosion|Eruption|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|8/100
+|move|p2b: Koraidon|Flame Charge|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2b: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2b: Koraidon
+|
+|win|Gexi01
+|raw|Gexi01's rating: 1178 &rarr; <strong>1210</strong><br />(+32 for winning)
+|raw|aremine's rating: 1277 &rarr; <strong>1245</strong><br />(-32 for losing)
+|l|☆Gexi01
+|player|p1|
+|l|☆aremine
+|player|p2|

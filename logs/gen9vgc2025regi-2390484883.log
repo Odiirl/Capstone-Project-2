@@ -1,0 +1,158 @@
+|j|☆anubisjr
+|j|☆Bicentenario
+|t:|1750718925
+|gametype|doubles
+|player|p1|anubisjr|102|1391
+|player|p2|Bicentenario|1|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bicentenario)
+Bicentenario rejected open team sheets.
+|
+|t:|1750718964
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750718994
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p1a: Iron Hands|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|88/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|cant|p2b: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750719014
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Miraidon|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|12/100
+|
+|t:|1750719018
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100|[from] Volt Switch
+|move|p1a: Iron Hands|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1750719026
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] Volt Switch
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750719033
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1750719049
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Whimsicott|Encore||[still]
+|-fail|p1b: Whimsicott
+|move|p2a: Torkoal|Eruption|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Miraidon|4/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p1a: Miraidon|Volt Switch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|t:|1750719065
+|switch|p1a: Urshifu|Urshifu, L50, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750719070
+|switch|p2a: Calyrex|Calyrex-Ice, L50|88/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750719085
+|-terastallize|p1a: Urshifu|Dark
+|move|p1b: Iron Hands|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|74/100
+|cant|p2a: Calyrex|flinch
+|move|p2b: Lunala|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-enditem|p1a: Urshifu|Focus Sash
+|-damage|p1a: Urshifu|1/100
+|move|p1a: Urshifu|Wicked Blow|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750719106
+|move|p1a: Urshifu|Detect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Iron Hands|[spread] p1b
+|-activate|p1a: Urshifu|move: Protect
+|-damage|p1b: Iron Hands|62/100
+|move|p1b: Iron Hands|Low Kick|p2a: Calyrex
+|-damage|p2a: Calyrex|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750719115
+|move|p1a: Urshifu|Sucker Punch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|anubisjr
+|raw|anubisjr's rating: 1391 &rarr; <strong>1413</strong><br />(+22 for winning)
+|raw|Bicentenario's rating: 1432 &rarr; <strong>1410</strong><br />(-22 for losing)
+|l|☆Bicentenario
+|player|p2|

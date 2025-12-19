@@ -1,0 +1,151 @@
+|j|☆MJ_VGC_0
+|j|☆OrcaAreCool
+|t:|1750743725
+|gametype|doubles
+|player|p1|MJ_VGC_0|silver|1385
+|player|p2|OrcaAreCool|cynthia-gen4|1463
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OrcaAreCool)
+|inactive|MJ_VGC_0 has 60 seconds left.
+|inactive|OrcaAreCool has 60 seconds left.
+|inactive|OrcaAreCool has 30 seconds left.
+|
+|t:|1750743785
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Flying Doggo|Tornadus, L50, M, shiny|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|1
+|
+|t:|1750743804
+|move|p1a: Tornadus|Taunt|p2a: Flying Doggo
+|-start|p2a: Flying Doggo|move: Taunt
+|cant|p2a: Flying Doggo|move: Taunt|Taunt
+|move|p2b: Landorus|Earth Power|p1b: Electabuzz
+|-supereffective|p1b: Electabuzz
+|-damage|p1b: Electabuzz|17/100
+|move|p1b: Electabuzz|Electroweb|p2a: Flying Doggo|[spread] p2a
+|-immune|p2b: Landorus
+|-supereffective|p2a: Flying Doggo
+|-damage|p2a: Flying Doggo|64/100
+|
+|upkeep
+|turn|2
+|inactive|OrcaAreCool has 30 seconds left.
+|
+|t:|1750743834
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: MJ_VGC_0|move: Tailwind
+|move|p1b: Electabuzz|Electroweb|p2b: Landorus|[spread] p2a
+|-immune|p2b: Landorus
+|-supereffective|p2a: Flying Doggo
+|-crit|p2a: Flying Doggo
+|-damage|p2a: Flying Doggo|18/100
+|move|p2b: Landorus|Sludge Bomb|p1a: Tornadus
+|-damage|p1a: Tornadus|42/100
+|move|p2a: Flying Doggo|Bleakwind Storm|p1b: Electabuzz|[spread] p1a,p1b
+|-resisted|p1b: Electabuzz
+|-damage|p1a: Tornadus|4/100
+|-damage|p1b: Electabuzz|8/100
+|
+|upkeep
+|turn|3
+|inactive|OrcaAreCool has 30 seconds left.
+|
+|t:|1750743863
+|switch|p2a: Woof Woof|Zacian-Crowned, L50, shiny|100/100
+|-ability|p2a: Woof Woof|Intrepid Sword|boost
+|-boost|p2a: Woof Woof|atk|1
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Woof Woof|[spread] p2a,p2b
+|-resisted|p2a: Woof Woof
+|-damage|p2a: Woof Woof|88/100
+|-damage|p2b: Landorus|60/100
+|-unboost|p2b: Landorus|spe|1
+|move|p1b: Electabuzz|Electroweb|p2a: Woof Woof|[spread] p2a
+|-immune|p2b: Landorus
+|-damage|p2a: Woof Woof|76/100
+|-unboost|p2a: Woof Woof|spe|1
+|move|p2b: Landorus|Sludge Bomb|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1750743882
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|4
+|
+|t:|1750743899
+|move|p2a: Woof Woof|Protect|p2a: Woof Woof
+|-singleturn|p2a: Woof Woof|Protect
+|move|p1b: Electabuzz|Feint|p2a: Woof Woof
+|-activate|p2a: Woof Woof|move: Feint
+|-resisted|p2a: Woof Woof
+|-damage|p2a: Woof Woof|74/100
+|move|p1a: Kyogre|Water Spout|p2b: Landorus|[spread] p2a,p2b
+|-supereffective|p2b: Landorus
+|-damage|p2a: Woof Woof|0 fnt
+|-damage|p2b: Landorus|0 fnt
+|faint|p2a: Woof Woof
+|faint|p2b: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750743907
+|switch|p2a: Water Doggo|Kyogre, L50, shiny|100/100
+|switch|p2b: Flying Doggo|Tornadus, L50, M, shiny|18/100
+|turn|5
+|
+|t:|1750743923
+|move|p2b: Flying Doggo|Tailwind|p2b: Flying Doggo
+|-sidestart|p2: OrcaAreCool|move: Tailwind
+|move|p1a: Kyogre|Thunder|p2a: Water Doggo
+|-supereffective|p2a: Water Doggo
+|-damage|p2a: Water Doggo|38/100
+|-status|p2a: Water Doggo|par
+|move|p1b: Electabuzz|Electroweb|p2b: Flying Doggo|[spread] p2a,p2b
+|-supereffective|p2a: Water Doggo
+|-supereffective|p2b: Flying Doggo
+|-damage|p2a: Water Doggo|20/100 par
+|-damage|p2b: Flying Doggo|0 fnt
+|-unboost|p2a: Water Doggo|spe|1
+|faint|p2b: Flying Doggo
+|move|p2a: Water Doggo|Water Spout|p1b: Electabuzz|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|91/100
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: MJ_VGC_0|move: Tailwind
+|upkeep
+|-message|OrcaAreCool forfeited.
+|
+|win|MJ_VGC_0
+|raw|MJ_VGC_0's rating: 1385 &rarr; <strong>1409</strong><br />(+24 for winning)
+|raw|OrcaAreCool's rating: 1463 &rarr; <strong>1439</strong><br />(-24 for losing)
+|l|☆OrcaAreCool
+|player|p2|

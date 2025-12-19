@@ -1,0 +1,188 @@
+|j|☆h5yjsiisisueue
+|j|☆we moveing
+|t:|1750833432
+|gametype|doubles
+|player|p1|h5yjsiisisueue|gentleman-gen4dp|1200
+|player|p2|we moveing|266|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Latias, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by h5yjsiisisueue)
+|
+|t:|1750833451
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Scovillain|atk|1
+|turn|1
+|
+|t:|1750833468
+|move|p2b: Scovillain|Protect|p2b: Scovillain
+|-singleturn|p2b: Scovillain|Protect
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Scovillain|[spread] 
+|-activate|p2a: Groudon|move: Protect
+|-activate|p2b: Scovillain|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|we moveing has 30 seconds left.
+|
+|t:|1750833502
+|switch|p1b: Latias|Latias, L50, F|100/100
+|move|p2b: Scovillain|Spicy Extract|p2a: Groudon
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-boost|p2a: Groudon|atk|2
+|move|p1a: Groudon|Precipice Blades|p2b: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Groudon|67/100
+|-damage|p2b: Scovillain|3/100
+|move|p2a: Groudon|Precipice Blades|p1b: Latias|[spread] p1a
+|-immune|p1b: Latias|[from] ability: Levitate
+|-damage|p1a: Groudon|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750833522
+|move|p2b: Scovillain|Scary Face|p1b: Latias
+|-unboost|p1b: Latias|spe|2
+|move|p1a: Groudon|Precipice Blades|p2a: Groudon|[spread] 
+|-miss|p1a: Groudon|p2a: Groudon
+|-miss|p1a: Groudon|p2b: Scovillain
+|move|p2a: Groudon|Rock Slide|p1b: Latias|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|10/100
+|-damage|p1b: Latias|60/100
+|move|p1b: Latias|Mist Ball|p2a: Groudon
+|-damage|p2a: Groudon|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Latias|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750833539
+|move|p2b: Scovillain|Scary Face|p1a: Groudon
+|-fail|p1a: Groudon|unboost|[from] item: Clear Amulet|[of] p1a: Groudon
+|move|p1a: Groudon|Precipice Blades|p2b: Scovillain|[spread] p2a,p2b
+|-crit|p2b: Scovillain
+|-damage|p2a: Groudon|5/100
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p2a: Groudon|Rock Slide|p1b: Latias|[spread] p1a,p1b
+|-resisted|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Latias|22/100
+|faint|p1a: Groudon
+|cant|p1b: Latias|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Latias|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750833556
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Miraidon|atk|1
+|turn|5
+|
+|t:|1750833566
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Latias|Protect|p1b: Latias
+|-singleturn|p1b: Latias|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Latias|move: Protect
+|-damage|p1a: Incineroar|69/100
+|
+|-weather|none
+|-heal|p1b: Latias|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750833576
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|turn|6
+|inactive|h5yjsiisisueue has 30 seconds left.
+|
+|t:|1750833609
+|-terastallize|p1b: Latias|Steel
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Latias|[spread] p1a,p1b
+|-resisted|p1b: Latias
+|-damage|p1a: Incineroar|33/100
+|-damage|p1b: Latias|18/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Latias|Mist Ball|p2b: Miraidon
+|-damage|p2b: Miraidon|76/100
+|-unboost|p2b: Miraidon|spa|1
+|
+|-heal|p1b: Latias|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750833622
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|7
+|
+|t:|1750833637
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Latias|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Latias
+|-damage|p1a: Miraidon|48/100
+|-damage|p1b: Latias|13/100
+|move|p1a: Miraidon|Electro Drift|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Walking Wake|Draco Meteor|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Miraidon
+|move|p1b: Latias|Heal Pulse|p1: Miraidon|[notarget]
+|-fail|p1b: Latias
+|
+|-heal|p1b: Latias|19/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|h5yjsiisisueue forfeited.
+|
+|win|we moveing
+|raw|h5yjsiisisueue's rating: 1200 &rarr; <strong>1176</strong><br />(-24 for losing)
+|raw|we moveing's rating: 1213 &rarr; <strong>1237</strong><br />(+24 for winning)
+|l|☆h5yjsiisisueue
+|player|p1|

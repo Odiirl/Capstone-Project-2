@@ -1,0 +1,190 @@
+|j|☆JRolls89
+|j|☆Aosakamameshi
+|t:|1750832288
+|gametype|doubles
+|player|p1|JRolls89|266|1210
+|player|p2|Aosakamameshi|2|1206
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Garganacl, L50, M|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Medicham, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Muk-Alola, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JRolls89)
+|inactive|JRolls89 has 60 seconds left.
+|
+|t:|1750832328
+|start
+|switch|p1a: Garganacl|Garganacl, L50, M|100/100
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750832342
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Smeargle|Explosion|p1a: Garganacl|[spread] p2b,p1a,p1b
+|-resisted|p1a: Garganacl
+|-resisted|p1b: Zamazenta
+|-damage|p2b: Meowscarada|41/100
+|-damage|p1a: Garganacl|87/100
+|-damage|p1b: Zamazenta|94/100
+|faint|p2a: Smeargle
+|move|p2b: Meowscarada|Copycat|p2b: Meowscarada
+|move|p2b: Meowscarada|Explosion|p1b: Zamazenta|[from] move: Copycat|[spread] p1a,p1b
+|-start|p2b: Meowscarada|typechange|Normal|[from] ability: Protean
+|-resisted|p1a: Garganacl
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Garganacl|45/100
+|-damage|p1b: Zamazenta|72/100
+|faint|p2b: Meowscarada
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|upkeep
+|
+|t:|1750832362
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|2
+|
+|t:|1750832375
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1b: Zamazenta|[spread] 
+|-activate|p1a: Garganacl|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p2b: Zacian|Sacred Sword|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|9/100
+|move|p1a: Garganacl|Salt Cure|p2a: Calyrex
+|-damage|p2a: Calyrex|83/100
+|-start|p2a: Calyrex|Salt Cure
+|
+|-damage|p2a: Calyrex|71/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1750832398
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Psych Up|p1a: Garganacl
+|-copyboost|p2a: Calyrex|p1a: Garganacl|[from] move: Psych Up
+|move|p2b: Zacian|Sacred Sword|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|96/100
+|
+|-damage|p2a: Calyrex|59/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750832407
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|4
+|
+|t:|1750832422
+|-terastallize|p2a: Calyrex|Dark
+|move|p2a: Calyrex|Stored Power|p1b: Ting-Lu
+|-immune|p1b: Ting-Lu
+|move|p2b: Zacian|Behemoth Blade|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|55/100
+|move|p1b: Ting-Lu|Snarl|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Zacian
+|-damage|p2a: Calyrex|54/100
+|-damage|p2b: Zacian|97/100
+|-unboost|p2a: Calyrex|spa|1
+|-unboost|p2b: Zacian|spa|1
+|-enditem|p2a: Calyrex|White Herb
+|-clearnegativeboost|p2a: Calyrex|[silent]
+|move|p1a: Garganacl|Salt Cure|p2b: Zacian
+|-resisted|p2b: Zacian
+|-damage|p2b: Zacian|91/100
+|-start|p2b: Zacian|Salt Cure
+|
+|-heal|p1b: Ting-Lu|61/100|[from] item: Leftovers
+|-damage|p2a: Calyrex|42/100|[from] Salt Cure
+|-damage|p2b: Zacian|66/100|[from] Salt Cure
+|upkeep
+|turn|5
+|inactive|Aosakamameshi has 30 seconds left.
+|
+|t:|1750832455
+|move|p2a: Calyrex|Astral Barrage|p1a: Garganacl|[spread] p1a,p1b
+|-resisted|p1b: Ting-Lu
+|-damage|p1a: Garganacl|81/100
+|-damage|p1b: Ting-Lu|46/100
+|move|p2b: Zacian|Sacred Sword|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|0 fnt
+|faint|p1b: Ting-Lu
+|move|p1a: Garganacl|Body Press|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-damage|p2b: Zacian|41/100|[from] Salt Cure
+|upkeep
+|
+|t:|1750832468
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750832477
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Zacian|Play Rough|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Zacian|16/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1750832494
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Zacian|Play Rough|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|66/100
+|move|p1b: Koraidon|Flame Charge|p2b: Zacian
+|-supereffective|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2b: Zacian
+|
+|win|JRolls89
+|raw|JRolls89's rating: 1210 &rarr; <strong>1235</strong><br />(+25 for winning)
+|raw|Aosakamameshi's rating: 1206 &rarr; <strong>1181</strong><br />(-25 for losing)
+|l|☆JRolls89
+|player|p1|
+|l|☆Aosakamameshi
+|player|p2|

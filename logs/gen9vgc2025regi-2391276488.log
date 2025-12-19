@@ -1,0 +1,188 @@
+|j|☆getbibootaxed
+|j|☆a_lazytiger
+|t:|1750826886
+|gametype|doubles
+|player|p1|getbibootaxed|dawn|1149
+|player|p2|a_lazytiger|266|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Golem-Alola, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Swampert, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by getbibootaxed)
+|inactive|a_lazytiger has 60 seconds left.
+|
+|t:|1750826934
+|start
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Golem|Golem-Alola, L50, F, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|inactive|getbibootaxed has 30 seconds left.
+|inactive|a_lazytiger has 30 seconds left.
+|
+|t:|1750826961
+|-terastallize|p1b: Calyrex|Fairy
+|move|p1a: Sableye|Fake Out|p2b: Golem
+|-resisted|p2b: Golem
+|-damage|p2b: Golem|97/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Golem|[spread] p2a,p2b
+|-damage|p2a: Groudon|49/100
+|-damage|p2b: Golem|11/100
+|cant|p2b: Golem|flinch
+|move|p2a: Groudon|Precipice Blades|p1b: Calyrex|[spread] p1b
+|-miss|p2a: Groudon|p1a: Sableye
+|-damage|p1b: Calyrex|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|55/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|a_lazytiger has 30 seconds left.
+|
+|t:|1750826991
+|move|p2b: Golem|Wide Guard|p2b: Golem
+|-singleturn|p2b: Golem|Wide Guard
+|move|p1a: Sableye|Disable|p2a: Groudon
+|-start|p2a: Groudon|Disable|Precipice Blades
+|move|p1b: Calyrex|Astral Barrage|p2b: Golem|[spread] 
+|-activate|p2a: Groudon|move: Wide Guard
+|-activate|p2b: Golem|move: Wide Guard
+|cant|p2a: Groudon|Disable|Precipice Blades
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750827007
+|move|p2b: Golem|Wide Guard|p2b: Golem
+|-singleturn|p2b: Golem|Wide Guard
+|move|p1a: Sableye|Encore|p2a: Groudon
+|-start|p2a: Groudon|Encore
+|move|p1b: Calyrex|Draining Kiss|p2b: Golem
+|-damage|p2b: Golem|0 fnt
+|-heal|p1b: Calyrex|33/100|[from] drain|[of] p2b: Golem
+|faint|p2b: Golem
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|cant|p2a: Groudon|Disable|Precipice Blades
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827021
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750827043
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1a: Sableye|Disable|p2b: Raging Bolt
+|-start|p2b: Raging Bolt|Disable|Thunderclap
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|a_lazytiger has 30 seconds left.
+|
+|t:|1750827073
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Groudon|Groudon, L50|67/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|move|p2a: Miraidon|Overheat|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Amoonguss
+|
+|-weather|none
+|-heal|p2b: Groudon|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827078
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|6
+|
+|t:|1750827096
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|move|p1a: Sableye|Disable||[still]
+|-fail|p1a: Sableye
+|move|p1b: Scream Tail|Wish|p1b: Scream Tail
+|move|p2b: Groudon|Precipice Blades|p1b: Scream Tail|[spread] p1a,p1b
+|-damage|p1a: Sableye|28/100
+|-damage|p1b: Scream Tail|55/100
+|
+|-heal|p2b: Groudon|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750827120
+|move|p1a: Sableye|Disable||[still]
+|-fail|p1a: Sableye
+|move|p1b: Scream Tail|Disable|p2b: Groudon
+|-start|p2b: Groudon|Disable|Precipice Blades
+|move|p2b: Groudon|Heat Crash|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|move|p2a: Raging Bolt|Rising Voltage|p1b: Scream Tail
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|-damage|p2a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|-heal|p2b: Groudon|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750827124
+|switch|p1a: Calyrex|Calyrex-Shadow, L50, tera:Fairy|33/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750827144
+|move|p2a: Raging Bolt|Thunderclap|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Raging Bolt|81/100|[from] item: Life Orb
+|
+|win|a_lazytiger
+|raw|getbibootaxed's rating: 1149 &rarr; <strong>1130</strong><br />(-19 for losing)
+|raw|a_lazytiger's rating: 1234 &rarr; <strong>1253</strong><br />(+19 for winning)
+|c|☆getbibootaxed|Gg
+|c|☆a_lazytiger|gg
+|c|☆a_lazytiger|tricky
+|c|☆a_lazytiger|but you kept making the same play
+|l|☆a_lazytiger
+|player|p2|

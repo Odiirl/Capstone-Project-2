@@ -1,0 +1,156 @@
+|j|☆Scottyboi3
+|j|☆volleyballthehuman
+|t:|1750820893
+|gametype|doubles
+|player|p1|Scottyboi3|102|1110
+|player|p2|volleyballthehuman|102|1024
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750820914
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by volleyballthehuman)
+|
+|t:|1750820954
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2b: Iron Hands|Fake Out|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|87/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-damage|p1b: Incineroar|86/100|[from] Recoil
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|inactive|Scottyboi3 has 30 seconds left.
+|inactive|volleyballthehuman has 30 seconds left.
+|
+|t:|1750820984
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Roaring Moon|[spread] p1a,p1b
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|-damage|p1b: Incineroar|58/100
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|move|p2b: Iron Hands|Drain Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|4/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Iron Hands
+|-damage|p2b: Iron Hands|73/100
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750820999
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750821017
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1b: Tornadus|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-damage|p1b: Tornadus|48/100
+|move|p2b: Iron Hands|Wild Charge|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Iron Hands|[spread] p2a,p2b
+|-crit|p2b: Iron Hands
+|-damage|p2a: Hatterene|3/100
+|-damage|p2b: Iron Hands|38/100
+|-unboost|p2a: Hatterene|spe|1
+|-unboost|p2b: Iron Hands|spe|1
+|-enditem|p2a: Hatterene|Aguav Berry|[eat]
+|-heal|p2a: Hatterene|36/100|[from] item: Aguav Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Scottyboi3 has 30 seconds left.
+|
+|t:|1750821045
+|-terastallize|p1a: Kyogre|Grass
+|move|p1b: Tornadus|Protect|p1b: Tornadus
+|-singleturn|p1b: Tornadus|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Kyogre|[spread] p1a
+|-activate|p1b: Tornadus|move: Protect
+|-damage|p1a: Kyogre|80/100
+|move|p2b: Iron Hands|Wild Charge|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|63/100
+|-damage|p2b: Iron Hands|35/100|[from] Recoil
+|move|p1a: Kyogre|Water Spout|p2b: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2a: Hatterene
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750821063
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|t:|1750821086
+|-terastallize|p2a: Incineroar|Dark
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Chien-Pao|Sucker Punch|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|move|p2a: Incineroar|Darkest Lariat|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750821101
+|move|p2b: Chien-Pao|Sucker Punch|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|win|volleyballthehuman
+|raw|Scottyboi3's rating: 1110 &rarr; <strong>1079</strong><br />(-31 for losing)
+|raw|volleyballthehuman's rating: 1024 &rarr; <strong>1069</strong><br />(+45 for winning)

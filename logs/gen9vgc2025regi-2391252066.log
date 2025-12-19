@@ -1,0 +1,233 @@
+|j|☆WillieDangerously
+|j|☆mysteryperson101
+|t:|1750822864
+|gametype|doubles
+|player|p1|WillieDangerously|roughneck|1098
+|player|p2|mysteryperson101|lucas|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Heatran, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750822903
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750822921
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: mysteryperson101|Reflect
+|move|p1a: Walking Wake|Draco Meteor|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Urshifu
+|move|p1b: Koraidon|Flare Blitz|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|43/100
+|-damage|p1b: Koraidon|82/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750822931
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|2
+|
+|t:|1750822940
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: mysteryperson101|move: Light Screen
+|move|p1a: Walking Wake|Snarl|p2b: Grimmsnarl|[spread] p2b
+|-miss|p1a: Walking Wake|p2a: Miraidon
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|42/100
+|-unboost|p2b: Grimmsnarl|spa|1
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Walking Wake|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750822956
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|turn|3
+|
+|t:|1750822970
+|switch|p1b: Heatran|Heatran, L50, F|100/100
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Heatran
+|-status|p1b: Heatran|par
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Heatran|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-resisted|p1b: Heatran
+|-damage|p1a: Ho-Oh|87/100
+|-damage|p1b: Heatran|91/100 par
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: WillieDangerously|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Heatran|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750822986
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Ho-Oh
+|-status|p1a: Ho-Oh|par
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ho-Oh|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-resisted|p1b: Heatran
+|-damage|p1a: Ho-Oh|75/100 par
+|-damage|p1b: Heatran|87/100 par
+|cant|p1a: Ho-Oh|par
+|cant|p1b: Heatran|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Heatran|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750823002
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|cant|p1a: Ho-Oh|par
+|move|p1b: Heatran|Earth Power|p2a: Calyrex
+|-damage|p2a: Calyrex|88/100
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Heatran
+|-resisted|p1b: Heatran
+|-damage|p1b: Heatran|86/100 par
+|-unboost|p1b: Heatran|spa|1
+|
+|-weather|none
+|-heal|p1b: Heatran|92/100 par|[from] item: Leftovers
+|-heal|p2a: Calyrex|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750823027
+|-terastallize|p2a: Calyrex|Water
+|cant|p1a: Ho-Oh|par
+|move|p1b: Heatran|Will-O-Wisp|p2a: Calyrex
+|-status|p2a: Calyrex|brn
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|59/100 par
+|-unboost|p1a: Ho-Oh|spa|1
+|move|p2a: Calyrex|Leech Seed|p1b: Heatran
+|-start|p1b: Heatran|move: Leech Seed
+|
+|-heal|p1b: Heatran|98/100 par|[from] item: Leftovers
+|-heal|p2a: Calyrex|99/100 brn|[from] item: Leftovers
+|-damage|p1b: Heatran|86/100 par|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|100/100 brn|[silent]
+|-damage|p2a: Calyrex|95/100 brn|[from] brn
+|-sideend|p1: WillieDangerously|move: Tailwind
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750823050
+|switch|p1b: Koraidon|Koraidon, L50|82/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|44/100 par
+|-unboost|p1a: Ho-Oh|spa|1
+|move|p2a: Calyrex|Leech Seed|p1a: Ho-Oh|[miss]
+|-miss|p2a: Calyrex|p1a: Ho-Oh
+|move|p1a: Ho-Oh|Brave Bird|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-damage|p1a: Ho-Oh|30/100 par|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Calyrex|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750823067
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|8
+|
+|t:|1750823089
+|switch|p1a: Heatran|Heatran, L50, F|86/100 par
+|-terastallize|p1b: Koraidon|Fire
+|move|p1b: Koraidon|Breaking Swipe|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Calyrex|81/100 brn
+|-damage|p2b: Miraidon|63/100
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|move|p2b: Miraidon|Electro Drift|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2a: Calyrex|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|86/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|91/100 par|[from] item: Leftovers
+|-damage|p1a: Heatran|79/100 par|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|98/100 brn|[silent]
+|-damage|p2a: Calyrex|92/100 brn|[from] brn
+|-sideend|p2: mysteryperson101|Reflect
+|upkeep
+|
+|t:|1750823103
+|switch|p1b: Ho-Oh|Ho-Oh, L50|63/100 par
+|turn|9
+|
+|t:|1750823123
+|move|p2b: Miraidon|Electro Drift|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|move|p2a: Calyrex|Leech Seed|p1b: Ho-Oh
+|-start|p1b: Ho-Oh|move: Leech Seed
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|66/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|72/100 brn|[from] item: Leftovers
+|-damage|p1b: Ho-Oh|51/100 par|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|84/100 brn|[silent]
+|-damage|p2a: Calyrex|78/100 brn|[from] brn
+|-sideend|p2: mysteryperson101|move: Light Screen
+|upkeep
+|turn|10
+|-message|WillieDangerously forfeited.
+|
+|win|mysteryperson101
+|raw|WillieDangerously's rating: 1098 &rarr; <strong>1075</strong><br />(-23 for losing)
+|raw|mysteryperson101's rating: 1127 &rarr; <strong>1150</strong><br />(+23 for winning)

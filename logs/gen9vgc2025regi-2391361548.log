@@ -1,0 +1,140 @@
+|j|☆pkeyko
+|j|☆plsdontspeaktome
+|t:|1750843571
+|gametype|doubles
+|player|p1|pkeyko|rosa|1187
+|player|p2|plsdontspeaktome|265|1145
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Regieleki, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by plsdontspeaktome)
+|
+|t:|1750843603
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Regieleki|Regieleki, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|inactive|pkeyko has 30 seconds left.
+|
+|t:|1750843636
+|-terastallize|p2b: Calyrex|Dark
+|-terastallize|p1a: Kyogre|Water
+|move|p2a: Regieleki|Electroweb|p1b: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|50/100
+|-damage|p1b: Indeedee|70/100
+|-unboost|p1a: Kyogre|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|move|p2b: Calyrex|Astral Barrage|p1b: Indeedee|[spread] p1a
+|-immune|p1b: Indeedee
+|-damage|p1a: Kyogre|3/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Indeedee|After You|p1a: Kyogre
+|-activate|p1a: Kyogre|move: After You
+|move|p1a: Kyogre|Surf|p2b: Calyrex|[spread] p1b,p2a,p2b
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2a: Regieleki|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p1b: Indeedee
+|faint|p2a: Regieleki
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750843657
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|2
+|
+|t:|1750843677
+|move|p2b: Rillaboom|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|92/100
+|move|p2a: Zacian|Swords Dance|p2a: Zacian
+|-boost|p2a: Zacian|atk|2
+|move|p1a: Kyogre|Surf|p2a: Zacian|[spread] p1b,p2a,p2b
+|-resisted|p2b: Rillaboom
+|-damage|p1b: Calyrex|5/100
+|-damage|p2a: Zacian|0 fnt
+|-damage|p2b: Rillaboom|60/100
+|faint|p2a: Zacian
+|cant|p1b: Calyrex|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|11/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|9/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750843695
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|move|p2b: Rillaboom|Grassy Glide|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750843700
+|switch|p1b: Kyogre|Kyogre, L50, tera:Water|9/100
+|turn|4
+|
+|t:|1750843708
+|move|p2b: Rillaboom|Grassy Glide|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Rillaboom
+|-damage|p2b: Rillaboom|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|32/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750843720
+|move|p2b: Rillaboom|Wood Hammer|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|70/100
+|-damage|p2b: Rillaboom|23/100|[from] Recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|win|pkeyko
+|raw|pkeyko's rating: 1187 &rarr; <strong>1209</strong><br />(+22 for winning)
+|raw|plsdontspeaktome's rating: 1145 &rarr; <strong>1123</strong><br />(-22 for losing)
+|l|☆plsdontspeaktome
+|player|p2|

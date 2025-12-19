@@ -1,0 +1,161 @@
+|j|☆TheGreatRuce
+|j|☆DesignacionserialD
+|t:|1750876022
+|gametype|doubles
+|player|p1|TheGreatRuce|ethan|1149
+|player|p2|DesignacionserialD|n|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheGreatRuce)
+|
+|t:|1750876129
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisspd
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Brute Bonnet|atk|1
+|-fail|p1b: Groudon|unboost|[from] item: Clear Amulet|[of] p1b: Groudon
+|turn|1
+|inactive|TheGreatRuce has 30 seconds left.
+|inactive|DesignacionserialD has 30 seconds left.
+|inactive|DesignacionserialD has 20 seconds left.
+|inactive|DesignacionserialD has 15 seconds left.
+|inactive|DesignacionserialD has 10 seconds left.
+|
+|t:|1750876178
+|-terastallize|p1a: Brute Bonnet|Water
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|move|p2b: Koraidon|Collision Course|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|50/100
+|-damage|p2b: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1a: Brute Bonnet
+|move|p1a: Brute Bonnet|Spore|p2b: Koraidon
+|-status|p2b: Koraidon|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|DesignacionserialD has 30 seconds left.
+|inactive|DesignacionserialD has 20 seconds left.
+|inactive|DesignacionserialD has 15 seconds left.
+|inactive|DesignacionserialD has 10 seconds left.
+|
+|t:|1750876226
+|move|p1a: Brute Bonnet|Rage Powder|p1a: Brute Bonnet
+|-singleturn|p1a: Brute Bonnet|move: Rage Powder
+|cant|p2b: Koraidon|slp
+|move|p1b: Groudon|Bulk Up|p1b: Groudon
+|-boost|p1b: Groudon|atk|1
+|-boost|p1b: Groudon|def|1
+|move|p2a: Incineroar|Taunt|p1a: Brute Bonnet
+|-start|p1a: Brute Bonnet|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750876250
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|cant|p2b: Koraidon|slp
+|move|p1b: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Koraidon|10/100 slp
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|DesignacionserialD has 30 seconds left.
+|inactive|DesignacionserialD has 20 seconds left.
+|inactive|DesignacionserialD has 15 seconds left.
+|inactive|DesignacionserialD has 10 seconds left.
+|
+|t:|1750876297
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750876321
+|-terastallize|p2a: Flutter Mane|Fairy
+|move|p1a: Tauros|Aqua Jet|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|6/100 slp
+|move|p2a: Flutter Mane|Dazzling Gleam|p1a: Tauros|[spread] p1a,p1b
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-damage|p1b: Groudon|44/100
+|faint|p1a: Tauros
+|-curestatus|p2b: Koraidon|slp|[msg]
+|move|p2b: Koraidon|Collision Course|p1b: Groudon
+|-crit|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750876335
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50, tera:Water|50/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisspd
+|turn|5
+|inactive|DesignacionserialD has 30 seconds left.
+|inactive|DesignacionserialD has 20 seconds left.
+|inactive|DesignacionserialD has 15 seconds left.
+|
+|t:|1750876376
+|move|p1a: Brute Bonnet|Rage Powder|p1a: Brute Bonnet
+|-singleturn|p1a: Brute Bonnet|move: Rage Powder
+|move|p2a: Flutter Mane|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Brute Bonnet|20/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2b: Koraidon|Collision Course|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|-damage|p2b: Koraidon|0 fnt|[from] item: Rocky Helmet|[of] p1a: Brute Bonnet
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|faint|p2b: Koraidon
+|
+|win|DesignacionserialD
+|raw|TheGreatRuce's rating: 1149 &rarr; <strong>1131</strong><br />(-18 for losing)
+|raw|DesignacionserialD's rating: 1244 &rarr; <strong>1262</strong><br />(+18 for winning)
+|l|☆DesignacionserialD
+|player|p2|
+|l|☆TheGreatRuce
+|player|p1|

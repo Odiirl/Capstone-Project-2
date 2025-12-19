@@ -1,0 +1,109 @@
+|j|☆Dryxz
+|j|☆garlic1
+|t:|1750797167
+|gametype|doubles
+|player|p1|Dryxz|riley|1113
+|player|p2|garlic1|bugcatcher-gen4dp|1066
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Hawlucha, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Medicham, L50, F|
+|poke|p2|Regigigas, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Blissey, L50, F|
+|teampreview|4
+|
+|t:|1750797212
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Hawlucha|Hawlucha, L50, M|100/100
+|switch|p2a: Regigigas|Regigigas, L50|100/100
+|switch|p2b: Medicham|Medicham, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Hawlucha|Electric Seed
+|-boost|p1b: Hawlucha|def|1|[from] item: Electric Seed
+|-start|p2a: Regigigas|ability: Slow Start
+|turn|1
+|
+|t:|1750797251
+|move|p1b: Hawlucha|Upper Hand||[still]
+|-fail|p1b: Hawlucha
+|move|p1a: Miraidon|Volt Switch|p2a: Regigigas
+|-damage|p2a: Regigigas|38/100
+|
+|t:|1750797258
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2b: Medicham|Skill Swap|p2a: Regigigas
+|-activate|p2b: Medicham|move: Skill Swap|||[of] p2a: Regigigas
+|-end|p2a: Regigigas|Slow Start|[silent]
+|-start|p2b: Medicham|ability: Slow Start
+|move|p2a: Regigigas|Crush Grip|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|-damage|p2a: Regigigas|28/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750797278
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|2
+|
+|t:|1750797294
+|-end|p2b: Medicham|Slow Start|[silent]
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|-terastallize|p2a: Regigigas|Ghost
+|move|p1b: Hawlucha|Detect|p1b: Hawlucha
+|-singleturn|p1b: Hawlucha|Protect
+|move|p1a: Kyogre|Origin Pulse|p2b: Primarina|[spread] p2a,p2b
+|-resisted|p2b: Primarina
+|-damage|p2a: Regigigas|0 fnt
+|-damage|p2b: Primarina|49/100
+|faint|p2a: Regigigas
+|-damage|p1a: Kyogre|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750797304
+|switch|p2a: Blissey|Blissey, L50, F|100/100
+|turn|3
+|
+|t:|1750797320
+|move|p1b: Hawlucha|Body Press|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|move|p1a: Kyogre|Origin Pulse|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|-damage|p1a: Kyogre|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|garlic1 forfeited.
+|
+|win|Dryxz
+|raw|Dryxz's rating: 1113 &rarr; <strong>1135</strong><br />(+22 for winning)
+|raw|garlic1's rating: 1066 &rarr; <strong>1049</strong><br />(-17 for losing)
+|l|☆garlic1
+|player|p2|
+|l|☆Dryxz
+|player|p1|

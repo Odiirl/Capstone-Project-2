@@ -1,0 +1,304 @@
+|j|☆arson03
+|j|☆Burbear
+|t:|1750863824
+|gametype|doubles
+|player|p1|arson03|swimmer-gen4dp|1134
+|player|p2|Burbear|scientist|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Comfey, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Skeledirge, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arson03)
+|
+|t:|1750863874
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|inactive|arson03 has 30 seconds left.
+|
+|t:|1750863904
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: Burbear|move: Aurora Veil
+|move|p2a: Iron Hands|Wild Charge|p1b: Ogerpon
+|-damage|p1b: Ogerpon|26/100
+|-damage|p2a: Iron Hands|87/100|[from] Recoil
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750863922
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Farigiraf|Ally Switch|p1a: Farigiraf
+|swap|p1a: Farigiraf|1|[from] move: Ally Switch
+|move|p2a: Iron Hands|Drain Punch|p1a: Calyrex
+|-damage|p1a: Calyrex|75/100
+|-heal|p2a: Iron Hands|97/100|[from] drain|[of] p1a: Calyrex
+|move|p2b: Ninetales|Dazzling Gleam|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Calyrex|63/100
+|-damage|p1b: Farigiraf|83/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|arson03 has 30 seconds left.
+|
+|t:|1750863948
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Calyrex|High Horsepower|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|63/100
+|move|p1b: Farigiraf|Imprison|p1b: Farigiraf
+|-start|p1b: Farigiraf|move: Imprison
+|move|p2a: Iron Hands|Drain Punch|p1a: Calyrex
+|-damage|p1a: Calyrex|40/100
+|-heal|p2a: Iron Hands|73/100|[from] drain|[of] p1a: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750863971
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Farigiraf|Ally Switch|p1b: Farigiraf
+|swap|p1b: Farigiraf|0|[from] move: Ally Switch
+|move|p1b: Calyrex|Glacial Lance|p2a: Iron Hands|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Iron Hands|51/100
+|-damage|p2b: Incineroar|83/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Farigiraf
+|-damage|p1a: Farigiraf|33/100
+|-heal|p2a: Iron Hands|73/100|[from] drain|[of] p1a: Farigiraf
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|18/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750863991
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2a: Iron Hands|51/100
+|-damage|p2b: Incineroar|44/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Calyrex
+|-status|p1b: Calyrex|brn
+|
+|-weather|none
+|-damage|p1b: Calyrex|13/100 brn|[from] brn
+|-sideend|p2: Burbear|move: Aurora Veil
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750864010
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Farigiraf|Ally Switch|p1a: Farigiraf
+|swap|p1a: Farigiraf|1|[from] move: Ally Switch
+|move|p2a: Iron Hands|Drain Punch|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Calyrex|7/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750864030
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: Burbear|move: Aurora Veil
+|move|p2a: Iron Hands|Drain Punch|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Iron Hands|[spread] p2a,p2b
+|-resisted|p2b: Ninetales
+|-damage|p2a: Iron Hands|40/100
+|-damage|p2b: Ninetales|93/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Calyrex|1/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Burbear has 30 seconds left.
+|inactive|Burbear has 20 seconds left.
+|
+|t:|1750864067
+|move|p1b: Farigiraf|Ally Switch|p1b: Farigiraf
+|swap|p1b: Farigiraf|0|[from] move: Ally Switch
+|move|p2b: Ninetales|Dazzling Gleam|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|13/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Iron Hands|Drain Punch|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|-heal|p2a: Iron Hands|45/100|[from] drain|[of] p1a: Farigiraf
+|faint|p1a: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750864075
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, L50, F|26/100
+|switch|p1b: Skeledirge|Skeledirge, L50, F|100/100
+|turn|9
+|
+|t:|1750864089
+|switch|p2b: Incineroar|Incineroar, L50, F|44/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1b: Skeledirge|atk|1
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p1b: Skeledirge|Torch Song|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|37/100
+|-boost|p1b: Skeledirge|spa|1
+|-enditem|p1b: Skeledirge|Throat Spray
+|-boost|p1b: Skeledirge|spa|1|[from] item: Throat Spray
+|move|p2a: Iron Hands|Wild Charge|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2a: Iron Hands|33/100|[from] Spiky Shield|[of] p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750864112
+|move|p2b: Incineroar|Fake Out|p1b: Skeledirge
+|-immune|p1b: Skeledirge
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p1b: Skeledirge|Torch Song|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-boost|p1b: Skeledirge|spa|1
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1750864122
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|11
+|
+|t:|1750864136
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|93/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2b: Incineroar|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|move|p1b: Skeledirge|Torch Song|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-boost|p1b: Skeledirge|spa|1
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: Burbear|move: Aurora Veil
+|upkeep
+|
+|t:|1750864149
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|turn|12
+|
+|t:|1750864157
+|-terastallize|p2a: Zamazenta|Fairy
+|move|p2a: Zamazenta|Heavy Slam|p1b: Skeledirge
+|-resisted|p1b: Skeledirge
+|-damage|p1b: Skeledirge|92/100
+|move|p2b: Incineroar|Knock Off|p1b: Skeledirge
+|-supereffective|p1b: Skeledirge
+|-damage|p1b: Skeledirge|60/100
+|move|p1b: Skeledirge|Torch Song|p2a: Zamazenta
+|-damage|p2a: Zamazenta|46/100
+|-boost|p1b: Skeledirge|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1750864175
+|move|p2a: Zamazenta|Heavy Slam|p1b: Skeledirge
+|-resisted|p1b: Skeledirge
+|-damage|p1b: Skeledirge|52/100
+|move|p2b: Incineroar|Knock Off|p1b: Skeledirge
+|-supereffective|p1b: Skeledirge
+|-damage|p1b: Skeledirge|17/100
+|move|p1b: Skeledirge|Torch Song|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-boost|p1b: Skeledirge|spa|1
+|faint|p2a: Zamazenta
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1750864186
+|move|p1b: Skeledirge|Protect|p1b: Skeledirge
+|-singleturn|p1b: Skeledirge|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Skeledirge
+|-activate|p1b: Skeledirge|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1750864195
+|move|p2b: Incineroar|Knock Off|p1b: Skeledirge
+|-supereffective|p1b: Skeledirge
+|-damage|p1b: Skeledirge|0 fnt
+|faint|p1b: Skeledirge
+|
+|win|Burbear
+|raw|arson03's rating: 1134 &rarr; <strong>1112</strong><br />(-22 for losing)
+|raw|Burbear's rating: 1182 &rarr; <strong>1204</strong><br />(+22 for winning)
+|l|☆arson03
+|player|p1|
+|l|☆Burbear
+|player|p2|

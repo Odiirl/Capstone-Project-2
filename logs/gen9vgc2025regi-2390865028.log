@@ -1,0 +1,233 @@
+|j|☆gexulus
+|j|☆TheShinyBayleef
+|t:|1750777177
+|gametype|doubles
+|player|p1|gexulus|2|1176
+|player|p2|TheShinyBayleef|102|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Iron Boulder, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750777217
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gexulus)
+|
+|t:|1750777287
+|-terastallize|p2b: Miraidon|Fairy
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2a: Incineroar|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|96/100
+|cant|p1a: Zacian|flinch
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon
+|-immune|p1b: Miraidon
+|move|p1b: Miraidon|Volt Switch|p2b: Miraidon
+|-damage|p2b: Miraidon|4/100
+|
+|t:|1750777301
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1750777319
+|move|p1b: Urshifu|Aqua Jet|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|move|p2a: Incineroar|Parting Shot|p1a: Zacian
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1a: Zacian|spa|1
+|
+|t:|1750777327
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1750777328
+|switch|p2b: Iron Bundle|Iron Bundle, L50, shiny|100/100
+|-activate|p2b: Iron Bundle|ability: Quark Drive
+|-start|p2b: Iron Bundle|quarkdrivespa
+|turn|3
+|inactive|TheShinyBayleef has 30 seconds left.
+|inactive|TheShinyBayleef has 20 seconds left.
+|inactive|TheShinyBayleef has 15 seconds left.
+|
+|t:|1750777371
+|move|p2a: Urshifu|U-turn|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|87/100
+|
+|t:|1750777374
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zacian|atk|1
+|-unboost|p1b: Urshifu|atk|1
+|move|p1a: Zacian|Play Rough|p2a: Incineroar
+|-damage|p2a: Incineroar|65/100
+|-unboost|p2a: Incineroar|atk|1
+|move|p2b: Iron Bundle|Freeze-Dry|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|upkeep
+|
+|t:|1750777386
+|switch|p1b: Iron Boulder|Iron Boulder, L50|100/100
+|-activate|p1b: Iron Boulder|ability: Quark Drive
+|-start|p1b: Iron Boulder|quarkdriveatk
+|turn|4
+|inactive|TheShinyBayleef has 30 seconds left.
+|inactive|TheShinyBayleef has 20 seconds left.
+|
+|t:|1750777422
+|move|p2a: Incineroar|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|93/100
+|cant|p1a: Zacian|flinch
+|move|p2b: Iron Bundle|Icy Wind|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|82/100
+|-damage|p1b: Iron Boulder|70/100
+|-unboost|p1a: Zacian|spe|1
+|-unboost|p1b: Iron Boulder|spe|1
+|move|p1b: Iron Boulder|Mighty Cleave|p2b: Iron Bundle
+|-supereffective|p2b: Iron Bundle
+|-enditem|p2b: Iron Bundle|Focus Sash
+|-damage|p2b: Iron Bundle|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750777444
+|move|p2b: Iron Bundle|Protect|p2b: Iron Bundle
+|-singleturn|p2b: Iron Bundle|Protect
+|move|p1a: Zacian|Behemoth Blade|p2b: Iron Bundle
+|-activate|p2b: Iron Bundle|move: Protect
+|move|p1b: Iron Boulder|Mighty Cleave|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Bundle|Quark Drive
+|-end|p1b: Iron Boulder|Quark Drive
+|upkeep
+|
+|t:|1750777453
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|6
+|
+|t:|1750777473
+|-end|p1b: Iron Boulder|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2b: Iron Bundle|ability: Quark Drive
+|-start|p2b: Iron Bundle|quarkdrivespa
+|move|p2a: Urshifu|Surging Strikes|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|76/100
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|54/100
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|28/100
+|-hitcount|p1b: Miraidon|3
+|move|p2b: Iron Bundle|Encore|p1a: Zacian
+|-start|p1a: Zacian|Encore
+|move|p1a: Zacian|Behemoth Blade|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|0 fnt
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1750777492
+|switch|p1a: Iron Boulder|Iron Boulder, L50|70/100
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdriveatk
+|move|p2a: Urshifu|Surging Strikes|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|3/100
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-hitcount|p1: Miraidon|2
+|
+|upkeep
+|
+|t:|1750777495
+|switch|p1b: Zacian|Zacian-Crowned, L50|82/100
+|turn|8
+|
+|t:|1750777503
+|move|p2a: Urshifu|Surging Strikes|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-crit|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|22/100
+|-supereffective|p1a: Iron Boulder
+|-crit|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|-hitcount|p1: Iron Boulder|2
+|move|p1b: Zacian|Behemoth Blade|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|72/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750777513
+|move|p2a: Urshifu|Surging Strikes|p1b: Zacian
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|63/100
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|43/100
+|-crit|p1b: Zacian
+|-damage|p1b: Zacian|21/100
+|-hitcount|p1b: Zacian|3
+|move|p1b: Zacian|Play Rough|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|win|gexulus
+|raw|gexulus's rating: 1176 &rarr; <strong>1196</strong><br />(+20 for winning)
+|raw|TheShinyBayleef's rating: 1110 &rarr; <strong>1090</strong><br />(-20 for losing)
+|l|☆TheShinyBayleef
+|player|p2|
+|l|☆gexulus
+|player|p1|

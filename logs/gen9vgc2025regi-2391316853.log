@@ -1,0 +1,255 @@
+|j|☆Fulgurotek
+|j|☆Heliosan
+|t:|1750834726
+|gametype|doubles
+|player|p1|Fulgurotek|102|1588
+|player|p2|Heliosan|steven|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750834836
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fulgurotek)
+|
+|t:|1750834912
+|move|p1a: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|94/100
+|move|p1b: Zamazenta|Heavy Slam|p2a: Lunala
+|-damage|p2a: Lunala|89/100
+|move|p2b: Incineroar|Parting Shot|p1b: Zamazenta
+|-unboost|p1b: Zamazenta|atk|1
+|-unboost|p1b: Zamazenta|spa|1
+|
+|t:|1750834919
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-heal|p2a: Lunala|95/100|[from] Grassy Terrain
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Fulgurotek has 30 seconds left.
+|
+|t:|1750834949
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2b: Ursaluna|Facade|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p2a: Lunala|Moongeist Beam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|62/100
+|move|p1b: Zamazenta|Body Press|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|
+|-heal|p2a: Lunala|100/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|68/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750834964
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|inactive|Heliosan has 30 seconds left.
+|
+|t:|1750834989
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Ursaluna|Headlong Rush|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|
+|-heal|p2b: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|74/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750835011
+|-terastallize|p1b: Zamazenta|Grass
+|move|p2b: Ursaluna|Headlong Rush|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|52/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|move|p2a: Lunala|Moongeist Beam|p1a: Tornadus
+|-damage|p1a: Tornadus|43/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Lunala|86/100
+|-damage|p2b: Ursaluna|34/100 brn
+|-unboost|p2b: Ursaluna|spe|1
+|move|p1b: Zamazenta|Heavy Slam|p2b: Ursaluna
+|-damage|p2b: Ursaluna|19/100 brn
+|
+|-heal|p2b: Ursaluna|25/100 brn|[from] Grassy Terrain
+|-heal|p2a: Lunala|92/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|59/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|19/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Heliosan has 30 seconds left.
+|
+|t:|1750835042
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Lunala|Moongeist Beam|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|Fulgurotek has 30 seconds left.
+|
+|t:|1750835073
+|move|p1a: Tornadus|Taunt|p2a: Lunala
+|-start|p2a: Lunala|move: Taunt
+|move|p2b: Miraidon|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|t:|1750835080
+|switch|p2b: Incineroar|Incineroar, L50, M|94/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Zamazenta|atk|1
+|move|p1b: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|cant|p2a: Lunala|move: Taunt|Trick Room
+|
+|upkeep
+|
+|t:|1750835090
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|7
+|
+|t:|1750835108
+|switch|p2a: Ursaluna|Ursaluna, L50, F, tera:Ghost|19/100 brn
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Miraidon|Snarl|p1b: Zamazenta|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Zamazenta|43/100
+|-unboost|p1b: Zamazenta|spa|1
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|39/100
+|
+|-damage|p2a: Ursaluna|13/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Fulgurotek has 30 seconds left.
+|inactive|Heliosan has 30 seconds left.
+|
+|t:|1750835135
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Miraidon|5/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Miraidon|Snarl|p1b: Zamazenta|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|14/100
+|-damage|p1b: Zamazenta|28/100
+|-unboost|p1a: Calyrex|spa|1
+|-unboost|p1b: Zamazenta|spa|1
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1750835149
+|switch|p2b: Lunala|Lunala, L50|92/100
+|turn|9
+|
+|t:|1750835158
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Calyrex|Astral Barrage|p2b: Lunala|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1b: Zamazenta|Heavy Slam|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|35/100
+|move|p2a: Ursaluna|Earthquake|p1a: Calyrex|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-resisted|p1b: Zamazenta
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Zamazenta|16/100
+|faint|p1a: Calyrex
+|
+|-damage|p2a: Ursaluna|1/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|t:|1750835176
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Ursaluna|Facade|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|turn|11
+|
+|t:|1750835182
+|move|p1b: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|20/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|win|Heliosan
+|raw|Fulgurotek's rating: 1588 &rarr; <strong>1562</strong><br />(-26 for losing)
+|raw|Heliosan's rating: 1471 &rarr; <strong>1497</strong><br />(+26 for winning)
+|l|☆Fulgurotek
+|player|p1|

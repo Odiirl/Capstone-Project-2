@@ -1,0 +1,185 @@
+|j|☆TimBomb
+|j|☆fou jedi jedi
+|t:|1750746632
+|gametype|doubles
+|player|p1|TimBomb|palmer|1151
+|player|p2|fou jedi jedi|265|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Palkia-Origin, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+TimBomb has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fou jedi jedi)
+fou jedi jedi has agreed to open team sheets.
+|showteam|p1|Calyrex-Ice||ClearAmulet|AsOneGlastrier|GlacialLance,HighHorsepower,TrickRoom,Protect||||||50|,,,,,Fairy]Spectrier||FocusSash|GrimNeigh|Taunt,Curse,ShadowBall,Psychic||||||50|,,,,,Normal]Glastrier||AguavBerry|ChillingNeigh|Curse,Avalanche,Bulldoze,HeavySlam||||||50|,,,,,Ghost]Volcarona||SafetyGoggles|FlameBody|WillOWisp,RagePowder,StruggleBug,Overheat|||M|||50|,,,,,Water]Araquanid||Leftovers|WaterBubble|WideGuard,PowerSplit,Liquidation,StickyWeb|||M|||50|,,,,,Water]Palkia-Origin||LustrousGlobe|Pressure|DracoMeteor,Surf,SpacialRend,Protect||||||50|,,,,,Water
+|showteam|p2|Koraidon||ClearAmulet|OrichalcumPulse|Protect,FlameCharge,FlareBlitz,CloseCombat||||||50|,,,,,Fire]Zamazenta-Crowned||RustedShield|DauntlessShield|BodyPress,HeavySlam,IronDefense,WideGuard||||||50|,,,,,Water]Flutter Mane||FocusSash|Protosynthesis|PerishSong,Protect,Moonblast,IcyWind||||||50|,,,,,Stellar]Gothitelle||SitrusBerry|ShadowTag|Taunt,Psychic,Protect,TrickRoom|||F|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,Protect,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Brute Bonnet||RockyHelmet|Protosynthesis|RagePowder,Spore,SuckerPunch,SeedBomb||||||50|,,,,,Fire
+|
+|t:|1750746685
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750746706
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2a: Flutter Mane|Perish Song|p2a: Flutter Mane
+|-start|p1a: Calyrex|perish3|[silent]
+|-start|p1b: Volcarona|perish3|[silent]
+|-start|p2a: Flutter Mane|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-start|p1a: Calyrex|perish3
+|-start|p2b: Gothitelle|perish3
+|-start|p1b: Volcarona|perish3
+|-start|p2a: Flutter Mane|perish3
+|upkeep
+|turn|2
+|
+|t:|1750746728
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p1a: Calyrex|Glacial Lance|p2a: Flutter Mane|[spread] p2b
+|-activate|p2a: Flutter Mane|move: Protect
+|-crit|p2b: Gothitelle
+|-damage|p2b: Gothitelle|25/100
+|move|p2b: Gothitelle|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|
+|-start|p1a: Calyrex|perish2
+|-start|p2b: Gothitelle|perish2
+|-start|p1b: Volcarona|perish2
+|-start|p2a: Flutter Mane|perish2
+|upkeep
+|turn|3
+|
+|t:|1750746750
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Gothitelle|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|move|p1b: Volcarona|Struggle Bug|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-resisted|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-start|p1a: Calyrex|perish1
+|-start|p2b: Gothitelle|perish1
+|-start|p1b: Volcarona|perish1
+|upkeep
+|
+|t:|1750746768
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750746779
+|move|p2b: Gothitelle|Protect||[still]
+|-fail|p2b: Gothitelle
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Gothitelle|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Volcarona|Overheat|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Calyrex|perish0
+|-start|p1b: Volcarona|perish0
+|faint|p1a: Calyrex
+|faint|p1b: Volcarona
+|upkeep
+|
+|t:|1750746797
+|switch|p1a: Spectrier|Spectrier, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|turn|5
+|inactive|fou jedi jedi has 30 seconds left.
+|
+|t:|1750746831
+|-terastallize|p2b: Zamazenta|Water
+|move|p2b: Zamazenta|Body Press|p1b: Palkia
+|-damage|p1b: Palkia|46/100
+|move|p2a: Koraidon|Close Combat|p1b: Palkia
+|-damage|p1b: Palkia|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Palkia
+|move|p1a: Spectrier|Psychic|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-ability|p1a: Spectrier|Grim Neigh|boost
+|-boost|p1a: Spectrier|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|c|☆TimBomb|I was slower?? :0
+|inactive|TimBomb has 30 seconds left.
+|
+|t:|1750746866
+|move|p1a: Spectrier|Shadow Ball|p2b: Zamazenta
+|-damage|p2b: Zamazenta|53/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Spectrier
+|-damage|p1a: Spectrier|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750746877
+|move|p1a: Spectrier|Shadow Ball|p2b: Zamazenta
+|-damage|p2b: Zamazenta|6/100
+|move|p2b: Zamazenta|Heavy Slam|p1a: Spectrier
+|-damage|p1a: Spectrier|0 fnt
+|faint|p1a: Spectrier
+|
+|win|fou jedi jedi
+|raw|TimBomb's rating: 1151 &rarr; <strong>1133</strong><br />(-18 for losing)
+|raw|fou jedi jedi's rating: 1258 &rarr; <strong>1276</strong><br />(+18 for winning)
+|l|☆fou jedi jedi
+|player|p2|
+|l|☆TimBomb
+|player|p1|

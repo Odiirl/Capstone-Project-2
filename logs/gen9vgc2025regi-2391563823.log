@@ -1,0 +1,137 @@
+|j|☆frmx
+|j|☆Gang-ho
+|t:|1750870539
+|gametype|doubles
+|player|p1|frmx|102|1453
+|player|p2|Gang-ho|red|1417
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750870572
+|start
+|switch|p1a: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Murkrow|Murkrow, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750870591
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Raichu|Fake Out|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Murkrow|Tailwind|p2b: Murkrow
+|-sidestart|p2: Gang-ho|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2b: Murkrow
+|-supereffective|p2b: Murkrow
+|-damage|p2b: Murkrow|0 fnt
+|faint|p2b: Murkrow
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gang-ho)
+|
+|t:|1750870609
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750870614
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|2
+|
+|t:|1750870635
+|switch|p1b: Iron Jugulis|Iron Jugulis, L50|100/100
+|-activate|p1b: Iron Jugulis|ability: Quark Drive
+|-start|p1b: Iron Jugulis|quarkdrivespe
+|move|p2a: Koraidon|Wild Charge|p1b: Iron Jugulis
+|-supereffective|p1b: Iron Jugulis
+|-damage|p1b: Iron Jugulis|0 fnt
+|faint|p1b: Iron Jugulis
+|-end|p1b: Iron Jugulis|Quark Drive|[silent]
+|-damage|p2a: Koraidon|76/100|[from] Recoil
+|-damage|p2a: Koraidon|66/100|[from] item: Life Orb
+|move|p1a: Raichu|Nuzzle|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|63/100
+|-status|p2a: Koraidon|par
+|move|p2b: Groudon|Precipice Blades|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750870653
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|inactive|Gang-ho has 30 seconds left.
+|inactive|Gang-ho has 20 seconds left.
+|inactive|Gang-ho has 15 seconds left.
+|
+|t:|1750870696
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Groudon|Precipice Blades|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|20/100
+|-damage|p1b: Kyogre|10/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Groudon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Groudon|26/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Koraidon|[spread] 
+|-activate|p2a: Koraidon|move: Protect
+|-miss|p1b: Kyogre|p2b: Groudon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Gang-ho has 30 seconds left.
+|inactive|Gang-ho has 20 seconds left.
+|inactive|Gang-ho has 15 seconds left.
+|
+|t:|1750870740
+|move|p2b: Groudon|Precipice Blades|p1a: Miraidon|[spread] p1a
+|-miss|p2b: Groudon|p1b: Kyogre
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|move|p2a: Koraidon|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Kyogre
+|-damage|p2a: Koraidon|53/100 par|[from] item: Life Orb
+|
+|win|Gang-ho
+|raw|frmx's rating: 1453 &rarr; <strong>1431</strong><br />(-22 for losing)
+|raw|Gang-ho's rating: 1417 &rarr; <strong>1439</strong><br />(+22 for winning)
+|l|☆Gang-ho
+|player|p2|
+|l|☆frmx
+|player|p1|

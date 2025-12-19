@@ -1,0 +1,125 @@
+|j|☆Tawn
+|j|☆IdkImScared
+|t:|1750800660
+|gametype|doubles
+|player|p1|Tawn|red|1209
+|player|p2|IdkImScared|workerice|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-Black, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|
+|t:|1750800735
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750800772
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Tawn|move: Tailwind
+|move|p1b: Calyrex|Astral Barrage|p2a: Tornadus|[spread] p2a,p2b
+|-damage|p2a: Tornadus|49/100
+|-damage|p2b: Kyogre|64/100
+|move|p2a: Tornadus|Hurricane|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p2b: Kyogre|Origin Pulse|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750800787
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1750800803
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: IdkImScared|move: Tailwind
+|move|p1b: Calyrex|Expanding Force|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2a: Tornadus
+|faint|p2b: Kyogre
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750800813
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|3
+|
+|t:|1750800830
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-hitcount|p1: Calyrex|1
+|move|p2a: Zacian|Behemoth Blade|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750800838
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspa
+|turn|4
+|
+|t:|1750800848
+|-terastallize|p2b: Urshifu|Water
+|move|p2b: Urshifu|Surging Strikes|p1b: Flutter Mane
+|-crit|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|46/100
+|-crit|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-hitcount|p1: Flutter Mane|2
+|
+|win|IdkImScared
+|raw|Tawn's rating: 1209 &rarr; <strong>1186</strong><br />(-23 for losing)
+|raw|IdkImScared's rating: 1236 &rarr; <strong>1259</strong><br />(+23 for winning)
+|l|☆Tawn
+|player|p1|
+|c|☆IdkImScared|gg

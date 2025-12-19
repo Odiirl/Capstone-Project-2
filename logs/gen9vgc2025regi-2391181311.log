@@ -1,0 +1,188 @@
+|j|☆UltraKingVGC
+|j|☆fabyanwet
+|t:|1750812912
+|gametype|doubles
+|player|p1|UltraKingVGC|hilbert|1155
+|player|p2|fabyanwet|red|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Pawmot, L50, M|
+|poke|p1|Hydrapple, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Kyurem-Black, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750812944
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Pawmot|Pawmot, L50, M, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Kyurem|Kyurem-Black, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p2b: Kyurem|Teravolt
+|turn|1
+|
+|t:|1750812979
+|-terastallize|p1a: Miraidon|Electric
+|-terastallize|p2a: Kyogre|Grass
+|move|p1b: Pawmot|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|87/100
+|move|p1a: Miraidon|Parabolic Charge|p2b: Kyurem|[spread] p2a,p2b
+|-immune|p1b: Pawmot|[from] ability: Volt Absorb
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Kyurem
+|-damage|p2a: Kyogre|65/100
+|-damage|p2b: Kyurem|69/100
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|move|p2b: Kyurem|Icicle Spear|p1a: Miraidon
+|-damage|p1a: Miraidon|76/100
+|-damage|p1a: Miraidon|63/100
+|-damage|p1a: Miraidon|48/100
+|-damage|p1a: Miraidon|35/100
+|-hitcount|p1a: Miraidon|4
+|cant|p2a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750813009
+|move|p1a: Miraidon|Parabolic Charge|p2a: Kyogre|[spread] p2a,p2b
+|-immune|p1b: Pawmot|[from] ability: Volt Absorb
+|-resisted|p2a: Kyogre
+|-resisted|p2b: Kyurem
+|-damage|p2a: Kyogre|42/100
+|-heal|p1a: Miraidon|46/100|[from] drain|[of] p2a: Kyogre
+|-damage|p2b: Kyurem|38/100
+|-heal|p1a: Miraidon|61/100|[from] drain|[of] p2b: Kyurem
+|-damage|p1a: Miraidon|52/100|[from] item: Life Orb
+|move|p1b: Pawmot|Close Combat|p2b: Kyurem
+|-supereffective|p2b: Kyurem
+|-damage|p2b: Kyurem|0 fnt
+|-unboost|p1b: Pawmot|def|1
+|-unboost|p1b: Pawmot|spd|1
+|faint|p2b: Kyurem
+|move|p2a: Kyogre|Origin Pulse|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-enditem|p1b: Pawmot|Focus Sash
+|-damage|p1b: Pawmot|1/100
+|faint|p1a: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750813033
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|turn|3
+|
+|t:|1750813053
+|move|p1a: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|31/100
+|move|p1b: Pawmot|Close Combat|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1b: Pawmot|def|1
+|-unboost|p1b: Pawmot|spd|1
+|faint|p2a: Kyogre
+|move|p2b: Archaludon|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750813066
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|turn|4
+|
+|t:|1750813080
+|move|p1b: Pawmot|Nuzzle|p2a: Urshifu
+|-damage|p2a: Urshifu|87/100
+|-status|p2a: Urshifu|par
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|cant|p2a: Urshifu|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750813091
+|switch|p1a: Hydrapple|Hydrapple, L50, F, shiny|100/100
+|-ability|p1a: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Urshifu|evasion|1
+|-unboost|p2b: Archaludon|evasion|1
+|turn|5
+|
+|t:|1750813115
+|cant|p2a: Urshifu|par
+|move|p1b: Pawmot|Nuzzle|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|96/100
+|-status|p2b: Archaludon|par
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|85/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Urshifu
+|-damage|p2a: Urshifu|28/100 par
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750813139
+|move|p2a: Urshifu|Sucker Punch|p1b: Pawmot
+|-resisted|p1b: Pawmot
+|-damage|p1b: Pawmot|0 fnt
+|faint|p1b: Pawmot
+|move|p2b: Archaludon|Body Press|p1a: Hydrapple
+|-damage|p1a: Hydrapple|60/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-heal|p1a: Hydrapple|72/100|[from] drain|[of] p2a: Urshifu
+|faint|p2a: Urshifu
+|
+|upkeep
+|turn|7
+|
+|t:|1750813153
+|move|p2b: Archaludon|Draco Meteor|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|-unboost|p2b: Archaludon|spa|2
+|faint|p1a: Hydrapple
+|
+|win|fabyanwet
+|raw|UltraKingVGC's rating: 1155 &rarr; <strong>1131</strong><br />(-24 for losing)
+|raw|fabyanwet's rating: 1168 &rarr; <strong>1192</strong><br />(+24 for winning)
+|l|☆fabyanwet
+|player|p2|
+|l|☆UltraKingVGC
+|player|p1|

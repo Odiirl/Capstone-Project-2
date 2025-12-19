@@ -1,0 +1,323 @@
+|j|☆aevil
+|j|☆CountrySole4043
+|t:|1750834771
+|gametype|doubles
+|player|p1|aevil|169|1052
+|player|p2|CountrySole4043|170|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Spiritomb, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Moltres-Galar, L50|
+|teampreview|4
+|
+|t:|1750834787
+|start
+|switch|p1a: Cresselia|Cresselia, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Spiritomb|Spiritomb, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Spiritomb|atk|1
+|turn|1
+|
+|t:|1750834813
+|move|p1a: Cresselia|Protect|p1a: Cresselia
+|-singleturn|p1a: Cresselia|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|91/100
+|cant|p2a: Kyogre|flinch
+|move|p2b: Spiritomb|Trick Room|p2b: Spiritomb
+|-fieldstart|move: Trick Room|[of] p2b: Spiritomb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyogre|97/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750834832
+|move|p2b: Spiritomb|Will-O-Wisp|p1b: Incineroar
+|-immune|p1b: Incineroar
+|move|p1b: Incineroar|Parting Shot|p2a: Kyogre
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2a: Kyogre|spa|1
+|
+|t:|1750834840
+|switch|p1b: Groudon|Groudon, L50, shiny|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2a: Kyogre|Water Spout|p1a: Cresselia|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Cresselia|87/100
+|-damage|p1b: Groudon|69/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyogre|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750834861
+|switch|p2a: Tsareena|Tsareena, L50, F|100/100
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Groudon|94/100
+|move|p1b: Groudon|Precipice Blades|p2a: Tsareena|[spread] p2a,p2b
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|74/100
+|-damage|p2b: Spiritomb|54/100
+|move|p2b: Spiritomb|Will-O-Wisp|p1b: Groudon
+|-status|p1b: Groudon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Groudon|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750834892
+|move|p2a: Tsareena|Triple Axel|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|78/100 brn
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|58/100 brn
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|28/100 brn
+|-hitcount|p1b: Groudon|3
+|move|p1a: Cresselia|Dazzling Gleam|p2a: Tsareena|[spread] p2a,p2b
+|-supereffective|p2b: Spiritomb
+|-enditem|p2b: Spiritomb|Roseli Berry|[eat]
+|-enditem|p2b: Spiritomb|Roseli Berry|[weaken]
+|-damage|p2a: Tsareena|58/100
+|-damage|p2b: Spiritomb|44/100
+|move|p1b: Groudon|Heat Crash|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|move|p2b: Spiritomb|Foul Play|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Groudon|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1750834910
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|5
+|
+|t:|1750834922
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Spiritomb|atk|1
+|move|p1a: Cresselia|Protect|p1a: Cresselia
+|-singleturn|p1a: Cresselia|Protect
+|move|p2a: Kyogre|Origin Pulse|p1a: Cresselia|[spread] p1b
+|-activate|p1a: Cresselia|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Spiritomb|Foul Play|p1a: Cresselia
+|-activate|p1a: Cresselia|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750834939
+|switch|p1b: Groudon|Groudon, L50, shiny|22/100 brn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|6
+|
+|t:|1750834947
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p2b: Spiritomb|Protect|p2b: Spiritomb
+|-singleturn|p2b: Spiritomb|Protect
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|99/100
+|-heal|p1b: Groudon|47/100 brn
+|-curestatus|p1b: Groudon|brn|[msg]
+|move|p1b: Groudon|Precipice Blades|p2a: Zamazenta|[spread] p2a
+|-activate|p2b: Spiritomb|move: Protect
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750834969
+|switch|p1b: Charizard|Charizard, L50, M, shiny|100/100
+|move|p2a: Zamazenta|Body Press|p1b: Charizard
+|-resisted|p1b: Charizard
+|-damage|p1b: Charizard|56/100
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Charizard|81/100
+|move|p2b: Spiritomb|Trick Room|p2b: Spiritomb
+|-fieldstart|move: Trick Room|[of] p2b: Spiritomb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|69/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|8
+|
+|t:|1750834996
+|-terastallize|p2a: Zamazenta|Water
+|move|p2b: Spiritomb|Foul Play|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|76/100
+|move|p1b: Charizard|Weather Ball|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|4/100
+|-damage|p1b: Charizard|59/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1b: Charizard
+|-resisted|p1b: Charizard
+|-damage|p1b: Charizard|16/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|4/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|9
+|
+|t:|1750835017
+|move|p2b: Spiritomb|Protect|p2b: Spiritomb
+|-singleturn|p2b: Spiritomb|Protect
+|move|p2a: Zamazenta|Body Press|p1b: Charizard
+|-resisted|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|move|p1a: Cresselia|Dazzling Gleam|p2b: Spiritomb|[spread] p2a
+|-activate|p2b: Spiritomb|move: Protect
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835030
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Groudon|Groudon, L50, shiny|47/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|10
+|
+|t:|1750835046
+|move|p2a: Kyogre|Origin Pulse|p1b: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Cresselia|60/100
+|-damage|p1b: Groudon|9/100
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|85/100
+|-heal|p1b: Groudon|34/100
+|move|p1b: Groudon|Precipice Blades|p2b: Spiritomb|[spread] p2b
+|-miss|p1b: Groudon|p2a: Kyogre
+|-damage|p2b: Spiritomb|0 fnt
+|faint|p2b: Spiritomb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750835063
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Kyogre|Origin Pulse|p1b: Groudon|[spread] 
+|-activate|p1b: Groudon|move: Protect
+|-miss|p2a: Kyogre|p1a: Cresselia
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Groudon|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1750835084
+|move|p2a: Kyogre|Water Spout|p1b: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Cresselia|82/100
+|-damage|p1b: Groudon|9/100
+|move|p1b: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|44/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyogre|50/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750835100
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|100/100
+|-heal|p1b: Groudon|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyogre|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1750835118
+|move|p1b: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|2/100
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Groudon|59/100
+|move|p2a: Kyogre|Origin Pulse|p1b: Groudon|[spread] 
+|-miss|p2a: Kyogre|p1a: Cresselia
+|-miss|p2a: Kyogre|p1b: Groudon
+|
+|-weather|none
+|-heal|p2a: Kyogre|8/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1750835135
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Groudon|Dragon Claw|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Groudon|84/100
+|
+|-heal|p2a: Kyogre|14/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1750835151
+|move|p1b: Groudon|Dragon Claw|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|aevil
+|raw|aevil's rating: 1052 &rarr; <strong>1087</strong><br />(+35 for winning)
+|raw|CountrySole4043's rating: 1081 &rarr; <strong>1057</strong><br />(-24 for losing)
+|l|☆CountrySole4043
+|player|p2|
+|l|☆aevil
+|player|p1|

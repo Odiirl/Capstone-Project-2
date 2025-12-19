@@ -1,0 +1,128 @@
+|j|☆flamesword6969
+|j|☆HelloPathfinder
+|t:|1750856952
+|gametype|doubles
+|player|p1|flamesword6969|101|1315
+|player|p2|HelloPathfinder|101|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HelloPathfinder)
+|
+|t:|1750856983
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Wo-Chien|Wo-Chien, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|turn|1
+|inactive|flamesword6969 has 30 seconds left.
+|
+|t:|1750857012
+|-terastallize|p1b: Miraidon|Fairy
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Farigiraf|Helping Hand|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Wo-Chien|[spread] p2a,p2b
+|-supereffective|p2b: Wo-Chien
+|-crit|p2b: Wo-Chien
+|-damage|p2a: Miraidon|23/100
+|-damage|p2b: Wo-Chien|0 fnt
+|faint|p2b: Wo-Chien
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|
+|upkeep
+|
+|t:|1750857031
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|2
+|
+|t:|1750857053
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Zacian|atk|1
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p2b: Zacian|Behemoth Blade|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|upkeep
+|
+|t:|1750857064
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|3
+|inactive|flamesword6969 has 30 seconds left.
+|
+|t:|1750857092
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Zacian
+|-activate|p2b: Zacian|move: Protect
+|move|p2a: Miraidon|Parabolic Charge|p1b: Iron Hands|[spread] p1a,p1b
+|-activate|p2b: Zacian|move: Protect
+|-resisted|p1b: Iron Hands
+|-damage|p1a: Incineroar|18/100
+|-heal|p2a: Miraidon|67/100|[from] drain|[of] p1a: Incineroar
+|-damage|p1b: Iron Hands|74/100
+|-heal|p2a: Miraidon|83/100|[from] drain|[of] p1b: Iron Hands
+|move|p1b: Iron Hands|Drain Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|33/100
+|-heal|p1b: Iron Hands|94/100|[from] drain|[of] p2a: Miraidon
+|
+|upkeep
+|turn|4
+|inactive|flamesword6969 has 30 seconds left.
+|
+|t:|1750857118
+|move|p2b: Zacian|Play Rough|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-crit|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Miraidon|Dragon Pulse|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|-message|flamesword6969 forfeited.
+|
+|win|HelloPathfinder
+|raw|flamesword6969's rating: 1315 &rarr; <strong>1301</strong><br />(-14 for losing)
+|raw|HelloPathfinder's rating: 1414 &rarr; <strong>1428</strong><br />(+14 for winning)
+|l|☆flamesword6969
+|player|p1|
+|l|☆HelloPathfinder
+|player|p2|

@@ -1,0 +1,175 @@
+|j|☆idkvgc21
+|j|☆Yugi wit da hoodie
+|t:|1750798009
+|gametype|doubles
+|player|p1|idkvgc21|ethan|1488
+|player|p2|Yugi wit da hoodie|1|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Eternatus, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750798051
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Eternatus|Pressure
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Eternatus|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750798094
+|-terastallize|p1a: Calyrex|Dark
+|move|p2b: Flutter Mane|Thunder Wave|p1a: Calyrex
+|-status|p1a: Calyrex|par
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100 par
+|move|p1a: Calyrex|Astral Barrage|p2a: Eternatus|[spread] p2a,p2b
+|-crit|p2a: Eternatus
+|-supereffective|p2b: Flutter Mane
+|-damage|p2a: Eternatus|4/100
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|32/100 par|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|-enditem|p2a: Eternatus|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Eternatus
+|
+|upkeep
+|
+|t:|1750798116
+|switch|p2b: Rayquaza|Rayquaza, L50|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Rayquaza|Air Lock
+|turn|2
+|
+|t:|1750798144
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2b: Rayquaza|Swords Dance|p2b: Rayquaza
+|-boost|p2b: Rayquaza|atk|2
+|move|p1b: Incineroar|Parting Shot|p2a: Chien-Pao
+|-unboost|p2a: Chien-Pao|atk|1
+|-unboost|p2a: Chien-Pao|spa|1
+|
+|t:|1750798150
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|
+|upkeep
+|
+|t:|1750798152
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|-unboost|p2b: Rayquaza|atk|1
+|turn|3
+|
+|t:|1750798174
+|move|p2a: Chien-Pao|Protect|p2a: Chien-Pao
+|-singleturn|p2a: Chien-Pao|Protect
+|move|p2b: Rayquaza|Protect|p2b: Rayquaza
+|-singleturn|p2b: Rayquaza|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Rayquaza
+|-activate|p2b: Rayquaza|move: Protect
+|move|p1b: Rillaboom|U-turn|p2a: Chien-Pao
+|-activate|p2a: Chien-Pao|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750798227
+|move|p2a: Chien-Pao|Icicle Crash|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|44/100
+|move|p2b: Rayquaza|Dragon Ascent|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Rayquaza|def|1
+|-unboost|p2b: Rayquaza|spd|1
+|-damage|p2b: Rayquaza|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|-damage|p2b: Rayquaza|74/100|[from] item: Life Orb
+|move|p1b: Rillaboom|U-turn|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|32/100
+|
+|t:|1750798231
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100|[from] U-turn
+|-enditem|p1b: Raging Bolt|Booster Energy
+|-activate|p1b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1b: Raging Bolt|protosynthesisspa
+|
+|-heal|p2a: Chien-Pao|38/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750798233
+|switch|p1a: Rillaboom|Rillaboom, L50, F|44/100
+|turn|5
+|
+|t:|1750798252
+|move|p2a: Chien-Pao|Protect|p2a: Chien-Pao
+|-singleturn|p2a: Chien-Pao|Protect
+|move|p2b: Rayquaza|Protect|p2b: Rayquaza
+|-singleturn|p2b: Rayquaza|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Rayquaza
+|-activate|p2b: Rayquaza|move: Protect
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|
+|-heal|p2a: Chien-Pao|44/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|50/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750798282
+|-terastallize|p2b: Rayquaza|Normal
+|move|p2b: Rayquaza|Extreme Speed|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|10/100
+|-damage|p2b: Rayquaza|65/100|[from] item: Life Orb
+|move|p1a: Rillaboom|Grassy Glide|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p1b: Raging Bolt|Dragon Pulse|p2b: Rayquaza
+|-damage|p2b: Rayquaza|0 fnt
+|faint|p2b: Rayquaza
+|
+|win|idkvgc21
+|raw|idkvgc21's rating: 1488 &rarr; <strong>1510</strong><br />(+22 for winning)
+|raw|Yugi wit da hoodie's rating: 1525 &rarr; <strong>1503</strong><br />(-22 for losing)
+|c|☆idkvgc21|gg
+|c|☆Yugi wit da hoodie|Gg
+|l|☆Yugi wit da hoodie
+|player|p2|
+|l|☆idkvgc21
+|player|p1|

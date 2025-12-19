@@ -1,0 +1,191 @@
+|j|☆lonoVGC
+|j|☆nwjns999
+|t:|1750826918
+|gametype|doubles
+|player|p1|lonoVGC|unknownf|1474
+|player|p2|nwjns999|backpackerf|1555
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Boulder, L50|
+|poke|p1|Kyogre, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ogerpon, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750826944
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750826995
+|move|p1b: Farigiraf|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: nwjns999|move: Light Screen
+|move|p2b: Miraidon|Volt Switch|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|t:|1750827003
+|switch|p2b: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827018
+|switch|p1a: Iron Boulder|Iron Boulder, L50|100/100
+|-activate|p1a: Iron Boulder|ability: Quark Drive
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|2
+|
+|t:|1750827046
+|-terastallize|p1a: Iron Boulder|Rock
+|move|p2a: Grimmsnarl|Thunder Wave||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Thunder Wave|[of] p2a: Grimmsnarl
+|move|p1a: Iron Boulder|Mighty Cleave|p2b: Lunala
+|-damage|p2b: Lunala|66/100
+|move|p2b: Lunala|Calm Mind|p2b: Lunala
+|-boost|p2b: Lunala|spa|1
+|-boost|p2b: Lunala|spd|1
+|move|p1b: Farigiraf|Foul Play|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lunala|18/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750827068
+|move|p2a: Grimmsnarl|Thunder Wave||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Thunder Wave|[of] p2a: Grimmsnarl
+|move|p1a: Iron Boulder|Mighty Cleave|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p1b: Farigiraf|Foul Play|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|94/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750827073
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-end|p1a: Iron Boulder|Quark Drive
+|turn|4
+|
+|t:|1750827093
+|move|p1b: Farigiraf|Helping Hand|p1a: Iron Boulder
+|-singleturn|p1a: Iron Boulder|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: nwjns999|Reflect
+|move|p1a: Iron Boulder|Mighty Cleave|p2b: Rillaboom
+|-damage|p2b: Rillaboom|33/100
+|move|p2b: Rillaboom|Wood Hammer|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|-damage|p2b: Rillaboom|6/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|12/100|[from] Grassy Terrain
+|-heal|p2a: Grimmsnarl|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827103
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750827112
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|31/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|39/100
+|-unboost|p1a: Miraidon|spa|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750827114
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750827141
+|-terastallize|p2b: Miraidon|Electric
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Miraidon|Snarl|p1a: Miraidon|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|69/100
+|-unboost|p1b: Farigiraf|spa|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Miraidon
+|-damage|p2b: Miraidon|87/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750827165
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Miraidon|Snarl|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Farigiraf
+|-damage|p1a: Miraidon|21/100
+|-damage|p1b: Farigiraf|37/100
+|-unboost|p1a: Miraidon|spa|1
+|-unboost|p1b: Farigiraf|spa|1
+|move|p1a: Miraidon|Draco Meteor|p2b: Miraidon
+|-damage|p2b: Miraidon|35/100
+|-unboost|p1a: Miraidon|spa|2
+|-damage|p1a: Miraidon|12/100|[from] item: Life Orb
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|turn|8
+|-message|lonoVGC forfeited.
+|
+|win|nwjns999
+|raw|lonoVGC's rating: 1474 &rarr; <strong>1459</strong><br />(-15 for losing)
+|raw|nwjns999's rating: 1555 &rarr; <strong>1570</strong><br />(+15 for winning)
+|l|☆nwjns999
+|player|p2|
+|l|☆lonoVGC
+|player|p1|

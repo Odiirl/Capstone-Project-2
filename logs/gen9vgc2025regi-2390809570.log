@@ -1,0 +1,302 @@
+|j|☆Zordor
+|j|☆WeWantBreathOfFire
+|t:|1750770783
+|gametype|doubles
+|player|p1|Zordor|pilot|1639
+|player|p2|WeWantBreathOfFire|pryce|1690
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Entei, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|
+|t:|1750770815
+|start
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Eternatus|Pressure
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|-unboost|p1b: Walking Wake|atk|1
+|-enditem|p1b: Walking Wake|Booster Energy
+|-activate|p1b: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1b: Walking Wake|protosynthesisspe
+|turn|1
+|
+|t:|1750770828
+|-terastallize|p2a: Eternatus|Dark
+|move|p2b: Incineroar|Fake Out|p1b: Walking Wake
+|-damage|p1b: Walking Wake|89/100
+|move|p1a: Thundurus|Thunder Wave|p2a: Eternatus
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Eternatus
+|cant|p1b: Walking Wake|flinch
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|76/100
+|
+|-heal|p2a: Eternatus|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750770839
+|move|p1b: Walking Wake|Hydro Steam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|28/100
+|move|p1a: Thundurus|Thunderbolt|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-heal|p2a: Eternatus|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750770847
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1750770861
+|move|p2b: Dragapult|Protect|p2b: Dragapult
+|-singleturn|p2b: Dragapult|Protect
+|move|p1b: Walking Wake|Draco Meteor|p2b: Dragapult
+|-activate|p2b: Dragapult|move: Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-heal|p2a: Eternatus|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750770879
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1a: Thundurus|Thunder Wave|p2b: Kyogre
+|-status|p2b: Kyogre|par
+|move|p1b: Walking Wake|Snarl|p2a: Eternatus|[spread] p2a,p2b
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|92/100
+|-damage|p2b: Kyogre|90/100 par
+|-unboost|p2a: Eternatus|spa|1
+|-unboost|p2b: Kyogre|spa|1
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750770903
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|move|p1a: Thundurus|Thunderbolt|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|37/100 par
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|cant|p2b: Kyogre|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750770925
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-damage|p2a: Eternatus|86/100
+|move|p1a: Thundurus|Thunderbolt|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750770928
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|turn|7
+|
+|t:|1750770944
+|move|p1b: Walking Wake|Protect|p1b: Walking Wake
+|-singleturn|p1b: Walking Wake|Protect
+|move|p2b: Dragapult|Protect|p2b: Dragapult
+|-singleturn|p2b: Dragapult|Protect
+|move|p1a: Thundurus|Electroweb|p2b: Dragapult|[spread] p2a
+|-activate|p2b: Dragapult|move: Protect
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750770955
+|move|p1b: Walking Wake|Draco Meteor|p2b: Dragapult
+|-supereffective|p2b: Dragapult
+|-damage|p2b: Dragapult|0 fnt
+|-unboost|p1b: Walking Wake|spa|2
+|faint|p2b: Dragapult
+|move|p1a: Thundurus|Electroweb|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-weather|none
+|-heal|p2a: Eternatus|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750770968
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Sludge Bomb|p1b: Walking Wake
+|-damage|p1b: Walking Wake|63/100
+|-status|p1b: Walking Wake|psn
+|
+|-heal|p2a: Eternatus|86/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|51/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1750770986
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-damage|p2a: Eternatus|78/100
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|53/100
+|
+|-heal|p2a: Eternatus|59/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|39/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1750771002
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|74/100
+|
+|-heal|p2a: Eternatus|65/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|27/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1750771009
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-fail|p2a: Eternatus|move: Substitute
+|
+|-heal|p2a: Eternatus|71/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|15/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1750771017
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-damage|p2a: Eternatus|65/100
+|move|p2a: Eternatus|Substitute|p2a: Eternatus
+|-start|p2a: Eternatus|Substitute
+|-damage|p2a: Eternatus|40/100
+|
+|-heal|p2a: Eternatus|46/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|3/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1750771026
+|move|p1b: Walking Wake|Hydro Steam|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p1a: Thundurus|Thunderbolt|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Substitute|[damage]
+|move|p2a: Eternatus|Sludge Bomb|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|14/100
+|
+|-heal|p2a: Eternatus|52/100|[from] item: Leftovers
+|-damage|p1b: Walking Wake|0 fnt|[from] psn
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1750771031
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|15
+|
+|t:|1750771038
+|move|p1b: Zacian|Sacred Sword|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-end|p2a: Eternatus|Substitute
+|move|p1a: Thundurus|Electroweb|p2a: Eternatus
+|-damage|p2a: Eternatus|47/100
+|-unboost|p2a: Eternatus|spe|1
+|move|p2a: Eternatus|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-heal|p2a: Eternatus|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750771045
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|16
+|
+|t:|1750771049
+|move|p1b: Zacian|Sacred Sword|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|
+|win|Zordor
+|raw|Zordor's rating: 1639 &rarr; <strong>1662</strong><br />(+23 for winning)
+|raw|WeWantBreathOfFire's rating: 1690 &rarr; <strong>1667</strong><br />(-23 for losing)
+|l|☆WeWantBreathOfFire
+|player|p2|
+|l|☆Zordor
+|player|p1|

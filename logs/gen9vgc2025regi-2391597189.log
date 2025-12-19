@@ -1,0 +1,183 @@
+|j|☆CarlinhosDoador
+|j|☆dawdawdadad
+|t:|1750874126
+|gametype|doubles
+|player|p1|CarlinhosDoador|169|1309
+|player|p2|dawdawdadad|norman|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Clodsire, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CarlinhosDoador)
+|
+|t:|1750874154
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Clodsire|Clodsire, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750874176
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Roaring Moon|Tailwind|p1a: Roaring Moon
+|-sidestart|p1: CarlinhosDoador|move: Tailwind
+|move|p2a: Clodsire|Yawn|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|CarlinhosDoador has 30 seconds left.
+|
+|t:|1750874203
+|move|p1a: Roaring Moon|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|44/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Roaring Moon
+|move|p1b: Zacian|Play Rough|p2b: Zamazenta
+|-damage|p2b: Zamazenta|65/100
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|move|p2a: Clodsire|Yawn|p1b: Zacian
+|-start|p1b: Zacian|move: Yawn|[of] p2a: Clodsire
+|
+|upkeep
+|turn|3
+|
+|t:|1750874220
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Roaring Moon|Acrobatics|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|upkeep
+|turn|4
+|inactive|dawdawdadad has 30 seconds left.
+|
+|t:|1750874248
+|move|p1a: Roaring Moon|Protect|p1a: Roaring Moon
+|-singleturn|p1a: Roaring Moon|Protect
+|move|p2b: Zamazenta|Body Press|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|61/100
+|-damage|p2b: Zamazenta|48/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p1b: Amoonguss|Spore|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Spore
+|move|p2a: Clodsire|Yawn|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Yawn|[of] p2a: Clodsire
+|
+|-sideend|p1: CarlinhosDoador|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750874268
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|cant|p2b: Zamazenta|slp
+|move|p1a: Roaring Moon|Acrobatics|p2a: Clodsire
+|-damage|p2a: Clodsire|1/100
+|move|p2a: Clodsire|Toxic|p1a: Roaring Moon
+|-status|p1a: Roaring Moon|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1750874283
+|cant|p2b: Zamazenta|slp
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Roaring Moon|Tailwind|p1a: Roaring Moon
+|-sidestart|p1: CarlinhosDoador|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2a: Clodsire|[spread] p2b
+|-activate|p2a: Clodsire|move: Protect
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|83/100 tox|[from] psn
+|upkeep
+|
+|t:|1750874297
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|7
+|
+|t:|1750874311
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: dawdawdadad|move: Tailwind
+|move|p1a: Roaring Moon|Acrobatics|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|37/100
+|move|p1b: Kyogre|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|65/100 tox|[from] psn
+|upkeep
+|
+|t:|1750874321
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750874338
+|-terastallize|p2a: Calyrex|Normal
+|move|p2b: Whimsicott|Fake Tears|p1b: Kyogre
+|-unboost|p1b: Kyogre|spd|2
+|move|p1a: Roaring Moon|Knock Off|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|-enditem|p2a: Calyrex|Focus Sash|[from] move: Knock Off|[of] p1a: Roaring Moon
+|move|p2a: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Roaring Moon
+|-crit|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|25/100 tox
+|-damage|p1b: Kyogre|25/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Calyrex|[spread] p2a
+|-miss|p1b: Kyogre|p2b: Whimsicott
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|2/100 tox|[from] psn
+|upkeep
+|turn|9
+|-message|dawdawdadad forfeited.
+|
+|win|CarlinhosDoador
+|raw|CarlinhosDoador's rating: 1309 &rarr; <strong>1332</strong><br />(+23 for winning)
+|raw|dawdawdadad's rating: 1360 &rarr; <strong>1337</strong><br />(-23 for losing)
+|l|☆CarlinhosDoador
+|player|p1|

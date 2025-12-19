@@ -1,0 +1,218 @@
+|j|☆ampersandwich
+|j|☆TimBomb
+|t:|1750712554
+|gametype|doubles
+|player|p1|ampersandwich|rocketgruntf|1153
+|player|p2|TimBomb|palmer|1171
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Spectrier, L50|
+|poke|p2|Glastrier, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Palkia-Origin, L50|
+|teampreview|4
+|
+|t:|1750712601
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Palkia|Palkia-Origin, L50|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2a: Palkia|Pressure
+|turn|1
+|
+|t:|1750712619
+|move|p2a: Palkia|Protect|p2a: Palkia
+|-singleturn|p2a: Palkia|Protect
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Volcarona
+|-status|p2b: Volcarona|par
+|move|p1a: Miraidon|Electro Drift|p2a: Palkia
+|-activate|p2a: Palkia|move: Protect
+|cant|p2b: Volcarona|par
+|
+|upkeep
+|turn|2
+|c|☆TimBomb|:0
+|
+|t:|1750712646
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Volcarona
+|-fail|p2b: Volcarona|par
+|move|p1a: Miraidon|Electro Drift|p2b: Volcarona
+|-damage|p2b: Volcarona|11/100 par
+|move|p2a: Palkia|Spacial Rend|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750712658
+|switch|p1a: Lunala|Lunala, L50|100/100
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750712678
+|-terastallize|p1a: Lunala|Fairy
+|move|p2a: Palkia|Protect|p2a: Palkia
+|-singleturn|p2a: Palkia|Protect
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: ampersandwich|move: Light Screen
+|move|p1a: Lunala|Moonblast|p2a: Palkia
+|-activate|p2a: Palkia|move: Protect
+|move|p2b: Volcarona|Struggle Bug|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|98/100
+|-damage|p1b: Grimmsnarl|90/100
+|-unboost|p1a: Lunala|spa|1
+|-unboost|p1b: Grimmsnarl|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750712733
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Lunala|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|75/100
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-status|p1b: Grimmsnarl|brn|[from] ability: Flame Body|[of] p2b: Volcarona
+|faint|p2b: Volcarona
+|
+|-damage|p1b: Grimmsnarl|84/100 brn|[from] brn
+|upkeep
+|
+|t:|1750712748
+|switch|p2b: Spectrier|Spectrier, L50|100/100
+|turn|5
+|
+|t:|1750712774
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: ampersandwich|Reflect
+|move|p2b: Spectrier|Shadow Ball|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|45/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Spectrier
+|-supereffective|p2b: Spectrier
+|-damage|p2b: Spectrier|7/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Lunala|25/100
+|-damage|p1b: Grimmsnarl|41/100 brn
+|
+|-damage|p1b: Grimmsnarl|35/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750712795
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2b: Spectrier|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|4/100
+|move|p1a: Lunala|Moonblast|p2b: Spectrier
+|-damage|p2b: Spectrier|0 fnt
+|faint|p2b: Spectrier
+|cant|p2a: Calyrex|par
+|
+|-damage|p1b: Grimmsnarl|29/100 brn|[from] brn
+|upkeep
+|c|☆TimBomb|Wowee
+|
+|t:|1750712811
+|switch|p2b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p2b: Palkia|Pressure
+|turn|7
+|
+|t:|1750712820
+|-terastallize|p2b: Palkia|Water
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Palkia
+|-status|p2b: Palkia|par
+|move|p1a: Lunala|Moonblast|p2b: Palkia
+|-damage|p2b: Palkia|64/100 par
+|cant|p2b: Palkia|par
+|
+|-damage|p1b: Grimmsnarl|23/100 brn|[from] brn
+|upkeep
+|turn|8
+|c|☆TimBomb|Aw cmon
+|
+|t:|1750712838
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|18/100 par
+|cant|p2b: Palkia|par
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Palkia
+|-damage|p2b: Palkia|47/100 par
+|-unboost|p2b: Palkia|spa|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Lunala
+|faint|p1b: Grimmsnarl
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|upkeep
+|c|☆TimBomb|That's insane
+|
+|t:|1750712855
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|9
+|
+|t:|1750712861
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Water
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Palkia|Spacial Rend|p1b: Ogerpon
+|-damage|p1b: Ogerpon|67/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750712869
+|move|p2b: Palkia|Protect|p2b: Palkia
+|-singleturn|p2b: Palkia|Protect
+|move|p1b: Ogerpon|Wood Hammer|p2b: Palkia
+|-activate|p2b: Palkia|move: Protect
+|
+|-sideend|p1: ampersandwich|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1750712878
+|move|p1b: Ogerpon|Wood Hammer|p2b: Palkia
+|-supereffective|p2b: Palkia
+|-damage|p2b: Palkia|0 fnt
+|faint|p2b: Palkia
+|-damage|p1b: Ogerpon|53/100|[from] Recoil
+|
+|win|ampersandwich
+|raw|ampersandwich's rating: 1153 &rarr; <strong>1179</strong><br />(+26 for winning)
+|raw|TimBomb's rating: 1171 &rarr; <strong>1145</strong><br />(-26 for losing)
+|c|☆TimBomb|gg
+|l|☆TimBomb
+|player|p2|
+|l|☆ampersandwich
+|player|p1|

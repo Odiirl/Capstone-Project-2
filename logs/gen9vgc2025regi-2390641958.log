@@ -1,0 +1,125 @@
+|j|☆PHWGOOD
+|j|☆azefsgrxdchfjv
+|t:|1750741067
+|gametype|doubles
+|player|p1|PHWGOOD|1|1162
+|player|p2|azefsgrxdchfjv|102|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Garganacl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by azefsgrxdchfjv)
+|
+|t:|1750741092
+|start
+|switch|p1a: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750741109
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Snarl|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Ogerpon|84/100
+|-unboost|p2a: Ogerpon|spa|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Calyrex|[anim] Ivy Cudgel Fire
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|7/100
+|move|p1a: Toedscruel|Spore|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750741131
+|-terastallize|p2b: Calyrex|Dark
+|move|p2a: Ogerpon|Follow Me|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Follow Me
+|move|p1b: Calyrex|Snarl|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Ogerpon|68/100
+|-damage|p2b: Calyrex|92/100
+|-unboost|p2a: Ogerpon|spa|1
+|move|p2b: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Toedscruel|59/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: Toedscruel|Acid Spray|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|50/100
+|-unboost|p2a: Ogerpon|spd|2
+|
+|upkeep
+|
+|t:|1750741150
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1b: Miraidon|Electric Seed
+|-boost|p1b: Miraidon|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750741160
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Toedscruel|Acid Spray|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Miraidon|Parabolic Charge|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-immune|p1a: Toedscruel
+|-damage|p2a: Indeedee|83/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750741180
+|move|p2a: Indeedee|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Calyrex|Expanding Force|p1a: Toedscruel|[spread] p1a,p1b
+|-crit|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Toedscruel
+|faint|p1b: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|
+|upkeep
+|-message|PHWGOOD forfeited.
+|
+|win|azefsgrxdchfjv
+|raw|PHWGOOD's rating: 1162 &rarr; <strong>1134</strong><br />(-28 for losing)
+|raw|azefsgrxdchfjv's rating: 1121 &rarr; <strong>1149</strong><br />(+28 for winning)
+|l|☆PHWGOOD
+|player|p1|

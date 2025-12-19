@@ -1,0 +1,191 @@
+|j|☆gumondabus
+|j|☆Ssquilburt
+|t:|1750754651
+|gametype|doubles
+|player|p1|gumondabus|101|1135
+|player|p2|Ssquilburt|102|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ssquilburt)
+|
+|t:|1750754677
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Brute Bonnet|atk|1
+|-unboost|p1b: Flutter Mane|atk|1
+|turn|1
+|
+|t:|1750754697
+|-terastallize|p2a: Calyrex|Steel
+|move|p2b: Incineroar|Fake Out|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|88/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1a: Brute Bonnet
+|-supereffective|p1b: Flutter Mane
+|-damage|p1a: Brute Bonnet|60/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Flutter Mane|Icy Wind|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|84/100
+|-damage|p2b: Incineroar|94/100
+|-unboost|p2a: Calyrex|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|move|p1a: Brute Bonnet|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|inactive|gumondabus has 30 seconds left.
+|inactive|gumondabus has 20 seconds left.
+|
+|t:|1750754737
+|move|p1b: Flutter Mane|Icy Wind|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|77/100 slp
+|-damage|p2b: Incineroar|88/100
+|-unboost|p2a: Calyrex|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|cant|p2a: Calyrex|slp
+|move|p1a: Brute Bonnet|Spore|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Spore
+|cant|p2b: Incineroar|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750754749
+|move|p1b: Flutter Mane|Moonblast|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|51/100 slp
+|cant|p2a: Calyrex|slp
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|35/100 slp
+|cant|p2b: Incineroar|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1750754766
+|move|p1b: Flutter Mane|Moonblast|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|11/100 slp
+|-unboost|p2a: Calyrex|spa|1
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Astral Barrage|p1a: Brute Bonnet|[spread] p1a,p1b
+|-resisted|p1a: Brute Bonnet
+|-supereffective|p1b: Flutter Mane
+|-damage|p1a: Brute Bonnet|42/100
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|1/100|[from] item: Life Orb
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|cant|p2b: Incineroar|slp
+|
+|upkeep
+|
+|t:|1750754788
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|5
+|
+|t:|1750754803
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Koraidon|Flame Charge|p2a: Indeedee
+|-damage|p2a: Indeedee|45/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Brute Bonnet|Seed Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-curestatus|p2b: Incineroar|slp|[msg]
+|move|p2b: Incineroar|Flare Blitz|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p2b: Incineroar|73/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750754818
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|6
+|
+|t:|1750754833
+|-terastallize|p1a: Lunala|Water
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Urshifu|Surging Strikes|p1a: Lunala
+|-resisted|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|98/100
+|-resisted|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|92/100
+|-resisted|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|87/100
+|-hitcount|p1a: Lunala|3
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|Ssquilburt forfeited.
+|
+|win|gumondabus
+|raw|gumondabus's rating: 1135 &rarr; <strong>1155</strong><br />(+20 for winning)
+|raw|Ssquilburt's rating: 1070 &rarr; <strong>1053</strong><br />(-17 for losing)
+|l|☆Ssquilburt
+|player|p2|

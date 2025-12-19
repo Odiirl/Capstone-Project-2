@@ -1,0 +1,211 @@
+|j|☆rebirthruby
+|j|☆004B
+|t:|1750740212
+|gametype|doubles
+|player|p1|rebirthruby|102|1537
+|player|p2|004B|ghetsis|1654
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Conkeldurr, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 004B)
+|inactive|rebirthruby has 60 seconds left.
+|
+|t:|1750740273
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Zekrom-|Miraidon, L50|100/100
+|switch|p2b: Deerling-|Farigiraf, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|-enditem|p2b: Deerling-|Electric Seed
+|-boost|p2b: Deerling-|def|1|[from] item: Electric Seed
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|inactive|rebirthruby has 30 seconds left.
+|inactive|004B has 30 seconds left.
+|
+|t:|1750740306
+|-terastallize|p2a: Zekrom-|Electric
+|move|p2b: Deerling-|Helping Hand|p2a: Zekrom-
+|-singleturn|p2a: Zekrom-|Helping Hand|[of] p2b: Deerling-
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2a: Zekrom-|Electro Drift|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p1a: Miraidon|Draco Meteor|p2a: Zekrom-
+|-damage|p2a: Zekrom-|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Zekrom-
+|
+|upkeep
+|
+|t:|1750740322
+|switch|p2a: Y.M.C.A|Conkeldurr, L50, M|100/100
+|turn|2
+|
+|t:|1750740342
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2a: Y.M.C.A|Low Kick|p1a: Iron Hands
+|-damage|p1a: Iron Hands|53/100
+|move|p2b: Deerling-|Trick Room|p2b: Deerling-
+|-fieldstart|move: Trick Room|[of] p2b: Deerling-
+|
+|-status|p2a: Y.M.C.A|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|004B has 30 seconds left.
+|
+|t:|1750740372
+|move|p2b: Deerling-|Helping Hand|p2a: Y.M.C.A
+|-singleturn|p2a: Y.M.C.A|Helping Hand|[of] p2b: Deerling-
+|move|p2a: Y.M.C.A|Low Kick|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|move|p1b: Volcarona|Flamethrower|p2a: Y.M.C.A
+|-damage|p2a: Y.M.C.A|25/100 brn
+|
+|-damage|p2a: Y.M.C.A|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1750740393
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750740416
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Y.M.C.A|Knock Off|p1b: Volcarona
+|-damage|p1b: Volcarona|30/100
+|-enditem|p1b: Volcarona|Leftovers|[from] move: Knock Off|[of] p2a: Y.M.C.A
+|move|p1b: Volcarona|Flamethrower|p2a: Y.M.C.A
+|-damage|p2a: Y.M.C.A|0 fnt
+|faint|p2a: Y.M.C.A
+|move|p2b: Deerling-|Roar|p1a: Zamazenta
+|drag|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|
+|upkeep
+|
+|t:|1750740428
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|inactive|rebirthruby has 30 seconds left.
+|
+|t:|1750740459
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Calyrex|Glacial Lance|p1b: Volcarona|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Miraidon|39/100
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|8/100
+|move|p2b: Deerling-|Roar|p1a: Miraidon
+|drag|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|j| MARGARETVGC
+|
+|t:|1750740475
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|39/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|inactive|rebirthruby has 30 seconds left.
+|inactive|004B has 30 seconds left.
+|
+|t:|1750740506
+|move|p2a: Calyrex|High Horsepower|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Deerling-|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|93/100
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|inactive|004B has 30 seconds left.
+|
+|t:|1750740531
+|move|p1a: Zamazenta|Body Press|p2b: Deerling-
+|-damage|p2b: Deerling-|71/100
+|move|p2b: Deerling-|Trick Room|p2b: Deerling-
+|-fieldstart|move: Trick Room|[of] p2b: Deerling-
+|
+|upkeep
+|turn|8
+|
+|t:|1750740537
+|move|p2b: Deerling-|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|87/100
+|move|p1a: Zamazenta|Heavy Slam|p2b: Deerling-
+|-damage|p2b: Deerling-|48/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750740547
+|move|p2b: Deerling-|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|79/100
+|move|p1a: Zamazenta|Body Press|p2b: Deerling-
+|-damage|p2b: Deerling-|19/100
+|
+|upkeep
+|turn|10
+|c|☆rebirthruby|gg
+|
+|t:|1750740560
+|move|p2b: Deerling-|Foul Play|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|72/100
+|move|p1a: Zamazenta|Body Press|p2b: Deerling-
+|-damage|p2b: Deerling-|0 fnt
+|faint|p2b: Deerling-
+|
+|win|rebirthruby
+|raw|rebirthruby's rating: 1537 &rarr; <strong>1563</strong><br />(+26 for winning)
+|raw|004B's rating: 1654 &rarr; <strong>1628</strong><br />(-26 for losing)
+|l|☆004B
+|player|p2|
+|l|☆rebirthruby
+|player|p1|
+|l| MARGARETVGC

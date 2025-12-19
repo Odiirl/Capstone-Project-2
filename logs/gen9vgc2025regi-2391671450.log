@@ -1,0 +1,209 @@
+|j|☆locomain
+|j|☆LaMuccaDiMosca
+|t:|1750882101
+|gametype|doubles
+|player|p1|locomain|265|1124
+|player|p2|LaMuccaDiMosca|cynthia|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Lugia, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Raikou, L50|
+|poke|p2|Entei, L50|
+|poke|p2|Suicune, L50|
+|poke|p2|Meganium, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by locomain)
+|
+|t:|1750882149
+|start
+|switch|p1a: Raichu|Raichu-Alola, L50, M, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Entei|Entei, L50|100/100
+|switch|p2b: Raikou|Raikou, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750882174
+|move|p2b: Raikou|Protect|p2b: Raikou
+|-singleturn|p2b: Raikou|Protect
+|move|p1a: Raichu|Fake Out|p2b: Raikou
+|-activate|p2b: Raikou|move: Protect
+|move|p1b: Miraidon|Electro Drift|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+|
+|t:|1750882182
+|switch|p2a: Meganium|Meganium, L50, M|100/100
+|turn|2
+|
+|t:|1750882206
+|switch|p1b: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Meganium
+|-resisted|p2a: Meganium
+|-damage|p2a: Meganium|88/100
+|
+|t:|1750882210
+|switch|p1a: Cresselia|Cresselia, L50, F, shiny|100/100|[from] Volt Switch
+|move|p2b: Raikou|Snarl|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|79/100
+|-damage|p1b: Ursaluna|84/100
+|-unboost|p1a: Cresselia|spa|1
+|-unboost|p1b: Ursaluna|spa|1
+|-damage|p2b: Raikou|91/100|[from] item: Life Orb
+|move|p2a: Meganium|Giga Drain|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|36/100
+|-heal|p2a: Meganium|100/100|[from] drain|[of] p1b: Ursaluna
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|LaMuccaDiMosca has 30 seconds left.
+|inactive|LaMuccaDiMosca has 20 seconds left.
+|
+|t:|1750882248
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Raikou|Snarl|p1a: Cresselia|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|57/100
+|-unboost|p1a: Cresselia|spa|1
+|-damage|p2b: Raikou|81/100|[from] item: Life Orb
+|move|p2a: Meganium|Giga Drain|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1b: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|locomain has 30 seconds left.
+|inactive|locomain has 20 seconds left.
+|inactive|locomain has 15 seconds left.
+|
+|t:|1750882292
+|-terastallize|p1b: Ursaluna|Ghost
+|-terastallize|p2b: Raikou|Grass
+|move|p1b: Ursaluna|Facade|p2a: Meganium
+|-damage|p2a: Meganium|0 fnt
+|faint|p2a: Meganium
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Cresselia|82/100
+|-heal|p1b: Ursaluna|55/100 brn
+|-curestatus|p1b: Ursaluna|brn|[msg]
+|move|p2b: Raikou|Scald|p1b: Ursaluna
+|-damage|p1b: Ursaluna|26/100
+|-status|p1b: Ursaluna|brn
+|-damage|p2b: Raikou|72/100|[from] item: Life Orb
+|
+|-damage|p1b: Ursaluna|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1750882301
+|switch|p2a: Suicune|Suicune, L50|100/100
+|turn|5
+|
+|t:|1750882324
+|move|p1a: Cresselia|Ally Switch|p1a: Cresselia
+|swap|p1a: Cresselia|1|[from] move: Ally Switch
+|move|p1a: Ursaluna|Earthquake|p2a: Suicune|[spread] p2a,p2b
+|-immune|p1b: Cresselia|[from] ability: Levitate
+|-resisted|p2b: Raikou
+|-damage|p2a: Suicune|50/100
+|-damage|p2b: Raikou|28/100
+|-enditem|p2a: Suicune|Sitrus Berry|[eat]
+|-heal|p2a: Suicune|74/100|[from] item: Sitrus Berry
+|move|p2a: Suicune|Scald|p1b: Cresselia
+|-damage|p1b: Cresselia|65/100
+|move|p2b: Raikou|Snarl|p1b: Cresselia|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-supereffective|p1b: Cresselia
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Cresselia|44/100
+|-unboost|p1b: Cresselia|spa|1
+|faint|p1a: Ursaluna
+|-damage|p2b: Raikou|19/100|[from] item: Life Orb
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|locomain has 30 seconds left.
+|
+|t:|1750882349
+|switch|p1a: Raichu|Raichu-Alola, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750882372
+|move|p1a: Raichu|Fake Out|p2a: Suicune
+|-damage|p2a: Suicune|69/100
+|move|p1b: Cresselia|Lunar Blessing|p1b: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Cresselia|69/100
+|move|p2a: Suicune|Scald|p1a: Raichu
+|-damage|p1a: Raichu|60/100
+|move|p2b: Raikou|Snarl|p1a: Raichu|[spread] p1a,p1b
+|-supereffective|p1a: Raichu
+|-supereffective|p1b: Cresselia
+|-damage|p1a: Raichu|8/100
+|-damage|p1b: Cresselia|47/100
+|-unboost|p1a: Raichu|spa|1
+|-unboost|p1b: Cresselia|spa|1
+|-damage|p2b: Raikou|9/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1750882394
+|move|p2b: Raikou|Protect|p2b: Raikou
+|-singleturn|p2b: Raikou|Protect
+|move|p1b: Cresselia|Moonblast|p2b: Raikou
+|-activate|p2b: Raikou|move: Protect
+|move|p2a: Suicune|Icy Wind|p1a: Raichu|[spread] p1a,p1b
+|-crit|p1b: Cresselia
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Cresselia|37/100
+|-unboost|p1b: Cresselia|spe|1
+|faint|p1a: Raichu
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750882398
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|8
+|
+|t:|1750882414
+|move|p2a: Suicune|Protect|p2a: Suicune
+|-singleturn|p2a: Suicune|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Raikou|[spread] p2b
+|-activate|p2a: Suicune|move: Protect
+|-damage|p2b: Raikou|0 fnt
+|faint|p2b: Raikou
+|move|p1b: Cresselia|Lunar Blessing|p1b: Cresselia|[spread] p1a,p1b
+|-heal|p1b: Cresselia|62/100
+|
+|upkeep
+|turn|9
+|-message|LaMuccaDiMosca forfeited.
+|
+|win|locomain
+|raw|locomain's rating: 1124 &rarr; <strong>1152</strong><br />(+28 for winning)
+|raw|LaMuccaDiMosca's rating: 1164 &rarr; <strong>1136</strong><br />(-28 for losing)
+|l|☆LaMuccaDiMosca
+|player|p2|

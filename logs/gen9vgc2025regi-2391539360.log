@@ -1,0 +1,188 @@
+|j|☆JosephLee666
+|j|☆Gly17
+|t:|1750867882
+|gametype|doubles
+|player|p1|JosephLee666|liko|
+|player|p2|Gly17|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Gengar, L50, M|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Vikavolt, L50, M|
+|poke|p1|Illumise, L50, F|
+|poke|p1|Mamoswine, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ninetales, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|teampreview|4
+|
+|t:|1750867928
+|start
+|switch|p1a: Mamoswine|Mamoswine, L50, M, shiny|100/100
+|switch|p1b: Gengar|Gengar, L50, M, shiny|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1750867944
+|move|p1a: Mamoswine|Trick|p2a: Porygon2
+|-activate|p1a: Mamoswine|move: Trick|[of] p2a: Porygon2
+|-item|p2a: Porygon2|Choice Scarf|[from] move: Trick
+|-item|p1a: Mamoswine|Eviolite|[from] move: Trick
+|move|p2b: Jumpluff|Sleep Powder|p1a: Mamoswine
+|-status|p1a: Mamoswine|slp|[from] move: Sleep Powder
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|move|p1b: Gengar|Trick Room|p1b: Gengar
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|c|☆JosephLee666|？
+|
+|t:|1750867962
+|switch|p2a: Ninetales|Ninetales, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p2b: Jumpluff|Sleep Powder|p1b: Gengar
+|-status|p1b: Gengar|slp|[from] move: Sleep Powder
+|cant|p1a: Mamoswine|slp
+|cant|p1b: Gengar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750867984
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|move|p2a: Ninetales|Heat Wave|p1a: Mamoswine|[spread] p1a,p1b
+|-crit|p1b: Gengar
+|-damage|p1a: Mamoswine|31/100 slp
+|-damage|p1b: Gengar|19/100 slp
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, F, shiny
+|-end|p1a: Zoroark|Illusion
+|-start|p2a: Ninetales|Disable|Heat Wave|[from] ability: Cursed Body|[of] p1b: Gengar
+|-curestatus|p1a: Zoroark|slp|[msg]
+|move|p1a: Zoroark|Hyper Voice|p2b: Charizard|[spread] p2a,p2b
+|-damage|p2a: Ninetales|60/100
+|-damage|p2b: Charizard|51/100
+|-curestatus|p1b: Gengar|slp|[msg]
+|move|p1b: Gengar|Trick Room|p1b: Gengar
+|-fieldstart|move: Trick Room|[of] p1b: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|39/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|4
+|j| daming20009
+|
+|t:|1750868007
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1b: Gengar|Destiny Bond|p1b: Gengar
+|-singlemove|p1b: Gengar|Destiny Bond
+|move|p1a: Zoroark|Hyper Voice|p2a: Ninetales|[spread] p2b
+|-activate|p2a: Ninetales|move: Protect
+|-damage|p2b: Porygon2|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|l| daming20009
+|
+|t:|1750868045
+|move|p1b: Gengar|Sludge Bomb|p2b: Porygon2
+|-damage|p2b: Porygon2|32/100
+|move|p2b: Porygon2|Ice Beam|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|-start|p2b: Porygon2|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1b: Gengar
+|faint|p1b: Gengar
+|move|p1a: Zoroark|Hyper Voice|p2a: Ninetales|[spread] p2a,p2b
+|-damage|p2a: Ninetales|24/100
+|-damage|p2b: Porygon2|1/100
+|move|p2a: Ninetales|Overheat|p1a: Zoroark|[miss]
+|-miss|p2a: Ninetales|p1a: Zoroark
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| daming20009
+|
+|t:|1750868059
+|switch|p1b: Mamoswine|Mamoswine, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750868068
+|switch|p2b: Jumpluff|Jumpluff, L50, F|100/100
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1b: Mamoswine|Ice Shard|p2b: Jumpluff
+|-supereffective|p2b: Jumpluff
+|-damage|p2b: Jumpluff|0 fnt
+|faint|p2b: Jumpluff
+|move|p1a: Zoroark|Hyper Voice|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|
+|-weather|none
+|-end|p2a: Ninetales|Disable
+|upkeep
+|
+|t:|1750868083
+|switch|p2b: Porygon2|Porygon2, L50|1/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|7
+|
+|t:|1750868096
+|move|p1b: Mamoswine|Earthquake|p2b: Porygon2|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Ninetales
+|-damage|p1a: Zoroark|0 fnt
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Porygon2|0 fnt
+|faint|p1a: Zoroark
+|faint|p2a: Ninetales
+|faint|p2b: Porygon2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750868106
+|switch|p1a: Vikavolt|Vikavolt, L50, M, shiny|100/100
+|switch|p2b: Charizard|Charizard, L50, F|39/100
+|turn|8
+|
+|t:|1750868122
+|-terastallize|p2b: Charizard|Ghost
+|-terastallize|p1a: Vikavolt|Rock
+|move|p1b: Mamoswine|Ice Shard|p2b: Charizard
+|-damage|p2b: Charizard|6/100
+|move|p2b: Charizard|Heat Wave|p1b: Mamoswine|[spread] p1a,p1b
+|-resisted|p1a: Vikavolt
+|-supereffective|p1b: Mamoswine
+|-damage|p1a: Vikavolt|70/100
+|-damage|p1b: Mamoswine|29/100
+|move|p1a: Vikavolt|Tera Blast|p2b: Charizard|[anim] Tera Blast Rock
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|-damage|p1a: Vikavolt|61/100|[from] item: Life Orb
+|
+|win|JosephLee666
+|l|☆JosephLee666
+|player|p1|
+|l|☆Gly17
+|player|p2|
+|l| daming20009
+|j|☆Gly17
+|player|p2|Gly17|265|

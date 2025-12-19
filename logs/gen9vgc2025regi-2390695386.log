@@ -1,0 +1,135 @@
+|j|☆dst020530
+|j|☆25th_mang
+|t:|1750751497
+|gametype|doubles
+|player|p1|dst020530|101|1441
+|player|p2|25th_mang|ballguy|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Heatran, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tsareena, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 25th_mang)
+|
+|t:|1750751529
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: CAUTION WET FLOOR|Zacian-Crowned, L50|100/100
+|switch|p2b: HER MAJESTY|Tsareena, L50, F, shiny|100/100
+|-ability|p2a: CAUTION WET FLOOR|Intrepid Sword|boost
+|-boost|p2a: CAUTION WET FLOOR|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750751544
+|-terastallize|p2a: CAUTION WET FLOOR|Dark
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: CAUTION WET FLOOR|Crunch|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2b: HER MAJESTY|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|cant|p1a: Lunala|move: Taunt|Trick Room
+|
+|upkeep
+|
+|t:|1750751560
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750751574
+|-terastallize|p1b: Calyrex|Fire
+|move|p2a: CAUTION WET FLOOR|Crunch|p1b: Calyrex
+|-damage|p1b: Calyrex|64/100
+|move|p2b: HER MAJESTY|Power Whip|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|44/100
+|move|p1a: Lunala|Moongeist Beam|p2a: CAUTION WET FLOOR
+|-resisted|p2a: CAUTION WET FLOOR
+|-damage|p2a: CAUTION WET FLOOR|79/100
+|move|p1b: Calyrex|Glacial Lance|p2b: HER MAJESTY|[spread] p2a,p2b
+|-supereffective|p2b: HER MAJESTY
+|-damage|p2a: CAUTION WET FLOOR|31/100
+|-damage|p2b: HER MAJESTY|0 fnt
+|faint|p2b: HER MAJESTY
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750751589
+|switch|p2b: BORN TO WET|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: BORN TO WET
+|turn|3
+|
+|t:|1750751606
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: BORN TO WET|Water Spout|p1a: Lunala|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Lunala|61/100
+|move|p2a: CAUTION WET FLOOR|Crunch|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750751619
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|4
+|
+|t:|1750751634
+|switch|p2b: WET N WILD|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: CAUTION WET FLOOR|Play Rough|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|move|p1b: Calyrex|Glacial Lance|p2b: WET N WILD|[spread] p2a,p2b
+|-resisted|p2b: WET N WILD
+|-damage|p2a: CAUTION WET FLOOR|0 fnt
+|-damage|p2b: WET N WILD|54/100
+|faint|p2a: CAUTION WET FLOOR
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750751646
+|switch|p2a: BORN TO WET|Kyogre, L50, shiny|100/100
+|turn|5
+|-message|dst020530 forfeited.
+|
+|win|25th_mang
+|raw|dst020530's rating: 1441 &rarr; <strong>1416</strong><br />(-25 for losing)
+|raw|25th_mang's rating: 1344 &rarr; <strong>1369</strong><br />(+25 for winning)
+|l|☆dst020530
+|player|p1|

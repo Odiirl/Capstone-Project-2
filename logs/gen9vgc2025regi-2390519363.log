@@ -1,0 +1,233 @@
+|j|☆Novicebest
+|j|☆meiose
+|t:|1750723357
+|gametype|doubles
+|player|p1|Novicebest|170|1629
+|player|p2|meiose|265|1823
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Novicebest)
+|
+|t:|1750723387
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|inactive|Novicebest has 30 seconds left.
+|
+|t:|1750723414
+|move|p2a: Flutter Mane|Icy Wind|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Lunala|95/100
+|-damage|p1b: Miraidon|85/100
+|-unboost|p1a: Lunala|spe|1
+|-unboost|p1b: Miraidon|spe|1
+|move|p2b: Kyogre|Water Spout|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Miraidon
+|-damage|p1a: Lunala|5/100
+|-damage|p1b: Miraidon|54/100
+|move|p1b: Miraidon|Snarl|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|80/100
+|-damage|p2b: Kyogre|84/100
+|-unboost|p2a: Flutter Mane|spa|1
+|-unboost|p2b: Kyogre|spa|1
+|move|p1a: Lunala|Moongeist Beam|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750723424
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750723442
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Kyogre|Water Spout|p1b: Incineroar|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Incineroar|move: Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1b: Incineroar|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Incineroar|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Novicebest has 30 seconds left.
+|
+|t:|1750723472
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Kyogre|Thunder|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Incineroar|Parting Shot|p2b: Kyogre
+|-unboost|p2b: Kyogre|atk|1
+|-unboost|p2b: Kyogre|spa|1
+|
+|t:|1750723484
+|switch|p1b: Miraidon|Miraidon, L50|54/100|[from] Parting Shot
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750723490
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|4
+|inactive|Novicebest has 30 seconds left.
+|
+|t:|1750723519
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|-terastallize|p1b: Miraidon|Electric
+|move|p1a: Incineroar|Fake Out|p2a: Basculegion
+|-immune|p2a: Basculegion
+|move|p1b: Miraidon|Volt Switch|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|t:|1750723530
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750723532
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750723547
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|54/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2a: Basculegion|84/100|[from] Recoil
+|-damage|p2a: Basculegion|74/100|[from] item: Life Orb
+|move|p2b: Calyrex|Glacial Lance|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|none
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750723565
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|6
+|
+|t:|1750723586
+|move|p2a: Basculegion|Wave Crash|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|11/100 brn
+|-damage|p2a: Basculegion|44/100|[from] Recoil
+|-damage|p2a: Basculegion|35/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-enditem|p2a: Basculegion|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Basculegion
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Incineroar|90/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1750723607
+|-terastallize|p2b: Calyrex|Fairy
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Calyrex
+|-status|p2b: Calyrex|brn
+|move|p2b: Calyrex|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|
+|-damage|p1a: Incineroar|77/100|[from] Leech Seed|[of] p2b: Calyrex
+|-damage|p2b: Calyrex|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750723618
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|85/100 brn
+|-enditem|p2b: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|67/100
+|
+|-damage|p1a: Incineroar|55/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|97/100 brn|[silent]
+|-damage|p2b: Calyrex|91/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|Novicebest forfeited.
+|
+|win|meiose
+|raw|Novicebest's rating: 1629 &rarr; <strong>1619</strong><br />(-10 for losing)
+|raw|meiose's rating: 1823 &rarr; <strong>1833</strong><br />(+10 for winning)
+|l|☆Novicebest
+|player|p1|
+|l|☆meiose
+|player|p2|
+|j|☆meiose
+|player|p2|meiose|265|
+|l|☆meiose
+|player|p2|
+|j|☆meiose
+|player|p2|meiose|265|
+|l|☆meiose
+|player|p2|

@@ -1,0 +1,257 @@
+|j|☆Oathplate
+|j|☆joutt
+|t:|1750737553
+|gametype|doubles
+|player|p1|Oathplate|265|1233
+|player|p2|joutt|veteran|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oathplate)
+|inactive|joutt has 60 seconds left.
+|
+|t:|1750737602
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|turn|1
+|inactive|joutt has 30 seconds left.
+|
+|t:|1750737632
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Oathplate|move: Light Screen
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-enditem|p2a: Archaludon|Power Herb
+|-anim|p2a: Archaludon|Electro Shot|p1b: Lunala
+|-damage|p1b: Lunala|82/100
+|move|p1b: Lunala|Moonblast|p2a: Archaludon
+|-damage|p2a: Archaludon|42/100
+|move|p2b: Farigiraf|Foul Play|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|30/100
+|
+|-heal|p1b: Lunala|36/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750737654
+|-terastallize|p1b: Lunala|Fairy
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1a: Grimmsnarl|Thunder Wave||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Thunder Wave|[of] p1a: Grimmsnarl
+|move|p2b: Farigiraf|Foul Play|p1b: Lunala
+|-resisted|p1b: Lunala
+|-damage|p1b: Lunala|29/100
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-heal|p1b: Lunala|35/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|joutt has 30 seconds left.
+|
+|t:|1750737683
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Kyogre
+|-damage|p2a: Kyogre|72/100
+|-unboost|p2a: Kyogre|spa|1
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Oathplate has 30 seconds left.
+|inactive|joutt has 30 seconds left.
+|
+|t:|1750737715
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Kyogre|Origin Pulse|p1a: Torkoal|[spread] p1a
+|-miss|p2a: Kyogre|p1b: Calyrex
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|64/100
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|54/100
+|move|p1b: Calyrex|Leech Seed|p2b: Farigiraf
+|-start|p2b: Farigiraf|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Farigiraf|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|68/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750737738
+|switch|p2a: Archaludon|Archaludon, L50, M|42/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-terastallize|p2b: Farigiraf|Water
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|94/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|82/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|81/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1750737760
+|switch|p1b: Lunala|Lunala, L50, tera:Fairy|35/100
+|move|p2a: Archaludon|Flash Cannon|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2b: Farigiraf|Foul Play|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|94/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Archaludon
+|-damage|p2a: Archaludon|14/100
+|-unboost|p2a: Archaludon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737781
+|switch|p1b: Calyrex|Calyrex-Ice, L50|81/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750737791
+|move|p2b: Farigiraf|Helping Hand|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Archaludon|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|94/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|82/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|95/100|[silent]
+|upkeep
+|
+|t:|1750737804
+|switch|p2a: Kyogre|Kyogre, L50|72/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+|
+|t:|1750737826
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Kyogre
+|-damage|p2a: Kyogre|41/100
+|-unboost|p2a: Kyogre|spa|1
+|move|p2a: Kyogre|Origin Pulse|p1a: Grimmsnarl|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Grimmsnarl|4/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Farigiraf|88/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|76/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|100/100|[silent]
+|-sideend|p1: Oathplate|move: Light Screen
+|upkeep
+|turn|9
+|inactive|Oathplate has 30 seconds left.
+|inactive|Oathplate has 20 seconds left.
+|inactive|Oathplate has 15 seconds left.
+|inactive|Oathplate has 10 seconds left.
+|
+|t:|1750737875
+|move|p2a: Kyogre|Origin Pulse|p1a: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Calyrex|66/100
+|faint|p1a: Grimmsnarl
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|15/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Farigiraf|82/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|69/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|29/100|[silent]
+|upkeep
+|
+|t:|1750737888
+|switch|p1a: Torkoal|Torkoal, L50, F|64/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|
+|t:|1750737903
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|move|p1a: Torkoal|Eruption|p2b: Farigiraf|[spread] p2a,p2b
+|-crit|p2a: Tornadus
+|-resisted|p2b: Farigiraf
+|-damage|p2a: Tornadus|9/100
+|-damage|p2b: Farigiraf|45/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Tornadus
+|-resisted|p2b: Farigiraf
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Farigiraf|23/100
+|faint|p2a: Tornadus
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737920
+|switch|p2a: Kyogre|Kyogre, L50|41/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|11
+|-message|Oathplate forfeited.
+|
+|win|joutt
+|raw|Oathplate's rating: 1233 &rarr; <strong>1206</strong><br />(-27 for losing)
+|raw|joutt's rating: 1200 &rarr; <strong>1227</strong><br />(+27 for winning)
+|l|☆Oathplate
+|player|p1|
+|l|☆joutt
+|player|p2|

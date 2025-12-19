@@ -1,0 +1,145 @@
+|j|☆jaffro1738
+|j|‽weswelker88
+|t:|1750865279
+|gametype|doubles
+|player|p1|jaffro1738|266|1306
+|player|p2|weswelker88|170|1347
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Regidrago, L50|
+|poke|p1|Dusclops, L50, F|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Brute Bonnet, L50|
+|teampreview|4
+jaffro1738 rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jaffro1738)
+|
+|t:|1750865325
+|start
+|switch|p1a: C|Chi-Yu, L50|100/100
+|switch|p1b: O|Oranguru, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-ability|p1a: C|Beads of Ruin
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750865350
+|-terastallize|p1a: C|Ghost
+|move|p2b: Walking Wake|Hydro Steam|p1a: C
+|-damage|p1a: C|30/100
+|move|p1a: C|Dark Pulse|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|72/100
+|move|p2a: Koraidon|Close Combat|p1b: O
+|-damage|p1b: O|4/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|62/100|[from] item: Life Orb
+|move|p1b: O|Trick Room|p1b: O
+|-fieldstart|move: Trick Room|[of] p1b: O
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750865373
+|move|p1b: O|Instruct|p1a: C
+|-singleturn|p1a: C|move: Instruct|[of] p1b: O
+|move|p1a: C|Dark Pulse|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|18/100
+|move|p2a: Koraidon|Flame Charge|p1b: O
+|-damage|p1b: O|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: O
+|-damage|p2a: Koraidon|8/100|[from] item: Life Orb
+|move|p1a: C|Dark Pulse|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Walking Wake|Snarl|p1a: C
+|-supereffective|p1a: C
+|-damage|p1a: C|0 fnt
+|faint|p1a: C
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865397
+|switch|p1b: R|Regidrago, L50|100/100
+|switch|p1a: CI|Calyrex-Ice, L50|100/100
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: CI|As One
+|-ability|p1a: CI|Unnerve
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|turn|3
+|
+|t:|1750865421
+|move|p1b: R|Dragon Energy|p2a: Chi-Yu|[spread] p2a,p2b
+|-supereffective|p2b: Walking Wake
+|-damage|p2a: Chi-Yu|2/100
+|-damage|p2b: Walking Wake|0 fnt
+|faint|p2b: Walking Wake
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|move|p1a: CI|High Horsepower|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|-ability|p1a: CI|Chilling Neigh|boost
+|-boost|p1a: CI|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750865429
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750865436
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: R|Dragon Energy|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: CI|Crunch|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750865440
+|move|p1b: R|Dragon Energy|p2b: Calyrex
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100
+|move|p1a: CI|Crunch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|jaffro1738
+|raw|jaffro1738's rating: 1306 &rarr; <strong>1328</strong><br />(+22 for winning)
+|raw|weswelker88's rating: 1347 &rarr; <strong>1325</strong><br />(-22 for losing)
+|l|☆jaffro1738
+|player|p1|
+|l|‽weswelker88
+|player|p2|

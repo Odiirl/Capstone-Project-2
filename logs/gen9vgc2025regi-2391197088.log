@@ -1,0 +1,220 @@
+|j|☆fb GD et h
+|j|☆BonnibeI
+|t:|1750815040
+|gametype|doubles
+|player|p1|fb GD et h|brycen|1084
+|player|p2|BonnibeI|170|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fb GD et h)
+|inactive|fb GD et h has 60 seconds left.
+|
+|t:|1750815093
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspd
+|turn|1
+|
+|t:|1750815116
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Meowscarada|Knock Off|p1a: Indeedee
+|-start|p2b: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|11/100
+|move|p2a: Scream Tail|Imprison|p2a: Scream Tail
+|-start|p2a: Scream Tail|move: Imprison
+|cant|p1b: Calyrex|move: Imprison|Trick Room
+|
+|upkeep
+|turn|2
+|inactive|fb GD et h has 30 seconds left.
+|
+|t:|1750815145
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Meowscarada|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p2a: Scream Tail|Drain Punch|p1b: Calyrex
+|-damage|p1b: Calyrex|90/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Scream Tail|[spread] p2a,p2b
+|-damage|p2a: Scream Tail|46/100
+|-damage|p2b: Meowscarada|10/100
+|
+|upkeep
+|
+|t:|1750815155
+|switch|p1a: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|3
+|
+|t:|1750815171
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Meowscarada|Knock Off|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Kyurem|Blizzard|p2a: Scream Tail|[spread] p2a
+|-miss|p1a: Kyurem|p2b: Meowscarada
+|-damage|p2a: Scream Tail|12/100
+|-status|p2a: Scream Tail|frz
+|-curestatus|p2a: Scream Tail|frz|[msg]
+|move|p2a: Scream Tail|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|70/100
+|-heal|p2a: Scream Tail|27/100|[from] drain|[of] p1a: Kyurem
+|
+|upkeep
+|turn|4
+|inactive|BonnibeI has 30 seconds left.
+|
+|t:|1750815201
+|-terastallize|p1b: Calyrex|Fire
+|move|p2b: Meowscarada|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|49/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2b: Meowscarada
+|move|p1a: Kyurem|Blizzard|p2b: Meowscarada|[spread] p2a,p2b
+|-damage|p2a: Scream Tail|0 fnt
+|-damage|p2b: Meowscarada|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|faint|p2b: Meowscarada
+|move|p1b: Calyrex|Glacial Lance|p2: Scream Tail|[notarget]
+|-fail|p1b: Calyrex
+|
+|upkeep
+|
+|t:|1750815212
+|switch|p2b: Giratina|Giratina-Origin, L50|100/100
+|switch|p2a: Giratina|Giratina-Origin, L50|100/100
+|turn|5
+|
+|t:|1750815229
+|-terastallize|p2a: Giratina|Fire
+|move|p1a: Kyurem|Blizzard|p2a: Giratina|[spread] p2a,p2b
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|77/100
+|-enditem|p2b: Giratina|Focus Sash
+|-damage|p2b: Giratina|1/100
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2b: Zoroark|Illusion
+|move|p2b: Zoroark|Comeuppance|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|move|p2a: Giratina|Draco Meteor|p1b: Calyrex|[miss]
+|-miss|p2a: Giratina|p1b: Calyrex
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|fb GD et h has 30 seconds left.
+|
+|t:|1750815259
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|6
+|
+|t:|1750815268
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p2b: Zoroark|Protect|p2b: Zoroark
+|-singleturn|p2b: Zoroark|Protect
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Giratina|[spread] 
+|-activate|p2a: Giratina|move: Protect
+|-activate|p2b: Zoroark|move: Protect
+|move|p1b: Calyrex|High Horsepower|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750815291
+|move|p2a: Giratina|Shadow Sneak|p1b: Calyrex
+|-damage|p1b: Calyrex|34/100
+|move|p2b: Zoroark|Shadow Sneak|p1b: Calyrex
+|-damage|p1b: Calyrex|22/100
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Zoroark|[spread] p2a,p2b
+|-resisted|p2a: Giratina
+|-crit|p2b: Zoroark
+|-damage|p2a: Giratina|65/100
+|-damage|p2b: Zoroark|0 fnt
+|faint|p2b: Zoroark
+|move|p1b: Calyrex|High Horsepower|p2a: Giratina
+|-immune|p2a: Giratina|[from] ability: Levitate
+|
+|upkeep
+|turn|8
+|inactive|fb GD et h has 30 seconds left.
+|inactive|fb GD et h has 20 seconds left.
+|inactive|fb GD et h has 15 seconds left.
+|
+|t:|1750815335
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|move|p1b: Calyrex|High Horsepower|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1750815356
+|move|p1a: Hatterene|Expanding Force|p2a: Giratina
+|-damage|p2a: Giratina|32/100
+|move|p1b: Calyrex|High Horsepower|p2a: Giratina
+|-immune|p2a: Giratina|[from] ability: Levitate
+|move|p2a: Giratina|Poltergeist|p1a: Hatterene
+|-activate|p1a: Hatterene|move: Poltergeist|Covert Cloak
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|inactive|fb GD et h has 30 seconds left.
+|inactive|fb GD et h has 20 seconds left.
+|inactive|fb GD et h has 15 seconds left.
+|
+|t:|1750815400
+|move|p2a: Giratina|Draco Meteor|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-unboost|p2a: Giratina|spa|2
+|faint|p1b: Calyrex
+|
+|win|BonnibeI
+|raw|fb GD et h's rating: 1084 &rarr; <strong>1060</strong><br />(-24 for losing)
+|raw|BonnibeI's rating: 1059 &rarr; <strong>1092</strong><br />(+33 for winning)
+|l|☆fb GD et h
+|player|p1|

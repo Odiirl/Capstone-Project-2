@@ -1,0 +1,198 @@
+|j|☆Aabraao
+|j|☆jhyjhyt
+|t:|1750864541
+|gametype|doubles
+|player|p1|Aabraao|hilbert|1544
+|player|p2|jhyjhyt|265|1531
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Raichu, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aabraao)
+|
+|t:|1750864571
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|-unboost|p2b: Kyogre|atk|1
+|turn|1
+|
+|t:|1750864592
+|-terastallize|p1a: Lunala|Water
+|move|p1b: Incineroar|Fake Out|p2b: Kyogre
+|-damage|p2b: Kyogre|85/100
+|cant|p2b: Kyogre|flinch
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Dondozo|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750864606
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p2b: Kyogre|Thunder|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|82/100
+|move|p1b: Incineroar|Knock Off|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750864618
+|switch|p2b: Tatsugiri|Tatsugiri, L50, F|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|-terastallize|p2a: Dondozo|Water
+|move|p1b: Incineroar|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|82/100
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Lunala|Moongeist Beam|p2a: Dondozo
+|-damage|p2a: Dondozo|50/100
+|move|p2a: Dondozo|Surf|p1a: Lunala|[spread] p1a,p1b
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-resisted|p1a: Lunala
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Lunala|54/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750864627
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|4
+|
+|t:|1750864641
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Dondozo|Surf|p1a: Lunala|[spread] p1a
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-activate|p1b: Ogerpon|move: Protect
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750864653
+|move|p1a: Lunala|Moongeist Beam|p2a: Dondozo
+|-damage|p2a: Dondozo|2/100
+|move|p2a: Dondozo|Surf|p1a: Lunala|[spread] p1a,p1b
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-ability|p1b: Ogerpon|Sturdy
+|-damage|p1b: Ogerpon|1/100
+|faint|p1a: Lunala
+|move|p1b: Ogerpon|Horn Leech|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-heal|p1b: Ogerpon|2/100|[from] drain|[of] p2a: Dondozo
+|faint|p2a: Dondozo
+|
+|-weather|none
+|upkeep
+|
+|t:|1750864670
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|inactive|jhyjhyt has 30 seconds left.
+|
+|t:|1750864698
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|29/100
+|-damage|p2b: Tatsugiri|0 fnt
+|faint|p2b: Tatsugiri
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Ogerpon|Horn Leech|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-heal|p1b: Ogerpon|19/100|[from] drain|[of] p2a: Calyrex
+|faint|p2a: Calyrex
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750864709
+|switch|p2b: Kyogre|Kyogre, L50|85/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|7
+|
+|t:|1750864716
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|45/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750864724
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex
+|-damage|p1a: Calyrex|26/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|win|Aabraao
+|raw|Aabraao's rating: 1544 &rarr; <strong>1563</strong><br />(+19 for winning)
+|raw|jhyjhyt's rating: 1531 &rarr; <strong>1512</strong><br />(-19 for losing)
+|l|☆Aabraao
+|player|p1|
+|l|☆jhyjhyt
+|player|p2|

@@ -1,0 +1,167 @@
+|j|☆baha bbblast
+|j|☆xiaotianyu
+|t:|1750861130
+|gametype|doubles
+|player|p1|baha bbblast|clerk-boss|1375
+|player|p2|xiaotianyu|265|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Eternatus, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xiaotianyu)
+|inactive|baha bbblast has 60 seconds left.
+|
+|t:|1750861176
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p1b: Miraidon|Electric Seed
+|-boost|p1b: Miraidon|def|1|[from] item: Electric Seed
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750861189
+|-terastallize|p2a: Miraidon|Electric
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|87/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: baha bbblast|move: Aurora Veil
+|move|p2a: Miraidon|Volt Switch|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|t:|1750861199
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|cant|p1b: Miraidon|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750861205
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|2
+|
+|t:|1750861215
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2b: Incineroar|Parting Shot|p1b: Miraidon
+|-unboost|p1b: Miraidon|atk|1
+|-unboost|p1b: Miraidon|spa|1
+|
+|t:|1750861233
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|100/100|[from] Parting Shot
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1a: Iron Hands|Low Kick|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750861247
+|move|p2b: Miraidon|Electro Drift|p1b: Miraidon
+|-damage|p1b: Miraidon|50/100
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Iron Hands
+|-damage|p1a: Iron Hands|69/100
+|move|p1a: Iron Hands|Low Kick|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|37/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750861266
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Miraidon
+|-damage|p1b: Miraidon|21/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Zamazenta|[spread] p2b
+|-activate|p2a: Zamazenta|move: Protect
+|-damage|p2b: Miraidon|67/100
+|move|p1a: Iron Hands|Drain Punch|p2b: Miraidon
+|-damage|p2b: Miraidon|30/100
+|-heal|p1a: Iron Hands|84/100|[from] drain|[of] p2b: Miraidon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|j| redwing bird
+|inactive|baha bbblast has 30 seconds left.
+|
+|t:|1750861294
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|move|p2b: Miraidon|Volt Switch|p1b: Miraidon
+|-damage|p1b: Miraidon|1/100
+|
+|t:|1750861309
+|switch|p2b: Cresselia|Cresselia, L50, F|100/100|[from] Volt Switch
+|-enditem|p2b: Cresselia|Electric Seed
+|-boost|p2b: Cresselia|def|1|[from] item: Electric Seed
+|move|p1b: Miraidon|Parabolic Charge|p2b: Cresselia|[spread] p1a,p2a,p2b
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|70/100
+|-heal|p1b: Miraidon|10/100|[from] drain|[of] p1a: Iron Hands
+|-damage|p2a: Incineroar|30/100
+|-heal|p1b: Miraidon|45/100|[from] drain|[of] p2a: Incineroar
+|-damage|p2b: Cresselia|54/100
+|-heal|p1b: Miraidon|70/100|[from] drain|[of] p2b: Cresselia
+|move|p1a: Iron Hands|Low Kick|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Hands|Quark Drive
+|upkeep
+|-message|xiaotianyu forfeited.
+|
+|win|baha bbblast
+|raw|baha bbblast's rating: 1375 &rarr; <strong>1400</strong><br />(+25 for winning)
+|raw|xiaotianyu's rating: 1468 &rarr; <strong>1443</strong><br />(-25 for losing)
+|l|☆xiaotianyu
+|player|p2|
+|l| redwing bird
+|l|☆baha bbblast
+|player|p1|

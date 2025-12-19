@@ -1,0 +1,198 @@
+|j|☆Honored1
+|j|☆Auragami
+|t:|1750882874
+|gametype|doubles
+|player|p1|Honored1|silver|
+|player|p2|Auragami|burglar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Infernape, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750882911
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750882940
+|move|p2a: Indeedee|Helping Hand|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Honored1|Reflect
+|move|p2b: Urshifu|Surging Strikes|p1b: Landorus
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|38/100
+|-damage|p2b: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1b: Landorus
+|-supereffective|p1b: Landorus
+|-crit|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|-damage|p2b: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1b: Landorus
+|faint|p1b: Landorus
+|-hitcount|p1: Landorus|2
+|
+|upkeep
+|
+|t:|1750882954
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750882971
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Honored1|move: Light Screen
+|move|p2b: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|80/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|-hitcount|p1a: Grimmsnarl|3
+|move|p2a: Indeedee|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|86/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2b: Urshifu
+|-damage|p2a: Indeedee|51/100
+|-damage|p2b: Urshifu|40/100
+|
+|-heal|p1b: Calyrex|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750883002
+|-terastallize|p1a: Grimmsnarl|Ghost
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Psychic Terrain
+|move|p2b: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|11/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|2
+|move|p2a: Indeedee|Shadow Ball|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|76/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Urshifu
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Urshifu|15/100
+|faint|p2a: Indeedee
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-heal|p1b: Calyrex|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750883025
+|switch|p1a: Infernape|Infernape, L50, F|100/100
+|switch|p2a: Milotic|Milotic, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750883034
+|move|p1a: Infernape|Vacuum Wave|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Psychic Terrain
+|move|p2b: Urshifu|Surging Strikes|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-crit|p1a: Infernape
+|-damage|p1a: Infernape|36/100
+|-supereffective|p1a: Infernape
+|-crit|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|-hitcount|p1: Infernape|2
+|move|p2a: Milotic|Scald|p1b: Calyrex
+|-damage|p1b: Calyrex|70/100
+|move|p1b: Calyrex|Leech Seed|p2a: Milotic
+|-start|p2a: Milotic|move: Leech Seed
+|
+|-heal|p1b: Calyrex|76/100|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|88/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750883056
+|move|p2b: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|73/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|60/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|47/100
+|-hitcount|p1b: Calyrex|3
+|move|p2a: Milotic|Hypnosis|p1b: Calyrex
+|-status|p1b: Calyrex|slp|[from] move: Hypnosis
+|cant|p1b: Calyrex|slp
+|
+|-heal|p2a: Milotic|94/100|[from] item: Leftovers
+|-heal|p1b: Calyrex|53/100 slp|[from] item: Leftovers
+|-damage|p2a: Milotic|82/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|65/100 slp|[silent]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750883075
+|move|p2b: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|52/100 slp
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|37/100 slp
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|23/100 slp
+|-hitcount|p1b: Calyrex|3
+|move|p2a: Milotic|Scald|p1b: Calyrex
+|-damage|p1b: Calyrex|12/100 slp
+|-curestatus|p1b: Calyrex|slp|[msg]
+|move|p1b: Calyrex|Glacial Lance|p2b: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Milotic
+|-resisted|p2b: Urshifu
+|-crit|p2b: Urshifu
+|-damage|p2a: Milotic|43/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-heal|p2a: Milotic|49/100|[from] item: Leftovers
+|-heal|p1b: Calyrex|18/100|[from] item: Leftovers
+|-damage|p2a: Milotic|37/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|30/100|[silent]
+|upkeep
+|
+|t:|1750883096
+|switch|p2b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|turn|7
+|
+|t:|1750883106
+|move|p2b: Kyurem|Fusion Flare|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Auragami

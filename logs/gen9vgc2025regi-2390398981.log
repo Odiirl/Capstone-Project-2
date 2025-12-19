@@ -1,0 +1,156 @@
+|j|☆TrueSquidVGC
+|j|☆anirudhthe
+|t:|1750708944
+|gametype|doubles
+|player|p1|TrueSquidVGC|101|1117
+|player|p2|anirudhthe|1|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Bastiodon, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gengar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750708971
+|start
+|switch|p1a: Bastiodon|Bastiodon, L50, F|100/100
+|switch|p1b: Gengar|Gengar, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrueSquidVGC)
+|
+|t:|1750709026
+|-terastallize|p2a: Kyogre|Water
+|move|p1a: Bastiodon|Wide Guard|p1a: Bastiodon
+|-singleturn|p1a: Bastiodon|Wide Guard
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: anirudhthe|move: Tailwind
+|move|p2a: Kyogre|Water Spout|p1b: Gengar|[spread] 
+|-activate|p1a: Bastiodon|move: Wide Guard
+|-activate|p1b: Gengar|move: Wide Guard
+|move|p1b: Gengar|Icy Wind|p2b: Tornadus|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Kyogre|95/100
+|-damage|p2b: Tornadus|59/100
+|-unboost|p2a: Kyogre|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|TrueSquidVGC has 30 seconds left.
+|
+|t:|1750709052
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Gengar|[spread] p1a,p1b
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|96/100
+|-damage|p1b: Gengar|49/100
+|move|p1b: Gengar|Icy Wind|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Kyogre|90/100
+|-damage|p2b: Tornadus|23/100
+|-unboost|p2a: Kyogre|spe|1
+|move|p2a: Kyogre|Water Spout|p1a: Bastiodon|[spread] p1a,p1b
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|-damage|p1b: Gengar|0 fnt
+|-start|p2a: Kyogre|Disable|Water Spout|[from] ability: Cursed Body|[of] p1b: Gengar
+|faint|p1a: Bastiodon
+|faint|p1b: Gengar
+|-damage|p2a: Kyogre|80/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750709065
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750709080
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|-end|p1a: Raging Bolt|Protosynthesis
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Koraidon|Flame Charge|p2b: Tornadus
+|-damage|p2b: Tornadus|2/100
+|-boost|p1b: Koraidon|spe|1
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750709102
+|move|p1a: Raging Bolt|Thunderclap|p2b: Tornadus
+|-supereffective|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p1b: Koraidon|Close Combat|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Kyogre
+|-damage|p1b: Koraidon|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: anirudhthe|move: Tailwind
+|upkeep
+|
+|t:|1750709115
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspa
+|turn|5
+|
+|t:|1750709129
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Flutter Mane|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|move|p2a: Lunala|Tailwind|p2a: Lunala
+|-sidestart|p2: anirudhthe|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|-message|TrueSquidVGC forfeited.
+|
+|win|anirudhthe
+|raw|TrueSquidVGC's rating: 1117 &rarr; <strong>1093</strong><br />(-24 for losing)
+|raw|anirudhthe's rating: 1127 &rarr; <strong>1151</strong><br />(+24 for winning)
+|l|☆TrueSquidVGC
+|player|p1|
+|l|☆anirudhthe
+|player|p2|

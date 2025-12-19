@@ -1,0 +1,165 @@
+|j|☆comrade5
+|j|☆magiuz
+|t:|1750714432
+|gametype|doubles
+|player|p1|comrade5|2|1400
+|player|p2|magiuz|101|1505
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by comrade5)
+|inactive|magiuz has 60 seconds left.
+|
+|t:|1750714538
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Raichu|Raichu, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750714563
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Urshifu|Surging Strikes|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|64/100
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|32/100
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|3
+|move|p1b: Raichu|Nuzzle|p2b: Necrozma
+|-damage|p2b: Necrozma|96/100
+|-status|p2b: Necrozma|par
+|cant|p2b: Necrozma|par
+|
+|upkeep
+|
+|t:|1750714575
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750714593
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Urshifu|Surging Strikes|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|92/100
+|-resisted|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|83/100
+|-resisted|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|73/100
+|-hitcount|p2a: Calyrex|3
+|move|p1b: Raichu|Nuzzle|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|64/100
+|-status|p2a: Calyrex|par
+|move|p2b: Necrozma|Expanding Force|p1a: Urshifu|[spread] p1a,p1b
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Raichu|20/100
+|faint|p1a: Urshifu
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750714618
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750714636
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Close Combat|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|-unboost|p2a: Calyrex|def|1
+|-unboost|p2a: Calyrex|spd|1
+|faint|p1b: Raichu
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|cant|p2b: Necrozma|par
+|
+|upkeep
+|
+|t:|1750714653
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750714666
+|-terastallize|p1a: Zamazenta|Grass
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Calyrex|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|70/100
+|-unboost|p2a: Calyrex|def|1
+|-unboost|p2a: Calyrex|spd|1
+|move|p2b: Necrozma|Moongeist Beam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Zamazenta|Body Press|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|inactive|magiuz has 30 seconds left.
+|inactive|magiuz has 20 seconds left.
+|inactive|magiuz has 15 seconds left.
+|inactive|magiuz has 10 seconds left.
+|inactive|magiuz has 5 seconds left.
+|
+|t:|1750714721
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|inactive|magiuz has 30 seconds left.
+|inactive|magiuz has 20 seconds left.
+|
+|t:|1750714760
+|move|p2b: Necrozma|Meteor Beam||[still]
+|-prepare|p2b: Necrozma|Meteor Beam
+|-boost|p2b: Necrozma|spa|1
+|-enditem|p2b: Necrozma|Power Herb
+|-anim|p2b: Necrozma|Meteor Beam|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p2a: Ursaluna|Shadow Claw|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|magiuz
+|raw|comrade5's rating: 1400 &rarr; <strong>1386</strong><br />(-14 for losing)
+|raw|magiuz's rating: 1505 &rarr; <strong>1519</strong><br />(+14 for winning)
+|l|☆magiuz
+|player|p2|
+|j| zagmaer
+|l| zagmaer

@@ -1,0 +1,182 @@
+|j|☆name1010
+|j|☆JordanokeefeVGC
+|t:|1750853513
+|gametype|doubles
+|player|p1|name1010|1|1332
+|player|p2|JordanokeefeVGC|266|1309
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+name1010 has agreed to open team sheets.
+|
+|t:|1750853540
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750853564
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: JordanokeefeVGC|move: Tailwind
+|move|p2a: Smeargle|Spore|p1b: Zacian
+|-status|p1b: Zacian|slp|[from] move: Spore
+|cant|p1b: Zacian|slp
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|atk|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750853599
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|-curestatus|p1b: Zacian|slp|[msg]
+|move|p1b: Zacian|Behemoth Blade|p2b: Tornadus
+|-damage|p2b: Tornadus|1/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Zacian|[spread] p1a
+|-miss|p2b: Tornadus|p1b: Zacian
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|40/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|65/100|[from] item: Sitrus Berry
+|move|p2a: Smeargle|Decorate|p2b: Tornadus
+|-boost|p2b: Tornadus|atk|2
+|-boost|p2b: Tornadus|spa|2
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1750853625
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Amoonguss|Spore|p2a: Smeargle
+|-status|p2a: Smeargle|slp|[from] move: Spore
+|move|p1b: Zacian|Behemoth Blade|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100 slp
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Zacian|[spread] p1a
+|-miss|p2b: Tornadus|p1b: Zacian
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|
+|t:|1750853638
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1750853651
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|cant|p2a: Smeargle|slp
+|move|p1a: Indeedee|Psychic|p2b: Tornadus
+|-activate|p2b: Tornadus|move: Protect
+|move|p1b: Zacian|Behemoth Blade|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|-sideend|p2: JordanokeefeVGC|move: Tailwind
+|upkeep
+|
+|t:|1750853660
+|switch|p2a: Ceruledge|Ceruledge, L50, F|100/100
+|turn|5
+|
+|t:|1750853677
+|move|p2b: Tornadus|Taunt|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1a: Indeedee|Psychic|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p2a: Ceruledge|Bitter Blade|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|16/100
+|move|p1b: Zacian|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750853689
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JordanokeefeVGC)
+|
+|t:|1750853703
+|move|p2b: Calyrex|Astral Barrage|p1a: Indeedee|[spread] p1b
+|-immune|p1a: Indeedee
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750853712
+|switch|p1b: Iron Hands|Iron Hands, L50, shiny|100/100
+|turn|7
+|
+|t:|1750853730
+|-terastallize|p2b: Calyrex|Dark
+|move|p1a: Indeedee|Helping Hand|p1b: Iron Hands
+|-singleturn|p1b: Iron Hands|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Iron Hands|Wild Charge|p2b: Calyrex
+|-damage|p2b: Calyrex|9/100
+|-damage|p1b: Iron Hands|85/100|[from] Recoil
+|move|p2b: Calyrex|Psychic|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p2b: Calyrex
+|
+|win|name1010
+|raw|name1010's rating: 1332 &rarr; <strong>1351</strong><br />(+19 for winning)
+|raw|JordanokeefeVGC's rating: 1309 &rarr; <strong>1290</strong><br />(-19 for losing)
+|l|☆JordanokeefeVGC
+|player|p2|
+|l|☆name1010
+|player|p1|

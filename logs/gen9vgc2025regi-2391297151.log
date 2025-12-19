@@ -1,0 +1,220 @@
+|j|☆klanes1209
+|j|☆UltraKingVGC
+|t:|1750830785
+|gametype|doubles
+|player|p1|klanes1209|266|1162
+|player|p2|UltraKingVGC|hilbert|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Pawmot, L50, F|
+|poke|p2|Hydrapple, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|
+|t:|1750830812
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Pawmot|Pawmot, L50, F, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|1
+|
+|t:|1750830837
+|move|p1a: Rillaboom|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|93/100
+|move|p2a: Incineroar|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|98/100
+|move|p2b: Pawmot|Nuzzle|p1b: Zamazenta
+|-damage|p1b: Zamazenta|95/100
+|-status|p1b: Zamazenta|par
+|cant|p1b: Zamazenta|flinch
+|
+|-heal|p1b: Zamazenta|100/100 par|[from] Grassy Terrain
+|-heal|p2a: Incineroar|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750830864
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Pawmot|Close Combat|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p1a: Rillaboom|U-turn|p2b: Pawmot
+|-resisted|p2b: Pawmot
+|-damage|p2b: Pawmot|87/100
+|
+|t:|1750830874
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100|[from] U-turn
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Smeargle
+|-status|p1a: Smeargle|brn
+|
+|-heal|p2b: Pawmot|93/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|100/100|[from] Grassy Terrain
+|-damage|p1a: Smeargle|94/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750830890
+|move|p1a: Smeargle|Fake Out|p2b: Pawmot
+|-damage|p2b: Pawmot|91/100
+|cant|p2b: Pawmot|flinch
+|move|p1b: Zamazenta|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-heal|p2b: Pawmot|97/100|[from] Grassy Terrain
+|-heal|p1a: Smeargle|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Smeargle|94/100 brn|[from] brn
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|
+|t:|1750830905
+|switch|p2a: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p2a: Porygon2|Moody|[from] ability: Trace|[of] p1a: Smeargle
+|turn|4
+|
+|t:|1750830923
+|cant|p1b: Zamazenta|par
+|move|p2b: Pawmot|Close Combat|p1a: Smeargle
+|-supereffective|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|-unboost|p2b: Pawmot|def|1
+|-unboost|p2b: Pawmot|spd|1
+|faint|p1a: Smeargle
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-heal|p2b: Pawmot|100/100|[from] Grassy Terrain
+|-ability|p2a: Porygon2|Moody|boost
+|-boost|p2a: Porygon2|spe|2
+|-unboost|p2a: Porygon2|spd|1
+|upkeep
+|
+|t:|1750830936
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|5
+|
+|t:|1750830961
+|move|p1a: Rillaboom|Fake Out|p2b: Pawmot
+|-damage|p2b: Pawmot|66/100
+|cant|p1b: Zamazenta|par
+|move|p2a: Porygon2|Shadow Ball|p1b: Zamazenta
+|-damage|p1b: Zamazenta|85/100 par
+|cant|p2b: Pawmot|flinch
+|
+|-heal|p1b: Zamazenta|91/100 par|[from] Grassy Terrain
+|-heal|p2b: Pawmot|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-ability|p2a: Porygon2|Moody|boost
+|-boost|p2a: Porygon2|spa|2
+|-unboost|p2a: Porygon2|spd|1
+|upkeep
+|turn|6
+|
+|t:|1750830996
+|move|p1b: Zamazenta|Body Press|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|10/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Pawmot
+|-damage|p2b: Pawmot|7/100
+|move|p2a: Porygon2|Tera Blast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|54/100
+|move|p2b: Pawmot|Close Combat|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|51/100 par
+|-unboost|p2b: Pawmot|def|1
+|-unboost|p2b: Pawmot|spd|1
+|
+|-ability|p2a: Porygon2|Moody|boost
+|-boost|p2a: Porygon2|def|2
+|-unboost|p2a: Porygon2|spd|1
+|upkeep
+|turn|7
+|
+|t:|1750831024
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50, shiny|100/100
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Pawmot|Nuzzle|p1a: Calyrex
+|-damage|p1a: Calyrex|90/100
+|-status|p1a: Calyrex|par
+|
+|upkeep
+|turn|8
+|
+|t:|1750831080
+|switch|p1b: Rillaboom|Rillaboom, L50, M|54/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Calyrex|Dark
+|move|p2a: Necrozma|Moongeist Beam|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|67/100 par
+|cant|p1a: Calyrex|par
+|move|p2b: Pawmot|Close Combat|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-unboost|p2b: Pawmot|def|1
+|-unboost|p2b: Pawmot|spd|1
+|faint|p1b: Rillaboom
+|
+|-heal|p1a: Calyrex|73/100 par|[from] Grassy Terrain
+|-heal|p2b: Pawmot|13/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750831100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|51/100 par
+|turn|9
+|
+|t:|1750831119
+|-terastallize|p2a: Necrozma|Ghost
+|move|p2b: Pawmot|Close Combat|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-unboost|p2b: Pawmot|def|1
+|-unboost|p2b: Pawmot|spd|1
+|faint|p1a: Calyrex
+|cant|p1b: Zamazenta|par
+|move|p2a: Necrozma|Moongeist Beam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|2/100 par
+|
+|-heal|p2b: Pawmot|19/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|8/100 par|[from] Grassy Terrain
+|upkeep
+|turn|10
+|-message|klanes1209 forfeited.
+|
+|win|UltraKingVGC
+|raw|klanes1209's rating: 1162 &rarr; <strong>1134</strong><br />(-28 for losing)
+|raw|UltraKingVGC's rating: 1119 &rarr; <strong>1147</strong><br />(+28 for winning)

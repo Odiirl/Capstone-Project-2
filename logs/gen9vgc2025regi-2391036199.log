@@ -1,0 +1,206 @@
+|j|☆Tubby Wallace
+|j|☆TomFelgenhauer
+|t:|1750795260
+|gametype|doubles
+|player|p1|Tubby Wallace|102|1224
+|player|p2|TomFelgenhauer|170|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Spiritomb, L50, M|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tubby Wallace)
+|inactive|Tubby Wallace has 60 seconds left.
+|inactive|TomFelgenhauer has 60 seconds left.
+|
+|t:|1750795310
+|start
+|switch|p1a: Blastoise|Blastoise, L50, F, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Spiritomb|Spiritomb, L50, M|100/100
+|switch|p2b: Necrozma|Necrozma-Dusk-Mane, L50, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Spiritomb|Pressure
+|turn|1
+|
+|t:|1750795324
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p1a: Blastoise|Fake Out|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|move|p1b: Calyrex|High Horsepower|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|move|p2a: Spiritomb|Trick Room|p2a: Spiritomb
+|-fieldstart|move: Trick Room|[of] p2a: Spiritomb
+|
+|upkeep
+|turn|2
+|
+|t:|1750795344
+|move|p2a: Spiritomb|Ally Switch|p2a: Spiritomb
+|swap|p2a: Spiritomb|1|[from] move: Ally Switch
+|move|p1b: Calyrex|Glacial Lance|p2b: Spiritomb|[spread] p2a,p2b
+|-resisted|p2a: Necrozma
+|-damage|p2a: Necrozma|77/100
+|-damage|p2b: Spiritomb|30/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Necrozma|Sunsteel Strike|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|26/100
+|move|p1a: Blastoise|Yawn|p2b: Spiritomb
+|-start|p2b: Spiritomb|move: Yawn|[of] p1a: Blastoise
+|
+|upkeep
+|turn|3
+|
+|t:|1750795362
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-enditem|p2b: Spiritomb|Sitrus Berry|[eat]
+|-heal|p2b: Spiritomb|55/100|[from] item: Sitrus Berry
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2b: Spiritomb|Shadow Sneak|p1b: Kyogre
+|-damage|p1b: Kyogre|88/100
+|move|p2a: Necrozma|Photon Geyser|p1a: Blastoise
+|-damage|p1a: Blastoise|40/100
+|move|p1a: Blastoise|Water Spout|p2a: Necrozma|[spread] p2a,p2b
+|-damage|p2a: Necrozma|61/100
+|-damage|p2b: Spiritomb|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blastoise|46/100|[from] ability: Rain Dish
+|-heal|p1a: Blastoise|52/100|[from] item: Leftovers
+|-end|p2b: Spiritomb|move: Yawn|[silent]
+|-status|p2b: Spiritomb|slp
+|upkeep
+|turn|4
+|inactive|Tubby Wallace has 30 seconds left.
+|
+|t:|1750795388
+|cant|p2b: Spiritomb|slp
+|move|p2a: Necrozma|Photon Geyser|p1b: Kyogre
+|-damage|p1b: Kyogre|32/100
+|move|p1a: Blastoise|Yawn|p2a: Necrozma
+|-start|p2a: Necrozma|move: Yawn|[of] p1a: Blastoise
+|move|p1b: Kyogre|Origin Pulse|p2b: Spiritomb|[spread] p2a,p2b
+|-damage|p2a: Necrozma|0 fnt
+|-damage|p2b: Spiritomb|0 fnt
+|faint|p2a: Necrozma
+|faint|p2b: Spiritomb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Blastoise|58/100|[from] ability: Rain Dish
+|-heal|p1a: Blastoise|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750795404
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2a: Ogerpon|Mold Breaker
+|turn|5
+|
+|t:|1750795422
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Blastoise|Yawn|p2b: Kyogre
+|-start|p2b: Kyogre|move: Yawn|[of] p1a: Blastoise
+|move|p2b: Kyogre|Thunder|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p2a: Ogerpon|Horn Leech|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|Tubby Wallace has 30 seconds left.
+|
+|t:|1750795453
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|6
+|inactive|Tubby Wallace has 30 seconds left.
+|
+|t:|1750795481
+|move|p1a: Urshifu|Detect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p2a: Ogerpon|Horn Leech|p1a: Urshifu
+|-activate|p1a: Urshifu|move: Protect
+|move|p2b: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Kyogre|move: Yawn|[silent]
+|-status|p2b: Kyogre|slp
+|upkeep
+|
+|t:|1750795490
+|switch|p1b: Calyrex|Calyrex-Ice, L50|26/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750795506
+|-terastallize|p2a: Ogerpon|Fire
+|detailschange|p2a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|cant|p2b: Kyogre|slp
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750795520
+|move|p1b: Calyrex|High Horsepower|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|-damage|p1b: Calyrex|16/100|[from] item: Life Orb
+|cant|p2b: Kyogre|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1750795531
+|move|p1b: Calyrex|Glacial Lance|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|33/100 slp
+|-damage|p1b: Calyrex|6/100|[from] item: Life Orb
+|-curestatus|p2b: Kyogre|slp|[msg]
+|move|p2b: Kyogre|Thunder|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|TomFelgenhauer
+|raw|Tubby Wallace's rating: 1224 &rarr; <strong>1208</strong><br />(-16 for losing)
+|raw|TomFelgenhauer's rating: 1355 &rarr; <strong>1368</strong><br />(+13 for winning)
+|l|☆TomFelgenhauer
+|player|p2|

@@ -1,0 +1,219 @@
+|j|☆Kampfstube
+|j|☆Miurez
+|t:|1750709504
+|gametype|doubles
+|player|p1|Kampfstube|volkner|1400
+|player|p2|Miurez|pokemonranger-gen4|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rhydon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kampfstube)
+|inactive|Kampfstube has 60 seconds left.
+|inactive|Miurez has 60 seconds left.
+|
+|t:|1750709554
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|turn|1
+|inactive|Miurez has 30 seconds left.
+|
+|t:|1750709582
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-terastallize|p1a: Lunala|Fairy
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|94/100
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|86/100
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Kampfstube has 30 seconds left.
+|inactive|Miurez has 30 seconds left.
+|inactive|Miurez has 20 seconds left.
+|
+|t:|1750709626
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Incineroar|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|84/100
+|-enditem|p1b: Incineroar|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Incineroar|Flare Blitz|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|72/100
+|-damage|p1b: Incineroar|76/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|Kampfstube has 30 seconds left.
+|inactive|Miurez has 30 seconds left.
+|
+|t:|1750709661
+|switch|p2b: Lunala|Lunala, L50|100/100
+|move|p1a: Ursaluna|Facade|p2b: Lunala
+|-immune|p2b: Lunala
+|move|p2a: Incineroar|Flare Blitz|p1a: Ursaluna
+|-damage|p1a: Ursaluna|47/100 brn
+|-damage|p2a: Incineroar|74/100|[from] Recoil
+|move|p1b: Incineroar|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|63/100
+|
+|t:|1750709672
+|switch|p1b: Lunala|Lunala, L50, tera:Fairy|86/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|41/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Miurez has 30 seconds left.
+|
+|t:|1750709702
+|move|p1a: Ursaluna|Facade|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|18/100
+|move|p2b: Lunala|Expanding Force|p1a: Ursaluna
+|-damage|p1a: Ursaluna|5/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1750709716
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|5
+|inactive|Kampfstube has 30 seconds left.
+|
+|t:|1750709747
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p1a: Miraidon|Calm Mind|p1a: Miraidon
+|-boost|p1a: Miraidon|spa|1
+|-boost|p1a: Miraidon|spd|1
+|
+|-weather|none
+|-end|p2a: Flutter Mane|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750709753
+|switch|p2b: Koraidon|Koraidon, L50|72/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|Kampfstube has 30 seconds left.
+|
+|t:|1750709778
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2a: Flutter Mane|Moonblast|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|move|p2b: Koraidon|Flare Blitz|p1b: Lunala
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-damage|p2b: Koraidon|35/100|[from] Recoil
+|-damage|p2b: Koraidon|25/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750709791
+|switch|p1b: Incineroar|Incineroar, L50, M|76/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2b: Koraidon|atk|1
+|turn|7
+|inactive|Kampfstube has 30 seconds left.
+|
+|t:|1750709821
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p2a: Flutter Mane|Moonblast|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|43/100
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Flutter Mane|54/100
+|move|p1b: Incineroar|Knock Off|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|-enditem|p2a: Flutter Mane|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Miraidon|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Kampfstube has 30 seconds left.
+|inactive|Miurez has 30 seconds left.
+|
+|t:|1750709861
+|move|p2b: Koraidon|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Incineroar
+|-damage|p2b: Koraidon|15/100|[from] item: Life Orb
+|move|p1a: Miraidon|Electro Drift|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|win|Kampfstube
+|raw|Kampfstube's rating: 1400 &rarr; <strong>1423</strong><br />(+23 for winning)
+|raw|Miurez's rating: 1444 &rarr; <strong>1421</strong><br />(-23 for losing)

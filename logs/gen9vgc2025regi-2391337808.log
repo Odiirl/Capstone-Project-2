@@ -1,0 +1,157 @@
+|j|☆tzfmndf03
+|j|☆braindeadd
+|t:|1750838967
+|gametype|doubles
+|player|p1|tzfmndf03|169|1532
+|player|p2|braindeadd|101|1578
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Muk-Alola, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by braindeadd)
+|
+|t:|1750838975
+|start
+|switch|p1a: God Call Me God|Muk-Alola, L50, F|100/100
+|switch|p1b: God|Smeargle, L50, F|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: God Call Me God|atk|1
+|-unboost|p1b: God|atk|1
+|turn|1
+|
+|t:|1750838988
+|-terastallize|p2b: Incineroar|Ghost
+|move|p1b: God|Fake Out|p2b: Incineroar
+|-immune|p2b: Incineroar
+|move|p2a: Tornadus|Taunt|p1b: God
+|-start|p1b: God|move: Taunt
+|move|p2b: Incineroar|Taunt|p1a: God Call Me God
+|-start|p1a: God Call Me God|move: Taunt
+|cant|p1a: God Call Me God|move: Taunt|Minimize
+|
+|-ability|p1b: God|Moody|boost
+|-boost|p1b: God|spd|2
+|-unboost|p1b: God|def|1
+|upkeep
+|turn|2
+|
+|t:|1750839007
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: God|Nuzzle|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|96/100
+|move|p2a: Tornadus|Bleakwind Storm|p1b: God|[spread] p1a,p1b
+|-damage|p1a: God Call Me God|74/100
+|-damage|p1b: God|59/100
+|-unboost|p1b: God|spe|1
+|move|p1a: God Call Me God|Knock Off|p2b: Kyogre
+|-damage|p2b: Kyogre|77/100
+|-enditem|p2b: Kyogre|Choice Scarf|[from] move: Knock Off|[of] p1a: God Call Me God
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1b: God|Moody|boost
+|-boost|p1b: God|def|2
+|-unboost|p1b: God|spa|1
+|upkeep
+|turn|3
+|inactive|tzfmndf03 has 30 seconds left.
+|inactive|braindeadd has 30 seconds left.
+|
+|t:|1750839033
+|move|p2b: Kyogre|Origin Pulse|p1a: God Call Me God|[spread] p1b
+|-miss|p2b: Kyogre|p1a: God Call Me God
+|-damage|p1b: God|0 fnt
+|faint|p1b: God
+|-ability|p1a: God Call Me God|Moody|[from] ability: Power of Alchemy|[of] p1b: God
+|move|p2a: Tornadus|Bleakwind Storm|p1a: God Call Me God
+|-damage|p1a: God Call Me God|39/100
+|-unboost|p1a: God Call Me God|spe|1
+|move|p1a: God Call Me God|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|70/100
+|-enditem|p2a: Tornadus|Covert Cloak|[from] move: Knock Off|[of] p1a: God Call Me God
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: God Call Me God|move: Taunt
+|-ability|p1a: God Call Me God|Moody|boost
+|-boost|p1a: God Call Me God|spe|2
+|-unboost|p1a: God Call Me God|atk|1
+|upkeep
+|
+|t:|1750839048
+|switch|p1b: NUCLEAR|Calyrex-Shadow, L50|100/100
+|-ability|p1b: NUCLEAR|As One
+|-ability|p1b: NUCLEAR|Unnerve
+|turn|4
+|
+|t:|1750839072
+|-terastallize|p1b: NUCLEAR|Grass
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: braindeadd|move: Tailwind
+|move|p2b: Kyogre|Water Spout|p1b: NUCLEAR|[spread] p1a,p1b
+|-resisted|p1b: NUCLEAR
+|-damage|p1a: God Call Me God|0 fnt
+|-damage|p1b: NUCLEAR|65/100
+|faint|p1a: God Call Me God
+|move|p1b: NUCLEAR|Astral Barrage|p2a: Tornadus|[spread] p2a,p2b
+|-damage|p2a: Tornadus|17/100
+|-damage|p2b: Kyogre|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839078
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Kyogre|[from] ability: Imposter
+|turn|5
+|
+|t:|1750839097
+|move|p1b: NUCLEAR|Protect|p1b: NUCLEAR
+|-singleturn|p1b: NUCLEAR|Protect
+|move|p2b: Kyogre|Ice Beam|p1b: NUCLEAR
+|-activate|p1b: NUCLEAR|move: Protect
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Ditto|[spread] p1a
+|-activate|p1b: NUCLEAR|move: Protect
+|-damage|p1a: Ditto|71/100
+|move|p1a: Ditto|Water Spout|p2b: Kyogre|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Kyogre|10/100
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750839116
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|6
+|-message|tzfmndf03 forfeited.
+|
+|win|braindeadd
+|raw|tzfmndf03's rating: 1532 &rarr; <strong>1515</strong><br />(-17 for losing)
+|raw|braindeadd's rating: 1578 &rarr; <strong>1595</strong><br />(+17 for winning)
+|l|☆tzfmndf03
+|player|p1|
+|l|☆braindeadd
+|player|p2|

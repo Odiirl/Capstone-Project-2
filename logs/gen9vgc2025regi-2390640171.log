@@ -1,0 +1,175 @@
+|j|☆mauveracor
+|j|☆shuijun3烈空坐侠
+|t:|1750740754
+|gametype|doubles
+|player|p1|mauveracor|101|1304
+|player|p2|shuijun3烈空坐侠|iono|1426
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grafaiai, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mauveracor)
+|inactive|mauveracor has 60 seconds left.
+|
+|t:|1750740792
+|start
+|switch|p1a: Grafaiai|Grafaiai, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Grafaiai|atk|1
+|-unboost|p1b: Lunala|atk|1
+|turn|1
+|
+|t:|1750740805
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p1a: Grafaiai|Doodle|p2a: Dragonite
+|-endability|p1a: Grafaiai|Prankster|[from] move: Doodle
+|-ability|p1a: Grafaiai|Multiscale|[from] move: Doodle
+|-endability|p1b: Zacian|Intrepid Sword|[from] move: Doodle
+|-ability|p1b: Zacian|Multiscale|[from] move: Doodle
+|move|p2a: Dragonite|Scale Shot|p1b: Zacian
+|-immune|p1b: Zacian
+|move|p2b: Incineroar|Knock Off|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|95/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750740828
+|-terastallize|p1b: Zacian|Fighting
+|move|p1b: Zacian|Sacred Sword|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1a: Grafaiai|Scary Face|p2a: Dragonite
+|-unboost|p2a: Dragonite|spe|2
+|move|p2a: Dragonite|Scale Shot|p1a: Grafaiai
+|-damage|p1a: Grafaiai|89/100
+|-damage|p1a: Grafaiai|68/100
+|-damage|p1a: Grafaiai|46/100
+|-damage|p1a: Grafaiai|23/100
+|-damage|p1a: Grafaiai|1/100
+|-hitcount|p1a: Grafaiai|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1750740846
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750740858
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1b: Zacian
+|-damage|p1b: Zacian|50/100
+|move|p1b: Zacian|Behemoth Blade|p2a: Dragonite
+|-damage|p2a: Dragonite|37/100
+|move|p2b: Zamazenta|Body Press|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|move|p1a: Grafaiai|Doodle|p2b: Zamazenta
+|-endability|p1a: Grafaiai|Multiscale|[from] move: Doodle
+|-ability|p1a: Grafaiai|Dauntless Shield|boost
+|-boost|p1a: Grafaiai|def|1
+|-ability|p1a: Grafaiai|Dauntless Shield|[from] move: Doodle
+|
+|upkeep
+|
+|t:|1750740870
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750740886
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Zamazenta|Behemoth Bash|p1a: Amoonguss
+|-damage|p1a: Amoonguss|55/100
+|-damage|p2b: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Dragonite|[miss]
+|-miss|p1b: Lunala|p2a: Dragonite
+|move|p2a: Dragonite|Scale Shot|p1b: Lunala
+|-damage|p1b: Lunala|95/100
+|-damage|p1b: Lunala|84/100
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|66/100
+|-damage|p1b: Lunala|54/100
+|-damage|p1b: Lunala|41/100
+|-hitcount|p1b: Lunala|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|5
+|inactive|mauveracor has 30 seconds left.
+|inactive|shuijun3烈空坐侠 has 30 seconds left.
+|inactive|mauveracor has 20 seconds left.
+|inactive|mauveracor has 15 seconds left.
+|
+|t:|1750740928
+|move|p2b: Zamazenta|Behemoth Bash|p1a: Amoonguss
+|-damage|p1a: Amoonguss|10/100
+|-damage|p2b: Zamazenta|67/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1b: Lunala|Moonblast|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p1a: Amoonguss|Pollen Puff|p1b: Lunala
+|-heal|p1b: Lunala|91/100
+|
+|upkeep
+|
+|t:|1750740936
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+|
+|t:|1750740951
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2b: Zamazenta|Behemoth Bash|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2b: Zamazenta|50/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|move|p1b: Lunala|Moongeist Beam|p2a: Kyogre
+|-damage|p2a: Kyogre|48/100
+|move|p2a: Kyogre|Water Spout|p1b: Lunala
+|-damage|p1b: Lunala|44/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|mauveracor forfeited.
+|
+|win|shuijun3烈空坐侠
+|raw|mauveracor's rating: 1304 &rarr; <strong>1291</strong><br />(-13 for losing)
+|raw|shuijun3烈空坐侠's rating: 1426 &rarr; <strong>1439</strong><br />(+13 for winning)
+|l|☆mauveracor
+|player|p1|
+|l|☆shuijun3烈空坐侠
+|player|p2|

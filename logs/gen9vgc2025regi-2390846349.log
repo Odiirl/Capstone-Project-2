@@ -1,0 +1,157 @@
+|j|☆JHGVCYFGUHIJ
+|j|☆MylestotheGallon
+|t:|1750775105
+|gametype|doubles
+|player|p1|JHGVCYFGUHIJ|preschooler|1052
+|player|p2|MylestotheGallon|barry|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Squawkabilly, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+MylestotheGallon has agreed to open team sheets.
+|
+|t:|1750775136
+|start
+|switch|p1a: Squawkabilly|Squawkabilly, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Kaiju|Koraidon, L50|100/100
+|switch|p2b: Mr Mitts|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Squawkabilly|Intimidate|boost
+|-unboost|p2a: Kaiju|atk|1
+|-unboost|p2b: Mr Mitts|atk|1
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Kaiju
+|-activate|p2a: Kaiju|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750775156
+|move|p2b: Mr Mitts|Fake Out|p1a: Squawkabilly
+|-damage|p1a: Squawkabilly|88/100
+|cant|p1a: Squawkabilly|flinch
+|move|p2a: Kaiju|Flame Charge|p1b: Lunala
+|-damage|p1b: Lunala|87/100
+|-boost|p2a: Kaiju|spe|1
+|-damage|p2a: Kaiju|91/100|[from] item: Life Orb
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Mr Mitts
+|-damage|p2b: Mr Mitts|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750775182
+|move|p2b: Mr Mitts|Light Screen|p2b: Mr Mitts
+|-sidestart|p2: MylestotheGallon|move: Light Screen
+|move|p2a: Kaiju|Flare Blitz|p1b: Lunala
+|-damage|p1b: Lunala|19/100
+|-damage|p2a: Kaiju|60/100|[from] Recoil
+|-damage|p2a: Kaiju|51/100|[from] item: Life Orb
+|move|p1a: Squawkabilly|Parting Shot|p2a: Kaiju
+|-unboost|p2a: Kaiju|atk|1
+|-unboost|p2a: Kaiju|spa|1
+|
+|t:|1750775191
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750775212
+|switch|p2a: Ross|Urshifu, L50, F|100/100
+|move|p2b: Mr Mitts|Reflect|p2b: Mr Mitts
+|-sidestart|p2: MylestotheGallon|Reflect
+|move|p1a: Calyrex|Glacial Lance|p2b: Mr Mitts|[spread] p2a,p2b
+|-damage|p2a: Ross|66/100
+|-damage|p2b: Mr Mitts|0 fnt
+|faint|p2b: Mr Mitts
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Lunala|Moongeist Beam|p2a: Ross
+|-resisted|p2a: Ross
+|-damage|p2a: Ross|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750775231
+|switch|p2b: Michelangelo|Terapagos, L50, M|100/100
+|-activate|p2b: Michelangelo|ability: Tera Shift
+|detailschange|p2b: Michelangelo|Terapagos-Terastal, L50, M
+|-heal|p2b: Michelangelo|100/100|[silent]
+|turn|4
+|
+|t:|1750775248
+|-terastallize|p1a: Calyrex|Fire
+|-terastallize|p2b: Michelangelo|Stellar
+|detailschange|p2b: Michelangelo|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Michelangelo|100/100|[silent]
+|-ability|p2b: Michelangelo|Teraform Zero
+|-weather|none
+|move|p1a: Calyrex|Glacial Lance|p2a: Ross|[spread] p2a,p2b
+|-crit|p2b: Michelangelo
+|-damage|p2a: Ross|0 fnt
+|-damage|p2b: Michelangelo|29/100
+|faint|p2a: Ross
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|move|p2b: Michelangelo|Tera Starstorm|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|27/100
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|upkeep
+|
+|t:|1750775267
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Kaiju|Koraidon, L50|51/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Kaiju
+|-activate|p2a: Kaiju|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750775288
+|move|p1a: Calyrex|Glacial Lance|p2a: Kaiju|[spread] p2a,p2b
+|-supereffective|p2a: Kaiju
+|-crit|p2a: Kaiju
+|-damage|p2a: Kaiju|0 fnt
+|-damage|p2b: Michelangelo|0 fnt
+|faint|p2a: Kaiju
+|faint|p2b: Michelangelo
+|detailschange|p2: Michelangelo|Terapagos, L50, M|[silent]
+|
+|win|JHGVCYFGUHIJ
+|raw|JHGVCYFGUHIJ's rating: 1052 &rarr; <strong>1092</strong><br />(+40 for winning)
+|raw|MylestotheGallon's rating: 1139 &rarr; <strong>1108</strong><br />(-31 for losing)
+|c|☆MylestotheGallon|2 crits is nasty work gg
+|l|☆JHGVCYFGUHIJ
+|player|p1|
+|l|☆MylestotheGallon
+|player|p2|

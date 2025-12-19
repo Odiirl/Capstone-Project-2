@@ -1,0 +1,177 @@
+|j|☆Dillbangaaa
+|j|☆damuBOSS
+|t:|1750825691
+|gametype|doubles
+|player|p1|Dillbangaaa|swimmerf-gen4dp|1162
+|player|p2|damuBOSS|steven|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750825710
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750825752
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Koraidon
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Miraidon
+|-damage|p2a: Miraidon|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825766
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|turn|2
+|
+|t:|1750825789
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Chi-Yu|atk|1
+|-unboost|p1b: Lunala|atk|1
+|-terastallize|p2b: Calyrex|Fairy
+|move|p1a: Chi-Yu|Heat Wave|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|68/100
+|-damage|p2b: Calyrex|48/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825807
+|switch|p2b: Miraidon|Miraidon, L50|49/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750825827
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Ursaluna
+|-damage|p1a: Ursaluna|92/100
+|move|p2b: Miraidon|Volt Switch|p1b: Lunala
+|-damage|p1b: Lunala|76/100
+|
+|t:|1750825840
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|100/100|[from] Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|98/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|74/100|[from] Grassy Terrain
+|-heal|p1b: Lunala|82/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750825870
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2b: Rillaboom|Wood Hammer|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Incineroar|80/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750825882
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|5
+|
+|t:|1750825909
+|move|p1a: Ursaluna|Facade|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Incineroar|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100 brn
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Chi-Yu|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|41/100
+|
+|-weather|none
+|-heal|p1a: Ursaluna|74/100 brn|[from] Grassy Terrain
+|-heal|p2a: Incineroar|47/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1750825925
+|switch|p2b: Miraidon|Miraidon, L50|49/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750825942
+|move|p1a: Ursaluna|Headlong Rush|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Miraidon
+|move|p2a: Incineroar|Knock Off|p1b: Chi-Yu
+|-resisted|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|70/100
+|-enditem|p1b: Chi-Yu|Choice Scarf|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Chi-Yu|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|
+|-damage|p1a: Ursaluna|62/100 brn|[from] brn
+|upkeep
+|turn|7
+|-message|damuBOSS forfeited.
+|
+|win|Dillbangaaa
+|raw|Dillbangaaa's rating: 1162 &rarr; <strong>1191</strong><br />(+29 for winning)
+|raw|damuBOSS's rating: 1224 &rarr; <strong>1195</strong><br />(-29 for losing)
+|l|☆damuBOSS
+|player|p2|
+|l|☆Dillbangaaa
+|player|p1|

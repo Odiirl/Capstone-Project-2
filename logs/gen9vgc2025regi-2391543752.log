@@ -1,0 +1,217 @@
+|j|☆pigs2fly
+|j|☆a2
+|t:|1750868368
+|gametype|doubles
+|player|p1|pigs2fly|dexio|1589
+|player|p2|a2|dawn-masters|1711
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a2)
+|j| yeohgi2
+|inactive|a2 has 60 seconds left.
+|
+|t:|1750868404
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|1
+|inactive|a2 has 30 seconds left.
+|
+|t:|1750868436
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Annihilape|Final Gambit|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p1b: Zacian|Behemoth Blade|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p2b: Ogerpon|Ivy Cudgel|p1b: Zacian|[anim] Ivy Cudgel Fire
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|28/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750868460
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1a: Annihilape|Final Gambit|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p1a: Annihilape
+|faint|p2b: Ogerpon
+|move|p1b: Zacian|Play Rough|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|
+|upkeep
+|
+|t:|1750868472
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Zacian|atk|1
+|turn|3
+|
+|t:|1750868482
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p2a: Miraidon|Parabolic Charge|p1b: Zacian|[spread] p2b
+|-activate|p1a: Dondozo|move: Protect
+|-activate|p1b: Zacian|move: Protect
+|-damage|p2b: Incineroar|24/100
+|-heal|p2a: Miraidon|75/100|[from] drain|[of] p2b: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1750868502
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|-terastallize|p1a: Dondozo|Grass
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Incineroar|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2a: Miraidon|move: Protect
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750868517
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|turn|5
+|
+|t:|1750868536
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Miraidon|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2b: Lunala|Moongeist Beam|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750868548
+|move|p2a: Miraidon|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|81/100
+|move|p1a: Dondozo|Order Up|p2b: Lunala
+|-damage|p2b: Lunala|89/100
+|-boost|p1a: Dondozo|atk|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Dondozo
+|-damage|p1a: Dondozo|54/100
+|
+|-heal|p1a: Dondozo|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750868566
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Miraidon|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2b: Lunala|Moongeist Beam|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750868582
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Lunala|[spread] p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2a: Miraidon|move: Protect
+|-damage|p2b: Lunala|59/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Dondozo
+|-damage|p1a: Dondozo|41/100
+|
+|-heal|p1a: Dondozo|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750868595
+|move|p2a: Miraidon|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|27/100
+|move|p1a: Dondozo|Wave Crash|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-damage|p1a: Dondozo|5/100|[from] Recoil
+|move|p2b: Lunala|Moongeist Beam|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1750868600
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|28/100
+|turn|10
+|
+|t:|1750868611
+|move|p1a: Zacian|Behemoth Blade|p2b: Lunala
+|-damage|p2b: Lunala|33/100
+|move|p1b: Tatsugiri|Dragon Pulse|p2b: Lunala
+|-damage|p2b: Lunala|2/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|turn|11
+|
+|t:|1750868628
+|move|p1b: Tatsugiri|Dragon Pulse|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|win|pigs2fly
+|raw|pigs2fly's rating: 1589 &rarr; <strong>1616</strong><br />(+27 for winning)
+|raw|a2's rating: 1711 &rarr; <strong>1684</strong><br />(-27 for losing)
+|l|☆a2
+|player|p2|
+|l|☆pigs2fly
+|player|p1|
+|l| yeohgi2

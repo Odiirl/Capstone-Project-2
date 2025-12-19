@@ -1,0 +1,199 @@
+|j|☆SparkyGun96
+|j|☆UtterlyIncapable
+|t:|1750841049
+|gametype|doubles
+|player|p1|SparkyGun96|169|1099
+|player|p2|UtterlyIncapable|firebreather|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Riolu, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SparkyGun96)
+|
+|t:|1750841067
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750841085
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Close Combat|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|-damage|p2a: Koraidon|74/100|[from] item: Life Orb
+|move|p2b: Clefairy|Dazzling Gleam|p1a: Calyrex
+|-damage|p1a: Calyrex|87/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750841099
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|turn|2
+|
+|t:|1750841110
+|-terastallize|p1a: Calyrex|Fairy
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Clefairy|After You|p2a: Koraidon
+|-activate|p2a: Koraidon|move: After You
+|move|p2a: Koraidon|Close Combat|p1b: Torkoal
+|-damage|p1b: Torkoal|14/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|64/100|[from] item: Life Orb
+|move|p1b: Torkoal|Eruption|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|54/100
+|-damage|p2b: Clefairy|90/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|14/100
+|-damage|p2b: Clefairy|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750841128
+|move|p2b: Clefairy|After You|p2a: Koraidon
+|-activate|p2a: Koraidon|move: After You
+|move|p2a: Koraidon|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Koraidon|0 fnt|[from] Recoil
+|faint|p2a: Koraidon
+|move|p1b: Torkoal|Eruption|p2b: Clefairy
+|-damage|p2b: Clefairy|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750841138
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750841147
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|87/100
+|-damage|p2b: Clefairy|7/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-crit|p1b: Torkoal
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Smeargle|Spore|p2b: Clefairy
+|-status|p2b: Clefairy|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750841160
+|cant|p2b: Clefairy|slp
+|move|p2a: Calyrex|High Horsepower|p1a: Smeargle|[miss]
+|-miss|p2a: Calyrex|p1a: Smeargle
+|move|p1a: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|c|☆UtterlyIncapable|ok dang
+|c|☆UtterlyIncapable|i messed up
+|
+|t:|1750841178
+|-curestatus|p2b: Clefairy|slp|[msg]
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1a: Smeargle|Decorate|p2b: Clefairy
+|-boost|p2b: Clefairy|atk|2
+|-boost|p2b: Clefairy|spa|2
+|cant|p2a: Calyrex|slp
+|
+|upkeep
+|turn|7
+|c|☆SparkyGun96|i have no damaging moves lmao
+|c|☆UtterlyIncapable|yo...
+|
+|t:|1750841198
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Smeargle|Spore|p2b: Clefairy
+|-status|p2b: Clefairy|slp|[from] move: Spore
+|cant|p2b: Clefairy|slp
+|
+|upkeep
+|turn|8
+|c|☆UtterlyIncapable|sweeper clefairy
+|c|☆UtterlyIncapable|lets go
+|c|☆SparkyGun96|lol
+|
+|t:|1750841214
+|move|p1a: Smeargle|Spore|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Spore
+|-curestatus|p2b: Clefairy|slp|[msg]
+|move|p2b: Clefairy|After You|p2a: Calyrex
+|-activate|p2a: Calyrex|move: After You
+|cant|p2a: Calyrex|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1750841223
+|move|p1a: Smeargle|Decorate|p1: Torkoal|[notarget]
+|-fail|p1a: Smeargle
+|cant|p2a: Calyrex|slp
+|move|p2b: Clefairy|Dazzling Gleam|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|win|UtterlyIncapable
+|raw|SparkyGun96's rating: 1099 &rarr; <strong>1076</strong><br />(-23 for losing)
+|raw|UtterlyIncapable's rating: 1119 &rarr; <strong>1143</strong><br />(+24 for winning)
+|l|☆SparkyGun96
+|player|p1|
+|c|☆UtterlyIncapable|gg man

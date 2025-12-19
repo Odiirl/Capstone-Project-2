@@ -1,0 +1,131 @@
+|j|☆fangyusuhe
+|j|☆Grade a type b
+|t:|1750750403
+|gametype|doubles
+|player|p1|fangyusuhe|dawn|1524
+|player|p2|Grade a type b|169|1531
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grade a type b)
+|
+|t:|1750750429
+|start
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Dondozo|Dondozo, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|-unboost|p1b: Dondozo|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750750440
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Grade a type b|move: Tailwind
+|move|p2a: Incineroar|Parting Shot|p1b: Dondozo
+|-unboost|p1b: Dondozo|atk|1
+|-unboost|p1b: Dondozo|spa|1
+|
+|t:|1750750446
+|switch|p2a: Rápido|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Rápido
+|-activate|p2a: Rápido|Orichalcum Pulse|[source]
+|move|p1a: Ting-Lu|Sand Tomb|p2a: Rápido
+|-damage|p2a: Rápido|92/100
+|-activate|p2a: Rápido|move: Sand Tomb|[of] p1a: Ting-Lu
+|move|p1b: Dondozo|Yawn|p2b: Tornadus
+|-start|p2b: Tornadus|move: Yawn|[of] p1b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Rápido|79/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1750750458
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Rápido|Protect|p2a: Rápido
+|-singleturn|p2a: Rápido|Protect
+|move|p1a: Ting-Lu|Protect|p1a: Ting-Lu
+|-singleturn|p1a: Ting-Lu|Protect
+|move|p1b: Dondozo|Protect||[still]
+|-fail|p1b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Rápido|67/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|3
+|inactive|Grade a type b has 30 seconds left.
+|inactive|Grade a type b has 20 seconds left.
+|
+|t:|1750750496
+|-terastallize|p1a: Ting-Lu|Fairy
+|move|p2a: Rápido|Close Combat|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|79/100
+|-unboost|p2a: Rápido|def|1
+|-unboost|p2a: Rápido|spd|1
+|-damage|p2a: Rápido|50/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|move|p2b: Ursaluna|Blood Moon|p1b: Dondozo
+|-damage|p1b: Dondozo|50/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Sand Tomb|p2b: Ursaluna
+|-damage|p2b: Ursaluna|84/100
+|-activate|p2b: Ursaluna|move: Sand Tomb|[of] p1a: Ting-Lu
+|move|p1b: Dondozo|Yawn|p2a: Rápido
+|-start|p2a: Rápido|move: Yawn|[of] p1b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|56/100|[from] item: Leftovers
+|-damage|p2a: Rápido|38/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Ursaluna|72/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1750750518
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Rápido|Flare Blitz|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|38/100
+|-damage|p2a: Rápido|22/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|-damage|p2a: Rápido|2/100|[from] Recoil
+|move|p1a: Ting-Lu|Ruination|p2a: Rápido
+|-damage|p2a: Rápido|1/100
+|move|p1b: Dondozo|Fissure|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|62/100|[from] item: Leftovers
+|-damage|p2a: Rápido|0 fnt|[from] move: Sand Tomb|[partiallytrapped]
+|faint|p2a: Rápido
+|-damage|p2b: Ursaluna|60/100|[from] move: Sand Tomb|[partiallytrapped]
+|-sideend|p2: Grade a type b|move: Tailwind
+|upkeep
+|-message|Grade a type b forfeited.
+|
+|win|fangyusuhe
+|raw|fangyusuhe's rating: 1524 &rarr; <strong>1544</strong><br />(+20 for winning)
+|raw|Grade a type b's rating: 1531 &rarr; <strong>1511</strong><br />(-20 for losing)
+|l|☆Grade a type b
+|player|p2|
+|l|☆fangyusuhe
+|player|p1|

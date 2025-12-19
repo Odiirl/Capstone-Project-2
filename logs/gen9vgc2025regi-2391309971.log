@@ -1,0 +1,171 @@
+|j|☆GranolaBear
+|j|☆izerial
+|t:|1750833340
+|gametype|doubles
+|player|p1|GranolaBear|bugcatcher-gen4dp|1326
+|player|p2|izerial|bellelba|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Vikavolt, L50, M|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750833403
+|start
+|switch|p1a: WAR|Murkrow, L50, F|100/100
+|switch|p1b: FAMINE|Lunala, L50, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750833448
+|-terastallize|p2b: Calyrex|Fairy
+|-terastallize|p1b: FAMINE|Fire
+|move|p1a: WAR|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p2a: Grimmsnarl|Sucker Punch|p1b: FAMINE
+|-damage|p1b: FAMINE|88/100
+|move|p1b: FAMINE|Meteor Beam||[still]
+|-prepare|p1b: FAMINE|Meteor Beam
+|-boost|p1b: FAMINE|spa|1
+|-enditem|p1b: FAMINE|Power Herb
+|-anim|p1b: FAMINE|Meteor Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|46/100
+|move|p2b: Calyrex|Astral Barrage|p1b: FAMINE|[spread] p1a,p1b
+|-resisted|p1a: WAR
+|-damage|p1a: WAR|10/100
+|-damage|p1b: FAMINE|42/100
+|-damage|p2b: Calyrex|91/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1750833516
+|move|p1a: WAR|Tailwind|p1a: WAR
+|-sidestart|p1: GranolaBear|move: Tailwind
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: FAMINE
+|-status|p1b: FAMINE|par
+|move|p1b: FAMINE|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|4/100 par
+|move|p2b: Calyrex|Astral Barrage|p1a: WAR|[spread] p1a,p1b
+|-resisted|p1a: WAR
+|-damage|p1a: WAR|0 fnt
+|-damage|p1b: FAMINE|0 fnt
+|faint|p1a: WAR
+|faint|p1b: FAMINE
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|2
+|-damage|p2b: Calyrex|0 fnt|[from] item: Life Orb
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750833536
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1a: PROPHET|Sableye, L50, M|100/100
+|switch|p1b: ABBADON|Groudon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: ABBADON
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750833559
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: PROPHET|Gravity|p1a: PROPHET
+|-fieldstart|move: Gravity
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: izerial|Reflect
+|move|p1b: ABBADON|Precipice Blades|p2b: Zamazenta|[spread] 
+|-activate|p2a: Grimmsnarl|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750833574
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: PROPHET|atk|1
+|-unboost|p1b: ABBADON|atk|1
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: PROPHET|Disable|p2b: Zamazenta
+|-start|p2b: Zamazenta|Disable|Wide Guard
+|move|p1b: ABBADON|Precipice Blades|p2a: Incineroar|[spread] 
+|-activate|p2a: Incineroar|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750833597
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|46/100
+|move|p2a: Incineroar|Fake Out|p1b: ABBADON
+|-damage|p1b: ABBADON|89/100
+|move|p1a: PROPHET|Quash|p2b: Grimmsnarl
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Grimmsnarl
+|cant|p1b: ABBADON|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: GranolaBear|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1750833631
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: ABBADON
+|-damage|p1b: ABBADON|66/100
+|move|p1a: PROPHET|Disable|p2a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Incineroar
+|move|p1b: ABBADON|Precipice Blades|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|27/100
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Incineroar|Parting Shot|p1b: ABBADON
+|-unboost|p1b: ABBADON|atk|1
+|-unboost|p1b: ABBADON|spa|1
+|
+|t:|1750833644
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750833649
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|27/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: PROPHET|atk|1
+|-unboost|p1b: ABBADON|atk|1
+|turn|7
+|-message|GranolaBear forfeited.
+|
+|win|izerial
+|raw|GranolaBear's rating: 1326 &rarr; <strong>1300</strong><br />(-26 for losing)
+|raw|izerial's rating: 1212 &rarr; <strong>1245</strong><br />(+33 for winning)
+|l|☆GranolaBear
+|player|p1|
+|l|☆izerial
+|player|p2|

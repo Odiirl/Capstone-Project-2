@@ -1,0 +1,171 @@
+|j|☆mlm2017
+|j|☆DBWaffles
+|t:|1750713768
+|gametype|doubles
+|player|p1|mlm2017|170|1323
+|player|p2|DBWaffles|102|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Masquerain, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DBWaffles)
+|inactive|mlm2017 also wants the timer to be on.
+|inactive|mlm2017 has 60 seconds left.
+|
+|t:|1750713800
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Masquerain|Masquerain, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|turn|1
+|
+|t:|1750713815
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|92/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Raging Bolt|Thunderbolt|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|faint|p2a: Masquerain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713824
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-end|p1b: Raging Bolt|Protosynthesis
+|turn|2
+|
+|t:|1750713840
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Koraidon|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|87/100
+|
+|t:|1750713847
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p1b: Raging Bolt|Thunderbolt|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Raging Bolt
+|-unboost|p1b: Raging Bolt|atk|1
+|-unboost|p1b: Raging Bolt|spa|1
+|
+|t:|1750713856
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750713865
+|switch|p2a: Incineroar|Incineroar, L50, M|87/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1a: Chien-Pao|Ice Spinner|p2b: Miraidon
+|-damage|p2b: Miraidon|49/100
+|-fieldend|move: Electric Terrain
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Raging Bolt|[spread] p1a,p1b
+|-supereffective|p1a: Chien-Pao
+|-supereffective|p1b: Raging Bolt
+|-damage|p1a: Chien-Pao|0 fnt
+|-damage|p1b: Raging Bolt|41/100
+|faint|p1a: Chien-Pao
+|move|p1b: Raging Bolt|Thunderbolt|p2a: Incineroar
+|-damage|p2a: Incineroar|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750713886
+|switch|p1a: Koraidon|Koraidon, L50|92/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750713909
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|83/100
+|move|p1b: Raging Bolt|Thunderclap|p2b: Miraidon
+|-damage|p2b: Miraidon|15/100
+|cant|p1a: Koraidon|flinch
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-supereffective|p1b: Raging Bolt
+|-damage|p1a: Koraidon|58/100
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713920
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750713925
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1a: Koraidon|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Incineroar
+|move|p1b: Calyrex|Astral Barrage|p2b: Kyogre
+|-damage|p2b: Kyogre|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750713928
+|switch|p2a: Miraidon|Miraidon, L50, tera:Fairy|15/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|-message|DBWaffles forfeited.
+|
+|win|mlm2017
+|raw|mlm2017's rating: 1323 &rarr; <strong>1339</strong><br />(+16 for winning)
+|raw|DBWaffles's rating: 1249 &rarr; <strong>1229</strong><br />(-20 for losing)
+|l|☆DBWaffles
+|player|p2|
+|l|☆mlm2017
+|player|p1|

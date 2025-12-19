@@ -1,0 +1,168 @@
+|j|☆jzbnaruto
+|j|☆chapino
+|t:|1750831330
+|gametype|doubles
+|player|p1|jzbnaruto|170|1124
+|player|p2|chapino|chuck|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Phantump, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750831363
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Phantump|Phantump, L50, M, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-item|p1a: Kingambit|Black Belt|[from] ability: Frisk|[of] p2b: Phantump
+|-item|p1b: Walking Wake|Expert Belt|[from] ability: Frisk|[of] p2b: Phantump
+|turn|1
+|
+|t:|1750831385
+|move|p2b: Phantump|Ally Switch|p2b: Phantump
+|swap|p2b: Phantump|0|[from] move: Ally Switch
+|move|p1b: Walking Wake|Flamethrower|p2a: Phantump
+|-supereffective|p2a: Phantump
+|-damage|p2a: Phantump|14/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|38/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750831414
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|switch|p1b: Scrafty|Scrafty, L50, F|100/100
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Phantump|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|-terastallize|p2b: Calyrex|Water
+|move|p1a: Kingambit|Sucker Punch|p2b: Calyrex
+|-damage|p2b: Calyrex|13/100
+|move|p2a: Phantump|Forest's Curse|p1a: Kingambit
+|-start|p1a: Kingambit|typeadd|Grass|[from] move: Forest's Curse
+|move|p2b: Calyrex|Glacial Lance|p1b: Scrafty|[spread] p1a,p1b
+|-damage|p1a: Kingambit|64/100
+|-damage|p1b: Scrafty|51/100
+|
+|-heal|p1b: Scrafty|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750831447
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Phantump|Forest's Curse|p1b: Scrafty
+|-start|p1b: Scrafty|typeadd|Grass|[from] move: Forest's Curse
+|move|p1b: Scrafty|Knock Off|p2a: Phantump
+|-supereffective|p2a: Phantump
+|-damage|p2a: Phantump|0 fnt
+|-enditem|p2a: Phantump|Eviolite|[from] move: Knock Off|[of] p1b: Scrafty
+|faint|p2a: Phantump
+|
+|-heal|p1b: Scrafty|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750831457
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1750831480
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1a: Kingambit|Flying
+|move|p2b: Calyrex|Protect||[still]
+|-fail|p2b: Calyrex
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Ursaluna|Facade|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|c|☆jzbnaruto|thats a cool tech
+|
+|t:|1750831500
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Kingambit|Sucker Punch|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Ursaluna|Facade|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750831504
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750831521
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p1b: Koraidon|Collision Course|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Kingambit|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-supereffective|p1b: Koraidon
+|-crit|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750831536
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1750831545
+|move|p1b: Walking Wake|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Walking Wake|spa|2
+|faint|p2b: Miraidon
+|
+|win|jzbnaruto
+|raw|jzbnaruto's rating: 1124 &rarr; <strong>1156</strong><br />(+32 for winning)
+|raw|chapino's rating: 1226 &rarr; <strong>1194</strong><br />(-32 for losing)
+|l|☆jzbnaruto
+|player|p1|
+|l|☆chapino
+|player|p2|

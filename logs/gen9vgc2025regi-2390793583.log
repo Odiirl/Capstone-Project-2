@@ -1,0 +1,126 @@
+|j|☆OnixBoy423
+|j|☆Skirskir
+|t:|1750768607
+|gametype|doubles
+|player|p1|OnixBoy423|169|1066
+|player|p2|Skirskir|102|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Greedent, L50, F|
+|poke|p1|Arboliva, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750768636
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Arboliva|Arboliva, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|1
+|
+|t:|1750768662
+|move|p2b: Rillaboom|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|91/100
+|cant|p1a: Groudon|flinch
+|move|p1b: Arboliva|Terrain Pulse|p2a: Calyrex
+|-damage|p2a: Calyrex|52/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-supereffective|p1b: Arboliva
+|-damage|p1a: Groudon|23/100
+|-damage|p1b: Arboliva|0 fnt
+|faint|p1b: Arboliva
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|29/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|58/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750768681
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|2
+|
+|t:|1750768700
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p1b: Zacian|Behemoth Blade|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|70/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750768714
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|turn|3
+|
+|t:|1750768735
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-terastallize|p2a: Calyrex|Fire
+|move|p1b: Zacian|Behemoth Blade|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|move|p1a: Charizard|Flamethrower|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|42/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Charizard|[spread] p1a,p1b
+|-resisted|p1b: Zacian
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1b: Zacian|65/100
+|faint|p1a: Charizard
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Zacian|71/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|48/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|54/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750768768
+|move|p1b: Zacian|Play Rough|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|31/100
+|move|p2b: Kyogre|Water Spout|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|win|Skirskir
+|raw|OnixBoy423's rating: 1066 &rarr; <strong>1051</strong><br />(-15 for losing)
+|raw|Skirskir's rating: 1156 &rarr; <strong>1175</strong><br />(+19 for winning)
+|l|☆OnixBoy423
+|player|p1|
+|l|☆Skirskir
+|player|p2|

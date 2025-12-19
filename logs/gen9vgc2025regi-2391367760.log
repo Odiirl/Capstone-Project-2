@@ -1,0 +1,175 @@
+|j|☆Agent VGD
+|j|☆ababa123456
+|t:|1750844709
+|gametype|doubles
+|player|p1|Agent VGD|camper|1305
+|player|p2|ababa123456|dawn|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Stonjourner, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750844728
+|start
+|switch|p1a: Iron Moth|Iron Moth, L50|100/100
+|switch|p1b: Stonjourner|Stonjourner, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|-unboost|p1b: Stonjourner|atk|1
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1750844750
+|move|p2a: Incineroar|Fake Out|p1b: Stonjourner
+|-resisted|p1b: Stonjourner
+|-damage|p1b: Stonjourner|97/100
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: ababa123456|move: Light Screen
+|move|p1a: Iron Moth|Fiery Dance|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|70/100
+|cant|p1b: Stonjourner|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750844775
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: ababa123456|Reflect
+|move|p1a: Iron Moth|Fiery Dance|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|38/100
+|move|p2a: Incineroar|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|93/100
+|
+|t:|1750844803
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1b: Stonjourner|Rock Slide|p2b: Grimmsnarl|[spread] p2a
+|-miss|p1b: Stonjourner|p2b: Grimmsnarl
+|-damage|p2a: Miraidon|89/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750844819
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|move|p2a: Miraidon|Electro Drift|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|move|p1b: Stonjourner|High Horsepower|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|60/100
+|
+|upkeep
+|
+|t:|1750844832
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750844846
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Koraidon
+|-status|p1a: Koraidon|par
+|move|p2a: Miraidon|Electro Drift|p1b: Stonjourner
+|-damage|p1b: Stonjourner|0 fnt
+|faint|p1b: Stonjourner
+|cant|p1a: Koraidon|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844855
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|turn|5
+|
+|t:|1750844865
+|move|p1b: Walking Wake|Protect|p1b: Walking Wake
+|-singleturn|p1b: Walking Wake|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Walking Wake
+|-activate|p1b: Walking Wake|move: Protect
+|move|p1a: Koraidon|Close Combat|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2b: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844876
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Walking Wake|atk|1
+|turn|6
+|
+|t:|1750844909
+|move|p1b: Walking Wake|Protect||[still]
+|-fail|p1b: Walking Wake
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|87/100 par
+|move|p2a: Miraidon|Electro Drift|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750844922
+|move|p1b: Walking Wake|Protect|p1b: Walking Wake
+|-singleturn|p1b: Walking Wake|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Walking Wake
+|-activate|p1b: Walking Wake|move: Protect
+|move|p2b: Incineroar|Knock Off|p1b: Walking Wake
+|-activate|p1b: Walking Wake|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750844932
+|move|p1b: Walking Wake|Protect||[still]
+|-fail|p1b: Walking Wake
+|move|p2a: Miraidon|Electro Drift|p1b: Walking Wake
+|-damage|p1b: Walking Wake|18/100
+|move|p2b: Incineroar|Knock Off|p1b: Walking Wake
+|-damage|p1b: Walking Wake|0 fnt
+|-enditem|p1b: Walking Wake|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|
+|win|ababa123456
+|raw|Agent VGD's rating: 1305 &rarr; <strong>1287</strong><br />(-18 for losing)
+|raw|ababa123456's rating: 1336 &rarr; <strong>1354</strong><br />(+18 for winning)
+|c|☆Agent VGD|Gg
+|l|☆Agent VGD
+|player|p1|

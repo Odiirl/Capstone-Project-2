@@ -1,0 +1,162 @@
+|j|☆Darweizzy
+|j|☆Zeus199
+|t:|1750800681
+|gametype|doubles
+|player|p1|Darweizzy|lucas-gen4pt|1180
+|player|p2|Zeus199|cynthia-gen4|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Toxapex, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Basculegion-F, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Drifblim, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Darweizzy)
+|
+|t:|1750800698
+|start
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Toxapex|Toxapex, L50, M|100/100
+|switch|p2a: Drifblim|Drifblim, L50, F, shiny|100/100
+|switch|p2b: Basculegion|Basculegion-F, L50, F, shiny|100/100
+|-enditem|p1a: Iron Bundle|Booster Energy
+|-activate|p1a: Iron Bundle|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Bundle|quarkdrivespe
+|turn|1
+|inactive|Zeus199 has 30 seconds left.
+|
+|t:|1750800727
+|move|p1a: Iron Bundle|Icy Wind|p2b: Basculegion|[spread] p2a,p2b
+|-supereffective|p2a: Drifblim
+|-resisted|p2b: Basculegion
+|-damage|p2a: Drifblim|58/100
+|-damage|p2b: Basculegion|90/100
+|-unboost|p2a: Drifblim|spe|1
+|-unboost|p2b: Basculegion|spe|1
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: Zeus199|move: Tailwind
+|move|p2b: Basculegion|Shadow Ball|p1b: Toxapex
+|-damage|p1b: Toxapex|51/100
+|-damage|p2b: Basculegion|80/100|[from] item: Life Orb
+|move|p1b: Toxapex|Toxic|p2b: Basculegion
+|-status|p2b: Basculegion|tox
+|
+|-heal|p1b: Toxapex|57/100|[from] item: Leftovers
+|-damage|p2b: Basculegion|74/100 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|Darweizzy has 30 seconds left.
+|inactive|Zeus199 has 30 seconds left.
+|
+|t:|1750800755
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p1a: Iron Bundle|Ice Beam|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|move|p2b: Basculegion|Shadow Ball|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|0 fnt
+|faint|p1a: Iron Bundle
+|-end|p1a: Iron Bundle|Quark Drive|[silent]
+|-damage|p2b: Basculegion|64/100 tox|[from] item: Life Orb
+|
+|-heal|p1b: Toxapex|62/100|[from] item: Leftovers
+|-damage|p2b: Basculegion|52/100 tox|[from] psn
+|upkeep
+|
+|t:|1750800774
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Groudon|Groudon, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|
+|t:|1750800796
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|-terastallize|p2a: Groudon|Fire
+|-terastallize|p1a: Calyrex|Water
+|move|p2a: Groudon|Precipice Blades|p1b: Walking Wake|[spread] p1a,p1b
+|-damage|p1a: Calyrex|69/100
+|-damage|p1b: Walking Wake|49/100
+|move|p2b: Basculegion|Shadow Ball|p1a: Calyrex
+|-damage|p1a: Calyrex|35/100
+|-damage|p2b: Basculegion|42/100 tox|[from] item: Life Orb
+|move|p1a: Calyrex|Seed Bomb|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750800818
+|switch|p2b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|turn|4
+|
+|t:|1750800840
+|move|p2a: Groudon|Precipice Blades|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|8/100
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Zeus199|move: Tailwind
+|upkeep
+|
+|t:|1750800853
+|switch|p1b: Toxapex|Toxapex, L50, M|96/100
+|turn|5
+|
+|t:|1750800869
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Groudon|Precipice Blades|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750800882
+|move|p2a: Groudon|Precipice Blades|p1b: Toxapex
+|-supereffective|p1b: Toxapex
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|
+|win|Zeus199
+|raw|Darweizzy's rating: 1180 &rarr; <strong>1149</strong><br />(-31 for losing)
+|raw|Zeus199's rating: 1093 &rarr; <strong>1125</strong><br />(+32 for winning)
+|l|☆Darweizzy
+|player|p1|
+|j|☆Darweizzy
+|player|p1|Darweizzy|lucas-gen4pt|
+|l|☆Darweizzy
+|player|p1|

@@ -1,0 +1,159 @@
+|j|☆jhimbo2100
+|j|☆jgvitvyvt
+|t:|1750826091
+|gametype|doubles
+|player|p1|jhimbo2100|1|1163
+|player|p2|jgvitvyvt|unknown|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Lugia, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Scovillain, L50, F|
+|teampreview|4
+|
+|t:|1750826131
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Walking Wake|atk|1
+|turn|1
+|
+|t:|1750826154
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: Basculegion|Protect|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Protect
+|move|p2a: Miraidon|Volt Switch|p1a: Basculegion
+|-activate|p1a: Basculegion|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Miraidon
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2a: Miraidon|spa|1
+|
+|t:|1750826163
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750826192
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Lugia|Lugia, L50|100/100
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|66/100
+|-damage|p1a: Basculegion|89/100|[from] Recoil
+|-damage|p1a: Basculegion|79/100|[from] item: Life Orb
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750826214
+|move|p2b: Farigiraf|Twin Beam|p1a: Basculegion
+|-damage|p1a: Basculegion|56/100
+|-damage|p1a: Basculegion|36/100
+|-hitcount|p1a: Basculegion|2
+|move|p1b: Lugia|Calm Mind|p1b: Lugia
+|-boost|p1b: Lugia|spa|1
+|-boost|p1b: Lugia|spd|1
+|move|p2a: Walking Wake|Breaking Swipe|p1b: Lugia|[spread] p1a,p1b
+|-damage|p1a: Basculegion|22/100
+|-damage|p1b: Lugia|98/100
+|-unboost|p1a: Basculegion|atk|1
+|-unboost|p1b: Lugia|atk|1
+|move|p1a: Basculegion|Wave Crash|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750826231
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750826249
+|move|p1a: Incineroar|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|89/100
+|move|p1b: Lugia|Dragon Pulse|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|28/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|2/100
+|cant|p2b: Miraidon|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750826261
+|move|p1a: Incineroar|Knock Off|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-enditem|p2b: Miraidon|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Miraidon
+|move|p1b: Lugia|Calm Mind|p1b: Lugia
+|-boost|p1b: Lugia|spa|1
+|-boost|p1b: Lugia|spd|1
+|move|p2a: Walking Wake|Snarl|p1b: Lugia|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Lugia
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Lugia|90/100
+|-unboost|p1b: Lugia|spa|1
+|faint|p1a: Incineroar
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750826270
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|6
+|-message|jgvitvyvt forfeited.
+|
+|win|jhimbo2100
+|raw|jhimbo2100's rating: 1163 &rarr; <strong>1194</strong><br />(+31 for winning)
+|raw|jgvitvyvt's rating: 1249 &rarr; <strong>1218</strong><br />(-31 for losing)
+|l|☆jgvitvyvt
+|player|p2|
+|l|☆jhimbo2100
+|player|p1|

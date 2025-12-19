@@ -1,0 +1,215 @@
+|j|☆BraneFX
+|j|☆qunqun24
+|t:|1750773669
+|gametype|doubles
+|player|p1|BraneFX|blackbelt-gen4dp|1529
+|player|p2|qunqun24|101|1559
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by qunqun24)
+|inactive|BraneFX also wants the timer to be on.
+|inactive|BraneFX has 60 seconds left.
+|
+|t:|1750773713
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750773723
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2a: Eternatus
+|-resisted|p2a: Eternatus
+|-damage|p2a: Eternatus|53/100
+|-damage|p1a: Koraidon|79/100|[from] Recoil
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|43/100
+|move|p1b: Weezing|Poison Gas|p2b: Ho-Oh|[spread] p2a,p2b
+|-immune|p2a: Eternatus
+|-status|p2b: Ho-Oh|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|59/100|[from] item: Leftovers
+|-damage|p2b: Ho-Oh|88/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1750773742
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|100/100
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Weezing
+|-damage|p1b: Weezing|36/100
+|move|p1b: Weezing|Taunt|p2a: Eternatus
+|-start|p2a: Eternatus|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ho-Oh|76/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750773759
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-ability|p2a: Eternatus|Pressure
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p2a: Eternatus|Fairy
+|move|p1a: Walking Wake|Hydro Steam|p2b: Ho-Oh
+|-supereffective|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|1/100 psn
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|7/100
+|move|p2b: Ho-Oh|Brave Bird|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2b: Ho-Oh|0 fnt|[from] Recoil
+|faint|p2b: Ho-Oh
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750773783
+|switch|p1a: Koraidon|Koraidon, L50, tera:Fire|43/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|4
+|
+|t:|1750773805
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|33/100
+|move|p1b: Calyrex|Disable|p2a: Eternatus
+|-start|p2a: Eternatus|Disable|Dynamax Cannon
+|cant|p1a: Koraidon|flinch
+|cant|p2a: Eternatus|Disable|Dynamax Cannon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750773817
+|move|p1b: Calyrex|Astral Barrage|p2a: Eternatus|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Eternatus|60/100
+|-damage|p2b: Incineroar|80/100
+|move|p1a: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Eternatus|Sludge Bomb|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|none
+|-heal|p2a: Eternatus|66/100|[from] item: Leftovers
+|-end|p2a: Eternatus|move: Taunt
+|upkeep
+|
+|t:|1750773824
+|switch|p1a: Weezing|Weezing-Galar, L50, M|36/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|6
+|
+|t:|1750773843
+|move|p1b: Calyrex|Astral Barrage|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Grimmsnarl
+|-damage|p2a: Eternatus|24/100
+|-damage|p2b: Grimmsnarl|76/100
+|move|p2a: Eternatus|Sludge Bomb|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|77/100
+|move|p1a: Weezing|Taunt|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Taunt
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Calyrex
+|-damage|p1b: Calyrex|43/100
+|-unboost|p1b: Calyrex|spa|1
+|
+|-heal|p2a: Eternatus|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750773859
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Grimmsnarl
+|-damage|p2a: Eternatus|5/100
+|-damage|p2b: Grimmsnarl|61/100
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|55/100
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Calyrex
+|-damage|p1b: Calyrex|8/100
+|-unboost|p1b: Calyrex|spa|1
+|
+|-heal|p2a: Eternatus|61/100|[from] item: Leftovers
+|-end|p2a: Eternatus|Disable
+|upkeep
+|turn|8
+|
+|t:|1750773881
+|move|p1b: Calyrex|Disable|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|Disable|Spirit Break
+|move|p2a: Eternatus|Dynamax Cannon|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p1a: Weezing|Poison Gas|p2b: Grimmsnarl|[spread] p2a,p2b
+|-status|p2a: Eternatus|psn
+|-status|p2b: Grimmsnarl|psn
+|cant|p2b: Grimmsnarl|Disable|Spirit Break
+|
+|-heal|p2a: Eternatus|67/100 psn|[from] item: Leftovers
+|-damage|p2a: Eternatus|55/100 psn|[from] psn
+|-damage|p2b: Grimmsnarl|49/100 psn|[from] psn
+|-end|p2b: Grimmsnarl|move: Taunt
+|upkeep
+|turn|9
+|
+|t:|1750773896
+|move|p2a: Eternatus|Sludge Bomb|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2a: Eternatus|Pressure
+|
+|win|qunqun24
+|raw|BraneFX's rating: 1529 &rarr; <strong>1511</strong><br />(-18 for losing)
+|raw|qunqun24's rating: 1559 &rarr; <strong>1577</strong><br />(+18 for winning)
+|l|☆BraneFX
+|player|p1|
+|l|☆qunqun24
+|player|p2|

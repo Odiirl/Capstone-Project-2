@@ -1,0 +1,241 @@
+|j|☆gu7rixx
+|j|☆trong12
+|t:|1750832780
+|gametype|doubles
+|player|p1|gu7rixx|hoopster|1226
+|player|p2|trong12|265|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Sandy Shocks, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gu7rixx)
+|
+|t:|1750832822
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspa
+|turn|1
+|
+|t:|1750832847
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Sandy Shocks|Gravity|p2a: Sandy Shocks
+|-fieldstart|move: Gravity
+|move|p2b: Urshifu|Surging Strikes|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|90/100
+|-damage|p2b: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|78/100
+|-damage|p2b: Urshifu|67/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|66/100
+|-damage|p2b: Urshifu|51/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-hitcount|p1a: Amoonguss|3
+|move|p1b: Calyrex|Glacial Lance|p2a: Sandy Shocks|[spread] p2a,p2b
+|-supereffective|p2a: Sandy Shocks
+|-resisted|p2b: Urshifu
+|-damage|p2a: Sandy Shocks|0 fnt
+|-damage|p2b: Urshifu|25/100
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750832866
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|2
+|inactive|gu7rixx has 30 seconds left.
+|
+|t:|1750832896
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Kyogre|Water Spout|p1a: Amoonguss|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|move|p2b: Urshifu|U-turn|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|78/100
+|
+|t:|1750832905
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100|[from] U-turn
+|move|p1a: Amoonguss|Spore|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750832922
+|-terastallize|p2b: Raging Bolt|Fairy
+|cant|p2a: Kyogre|slp
+|move|p2b: Raging Bolt|Thunder|p1b: Calyrex
+|-damage|p1b: Calyrex|40/100
+|-status|p1b: Calyrex|par
+|move|p1a: Amoonguss|Pollen Puff|p1b: Calyrex
+|-heal|p1b: Calyrex|90/100 par
+|move|p1b: Calyrex|Leech Seed|p2b: Raging Bolt
+|-start|p2b: Raging Bolt|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|96/100 par|[from] item: Leftovers
+|-damage|p2b: Raging Bolt|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|100/100 par|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750832942
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|25/100
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|-curestatus|p2a: Kyogre|slp|[msg]
+|move|p2a: Kyogre|Water Spout|p1b: Calyrex|[spread] p1b
+|-activate|p1a: Amoonguss|move: Protect
+|-damage|p1b: Calyrex|33/100 par
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750832962
+|cant|p1b: Calyrex|par
+|move|p1a: Amoonguss|Spore|p2a: Kyogre
+|-status|p2a: Kyogre|slp|[from] move: Spore
+|move|p2b: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|23/100 par
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|6/100 par
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-hitcount|p1: Calyrex|3
+|cant|p2a: Kyogre|slp
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1750832972
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|6
+|
+|t:|1750832984
+|switch|p2a: Raging Bolt|Raging Bolt, L50, tera:Fairy|88/100
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Kyogre|Thunder|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|66/100
+|move|p2b: Urshifu|Surging Strikes|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|19/100
+|-damage|p2b: Urshifu|8/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|1/100
+|-damage|p2b: Urshifu|0 fnt|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p2b: Urshifu
+|-hitcount|p1a: Amoonguss|2
+|
+|-weather|none
+|upkeep
+|
+|t:|1750833000
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|7
+|
+|t:|1750833010
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Raging Bolt|Electroweb|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-supereffective|p1b: Kyogre
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Kyogre|63/100
+|-unboost|p1b: Kyogre|spe|1
+|faint|p1a: Amoonguss
+|move|p1b: Kyogre|Water Spout|p2a: Raging Bolt|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Raging Bolt|22/100
+|-damage|p2b: Kyogre|74/100 slp
+|-curestatus|p2b: Kyogre|slp|[msg]
+|move|p2b: Kyogre|Thunder|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|2/100
+|-status|p1b: Kyogre|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750833026
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|8
+|
+|t:|1750833033
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Raging Bolt|Electroweb|p1b: Kyogre|[spread] 
+|-activate|p1b: Kyogre|move: Protect
+|-miss|p2a: Raging Bolt|p1a: Flutter Mane
+|move|p1a: Flutter Mane|Thunder|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1750833054
+|-terastallize|p1a: Flutter Mane|Grass
+|move|p1a: Flutter Mane|Thunder|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|gu7rixx
+|raw|gu7rixx's rating: 1226 &rarr; <strong>1245</strong><br />(+19 for winning)
+|raw|trong12's rating: 1144 &rarr; <strong>1125</strong><br />(-19 for losing)
+|l|☆trong12
+|player|p2|
+|l|☆gu7rixx
+|player|p1|

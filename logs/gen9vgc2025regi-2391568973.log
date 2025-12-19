@@ -1,0 +1,229 @@
+|j|☆NicoDullblade
+|j|☆weezing in the sun
+|t:|1750871101
+|gametype|doubles
+|player|p1|NicoDullblade|2|1240
+|player|p2|weezing in the sun|pokefan|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Avalugg-Hisui, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|
+|t:|1750871132
+|start
+|switch|p1a: Cresselia|Cresselia, L50, F|100/100
+|switch|p1b: Solgaleo|Solgaleo, L50|100/100
+|switch|p2a: Dapper|Weezing-Galar, L50, F|100/100
+|switch|p2b: HOERS|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Dapper|Neutralizing Gas
+|-ability|p2b: HOERS|As One
+|-ability|p2b: HOERS|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by weezing in the sun)
+|
+|t:|1750871150
+|move|p2b: HOERS|Astral Barrage|p1a: Cresselia|[spread] p1a,p1b
+|-supereffective|p1a: Cresselia
+|-supereffective|p1b: Solgaleo
+|-damage|p1a: Cresselia|47/100
+|-damage|p1b: Solgaleo|12/100
+|-enditem|p1b: Solgaleo|Weakness Policy
+|-boost|p1b: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p1b: Solgaleo|Sunsteel Strike|p2b: HOERS
+|-enditem|p2b: HOERS|Focus Sash
+|-damage|p2b: HOERS|1/100
+|move|p2a: Dapper|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|cant|p1a: Cresselia|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750871173
+|move|p1b: Solgaleo|Protect|p1b: Solgaleo
+|-singleturn|p1b: Solgaleo|Protect
+|move|p2b: HOERS|Astral Barrage|p1a: Cresselia|[spread] p1a
+|-activate|p1b: Solgaleo|move: Protect
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|-ability|p2b: HOERS|Grim Neigh|boost
+|-boost|p2b: HOERS|spa|1
+|move|p2a: Dapper|Will-O-Wisp|p1b: Solgaleo
+|-activate|p1b: Solgaleo|move: Protect
+|
+|upkeep
+|
+|t:|1750871186
+|switch|p1a: Avalugg|Avalugg-Hisui, L50, M|100/100
+|turn|3
+|inactive|weezing in the sun has 30 seconds left.
+|
+|t:|1750871215
+|move|p2b: HOERS|Protect|p2b: HOERS
+|-singleturn|p2b: HOERS|Protect
+|move|p1a: Avalugg|Wide Guard|p1a: Avalugg
+|-singleturn|p1a: Avalugg|Wide Guard
+|move|p2a: Dapper|Taunt|p1a: Avalugg
+|-start|p1a: Avalugg|move: Taunt
+|move|p1b: Solgaleo|Trick Room|p1b: Solgaleo
+|-fieldstart|move: Trick Room|[of] p1b: Solgaleo
+|
+|upkeep
+|turn|4
+|
+|t:|1750871232
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|move|p1a: Avalugg|Crunch|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|91/100
+|-damage|p1a: Avalugg|84/100|[from] item: Rocky Helmet|[of] p2b: Brute Bonnet
+|move|p2a: Dapper|Will-O-Wisp|p1b: Solgaleo
+|-status|p1b: Solgaleo|brn
+|move|p1b: Solgaleo|Psychic Fangs|p2a: Dapper
+|-supereffective|p2a: Dapper
+|-damage|p2a: Dapper|19/100
+|
+|-damage|p1b: Solgaleo|6/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750871247
+|move|p2b: Brute Bonnet|Sucker Punch|p1b: Solgaleo
+|-supereffective|p1b: Solgaleo
+|-damage|p1b: Solgaleo|0 fnt
+|faint|p1b: Solgaleo
+|move|p1a: Avalugg|Rock Slide|p2a: Dapper|[spread] p2a,p2b
+|-damage|p2a: Dapper|0 fnt
+|-damage|p2b: Brute Bonnet|70/100
+|faint|p2a: Dapper
+|-end|p2a: Dapper|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1750871263
+|switch|p2a: HOERS|Calyrex-Shadow, L50|1/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p2a: HOERS|As One
+|-ability|p2a: HOERS|Unnerve
+|turn|6
+|
+|t:|1750871278
+|-terastallize|p2b: Brute Bonnet|Water
+|move|p2a: HOERS|Protect|p2a: HOERS
+|-singleturn|p2a: HOERS|Protect
+|move|p1a: Avalugg|Rock Slide|p2b: Brute Bonnet|[spread] p2b
+|-activate|p2a: HOERS|move: Protect
+|-damage|p2b: Brute Bonnet|48/100
+|move|p1b: Ursaluna|Blood Moon|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|-end|p1a: Avalugg|move: Taunt
+|upkeep
+|
+|t:|1750871294
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750871309
+|-terastallize|p1b: Ursaluna|Ground
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p2a: HOERS|Protect|p2a: HOERS
+|-singleturn|p2a: HOERS|Protect
+|move|p1a: Avalugg|Rock Slide|p2a: HOERS|[spread] 
+|-activate|p2a: HOERS|move: Protect
+|-activate|p2b: Koraidon|move: Protect
+|move|p1b: Ursaluna|Earth Power|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750871328
+|move|p1a: Avalugg|Wide Guard|p1a: Avalugg
+|-singleturn|p1a: Avalugg|Wide Guard
+|move|p2a: HOERS|Astral Barrage|p1a: Avalugg|[spread] 
+|-activate|p1a: Avalugg|move: Wide Guard
+|-activate|p1b: Ursaluna|move: Wide Guard
+|move|p2b: Koraidon|Collision Course|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|move|p1b: Ursaluna|Earth Power|p2a: HOERS
+|-damage|p2a: HOERS|0 fnt
+|faint|p2a: HOERS
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750871348
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Koraidon|Collision Course|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750871361
+|move|p2b: Koraidon|Collision Course|p1b: Ursaluna
+|-damage|p1b: Ursaluna|45/100
+|move|p1b: Ursaluna|Earth Power|p2b: Koraidon
+|-damage|p2b: Koraidon|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750871370
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Koraidon|Flare Blitz|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1750871379
+|move|p2b: Koraidon|Collision Course|p1b: Ursaluna
+|-damage|p1b: Ursaluna|2/100
+|move|p1b: Ursaluna|Blood Moon|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|win|NicoDullblade
+|raw|NicoDullblade's rating: 1240 &rarr; <strong>1273</strong><br />(+33 for winning)
+|raw|weezing in the sun's rating: 1348 &rarr; <strong>1322</strong><br />(-26 for losing)
+|c|☆NicoDullblade|gg
+|l|☆weezing in the sun
+|player|p2|
+|l|☆NicoDullblade
+|player|p1|

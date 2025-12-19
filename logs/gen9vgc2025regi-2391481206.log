@@ -1,0 +1,200 @@
+|j|☆Dragoonlong1
+|j|☆joaennavgc
+|t:|1750861407
+|gametype|doubles
+|player|p1|Dragoonlong1|cynthia|1378
+|player|p2|joaennavgc|pokemonbreederf-gen4|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p1|Pawmot, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Toxtricity, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|
+|t:|1750861423
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Ditto|Ditto, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-transform|p1b: Ditto|p2a: Lunala|[from] ability: Imposter
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ho-Oh|atk|1
+|-unboost|p1b: Ditto|atk|1
+|turn|1
+|
+|t:|1750861452
+|-terastallize|p2a: Lunala|Fairy
+|-terastallize|p1b: Ditto|Ghost
+|move|p1b: Ditto|Moongeist Beam|p2a: Lunala
+|-damage|p2a: Lunala|69/100
+|move|p2a: Lunala|Moongeist Beam|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|66/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Lunala
+|-damage|p2a: Lunala|43/100
+|-status|p2a: Lunala|brn
+|move|p2b: Incineroar|Knock Off|p1b: Ditto
+|-supereffective|p1b: Ditto
+|-damage|p1b: Ditto|40/100
+|-enditem|p1b: Ditto|Quick Claw|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-heal|p2a: Lunala|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Lunala|43/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750861485
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2a: Lunala|Tailwind|p2a: Lunala
+|-sidestart|p2: joaennavgc|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|24/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Ho-Oh
+|-enditem|p1a: Ho-Oh|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: Dragoonlong1|move: Tailwind
+|
+|-heal|p2a: Lunala|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Lunala|43/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750861503
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p1b: Miraidon|Parabolic Charge|p2b: Incineroar|[spread] p2a,p2b
+|-activate|p1a: Ho-Oh|move: Protect
+|-damage|p2a: Lunala|7/100 brn
+|-damage|p2b: Incineroar|54/100
+|move|p2a: Lunala|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|move|p2b: Incineroar|Knock Off|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-enditem|p1b: Miraidon|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Miraidon
+|
+|-heal|p2a: Lunala|13/100 brn|[from] item: Leftovers
+|-damage|p2a: Lunala|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1750861516
+|switch|p1b: Pawmot|Pawmot, L50, M|100/100
+|turn|4
+|
+|t:|1750861532
+|move|p1b: Pawmot|Revival Blessing|p1b: Pawmot
+|
+|t:|1750861534
+|-heal|p1: Miraidon|50/100|[from] move: Revival Blessing
+|move|p2a: Lunala|Moonblast|p1b: Pawmot
+|-supereffective|p1b: Pawmot
+|-enditem|p1b: Pawmot|Focus Sash
+|-damage|p1b: Pawmot|1/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p2b: Incineroar|Knock Off|p1b: Pawmot
+|-resisted|p1b: Pawmot
+|-damage|p1b: Pawmot|0 fnt
+|faint|p1b: Pawmot
+|
+|upkeep
+|
+|t:|1750861548
+|switch|p1b: Miraidon|Miraidon, L50|50/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1750861565
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p1b: Miraidon|Volt Switch|p2b: Indeedee
+|-damage|p2b: Indeedee|57/100
+|
+|t:|1750861573
+|switch|p1b: Ditto|Ditto, L50, tera:Ghost|40/100|[from] Volt Switch
+|-transform|p1b: Ditto|p2a: Zamazenta|[from] ability: Imposter
+|-ability|p1b: Ditto|Dauntless Shield|boost
+|-boost|p1b: Ditto|def|1
+|move|p2a: Zamazenta|Body Press|p1b: Ditto
+|-immune|p1b: Ditto
+|
+|-sideend|p1: Dragoonlong1|move: Tailwind
+|-sideend|p2: joaennavgc|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1750861588
+|switch|p2a: Incineroar|Incineroar, L50, M|54/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ho-Oh|atk|1
+|-unboost|p1b: Ditto|atk|1
+|move|p1b: Ditto|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: Dragoonlong1|move: Tailwind
+|move|p2b: Indeedee|Expanding Force|p1b: Ditto|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p1b: Ditto|0 fnt
+|faint|p1a: Ho-Oh
+|faint|p1b: Ditto
+|
+|upkeep
+|
+|t:|1750861601
+|switch|p1b: Miraidon|Miraidon, L50|50/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|
+|t:|1750861613
+|move|p1b: Miraidon|Parabolic Charge|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|63/100
+|-heal|p1b: Miraidon|69/100|[from] drain|[of] p2a: Zamazenta
+|-damage|p2b: Indeedee|5/100
+|-heal|p1b: Miraidon|93/100|[from] drain|[of] p2b: Indeedee
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|46/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|8
+|
+|t:|1750861625
+|move|p2b: Indeedee|Dazzling Gleam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|joaennavgc
+|raw|Dragoonlong1's rating: 1378 &rarr; <strong>1361</strong><br />(-17 for losing)
+|raw|joaennavgc's rating: 1422 &rarr; <strong>1439</strong><br />(+17 for winning)
+|l|☆Dragoonlong1
+|player|p1|
+|l|☆joaennavgc
+|player|p2|

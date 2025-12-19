@@ -1,0 +1,177 @@
+|j|☆JSNJS
+|j|☆Not_A_FRED
+|t:|1750829598
+|gametype|doubles
+|player|p1|JSNJS|1|1088
+|player|p2|Not_A_FRED|cynthia-gen4|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zebstrika, L50, M|
+|poke|p1|Mudsdale, L50, M|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|c|☆Not_A_FRED|wow
+|
+|t:|1750829631
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Spectrier|Spectrier, L50|100/100
+|switch|p2a: Good Luck|Calyrex-Shadow, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Good Luck|As One
+|-ability|p2a: Good Luck|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750829654
+|-terastallize|p1a: Calyrex|Fairy
+|-terastallize|p2a: Good Luck|Dark
+|move|p1b: Spectrier|Snarl|p2a: Good Luck|[spread] p2a,p2b
+|-resisted|p2a: Good Luck
+|-damage|p2a: Good Luck|93/100
+|-damage|p2b: Miraidon|87/100
+|-unboost|p2a: Good Luck|spa|1
+|-unboost|p2b: Miraidon|spa|1
+|move|p2b: Miraidon|U-turn|p2a: Good Luck
+|-supereffective|p2a: Good Luck
+|-damage|p2a: Good Luck|61/100
+|-enditem|p2a: Good Luck|Weakness Policy
+|-boost|p2a: Good Luck|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Good Luck|spa|2|[from] item: Weakness Policy
+|
+|t:|1750829665
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Calyrex|Astral Barrage|p2a: Good Luck|[spread] p2a
+|-immune|p2b: Indeedee
+|-resisted|p2a: Good Luck
+|-damage|p2a: Good Luck|32/100
+|move|p2a: Good Luck|Astral Barrage|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Spectrier
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-damage|p1b: Spectrier|0 fnt
+|faint|p1b: Spectrier
+|-ability|p2a: Good Luck|Grim Neigh|boost
+|-boost|p2a: Good Luck|spa|1
+|
+|upkeep
+|
+|t:|1750829680
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|2
+|
+|t:|1750829695
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Astral Barrage|p2b: Indeedee|[spread] p2a
+|-immune|p2b: Indeedee
+|-resisted|p2a: Good Luck
+|-damage|p2a: Good Luck|0 fnt
+|faint|p2a: Good Luck
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750829711
+|switch|p2a: Miraidon|Miraidon, L50|87/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750829774
+|move|p1b: Farigiraf|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Miraidon|Volt Switch|p1b: Farigiraf
+|-damage|p1b: Farigiraf|39/100
+|
+|t:|1750829780
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Calyrex|Astral Barrage|p2b: Indeedee|[spread] p2a
+|-immune|p2b: Indeedee
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|65/100
+|move|p2b: Indeedee|Disarming Voice|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Farigiraf|33/100
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750829783
+|switch|p1a: Glastrier|Glastrier, L50|100/100
+|turn|4
+|
+|t:|1750829801
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Incineroar|Flare Blitz|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|34/100
+|-damage|p2a: Incineroar|49/100|[from] item: Rocky Helmet|[of] p1a: Glastrier
+|-damage|p2a: Incineroar|26/100|[from] Recoil
+|move|p1a: Glastrier|Icicle Crash|p2b: Indeedee
+|-damage|p2b: Indeedee|61/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|5
+|
+|t:|1750829820
+|move|p1a: Glastrier|Icicle Crash|p2b: Indeedee
+|-damage|p2b: Indeedee|25/100
+|move|p1b: Farigiraf|Hyper Voice|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Incineroar|10/100
+|-damage|p2b: Indeedee|11/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-damage|p2a: Incineroar|0 fnt|[from] item: Rocky Helmet|[of] p1a: Glastrier
+|faint|p1a: Glastrier
+|faint|p2a: Incineroar
+|cant|p2b: Indeedee|flinch
+|
+|upkeep
+|l|☆JSNJS
+|player|p1|
+|
+|t:|1750829832
+|switch|p2a: Miraidon|Miraidon, L50|87/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Not_A_FRED)
+|inactive|JSNJS has 30 seconds to reconnect!
+|inactive|JSNJS has 20 seconds to reconnect!
+|inactive|JSNJS has 15 seconds to reconnect!
+|inactive|JSNJS has 10 seconds to reconnect!
+|inactive|JSNJS has 5 seconds to reconnect!
+|-message|JSNJS lost due to inactivity.
+|
+|win|Not_A_FRED
+|raw|JSNJS's rating: 1088 &rarr; <strong>1069</strong><br />(-19 for losing)
+|raw|Not_A_FRED's rating: 1148 &rarr; <strong>1169</strong><br />(+21 for winning)

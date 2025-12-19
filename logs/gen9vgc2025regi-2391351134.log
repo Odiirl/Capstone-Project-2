@@ -1,0 +1,112 @@
+|j|☆NinoDungeon
+|j|☆Hirosha
+|t:|1750841580
+|gametype|doubles
+|player|p1|NinoDungeon|102|1164
+|player|p2|Hirosha|2|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Eiscue, L50, F|
+|poke|p2|Regieleki, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750841622
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Eiscue|Eiscue, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750841659
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: NinoDungeon|move: Tailwind
+|move|p1b: Miraidon|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Eiscue|Icicle Crash|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|39/100
+|
+|upkeep
+|
+|t:|1750841675
+|switch|p2a: Blaziken|Blaziken, L50, F|100/100
+|turn|2
+|
+|t:|1750841690
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: NinoDungeon|move: Light Screen
+|move|p1b: Miraidon|Electro Drift|p2a: Blaziken
+|-crit|p2a: Blaziken
+|-enditem|p2a: Blaziken|Focus Sash
+|-damage|p2a: Blaziken|1/100
+|move|p2a: Blaziken|Flare Blitz|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|-damage|p2a: Blaziken|0 fnt|[from] Recoil
+|faint|p2a: Blaziken
+|move|p2b: Eiscue|Icicle Crash|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|upkeep
+|
+|t:|1750841709
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Eiscue|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1750841742
+|move|p2a: Indeedee|Fake Out|p1a: Incineroar
+|-activate|p1a: Incineroar|move: Psychic Terrain
+|move|p1b: Calyrex|Astral Barrage|p2a: Indeedee|[spread] p2b
+|-immune|p2a: Indeedee
+|-damage|p2b: Eiscue|23/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Eiscue
+|-activate|p2b: Eiscue|ability: Ice Face
+|-damage|p2b: Eiscue|23/100
+|detailschange|p2b: Eiscue|Eiscue-Noice, L50, F
+|move|p2b: Eiscue|Liquidation|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|
+|upkeep
+|turn|4
+|-message|Hirosha forfeited.
+|
+|win|NinoDungeon
+|raw|NinoDungeon's rating: 1164 &rarr; <strong>1188</strong><br />(+24 for winning)
+|raw|Hirosha's rating: 1145 &rarr; <strong>1121</strong><br />(-24 for losing)
+|l|☆Hirosha
+|player|p2|
+|l|☆NinoDungeon
+|player|p1|

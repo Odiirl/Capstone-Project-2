@@ -1,0 +1,171 @@
+|j|☆junior2323
+|j|☆Dtb33
+|t:|1750829870
+|gametype|doubles
+|player|p1|junior2323|102|1086
+|player|p2|Dtb33|2|1175
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Regigigas, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dtb33)
+|
+|t:|1750829884
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Alcremie|Alcremie, L50, F|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Regigigas|Regigigas, L50|100/100
+|-start|p2b: Regigigas|ability: Slow Start
+|turn|1
+|
+|t:|1750829904
+|move|p2a: Smeargle|Skill Swap|p2b: Regigigas
+|-activate|p2a: Smeargle|move: Skill Swap|||[of] p2b: Regigigas
+|-end|p2b: Regigigas|Slow Start|[silent]
+|-start|p2a: Smeargle|ability: Slow Start
+|move|p2b: Regigigas|Knock Off|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|25/100
+|-enditem|p1a: Flutter Mane|Life Orb|[from] move: Knock Off|[of] p2b: Regigigas
+|move|p1b: Alcremie|Draining Kiss|p2a: Smeargle
+|-damage|p2a: Smeargle|46/100
+|move|p1a: Flutter Mane|Trick Room|p1a: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p1a: Flutter Mane
+|
+|-ability|p2b: Regigigas|Moody|boost
+|-boost|p2b: Regigigas|atk|2
+|-unboost|p2b: Regigigas|spa|1
+|upkeep
+|turn|2
+|inactive|Dtb33 has 30 seconds left.
+|
+|t:|1750829932
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Regigigas|Protect|p2b: Regigigas
+|-singleturn|p2b: Regigigas|Protect
+|move|p1b: Alcremie|Decorate|p2b: Regigigas
+|-boost|p2b: Regigigas|atk|2
+|-boost|p2b: Regigigas|spa|2
+|move|p2a: Smeargle|Skill Swap|p1b: Alcremie
+|-activate|p2a: Smeargle|move: Skill Swap|Aroma Veil|Slow Start|[of] p1b: Alcremie
+|-end|p2a: Smeargle|Slow Start|[silent]
+|-start|p1b: Alcremie|ability: Slow Start
+|
+|-ability|p2b: Regigigas|Moody|boost
+|-boost|p2b: Regigigas|atk|2
+|-unboost|p2b: Regigigas|spe|1
+|upkeep
+|turn|3
+|inactive|Dtb33 has 30 seconds left.
+|
+|t:|1750829961
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Alcremie|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|move|p1a: Calyrex|Glacial Lance|p2b: Regigigas|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|-damage|p2b: Regigigas|12/100
+|move|p2b: Regigigas|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Weakness Policy|[from] move: Knock Off|[of] p2b: Regigigas
+|faint|p1a: Calyrex
+|
+|-heal|p2b: Regigigas|18/100|[from] item: Leftovers
+|-ability|p2b: Regigigas|Moody|boost
+|-boost|p2b: Regigigas|spa|2
+|-unboost|p2b: Regigigas|spe|1
+|upkeep
+|
+|t:|1750829976
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|4
+|inactive|Dtb33 has 30 seconds left.
+|
+|t:|1750830002
+|move|p2b: Regigigas|Protect|p2b: Regigigas
+|-singleturn|p2b: Regigigas|Protect
+|move|p1a: Iron Hands|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|49/100
+|move|p1b: Alcremie|Draining Kiss|p2b: Regigigas
+|-activate|p2b: Regigigas|move: Protect
+|cant|p2a: Calyrex|flinch
+|
+|-heal|p2b: Regigigas|24/100|[from] item: Leftovers
+|-ability|p2b: Regigigas|Moody|boost
+|-boost|p2b: Regigigas|spd|2
+|-unboost|p2b: Regigigas|spe|1
+|upkeep
+|turn|5
+|inactive|Dtb33 has 30 seconds left.
+|inactive|Dtb33 has 20 seconds left.
+|
+|t:|1750830038
+|move|p1b: Alcremie|Draining Kiss|p2b: Regigigas
+|-damage|p2b: Regigigas|13/100
+|move|p2b: Regigigas|High Horsepower|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|move|p2a: Calyrex|Glacial Lance|p1b: Alcremie
+|-damage|p1b: Alcremie|4/100
+|
+|-heal|p1b: Alcremie|10/100|[from] item: Leftovers
+|-heal|p2b: Regigigas|19/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-ability|p2b: Regigigas|Moody|boost
+|-boost|p2b: Regigigas|def|2
+|-unboost|p2b: Regigigas|spa|1
+|upkeep
+|
+|t:|1750830045
+|switch|p1a: Flutter Mane|Flutter Mane, L50|25/100
+|turn|6
+|
+|t:|1750830063
+|move|p1a: Flutter Mane|Moonblast|p2b: Regigigas
+|-damage|p2b: Regigigas|0 fnt
+|faint|p2b: Regigigas
+|move|p2a: Calyrex|Glacial Lance|p1b: Alcremie|[spread] p1a,p1b
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Alcremie|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|faint|p1b: Alcremie
+|-end|p1b: Alcremie|Slow Start|[silent]
+|
+|win|Dtb33
+|raw|junior2323's rating: 1086 &rarr; <strong>1069</strong><br />(-17 for losing)
+|raw|Dtb33's rating: 1175 &rarr; <strong>1194</strong><br />(+19 for winning)
+|l|☆junior2323
+|player|p1|
+|l|☆Dtb33
+|player|p2|

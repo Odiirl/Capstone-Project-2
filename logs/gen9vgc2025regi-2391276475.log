@@ -1,0 +1,129 @@
+|j|☆13art
+|j|☆jatpark
+|t:|1750826884
+|gametype|doubles
+|player|p1|13art|102|1302
+|player|p2|jatpark|101|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Stonjourner, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Rhydon, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 13art)
+|inactive|13art has 60 seconds left.
+|inactive|13art has 30 seconds left.
+|inactive|13art has 20 seconds left.
+|inactive|13art has 15 seconds left.
+|inactive|13art has 10 seconds left.
+|inactive|13art has 5 seconds left.
+|
+|t:|1750826975
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|13art has 30 seconds left.
+|
+|t:|1750827005
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p1b: Brute Bonnet|ability: Protosynthesis
+|-start|p1b: Brute Bonnet|protosynthesisspd
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-end|p1b: Brute Bonnet|Protosynthesis
+|-fieldend|move: Psychic Terrain
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Koraidon|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|47/100
+|-damage|p1a: Koraidon|83/100|[from] Recoil
+|-enditem|p2a: Indeedee|Eject Button
+|-damage|p1a: Koraidon|73/100|[from] item: Life Orb
+|
+|t:|1750827024
+|switch|p2a: Alcremie|Alcremie, L50, F|100/100
+|move|p2b: Terapagos|Meteor Beam||[still]
+|-prepare|p2b: Terapagos|Meteor Beam
+|-boost|p2b: Terapagos|spa|1
+|-enditem|p2b: Terapagos|Power Herb
+|-anim|p2b: Terapagos|Meteor Beam|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|31/100
+|
+|upkeep
+|turn|2
+|inactive|13art has 30 seconds left.
+|
+|t:|1750827053
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Alcremie|Protect|p2a: Alcremie
+|-singleturn|p2a: Alcremie|Protect
+|move|p1a: Koraidon|Flare Blitz|p2a: Alcremie
+|-activate|p2a: Alcremie|move: Protect
+|move|p2b: Terapagos|Tera Starstorm|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Brute Bonnet|64/100
+|faint|p1a: Koraidon
+|move|p1b: Brute Bonnet|Spore|p2b: Terapagos
+|-block|p2b: Terapagos|ability: Sweet Veil|[of] p2a: Alcremie
+|
+|upkeep
+|
+|t:|1750827067
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750827077
+|move|p1b: Brute Bonnet|Sucker Punch|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|70/100
+|move|p2b: Terapagos|Dark Pulse|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|24/100
+|move|p2a: Alcremie|Decorate|p2b: Terapagos
+|-boost|p2b: Terapagos|atk|2
+|-boost|p2b: Terapagos|spa|2
+|cant|p1a: Calyrex|flinch
+|
+|upkeep
+|turn|4
+|-message|13art forfeited.
+|
+|win|jatpark
+|raw|13art's rating: 1302 &rarr; <strong>1283</strong><br />(-19 for losing)
+|raw|jatpark's rating: 1314 &rarr; <strong>1333</strong><br />(+19 for winning)
+|l|☆jatpark
+|player|p2|

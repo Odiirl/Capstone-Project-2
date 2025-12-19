@@ -1,0 +1,171 @@
+|j|☆4212ZVGC
+|j|☆SeanDeMol
+|t:|1750832048
+|gametype|doubles
+|player|p1|4212ZVGC|101|1302
+|player|p2|SeanDeMol|steven|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dusclops, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SeanDeMol)
+|
+|t:|1750832069
+|start
+|switch|p1a: Dusclops|Dusclops, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-item|p2a: Miraidon|Choice Specs|[from] ability: Frisk|[of] p1a: Dusclops
+|-item|p2b: Calyrex|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|1
+|inactive|SeanDeMol has 30 seconds left.
+|
+|t:|1750832098
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2a: Miraidon|Electro Drift|p1a: Dusclops
+|-damage|p1a: Dusclops|32/100
+|move|p1b: Incineroar|Parting Shot|p2a: Miraidon
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2a: Miraidon|spa|1
+|
+|t:|1750832110
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Dusclops|Will-O-Wisp|p2b: Farigiraf
+|-status|p2b: Farigiraf|brn
+|
+|-damage|p2b: Farigiraf|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750832127
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Miraidon|Electro Drift|p1b: Calyrex
+|-damage|p1b: Calyrex|53/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Farigiraf|59/100 brn
+|faint|p2a: Miraidon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-damage|p2b: Farigiraf|52/100 brn|[from] brn
+|upkeep
+|
+|t:|1750832145
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750832160
+|move|p1b: Calyrex|Crunch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|31/100
+|-unboost|p2a: Calyrex|def|1
+|move|p2a: Calyrex|Leech Seed|p1b: Calyrex
+|-start|p1b: Calyrex|move: Leech Seed
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Calyrex
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-damage|p2b: Farigiraf|46/100 brn|[from] brn
+|upkeep
+|
+|t:|1750832182
+|switch|p1b: Dusclops|Dusclops, L50, M|32/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-item|p2a: Incineroar|Assault Vest|[from] ability: Frisk|[of] p1b: Dusclops
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Dusclops|atk|1
+|turn|4
+|
+|t:|1750832193
+|move|p2a: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|move|p1b: Dusclops|Pain Split|p2a: Incineroar
+|-sethp|p2a: Incineroar|62/100|[from] move: Pain Split|[silent]
+|-sethp|p1b: Dusclops|85/100|[from] move: Pain Split
+|cant|p1a: Incineroar|flinch
+|move|p2b: Farigiraf|Foul Play|p1b: Dusclops
+|-supereffective|p1b: Dusclops
+|-damage|p1b: Dusclops|79/100
+|
+|-damage|p2b: Farigiraf|40/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750832215
+|move|p2b: Farigiraf|Helping Hand|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Helping Hand|[of] p2b: Farigiraf
+|move|p1b: Dusclops|Curse|p2a: Incineroar
+|-start|p2a: Incineroar|Curse|[of] p1b: Dusclops
+|-damage|p1b: Dusclops|30/100
+|move|p1a: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1750832224
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Incineroar|Knock Off|p1b: Dusclops
+|-supereffective|p1b: Dusclops
+|-damage|p1b: Dusclops|0 fnt
+|-enditem|p1b: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Farigiraf|34/100 brn|[from] brn
+|-damage|p2a: Incineroar|37/100|[from] Curse
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|SeanDeMol forfeited.
+|
+|win|4212ZVGC
+|raw|4212ZVGC's rating: 1302 &rarr; <strong>1327</strong><br />(+25 for winning)
+|raw|SeanDeMol's rating: 1398 &rarr; <strong>1373</strong><br />(-25 for losing)
+|l|☆SeanDeMol
+|player|p2|
+|l|☆4212ZVGC
+|player|p1|

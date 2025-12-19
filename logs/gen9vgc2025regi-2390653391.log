@@ -1,0 +1,116 @@
+|j|☆CadaverLuke
+|j|‽heelkey
+|t:|1750743242
+|gametype|doubles
+|player|p1|CadaverLuke|101|1267
+|player|p2|heelkey|red|1270
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750743279
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Metagross|Metagross, L50|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750743323
+|-terastallize|p2a: Scream Tail|Dark
+|-terastallize|p1b: Metagross|Normal
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: CadaverLuke|move: Tailwind
+|move|p2a: Scream Tail|Perish Song|p2a: Scream Tail
+|-start|p1a: Whimsicott|perish3|[silent]
+|-start|p1b: Metagross|perish3|[silent]
+|-start|p2a: Scream Tail|perish3|[silent]
+|-start|p2b: Raging Bolt|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Metagross|Explosion|p2b: Raging Bolt|[spread] p1a,p2a,p2b
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: Scream Tail|0 fnt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p1b: Metagross
+|faint|p1a: Whimsicott
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750743339
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2b: Mewtwo|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750743373
+|move|p1b: Indeedee|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Kyogre|Water Spout|p2b: Mewtwo|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|61/100
+|-damage|p2b: Mewtwo|12/100
+|move|p2a: Koraidon|Close Combat|p1b: Indeedee
+|-enditem|p1b: Indeedee|Focus Sash
+|-damage|p1b: Indeedee|1/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|51/100|[from] item: Life Orb
+|move|p2b: Mewtwo|Psyshock|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750743397
+|move|p1b: Indeedee|Shadow Ball|p2b: Mewtwo
+|-supereffective|p2b: Mewtwo
+|-damage|p2b: Mewtwo|0 fnt
+|faint|p2b: Mewtwo
+|move|p2a: Koraidon|Close Combat|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Indeedee
+|-damage|p2a: Koraidon|42/100|[from] item: Life Orb
+|
+|win|heelkey
+|raw|CadaverLuke's rating: 1267 &rarr; <strong>1242</strong><br />(-25 for losing)
+|raw|heelkey's rating: 1270 &rarr; <strong>1295</strong><br />(+25 for winning)
+|c|☆CadaverLuke|gg
+|l|‽heelkey
+|player|p2|
+|l|☆CadaverLuke
+|player|p1|

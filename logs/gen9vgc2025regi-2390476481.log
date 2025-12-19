@@ -1,0 +1,148 @@
+|j|☆Aurinko
+|j|☆Pokeventurer
+|t:|1750717881
+|gametype|doubles
+|player|p1|Aurinko|102|1519
+|player|p2|Pokeventurer|265|1597
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pokeventurer)
+|
+|t:|1750717905
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|inactive|Pokeventurer has 30 seconds left.
+|inactive|Pokeventurer has 20 seconds left.
+|inactive|Pokeventurer has 15 seconds left.
+|inactive|Pokeventurer has 10 seconds left.
+|
+|t:|1750717951
+|move|p1b: Ogerpon|Follow Me|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Follow Me
+|move|p2a: Koraidon|Flame Charge|p1b: Ogerpon
+|-damage|p1b: Ogerpon|33/100
+|-boost|p2a: Koraidon|spe|1
+|-damage|p2a: Koraidon|90/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Body Press|p2a: Koraidon
+|-damage|p2a: Koraidon|27/100
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Ogerpon
+|-crit|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750717971
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Koraidon|atk|1
+|-unboost|p2b: Lunala|atk|1
+|turn|2
+|
+|t:|1750717992
+|move|p2a: Koraidon|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Incineroar
+|-damage|p2a: Koraidon|17/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|78/100
+|move|p2b: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750718007
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750718030
+|-terastallize|p2b: Lunala|Dark
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Koraidon|Flare Blitz|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p1b: Calyrex|Psychic|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750718042
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750718064
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Flutter Mane|Icy Wind|p1a: Zamazenta|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|-unboost|p1a: Zamazenta|spe|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750718079
+|-terastallize|p1b: Calyrex|Normal
+|move|p2a: Flutter Mane|Moonblast|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|Pokeventurer
+|raw|Aurinko's rating: 1519 &rarr; <strong>1503</strong><br />(-16 for losing)
+|raw|Pokeventurer's rating: 1597 &rarr; <strong>1613</strong><br />(+16 for winning)
+|l|☆Aurinko
+|player|p1|

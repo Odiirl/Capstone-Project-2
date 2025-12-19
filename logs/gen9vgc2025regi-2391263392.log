@@ -1,0 +1,182 @@
+|j|☆Dannythore
+|j|☆TotallyNotAutistic
+|t:|1750824666
+|gametype|doubles
+|player|p1|Dannythore|shadowtriad|1256
+|player|p2|TotallyNotAutistic|n|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Solgaleo, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|
+|t:|1750824690
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Reshiram|Reshiram, L50|100/100
+|switch|p2b: Malamar|Malamar, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p2a: Reshiram|Turboblaze
+|turn|1
+|
+|t:|1750824702
+|-terastallize|p1a: Kyogre|Water
+|-terastallize|p2b: Malamar|Grass
+|move|p2a: Reshiram|Protect|p2a: Reshiram
+|-singleturn|p2a: Reshiram|Protect
+|move|p1a: Kyogre|Water Spout|p2a: Reshiram|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-resisted|p2b: Malamar
+|-damage|p2b: Malamar|45/100
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Malamar|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-supereffective|p2b: Malamar
+|-damage|p2b: Malamar|0 fnt
+|faint|p2b: Malamar
+|-damage|p1b: Tornadus|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750824716
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|2
+|
+|t:|1750824726
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Dannythore|move: Tailwind
+|move|p2b: Miraidon|Electro Drift|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750824745
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Miraidon|[from] ability: Imposter
+|-activate|p1a: Ditto|ability: Hadron Engine
+|move|p1b: Tornadus|Taunt|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Taunt
+|move|p2b: Miraidon|Electro Drift|p1a: Ditto
+|-resisted|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|64/100
+|move|p2a: Gastrodon|Muddy Water|p1a: Ditto|[spread] p1a,p1b
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|48/100
+|-damage|p1b: Tornadus|63/100
+|-unboost|p1a: Ditto|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750824792
+|move|p1a: Ditto|Volt Switch|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|92/100
+|
+|t:|1750824795
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Gastrodon|61/100
+|-damage|p2b: Miraidon|81/100
+|-unboost|p2b: Miraidon|spe|1
+|-damage|p1b: Tornadus|54/100|[from] item: Life Orb
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Urshifu|[spread] p1a,p1b
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|8/100
+|-damage|p1b: Tornadus|30/100
+|move|p2a: Gastrodon|Earth Power|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750824799
+|switch|p1a: Kyogre|Kyogre, L50, tera:Water|100/100
+|turn|5
+|
+|t:|1750824818
+|move|p1a: Kyogre|Water Spout|p2a: Gastrodon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|50/100
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Gastrodon|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Gastrodon|28/100
+|-damage|p2b: Miraidon|40/100
+|-damage|p1b: Tornadus|20/100|[from] item: Life Orb
+|move|p2b: Miraidon|Volt Switch|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|t:|1750824829
+|switch|p2b: Reshiram|Reshiram, L50|100/100|[from] Volt Switch
+|-ability|p2b: Reshiram|Turboblaze
+|move|p2a: Gastrodon|Earth Power|p1a: Kyogre
+|-damage|p1a: Kyogre|66/100
+|
+|-weather|none
+|-heal|p2a: Gastrodon|34/100|[from] item: Leftovers
+|-end|p2a: Gastrodon|move: Taunt
+|-sideend|p1: Dannythore|move: Tailwind
+|upkeep
+|
+|t:|1750824834
+|switch|p1b: Ditto|Ditto, L50|48/100
+|-transform|p1b: Ditto|p2a: Gastrodon|[from] ability: Imposter
+|turn|6
+|
+|t:|1750824853
+|move|p1a: Kyogre|Water Spout|p2a: Gastrodon|[spread] p2b
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|-damage|p2b: Reshiram|61/100
+|move|p2b: Reshiram|Draco Meteor|p1b: Ditto
+|-damage|p1b: Ditto|0 fnt
+|-unboost|p2b: Reshiram|spa|2
+|faint|p1b: Ditto
+|-damage|p2b: Reshiram|51/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Earth Power|p1a: Kyogre
+|-damage|p1a: Kyogre|22/100
+|
+|-heal|p2a: Gastrodon|39/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|-message|Dannythore forfeited.
+|
+|win|TotallyNotAutistic
+|raw|Dannythore's rating: 1256 &rarr; <strong>1227</strong><br />(-29 for losing)
+|raw|TotallyNotAutistic's rating: 1200 &rarr; <strong>1229</strong><br />(+29 for winning)
+|l|☆Dannythore
+|player|p1|

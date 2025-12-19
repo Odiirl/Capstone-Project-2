@@ -1,0 +1,165 @@
+|j|☆GoofyRonald756
+|j|☆ArosConPollo85
+|t:|1750745217
+|gametype|doubles
+|player|p1|GoofyRonald756|barry|1329
+|player|p2|ArosConPollo85|2|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Araquanid, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArosConPollo85)
+|inactive|ArosConPollo85 has 60 seconds left.
+|
+|t:|1750745259
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Leaves|Iron Leaves, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Leaves|ability: Quark Drive
+|-start|p2b: Iron Leaves|quarkdrivespe
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750745273
+|-end|p2b: Iron Leaves|Quark Drive|[silent]
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Iron Hands|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Iron Hands
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Incineroar|41/100
+|-damage|p1b: Iron Hands|32/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750745287
+|switch|p1a: Lunala|Lunala, L50|100/100
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Lunala|[spread] p1a,p1b
+|-crit|p1a: Lunala
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Lunala|48/100
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750745291
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750745302
+|-terastallize|p1b: Miraidon|Fairy
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Miraidon|move: Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|31/100
+|-damage|p2b: Farigiraf|48/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750745324
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Miraidon|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Miraidon|move: Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Farigiraf
+|
+|upkeep
+|
+|t:|1750745328
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|turn|5
+|
+|t:|1750745337
+|move|p2a: Iron Leaves|Psyblade|p1b: Miraidon
+|-damage|p1b: Miraidon|18/100
+|-damage|p2a: Iron Leaves|91/100|[from] item: Life Orb
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Iron Leaves|29/100
+|-damage|p2b: Calyrex|67/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|10/100
+|move|p2b: Calyrex|Crunch|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Leaves|Quark Drive
+|upkeep
+|
+|t:|1750745350
+|switch|p1a: Incineroar|Incineroar, L50, M|41/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Leaves|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|6
+|
+|t:|1750745356
+|move|p1a: Incineroar|Fake Out|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|16/100
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Iron Leaves|[spread] p2a,p2b
+|-damage|p2a: Iron Leaves|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|faint|p2b: Calyrex
+|
+|win|GoofyRonald756
+|raw|GoofyRonald756's rating: 1329 &rarr; <strong>1355</strong><br />(+26 for winning)
+|raw|ArosConPollo85's rating: 1441 &rarr; <strong>1415</strong><br />(-26 for losing)
+|c|☆ArosConPollo85|Gg
+|c|☆GoofyRonald756|ｇｇ

@@ -1,0 +1,154 @@
+|j|☆frmx
+|j|☆FearlyVGC
+|t:|1750848951
+|gametype|doubles
+|player|p1|frmx|2|1466
+|player|p2|FearlyVGC|cynthia|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Mienshao, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+FearlyVGC has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FearlyVGC)
+|
+|t:|1750848986
+|start
+|switch|p1a: Raichu|Raichu-Alola, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750849004
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1b: Miraidon|Volt Switch|p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|27/100
+|
+|t:|1750849020
+|switch|p1b: Landorus|Landorus, L50, M|100/100|[from] Volt Switch
+|move|p1a: Raichu|Nuzzle|p2b: Indeedee
+|-damage|p2b: Indeedee|20/100
+|-status|p2b: Indeedee|par
+|-damage|p1a: Raichu|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|move|p2a: Raging Bolt|Thunderbolt|p1b: Landorus
+|-immune|p1b: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1750849040
+|cant|p2b: Indeedee|par
+|move|p1a: Raichu|Fake Tears|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|spd|2
+|move|p1b: Landorus|Sludge Bomb|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750849048
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|inactive|frmx has 30 seconds left.
+|
+|t:|1750849076
+|move|p1b: Landorus|Protect|p1b: Landorus
+|-singleturn|p1b: Landorus|Protect
+|cant|p2b: Indeedee|par
+|move|p2a: Koraidon|Flame Charge|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1a: Raichu
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750849087
+|switch|p1a: Iron Jugulis|Iron Jugulis, L50|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|4
+|
+|t:|1750849100
+|-terastallize|p1b: Landorus|Water
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Koraidon|Close Combat|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|-damage|p2a: Koraidon|81/100|[from] item: Life Orb
+|move|p1b: Landorus|Sandsear Storm|p2a: Koraidon|[spread] p2b
+|-miss|p1b: Landorus|p2a: Koraidon
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750849114
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750849129
+|move|p2a: Koraidon|Close Combat|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Miraidon
+|-damage|p2a: Koraidon|71/100|[from] item: Life Orb
+|move|p1b: Landorus|Earth Power|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Urshifu|Close Combat|p1b: Landorus
+|-damage|p1b: Landorus|27/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750849150
+|move|p1b: Landorus|Earth Power|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|win|frmx
+|raw|frmx's rating: 1466 &rarr; <strong>1483</strong><br />(+17 for winning)
+|raw|FearlyVGC's rating: 1405 &rarr; <strong>1388</strong><br />(-17 for losing)
+|l|☆FearlyVGC
+|player|p2|
+|l|☆frmx
+|player|p1|

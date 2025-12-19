@@ -1,0 +1,269 @@
+|j|☆Gibsteroni
+|j|☆demonight94
+|t:|1750874293
+|gametype|doubles
+|player|p1|Gibsteroni|265|1150
+|player|p2|demonight94|benga|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Pachirisu, L50, M|
+|poke|p2|Zekrom, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Magnezone, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by demonight94)
+|
+|t:|1750874314
+|start
+|switch|p1a: Scream Tail|Scream Tail, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Magnezone|Magnezone, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750874335
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: demonight94|move: Tailwind
+|move|p1a: Scream Tail|Light Screen|p1a: Scream Tail
+|-sidestart|p1: Gibsteroni|move: Light Screen
+|move|p1b: Koraidon|U-turn|p2a: Whimsicott
+|-damage|p2a: Whimsicott|59/100
+|
+|t:|1750874340
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Magnezone|atk|1
+|move|p2b: Magnezone|Flash Cannon|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750874360
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Incineroar|Fake Out|p2b: Magnezone
+|-resisted|p2b: Magnezone
+|-damage|p2b: Magnezone|94/100
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p2b: Magnezone|Flash Cannon|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750874384
+|-terastallize|p1a: Calyrex|Fire
+|move|p2a: Whimsicott|Fake Tears|p1a: Calyrex
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|move|p2b: Magnezone|Flash Cannon|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|61/100
+|move|p1b: Incineroar|Parting Shot|p2b: Magnezone
+|-unboost|p2b: Magnezone|atk|1
+|-unboost|p2b: Magnezone|spa|1
+|
+|t:|1750874397
+|switch|p1b: Scream Tail|Scream Tail, L50|62/100|[from] Parting Shot
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|move|p1a: Calyrex|Leech Seed|p2b: Magnezone|[miss]
+|-miss|p1a: Calyrex|p2b: Magnezone
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750874418
+|move|p2a: Whimsicott|Fake Tears|p1b: Scream Tail
+|-unboost|p1b: Scream Tail|spd|2
+|move|p1b: Scream Tail|Encore|p2a: Whimsicott
+|-start|p2a: Whimsicott|Encore
+|-enditem|p2a: Whimsicott|Mental Herb
+|-end|p2a: Whimsicott|Encore
+|move|p2b: Magnezone|Flash Cannon|p1b: Scream Tail
+|-supereffective|p1b: Scream Tail
+|-damage|p1b: Scream Tail|10/100
+|move|p1a: Calyrex|Swords Dance|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: demonight94|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750874438
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Magnezone|atk|1
+|move|p2a: Whimsicott|Encore|p1a: Calyrex
+|-start|p1a: Calyrex|Encore
+|move|p2b: Magnezone|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|88/100
+|
+|t:|1750874449
+|switch|p2b: Zekrom|Zekrom, L50|100/100|[from] Volt Switch
+|-ability|p2b: Zekrom|Teravolt
+|move|p1a: Calyrex|Swords Dance|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750874473
+|switch|p2b: Magnezone|Magnezone, L50|94/100
+|switch|p1a: Scream Tail|Scream Tail, L50|10/100
+|move|p1b: Incineroar|Fake Out|p2b: Magnezone
+|-resisted|p2b: Magnezone
+|-damage|p2b: Magnezone|87/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: demonight94|move: Tailwind
+|
+|upkeep
+|turn|7
+|inactive|Gibsteroni has 30 seconds left.
+|
+|t:|1750874501
+|switch|p2a: Zekrom|Zekrom, L50|100/100
+|-ability|p2a: Zekrom|Teravolt
+|move|p2b: Magnezone|Discharge|p1a: Scream Tail|[spread] p2a,p1a,p1b
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|94/100
+|-damage|p1a: Scream Tail|0 fnt
+|-damage|p1b: Incineroar|73/100
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|move|p1b: Incineroar|Parting Shot|p2b: Magnezone
+|-unboost|p2b: Magnezone|atk|1
+|-unboost|p2b: Magnezone|spa|1
+|
+|t:|1750874513
+|switch|p1b: Calyrex|Calyrex-Ice, L50, tera:Fire|61/100|[from] Parting Shot
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|
+|upkeep
+|
+|t:|1750874518
+|switch|p1a: Incineroar|Incineroar, L50, F|73/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zekrom|atk|1
+|-unboost|p2b: Magnezone|atk|1
+|turn|8
+|
+|t:|1750874539
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|89/100
+|move|p2b: Magnezone|Volt Switch|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|19/100
+|
+|t:|1750874549
+|switch|p2b: Zekrom|Zekrom, L50|94/100|[from] Volt Switch
+|-ability|p2b: Zekrom|Teravolt
+|move|p1b: Calyrex|Swords Dance|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|2
+|
+|-sideend|p1: Gibsteroni|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750874565
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Zekrom|Hyper Voice|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Incineroar|58/100
+|move|p2a: Miraidon|Discharge|p1b: Calyrex|[spread] p2b,p1a
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p2b: Zekrom
+|-damage|p2b: Zekrom|77/100
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-sideend|p2: demonight94|move: Tailwind
+|upkeep
+|
+|t:|1750874577
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|10
+|
+|t:|1750874592
+|switch|p2a: Magnezone|Magnezone, L50|87/100
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p1a: Koraidon|Breaking Swipe|p2b: Zekrom|[spread] p2a,p2b
+|-resisted|p2a: Magnezone
+|-supereffective|p2b: Zekrom
+|-damage|p2a: Magnezone|68/100
+|-damage|p2b: Zekrom|19/100
+|-unboost|p2b: Zekrom|atk|1
+|move|p2b: Zekrom|Hyper Voice|p1a: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Koraidon|84/100
+|-damage|p1b: Calyrex|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750874610
+|move|p1a: Koraidon|Breaking Swipe|p2b: Zekrom|[spread] p2a,p2b
+|-resisted|p2a: Magnezone
+|-supereffective|p2b: Zekrom
+|-damage|p2a: Magnezone|50/100
+|-damage|p2b: Zekrom|0 fnt
+|faint|p2b: Zekrom
+|move|p2a: Magnezone|Discharge|p1b: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|68/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750874620
+|switch|p2b: Whimsicott|Whimsicott, L50, F|59/100
+|turn|12
+|-message|Gibsteroni forfeited.
+|
+|win|demonight94
+|raw|Gibsteroni's rating: 1150 &rarr; <strong>1121</strong><br />(-29 for losing)
+|raw|demonight94's rating: 1090 &rarr; <strong>1121</strong><br />(+31 for winning)
+|l|☆Gibsteroni
+|player|p1|
+|l|☆demonight94
+|player|p2|

@@ -1,0 +1,230 @@
+|j|☆1500k
+|j|☆drakkulll
+|t:|1750771208
+|gametype|doubles
+|player|p1|1500k|101|1268
+|player|p2|drakkulll|giovanni|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Mightyena, L50, M|
+|poke|p2|Lycanroc-Midnight, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drakkulll)
+|
+|t:|1750771251
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Patricio|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Cthulu|Mightyena, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p2a: Patricio|Dauntless Shield|boost
+|-boost|p2a: Patricio|def|1
+|-ability|p2b: Cthulu|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1750771269
+|move|p2a: Patricio|Protect|p2a: Patricio
+|-singleturn|p2a: Patricio|Protect
+|move|p1a: Miraidon|Volt Switch|p2b: Cthulu
+|-damage|p2b: Cthulu|0 fnt
+|faint|p2b: Cthulu
+|
+|t:|1750771277
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1750771286
+|switch|p2b: Roma|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Roma
+|turn|2
+|
+|t:|1750771296
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2b: Roma|Rock Slide|p1a: Calyrex|[spread] p1a
+|-activate|p1b: Farigiraf|move: Protect
+|-damage|p1a: Calyrex|79/100
+|move|p1a: Calyrex|Leech Seed|p2a: Patricio
+|-start|p2a: Patricio|move: Leech Seed
+|move|p2a: Patricio|Body Press|p1a: Calyrex
+|-damage|p1a: Calyrex|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Calyrex|38/100|[from] Sandstorm
+|-damage|p1b: Farigiraf|94/100|[from] Sandstorm
+|-heal|p1a: Calyrex|43/100|[from] item: Leftovers
+|-damage|p2a: Patricio|88/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|55/100|[silent]
+|upkeep
+|turn|3
+|inactive|1500k has 30 seconds left.
+|
+|t:|1750771328
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Roma|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Patricio|Body Press|p1b: Miraidon
+|-damage|p1b: Miraidon|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Calyrex|49/100|[from] Sandstorm
+|-damage|p1b: Miraidon|42/100|[from] Sandstorm
+|-heal|p1a: Calyrex|55/100|[from] item: Leftovers
+|-damage|p2a: Patricio|76/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|67/100|[silent]
+|upkeep
+|turn|4
+|inactive|1500k has 30 seconds left.
+|inactive|drakkulll has 30 seconds left.
+|
+|t:|1750771356
+|switch|p1b: Farigiraf|Farigiraf, L50, F|94/100
+|move|p2b: Roma|Knock Off|p1a: Calyrex
+|-damage|p1a: Calyrex|35/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: Roma
+|move|p1a: Calyrex|Glacial Lance|p2a: Patricio|[spread] p2a,p2b
+|-resisted|p2a: Patricio
+|-damage|p2a: Patricio|65/100
+|-damage|p2b: Roma|60/100
+|move|p2a: Patricio|Body Press|p1b: Farigiraf
+|-damage|p1b: Farigiraf|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Calyrex|29/100|[from] Sandstorm
+|-damage|p1b: Farigiraf|27/100|[from] Sandstorm
+|-damage|p2a: Patricio|53/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|41/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750771380
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Roma|Rock Slide|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p2a: Patricio|Body Press|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Calyrex|35/100|[from] Sandstorm
+|-damage|p2a: Patricio|41/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|46/100|[silent]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750771384
+|switch|p1b: Miraidon|Miraidon, L50|42/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|6
+|
+|t:|1750771399
+|move|p2a: Patricio|Protect|p2a: Patricio
+|-singleturn|p2a: Patricio|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: Patricio
+|-activate|p2a: Patricio|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Patricio|[spread] p2b
+|-activate|p2a: Patricio|move: Protect
+|-damage|p2b: Roma|20/100
+|move|p2b: Roma|Knock Off|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-enditem|p1b: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2b: Roma
+|faint|p1b: Miraidon
+|
+|-weather|none
+|-damage|p2a: Patricio|29/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|58/100|[silent]
+|upkeep
+|
+|t:|1750771403
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|7
+|inactive|drakkulll has 30 seconds left.
+|inactive|drakkulll has 20 seconds left.
+|inactive|drakkulll has 15 seconds left.
+|
+|t:|1750771445
+|-terastallize|p2a: Patricio|Ghost
+|move|p1b: Urshifu|Surging Strikes|p2a: Patricio
+|-crit|p2a: Patricio
+|-damage|p2a: Patricio|17/100
+|-crit|p2a: Patricio
+|-damage|p2a: Patricio|5/100
+|-crit|p2a: Patricio
+|-damage|p2a: Patricio|0 fnt
+|faint|p2a: Patricio
+|-hitcount|p2: Patricio|3
+|move|p1a: Calyrex|Glacial Lance|p2b: Roma
+|-damage|p2b: Roma|0 fnt
+|faint|p2b: Roma
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750771451
+|switch|p2b: Jacinta|Raging Bolt, L50|100/100
+|turn|8
+|inactive|1500k has 30 seconds left.
+|
+|t:|1750771476
+|move|p2b: Jacinta|Thunderclap|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Jacinta|91/100|[from] item: Life Orb
+|move|p1b: Urshifu|Surging Strikes|p2b: Jacinta
+|-resisted|p2b: Jacinta
+|-crit|p2b: Jacinta
+|-damage|p2b: Jacinta|83/100
+|-resisted|p2b: Jacinta
+|-crit|p2b: Jacinta
+|-damage|p2b: Jacinta|75/100
+|-resisted|p2b: Jacinta
+|-crit|p2b: Jacinta
+|-damage|p2b: Jacinta|66/100
+|-hitcount|p2b: Jacinta|3
+|
+|upkeep
+|turn|9
+|-message|1500k forfeited.
+|
+|win|drakkulll
+|raw|1500k's rating: 1268 &rarr; <strong>1238</strong><br />(-30 for losing)
+|raw|drakkulll's rating: 1192 &rarr; <strong>1222</strong><br />(+30 for winning)
+|l|☆1500k
+|player|p1|
+|l|☆drakkulll
+|player|p2|

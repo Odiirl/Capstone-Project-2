@@ -1,0 +1,155 @@
+|j|☆farrukt
+|j|☆jazz hansd
+|t:|1750843507
+|gametype|doubles
+|player|p1|farrukt|102|1198
+|player|p2|jazz hansd|1|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Heatran, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by farrukt)
+jazz hansd rejected open team sheets.
+|
+|t:|1750843582
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|inactive|farrukt has 30 seconds left.
+|inactive|jazz hansd has 30 seconds left.
+|inactive|farrukt has 20 seconds left.
+|inactive|jazz hansd has 20 seconds left.
+|inactive|farrukt has 15 seconds left.
+|inactive|jazz hansd has 15 seconds left.
+|inactive|farrukt has 10 seconds left.
+|
+|t:|1750843627
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Tornadus|Taunt|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Taunt
+|move|p1b: Zamazenta|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|45/100
+|cant|p2a: Zamazenta|move: Taunt|Iron Defense
+|
+|upkeep
+|turn|2
+|inactive|farrukt has 30 seconds left.
+|inactive|jazz hansd has 30 seconds left.
+|
+|t:|1750843660
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Tornadus|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Zamazenta|Body Press|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|upkeep
+|turn|3
+|inactive|jazz hansd has 30 seconds left.
+|
+|t:|1750843689
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Zamazenta|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750843702
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750843714
+|-terastallize|p2a: Amoonguss|Dark
+|move|p1a: Tornadus|Taunt|p2a: Amoonguss
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Amoonguss
+|move|p2b: Flutter Mane|Moonblast|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|26/100
+|move|p1b: Zamazenta|Heavy Slam|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|move|p2a: Amoonguss|Spore|p1b: Zamazenta
+|-status|p1b: Zamazenta|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750843737
+|cant|p1b: Zamazenta|slp
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Flutter Mane|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|43/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Amoonguss|[spread] p2b
+|-miss|p1a: Tornadus|p2a: Amoonguss
+|-crit|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750843753
+|cant|p1b: Zamazenta|slp
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Amoonguss|[miss]
+|-miss|p1a: Tornadus|p2a: Amoonguss
+|move|p2a: Amoonguss|Pollen Puff|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|97/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|jazz hansd forfeited.
+|
+|win|farrukt
+|raw|farrukt's rating: 1198 &rarr; <strong>1217</strong><br />(+19 for winning)
+|raw|jazz hansd's rating: 1109 &rarr; <strong>1090</strong><br />(-19 for losing)
+|l|☆jazz hansd
+|player|p2|

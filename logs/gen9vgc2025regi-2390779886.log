@@ -1,0 +1,176 @@
+|j|☆yi0721
+|j|☆sandslash_ecarlate
+|t:|1750766613
+|gametype|doubles
+|player|p1|yi0721|rosa|1378
+|player|p2|sandslash_ecarlate|acetrainer-gen4dp|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grafaiai, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750766644
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750766662
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750766695
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p1b: Calyrex|Encore|p2b: Landorus
+|-start|p2b: Landorus|Encore
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750766714
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Incineroar|55/100
+|-damage|p2b: Miraidon|81/100
+|-unboost|p2a: Incineroar|spe|1
+|-unboost|p2b: Miraidon|spe|1
+|move|p2a: Incineroar|Knock Off|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|95/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|l|☆yi0721
+|player|p1|
+|j|☆yi0721
+|player|p1|yi0721|rosa|
+|
+|t:|1750766761
+|switch|p2a: Grafaiai|Grafaiai, L50, M|100/100
+|-enditem|p2a: Grafaiai|Electric Seed
+|-boost|p2a: Grafaiai|def|1|[from] item: Electric Seed
+|move|p1b: Zamazenta|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|14/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Grafaiai|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Grafaiai|40/100
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p2a: Grafaiai|spe|1
+|faint|p2b: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750766772
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|5
+|
+|t:|1750766789
+|-terastallize|p1b: Zamazenta|Grass
+|move|p2a: Grafaiai|Scary Face|p1b: Zamazenta
+|-unboost|p1b: Zamazenta|spe|2
+|move|p2b: Landorus|Earth Power|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|70/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Landorus|[spread] p2a,p2b
+|-damage|p2a: Grafaiai|0 fnt
+|-damage|p2b: Landorus|42/100
+|faint|p2a: Grafaiai
+|move|p1b: Zamazenta|Body Press|p2b: Landorus
+|-resisted|p2b: Landorus
+|-damage|p2b: Landorus|2/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750766792
+|switch|p2a: Incineroar|Incineroar, L50, F|55/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Zamazenta|atk|1
+|turn|6
+|
+|t:|1750766807
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|move|p2b: Landorus|Sludge Bomb|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750766823
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: yi0721|move: Tailwind
+|move|p1b: Zamazenta|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Zamazenta|53/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|-message|sandslash_ecarlate forfeited.
+|
+|win|yi0721
+|raw|yi0721's rating: 1378 &rarr; <strong>1398</strong><br />(+20 for winning)
+|raw|sandslash_ecarlate's rating: 1386 &rarr; <strong>1366</strong><br />(-20 for losing)
+|l|☆sandslash_ecarlate
+|player|p2|
+|l|☆yi0721
+|player|p1|

@@ -1,0 +1,143 @@
+|j|☆sandstrummie
+|j|☆mangime1233
+|t:|1750864207
+|gametype|doubles
+|player|p1|sandstrummie|unknown|1467
+|player|p2|mangime1233|266|1513
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mangime1233)
+|inactive|mangime1233 has 60 seconds left.
+|
+|t:|1750864253
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750864273
+|-terastallize|p1b: Garchomp|Fairy
+|move|p2a: Roaring Moon|Tailwind|p2a: Roaring Moon
+|-sidestart|p2: mangime1233|move: Tailwind
+|move|p2b: Flutter Mane|Moonblast|p1b: Garchomp|[miss]
+|-miss|p2b: Flutter Mane|p1b: Garchomp
+|move|p1b: Garchomp|Dragon Claw|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|12/100
+|move|p1a: Tyranitar|Knock Off|p2b: Flutter Mane
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roaring Moon|6/100|[from] Sandstorm
+|-damage|p2b: Flutter Mane|0 fnt|[from] Sandstorm
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1750864291
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|2
+|
+|t:|1750864305
+|move|p2a: Roaring Moon|Knock Off|p1b: Garchomp
+|-resisted|p1b: Garchomp
+|-damage|p1b: Garchomp|79/100
+|-enditem|p1b: Garchomp|Bright Powder|[from] move: Knock Off|[of] p2a: Roaring Moon
+|move|p2b: Groudon|Precipice Blades|p1b: Garchomp|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|24/100
+|-damage|p1b: Garchomp|26/100
+|move|p1b: Garchomp|Rock Slide|p2a: Roaring Moon|[spread] p2a
+|-miss|p1b: Garchomp|p2b: Groudon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|move|p1a: Tyranitar|Low Kick|p2b: Groudon
+|-damage|p2b: Groudon|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750864323
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2a: Ogerpon|Mold Breaker
+|turn|3
+|
+|t:|1750864337
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Garchomp|[anim] Ivy Cudgel Fire
+|-activate|p1b: Garchomp|move: Protect
+|move|p2b: Groudon|Precipice Blades|p1a: Tyranitar|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750864350
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750864368
+|-terastallize|p2a: Ogerpon|Fire
+|detailschange|p2a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2a: Ogerpon|atk|1
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Calyrex|[anim] Ivy Cudgel Fire
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Groudon|Precipice Blades|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-miss|p2b: Groudon|p1b: Garchomp
+|move|p1b: Garchomp|Rock Slide|p2b: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Ogerpon
+|-resisted|p2b: Groudon
+|-damage|p2a: Ogerpon|60/100
+|-damage|p2b: Groudon|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: mangime1233|move: Tailwind
+|upkeep
+|turn|5
+|-message|mangime1233 forfeited.
+|
+|win|sandstrummie
+|raw|sandstrummie's rating: 1467 &rarr; <strong>1490</strong><br />(+23 for winning)
+|raw|mangime1233's rating: 1513 &rarr; <strong>1490</strong><br />(-23 for losing)
+|l|☆mangime1233
+|player|p2|
+|l|☆sandstrummie
+|player|p1|

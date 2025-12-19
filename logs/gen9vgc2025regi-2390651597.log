@@ -1,0 +1,131 @@
+|j|☆Keltch
+|j|☆Tiredbacon
+|t:|1750742901
+|gametype|doubles
+|player|p1|Keltch|swimmer-gen4|1065
+|player|p2|Tiredbacon|1|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Solgaleo, L50|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Keltch)
+|inactive|Tiredbacon has 60 seconds left.
+|
+|t:|1750742942
+|start
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Solgaleo|Solgaleo, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1750742965
+|move|p2b: Whimsicott|Taunt|p1b: Solgaleo
+|-start|p1b: Solgaleo|move: Taunt
+|move|p1b: Solgaleo|Hyper Voice|p2b: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Urshifu|42/100
+|-damage|p2b: Whimsicott|55/100
+|move|p2a: Urshifu|Close Combat|p1b: Solgaleo
+|-immune|p1b: Solgaleo
+|move|p1a: Venusaur|Giga Drain|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1750742979
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|turn|2
+|
+|t:|1750742993
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Tiredbacon|move: Tailwind
+|move|p1b: Solgaleo|Hyper Voice|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|65/100
+|-damage|p2b: Whimsicott|8/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Terapagos
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-damage|p1a: Terapagos|75/100
+|-damage|p2a: Incineroar|56/100|[from] Recoil
+|
+|-heal|p1a: Terapagos|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Keltch has 30 seconds left.
+|
+|t:|1750743020
+|move|p2b: Whimsicott|Protect|p2b: Whimsicott
+|-singleturn|p2b: Whimsicott|Protect
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p1b: Solgaleo|Hyper Voice|p2b: Whimsicott|[spread] p2a
+|-activate|p2b: Whimsicott|move: Protect
+|-damage|p2a: Incineroar|22/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Solgaleo
+|-damage|p1b: Solgaleo|0 fnt
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1b: Zoroark|Illusion
+|faint|p1b: Zoroark
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|
+|-heal|p1a: Terapagos|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743037
+|switch|p1b: Solgaleo|Solgaleo, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|4
+|inactive|Keltch has 30 seconds left.
+|
+|t:|1750743063
+|-terastallize|p2a: Flutter Mane|Fairy
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|90/100|[silent]
+|move|p2b: Whimsicott|Taunt|p1b: Solgaleo
+|-start|p1b: Solgaleo|move: Taunt
+|move|p2a: Flutter Mane|Dazzling Gleam|p1a: Terapagos|[spread] p1a,p1b
+|-resisted|p1b: Solgaleo
+|-crit|p1b: Solgaleo
+|-damage|p1a: Terapagos|49/100
+|-damage|p1b: Solgaleo|62/100
+|move|p1b: Solgaleo|Sunsteel Strike|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Terapagos|Tera Starstorm|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|win|Keltch
+|raw|Keltch's rating: 1065 &rarr; <strong>1096</strong><br />(+31 for winning)
+|raw|Tiredbacon's rating: 1076 &rarr; <strong>1054</strong><br />(-22 for losing)
+|l|☆Keltch
+|player|p1|
+|l|☆Tiredbacon
+|player|p2|

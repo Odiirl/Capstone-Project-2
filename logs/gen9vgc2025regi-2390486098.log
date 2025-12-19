@@ -1,0 +1,181 @@
+|j|☆bubert_ps
+|j|☆Tolkuschampion
+|t:|1750719082
+|gametype|doubles
+|player|p1|bubert_ps|1|1326
+|player|p2|Tolkuschampion|102|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Zapdos-Galar, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tolkuschampion)
+|
+|t:|1750719126
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|turn|1
+|
+|t:|1750719149
+|move|p1b: Incineroar|Fake Out|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|98/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Tolkuschampion|move: Light Screen
+|cant|p2b: Zamazenta|flinch
+|move|p1a: Miraidon|Volt Switch|p2b: Zamazenta
+|-damage|p2b: Zamazenta|51/100
+|
+|t:|1750719159
+|switch|p1a: Zapdos|Zapdos-Galar, L50, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1750719175
+|-terastallize|p1b: Incineroar|Bug
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Tolkuschampion|Reflect
+|move|p1a: Zapdos|Thunderous Kick|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|21/100
+|-unboost|p2b: Zamazenta|def|1
+|move|p2b: Zamazenta|Body Press|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|88/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-damage|p1b: Incineroar|81/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750719181
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|inactive|bubert_ps has 30 seconds left.
+|
+|t:|1750719207
+|switch|p2a: Scovillain|Scovillain, L50, F|100/100
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Zapdos|Thunderous Kick|p2a: Scovillain
+|-damage|p2a: Scovillain|43/100
+|-unboost|p2a: Scovillain|def|1
+|move|p2b: Koraidon|Flame Charge|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750719220
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750719240
+|move|p2b: Koraidon|Collision Course|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|25/100
+|move|p2a: Scovillain|Spicy Extract|p2b: Koraidon
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|-boost|p2b: Koraidon|atk|2
+|move|p1a: Zapdos|Thunderous Kick|p2b: Koraidon
+|-crit|p2b: Koraidon
+|-damage|p2b: Koraidon|41/100
+|move|p1b: Zamazenta|Body Press|p2b: Koraidon
+|-damage|p2b: Koraidon|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750719261
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Scovillain|Overheat|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p1a: Zapdos|Thunderous Kick|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750719276
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2b: Koraidon|Flare Blitz|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2b: Koraidon|0 fnt|[from] Recoil
+|faint|p2b: Koraidon
+|move|p2a: Scovillain|Overheat|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|67/100
+|-unboost|p2a: Scovillain|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750719293
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|25/100
+|turn|7
+|
+|t:|1750719305
+|move|p2a: Scovillain|Spicy Extract|p1a: Zamazenta
+|-boost|p1a: Zamazenta|atk|2
+|-unboost|p1a: Zamazenta|def|2
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2a: Scovillain
+|-supereffective|p2b: Grimmsnarl
+|-crit|p2b: Grimmsnarl
+|-damage|p2a: Scovillain|18/100
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p1a: Zamazenta|Body Press|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|win|bubert_ps
+|raw|bubert_ps's rating: 1326 &rarr; <strong>1346</strong><br />(+20 for winning)
+|raw|Tolkuschampion's rating: 1327 &rarr; <strong>1307</strong><br />(-20 for losing)
+|l|☆Tolkuschampion
+|player|p2|
+|l|☆bubert_ps
+|player|p1|

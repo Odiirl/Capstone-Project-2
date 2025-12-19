@@ -1,0 +1,133 @@
+|j|☆Llemand
+|j|☆dibz10
+|t:|1750741185
+|gametype|doubles
+|player|p1|Llemand|caitlin|1279
+|player|p2|dibz10|101|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|
+|t:|1750741231
+|start
+|switch|p1a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p1a: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750741260
+|-terastallize|p1a: Ogerpon|Fire
+|detailschange|p1a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p1a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p1a: Ogerpon|atk|1
+|move|p2b: Chien-Pao|Crunch|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|24/100
+|-unboost|p1b: Lunala|def|1
+|move|p2a: Zamazenta|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100
+|
+|upkeep
+|
+|t:|1750741279
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750741289
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Koraidon|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750741303
+|move|p2b: Chien-Pao|Sucker Punch|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p2a: Zamazenta|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|8/100
+|move|p1a: Koraidon|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Zamazenta
+|-damage|p1a: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750741314
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|turn|4
+|
+|t:|1750741322
+|move|p2a: Iron Hands|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|86/100
+|cant|p1b: Ursaluna|flinch
+|move|p2b: Chien-Pao|Icicle Crash|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750741332
+|-terastallize|p2a: Iron Hands|Water
+|move|p2b: Chien-Pao|Sucker Punch|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|dibz10
+|raw|Llemand's rating: 1279 &rarr; <strong>1252</strong><br />(-27 for losing)
+|raw|dibz10's rating: 1257 &rarr; <strong>1284</strong><br />(+27 for winning)
+|l|☆dibz10
+|player|p2|
+|l|☆Llemand
+|player|p1|

@@ -1,0 +1,198 @@
+|j|☆roy'tjeb
+|j|☆misterpropper
+|t:|1750836573
+|gametype|doubles
+|player|p1|roy'tjeb|102|1316
+|player|p2|misterpropper|n|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by misterpropper)
+|
+|t:|1750836608
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Scream Tail|atk|1
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750836632
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|-ability|p1a: Eternatus|Pressure
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|misterpropper has 30 seconds left.
+|
+|t:|1750836658
+|-terastallize|p2a: Calyrex|Water
+|move|p2a: Calyrex|Glacial Lance|p1a: Eternatus|[spread] p1a,p1b
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|32/100
+|-damage|p1b: Scream Tail|60/100
+|move|p2b: Incineroar|U-turn|p1b: Scream Tail
+|-damage|p1b: Scream Tail|46/100
+|
+|t:|1750836666
+|switch|p2b: Landorus|Landorus, L50, M|100/100|[from] U-turn
+|move|p1a: Eternatus|Fire Spin|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|97/100
+|-activate|p2a: Calyrex|move: Fire Spin|[of] p1a: Eternatus
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Eternatus|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Calyrex|perish3|[silent]
+|-start|p2b: Landorus|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|-heal|p1a: Eternatus|38/100|[from] item: Black Sludge
+|-damage|p2a: Calyrex|88/100|[from] move: Fire Spin|[partiallytrapped]
+|-start|p2a: Calyrex|perish3
+|-start|p2b: Landorus|perish3
+|-start|p1a: Eternatus|perish3
+|-start|p1b: Scream Tail|perish3
+|upkeep
+|turn|3
+|inactive|roy'tjeb has 30 seconds left.
+|
+|t:|1750836691
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Scream Tail|[spread] p1a
+|-activate|p1b: Scream Tail|move: Protect
+|-supereffective|p1a: Eternatus
+|-damage|p1a: Eternatus|0 fnt
+|faint|p1a: Eternatus
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Landorus|Taunt|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|
+|-heal|p2a: Calyrex|94/100|[from] item: Leftovers
+|-end|p2a: Calyrex|Fire Spin|[partiallytrapped]|[silent]
+|-start|p2a: Calyrex|perish2
+|-start|p2b: Landorus|perish2
+|-start|p1b: Scream Tail|perish2
+|upkeep
+|
+|t:|1750836706
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|turn|4
+|
+|t:|1750836721
+|move|p1a: Gothitelle|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|91/100
+|cant|p2a: Calyrex|flinch
+|move|p2b: Landorus|Taunt|p1b: Scream Tail
+|-start|p1b: Scream Tail|move: Taunt
+|cant|p1b: Scream Tail|move: Taunt|Disable
+|
+|-heal|p2a: Calyrex|97/100|[from] item: Leftovers
+|-start|p2a: Calyrex|perish1
+|-start|p2b: Landorus|perish1
+|-start|p1b: Scream Tail|perish1
+|upkeep
+|turn|5
+|
+|t:|1750836751
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Koraidon|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Landorus|Earth Power|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|-start|p2a: Calyrex|perish0
+|-start|p2b: Landorus|perish0
+|-fieldend|move: Trick Room
+|faint|p2a: Calyrex
+|faint|p2b: Landorus
+|upkeep
+|
+|t:|1750836769
+|switch|p1b: Scream Tail|Scream Tail, L50|46/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Scream Tail|atk|1
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|6
+|inactive|roy'tjeb has 30 seconds left.
+|inactive|misterpropper has 30 seconds left.
+|inactive|roy'tjeb has 20 seconds left.
+|inactive|roy'tjeb has 15 seconds left.
+|inactive|roy'tjeb has 10 seconds left.
+|inactive|roy'tjeb has 5 seconds left.
+|
+|t:|1750836824
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Gothitelle|Protect||[still]
+|-fail|p1a: Gothitelle
+|move|p2a: Incineroar|Fake Out|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|roy'tjeb forfeited.
+|
+|win|misterpropper
+|raw|roy&apos;tjeb's rating: 1316 &rarr; <strong>1296</strong><br />(-20 for losing)
+|raw|misterpropper's rating: 1324 &rarr; <strong>1344</strong><br />(+20 for winning)
+|l|☆roy'tjeb
+|player|p1|
+|l|☆misterpropper
+|player|p2|

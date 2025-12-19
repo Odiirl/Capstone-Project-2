@@ -1,0 +1,166 @@
+|j|☆Alexfind
+|j|☆Nydira
+|t:|1750768060
+|gametype|doubles
+|player|p1|Alexfind|265|1353
+|player|p2|Nydira|fisher-gen8|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, M|
+|poke|p1|Rayquaza, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nydira)
+|inactive|Alexfind has 60 seconds left.
+|inactive|Nydira has 60 seconds left.
+|
+|t:|1750768105
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|-ability|p1b: Ogerpon|Mold Breaker
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750768127
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|2
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Indeedee|[anim] Ivy Cudgel Fire
+|-damage|p2b: Indeedee|15/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750768151
+|move|p1a: Rayquaza|Protect|p1a: Rayquaza
+|-singleturn|p1a: Rayquaza|Protect
+|move|p2a: Ursaluna|Facade|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p2b: Indeedee|Encore|p1a: Rayquaza
+|-activate|p1a: Rayquaza|move: Protect
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750768156
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750768174
+|-terastallize|p1b: Zamazenta|Water
+|move|p2a: Ursaluna|Headlong Rush|p1b: Zamazenta
+|-damage|p1b: Zamazenta|62/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p2b: Indeedee|Encore|p1a: Rayquaza
+|-start|p1a: Rayquaza|Encore
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1a: Rayquaza|Protect||[still]
+|-fail|p1a: Rayquaza
+|
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750768192
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750768213
+|switch|p1a: Stonjourner|Stonjourner, L50, M|100/100
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Ursaluna|Facade|p1b: Zamazenta
+|-damage|p1b: Zamazenta|12/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|-damage|p2a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1750768223
+|switch|p1b: Rayquaza|Rayquaza, L50|100/100
+|-ability|p1b: Rayquaza|Air Lock
+|turn|5
+|
+|t:|1750768238
+|move|p1b: Rayquaza|Protect|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-enditem|p1a: Stonjourner|Focus Sash
+|-damage|p1a: Stonjourner|1/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p2b: Lunala|Moonblast|p1b: Rayquaza
+|-activate|p1b: Rayquaza|move: Protect
+|move|p1a: Stonjourner|Rock Slide|p2b: Lunala|[spread] p2a,p2b
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100 brn
+|-damage|p2b: Lunala|91/100
+|
+|-heal|p2b: Lunala|98/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|57/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|Nydira has 30 seconds left.
+|inactive|Nydira has 20 seconds left.
+|
+|t:|1750768277
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Rayquaza|Dragon Ascent|p2b: Lunala
+|-damage|p2b: Lunala|26/100
+|-unboost|p1b: Rayquaza|def|1
+|-unboost|p1b: Rayquaza|spd|1
+|move|p1a: Stonjourner|Body Press|p2a: Koraidon
+|-damage|p2a: Koraidon|76/100
+|move|p2b: Lunala|Moonblast|p1b: Rayquaza
+|-supereffective|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|33/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-message|Alexfind forfeited.
+|
+|win|Nydira
+|raw|Alexfind's rating: 1353 &rarr; <strong>1338</strong><br />(-15 for losing)
+|raw|Nydira's rating: 1444 &rarr; <strong>1459</strong><br />(+15 for winning)
+|l|☆Alexfind
+|player|p1|
+|l|☆Nydira
+|player|p2|

@@ -1,0 +1,138 @@
+|j|☆Hd70
+|j|☆Humongousaur
+|t:|1750739914
+|gametype|doubles
+|player|p1|Hd70|101|1329
+|player|p2|Humongousaur|pokemaniac|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vivillon-Fancy, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|teampreview|4
+|
+|t:|1750739954
+|start
+|switch|p1a: Vivillon|Vivillon-Fancy, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Rayquaza|Rayquaza, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750739986
+|move|p2b: Rayquaza|Extreme Speed|p1b: Kyogre
+|-damage|p1b: Kyogre|54/100
+|-damage|p2b: Rayquaza|91/100|[from] item: Life Orb
+|move|p1a: Vivillon|Tailwind|p1a: Vivillon
+|-sidestart|p1: Hd70|move: Tailwind
+|move|p1b: Kyogre|Ice Beam|p2b: Rayquaza
+|-supereffective|p2b: Rayquaza
+|-damage|p2b: Rayquaza|0 fnt
+|faint|p2b: Rayquaza
+|move|p2a: Weezing|Poison Gas|p1a: Vivillon|[spread] p1a,p1b
+|-status|p1a: Vivillon|psn
+|-status|p1b: Kyogre|psn
+|
+|-heal|p1b: Kyogre|60/100 psn|[from] item: Leftovers
+|-damage|p1a: Vivillon|88/100 psn|[from] psn
+|-damage|p1b: Kyogre|48/100 psn|[from] psn
+|upkeep
+|
+|t:|1750740006
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750740019
+|move|p1a: Vivillon|Pollen Puff|p1b: Kyogre
+|-heal|p1b: Kyogre|98/100 psn
+|move|p1b: Kyogre|Water Spout|p2a: Weezing|[spread] p2a,p2b
+|-damage|p2a: Weezing|34/100
+|-damage|p2b: Calyrex|35/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Vivillon|0 fnt
+|-damage|p1b: Kyogre|36/100 psn
+|faint|p1a: Vivillon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Weezing|Dazzling Gleam|p1b: Kyogre
+|-crit|p1b: Kyogre
+|-damage|p1b: Kyogre|6/100 psn
+|
+|-heal|p1b: Kyogre|12/100 psn|[from] item: Leftovers
+|-damage|p1b: Kyogre|0 fnt|[from] psn
+|faint|p1b: Kyogre
+|upkeep
+|
+|t:|1750740040
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|turn|3
+|
+|t:|1750740071
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2a: Weezing
+|-damage|p2a: Weezing|24/100
+|move|p1b: Miraidon|Electro Drift|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Weezing|Poison Gas|p1a: Incineroar|[spread] p1a,p1b
+|-status|p1a: Incineroar|psn
+|-status|p1b: Miraidon|psn
+|
+|-damage|p1b: Miraidon|88/100 psn|[from] psn
+|-damage|p1a: Incineroar|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1750740087
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|35/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750740105
+|-terastallize|p1b: Miraidon|Electric
+|-terastallize|p2b: Calyrex|Ghost
+|move|p1b: Miraidon|Electro Drift|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Calyrex|atk|1
+|move|p2b: Calyrex|Astral Barrage|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|52/100 psn
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-enditem|p2b: Calyrex|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Calyrex
+|
+|win|Hd70
+|raw|Hd70's rating: 1329 &rarr; <strong>1353</strong><br />(+24 for winning)
+|raw|Humongousaur's rating: 1398 &rarr; <strong>1374</strong><br />(-24 for losing)
+|l|☆Hd70
+|player|p1|

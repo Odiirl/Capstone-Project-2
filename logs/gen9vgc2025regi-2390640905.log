@@ -1,0 +1,195 @@
+|j|☆vanthoci
+|j|☆004B
+|t:|1750740884
+|gametype|doubles
+|player|p1|vanthoci|liko|1672
+|player|p2|004B|ghetsis|1654
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Conkeldurr, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 004B)
+|
+|t:|1750740917
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Zekrom-|Miraidon, L50|100/100
+|switch|p2b: Deerling-|Farigiraf, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|-enditem|p2b: Deerling-|Electric Seed
+|-boost|p2b: Deerling-|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750740934
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Zekrom-|Snarl|p1a: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-supereffective|p1b: Lunala
+|-damage|p1a: Indeedee|67/100
+|-damage|p1b: Lunala|78/100
+|-unboost|p1a: Indeedee|spa|1
+|-unboost|p1b: Lunala|spa|1
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|39/100
+|
+|upkeep
+|turn|2
+|inactive|vanthoci has 30 seconds left.
+|inactive|004B has 30 seconds left.
+|inactive|vanthoci has 20 seconds left.
+|
+|t:|1750740970
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Zekrom-|Snarl|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Urshifu
+|-damage|p1a: Calyrex|79/100
+|-damage|p1b: Urshifu|95/100
+|-unboost|p1b: Urshifu|spa|1
+|move|p2b: Calyrex|Glacial Lance|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|60/100
+|-damage|p1b: Urshifu|44/100
+|
+|upkeep
+|turn|3
+|inactive|vanthoci has 30 seconds left.
+|inactive|004B has 30 seconds left.
+|inactive|vanthoci has 20 seconds left.
+|inactive|004B has 20 seconds left.
+|inactive|vanthoci has 15 seconds left.
+|inactive|004B has 15 seconds left.
+|inactive|004B has 10 seconds left.
+|
+|t:|1750741018
+|switch|p2a: Deerling-|Farigiraf, L50, F|100/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2a: Deerling-
+|-damage|p2a: Deerling-|34/100
+|
+|upkeep
+|
+|t:|1750741026
+|switch|p2b: Zekrom-|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Zekrom-
+|turn|4
+|
+|t:|1750741037
+|switch|p1b: Indeedee|Indeedee-F, L50, F|67/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Zekrom-|Volt Switch|p1b: Indeedee
+|-damage|p1b: Indeedee|27/100
+|
+|t:|1750741044
+|switch|p2b: Y.M.C.A|Conkeldurr, L50, M|100/100|[from] Volt Switch
+|move|p1a: Calyrex|Glacial Lance|p2a: Deerling-|[spread] p2a,p2b
+|-damage|p2a: Deerling-|0 fnt
+|-damage|p2b: Y.M.C.A|47/100
+|faint|p2a: Deerling-
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-status|p2b: Y.M.C.A|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750741045
+|switch|p2a: Zekrom-|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Zekrom-
+|turn|5
+|
+|t:|1750741057
+|-terastallize|p1a: Calyrex|Fire
+|move|p2b: Y.M.C.A|Wide Guard|p2b: Y.M.C.A
+|-singleturn|p2b: Y.M.C.A|Wide Guard
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Zekrom-|Electro Drift|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2a: Zekrom-|84/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|move|p1a: Calyrex|Glacial Lance|p2a: Zekrom-|[spread] 
+|-activate|p2a: Zekrom-|move: Wide Guard
+|-activate|p2b: Y.M.C.A|move: Wide Guard
+|
+|-damage|p2b: Y.M.C.A|41/100 brn|[from] brn
+|upkeep
+|
+|t:|1750741068
+|switch|p1b: Urshifu|Urshifu, L50, F|44/100
+|turn|6
+|
+|t:|1750741084
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Urshifu|Sucker Punch|p2a: Zekrom-
+|-damage|p2a: Zekrom-|24/100
+|move|p2a: Zekrom-|Electro Drift|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Y.M.C.A|Low Kick|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-damage|p2b: Y.M.C.A|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1750741096
+|switch|p1b: Lunala|Lunala, L50|78/100
+|turn|7
+|j| Lavenderawa
+|
+|t:|1750741120
+|move|p2a: Zekrom-|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Lunala|Moongeist Beam|p2a: Zekrom-
+|-damage|p2a: Zekrom-|0 fnt
+|faint|p2a: Zekrom-
+|move|p2b: Y.M.C.A|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|004B
+|raw|vanthoci's rating: 1672 &rarr; <strong>1651</strong><br />(-21 for losing)
+|raw|004B's rating: 1654 &rarr; <strong>1675</strong><br />(+21 for winning)
+|l|☆004B
+|player|p2|
+|l|☆vanthoci
+|player|p1|
+|l| Lavenderawa

@@ -1,0 +1,251 @@
+|j|☆Moosewii7
+|j|☆Hazweioh
+|t:|1750795689
+|gametype|doubles
+|player|p1|Moosewii7|101|1465
+|player|p2|Hazweioh|169|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moosewii7)
+Moosewii7 rejected open team sheets.
+|inactive|Hazweioh has 60 seconds left.
+|
+|t:|1750795753
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Garganacl|Garganacl, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|Moosewii7 has 30 seconds left.
+|
+|t:|1750795786
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Smeargle|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|move|p1b: Garganacl|Salt Cure|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|cant|p1a: Indeedee|slp
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750795805
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Smeargle|Spore|p1b: Garganacl
+|-immune|p1b: Garganacl|[from] ability: Purifying Salt
+|move|p1b: Garganacl|Salt Cure|p2a: Rillaboom
+|-damage|p2a: Rillaboom|89/100
+|-start|p2a: Rillaboom|Salt Cure
+|-curestatus|p1a: Indeedee|slp|[msg]
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-heal|p2a: Rillaboom|95/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|83/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750795828
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-terastallize|p1b: Garganacl|Fairy
+|move|p1b: Garganacl|Salt Cure|p2b: Smeargle
+|-damage|p2b: Smeargle|86/100
+|-start|p2b: Smeargle|Salt Cure
+|move|p2b: Smeargle|Spore|p1a: Kyogre
+|-status|p1a: Kyogre|slp|[from] move: Spore
+|move|p2a: Rillaboom|U-turn|p1a: Kyogre
+|-damage|p1a: Kyogre|78/100 slp
+|
+|t:|1750795842
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Smeargle|92/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|84/100 slp|[from] Grassy Terrain
+|-damage|p2b: Smeargle|80/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|4
+|
+|t:|1750795857
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Garganacl|Salt Cure|p2b: Smeargle
+|-damage|p2b: Smeargle|66/100
+|cant|p1a: Kyogre|slp
+|move|p2a: Calyrex|Astral Barrage|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|42/100 slp
+|-damage|p1b: Garganacl|79/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Garganacl|85/100|[from] Grassy Terrain
+|-heal|p1b: Garganacl|91/100|[from] item: Leftovers
+|-heal|p1a: Kyogre|48/100 slp|[from] Grassy Terrain
+|-heal|p2a: Calyrex|97/100|[from] Grassy Terrain
+|-heal|p2b: Smeargle|72/100|[from] Grassy Terrain
+|-damage|p2b: Smeargle|60/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|5
+|inactive|Hazweioh has 30 seconds left.
+|
+|t:|1750795882
+|move|p1b: Garganacl|Wide Guard|p1b: Garganacl
+|-singleturn|p1b: Garganacl|Wide Guard
+|cant|p1a: Kyogre|slp
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Smeargle|Decorate|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|2
+|-boost|p2a: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Garganacl|97/100|[from] Grassy Terrain
+|-heal|p1b: Garganacl|100/100|[from] item: Leftovers
+|-heal|p1a: Kyogre|54/100 slp|[from] Grassy Terrain
+|-heal|p2a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p2b: Smeargle|66/100|[from] Grassy Terrain
+|-damage|p2b: Smeargle|54/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|6
+|
+|t:|1750795910
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Garganacl|Salt Cure|p2b: Smeargle
+|-damage|p2b: Smeargle|46/100
+|cant|p1a: Kyogre|slp
+|move|p2b: Smeargle|Decorate|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|2
+|-boost|p2a: Calyrex|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|59/100 slp|[from] Grassy Terrain
+|-heal|p2b: Smeargle|52/100|[from] Grassy Terrain
+|-damage|p2b: Smeargle|40/100|[from] Salt Cure
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|7
+|
+|t:|1750795933
+|move|p1b: Garganacl|Wide Guard|p1b: Garganacl
+|-singleturn|p1b: Garganacl|Wide Guard
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p2a: Calyrex|Psychic|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2b: Smeargle|28/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|
+|t:|1750795948
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750795960
+|-terastallize|p2a: Calyrex|Dark
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Smeargle|Spore|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Calyrex|Psychic|p1b: Garganacl
+|-damage|p1b: Garganacl|0 fnt
+|faint|p1b: Garganacl
+|-damage|p2a: Calyrex|81/100|[from] item: Life Orb
+|
+|-damage|p2b: Smeargle|16/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|
+|t:|1750795969
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|9
+|
+|t:|1750795978
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Smeargle|Spore|p1b: Indeedee
+|-status|p1b: Indeedee|slp|[from] move: Spore
+|move|p1a: Calyrex|Astral Barrage|p2b: Smeargle|[spread] p2a
+|-immune|p2b: Smeargle
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|58/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Indeedee|[spread] p1a
+|-immune|p1b: Indeedee
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-damage|p2a: Calyrex|49/100|[from] item: Life Orb
+|
+|-damage|p2b: Smeargle|4/100|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|turn|10
+|-message|Moosewii7 forfeited.
+|
+|win|Hazweioh
+|raw|Moosewii7's rating: 1465 &rarr; <strong>1446</strong><br />(-19 for losing)
+|raw|Hazweioh's rating: 1491 &rarr; <strong>1510</strong><br />(+19 for winning)
+|l|☆Moosewii7
+|player|p1|
+|l|☆Hazweioh
+|player|p2|

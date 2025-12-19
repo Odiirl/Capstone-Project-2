@@ -1,0 +1,146 @@
+|j|☆Sn0vik
+|j|☆BigEma
+|t:|1750861439
+|gametype|doubles
+|player|p1|Sn0vik|burglar|1120
+|player|p2|BigEma|ethan|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Thorns, L50|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|
+|t:|1750861490
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Delphox|Delphox, L50, F, shiny|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Delphox|atk|1
+|turn|1
+|
+|t:|1750861524
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Incineroar|Fake Out|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Psychic Terrain
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Porygon2
+|-damage|p2a: Porygon2|55/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1750861562
+|-terastallize|p1b: Indeedee|Fairy
+|move|p2b: Incineroar|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|47/100
+|move|p2a: Porygon2|Tera Blast|p1b: Indeedee
+|-damage|p1b: Indeedee|69/100
+|move|p1a: Lunala|Expanding Force|p2b: Incineroar|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1750861576
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750861608
+|move|p1b: Indeedee|Helping Hand|p1a: Lunala
+|-singleturn|p1a: Lunala|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Lunala|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Incineroar|Flare Blitz|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-damage|p2b: Incineroar|83/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750861620
+|switch|p1a: Delphox|Delphox, L50, F, shiny|100/100
+|switch|p2a: Iron Thorns|Iron Thorns, L50, shiny|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|turn|4
+|
+|t:|1750861638
+|move|p1a: Delphox|Protect|p1a: Delphox
+|-singleturn|p1a: Delphox|Protect
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Iron Thorns|81/100
+|-damage|p2b: Incineroar|63/100
+|move|p2a: Iron Thorns|Rock Slide|p1a: Delphox|[spread] p1b
+|-activate|p1a: Delphox|move: Protect
+|-damage|p1b: Indeedee|23/100
+|move|p2b: Incineroar|Flare Blitz|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2b: Incineroar|47/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|-damage|p2b: Incineroar|40/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750861652
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750861689
+|-terastallize|p2a: Iron Thorns|Fairy
+|move|p1b: Koraidon|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2b: Incineroar
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Delphox|Fire Blast|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|win|Sn0vik
+|raw|Sn0vik's rating: 1120 &rarr; <strong>1140</strong><br />(+20 for winning)
+|raw|BigEma's rating: 1053 &rarr; <strong>1038</strong><br />(-15 for losing)
+|l|☆BigEma
+|player|p2|
+|l|☆Sn0vik
+|player|p1|

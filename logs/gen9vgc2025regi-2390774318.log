@@ -1,0 +1,146 @@
+|j|☆Mulegator12
+|j|☆SlamTTHM
+|t:|1750765762
+|gametype|doubles
+|player|p1|Mulegator12|101|1134
+|player|p2|SlamTTHM|265|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Araquanid, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750765818
+|start
+|switch|p1a: Iron Treads|Iron Treads, L50|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750765851
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Iron Treads|Steel Roller|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2b: Indeedee
+|-damage|p1a: Iron Treads|91/100|[from] item: Life Orb
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Necrozma
+|-damage|p2a: Necrozma|48/100
+|-status|p2a: Necrozma|brn
+|move|p2a: Necrozma|Trick Room|p2a: Necrozma
+|-fieldstart|move: Trick Room|[of] p2a: Necrozma
+|
+|-damage|p2a: Necrozma|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1750765870
+|switch|p2b: Alcremie|Alcremie, L50, F|100/100
+|-enditem|p2b: Alcremie|Room Service
+|-unboost|p2b: Alcremie|spe|1|[from] item: Room Service
+|turn|2
+|
+|t:|1750765897
+|move|p2b: Alcremie|Decorate|p2a: Necrozma
+|-boost|p2a: Necrozma|atk|2
+|-boost|p2a: Necrozma|spa|2
+|move|p2a: Necrozma|Moongeist Beam|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|5/100
+|-damage|p2a: Necrozma|32/100 brn|[from] item: Life Orb
+|move|p1b: Ho-Oh|Sacred Fire|p2b: Alcremie
+|-damage|p2b: Alcremie|45/100
+|-status|p2b: Alcremie|brn
+|move|p1a: Iron Treads|Knock Off|p2a: Necrozma
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|-enditem|p2a: Necrozma|Life Orb|[from] move: Knock Off|[of] p1a: Iron Treads
+|faint|p2a: Necrozma
+|-damage|p1a: Iron Treads|81/100|[from] item: Life Orb
+|
+|-damage|p2b: Alcremie|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1750765918
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750765932
+|move|p1b: Ho-Oh|Protect|p1b: Ho-Oh
+|-singleturn|p1b: Ho-Oh|Protect
+|move|p1a: Iron Treads|Protect|p1a: Iron Treads
+|-singleturn|p1a: Iron Treads|Protect
+|move|p2b: Alcremie|Decorate|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|2
+|-boost|p2a: Calyrex|spa|2
+|move|p2a: Calyrex|Glacial Lance|p1a: Iron Treads|[spread] 
+|-activate|p1a: Iron Treads|move: Protect
+|-activate|p1b: Ho-Oh|move: Protect
+|
+|-damage|p2b: Alcremie|33/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750765958
+|move|p1a: Iron Treads|Protect||[still]
+|-fail|p1a: Iron Treads
+|move|p2b: Alcremie|Decorate|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|2
+|-boost|p2a: Calyrex|spa|2
+|move|p2a: Calyrex|Glacial Lance|p1a: Iron Treads|[spread] p1a,p1b
+|-damage|p1a: Iron Treads|0 fnt
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|faint|p1b: Ho-Oh
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|-damage|p2b: Alcremie|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1750765966
+|switch|p1b: Walking Wake|Walking Wake, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Walking Wake|ability: Protosynthesis
+|-start|p1b: Walking Wake|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750765994
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Alcremie|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Alcremie
+|move|p2a: Calyrex|Glacial Lance|p1a: Koraidon|[spread] p1a,p1b
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Walking Wake|0 fnt
+|faint|p1a: Koraidon
+|faint|p1b: Walking Wake
+|-end|p1b: Walking Wake|Protosynthesis|[silent]
+|
+|win|SlamTTHM
+|raw|Mulegator12's rating: 1134 &rarr; <strong>1104</strong><br />(-30 for losing)
+|raw|SlamTTHM's rating: 1068 &rarr; <strong>1103</strong><br />(+35 for winning)
+|l|☆Mulegator12
+|player|p1|

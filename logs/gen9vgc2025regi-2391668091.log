@@ -1,0 +1,198 @@
+|j|☆HarrietThugman
+|j|☆demonight94
+|t:|1750881721
+|gametype|doubles
+|player|p1|HarrietThugman|102|1090
+|player|p2|demonight94|benga|1074
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ambipom, L50, M|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Zekrom, L50|
+|poke|p2|Magnezone, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Raikou, L50|
+|poke|p2|Pachirisu, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by demonight94)
+|
+|t:|1750881734
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Magnezone|Magnezone, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750881747
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: HarrietThugman|move: Tailwind
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: demonight94|move: Tailwind
+|move|p1b: Calyrex|Nasty Plot|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|2
+|move|p2b: Magnezone|Volt Switch|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|2/100
+|
+|t:|1750881757
+|switch|p2b: Zekrom|Zekrom, L50|100/100|[from] Volt Switch
+|-ability|p2b: Zekrom|Teravolt
+|
+|upkeep
+|turn|2
+|
+|t:|1750881768
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p2b: Zekrom|Thunder|p1b: Calyrex
+|-damage|p1b: Calyrex|44/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Zekrom|[spread] p2a,p2b
+|-damage|p2a: Tornadus|0 fnt
+|-damage|p2b: Zekrom|0 fnt
+|faint|p2a: Tornadus
+|faint|p2b: Zekrom
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|2
+|move|p1a: Tornadus|Bleakwind Storm|p2: Tornadus|[notarget]
+|-fail|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750881777
+|switch|p2b: Magnezone|Magnezone, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750881783
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Miraidon|Discharge|p1a: Tornadus|[spread] p2b
+|-activate|p1a: Tornadus|move: Protect
+|-activate|p1b: Calyrex|move: Protect
+|-resisted|p2b: Magnezone
+|-damage|p2b: Magnezone|32/100
+|move|p2b: Magnezone|Flash Cannon|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750881806
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p2b: Magnezone|Protect|p2b: Magnezone
+|-singleturn|p2b: Magnezone|Protect
+|move|p2a: Miraidon|Discharge|p1a: Tornadus|[spread] p1b
+|-activate|p2b: Magnezone|move: Protect
+|-activate|p1a: Tornadus|move: Protect
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: demonight94|move: Tailwind
+|-sideend|p1: HarrietThugman|move: Tailwind
+|upkeep
+|
+|t:|1750881816
+|switch|p1b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p1b: Mewtwo|Unnerve
+|turn|5
+|
+|t:|1750881825
+|move|p1b: Mewtwo|Protect|p1b: Mewtwo
+|-singleturn|p1b: Mewtwo|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: HarrietThugman|move: Tailwind
+|move|p2a: Miraidon|Discharge|p1b: Mewtwo|[spread] p2b,p1a
+|-activate|p1b: Mewtwo|move: Protect
+|-resisted|p2b: Magnezone
+|-supereffective|p1a: Tornadus
+|-damage|p2b: Magnezone|0 fnt
+|-damage|p1a: Tornadus|0 fnt
+|faint|p2b: Magnezone
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750881834
+|switch|p1a: Ambipom|Ambipom, L50, M|100/100
+|turn|6
+|
+|t:|1750881840
+|move|p1a: Ambipom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|86/100
+|move|p1b: Mewtwo|Psychic|p2a: Miraidon
+|-damage|p2a: Miraidon|36/100
+|cant|p2a: Miraidon|flinch
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750881849
+|move|p1b: Mewtwo|Fling|p2a: Miraidon
+|-damage|p2a: Miraidon|29/100
+|-enditem|p1b: Mewtwo|King's Rock|[from] move: Fling
+|move|p1a: Ambipom|Chilling Water|p2a: Miraidon
+|-damage|p2a: Miraidon|23/100
+|-unboost|p2a: Miraidon|atk|1
+|cant|p2a: Miraidon|flinch
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|t:|1750881868
+|move|p1b: Mewtwo|Protect|p1b: Mewtwo
+|-singleturn|p1b: Mewtwo|Protect
+|move|p1a: Ambipom|Fling|p2a: Miraidon
+|-damage|p2a: Miraidon|3/100
+|-enditem|p1a: Ambipom|Assault Vest|[from] move: Fling
+|move|p2a: Miraidon|Discharge|p1a: Ambipom|[spread] p1a
+|-activate|p1b: Mewtwo|move: Protect
+|-damage|p1a: Ambipom|14/100
+|-status|p1a: Ambipom|par
+|
+|-sideend|p1: HarrietThugman|move: Tailwind
+|upkeep
+|turn|9
+|inactive|HarrietThugman has 30 seconds left.
+|
+|t:|1750881894
+|move|p2a: Miraidon|Discharge|p1b: Mewtwo|[spread] p1a,p1b
+|-damage|p1a: Ambipom|0 fnt
+|-damage|p1b: Mewtwo|30/100
+|faint|p1a: Ambipom
+|move|p1b: Mewtwo|Psystrike|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|win|HarrietThugman
+|raw|HarrietThugman's rating: 1090 &rarr; <strong>1115</strong><br />(+25 for winning)
+|raw|demonight94's rating: 1074 &rarr; <strong>1054</strong><br />(-20 for losing)
+|l|☆demonight94
+|player|p2|
+|c|☆HarrietThugman|Ggs i got bad info from a youtube short
+|l|☆HarrietThugman
+|player|p1|

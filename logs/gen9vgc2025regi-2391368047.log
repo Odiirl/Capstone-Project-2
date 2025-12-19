@@ -1,0 +1,151 @@
+|j|☆testostrazone
+|j|☆Octoputzi
+|t:|1750844765
+|gametype|doubles
+|player|p1|testostrazone|170|1323
+|player|p2|Octoputzi|hoopster|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Enamorus, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Octoputzi)
+|
+|t:|1750844795
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750844817
+|-terastallize|p2a: Koraidon|Fire
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Koraidon|Flare Blitz|p1b: Calyrex
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|91/100
+|-damage|p2a: Koraidon|98/100|[from] Recoil
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p1b: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|79/100
+|-damage|p2b: Scovillain|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|testostrazone has 30 seconds left.
+|inactive|Octoputzi has 30 seconds left.
+|
+|t:|1750844846
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p2a: Koraidon|Collision Course|p1b: Calyrex
+|-damage|p1b: Calyrex|23/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Scovillain|[spread] p2a,p2b
+|-supereffective|p2b: Scovillain
+|-damage|p2a: Koraidon|51/100
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p1b: Calyrex|Leech Seed|p2a: Koraidon
+|-start|p2a: Koraidon|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Koraidon|39/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|35/100|[silent]
+|upkeep
+|
+|t:|1750844853
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p1b: Calyrex|Electric Seed
+|-boost|p1b: Calyrex|def|1|[from] item: Electric Seed
+|turn|3
+|
+|t:|1750844871
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: testostrazone|move: Tailwind
+|move|p2b: Miraidon|Draco Meteor|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Tornadus
+|move|p2a: Koraidon|Collision Course|p1b: Landorus
+|-resisted|p1b: Landorus
+|-damage|p1b: Landorus|40/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Koraidon|27/100|[from] Leech Seed|[of] p1b: Landorus
+|-heal|p1b: Landorus|53/100|[silent]
+|upkeep
+|
+|t:|1750844891
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750844914
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Landorus|Earth Power|p2b: Clefairy
+|-damage|p2b: Clefairy|25/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Koraidon|15/100|[from] Leech Seed|[of] p1b: Landorus
+|-heal|p1b: Landorus|67/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750844935
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1a: Miraidon|Electro Drift|p2b: Clefairy
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|move|p1b: Landorus|Earth Power|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|none
+|upkeep
+|
+|t:|1750844940
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|-message|Octoputzi forfeited.
+|
+|win|testostrazone
+|raw|testostrazone's rating: 1323 &rarr; <strong>1348</strong><br />(+25 for winning)
+|raw|Octoputzi's rating: 1405 &rarr; <strong>1380</strong><br />(-25 for losing)
+|l|☆Octoputzi
+|player|p2|

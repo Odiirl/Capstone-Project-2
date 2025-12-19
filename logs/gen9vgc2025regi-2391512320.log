@@ -1,0 +1,120 @@
+|j|☆hair bucket
+|j|☆AAAJN
+|t:|1750864870
+|gametype|doubles
+|player|p1|hair bucket|doctor|1505
+|player|p2|AAAJN|169|1447
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, F|
+|poke|p1|Regigigas, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Koraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750864891
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Weezing|Weezing, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Weezing|Neutralizing Gas
+|-block|p1a: Koraidon|item: Ability Shield
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AAAJN)
+|
+|t:|1750864915
+|move|p2a: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|87/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Weezing|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2b: Calyrex|Glacial Lance|p1b: Weezing|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Weezing|49/100
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Weezing|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750864925
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750864943
+|-terastallize|p1a: Calyrex|Ghost
+|-terastallize|p2b: Calyrex|Dragon
+|move|p1a: Calyrex|Astral Barrage|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|79/100
+|-damage|p2b: Calyrex|48/100
+|move|p2a: Incineroar|U-turn|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|87/100
+|
+|t:|1750864952
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|move|p1b: Weezing|Sludge Bomb|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|66/100
+|-status|p2a: Miraidon|psn
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Weezing|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Weezing
+|-end|p1b: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Miraidon|54/100 psn|[from] psn
+|upkeep
+|
+|t:|1750864955
+|switch|p1b: Iron Hands|Iron Hands, L50, shiny|100/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750864976
+|move|p1b: Iron Hands|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|33/100 psn
+|cant|p2a: Miraidon|flinch
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|win|AAAJN
+|raw|hair bucket's rating: 1505 &rarr; <strong>1482</strong><br />(-23 for losing)
+|raw|AAAJN's rating: 1447 &rarr; <strong>1470</strong><br />(+23 for winning)
+|l|☆hair bucket
+|player|p1|
+|l|☆AAAJN
+|player|p2|

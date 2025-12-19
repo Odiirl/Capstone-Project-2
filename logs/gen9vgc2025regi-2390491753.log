@@ -1,0 +1,177 @@
+|j|☆AaronAstro
+|j|☆fwegwegwegw
+|t:|1750719812
+|gametype|doubles
+|player|p1|AaronAstro|ethan|1247
+|player|p2|fwegwegwegw|2|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Seedot, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|
+|t:|1750719840
+|start
+|switch|p1a: Seedot|Seedot, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Seedot|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|1
+|
+|t:|1750719868
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Seedot|Endure|p1a: Seedot
+|-singleturn|p1a: Seedot|move: Endure
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|42/100
+|-enditem|p1b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750719888
+|move|p1a: Seedot|Foul Play|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|55/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|72/100
+|-damage|p2b: Calyrex|38/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Seedot
+|-resisted|p1b: Calyrex
+|-enditem|p1a: Seedot|Focus Sash
+|-damage|p1a: Seedot|1/100
+|-damage|p1b: Calyrex|25/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2a: Incineroar|63/100|[from] Recoil
+|
+|-heal|p2b: Calyrex|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750719906
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|turn|3
+|
+|t:|1750719917
+|move|p1b: Iron Hands|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|48/100
+|move|p1a: Seedot|Endeavor|p2b: Calyrex
+|-damage|p2b: Calyrex|1/100
+|move|p2b: Calyrex|Leech Seed|p1b: Iron Hands
+|-start|p1b: Iron Hands|move: Leech Seed
+|cant|p2a: Incineroar|flinch
+|
+|-heal|p2b: Calyrex|7/100|[from] item: Leftovers
+|-damage|p1b: Iron Hands|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|21/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750719934
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Seedot|Foul Play|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Iron Hands|Drain Punch|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-heal|p1b: Iron Hands|100/100|[from] drain|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|
+|-heal|p2b: Calyrex|27/100|[from] item: Leftovers
+|-damage|p1b: Iron Hands|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|42/100|[silent]
+|upkeep
+|
+|t:|1750719943
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|turn|5
+|
+|t:|1750719966
+|move|p1a: Seedot|Endure|p1a: Seedot
+|-singleturn|p1a: Seedot|move: Endure
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Landorus|Earth Power|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|6/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750719971
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1750720010
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Seedot|0 fnt
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1a: Seedot
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Landorus|Earth Power|p1: Seedot|[notarget]
+|-fail|p2a: Landorus
+|
+|upkeep
+|
+|t:|1750720018
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|7
+|
+|t:|1750720036
+|-terastallize|p2b: Miraidon|Fairy
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Miraidon
+|-damage|p1a: Miraidon|25/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Landorus|22/100
+|-damage|p2b: Miraidon|48/100
+|move|p2a: Landorus|Earth Power|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|fwegwegwegw
+|raw|AaronAstro's rating: 1247 &rarr; <strong>1224</strong><br />(-23 for losing)
+|raw|fwegwegwegw's rating: 1279 &rarr; <strong>1302</strong><br />(+23 for winning)
+|l|☆AaronAstro
+|player|p1|
+|l|☆fwegwegwegw
+|player|p2|

@@ -1,0 +1,137 @@
+|j|☆bombay12345
+|j|☆nico_Kaiser
+|t:|1750833331
+|gametype|doubles
+|player|p1|bombay12345|102|1330
+|player|p2|nico_Kaiser|pryce|1283
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Palafin, L50, M|
+|poke|p2|Landorus-Therian, L50, M|
+|teampreview|4
+|
+|t:|1750833357
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, L50, M|100/100
+|switch|p2b: Palafin|Palafin, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nico_Kaiser)
+|inactive|bombay12345 has 60 seconds left.
+|
+|t:|1750833389
+|detailschange|p2b: Palafin|Palafin-Hero, L50, M
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Landorus|[spread] p2a,p2b
+|-resisted|p2b: Zacian
+|-damage|p2a: Landorus|0 fnt
+|-damage|p2b: Zacian|53/100
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1750833405
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|2
+|
+|t:|1750833424
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|-terastallize|p2a: Eternatus|Fairy
+|move|p2b: Zacian|Crunch|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|47/100
+|move|p2a: Eternatus|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|72/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|3
+|inactive|bombay12345 has 30 seconds left.
+|inactive|nico_Kaiser has 30 seconds left.
+|
+|t:|1750833451
+|move|p1a: Iron Hands|Wild Charge|p2b: Zacian
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-damage|p1a: Iron Hands|63/100|[from] Recoil
+|move|p1b: Farigiraf|Psychic|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|55/100
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1750833467
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Palafin|Palafin-Hero, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-activate|p2b: Palafin|ability: Zero to Hero
+|turn|4
+|
+|t:|1750833484
+|move|p1a: Iron Hands|Wild Charge|p2b: Palafin
+|-supereffective|p2b: Palafin
+|-enditem|p2b: Palafin|Focus Sash
+|-damage|p2b: Palafin|1/100
+|-damage|p1a: Iron Hands|42/100|[from] Recoil
+|move|p1b: Calyrex|Glacial Lance|p2a: Eternatus|[spread] p2a,p2b
+|-resisted|p2b: Palafin
+|-damage|p2a: Eternatus|3/100
+|-damage|p2b: Palafin|0 fnt
+|faint|p2b: Palafin
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|
+|upkeep
+|turn|5
+|-message|nico_Kaiser forfeited.
+|
+|win|bombay12345
+|raw|bombay12345's rating: 1330 &rarr; <strong>1347</strong><br />(+17 for winning)
+|raw|nico_Kaiser's rating: 1283 &rarr; <strong>1261</strong><br />(-22 for losing)
+|l|☆nico_Kaiser
+|player|p2|
+|l|☆bombay12345
+|player|p1|

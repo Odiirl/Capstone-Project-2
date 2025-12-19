@@ -1,0 +1,119 @@
+|j|☆Kvmr!
+|j|☆EnchantDark
+|t:|1750744822
+|gametype|doubles
+|player|p1|Kvmr!|266|1138
+|player|p2|EnchantDark|1|1130
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Krookodile, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EnchantDark)
+|
+|t:|1750744870
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p2a: Krookodile|Krookodile, L50, M|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|turn|1
+|
+|t:|1750744891
+|move|p1b: Whimsicott|Taunt|p2b: Smeargle
+|-start|p2b: Smeargle|move: Taunt
+|move|p2a: Krookodile|Earthquake|p1a: Flutter Mane|[spread] p2b,p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p2b: Smeargle|17/100
+|-damage|p1a: Flutter Mane|18/100
+|-damage|p1b: Whimsicott|78/100
+|move|p1a: Flutter Mane|Moonblast|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|move|p2b: Smeargle|Wicked Blow|p2: Krookodile|[notarget]
+|-fail|p2b: Smeargle
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|
+|t:|1750744904
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750744914
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: Kvmr!|move: Tailwind
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Smeargle|Wicked Blow|p1a: Flutter Mane
+|-crit|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|
+|t:|1750744925
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750744942
+|-terastallize|p1b: Whimsicott|Ground
+|-terastallize|p2a: Koraidon|Fighting
+|move|p1b: Whimsicott|Fake Tears|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|move|p1a: Miraidon|Parabolic Charge|p2a: Koraidon|[spread] p2a,p2b
+|-immune|p1b: Whimsicott
+|-damage|p2a: Koraidon|27/100
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Koraidon|Close Combat|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750744952
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|-message|EnchantDark forfeited.
+|
+|win|Kvmr!
+|raw|Kvmr!'s rating: 1138 &rarr; <strong>1162</strong><br />(+24 for winning)
+|raw|EnchantDark's rating: 1130 &rarr; <strong>1106</strong><br />(-24 for losing)
+|l|☆EnchantDark
+|player|p2|
+|l|☆Kvmr!
+|player|p1|

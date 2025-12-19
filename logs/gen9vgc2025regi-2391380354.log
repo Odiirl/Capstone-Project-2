@@ -1,0 +1,151 @@
+|j|☆bigplayer250
+|j|☆fluffernugget
+|t:|1750847009
+|gametype|doubles
+|player|p1|bigplayer250|caitlin|1100
+|player|p2|fluffernugget|clerk|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Drifblim, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Hippowdon, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Heatran, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Garganacl, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bigplayer250)
+fluffernugget has agreed to open team sheets.
+|inactive|fluffernugget has 60 seconds left.
+|
+|t:|1750847041
+|start
+|switch|p1a: Drifblim|Drifblim, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Garganacl|Garganacl, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Drifblim|Psychic Seed
+|-boost|p1a: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750847063
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Garganacl|Grassy Seed
+|-boost|p2b: Garganacl|def|1|[from] item: Grassy Seed
+|-enditem|p1b: Indeedee|Mirror Herb
+|-boost|p1b: Indeedee|def|1|[from] item: Mirror Herb
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2b: Garganacl|Salt Cure|p1b: Indeedee
+|-damage|p1b: Indeedee|90/100
+|-start|p1b: Indeedee|Salt Cure
+|
+|-heal|p1b: Indeedee|97/100|[from] Grassy Terrain
+|-damage|p1b: Indeedee|84/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1750847083
+|move|p2a: Rillaboom|Fake Out|p1b: Indeedee
+|-damage|p1b: Indeedee|77/100
+|cant|p1b: Indeedee|flinch
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2b: Garganacl|Salt Cure|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|71/100
+|-start|p1a: Drifblim|Salt Cure
+|
+|-heal|p1b: Indeedee|84/100|[from] Grassy Terrain
+|-damage|p1a: Drifblim|58/100|[from] Salt Cure
+|-damage|p1b: Indeedee|71/100|[from] Salt Cure
+|upkeep
+|turn|3
+|inactive|bigplayer250 has 30 seconds left.
+|
+|t:|1750847113
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: Rillaboom|Leech Seed|p1b: Indeedee
+|-start|p1b: Indeedee|move: Leech Seed
+|move|p2b: Garganacl|Body Press|p1b: Indeedee
+|-damage|p1b: Indeedee|44/100
+|
+|-heal|p1b: Indeedee|50/100|[from] Grassy Terrain
+|-damage|p1b: Indeedee|38/100|[from] Leech Seed|[of] p2a: Rillaboom
+|-damage|p1a: Drifblim|46/100|[from] Salt Cure
+|-damage|p1b: Indeedee|25/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1750847133
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p1a: Drifblim|Substitute|p1a: Drifblim
+|-start|p1a: Drifblim|Substitute
+|-damage|p1a: Drifblim|21/100
+|move|p2a: Rillaboom|Leech Seed|p1a: Drifblim|[miss]
+|-miss|p2a: Rillaboom|p1a: Drifblim
+|move|p2b: Garganacl|Body Press|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Protect
+|
+|-heal|p1b: Indeedee|32/100|[from] Grassy Terrain
+|-damage|p1b: Indeedee|19/100|[from] Leech Seed|[of] p2a: Rillaboom
+|-damage|p1a: Drifblim|9/100|[from] Salt Cure
+|-damage|p1b: Indeedee|7/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1750847156
+|move|p2a: Rillaboom|Protect|p2a: Rillaboom
+|-singleturn|p2a: Rillaboom|Protect
+|move|p2b: Garganacl|Protect|p2b: Garganacl
+|-singleturn|p2b: Garganacl|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Drifblim|Baton Pass|p1a: Drifblim
+|
+|t:|1750847166
+|switch|p1a: Dondozo|Dondozo, L50, M, shiny|100/100|[from] Baton Pass
+|
+|-heal|p1b: Indeedee|13/100|[from] Grassy Terrain
+|-damage|p1b: Indeedee|0 fnt|[from] Leech Seed|[of] p2a: Rillaboom
+|faint|p1b: Indeedee
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750847175
+|switch|p1b: Tatsugiri|Tatsugiri, L50, F|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|6
+|-message|fluffernugget forfeited.
+|
+|win|bigplayer250
+|raw|bigplayer250's rating: 1100 &rarr; <strong>1124</strong><br />(+24 for winning)
+|raw|fluffernugget's rating: 1088 &rarr; <strong>1066</strong><br />(-22 for losing)
+|l|☆fluffernugget
+|player|p2|
+|l|☆bigplayer250
+|player|p1|

@@ -1,0 +1,183 @@
+|j|☆NightKnight_166
+|j|☆Dipic
+|t:|1750882807
+|gametype|doubles
+|player|p1|NightKnight_166|giovanni|1347
+|player|p2|Dipic|worker|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Venonat, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750882836
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750882869
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-terastallize|p2a: Calyrex|Fire
+|move|p1b: Grimmsnarl|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|94/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|cant|p2a: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750882901
+|-terastallize|p1a: Miraidon|Electric
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Grimmsnarl|Taunt|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|3
+|
+|t:|1750882927
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Taunt|p2b: Indeedee
+|-start|p2b: Indeedee|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Miraidon|34/100
+|-damage|p1b: Grimmsnarl|40/100
+|move|p1a: Miraidon|Electro Drift|p2b: Indeedee
+|-damage|p2b: Indeedee|45/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750882951
+|switch|p2b: Venonat|Venonat, L50, F|100/100
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Grimmsnarl
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|2
+|
+|upkeep
+|
+|t:|1750882962
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|5
+|
+|t:|1750882983
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Venonat|Rage Powder|p2b: Venonat
+|-singleturn|p2b: Venonat|move: Rage Powder
+|cant|p2a: Calyrex|par
+|move|p1a: Roaring Moon|Acrobatics|p2b: Venonat
+|-supereffective|p2b: Venonat
+|-enditem|p2b: Venonat|Focus Sash
+|-damage|p2b: Venonat|1/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750883005
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|cant|p2a: Calyrex|par
+|move|p2b: Venonat|Endeavor|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|1/100
+|move|p1a: Roaring Moon|Breaking Swipe|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|79/100 par
+|-damage|p2b: Venonat|0 fnt
+|-unboost|p2a: Calyrex|atk|1
+|faint|p2b: Venonat
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750883022
+|switch|p2b: Indeedee|Indeedee-F, L50, F|45/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1750883058
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Roaring Moon|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1b: Calyrex|Astral Barrage|p2a: Calyrex
+|-damage|p2a: Calyrex|29/100 par
+|move|p2a: Calyrex|Glacial Lance|p1a: Roaring Moon|[spread] p1a,p1b
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|-enditem|p1b: Calyrex|Focus Sash
+|-damage|p1b: Calyrex|1/100
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750883075
+|switch|p2b: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|turn|8
+|
+|t:|1750883093
+|move|p1b: Calyrex|Astral Barrage|p2b: Necrozma|[spread] p2a,p2b
+|-supereffective|p2b: Necrozma
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Necrozma|0 fnt
+|faint|p2a: Calyrex
+|faint|p2b: Necrozma
+|
+|win|NightKnight_166
+|raw|NightKnight_166's rating: 1347 &rarr; <strong>1366</strong><br />(+19 for winning)
+|raw|Dipic's rating: 1329 &rarr; <strong>1310</strong><br />(-19 for losing)
+|l|☆Dipic
+|player|p2|
+|l|☆NightKnight_166
+|player|p1|

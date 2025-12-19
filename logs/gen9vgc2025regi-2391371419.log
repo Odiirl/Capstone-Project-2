@@ -1,0 +1,215 @@
+|j|☆Dandraker
+|j|☆mullankolli
+|t:|1750845376
+|gametype|doubles
+|player|p1|Dandraker|102|1138
+|player|p2|mullankolli|2|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mullankolli)
+|
+|t:|1750845418
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Meowstic|atk|1
+|-unboost|p2b: Lunala|atk|1
+|turn|1
+|inactive|mullankolli has 30 seconds left.
+|inactive|mullankolli has 20 seconds left.
+|inactive|mullankolli has 15 seconds left.
+|
+|t:|1750845462
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Kyogre|Water Spout|p2a: Indeedee|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1a: Incineroar|Snarl|p2a: Indeedee|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750845482
+|-terastallize|p2a: Indeedee|Fairy
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Kyogre|Water Spout|p2a: Indeedee|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Indeedee|Hyper Voice|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Incineroar|75/100
+|-damage|p1b: Kyogre|75/100
+|-enditem|p2a: Indeedee|Throat Spray
+|-boost|p2a: Indeedee|spa|1|[from] item: Throat Spray
+|move|p1a: Incineroar|Snarl|p2a: Indeedee|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750845495
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p2a: Indeedee|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|63/100
+|move|p1a: Incineroar|Snarl|p2b: Lunala|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750845504
+|move|p1b: Zacian|Behemoth Blade|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|39/100
+|move|p1a: Incineroar|Snarl|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|80/100
+|-unboost|p2b: Lunala|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750845519
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|turn|5
+|
+|t:|1750845529
+|move|p2a: Meowstic|Reflect|p2a: Meowstic
+|-sidestart|p2: mullankolli|Reflect
+|move|p1b: Zacian|Behemoth Blade|p2b: Lunala
+|-damage|p2b: Lunala|24/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|move|p1a: Incineroar|Snarl|p2a: Meowstic|[spread] p2b
+|-miss|p1a: Incineroar|p2a: Meowstic
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750845552
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|6
+|
+|t:|1750845561
+|move|p2a: Meowstic|Psychic Terrain|p2a: Meowstic
+|-fieldstart|move: Psychic Terrain
+|move|p2b: Calyrex|Astral Barrage|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|52/100
+|-damage|p1b: Rillaboom|54/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Calyrex
+|-damage|p2b: Calyrex|50/100
+|-damage|p1b: Rillaboom|40/100|[from] Recoil
+|move|p1a: Incineroar|Snarl|p2a: Meowstic|[spread] p2a,p2b
+|-supereffective|p2a: Meowstic
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Meowstic|83/100
+|-damage|p2b: Calyrex|7/100
+|-unboost|p2a: Meowstic|spa|1
+|-unboost|p2b: Calyrex|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1750845579
+|move|p2b: Calyrex|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|41/100
+|-heal|p2b: Calyrex|16/100|[from] drain|[of] p1a: Incineroar
+|move|p2a: Meowstic|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-damage|p1b: Rillaboom|23/100
+|move|p1b: Rillaboom|U-turn|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|41/100
+|
+|t:|1750845588
+|switch|p1b: Kyogre|Kyogre, L50|75/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Incineroar|Snarl|p2b: Calyrex|[spread] p2a
+|-miss|p1a: Incineroar|p2b: Calyrex
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|23/100
+|-unboost|p2a: Meowstic|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750845604
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: mullankolli|move: Light Screen
+|move|p2b: Calyrex|Astral Barrage|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|26/100
+|-damage|p1b: Kyogre|45/100
+|move|p1b: Kyogre|Thunder|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|move|p1a: Incineroar|Snarl|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|Dandraker
+|raw|Dandraker's rating: 1138 &rarr; <strong>1162</strong><br />(+24 for winning)
+|raw|mullankolli's rating: 1118 &rarr; <strong>1094</strong><br />(-24 for losing)
+|l|☆mullankolli
+|player|p2|
+|l|☆Dandraker
+|player|p1|

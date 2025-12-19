@@ -1,0 +1,152 @@
+|j|☆casper427
+|j|☆fedebre_
+|t:|1750753624
+|gametype|doubles
+|player|p1|casper427|2|1429
+|player|p2|fedebre_|steven|1426
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fedebre_)
+fedebre_ has agreed to open team sheets.
+casper427 rejected open team sheets.
+|
+|t:|1750753662
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|inactive|casper427 has 30 seconds left.
+|
+|t:|1750753694
+|move|p1a: Roaring Moon|Tailwind|p1a: Roaring Moon
+|-sidestart|p1: casper427|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2b: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|45/100
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|move|p2a: Roaring Moon|Knock Off|p1b: Kyogre
+|-damage|p1b: Kyogre|45/100
+|-enditem|p1b: Kyogre|Mystic Water|[from] move: Knock Off|[of] p2a: Roaring Moon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750753705
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|turn|2
+|
+|t:|1750753714
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Roaring Moon|Acrobatics|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|move|p2b: Iron Hands|Drain Punch|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|casper427 has 30 seconds left.
+|
+|t:|1750753742
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|3
+|
+|t:|1750753760
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Kyogre|Origin Pulse|p2a: Urshifu|[spread] p2b
+|-activate|p2a: Urshifu|move: Protect
+|-damage|p2b: Iron Hands|64/100
+|move|p2b: Iron Hands|Low Kick|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750753764
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750753781
+|move|p1b: Zamazenta|Body Press|p2b: Iron Hands
+|-damage|p2b: Iron Hands|13/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-enditem|p2a: Urshifu|Focus Sash
+|-damage|p2a: Urshifu|1/100
+|move|p2a: Urshifu|Taunt|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Taunt
+|move|p2b: Iron Hands|Drain Punch|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|61/100
+|-heal|p2b: Iron Hands|27/100|[from] drain|[of] p1b: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: casper427|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750753801
+|move|p2a: Urshifu|Detect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p1b: Zamazenta|Body Press|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|fedebre_ forfeited.
+|
+|win|casper427
+|raw|casper427's rating: 1429 &rarr; <strong>1449</strong><br />(+20 for winning)
+|raw|fedebre_'s rating: 1426 &rarr; <strong>1406</strong><br />(-20 for losing)
+|l|☆fedebre_
+|player|p2|
+|l|☆casper427
+|player|p1|

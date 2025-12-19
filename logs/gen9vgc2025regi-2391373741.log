@@ -1,0 +1,213 @@
+|j|☆Splebel
+|j|☆Gibsteroni
+|t:|1750845809
+|gametype|doubles
+|player|p1|Splebel|hexmaniac-gen6|1288
+|player|p2|Gibsteroni|169|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Giratina, L50|
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+Gibsteroni has agreed to open team sheets.
+|
+|t:|1750845902
+|start
+|switch|p1a: Glimmora|Glimmora, L50, M|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Iron Bundle|Iron Bundle, L50|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750845948
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Iron Bundle|Icy Wind|p1b: Ninetales|[spread] p1a,p1b
+|-resisted|p1b: Ninetales
+|-damage|p1a: Glimmora|75/100
+|-damage|p1b: Ninetales|89/100
+|-unboost|p1a: Glimmora|spe|1
+|-unboost|p1b: Ninetales|spe|1
+|move|p2a: Koraidon|Flame Charge|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Ninetales
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Glimmora|Toxic|p2b: Iron Bundle
+|-status|p2b: Iron Bundle|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Iron Bundle|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1750845966
+|switch|p1b: Ditto|Ditto, L50|100/100
+|-transform|p1b: Ditto|p2a: Koraidon|[from] ability: Imposter
+|-activate|p1b: Ditto|ability: Orichalcum Pulse
+|-start|p1b: Ditto|typechange|Fighting/Dragon|[silent]
+|turn|2
+|
+|t:|1750845991
+|move|p1b: Ditto|Close Combat|p2b: Iron Bundle
+|-supereffective|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|0 fnt
+|-unboost|p1b: Ditto|def|1
+|-unboost|p1b: Ditto|spd|1
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|move|p2a: Koraidon|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Gibsteroni|move: Toxic Spikes
+|faint|p1a: Glimmora
+|-damage|p2a: Koraidon|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750846006
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1a: Giratina|Giratina, L50|100/100
+|-ability|p1a: Giratina|Pressure
+|-sideend|p2: Gibsteroni|move: Toxic Spikes|[of] p2b: Amoonguss
+|turn|3
+|
+|t:|1750846043
+|move|p1b: Ditto|Protect|p1b: Ditto
+|-singleturn|p1b: Ditto|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Koraidon|Close Combat|p1b: Ditto
+|-activate|p1b: Ditto|move: Protect
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750846064
+|move|p1b: Ditto|Flare Blitz|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Ditto|53/100|[from] Recoil
+|move|p2a: Koraidon|Close Combat|p1b: Ditto
+|-damage|p1b: Ditto|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Ditto
+|-damage|p2a: Koraidon|71/100|[from] item: Life Orb
+|move|p1a: Giratina|Shadow Force|p2a: Koraidon|[from] lockedmove
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750846081
+|switch|p2a: Urshifu|Urshifu, L50, M|100/100
+|turn|5
+|
+|t:|1750846096
+|-terastallize|p1a: Giratina|Steel
+|move|p2a: Urshifu|Wicked Blow|p1a: Giratina
+|-crit|p1a: Giratina
+|-damage|p1a: Giratina|52/100
+|move|p1a: Giratina|Will-O-Wisp|p2a: Urshifu
+|-status|p2a: Urshifu|brn
+|
+|-weather|none
+|-heal|p1a: Giratina|58/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750846119
+|move|p2a: Urshifu|Wicked Blow|p1a: Giratina
+|-crit|p1a: Giratina
+|-damage|p1a: Giratina|34/100
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-heal|p1a: Giratina|40/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|89/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750846128
+|move|p2a: Urshifu|Wicked Blow|p1a: Giratina|[miss]
+|-miss|p2a: Urshifu|p1a: Giratina
+|move|p1a: Giratina|Shadow Force|p2a: Urshifu|[from] lockedmove
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|70/100 brn
+|
+|-heal|p1a: Giratina|46/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750846138
+|move|p2a: Urshifu|Wicked Blow|p1a: Giratina
+|-crit|p1a: Giratina
+|-damage|p1a: Giratina|21/100
+|move|p1a: Giratina|Rest|p1a: Giratina
+|-status|p1a: Giratina|slp|[from] move: Rest
+|-heal|p1a: Giratina|100/100 slp|[silent]
+|
+|-damage|p2a: Urshifu|58/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750846152
+|-activate|p2a: Urshifu|move: Struggle
+|move|p2a: Urshifu|Struggle|p1a: Giratina
+|-damage|p1a: Giratina|94/100 slp
+|-damage|p2a: Urshifu|33/100 brn|[from] recoil
+|cant|p1a: Giratina|slp
+|
+|-heal|p1a: Giratina|99/100 slp|[from] item: Leftovers
+|-damage|p2a: Urshifu|27/100 brn|[from] brn
+|upkeep
+|turn|10
+|c|☆Gibsteroni|Cool team and strat! Pressure wittled down wicked blow pp GG
+|
+|t:|1750846168
+|-activate|p2a: Urshifu|move: Struggle
+|move|p2a: Urshifu|Struggle|p1a: Giratina
+|-damage|p1a: Giratina|93/100 slp
+|-damage|p2a: Urshifu|2/100 brn|[from] recoil
+|cant|p1a: Giratina|slp
+|
+|-heal|p1a: Giratina|99/100 slp|[from] item: Leftovers
+|-damage|p2a: Urshifu|0 fnt|[from] brn
+|faint|p2a: Urshifu
+|
+|win|Splebel
+|raw|Splebel's rating: 1288 &rarr; <strong>1317</strong><br />(+29 for winning)
+|raw|Gibsteroni's rating: 1340 &rarr; <strong>1317</strong><br />(-23 for losing)
+|l|☆Splebel
+|player|p1|
+|l|☆Gibsteroni
+|player|p2|

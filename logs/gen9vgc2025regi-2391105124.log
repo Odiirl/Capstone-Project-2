@@ -1,0 +1,99 @@
+|j|☆pantsuit
+|j|☆Cdogp
+|t:|1750803091
+|gametype|doubles
+|player|p1|pantsuit|265|1533
+|player|p2|Cdogp|wattson|1608
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|
+|t:|1750803127
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Chesnaught|Chesnaught, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Chesnaught|Electric Seed
+|-boost|p1b: Chesnaught|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750803142
+|-terastallize|p1b: Chesnaught|Steel
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Flutter Mane|Moonblast|p1b: Chesnaught
+|-resisted|p1b: Chesnaught
+|-damage|p1b: Chesnaught|73/100
+|move|p1a: Miraidon|Volt Switch|p2b: Flutter Mane
+|-crit|p2b: Flutter Mane
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|
+|t:|1750803154
+|switch|p1a: Koraidon|Koraidon, L50|100/100|[from] Volt Switch
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p1b: Chesnaught|Leech Seed|p2b: Flutter Mane
+|-start|p2b: Flutter Mane|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Flutter Mane|0 fnt|[from] Leech Seed|[of] p1b: Chesnaught
+|-heal|p1b: Chesnaught|73/100|[silent]
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1750803158
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Chesnaught|atk|1
+|turn|2
+|
+|t:|1750803173
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Chesnaught|Spiky Shield|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|move: Protect
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p2a: Koraidon|Flame Charge|p1b: Chesnaught
+|-activate|p1b: Chesnaught|move: Protect
+|-damage|p2a: Koraidon|88/100|[from] Spiky Shield|[of] p1b: Chesnaught
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|-message|Cdogp forfeited.
+|
+|win|pantsuit
+|raw|pantsuit's rating: 1533 &rarr; <strong>1557</strong><br />(+24 for winning)
+|raw|Cdogp's rating: 1598 &rarr; <strong>1574</strong><br />(-24 for losing)
+|l|☆Cdogp
+|player|p2|
+|l|☆pantsuit
+|player|p1|

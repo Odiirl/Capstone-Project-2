@@ -1,0 +1,225 @@
+|j|☆dabster2187
+|j|☆mowthegrasstyson
+|t:|1750857549
+|gametype|doubles
+|player|p1|dabster2187|2|1066
+|player|p2|mowthegrasstyson|hiker-gen4|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Muk-Alola, L50, F|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dabster2187)
+|
+|t:|1750857563
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2a: Muk|Muk-Alola, L50, F|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|turn|1
+|
+|t:|1750857576
+|move|p1b: Gothitelle|Fake Out|p2b: Scovillain
+|-damage|p2b: Scovillain|89/100
+|cant|p2b: Scovillain|flinch
+|move|p1a: Flutter Mane|Perish Song|p1a: Flutter Mane
+|-start|p1a: Flutter Mane|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Muk|perish3|[silent]
+|-start|p2b: Scovillain|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-start|p1a: Flutter Mane|perish3
+|-start|p2b: Scovillain|perish3
+|-start|p2a: Muk|perish3
+|-start|p1b: Gothitelle|perish3
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|spd|2
+|-unboost|p2b: Scovillain|def|1
+|upkeep
+|turn|2
+|inactive|dabster2187 has 30 seconds left.
+|
+|t:|1750857604
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Scovillain
+|-damage|p2b: Scovillain|64/100
+|-unboost|p2b: Scovillain|spd|1
+|move|p2b: Scovillain|Flamethrower|p1b: Gothitelle
+|-damage|p1b: Gothitelle|78/100
+|move|p2a: Muk|Lash Out|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|33/100
+|move|p1b: Gothitelle|Taunt|p2b: Scovillain
+|-start|p2b: Scovillain|move: Taunt
+|
+|-heal|p1b: Gothitelle|39/100|[from] item: Leftovers
+|-start|p1a: Flutter Mane|perish2
+|-start|p2b: Scovillain|perish2
+|-start|p2a: Muk|perish2
+|-start|p1b: Gothitelle|perish2
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|def|2
+|-unboost|p2b: Scovillain|spe|1
+|upkeep
+|turn|3
+|
+|t:|1750857631
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p1a: Flutter Mane|Moonblast|p2b: Scovillain
+|-resisted|p2b: Scovillain
+|-damage|p2b: Scovillain|46/100
+|move|p2a: Muk|Lash Out|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2b: Scovillain|Flamethrower|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-heal|p1b: Gothitelle|45/100|[from] item: Leftovers
+|-start|p1a: Flutter Mane|perish1
+|-start|p2a: Muk|perish1
+|-start|p2b: Scovillain|perish1
+|-start|p1b: Gothitelle|perish1
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|spd|2
+|-unboost|p2b: Scovillain|def|1
+|upkeep
+|turn|4
+|inactive|dabster2187 has 30 seconds left.
+|
+|t:|1750857658
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Muk|Poison Jab|p1a: Amoonguss
+|-damage|p1a: Amoonguss|73/100
+|-enditem|p1a: Amoonguss|Eject Button
+|
+|t:|1750857668
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Scovillain|Flamethrower|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|80/100
+|move|p1b: Gothitelle|Future Sight|p2a: Muk
+|-start|p1b: Gothitelle|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gothitelle|51/100|[from] item: Leftovers
+|-start|p2a: Muk|perish0
+|-start|p1b: Gothitelle|perish0
+|-start|p2b: Scovillain|perish0
+|faint|p2a: Muk
+|faint|p1b: Gothitelle
+|faint|p2b: Scovillain
+|upkeep
+|
+|t:|1750857683
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750857704
+|-terastallize|p1b: Flutter Mane|Normal
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: mowthegrasstyson|move: Tailwind
+|move|p2b: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] p1a
+|-immune|p1b: Flutter Mane
+|-damage|p1a: Koraidon|11/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Flutter Mane|Perish Song|p1b: Flutter Mane
+|-start|p1a: Koraidon|perish3|[silent]
+|-start|p1b: Flutter Mane|perish3|[silent]
+|-start|p2a: Tornadus|perish3|[silent]
+|-start|p2b: Calyrex|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Koraidon|Flare Blitz|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Calyrex|perish3
+|-start|p1b: Flutter Mane|perish3
+|upkeep
+|
+|t:|1750857721
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|6
+|
+|t:|1750857730
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2b: Calyrex|Psyshock|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|-start|p2b: Calyrex|perish2
+|-start|p1b: Flutter Mane|perish2
+|upkeep
+|turn|7
+|
+|t:|1750857743
+|-terastallize|p2b: Calyrex|Fairy
+|move|p2b: Calyrex|Tera Blast|p1b: Flutter Mane|[anim] Tera Blast Fairy
+|-damage|p1b: Flutter Mane|18/100
+|-damage|p2b: Calyrex|72/100|[from] item: Life Orb
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Calyrex
+|-damage|p2b: Calyrex|32/100
+|-unboost|p2b: Calyrex|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Calyrex|perish1
+|-start|p1b: Flutter Mane|perish1
+|upkeep
+|turn|8
+|
+|t:|1750857757
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2b: Calyrex|Tera Blast|p1b: Flutter Mane|[anim] Tera Blast Fairy
+|-activate|p1b: Flutter Mane|move: Protect
+|
+|-weather|none
+|-end|p1b: Flutter Mane|Protosynthesis
+|-start|p2b: Calyrex|perish0
+|-start|p1b: Flutter Mane|perish0
+|-sideend|p2: mowthegrasstyson|move: Tailwind
+|faint|p2b: Calyrex
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|win|dabster2187
+|raw|dabster2187's rating: 1066 &rarr; <strong>1096</strong><br />(+30 for winning)
+|raw|mowthegrasstyson's rating: 1064 &rarr; <strong>1045</strong><br />(-19 for losing)
+|c|☆dabster2187|gg wp

@@ -1,0 +1,162 @@
+|j|☆ApoVGC
+|j|☆Scythedancer
+|t:|1750877143
+|gametype|doubles
+|player|p1|ApoVGC|102|1532
+|player|p2|Scythedancer|janitor|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ApoVGC)
+|j| petchrio
+|j| elwafle
+|
+|t:|1750877168
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750877179
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: Scythedancer|move: Light Screen
+|move|p1b: Sableye|Sunny Day|p1b: Sableye
+|-weather|SunnyDay
+|move|p1a: Calyrex|Astral Barrage|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Sableye|42/100
+|-damage|p2b: Kyogre|84/100
+|move|p2b: Kyogre|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|75/100
+|-damage|p1b: Sableye|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750877199
+|move|p2a: Sableye|Rain Dance|p2a: Sableye
+|-weather|RainDance
+|move|p1a: Calyrex|Astral Barrage|p2a: Sableye|[spread] p2a,p2b
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2b: Kyogre|67/100
+|faint|p2a: Sableye
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Kyogre|Origin Pulse|p1b: Sableye|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Sableye
+|-damage|p1a: Calyrex|6/100
+|move|p1b: Sableye|Foul Play|p2b: Kyogre
+|-damage|p2b: Kyogre|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750877221
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750877230
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Sableye|atk|1
+|-terastallize|p2a: Calyrex|Dark
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Sableye|Thunder Wave|p2a: Calyrex
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Calyrex
+|move|p2a: Calyrex|Astral Barrage|p1b: Sableye|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750877245
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|4
+|
+|t:|1750877265
+|move|p2b: Incineroar|Fake Out|p1b: Groudon
+|-damage|p1b: Groudon|94/100
+|move|p1a: Calyrex|Draining Kiss|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|62/100
+|-heal|p1a: Calyrex|37/100|[from] drain|[of] p2a: Calyrex
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Groudon|2/100
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|cant|p1b: Groudon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750877272
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|5
+|l| elwafle
+|
+|t:|1750877281
+|switch|p2b: Kyogre|Kyogre, L50|45/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|-end|p1a: Walking Wake|Protosynthesis
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Walking Wake|[spread] p1a
+|-activate|p1b: Groudon|move: Protect
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Scythedancer|move: Light Screen
+|upkeep
+|turn|6
+|-message|ApoVGC forfeited.
+|
+|win|Scythedancer
+|raw|ApoVGC's rating: 1532 &rarr; <strong>1516</strong><br />(-16 for losing)
+|raw|Scythedancer's rating: 1602 &rarr; <strong>1618</strong><br />(+16 for winning)
+|l|☆ApoVGC
+|player|p1|
+|l| petchrio
+|l|☆Scythedancer
+|player|p2|

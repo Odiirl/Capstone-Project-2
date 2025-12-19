@@ -1,0 +1,250 @@
+|j|☆Lei43
+|j|☆raezan
+|t:|1750743089
+|gametype|doubles
+|player|p1|Lei43|unknown|1561
+|player|p2|raezan|hugh|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|
+|t:|1750743111
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|l|☆Lei43
+|player|p1|
+|j|☆Lei43
+|player|p1|Lei43|unknown|
+|
+|t:|1750743167
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-terastallize|p2a: Koraidon|Fire
+|move|p1b: Iron Hands|Fake Out|p2a: Koraidon
+|-crit|p2a: Koraidon
+|-damage|p2a: Koraidon|72/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|cant|p2a: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750743197
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Miraidon|Volt Switch|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1b: Iron Hands|Drain Punch|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750743232
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1a: Miraidon|Volt Switch|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|67/100
+|
+|t:|1750743238
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100|[from] Volt Switch
+|move|p2a: Koraidon|Swords Dance|p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p1b: Iron Hands|Low Kick|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750743273
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Lei43|Reflect
+|move|p2a: Koraidon|Flame Charge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|16/100
+|-boost|p2a: Koraidon|spe|1
+|move|p1b: Iron Hands|Wild Charge|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|15/100
+|-damage|p1b: Iron Hands|96/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750743294
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Lei43|move: Light Screen
+|move|p2a: Koraidon|Swords Dance|p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p1b: Iron Hands|Drain Punch|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|-heal|p1b: Iron Hands|100/100|[from] drain|[of] p2b: Brute Bonnet
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750743301
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|6
+|
+|t:|1750743308
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Indeedee
+|-status|p2b: Indeedee|par
+|move|p2a: Koraidon|Flame Charge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1750743325
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|7
+|
+|t:|1750743354
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Iron Hands|Wild Charge|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750743377
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Koraidon|Close Combat|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|6/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|move|p2b: Calyrex|Nasty Plot|p2b: Calyrex
+|-boost|p2b: Calyrex|spa|2
+|move|p1a: Iron Hands|Wild Charge|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-damage|p1a: Iron Hands|87/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750743382
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100 par
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-end|p1a: Iron Hands|Quark Drive
+|turn|9
+|
+|t:|1750743409
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Calyrex|Psychic|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Wide Guard
+|
+|upkeep
+|
+|t:|1750743418
+|switch|p1b: Iron Hands|Iron Hands, L50|87/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|10
+|
+|t:|1750743442
+|-terastallize|p1a: Miraidon|Fairy
+|cant|p2a: Indeedee|par
+|move|p2b: Calyrex|Psychic|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|81/100|[from] item: Life Orb
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Indeedee|45/100 par
+|-damage|p2b: Calyrex|19/100
+|
+|upkeep
+|turn|11
+|
+|t:|1750743455
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Calyrex|Astral Barrage|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2b: Calyrex|9/100|[from] item: Life Orb
+|
+|win|raezan
+|raw|Lei43's rating: 1561 &rarr; <strong>1542</strong><br />(-19 for losing)
+|raw|raezan's rating: 1570 &rarr; <strong>1589</strong><br />(+19 for winning)
+|l|☆Lei43
+|player|p1|
+|l|☆raezan
+|player|p2|

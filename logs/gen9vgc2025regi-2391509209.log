@@ -1,0 +1,131 @@
+|j|☆B-rad544
+|j|☆Raju7024716947
+|t:|1750864528
+|gametype|doubles
+|player|p1|B-rad544|infielder|1323
+|player|p2|Raju7024716947|iris-gen5bw2|1370
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B-rad544)
+|
+|t:|1750864583
+|start
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M, shiny|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|1
+|
+|t:|1750864604
+|move|p1a: Dondozo|Order Up|p2b: Oranguru
+|-damage|p2b: Oranguru|57/100
+|-boost|p1a: Dondozo|atk|1
+|move|p2a: Terapagos|Tera Starstorm|p1a: Dondozo
+|-damage|p1a: Dondozo|49/100
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldstart|move: Trick Room|[of] p2b: Oranguru
+|
+|-heal|p1a: Dondozo|55/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Raju7024716947 has 30 seconds left.
+|
+|t:|1750864630
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Oranguru|Instruct|p2a: Terapagos
+|-singleturn|p2a: Terapagos|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Terapagos|Tera Starstorm|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2a: Terapagos|Tera Starstorm|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750864644
+|move|p2b: Oranguru|Instruct|p2a: Terapagos
+|-singleturn|p2a: Terapagos|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Terapagos|Tera Starstorm|p1a: Dondozo
+|-damage|p1a: Dondozo|11/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1750864655
+|switch|p1a: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|turn|4
+|
+|t:|1750864670
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Oranguru|Light Screen|p2b: Oranguru
+|-sidestart|p2: Raju7024716947|move: Light Screen
+|move|p2a: Terapagos|Tera Starstorm|p1a: Kyurem|[spread] p1a,p1b
+|-damage|p1a: Kyurem|67/100
+|-damage|p1b: Tatsugiri|20/100
+|move|p1a: Kyurem|Blizzard|p2a: Terapagos|[spread] p2a
+|-miss|p1a: Kyurem|p2b: Oranguru
+|-damage|p2a: Terapagos|79/100
+|move|p1b: Tatsugiri|Muddy Water|p2b: Oranguru|[spread] p2b
+|-miss|p1b: Tatsugiri|p2a: Terapagos
+|-damage|p2b: Oranguru|39/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750864691
+|move|p2b: Oranguru|Instruct|p2a: Terapagos
+|-singleturn|p2a: Terapagos|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Terapagos|Tera Starstorm|p1b: Tatsugiri|[spread] p1a,p1b
+|-damage|p1a: Kyurem|32/100
+|-damage|p1b: Tatsugiri|0 fnt
+|faint|p1b: Tatsugiri
+|move|p2a: Terapagos|Tera Starstorm|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|B-rad544 forfeited.
+|
+|win|Raju7024716947
+|raw|B-rad544's rating: 1323 &rarr; <strong>1306</strong><br />(-17 for losing)
+|raw|Raju7024716947's rating: 1370 &rarr; <strong>1387</strong><br />(+17 for winning)
+|l|☆B-rad544
+|player|p1|
+|l|☆Raju7024716947
+|player|p2|

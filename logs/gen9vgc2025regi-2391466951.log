@@ -1,0 +1,210 @@
+|j|☆zexal325
+|j|☆juho021227
+|t:|1750859735
+|gametype|doubles
+|player|p1|zexal325|266|1329
+|player|p2|juho021227|2|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Electivire, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juho021227)
+|
+|t:|1750859766
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Electivire|Electivire, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|inactive|juho021227 has 30 seconds left.
+|inactive|juho021227 has 20 seconds left.
+|inactive|juho021227 has 15 seconds left.
+|
+|t:|1750859810
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|move|p1b: Raichu|Fake Out|p2a: Terapagos
+|-damage|p2a: Terapagos|95/100
+|move|p2b: Electivire|Feint|p1b: Raichu
+|-damage|p1b: Raichu|87/100
+|move|p1a: Kyogre|Water Spout|p2b: Electivire|[spread] p2a,p2b
+|-damage|p2a: Terapagos|52/100
+|-damage|p2b: Electivire|29/100
+|-enditem|p2b: Electivire|Sitrus Berry|[eat]
+|-heal|p2b: Electivire|54/100|[from] item: Sitrus Berry
+|cant|p2a: Terapagos|flinch
+|
+|upkeep
+|turn|2
+|inactive|juho021227 has 30 seconds left.
+|
+|t:|1750859837
+|move|p2b: Electivire|Follow Me|p2b: Electivire
+|-singleturn|p2b: Electivire|move: Follow Me
+|move|p1a: Kyogre|Water Spout|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|14/100
+|-damage|p2b: Electivire|0 fnt
+|faint|p2b: Electivire
+|move|p1b: Raichu|Nuzzle|p2a: Terapagos
+|-damage|p2a: Terapagos|10/100
+|-status|p2a: Terapagos|par
+|move|p2a: Terapagos|Meteor Beam||[still]
+|-prepare|p2a: Terapagos|Meteor Beam
+|-boost|p2a: Terapagos|spa|1
+|-enditem|p2a: Terapagos|Power Herb
+|-anim|p2a: Terapagos|Meteor Beam|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|
+|upkeep
+|
+|t:|1750859858
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|3
+|
+|t:|1750859868
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Kyogre|Water Spout|p2b: Zamazenta|[spread] 
+|-activate|p2a: Terapagos|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Terapagos|Tera Starstorm|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Kyogre|57/100
+|-damage|p1b: Amoonguss|56/100
+|move|p1b: Amoonguss|Spore|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Spore
+|
+|upkeep
+|turn|4
+|inactive|juho021227 has 30 seconds left.
+|
+|t:|1750859897
+|cant|p2b: Zamazenta|slp
+|cant|p2a: Terapagos|par
+|move|p1a: Kyogre|Water Spout|p2b: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Terapagos|0 fnt
+|-damage|p2b: Zamazenta|76/100 slp
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|move|p1b: Amoonguss|Pollen Puff|p1a: Kyogre
+|-heal|p1a: Kyogre|100/100
+|
+|upkeep
+|
+|t:|1750859909
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|5
+|
+|t:|1750859917
+|cant|p2b: Zamazenta|slp
+|move|p2a: Flutter Mane|Taunt|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Taunt
+|move|p1a: Kyogre|Water Spout|p2b: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|39/100
+|-damage|p2b: Zamazenta|33/100 slp
+|move|p1b: Amoonguss|Pollen Puff|p1a: Kyogre
+|
+|upkeep
+|turn|6
+|
+|t:|1750859936
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-curestatus|p2b: Zamazenta|slp|[msg]
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p2a: Flutter Mane|Thunder Wave|p1a: Calyrex
+|-status|p1a: Calyrex|par
+|move|p1b: Amoonguss|Clear Smog|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|25/100
+|-clearboost|p2a: Flutter Mane
+|
+|upkeep
+|turn|7
+|
+|t:|1750859961
+|move|p2a: Flutter Mane|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|72/100 par
+|move|p2b: Zamazenta|Body Press|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|2/100 par
+|move|p1b: Amoonguss|Pollen Puff|p2a: Flutter Mane
+|-resisted|p2a: Flutter Mane
+|-crit|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|19/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-end|p1b: Amoonguss|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1750859986
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Zamazenta|[spread] 
+|-activate|p2a: Flutter Mane|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p1b: Amoonguss|Pollen Puff|p1a: Calyrex
+|-heal|p1a: Calyrex|52/100 par
+|move|p2a: Flutter Mane|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|24/100 par
+|
+|upkeep
+|turn|9
+|inactive|juho021227 has 30 seconds left.
+|
+|t:|1750860011
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Amoonguss|Spore|p2b: Zamazenta
+|-status|p2b: Zamazenta|slp|[from] move: Spore
+|cant|p2b: Zamazenta|slp
+|
+|upkeep
+|turn|10
+|c|☆juho021227|봐줬따
+|-message|juho021227 forfeited.
+|
+|win|zexal325
+|raw|zexal325's rating: 1329 &rarr; <strong>1345</strong><br />(+16 for winning)
+|raw|juho021227's rating: 1257 &rarr; <strong>1237</strong><br />(-20 for losing)
+|l|☆juho021227
+|player|p2|
+|l|☆zexal325
+|player|p1|

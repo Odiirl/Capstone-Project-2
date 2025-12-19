@@ -1,0 +1,208 @@
+|j|☆zephnix
+|j|☆landrafa1
+|t:|1750869382
+|gametype|doubles
+|player|p1|zephnix|lucas-gen4pt|1224
+|player|p2|landrafa1|2|1225
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by landrafa1)
+|
+|t:|1750869423
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2b: Groudon|atk|1
+|turn|1
+|
+|t:|1750869447
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|move|p1b: Tornadus|Rain Dance|p1b: Tornadus
+|-weather|RainDance
+|-end|p2a: Flutter Mane|Protosynthesis
+|move|p1a: Incineroar|Knock Off|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|56/100
+|-enditem|p2a: Flutter Mane|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Flutter Mane|Trick Room|p2a: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p2a: Flutter Mane
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|zephnix has 30 seconds left.
+|
+|t:|1750869473
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p2b: Incineroar|Fake Out|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|98/100
+|move|p1a: Incineroar|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|83/100
+|-damage|p1a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Groudon
+|-enditem|p2a: Groudon|Rocky Helmet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|zephnix has 30 seconds left.
+|
+|t:|1750869504
+|-terastallize|p1b: Zamazenta|Dragon
+|move|p2b: Incineroar|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|67/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|
+|t:|1750869510
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] U-turn
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Incineroar|Parting Shot|p2a: Groudon
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2a: Groudon|spa|1
+|
+|t:|1750869521
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100|[from] Parting Shot
+|move|p2a: Groudon|Will-O-Wisp|p1b: Zamazenta
+|-status|p1b: Zamazenta|brn
+|move|p1b: Zamazenta|Body Press|p2a: Groudon
+|-damage|p2a: Groudon|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Zamazenta|92/100 brn|[from] brn
+|upkeep
+|turn|4
+|l|☆landrafa1
+|inactive|landrafa1 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|zephnix has 30 seconds left.
+|
+|t:|1750869546
+|switch|p1b: Incineroar|Incineroar, L50, F|67/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p2a: Groudon|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Groudon
+|move|p1a: Tornadus|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Tornadus
+|-resisted|p1b: Incineroar
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p1b: Incineroar|31/100
+|faint|p1a: Tornadus
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j|☆landrafa1
+|inactive|landrafa1 reconnected.
+|player|p2|landrafa1|2|
+|
+|t:|1750869565
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|5
+|
+|t:|1750869589
+|switch|p2a: Flutter Mane|Flutter Mane, L50|56/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, tera:Dragon|92/100 brn
+|move|p2b: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Zamazenta
+|-resisted|p1b: Incineroar
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Incineroar|1/100
+|faint|p1a: Zamazenta
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Incineroar|Flare Blitz|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|16/100
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750869610
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750869618
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|16/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Flutter Mane|Trick Room|p2a: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p2a: Flutter Mane
+|
+|-weather|none
+|-end|p2a: Flutter Mane|Protosynthesis
+|upkeep
+|
+|t:|1750869625
+|switch|p2b: Incineroar|Incineroar, L50, M|84/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|turn|7
+|
+|t:|1750869629
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|85/100
+|move|p2a: Flutter Mane|Dazzling Gleam|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|15/100
+|cant|p1a: Miraidon|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1750869637
+|move|p2b: Incineroar|Knock Off|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-enditem|p1a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Miraidon
+|
+|win|landrafa1
+|raw|zephnix's rating: 1224 &rarr; <strong>1199</strong><br />(-25 for losing)
+|raw|landrafa1's rating: 1225 &rarr; <strong>1250</strong><br />(+25 for winning)
+|c|☆zephnix|Dang it

@@ -1,0 +1,137 @@
+|j|☆Muckzy
+|j|☆Andrew)7777777
+|t:|1750805348
+|gametype|doubles
+|player|p1|Muckzy|101|1474
+|player|p2|Andrew)7777777|1|1472
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Groudon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Andrew)7777777)
+|
+|t:|1750805384
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750805404
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Indeedee
+|-damage|p2b: Indeedee|21/100
+|-damage|p1a: Ho-Oh|91/100|[from] item: Life Orb
+|move|p1b: Calyrex|Leech Seed|p2b: Indeedee
+|-start|p2b: Indeedee|move: Leech Seed
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-damage|p2b: Indeedee|9/100|[from] Leech Seed|[of] p1b: Calyrex
+|upkeep
+|turn|2
+|
+|t:|1750805427
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Glacial Lance|p1a: Ho-Oh|[spread] p1b
+|-activate|p1a: Ho-Oh|move: Protect
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|84/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldend|move: Trick Room
+|
+|-heal|p1b: Calyrex|89/100|[from] item: Leftovers
+|-damage|p2b: Indeedee|0 fnt|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|97/100|[silent]
+|faint|p2b: Indeedee
+|upkeep
+|
+|t:|1750805434
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|3
+|inactive|Muckzy has 30 seconds left.
+|
+|t:|1750805468
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Calyrex|[miss]
+|-miss|p1a: Ho-Oh|p2a: Calyrex
+|move|p2b: Groudon|Stone Edge|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|faint|p1a: Ho-Oh
+|move|p1b: Calyrex|Glacial Lance|p2b: Groudon|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Groudon
+|-damage|p2a: Calyrex|82/100
+|-damage|p2b: Groudon|28/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750805488
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|turn|4
+|
+|t:|1750805500
+|move|p1b: Calyrex|Leech Seed|p2a: Calyrex
+|-start|p2a: Calyrex|move: Leech Seed
+|move|p1a: Primarina|Hyper Voice|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-supereffective|p2b: Groudon
+|-damage|p2a: Calyrex|76/100
+|-damage|p2b: Groudon|9/100
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|move|p2b: Groudon|Precipice Blades|p1b: Calyrex|[spread] p1b
+|-miss|p2b: Groudon|p1a: Primarina
+|-damage|p1b: Calyrex|66/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|72/100|[from] item: Leftovers
+|-damage|p2a: Calyrex|64/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|84/100|[silent]
+|upkeep
+|turn|5
+|-message|Andrew)7777777 forfeited.
+|
+|win|Muckzy
+|raw|Muckzy's rating: 1474 &rarr; <strong>1494</strong><br />(+20 for winning)
+|raw|Andrew)7777777's rating: 1472 &rarr; <strong>1452</strong><br />(-20 for losing)
+|l|☆Andrew)7777777
+|player|p2|
+|l|☆Muckzy
+|player|p1|

@@ -1,0 +1,145 @@
+|j|☆Adkae
+|j|☆drewskiloo
+|t:|1750738320
+|gametype|doubles
+|player|p1|Adkae|265|1245
+|player|p2|drewskiloo|shadowtriad|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Riolu, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ditto, L50|
+|poke|p2|Jumpluff, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by drewskiloo)
+|
+|t:|1750738331
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Riolu|Riolu, L50, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750738349
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Riolu|32/100
+|move|p2a: Weezing|Taunt|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Riolu|Coaching|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|1
+|-boost|p1a: Calyrex|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750738364
+|move|p2b: Calyrex|Astral Barrage|p1b: Riolu|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|47/100
+|-damage|p1b: Riolu|0 fnt
+|faint|p1b: Riolu
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Weezing|Will-O-Wisp|p1a: Calyrex|[miss]
+|-miss|p2a: Weezing|p1a: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2a: Weezing|[spread] p2a,p2b
+|-damage|p2a: Weezing|39/100
+|-damage|p2b: Calyrex|12/100
+|
+|upkeep
+|
+|t:|1750738384
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|inactive|drewskiloo has 30 seconds left.
+|
+|t:|1750738418
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Calyrex|Dark Pulse|p1b: Ursaluna
+|-damage|p1b: Ursaluna|59/100
+|move|p1b: Ursaluna|Earthquake|p2a: Weezing|[spread] p2b
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p2a: Weezing|move: Protect
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750738420
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|inactive|Adkae has 30 seconds left.
+|
+|t:|1750738450
+|-terastallize|p1a: Calyrex|Fire
+|move|p2a: Weezing|Protect||[still]
+|-fail|p2a: Weezing
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Koraidon|Collision Course|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Weezing|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Weezing|0 fnt
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|53/100 brn|[from] brn
+|upkeep
+|
+|t:|1750738457
+|switch|p2a: Ditto|Ditto, L50, shiny|100/100
+|-transform|p2a: Ditto|p1b: Ursaluna|[from] ability: Imposter
+|turn|5
+|
+|t:|1750738470
+|move|p2a: Ditto|Earthquake|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|13/100
+|-damage|p1b: Ursaluna|22/100 brn
+|move|p1a: Calyrex|Glacial Lance|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|Adkae
+|raw|Adkae's rating: 1245 &rarr; <strong>1270</strong><br />(+25 for winning)
+|raw|drewskiloo's rating: 1251 &rarr; <strong>1226</strong><br />(-25 for losing)
+|l|☆drewskiloo
+|player|p2|
+|l|☆Adkae
+|player|p1|

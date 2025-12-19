@@ -1,0 +1,220 @@
+|j|☆lost oblitus
+|j|☆fahmejuniormaxi
+|t:|1750734033
+|gametype|doubles
+|player|p1|lost oblitus|supernerd|1159
+|player|p2|fahmejuniormaxi|volkner|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tentacruel, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Palkia-Origin, L50|
+|poke|p1|Dipplin, L50, F|
+|poke|p1|Giratina, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fahmejuniormaxi)
+|
+|t:|1750734067
+|start
+|switch|p1a: Giratina|Giratina, L50|100/100
+|switch|p1b: Tentacruel|Tentacruel, L50, F, shiny|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p2b: Okidogi|Okidogi, L50, M|100/100
+|-ability|p1a: Giratina|Pressure
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1750734086
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2a: Iron Jugulis|Tailwind|p2a: Iron Jugulis
+|-sidestart|p2: fahmejuniormaxi|move: Tailwind
+|move|p2b: Okidogi|Snarl|p1a: Giratina|[spread] p1b
+|-activate|p1a: Giratina|move: Protect
+|-crit|p1b: Tentacruel
+|-damage|p1b: Tentacruel|93/100
+|-unboost|p1b: Tentacruel|spa|1
+|move|p1b: Tentacruel|Muddy Water|p2a: Iron Jugulis|[spread] p2a
+|-miss|p1b: Tentacruel|p2b: Okidogi
+|-damage|p2a: Iron Jugulis|88/100
+|
+|-heal|p1b: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1750734110
+|move|p2a: Iron Jugulis|Hurricane|p1a: Giratina
+|-damage|p1a: Giratina|76/100
+|move|p2b: Okidogi|Knock Off|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|31/100
+|-enditem|p1a: Giratina|Leftovers|[from] move: Knock Off|[of] p2b: Okidogi
+|move|p1b: Tentacruel|Toxic|p2a: Iron Jugulis
+|-status|p2a: Iron Jugulis|tox
+|move|p1a: Giratina|Curse|p2b: Okidogi
+|-start|p2b: Okidogi|Curse|[of] p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|-heal|p1b: Tentacruel|100/100|[from] item: Black Sludge
+|-damage|p2a: Iron Jugulis|82/100 tox|[from] psn
+|-damage|p2b: Okidogi|75/100|[from] Curse
+|upkeep
+|
+|t:|1750734121
+|switch|p1a: Dipplin|Dipplin, L50, F|100/100
+|-ability|p1a: Dipplin|Supersweet Syrup
+|-unboost|p2a: Iron Jugulis|evasion|1
+|-unboost|p2b: Okidogi|evasion|1
+|turn|3
+|
+|t:|1750734135
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|move|p2a: Iron Jugulis|Hurricane|p1a: Dipplin
+|-supereffective|p1a: Dipplin
+|-damage|p1a: Dipplin|48/100
+|move|p1a: Dipplin|Syrup Bomb|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|74/100
+|-start|p2b: Kyogre|Syrup Bomb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Iron Jugulis|70/100 tox|[from] psn
+|-unboost|p2b: Kyogre|spe|1
+|upkeep
+|turn|4
+|inactive|fahmejuniormaxi has 30 seconds left.
+|
+|t:|1750734165
+|switch|p2b: Okidogi|Okidogi, L50, M|75/100
+|move|p2a: Iron Jugulis|Hurricane|p1a: Dipplin
+|-supereffective|p1a: Dipplin
+|-damage|p1a: Dipplin|0 fnt
+|faint|p1a: Dipplin
+|move|p1b: Palkia|Spacial Rend|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|16/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Iron Jugulis|0 fnt|[from] psn
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|-sideend|p2: fahmejuniormaxi|move: Tailwind
+|upkeep
+|
+|t:|1750734179
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p1a: Tentacruel|Tentacruel, L50, F, shiny|100/100
+|-ability|p2a: Ogerpon|Mold Breaker
+|turn|5
+|
+|t:|1750734195
+|move|p1b: Palkia|Chilling Water|p2b: Okidogi
+|-damage|p2b: Okidogi|46/100
+|-unboost|p2b: Okidogi|atk|1
+|move|p2a: Ogerpon|Play Rough|p1b: Palkia
+|-supereffective|p1b: Palkia
+|-damage|p1b: Palkia|39/100
+|move|p1a: Tentacruel|Muddy Water|p2b: Okidogi|[spread] p2a,p2b
+|-damage|p2a: Ogerpon|70/100
+|-damage|p2b: Okidogi|25/100
+|move|p2b: Okidogi|Knock Off|p1b: Palkia
+|-damage|p1b: Palkia|25/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|inactive|lost oblitus has 30 seconds left.
+|
+|t:|1750734221
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p2a: Ogerpon|Seed Bomb|p1b: Palkia
+|-activate|p1b: Palkia|move: Protect
+|move|p1a: Tentacruel|Acid Spray|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|46/100
+|-unboost|p2a: Ogerpon|spd|2
+|move|p2b: Okidogi|Drain Punch|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|88/100
+|-heal|p2b: Okidogi|33/100|[from] drain|[of] p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|94/100|[from] ability: Rain Dish
+|-heal|p1a: Tentacruel|99/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1750734237
+|move|p1b: Palkia|Chilling Water|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|move|p1a: Tentacruel|Muddy Water|p2b: Okidogi
+|-damage|p2b: Okidogi|3/100
+|-unboost|p2b: Okidogi|accuracy|1
+|move|p2b: Okidogi|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|78/100
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2b: Okidogi
+|
+|-weather|none
+|upkeep
+|
+|t:|1750734249
+|switch|p2a: Kyogre|Kyogre, L50|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|8
+|
+|t:|1750734255
+|-terastallize|p2a: Kyogre|Grass
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p1a: Tentacruel|Acid Spray|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|59/100
+|-unboost|p2a: Kyogre|spd|2
+|move|p2a: Kyogre|Water Spout|p1a: Tentacruel|[spread] p1a
+|-activate|p1b: Palkia|move: Protect
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|50/100
+|move|p2b: Okidogi|Drain Punch|p1a: Tentacruel|[miss]
+|-miss|p2b: Okidogi|p1a: Tentacruel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|56/100|[from] ability: Rain Dish
+|upkeep
+|turn|9
+|
+|t:|1750734276
+|move|p1b: Palkia|Spacial Rend|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|move|p1a: Tentacruel|Acid Spray|p2b: Okidogi
+|-resisted|p2b: Okidogi
+|-damage|p2b: Okidogi|0 fnt
+|faint|p2b: Okidogi
+|
+|win|lost oblitus
+|raw|lost oblitus's rating: 1159 &rarr; <strong>1178</strong><br />(+19 for winning)
+|raw|fahmejuniormaxi's rating: 1073 &rarr; <strong>1057</strong><br />(-16 for losing)
+|l|☆fahmejuniormaxi
+|player|p2|
+|l|☆lost oblitus
+|player|p1|

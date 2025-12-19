@@ -1,0 +1,189 @@
+|j|☆qunqun24
+|j|☆sweepy boi
+|t:|1750863760
+|gametype|doubles
+|player|p1|qunqun24|266|1530
+|player|p2|sweepy boi|skyla|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Rhydon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Thundurus, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Enamorus, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by qunqun24)
+|
+|t:|1750863786
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|1
+|
+|t:|1750863803
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|91/100
+|move|p2b: Tornadus|Taunt|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|move: Taunt
+|cant|p2a: Miraidon|flinch
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Tornadus
+|-damage|p2b: Tornadus|46/100
+|-status|p2b: Tornadus|brn
+|
+|-damage|p2b: Tornadus|40/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750863827
+|switch|p1b: Rhydon|Rhydon, L50, M|100/100
+|move|p2b: Tornadus|Rain Dance|p2b: Tornadus
+|-weather|RainDance
+|move|p2a: Miraidon|Draco Meteor|p1b: Rhydon
+|-crit|p1b: Rhydon
+|-damage|p1b: Rhydon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Rhydon
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|79/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Tornadus|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1750863835
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|turn|3
+|
+|t:|1750863853
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: sweepy boi|move: Tailwind
+|move|p2a: Miraidon|Volt Switch|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|61/100
+|
+|t:|1750863863
+|switch|p2a: Thundurus|Thundurus, L50, M|100/100|[from] Volt Switch
+|move|p1b: Eternatus|Sludge Bomb|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Thundurus
+|-damage|p2a: Thundurus|74/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Ho-Oh|move: Taunt
+|upkeep
+|inactive|sweepy boi has 30 seconds left.
+|
+|t:|1750863888
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|4
+|
+|t:|1750863903
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|-unboost|p2b: Landorus|atk|1
+|-terastallize|p1b: Eternatus|Fairy
+|move|p2a: Thundurus|Eerie Impulse|p1b: Eternatus
+|-unboost|p1b: Eternatus|spa|2
+|move|p2b: Landorus|Earth Power|p1b: Eternatus
+|-damage|p1b: Eternatus|43/100
+|move|p1b: Eternatus|Dynamax Cannon|p2b: Landorus
+|-damage|p2b: Landorus|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|sweepy boi has 30 seconds left.
+|
+|t:|1750863935
+|move|p2b: Landorus|Protect|p2b: Landorus
+|-singleturn|p2b: Landorus|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Landorus
+|-activate|p2b: Landorus|move: Protect
+|move|p2a: Thundurus|Thunderbolt|p1b: Eternatus
+|-damage|p1b: Eternatus|21/100
+|move|p1b: Eternatus|Recover|p1b: Eternatus
+|-heal|p1b: Eternatus|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Eternatus|78/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750863954
+|switch|p1b: Ho-Oh|Ho-Oh, L50|95/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Ho-Oh
+|-crit|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|48/100
+|move|p2a: Thundurus|Thunderbolt|p1b: Ho-Oh
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|move|p1a: Incineroar|Taunt|p2a: Thundurus
+|-start|p2a: Thundurus|move: Taunt
+|
+|-weather|none
+|-sideend|p2: sweepy boi|move: Tailwind
+|upkeep
+|
+|t:|1750863962
+|switch|p1b: Eternatus|Eternatus, L50, tera:Fairy|78/100
+|-ability|p1b: Eternatus|Pressure
+|turn|7
+|
+|t:|1750863984
+|switch|p2a: Miraidon|Miraidon, L50|79/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-terastallize|p2b: Landorus|Poison
+|move|p1b: Eternatus|Dynamax Cannon|p2b: Landorus
+|-damage|p2b: Landorus|6/100
+|move|p2b: Landorus|Sludge Bomb|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|move|p1a: Incineroar|Knock Off|p2a: Miraidon
+|-damage|p2a: Miraidon|42/100
+|-enditem|p2a: Miraidon|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|8
+|
+|t:|1750863997
+|move|p2a: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|22/100
+|move|p2b: Landorus|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|win|sweepy boi
+|raw|qunqun24's rating: 1530 &rarr; <strong>1504</strong><br />(-26 for losing)
+|raw|sweepy boi's rating: 1428 &rarr; <strong>1454</strong><br />(+26 for winning)
+|l|☆sweepy boi
+|player|p2|
+|l|☆qunqun24
+|player|p1|

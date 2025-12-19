@@ -1,0 +1,135 @@
+|j|☆moosinator32
+|j|☆Gambit05
+|t:|1750795851
+|gametype|doubles
+|player|p1|moosinator32|102|1101
+|player|p2|Gambit05|1|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Hydrapple, L50, M|
+|poke|p1|Iron Leaves, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Meowstic, L50, M|
+|poke|p2|Luxray, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Infernape, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+Gambit05 rejected open team sheets.
+|
+|t:|1750795886
+|start
+|switch|p1a: Iron Leaves|Iron Leaves, L50|100/100
+|switch|p1b: Meowstic|Meowstic, L50, M|100/100
+|switch|p2a: Luxray|Luxray, L50, M, shiny|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Iron Leaves|atk|1
+|-unboost|p1b: Meowstic|atk|1
+|turn|1
+|
+|t:|1750795913
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|switch|p1a: Hydrapple|Hydrapple, L50, M|100/100
+|-ability|p1a: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Luxray|evasion|1
+|-unboost|p2b: Lunala|evasion|1
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Luxray|Thunder Wave|p1a: Hydrapple
+|-status|p1a: Hydrapple|par
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750795952
+|move|p1a: Hydrapple|Earth Power|p2a: Luxray
+|-supereffective|p2a: Luxray
+|-damage|p2a: Luxray|44/100
+|move|p2a: Luxray|Volt Switch|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|66/100
+|
+|t:|1750795974
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Volt Switch
+|move|p2b: Lunala|Calm Mind|p2b: Lunala
+|-boost|p2b: Lunala|spa|1
+|-boost|p2b: Lunala|spd|1
+|move|p1b: Kyogre|Origin Pulse|p2a: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Lunala|84/100
+|faint|p2a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lunala|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750795984
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|turn|3
+|
+|t:|1750796007
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|cant|p1a: Hydrapple|par
+|move|p2a: Terapagos|Tera Starstorm|p1a: Hydrapple|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-damage|p1a: Hydrapple|58/100 par
+|move|p2b: Lunala|Moonblast|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-heal|p2b: Lunala|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750796026
+|switch|p1a: Meowstic|Meowstic, L50, M|100/100
+|turn|4
+|
+|t:|1750796047
+|move|p1a: Meowstic|Thunder Wave|p2a: Terapagos
+|-status|p2a: Terapagos|par
+|move|p2a: Terapagos|Tera Starstorm|p1b: Kyogre|[spread] p1a,p1b
+|-crit|p1b: Kyogre
+|-damage|p1a: Meowstic|54/100
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|move|p2b: Lunala|Moongeist Beam|p1a: Meowstic
+|-supereffective|p1a: Meowstic
+|-damage|p1a: Meowstic|0 fnt
+|faint|p1a: Meowstic
+|
+|-heal|p2b: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|-message|moosinator32 forfeited.
+|
+|win|Gambit05
+|raw|moosinator32's rating: 1101 &rarr; <strong>1074</strong><br />(-27 for losing)
+|raw|Gambit05's rating: 1069 &rarr; <strong>1101</strong><br />(+32 for winning)
+|l|☆moosinator32
+|player|p1|
+|l|☆Gambit05
+|player|p2|

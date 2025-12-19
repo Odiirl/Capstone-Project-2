@@ -1,0 +1,140 @@
+|j|☆shimthal61
+|j|☆BlackLocks
+|t:|1750706410
+|gametype|doubles
+|player|p1|shimthal61|169|1333
+|player|p2|BlackLocks|hugh|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Golduck, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Tornadus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlackLocks)
+|
+|t:|1750706456
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Golduck|Golduck, L50, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750706464
+|move|p1b: Golduck|Protect|p1b: Golduck
+|-singleturn|p1b: Golduck|Protect
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Calyrex|Astral Barrage|p1a: Kyogre|[spread] 
+|-activate|p1a: Kyogre|move: Protect
+|-activate|p1b: Golduck|move: Protect
+|move|p2a: Zamazenta|Body Press|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750706481
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|move|p1b: Golduck|Disable|p2b: Calyrex
+|-start|p2b: Calyrex|Disable|Astral Barrage
+|cant|p2b: Calyrex|Disable|Astral Barrage
+|move|p2a: Zamazenta|Body Press|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750706498
+|move|p1b: Golduck|Encore|p2b: Calyrex
+|-start|p2b: Calyrex|Encore
+|cant|p2b: Calyrex|Disable|Astral Barrage
+|move|p2a: Zamazenta|Heavy Slam|p1b: Golduck
+|-resisted|p1b: Golduck
+|-damage|p1b: Golduck|72/100
+|move|p1a: Gothitelle|Taunt|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750706515
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|54/100
+|move|p1a: Gothitelle|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|BlackLocks has 30 seconds left.
+|
+|t:|1750706547
+|-terastallize|p1b: Calyrex|Grass
+|-terastallize|p2b: Amoonguss|Water
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|11/100
+|move|p1a: Gothitelle|Psychic|p2b: Amoonguss
+|-damage|p2b: Amoonguss|73/100
+|move|p2b: Amoonguss|Spore|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|none
+|-heal|p1a: Gothitelle|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750706565
+|move|p2b: Amoonguss|Spore|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp|[from] move: Spore
+|move|p1b: Calyrex|High Horsepower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|40/100
+|cant|p1a: Gothitelle|slp
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-heal|p1a: Gothitelle|100/100 slp|[from] item: Leftovers
+|-end|p2a: Zamazenta|move: Taunt
+|upkeep
+|-message|shimthal61 forfeited.
+|
+|win|BlackLocks
+|raw|shimthal61's rating: 1333 &rarr; <strong>1316</strong><br />(-17 for losing)
+|raw|BlackLocks's rating: 1387 &rarr; <strong>1404</strong><br />(+17 for winning)
+|l|☆shimthal61
+|player|p1|

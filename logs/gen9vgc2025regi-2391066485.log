@@ -1,0 +1,126 @@
+|j|☆Nissim17
+|j|☆lazysmokingdino
+|t:|1750798589
+|gametype|doubles
+|player|p1|Nissim17|blue|1103
+|player|p2|lazysmokingdino|blackbelt-gen4dp|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Pikachu, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|
+|t:|1750798635
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Roaring Moon|atk|1
+|-enditem|p1b: Roaring Moon|Booster Energy
+|-activate|p1b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1b: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750798663
+|-terastallize|p1a: Kyogre|Grass
+|move|p2b: Incineroar|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|90/100
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: lazysmokingdino|move: Tailwind
+|move|p1b: Roaring Moon|Tailwind|p1b: Roaring Moon
+|-sidestart|p1: Nissim17|move: Tailwind
+|cant|p1a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750798693
+|move|p1b: Roaring Moon|Acrobatics|p2b: Incineroar
+|-damage|p2b: Incineroar|83/100
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Roaring Moon|[spread] p1a,p1b
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|61/100
+|-damage|p1b: Roaring Moon|70/100
+|-unboost|p1b: Roaring Moon|spe|1
+|move|p1a: Kyogre|Water Spout|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Tornadus|32/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750798714
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|3
+|
+|t:|1750798735
+|move|p2a: Tornadus|Protect|p2a: Tornadus
+|-singleturn|p2a: Tornadus|Protect
+|move|p2b: Urshifu|U-turn|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|10/100
+|
+|t:|1750798761
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2b: Miraidon|Electric Seed
+|-boost|p2b: Miraidon|def|1|[from] item: Electric Seed
+|move|p1b: Roaring Moon|Acrobatics|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|91/100
+|move|p1a: Kyogre|Thunder|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750798786
+|-end|p1b: Roaring Moon|Protosynthesis|[silent]
+|switch|p1b: Pikachu|Pikachu, L50, F|100/100
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Pikachu|[spread] p1a,p1b
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Pikachu|35/100
+|faint|p1a: Kyogre
+|move|p2a: Tornadus|Bleakwind Storm|p1b: Pikachu
+|-resisted|p1b: Pikachu
+|-damage|p1b: Pikachu|0 fnt
+|faint|p1b: Pikachu
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: lazysmokingdino|move: Tailwind
+|-sideend|p1: Nissim17|move: Tailwind
+|upkeep
+|-message|Nissim17 forfeited.
+|
+|win|lazysmokingdino
+|raw|Nissim17's rating: 1103 &rarr; <strong>1078</strong><br />(-25 for losing)
+|raw|lazysmokingdino's rating: 1108 &rarr; <strong>1133</strong><br />(+25 for winning)
+|l|☆Nissim17
+|player|p1|
+|l|☆lazysmokingdino
+|player|p2|

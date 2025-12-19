@@ -1,0 +1,157 @@
+|j|☆Jzvictini
+|j|☆It'sJustKen VGC
+|t:|1750813202
+|gametype|doubles
+|player|p1|Jzvictini|266|1684
+|player|p2|It'sJustKen VGC|caitlin|1760
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by It'sJustKen VGC)
+|
+|t:|1750813219
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Tera Cell|Terapagos, L50, M|100/100
+|switch|p2b: TTE|Tornadus, L50, M|100/100
+|-activate|p2a: Tera Cell|ability: Tera Shift
+|detailschange|p2a: Tera Cell|Terapagos-Terastal, L50, M
+|-heal|p2a: Tera Cell|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750813234
+|-terastallize|p2a: Tera Cell|Stellar
+|detailschange|p2a: Tera Cell|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Tera Cell|100/100|[silent]
+|move|p2b: TTE|Bleakwind Storm|p1b: Smeargle|[spread] p1a,p1b
+|-damage|p1a: Calyrex|77/100
+|-damage|p1b: Smeargle|23/100
+|move|p1b: Smeargle|Spore|p2a: Tera Cell
+|-status|p2a: Tera Cell|slp|[from] move: Spore
+|cant|p2a: Tera Cell|slp
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750813247
+|move|p1a: Calyrex|Glacial Lance|p2a: Tera Cell|[spread] p2a,p2b
+|-supereffective|p2b: TTE
+|-damage|p2a: Tera Cell|63/100 slp
+|-enditem|p2b: TTE|Focus Sash
+|-damage|p2b: TTE|1/100
+|cant|p2a: Tera Cell|slp
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: TTE|Bleakwind Storm|p1b: Smeargle|[spread] p1a,p1b
+|-damage|p1a: Calyrex|52/100
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|upkeep
+|
+|t:|1750813255
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|3
+|
+|t:|1750813274
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p2b: TTE|Protect|p2b: TTE
+|-singleturn|p2b: TTE|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: TTE|[spread] p2a
+|-activate|p2b: TTE|move: Protect
+|-damage|p2a: Tera Cell|0 fnt
+|faint|p2a: Tera Cell
+|detailschange|p2: Tera Cell|Terapagos, L50, M|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750813284
+|switch|p2a: Chicken Jockey|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Chicken Jockey|As One
+|-ability|p2a: Chicken Jockey|Unnerve
+|turn|4
+|
+|t:|1750813292
+|move|p2b: TTE|Protect||[still]
+|-fail|p2b: TTE
+|move|p2a: Chicken Jockey|Protect|p2a: Chicken Jockey
+|-singleturn|p2a: Chicken Jockey|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Chicken Jockey|[spread] p2b
+|-activate|p2a: Chicken Jockey|move: Protect
+|-supereffective|p2b: TTE
+|-damage|p2b: TTE|0 fnt
+|faint|p2b: TTE
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p1b: Indeedee|Psychic|p2a: Chicken Jockey
+|-activate|p2a: Chicken Jockey|move: Protect
+|
+|upkeep
+|
+|t:|1750813300
+|switch|p2b: PTSD Mushroom|Amoonguss, L50, F|100/100
+|turn|5
+|
+|t:|1750813307
+|-terastallize|p1a: Calyrex|Grass
+|move|p2b: PTSD Mushroom|Protect|p2b: PTSD Mushroom
+|-singleturn|p2b: PTSD Mushroom|Protect
+|move|p2a: Chicken Jockey|Protect|p2a: Chicken Jockey
+|-singleturn|p2a: Chicken Jockey|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Chicken Jockey|[spread] 
+|-activate|p2a: Chicken Jockey|move: Protect
+|-activate|p2b: PTSD Mushroom|move: Protect
+|move|p1b: Indeedee|Psychic|p2a: Chicken Jockey
+|-activate|p2a: Chicken Jockey|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750813319
+|move|p2a: Chicken Jockey|Psychic|p1b: Indeedee
+|-resisted|p1b: Indeedee
+|-damage|p1b: Indeedee|54/100
+|-unboost|p1b: Indeedee|spd|1
+|-damage|p2a: Chicken Jockey|91/100|[from] item: Life Orb
+|move|p1a: Calyrex|Glacial Lance|p2a: Chicken Jockey|[spread] p2a,p2b
+|-supereffective|p2b: PTSD Mushroom
+|-damage|p2a: Chicken Jockey|0 fnt
+|-damage|p2b: PTSD Mushroom|0 fnt
+|faint|p2a: Chicken Jockey
+|faint|p2b: PTSD Mushroom
+|
+|win|Jzvictini
+|raw|Jzvictini's rating: 1684 &rarr; <strong>1707</strong><br />(+23 for winning)
+|raw|It&apos;sJustKen VGC's rating: 1735 &rarr; <strong>1712</strong><br />(-23 for losing)

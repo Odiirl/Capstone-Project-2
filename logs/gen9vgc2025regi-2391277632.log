@@ -1,0 +1,166 @@
+|j|☆shuuwa
+|j|☆Mig_04
+|t:|1750827085
+|gametype|doubles
+|player|p1|shuuwa|102|1105
+|player|p2|Mig_04|cameraman|1216
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Clawitzer, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750827126
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750827167
+|move|p1a: Urshifu|U-turn|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|88/100
+|
+|t:|1750827172
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] U-turn
+|move|p2a: Iron Hands|Wild Charge|p1a: Lunala
+|-damage|p1a: Lunala|82/100
+|-damage|p2a: Iron Hands|84/100|[from] Recoil
+|move|p2b: Calyrex|Glacial Lance|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Lunala|42/100
+|-damage|p1b: Ursaluna|24/100
+|move|p1b: Ursaluna|Earthquake|p2b: Calyrex|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p1a: Lunala|13/100
+|-damage|p2a: Iron Hands|5/100
+|-damage|p2b: Calyrex|75/100
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750827209
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Iron Hands|Wild Charge|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-damage|p2a: Iron Hands|2/100|[from] Recoil
+|move|p2b: Calyrex|High Horsepower|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p1b: Ursaluna|18/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827220
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|3
+|
+|t:|1750827243
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Urshifu|Surging Strikes|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|60/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|22/100
+|-damage|p1a: Urshifu|67/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p1a: Urshifu|50/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|3
+|move|p2b: Calyrex|Glacial Lance|p1b: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Urshifu
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Urshifu|26/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750827267
+|switch|p2a: Mewtwo|Mewtwo, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Mewtwo|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750827289
+|-terastallize|p1b: Miraidon|Electric
+|move|p1b: Miraidon|Electro Drift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|move|p1a: Urshifu|Surging Strikes|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|57/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|37/100
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|19/100
+|-hitcount|p2b: Calyrex|3
+|move|p2b: Calyrex|Glacial Lance|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Miraidon|37/100
+|faint|p1a: Urshifu
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750827309
+|switch|p2a: Iron Hands|Iron Hands, L50|2/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750827323
+|move|p2a: Iron Hands|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|20/100
+|cant|p1b: Miraidon|flinch
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|6
+|
+|t:|1750827334
+|move|p2b: Calyrex|Glacial Lance|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|Mig_04
+|raw|shuuwa's rating: 1105 &rarr; <strong>1088</strong><br />(-17 for losing)
+|raw|Mig_04's rating: 1216 &rarr; <strong>1233</strong><br />(+17 for winning)
+|l|☆Mig_04
+|player|p2|
+|c|☆shuuwa|gg
+|l|☆shuuwa
+|player|p1|

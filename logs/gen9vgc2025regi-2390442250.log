@@ -1,0 +1,168 @@
+|j|☆Rx0000
+|j|☆SpinnerVGC
+|t:|1750713753
+|gametype|doubles
+|player|p1|Rx0000|nate|1289
+|player|p2|SpinnerVGC|benga|1309
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingdra, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SpinnerVGC)
+|
+|t:|1750713779
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Gallade|unboost|[from] item: Clear Amulet|[of] p1a: Gallade
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750713795
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-terastallize|p2b: Calyrex|Ice
+|move|p2a: Incineroar|Fake Out|p1a: Gallade
+|-damage|p1a: Gallade|91/100
+|cant|p1a: Gallade|flinch
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|2
+|inactive|SpinnerVGC has 30 seconds left.
+|
+|t:|1750713824
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|89/100
+|move|p2a: Incineroar|Parting Shot|p1a: Gallade
+|-fail|p1a: Gallade|unboost|[from] item: Clear Amulet|[of] p1a: Gallade
+|move|p1a: Gallade|Trick Room|p1a: Gallade
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|3
+|
+|t:|1750713838
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Ice|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Gallade|Sacred Sword|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1a: Gallade|74/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Calyrex
+|-status|p2b: Calyrex|brn
+|
+|-damage|p2b: Calyrex|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713845
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|89/100
+|turn|4
+|
+|t:|1750713857
+|move|p2a: Urshifu|Surging Strikes|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|70/100
+|-damage|p2a: Urshifu|72/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|36/100
+|-damage|p2a: Urshifu|56/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|-damage|p2a: Urshifu|39/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|-hitcount|p1b: Incineroar|3
+|move|p1a: Gallade|Sacred Sword|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1b: Incineroar|Will-O-Wisp|p2a: Urshifu
+|-status|p2a: Urshifu|brn
+|
+|-damage|p2a: Urshifu|33/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713862
+|switch|p2b: Mewtwo|Mewtwo, L50, shiny|100/100
+|-ability|p2b: Mewtwo|Pressure
+|turn|5
+|
+|t:|1750713875
+|move|p2a: Urshifu|Surging Strikes|p1a: Gallade
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|59/100
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|45/100
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|29/100
+|-hitcount|p1a: Gallade|3
+|move|p2b: Mewtwo|Dark Pulse|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Gallade|Psycho Cut|p2b: Mewtwo
+|-resisted|p2b: Mewtwo
+|-damage|p2b: Mewtwo|68/100
+|
+|-damage|p2a: Urshifu|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713878
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750713889
+|-terastallize|p1b: Calyrex|Ghost
+|move|p2a: Urshifu|Surging Strikes|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|86/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|73/100
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|59/100
+|-hitcount|p1b: Calyrex|3
+|move|p1b: Calyrex|Astral Barrage|p2a: Urshifu|[spread] p2a,p2b
+|-supereffective|p2b: Mewtwo
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Mewtwo|0 fnt
+|faint|p2a: Urshifu
+|faint|p2b: Mewtwo
+|
+|win|Rx0000
+|raw|Rx0000's rating: 1289 &rarr; <strong>1315</strong><br />(+26 for winning)
+|raw|SpinnerVGC's rating: 1309 &rarr; <strong>1288</strong><br />(-21 for losing)

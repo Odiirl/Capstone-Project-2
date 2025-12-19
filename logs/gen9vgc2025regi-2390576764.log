@@ -1,0 +1,152 @@
+|j|☆TorbiusFreak
+|j|☆bodeylee
+|t:|1750731200
+|gametype|doubles
+|player|p1|TorbiusFreak|265|1138
+|player|p2|bodeylee|169|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p2|Rampardos, L50, F|
+|poke|p2|Hippowdon, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Carbink, L50|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Eternatus, L50|
+|teampreview|4
+|
+|t:|1750731237
+|start
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750731264
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Tyranitar|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|85/100
+|-enditem|p1a: Ting-Lu|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Ting-Lu|Earthquake|p2a: Tyranitar|[spread] p2a,p2b
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-supereffective|p2a: Tyranitar
+|-supereffective|p2b: Necrozma
+|-crit|p2b: Necrozma
+|-damage|p2a: Tyranitar|45/100
+|-damage|p2b: Necrozma|45/100
+|-enditem|p2b: Necrozma|Weakness Policy
+|-boost|p2b: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Necrozma|spa|2|[from] item: Weakness Policy
+|move|p2b: Necrozma|Trick Room|p2b: Necrozma
+|-fieldstart|move: Trick Room|[of] p2b: Necrozma
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750731296
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Ting-Lu|Earthquake|p2b: Necrozma|[spread] p2b
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-activate|p2a: Tyranitar|move: Protect
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|7/100
+|move|p2b: Necrozma|Sunsteel Strike|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750731322
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Ting-Lu|Earthquake|p2a: Tyranitar|[spread] p2a,p2b
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-supereffective|p2a: Tyranitar
+|-supereffective|p2b: Necrozma
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Necrozma|0 fnt
+|faint|p2a: Tyranitar
+|faint|p2b: Necrozma
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1750731333
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Rampardos|Rampardos, L50, F|100/100
+|-ability|p2a: Eternatus|Pressure
+|turn|4
+|
+|t:|1750731359
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Ting-Lu|Earthquake|p2a: Eternatus|[spread] p2a,p2b
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-supereffective|p2a: Eternatus
+|-supereffective|p2b: Rampardos
+|-damage|p2a: Eternatus|46/100
+|-damage|p2b: Rampardos|11/100
+|move|p2b: Rampardos|Fire Punch|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|53/100
+|move|p2a: Eternatus|Toxic|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ting-Lu|3/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750731378
+|move|p2b: Rampardos|Protect|p2b: Rampardos
+|-singleturn|p2b: Rampardos|Protect
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Ting-Lu|Earthquake|p2b: Rampardos|[spread] 
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-activate|p2a: Eternatus|move: Protect
+|-activate|p2b: Rampardos|move: Protect
+|
+|-weather|none
+|-damage|p1a: Ting-Lu|0 fnt|[from] psn
+|faint|p1a: Ting-Lu
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750731399
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|-message|bodeylee forfeited.
+|
+|win|TorbiusFreak
+|raw|TorbiusFreak's rating: 1138 &rarr; <strong>1159</strong><br />(+21 for winning)
+|raw|bodeylee's rating: 1088 &rarr; <strong>1068</strong><br />(-20 for losing)
+|l|☆bodeylee
+|player|p2|

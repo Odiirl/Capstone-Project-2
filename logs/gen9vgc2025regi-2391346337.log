@@ -1,0 +1,188 @@
+|j|☆Huni09
+|j|☆WaveHunts
+|t:|1750840652
+|gametype|doubles
+|player|p1|Huni09|169|1159
+|player|p2|WaveHunts|byron|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Overqwil, L50, M|
+|poke|p2|Rhyperior, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|
+|t:|1750840695
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750840750
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: WaveHunts|move: Tailwind
+|move|p2a: Kyogre|Water Spout|p1b: Urshifu|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Urshifu|move: Wide Guard
+|move|p1b: Urshifu|Wicked Blow|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750840782
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Urshifu|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Urshifu|move: Wide Guard
+|move|p2a: Kyogre|Thunder|p1b: Urshifu
+|-crit|p1b: Urshifu
+|-enditem|p1b: Urshifu|Focus Sash
+|-damage|p1b: Urshifu|1/100
+|-status|p1b: Urshifu|par
+|cant|p1b: Urshifu|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750840815
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Urshifu|[spread] p1a
+|-activate|p1b: Urshifu|move: Protect
+|-damage|p1a: Zamazenta|77/100
+|move|p2a: Kyogre|Thunder|p1a: Zamazenta
+|-damage|p1a: Zamazenta|47/100
+|move|p1a: Zamazenta|Body Press|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840865
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750840882
+|move|p1b: Urshifu|Sucker Punch|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|27/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Urshifu|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Zamazenta|24/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Tornadus
+|-damage|p2b: Tornadus|34/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: WaveHunts|move: Tailwind
+|upkeep
+|
+|t:|1750840904
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|turn|5
+|
+|t:|1750840929
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: WaveHunts|move: Tailwind
+|move|p2a: Lunala|Dazzling Gleam|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p1b: Kyogre|73/100
+|faint|p1a: Zamazenta
+|move|p1b: Kyogre|Origin Pulse|p2b: Tornadus|[spread] p2a
+|-miss|p1b: Kyogre|p2b: Tornadus
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|none
+|upkeep
+|
+|t:|1750840940
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Overqwil|Overqwil, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Overqwil|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|6
+|
+|t:|1750840963
+|-terastallize|p2a: Overqwil|Water
+|-terastallize|p1a: Incineroar|Water
+|move|p1a: Incineroar|Fake Out|p2a: Overqwil
+|-damage|p2a: Overqwil|88/100
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|60/100
+|-damage|p1b: Kyogre|43/100
+|-unboost|p1a: Incineroar|spe|1
+|cant|p2a: Overqwil|flinch
+|move|p1b: Kyogre|Water Spout|p2b: Tornadus|[spread] p2a,p2b
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|67/100
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|upkeep
+|turn|7
+|
+|t:|1750840983
+|move|p2a: Overqwil|Poison Jab|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2a: Overqwil|57/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2a: Overqwil
+|-damage|p2a: Overqwil|14/100
+|-enditem|p2a: Overqwil|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|8
+|
+|t:|1750840999
+|move|p2a: Overqwil|Poison Jab|p1a: Incineroar
+|-damage|p1a: Incineroar|34/100
+|-status|p1a: Incineroar|psn
+|move|p1a: Incineroar|Knock Off|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|win|Huni09
+|raw|Huni09's rating: 1159 &rarr; <strong>1188</strong><br />(+29 for winning)
+|raw|WaveHunts's rating: 1219 &rarr; <strong>1190</strong><br />(-29 for losing)
+|l|☆WaveHunts
+|player|p2|
+|c|☆Huni09|gg
+|l|☆Huni09
+|player|p1|

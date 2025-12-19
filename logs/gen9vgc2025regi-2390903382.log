@@ -1,0 +1,292 @@
+|j|☆Troller313
+|j|☆Kunnyman
+|t:|1750781287
+|gametype|doubles
+|player|p1|Troller313|lucas-gen4pt|1426
+|player|p2|Kunnyman|101|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rhydon, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Suicune, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Eternatus, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Meganium, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Iron Moth, L50|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Dialga-Origin, L50|
+|teampreview|4
+|
+|t:|1750781346
+|start
+|switch|p1a: Suicune|Suicune, L50|100/100
+|switch|p1b: Rhydon|Rhydon, L50, M|100/100
+|switch|p2a: Meganium|Meganium, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750781382
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|-terastallize|p2b: Miraidon|Fairy
+|-terastallize|p1b: Rhydon|Fairy
+|move|p2a: Meganium|Helping Hand|p2b: Miraidon
+|-singleturn|p2b: Miraidon|Helping Hand|[of] p2a: Meganium
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Rhydon|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|74/100
+|-damage|p1b: Rhydon|38/100
+|move|p1b: Rhydon|Earthquake|p2a: Meganium|[spread] p2a,p2b
+|-immune|p1a: Ho-Oh
+|-resisted|p2a: Meganium
+|-damage|p2a: Meganium|88/100
+|-damage|p2b: Miraidon|68/100
+|
+|-heal|p1a: Ho-Oh|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750781422
+|move|p1b: Rhydon|Protect|p1b: Rhydon
+|-singleturn|p1b: Rhydon|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Ho-Oh|[spread] p1a
+|-activate|p1b: Rhydon|move: Protect
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|50/100
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Miraidon
+|-damage|p2b: Miraidon|24/100
+|move|p2a: Meganium|Counter||[still]
+|-fail|p2a: Meganium
+|
+|-heal|p1a: Ho-Oh|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750781448
+|switch|p1b: Suicune|Suicune, L50|100/100
+|move|p2b: Miraidon|Dazzling Gleam|p1b: Suicune|[spread] p1a,p1b
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|39/100
+|-damage|p1b: Suicune|62/100
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Meganium|Charm|p1a: Ho-Oh
+|-unboost|p1a: Ho-Oh|atk|2
+|
+|-heal|p1a: Ho-Oh|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750781473
+|switch|p2b: Dialga|Dialga-Origin, L50|100/100
+|turn|4
+|
+|t:|1750781500
+|switch|p1a: Rhydon|Rhydon, L50, M, tera:Fairy|38/100
+|move|p2a: Meganium|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Meganium
+|move|p1b: Suicune|Snarl|p2b: Dialga|[spread] p2a,p2b
+|-damage|p2a: Meganium|79/100
+|-damage|p2b: Dialga|94/100
+|-unboost|p2a: Meganium|spa|1
+|-unboost|p2b: Dialga|spa|1
+|move|p2b: Dialga|Draco Meteor|p1b: Suicune
+|-damage|p1b: Suicune|6/100
+|-unboost|p2b: Dialga|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1750781543
+|switch|p1a: Ho-Oh|Ho-Oh, L50|79/100
+|move|p2b: Dialga|Protect|p2b: Dialga
+|-singleturn|p2b: Dialga|Protect
+|move|p1b: Suicune|Snarl|p2a: Meganium|[spread] 
+|-activate|p2b: Dialga|move: Protect
+|-miss|p1b: Suicune|p2a: Meganium
+|move|p2a: Meganium|Body Press|p1b: Suicune
+|-damage|p1b: Suicune|0 fnt
+|faint|p1b: Suicune
+|
+|-heal|p1a: Ho-Oh|85/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750781568
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|turn|6
+|
+|t:|1750781579
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1b: Eternatus|Dynamax Cannon|p2b: Tyranitar
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|72/100
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|55/100
+|move|p2a: Meganium|Charm|p1a: Ho-Oh
+|-unboost|p1a: Ho-Oh|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Eternatus|94/100|[from] Sandstorm
+|-damage|p1a: Ho-Oh|79/100|[from] Sandstorm
+|-damage|p2a: Meganium|73/100|[from] Sandstorm
+|-heal|p1b: Eternatus|100/100|[from] item: Black Sludge
+|-heal|p1a: Ho-Oh|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750781615
+|move|p2a: Meganium|Helping Hand|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Helping Hand|[of] p2a: Meganium
+|move|p1b: Eternatus|Toxic|p2b: Tyranitar
+|-status|p2b: Tyranitar|tox
+|move|p1a: Ho-Oh|Substitute|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|Substitute
+|-damage|p1a: Ho-Oh|60/100
+|move|p2b: Tyranitar|High Horsepower|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-damage|p1b: Eternatus|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Eternatus|12/100|[from] Sandstorm
+|-damage|p1a: Ho-Oh|54/100|[from] Sandstorm
+|-damage|p2a: Meganium|67/100|[from] Sandstorm
+|-heal|p1b: Eternatus|18/100|[from] item: Black Sludge
+|-heal|p1a: Ho-Oh|60/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|49/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750781643
+|move|p2a: Meganium|Helping Hand|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Helping Hand|[of] p2a: Meganium
+|move|p1b: Eternatus|Protect|p1b: Eternatus
+|-singleturn|p1b: Eternatus|Protect
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|41/100 tox
+|move|p2b: Tyranitar|Rock Slide|p1a: Ho-Oh|[spread] p1a
+|-activate|p1b: Eternatus|move: Protect
+|-supereffective|p1a: Ho-Oh
+|-end|p1a: Ho-Oh|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Eternatus|12/100|[from] Sandstorm
+|-damage|p1a: Ho-Oh|54/100|[from] Sandstorm
+|-damage|p2a: Meganium|61/100|[from] Sandstorm
+|-heal|p1b: Eternatus|18/100|[from] item: Black Sludge
+|-heal|p1a: Ho-Oh|60/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|29/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1750781684
+|move|p2a: Meganium|Helping Hand|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Helping Hand|[of] p2a: Meganium
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p1b: Eternatus|Toxic|p2a: Meganium
+|-status|p2a: Meganium|tox
+|move|p2b: Tyranitar|Rock Slide|p1a: Ho-Oh|[spread] p1b
+|-activate|p1a: Ho-Oh|move: Protect
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ho-Oh|54/100|[from] Sandstorm
+|-damage|p2a: Meganium|55/100 tox|[from] Sandstorm
+|-heal|p1a: Ho-Oh|60/100|[from] item: Leftovers
+|-damage|p2a: Meganium|49/100 tox|[from] psn
+|-damage|p2b: Tyranitar|12/100 tox|[from] psn
+|upkeep
+|
+|t:|1750781703
+|switch|p1b: Rhydon|Rhydon, L50, M, tera:Fairy|38/100
+|turn|10
+|
+|t:|1750781716
+|move|p1b: Rhydon|Protect|p1b: Rhydon
+|-singleturn|p1b: Rhydon|Protect
+|move|p1a: Ho-Oh|Substitute|p1a: Ho-Oh
+|-start|p1a: Ho-Oh|Substitute
+|-damage|p1a: Ho-Oh|35/100
+|move|p2b: Tyranitar|Rock Slide|p1a: Ho-Oh|[spread] p1a
+|-activate|p1b: Rhydon|move: Protect
+|-supereffective|p1a: Ho-Oh
+|-end|p1a: Ho-Oh|Substitute
+|move|p2a: Meganium|Counter||[still]
+|-fail|p2a: Meganium
+|
+|-weather|none
+|-heal|p1a: Ho-Oh|41/100|[from] item: Leftovers
+|-damage|p2a: Meganium|37/100 tox|[from] psn
+|-damage|p2b: Tyranitar|0 fnt|[from] psn
+|faint|p2b: Tyranitar
+|upkeep
+|
+|t:|1750781731
+|switch|p2b: Dialga|Dialga-Origin, L50|94/100
+|turn|11
+|
+|t:|1750781766
+|move|p1b: Rhydon|Protect||[still]
+|-fail|p1b: Rhydon
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Dialga
+|-damage|p2b: Dialga|76/100
+|move|p2b: Dialga|Flash Cannon|p1b: Rhydon
+|-supereffective|p1b: Rhydon
+|-damage|p1b: Rhydon|0 fnt
+|faint|p1b: Rhydon
+|move|p2a: Meganium|Charm|p1a: Ho-Oh
+|-unboost|p1a: Ho-Oh|atk|2
+|
+|-heal|p1a: Ho-Oh|48/100|[from] item: Leftovers
+|-damage|p2a: Meganium|20/100 tox|[from] psn
+|upkeep
+|-enditem|p2a: Meganium|Aguav Berry|[eat]
+|-heal|p2a: Meganium|53/100 tox|[from] item: Aguav Berry
+|turn|12
+|
+|t:|1750781792
+|move|p2a: Meganium|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Meganium
+|move|p1a: Ho-Oh|Protect|p1a: Ho-Oh
+|-singleturn|p1a: Ho-Oh|Protect
+|move|p2b: Dialga|Flash Cannon|p1a: Ho-Oh
+|-activate|p1a: Ho-Oh|move: Protect
+|
+|-heal|p1a: Ho-Oh|54/100|[from] item: Leftovers
+|-damage|p2a: Meganium|29/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1750781806
+|move|p2a: Meganium|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Meganium
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Dialga|[miss]
+|-miss|p1a: Ho-Oh|p2b: Dialga
+|move|p2b: Dialga|Draco Meteor|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|-unboost|p2b: Dialga|spa|2
+|faint|p1a: Ho-Oh
+|
+|win|Kunnyman
+|raw|Troller313's rating: 1426 &rarr; <strong>1401</strong><br />(-25 for losing)
+|raw|Kunnyman's rating: 1334 &rarr; <strong>1359</strong><br />(+25 for winning)
+|l|☆Troller313
+|player|p1|
+|l|☆Kunnyman
+|player|p2|

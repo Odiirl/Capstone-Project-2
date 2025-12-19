@@ -1,0 +1,203 @@
+|j|☆Shermanstank
+|j|☆Voltx5
+|t:|1750735216
+|gametype|doubles
+|player|p1|Shermanstank|worker|1088
+|player|p2|Voltx5|lucas|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Slither Wing, L50|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Iron Bundle, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Clawitzer, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shermanstank)
+Shermanstank rejected open team sheets.
+|inactive|Voltx5 has 60 seconds left.
+|
+|t:|1750735260
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Grimmsnarl|Electric Seed
+|-boost|p2b: Grimmsnarl|def|1|[from] item: Electric Seed
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|inactive|Voltx5 has 30 seconds left.
+|
+|t:|1750735293
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Voltx5|Reflect
+|move|p2a: Miraidon|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|t:|1750735300
+|switch|p2a: Rayquaza|Rayquaza, L50|100/100|[from] Volt Switch
+|-ability|p2a: Rayquaza|Air Lock
+|move|p1b: Arcanine|Snarl|p2b: Grimmsnarl|[spread] p2a,p2b
+|-resisted|p2b: Grimmsnarl
+|-damage|p2a: Rayquaza|93/100
+|-damage|p2b: Grimmsnarl|99/100
+|-unboost|p2a: Rayquaza|spa|1
+|-unboost|p2b: Grimmsnarl|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rayquaza|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750735315
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|2
+|
+|t:|1750735334
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Voltx5|move: Light Screen
+|move|p1a: Flutter Mane|Moonblast|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|43/100
+|move|p1b: Arcanine|Flare Blitz|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|75/100
+|-damage|p1b: Arcanine|93/100|[from] Recoil
+|move|p2a: Rayquaza|Roar|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|drag|p1a: Slither Wing|Slither Wing, L50|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rayquaza|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750735355
+|move|p2a: Rayquaza|Protect|p2a: Rayquaza
+|-singleturn|p2a: Rayquaza|Protect
+|move|p1a: Slither Wing|First Impression|p2a: Rayquaza
+|-activate|p2a: Rayquaza|move: Protect
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Slither Wing
+|-unboost|p1a: Slither Wing|atk|1
+|-unboost|p1a: Slither Wing|spa|1
+|
+|t:|1750735366
+|switch|p2b: Clawitzer|Clawitzer, L50, F|100/100|[from] Parting Shot
+|move|p1b: Arcanine|Will-O-Wisp|p2b: Clawitzer
+|-status|p2b: Clawitzer|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rayquaza|55/100|[from] item: Leftovers
+|-damage|p2b: Clawitzer|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750735387
+|move|p2a: Rayquaza|Helping Hand|p2b: Clawitzer
+|-singleturn|p2b: Clawitzer|Helping Hand|[of] p2a: Rayquaza
+|move|p1b: Arcanine|Protect|p1b: Arcanine
+|-singleturn|p1b: Arcanine|Protect
+|move|p1a: Slither Wing|U-turn|p2b: Clawitzer
+|-damage|p2b: Clawitzer|69/100 brn
+|-damage|p1a: Slither Wing|91/100|[from] item: Life Orb
+|
+|t:|1750735393
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100|[from] U-turn
+|move|p2b: Clawitzer|Water Pulse|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rayquaza|61/100|[from] item: Leftovers
+|-damage|p2b: Clawitzer|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750735407
+|move|p1a: Flutter Mane|Moonblast|p2b: Clawitzer
+|-damage|p2b: Clawitzer|23/100 brn
+|move|p2a: Rayquaza|Thunderbolt|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Arcanine|Flare Blitz|p2a: Rayquaza
+|-resisted|p2a: Rayquaza
+|-damage|p2a: Rayquaza|48/100
+|-damage|p1b: Arcanine|88/100|[from] Recoil
+|move|p2b: Clawitzer|Water Pulse|p1b: Arcanine
+|-supereffective|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|
+|-weather|none
+|-heal|p2a: Rayquaza|54/100|[from] item: Leftovers
+|-damage|p2b: Clawitzer|17/100 brn|[from] brn
+|-sideend|p2: Voltx5|Reflect
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750735416
+|switch|p1a: Slither Wing|Slither Wing, L50|91/100
+|turn|6
+|
+|t:|1750735428
+|move|p2a: Rayquaza|Protect|p2a: Rayquaza
+|-singleturn|p2a: Rayquaza|Protect
+|move|p2b: Clawitzer|Protect|p2b: Clawitzer
+|-singleturn|p2b: Clawitzer|Protect
+|move|p1a: Slither Wing|First Impression|p2a: Rayquaza
+|-activate|p2a: Rayquaza|move: Protect
+|
+|-heal|p2a: Rayquaza|60/100|[from] item: Leftovers
+|-damage|p2b: Clawitzer|11/100 brn|[from] brn
+|-sideend|p2: Voltx5|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1750735447
+|move|p1a: Slither Wing|U-turn|p2b: Clawitzer
+|-damage|p2b: Clawitzer|0 fnt
+|faint|p2b: Clawitzer
+|-damage|p1a: Slither Wing|81/100|[from] item: Life Orb
+|move|p2a: Rayquaza|Thunderbolt|p1a: Slither Wing
+|-damage|p1a: Slither Wing|59/100
+|-status|p1a: Slither Wing|par
+|
+|-heal|p2a: Rayquaza|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750735459
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|8
+|
+|t:|1750735474
+|move|p2b: Miraidon|Electro Drift|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|win|Voltx5
+|raw|Shermanstank's rating: 1088 &rarr; <strong>1065</strong><br />(-23 for losing)
+|raw|Voltx5's rating: 1094 &rarr; <strong>1119</strong><br />(+25 for winning)
+|l|☆Shermanstank
+|player|p1|
+|l|☆Voltx5
+|player|p2|

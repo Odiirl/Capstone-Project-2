@@ -1,0 +1,155 @@
+|j|☆004B
+|j|☆TCBro89
+|t:|1750766640
+|gametype|doubles
+|player|p1|004B|ghetsis|1632
+|player|p2|TCBro89|red|1661
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Conkeldurr, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|j| WaterPr00f
+|
+|t:|1750766665
+|start
+|switch|p1a: Zekrom-|Miraidon, L50|100/100
+|switch|p1b: Deerling-|Farigiraf, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Zekrom-
+|-enditem|p1b: Deerling-|Electric Seed
+|-boost|p1b: Deerling-|def|1|[from] item: Electric Seed
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750766691
+|-terastallize|p2a: Miraidon|Fairy
+|-terastallize|p1b: Deerling-|Ground
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: TCBro89|move: Tailwind
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Zekrom-|[spread] p1a,p1b
+|-supereffective|p1a: Zekrom-
+|-damage|p1a: Zekrom-|0 fnt
+|-damage|p1b: Deerling-|46/100
+|faint|p1a: Zekrom-
+|move|p1b: Deerling-|Trick Room|p1b: Deerling-
+|-fieldstart|move: Trick Room|[of] p1b: Deerling-
+|
+|upkeep
+|
+|t:|1750766700
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750766722
+|move|p2b: Whimsicott|Protect|p2b: Whimsicott
+|-singleturn|p2b: Whimsicott|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Whimsicott|[spread] p2a
+|-activate|p2b: Whimsicott|move: Protect
+|-damage|p2a: Miraidon|44/100
+|move|p1b: Deerling-|Foul Play|p2b: Whimsicott
+|-activate|p2b: Whimsicott|move: Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|57/100
+|-damage|p1b: Deerling-|0 fnt
+|faint|p1b: Deerling-
+|
+|upkeep
+|
+|t:|1750766726
+|switch|p1b: Y.M.C.A|Conkeldurr, L50, F|100/100
+|turn|3
+|
+|t:|1750766744
+|move|p1b: Y.M.C.A|Low Kick|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|93/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2b: Whimsicott
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Whimsicott
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-status|p1b: Y.M.C.A|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750766755
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750766780
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Raging Bolt|Protect|p2b: Raging Bolt
+|-singleturn|p2b: Raging Bolt|Protect
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Y.M.C.A|Low Kick|p2b: Raging Bolt
+|-activate|p2b: Raging Bolt|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Y.M.C.A|95/100 brn|[from] brn
+|-sideend|p2: TCBro89|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750766801
+|move|p2b: Raging Bolt|Rising Voltage|p1a: Calyrex
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p1b: Y.M.C.A|Low Kick|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|19/100
+|move|p2a: Groudon|Bulk Up|p2a: Groudon
+|-boost|p2a: Groudon|atk|1
+|-boost|p2a: Groudon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Y.M.C.A|89/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750766818
+|move|p2b: Raging Bolt|Thunderclap|p1b: Y.M.C.A
+|-damage|p1b: Y.M.C.A|32/100 brn
+|move|p2a: Groudon|Precipice Blades|p1b: Y.M.C.A
+|-crit|p1b: Y.M.C.A
+|-damage|p1b: Y.M.C.A|0 fnt
+|faint|p1b: Y.M.C.A
+|
+|win|TCBro89
+|raw|004B's rating: 1632 &rarr; <strong>1614</strong><br />(-18 for losing)
+|raw|TCBro89's rating: 1661 &rarr; <strong>1679</strong><br />(+18 for winning)
+|l| WaterPr00f
+|l|☆TCBro89
+|player|p2|
+|l|☆004B
+|player|p1|

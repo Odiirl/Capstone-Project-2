@@ -1,0 +1,172 @@
+|j|☆KheaVGC
+|j|☆mon cher16
+|t:|1750861492
+|gametype|doubles
+|player|p1|KheaVGC|266|1372
+|player|p2|mon cher16|lucas-gen4pt|1470
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Umbreon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mon cher16)
+|
+|t:|1750861530
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Umbreon|Umbreon, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Umbreon|Grassy Seed
+|-boost|p2b: Umbreon|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750861540
+|move|p2a: Rillaboom|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|86/100
+|cant|p1b: Grimmsnarl|flinch
+|move|p1a: Volcarona|Overheat|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|-unboost|p1a: Volcarona|spa|2
+|move|p2b: Umbreon|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|
+|-heal|p2a: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p1b: Grimmsnarl|92/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750861555
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: KheaVGC|move: Light Screen
+|move|p1a: Volcarona|Overheat|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Volcarona|spa|2
+|faint|p2a: Rillaboom
+|move|p2b: Umbreon|Yawn|p1a: Volcarona
+|-start|p1a: Volcarona|move: Yawn|[of] p2b: Umbreon
+|
+|-heal|p1b: Grimmsnarl|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750861564
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|3
+|
+|t:|1750861571
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Zacian
+|-status|p2a: Zacian|par
+|move|p2a: Zacian|Behemoth Blade|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2b: Umbreon|Yawn|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Electric Terrain
+|
+|upkeep
+|
+|t:|1750861582
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|turn|4
+|
+|t:|1750861591
+|-terastallize|p2a: Zacian|Ground
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p1a: Miraidon|Electro Drift|p2b: Umbreon
+|-damage|p2b: Umbreon|20/100
+|move|p2a: Zacian|Tera Blast|p1b: Volcarona|[anim] Tera Blast Ground
+|-damage|p1b: Volcarona|41/100
+|move|p2b: Umbreon|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|t:|1750861613
+|move|p1a: Miraidon|Electro Drift|p2b: Umbreon
+|-damage|p2b: Umbreon|0 fnt
+|faint|p2b: Umbreon
+|move|p1b: Volcarona|Overheat|p2a: Zacian
+|-damage|p2a: Zacian|52/100 par
+|-unboost|p1b: Volcarona|spa|2
+|move|p2a: Zacian|Tera Blast|p1a: Miraidon|[anim] Tera Blast Ground
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750861624
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|6
+|
+|t:|1750861645
+|-terastallize|p1a: Iron Hands|Bug
+|move|p1a: Iron Hands|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|79/100
+|cant|p2b: Urshifu|flinch
+|move|p1b: Volcarona|Overheat|p2a: Zacian
+|-damage|p2a: Zacian|27/100 par
+|-unboost|p1b: Volcarona|spa|2
+|cant|p2a: Zacian|par
+|
+|upkeep
+|turn|7
+|
+|t:|1750861661
+|move|p2b: Urshifu|Surging Strikes|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|77/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|56/100
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|31/100
+|-hitcount|p1a: Iron Hands|3
+|move|p1b: Volcarona|Overheat|p2a: Zacian
+|-damage|p2a: Zacian|10/100 par
+|-unboost|p1b: Volcarona|spa|2
+|move|p2a: Zacian|Behemoth Blade|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-end|p1b: Volcarona|move: Taunt
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|-message|KheaVGC forfeited.
+|
+|win|mon cher16
+|raw|KheaVGC's rating: 1372 &rarr; <strong>1357</strong><br />(-15 for losing)
+|raw|mon cher16's rating: 1470 &rarr; <strong>1485</strong><br />(+15 for winning)
+|l|☆KheaVGC
+|player|p1|
+|l|☆mon cher16
+|player|p2|

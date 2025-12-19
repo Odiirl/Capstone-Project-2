@@ -1,0 +1,267 @@
+|j|☆Fredzhangg
+|j|☆DanTheMackGaming
+|t:|1750778525
+|gametype|doubles
+|player|p1|Fredzhangg|170|1150
+|player|p2|DanTheMackGaming|crasherwake|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|
+|t:|1750778558
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750778583
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1b: Miraidon|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|47/100
+|
+|t:|1750778598
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100|[from] Volt Switch
+|move|p2b: Smeargle|Spore|p1b: Urshifu
+|-status|p1b: Urshifu|slp|[from] move: Spore
+|move|p1a: Lunala|Moonblast|p2a: Indeedee
+|-damage|p2a: Indeedee|15/100
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750778652
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Smeargle|Spore|p1a: Lunala
+|-status|p1a: Lunala|slp|[from] move: Spore
+|cant|p1a: Lunala|slp
+|cant|p1b: Urshifu|slp
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750778678
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p2b: Smeargle|Baton Pass|p2b: Smeargle
+|
+|t:|1750778689
+|switch|p2b: Lunala|Lunala, L50|100/100|[from] Baton Pass
+|-curestatus|p1a: Lunala|slp|[msg]
+|move|p1a: Lunala|Moonblast|p2a: Terapagos
+|-damage|p2a: Terapagos|78/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Lunala|86/100
+|-damage|p1b: Urshifu|52/100 slp
+|-curestatus|p1b: Urshifu|slp|[msg]
+|move|p1b: Urshifu|Wicked Blow|p2a: Terapagos
+|-crit|p2a: Terapagos
+|-damage|p2a: Terapagos|18/100
+|
+|-heal|p1a: Lunala|92/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750778723
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|-terastallize|p1a: Lunala|Fairy
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Lunala|Moongeist Beam|p1a: Lunala
+|-damage|p1a: Lunala|68/100
+|move|p1b: Urshifu|Wicked Blow|p2a: Smeargle
+|-crit|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|
+|-heal|p1a: Lunala|74/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|5
+|
+|t:|1750778753
+|move|p2a: Smeargle|Baton Pass|p2a: Smeargle
+|
+|t:|1750778755
+|switch|p2a: Indeedee|Indeedee-F, L50, F|15/100|[from] Baton Pass
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Lunala|Psychic Seed
+|-boost|p2b: Lunala|spd|1|[from] item: Psychic Seed
+|move|p1a: Lunala|Moonblast|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Lunala|Moongeist Beam|p1a: Lunala
+|-damage|p1a: Lunala|50/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-heal|p1a: Lunala|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750778758
+|switch|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|24/100
+|switch|p2b: Smeargle|Smeargle, L50, M|1/100
+|turn|6
+|
+|t:|1750778778
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Smeargle|Spore|p1b: Urshifu
+|-status|p1b: Urshifu|slp|[from] move: Spore
+|move|p2a: Terapagos|Tera Starstorm|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Urshifu|move: Wide Guard
+|cant|p1b: Urshifu|slp
+|
+|-heal|p1a: Lunala|62/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|30/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|7
+|
+|t:|1750778799
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p2b: Smeargle|Spore|p1a: Lunala
+|-activate|p1a: Lunala|move: Electric Terrain
+|
+|-heal|p1a: Lunala|68/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|36/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|8
+|
+|t:|1750778816
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Smeargle|Ruination|p1b: Miraidon
+|-damage|p1b: Miraidon|50/100
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Smeargle|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|
+|-heal|p1a: Lunala|75/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|42/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750778831
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Terapagos
+|-damage|p2a: Terapagos|18/100
+|move|p2a: Terapagos|Bug Buzz|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|52/100
+|
+|-heal|p1a: Lunala|58/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|24/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanTheMackGaming)
+|
+|t:|1750778846
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p1a: Lunala|Moonblast|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|
+|-heal|p1a: Lunala|64/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|30/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1750778856
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Terapagos
+|-damage|p2a: Terapagos|7/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Lunala|[spread] 
+|-activate|p1a: Lunala|move: Wide Guard
+|-activate|p1b: Miraidon|move: Wide Guard
+|
+|-heal|p1a: Lunala|71/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|13/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|12
+|
+|t:|1750778867
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|
+|-heal|p1a: Lunala|77/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|19/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750778878
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|Fredzhangg
+|raw|Fredzhangg's rating: 1150 &rarr; <strong>1177</strong><br />(+27 for winning)
+|raw|DanTheMackGaming's rating: 1184 &rarr; <strong>1157</strong><br />(-27 for losing)
+|l|☆DanTheMackGaming
+|player|p2|

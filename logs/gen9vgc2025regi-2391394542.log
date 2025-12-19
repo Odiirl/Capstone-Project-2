@@ -1,0 +1,161 @@
+|j|☆BigBobobo
+|j|☆leolc0926
+|t:|1750849474
+|gametype|doubles
+|player|p1|BigBobobo|102|1105
+|player|p2|leolc0926|hilbert|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BigBobobo)
+|
+|t:|1750849503
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: 一拳侠|Urshifu, L50, F|100/100
+|switch|p2b: 铁辙侠|Iron Treads, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2b: 铁辙侠|ability: Quark Drive
+|-start|p2b: 铁辙侠|quarkdrivespe
+|turn|1
+|
+|t:|1750849523
+|-terastallize|p1b: Miraidon|Electric
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: BigBobobo|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: 一拳侠
+|-enditem|p2a: 一拳侠|Focus Sash
+|-damage|p2a: 一拳侠|1/100
+|
+|t:|1750849530
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] Volt Switch
+|move|p2b: 铁辙侠|Iron Head|p1a: Tornadus
+|-damage|p1a: Tornadus|43/100
+|-damage|p2b: 铁辙侠|91/100|[from] item: Life Orb
+|move|p2a: 一拳侠|Wicked Blow|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1750849546
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750849570
+|-terastallize|p2b: 铁辙侠|Ghost
+|move|p2a: 一拳侠|Detect|p2a: 一拳侠
+|-singleturn|p2a: 一拳侠|Protect
+|move|p1b: Urshifu|Close Combat|p2b: 铁辙侠
+|-immune|p2b: 铁辙侠
+|move|p2b: 铁辙侠|High Horsepower|p1b: Urshifu
+|-damage|p1b: Urshifu|36/100
+|-damage|p2b: 铁辙侠|82/100|[from] item: Life Orb
+|move|p1a: Calyrex|Glacial Lance|p2b: 铁辙侠|[spread] p2b
+|-activate|p2a: 一拳侠|move: Protect
+|-damage|p2b: 铁辙侠|25/100
+|
+|upkeep
+|turn|3
+|inactive|leolc0926 has 30 seconds left.
+|
+|t:|1750849599
+|move|p2b: 铁辙侠|Protect|p2b: 铁辙侠
+|-singleturn|p2b: 铁辙侠|Protect
+|move|p2a: 一拳侠|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|46/100
+|move|p1b: Urshifu|Close Combat|p2a: 一拳侠
+|-supereffective|p2a: 一拳侠
+|-damage|p2a: 一拳侠|0 fnt
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|faint|p2a: 一拳侠
+|move|p1a: Calyrex|Glacial Lance|p2b: 铁辙侠
+|-activate|p2b: 铁辙侠|move: Protect
+|
+|upkeep
+|
+|t:|1750849623
+|switch|p2a: バドレックス|Calyrex-Ice, L50|100/100
+|-ability|p2a: バドレックス|As One
+|-ability|p2a: バドレックス|Unnerve
+|turn|4
+|
+|t:|1750849632
+|move|p1b: Urshifu|Close Combat|p2a: バドレックス
+|-damage|p2a: バドレックス|61/100
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|move|p2b: 铁辙侠|Iron Head|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: 铁辙侠|15/100|[from] item: Life Orb
+|move|p2a: バドレックス|Trick Room|p2a: バドレックス
+|-fieldstart|move: Trick Room|[of] p2a: バドレックス
+|
+|-sideend|p1: BigBobobo|move: Tailwind
+|upkeep
+|
+|t:|1750849643
+|switch|p1a: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750849654
+|move|p2a: バドレックス|High Horsepower|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|15/100
+|move|p1a: Miraidon|Dazzling Gleam|p2b: 铁辙侠|[spread] p2a,p2b
+|-damage|p2a: バドレックス|33/100
+|-damage|p2b: 铁辙侠|0 fnt
+|faint|p2b: 铁辙侠
+|-end|p2b: 铁辙侠|Quark Drive|[silent]
+|move|p1b: Urshifu|Close Combat|p2a: バドレックス
+|-damage|p2a: バドレックス|0 fnt
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|faint|p2a: バドレックス
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750849660
+|switch|p2a: 密勒侠|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: 密勒侠
+|turn|6
+|
+|t:|1750849667
+|move|p2a: 密勒侠|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Urshifu
+|
+|win|leolc0926
+|raw|BigBobobo's rating: 1105 &rarr; <strong>1078</strong><br />(-27 for losing)
+|raw|leolc0926's rating: 1074 &rarr; <strong>1105</strong><br />(+31 for winning)

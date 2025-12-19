@@ -1,0 +1,154 @@
+|j|☆caprican
+|j|☆Tommytheog
+|t:|1750745605
+|gametype|doubles
+|player|p1|caprican|skyla|1201
+|player|p2|Tommytheog|266|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tommytheog)
+|
+|t:|1750745659
+|start
+|switch|p1a: THE DON|Miraidon, L50|100/100
+|switch|p1b: NOM NOM GRASS|Farigiraf, L50, F, shiny|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: THE DON
+|-enditem|p1b: NOM NOM GRASS|Electric Seed
+|-boost|p1b: NOM NOM GRASS|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|inactive|caprican has 30 seconds left.
+|inactive|caprican has 20 seconds left.
+|inactive|caprican has 15 seconds left.
+|inactive|caprican has 10 seconds left.
+|inactive|caprican has 5 seconds left.
+|
+|t:|1750745710
+|-terastallize|p2b: Charizard|Dragon
+|move|p1b: NOM NOM GRASS|Helping Hand|p1a: THE DON
+|-singleturn|p1a: THE DON|Helping Hand|[of] p1b: NOM NOM GRASS
+|move|p1a: THE DON|Volt Switch|p2b: Charizard
+|-resisted|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|
+|t:|1750745718
+|switch|p1a: MEOW|Incineroar, L50, F, shiny|100/100|[from] Volt Switch
+|-ability|p1a: MEOW|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|move|p2a: Groudon|Earthquake|p1a: MEOW|[spread] p1a,p1b
+|-supereffective|p1a: MEOW
+|-damage|p1a: MEOW|37/100
+|-damage|p1b: NOM NOM GRASS|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750745728
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|turn|2
+|
+|t:|1750745747
+|move|p2b: Urshifu|Wicked Blow|p1b: NOM NOM GRASS
+|-supereffective|p1b: NOM NOM GRASS
+|-crit|p1b: NOM NOM GRASS
+|-damage|p1b: NOM NOM GRASS|0 fnt
+|faint|p1b: NOM NOM GRASS
+|move|p2a: Groudon|Earthquake|p1a: MEOW|[spread] p2b,p1a
+|-supereffective|p1a: MEOW
+|-damage|p2b: Urshifu|56/100
+|-damage|p1a: MEOW|0 fnt
+|faint|p1a: MEOW
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750745757
+|switch|p1b: TERA ICE|Calyrex-Ice, L50|100/100
+|switch|p1a: THE DON|Miraidon, L50|100/100
+|-ability|p1b: TERA ICE|As One
+|-ability|p1b: TERA ICE|Unnerve
+|-activate|p1a: THE DON|ability: Hadron Engine
+|turn|3
+|inactive|Tommytheog has 30 seconds left.
+|inactive|caprican has 30 seconds left.
+|inactive|Tommytheog has 20 seconds left.
+|inactive|caprican has 20 seconds left.
+|inactive|caprican has 15 seconds left.
+|
+|t:|1750745808
+|move|p1b: TERA ICE|Protect|p1b: TERA ICE
+|-singleturn|p1b: TERA ICE|Protect
+|move|p1a: THE DON|Electro Drift|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Groudon|Earthquake|p1b: TERA ICE|[spread] p1a
+|-activate|p1b: TERA ICE|move: Protect
+|-supereffective|p1a: THE DON
+|-damage|p1a: THE DON|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750745814
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|inactive|caprican has 30 seconds left.
+|
+|t:|1750745842
+|-terastallize|p1b: TERA ICE|Fire
+|move|p2b: Koraidon|Flare Blitz|p1b: TERA ICE
+|-resisted|p1b: TERA ICE
+|-damage|p1b: TERA ICE|67/100
+|-damage|p2b: Koraidon|87/100|[from] Recoil
+|-damage|p2b: Koraidon|78/100|[from] item: Life Orb
+|move|p1a: THE DON|Electro Drift|p2b: Koraidon
+|-resisted|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Groudon|Earthquake|p1b: TERA ICE|[spread] p1a,p1b
+|-supereffective|p1a: THE DON
+|-supereffective|p1b: TERA ICE
+|-damage|p1a: THE DON|0 fnt
+|-damage|p1b: TERA ICE|5/100
+|faint|p1a: THE DON
+|move|p1b: TERA ICE|Trick Room|p1b: TERA ICE
+|-fieldstart|move: Trick Room|[of] p1b: TERA ICE
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750745859
+|move|p1b: TERA ICE|Glacial Lance|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|faint|p2a: Groudon
+|
+|win|caprican
+|raw|caprican's rating: 1201 &rarr; <strong>1225</strong><br />(+24 for winning)
+|raw|Tommytheog's rating: 1191 &rarr; <strong>1167</strong><br />(-24 for losing)
+|l|☆caprican
+|player|p1|

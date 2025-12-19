@@ -1,0 +1,182 @@
+|j|☆BLUE ANA
+|j|☆YugiMotoKOG
+|t:|1750812478
+|gametype|doubles
+|player|p1|BLUE ANA|gambler|1092
+|player|p2|YugiMotoKOG|101|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Rayquaza, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Primeape, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|teampreview|4
+|
+|t:|1750812516
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Primeape|Primeape, L50, F, shiny|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M, shiny|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1750812539
+|move|p2a: Primeape|Protect|p2a: Primeape
+|-singleturn|p2a: Primeape|Protect
+|move|p2b: Smeargle|Burning Bulwark|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Smeargle
+|-activate|p2b: Smeargle|move: Protect
+|-status|p1b: Rillaboom|brn
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Primeape
+|-activate|p2a: Primeape|move: Protect
+|
+|-damage|p1b: Rillaboom|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750812577
+|move|p1b: Rillaboom|Grassy Glide|p2b: Smeargle
+|-damage|p2b: Smeargle|63/100
+|move|p2a: Primeape|U-turn|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|43/100 brn
+|-enditem|p1b: Rillaboom|Sitrus Berry|[eat]
+|-heal|p1b: Rillaboom|68/100 brn|[from] item: Sitrus Berry
+|
+|t:|1750812592
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100|[from] U-turn
+|move|p1a: Rayquaza|Dragon Ascent|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2a: Ogerpon
+|move|p2b: Smeargle|Flower Trick|p2: Ogerpon|[notarget]
+|-fail|p2b: Smeargle
+|
+|-heal|p1b: Rillaboom|74/100 brn|[from] Grassy Terrain
+|-heal|p2b: Smeargle|69/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1750812605
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750812623
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Smeargle|Endeavor|p1b: Rillaboom
+|-damage|p1b: Rillaboom|60/100 brn
+|
+|-heal|p1b: Rillaboom|66/100 brn|[from] Grassy Terrain
+|-heal|p2b: Smeargle|75/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|60/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750812653
+|move|p2a: Calyrex|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Rillaboom|Wood Hammer|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-damage|p1b: Rillaboom|39/100 brn|[from] Recoil
+|
+|-heal|p2a: Calyrex|97/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|44/100 brn|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1750812672
+|switch|p2b: Primeape|Primeape, L50, F, shiny|100/100
+|switch|p1a: Rayquaza|Rayquaza, L50|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|turn|5
+|
+|t:|1750812692
+|-terastallize|p1a: Rayquaza|Normal
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Rayquaza|Dragon Ascent|p2b: Primeape
+|-supereffective|p2b: Primeape
+|-damage|p2b: Primeape|0 fnt
+|-unboost|p1a: Rayquaza|def|1
+|-unboost|p1a: Rayquaza|spd|1
+|faint|p2b: Primeape
+|move|p1b: Rillaboom|U-turn|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-heal|p2a: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|44/100 brn|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|39/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750812721
+|move|p2a: Calyrex|Psychic|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Rillaboom|Wood Hammer|p2a: Calyrex
+|-damage|p2a: Calyrex|59/100
+|-damage|p1b: Rillaboom|27/100 brn|[from] Recoil
+|
+|-damage|p1b: Rillaboom|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1750812734
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750812753
+|-terastallize|p2a: Calyrex|Normal
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex
+|-immune|p2a: Calyrex
+|move|p2a: Calyrex|Astral Barrage|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Rillaboom
+|-damage|p2a: Calyrex|50/100|[from] item: Life Orb
+|
+|win|YugiMotoKOG
+|raw|BLUE ANA's rating: 1092 &rarr; <strong>1068</strong><br />(-24 for losing)
+|raw|YugiMotoKOG's rating: 1092 &rarr; <strong>1118</strong><br />(+26 for winning)
+|l|☆YugiMotoKOG
+|player|p2|
+|l|☆BLUE ANA
+|player|p1|

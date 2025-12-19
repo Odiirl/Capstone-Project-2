@@ -1,0 +1,185 @@
+|j|☆jjkko
+|j|☆ComputerYui
+|t:|1750815333
+|gametype|doubles
+|player|p1|jjkko|169|1510
+|player|p2|ComputerYui|artist-gen4|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Appletun, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Palkia, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jjkko)
+|
+|t:|1750815357
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Palkia|Palkia, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Palkia|atk|1
+|turn|1
+|
+|t:|1750815376
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|switch|p1b: Appletun|Appletun, L50, M|100/100
+|-terastallize|p2b: Palkia|Fire
+|move|p2b: Palkia|Flamethrower|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2b: Palkia|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815389
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|2
+|
+|t:|1750815405
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Koraidon|U-turn|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|86/100
+|
+|t:|1750815410
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Palkia
+|-damage|p2a: Indeedee|64/100
+|-damage|p2b: Palkia|69/100
+|-enditem|p2a: Indeedee|Eject Button
+|
+|t:|1750815419
+|switch|p2a: Armarouge|Armarouge, L50, M, shiny|100/100
+|move|p2b: Palkia|Scale Shot|p1b: Appletun
+|-supereffective|p1b: Appletun
+|-damage|p1b: Appletun|86/100
+|-supereffective|p1b: Appletun
+|-damage|p1b: Appletun|72/100
+|-supereffective|p1b: Appletun
+|-damage|p1b: Appletun|58/100
+|-supereffective|p1b: Appletun
+|-damage|p1b: Appletun|43/100
+|-hitcount|p1b: Appletun|4
+|-unboost|p2b: Palkia|def|1
+|-boost|p2b: Palkia|spe|1
+|-damage|p2b: Palkia|60/100|[from] item: Life Orb
+|move|p1b: Appletun|Leech Seed|p2b: Palkia
+|-start|p2b: Palkia|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|49/100|[from] item: Leftovers
+|-damage|p2b: Palkia|47/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|59/100|[silent]
+|upkeep
+|turn|3
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750815444
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Armarouge|atk|1
+|-unboost|p2b: Palkia|atk|1
+|move|p1b: Appletun|Protect|p1b: Appletun
+|-singleturn|p1b: Appletun|Protect
+|move|p2b: Palkia|Earthquake|p1b: Appletun|[spread] p2a,p1a
+|-activate|p1b: Appletun|move: Protect
+|-supereffective|p2a: Armarouge
+|-supereffective|p1a: Incineroar
+|-damage|p2a: Armarouge|73/100
+|-damage|p1a: Incineroar|77/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|-damage|p2b: Palkia|38/100|[from] item: Life Orb
+|move|p2a: Armarouge|Expanding Force|p1a: Incineroar|[spread] 
+|-activate|p1b: Appletun|move: Protect
+|-immune|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|65/100|[from] item: Leftovers
+|-damage|p2b: Palkia|26/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|74/100|[silent]
+|upkeep
+|turn|4
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750815474
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|86/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Incineroar|Fake Out|p2b: Palkia
+|-damage|p2b: Palkia|9/100
+|move|p2a: Armarouge|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|cant|p2b: Palkia|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750815485
+|switch|p1b: Appletun|Appletun, L50, M|74/100
+|turn|5
+|
+|t:|1750815498
+|move|p1b: Appletun|Sucker Punch|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|22/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Heat Wave|p1b: Appletun|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|15/100
+|-damage|p1b: Appletun|21/100
+|move|p2b: Palkia|Flamethrower|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Palkia|0 fnt|[from] item: Life Orb
+|faint|p2b: Palkia
+|
+|-weather|none
+|-heal|p1b: Appletun|27/100|[from] item: Leftovers
+|upkeep
+|-message|jjkko forfeited.
+|
+|win|ComputerYui
+|raw|jjkko's rating: 1510 &rarr; <strong>1493</strong><br />(-17 for losing)
+|raw|ComputerYui's rating: 1565 &rarr; <strong>1582</strong><br />(+17 for winning)
+|l|☆jjkko
+|player|p1|
+|l|☆ComputerYui
+|player|p2|

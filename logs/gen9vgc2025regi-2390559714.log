@@ -1,0 +1,213 @@
+|j|☆fgmyf
+|j|☆beholderqpn
+|t:|1750728893
+|gametype|doubles
+|player|p1|fgmyf|twins-gen4dp|1170
+|player|p2|beholderqpn|102|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Drifblim, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Mewtwo, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Duskull, L50, F|
+|poke|p2|Swablu, L50, M|
+|poke|p2|Horsea, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Reuniclus, L50, M|
+|poke|p2|Ludicolo, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fgmyf)
+|
+|t:|1750728912
+|start
+|switch|p1a: Drifblim|Drifblim, L50, M, shiny|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Swablu|Swablu, L50, M, shiny|100/100
+|switch|p2b: Reuniclus|Reuniclus, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Drifblim|Psychic Seed
+|-boost|p1a: Drifblim|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Swablu|Cloud Nine
+|turn|1
+|
+|t:|1750728935
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2b: Reuniclus|Ally Switch|p2b: Reuniclus
+|swap|p2b: Reuniclus|0|[from] move: Ally Switch
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2b: Swablu|Perish Song|p2b: Swablu
+|-start|p1a: Drifblim|perish3|[silent]
+|-start|p1b: Indeedee|perish3|[silent]
+|-start|p2a: Reuniclus|perish3|[silent]
+|-start|p2b: Swablu|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p1b: Indeedee|perish3
+|-start|p1a: Drifblim|perish3
+|-start|p2b: Swablu|perish3
+|-start|p2a: Reuniclus|perish3
+|upkeep
+|turn|2
+|
+|t:|1750728958
+|switch|p1b: Mewtwo|Mewtwo, L50, shiny|100/100
+|-ability|p1b: Mewtwo|Pressure
+|move|p2b: Swablu|Protect|p2b: Swablu
+|-singleturn|p2b: Swablu|Protect
+|move|p2a: Reuniclus|Protect|p2a: Reuniclus
+|-singleturn|p2a: Reuniclus|Protect
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|
+|-start|p1a: Drifblim|perish2
+|-start|p2b: Swablu|perish2
+|-start|p2a: Reuniclus|perish2
+|upkeep
+|turn|3
+|
+|t:|1750728982
+|move|p2a: Reuniclus|Ally Switch|p2a: Reuniclus
+|swap|p2a: Reuniclus|1|[from] move: Ally Switch
+|move|p1b: Mewtwo|Expanding Force|p2a: Swablu|[spread] p2a,p2b
+|-resisted|p2b: Reuniclus
+|-damage|p2a: Swablu|0 fnt
+|-damage|p2b: Reuniclus|67/100
+|faint|p2a: Swablu
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|
+|-start|p1a: Drifblim|perish1
+|-start|p2b: Reuniclus|perish1
+|upkeep
+|
+|t:|1750728994
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1750729009
+|move|p2b: Reuniclus|Protect|p2b: Reuniclus
+|-singleturn|p2b: Reuniclus|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Mewtwo
+|-activate|p1b: Mewtwo|move: Psychic Terrain
+|move|p1b: Mewtwo|Psych Up|p1a: Drifblim
+|-copyboost|p1b: Mewtwo|p1a: Drifblim|[from] move: Psych Up
+|move|p1a: Drifblim|Baton Pass|p1a: Drifblim
+|
+|t:|1750729023
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] Baton Pass
+|
+|-start|p1a: Indeedee|perish0
+|-start|p2b: Reuniclus|perish0
+|faint|p1a: Indeedee
+|faint|p2b: Reuniclus
+|upkeep
+|
+|t:|1750729030
+|switch|p1a: Drifblim|Drifblim, L50, M, shiny|100/100
+|switch|p2b: Duskull|Duskull, L50, F, shiny|100/100
+|-item|p1b: Mewtwo|Leftovers|[from] ability: Frisk|[of] p2b: Duskull
+|turn|5
+|
+|t:|1750729048
+|move|p1b: Mewtwo|Aura Sphere|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|56/100
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|move|p2a: Incineroar|Knock Off|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|30/100
+|move|p2b: Duskull|Trick Room|p2b: Duskull
+|-fieldstart|move: Trick Room|[of] p2b: Duskull
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750729069
+|move|p2b: Duskull|Helping Hand|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Helping Hand|[of] p2b: Duskull
+|move|p2a: Incineroar|Knock Off|p1b: Mewtwo
+|-supereffective|p1b: Mewtwo
+|-damage|p1b: Mewtwo|0 fnt
+|-enditem|p1b: Mewtwo|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Mewtwo
+|move|p1a: Drifblim|Minimize|p1a: Drifblim
+|-boost|p1a: Drifblim|evasion|2
+|
+|upkeep
+|
+|t:|1750729079
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|turn|7
+|
+|t:|1750729097
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2b: Duskull|Pain Split|p1b: Terapagos
+|-sethp|p1b: Terapagos|77/100|[from] move: Pain Split|[silent]
+|-sethp|p2b: Duskull|100/100|[from] move: Pain Split
+|move|p2a: Incineroar|Knock Off|p1b: Terapagos
+|-damage|p1b: Terapagos|56/100
+|move|p1a: Drifblim|Substitute|p1a: Drifblim
+|-start|p1a: Drifblim|Substitute
+|-damage|p1a: Drifblim|5/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Incineroar|[spread] p2a,p2b
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|18/100
+|-damage|p2b: Duskull|63/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750729116
+|move|p2b: Duskull|Night Shade|p1a: Drifblim|[miss]
+|-miss|p2b: Duskull|p1a: Drifblim
+|move|p2a: Incineroar|Close Combat|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|8/100
+|-unboost|p2a: Incineroar|def|1
+|-unboost|p2a: Incineroar|spd|1
+|move|p1a: Drifblim|Baton Pass||[still]
+|-fail|p1a: Drifblim
+|move|p1b: Terapagos|Tera Starstorm|p2b: Duskull|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Duskull|30/100
+|faint|p2a: Incineroar
+|
+|upkeep
+|turn|9
+|
+|t:|1750729137
+|move|p1a: Drifblim|Protect|p1a: Drifblim
+|-singleturn|p1a: Drifblim|Protect
+|move|p1b: Terapagos|Tera Starstorm|p2b: Duskull
+|-damage|p2b: Duskull|0 fnt
+|faint|p2b: Duskull
+|
+|win|fgmyf
+|raw|fgmyf's rating: 1170 &rarr; <strong>1188</strong><br />(+18 for winning)
+|raw|beholderqpn's rating: 1071 &rarr; <strong>1056</strong><br />(-15 for losing)
+|l|☆beholderqpn
+|player|p2|
+|l|☆fgmyf
+|player|p1|
+|j|☆beholderqpn
+|player|p2|beholderqpn|102|
+|l|☆beholderqpn
+|player|p2|

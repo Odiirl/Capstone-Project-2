@@ -1,0 +1,162 @@
+|j|☆Brooklyn boy
+|j|☆Iamsliverfish
+|t:|1750851813
+|gametype|doubles
+|player|p1|Brooklyn boy|266|
+|player|p2|Iamsliverfish|silver-masters|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Ditto, L50|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|c|☆Iamsliverfish|glhf
+|c|☆Brooklyn boy|u2
+|
+|t:|1750851847
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Terapagos|Electric Seed
+|-boost|p2b: Terapagos|def|1|[from] item: Electric Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|turn|1
+|
+|t:|1750851874
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Incineroar|Fake Out|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|97/100
+|cant|p2b: Terapagos|flinch
+|move|p1a: Calyrex|Glacial Lance|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|63/100
+|-damage|p2b: Terapagos|63/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750851893
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|72/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Hands|Quark Drive
+|move|p2b: Terapagos|Tera Starstorm|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|76/100
+|-damage|p1b: Incineroar|76/100
+|move|p1b: Incineroar|U-turn|p2b: Terapagos
+|-damage|p2b: Terapagos|64/100
+|
+|t:|1750851901
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] U-turn
+|move|p2a: Iron Hands|Drain Punch|p1b: Urshifu
+|-damage|p1b: Urshifu|54/100
+|-heal|p2a: Iron Hands|80/100|[from] drain|[of] p1b: Urshifu
+|move|p1a: Calyrex|Glacial Lance|p2b: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|40/100
+|-damage|p2b: Terapagos|38/100
+|
+|-heal|p1a: Calyrex|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750851906
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Terapagos|63/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1b: Urshifu|Close Combat|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|4/100
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|move|p2b: Terapagos|Tera Starstorm|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Calyrex|58/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Calyrex|Glacial Lance|p2a: Sinistcha|[spread] p2a,p2b
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|18/100
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-heal|p1a: Calyrex|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750851914
+|switch|p1b: Incineroar|Incineroar, L50, M|76/100
+|switch|p2b: Iron Hands|Iron Hands, L50|40/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|4
+|
+|t:|1750851933
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Incineroar|Fake Out|p2b: Iron Hands
+|-damage|p2b: Iron Hands|33/100
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|cant|p2b: Iron Hands|flinch
+|move|p1a: Calyrex|Glacial Lance|p2b: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2a: Sinistcha
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-heal|p1a: Calyrex|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750851938
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|5
+|
+|t:|1750851947
+|move|p2b: Miraidon|Volt Switch|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|Brooklyn boy
+|n|☆Brooklyn boy|brooklynboy
+|n|☆Iamsliverfish|iamsliverfish

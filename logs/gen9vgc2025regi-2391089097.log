@@ -1,0 +1,194 @@
+|j|☆Mahmoud09
+|j|☆Redhoundoom
+|t:|1750801172
+|gametype|doubles
+|player|p1|Mahmoud09|striker|1314
+|player|p2|Redhoundoom|102|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Bruxish, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750801224
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750801259
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Mahmoud09|move: Tailwind
+|move|p1b: Miraidon|Electro Drift|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|75/100
+|move|p2a: Zamazenta|Heavy Slam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|14/100
+|
+|-heal|p1a: Whimsicott|20/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750801296
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Whimsicott|Fake Tears|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|spd|2
+|move|p2a: Zamazenta|Heavy Slam|p1b: Calyrex
+|-damage|p1b: Calyrex|44/100
+|move|p2b: Rillaboom|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|t:|1750801316
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|
+|-heal|p1b: Calyrex|50/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750801319
+|switch|p1a: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|
+|t:|1750801337
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|81/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|56/100
+|
+|-heal|p2a: Rillaboom|62/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750801378
+|move|p1a: Miraidon|Electro Drift|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|move|p1b: Raging Bolt|Rising Voltage|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Rillaboom|Wood Hammer|p1a: Miraidon
+|-damage|p1a: Miraidon|18/100
+|-damage|p2a: Rillaboom|39/100|[from] Recoil
+|
+|-heal|p1a: Miraidon|23/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|44/100|[from] Grassy Terrain
+|-sideend|p1: Mahmoud09|move: Tailwind
+|upkeep
+|
+|t:|1750801397
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|turn|5
+|
+|t:|1750801433
+|move|p1a: Miraidon|Electro Drift|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|18/100
+|move|p2b: Zamazenta|Body Press|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|60/100
+|move|p1b: Raging Bolt|Draco Meteor|p2b: Zamazenta
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|76/100
+|-unboost|p1b: Raging Bolt|spa|2
+|move|p2a: Rillaboom|Wood Hammer|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2a: Rillaboom|12/100|[from] Recoil
+|
+|-heal|p2b: Zamazenta|82/100|[from] Grassy Terrain
+|-heal|p1b: Raging Bolt|66/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|18/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750801449
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|50/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750801465
+|move|p2a: Rillaboom|Grassy Glide|p1a: Calyrex
+|-damage|p1a: Calyrex|8/100
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2b: Zamazenta|Body Press|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|26/100
+|move|p1b: Raging Bolt|Draco Meteor|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1b: Raging Bolt|spa|2
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Calyrex|14/100|[from] Grassy Terrain
+|-heal|p2b: Zamazenta|88/100|[from] Grassy Terrain
+|-heal|p1b: Raging Bolt|32/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750801472
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|7
+|
+|t:|1750801511
+|-terastallize|p2a: Flutter Mane|Fairy
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Raging Bolt|Thunderclap|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|82/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Zamazenta|[spread] 
+|-activate|p2a: Flutter Mane|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Flutter Mane|Dazzling Gleam|p1b: Raging Bolt|[spread] p1a,p1b
+|-supereffective|p1b: Raging Bolt
+|-crit|p1b: Raging Bolt
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Redhoundoom
+|raw|Mahmoud09's rating: 1314 &rarr; <strong>1297</strong><br />(-17 for losing)
+|raw|Redhoundoom's rating: 1374 &rarr; <strong>1391</strong><br />(+17 for winning)
+|l|☆Mahmoud09
+|player|p1|
+|l|☆Redhoundoom
+|player|p2|
+|j|☆Redhoundoom
+|player|p2|Redhoundoom|102|

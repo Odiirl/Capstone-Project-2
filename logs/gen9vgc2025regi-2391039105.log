@@ -1,0 +1,146 @@
+|j|☆I don't 1232456
+|j|☆ravesend
+|t:|1750795568
+|gametype|doubles
+|player|p1|I don't 1232456|1|1081
+|player|p2|ravesend|170|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Spewpa, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Rabsca, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gouging Fire, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Solgaleo, L50|
+|teampreview|4
+|
+|t:|1750795587
+|start
+|switch|p1a: Rabsca|Rabsca, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750795598
+|move|p1a: Rabsca|Protect|p1a: Rabsca
+|-singleturn|p1a: Rabsca|Protect
+|move|p2b: Calyrex|Bulldoze|p1b: Indeedee|[spread] p2a,p1b
+|-activate|p1a: Rabsca|move: Protect
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|90/100
+|-damage|p1b: Indeedee|90/100
+|-unboost|p1b: Indeedee|spe|1
+|-enditem|p2a: Solgaleo|Weakness Policy
+|-boost|p2a: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p2a: Solgaleo|Rock Slide|p1a: Rabsca|[spread] p1b
+|-activate|p1a: Rabsca|move: Protect
+|-damage|p1b: Indeedee|27/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750795620
+|move|p1b: Indeedee|Helping Hand|p1a: Rabsca
+|-singleturn|p1a: Rabsca|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Rabsca|Expanding Force|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|64/100
+|-damage|p1a: Rabsca|91/100|[from] item: Life Orb
+|move|p2a: Solgaleo|Rock Slide|p1a: Rabsca|[spread] p1a,p1b
+|-supereffective|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Rabsca
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750795639
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750795648
+|-terastallize|p2a: Solgaleo|Rock
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Solgaleo|Rock Slide|p1b: Koraidon|[spread] 
+|-activate|p1a: Flutter Mane|move: Protect
+|-activate|p1b: Koraidon|move: Protect
+|move|p2b: Calyrex|Astral Barrage|p1a: Flutter Mane|[spread] 
+|-activate|p1a: Flutter Mane|move: Protect
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750795664
+|-terastallize|p1a: Flutter Mane|Normal
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Solgaleo|Psychic Fangs|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2b: Calyrex|Pollen Puff|p2a: Solgaleo
+|-heal|p2a: Solgaleo|100/100
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Solgaleo
+|-damage|p2a: Solgaleo|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750795683
+|move|p1b: Koraidon|Protect||[still]
+|-fail|p1b: Koraidon
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Solgaleo|Psychic Fangs|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|I don't 1232456 forfeited.
+|
+|win|ravesend
+|raw|I don&apos;t 1232456's rating: 1081 &rarr; <strong>1061</strong><br />(-20 for losing)
+|raw|ravesend's rating: 1119 &rarr; <strong>1141</strong><br />(+22 for winning)
+|l|☆I don't 1232456
+|player|p1|

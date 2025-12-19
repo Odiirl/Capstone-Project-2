@@ -1,0 +1,159 @@
+|j|☆mnmnmnmnm6
+|j|☆VgcGigaNoob
+|t:|1750741561
+|gametype|doubles
+|player|p1|mnmnmnmnm6|265|1447
+|player|p2|VgcGigaNoob|266|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750741617
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750741641
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: VgcGigaNoob|move: Tailwind
+|move|p2b: Miraidon|Volt Switch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|50/100
+|
+|t:|1750741646
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100|[from] Volt Switch
+|move|p1b: Chien-Pao|Ice Spinner|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-ability|p2b: Ogerpon|Sturdy
+|-damage|p2b: Ogerpon|1/100
+|-fieldend|move: Electric Terrain
+|move|p1a: Zamazenta|Heavy Slam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750741676
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p1b: Chien-Pao|Sucker Punch||[still]
+|-fail|p1b: Chien-Pao
+|move|p2a: Whimsicott|Endeavor|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|1/100
+|move|p1a: Zamazenta|Heavy Slam|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-crit|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|upkeep
+|
+|t:|1750741688
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|3
+|
+|t:|1750741715
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p1b: Chien-Pao|Sucker Punch|p2b: Miraidon
+|-damage|p2b: Miraidon|56/100
+|move|p2b: Miraidon|Electro Drift|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p2a: Whimsicott|Moonblast|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|faint|p1b: Chien-Pao
+|
+|upkeep
+|
+|t:|1750741726
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750741736
+|move|p2b: Miraidon|Electro Drift|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|move|p2a: Whimsicott|Endeavor|p1b: Miraidon
+|-damage|p1b: Miraidon|1/100
+|move|p1b: Miraidon|Snarl|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Miraidon|36/100
+|-unboost|p2b: Miraidon|spa|1
+|faint|p2a: Whimsicott
+|
+|-sideend|p2: VgcGigaNoob|move: Tailwind
+|upkeep
+|
+|t:|1750741748
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Leaves|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdrivespe
+|turn|5
+|
+|t:|1750741762
+|move|p2a: Iron Leaves|Protect|p2a: Iron Leaves
+|-singleturn|p2a: Iron Leaves|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Iron Leaves
+|-activate|p2a: Iron Leaves|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Miraidon
+|-resisted|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|upkeep
+|turn|6
+|
+|t:|1750741773
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|43/100
+|-damage|p2b: Miraidon|20/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p2a: Iron Leaves|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Iron Leaves|def|1
+|-unboost|p2a: Iron Leaves|spd|1
+|-damage|p2a: Iron Leaves|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|-damage|p2a: Iron Leaves|75/100|[from] item: Life Orb
+|
+|win|VgcGigaNoob
+|raw|mnmnmnmnm6's rating: 1447 &rarr; <strong>1422</strong><br />(-25 for losing)
+|raw|VgcGigaNoob's rating: 1357 &rarr; <strong>1382</strong><br />(+25 for winning)
+|l|☆mnmnmnmnm6
+|player|p1|
+|l|☆VgcGigaNoob
+|player|p2|

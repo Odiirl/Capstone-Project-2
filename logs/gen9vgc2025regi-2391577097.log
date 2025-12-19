@@ -1,0 +1,225 @@
+|j|☆IfUforfeitUsuck
+|j|☆mincarretta
+|t:|1750871965
+|gametype|doubles
+|player|p1|IfUforfeitUsuck|1|1111
+|player|p2|mincarretta|169|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Persian-Alola, L50, M|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mincarretta)
+IfUforfeitUsuck has agreed to open team sheets.
+|inactive|IfUforfeitUsuck has 60 seconds left.
+|inactive|mincarretta has 60 seconds left.
+|
+|t:|1750872015
+|start
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|switch|p1b: Persian|Persian-Alola, L50, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1750872032
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1b: Persian|Fake Out|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: mincarretta|move: Tailwind
+|move|p1a: Sableye|Light Screen|p1a: Sableye
+|-sidestart|p1: IfUforfeitUsuck|move: Light Screen
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750872057
+|move|p2b: Tornadus|Snowscape||[still]
+|-fail|p2b: Tornadus
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: mincarretta|move: Aurora Veil
+|move|p1b: Persian|Snarl|p2a: Ninetales|[spread] p2a,p2b
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|95/100
+|-damage|p2b: Tornadus|85/100
+|-unboost|p2a: Ninetales|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|IfUforfeitUsuck has 30 seconds left.
+|inactive|mincarretta has 30 seconds left.
+|
+|t:|1750872090
+|switch|p2a: Kyurem|Kyurem-White, L50|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Persian|[spread] p1a,p1b
+|-crit|p1b: Persian
+|-damage|p1a: Sableye|70/100
+|-damage|p1b: Persian|0 fnt
+|-unboost|p1a: Sableye|spe|1
+|faint|p1b: Persian
+|move|p1a: Sableye|Foul Play|p2a: Kyurem
+|-damage|p2a: Kyurem|89/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750872102
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|4
+|
+|t:|1750872120
+|-terastallize|p1b: Groudon|Fire
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: IfUforfeitUsuck|Reflect
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Sableye|[spread] p1a,p1b
+|-damage|p1a: Sableye|33/100
+|-damage|p1b: Groudon|76/100
+|move|p2a: Kyurem|Blizzard|p1a: Sableye|[spread] p1a,p1b
+|-resisted|p1b: Groudon
+|-damage|p1a: Sableye|0 fnt
+|-damage|p1b: Groudon|59/100
+|faint|p1a: Sableye
+|move|p1b: Groudon|Heat Crash|p2a: Kyurem
+|-damage|p2a: Kyurem|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: mincarretta|move: Tailwind
+|upkeep
+|
+|t:|1750872134
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750872145
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|95/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p1a: Lunala|Hypnosis|p2a: Kyurem
+|-status|p2a: Kyurem|slp|[from] move: Hypnosis
+|cant|p2a: Kyurem|slp
+|move|p1b: Groudon|Heat Crash|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|17/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750872170
+|move|p2b: Ninetales|Freeze-Dry|p1a: Lunala
+|-damage|p1a: Lunala|95/100
+|move|p1a: Lunala|Dazzling Gleam|p2a: Kyurem|[spread] p2a,p2b
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|41/100 slp
+|-damage|p2b: Ninetales|1/100
+|-curestatus|p2a: Kyurem|slp|[msg]
+|move|p2a: Kyurem|Earth Power|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|11/100
+|move|p1b: Groudon|Precipice Blades|p2b: Ninetales|[spread] p2a,p2b
+|-damage|p2a: Kyurem|19/100
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Gravity
+|upkeep
+|inactive|mincarretta has 30 seconds left.
+|
+|t:|1750872196
+|switch|p2b: Tornadus|Tornadus, L50, M|85/100
+|turn|7
+|
+|t:|1750872201
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: mincarretta|move: Tailwind
+|move|p2a: Kyurem|Blizzard|p1a: Lunala|[spread] p1a
+|-activate|p1b: Groudon|move: Protect
+|-damage|p1a: Lunala|67/100
+|move|p1a: Lunala|Hypnosis|p2a: Kyurem
+|-status|p2a: Kyurem|slp|[from] move: Hypnosis
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750872223
+|move|p2b: Tornadus|Dark Pulse|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|7/100
+|cant|p2a: Kyurem|slp
+|move|p1a: Lunala|Dazzling Gleam|p2a: Kyurem|[spread] p2a,p2b
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|1/100 slp
+|-damage|p2b: Tornadus|63/100
+|move|p1b: Groudon|Heat Crash|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: IfUforfeitUsuck|move: Light Screen
+|upkeep
+|
+|t:|1750872237
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|9
+|inactive|mincarretta has 30 seconds left.
+|inactive|mincarretta has 20 seconds left.
+|inactive|mincarretta has 15 seconds left.
+|
+|t:|1750872278
+|cant|p2a: Kyurem|slp
+|move|p1a: Lunala|Dazzling Gleam|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-damage|p2b: Calyrex|93/100
+|faint|p2a: Kyurem
+|move|p1b: Groudon|Heat Crash|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|79/100
+|-enditem|p2b: Calyrex|Weakness Policy
+|-boost|p2b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p2b: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Groudon
+|-damage|p1a: Lunala|0 fnt
+|-damage|p1b: Groudon|0 fnt
+|faint|p1a: Lunala
+|faint|p1b: Groudon
+|
+|win|mincarretta
+|raw|IfUforfeitUsuck's rating: 1111 &rarr; <strong>1089</strong><br />(-22 for losing)
+|raw|mincarretta's rating: 1157 &rarr; <strong>1179</strong><br />(+22 for winning)
+|c|☆IfUforfeitUsuck|gg
+|l|☆mincarretta
+|player|p2|
+|l|☆IfUforfeitUsuck
+|player|p1|

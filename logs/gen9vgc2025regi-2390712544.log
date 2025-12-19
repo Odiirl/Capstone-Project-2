@@ -1,0 +1,161 @@
+|j|☆CoolCarrot
+|j|☆PaparaEX
+|t:|1750754787
+|gametype|doubles
+|player|p1|CoolCarrot|caitlin|1153
+|player|p2|PaparaEX|265|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Hands, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|
+|t:|1750754823
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Treads|Iron Treads, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Treads|ability: Quark Drive
+|-start|p2b: Iron Treads|quarkdrivespe
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750754854
+|move|p1b: Iron Hands|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|80/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Iron Treads|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|44/100
+|-enditem|p1a: Lunala|Power Herb|[from] move: Knock Off|[of] p2b: Iron Treads
+|-damage|p2b: Iron Treads|91/100|[from] item: Life Orb
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750754898
+|move|p2a: Miraidon|Volt Switch|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|t:|1750754903
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Iron Hands|atk|1
+|move|p2b: Iron Treads|High Horsepower|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|15/100
+|-damage|p2b: Iron Treads|81/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Low Kick|p2b: Iron Treads
+|-supereffective|p2b: Iron Treads
+|-damage|p2b: Iron Treads|0 fnt
+|faint|p2b: Iron Treads
+|-end|p2b: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750754918
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|3
+|
+|t:|1750754951
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Incineroar|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|93/100
+|cant|p1a: Groudon|flinch
+|move|p2b: Calyrex|Glacial Lance|p1b: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Groudon|26/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|31/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750754961
+|switch|p1b: Iron Hands|Iron Hands, L50|15/100
+|-enditem|p1b: Iron Hands|Booster Energy
+|-activate|p1b: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750754981
+|-terastallize|p2a: Incineroar|Bug
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|82/100
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Groudon
+|-status|p1a: Groudon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|37/100 brn|[from] Grassy Terrain
+|-heal|p2a: Incineroar|88/100|[from] Grassy Terrain
+|-heal|p1b: Iron Hands|21/100|[from] Grassy Terrain
+|-damage|p1a: Groudon|31/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750755004
+|-terastallize|p1b: Iron Hands|Water
+|move|p1a: Groudon|Precipice Blades|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-crit|p2b: Calyrex
+|-damage|p2a: Incineroar|75/100
+|-damage|p2b: Calyrex|75/100
+|move|p2a: Incineroar|Will-O-Wisp|p1b: Iron Hands
+|-status|p1b: Iron Hands|brn
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|37/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Hands|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-resisted|p1b: Iron Hands
+|-damage|p1a: Groudon|0 fnt
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1a: Groudon
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|
+|win|PaparaEX
+|raw|CoolCarrot's rating: 1153 &rarr; <strong>1127</strong><br />(-26 for losing)
+|raw|PaparaEX's rating: 1138 &rarr; <strong>1164</strong><br />(+26 for winning)
+|l|☆CoolCarrot
+|player|p1|

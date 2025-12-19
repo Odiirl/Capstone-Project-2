@@ -1,0 +1,234 @@
+|j|☆lupothewulf
+|j|☆ktwz
+|t:|1750815308
+|gametype|doubles
+|player|p1|lupothewulf|102|1163
+|player|p2|ktwz|rocketgruntf|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Giratina-Origin, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|
+|t:|1750815345
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M, shiny|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750815366
+|-terastallize|p2b: Whimsicott|Fire
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: ktwz|move: Tailwind
+|move|p1b: Flutter Mane|Moonblast|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|63/100
+|move|p2a: Volcarona|Will-O-Wisp|p1a: Zamazenta|[miss]
+|-miss|p2a: Volcarona|p1a: Zamazenta
+|move|p1a: Zamazenta|Heavy Slam|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|71/100
+|-status|p1a: Zamazenta|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Zamazenta|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750815391
+|move|p2b: Whimsicott|Light Screen|p2b: Whimsicott
+|-sidestart|p2: ktwz|move: Light Screen
+|move|p1b: Flutter Mane|Moonblast|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|59/100
+|move|p2a: Volcarona|Struggle Bug|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-resisted|p1b: Flutter Mane
+|-damage|p1a: Zamazenta|92/100 brn
+|-damage|p1b: Flutter Mane|96/100
+|-unboost|p1a: Zamazenta|spa|1
+|-unboost|p1b: Flutter Mane|spa|1
+|move|p1a: Zamazenta|Body Press|p2b: Whimsicott
+|-damage|p2b: Whimsicott|34/100
+|
+|-damage|p1a: Zamazenta|86/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750815413
+|switch|p2b: Giratina|Giratina-Origin, L50, shiny|100/100
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Giratina
+|-supereffective|p2b: Giratina
+|-damage|p2b: Giratina|73/100
+|move|p2a: Volcarona|Struggle Bug|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Zamazenta
+|-resisted|p1b: Flutter Mane
+|-damage|p1a: Zamazenta|83/100 brn
+|-damage|p1b: Flutter Mane|92/100
+|-unboost|p1a: Zamazenta|spa|1
+|-unboost|p1b: Flutter Mane|spa|1
+|move|p1a: Zamazenta|Body Press|p2b: Giratina
+|-immune|p2b: Giratina
+|
+|-damage|p1a: Zamazenta|77/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750815439
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Giratina|Shadow Sneak|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Volcarona|Struggle Bug|p1a: Calyrex
+|-damage|p1a: Calyrex|78/100
+|-unboost|p1a: Calyrex|spa|1
+|
+|-sideend|p2: ktwz|move: Tailwind
+|upkeep
+|
+|t:|1750815451
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Giratina|atk|1
+|turn|5
+|
+|t:|1750815471
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p2b: Giratina|Protect|p2b: Giratina
+|-singleturn|p2b: Giratina|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Volcarona|[spread] 
+|-activate|p2a: Volcarona|move: Protect
+|-activate|p2b: Giratina|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1750815499
+|move|p2b: Giratina|Shadow Sneak|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2a: Volcarona|Struggle Bug|p1b: Incineroar
+|-damage|p1b: Incineroar|85/100
+|-unboost|p1b: Incineroar|spa|1
+|move|p1b: Incineroar|Parting Shot|p2a: Volcarona
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2a: Volcarona|spa|1
+|
+|t:|1750815508
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|77/100 brn|[from] Parting Shot
+|
+|-damage|p1b: Zamazenta|71/100 brn|[from] brn
+|-sideend|p2: ktwz|move: Light Screen
+|upkeep
+|
+|t:|1750815514
+|switch|p1a: Incineroar|Incineroar, L50, F|85/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Giratina|atk|1
+|turn|7
+|
+|t:|1750815548
+|switch|p2b: Whimsicott|Whimsicott, L50, M, shiny, tera:Fire|34/100
+|move|p1a: Incineroar|Fake Out|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|cant|p2a: Volcarona|flinch
+|move|p1b: Zamazenta|Heavy Slam|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|24/100
+|
+|-heal|p1a: Incineroar|91/100|[from] item: Leftovers
+|-damage|p1b: Zamazenta|65/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750815582
+|switch|p2a: Giratina|Giratina-Origin, L50, shiny|73/100
+|move|p2b: Whimsicott|Encore|p1a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Incineroar
+|move|p1b: Zamazenta|Body Press|p2b: Whimsicott
+|-damage|p2b: Whimsicott|3/100
+|move|p1a: Incineroar|Parting Shot|p2a: Giratina
+|-unboost|p2a: Giratina|atk|1
+|-unboost|p2a: Giratina|spa|1
+|
+|-heal|p1a: Incineroar|97/100|[from] item: Leftovers
+|-damage|p1b: Zamazenta|59/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750815606
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: ktwz|move: Tailwind
+|move|p1b: Zamazenta|Body Press|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p1a: Incineroar|Parting Shot|p2a: Giratina
+|-activate|p2a: Giratina|move: Protect
+|
+|-heal|p1a: Incineroar|100/100|[from] item: Leftovers
+|-damage|p1b: Zamazenta|53/100 brn|[from] brn
+|upkeep
+|
+|t:|1750815624
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|10
+|
+|t:|1750815639
+|move|p2b: Zamazenta|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Giratina|Poltergeist|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Poltergeist|Rusted Shield
+|-damage|p1b: Zamazenta|24/100 brn
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|82/100
+|
+|-damage|p1b: Zamazenta|18/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|lupothewulf forfeited.
+|
+|win|ktwz
+|raw|lupothewulf's rating: 1163 &rarr; <strong>1132</strong><br />(-31 for losing)
+|raw|ktwz's rating: 1085 &rarr; <strong>1118</strong><br />(+33 for winning)
+|l|☆lupothewulf
+|player|p1|

@@ -1,0 +1,210 @@
+|j|☆zhz2021
+|j|☆bonobobohemio
+|t:|1750835527
+|gametype|doubles
+|player|p1|zhz2021|marley|1549
+|player|p2|bonobobohemio|drayden|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Araquanid, L50, F|
+|poke|p2|Reshiram, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonobobohemio)
+|
+|t:|1750835552
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750835569
+|-terastallize|p2b: Koraidon|Fire
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Koraidon|Flame Charge|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|move|p2a: Farigiraf|Imprison|p2a: Farigiraf
+|-start|p2a: Farigiraf|move: Imprison
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835583
+|-terastallize|p1a: Calyrex|Ground
+|move|p2a: Farigiraf|Helping Hand|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Scream Tail|Disable|p2b: Koraidon
+|-start|p2b: Koraidon|Disable|Flame Charge
+|cant|p2b: Koraidon|Disable|Flame Charge
+|move|p1a: Calyrex|Glacial Lance|p2a: Farigiraf|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Farigiraf|60/100
+|-damage|p2b: Koraidon|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750835604
+|switch|p2b: Reshiram|Reshiram, L50, shiny|100/100
+|-ability|p2b: Reshiram|Turboblaze
+|move|p1b: Scream Tail|Encore||[still]
+|-fail|p1b: Scream Tail
+|move|p2a: Farigiraf|Psychic|p1a: Calyrex
+|-damage|p1a: Calyrex|82/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Reshiram|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|17/100
+|-damage|p2b: Reshiram|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750835612
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Scream Tail|Dazzling Gleam|p2b: Reshiram|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|3/100
+|-damage|p2b: Reshiram|40/100
+|move|p2b: Reshiram|Fusion Flare|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Farigiraf|Psychic|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750835624
+|move|p1b: Scream Tail|Disable|p2b: Reshiram
+|-start|p2b: Reshiram|Disable|Fusion Flare
+|cant|p2b: Reshiram|Disable|Fusion Flare
+|move|p2a: Farigiraf|Psychic|p1a: Calyrex
+|-damage|p1a: Calyrex|61/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Reshiram|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Reshiram|0 fnt
+|faint|p2a: Farigiraf
+|faint|p2b: Reshiram
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|none
+|-end|p1b: Scream Tail|Protosynthesis
+|upkeep
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|
+|t:|1750835626
+|switch|p2b: Koraidon|Koraidon, L50, tera:Fire|78/100
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|inactive|zhz2021 has 30 seconds left.
+|
+|t:|1750835657
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Koraidon|Flame Charge|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750835681
+|move|p1b: Scream Tail|Encore|p2b: Koraidon
+|-start|p2b: Koraidon|Encore
+|move|p2b: Koraidon|Flame Charge|p1a: Calyrex
+|-damage|p1a: Calyrex|2/100
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|68/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|zhz2021 has 30 seconds left.
+|inactive|zhz2021 has 20 seconds left.
+|inactive|zhz2021 has 15 seconds left.
+|
+|t:|1750835723
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|8
+|
+|t:|1750835731
+|move|p2b: Koraidon|Flame Charge|p1b: Scream Tail
+|-damage|p1b: Scream Tail|32/100
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|58/100|[from] item: Life Orb
+|move|p1b: Scream Tail|Disable|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Disable|Dragon Pulse
+|move|p1a: Miraidon|Electro Drift|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|cant|p2a: Raging Bolt|Disable|Dragon Pulse
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750835739
+|move|p2a: Raging Bolt|Thunderclap|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|76/100
+|move|p1b: Scream Tail|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p1a: Miraidon|Draco Meteor|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Miraidon|66/100|[from] item: Life Orb
+|
+|win|zhz2021
+|raw|zhz2021's rating: 1549 &rarr; <strong>1563</strong><br />(+14 for winning)
+|raw|bonobobohemio's rating: 1446 &rarr; <strong>1432</strong><br />(-14 for losing)
+|l|☆bonobobohemio
+|player|p2|
+|l|☆zhz2021
+|player|p1|

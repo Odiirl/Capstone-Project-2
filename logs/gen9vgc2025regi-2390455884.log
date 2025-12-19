@@ -1,0 +1,119 @@
+|j|☆appollo999
+|j|☆rip_Uzui
+|t:|1750715358
+|gametype|doubles
+|player|p1|appollo999|265|
+|player|p2|rip_Uzui|hilbert-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750715375
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p2b: Raging Bolt|Booster Energy
+|-activate|p2b: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by appollo999)
+|
+|t:|1750715399
+|move|p1b: Rillaboom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|87/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Raging Bolt|[spread] p2a,p2b
+|-damage|p2a: Miraidon|50/100
+|-damage|p2b: Raging Bolt|56/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|76/100
+|
+|-heal|p2a: Miraidon|56/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|82/100|[from] Grassy Terrain
+|-heal|p2b: Raging Bolt|62/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750715417
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Miraidon|Snarl|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Rillaboom|70/100
+|-unboost|p1b: Rillaboom|spa|1
+|move|p1b: Rillaboom|U-turn|p2a: Miraidon
+|-damage|p2a: Miraidon|32/100
+|
+|t:|1750715429
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100|[from] U-turn
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p2a: Miraidon|38/100|[from] Grassy Terrain
+|-heal|p2b: Raging Bolt|68/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750715444
+|-terastallize|p1a: Calyrex|Ghost
+|-terastallize|p2a: Miraidon|Electric
+|move|p1b: Chien-Pao|Ice Shard|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-crit|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1b: Chien-Pao|91/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-heal|p1b: Chien-Pao|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750715457
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|turn|4
+|
+|t:|1750715465
+|move|p1b: Chien-Pao|Ice Shard|p2b: Landorus
+|-supereffective|p2b: Landorus
+|-damage|p2b: Landorus|0 fnt
+|faint|p2b: Landorus
+|-damage|p1b: Chien-Pao|87/100|[from] item: Life Orb
+|move|p1a: Calyrex|Astral Barrage|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|win|appollo999
+|l|☆rip_Uzui
+|player|p2|

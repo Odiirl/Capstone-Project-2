@@ -1,0 +1,188 @@
+|j|☆namrekca ivel
+|j|☆Aylawayla
+|t:|1750720697
+|gametype|doubles
+|player|p1|namrekca ivel|shadowtriad|1439
+|player|p2|Aylawayla|dawn|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|
+|t:|1750720763
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750720800
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p1b: Tornadus|Taunt||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Taunt|[of] p1b: Tornadus
+|move|p2a: Annihilape|Final Gambit|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750720833
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Calyrex|72/100
+|-damage|p2b: Farigiraf|54/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1750720856
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Zamazenta|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|83/100
+|move|p2b: Farigiraf|Foul Play|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750720907
+|-terastallize|p1a: Calyrex|Dark
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2b: Farigiraf|Foul Play|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|93/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] 
+|-activate|p2a: Calyrex|move: Protect
+|-immune|p2b: Farigiraf
+|
+|upkeep
+|turn|5
+|
+|t:|1750720933
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|High Horsepower|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|38/100
+|move|p2b: Farigiraf|Psychic|p1b: Zamazenta
+|-damage|p1b: Zamazenta|13/100
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1750720961
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p2a: Calyrex|Glacial Lance|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Wide Guard
+|-activate|p1b: Zamazenta|move: Wide Guard
+|move|p2b: Farigiraf|Psychic|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2a
+|-immune|p2b: Farigiraf
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|84/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750720982
+|switch|p1b: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|100/100
+|turn|7
+|
+|t:|1750720992
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1a: Calyrex|Psyshock|p2b: Farigiraf
+|-resisted|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|74/100|[from] item: Life Orb
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Terapagos
+|-damage|p2a: Terapagos|68/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Tornadus|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Tornadus|33/100
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750721012
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1750721035
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: namrekca ivel|move: Tailwind
+|move|p2b: Annihilape|Final Gambit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|4/100
+|faint|p2b: Annihilape
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Terapagos
+|-damage|p2a: Terapagos|25/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Tornadus|[spread] p1a,p1b
+|-damage|p1a: Raging Bolt|0 fnt
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|faint|p1b: Tornadus
+|
+|win|Aylawayla
+|raw|namrekca ivel's rating: 1439 &rarr; <strong>1414</strong><br />(-25 for losing)
+|raw|Aylawayla's rating: 1348 &rarr; <strong>1373</strong><br />(+25 for winning)
+|l|☆namrekca ivel
+|player|p1|

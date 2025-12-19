@@ -1,0 +1,165 @@
+|j|☆anima1_
+|j|☆momentaueita
+|t:|1750840120
+|gametype|doubles
+|player|p1|anima1_|266|1432
+|player|p2|momentaueita|flint|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Pikachu, L50, F|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Scraggy, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by momentaueita)
+|
+|t:|1750840177
+|start
+|switch|p1a: Pikachu|Pikachu, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Valiant|ability: Quark Drive
+|-start|p2b: Iron Valiant|quarkdrivespe
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750840200
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Pikachu|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Pikachu
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Kyogre|[spread] p1a,p1b
+|-enditem|p1a: Pikachu|Focus Sash
+|-damage|p1a: Pikachu|2/100
+|-damage|p1b: Kyogre|70/100
+|move|p1b: Kyogre|Water Spout|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|44/100
+|-damage|p2b: Farigiraf|43/100
+|-enditem|p2b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2b: Farigiraf|68/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750840224
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Pikachu|[spread] p1a,p1b
+|-damage|p1a: Pikachu|0 fnt
+|-damage|p1b: Kyogre|42/100
+|faint|p1a: Pikachu
+|move|p1b: Kyogre|Origin Pulse|p2a: Miraidon|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Miraidon
+|-damage|p2b: Farigiraf|13/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840238
+|switch|p1a: Moltres|Moltres-Galar, L50|100/100
+|turn|3
+|
+|t:|1750840251
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1a: Moltres|Fiery Wrath|p2b: Farigiraf|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|31/100
+|move|p1b: Kyogre|Origin Pulse|p2a: Miraidon|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840258
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750840272
+|-terastallize|p1a: Moltres|Steel
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Calyrex|Glacial Lance|p1a: Moltres|[spread] p1a,p1b
+|-resisted|p1a: Moltres
+|-resisted|p1b: Kyogre
+|-crit|p1b: Kyogre
+|-damage|p1a: Moltres|55/100
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Moltres|Fiery Wrath|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-supereffective|p2b: Farigiraf
+|-damage|p2a: Calyrex|59/100
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750840287
+|switch|p2b: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-activate|p2b: Iron Valiant|ability: Quark Drive
+|-start|p2b: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1750840306
+|move|p2b: Iron Valiant|Wide Guard|p2b: Iron Valiant
+|-singleturn|p2b: Iron Valiant|Wide Guard
+|move|p2a: Calyrex|High Horsepower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Moltres|Fiery Wrath|p2b: Iron Valiant|[spread] 
+|-activate|p2a: Calyrex|move: Wide Guard
+|-activate|p2b: Iron Valiant|move: Wide Guard
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|-end|p2b: Iron Valiant|Quark Drive
+|upkeep
+|turn|6
+|l|☆anima1_
+|inactive|anima1_ disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|anima1_ has 30 seconds left.
+|inactive|anima1_ has 20 seconds left.
+|inactive|anima1_ has 15 seconds left.
+|inactive|anima1_ has 10 seconds left.
+|inactive|anima1_ has 5 seconds left.
+|-message|anima1_ lost due to inactivity.
+|
+|win|momentaueita
+|raw|anima1_'s rating: 1432 &rarr; <strong>1407</strong><br />(-25 for losing)
+|raw|momentaueita's rating: 1335 &rarr; <strong>1360</strong><br />(+25 for winning)
+|l|☆momentaueita
+|player|p2|

@@ -1,0 +1,176 @@
+|j|‽peripon_poke
+|j|☆Cudby773
+|t:|1750783109
+|gametype|doubles
+|player|p1|peripon_poke|swimmer-gen4dp|1242
+|player|p2|Cudby773|266|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Scream Tail, L50|
+|teampreview|4
+|
+|t:|1750783219
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Kyogre|atk|1
+|turn|1
+|
+|t:|1750783248
+|move|p2b: Incineroar|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|94/100
+|move|p2a: Koraidon|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|30/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Kyogre|Water Spout|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-crit|p2a: Koraidon
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Koraidon|55/100
+|-damage|p2b: Incineroar|53/100
+|cant|p1a: Calyrex|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750783302
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Koraidon|Flare Blitz|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Amoonguss
+|-unboost|p1b: Amoonguss|atk|1
+|-unboost|p1b: Amoonguss|spa|1
+|
+|t:|1750783318
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750783343
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Koraidon|Flare Blitz|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|39/100
+|-status|p1b: Amoonguss|brn
+|-damage|p2a: Koraidon|38/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2a: Koraidon|12/100|[from] Recoil
+|-damage|p2a: Koraidon|3/100|[from] item: Life Orb
+|move|p1a: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Calyrex|27/100
+|faint|p2a: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Amoonguss|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1750783367
+|switch|p2a: Incineroar|Incineroar, L50, M|53/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Amoonguss|atk|1
+|turn|4
+|
+|t:|1750783383
+|switch|p1b: Roaring Moon|Roaring Moon, L50, shiny|100/100
+|-enditem|p1b: Roaring Moon|Booster Energy
+|-activate|p1b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1b: Roaring Moon|protosynthesisspe
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Roaring Moon|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Roaring Moon
+|-damage|p1b: Roaring Moon|80/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750783414
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Roaring Moon|Snarl|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|49/100
+|-unboost|p2a: Incineroar|spa|1
+|move|p2a: Incineroar|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|81/100
+|-damage|p2a: Incineroar|44/100|[from] Recoil
+|move|p1a: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750783434
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|6
+|
+|t:|1750783446
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Roaring Moon|Snarl|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Amoonguss|94/100
+|-damage|p2b: Calyrex|0 fnt
+|-unboost|p2a: Amoonguss|spa|1
+|faint|p2b: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|peripon_poke
+|raw|peripon_poke's rating: 1242 &rarr; <strong>1272</strong><br />(+30 for winning)
+|raw|Cudby773's rating: 1311 &rarr; <strong>1287</strong><br />(-24 for losing)

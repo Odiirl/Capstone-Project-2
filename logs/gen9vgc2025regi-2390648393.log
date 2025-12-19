@@ -1,0 +1,212 @@
+|j|☆herkleon
+|j|☆kingslurp88
+|t:|1750742289
+|gametype|doubles
+|player|p1|herkleon|worker-gen4|1157
+|player|p2|kingslurp88|hilda-wonderlauncher|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Feraligatr, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kingslurp88)
+|
+|t:|1750742298
+|start
+|switch|p1a: Feraligatr|Feraligatr, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|
+|t:|1750742313
+|move|p1b: Miraidon|Volt Switch|p2a: Hatterene
+|-enditem|p2a: Hatterene|Focus Sash
+|-damage|p2a: Hatterene|1/100
+|
+|t:|1750742321
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100|[from] Volt Switch
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p1a: Feraligatr|Swords Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|2
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1750742335
+|move|p1b: Iron Hands|Fake Out|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|move|p1a: Feraligatr|Aqua Jet|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|81/100
+|-damage|p1a: Feraligatr|90/100|[from] item: Life Orb
+|move|p2b: Terapagos|Dazzling Gleam|p1a: Feraligatr|[spread] p1a,p1b
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Feraligatr|50/100
+|-damage|p1b: Iron Hands|70/100
+|
+|-heal|p2b: Terapagos|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750742355
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1750742366
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Feraligatr|Aqua Jet|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Terapagos|Dazzling Gleam|p1b: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Feraligatr|12/100
+|-damage|p1b: Kyogre|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|93/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|kingslurp88 has 30 seconds left.
+|
+|t:|1750742394
+|-terastallize|p2a: Ursaluna|Fighting
+|move|p1a: Feraligatr|Aqua Jet|p2a: Ursaluna
+|-damage|p2a: Ursaluna|51/100 brn
+|-damage|p1a: Feraligatr|2/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Close Combat|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Kyogre
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|99/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1750742408
+|switch|p1b: Iron Hands|Iron Hands, L50|70/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750742415
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Terapagos
+|-damage|p2b: Terapagos|83/100
+|move|p1a: Feraligatr|Aqua Jet|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|cant|p2b: Terapagos|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|89/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|39/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750742433
+|move|p1a: Feraligatr|Aqua Jet|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Feraligatr|0 fnt|[from] item: Life Orb
+|faint|p1a: Feraligatr
+|move|p2b: Terapagos|Dazzling Gleam|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|16/100
+|move|p1b: Iron Hands|Drain Punch|p2b: Terapagos
+|-supereffective|p2b: Terapagos
+|-damage|p2b: Terapagos|20/100
+|-heal|p1b: Iron Hands|46/100|[from] drain|[of] p2b: Terapagos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Terapagos|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750742447
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|7
+|
+|t:|1750742462
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Terapagos|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-damage|p2b: Terapagos|0 fnt
+|faint|p2b: Terapagos
+|move|p1b: Iron Hands|Drain Punch|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750742474
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Calyrex
+|-damage|p2a: Calyrex|35/100
+|move|p1b: Iron Hands|Drain Punch|p2a: Calyrex
+|-damage|p2a: Calyrex|1/100
+|-heal|p1b: Iron Hands|60/100|[from] drain|[of] p2a: Calyrex
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|42/100
+|-damage|p1b: Iron Hands|17/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750742486
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|herkleon
+|raw|herkleon's rating: 1157 &rarr; <strong>1186</strong><br />(+29 for winning)
+|raw|kingslurp88's rating: 1217 &rarr; <strong>1188</strong><br />(-29 for losing)
+|l|☆herkleon
+|player|p1|
+|l|☆kingslurp88
+|player|p2|

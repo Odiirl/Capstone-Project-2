@@ -1,0 +1,141 @@
+|j|☆fntzz
+|j|☆Duskr4y
+|t:|1750859104
+|gametype|doubles
+|player|p1|fntzz|clown|1128
+|player|p2|Duskr4y|shadowtriad|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Thundurus-Therian, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|
+|t:|1750859144
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750859162
+|-terastallize|p2b: Arcanine|Flying
+|move|p2a: Whimsicott|Taunt|p1b: Whimsicott
+|-start|p1b: Whimsicott|move: Taunt
+|cant|p1b: Whimsicott|move: Taunt|Tailwind
+|move|p1a: Koraidon|Flare Blitz|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|-damage|p1a: Koraidon|70/100|[from] Recoil
+|move|p2b: Arcanine|Flare Blitz|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859182
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|turn|2
+|
+|t:|1750859196
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Raging Bolt|Thunderclap||[still]
+|-fail|p1b: Raging Bolt
+|move|p1a: Koraidon|Flame Charge|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859208
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1750859226
+|-terastallize|p1b: Raging Bolt|Fairy
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Koraidon|[spread] p1b
+|-activate|p1a: Koraidon|move: Protect
+|-damage|p1b: Raging Bolt|80/100
+|move|p2a: Archaludon|Flash Cannon|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|43/100
+|move|p1b: Raging Bolt|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1b: Raging Bolt|spa|2
+|faint|p2b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859241
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M, tera:Flying|100/100
+|turn|4
+|
+|t:|1750859257
+|move|p1b: Raging Bolt|Thunderclap|p2b: Arcanine
+|-supereffective|p2b: Arcanine
+|-damage|p2b: Arcanine|30/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Archaludon
+|-damage|p2a: Archaludon|22/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Koraidon|45/100|[from] Recoil
+|move|p2b: Arcanine|Double-Edge|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|0 fnt
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|move|p2a: Archaludon|Flash Cannon|p1a: Koraidon
+|-damage|p1a: Koraidon|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859270
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|5
+|
+|t:|1750859281
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p1b: Chi-Yu|Heat Wave|p2b: Arcanine|[spread] p2a,p2b
+|-damage|p2a: Archaludon|0 fnt
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2a: Archaludon
+|faint|p2b: Arcanine
+|
+|win|fntzz
+|raw|fntzz's rating: 1128 &rarr; <strong>1148</strong><br />(+20 for winning)
+|raw|Duskr4y's rating: 1063 &rarr; <strong>1047</strong><br />(-16 for losing)
+|l|☆Duskr4y
+|player|p2|

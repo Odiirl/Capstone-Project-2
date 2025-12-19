@@ -1,0 +1,231 @@
+|j|☆Queijao2
+|j|☆LesbianMawile
+|t:|1750720539
+|gametype|doubles
+|player|p1|Queijao2|265|1264
+|player|p2|LesbianMawile|rika|1278
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Reuniclus, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|
+|t:|1750720572
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750720592
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|94/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: LesbianMawile|move: Tailwind
+|move|p1b: Ursaluna|Earth Power|p2b: Calyrex
+|-damage|p2b: Calyrex|61/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750720613
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2b: Calyrex|Glacial Lance|p1b: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|-damage|p1b: Ursaluna|55/100
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|31/100
+|-enditem|p2b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Ursaluna|Hyper Voice|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Incineroar|75/100
+|-damage|p2b: Calyrex|10/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750720635
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Miraidon
+|-damage|p2b: Miraidon|77/100
+|-enditem|p2b: Miraidon|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1750720671
+|-terastallize|p2b: Miraidon|Electric
+|move|p2b: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-enditem|p1b: Ursaluna|Room Service|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Ursaluna
+|
+|-sideend|p2: LesbianMawile|move: Tailwind
+|upkeep
+|
+|t:|1750720683
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|turn|5
+|
+|t:|1750720716
+|move|p2b: Miraidon|Snarl|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1b: Lunala
+|-damage|p1a: Miraidon|89/100
+|-damage|p1b: Lunala|72/100
+|-unboost|p1a: Miraidon|spa|1
+|-unboost|p1b: Lunala|spa|1
+|move|p1a: Miraidon|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|47/100|[from] item: Sitrus Berry
+|move|p1b: Lunala|Moongeist Beam|p2b: Miraidon
+|-damage|p2b: Miraidon|47/100
+|move|p2a: Incineroar|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|20/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750720742
+|move|p1b: Lunala|Protect|p1b: Lunala
+|-singleturn|p1b: Lunala|Protect
+|move|p2b: Miraidon|Snarl|p1b: Lunala|[spread] p1a
+|-activate|p1b: Lunala|move: Protect
+|-damage|p1a: Miraidon|81/100
+|-unboost|p1a: Miraidon|spa|1
+|move|p1a: Miraidon|Dragon Pulse|p2b: Miraidon
+|-damage|p2b: Miraidon|28/100
+|move|p2a: Incineroar|Parting Shot|p1a: Miraidon
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1a: Miraidon|spa|1
+|
+|t:|1750720753
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1750720772
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: Whimsicott|Fake Tears|p1a: Miraidon
+|-unboost|p1a: Miraidon|spd|2
+|move|p2b: Miraidon|Parabolic Charge|p1a: Miraidon|[spread] p2a
+|-activate|p1a: Miraidon|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|74/100
+|-heal|p2b: Miraidon|39/100|[from] drain|[of] p2a: Whimsicott
+|move|p1a: Miraidon|Snarl|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|71/100
+|-damage|p2b: Miraidon|33/100
+|-unboost|p2b: Miraidon|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750720801
+|switch|p2b: Incineroar|Incineroar, L50, M|47/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Lunala|atk|1
+|move|p2a: Whimsicott|Taunt|p1b: Lunala
+|-start|p1b: Lunala|move: Taunt
+|move|p1a: Miraidon|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|32/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|18/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750720823
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: LesbianMawile|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p1a: Miraidon|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|3/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750720833
+|move|p2a: Whimsicott|Encore|p1a: Miraidon
+|-start|p1a: Miraidon|Encore
+|move|p2b: Incineroar|Knock Off|p1a: Miraidon
+|-damage|p1a: Miraidon|51/100
+|-enditem|p1a: Miraidon|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Miraidon|Dragon Pulse|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750720843
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|33/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|11
+|
+|t:|1750720849
+|move|p2a: Whimsicott|Fake Tears|p1a: Miraidon
+|-unboost|p1a: Miraidon|spd|2
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|LesbianMawile
+|raw|Queijao2's rating: 1264 &rarr; <strong>1240</strong><br />(-24 for losing)
+|raw|LesbianMawile's rating: 1278 &rarr; <strong>1302</strong><br />(+24 for winning)
+|l|☆Queijao2
+|player|p1|

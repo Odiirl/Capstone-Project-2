@@ -1,0 +1,189 @@
+|j|☆Lukbert
+|j|☆AaronAstro
+|t:|1750720051
+|gametype|doubles
+|player|p1|Lukbert|170|1163
+|player|p2|AaronAstro|ethan|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mewtwo, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Seedot, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750720077
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Seedot|Seedot, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Calyrex|Psychic Seed
+|-boost|p1b: Calyrex|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750720100
+|-terastallize|p1b: Calyrex|Water
+|move|p2a: Seedot|Endure|p2a: Seedot
+|-singleturn|p2a: Seedot|move: Endure
+|move|p2b: Incineroar|Parting Shot|p1b: Calyrex
+|-unboost|p1b: Calyrex|atk|1
+|-unboost|p1b: Calyrex|spa|1
+|
+|t:|1750720109
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Calyrex|High Horsepower|p2b: Calyrex
+|-damage|p2b: Calyrex|87/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750720128
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Seedot|Foul Play|p1b: Calyrex
+|-damage|p1b: Calyrex|87/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Seedot|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-supereffective|p2a: Seedot
+|-enditem|p2a: Seedot|Focus Sash
+|-damage|p2a: Seedot|1/100
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Seedot|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Seedot|0 fnt
+|faint|p2a: Seedot
+|
+|upkeep
+|
+|t:|1750720143
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|3
+|
+|t:|1750720161
+|move|p1b: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|65/100
+|-damage|p1b: Calyrex|71/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|move|p2b: Calyrex|Glacial Lance|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Indeedee|39/100
+|-damage|p1b: Calyrex|54/100
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Sitrus Berry|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750720176
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1750720195
+|-terastallize|p2b: Calyrex|Water
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|37/100
+|-damage|p2b: Calyrex|60/100
+|move|p2b: Calyrex|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|33/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|27/100
+|-damage|p2b: Calyrex|53/100
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-damage|p1b: Calyrex|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750720222
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|19/100
+|-damage|p2b: Calyrex|43/100
+|move|p2b: Calyrex|High Horsepower|p1b: Calyrex
+|-damage|p1b: Calyrex|9/100
+|move|p1b: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Calyrex|0 fnt|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|faint|p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750720236
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Mewtwo|Mewtwo, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Mewtwo|Pressure
+|turn|6
+|
+|t:|1750720251
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|11/100
+|-damage|p1b: Mewtwo|64/100
+|move|p1b: Mewtwo|Expanding Force|p2b: Calyrex
+|-damage|p2b: Calyrex|15/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Mewtwo|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Mewtwo|16/100
+|faint|p1a: Torkoal
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Mewtwo|22/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750720266
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Mewtwo
+|-damage|p1b: Mewtwo|0 fnt
+|faint|p1b: Mewtwo
+|
+|win|AaronAstro
+|raw|Lukbert's rating: 1163 &rarr; <strong>1142</strong><br />(-21 for losing)
+|raw|AaronAstro's rating: 1224 &rarr; <strong>1245</strong><br />(+21 for winning)
+|l|☆Lukbert
+|player|p1|

@@ -1,0 +1,119 @@
+|j|☆WillieDangerously
+|j|☆unrequitable
+|t:|1750823451
+|gametype|doubles
+|player|p1|WillieDangerously|roughneck|1049
+|player|p2|unrequitable|265|1030
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Heatran, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by unrequitable)
+|inactive|unrequitable has 60 seconds left.
+|
+|t:|1750823501
+|start
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Heatran|Heatran, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750823519
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2b: Grimmsnarl|Fake Tears|p1b: Heatran
+|-activate|p1b: Heatran|move: Psychic Terrain
+|move|p2a: Miraidon|Electro Drift|p1b: Heatran
+|-damage|p1b: Heatran|49/100
+|move|p1b: Heatran|Earth Power|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|33/100
+|-unboost|p2a: Miraidon|spd|1
+|
+|-heal|p1b: Heatran|55/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|unrequitable has 30 seconds left.
+|
+|t:|1750823546
+|-terastallize|p1b: Heatran|Grass
+|move|p2a: Miraidon|Volt Switch|p1b: Heatran
+|-resisted|p1b: Heatran
+|-damage|p1b: Heatran|39/100
+|
+|t:|1750823555
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100|[from] Volt Switch
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1b: Heatran|Earth Power|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|86/100
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|59/100
+|-unboost|p1a: Indeedee|spa|1
+|-damage|p2b: Grimmsnarl|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-heal|p1b: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|unrequitable has 30 seconds left.
+|
+|t:|1750823580
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Ho-Oh
+|-status|p1b: Ho-Oh|par
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1a: Indeedee|Alluring Voice|p2a: Terapagos
+|-damage|p2a: Terapagos|80/100
+|-start|p2a: Terapagos|confusion
+|
+|upkeep
+|turn|4
+|
+|t:|1750823603
+|move|p1a: Indeedee|Helping Hand|p1b: Ho-Oh
+|-singleturn|p1b: Ho-Oh|Helping Hand|[of] p1a: Indeedee
+|cant|p1b: Ho-Oh|par
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Ho-Oh
+|-resisted|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|84/100 par
+|-unboost|p1b: Ho-Oh|spa|1
+|-activate|p2a: Terapagos|confusion
+|move|p2a: Terapagos|Dark Pulse|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|-message|WillieDangerously forfeited.
+|
+|win|unrequitable
+|raw|WillieDangerously's rating: 1049 &rarr; <strong>1031</strong><br />(-18 for losing)
+|raw|unrequitable's rating: 1030 &rarr; <strong>1067</strong><br />(+37 for winning)

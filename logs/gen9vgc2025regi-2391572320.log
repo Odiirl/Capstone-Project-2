@@ -1,0 +1,141 @@
+|j|☆DaWormGod
+|j|☆Druuuuuuu
+|t:|1750871464
+|gametype|doubles
+|player|p1|DaWormGod|n|1150
+|player|p2|Druuuuuuu|102|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p1|Ribombee, L50, M|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Breloom, L50, F|
+|poke|p1|Gardevoir, L50, M|
+|poke|p1|Gyarados, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750871504
+|start
+|switch|p1a: Gardevoir|Gardevoir, L50, M, shiny|100/100
+|switch|p1b: Ribombee|Ribombee, L50, M, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Gardevoir
+|-ability|p1a: Gardevoir|Hadron Engine|[from] ability: Trace|[of] p2a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gardevoir|atk|1
+|-unboost|p1b: Ribombee|atk|1
+|turn|1
+|
+|t:|1750871523
+|move|p1a: Gardevoir|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|36/100
+|-damage|p2b: Incineroar|70/100
+|move|p2a: Miraidon|Volt Switch|p1b: Ribombee
+|-enditem|p1b: Ribombee|Focus Sash
+|-damage|p1b: Ribombee|1/100
+|
+|t:|1750871531
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100|[from] Volt Switch
+|move|p1b: Ribombee|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|63/100
+|-damage|p2b: Incineroar|57/100
+|move|p2b: Incineroar|Knock Off|p1a: Gardevoir
+|-damage|p1a: Gardevoir|38/100
+|-enditem|p1a: Gardevoir|Choice Scarf|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750871552
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Gardevoir
+|-status|p1a: Gardevoir|par
+|move|p1b: Ribombee|Tailwind|p1b: Ribombee
+|-sidestart|p1: DaWormGod|move: Tailwind
+|move|p1a: Gardevoir|Dazzling Gleam|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Incineroar|26/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|51/100|[from] item: Sitrus Berry
+|faint|p2a: Grimmsnarl
+|move|p2b: Incineroar|Knock Off|p1b: Ribombee
+|-resisted|p1b: Ribombee
+|-damage|p1b: Ribombee|0 fnt
+|faint|p1b: Ribombee
+|
+|upkeep
+|
+|t:|1750871565
+|switch|p1b: Gyarados|Gyarados, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Gyarados|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Incineroar|atk|1
+|turn|3
+|
+|t:|1750871581
+|move|p1b: Gyarados|Waterfall|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1a: Gardevoir|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|54/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Gardevoir|[spread] p1a,p1b
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p1b: Gyarados|26/100
+|faint|p1a: Gardevoir
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-heal|p1b: Gyarados|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750871594
+|switch|p1a: Goodra|Goodra-Hisui, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|36/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750871607
+|move|p1b: Gyarados|Crunch|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|21/100
+|move|p2b: Miraidon|Electro Drift|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|68/100
+|move|p1a: Goodra|Dragon Pulse|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|move|p2a: Calyrex|Glacial Lance|p1b: Gyarados|[spread] p1a,p1b
+|-damage|p1a: Goodra|0 fnt
+|-damage|p1b: Gyarados|0 fnt
+|faint|p1a: Goodra
+|faint|p1b: Gyarados
+|
+|win|Druuuuuuu
+|raw|DaWormGod's rating: 1150 &rarr; <strong>1126</strong><br />(-24 for losing)
+|raw|Druuuuuuu's rating: 1168 &rarr; <strong>1192</strong><br />(+24 for winning)
+|l|☆Druuuuuuu
+|player|p2|
+|l|☆DaWormGod
+|player|p1|

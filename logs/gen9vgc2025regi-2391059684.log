@@ -1,0 +1,160 @@
+|j|☆Galax3455
+|j|☆Diegopf21
+|t:|1750797826
+|gametype|doubles
+|player|p1|Galax3455|2|1116
+|player|p2|Diegopf21|dawn-gen4pt|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750797840
+|start
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Sneasler|Electric Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1750797867
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Sneasler|Fake Out|p1a: Necrozma
+|-activate|p1a: Necrozma|move: Psychic Terrain
+|move|p2a: Miraidon|Electro Drift|p1a: Necrozma
+|-damage|p1a: Necrozma|18/100
+|move|p1a: Necrozma|Expanding Force|p2b: Sneasler|[spread] p2a,p2b
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Miraidon|26/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750797878
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750797891
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Calyrex|Glacial Lance|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Necrozma|0 fnt
+|-damage|p1b: Indeedee|10/100
+|faint|p1a: Necrozma
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750797903
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|t:|1750797925
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Swampert
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Swampert|47/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Swampert|Liquidation|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|65/100
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Swampert
+|-damage|p2a: Swampert|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797937
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|26/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|4
+|
+|t:|1750797949
+|move|p2a: Swampert|Wide Guard|p2a: Swampert
+|-singleturn|p2a: Swampert|Wide Guard
+|move|p1a: Torkoal|Eruption|p2b: Miraidon|[spread] 
+|-activate|p2a: Swampert|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Miraidon|[spread] 
+|-activate|p2a: Swampert|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|move|p2b: Miraidon|Electro Drift|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750797963
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|turn|5
+|
+|t:|1750797975
+|move|p2a: Swampert|Wide Guard|p2a: Swampert
+|-singleturn|p2a: Swampert|Wide Guard
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Miraidon|[spread] 
+|-activate|p2a: Swampert|move: Wide Guard
+|-activate|p2b: Miraidon|move: Wide Guard
+|move|p2b: Miraidon|Electro Drift|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750798004
+|move|p2b: Miraidon|Electro Drift|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Swampert|18/100
+|-damage|p2b: Miraidon|15/100
+|move|p2a: Swampert|Liquidation|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|win|Diegopf21
+|raw|Galax3455's rating: 1116 &rarr; <strong>1090</strong><br />(-26 for losing)
+|raw|Diegopf21's rating: 1099 &rarr; <strong>1125</strong><br />(+26 for winning)
+|l|☆Galax3455
+|player|p1|
+|l|☆Diegopf21
+|player|p2|

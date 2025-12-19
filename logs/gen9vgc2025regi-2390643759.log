@@ -1,0 +1,233 @@
+|j|☆TheDecommissioner
+|j|☆fskhan
+|t:|1750741395
+|gametype|doubles
+|player|p1|TheDecommissioner|preschooler|1335
+|player|p2|fskhan|169|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Walking Wake, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheDecommissioner)
+|inactive|TheDecommissioner has 60 seconds left.
+|inactive|fskhan has 60 seconds left.
+|inactive|fskhan has 30 seconds left.
+|inactive|fskhan has 20 seconds left.
+|
+|t:|1750741466
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Talking|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Iron Valiant|Iron Valiant, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-enditem|p2b: Iron Valiant|Booster Energy
+|-activate|p2b: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750741489
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Talking|Sleep Powder|p2a: Miraidon|[miss]
+|-miss|p1b: Talking|p2a: Miraidon
+|move|p2b: Iron Valiant|Thunder Wave|p1a: Koraidon
+|-status|p1a: Koraidon|par
+|move|p1a: Koraidon|Flare Blitz|p2b: Iron Valiant
+|-damage|p2b: Iron Valiant|0 fnt
+|faint|p2b: Iron Valiant
+|-end|p2b: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Koraidon|76/100 par|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750741504
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|2
+|
+|t:|1750741525
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|switch|p1a: Is|Archaludon, L50, F|100/100
+|move|p2a: Miraidon|Electro Drift|p1a: Is
+|-resisted|p1a: Is
+|-damage|p1a: Is|81/100
+|-ability|p1a: Is|Stamina|boost
+|-boost|p1a: Is|def|1
+|move|p2b: Ninetales|Blizzard|p1a: Is|[spread] p1a,p1b
+|-damage|p1a: Is|61/100
+|-damage|p1b: Indeedee|68/100
+|-ability|p1a: Is|Stamina|boost
+|-boost|p1a: Is|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|TheDecommissioner has 30 seconds left.
+|inactive|fskhan has 30 seconds left.
+|
+|t:|1750741557
+|move|p2a: Miraidon|Volt Switch|p1b: Indeedee
+|-damage|p1b: Indeedee|25/100
+|
+|t:|1750741560
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: fskhan|move: Aurora Veil
+|move|p1b: Indeedee|Psychic|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|94/100
+|move|p1a: Is|Snarl|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-resisted|p2b: Ninetales
+|-damage|p2a: Calyrex|86/100
+|-damage|p2b: Ninetales|96/100
+|-unboost|p2a: Calyrex|spa|1
+|-unboost|p2b: Ninetales|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|TheDecommissioner has 30 seconds left.
+|inactive|TheDecommissioner has 20 seconds left.
+|
+|t:|1750741597
+|move|p2b: Ninetales|Moonblast|p1b: Indeedee
+|-damage|p1b: Indeedee|2/100
+|move|p1b: Indeedee|Psychic|p2b: Ninetales
+|-damage|p2b: Ninetales|66/100
+|move|p1a: Is|Body Press|p2b: Ninetales
+|-damage|p2b: Ninetales|34/100
+|move|p2a: Calyrex|Leech Seed|p1a: Is
+|-start|p1a: Is|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|98/100|[from] item: Leftovers
+|-damage|p1a: Is|49/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|100/100|[silent]
+|upkeep
+|turn|5
+|inactive|fskhan has 30 seconds left.
+|inactive|fskhan has 20 seconds left.
+|inactive|fskhan has 15 seconds left.
+|inactive|fskhan has 10 seconds left.
+|inactive|fskhan has 5 seconds left.
+|
+|t:|1750741652
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Indeedee|Psychic|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|move|p1a: Is|Body Press|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Is|37/100|[from] Leech Seed|[of] p2a: Calyrex
+|upkeep
+|turn|6
+|inactive|TheDecommissioner has 30 seconds left.
+|inactive|fskhan has 30 seconds left.
+|inactive|TheDecommissioner has 20 seconds left.
+|inactive|TheDecommissioner has 15 seconds left.
+|inactive|TheDecommissioner has 10 seconds left.
+|
+|t:|1750741698
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Ninetales|Moonblast|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Is|Body Press|p2b: Ninetales
+|-damage|p2b: Ninetales|3/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Is
+|-damage|p1a: Is|14/100
+|-ability|p1a: Is|Stamina|boost
+|-boost|p1a: Is|def|1
+|
+|-weather|none
+|-damage|p1a: Is|2/100|[from] Leech Seed|[of] p2a: Calyrex
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750741703
+|switch|p1b: Koraidon|Koraidon, L50, tera:Fire|76/100 par
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|7
+|
+|t:|1750741718
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Koraidon|Flare Blitz|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Is|Body Press|p2b: Miraidon
+|-damage|p2b: Miraidon|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Is|0 fnt|[from] Leech Seed|[of] p2a: Calyrex
+|faint|p1a: Is
+|upkeep
+|
+|t:|1750741721
+|switch|p1a: Talking|Lilligant-Hisui, L50, F|100/100
+|turn|8
+|
+|t:|1750741739
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|3/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p1a: Talking|Axe Kick|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p1b: Koraidon|Flare Blitz|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|65/100
+|-damage|p1b: Koraidon|65/100 par|[from] Recoil
+|move|p2a: Calyrex|Glacial Lance|p1a: Talking|[spread] p1a,p1b
+|-supereffective|p1a: Talking
+|-resisted|p1b: Koraidon
+|-damage|p1a: Talking|0 fnt
+|-damage|p1b: Koraidon|45/100 par
+|faint|p1a: Talking
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|71/100|[from] item: Leftovers
+|upkeep
+|-message|TheDecommissioner forfeited.
+|
+|win|fskhan
+|raw|TheDecommissioner's rating: 1335 &rarr; <strong>1318</strong><br />(-17 for losing)
+|raw|fskhan's rating: 1387 &rarr; <strong>1404</strong><br />(+17 for winning)
+|l|☆TheDecommissioner
+|player|p1|

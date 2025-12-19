@@ -1,0 +1,133 @@
+|j|☆numnumsssss
+|j|☆Kinghinge
+|t:|1750859727
+|gametype|doubles
+|player|p1|numnumsssss|wallace|1287
+|player|p2|Kinghinge|alder|1394
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kinghinge)
+|inactive|Kinghinge has 60 seconds left.
+|
+|t:|1750859787
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|numnumsssss has 30 seconds left.
+|
+|t:|1750859820
+|move|p1b: Annihilape|Final Gambit|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p1b: Annihilape
+|faint|p2a: Miraidon
+|move|p2b: Lunala|Moonblast|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|53/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1750859832
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|2
+|
+|t:|1750859853
+|-terastallize|p1b: Torkoal|Fire
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Overheat|p2b: Lunala
+|-damage|p2b: Lunala|8/100
+|-unboost|p1b: Torkoal|spa|2
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Focus Sash|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Indeedee
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859869
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|turn|3
+|
+|t:|1750859880
+|move|p2b: Lunala|Moongeist Beam|p1b: Torkoal
+|-damage|p1b: Torkoal|24/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|11/100
+|-damage|p2a: Incineroar|75/100|[from] Recoil
+|move|p1a: Necrozma|Earthquake|p2b: Lunala|[spread] p1b,p2a,p2b
+|-supereffective|p1b: Torkoal
+|-supereffective|p2a: Incineroar
+|-damage|p1b: Torkoal|0 fnt
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p1b: Torkoal
+|faint|p2a: Incineroar
+|faint|p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750859891
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|4
+|
+|t:|1750859903
+|move|p2b: Whimsicott|Encore|p1a: Necrozma
+|-activate|p1a: Necrozma|move: Psychic Terrain
+|move|p1a: Necrozma|Earthquake|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750859910
+|move|p2b: Whimsicott|Moonblast|p1a: Necrozma
+|-resisted|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|win|Kinghinge
+|raw|numnumsssss's rating: 1287 &rarr; <strong>1269</strong><br />(-18 for losing)
+|raw|Kinghinge's rating: 1394 &rarr; <strong>1408</strong><br />(+14 for winning)
+|l|☆Kinghinge
+|player|p2|

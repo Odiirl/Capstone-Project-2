@@ -1,0 +1,145 @@
+|j|☆GroovyDuwve
+|j|☆Johnkat7
+|t:|1750709431
+|gametype|doubles
+|player|p1|GroovyDuwve|265|1247
+|player|p2|Johnkat7|101|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Bellossom, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|
+|t:|1750709452
+|start
+|switch|p1a: Bellossom|Bellossom, L50, F|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750709462
+|move|p1b: Chien-Pao|Sucker Punch|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Kyogre|Ice Beam|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|25/100
+|move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+|-boost|p1a: Bellossom|spa|1
+|-boost|p1a: Bellossom|spd|1
+|-boost|p1a: Bellossom|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750709468
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750709488
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Bellossom|Sleep Powder|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Sleep Powder
+|move|p2a: Kyogre|Ice Beam|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|0 fnt
+|faint|p1a: Bellossom
+|cant|p2b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750709503
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|3
+|
+|t:|1750709510
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p1b: Koraidon|Collision Course|p2b: Calyrex
+|-damage|p2b: Calyrex|37/100 slp
+|cant|p2b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750709525
+|move|p2a: Kyogre|Protect||[still]
+|-fail|p2a: Kyogre
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|move|p1b: Koraidon|Collision Course|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750709528
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|5
+|
+|t:|1750709538
+|-terastallize|p2b: Ogerpon|Rock
+|detailschange|p2b: Ogerpon|Ogerpon-Cornerstone-Tera, L50, F, tera:Rock
+|-ability|p2b: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p2b: Ogerpon|def|1
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Chien-Pao|Sacred Sword|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|9/100
+|move|p1b: Koraidon|Collision Course|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Cornerstone, L50, F|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750709553
+|move|p2a: Kyogre|Protect||[still]
+|-fail|p2a: Kyogre
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Kyogre
+|-damage|p2a: Kyogre|68/100
+|move|p1b: Koraidon|Collision Course|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|GroovyDuwve
+|raw|GroovyDuwve's rating: 1247 &rarr; <strong>1270</strong><br />(+23 for winning)
+|raw|Johnkat7's rating: 1218 &rarr; <strong>1195</strong><br />(-23 for losing)
+|l|☆GroovyDuwve
+|player|p1|
+|l|☆Johnkat7
+|player|p2|

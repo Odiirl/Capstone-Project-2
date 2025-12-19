@@ -1,0 +1,135 @@
+|j|☆Cheirapica
+|j|☆bodeylee
+|t:|1750740760
+|gametype|doubles
+|player|p1|Cheirapica|1|1148
+|player|p2|bodeylee|169|1129
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Cloyster, L50, M|
+|poke|p2|Palkia, L50|
+|poke|p2|Medicham, L50, M|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Enamorus, L50, F|
+|poke|p2|Lunala, L50|
+|teampreview|4
+Cheirapica has agreed to open team sheets.
+|
+|t:|1750740779
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Enamorus|Enamorus, L50, F|100/100
+|switch|p2b: Medicham|Medicham, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750740809
+|-terastallize|p1b: Amoonguss|Water
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Enamorus|Tailwind|p2a: Enamorus
+|-sidestart|p2: bodeylee|move: Tailwind
+|move|p2b: Medicham|Zen Headbutt|p1b: Amoonguss
+|-damage|p1b: Amoonguss|42/100
+|move|p1b: Amoonguss|Spore|p2a: Enamorus
+|-status|p2a: Enamorus|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750740833
+|switch|p1b: Garganacl|Garganacl, L50, F|100/100
+|-terastallize|p2b: Medicham|Normal
+|cant|p2a: Enamorus|slp
+|move|p2b: Medicham|Zen Headbutt|p1b: Garganacl
+|-damage|p1b: Garganacl|73/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Enamorus|[spread] p2a
+|-immune|p2b: Medicham
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|
+|-heal|p1b: Garganacl|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750740860
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|3
+|
+|t:|1750740884
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Medicham|Close Combat|p1b: Garganacl
+|-supereffective|p1b: Garganacl
+|-damage|p1b: Garganacl|0 fnt
+|-unboost|p2b: Medicham|def|1
+|-unboost|p2b: Medicham|spd|1
+|faint|p1b: Garganacl
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750740899
+|switch|p1b: Amoonguss|Amoonguss, L50, F, tera:Water|75/100
+|turn|4
+|
+|t:|1750740911
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Medicham|Close Combat|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2b: Medicham|def|1
+|-unboost|p2b: Medicham|spd|1
+|faint|p1b: Amoonguss
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-sideend|p2: bodeylee|move: Tailwind
+|upkeep
+|
+|t:|1750740922
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750740934
+|move|p1b: Miraidon|Electro Drift|p2a: Lunala
+|-damage|p2a: Lunala|55/100
+|move|p2b: Medicham|Close Combat|p1b: Miraidon
+|-damage|p1b: Miraidon|25/100
+|-unboost|p2b: Medicham|def|1
+|-unboost|p2b: Medicham|spd|1
+|move|p2a: Lunala|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|bodeylee
+|raw|Cheirapica's rating: 1148 &rarr; <strong>1122</strong><br />(-26 for losing)
+|raw|bodeylee's rating: 1129 &rarr; <strong>1155</strong><br />(+26 for winning)
+|l|☆Cheirapica
+|player|p1|
+|l|☆bodeylee
+|player|p2|

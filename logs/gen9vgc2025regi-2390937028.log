@@ -1,0 +1,178 @@
+|j|☆rmgk
+|j|☆MonarchMD
+|t:|1750784825
+|gametype|doubles
+|player|p1|rmgk|hilda-wonderlauncher|1163
+|player|p2|MonarchMD|caitlin|1175
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Iron Crown, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Mabosstiff, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MonarchMD)
+|inactive|rmgk has 60 seconds left.
+|
+|t:|1750784885
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Mabosstiff|Mabosstiff, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p2b: Mabosstiff|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2b: Mabosstiff|atk|1
+|turn|1
+|inactive|MonarchMD has 30 seconds left.
+|
+|t:|1750784911
+|-terastallize|p2a: Zamazenta|Dragon
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2b: Mabosstiff|Protect|p2b: Mabosstiff
+|-singleturn|p2b: Mabosstiff|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Mabosstiff
+|-activate|p2b: Mabosstiff|move: Protect
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|rmgk has 30 seconds left.
+|
+|t:|1750784939
+|move|p2b: Mabosstiff|Helping Hand|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Helping Hand|[of] p2b: Mabosstiff
+|move|p1a: Koraidon|Collision Course|p2b: Mabosstiff
+|-supereffective|p2b: Mabosstiff
+|-damage|p2b: Mabosstiff|0 fnt
+|faint|p2b: Mabosstiff
+|move|p2a: Zamazenta|Body Press|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Incineroar|Knock Off|p2a: Zamazenta
+|-damage|p2a: Zamazenta|95/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750784954
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|
+|t:|1750784968
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Miraidon|Draco Meteor|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750784978
+|switch|p1b: Iron Moth|Iron Moth, L50, shiny|100/100
+|-activate|p1b: Iron Moth|ability: Quark Drive
+|-start|p1b: Iron Moth|quarkdrivespe
+|turn|4
+|
+|t:|1750784996
+|move|p1b: Iron Moth|Fiery Dance|p2b: Lunala
+|-damage|p2b: Lunala|82/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Zamazenta
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750785009
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|5
+|
+|t:|1750785024
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Iron Moth|Fiery Dance|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|26/100
+|move|p1a: Miraidon|Electro Drift|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|7/100
+|-damage|p1a: Miraidon|12/100|[from] item: Life Orb
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750785037
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Iron Moth|Fiery Dance|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-boost|p1b: Iron Moth|spa|1
+|faint|p2a: Amoonguss
+|move|p2b: Lunala|Expanding Force|p1b: Iron Moth
+|-supereffective|p1b: Iron Moth
+|-damage|p1b: Iron Moth|20/100
+|
+|upkeep
+|turn|7
+|
+|t:|1750785046
+|move|p1b: Iron Moth|Fiery Dance|p2b: Lunala
+|-damage|p2b: Lunala|44/100
+|-boost|p1b: Iron Moth|spa|1
+|move|p2b: Lunala|Expanding Force|p1b: Iron Moth
+|-supereffective|p1b: Iron Moth
+|-damage|p1b: Iron Moth|0 fnt
+|faint|p1b: Iron Moth
+|-end|p1b: Iron Moth|Quark Drive|[silent]
+|
+|win|MonarchMD
+|raw|rmgk's rating: 1163 &rarr; <strong>1139</strong><br />(-24 for losing)
+|raw|MonarchMD's rating: 1175 &rarr; <strong>1199</strong><br />(+24 for winning)
+|l|☆rmgk
+|player|p1|

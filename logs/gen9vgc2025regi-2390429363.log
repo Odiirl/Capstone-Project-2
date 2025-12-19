@@ -1,0 +1,240 @@
+|j|☆sfghfdsfgg
+|j|☆lolgi
+|t:|1750712277
+|gametype|doubles
+|player|p1|sfghfdsfgg|266|1083
+|player|p2|lolgi|265|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Muk-Alola, L50, M|
+|poke|p2|Gastrodon-East, L50, M|
+|poke|p2|Electrode-Hisui, L50|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Avalugg, L50, M|
+|teampreview|4
+|
+|t:|1750712309
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|switch|p2a: Gastrodon|Gastrodon-East, L50, M, shiny|100/100
+|switch|p2b: Electrode|Electrode-Hisui, L50|100/100
+|turn|1
+|
+|t:|1750712326
+|move|p1b: Sableye|Fake Out|p2a: Gastrodon
+|-damage|p2a: Gastrodon|92/100
+|move|p2b: Electrode|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|71/100
+|
+|t:|1750712335
+|switch|p2b: Muk|Muk-Alola, L50, M|100/100|[from] Volt Switch
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|cant|p2a: Gastrodon|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750712348
+|switch|p1b: Murkrow|Murkrow, L50, F|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Gastrodon
+|faint|p2a: Gastrodon
+|move|p2b: Muk|Haze|p2b: Muk
+|-clearallboost
+|
+|upkeep
+|
+|t:|1750712363
+|switch|p2a: Ceruledge|Ceruledge, L50, F|100/100
+|turn|3
+|
+|t:|1750712377
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|move|p2b: Muk|Knock Off|p1b: Sableye
+|-damage|p1b: Sableye|52/100
+|-enditem|p1b: Sableye|Focus Sash|[from] move: Knock Off|[of] p2b: Muk
+|
+|upkeep
+|turn|4
+|
+|t:|1750712397
+|-terastallize|p1a: Volcarona|Fairy
+|move|p2b: Muk|Shadow Sneak|p1b: Sableye
+|-damage|p1b: Sableye|38/100
+|move|p1b: Sableye|Disable|p2a: Ceruledge
+|-start|p2a: Ceruledge|Disable|Bitter Blade
+|cant|p2a: Ceruledge|Disable|Bitter Blade
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1750712428
+|move|p1b: Sableye|Encore|p2a: Ceruledge
+|-start|p2a: Ceruledge|Encore
+|move|p1a: Volcarona|Heat Wave|p2a: Ceruledge|[spread] p2b
+|-start|p2a: Ceruledge|ability: Flash Fire
+|-damage|p2b: Muk|64/100
+|cant|p2a: Ceruledge|Disable|Bitter Blade
+|move|p2b: Muk|Haze|p2b: Muk
+|-clearallboost
+|
+|upkeep
+|turn|6
+|
+|t:|1750712456
+|-end|p2a: Ceruledge|ability: Flash Fire|[silent]
+|switch|p2a: Electrode|Electrode-Hisui, L50|100/100
+|switch|p1a: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|switch|p1b: Murkrow|Murkrow, L50, F|100/100
+|move|p2b: Muk|Knock Off|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|85/100
+|-enditem|p1a: Wo-Chien|Electric Seed|[from] move: Knock Off|[of] p2b: Muk
+|
+|upkeep
+|turn|7
+|
+|t:|1750712481
+|switch|p1b: Volcarona|Volcarona, L50, M, tera:Fairy|100/100
+|move|p2a: Electrode|Volt Switch|p1b: Volcarona
+|-damage|p1b: Volcarona|72/100
+|
+|t:|1750712487
+|switch|p2a: Ceruledge|Ceruledge, L50, F|100/100|[from] Volt Switch
+|move|p2b: Muk|Knock Off|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|53/100
+|-enditem|p1b: Volcarona|Covert Cloak|[from] move: Knock Off|[of] p2b: Muk
+|move|p1a: Wo-Chien|Leech Seed|p2b: Muk
+|-start|p2b: Muk|move: Leech Seed
+|
+|-damage|p2b: Muk|51/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|99/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750712505
+|switch|p1b: Sableye|Sableye, L50, M|38/100
+|switch|p2b: Electrode|Electrode-Hisui, L50|100/100
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1750712532
+|move|p1b: Sableye|Encore|p2a: Ceruledge
+|-start|p2a: Ceruledge|Encore
+|move|p2b: Electrode|Electroweb|p1a: Wo-Chien|[spread] p1a,p1b
+|-resisted|p1a: Wo-Chien
+|-crit|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|88/100
+|-damage|p1b: Sableye|1/100
+|-unboost|p1a: Wo-Chien|spe|1
+|-unboost|p1b: Sableye|spe|1
+|move|p2a: Ceruledge|Bitter Blade|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|30/100
+|move|p1a: Wo-Chien|Leech Seed|p2a: Ceruledge
+|-start|p2a: Ceruledge|move: Leech Seed
+|
+|-damage|p2a: Ceruledge|88/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|40/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1750712553
+|switch|p2a: Muk|Muk-Alola, L50, M|51/100
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p1b: Sableye|Disable|p2b: Electrode
+|-start|p2b: Electrode|Disable|Electroweb
+|cant|p2b: Electrode|Disable|Electroweb
+|
+|upkeep
+|turn|11
+|
+|t:|1750712567
+|switch|p2b: Ceruledge|Ceruledge, L50, F|88/100
+|switch|p1b: Volcarona|Volcarona, L50, M, tera:Fairy|53/100
+|move|p2a: Muk|Shadow Sneak|p1b: Volcarona
+|-crit|p1b: Volcarona
+|-damage|p1b: Volcarona|36/100
+|move|p1a: Wo-Chien|Pollen Puff|p1b: Volcarona
+|-heal|p1b: Volcarona|86/100
+|
+|upkeep
+|turn|12
+|
+|t:|1750712607
+|move|p2a: Muk|Shadow Sneak|p1b: Volcarona
+|-damage|p1b: Volcarona|76/100
+|move|p2b: Ceruledge|Bitter Blade|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|-heal|p2b: Ceruledge|100/100|[from] drain|[of] p1a: Wo-Chien
+|faint|p1a: Wo-Chien
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|upkeep
+|
+|t:|1750712613
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|turn|13
+|
+|t:|1750712639
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2b: Ceruledge|Bitter Blade|p1b: Volcarona
+|-damage|p1b: Volcarona|28/100
+|move|p1a: Murkrow|Hurricane|p2b: Ceruledge
+|-damage|p2b: Ceruledge|58/100
+|move|p2a: Muk|Haze|p2a: Muk
+|-clearallboost
+|
+|upkeep
+|turn|14
+|-message|sfghfdsfgg forfeited.
+|
+|win|lolgi
+|raw|sfghfdsfgg's rating: 1083 &rarr; <strong>1062</strong><br />(-21 for losing)
+|raw|lolgi's rating: 1098 &rarr; <strong>1122</strong><br />(+24 for winning)
+|l|☆sfghfdsfgg
+|player|p1|
+|l|☆lolgi
+|player|p2|

@@ -1,0 +1,152 @@
+|j|☆Jellibolt
+|j|☆imnotshawn
+|t:|1750863057
+|gametype|doubles
+|player|p1|Jellibolt|twins-gen4dp|1172
+|player|p2|imnotshawn|brycen|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Overqwil, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Baxcalibur, L50, M|
+|poke|p1|Wo-Chien, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Blissey, L50, F|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by imnotshawn)
+|
+|t:|1750863080
+|start
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Blissey|Blissey, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750863102
+|move|p1b: Sneasler|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|93/100
+|move|p1a: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Blissey|58/100
+|-damage|p2b: Calyrex|16/100
+|move|p2a: Blissey|Thief|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|-enditem|p2b: Calyrex|Weakness Policy
+|-boost|p2b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Calyrex|spa|2|[from] item: Weakness Policy
+|cant|p2b: Calyrex|flinch
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Blissey|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750863123
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Blissey
+|-damage|p2a: Blissey|17/100 brn
+|move|p1a: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750863136
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1750863149
+|move|p2a: Ursaluna|Vacuum Wave|p1a: Kyogre
+|-damage|p1a: Kyogre|90/100
+|move|p1b: Sneasler|Dire Claw|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1a: Kyogre|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|10/100
+|-enditem|p2a: Ursaluna|Sitrus Berry|[eat]
+|-heal|p2a: Ursaluna|35/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750863162
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750863177
+|switch|p1a: Giratina|Giratina-Origin, L50|100/100
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|20/100
+|move|p2a: Ursaluna|Earth Power|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750863188
+|switch|p1b: Kyogre|Kyogre, L50, shiny|90/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|5
+|
+|t:|1750863210
+|move|p2a: Ursaluna|Vacuum Wave|p1b: Kyogre
+|-damage|p1b: Kyogre|80/100
+|move|p2b: Koraidon|Dragon Claw|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|41/100
+|move|p1b: Kyogre|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p1a: Giratina|Shadow Force||[still]
+|-prepare|p1a: Giratina|Shadow Force
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750863229
+|move|p2b: Koraidon|Dragon Claw|p1b: Kyogre
+|-damage|p1b: Kyogre|37/100
+|move|p1b: Kyogre|Ice Beam|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|7/100
+|move|p1a: Giratina|Shadow Force|p2b: Koraidon|[from] lockedmove
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|win|Jellibolt
+|raw|Jellibolt's rating: 1172 &rarr; <strong>1190</strong><br />(+18 for winning)
+|raw|imnotshawn's rating: 1078 &rarr; <strong>1062</strong><br />(-16 for losing)
+|c|☆Jellibolt|gg
+|l|☆Jellibolt
+|player|p1|
+|l|☆imnotshawn
+|player|p2|

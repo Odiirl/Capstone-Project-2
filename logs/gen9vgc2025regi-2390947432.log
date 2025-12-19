@@ -1,0 +1,126 @@
+|j|☆MultiZapdos
+|j|☆Saguito
+|t:|1750785920
+|gametype|doubles
+|player|p1|MultiZapdos|266|
+|player|p2|Saguito|bianca|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Registeel, L50|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Scizor, L50, F|
+|poke|p2|Mimikyu, L50, F|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Ribombee, L50, F|
+|poke|p2|Fezandipiti, L50, M|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+MultiZapdos has agreed to open team sheets.
+|j| okkito
+|j| thander11
+Saguito has agreed to open team sheets.
+|showteam|p1|Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Psychic||||||50|,,,,,Normal]Tinkaton||AssaultVest|MoldBreaker|FakeOut,GigatonHammer,KnockOff,PlayRough|||F|||50|,,,,,Dragon]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|||M|||50|,,,,,Dark]Registeel||Leftovers|ClearBody|BodyPress,IronDefense,HeavySlam,Protect||||||50|,,,,,Fairy]Corviknight||SitrusBerry|MirrorArmor|Uturn,Tailwind,IronHead,BraveBird|||F|||50|,,,,,Ghost]Scizor||ChoiceBand|Technician|BulletPunch,Uturn,Trailblaze,KnockOff|||F|||50|,,,,,Dragon
+|showteam|p2|Mimikyu||FocusSash|Disguise|ShadowClaw,PlayRough,ShadowSneak,SwordsDance|||F|||50|,,,,,Ghost]Tinkaton||LifeOrb|MoldBreaker|GigatonHammer,KnockOff,FakeOut,Protect|||F|||50|,,,,,Steel]Iron Valiant||BoosterEnergy|QuarkDrive|Moonblast,CloseCombat,FocusBlast,Protect||||||50|,,,,,Fighting]Ribombee||EjectPack|ShieldDust|PollenPuff,Tailwind,LightScreen,Protect|||F|||50|,,,,,Ghost]Fezandipiti||Leftovers|ToxicChain|AlluringVoice,Tailwind,DazzlingGleam,Protect|||M|||50|,,,,,Fairy]Sylveon||ThroatSpray|Pixilate|HyperVoice,TeraBlast,CalmMind,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1750786086
+|start
+|switch|p1a: Alborotador|Corviknight, L50, F|100/100
+|switch|p1b: Risquetos|Gholdengo, L50|100/100
+|switch|p2a: Mika|Tinkaton, L50, F|100/100
+|switch|p2b: Mimbee|Ribombee, L50, F, shiny|100/100
+|-ability|p2a: Mika|Mold Breaker
+|turn|1
+|
+|t:|1750786142
+|-terastallize|p1a: Alborotador|Ghost
+|move|p2a: Mika|Fake Out|p1b: Risquetos
+|-immune|p1b: Risquetos
+|move|p1b: Risquetos|Make It Rain|p2a: Mika|[spread] p2a,p2b
+|-supereffective|p2b: Mimbee
+|-damage|p2a: Mika|51/100
+|-damage|p2b: Mimbee|0 fnt
+|-unboost|p1b: Risquetos|spa|1
+|faint|p2b: Mimbee
+|move|p1a: Alborotador|Tailwind|p1a: Alborotador
+|-sidestart|p1: MultiZapdos|move: Tailwind
+|
+|upkeep
+|
+|t:|1750786171
+|switch|p2b: Mivoir|Iron Valiant, L50|100/100
+|-enditem|p2b: Mivoir|Booster Energy
+|-activate|p2b: Mivoir|ability: Quark Drive|[fromitem]
+|-start|p2b: Mivoir|quarkdrivespe
+|turn|2
+|
+|t:|1750786209
+|-terastallize|p2b: Mivoir|Fighting
+|move|p1b: Risquetos|Make It Rain|p2b: Mivoir|[spread] p2a,p2b
+|-damage|p2a: Mika|15/100
+|-damage|p2b: Mivoir|40/100
+|-unboost|p1b: Risquetos|spa|1
+|move|p2b: Mivoir|Close Combat|p1b: Risquetos
+|-immune|p1b: Risquetos
+|move|p1a: Alborotador|Brave Bird|p2b: Mivoir
+|-supereffective|p2b: Mivoir
+|-crit|p2b: Mivoir
+|-damage|p2b: Mivoir|0 fnt
+|faint|p2b: Mivoir
+|-end|p2b: Mivoir|Quark Drive|[silent]
+|-damage|p1a: Alborotador|91/100|[from] Recoil
+|move|p2a: Mika|Gigaton Hammer|p1a: Alborotador
+|-crit|p1a: Alborotador
+|-damage|p1a: Alborotador|0 fnt
+|faint|p1a: Alborotador
+|-damage|p2a: Mika|5/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Saguito|Se me olvida que es tipo Fantasma :sob:
+|
+|t:|1750786240
+|switch|p2b: Mimi|Mimikyu, L50, F|100/100
+|switch|p1a: Poppy|Tinkaton, L50, F|100/100
+|-ability|p1a: Poppy|Mold Breaker
+|turn|3
+|
+|t:|1750786268
+|move|p2a: Mika|Protect|p2a: Mika
+|-singleturn|p2a: Mika|Protect
+|move|p2b: Mimi|Shadow Sneak|p1b: Risquetos
+|-supereffective|p1b: Risquetos
+|-damage|p1b: Risquetos|66/100
+|move|p1b: Risquetos|Make It Rain|p2a: Mika|[spread] p2b
+|-activate|p2a: Mika|move: Protect
+|-activate|p2b: Mimi|ability: Disguise
+|-damage|p2b: Mimi|100/100
+|-unboost|p1b: Risquetos|spa|1
+|detailschange|p2b: Mimi|Mimikyu-Busted, L50, F
+|-damage|p2b: Mimi|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Poppy|Gigaton Hammer|p2b: Mimi
+|-supereffective|p2b: Mimi
+|-damage|p2b: Mimi|0 fnt
+|faint|p2b: Mimi
+|
+|upkeep
+|turn|4
+|
+|t:|1750786294
+|switch|p1b: Star Platinum|Scizor, L50, F|100/100
+|move|p1a: Poppy|Knock Off|p2a: Mika
+|-resisted|p2a: Mika
+|-damage|p2a: Mika|0 fnt
+|-enditem|p2a: Mika|Life Orb|[from] move: Knock Off|[of] p1a: Poppy
+|faint|p2a: Mika
+|
+|win|MultiZapdos
+|l|☆Saguito
+|player|p2|

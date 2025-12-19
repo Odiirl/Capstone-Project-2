@@ -1,0 +1,177 @@
+|j|☆doomflavored
+|j|☆not_quil13
+|t:|1750818259
+|gametype|doubles
+|player|p1|doomflavored|cynthia-gen4|1401
+|player|p2|not_quil13|steven|1327
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Gumshoos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by not_quil13)
+|
+|t:|1750818284
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Koraidon|item: Ability Shield
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|not_quil13 has 30 seconds left.
+|
+|t:|1750818315
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-terastallize|p1b: Koraidon|Fire
+|move|p1b: Koraidon|Flame Charge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Ninetales
+|move|p1a: Weezing|Taunt|p2b: Incineroar
+|-start|p2b: Incineroar|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750818323
+|switch|p2a: Lunala|Lunala, L50|100/100
+|turn|2
+|
+|t:|1750818331
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p1a: Weezing|Poison Gas|p2b: Incineroar|[spread] p2a,p2b
+|-status|p2a: Lunala|psn
+|-status|p2b: Incineroar|psn
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Incineroar|88/100 psn|[from] psn
+|-damage|p2a: Lunala|88/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1750818353
+|move|p2b: Incineroar|Knock Off|p1b: Koraidon
+|-damage|p1b: Koraidon|63/100
+|-enditem|p1b: Koraidon|Ability Shield|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Weezing|Play Rough|p2a: Lunala|[miss]
+|-miss|p1a: Weezing|p2a: Lunala
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Koraidon|[miss]
+|-miss|p2a: Lunala|p1b: Koraidon
+|move|p1b: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lunala|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1750818369
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750818380
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Weezing|[spread] p1a
+|-activate|p1b: Koraidon|move: Protect
+|-damage|p1a: Weezing|48/100
+|move|p1a: Weezing|Poison Gas|p2a: Lunala|[spread] p2a,p2b
+|-fail|p2a: Lunala|psn
+|-status|p2b: Calyrex|psn
+|move|p2a: Lunala|Moongeist Beam|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Calyrex|88/100 psn|[from] psn
+|-damage|p2a: Lunala|64/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750818403
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Brute Bonnet|[spread] p1b
+|-activate|p1a: Weezing|move: Protect
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|28/100
+|move|p2a: Lunala|Moongeist Beam|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|none
+|-damage|p2b: Calyrex|76/100 psn|[from] psn
+|-damage|p2a: Lunala|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1750818415
+|switch|p1b: Koraidon|Koraidon, L50, tera:Fire|63/100
+|turn|6
+|
+|t:|1750818438
+|move|p1a: Weezing|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p1b: Koraidon|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-damage|p1b: Koraidon|43/100|[from] Recoil
+|cant|p2b: Calyrex|move: Taunt|Trick Room
+|
+|-damage|p2b: Calyrex|64/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|c|☆doomflavored|I see all
+|c|☆not_quil13|Nah that was the smartest play I've ever seen
+|inactive|not_quil13 has 30 seconds left.
+|c|☆not_quil13|Gg
+|c|☆doomflavored|gg
+|
+|t:|1750818471
+|move|p1b: Koraidon|Flare Blitz|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1b: Koraidon|22/100|[from] Recoil
+|
+|win|doomflavored
+|raw|doomflavored's rating: 1401 &rarr; <strong>1417</strong><br />(+16 for winning)
+|raw|not_quil13's rating: 1327 &rarr; <strong>1311</strong><br />(-16 for losing)
+|l|☆not_quil13
+|player|p2|

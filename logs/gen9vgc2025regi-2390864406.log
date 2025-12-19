@@ -1,0 +1,190 @@
+|j|☆monkeyhighbooster
+|j|☆Leacenh
+|t:|1750777108
+|gametype|doubles
+|player|p1|monkeyhighbooster|cynthia-gen4|1336
+|player|p2|Leacenh|102|1274
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothorita, L50, M|
+|poke|p1|Swampert, L50, M|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Arboliva, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|
+|t:|1750777147
+|start
+|switch|p1a: Gothorita|Gothorita, L50, M|100/100
+|switch|p1b: Chandelure|Chandelure, L50, M, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothorita|atk|1
+|-unboost|p1b: Chandelure|atk|1
+|turn|1
+|
+|t:|1750777174
+|switch|p1a: Arboliva|Arboliva, L50, M|100/100
+|-terastallize|p1b: Chandelure|Normal
+|move|p2a: Calyrex|Astral Barrage|p1a: Arboliva|[spread] 
+|-immune|p1a: Arboliva
+|-immune|p1b: Chandelure
+|move|p2b: Incineroar|Knock Off|p1a: Arboliva
+|-damage|p1a: Arboliva|59/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|-enditem|p1a: Arboliva|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Chandelure|Trick Room|p1b: Chandelure
+|-fieldstart|move: Trick Room|[of] p1b: Chandelure
+|
+|-heal|p1a: Arboliva|65/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750777219
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Arboliva|Earth Power|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|47/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|72/100|[from] item: Sitrus Berry
+|move|p1b: Chandelure|Shadow Ball|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Incineroar|Knock Off|p1b: Chandelure
+|-damage|p1b: Chandelure|55/100
+|-enditem|p1b: Chandelure|Focus Sash|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-heal|p1a: Arboliva|71/100|[from] Grassy Terrain
+|-heal|p1b: Chandelure|61/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|78/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750777249
+|-terastallize|p2a: Calyrex|Normal
+|move|p1a: Arboliva|Earth Power|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|32/100
+|move|p1b: Chandelure|Shadow Ball|p2a: Calyrex
+|-immune|p2a: Calyrex
+|move|p2b: Incineroar|Parting Shot|p1b: Chandelure
+|-unboost|p1b: Chandelure|atk|1
+|-unboost|p1b: Chandelure|spa|1
+|
+|t:|1750777259
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|
+|-heal|p1a: Arboliva|77/100|[from] Grassy Terrain
+|-heal|p1b: Chandelure|67/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750777290
+|move|p1a: Arboliva|Giga Drain|p2a: Calyrex
+|-damage|p2a: Calyrex|44/100
+|-heal|p1a: Arboliva|100/100|[from] drain|[of] p2a: Calyrex
+|move|p1b: Chandelure|Heat Wave|p2a: Calyrex|[spread] p2b
+|-miss|p1b: Chandelure|p2a: Calyrex
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|56/100
+|move|p2b: Rillaboom|U-turn|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-crit|p1a: Arboliva
+|-damage|p1a: Arboliva|16/100
+|
+|t:|1750777300
+|switch|p2b: Incineroar|Incineroar, L50, M|32/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Arboliva|atk|1
+|-unboost|p1b: Chandelure|atk|1
+|move|p2a: Calyrex|Psychic|p1b: Chandelure
+|-damage|p1b: Chandelure|0 fnt
+|faint|p1b: Chandelure
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-heal|p1a: Arboliva|22/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|38/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|50/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750777312
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|5
+|
+|t:|1750777346
+|switch|p1a: Gothorita|Gothorita, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|56/100
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Groudon|Swords Dance|p1b: Groudon
+|-boost|p1b: Groudon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|56/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750777365
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Gothorita
+|-damage|p1a: Gothorita|85/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Groudon|[spread] p1a
+|-activate|p1b: Groudon|move: Protect
+|-supereffective|p1a: Gothorita
+|-damage|p1a: Gothorita|0 fnt
+|faint|p1a: Gothorita
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750777369
+|switch|p1a: Arboliva|Arboliva, L50, M|22/100
+|turn|7
+|
+|t:|1750777382
+|move|p2a: Calyrex|Astral Barrage|p1b: Groudon|[spread] p1b
+|-immune|p1a: Arboliva
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Rillaboom|U-turn|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|faint|p1a: Arboliva
+|
+|win|Leacenh
+|raw|monkeyhighbooster's rating: 1336 &rarr; <strong>1312</strong><br />(-24 for losing)
+|raw|Leacenh's rating: 1274 &rarr; <strong>1303</strong><br />(+29 for winning)
+|c|☆monkeyhighbooster|Lame
+|l|☆Leacenh
+|player|p2|
+|l|☆monkeyhighbooster
+|player|p1|

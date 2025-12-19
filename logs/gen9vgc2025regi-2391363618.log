@@ -1,0 +1,306 @@
+|j|☆BroFungus
+|j|☆fyssqzh
+|t:|1750843958
+|gametype|doubles
+|player|p1|BroFungus|ninjaboy|1499
+|player|p2|fyssqzh|dawn|1402
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Umbreon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fyssqzh)
+|
+|t:|1750843985
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|turn|1
+|
+|t:|1750844005
+|move|p1b: Incineroar|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|92/100
+|move|p2a: Charizard|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Calyrex|16/100
+|-damage|p1b: Incineroar|67/100
+|-status|p1a: Calyrex|brn
+|move|p1a: Calyrex|Astral Barrage|p2a: Charizard|[spread] p2a,p2b
+|-crit|p2b: Koraidon
+|-damage|p2a: Charizard|28/100
+|-damage|p2b: Koraidon|28/100
+|cant|p2b: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|15/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-damage|p1a: Calyrex|10/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|BroFungus has 30 seconds left.
+|
+|t:|1750844038
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Charizard|Heat Wave|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|31/100
+|move|p2b: Koraidon|Collision Course|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|3/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-damage|p1a: Calyrex|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1750844046
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|3
+|
+|t:|1750844071
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Koraidon|34/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750844083
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|4
+|
+|t:|1750844106
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|4/100 brn
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p1a: Zamazenta|Dragon
+|move|p2a: Miraidon|Electro Drift|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|54/100
+|move|p2b: Koraidon|Flame Charge|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|-boost|p2b: Koraidon|spe|1
+|faint|p1b: Calyrex
+|move|p1a: Zamazenta|Body Press|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750844124
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Umbreon|Umbreon, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750844146
+|-terastallize|p2b: Umbreon|Poison
+|move|p1b: Rillaboom|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|87/100
+|cant|p2a: Miraidon|flinch
+|move|p1a: Zamazenta|Body Press|p2a: Miraidon
+|-damage|p2a: Miraidon|20/100
+|move|p2b: Umbreon|Foul Play|p1b: Rillaboom
+|-damage|p1b: Rillaboom|55/100
+|
+|-weather|none
+|-heal|p2a: Miraidon|26/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|60/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|61/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750844167
+|move|p1b: Rillaboom|Grassy Glide|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|9/100
+|move|p2a: Miraidon|Electro Drift|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|32/100
+|move|p1a: Zamazenta|Body Press|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Umbreon|Foul Play|p1b: Rillaboom
+|-damage|p1b: Rillaboom|19/100
+|
+|-heal|p1a: Zamazenta|38/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750844183
+|move|p1a: Zamazenta|Body Press|p2b: Umbreon
+|-resisted|p2b: Umbreon
+|-damage|p2b: Umbreon|77/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Umbreon
+|-resisted|p2b: Umbreon
+|-damage|p2b: Umbreon|54/100
+|-damage|p1b: Rillaboom|18/100|[from] Recoil
+|move|p2b: Umbreon|Foul Play|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-heal|p1a: Zamazenta|44/100|[from] Grassy Terrain
+|-heal|p2b: Umbreon|60/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750844191
+|move|p1a: Zamazenta|Body Press|p2b: Umbreon
+|-resisted|p2b: Umbreon
+|-damage|p2b: Umbreon|38/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|88/100
+|
+|-heal|p1a: Zamazenta|50/100|[from] Grassy Terrain
+|-heal|p2b: Umbreon|94/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750844203
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-crit|p2b: Umbreon
+|-damage|p2b: Umbreon|51/100
+|move|p2b: Umbreon|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|
+|-heal|p1a: Zamazenta|56/100|[from] Grassy Terrain
+|-heal|p2b: Umbreon|57/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1750844207
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|31/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|81/100
+|
+|upkeep
+|turn|11
+|
+|t:|1750844214
+|move|p1a: Zamazenta|Body Press|p2b: Umbreon
+|-resisted|p2b: Umbreon
+|-damage|p2b: Umbreon|57/100
+|move|p2b: Umbreon|Foul Play|p1a: Zamazenta
+|-damage|p1a: Zamazenta|44/100
+|
+|upkeep
+|turn|12
+|
+|t:|1750844218
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|28/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|78/100
+|
+|-end|p1a: Zamazenta|move: Taunt
+|upkeep
+|turn|13
+|
+|t:|1750844228
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Umbreon|Snarl|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1750844237
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|49/100
+|move|p2b: Umbreon|Foul Play|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100
+|
+|upkeep
+|turn|15
+|
+|t:|1750844244
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|21/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|71/100
+|
+|upkeep
+|turn|16
+|
+|t:|1750844247
+|move|p1a: Zamazenta|Body Press|p2b: Umbreon
+|-resisted|p2b: Umbreon
+|-damage|p2b: Umbreon|48/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|98/100
+|
+|upkeep
+|turn|17
+|
+|t:|1750844253
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|70/100
+|move|p2b: Umbreon|Snarl|p1a: Zamazenta
+|-damage|p1a: Zamazenta|20/100
+|-unboost|p1a: Zamazenta|spa|1
+|
+|upkeep
+|turn|18
+|
+|t:|1750844262
+|move|p1a: Zamazenta|Behemoth Bash|p2b: Umbreon
+|-damage|p2b: Umbreon|43/100
+|move|p2b: Umbreon|Moonlight|p2b: Umbreon
+|-heal|p2b: Umbreon|93/100
+|
+|upkeep
+|turn|19
+|l|☆BroFungus
+|inactive|BroFungus disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|BroFungus has 30 seconds left.
+|inactive|BroFungus has 20 seconds left.
+|inactive|BroFungus has 15 seconds left.
+|inactive|BroFungus has 10 seconds left.
+|inactive|BroFungus has 5 seconds left.
+|-message|BroFungus lost due to inactivity.
+|
+|win|fyssqzh
+|raw|BroFungus's rating: 1499 &rarr; <strong>1474</strong><br />(-25 for losing)
+|raw|fyssqzh's rating: 1402 &rarr; <strong>1427</strong><br />(+25 for winning)

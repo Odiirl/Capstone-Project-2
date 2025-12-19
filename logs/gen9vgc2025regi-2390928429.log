@@ -1,0 +1,188 @@
+|j|☆Litryes
+|j|☆WoodJeremy
+|t:|1750783919
+|gametype|doubles
+|player|p1|Litryes|170|1069
+|player|p2|WoodJeremy|101|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Cresselia, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+Litryes has agreed to open team sheets.
+|c|☆WoodJeremy|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Litryes)
+|
+|t:|1750783963
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Raging Bolt|ability: Protosynthesis
+|-start|p1b: Raging Bolt|protosynthesisspa
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Raging Bolt|atk|1
+|turn|1
+|inactive|WoodJeremy has 30 seconds left.
+|inactive|WoodJeremy has 20 seconds left.
+|
+|t:|1750784002
+|move|p2a: Incineroar|Fake Out|p1a: Groudon
+|-damage|p1a: Groudon|93/100
+|move|p2b: Lunala|Moonblast|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-damage|p1b: Raging Bolt|47/100
+|cant|p1a: Groudon|flinch
+|move|p1b: Raging Bolt|Substitute|p1b: Raging Bolt
+|-start|p1b: Raging Bolt|Substitute
+|-damage|p1b: Raging Bolt|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|WoodJeremy has 30 seconds left.
+|
+|t:|1750784028
+|-terastallize|p2a: Incineroar|Bug
+|move|p1b: Raging Bolt|Thunderclap|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|75/100
+|move|p2b: Lunala|Moonblast|p1b: Raging Bolt
+|-supereffective|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Substitute
+|move|p1a: Groudon|Precipice Blades|p2a: Incineroar|[spread] p2b
+|-miss|p1a: Groudon|p2a: Incineroar
+|-damage|p2b: Lunala|50/100
+|move|p2a: Incineroar|Parting Shot|p1a: Groudon
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1a: Groudon|spa|1
+|
+|t:|1750784046
+|switch|p2a: MiRhydon|Rhydon, L50, M, shiny|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750784068
+|move|p1b: Raging Bolt|Thunderclap|p2a: MiRhydon
+|-activate|p2a: MiRhydon|ability: Lightning Rod
+|-ability|p2a: MiRhydon|Lightning Rod|boost
+|-boost|p2a: MiRhydon|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1a: Groudon
+|-damage|p1a: Groudon|58/100
+|move|p1a: Groudon|Solar Beam||[still]
+|-prepare|p1a: Groudon|Solar Beam
+|-anim|p1a: Groudon|Solar Beam|p2a: MiRhydon
+|-supereffective|p2a: MiRhydon
+|-damage|p2a: MiRhydon|28/100
+|move|p2a: MiRhydon|Breaking Swipe|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1b: Raging Bolt
+|-damage|p1a: Groudon|51/100
+|-damage|p1b: Raging Bolt|0 fnt
+|-unboost|p1a: Groudon|atk|1
+|faint|p1b: Raging Bolt
+|-end|p1b: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750784086
+|switch|p1b: Cresselia|Cresselia, L50, F|100/100
+|turn|4
+|
+|t:|1750784101
+|switch|p1a: Tatsugiri|Tatsugiri, L50, F|100/100
+|move|p2a: MiRhydon|Helping Hand|p2b: Lunala
+|-singleturn|p2b: Lunala|Helping Hand|[of] p2a: MiRhydon
+|move|p2b: Lunala|Moongeist Beam|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|faint|p1a: Tatsugiri
+|move|p1b: Cresselia|Lunar Blessing||[still]
+|-fail|p1b: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750784110
+|switch|p1a: Groudon|Groudon, L50|51/100
+|turn|5
+|
+|t:|1750784132
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p2a: MiRhydon|Protect|p2a: MiRhydon
+|-singleturn|p2a: MiRhydon|Protect
+|move|p1a: Groudon|Heat Crash|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|move|p1b: Cresselia|Lunar Blessing|p1b: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Groudon|76/100
+|
+|-weather|none
+|-heal|p2b: Lunala|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750784149
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Bug|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1b: Cresselia|atk|1
+|move|p1a: Groudon|Precipice Blades|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: MiRhydon
+|-resisted|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2a: MiRhydon|0 fnt
+|-damage|p2b: Incineroar|67/100
+|faint|p2a: MiRhydon
+|move|p1b: Cresselia|Lunar Blessing|p1b: Cresselia|[spread] p1a,p1b
+|-heal|p1a: Groudon|100/100
+|
+|upkeep
+|
+|t:|1750784163
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|turn|7
+|
+|t:|1750784179
+|move|p2a: Landorus|Taunt|p1b: Cresselia
+|-start|p1b: Cresselia|move: Taunt
+|move|p1a: Groudon|Heat Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|6/100
+|move|p2b: Incineroar|Parting Shot|p1a: Groudon
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1a: Groudon|spa|1
+|-message|Litryes forfeited.
+|
+|win|WoodJeremy
+|raw|Litryes's rating: 1069 &rarr; <strong>1052</strong><br />(-17 for losing)
+|raw|WoodJeremy's rating: 1123 &rarr; <strong>1144</strong><br />(+21 for winning)
+|l|☆Litryes
+|player|p1|
+|l|☆WoodJeremy
+|player|p2|
+|j|☆WoodJeremy
+|player|p2|WoodJeremy|101|

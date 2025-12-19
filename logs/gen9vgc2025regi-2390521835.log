@@ -1,0 +1,203 @@
+|j|☆jerryoftheriver
+|j|☆rman500
+|t:|1750723688
+|gametype|doubles
+|player|p1|jerryoftheriver|lady|1309
+|player|p2|rman500|265|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gastrodon, L50, F|
+|poke|p2|Great Tusk, L50|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jerryoftheriver)
+|
+|t:|1750723721
+|start
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Raging Bolt|atk|1
+|turn|1
+|
+|t:|1750723737
+|move|p1a: Hitmontop|Fake Out|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|93/100
+|move|p2a: Zacian|Play Rough|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|cant|p2b: Raging Bolt|flinch
+|
+|upkeep
+|
+|t:|1750723752
+|switch|p2a: Tsareena|Tsareena, L50, F, shiny|100/100
+|switch|p1a: Gastrodon|Gastrodon, L50, F|100/100
+|turn|2
+|
+|t:|1750723772
+|-terastallize|p1b: Ho-Oh|Grass
+|move|p2a: Tsareena|Protect|p2a: Tsareena
+|-singleturn|p2a: Tsareena|Protect
+|move|p1a: Gastrodon|Protect|p1a: Gastrodon
+|-singleturn|p1a: Gastrodon|Protect
+|move|p1b: Ho-Oh|Brave Bird|p2a: Tsareena
+|-activate|p2a: Tsareena|move: Protect
+|move|p2b: Raging Bolt|Thunderbolt|p1b: Ho-Oh
+|-resisted|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|86/100
+|-status|p1b: Ho-Oh|par
+|
+|upkeep
+|turn|3
+|
+|t:|1750723784
+|switch|p1a: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-terastallize|p2a: Tsareena|Ice
+|move|p2a: Tsareena|Triple Axel|p1b: Ho-Oh
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|68/100 par
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|30/100 par
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|-hitcount|p1: Ho-Oh|3
+|move|p2b: Raging Bolt|Dragon Pulse|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|94/100|[from] Sandstorm
+|-damage|p2b: Raging Bolt|87/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750723787
+|switch|p1b: Gastrodon|Gastrodon, L50, F|100/100
+|turn|4
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750723820
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Tsareena|Power Whip|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Raging Bolt|[spread] p2a,p2b
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|14/100
+|-damage|p2b: Raging Bolt|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|8/100|[from] Sandstorm
+|-damage|p2b: Raging Bolt|55/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1750723836
+|move|p2a: Tsareena|Protect|p2a: Tsareena
+|-singleturn|p2a: Tsareena|Protect
+|move|p1b: Gastrodon|Protect||[still]
+|-fail|p1b: Gastrodon
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|43/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Tsareena|[spread] p2b
+|-activate|p2a: Tsareena|move: Protect
+|-damage|p2b: Raging Bolt|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tsareena|2/100|[from] Sandstorm
+|-damage|p2b: Raging Bolt|21/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1750723857
+|switch|p2a: Great Tusk|Great Tusk, L50, shiny|100/100
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|26/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Raging Bolt|[spread] p2a
+|-miss|p1a: Tyranitar|p2b: Raging Bolt
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Raging Bolt|15/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|jerryoftheriver has 30 seconds left.
+|inactive|rman500 has 30 seconds left.
+|inactive|rman500 has 20 seconds left.
+|
+|t:|1750723892
+|move|p2a: Great Tusk|Close Combat|p1b: Gastrodon
+|-damage|p1b: Gastrodon|45/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p2b: Raging Bolt|Electroweb|p1a: Tyranitar|[spread] p1a
+|-immune|p1b: Gastrodon
+|-damage|p1a: Tyranitar|17/100
+|-unboost|p1a: Tyranitar|spe|1
+|move|p1a: Tyranitar|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|22/100
+|move|p1b: Gastrodon|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|-heal|p1b: Gastrodon|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750723900
+|switch|p2a: Tsareena|Tsareena, L50, F, shiny, tera:Ice|2/100
+|turn|8
+|
+|t:|1750723910
+|move|p2a: Tsareena|Triple Axel|p1b: Gastrodon
+|-crit|p1b: Gastrodon
+|-damage|p1b: Gastrodon|38/100
+|-damage|p1b: Gastrodon|19/100
+|-damage|p1b: Gastrodon|0 fnt
+|faint|p1b: Gastrodon
+|-hitcount|p1: Gastrodon|3
+|move|p2b: Raging Bolt|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|rman500
+|raw|jerryoftheriver's rating: 1309 &rarr; <strong>1291</strong><br />(-18 for losing)
+|raw|rman500's rating: 1350 &rarr; <strong>1368</strong><br />(+18 for winning)
+|l|☆jerryoftheriver
+|player|p1|
+|l|☆rman500
+|player|p2|

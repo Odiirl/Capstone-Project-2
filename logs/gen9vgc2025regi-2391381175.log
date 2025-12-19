@@ -1,0 +1,155 @@
+|j|☆pkmnboo
+|j|☆Binccc
+|t:|1750847156
+|gametype|doubles
+|player|p1|pkmnboo|rood|1246
+|player|p2|Binccc|pokekid|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Zekrom, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Crown, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Binccc)
+|inactive|pkmnboo also wants the timer to be on.
+|inactive|pkmnboo has 60 seconds left.
+|
+|t:|1750847207
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Iron Crown|Iron Crown, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|1
+|
+|t:|1750847218
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Crown|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p2b: Indeedee|Helping Hand|p2a: Iron Crown
+|-singleturn|p2a: Iron Crown|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Iron Crown|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|60/100
+|move|p1b: Calyrex|Astral Barrage|p2a: Iron Crown|[spread] p2a
+|-immune|p2b: Indeedee
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|
+|upkeep
+|inactive|Binccc has 30 seconds left.
+|
+|t:|1750847244
+|switch|p2a: Kyurem|Kyurem-White, L50|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|2
+|
+|t:|1750847259
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Kyurem|Protect|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Kyurem
+|-activate|p2a: Kyurem|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|3
+|
+|t:|1750847282
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1750847292
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|60/100|[from] Parting Shot
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Kyurem|Fusion Flare|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-damage|p2a: Kyurem|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750847304
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|4
+|
+|t:|1750847318
+|move|p2b: Indeedee|Helping Hand|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|53/100
+|-enditem|p2a: Kyurem|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Kyurem|Draco Meteor|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1750847341
+|move|p2b: Indeedee|Helping Hand|p2a: Kyurem
+|-singleturn|p2a: Kyurem|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|52/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Calyrex
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|pkmnboo forfeited.
+|
+|win|Binccc
+|raw|pkmnboo's rating: 1246 &rarr; <strong>1226</strong><br />(-20 for losing)
+|raw|Binccc's rating: 1310 &rarr; <strong>1326</strong><br />(+16 for winning)
+|l|☆pkmnboo
+|player|p1|
+|l|☆Binccc
+|player|p2|

@@ -1,0 +1,191 @@
+|j|☆Harla
+|j|☆pokegemon
+|t:|1750706970
+|gametype|doubles
+|player|p1|Harla|102|1321
+|player|p2|pokegemon|170|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Drifblim, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pokegemon)
+|
+|t:|1750706997
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Drifblim|Drifblim, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750707013
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1b: Flutter Mane|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|-enditem|p2a: Indeedee|Mental Herb
+|-end|p2a: Indeedee|move: Taunt
+|move|p1a: Ho-Oh|Brave Bird|p2a: Indeedee
+|-damage|p2a: Indeedee|34/100
+|-damage|p1a: Ho-Oh|82/100|[from] Recoil
+|
+|-heal|p1a: Ho-Oh|88/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750707031
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1b: Flutter Mane|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1a: Ho-Oh|Brave Bird|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Ho-Oh|79/100|[from] Recoil
+|
+|-heal|p1a: Ho-Oh|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750707041
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750707055
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p2a: Calyrex|Psych Up|p2b: Drifblim
+|-copyboost|p2a: Calyrex|p2b: Drifblim|[from] move: Psych Up
+|move|p1b: Flutter Mane|Trick Room|p1b: Flutter Mane
+|-fieldstart|move: Trick Room|[of] p1b: Flutter Mane
+|
+|upkeep
+|turn|4
+|inactive|pokegemon has 30 seconds left.
+|
+|t:|1750707085
+|move|p2b: Drifblim|Protect|p2b: Drifblim
+|-singleturn|p2b: Drifblim|Protect
+|move|p1a: Primarina|Haze|p1a: Primarina
+|-clearallboost
+|move|p1b: Flutter Mane|Taunt|p2b: Drifblim
+|-activate|p2b: Drifblim|move: Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1b: Flutter Mane
+|-damage|p1a: Primarina|55/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750707107
+|move|p1a: Primarina|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|60/100
+|move|p1b: Flutter Mane|Taunt|p2b: Drifblim
+|-start|p2b: Drifblim|move: Taunt
+|move|p2a: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1b: Flutter Mane
+|-damage|p1a: Primarina|10/100
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|cant|p2b: Drifblim|move: Taunt|Minimize
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750707121
+|switch|p1b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|turn|6
+|
+|t:|1750707132
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Primarina|Haze|p1a: Primarina
+|-clearallboost
+|move|p1b: Ho-Oh|Sacred Fire|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|29/100
+|-status|p2b: Zamazenta|brn
+|
+|-damage|p2b: Zamazenta|23/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|Harla has 30 seconds left.
+|inactive|pokegemon has 30 seconds left.
+|
+|t:|1750707167
+|move|p1a: Primarina|Hyper Voice|p2b: Zamazenta|[spread] p2a,p2b
+|-damage|p2a: Calyrex|31/100
+|-damage|p2b: Zamazenta|2/100 brn
+|move|p1b: Ho-Oh|Brave Bird|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-enditem|p1a: Primarina|Sitrus Berry|[eat]
+|-heal|p1a: Primarina|35/100|[from] item: Sitrus Berry
+|faint|p2a: Calyrex
+|-damage|p1b: Ho-Oh|93/100|[from] Recoil
+|move|p2b: Zamazenta|Body Press|p1b: Ho-Oh
+|-resisted|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|81/100
+|
+|-heal|p1b: Ho-Oh|87/100|[from] item: Leftovers
+|-damage|p2b: Zamazenta|0 fnt|[from] brn
+|faint|p2b: Zamazenta
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750707186
+|switch|p2a: Drifblim|Drifblim, L50, F, shiny|100/100
+|turn|8
+|
+|t:|1750707191
+|-terastallize|p2a: Drifblim|Dark
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: pokegemon|move: Tailwind
+|move|p1b: Ho-Oh|Sacred Fire|p2a: Drifblim
+|-damage|p2a: Drifblim|39/100
+|-status|p2a: Drifblim|brn
+|move|p1a: Primarina|Moonblast|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|win|Harla
+|raw|Harla's rating: 1321 &rarr; <strong>1341</strong><br />(+20 for winning)
+|raw|pokegemon's rating: 1326 &rarr; <strong>1306</strong><br />(-20 for losing)
+|l|☆pokegemon
+|player|p2|
+|l|☆Harla
+|player|p1|

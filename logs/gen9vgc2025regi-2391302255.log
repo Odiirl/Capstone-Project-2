@@ -1,0 +1,176 @@
+|j|☆gu7rixx
+|j|☆PiniTera
+|t:|1750831794
+|gametype|doubles
+|player|p1|gu7rixx|hoopster|1255
+|player|p2|PiniTera|2|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750831838
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Calyrex|Electric Seed
+|-boost|p2a: Calyrex|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gu7rixx)
+|inactive|gu7rixx has 60 seconds left.
+|
+|t:|1750831896
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Calyrex|Calm Mind|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|1
+|-boost|p2a: Calyrex|spd|1
+|move|p2b: Miraidon|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|
+|t:|1750831905
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750831919
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|95/100
+|move|p2a: Calyrex|Psychic|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|24/100
+|cant|p1b: Calyrex|flinch
+|
+|-heal|p1b: Calyrex|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750831940
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Amoonguss|52/100
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Incineroar|Knock Off|p1b: Amoonguss
+|-damage|p1b: Amoonguss|8/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-enditem|p1b: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750831955
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|4
+|
+|t:|1750831972
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Kyogre|[spread] p1a
+|-activate|p1b: Amoonguss|move: Protect
+|-damage|p1a: Kyogre|24/100
+|move|p1a: Kyogre|Hydro Pump|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750831991
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750832005
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Kyogre|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p2b: Urshifu|Surging Strikes|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|-hitcount|p1: Kyogre|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750832019
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750832031
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Urshifu|Surging Strikes|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|77/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|53/100
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|29/100
+|-hitcount|p1a: Calyrex|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|34/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750832045
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|PiniTera
+|raw|gu7rixx's rating: 1255 &rarr; <strong>1238</strong><br />(-17 for losing)
+|raw|PiniTera's rating: 1363 &rarr; <strong>1377</strong><br />(+14 for winning)

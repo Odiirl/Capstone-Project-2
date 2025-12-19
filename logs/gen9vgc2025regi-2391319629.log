@@ -1,0 +1,189 @@
+|j|☆crik9494
+|j|☆Jakobwsmurfing
+|t:|1750835291
+|gametype|doubles
+|player|p1|crik9494|1|1292
+|player|p2|Jakobwsmurfing|266|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p2|Regieleki, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Great Tusk, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jakobwsmurfing)
+|
+|t:|1750835348
+|start
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Jakobwsmurfing has 30 seconds left.
+|inactive|Jakobwsmurfing has 20 seconds left.
+|inactive|Jakobwsmurfing has 15 seconds left.
+|
+|t:|1750835392
+|move|p1b: Sableye|Reflect|p1b: Sableye
+|-sidestart|p1: crik9494|Reflect
+|move|p2b: Lilligant|Sleep Powder|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Sleep Powder
+|move|p2a: Koraidon|Flare Blitz|p1b: Sableye
+|-damage|p1b: Sableye|8/100
+|-damage|p2a: Koraidon|79/100|[from] Recoil
+|-damage|p2a: Koraidon|69/100|[from] item: Life Orb
+|cant|p1a: Necrozma|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835413
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1a: Necrozma
+|-damage|p1a: Necrozma|70/100 slp
+|move|p2a: Koraidon|Flame Charge|p1b: Sableye
+|-damage|p1b: Sableye|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Sableye
+|-damage|p2a: Koraidon|59/100|[from] item: Life Orb
+|cant|p1a: Necrozma|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835430
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|-enditem|p1b: Iron Valiant|Booster Energy
+|-activate|p1b: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|3
+|inactive|Jakobwsmurfing has 30 seconds left.
+|
+|t:|1750835461
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|48/100
+|move|p1b: Iron Valiant|Spirit Break|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-curestatus|p1a: Necrozma|slp|[msg]
+|move|p1a: Necrozma|Trick Room|p1a: Necrozma
+|-fieldstart|move: Trick Room|[of] p1a: Necrozma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835470
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|inactive|crik9494 has 30 seconds left.
+|
+|t:|1750835499
+|-terastallize|p2a: Hatterene|Dark
+|move|p2a: Hatterene|After You|p2b: Lilligant
+|-activate|p2b: Lilligant|move: After You
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|3/100
+|move|p1a: Necrozma|Moongeist Beam|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|68/100
+|move|p1b: Iron Valiant|Spirit Break|p2b: Lilligant
+|-supereffective|p2b: Lilligant
+|-damage|p2b: Lilligant|7/100
+|-unboost|p2b: Lilligant|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|crik9494 has 30 seconds left.
+|
+|t:|1750835534
+|move|p2a: Hatterene|Dazzling Gleam|p1b: Iron Valiant|[spread] p1a,p1b
+|-supereffective|p1b: Iron Valiant
+|-damage|p1a: Necrozma|49/100
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p1a: Necrozma|Meteor Beam||[still]
+|-prepare|p1a: Necrozma|Meteor Beam
+|-boost|p1a: Necrozma|spa|1
+|-enditem|p1a: Necrozma|Power Herb
+|-anim|p1a: Necrozma|Meteor Beam|p2a: Hatterene|[miss]
+|-miss|p1a: Necrozma|p2a: Hatterene
+|move|p2b: Lilligant|Sleep Powder|p1a: Necrozma
+|-status|p1a: Necrozma|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|upkeep
+|
+|t:|1750835549
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750835567
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Necrozma|[spread] p1a,p1b
+|-damage|p1a: Necrozma|30/100 slp
+|-damage|p1b: Calyrex|84/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Hatterene|[spread] p2a,p2b
+|-supereffective|p2b: Lilligant
+|-damage|p2a: Hatterene|18/100
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2b: Lilligant
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|cant|p1a: Necrozma|slp
+|
+|-heal|p1b: Calyrex|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750835572
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|7
+|inactive|crik9494 has 30 seconds left.
+|
+|t:|1750835597
+|move|p2a: Hatterene|After You|p2b: Calyrex
+|-activate|p2b: Calyrex|move: After You
+|move|p2b: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Necrozma
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1a: Necrozma|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Necrozma
+|faint|p1b: Calyrex
+|
+|win|Jakobwsmurfing
+|raw|crik9494's rating: 1292 &rarr; <strong>1260</strong><br />(-32 for losing)
+|raw|Jakobwsmurfing's rating: 1199 &rarr; <strong>1231</strong><br />(+32 for winning)
+|l|☆Jakobwsmurfing
+|player|p2|
+|l|☆crik9494
+|player|p1|

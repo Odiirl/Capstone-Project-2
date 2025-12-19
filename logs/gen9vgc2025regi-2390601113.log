@@ -1,0 +1,187 @@
+|j|☆ParadoxUnivxrse
+|j|☆TotallyNotAutistic
+|t:|1750734593
+|gametype|doubles
+|player|p1|ParadoxUnivxrse|n|1246
+|player|p2|TotallyNotAutistic|n|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|
+|t:|1750734626
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Jugulis|ability: Quark Drive
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750734657
+|-terastallize|p1b: Miraidon|Electric
+|-terastallize|p2a: Farigiraf|Grass
+|move|p1a: Iron Jugulis|Tailwind|p1a: Iron Jugulis
+|-sidestart|p1: ParadoxUnivxrse|move: Tailwind
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Farigiraf|72/100
+|-damage|p2b: Miraidon|55/100
+|move|p2b: Miraidon|Volt Switch|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|t:|1750734666
+|switch|p2b: Dialga|Dialga-Origin, L50|100/100|[from] Volt Switch
+|-ability|p2b: Dialga|Pressure
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|
+|t:|1750734678
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|2
+|
+|t:|1750734689
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Farigiraf|Helping Hand|p2b: Dialga
+|-singleturn|p2b: Dialga|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Dialga|Draco Meteor|p1a: Kyogre
+|-damage|p1a: Kyogre|11/100
+|-unboost|p2b: Dialga|spa|2
+|move|p1a: Kyogre|Water Spout|p2b: Dialga|[spread] p2a,p2b
+|-resisted|p2a: Farigiraf
+|-resisted|p2b: Dialga
+|-damage|p2a: Farigiraf|67/100
+|-damage|p2b: Dialga|96/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750734716
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Dialga|Draco Meteor|p1b: Amoonguss
+|-damage|p1b: Amoonguss|58/100
+|-unboost|p2b: Dialga|spa|2
+|move|p1a: Kyogre|Origin Pulse|p2a: Iron Hands|[spread] p2a
+|-miss|p1a: Kyogre|p2b: Dialga
+|-damage|p2a: Iron Hands|29/100
+|-enditem|p2a: Iron Hands|Sitrus Berry|[eat]
+|-heal|p2a: Iron Hands|54/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750734740
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Iron Hands|Wild Charge|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|22/100
+|-damage|p2a: Iron Hands|38/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|-damage|p2a: Iron Hands|30/100|[from] Recoil
+|move|p2b: Dialga|Draco Meteor|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2b: Dialga|spa|2
+|faint|p1b: Amoonguss
+|move|p1a: Kyogre|Origin Pulse|p2b: Dialga|[spread] p2a,p2b
+|-resisted|p2b: Dialga
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Dialga|68/100
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: ParadoxUnivxrse|move: Tailwind
+|upkeep
+|
+|t:|1750734757
+|switch|p2a: Farigiraf|Farigiraf, L50, F, tera:Grass|67/100
+|switch|p1b: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750734799
+|switch|p2b: Miraidon|Miraidon, L50|55/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1a: Kyogre|Ice Beam|p2a: Farigiraf
+|-activate|p2a: Farigiraf|move: Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|33/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750734822
+|switch|p2a: Dialga|Dialga-Origin, L50|68/100
+|-ability|p2a: Dialga|Pressure
+|move|p1b: Miraidon|Electro Drift|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|19/100
+|move|p2b: Miraidon|Volt Switch|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|t:|1750734831
+|switch|p2b: Farigiraf|Farigiraf, L50, F, tera:Grass|67/100|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1750734838
+|move|p1b: Miraidon|Electro Drift|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|21/100
+|move|p2a: Dialga|Earth Power|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|35/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|8
+|-message|ParadoxUnivxrse forfeited.
+|
+|win|TotallyNotAutistic
+|raw|ParadoxUnivxrse's rating: 1246 &rarr; <strong>1218</strong><br />(-28 for losing)
+|raw|TotallyNotAutistic's rating: 1208 &rarr; <strong>1236</strong><br />(+28 for winning)
+|l|☆ParadoxUnivxrse
+|player|p1|

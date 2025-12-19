@@ -1,0 +1,133 @@
+|j|☆yeohgi2
+|j|☆Ponytuils
+|t:|1750774308
+|gametype|doubles
+|player|p1|yeohgi2|hilbert-wonderlauncher|1372
+|player|p2|Ponytuils|1|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ponytuils)
+|inactive|yeohgi2 has 60 seconds left.
+|inactive|yeohgi2 has 30 seconds left.
+|
+|t:|1750774376
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Ponytuils has 30 seconds left.
+|
+|t:|1750774408
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Miraidon|Draco Meteor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|24/100
+|-unboost|p2a: Miraidon|spa|2
+|move|p2b: Farigiraf|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750774426
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|2
+|
+|t:|1750774439
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-damage|p1a: Koraidon|58/100|[from] Recoil
+|-damage|p1a: Koraidon|48/100|[from] item: Life Orb
+|move|p2a: Miraidon|Draco Meteor|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Koraidon
+|move|p1b: Rillaboom|U-turn|p2a: Miraidon
+|-damage|p2a: Miraidon|76/100
+|
+|t:|1750774447
+|switch|p1b: Ho-Oh|Ho-Oh, L50|100/100|[from] U-turn
+|-ability|p1b: Ho-Oh|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Miraidon|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750774457
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750774471
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Ho-Oh|atk|1
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Ho-Oh|Sacred Fire|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750774488
+|-terastallize|p2b: Calyrex|Fire
+|move|p2a: Incineroar|Fake Out|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|91/100
+|cant|p1b: Ho-Oh|flinch
+|move|p1a: Rillaboom|U-turn|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|97/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|100/100|[from] Grassy Terrain
+|-heal|p1b: Ho-Oh|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-message|yeohgi2 forfeited.
+|
+|win|Ponytuils
+|raw|yeohgi2's rating: 1372 &rarr; <strong>1347</strong><br />(-25 for losing)
+|raw|Ponytuils's rating: 1279 &rarr; <strong>1311</strong><br />(+32 for winning)
+|l|☆yeohgi2
+|player|p1|
+|c|☆Ponytuils|gg

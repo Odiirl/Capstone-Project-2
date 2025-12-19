@@ -1,0 +1,240 @@
+|j|☆cepas14
+|j|☆Locochon2000
+|t:|1750829346
+|gametype|doubles
+|player|p1|cepas14|169|1211
+|player|p2|Locochon2000|shadowtriad|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Pelipper, L50, F|
+|teampreview|4
+|
+|t:|1750829367
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1750829388
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|93/100
+|cant|p2b: Incineroar|flinch
+|move|p2a: Swampert|Stealth Rock|p1a: Calyrex
+|-sidestart|p1: cepas14|move: Stealth Rock
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750829404
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-damage|p1b: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Swampert|[spread] p2a
+|-activate|p2b: Incineroar|move: Protect
+|-damage|p2a: Swampert|70/100
+|-enditem|p2a: Swampert|Red Card|[of] p1a: Calyrex
+|drag|p1a: Incineroar|Incineroar, L50, M|100/100
+|-damage|p1a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2a: Swampert|Muddy Water|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|-damage|p1b: Grimmsnarl|67/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750829437
+|move|p1a: Incineroar|Fake Out|p2a: Swampert
+|-damage|p2a: Swampert|60/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: cepas14|Reflect
+|move|p2b: Incineroar|Parting Shot|p1a: Incineroar
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1750829446
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] Parting Shot
+|cant|p2a: Swampert|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1750829461
+|move|p2a: Swampert|Yawn|p1a: Incineroar
+|-start|p1a: Incineroar|move: Yawn|[of] p2a: Swampert
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|32/100
+|-unboost|p2b: Urshifu|spa|1
+|move|p1a: Incineroar|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|44/100
+|move|p2b: Urshifu|U-turn|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|44/100
+|
+|t:|1750829472
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100|[from] U-turn
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|
+|upkeep
+|turn|5
+|
+|t:|1750829494
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-damage|p1a: Urshifu|95/100|[from] Stealth Rock
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|move|p2a: Swampert|Yawn|p1a: Urshifu
+|-start|p1a: Urshifu|move: Yawn|[of] p2a: Swampert
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750829522
+|switch|p1a: Incineroar|Incineroar, L50, M|48/100
+|-damage|p1a: Incineroar|23/100|[from] Stealth Rock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Chien-Pao|atk|1
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Chien-Pao
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Swampert|Muddy Water|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|18/100
+|
+|upkeep
+|
+|t:|1750829535
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|95/100
+|-damage|p1a: Urshifu|89/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1750829568
+|-terastallize|p2a: Swampert|Grass
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1a: Urshifu|Surging Strikes|p2a: Swampert
+|-resisted|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|25/100
+|-resisted|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|7/100
+|-resisted|p2a: Swampert
+|-crit|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|-hitcount|p2: Swampert|3
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Chien-Pao
+|-activate|p2b: Chien-Pao|move: Protect
+|
+|upkeep
+|
+|t:|1750829582
+|switch|p2a: Incineroar|Incineroar, L50, F|93/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|8
+|
+|t:|1750829620
+|-terastallize|p1a: Urshifu|Ghost
+|move|p2a: Incineroar|Fake Out|p1a: Urshifu
+|-immune|p1a: Urshifu
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Urshifu
+|-immune|p1a: Urshifu
+|move|p1a: Urshifu|Surging Strikes|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|10/100
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-hitcount|p2: Incineroar|2
+|move|p1b: Grimmsnarl|Spirit Break|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|42/100
+|-unboost|p2b: Chien-Pao|spa|1
+|
+|upkeep
+|
+|t:|1750829637
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|32/100
+|turn|9
+|
+|t:|1750829653
+|move|p2b: Chien-Pao|Sucker Punch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|50/100
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Urshifu
+|-status|p2a: Urshifu|par
+|move|p1a: Urshifu|Surging Strikes|p2b: Chien-Pao
+|-crit|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|1/100
+|-crit|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|-hitcount|p2: Chien-Pao|2
+|move|p2a: Urshifu|Surging Strikes|p1b: Grimmsnarl
+|-crit|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|1
+|
+|upkeep
+|
+|t:|1750829662
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-damage|p1b: Calyrex|76/100|[from] Stealth Rock
+|turn|10
+|-message|Locochon2000 forfeited.
+|
+|win|cepas14
+|raw|cepas14's rating: 1211 &rarr; <strong>1229</strong><br />(+18 for winning)
+|raw|Locochon2000's rating: 1107 &rarr; <strong>1089</strong><br />(-18 for losing)
+|l|☆Locochon2000
+|player|p2|
+|l|☆cepas14
+|player|p1|

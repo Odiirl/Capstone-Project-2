@@ -1,0 +1,156 @@
+|j|☆DROOOOOGS
+|j|☆EIDIL_YT
+|t:|1750743691
+|gametype|doubles
+|player|p1|DROOOOOGS|1|1215
+|player|p2|EIDIL_YT|hilbert-wonderlauncher|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Gastrodon, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EIDIL_YT)
+|inactive|DROOOOOGS has 60 seconds left.
+|inactive|EIDIL_YT has 60 seconds left.
+|
+|t:|1750743745
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Gastrodon|Gastrodon, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1750743768
+|-terastallize|p1a: Torkoal|Ground
+|move|p2a: Miraidon|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1a: Torkoal
+|move|p2b: Farigiraf|Hyper Voice|p1b: Gastrodon
+|-damage|p1b: Gastrodon|71/100
+|move|p1b: Gastrodon|Earth Power|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743782
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|2
+|inactive|EIDIL_YT has 30 seconds left.
+|
+|t:|1750743816
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Miraidon|Draco Meteor|p1b: Gastrodon
+|-damage|p1b: Gastrodon|6/100
+|-unboost|p2a: Miraidon|spa|2
+|move|p1b: Gastrodon|Earth Power|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743831
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1750743845
+|-terastallize|p2b: Iron Hands|Fire
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Farigiraf|Hyper Voice|p1a: Calyrex|[spread] p1a
+|-activate|p1b: Gastrodon|move: Protect
+|-damage|p1a: Calyrex|84/100
+|move|p2b: Iron Hands|Tera Blast|p1a: Calyrex|[anim] Tera Blast Fire
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750743855
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Iron Hands|[from] ability: Imposter
+|-start|p1a: Ditto|typechange|Fighting/Electric|[silent]
+|turn|4
+|
+|t:|1750743879
+|move|p2a: Farigiraf|Ally Switch|p2a: Farigiraf
+|swap|p2a: Farigiraf|1|[from] move: Ally Switch
+|move|p1a: Ditto|Wild Charge|p2b: Farigiraf
+|-damage|p2b: Farigiraf|27/100
+|-damage|p1a: Ditto|75/100|[from] Recoil
+|-damage|p1a: Ditto|65/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Close Combat|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Iron Hands|def|1
+|-unboost|p2a: Iron Hands|spd|1
+|faint|p1a: Ditto
+|-end|p1a: Ditto|Quark Drive|[silent]
+|move|p1b: Gastrodon|Muddy Water|p2b: Farigiraf|[spread] p2a
+|-miss|p1b: Gastrodon|p2b: Farigiraf
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|23/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750743899
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2b: Farigiraf|Hyper Voice|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|move|p2a: Iron Hands|Close Combat|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-weather|none
+|-heal|p1b: Gastrodon|29/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|-message|DROOOOOGS forfeited.
+|
+|win|EIDIL_YT
+|raw|DROOOOOGS's rating: 1215 &rarr; <strong>1198</strong><br />(-17 for losing)
+|raw|EIDIL_YT's rating: 1334 &rarr; <strong>1347</strong><br />(+13 for winning)
+|l|☆DROOOOOGS
+|player|p1|
+|l|☆EIDIL_YT
+|player|p2|

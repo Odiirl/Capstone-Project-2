@@ -1,0 +1,202 @@
+|j|☆MarcosXJeudyOTP
+|j|☆Uliatyy
+|t:|1750770919
+|gametype|doubles
+|player|p1|MarcosXJeudyOTP|265|1291
+|player|p2|Uliatyy|grimsley|1211
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Tatsugiri-Droopy, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+Uliatyy rejected open team sheets.
+|
+|t:|1750770947
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Sneasler|Electric Seed
+|-boost|p1b: Sneasler|def|1|[from] item: Electric Seed
+|-enditem|p2a: Meowstic|Electric Seed
+|-boost|p2a: Meowstic|def|1|[from] item: Electric Seed
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750770962
+|move|p1b: Sneasler|Fake Out|p2b: Iron Hands
+|-damage|p2b: Iron Hands|90/100
+|move|p2a: Meowstic|Fake Out|p1b: Sneasler
+|-damage|p1b: Sneasler|95/100
+|cant|p2b: Iron Hands|flinch
+|move|p1a: Miraidon|Draco Meteor|p2b: Iron Hands|[miss]
+|-miss|p1a: Miraidon|p2b: Iron Hands
+|
+|upkeep
+|turn|2
+|
+|t:|1750770985
+|move|p1b: Sneasler|Dire Claw|p2b: Iron Hands
+|-damage|p2b: Iron Hands|56/100
+|move|p1a: Miraidon|Draco Meteor|p2b: Iron Hands
+|-damage|p2b: Iron Hands|8/100
+|-unboost|p1a: Miraidon|spa|2
+|move|p2b: Iron Hands|Low Kick|p1a: Miraidon
+|-damage|p1a: Miraidon|6/100
+|move|p2a: Meowstic|Trick Room|p2a: Meowstic
+|-fieldstart|move: Trick Room|[of] p2a: Meowstic
+|
+|upkeep
+|turn|3
+|
+|t:|1750771004
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Iron Hands|Low Kick|p1a: Calyrex
+|-damage|p1a: Calyrex|41/100
+|move|p2a: Meowstic|Psychic|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|upkeep
+|
+|t:|1750771014
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|4
+|
+|t:|1750771034
+|-terastallize|p2a: Meowstic|Dark
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: Uliatyy|move: Light Screen
+|move|p1b: Ting-Lu|Ruination|p2a: Meowstic
+|-damage|p2a: Meowstic|51/100
+|move|p2b: Iron Hands|Drain Punch|p1b: Ting-Lu
+|-supereffective|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|48/100
+|-heal|p2b: Iron Hands|37/100|[from] drain|[of] p1b: Ting-Lu
+|move|p1a: Calyrex|Glacial Lance|p2a: Meowstic|[spread] p2a,p2b
+|-damage|p2a: Meowstic|13/100
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750771049
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750771081
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1b: Ting-Lu|Protect|p1b: Ting-Lu
+|-singleturn|p1b: Ting-Lu|Protect
+|move|p2b: Calyrex|Glacial Lance|p1b: Ting-Lu|[spread] p1a
+|-activate|p1b: Ting-Lu|move: Protect
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|24/100
+|move|p1a: Calyrex|Leech Seed|p2b: Calyrex
+|-start|p2b: Calyrex|move: Leech Seed
+|
+|-damage|p2b: Calyrex|88/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|36/100|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750771111
+|switch|p2a: Meowstic|Meowstic, L50, M, tera:Dark|13/100
+|-terastallize|p1b: Ting-Lu|Fairy
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Ting-Lu|Sand Tomb|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-damage|p2b: Calyrex|76/100|[from] Leech Seed|[of] p1a: Calyrex
+|-heal|p1a: Calyrex|48/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750771124
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|7
+|
+|t:|1750771144
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2b: Calyrex|Glacial Lance|p1b: Ting-Lu
+|-damage|p1b: Ting-Lu|11/100
+|move|p1b: Ting-Lu|Sand Tomb|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|74/100
+|-activate|p2a: Miraidon|move: Sand Tomb|[of] p1b: Ting-Lu
+|
+|-damage|p2a: Miraidon|57/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|c|☆Uliatyy|GG
+|
+|t:|1750771158
+|switch|p1a: Miraidon|Miraidon, L50|6/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|8
+|
+|t:|1750771168
+|move|p1b: Ting-Lu|Protect|p1b: Ting-Lu
+|-singleturn|p1b: Ting-Lu|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|49/100
+|move|p2a: Miraidon|Electro Drift|p1b: Ting-Lu
+|-activate|p1b: Ting-Lu|move: Protect
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a
+|-activate|p1b: Ting-Lu|move: Protect
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-damage|p2a: Miraidon|32/100|[from] move: Sand Tomb|[partiallytrapped]
+|-sideend|p2: Uliatyy|move: Light Screen
+|upkeep
+|turn|9
+|-message|MarcosXJeudyOTP forfeited.
+|
+|win|Uliatyy
+|raw|MarcosXJeudyOTP's rating: 1291 &rarr; <strong>1260</strong><br />(-31 for losing)
+|raw|Uliatyy's rating: 1211 &rarr; <strong>1242</strong><br />(+31 for winning)
+|l|☆MarcosXJeudyOTP
+|player|p1|
+|l|☆Uliatyy
+|player|p2|

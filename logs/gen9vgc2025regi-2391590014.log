@@ -1,0 +1,429 @@
+|j|☆RJammies
+|j|☆liquidslink
+|t:|1750873355
+|gametype|doubles
+|player|p1|RJammies|102|1083
+|player|p2|liquidslink|265|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Zapdos-Galar, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by liquidslink)
+RJammies rejected open team sheets.
+|
+|t:|1750873373
+|start
+|switch|p1a: Sauce|Dragonite, L50, F|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Zapdos|Zapdos-Galar, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Sauce|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Sauce
+|-unboost|p1b: Terapagos|atk|1
+|turn|1
+|inactive|RJammies has 30 seconds left.
+|
+|t:|1750873403
+|move|p2a: Zapdos|Protect|p2a: Zapdos
+|-singleturn|p2a: Zapdos|Protect
+|move|p1b: Terapagos|Thunderbolt|p2a: Zapdos
+|-activate|p2a: Zapdos|move: Protect
+|move|p1a: Sauce|Tailwind|p1a: Sauce
+|-sidestart|p1: RJammies|move: Tailwind
+|move|p2b: Incineroar|Parting Shot|p1a: Sauce
+|-unboost|p1a: Sauce|atk|1
+|-unboost|p1a: Sauce|spa|1
+|
+|t:|1750873416
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750873427
+|-terastallize|p2a: Zapdos|Fighting
+|move|p1b: Terapagos|Thunderbolt|p2b: Zamazenta
+|-damage|p2b: Zamazenta|71/100
+|move|p1a: Sauce|Encore|p2a: Zapdos
+|-start|p2a: Zapdos|Encore
+|move|p2b: Zamazenta|Substitute|p2b: Zamazenta
+|-start|p2b: Zamazenta|Substitute
+|-damage|p2b: Zamazenta|46/100
+|move|p2a: Zapdos|Protect||[still]
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|t:|1750873445
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|-ability|p2a: Zapdos|Defiant|boost
+|-boost|p2a: Zapdos|atk|2
+|-immune|p2b: Zamazenta
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Sauce|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Sauce
+|-unboost|p1b: Incineroar|atk|1
+|move|p1a: Sauce|Encore|p2b: Zamazenta
+|-start|p2b: Zamazenta|Encore
+|move|p2b: Zamazenta|Substitute|p2b: Zamazenta
+|-fail|p2b: Zamazenta|move: Substitute
+|
+|upkeep
+|turn|4
+|inactive|liquidslink has 30 seconds left.
+|
+|t:|1750873472
+|switch|p2b: Zapdos|Zapdos-Galar, L50, tera:Fighting|100/100
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|93/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|cant|p2a: Incineroar|flinch
+|
+|-sideend|p1: RJammies|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750873490
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p2b: Zapdos|Thunderous Kick|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Sauce|Tailwind|p1a: Sauce
+|-sidestart|p1: RJammies|move: Tailwind
+|
+|upkeep
+|
+|t:|1750873504
+|switch|p1b: Terapagos|Terapagos-Terastal, L50, M|100/100
+|turn|6
+|
+|t:|1750873521
+|move|p1b: Terapagos|Dazzling Gleam|p2a: Terapagos|[spread] p2a,p2b
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-supereffective|p2b: Zapdos
+|-damage|p2a: Terapagos|88/100
+|-damage|p2b: Zapdos|41/100
+|move|p1a: Sauce|Substitute|p1a: Sauce
+|-start|p1a: Sauce|Substitute
+|-damage|p1a: Sauce|76/100
+|move|p2b: Zapdos|Tailwind|p2b: Zapdos
+|-sidestart|p2: liquidslink|move: Tailwind
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|94/100|[from] item: Leftovers
+|-heal|p1a: Sauce|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750873538
+|move|p2b: Zapdos|Thunderous Kick|p1b: Terapagos
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|67/100
+|-unboost|p1b: Terapagos|def|1
+|move|p1b: Terapagos|Dazzling Gleam|p2a: Terapagos|[spread] p2a,p2b
+|-supereffective|p2b: Zapdos
+|-damage|p2a: Terapagos|78/100
+|-damage|p2b: Zapdos|0 fnt
+|faint|p2b: Zapdos
+|move|p2a: Terapagos|Tera Starstorm|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|move|p1a: Sauce|Encore|p2a: Terapagos
+|-start|p2a: Terapagos|Encore
+|
+|-heal|p2a: Terapagos|85/100|[from] item: Leftovers
+|-heal|p1a: Sauce|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750873553
+|switch|p2b: Incineroar|Incineroar, L50, F|93/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-immune|p1a: Sauce
+|-unboost|p1b: Koraidon|atk|1
+|turn|8
+|
+|t:|1750873577
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|87/100
+|cant|p1b: Koraidon|flinch
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|91/100|[from] item: Leftovers
+|-heal|p1a: Sauce|94/100|[from] item: Leftovers
+|-sideend|p1: RJammies|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1750873593
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2a: Terapagos|Tera Starstorm|p1b: Koraidon
+|-damage|p1b: Koraidon|28/100
+|move|p1b: Koraidon|Flare Blitz|p2a: Terapagos
+|-damage|p2a: Terapagos|41/100
+|-damage|p1b: Koraidon|10/100|[from] Recoil
+|move|p2b: Incineroar|Parting Shot|p1b: Koraidon
+|-unboost|p1b: Koraidon|atk|1
+|-unboost|p1b: Koraidon|spa|1
+|
+|t:|1750873602
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|46/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Terapagos|47/100|[from] item: Leftovers
+|-heal|p1a: Sauce|99/100|[from] item: Leftovers
+|-sideend|p2: liquidslink|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1750873623
+|move|p1b: Koraidon|Wild Charge|p2a: Terapagos
+|-damage|p2a: Terapagos|29/100
+|-damage|p1b: Koraidon|4/100|[from] Recoil
+|move|p2b: Zamazenta|Body Press|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-end|p1a: Sauce|Substitute
+|move|p1a: Sauce|Tailwind|p1a: Sauce
+|-sidestart|p1: RJammies|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sauce|100/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|35/100|[from] item: Leftovers
+|-end|p2a: Terapagos|Encore
+|upkeep
+|turn|11
+|
+|t:|1750873637
+|move|p1a: Sauce|Substitute|p1a: Sauce
+|-start|p1a: Sauce|Substitute
+|-damage|p1a: Sauce|76/100
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-activate|p1a: Sauce|move: Substitute|[damage]
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-end|p1a: Sauce|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sauce|82/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|41/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750873647
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|
+|-weather|none
+|-heal|p1a: Sauce|88/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750873656
+|move|p1a: Sauce|Substitute|p1a: Sauce
+|-start|p1a: Sauce|Substitute
+|-damage|p1a: Sauce|63/100
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-activate|p1a: Sauce|move: Substitute|[damage]
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-end|p1a: Sauce|Substitute
+|
+|-heal|p1a: Sauce|69/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|53/100|[from] item: Leftovers
+|-sideend|p1: RJammies|move: Tailwind
+|upkeep
+|turn|14
+|
+|t:|1750873667
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p2a: Terapagos|59/100|[from] item: Leftovers
+|-heal|p1a: Sauce|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1750873676
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-damage|p1a: Sauce|51/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1a: Sauce|Encore|p2a: Terapagos
+|-start|p2a: Terapagos|Encore
+|
+|-heal|p2a: Terapagos|66/100|[from] item: Leftovers
+|-heal|p1a: Sauce|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1750873686
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-damage|p1a: Sauce|36/100
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1a: Sauce|Tailwind|p1a: Sauce
+|-sidestart|p1: RJammies|move: Tailwind
+|
+|-heal|p1a: Sauce|42/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1750873695
+|move|p1a: Sauce|Substitute|p1a: Sauce
+|-start|p1a: Sauce|Substitute
+|-damage|p1a: Sauce|17/100
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-activate|p1a: Sauce|move: Substitute|[damage]
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p1a: Sauce|23/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|78/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1750873705
+|move|p1a: Sauce|Encore||[still]
+|-fail|p1a: Sauce
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-end|p1a: Sauce|Substitute
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p1a: Sauce|29/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|84/100|[from] item: Leftovers
+|-end|p2a: Terapagos|Encore
+|upkeep
+|turn|19
+|
+|t:|1750873716
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|move|p2a: Terapagos|Tera Starstorm|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|
+|-heal|p1a: Sauce|35/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|90/100|[from] item: Leftovers
+|-sideend|p1: RJammies|move: Tailwind
+|upkeep
+|turn|20
+|
+|t:|1750873726
+|switch|p2a: Incineroar|Incineroar, L50, F|93/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Sauce|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Sauce
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-resisted|p1a: Sauce
+|-damage|p1a: Sauce|11/100
+|move|p1a: Sauce|Substitute|p1a: Sauce
+|-fail|p1a: Sauce|move: Substitute|[weak]
+|
+|-heal|p1a: Sauce|17/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1750873738
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|
+|-heal|p1a: Sauce|23/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1750873748
+|move|p1a: Sauce|Protect|p1a: Sauce
+|-singleturn|p1a: Sauce|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|move|p2a: Incineroar|Darkest Lariat|p1a: Sauce
+|-activate|p1a: Sauce|move: Protect
+|
+|-heal|p1a: Sauce|29/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1750873758
+|-terastallize|p1a: Sauce|Electric
+|move|p2b: Zamazenta|Body Press|p1a: Sauce
+|-damage|p1a: Sauce|0 fnt
+|faint|p1a: Sauce
+|
+|win|liquidslink
+|raw|RJammies's rating: 1083 &rarr; <strong>1060</strong><br />(-23 for losing)
+|raw|liquidslink's rating: 1069 &rarr; <strong>1100</strong><br />(+31 for winning)
+|c|☆liquidslink|XD
+|c|☆RJammies|gg
+|l|☆RJammies
+|player|p1|
+|c|☆liquidslink|Gg dawg
+|l|☆liquidslink
+|player|p2|

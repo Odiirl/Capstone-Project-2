@@ -1,0 +1,218 @@
+|j|☆Rn 86
+|j|‽Caller5
+|t:|1750728535
+|gametype|doubles
+|player|p1|Rn 86|101|1129
+|player|p2|Caller5|169|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Bruxish, L50, M|
+|poke|p1|Cosmoem, L50|
+|poke|p1|Vulpix-Alola, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rn 86)
+|
+|t:|1750728560
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Araquanid|Araquanid, L50, M, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|inactive|Caller5 has 30 seconds left.
+|
+|t:|1750728590
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Porygon2|Tri Attack|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|60/100
+|move|p2b: Araquanid|Leech Life|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750728600
+|switch|p1b: Vulpix|Vulpix-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Vulpix
+|turn|2
+|
+|t:|1750728613
+|move|p2b: Araquanid|Wide Guard|p2b: Araquanid
+|-singleturn|p2b: Araquanid|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Araquanid|[spread] 
+|-activate|p2a: Porygon2|move: Wide Guard
+|-activate|p2b: Araquanid|move: Wide Guard
+|move|p1b: Vulpix|Blizzard|p2a: Porygon2|[spread] 
+|-activate|p2a: Porygon2|move: Wide Guard
+|-activate|p2b: Araquanid|move: Wide Guard
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldend|move: Trick Room
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750728633
+|move|p1b: Vulpix|Blizzard|p2a: Porygon2|[spread] p2a,p2b
+|-resisted|p2b: Araquanid
+|-damage|p2a: Porygon2|83/100
+|-damage|p2b: Araquanid|90/100
+|move|p2a: Porygon2|Tri Attack|p1b: Vulpix
+|-damage|p1b: Vulpix|65/100
+|move|p2b: Araquanid|Leech Life|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|54/100
+|-heal|p2b: Araquanid|100/100|[from] drain|[of] p1a: Calyrex
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|Caller5 has 30 seconds left.
+|
+|t:|1750728658
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Vulpix|atk|1
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Vulpix|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Vulpix
+|move|p2b: Araquanid|Leech Life|p1a: Calyrex
+|-damage|p1a: Calyrex|33/100
+|-enditem|p1a: Calyrex|Sitrus Berry|[eat]
+|-heal|p1a: Calyrex|58/100|[from] item: Sitrus Berry
+|move|p1a: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|36/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|inactive|Rn 86 has 30 seconds left.
+|
+|t:|1750728687
+|move|p2a: Incineroar|Fake Out|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Psychic Terrain
+|move|p2b: Araquanid|Liquidation|p1b: Vulpix
+|-damage|p1b: Vulpix|0 fnt
+|faint|p1b: Vulpix
+|move|p1a: Calyrex|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750728706
+|switch|p2a: Porygon2|Porygon2, L50|83/100
+|switch|p1b: Meow Meow|Incineroar, L50, M|100/100
+|-ability|p1b: Meow Meow|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Araquanid|atk|1
+|turn|6
+|
+|t:|1750728731
+|move|p1b: Meow Meow|Fake Out|p2b: Araquanid
+|-damage|p2b: Araquanid|85/100
+|cant|p2b: Araquanid|flinch
+|move|p1a: Calyrex|Glacial Lance|p2b: Araquanid|[spread] p2a,p2b
+|-resisted|p2b: Araquanid
+|-damage|p2a: Porygon2|54/100
+|-damage|p2b: Araquanid|57/100
+|move|p2a: Porygon2|Tri Attack|p1b: Meow Meow
+|-damage|p1b: Meow Meow|66/100
+|-status|p1b: Meow Meow|frz
+|
+|-weather|none
+|upkeep
+|turn|7
+|inactive|Rn 86 has 30 seconds left.
+|
+|t:|1750728757
+|move|p2b: Araquanid|Leech Life|p1a: Calyrex
+|-damage|p1a: Calyrex|43/100
+|-heal|p2b: Araquanid|66/100|[from] drain|[of] p1a: Calyrex
+|move|p1a: Calyrex|Glacial Lance|p2a: Porygon2|[spread] p2a,p2b
+|-resisted|p2b: Araquanid
+|-damage|p2a: Porygon2|26/100
+|-damage|p2b: Araquanid|34/100
+|cant|p1b: Meow Meow|frz
+|move|p2a: Porygon2|Tri Attack|p1a: Calyrex
+|-damage|p1a: Calyrex|20/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|inactive|Caller5 has 30 seconds left.
+|
+|t:|1750728785
+|switch|p2a: Dialga|Dialga-Origin, L50|100/100
+|-ability|p2a: Dialga|Pressure
+|move|p2b: Araquanid|Wide Guard|p2b: Araquanid
+|-singleturn|p2b: Araquanid|Wide Guard
+|cant|p1b: Meow Meow|frz
+|move|p1a: Calyrex|Glacial Lance|p2a: Dialga|[spread] 
+|-activate|p2a: Dialga|move: Wide Guard
+|-activate|p2b: Araquanid|move: Wide Guard
+|
+|upkeep
+|turn|9
+|inactive|Caller5 has 30 seconds left.
+|inactive|Caller5 has 20 seconds left.
+|
+|t:|1750728822
+|move|p2b: Araquanid|Protect||[still]
+|-fail|p2b: Araquanid
+|move|p2a: Dialga|Earth Power|p1b: Meow Meow
+|-supereffective|p1b: Meow Meow
+|-damage|p1b: Meow Meow|0 fnt
+|faint|p1b: Meow Meow
+|move|p1a: Calyrex|High Horsepower|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-damage|p2a: Dialga|36/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750728837
+|move|p2a: Dialga|Dragon Pulse|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Caller5
+|raw|Rn 86's rating: 1129 &rarr; <strong>1100</strong><br />(-29 for losing)
+|raw|Caller5's rating: 1080 &rarr; <strong>1112</strong><br />(+32 for winning)
+|l|‽Caller5
+|player|p2|
+|l|☆Rn 86
+|player|p1|

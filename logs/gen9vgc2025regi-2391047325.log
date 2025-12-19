@@ -1,0 +1,168 @@
+|j|☆MikelMtz
+|j|☆iAiden2959
+|t:|1750796472
+|gametype|doubles
+|player|p1|MikelMtz|169|1140
+|player|p2|iAiden2959|shadowtriad|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Lurantis, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750796491
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikelMtz)
+|
+|t:|1750796513
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Tornadus|Taunt|p2b: Indeedee
+|-start|p2b: Indeedee|move: Taunt
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750796535
+|switch|p2b: Lurantis|Lurantis, L50, M|100/100
+|move|p1a: Tornadus|Rain Dance|p1a: Tornadus
+|-weather|RainDance
+|move|p2a: Calyrex|High Horsepower|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|12/100
+|move|p1b: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|24/100
+|
+|t:|1750796556
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|iAiden2959 has 30 seconds left.
+|
+|t:|1750796583
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Lurantis|Substitute|p2b: Lurantis
+|-start|p2b: Lurantis|Substitute
+|-damage|p2b: Lurantis|76/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Lurantis
+|-end|p2b: Lurantis|Substitute
+|-damage|p2a: Indeedee|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lurantis|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|iAiden2959 has 30 seconds left.
+|inactive|iAiden2959 has 20 seconds left.
+|
+|t:|1750796620
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Lurantis|Substitute|p2b: Lurantis
+|-start|p2b: Lurantis|Substitute
+|-damage|p2b: Lurantis|57/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Lurantis|[spread] p2a,p2b
+|-supereffective|p2b: Lurantis
+|-crit|p2b: Lurantis
+|-end|p2b: Lurantis|Substitute
+|-damage|p2a: Indeedee|42/100
+|move|p1b: Urshifu|Surging Strikes|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p1b: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lurantis|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750796638
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750796657
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2a: Iron Hands|Fake Out|p1a: Tornadus
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p1a: Tornadus|74/100
+|move|p2b: Lurantis|Substitute|p2b: Lurantis
+|-start|p2b: Lurantis|Substitute
+|-damage|p2b: Lurantis|38/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2b: Lurantis
+|-end|p2b: Lurantis|Substitute
+|-damage|p2a: Iron Hands|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lurantis|45/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750796678
+|move|p1b: Urshifu|Surging Strikes|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|38/100
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|12/100
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-hitcount|p2: Iron Hands|3
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Lurantis
+|-supereffective|p2b: Lurantis
+|-damage|p2b: Lurantis|0 fnt
+|faint|p2b: Lurantis
+|
+|-weather|none
+|upkeep
+|-message|iAiden2959 forfeited.
+|
+|win|MikelMtz
+|raw|MikelMtz's rating: 1140 &rarr; <strong>1162</strong><br />(+22 for winning)
+|raw|iAiden2959's rating: 1103 &rarr; <strong>1081</strong><br />(-22 for losing)
+|l|☆iAiden2959
+|player|p2|
+|l|☆MikelMtz
+|player|p1|

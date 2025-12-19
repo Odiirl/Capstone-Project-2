@@ -1,0 +1,186 @@
+|j|☆HecklerSupreme
+|j|☆Saltsizzle
+|t:|1750859005
+|gametype|doubles
+|player|p1|HecklerSupreme|2|1607
+|player|p2|Saltsizzle|2|1524
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palkia, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Entei, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Mimikyu, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HecklerSupreme)
+|inactive|Saltsizzle also wants the timer to be on.
+|
+|t:|1750859033
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Mimikyu|Mimikyu, L50, M, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|inactive|Saltsizzle has 30 seconds left.
+|inactive|Saltsizzle has 20 seconds left.
+|
+|t:|1750859071
+|move|p2b: Grimmsnarl|Fake Out|p1a: Smeargle
+|-damage|p1a: Smeargle|75/100
+|cant|p1a: Smeargle|flinch
+|move|p2a: Mimikyu|Taunt|p1a: Smeargle
+|-start|p1a: Smeargle|move: Taunt
+|move|p1b: Calyrex|Glacial Lance|p2b: Grimmsnarl|[spread] p2a,p2b
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-damage|p2b: Grimmsnarl|48/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L50, M, shiny
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750859085
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Mimikyu|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|-terastallize|p1b: Calyrex|Fairy
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Saltsizzle|Reflect
+|move|p2a: Mimikyu|Curse|p1b: Calyrex
+|-start|p1b: Calyrex|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|38/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Mimikyu|0 fnt
+|-damage|p2b: Grimmsnarl|14/100
+|faint|p2a: Mimikyu
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-damage|p1b: Calyrex|76/100|[from] Curse
+|upkeep
+|inactive|Saltsizzle has 30 seconds left.
+|
+|t:|1750859111
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750859126
+|switch|p1b: Palkia|Palkia, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Saltsizzle|move: Light Screen
+|move|p1a: Hitmontop|Brick Break|p2b: Grimmsnarl
+|-sideend|p2: Saltsizzle|Reflect
+|-sideend|p2: Saltsizzle|move: Light Screen
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|upkeep
+|
+|t:|1750859137
+|switch|p2b: Eternatus|Eternatus, L50|100/100
+|-ability|p2b: Eternatus|Pressure
+|turn|4
+|
+|t:|1750859151
+|switch|p1a: Smeargle|Smeargle, L50, M|75/100
+|move|p1b: Palkia|Protect|p1b: Palkia
+|-singleturn|p1b: Palkia|Protect
+|move|p2b: Eternatus|Toxic|p1b: Palkia
+|-activate|p1b: Palkia|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Palkia|[spread] p1a
+|-activate|p1b: Palkia|move: Protect
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750859158
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Eternatus|atk|1
+|turn|5
+|
+|t:|1750859167
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Hitmontop|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Palkia|Spacial Rend|p2b: Eternatus
+|-activate|p2b: Eternatus|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1750859185
+|-terastallize|p2b: Eternatus|Poison
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2b: Eternatus|Toxic|p1b: Palkia
+|-status|p1b: Palkia|tox
+|move|p1b: Palkia|Spacial Rend|p2b: Eternatus|[miss]
+|-miss|p1b: Palkia|p2b: Eternatus
+|move|p2a: Calyrex|High Horsepower|p1a: Hitmontop
+|-damage|p1a: Hitmontop|42/100
+|-damage|p2a: Calyrex|84/100|[from] item: Rocky Helmet|[of] p1a: Hitmontop
+|
+|-damage|p1b: Palkia|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Saltsizzle has 30 seconds left.
+|
+|t:|1750859217
+|move|p1a: Hitmontop|Feint|p2a: Calyrex
+|-damage|p2a: Calyrex|80/100
+|move|p2b: Eternatus|Flamethrower|p1a: Hitmontop
+|-damage|p1a: Hitmontop|10/100
+|move|p1b: Palkia|Hydro Pump|p2a: Calyrex|[miss]
+|-miss|p1b: Palkia|p2a: Calyrex
+|move|p2a: Calyrex|Glacial Lance|p1a: Hitmontop|[spread] p1a,p1b
+|-damage|p1a: Hitmontop|0 fnt
+|-damage|p1b: Palkia|26/100 tox
+|faint|p1a: Hitmontop
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-damage|p1b: Palkia|14/100 tox|[from] psn
+|upkeep
+|-message|HecklerSupreme forfeited.
+|
+|win|Saltsizzle
+|raw|HecklerSupreme's rating: 1607 &rarr; <strong>1582</strong><br />(-25 for losing)
+|raw|Saltsizzle's rating: 1524 &rarr; <strong>1549</strong><br />(+25 for winning)
+|l|☆HecklerSupreme
+|player|p1|
+|l|☆Saltsizzle
+|player|p2|

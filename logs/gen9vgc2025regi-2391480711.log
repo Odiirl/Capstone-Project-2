@@ -1,0 +1,204 @@
+|j|☆Astrall93
+|j|☆Cable231
+|t:|1750861349
+|gametype|doubles
+|player|p1|Astrall93|170|1000
+|player|p2|Cable231|101|1019
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cable231)
+|
+|t:|1750861377
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|turn|1
+|inactive|Astrall93 has 30 seconds left.
+|
+|t:|1750861403
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Astrall93|move: Tailwind
+|move|p1a: Kyogre|Origin Pulse|p2b: Incineroar|[spread] 
+|-activate|p2a: Flutter Mane|move: Protect
+|-miss|p1a: Kyogre|p2b: Incineroar
+|move|p2b: Incineroar|Parting Shot|p1a: Kyogre
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1a: Kyogre|spa|1
+|
+|t:|1750861413
+|switch|p2b: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Astrall93 has 30 seconds left.
+|
+|t:|1750861440
+|-terastallize|p2b: Koraidon|Fire
+|move|p1b: Tornadus|Rain Dance|p1b: Tornadus
+|-weather|RainDance
+|-end|p2a: Flutter Mane|Protosynthesis
+|move|p1a: Kyogre|Origin Pulse|p2a: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Flutter Mane|44/100
+|-damage|p2b: Koraidon|7/100
+|move|p2a: Flutter Mane|Icy Wind|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-supereffective|p1b: Tornadus
+|-damage|p1a: Kyogre|96/100
+|-damage|p1b: Tornadus|68/100
+|-unboost|p1a: Kyogre|spe|1
+|move|p2b: Koraidon|Close Combat|p1a: Kyogre
+|-damage|p1a: Kyogre|16/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|0 fnt|[from] item: Life Orb
+|faint|p2b: Koraidon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750861458
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|3
+|
+|t:|1750861479
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Amoonguss|[spread] p2b
+|-activate|p2a: Flutter Mane|move: Protect
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|62/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Flutter Mane|[spread] p2b
+|-activate|p2a: Flutter Mane|move: Protect
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|45/100
+|move|p2b: Amoonguss|Spore|p1a: Kyogre
+|-status|p1a: Kyogre|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750861502
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Flutter Mane|9/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Flutter Mane|Icy Wind|p1b: Tornadus|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-supereffective|p1b: Tornadus
+|-damage|p1a: Kyogre|13/100 slp
+|-damage|p1b: Tornadus|36/100
+|-unboost|p1a: Kyogre|spe|1
+|cant|p1a: Kyogre|slp
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Astrall93|move: Tailwind
+|upkeep
+|
+|t:|1750861514
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|turn|5
+|
+|t:|1750861528
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|1/100 slp
+|move|p1b: Tornadus|Taunt|p2b: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Incineroar
+|-curestatus|p1a: Kyogre|slp|[msg]
+|cant|p1a: Kyogre|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750861547
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Astrall93|move: Tailwind
+|move|p2a: Flutter Mane|Icy Wind|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-supereffective|p1b: Tornadus
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Tornadus|4/100
+|faint|p1a: Kyogre
+|move|p2b: Incineroar|Parting Shot|p1b: Tornadus
+|-unboost|p1b: Tornadus|atk|1
+|-unboost|p1b: Tornadus|spa|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750861553
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|turn|7
+|
+|t:|1750861572
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Tornadus|Rain Dance|p1b: Tornadus
+|-weather|RainDance
+|move|p1a: Raging Bolt|Thunderbolt|p2b: Incineroar
+|-damage|p2b: Incineroar|50/100
+|move|p2b: Incineroar|Parting Shot|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1a: Raging Bolt|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750861586
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Incineroar|29/100
+|-unboost|p2b: Incineroar|spe|1
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Raging Bolt|Thunderbolt|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|Astrall93
+|raw|Astrall93's rating: 1000 &rarr; <strong>1042</strong><br />(+42 for winning)
+|raw|Cable231's rating: 1019 &rarr; <strong>1005</strong><br />(-14 for losing)
+|l|☆Cable231
+|player|p2|

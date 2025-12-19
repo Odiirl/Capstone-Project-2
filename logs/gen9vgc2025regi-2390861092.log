@@ -1,0 +1,153 @@
+|j|☆Zeebers
+|j|☆Eosasta
+|t:|1750776746
+|gametype|doubles
+|player|p1|Zeebers|flannery|1067
+|player|p2|Eosasta|169|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Froslass, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Lugia, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eosasta)
+Eosasta rejected open team sheets.
+|inactive|Zeebers has 60 seconds left.
+|
+|t:|1750776835
+|start
+|switch|p1a: Froslass|Froslass, L50, F|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Night Bat|Lunala, L50|100/100
+|switch|p2b: Bear|Ursaluna, L50, F|100/100
+|turn|1
+|
+|t:|1750776858
+|move|p2b: Bear|Protect|p2b: Bear
+|-singleturn|p2b: Bear|Protect
+|move|p1b: Whimsicott|Taunt|p2a: Night Bat
+|-start|p2a: Night Bat|move: Taunt
+|move|p1a: Froslass|Shadow Ball|p2a: Night Bat
+|-supereffective|p2a: Night Bat
+|-damage|p2a: Night Bat|58/100
+|cant|p2a: Night Bat|move: Taunt|Trick Room
+|
+|-status|p2b: Bear|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750776883
+|switch|p1b: Tauros|Tauros-Paldea-Blaze, L50, M|100/100
+|move|p1a: Froslass|Frost Breath|p1b: Tauros
+|-resisted|p1b: Tauros
+|-crit|p1b: Tauros
+|-damage|p1b: Tauros|75/100
+|-setboost|p1b: Tauros|atk|6|[from] ability: Anger Point
+|move|p2a: Night Bat|Moongeist Beam|p1b: Tauros
+|-damage|p1b: Tauros|0 fnt
+|faint|p1b: Tauros
+|move|p2b: Bear|Facade|p1a: Froslass
+|-immune|p1a: Froslass
+|
+|-damage|p2b: Bear|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750776899
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-item|p1b: Calyrex|Air Balloon
+|turn|3
+|inactive|Eosasta has 30 seconds left.
+|
+|t:|1750776933
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Froslass|Frost Breath|p2b: Bear
+|-supereffective|p2b: Bear
+|-crit|p2b: Bear
+|-damage|p2b: Bear|35/100 brn
+|move|p2a: Night Bat|Moongeist Beam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p2b: Bear|Headlong Rush|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-damage|p2b: Bear|30/100 brn|[from] brn
+|-end|p2a: Night Bat|move: Taunt
+|upkeep
+|turn|4
+|inactive|Zeebers has 30 seconds left.
+|inactive|Eosasta has 30 seconds left.
+|inactive|Zeebers has 20 seconds left.
+|inactive|Zeebers has 15 seconds left.
+|inactive|Zeebers has 10 seconds left.
+|inactive|Zeebers has 5 seconds left.
+|
+|t:|1750776988
+|move|p1b: Calyrex|Psychic|p2b: Bear
+|-damage|p2b: Bear|0 fnt
+|faint|p2b: Bear
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Froslass|Frost Breath|p2a: Night Bat
+|-crit|p2a: Night Bat
+|-damage|p2a: Night Bat|32/100
+|move|p2a: Night Bat|Moongeist Beam|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-crit|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|
+|upkeep
+|
+|t:|1750777005
+|switch|p2b: Mushroom|Amoonguss, L50, F|100/100
+|turn|5
+|inactive|Zeebers has 30 seconds left.
+|inactive|Eosasta has 30 seconds left.
+|
+|t:|1750777036
+|move|p2b: Mushroom|Rage Powder|p2b: Mushroom
+|-singleturn|p2b: Mushroom|move: Rage Powder
+|move|p1b: Calyrex|Astral Barrage|p2a: Night Bat|[spread] p2a,p2b
+|-supereffective|p2a: Night Bat
+|-damage|p2a: Night Bat|0 fnt
+|-damage|p2b: Mushroom|33/100
+|faint|p2a: Night Bat
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Froslass|Frost Breath|p2b: Mushroom
+|-supereffective|p2b: Mushroom
+|-crit|p2b: Mushroom
+|-damage|p2b: Mushroom|0 fnt
+|faint|p2b: Mushroom
+|
+|upkeep
+|
+|t:|1750777050
+|switch|p2a: Shield Dog|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Shield Dog|Dauntless Shield|boost
+|-boost|p2a: Shield Dog|def|1
+|turn|6
+|-message|Eosasta forfeited.
+|
+|win|Zeebers
+|raw|Zeebers's rating: 1067 &rarr; <strong>1097</strong><br />(+30 for winning)
+|raw|Eosasta's rating: 1068 &rarr; <strong>1048</strong><br />(-20 for losing)
+|l|☆Eosasta
+|player|p2|

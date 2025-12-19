@@ -1,0 +1,158 @@
+|j|☆chapino
+|j|☆Rainstorm712
+|t:|1750831555
+|gametype|doubles
+|player|p1|chapino|chuck|1194
+|player|p2|Rainstorm712|falkner|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Phantump, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rainstorm712)
+chapino rejected open team sheets.
+|inactive|Rainstorm712 has 60 seconds left.
+|
+|t:|1750831592
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Phantump|Phantump, L50, F, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|-item|p2a: Miraidon|Choice Specs|[from] ability: Frisk|[of] p1b: Phantump
+|turn|1
+|
+|t:|1750831612
+|move|p1b: Phantump|Ally Switch|p1b: Phantump
+|swap|p1b: Phantump|0|[from] move: Ally Switch
+|move|p2a: Miraidon|Volt Switch|p1a: Phantump
+|-resisted|p1a: Phantump
+|-damage|p1a: Phantump|46/100
+|
+|t:|1750831616
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldend|move: Trick Room
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750831633
+|move|p1a: Phantump|Ally Switch|p1a: Phantump
+|swap|p1a: Phantump|1|[from] move: Ally Switch
+|move|p2b: Lunala|Moongeist Beam|p1b: Phantump
+|-supereffective|p1b: Phantump
+|-damage|p1b: Phantump|0 fnt
+|faint|p1b: Phantump
+|move|p1a: Calyrex|Glacial Lance|p2b: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100 brn
+|-damage|p2b: Lunala|87/100
+|move|p2a: Ursaluna|Shadow Claw|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|26/100
+|
+|-damage|p2a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|
+|t:|1750831639
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|3
+|
+|t:|1750831661
+|-terastallize|p1a: Calyrex|Water
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: chapino|move: Light Screen
+|move|p1a: Calyrex|Glacial Lance|p2a: Ursaluna|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Ursaluna|Facade|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-damage|p2a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|
+|t:|1750831666
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750831679
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1750831686
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750831700
+|-terastallize|p2a: Miraidon|Electric
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Urshifu
+|-status|p2b: Urshifu|par
+|move|p2a: Miraidon|Electro Drift|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p1a: Miraidon|Electro Drift|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750831711
+|move|p2a: Miraidon|Electro Drift|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|88/100
+|move|p1a: Miraidon|Electro Drift|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|63/100
+|
+|upkeep
+|turn|7
+|-message|Rainstorm712 forfeited.
+|
+|win|chapino
+|raw|chapino's rating: 1194 &rarr; <strong>1222</strong><br />(+28 for winning)
+|raw|Rainstorm712's rating: 1241 &rarr; <strong>1213</strong><br />(-28 for losing)
+|l|☆Rainstorm712
+|player|p2|
+|l|☆chapino
+|player|p1|

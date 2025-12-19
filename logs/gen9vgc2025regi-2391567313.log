@@ -1,0 +1,183 @@
+|j|☆AlbertoSaiz
+|j|☆O Davizao
+|t:|1750870924
+|gametype|doubles
+|player|p1|AlbertoSaiz|1|1061
+|player|p2|O Davizao|hilbert-wonderlauncher|1044
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Pincurchin, L50, F|
+|poke|p1|Abomasnow, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Cetitan, L50, M|
+|poke|p1|Froslass, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Heatran, L50, F|
+|teampreview|4
+AlbertoSaiz rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlbertoSaiz)
+|
+|t:|1750870951
+|start
+|switch|p1a: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p1b: Pincurchin|Pincurchin, L50, F|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Pincurchin
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespa
+|turn|1
+|
+|t:|1750870974
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Iron Bundle|Protect|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Protect
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Iron Bundle
+|-activate|p1a: Iron Bundle|move: Protect
+|move|p1b: Pincurchin|Acupressure|p1a: Iron Bundle
+|-boost|p1a: Iron Bundle|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1750870989
+|switch|p1b: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Abomasnow
+|move|p2a: Zacian|Protect||[still]
+|-fail|p2a: Zacian
+|move|p1a: Iron Bundle|Protect||[still]
+|-fail|p1a: Iron Bundle
+|move|p2b: Chien-Pao|Sacred Sword|p1a: Iron Bundle
+|-supereffective|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|33/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750871009
+|switch|p1b: Maushold|Maushold, L50|100/100
+|move|p2b: Chien-Pao|Protect|p2b: Chien-Pao
+|-singleturn|p2b: Chien-Pao|Protect
+|move|p1a: Iron Bundle|Protect|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Protect
+|move|p2a: Zacian|Behemoth Blade|p1b: Maushold
+|-enditem|p1b: Maushold|Focus Sash
+|-damage|p1b: Maushold|1/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750871027
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2b: Chien-Pao|Sucker Punch||[still]
+|-fail|p2b: Chien-Pao
+|move|p2a: Zacian|Play Rough|p1b: Maushold|[miss]
+|-miss|p2a: Zacian|p1b: Maushold
+|move|p1a: Iron Bundle|Blizzard|p2a: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-resisted|p2b: Chien-Pao
+|-damage|p2a: Zacian|33/100
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750871046
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2a: Zacian|Close Combat|p1b: Maushold
+|-supereffective|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2a: Zacian|spd|1
+|faint|p1b: Maushold
+|move|p2b: Chien-Pao|Ice Spinner|p1a: Iron Bundle
+|-resisted|p1a: Iron Bundle
+|-damage|p1a: Iron Bundle|22/100
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Bundle|Quark Drive
+|move|p1a: Iron Bundle|Blizzard|p2b: Chien-Pao|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-resisted|p2b: Chien-Pao
+|-damage|p2a: Zacian|0 fnt
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2a: Zacian
+|faint|p2b: Chien-Pao
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750871061
+|switch|p2a: Heatran|Heatran, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Pincurchin|Pincurchin, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Pincurchin
+|-activate|p1a: Iron Bundle|ability: Quark Drive
+|-start|p1a: Iron Bundle|quarkdrivespa
+|turn|6
+|
+|t:|1750871079
+|move|p1a: Iron Bundle|Protect|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Protect
+|move|p2a: Heatran|Heat Wave|p1a: Iron Bundle|[spread] p1b
+|-activate|p1a: Iron Bundle|move: Protect
+|-damage|p1b: Pincurchin|52/100
+|-status|p1b: Pincurchin|brn
+|move|p2b: Amoonguss|Spore||[still]
+|-fail|p2b: Amoonguss
+|move|p1b: Pincurchin|Acupressure|p1a: Iron Bundle
+|-boost|p1a: Iron Bundle|spe|2
+|
+|-weather|none
+|-damage|p1b: Pincurchin|46/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750871100
+|switch|p1b: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Abomasnow
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Iron Bundle|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750871113
+|-terastallize|p1a: Iron Bundle|Ice
+|move|p1b: Abomasnow|Helping Hand|p1a: Iron Bundle
+|-singleturn|p1a: Iron Bundle|Helping Hand|[of] p1b: Abomasnow
+|move|p1a: Iron Bundle|Blizzard|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|win|AlbertoSaiz
+|raw|AlbertoSaiz's rating: 1061 &rarr; <strong>1090</strong><br />(+29 for winning)
+|raw|O Davizao's rating: 1044 &rarr; <strong>1028</strong><br />(-16 for losing)
+|l|☆O Davizao
+|player|p2|

@@ -1,0 +1,190 @@
+|j|☆VisaXion07
+|j|☆Jackfruit Chicago
+|t:|1750768051
+|gametype|doubles
+|player|p1|VisaXion07|n|1153
+|player|p2|Jackfruit Chicago|101|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Serperior, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Roaring Moon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|
+|t:|1750768094
+|start
+|switch|p1a: Rhongomyniad|Calyrex-Ice, L50|100/100
+|switch|p1b: Eklesai|Gardevoir, L50, F, shiny|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p1a: Rhongomyniad|As One
+|-ability|p1a: Rhongomyniad|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-activate|p1b: Eklesai|ability: Orichalcum Pulse
+|-ability|p1b: Eklesai|Orichalcum Pulse|[from] ability: Trace|[of] p2a: Koraidon
+|turn|1
+|
+|t:|1750768134
+|move|p2a: Koraidon|Flare Blitz|p1a: Rhongomyniad
+|-supereffective|p1a: Rhongomyniad
+|-damage|p1a: Rhongomyniad|0 fnt
+|faint|p1a: Rhongomyniad
+|-damage|p2a: Koraidon|62/100|[from] Recoil
+|-damage|p2a: Koraidon|52/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Spore|p1b: Eklesai
+|-status|p1b: Eklesai|slp|[from] move: Spore
+|cant|p1b: Eklesai|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750768149
+|switch|p1a: Visaxion|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Visaxion
+|turn|2
+|
+|t:|1750768184
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Koraidon|Flare Blitz|p1a: Visaxion
+|-resisted|p1a: Visaxion
+|-damage|p1a: Visaxion|10/100
+|-damage|p2a: Koraidon|22/100|[from] Recoil
+|-damage|p2a: Koraidon|12/100|[from] item: Life Orb
+|move|p1a: Visaxion|Volt Switch|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|69/100
+|
+|t:|1750768197
+|switch|p1a: Mega Salamence|Roaring Moon, L50, shiny|100/100|[from] Volt Switch
+|-activate|p1a: Mega Salamence|ability: Protosynthesis
+|-start|p1a: Mega Salamence|protosynthesisspe
+|-curestatus|p1b: Eklesai|slp|[msg]
+|move|p1b: Eklesai|Dazzling Gleam|p2b: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Amoonguss|60/100
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750768215
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750768246
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Mega Salamence|Knock Off|p2b: Amoonguss
+|-damage|p2b: Amoonguss|6/100
+|-enditem|p2b: Amoonguss|Bright Powder|[from] move: Knock Off|[of] p1a: Mega Salamence
+|move|p2a: Calyrex|Astral Barrage|p1a: Mega Salamence|[spread] p1a,p1b
+|-resisted|p1a: Mega Salamence
+|-supereffective|p1b: Eklesai
+|-damage|p1a: Mega Salamence|72/100
+|-damage|p1b: Eklesai|15/100
+|move|p1b: Eklesai|Dazzling Gleam|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Calyrex|73/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750768262
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|turn|4
+|
+|t:|1750768285
+|move|p1b: Eklesai|Protect|p1b: Eklesai
+|-singleturn|p1b: Eklesai|Protect
+|move|p2b: Jumpluff|Rage Powder|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|move: Rage Powder
+|move|p1a: Mega Salamence|Knock Off|p2b: Jumpluff
+|-damage|p2b: Jumpluff|34/100
+|-enditem|p2b: Jumpluff|Leftovers|[from] move: Knock Off|[of] p1a: Mega Salamence
+|move|p2a: Calyrex|Astral Barrage|p1b: Eklesai|[spread] p1a
+|-activate|p1b: Eklesai|move: Protect
+|-resisted|p1a: Mega Salamence
+|-damage|p1a: Mega Salamence|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750768319
+|move|p2b: Jumpluff|Encore|p1b: Eklesai
+|-start|p1b: Eklesai|Encore
+|move|p1a: Mega Salamence|Acrobatics|p2b: Jumpluff
+|-supereffective|p2b: Jumpluff
+|-damage|p2b: Jumpluff|0 fnt
+|faint|p2b: Jumpluff
+|move|p2a: Calyrex|Pollen Puff|p1a: Mega Salamence
+|-supereffective|p1a: Mega Salamence
+|-damage|p1a: Mega Salamence|0 fnt
+|faint|p1a: Mega Salamence
+|-end|p1a: Mega Salamence|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1b: Eklesai|Protect||[still]
+|-fail|p1b: Eklesai
+|
+|-weather|none
+|upkeep
+|
+|t:|1750768338
+|switch|p1a: Visaxion|Miraidon, L50|10/100
+|-activate|p1a: Visaxion|ability: Hadron Engine
+|turn|6
+|
+|t:|1750768350
+|-terastallize|p1a: Visaxion|Electric
+|move|p1b: Eklesai|Protect|p1b: Eklesai
+|-singleturn|p1b: Eklesai|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Eklesai|[spread] p1a
+|-activate|p1b: Eklesai|move: Protect
+|-damage|p1a: Visaxion|0 fnt
+|faint|p1a: Visaxion
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|l|☆VisaXion07
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jackfruit Chicago)
+|inactive|VisaXion07 has 30 seconds to reconnect!
+|inactive|VisaXion07 has 20 seconds to reconnect!
+|inactive|VisaXion07 has 15 seconds to reconnect!
+|inactive|VisaXion07 has 10 seconds to reconnect!
+|inactive|VisaXion07 has 5 seconds to reconnect!
+|-message|VisaXion07 lost due to inactivity.
+|
+|win|Jackfruit Chicago
+|raw|VisaXion07's rating: 1153 &rarr; <strong>1130</strong><br />(-23 for losing)
+|raw|Jackfruit Chicago's rating: 1184 &rarr; <strong>1207</strong><br />(+23 for winning)
+|l|☆Jackfruit Chicago
+|player|p2|

@@ -1,0 +1,134 @@
+|j|☆Azalea team
+|j|☆dscleon
+|t:|1750871307
+|gametype|doubles
+|player|p1|Azalea team|ethan|1087
+|player|p2|dscleon|265|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Blissey, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|
+|t:|1750871321
+|start
+|switch|p1a: Blissey|Blissey, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750871345
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Flare Blitz|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Blissey|Stealth Rock|p2b: Indeedee
+|-sidestart|p2: dscleon|move: Stealth Rock
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750871372
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Calyrex|def|1
+|-unboost|p2a: Calyrex|spd|1
+|faint|p1b: Incineroar
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750871384
+|switch|p1b: Giratina|Giratina-Origin, L50|100/100
+|turn|3
+|
+|t:|1750871402
+|-terastallize|p2a: Calyrex|Water
+|-terastallize|p1b: Giratina|Normal
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Calyrex|Glacial Lance|p1b: Giratina|[spread] p1a,p1b
+|-damage|p1a: Ho-Oh|5/100
+|-damage|p1b: Giratina|16/100
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|82/100
+|-status|p2a: Calyrex|brn
+|move|p1b: Giratina|Hex|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750871418
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|-damage|p2a: Necrozma|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1750871446
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|-damage|p2b: Ursaluna|95/100|[from] Stealth Rock
+|switch|p1a: Blissey|Blissey, L50, F|100/100
+|move|p2a: Necrozma|Expanding Force|p1b: Giratina|[spread] p1a,p1b
+|-damage|p1a: Blissey|77/100
+|-damage|p1b: Giratina|0 fnt
+|faint|p1b: Giratina
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750871458
+|switch|p1b: Ho-Oh|Ho-Oh, L50|38/100
+|turn|5
+|
+|t:|1750871470
+|move|p2b: Ursaluna|Facade|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-damage|p2b: Ursaluna|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Blissey
+|faint|p1a: Blissey
+|move|p2a: Necrozma|Meteor Beam||[still]
+|-prepare|p2a: Necrozma|Meteor Beam
+|-boost|p2a: Necrozma|spa|1
+|-enditem|p2a: Necrozma|Power Herb
+|-anim|p2a: Necrozma|Meteor Beam|p1b: Ho-Oh
+|-supereffective|p1b: Ho-Oh
+|-damage|p1b: Ho-Oh|0 fnt
+|faint|p1b: Ho-Oh
+|
+|win|dscleon
+|raw|Azalea team's rating: 1087 &rarr; <strong>1067</strong><br />(-20 for losing)
+|raw|dscleon's rating: 1133 &rarr; <strong>1155</strong><br />(+22 for winning)
+|l|☆dscleon
+|player|p2|
+|l|☆Azalea team
+|player|p1|

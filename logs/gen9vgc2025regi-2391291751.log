@@ -1,0 +1,299 @@
+|j|☆mnmnmnmnm6
+|j|☆ttars
+|t:|1750829729
+|gametype|doubles
+|player|p1|mnmnmnmnm6|265|1460
+|player|p2|ttars|pokemaniac|1457
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mnmnmnmnm6)
+|
+|t:|1750829836
+|start
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|inactive|ttars has 30 seconds left.
+|inactive|mnmnmnmnm6 has 30 seconds left.
+|inactive|ttars has 20 seconds left.
+|
+|t:|1750829874
+|move|p2b: Incineroar|Fake Out|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|98/100
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|95/100
+|cant|p2a: Miraidon|flinch
+|cant|p1a: Dialga|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750829897
+|move|p2a: Miraidon|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|25/100
+|
+|t:|1750829902
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Dialga|Dragon Pulse|p2a: Calyrex
+|-damage|p2a: Calyrex|60/100
+|move|p2b: Incineroar|Parting Shot|p1a: Dialga
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1a: Dialga|spa|1
+|
+|t:|1750829920
+|switch|p2b: Miraidon|Miraidon, L50|95/100|[from] Parting Shot
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750829929
+|switch|p1b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100|[from] Parting Shot
+|-ability|p1b: Ogerpon|Mold Breaker
+|
+|-heal|p2a: Calyrex|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|ttars has 30 seconds left.
+|
+|t:|1750829958
+|switch|p1a: Incineroar|Incineroar, L50, M|25/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|-terastallize|p2a: Calyrex|Normal
+|move|p2b: Miraidon|Volt Switch|p1b: Ogerpon
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|50/100
+|
+|t:|1750829967
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Fire
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|12/100
+|move|p2a: Calyrex|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|
+|-heal|p2a: Calyrex|18/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|12/100|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|30/100|[silent]
+|upkeep
+|turn|4
+|inactive|ttars has 30 seconds left.
+|inactive|ttars has 20 seconds left.
+|
+|t:|1750830006
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Incineroar|Fake Out|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p2b: Incineroar|88/100|[from] Spiky Shield|[of] p1b: Ogerpon
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Ogerpon|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|2/100
+|move|p1a: Incineroar|Knock Off|p2a: Calyrex
+|-damage|p2a: Calyrex|14/100
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-damage|p1a: Incineroar|0 fnt|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|15/100|[silent]
+|faint|p1a: Incineroar
+|upkeep
+|
+|t:|1750830022
+|switch|p1a: Dialga|Dialga-Origin, L50|98/100
+|turn|5
+|inactive|mnmnmnmnm6 has 30 seconds left.
+|inactive|ttars has 30 seconds left.
+|
+|t:|1750830056
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Fire
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Dialga|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|33/100
+|move|p2b: Incineroar|Parting Shot|p1a: Dialga
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1a: Dialga|spa|1
+|
+|t:|1750830068
+|switch|p2b: Miraidon|Miraidon, L50|95/100|[from] Parting Shot
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750830090
+|move|p1a: Dialga|Protect|p1a: Dialga
+|-singleturn|p1a: Dialga|Protect
+|move|p2b: Miraidon|Volt Switch|p1b: Ogerpon
+|-resisted|p1b: Ogerpon
+|-damage|p1b: Ogerpon|23/100
+|
+|t:|1750830098
+|switch|p2b: Incineroar|Incineroar, L50, F|33/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dialga|atk|1
+|-unboost|p1b: Ogerpon|atk|1
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Calyrex|[anim] Ivy Cudgel Fire
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750830107
+|switch|p2a: Miraidon|Miraidon, L50|95/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|7
+|inactive|ttars has 30 seconds left.
+|inactive|ttars has 20 seconds left.
+|inactive|mnmnmnmnm6 has 30 seconds left.
+|
+|t:|1750830153
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p2b: Incineroar|Fake Out|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|94/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Ogerpon|[spread] p1a
+|-activate|p1b: Ogerpon|move: Protect
+|-damage|p1a: Dialga|64/100
+|cant|p1a: Dialga|flinch
+|
+|upkeep
+|turn|8
+|inactive|ttars has 30 seconds left.
+|
+|t:|1750830183
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Dialga|[spread] p1a,p1b
+|-resisted|p1b: Ogerpon
+|-damage|p1a: Dialga|36/100
+|-damage|p1b: Ogerpon|2/100
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Miraidon|[anim] Ivy Cudgel Fire
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|82/100
+|move|p1a: Dialga|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750830193
+|switch|p2b: Ditto|Ditto, L50, shiny|100/100
+|-transform|p2b: Ditto|p1a: Dialga|[from] ability: Imposter
+|turn|9
+|
+|t:|1750830211
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Dialga|[spread] p1a,p1b
+|-resisted|p1b: Ogerpon
+|-crit|p1b: Ogerpon
+|-damage|p1a: Dialga|8/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|move|p1a: Dialga|Dragon Pulse|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|24/100
+|move|p2b: Ditto|Dragon Pulse|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|upkeep
+|
+|t:|1750830222
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|10
+|
+|t:|1750830237
+|-terastallize|p1b: Miraidon|Electric
+|move|p1b: Miraidon|Snarl|p2a: Miraidon|[spread] p2a
+|-miss|p1b: Miraidon|p2b: Ditto
+|-damage|p2a: Miraidon|10/100
+|-unboost|p2a: Miraidon|spa|1
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Miraidon
+|-damage|p1b: Miraidon|73/100
+|move|p2b: Ditto|Dragon Pulse|p1b: Miraidon
+|-damage|p1b: Miraidon|43/100
+|
+|upkeep
+|turn|11
+|inactive|ttars has 30 seconds left.
+|inactive|ttars has 20 seconds left.
+|inactive|ttars has 15 seconds left.
+|inactive|ttars has 10 seconds left.
+|
+|t:|1750830283
+|move|p1b: Miraidon|Snarl|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Ditto|79/100
+|-unboost|p2b: Ditto|spa|1
+|faint|p2a: Miraidon
+|move|p2b: Ditto|Dragon Pulse|p1b: Miraidon
+|-damage|p1b: Miraidon|22/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|12
+|
+|t:|1750830294
+|move|p1b: Miraidon|Snarl|p2b: Ditto
+|-damage|p2b: Ditto|56/100
+|-unboost|p2b: Ditto|spa|1
+|move|p2b: Ditto|Dragon Pulse|p1b: Miraidon
+|-damage|p1b: Miraidon|6/100
+|
+|upkeep
+|turn|13
+|
+|t:|1750830302
+|move|p1b: Miraidon|Snarl|p2b: Ditto
+|-damage|p2b: Ditto|36/100
+|-unboost|p2b: Ditto|spa|1
+|move|p2b: Ditto|Dragon Pulse|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|ttars
+|raw|mnmnmnmnm6's rating: 1460 &rarr; <strong>1440</strong><br />(-20 for losing)
+|raw|ttars's rating: 1457 &rarr; <strong>1477</strong><br />(+20 for winning)
+|l|☆mnmnmnmnm6
+|player|p1|
+|l|☆ttars
+|player|p2|

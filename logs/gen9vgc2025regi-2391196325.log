@@ -1,0 +1,241 @@
+|j|☆Jungle211
+|j|☆spangf
+|t:|1750814930
+|gametype|doubles
+|player|p1|Jungle211|hugh|1226
+|player|p2|spangf|101|1242
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Perrserker, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750815012
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Chesnaught|Chesnaught, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Chesnaught|Electric Seed
+|-boost|p2b: Chesnaught|def|1|[from] item: Electric Seed
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Chesnaught|atk|1
+|turn|1
+|
+|t:|1750815062
+|switch|p2a: Scovillain|Scovillain, L50, F|100/100
+|-terastallize|p1a: Zacian|Ground
+|move|p1b: Incineroar|Fake Out|p2a: Scovillain
+|-damage|p2a: Scovillain|77/100
+|move|p1a: Zacian|Tera Blast|p2a: Scovillain|[anim] Tera Blast Ground
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|move|p2b: Chesnaught|Leech Seed|p1a: Zacian
+|-start|p1a: Zacian|move: Leech Seed
+|
+|-damage|p1a: Zacian|89/100|[from] Leech Seed|[of] p2b: Chesnaught
+|upkeep
+|
+|t:|1750815087
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|t:|1750815111
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Zacian|Play Rough|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Chesnaught|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|31/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zacian|77/100|[from] Leech Seed|[of] p2b: Chesnaught
+|upkeep
+|turn|3
+|
+|t:|1750815160
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Chesnaught|Spiky Shield|p2b: Chesnaught
+|-singleturn|p2b: Chesnaught|move: Protect
+|move|p1b: Kyogre|Ice Beam|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|84/100
+|move|p1a: Zacian|Tera Blast|p2a: Koraidon|[anim] Tera Blast Ground
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zacian|65/100|[from] Leech Seed|[of] p2b: Chesnaught
+|upkeep
+|
+|t:|1750815172
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750815185
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p1b: Kyogre|Ice Beam|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|40/100
+|move|p2b: Chesnaught|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zacian|53/100|[from] Leech Seed|[of] p2b: Chesnaught
+|upkeep
+|
+|t:|1750815195
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Chesnaught|atk|1
+|turn|5
+|
+|t:|1750815206
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|26/100
+|cant|p2a: Miraidon|flinch
+|move|p1a: Zacian|Behemoth Blade|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Chesnaught|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zacian|41/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750815214
+|switch|p1b: Clefairy|Clefairy, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1750815225
+|move|p1a: Zacian|Play Rough|p2b: Chesnaught
+|-supereffective|p2b: Chesnaught
+|-damage|p2b: Chesnaught|41/100
+|move|p2b: Chesnaught|Leech Seed|p1b: Clefairy
+|-start|p1b: Clefairy|move: Leech Seed
+|move|p1b: Clefairy|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Zacian|66/100
+|-fail|p1b: Clefairy|heal
+|
+|-weather|none
+|-damage|p1a: Zacian|54/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|52/100|[silent]
+|-damage|p1b: Clefairy|88/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|62/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750815239
+|move|p2b: Chesnaught|Spiky Shield|p2b: Chesnaught
+|-singleturn|p2b: Chesnaught|move: Protect
+|move|p1a: Zacian|Play Rough|p2b: Chesnaught
+|-activate|p2b: Chesnaught|move: Protect
+|-damage|p1a: Zacian|42/100|[from] Spiky Shield|[of] p2b: Chesnaught
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Zacian|67/100
+|-heal|p1b: Clefairy|100/100
+|
+|-damage|p1a: Zacian|55/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|73/100|[silent]
+|-damage|p1b: Clefairy|88/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|84/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750815256
+|move|p1a: Zacian|Play Rough|p2b: Chesnaught
+|-supereffective|p2b: Chesnaught
+|-damage|p2b: Chesnaught|27/100
+|move|p2b: Chesnaught|Body Press|p1a: Zacian
+|-damage|p1a: Zacian|9/100
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Zacian|35/100
+|-heal|p1b: Clefairy|100/100
+|
+|-damage|p1a: Zacian|23/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|37/100|[silent]
+|-damage|p1b: Clefairy|88/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|48/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1750815272
+|move|p2b: Chesnaught|Spiky Shield|p2b: Chesnaught
+|-singleturn|p2b: Chesnaught|move: Protect
+|move|p1a: Zacian|Play Rough|p2b: Chesnaught
+|-activate|p2b: Chesnaught|move: Protect
+|-damage|p1a: Zacian|11/100|[from] Spiky Shield|[of] p2b: Chesnaught
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Zacian|36/100
+|-heal|p1b: Clefairy|100/100
+|
+|-damage|p1a: Zacian|24/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|58/100|[silent]
+|-damage|p1b: Clefairy|88/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|69/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1750815288
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p1a: Zacian|Play Rough|p2b: Chesnaught
+|-supereffective|p2b: Chesnaught
+|-damage|p2b: Chesnaught|4/100
+|move|p2b: Chesnaught|Body Press|p1b: Clefairy
+|-resisted|p1b: Clefairy
+|-damage|p1b: Clefairy|60/100
+|
+|-damage|p1a: Zacian|12/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|14/100|[silent]
+|-damage|p1b: Clefairy|48/100|[from] Leech Seed|[of] p2b: Chesnaught
+|-heal|p2b: Chesnaught|25/100|[silent]
+|upkeep
+|turn|11
+|-message|spangf forfeited.
+|
+|win|Jungle211
+|raw|Jungle211's rating: 1226 &rarr; <strong>1252</strong><br />(+26 for winning)
+|raw|spangf's rating: 1242 &rarr; <strong>1216</strong><br />(-26 for losing)
+|l|☆spangf
+|player|p2|
+|l|☆Jungle211
+|player|p1|
+|j|☆Jungle211
+|player|p1|Jungle211|hugh|

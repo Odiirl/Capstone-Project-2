@@ -1,0 +1,226 @@
+|j|☆abuzzi
+|j|☆jesuscaig
+|t:|1750777425
+|gametype|doubles
+|player|p1|abuzzi|2|1201
+|player|p2|jesuscaig|benga|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Tinkaton, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by abuzzi)
+|inactive|jesuscaig has 60 seconds left.
+|
+|t:|1750777488
+|start
+|switch|p1a: Meowscarada|Meowscarada, L50, M|100/100
+|switch|p1b: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Milotic|Milotic, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750777506
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|move|p1b: Tinkaton|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|88/100
+|move|p1a: Meowscarada|Knock Off|p2b: Milotic
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2b: Milotic|63/100
+|-enditem|p2b: Milotic|Assault Vest|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2b: Milotic|Ice Beam|p1a: Meowscarada
+|-damage|p1a: Meowscarada|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|abuzzi has 30 seconds left.
+|
+|t:|1750777537
+|move|p1a: Meowscarada|U-turn|p2b: Milotic
+|-damage|p2b: Milotic|44/100
+|
+|t:|1750777543
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100|[from] U-turn
+|move|p2a: Landorus|Sandsear Storm|p1b: Tinkaton|[spread] p1b
+|-immune|p1a: Thundurus
+|-supereffective|p1b: Tinkaton
+|-damage|p1b: Tinkaton|0 fnt
+|faint|p1b: Tinkaton
+|move|p2b: Milotic|Alluring Voice|p1a: Thundurus
+|-damage|p1a: Thundurus|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750777558
+|switch|p1b: Meowscarada|Meowscarada, L50, M|67/100
+|turn|3
+|
+|t:|1750777580
+|switch|p2b: Raichu|Raichu, L50, M, shiny|100/100
+|move|p1b: Meowscarada|U-turn|p2a: Landorus
+|-start|p1b: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|
+|t:|1750777587
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100|[from] U-turn
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|44/100
+|move|p1a: Thundurus|Volt Switch|p2b: Raichu
+|-ability|p2b: Raichu|Lightning Rod|boost
+|-boost|p2b: Raichu|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|abuzzi has 30 seconds left.
+|
+|t:|1750777618
+|move|p2b: Raichu|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|91/100 brn
+|move|p2a: Landorus|Sandsear Storm|p1b: Ursaluna|[spread] p1b
+|-immune|p1a: Thundurus
+|-damage|p1b: Ursaluna|33/100 brn
+|move|p1a: Thundurus|Weather Ball|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|cant|p1b: Ursaluna|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|27/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|jesuscaig has 30 seconds left.
+|
+|t:|1750777646
+|switch|p2b: Milotic|Milotic, L50, F, shiny|44/100
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Landorus|Sandsear Storm|p1b: Ursaluna|[spread] 
+|-activate|p1b: Ursaluna|move: Protect
+|-immune|p1a: Thundurus
+|move|p1a: Thundurus|Weather Ball|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|none
+|-damage|p1b: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|
+|t:|1750777662
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+|
+|t:|1750777678
+|move|p1a: Thundurus|Thunder Wave|p2a: Kyogre
+|-status|p2a: Kyogre|par
+|cant|p2a: Kyogre|par
+|move|p1b: Ursaluna|Earthquake|p2a: Kyogre|[spread] p2a,p2b
+|-immune|p1a: Thundurus
+|-damage|p2a: Kyogre|35/100 par
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|
+|t:|1750777688
+|switch|p2b: Raichu|Raichu, L50, M, shiny|100/100
+|turn|7
+|inactive|jesuscaig has 30 seconds left.
+|
+|t:|1750777720
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Raichu|Fake Out|p1a: Thundurus
+|-damage|p1a: Thundurus|61/100
+|cant|p1a: Thundurus|flinch
+|move|p2a: Kyogre|Origin Pulse|p1a: Thundurus|[spread] 
+|-activate|p1b: Ursaluna|move: Protect
+|-miss|p2a: Kyogre|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750777742
+|-terastallize|p2a: Kyogre|Water
+|move|p2b: Raichu|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Raichu
+|move|p1a: Thundurus|Volt Switch|p2b: Raichu
+|-activate|p2b: Raichu|ability: Lightning Rod
+|-ability|p2b: Raichu|Lightning Rod|boost
+|-boost|p2b: Raichu|spa|1
+|move|p2a: Kyogre|Origin Pulse|p1a: Thundurus|[spread] p1b
+|-miss|p2a: Kyogre|p1a: Thundurus
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750777756
+|switch|p1b: Meowscarada|Meowscarada, L50, M|67/100
+|turn|9
+|
+|t:|1750777775
+|-terastallize|p1b: Meowscarada|Grass
+|move|p1b: Meowscarada|Bullet Seed|p2a: Kyogre
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|1/100 par
+|-supereffective|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|-hitcount|p2: Kyogre|2
+|move|p2b: Raichu|Nuzzle|p1b: Meowscarada
+|-resisted|p1b: Meowscarada
+|-damage|p1b: Meowscarada|60/100
+|-status|p1b: Meowscarada|par
+|move|p1a: Thundurus|Weather Ball|p2b: Raichu
+|-damage|p2b: Raichu|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750777792
+|move|p2b: Raichu|Endeavor|p1b: Meowscarada
+|-damage|p1b: Meowscarada|19/100 par
+|move|p1a: Thundurus|Weather Ball|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|
+|win|abuzzi
+|raw|abuzzi's rating: 1201 &rarr; <strong>1222</strong><br />(+21 for winning)
+|raw|jesuscaig's rating: 1140 &rarr; <strong>1119</strong><br />(-21 for losing)
+|l|☆jesuscaig
+|player|p2|
+|c|☆abuzzi|gg
+|l|☆abuzzi
+|player|p1|

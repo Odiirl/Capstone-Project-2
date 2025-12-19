@@ -1,0 +1,119 @@
+|j|☆MucCloverVGC
+|j|☆jatpark
+|t:|1750720064
+|gametype|doubles
+|player|p1|MucCloverVGC|hugh|1299
+|player|p2|jatpark|1|1289
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Meowstic, L50, M|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Rhydon, L50, M|
+|teampreview|4
+|
+|t:|1750720103
+|start
+|switch|p1a: Meowstic|Meowstic, L50, M|100/100
+|switch|p1b: Iron Treads|Iron Treads, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1750720125
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p1a: Meowstic|Helping Hand|p1b: Iron Treads
+|-singleturn|p1b: Iron Treads|Helping Hand|[of] p1a: Meowstic
+|move|p2a: Indeedee|Helping Hand|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Iron Treads|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Eject Button|[from] move: Knock Off|[of] p1b: Iron Treads
+|faint|p2a: Indeedee
+|-damage|p1b: Iron Treads|91/100|[from] item: Life Orb
+|move|p2b: Terapagos|Earth Power|p1b: Iron Treads
+|-supereffective|p1b: Iron Treads
+|-damage|p1b: Iron Treads|0 fnt
+|faint|p1b: Iron Treads
+|-end|p1b: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750720148
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|2
+|
+|t:|1750720163
+|switch|p2b: Rhydon|Rhydon, L50, M|100/100
+|move|p1a: Meowstic|Trick|p2a: Calyrex
+|-activate|p1a: Meowstic|move: Trick|[of] p2a: Calyrex
+|-item|p2a: Calyrex|Iron Ball|[from] move: Trick
+|-item|p1a: Meowstic|Choice Specs|[from] move: Trick
+|move|p1b: Miraidon|Electro Drift|p2b: Rhydon
+|-activate|p2b: Rhydon|ability: Lightning Rod
+|-ability|p2b: Rhydon|Lightning Rod|boost
+|-boost|p2b: Rhydon|spa|1
+|move|p2a: Calyrex|Draining Kiss|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|60/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750720185
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Meowstic|Trick|p2a: Calyrex
+|-activate|p1a: Meowstic|move: Trick|[of] p2a: Calyrex
+|-item|p2a: Calyrex|Choice Specs|[from] move: Trick
+|-item|p1a: Meowstic|Iron Ball|[from] move: Trick
+|move|p2a: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Meowstic
+|-supereffective|p1b: Calyrex
+|-damage|p1a: Meowstic|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Meowstic
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Rhydon|Swords Dance|p2b: Rhydon
+|-boost|p2b: Rhydon|atk|2
+|
+|upkeep
+|-message|MucCloverVGC forfeited.
+|
+|win|jatpark
+|raw|MucCloverVGC's rating: 1299 &rarr; <strong>1273</strong><br />(-26 for losing)
+|raw|jatpark's rating: 1289 &rarr; <strong>1315</strong><br />(+26 for winning)
+|l|☆MucCloverVGC
+|player|p1|
+|l|☆jatpark
+|player|p2|

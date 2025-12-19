@@ -1,0 +1,139 @@
+|j|☆gupflup
+|j|‽Jjgghh
+|t:|1750765182
+|gametype|doubles
+|player|p1|gupflup|169|1422
+|player|p2|Jjgghh|1|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Persian-Alola, L50, F|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jjgghh)
+|
+|t:|1750765258
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|gupflup has 30 seconds left.
+|inactive|Jjgghh has 30 seconds left.
+|inactive|gupflup has 20 seconds left.
+|inactive|gupflup has 15 seconds left.
+|inactive|Jjgghh has 20 seconds left.
+|inactive|gupflup has 10 seconds left.
+|inactive|Jjgghh has 15 seconds left.
+|
+|t:|1750765305
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Lilligant|Sleep Powder|p2a: Flutter Mane
+|-status|p2a: Flutter Mane|slp|[from] move: Sleep Powder
+|cant|p2a: Flutter Mane|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|gupflup has 30 seconds left.
+|
+|t:|1750765333
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p2b: Calyrex|Grass
+|move|p1a: Lilligant|Leaf Blade|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-damage|p2b: Calyrex|51/100
+|move|p2b: Calyrex|Nasty Plot|p2b: Calyrex
+|-boost|p2b: Calyrex|spa|2
+|move|p1b: Groudon|Heat Crash|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750765348
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|turn|3
+|
+|t:|1750765357
+|-terastallize|p1a: Lilligant|Ghost
+|move|p1b: Groudon|Protect|p1b: Groudon
+|-singleturn|p1b: Groudon|Protect
+|move|p1a: Lilligant|Ice Spinner|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p2b: Dragonite
+|move|p2a: Rillaboom|Wood Hammer|p1b: Groudon
+|-activate|p1b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750765364
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100 slp
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750765373
+|move|p1a: Lilligant|Ice Spinner|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|62/100 slp
+|cant|p2b: Flutter Mane|slp
+|move|p1b: Groudon|Heat Crash|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Rillaboom|Wood Hammer|p1b: Groudon
+|-supereffective|p1b: Groudon
+|-damage|p1b: Groudon|15/100
+|-damage|p2a: Rillaboom|67/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groudon|21/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750765384
+|move|p1a: Lilligant|Ice Spinner|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|16/100
+|move|p1b: Groudon|Heat Crash|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|win|gupflup
+|raw|gupflup's rating: 1422 &rarr; <strong>1443</strong><br />(+21 for winning)
+|raw|Jjgghh's rating: 1439 &rarr; <strong>1418</strong><br />(-21 for losing)
+|l|‽Jjgghh
+|player|p2|

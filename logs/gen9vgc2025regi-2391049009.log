@@ -1,0 +1,262 @@
+|j|☆Jameson Murray
+|j|☆Zakmancho
+|t:|1750796652
+|gametype|doubles
+|player|p1|Jameson Murray|elesa|1599
+|player|p2|Zakmancho|2|1661
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zakmancho)
+|j| ZodiacSheep
+|inactive|Jameson Murray has 60 seconds left.
+|
+|t:|1750796703
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Landorus|Landorus, L50, M|100/100
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|inactive|Zakmancho has 30 seconds left.
+|
+|t:|1750796736
+|move|p1a: Gothitelle|Fake Out|p2b: Landorus
+|-damage|p2b: Landorus|94/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Scream Tail
+|-status|p1b: Scream Tail|par
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Grimmsnarl|perish3|[silent]
+|-start|p2b: Landorus|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p2b: Landorus|flinch
+|
+|-start|p1b: Scream Tail|perish3
+|-start|p2b: Landorus|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p2a: Grimmsnarl|perish3
+|upkeep
+|turn|2
+|
+|t:|1750796760
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Zakmancho|Reflect
+|move|p2b: Landorus|Earth Power|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-start|p1b: Scream Tail|perish2
+|-start|p2b: Landorus|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Grimmsnarl|perish2
+|upkeep
+|turn|3
+|
+|t:|1750796778
+|-terastallize|p2a: Grimmsnarl|Ghost
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Zakmancho|move: Light Screen
+|move|p1b: Scream Tail|Disable|p2b: Landorus
+|-start|p2b: Landorus|Disable|Earth Power
+|cant|p2b: Landorus|Disable|Earth Power
+|move|p1a: Gothitelle|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|
+|-start|p1b: Scream Tail|perish1
+|-start|p2b: Landorus|perish1
+|-start|p1a: Gothitelle|perish1
+|-start|p2a: Grimmsnarl|perish1
+|upkeep
+|turn|4
+|inactive|Jameson Murray has 30 seconds left.
+|
+|t:|1750796812
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Landorus|Sludge Bomb|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Landorus|perish0
+|faint|p2b: Landorus
+|upkeep
+|
+|t:|1750796833
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, tera:Ghost|100/100
+|turn|5
+|
+|t:|1750796846
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100 par
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Flutter Mane
+|-status|p1a: Flutter Mane|par
+|cant|p1a: Flutter Mane|par
+|move|p2a: Calyrex|Glacial Lance|p1a: Flutter Mane|[spread] p1a,p1b
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100 par
+|-damage|p1b: Scream Tail|61/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|Zakmancho has 30 seconds left.
+|
+|t:|1750796879
+|cant|p1a: Flutter Mane|par
+|move|p1b: Scream Tail|Disable|p2a: Calyrex
+|-start|p2a: Calyrex|Disable|Glacial Lance
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750796887
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|turn|7
+|
+|t:|1750796902
+|move|p1a: Gothitelle|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|99/100
+|cant|p2a: Calyrex|flinch
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Scream Tail
+|-damage|p1b: Scream Tail|41/100 par
+|-unboost|p1b: Scream Tail|spa|1
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Calyrex|perish3|[silent]
+|-start|p2b: Grimmsnarl|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|100/100|[from] item: Leftovers
+|-start|p2a: Calyrex|perish3
+|-start|p2b: Grimmsnarl|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p1b: Scream Tail|perish3
+|upkeep
+|turn|8
+|
+|t:|1750796921
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2a: Calyrex|Leech Seed|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|none
+|-end|p1b: Scream Tail|Protosynthesis
+|-start|p2a: Calyrex|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p1b: Scream Tail|perish2
+|upkeep
+|turn|9
+|
+|t:|1750796945
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|79/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p2a: Calyrex|Leech Seed|p1a: Gothitelle
+|-start|p1a: Gothitelle|move: Leech Seed
+|move|p1a: Gothitelle|Psychic|p2b: Miraidon
+|-damage|p2b: Miraidon|85/100
+|move|p2b: Miraidon|Volt Switch|p1a: Gothitelle
+|-damage|p1a: Gothitelle|37/100
+|
+|t:|1750796957
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, tera:Ghost|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|43/100|[from] item: Leftovers
+|-damage|p1a: Gothitelle|31/100|[from] Leech Seed|[of] p2a: Calyrex
+|-end|p2a: Calyrex|Disable
+|-start|p2a: Calyrex|perish1
+|-start|p1a: Gothitelle|perish1
+|-sideend|p2: Zakmancho|Reflect
+|upkeep
+|turn|10
+|
+|t:|1750796975
+|switch|p1a: Scream Tail|Scream Tail, L50|41/100 par
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Zakmancho|Reflect
+|move|p2a: Calyrex|Glacial Lance|p1a: Scream Tail|[spread] p1a,p1b
+|-supereffective|p1b: Groudon
+|-damage|p1a: Scream Tail|0 fnt
+|-damage|p1b: Groudon|13/100
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Groudon|Precipice Blades|p2a: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Calyrex|77/100
+|-damage|p2b: Grimmsnarl|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|83/100|[from] item: Leftovers
+|-start|p2a: Calyrex|perish0
+|faint|p2a: Calyrex
+|-sideend|p2: Zakmancho|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750796991
+|switch|p1a: Gothitelle|Gothitelle, L50, M|31/100
+|switch|p2a: Miraidon|Miraidon, L50|85/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|11
+|-message|Jameson Murray forfeited.
+|
+|win|Zakmancho
+|raw|Jameson Murray's rating: 1599 &rarr; <strong>1583</strong><br />(-16 for losing)
+|raw|Zakmancho's rating: 1661 &rarr; <strong>1677</strong><br />(+16 for winning)
+|l|☆Jameson Murray
+|player|p1|
+|l|☆Zakmancho
+|player|p2|
+|l| ZodiacSheep

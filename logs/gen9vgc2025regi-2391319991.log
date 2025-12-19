@@ -1,0 +1,184 @@
+|j|☆KNJMAX
+|j|☆LaserRL
+|t:|1750835361
+|gametype|doubles
+|player|p1|KNJMAX|170|1389
+|player|p2|LaserRL|n-masters3|1404
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Hands, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Volbeat, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaserRL)
+|inactive|KNJMAX has 60 seconds left.
+|inactive|LaserRL has 60 seconds left.
+|
+|t:|1750835420
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: fish|Kyogre, L50, shiny|100/100
+|switch|p2b: bug|Volbeat, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: fish
+|turn|1
+|inactive|KNJMAX has 30 seconds left.
+|
+|t:|1750835451
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: bug|Taunt|p1b: Lunala
+|-start|p1b: Lunala|move: Taunt
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: KNJMAX|move: Light Screen
+|move|p2a: fish|Hydro Pump|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835474
+|move|p2b: bug|Encore|p1b: Lunala
+|-start|p1b: Lunala|Encore
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: fish
+|-status|p2a: fish|par
+|cant|p1b: Lunala|move: Taunt|Wide Guard
+|cant|p2a: fish|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750835488
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|move|p2b: bug|Helping Hand|p2a: fish
+|-singleturn|p2a: fish|Helping Hand|[of] p2b: bug
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: KNJMAX|Reflect
+|move|p2a: fish|Water Spout|p1b: Iron Hands|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Iron Hands|21/100
+|faint|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750835498
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750835510
+|move|p1b: Iron Hands|Fake Out|p2b: bug
+|-damage|p2b: bug|81/100
+|move|p2b: bug|Taunt|p1a: Calyrex
+|-start|p1a: Calyrex|move: Taunt
+|move|p2a: fish|Water Spout|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|47/100
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p1a: Calyrex|Glacial Lance|p2a: fish|[spread] p2a,p2b
+|-resisted|p2a: fish
+|-damage|p2a: fish|75/100 par
+|-damage|p2b: bug|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750835523
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750835543
+|move|p2b: bug|Tailwind|p2b: bug
+|-sidestart|p2: LaserRL|move: Tailwind
+|move|p2a: fish|Hydro Pump|p1b: Lunala
+|-damage|p1b: Lunala|71/100
+|move|p1b: Lunala|Moongeist Beam|p2a: fish
+|-damage|p2a: fish|32/100 par
+|move|p1a: Calyrex|Glacial Lance|p2a: fish|[spread] p2a,p2b
+|-resisted|p2a: fish
+|-damage|p2a: fish|2/100 par
+|-damage|p2b: bug|0 fnt
+|faint|p2b: bug
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|none
+|-heal|p1b: Lunala|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750835551
+|switch|p2b: honse|Calyrex-Ice, L50|100/100
+|-ability|p2b: honse|As One
+|-ability|p2b: honse|Unnerve
+|turn|6
+|
+|t:|1750835565
+|-terastallize|p1a: Calyrex|Water
+|move|p2b: honse|Protect|p2b: honse
+|-singleturn|p2b: honse|Protect
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2a: fish|Hydro Pump|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|29/100
+|move|p1a: Calyrex|Glacial Lance|p2a: fish|[spread] p2a
+|-activate|p2b: honse|move: Protect
+|-resisted|p2a: fish
+|-damage|p2a: fish|0 fnt
+|faint|p2a: fish
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-heal|p1b: Lunala|83/100|[from] item: Leftovers
+|-end|p1a: Calyrex|move: Taunt
+|upkeep
+|
+|t:|1750835567
+|switch|p2a: dog|Smeargle, L50, M|100/100
+|turn|7
+|
+|t:|1750835595
+|-terastallize|p2b: honse|Ground
+|move|p2a: dog|Decorate|p2b: honse
+|-boost|p2b: honse|atk|2
+|-boost|p2b: honse|spa|2
+|move|p2b: honse|High Horsepower|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-ability|p2b: honse|Chilling Neigh|boost
+|-boost|p2b: honse|atk|1
+|move|p1b: Lunala|Moongeist Beam|p2b: honse
+|-damage|p2b: honse|54/100
+|
+|-heal|p1b: Lunala|89/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|KNJMAX forfeited.
+|
+|win|LaserRL
+|raw|KNJMAX's rating: 1389 &rarr; <strong>1371</strong><br />(-18 for losing)
+|raw|LaserRL's rating: 1424 &rarr; <strong>1442</strong><br />(+18 for winning)
+|l|☆KNJMAX
+|player|p1|
+|l|☆LaserRL
+|player|p2|

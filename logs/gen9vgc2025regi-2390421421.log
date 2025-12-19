@@ -1,0 +1,200 @@
+|j|☆scoletta
+|j|☆Top1PercentPlayer
+|t:|1750711387
+|gametype|doubles
+|player|p1|scoletta|byron|1155
+|player|p2|Top1PercentPlayer|266|1089
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Trevenant, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by scoletta)
+Top1PercentPlayer rejected open team sheets.
+|inactive|Top1PercentPlayer has 60 seconds left.
+|
+|t:|1750711437
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750711452
+|move|p2a: Indeedee|Helping Hand|p2b: Lunala
+|-singleturn|p2b: Lunala|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Lunala|Expanding Force|p1b: Indeedee|[spread] p1a,p1b
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-resisted|p1b: Indeedee
+|-damage|p1a: Terapagos|62/100
+|-damage|p1b: Indeedee|52/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p1b: Indeedee|Psychic|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|93/100
+|-unboost|p2b: Lunala|spd|1
+|
+|upkeep
+|turn|2
+|inactive|scoletta has 30 seconds left.
+|
+|t:|1750711481
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|71/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-fieldend|move: Psychic Terrain
+|move|p2b: Lunala|Expanding Force|p1a: Terapagos
+|-damage|p1a: Terapagos|53/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Indeedee|61/100
+|-damage|p2b: Lunala|36/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|3
+|
+|t:|1750711503
+|move|p2b: Lunala|Moonblast|p1a: Terapagos
+|-damage|p1a: Terapagos|38/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1750711516
+|move|p1b: Indeedee|Helping Hand|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Lunala|Moonblast|p1a: Terapagos
+|-damage|p1a: Terapagos|26/100
+|move|p1a: Terapagos|Tera Starstorm|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Lunala
+|
+|upkeep
+|
+|t:|1750711525
+|switch|p2b: Trevenant|Trevenant, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-item|p1a: Terapagos|Covert Cloak|[from] ability: Frisk|[of] p2b: Trevenant
+|-item|p1b: Indeedee|Sitrus Berry|[from] ability: Frisk|[of] p2b: Trevenant
+|turn|5
+|
+|t:|1750711531
+|move|p2b: Trevenant|Protect|p2b: Trevenant
+|-singleturn|p2b: Trevenant|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Terapagos|Flamethrower|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|15/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|6
+|
+|t:|1750711546
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Trevenant|Wood Hammer|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Trevenant|85/100|[from] Recoil
+|move|p2a: Calyrex|Glacial Lance|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750711550
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|7
+|
+|t:|1750711571
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Trevenant|Phantom Force||[still]
+|-prepare|p2b: Trevenant|Phantom Force
+|-enditem|p2b: Trevenant|Power Herb
+|-anim|p2b: Trevenant|Phantom Force|p1b: Ogerpon
+|-activate|p1b: Ogerpon|move: Phantom Force|[broken]
+|-damage|p1b: Ogerpon|62/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-supereffective|p1b: Ogerpon
+|-damage|p1a: Lunala|70/100
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750711593
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p2b: Trevenant|Phantom Force||[still]
+|-prepare|p2b: Trevenant|Phantom Force
+|move|p2a: Calyrex|Glacial Lance|p1a: Lunala
+|-activate|p1a: Lunala|move: Wide Guard
+|
+|upkeep
+|turn|9
+|
+|t:|1750711599
+|move|p2b: Trevenant|Phantom Force|p1a: Lunala|[from] lockedmove
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|win|Top1PercentPlayer
+|raw|scoletta's rating: 1155 &rarr; <strong>1125</strong><br />(-30 for losing)
+|raw|Top1PercentPlayer's rating: 1089 &rarr; <strong>1121</strong><br />(+32 for winning)
+|l|☆scoletta
+|player|p1|
+|l|☆Top1PercentPlayer
+|player|p2|

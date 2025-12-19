@@ -1,0 +1,112 @@
+|j|☆WindyEng
+|j|☆arnav.shiv.khare
+|t:|1750806738
+|gametype|doubles
+|player|p1|WindyEng|musician|1245
+|player|p2|arnav.shiv.khare|hilda-wonderlauncher|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Iron Crown, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Exeggutor, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Sableye, L50, M|
+|teampreview|4
+|
+|t:|1750806768
+|start
+|switch|p1a: Yanmega|Yanmega, L50, F|100/100
+|switch|p1b: Exeggutor|Exeggutor, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Yanmega|atk|1
+|-unboost|p1b: Exeggutor|atk|1
+|turn|1
+|
+|t:|1750806796
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p2a: Incineroar|Fake Out|p1b: Exeggutor
+|-activate|p1b: Exeggutor|move: Psychic Terrain
+|move|p2b: Miraidon|Electro Drift|p1a: Indeedee
+|-damage|p1a: Indeedee|38/100
+|move|p1b: Exeggutor|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Miraidon|29/100
+|-damage|p1b: Exeggutor|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1750806849
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Exeggutor|Expanding Force|p2b: Tornadus|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Tornadus|19/100
+|-damage|p1b: Exeggutor|81/100|[from] item: Life Orb
+|move|p2a: Incineroar|Flare Blitz|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-damage|p1b: Exeggutor|0 fnt
+|faint|p1b: Exeggutor
+|-damage|p2a: Incineroar|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750806873
+|switch|p1b: Indeedee|Indeedee, L50, M|38/100
+|turn|3
+|
+|t:|1750806883
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: arnav.shiv.khare|move: Tailwind
+|move|p2a: Incineroar|Parting Shot|p1a: Groudon
+|-unboost|p1a: Groudon|atk|1
+|-unboost|p1a: Groudon|spa|1
+|
+|t:|1750806892
+|switch|p2a: Miraidon|Miraidon, L50|29/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Groudon|Rock Slide|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Tornadus
+|-damage|p2a: Miraidon|7/100
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750806896
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|4
+|-message|arnav.shiv.khare forfeited.
+|
+|win|WindyEng
+|raw|WindyEng's rating: 1245 &rarr; <strong>1268</strong><br />(+23 for winning)
+|raw|arnav.shiv.khare's rating: 1221 &rarr; <strong>1198</strong><br />(-23 for losing)
+|l|☆arnav.shiv.khare
+|player|p2|
+|l|☆WindyEng
+|player|p1|

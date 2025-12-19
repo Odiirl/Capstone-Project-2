@@ -1,0 +1,133 @@
+|j|☆Inferno prodigy
+|j|☆xiaoliyunVGC
+|t:|1750812895
+|gametype|doubles
+|player|p1|Inferno prodigy|102|1602
+|player|p2|xiaoliyunVGC|lillie-masters2|1656
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Iron Jugulis, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xiaoliyunVGC)
+|
+|t:|1750812919
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750812932
+|-terastallize|p2a: Zamazenta|Grass
+|move|p1a: Miraidon|Volt Switch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|79/100
+|
+|t:|1750812939
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Zamazenta|Body Press|p1b: Farigiraf
+|-damage|p1b: Farigiraf|64/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Farigiraf
+|-damage|p1b: Farigiraf|26/100
+|-damage|p2b: Rillaboom|87/100|[from] Recoil
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-heal|p1b: Farigiraf|33/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|93/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|85/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750812957
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Farigiraf|Psychic Noise|p2a: Zamazenta
+|-damage|p2a: Zamazenta|66/100
+|-start|p2a: Zamazenta|move: Heal Block
+|move|p2b: Rillaboom|U-turn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|9/100
+|
+|t:|1750812969
+|switch|p2b: Kyogre|Kyogre, L50, shiny|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750812986
+|move|p1b: Farigiraf|Foul Play|p2b: Kyogre
+|-damage|p2b: Kyogre|87/100
+|move|p2b: Kyogre|Water Spout|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|56/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p2a: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Zamazenta|move: Heal Block
+|upkeep
+|
+|t:|1750812992
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750813004
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Iron Hands|Fake Out|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Zamazenta|[spread] 
+|-activate|p2a: Zamazenta|move: Protect
+|-activate|p2b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|-message|Inferno prodigy forfeited.
+|
+|win|xiaoliyunVGC
+|raw|Inferno prodigy's rating: 1602 &rarr; <strong>1585</strong><br />(-17 for losing)
+|raw|xiaoliyunVGC's rating: 1656 &rarr; <strong>1673</strong><br />(+17 for winning)
+|l|☆Inferno prodigy
+|player|p1|

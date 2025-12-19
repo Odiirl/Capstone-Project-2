@@ -1,0 +1,171 @@
+|j|☆ArosConPollo85
+|j|☆thatoneguy1337
+|t:|1750745808
+|gametype|doubles
+|player|p1|ArosConPollo85|2|1415
+|player|p2|thatoneguy1337|caitlin|1550
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Leaves, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArosConPollo85)
+|
+|t:|1750745833
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750745843
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: thatoneguy1337|move: Light Screen
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Grimmsnarl|26/100
+|-damage|p2b: Miraidon|61/100
+|move|p2b: Miraidon|Volt Switch|p1b: Calyrex
+|-damage|p1b: Calyrex|68/100
+|
+|t:|1750745849
+|switch|p2b: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|move|p1b: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Lunala|87/100
+|faint|p2a: Grimmsnarl
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750745853
+|switch|p2a: Miraidon|Miraidon, L50|61/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750745863
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|42/100
+|-damage|p2b: Lunala|53/100
+|move|p2a: Miraidon|Electro Drift|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|50/100
+|
+|upkeep
+|
+|t:|1750745873
+|switch|p1b: Iron Leaves|Iron Leaves, L50|100/100
+|-activate|p1b: Iron Leaves|ability: Quark Drive
+|-start|p1b: Iron Leaves|quarkdrivespe
+|turn|3
+|
+|t:|1750745880
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1b: Iron Leaves|Psyblade|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|-damage|p1b: Iron Leaves|91/100|[from] item: Life Orb
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|upkeep
+|
+|t:|1750745885
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1750745895
+|move|p1b: Iron Leaves|Protect|p1b: Iron Leaves
+|-singleturn|p1b: Iron Leaves|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Farigiraf
+|-damage|p1a: Farigiraf|34/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p2b: Lunala|Moonblast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|3/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750745910
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Iron Leaves|Psyblade|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Farigiraf|Shadow Ball|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|14/100
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Leaves|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750745920
+|move|p1a: Farigiraf|Helping Hand|p1b: Iron Leaves
+|-singleturn|p1b: Iron Leaves|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Ursaluna|Facade|p1b: Iron Leaves
+|-damage|p1b: Iron Leaves|0 fnt
+|faint|p1b: Iron Leaves
+|-end|p1b: Iron Leaves|Quark Drive|[silent]
+|move|p2b: Lunala|Moonblast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750745926
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|50/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|
+|t:|1750745929
+|move|p2a: Ursaluna|Headlong Rush|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Miraidon
+|
+|win|thatoneguy1337
+|raw|ArosConPollo85's rating: 1415 &rarr; <strong>1402</strong><br />(-13 for losing)
+|raw|thatoneguy1337's rating: 1550 &rarr; <strong>1563</strong><br />(+13 for winning)
+|l|☆thatoneguy1337
+|player|p2|
+|l|☆ArosConPollo85
+|player|p1|

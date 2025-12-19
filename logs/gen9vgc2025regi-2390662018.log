@@ -1,0 +1,184 @@
+|j|☆What The Groudon
+|j|☆Kampfstube
+|t:|1750744918
+|gametype|doubles
+|player|p1|What The Groudon|acerola-masters2|1449
+|player|p2|Kampfstube|volkner|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kampfstube)
+|inactive|What The Groudon also wants the timer to be on.
+|inactive|Kampfstube has 60 seconds left.
+|
+|t:|1750744952
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Entei|Entei, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p2a: Lunala|Electric Seed
+|-boost|p2a: Lunala|def|1|[from] item: Electric Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-fail|p1b: Entei|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Entei
+|turn|1
+|inactive|Kampfstube has 30 seconds left.
+|
+|t:|1750744983
+|move|p2b: Incineroar|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|89/100
+|move|p1b: Entei|Shadow Ball|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|68/100
+|cant|p1a: Miraidon|flinch
+|move|p2a: Lunala|Trick Room|p2a: Lunala
+|-fieldstart|move: Trick Room|[of] p2a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750745003
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Incineroar|U-turn|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|59/100
+|
+|t:|1750745008
+|switch|p2b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1a: Miraidon|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Miraidon
+|move|p1b: Entei|Shadow Ball|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750745020
+|switch|p2b: Lunala|Lunala, L50|68/100
+|turn|3
+|
+|t:|1750745026
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p2a: Ursaluna|Earthquake|p1b: Entei|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-supereffective|p1a: Miraidon
+|-supereffective|p1b: Entei
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Entei|0 fnt
+|faint|p1a: Miraidon
+|faint|p1b: Entei
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750745033
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|4
+|
+|t:|1750745046
+|-terastallize|p2b: Lunala|Fairy
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Urshifu|Sucker Punch||[still]
+|-fail|p1b: Urshifu
+|move|p2a: Ursaluna|Earthquake|p1b: Urshifu|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-crit|p1b: Urshifu
+|-damage|p1a: Groudon|51/100
+|-damage|p1b: Urshifu|6/100
+|move|p1a: Groudon|Heat Crash|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|45/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Kampfstube has 30 seconds left.
+|
+|t:|1750745073
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Groudon|unboost|[from] item: Clear Amulet|[of] p1a: Groudon
+|-unboost|p1b: Urshifu|atk|1
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Urshifu|Detect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2a: Ursaluna|Facade|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|34/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750745092
+|move|p2b: Incineroar|Fake Out|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Groudon|Precipice Blades|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Incineroar|5/100
+|faint|p2a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750745100
+|switch|p2a: Lunala|Lunala, L50, tera:Fairy|68/100
+|turn|7
+|
+|t:|1750745106
+|-terastallize|p1a: Groudon|Fire
+|move|p1a: Groudon|Heat Crash|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p2b: Incineroar|Knock Off|p1a: Groudon
+|-damage|p1a: Groudon|19/100
+|-enditem|p1a: Groudon|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750745119
+|move|p1a: Groudon|Heat Crash|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|What The Groudon
+|raw|What The Groudon's rating: 1449 &rarr; <strong>1469</strong><br />(+20 for winning)
+|raw|Kampfstube's rating: 1450 &rarr; <strong>1430</strong><br />(-20 for losing)

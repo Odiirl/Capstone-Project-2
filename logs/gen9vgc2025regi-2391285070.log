@@ -1,0 +1,163 @@
+|j|☆we moveing
+|j|☆Ren Hiyama
+|t:|1750828469
+|gametype|doubles
+|player|p1|we moveing|266|1124
+|player|p2|Ren Hiyama|cyrus|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Articuno, L50|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Hitmontop, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750828505
+|start
+|switch|p1a: Scovillain|Scovillain, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Tornadus|atk|1
+|turn|1
+|
+|t:|1750828555
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Ogerpon
+|-damage|p2a: Ogerpon|86/100
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Ren Hiyama|move: Tailwind
+|move|p1a: Scovillain|Overheat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|12/100
+|-unboost|p1a: Scovillain|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1750828590
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, L50, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Scovillain|Protect|p1a: Scovillain
+|-singleturn|p1a: Scovillain|Protect
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Incineroar|[anim] Ivy Cudgel Water
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Scovillain
+|-activate|p1a: Scovillain|move: Protect
+|
+|upkeep
+|
+|t:|1750828601
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750828637
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scovillain|[anim] Ivy Cudgel Water
+|-damage|p1a: Scovillain|27/100
+|move|p1a: Scovillain|Spicy Extract|p1b: Koraidon
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-boost|p1b: Koraidon|atk|2
+|move|p2b: Tornadus|Bleakwind Storm|p1a: Scovillain|[spread] p1a,p1b
+|-supereffective|p1a: Scovillain
+|-supereffective|p1b: Koraidon
+|-damage|p1a: Scovillain|0 fnt
+|-damage|p1b: Koraidon|31/100
+|faint|p1a: Scovillain
+|move|p1b: Koraidon|Flame Charge|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Wellspring, L50, F|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750828668
+|switch|p2a: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p1a: Walking Wake|Walking Wake, L50|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|-fail|p1b: Koraidon|unboost|[from] item: Clear Amulet|[of] p1b: Koraidon
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|4
+|
+|t:|1750828683
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Hitmontop|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Koraidon|[spread] 
+|-activate|p1b: Koraidon|move: Protect
+|-miss|p2b: Tornadus|p1a: Walking Wake
+|move|p1a: Walking Wake|Hydro Steam|p2b: Tornadus
+|-damage|p2b: Tornadus|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Ren Hiyama|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750828705
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: Ren Hiyama|move: Tailwind
+|move|p2a: Hitmontop|Sucker Punch|p1b: Koraidon
+|-damage|p1b: Koraidon|10/100
+|move|p1b: Koraidon|Close Combat|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|-damage|p1b: Koraidon|0 fnt|[from] item: Rocky Helmet|[of] p2a: Hitmontop
+|faint|p2a: Hitmontop
+|faint|p1b: Koraidon
+|move|p1a: Walking Wake|Hydro Steam|p2b: Tornadus
+|-damage|p2b: Tornadus|0 fnt
+|faint|p2b: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750828726
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750828736
+|move|p2b: Miraidon|Electro Drift|p1a: Walking Wake
+|-damage|p1a: Walking Wake|49/100
+|move|p1a: Walking Wake|Draco Meteor|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2b: Miraidon
+|
+|win|we moveing
+|raw|we moveing's rating: 1124 &rarr; <strong>1148</strong><br />(+24 for winning)
+|raw|Ren Hiyama's rating: 1111 &rarr; <strong>1087</strong><br />(-24 for losing)
+|l|☆Ren Hiyama
+|player|p2|

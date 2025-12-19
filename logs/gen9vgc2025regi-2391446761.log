@@ -1,0 +1,263 @@
+|j|☆i be at work n shi
+|j|☆TestBen5
+|t:|1750857270
+|gametype|doubles
+|player|p1|i be at work n shi|101|1071
+|player|p2|TestBen5|unknown|1175
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Meowstic, L50, M|
+|poke|p1|Tauros, L50, M|
+|poke|p1|Beartic, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+i be at work n shi has agreed to open team sheets.
+|
+|t:|1750857298
+|start
+|switch|p1a: Meowstic|Meowstic, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750857313
+|-terastallize|p1b: Kyogre|Water
+|move|p1a: Meowstic|Fake Out|p2a: Rillaboom
+|-damage|p2a: Rillaboom|95/100
+|cant|p2a: Rillaboom|flinch
+|move|p1b: Kyogre|Water Spout|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|54/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750857325
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|2
+|
+|t:|1750857338
+|switch|p1a: Tauros|Tauros, L50, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|move|p2a: Rillaboom|Grassy Glide|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|49/100
+|move|p1b: Kyogre|Water Spout|p2b: Terapagos|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2a: Rillaboom|39/100
+|-damage|p2b: Terapagos|75/100
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|55/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|81/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|87/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|45/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750857364
+|switch|p1b: Meowstic|Meowstic, L50, M|100/100
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Meowstic
+|-damage|p1b: Meowstic|72/100
+|move|p1a: Tauros|Icy Wind|p2b: Terapagos|[spread] p2a
+|-activate|p2b: Terapagos|move: Protect
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|38/100
+|-unboost|p2a: Rillaboom|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Meowstic|78/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|94/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|99/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|44/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750857395
+|move|p1b: Meowstic|Fake Out|p2b: Terapagos
+|-damage|p2b: Terapagos|96/100
+|move|p1a: Tauros|Body Slam|p2b: Terapagos
+|-crit|p2b: Terapagos
+|-damage|p2b: Terapagos|63/100
+|cant|p2b: Terapagos|flinch
+|move|p2a: Rillaboom|U-turn|p1a: Tauros
+|-damage|p1a: Tauros|87/100
+|
+|t:|1750857405
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tauros|93/100|[from] Grassy Terrain
+|-heal|p1b: Meowstic|84/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|69/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750857430
+|switch|p1b: Kyogre|Kyogre, L50, tera:Water|55/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|63/100
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|35/100
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|5/100
+|-hitcount|p1a: Tauros|3
+|move|p1a: Tauros|Icy Wind|p2b: Terapagos|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|97/100
+|-damage|p2b: Terapagos|72/100
+|-unboost|p2a: Urshifu|spe|1
+|-unboost|p2b: Terapagos|spe|1
+|move|p2b: Terapagos|Tera Starstorm|p1b: Kyogre
+|-damage|p1b: Kyogre|1/100
+|
+|-weather|none
+|-heal|p1b: Kyogre|7/100|[from] Grassy Terrain
+|-heal|p1a: Tauros|11/100|[from] Grassy Terrain
+|-heal|p2a: Urshifu|100/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|79/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|85/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750857463
+|switch|p1b: Beartic|Beartic, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|44/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Tauros|Rain Dance|p1a: Tauros
+|-weather|RainDance
+|move|p2b: Terapagos|Tera Starstorm|p1b: Beartic
+|-damage|p1b: Beartic|7/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Beartic|13/100|[from] Grassy Terrain
+|-heal|p1a: Tauros|18/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|91/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750857482
+|move|p2a: Rillaboom|Fake Out|p1a: Tauros
+|-damage|p1a: Tauros|4/100
+|move|p1b: Beartic|Liquidation|p2b: Terapagos
+|-damage|p2b: Terapagos|67/100
+|-unboost|p2b: Terapagos|def|1
+|cant|p1a: Tauros|flinch
+|move|p2b: Terapagos|Tera Starstorm|p1b: Beartic
+|-damage|p1b: Beartic|0 fnt
+|faint|p1b: Beartic
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tauros|10/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|56/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|73/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750857495
+|switch|p1b: Meowstic|Meowstic, L50, M|84/100
+|turn|8
+|
+|t:|1750857510
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p1b: Meowstic|Fake Out|p2a: Rillaboom
+|-damage|p2a: Rillaboom|51/100
+|move|p1a: Tauros|Body Slam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|23/100
+|cant|p2a: Rillaboom|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tauros|16/100|[from] Grassy Terrain
+|-heal|p1b: Meowstic|90/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|86/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750857528
+|move|p1b: Meowstic|Gravity|p1b: Meowstic
+|-fieldstart|move: Gravity
+|move|p2a: Rillaboom|Grassy Glide|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|move|p2b: Terapagos|Tera Starstorm|p1b: Meowstic
+|-damage|p1b: Meowstic|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Meowstic|38/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|35/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|98/100|[from] Grassy Terrain
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750857533
+|switch|p1a: Kyogre|Kyogre, L50, tera:Water|7/100
+|turn|10
+|c|☆i be at work n shi|gg
+|
+|t:|1750857549
+|move|p1b: Meowstic|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Meowstic
+|move|p2a: Rillaboom|Grassy Glide|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-weather|none
+|-heal|p1b: Meowstic|44/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|41/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|-message|i be at work n shi forfeited.
+|
+|win|TestBen5
+|raw|i be at work n shi's rating: 1071 &rarr; <strong>1056</strong><br />(-15 for losing)
+|raw|TestBen5's rating: 1175 &rarr; <strong>1193</strong><br />(+18 for winning)
+|l|☆i be at work n shi
+|player|p1|
+|l|☆TestBen5
+|player|p2|

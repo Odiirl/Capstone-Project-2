@@ -1,0 +1,141 @@
+|j|☆slloubbi
+|j|☆brannyboy123
+|t:|1750752803
+|gametype|doubles
+|player|p1|slloubbi|169|1124
+|player|p2|brannyboy123|265|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Inteleon, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Clefable, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750752835
+|start
+|switch|p1a: Inteleon|Inteleon, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|t:|1750752864
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: brannyboy123|move: Tailwind
+|move|p2a: Chien-Pao|Icicle Crash|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|move|p1a: Inteleon|Taunt|p2b: Tornadus
+|-start|p2b: Tornadus|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1750752895
+|-terastallize|p1b: Amoonguss|Water
+|move|p2a: Chien-Pao|Icicle Crash|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|49/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Inteleon|50/100
+|-damage|p1b: Amoonguss|25/100
+|-unboost|p1a: Inteleon|spe|1
+|move|p1a: Inteleon|Flip Turn|p2b: Tornadus
+|-damage|p2b: Tornadus|71/100
+|-damage|p1a: Inteleon|33/100|[from] item: Rocky Helmet|[of] p2b: Tornadus
+|
+|t:|1750752909
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100|[from] Flip Turn
+|move|p1b: Amoonguss|Spore|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1750752924
+|move|p1a: Iron Hands|Fake Out|p2b: Tornadus
+|-damage|p2b: Tornadus|41/100
+|-damage|p1a: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p2b: Tornadus
+|cant|p2a: Chien-Pao|slp
+|cant|p2b: Tornadus|flinch
+|move|p1b: Amoonguss|Spore|p2b: Tornadus
+|-status|p2b: Tornadus|slp|[from] move: Spore
+|
+|upkeep
+|turn|4
+|
+|t:|1750752946
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|cant|p2a: Chien-Pao|slp
+|cant|p2b: Tornadus|slp
+|move|p1a: Iron Hands|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Iron Hands|def|1
+|-unboost|p1a: Iron Hands|spd|1
+|faint|p2a: Chien-Pao
+|
+|-end|p2b: Tornadus|move: Taunt
+|-sideend|p2: brannyboy123|move: Tailwind
+|upkeep
+|
+|t:|1750752974
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750752987
+|-terastallize|p2a: Miraidon|Fairy
+|cant|p2b: Tornadus|slp
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Iron Hands|0 fnt
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|faint|p1b: Miraidon
+|
+|upkeep
+|
+|t:|1750753000
+|switch|p1b: Amoonguss|Amoonguss, L50, F, tera:Water|25/100
+|switch|p1a: Inteleon|Inteleon, L50, M|33/100
+|turn|6
+|
+|t:|1750753011
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Inteleon|0 fnt
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1a: Inteleon
+|faint|p1b: Amoonguss
+|
+|win|brannyboy123
+|raw|slloubbi's rating: 1124 &rarr; <strong>1101</strong><br />(-23 for losing)
+|raw|brannyboy123's rating: 1147 &rarr; <strong>1170</strong><br />(+23 for winning)
+|l|☆brannyboy123
+|player|p2|
+|l|☆slloubbi
+|player|p1|

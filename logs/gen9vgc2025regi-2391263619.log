@@ -1,0 +1,161 @@
+|j|☆Joncs
+|j|☆NarutoUzumaki1234
+|t:|1750824700
+|gametype|doubles
+|player|p1|Joncs|2|1182
+|player|p2|NarutoUzumaki1234|1|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Overqwil, L50, F|
+|teampreview|4
+|
+|t:|1750824722
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|switch|p2b: Overqwil|Overqwil, L50, F|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750824739
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Overqwil
+|-damage|p2b: Overqwil|87/100
+|cant|p2b: Overqwil|flinch
+|move|p1a: Zacian|Snarl|p2a: Kyogre|[spread] p2b
+|-activate|p2a: Kyogre|move: Protect
+|-resisted|p2b: Overqwil
+|-damage|p2b: Overqwil|81/100
+|-unboost|p2b: Overqwil|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750824770
+|move|p2b: Overqwil|Toxic Spikes|p1b: Iron Hands
+|-sidestart|p1: Joncs|move: Toxic Spikes
+|move|p1a: Zacian|Sacred Sword|p2a: Kyogre
+|-damage|p2a: Kyogre|54/100
+|move|p2a: Kyogre|Thunder|p1a: Zacian
+|-damage|p1a: Zacian|53/100
+|-status|p1a: Zacian|par
+|move|p1b: Iron Hands|Drain Punch|p2b: Overqwil
+|-damage|p2b: Overqwil|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750824799
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-status|p1a: Miraidon|psn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|move|p2b: Overqwil|Poison Jab|p1b: Iron Hands
+|-damage|p1b: Iron Hands|77/100
+|move|p2a: Kyogre|Thunder|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|88/100 psn
+|move|p1b: Iron Hands|Drain Punch|p2a: Kyogre
+|-damage|p2a: Kyogre|13/100
+|-heal|p1b: Iron Hands|93/100|[from] drain|[of] p2a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Miraidon|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Miraidon|82/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750824837
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p2b: Overqwil|Crunch|p1a: Miraidon
+|-damage|p1a: Miraidon|53/100 psn
+|move|p1a: Miraidon|Calm Mind|p1a: Miraidon
+|-boost|p1a: Miraidon|spa|1
+|-boost|p1a: Miraidon|spd|1
+|move|p1b: Iron Hands|Drain Punch|p2b: Overqwil
+|-crit|p2b: Overqwil
+|-damage|p2b: Overqwil|0 fnt
+|-heal|p1b: Iron Hands|100/100|[from] drain|[of] p2b: Overqwil
+|faint|p2b: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Miraidon|59/100 psn|[from] item: Leftovers
+|-damage|p1a: Miraidon|47/100 psn|[from] psn
+|upkeep
+|
+|t:|1750824859
+|switch|p2b: Raichu|Raichu, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1750824882
+|-terastallize|p2a: Kyogre|Fairy
+|move|p2b: Raichu|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|95/100
+|move|p1a: Miraidon|Draco Meteor|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Raichu
+|move|p2a: Kyogre|Ice Beam|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|7/100 psn
+|cant|p1b: Iron Hands|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Miraidon|13/100 psn|[from] item: Leftovers
+|-damage|p1a: Miraidon|0 fnt|[from] psn
+|faint|p1a: Miraidon
+|upkeep
+|
+|t:|1750824902
+|switch|p1a: Zacian|Zacian-Crowned, L50|53/100 par
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|turn|6
+|
+|t:|1750824933
+|move|p2b: Zacian|Play Rough|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|move|p2a: Kyogre|Thunder|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Joncs forfeited.
+|
+|win|NarutoUzumaki1234
+|raw|Joncs's rating: 1182 &rarr; <strong>1156</strong><br />(-26 for losing)
+|raw|NarutoUzumaki1234's rating: 1164 &rarr; <strong>1190</strong><br />(+26 for winning)
+|l|☆Joncs
+|player|p1|
+|l|☆NarutoUzumaki1234
+|player|p2|

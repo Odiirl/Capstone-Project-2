@@ -1,0 +1,220 @@
+|j|☆kuikoo
+|j|☆langers
+|t:|1750741409
+|gametype|doubles
+|player|p1|kuikoo|1|1185
+|player|p2|langers|266|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gothitelle, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kuikoo)
+|
+|t:|1750741437
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gothitelle|atk|1
+|-unboost|p2b: Scream Tail|atk|1
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750741457
+|-terastallize|p2a: Gothitelle|Water
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Incineroar|perish3|[silent]
+|-start|p1b: Iron Valiant|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Iron Valiant|Taunt|p2b: Scream Tail
+|-start|p2b: Scream Tail|move: Taunt
+|move|p2a: Gothitelle|Psychic|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|33/100
+|move|p1a: Incineroar|Parting Shot|p2a: Gothitelle
+|-unboost|p2a: Gothitelle|atk|1
+|-unboost|p2a: Gothitelle|spa|1
+|
+|t:|1750741472
+|switch|p1a: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Scream Tail|perish3
+|-start|p1b: Iron Valiant|perish3
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750741490
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1a: Kyogre|Water
+|move|p1b: Iron Valiant|Spirit Break|p2a: Gothitelle
+|-damage|p2a: Gothitelle|65/100
+|-unboost|p2a: Gothitelle|spa|1
+|move|p1a: Kyogre|Water Spout|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-resisted|p2b: Koraidon
+|-damage|p2a: Gothitelle|46/100
+|-damage|p2b: Koraidon|70/100
+|move|p2a: Gothitelle|Psychic|p1a: Kyogre
+|-damage|p1a: Kyogre|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|52/100|[from] item: Leftovers
+|-start|p1b: Iron Valiant|perish2
+|-start|p2a: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|kuikoo has 30 seconds left.
+|inactive|langers has 30 seconds left.
+|inactive|langers has 20 seconds left.
+|inactive|langers has 15 seconds left.
+|inactive|langers has 10 seconds left.
+|inactive|langers has 5 seconds left.
+|
+|t:|1750741540
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1b: Iron Valiant|Trick Room|p1b: Iron Valiant
+|-fieldstart|move: Trick Room|[of] p1b: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gothitelle|58/100|[from] item: Leftovers
+|-start|p2a: Gothitelle|perish1
+|-start|p1b: Iron Valiant|perish1
+|upkeep
+|turn|4
+|inactive|langers has 30 seconds left.
+|inactive|kuikoo has 30 seconds left.
+|
+|t:|1750741587
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|move|p1a: Kyogre|Origin Pulse|p2a: Scream Tail|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Scream Tail|70/100
+|-damage|p2b: Koraidon|48/100
+|move|p1b: Iron Valiant|Spirit Break|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Iron Valiant|perish0
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1750741608
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M, tera:Water|58/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Scream Tail|atk|1
+|-unboost|p2b: Gothitelle|atk|1
+|turn|5
+|
+|t:|1750741625
+|move|p1b: Incineroar|Fake Out|p2a: Scream Tail
+|-damage|p2a: Scream Tail|62/100
+|move|p2b: Gothitelle|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|98/100
+|move|p1a: Kyogre|Water Spout|p2b: Gothitelle|[spread] p2a,p2b
+|-resisted|p2b: Gothitelle
+|-damage|p2a: Scream Tail|27/100
+|-damage|p2b: Gothitelle|42/100
+|cant|p2a: Scream Tail|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gothitelle|48/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|kuikoo has 30 seconds left.
+|
+|t:|1750741652
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Gothitelle
+|-unboost|p2b: Gothitelle|atk|1
+|-unboost|p2b: Gothitelle|spa|1
+|
+|t:|1750741658
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p2b: Gothitelle|Taunt|p1b: Miraidon
+|-start|p1b: Miraidon|move: Taunt
+|move|p1a: Kyogre|Water Spout|p2a: Scream Tail|[spread] p2b
+|-activate|p2a: Scream Tail|move: Protect
+|-resisted|p2b: Gothitelle
+|-damage|p2b: Gothitelle|30/100
+|
+|-weather|none
+|-end|p2a: Scream Tail|Protosynthesis
+|-heal|p2b: Gothitelle|36/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|kuikoo has 30 seconds left.
+|inactive|langers has 30 seconds left.
+|
+|t:|1750741692
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Scream Tail|Protect||[still]
+|-fail|p2a: Scream Tail
+|move|p1a: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-crit|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|-damage|p2b: Calyrex|2/100
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750741703
+|switch|p2b: Gothitelle|Gothitelle, L50, M, tera:Water|36/100
+|turn|8
+|-message|langers forfeited.
+|
+|win|kuikoo
+|raw|kuikoo's rating: 1185 &rarr; <strong>1203</strong><br />(+18 for winning)
+|raw|langers's rating: 1080 &rarr; <strong>1064</strong><br />(-16 for losing)
+|l|☆langers
+|player|p2|
+|l|☆kuikoo
+|player|p1|

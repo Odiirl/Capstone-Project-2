@@ -1,0 +1,157 @@
+|j|☆CoolCarrot
+|j|☆notspocko
+|t:|1750742703
+|gametype|doubles
+|player|p1|CoolCarrot|caitlin|1197
+|player|p2|notspocko|boarder|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Hands, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Weezing-Galar, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by notspocko)
+|
+|t:|1750742733
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Clefairy|Clefairy, L50, M, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2b: Weezing
+|turn|1
+|inactive|CoolCarrot has 30 seconds left.
+|inactive|CoolCarrot has 20 seconds left.
+|inactive|CoolCarrot has 15 seconds left.
+|
+|t:|1750742774
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Sneasler|Dire Claw|p1b: Clefairy
+|-supereffective|p1b: Clefairy
+|-damage|p1b: Clefairy|19/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Weezing|[miss]
+|-miss|p1a: Lunala|p2b: Weezing
+|move|p2b: Weezing|Dazzling Gleam|p1b: Clefairy|[spread] p1a,p1b
+|-crit|p1b: Clefairy
+|-damage|p1a: Lunala|93/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|
+|upkeep
+|
+|t:|1750742787
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|2
+|
+|t:|1750742807
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: CoolCarrot|move: Tailwind
+|move|p1a: Lunala|Moongeist Beam|p2b: Weezing
+|-damage|p2b: Weezing|0 fnt
+|faint|p2b: Weezing
+|move|p2a: Sneasler|Dire Claw|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|upkeep
+|
+|t:|1750742818
+|switch|p1b: Groudon|Groudon, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|inactive|CoolCarrot has 30 seconds left.
+|
+|t:|1750742844
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Lunala|Moongeist Beam|p2b: Koraidon
+|-damage|p2b: Koraidon|17/100
+|move|p1b: Groudon|Precipice Blades|p2a: Sneasler|[spread] p2a,p2b
+|-supereffective|p2a: Sneasler
+|-supereffective|p2b: Koraidon
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Sneasler|Lash Out|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750742856
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750742879
+|move|p2a: Sneasler|Lash Out|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|move|p1b: Groudon|Precipice Blades|p2a: Sneasler|[spread] p2a,p2b
+|-supereffective|p2a: Sneasler
+|-crit|p2b: Lunala
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Lunala|64/100
+|faint|p2a: Sneasler
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750742901
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1b: Groudon|Heat Crash|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: CoolCarrot|move: Tailwind
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1750742908
+|move|p2b: Lunala|Moongeist Beam|p1b: Groudon
+|-damage|p1b: Groudon|13/100
+|move|p1b: Groudon|Heat Crash|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|win|CoolCarrot
+|raw|CoolCarrot's rating: 1197 &rarr; <strong>1223</strong><br />(+26 for winning)
+|raw|notspocko's rating: 1210 &rarr; <strong>1184</strong><br />(-26 for losing)
+|l|☆notspocko
+|player|p2|
+|l|☆CoolCarrot
+|player|p1|

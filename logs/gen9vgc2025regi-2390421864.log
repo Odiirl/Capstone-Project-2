@@ -1,0 +1,240 @@
+|j|☆testing_cha
+|j|‽xGSx3ntr0py
+|t:|1750711435
+|gametype|doubles
+|player|p1|testing_cha|parasollady|1540
+|player|p2|xGSx3ntr0py|169|1546
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Alcremie-Lemon-Cream, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Muk-Alola, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testing_cha)
+|j| Fallastest
+|inactive|xGSx3ntr0py has 60 seconds left.
+|
+|t:|1750711476
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Muk|Muk-Alola, L50, F|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750711491
+|switch|p1b: Alcremie|Alcremie-Lemon-Cream, L50, F|100/100
+|move|p2b: Smeargle|Wide Guard|p2b: Smeargle
+|-singleturn|p2b: Smeargle|Wide Guard
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|-enditem|p1b: Alcremie|Room Service
+|-unboost|p1b: Alcremie|spe|1|[from] item: Room Service
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|2
+|j| Mistrand2
+|
+|t:|1750711507
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Alcremie|Decorate|p2b: Smeargle
+|-boost|p2b: Smeargle|atk|2
+|-boost|p2b: Smeargle|spa|2
+|move|p1a: Calyrex|High Horsepower|p2b: Smeargle
+|-damage|p2b: Smeargle|15/100
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|3
+|inactive|xGSx3ntr0py has 30 seconds left.
+|
+|t:|1750711533
+|move|p1b: Alcremie|Alluring Voice|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-ability|p2a: Muk|Moody|[from] ability: Power of Alchemy|[of] p2b: Smeargle
+|move|p1a: Calyrex|High Horsepower|p2a: Muk|[miss]
+|-miss|p1a: Calyrex|p2a: Muk
+|move|p2a: Muk|Toxic|p1a: Calyrex
+|-status|p1a: Calyrex|tox
+|
+|-damage|p1a: Calyrex|95/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|atk|1
+|upkeep
+|
+|t:|1750711542
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|4
+|
+|t:|1750711557
+|move|p1b: Alcremie|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|move|p1a: Calyrex|Glacial Lance|p2a: Muk|[spread] p2b
+|-miss|p1a: Calyrex|p2a: Muk
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p1a: Calyrex|100/100 tox|[from] Grassy Terrain
+|-damage|p1a: Calyrex|89/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|
+|t:|1750711565
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750711573
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p2a: Muk|Toxic|p1b: Indeedee
+|-status|p1b: Indeedee|tox
+|move|p1a: Calyrex|Glacial Lance|p2a: Muk|[spread] 
+|-activate|p2b: Lunala|move: Protect
+|-miss|p1a: Calyrex|p2a: Muk
+|
+|-damage|p1a: Calyrex|72/100 tox|[from] psn
+|-damage|p1b: Indeedee|94/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|spd|1
+|upkeep
+|turn|6
+|
+|t:|1750711591
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Lunala|Moonblast|p1b: Indeedee
+|-damage|p1b: Indeedee|64/100 tox
+|move|p2a: Muk|Drain Punch|p1b: Indeedee
+|-damage|p1b: Indeedee|51/100 tox
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-damage|p1a: Calyrex|48/100 tox|[from] psn
+|-damage|p1b: Indeedee|39/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|7
+|
+|t:|1750711610
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Lunala|[spread] 
+|-activate|p2a: Muk|move: Protect
+|-activate|p2b: Lunala|move: Protect
+|move|p1b: Indeedee|Psychic|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|
+|-damage|p1a: Calyrex|19/100 tox|[from] psn
+|-damage|p1b: Indeedee|20/100 tox|[from] psn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|def|2
+|-unboost|p2a: Muk|atk|1
+|upkeep
+|turn|8
+|
+|t:|1750711629
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Muk|Drain Punch|p1b: Indeedee
+|-damage|p1b: Indeedee|10/100 tox
+|move|p1a: Calyrex|Glacial Lance|p2b: Lunala|[spread] p2b
+|-miss|p1a: Calyrex|p2a: Muk
+|-damage|p2b: Lunala|44/100
+|move|p2b: Lunala|Psych Up|p1b: Indeedee
+|-copyboost|p2b: Lunala|p1b: Indeedee|[from] move: Psych Up
+|
+|-heal|p2b: Lunala|50/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|0 fnt|[from] psn
+|faint|p1a: Calyrex
+|-damage|p1b: Indeedee|0 fnt|[from] psn
+|faint|p1b: Indeedee
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|def|2
+|-unboost|p2a: Muk|spa|1
+|upkeep
+|
+|t:|1750711639
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Alcremie|Alcremie-Lemon-Cream, L50, F|100/100
+|turn|9
+|inactive|xGSx3ntr0py has 30 seconds left.
+|
+|t:|1750711665
+|-terastallize|p1b: Alcremie|Steel
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Muk|Toxic|p1a: Lunala
+|-status|p1a: Lunala|tox
+|move|p1b: Alcremie|Encore|p2a: Muk|[miss]
+|-miss|p1b: Alcremie|p2a: Muk
+|move|p1a: Lunala|Moongeist Beam|p2b: Lunala
+|-damage|p2b: Lunala|10/100
+|move|p2b: Lunala|Psych Up|p2a: Muk
+|-copyboost|p2b: Lunala|p2a: Muk|[from] move: Psych Up
+|
+|-heal|p2b: Lunala|16/100|[from] item: Leftovers
+|-damage|p1a: Lunala|94/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spe|2
+|-unboost|p2a: Muk|spd|1
+|upkeep
+|turn|10
+|-message|testing_cha forfeited.
+|
+|win|xGSx3ntr0py
+|raw|testing_cha's rating: 1540 &rarr; <strong>1520</strong><br />(-20 for losing)
+|raw|xGSx3ntr0py's rating: 1546 &rarr; <strong>1566</strong><br />(+20 for winning)
+|l|☆testing_cha
+|player|p1|
+|l| Fallastest
+|l|‽xGSx3ntr0py
+|player|p2|

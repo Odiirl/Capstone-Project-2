@@ -1,0 +1,157 @@
+|j|☆furrybuoy
+|j|☆sandstrummie
+|t:|1750870508
+|gametype|doubles
+|player|p1|furrybuoy|2|1498
+|player|p2|sandstrummie|unknown|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sandstrummie)
+|
+|t:|1750870545
+|start
+|switch|p1a: myosotis|Calyrex-Shadow, L50|100/100
+|switch|p1b: duranta|Tornadus, L50, M|100/100
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, F, shiny|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|-block|p2a: Murkrow|item: Ability Shield
+|-ability|p1a: myosotis|As One
+|-ability|p1a: myosotis|Unnerve
+|turn|1
+|
+|t:|1750870566
+|-terastallize|p1a: myosotis|Fairy
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: sandstrummie|move: Tailwind
+|move|p2b: Weezing|Misty Explosion|p1a: myosotis|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|-damage|p1a: myosotis|69/100
+|-damage|p1b: duranta|68/100
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|faint|p2a: Murkrow
+|move|p1a: myosotis|Draining Kiss|p2: Murkrow|[notarget]
+|-fail|p1a: myosotis
+|move|p1b: duranta|Bleakwind Storm|p2: Murkrow|[notarget]
+|-fail|p1b: duranta
+|
+|upkeep
+|
+|t:|1750870580
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750870591
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1a: myosotis|Protect|p1a: myosotis
+|-singleturn|p1a: myosotis|Protect
+|move|p1b: duranta|Tailwind|p1b: duranta
+|-sidestart|p1: furrybuoy|move: Tailwind
+|move|p2b: Calyrex|Astral Barrage|p1a: myosotis|[spread] p1b
+|-activate|p1a: myosotis|move: Protect
+|-damage|p1b: duranta|0 fnt
+|faint|p1b: duranta
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Tera Starstorm|p1a: myosotis
+|-activate|p1a: myosotis|move: Protect
+|
+|upkeep
+|
+|t:|1750870609
+|switch|p1b: grendelion|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: grendelion|Dauntless Shield|boost
+|-boost|p1b: grendelion|def|1
+|turn|3
+|
+|t:|1750870621
+|move|p1b: grendelion|Wide Guard|p1b: grendelion
+|-singleturn|p1b: grendelion|Wide Guard
+|move|p2b: Calyrex|Encore|p1a: myosotis
+|-start|p1a: myosotis|Encore
+|move|p1a: myosotis|Protect||[still]
+|-fail|p1a: myosotis
+|move|p2a: Terapagos|Tera Starstorm|p1b: grendelion|[spread] 
+|-activate|p1a: myosotis|move: Wide Guard
+|-activate|p1b: grendelion|move: Wide Guard
+|
+|upkeep
+|turn|4
+|
+|t:|1750870638
+|switch|p1a: brittlebush|Urshifu, L50, M|100/100
+|move|p1b: grendelion|Protect||[still]
+|-fail|p1b: grendelion
+|move|p2b: Calyrex|Psychic|p1b: grendelion
+|-damage|p1b: grendelion|29/100
+|-damage|p2b: Calyrex|81/100|[from] item: Life Orb
+|move|p2a: Terapagos|Tera Starstorm|p1a: brittlebush|[spread] p1a,p1b
+|-damage|p1a: brittlebush|4/100
+|-damage|p1b: grendelion|0 fnt
+|faint|p1b: grendelion
+|
+|-sideend|p2: sandstrummie|move: Tailwind
+|upkeep
+|
+|t:|1750870643
+|switch|p1b: myosotis|Calyrex-Shadow, L50, tera:Fairy|69/100
+|-ability|p1b: myosotis|As One
+|-ability|p1b: myosotis|Unnerve
+|turn|5
+|inactive|furrybuoy has 30 seconds left.
+|inactive|sandstrummie has 30 seconds left.
+|inactive|furrybuoy has 20 seconds left.
+|
+|t:|1750870680
+|move|p1a: brittlebush|Sucker Punch|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p1b: myosotis|Draining Kiss|p2a: Terapagos
+|-damage|p2a: Terapagos|72/100
+|-heal|p1b: myosotis|100/100|[from] drain|[of] p2a: Terapagos
+|-damage|p1b: myosotis|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Tera Starstorm|p1a: brittlebush|[spread] p1a,p1b
+|-supereffective|p1b: myosotis
+|-damage|p1a: brittlebush|0 fnt
+|-damage|p1b: myosotis|0 fnt
+|faint|p1a: brittlebush
+|faint|p1b: myosotis
+|
+|win|sandstrummie
+|raw|furrybuoy's rating: 1498 &rarr; <strong>1474</strong><br />(-24 for losing)
+|raw|sandstrummie's rating: 1428 &rarr; <strong>1452</strong><br />(+24 for winning)
+|l|☆furrybuoy
+|player|p1|
+|l|☆sandstrummie
+|player|p2|

@@ -1,0 +1,210 @@
+|j|☆ToxtricityCrunch
+|j|☆keltxu
+|t:|1750796664
+|gametype|doubles
+|player|p1|ToxtricityCrunch|wallace|1398
+|player|p2|keltxu|1|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Weavile, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Vikavolt, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by keltxu)
+|inactive|keltxu has 60 seconds left.
+|
+|t:|1750796731
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Weavile|Weavile, L50, M, shiny|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Calyrex|Grassy Seed
+|-boost|p2a: Calyrex|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1750796744
+|move|p2b: Rillaboom|Fake Out|p1b: Weavile
+|-damage|p1b: Weavile|76/100
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: ToxtricityCrunch|move: Tailwind
+|cant|p1b: Weavile|flinch
+|move|p2a: Calyrex|Calm Mind|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|1
+|-boost|p2a: Calyrex|spd|1
+|
+|-heal|p1b: Weavile|83/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750796757
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1b: Weavile|atk|1
+|-terastallize|p2a: Calyrex|Fairy
+|move|p1b: Weavile|Knock Off|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|93/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Calyrex|75/100
+|-damage|p2b: Incineroar|71/100
+|-unboost|p2a: Calyrex|spe|1
+|-unboost|p2b: Incineroar|spe|1
+|move|p2a: Calyrex|Astral Barrage|p1a: Tornadus|[spread] p1a,p1b
+|-resisted|p1b: Weavile
+|-damage|p1a: Tornadus|46/100
+|-damage|p1b: Weavile|35/100
+|
+|-heal|p1b: Weavile|41/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|81/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|77/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|keltxu has 30 seconds left.
+|inactive|keltxu has 20 seconds left.
+|
+|t:|1750796794
+|move|p1a: Tornadus|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p1b: Weavile|Icicle Crash|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|21/100
+|move|p2a: Calyrex|Draining Kiss|p1b: Weavile
+|-supereffective|p1b: Weavile
+|-crit|p1b: Weavile
+|-damage|p1b: Weavile|0 fnt
+|-heal|p2a: Calyrex|43/100|[from] drain|[of] p1b: Weavile
+|faint|p1b: Weavile
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p2b: Incineroar|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-enditem|p1a: Tornadus|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Calyrex|49/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750796803
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|4
+|
+|t:|1750796821
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|move|p1a: Kyogre|Ice Beam|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|55/100
+|move|p1b: Zacian|Behemoth Blade|p2a: Koraidon
+|-damage|p2a: Koraidon|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|35/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|61/100|[from] Grassy Terrain
+|-sideend|p1: ToxtricityCrunch|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750796843
+|move|p2b: Rillaboom|Fake Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|94/100
+|move|p1a: Kyogre|Ice Beam|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|8/100
+|cant|p1b: Zacian|flinch
+|move|p2a: Koraidon|Flame Charge|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|82/100
+|-boost|p2a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|41/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|88/100|[from] Grassy Terrain
+|-heal|p1b: Zacian|99/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|14/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750796858
+|switch|p2b: Incineroar|Incineroar, L50, M|83/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Zacian|atk|1
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p1a: Kyogre|Ice Beam|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|keltxu has 30 seconds left.
+|inactive|keltxu has 20 seconds left.
+|
+|t:|1750796896
+|move|p1b: Zacian|Protect||[still]
+|-fail|p1b: Zacian
+|move|p2b: Incineroar|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|76/100
+|move|p2a: Koraidon|Collision Course|p1b: Zacian
+|-damage|p1b: Zacian|31/100
+|cant|p1a: Kyogre|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750796911
+|-terastallize|p1b: Zacian|Ground
+|move|p2a: Koraidon|Collision Course|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|move|p1b: Zacian|Tera Blast|p2b: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|20/100
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Zacian
+|-status|p1b: Zacian|brn
+|
+|-weather|none
+|-damage|p1b: Zacian|25/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|ToxtricityCrunch forfeited.
+|
+|win|keltxu
+|raw|ToxtricityCrunch's rating: 1398 &rarr; <strong>1380</strong><br />(-18 for losing)
+|raw|keltxu's rating: 1441 &rarr; <strong>1459</strong><br />(+18 for winning)
+|l|☆ToxtricityCrunch
+|player|p1|
+|l|☆keltxu
+|player|p2|

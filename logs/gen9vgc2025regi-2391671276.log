@@ -1,0 +1,197 @@
+|j|☆E_Timka
+|j|☆wuhanyiluanma
+|t:|1750882081
+|gametype|doubles
+|player|p1|E_Timka|169|1461
+|player|p2|wuhanyiluanma|1|1497
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Palkia, L50|
+|poke|p2|Lanturn, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Oranguru, L50, M|
+|teampreview|4
+|
+|t:|1750882131
+|start
+|switch|p1a: Long John|Farigiraf, L50, F|100/100
+|switch|p1b: Groujohn|Groudon, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Palkia|Palkia, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groujohn
+|turn|1
+|
+|t:|1750882160
+|move|p1a: Long John|Helping Hand|p1b: Groujohn
+|-singleturn|p1b: Groujohn|Helping Hand|[of] p1a: Long John
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: wuhanyiluanma|Reflect
+|move|p1b: Groujohn|Precipice Blades|p2b: Palkia|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|50/100
+|-damage|p2b: Palkia|54/100
+|move|p2b: Palkia|Hydro Pump|p1b: Groujohn|[miss]
+|-miss|p2b: Palkia|p1b: Groujohn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750882179
+|move|p1a: Long John|Helping Hand|p1b: Groujohn
+|-singleturn|p1b: Groujohn|Helping Hand|[of] p1a: Long John
+|move|p2a: Grimmsnarl|Parting Shot||[still]
+|cant|p1a: Long John|ability: Armor Tail|Parting Shot|[of] p2a: Grimmsnarl
+|move|p1b: Groujohn|Precipice Blades|p2a: Grimmsnarl|[spread] p2a
+|-miss|p1b: Groujohn|p2b: Palkia
+|-damage|p2a: Grimmsnarl|5/100
+|move|p2b: Palkia|Trick Room|p2b: Palkia
+|-fieldstart|move: Trick Room|[of] p2b: Palkia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750882196
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Groujohn
+|-damage|p1b: Groujohn|80/100
+|-unboost|p1b: Groujohn|spa|1
+|move|p2b: Palkia|Hydro Pump|p1b: Groujohn
+|-supereffective|p1b: Groujohn
+|-damage|p1b: Groujohn|13/100
+|move|p1b: Groujohn|Precipice Blades|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Palkia|21/100
+|faint|p2a: Grimmsnarl
+|move|p1a: Long John|Trick Room|p1a: Long John
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Groujohn|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750882212
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p1a: Long John|Electric Seed
+|-boost|p1a: Long John|def|1|[from] item: Electric Seed
+|turn|4
+|
+|t:|1750882236
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2a: Miraidon|Dragon Pulse|p1b: Groujohn
+|-damage|p1b: Groujohn|0 fnt
+|faint|p1b: Groujohn
+|move|p2b: Palkia|Spacial Rend|p1a: Long John
+|-crit|p1a: Long John
+|-damage|p1a: Long John|0 fnt
+|faint|p1a: Long John
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750882248
+|switch|p1b: John Bolt|Raging Bolt, L50|100/100
+|switch|p1a: John Drift|Miraidon, L50|100/100
+|-activate|p1a: John Drift|ability: Hadron Engine
+|-activate|p1b: John Bolt|ability: Protosynthesis
+|-start|p1b: John Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1750882264
+|move|p1b: John Bolt|Protect|p1b: John Bolt
+|-singleturn|p1b: John Bolt|Protect
+|move|p1a: John Drift|Parabolic Charge|p2a: Miraidon|[spread] p2a,p2b
+|-activate|p1b: John Bolt|move: Protect
+|-damage|p2a: Miraidon|66/100
+|-damage|p2b: Palkia|0 fnt
+|faint|p2b: Palkia
+|move|p2a: Miraidon|Calm Mind|p2a: Miraidon
+|-boost|p2a: Miraidon|spa|1
+|-boost|p2a: Miraidon|spd|1
+|
+|-weather|none
+|-end|p1b: John Bolt|Protosynthesis
+|upkeep
+|
+|t:|1750882277
+|switch|p2b: Lanturn|Lanturn, L50, M|100/100
+|turn|6
+|
+|t:|1750882292
+|-terastallize|p1a: John Drift|Fire
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1a: John Drift|Overheat|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|move|p1b: John Bolt|Draco Meteor|p2b: Lanturn
+|-damage|p2b: Lanturn|8/100
+|-unboost|p1b: John Bolt|spa|2
+|-enditem|p2b: Lanturn|Sitrus Berry|[eat]
+|-heal|p2b: Lanturn|33/100|[from] item: Sitrus Berry
+|-damage|p1b: John Bolt|91/100|[from] item: Life Orb
+|move|p2b: Lanturn|Eerie Impulse|p1a: John Drift
+|-unboost|p1a: John Drift|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1750882326
+|move|p1a: John Drift|Overheat|p2a: Miraidon
+|-damage|p2a: Miraidon|40/100
+|-unboost|p1a: John Drift|spa|2
+|move|p2a: Miraidon|Parabolic Charge|p1a: John Drift|[spread] p1a,p1b
+|-heal|p2b: Lanturn|58/100|[from] ability: Volt Absorb|[of] p2a: Miraidon
+|-resisted|p1b: John Bolt
+|-damage|p1a: John Drift|64/100
+|-heal|p2a: Miraidon|57/100|[from] drain|[of] p1a: John Drift
+|-damage|p1b: John Bolt|77/100
+|-heal|p2a: Miraidon|64/100|[from] drain|[of] p1b: John Bolt
+|move|p1b: John Bolt|Draco Meteor|p2b: Lanturn|[miss]
+|-miss|p1b: John Bolt|p2b: Lanturn
+|move|p2b: Lanturn|Soak|p1b: John Bolt
+|-start|p1b: John Bolt|typechange|Water
+|
+|upkeep
+|turn|8
+|
+|t:|1750882368
+|move|p1a: John Drift|Overheat|p2a: Miraidon
+|-damage|p2a: Miraidon|47/100
+|-unboost|p1a: John Drift|spa|2
+|move|p2a: Miraidon|Parabolic Charge|p1a: John Drift|[spread] p1a,p1b
+|-heal|p2b: Lanturn|83/100|[from] ability: Volt Absorb|[of] p2a: Miraidon
+|-supereffective|p1b: John Bolt
+|-damage|p1a: John Drift|29/100
+|-heal|p2a: Miraidon|63/100|[from] drain|[of] p1a: John Drift
+|-damage|p1b: John Bolt|0 fnt
+|-heal|p2a: Miraidon|100/100|[from] drain|[of] p1b: John Bolt
+|faint|p1b: John Bolt
+|-end|p1b: John Bolt|Protosynthesis|[silent]
+|move|p2b: Lanturn|Scald|p1a: John Drift
+|-supereffective|p1a: John Drift
+|-damage|p1a: John Drift|0 fnt
+|faint|p1a: John Drift
+|
+|win|wuhanyiluanma
+|raw|E_Timka's rating: 1461 &rarr; <strong>1443</strong><br />(-18 for losing)
+|raw|wuhanyiluanma's rating: 1497 &rarr; <strong>1515</strong><br />(+18 for winning)
+|c|☆E_Timka|Cool team!
+|c|☆E_Timka|GG
+|l|☆wuhanyiluanma
+|player|p2|
+|l|☆E_Timka
+|player|p1|

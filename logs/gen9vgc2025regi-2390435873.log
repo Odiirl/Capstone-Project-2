@@ -1,0 +1,131 @@
+|j|☆thegreatdc
+|j|☆4Quattro4
+|t:|1750713025
+|gametype|doubles
+|player|p1|thegreatdc|2|1156
+|player|p2|4Quattro4|morty|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p2|Meowstic-F, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4Quattro4)
+|
+|t:|1750713056
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Sofia|Meowstic-F, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|1
+|inactive|4Quattro4 has 30 seconds left.
+|
+|t:|1750713086
+|move|p1b: Miraidon|Volt Switch|p2b: Lunala
+|-damage|p2b: Lunala|68/100
+|
+|t:|1750713089
+|switch|p1b: Ursaluna|Ursaluna, L50, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Ursaluna|Snarl|p2b: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Sofia
+|-crit|p2a: Sofia
+|-supereffective|p2b: Lunala
+|-damage|p2a: Sofia|53/100
+|-damage|p2b: Lunala|30/100
+|-unboost|p2a: Sofia|spa|1
+|-ability|p2a: Sofia|Competitive|boost
+|-boost|p2a: Sofia|spa|2
+|-unboost|p2b: Lunala|spa|1
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Ursaluna
+|-resisted|p1b: Ursaluna
+|-damage|p1b: Ursaluna|83/100
+|move|p2a: Sofia|Trick Room|p2a: Sofia
+|-fieldstart|move: Trick Room|[of] p2a: Sofia
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|4Quattro4 has 30 seconds left.
+|
+|t:|1750713121
+|move|p1a: Ursaluna|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Ursaluna
+|move|p1b: Ursaluna|Earthquake|p2a: Sofia|[spread] p1a,p2a,p2b
+|-enditem|p1a: Ursaluna|Focus Sash
+|-damage|p1a: Ursaluna|1/100
+|-damage|p2a: Sofia|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, F, shiny
+|-end|p1a: Zoroark|Illusion
+|faint|p2a: Sofia
+|faint|p2b: Lunala
+|
+|-damage|p1b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713130
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|
+|t:|1750713143
+|move|p1a: Zoroark|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Zoroark
+|move|p1b: Ursaluna|Facade|p2b: Jumpluff
+|-damage|p2b: Jumpluff|0 fnt
+|faint|p2b: Jumpluff
+|move|p2a: Groudon|Rock Slide|p1b: Ursaluna|[spread] p1a
+|-miss|p2a: Groudon|p1b: Ursaluna
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|
+|t:|1750713149
+|switch|p1a: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|c|☆thegreatdc|gg
+|
+|t:|1750713159
+|-terastallize|p1b: Ursaluna|Ground
+|-terastallize|p2a: Groudon|Fire
+|move|p1b: Ursaluna|Headlong Rush|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Groudon
+|
+|win|thegreatdc
+|raw|thegreatdc's rating: 1156 &rarr; <strong>1180</strong><br />(+24 for winning)
+|raw|4Quattro4's rating: 1136 &rarr; <strong>1112</strong><br />(-24 for losing)
+|l|☆4Quattro4
+|player|p2|
+|l|☆thegreatdc
+|player|p1|

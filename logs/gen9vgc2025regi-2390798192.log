@@ -1,0 +1,155 @@
+|j|☆004B
+|j|☆anubisjr
+|t:|1750769267
+|gametype|doubles
+|player|p1|004B|ghetsis|1572
+|player|p2|anubisjr|1|1581
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Conkeldurr, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750769311
+|start
+|switch|p1a: Zekrom-|Miraidon, L50|100/100
+|switch|p1b: Macho Man|Tornadus, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Zekrom-
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750769327
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Macho Man|Tailwind|p1b: Macho Man
+|-sidestart|p1: 004B|move: Tailwind
+|move|p1a: Zekrom-|Snarl|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|95/100
+|-damage|p2b: Miraidon|82/100
+|-unboost|p2a: Iron Hands|spa|1
+|-unboost|p2b: Miraidon|spa|1
+|move|p2b: Miraidon|Volt Switch|p1b: Macho Man
+|-supereffective|p1b: Macho Man
+|-enditem|p1b: Macho Man|Focus Sash
+|-damage|p1b: Macho Man|1/100
+|
+|t:|1750769359
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|upkeep
+|turn|2
+|
+|t:|1750769379
+|switch|p1b: Young Man|Landorus, L50, M|100/100
+|-terastallize|p2b: Calyrex|Dark
+|move|p2a: Iron Hands|Fake Out|p1a: Zekrom-
+|-damage|p1a: Zekrom-|80/100
+|cant|p1a: Zekrom-|flinch
+|move|p2b: Calyrex|Astral Barrage|p1a: Zekrom-|[spread] p1a,p1b
+|-damage|p1a: Zekrom-|21/100
+|-damage|p1b: Young Man|18/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1750769408
+|switch|p1a: Deerling-|Farigiraf, L50, M|100/100
+|-enditem|p1a: Deerling-|Electric Seed
+|-boost|p1a: Deerling-|def|1|[from] item: Electric Seed
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|move|p1b: Young Man|Earth Power|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|8/100
+|move|p2a: Iron Hands|Low Kick|p1a: Deerling-
+|-damage|p1a: Deerling-|57/100
+|
+|upkeep
+|turn|4
+|j| Ponytuils
+|
+|t:|1750769443
+|switch|p1a: Macho Man|Tornadus, L50, M|1/100
+|move|p1b: Young Man|Sandsear Storm|p2a: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Urshifu|2/100
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|move|p2b: Urshifu|Wicked Blow|p1a: Macho Man
+|-crit|p1a: Macho Man
+|-damage|p1a: Macho Man|0 fnt
+|faint|p1a: Macho Man
+|
+|-sideend|p1: 004B|move: Tailwind
+|upkeep
+|
+|t:|1750769457
+|switch|p1a: Zekrom-|Miraidon, L50|21/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50, tera:Dark|91/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-activate|p1a: Zekrom-|ability: Hadron Engine
+|turn|5
+|
+|t:|1750769480
+|switch|p1b: Deerling-|Farigiraf, L50, M|57/100
+|-terastallize|p1a: Zekrom-|Electric
+|move|p1a: Zekrom-|Electro Drift|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Urshifu|Wicked Blow|p1a: Zekrom-
+|-crit|p1a: Zekrom-
+|-damage|p1a: Zekrom-|0 fnt
+|faint|p1a: Zekrom-
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750769489
+|switch|p2a: Miraidon|Miraidon, L50|82/100
+|switch|p1a: Young Man|Landorus, L50, M|18/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|6
+|
+|t:|1750769501
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Young Man|[spread] p1a,p1b
+|-damage|p1a: Young Man|0 fnt
+|-damage|p1b: Deerling-|22/100
+|faint|p1a: Young Man
+|move|p2b: Urshifu|Wicked Blow|p1b: Deerling-
+|-supereffective|p1b: Deerling-
+|-crit|p1b: Deerling-
+|-damage|p1b: Deerling-|0 fnt
+|faint|p1b: Deerling-
+|
+|win|anubisjr
+|raw|004B's rating: 1572 &rarr; <strong>1553</strong><br />(-19 for losing)
+|raw|anubisjr's rating: 1581 &rarr; <strong>1600</strong><br />(+19 for winning)
+|l|☆004B
+|player|p1|
+|l| Ponytuils

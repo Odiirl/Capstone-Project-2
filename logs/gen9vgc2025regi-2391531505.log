@@ -1,0 +1,273 @@
+|j|☆korima-alt
+|j|☆DanTheMackGaming
+|t:|1750866997
+|gametype|doubles
+|player|p1|korima-alt|acetrainercouple|1115
+|player|p2|DanTheMackGaming|crasherwake|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Noivern, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Abomasnow, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+korima-alt rejected open team sheets.
+|
+|t:|1750867024
+|start
+|switch|p1a: Abomasnow|Abomasnow, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1750867035
+|move|p2b: Smeargle|Population Bomb|p2a: Annihilape
+|-immune|p2a: Annihilape
+|move|p2a: Annihilape|Rage Fist|p1b: Amoonguss
+|-damage|p1b: Amoonguss|77/100
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: korima-alt|move: Aurora Veil
+|move|p1b: Amoonguss|Spore|p2b: Smeargle
+|-status|p2b: Smeargle|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spe|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750867050
+|switch|p1a: Kyurem|Kyurem-White, L50|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|cant|p2b: Smeargle|slp
+|move|p2a: Annihilape|U-turn|p1b: Amoonguss
+|-damage|p1b: Amoonguss|63/100
+|
+|t:|1750867059
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100|[from] U-turn
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1b: Amoonguss|Spore|p2a: Terapagos
+|-status|p2a: Terapagos|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1750867089
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|100/100 slp|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|cant|p2b: Smeargle|slp
+|move|p1a: Kyurem|Blizzard|p2a: Terapagos|[spread] p2a,p2b
+|-crit|p2b: Smeargle
+|-damage|p2a: Terapagos|55/100 slp
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100 slp
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|cant|p2a: Terapagos|slp
+|
+|-heal|p2a: Terapagos|61/100 slp|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|4
+|
+|t:|1750867108
+|switch|p1a: Abomasnow|Abomasnow, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|cant|p2b: Smeargle|slp
+|cant|p2a: Terapagos|slp
+|move|p1b: Calyrex|Glacial Lance|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|26/100 slp
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Terapagos|32/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750867117
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanTheMackGaming)
+|
+|t:|1750867167
+|switch|p1a: Kyurem|Kyurem-White, L50|91/100
+|-ability|p1a: Kyurem|Turboblaze
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|-curestatus|p2a: Terapagos|slp|[msg]
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Kyurem|67/100
+|-damage|p1b: Calyrex|82/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Terapagos|38/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750867180
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Calyrex|Stomping Tantrum|p2a: Terapagos
+|-damage|p2a: Terapagos|11/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Kyurem|45/100
+|-damage|p1b: Calyrex|62/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Terapagos
+|-crit|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|detailschange|p2: Terapagos|Terapagos, L50, M|[silent]
+|-damage|p1a: Kyurem|35/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750867187
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|7
+|
+|t:|1750867211
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Calyrex|Stomping Tantrum|p2a: Annihilape
+|-damage|p2a: Annihilape|50/100
+|move|p2a: Annihilape|Drain Punch|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|1/100
+|-heal|p2a: Annihilape|67/100|[from] drain|[of] p1a: Kyurem
+|move|p1a: Kyurem|Freeze-Dry|p2a: Annihilape
+|-damage|p2a: Annihilape|25/100
+|-damage|p1a: Kyurem|0 fnt|[from] item: Life Orb
+|faint|p1a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750867214
+|switch|p1a: Abomasnow|Abomasnow, L50, M|100/100
+|turn|8
+|
+|t:|1750867225
+|move|p1a: Abomasnow|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Abomasnow
+|move|p1b: Calyrex|Stomping Tantrum|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|19/100
+|
+|-weather|none
+|-sideend|p1: korima-alt|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1750867249
+|move|p1a: Abomasnow|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Abomasnow
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Calyrex|Stomping Tantrum|p2b: Lunala
+|-damage|p2b: Lunala|71/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1750867256
+|switch|p1a: Amoonguss|Amoonguss, L50, M|63/100
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1750867278
+|switch|p1b: Abomasnow|Abomasnow, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Abomasnow
+|move|p2b: Lunala|Moongeist Beam|p1b: Abomasnow
+|-damage|p1b: Abomasnow|58/100
+|move|p1a: Amoonguss|Spore|p2b: Lunala
+|-status|p2b: Lunala|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1750867289
+|switch|p1b: Calyrex|Calyrex-Ice, L50|19/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|cant|p2b: Lunala|slp
+|move|p1a: Amoonguss|Pollen Puff|p1b: Calyrex
+|-heal|p1b: Calyrex|69/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|c|☆korima-alt|aq e gg
+|
+|t:|1750867304
+|cant|p2b: Lunala|slp
+|move|p1b: Calyrex|Glacial Lance|p2b: Lunala
+|-damage|p2b: Lunala|20/100 slp
+|move|p1a: Amoonguss|Pollen Puff|p1b: Calyrex
+|-heal|p1b: Calyrex|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1750867318
+|-curestatus|p2b: Lunala|slp|[msg]
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-crit|p1b: Calyrex
+|-damage|p1b: Calyrex|4/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|win|korima-alt
+|raw|korima-alt's rating: 1115 &rarr; <strong>1144</strong><br />(+29 for winning)
+|raw|DanTheMackGaming's rating: 1178 &rarr; <strong>1149</strong><br />(-29 for losing)
+|l|☆DanTheMackGaming
+|player|p2|

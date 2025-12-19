@@ -1,0 +1,191 @@
+|j|☆CadaverLuke
+|j|☆caprican
+|t:|1750740657
+|gametype|doubles
+|player|p1|CadaverLuke|101|1229
+|player|p2|caprican|skyla|1202
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Treads, L50|
+|teampreview|4
+|
+|t:|1750740689
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Metagross|Metagross, L50|100/100
+|switch|p2a: ROLL TIDE|Iron Treads, L50|100/100
+|switch|p2b: CLAPPER|Iron Hands, L50|100/100
+|turn|1
+|
+|t:|1750740710
+|move|p2b: CLAPPER|Fake Out|p1a: Whimsicott
+|-damage|p1a: Whimsicott|78/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: CadaverLuke|move: Tailwind
+|move|p1b: Metagross|Explosion|p2b: CLAPPER|[spread] p1a,p2a,p2b
+|-resisted|p2a: ROLL TIDE
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: ROLL TIDE|47/100
+|-damage|p2b: CLAPPER|28/100
+|faint|p1b: Metagross
+|faint|p1a: Whimsicott
+|move|p2a: ROLL TIDE|Knock Off|p1: Whimsicott|[notarget]
+|-fail|p2a: ROLL TIDE
+|
+|upkeep
+|
+|t:|1750740722
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|2
+|
+|t:|1750740744
+|-end|p2b: CLAPPER|Quark Drive|[silent]
+|switch|p2b: THE DON|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: THE DON
+|-activate|p2a: ROLL TIDE|ability: Quark Drive
+|-start|p2a: ROLL TIDE|quarkdrivespe
+|-terastallize|p1a: Kyogre|Water
+|move|p2a: ROLL TIDE|Protect|p2a: ROLL TIDE
+|-singleturn|p2a: ROLL TIDE|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Kyogre|Water Spout|p2a: ROLL TIDE|[spread] p2b
+|-activate|p2a: ROLL TIDE|move: Protect
+|-resisted|p2b: THE DON
+|-damage|p2b: THE DON|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750740810
+|move|p2a: ROLL TIDE|Protect|p2a: ROLL TIDE
+|-singleturn|p2a: ROLL TIDE|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Kyogre|Water Spout|p2a: ROLL TIDE|[spread] p2b
+|-activate|p2a: ROLL TIDE|move: Protect
+|-resisted|p2b: THE DON
+|-crit|p2b: THE DON
+|-damage|p2b: THE DON|0 fnt
+|faint|p2b: THE DON
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750740820
+|switch|p2b: CLAPPER|Iron Hands, L50|28/100
+|-activate|p2b: CLAPPER|ability: Quark Drive
+|-start|p2b: CLAPPER|quarkdriveatk
+|turn|4
+|
+|t:|1750740831
+|move|p2b: CLAPPER|Fake Out|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|64/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|cant|p1a: Kyogre|flinch
+|move|p2a: ROLL TIDE|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-enditem|p1b: Indeedee|Focus Sash
+|-damage|p1b: Indeedee|1/100
+|-damage|p2a: ROLL TIDE|37/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: CadaverLuke|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750740864
+|-terastallize|p2b: CLAPPER|Water
+|move|p2a: ROLL TIDE|Protect|p2a: ROLL TIDE
+|-singleturn|p2a: ROLL TIDE|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Kyogre|Water Spout|p2b: CLAPPER|[spread] p2b
+|-activate|p2a: ROLL TIDE|move: Protect
+|-resisted|p2b: CLAPPER
+|-damage|p2b: CLAPPER|0 fnt
+|faint|p2b: CLAPPER
+|-end|p2b: CLAPPER|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750740874
+|switch|p2b: TERA ICE|Calyrex-Ice, L50|100/100
+|-ability|p2b: TERA ICE|As One
+|-ability|p2b: TERA ICE|Unnerve
+|turn|6
+|
+|t:|1750740897
+|move|p1b: Indeedee|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Indeedee
+|move|p2b: TERA ICE|Protect|p2b: TERA ICE
+|-singleturn|p2b: TERA ICE|Protect
+|move|p2a: ROLL TIDE|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2a: ROLL TIDE|28/100|[from] item: Life Orb
+|move|p1a: Kyogre|Water Spout|p2a: ROLL TIDE|[spread] p2a
+|-activate|p2b: TERA ICE|move: Protect
+|-supereffective|p2a: ROLL TIDE
+|-damage|p2a: ROLL TIDE|0 fnt
+|faint|p2a: ROLL TIDE
+|-end|p2a: ROLL TIDE|Quark Drive|[silent]
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750740917
+|move|p1a: Kyogre|Water Spout|p2b: TERA ICE
+|-damage|p2b: TERA ICE|26/100
+|move|p2b: TERA ICE|Trick Room|p2b: TERA ICE
+|-fieldstart|move: Trick Room|[of] p2b: TERA ICE
+|
+|upkeep
+|turn|8
+|
+|t:|1750740924
+|move|p2b: TERA ICE|High Horsepower|p1a: Kyogre|[miss]
+|-miss|p2b: TERA ICE|p1a: Kyogre
+|move|p1a: Kyogre|Water Spout|p2b: TERA ICE
+|-damage|p2b: TERA ICE|0 fnt
+|faint|p2b: TERA ICE
+|
+|win|CadaverLuke
+|raw|CadaverLuke's rating: 1229 &rarr; <strong>1252</strong><br />(+23 for winning)
+|raw|caprican's rating: 1202 &rarr; <strong>1179</strong><br />(-23 for losing)
+|c|☆caprican|are you kidding me
+|c|☆CadaverLuke|gg
+|c|☆caprican|no it was not lmao
+|c|☆caprican|you played like crap and i lost to a 5%
+|l|☆caprican
+|player|p2|
+|c|☆CadaverLuke|i'm sorry you are upset.
+|l|☆CadaverLuke
+|player|p1|

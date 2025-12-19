@@ -1,0 +1,201 @@
+|j|☆Npc red panther
+|j|☆Jdv1
+|t:|1750872883
+|gametype|doubles
+|player|p1|Npc red panther|170|1461
+|player|p2|Jdv1|firebreather|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Iron Crown, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jdv1)
+|
+|t:|1750872906
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Iron Crown|Iron Crown, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Crown|ability: Quark Drive
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|1
+|
+|t:|1750872920
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Iron Crown|Tachyon Cutter|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Smeargle|Decorate|p1b: Calyrex
+|-boost|p1b: Calyrex|atk|2
+|-boost|p1b: Calyrex|spa|2
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spd|2
+|-unboost|p1a: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1750872933
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Smeargle
+|-damage|p1a: Smeargle|44/100
+|-crit|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|-hitcount|p1: Smeargle|2
+|-damage|p2a: Iron Crown|91/100|[from] item: Life Orb
+|move|p2b: Lunala|Moongeist Beam|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|24/100
+|move|p1b: Calyrex|Leech Seed|p2b: Lunala
+|-start|p2b: Lunala|move: Leech Seed
+|
+|-heal|p1b: Calyrex|30/100|[from] item: Leftovers
+|-damage|p2b: Lunala|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|44/100|[silent]
+|upkeep
+|
+|t:|1750872940
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Lunala|[from] ability: Imposter
+|turn|3
+|
+|t:|1750872950
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-terastallize|p1b: Calyrex|Fire
+|move|p2a: Iron Crown|Protect|p2a: Iron Crown
+|-singleturn|p2a: Iron Crown|Protect
+|move|p1a: Ditto|Moongeist Beam|p2b: Iron Hands
+|-damage|p2b: Iron Hands|64/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Iron Crown|[spread] p2b
+|-activate|p2a: Iron Crown|move: Protect
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-heal|p1b: Calyrex|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750872966
+|switch|p2b: Lunala|Lunala, L50|88/100
+|turn|4
+|
+|t:|1750872973
+|-terastallize|p2a: Iron Crown|Fairy
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Ditto|Moongeist Beam|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p2a: Iron Crown|Psychic|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-heal|p1b: Calyrex|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750872978
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750872990
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-end|p2a: Iron Crown|Quark Drive
+|move|p2b: Miraidon|Electro Drift|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|-damage|p1a: Rillaboom|56/100
+|-hitcount|p1a: Rillaboom|2
+|-damage|p2a: Iron Crown|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Iron Crown|87/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750873000
+|switch|p1b: Ditto|Ditto, L50|100/100
+|-transform|p1b: Ditto|p2a: Iron Crown|[from] ability: Imposter
+|-start|p1b: Ditto|typechange|Steel/Psychic|[silent]
+|turn|6
+|
+|t:|1750873014
+|move|p1a: Rillaboom|Fake Out|p2b: Miraidon
+|-damage|p2b: Miraidon|89/100
+|move|p1b: Ditto|Tachyon Cutter|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|35/100
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-hitcount|p2: Iron Crown|2
+|cant|p2b: Miraidon|flinch
+|
+|-heal|p2b: Miraidon|95/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|68/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750873026
+|move|p1b: Ditto|Tachyon Cutter|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|84/100
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|72/100
+|-hitcount|p2b: Miraidon|2
+|move|p2b: Miraidon|Electro Drift|p1b: Ditto
+|-damage|p1b: Ditto|10/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Miraidon
+|-resisted|p2b: Miraidon
+|-damage|p2b: Miraidon|40/100
+|-damage|p1a: Rillaboom|58/100|[from] Recoil
+|
+|-heal|p1b: Ditto|15/100|[from] Grassy Terrain
+|-heal|p2b: Miraidon|46/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|-message|Jdv1 forfeited.
+|
+|win|Npc red panther
+|raw|Npc red panther's rating: 1461 &rarr; <strong>1481</strong><br />(+20 for winning)
+|raw|Jdv1's rating: 1456 &rarr; <strong>1436</strong><br />(-20 for losing)
+|l|☆Jdv1
+|player|p2|
+|l|☆Npc red panther
+|player|p1|

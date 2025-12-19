@@ -1,0 +1,126 @@
+|j|☆senhoritalo_test2
+|j|☆PokemonManiacJohn
+|t:|1750855201
+|gametype|doubles
+|player|p1|senhoritalo_test2|265|1337
+|player|p2|PokemonManiacJohn|brycenman|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Latias, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750855226
+|start
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Latias|Latias, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by senhoritalo_test2)
+|
+|t:|1750855240
+|move|p2a: Urshifu|Protect|p2a: Urshifu
+|-singleturn|p2a: Urshifu|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: Urshifu
+|-activate|p2a: Urshifu|move: Protect
+|move|p1a: Chien-Pao|Ice Spinner|p2b: Latias
+|-supereffective|p2b: Latias
+|-damage|p2b: Latias|0 fnt
+|-fieldend|move: Electric Terrain
+|faint|p2b: Latias
+|
+|upkeep
+|
+|t:|1750855249
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|turn|2
+|
+|t:|1750855258
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2b: Incineroar|Fake Out||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Fake Out|[of] p2b: Incineroar
+|move|p1b: Miraidon|Volt Switch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-enditem|p2a: Urshifu|Focus Sash
+|-damage|p2a: Urshifu|1/100
+|
+|t:|1750855269
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Volt Switch
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2a: Urshifu|Close Combat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|51/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1750855289
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Urshifu|Close Combat|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|39/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1b: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750855294
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|inactive|senhoritalo_test2 has 30 seconds left.
+|
+|t:|1750855323
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|move|p2b: Koraidon|Collision Course|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|move|p1b: Zamazenta|Body Press|p2b: Koraidon
+|-damage|p2b: Koraidon|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|PokemonManiacJohn forfeited.
+|
+|win|senhoritalo_test2
+|raw|senhoritalo_test2's rating: 1337 &rarr; <strong>1352</strong><br />(+15 for winning)
+|raw|PokemonManiacJohn's rating: 1250 &rarr; <strong>1231</strong><br />(-19 for losing)
+|l|☆PokemonManiacJohn
+|player|p2|
+|l|☆senhoritalo_test2
+|player|p1|

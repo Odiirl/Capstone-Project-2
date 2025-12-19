@@ -1,0 +1,170 @@
+|j|☆Heliosan
+|j|☆Luka0320
+|t:|1750749351
+|gametype|doubles
+|player|p1|Heliosan|steven|1457
+|player|p2|Luka0320|102|1558
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|
+|t:|1750749391
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|1
+|
+|t:|1750749411
+|move|p1b: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|90/100
+|cant|p2a: Miraidon|flinch
+|move|p1a: Urshifu|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|move|p2b: Calyrex|Glacial Lance|p1a: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Urshifu
+|-resisted|p1b: Incineroar
+|-damage|p1a: Urshifu|72/100
+|-damage|p1b: Incineroar|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750749430
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p2b: Calyrex|Fire
+|move|p2a: Miraidon|Volt Switch|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Calyrex
+|-immune|p2b: Calyrex
+|move|p2b: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|7/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750749457
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|move|p2a: Miraidon|Volt Switch|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|t:|1750749465
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Fire|100/100|[from] Volt Switch
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Ursaluna|Earthquake|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Calyrex|18/100
+|-damage|p2b: Whimsicott|53/100
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750749477
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|72/100
+|turn|4
+|
+|t:|1750749495
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Urshifu|Protect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2b: Whimsicott|Moonblast|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p1a: Ursaluna|Facade|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750749511
+|switch|p2b: Miraidon|Miraidon, L50|90/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750749526
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1b: Urshifu|Aqua Jet|p2a: Iron Hands
+|-damage|p2a: Iron Hands|86/100
+|move|p2b: Miraidon|Volt Switch|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|t:|1750749535
+|switch|p2b: Calyrex|Calyrex-Ice, L50, tera:Fire|18/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Iron Hands|Drain Punch|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Iron Hands|10/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Hands|Quark Drive
+|upkeep
+|
+|t:|1750749552
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|90/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750749573
+|move|p2b: Miraidon|Draco Meteor|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Miraidon
+|move|p2a: Iron Hands|Wild Charge|p1a: Ursaluna
+|-damage|p1a: Ursaluna|22/100 brn
+|-damage|p2a: Iron Hands|0 fnt|[from] Recoil
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|move|p1a: Ursaluna|Earthquake|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|win|Heliosan
+|raw|Heliosan's rating: 1457 &rarr; <strong>1483</strong><br />(+26 for winning)
+|raw|Luka0320's rating: 1558 &rarr; <strong>1532</strong><br />(-26 for losing)

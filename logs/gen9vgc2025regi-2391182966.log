@@ -1,0 +1,162 @@
+|j|☆BRdilas
+|j|☆mnmnmnmnm6
+|t:|1750813126
+|gametype|doubles
+|player|p1|BRdilas|266|1485
+|player|p2|mnmnmnmnm6|265|1459
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|
+|t:|1750813155
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Dialga|Dialga-Origin, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Armarouge|atk|1
+|turn|1
+|
+|t:|1750813183
+|-terastallize|p1b: Armarouge|Psychic
+|-terastallize|p2a: Dialga|Fairy
+|move|p2b: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|92/100
+|cant|p1a: Koraidon|flinch
+|move|p1b: Armarouge|Heat Wave|p2a: Dialga|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Dialga|52/100
+|-damage|p2b: Incineroar|76/100
+|move|p2a: Dialga|Trick Room|p2a: Dialga
+|-fieldstart|move: Trick Room|[of] p2a: Dialga
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750813204
+|move|p2a: Dialga|Protect|p2a: Dialga
+|-singleturn|p2a: Dialga|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|23/100
+|-ability|p1b: Armarouge|Weak Armor|boost
+|-unboost|p1b: Armarouge|def|1
+|-boost|p1b: Armarouge|spe|2
+|-enditem|p1b: Armarouge|Weakness Policy
+|-boost|p1b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p1b: Armarouge|Heat Wave|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Dialga|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|23/100
+|move|p1a: Koraidon|U-turn|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1b: Armarouge
+|
+|t:|1750813215
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750813220
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750813239
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750813268
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Calyrex|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|72/100 brn
+|move|p2b: Incineroar|Parting Shot|p1b: Calyrex
+|-unboost|p1b: Calyrex|atk|1
+|-unboost|p1b: Calyrex|spa|1
+|
+|t:|1750813275
+|switch|p2b: Dialga|Dialga-Origin, L50, tera:Fairy|52/100|[from] Parting Shot
+|move|p2a: Ursaluna|Earthquake|p1b: Calyrex|[spread] p1a,p1b
+|-activate|p2b: Dialga|ability: Telepathy
+|-damage|p1a: Indeedee|25/100
+|-damage|p1b: Calyrex|16/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750813301
+|move|p1b: Calyrex|Astral Barrage|p2a: Ursaluna|[spread] p2b
+|-immune|p2a: Ursaluna
+|-damage|p2b: Dialga|20/100
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|move|p2a: Ursaluna|Earthquake|p1b: Calyrex|[spread] p1a,p1b
+|-activate|p2b: Dialga|ability: Telepathy
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1a: Indeedee
+|faint|p1b: Calyrex
+|move|p2b: Dialga|Trick Room|p2b: Dialga
+|-fieldstart|move: Trick Room|[of] p2b: Dialga
+|
+|-weather|none
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1750813319
+|switch|p1a: Koraidon|Koraidon, L50|92/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|-message|BRdilas forfeited.
+|
+|win|mnmnmnmnm6
+|raw|BRdilas's rating: 1485 &rarr; <strong>1464</strong><br />(-21 for losing)
+|raw|mnmnmnmnm6's rating: 1459 &rarr; <strong>1480</strong><br />(+21 for winning)
+|l|☆BRdilas
+|player|p1|
+|l|☆mnmnmnmnm6
+|player|p2|

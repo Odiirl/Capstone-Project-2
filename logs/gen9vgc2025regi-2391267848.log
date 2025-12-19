@@ -1,0 +1,148 @@
+|j|☆ComputerYui
+|j|☆Kwiper
+|t:|1750825416
+|gametype|doubles
+|player|p1|ComputerYui|artist-gen4|1574
+|player|p2|Kwiper|sycamore|1746
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kwiper)
+|j| johnkharkiv
+|inactive|Kwiper has 60 seconds left.
+|
+|t:|1750825448
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Urshifu|Urshifu, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750825474
+|-terastallize|p2b: Lunala|Water
+|-terastallize|p1a: Calyrex|Water
+|move|p1b: Koraidon|U-turn|p2b: Lunala
+|-damage|p2b: Lunala|87/100
+|
+|t:|1750825481
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Urshifu|U-turn|p1a: Calyrex
+|-damage|p1a: Calyrex|81/100
+|
+|t:|1750825484
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|move|p2b: Lunala|Expanding Force|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1b: Indeedee
+|-damage|p1a: Calyrex|30/100
+|-damage|p1b: Indeedee|75/100
+|-enditem|p1b: Indeedee|Eject Button
+|inactive|ComputerYui has 30 seconds left.
+|
+|t:|1750825511
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|move|p1a: Calyrex|Agility|p1a: Calyrex
+|-boost|p1a: Calyrex|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750825527
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Koraidon|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|34/100
+|
+|t:|1750825538
+|switch|p1b: Armarouge|Armarouge, L50, M, shiny|100/100|[from] U-turn
+|move|p1a: Calyrex|Glacial Lance|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Lunala|55/100
+|faint|p2a: Indeedee
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2b: Lunala|Expanding Force|p1b: Armarouge|[spread] p1a,p1b
+|-resisted|p1b: Armarouge
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Armarouge|56/100
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825555
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|-activate|p2a: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750825578
+|move|p1a: Koraidon|Bulldoze|p2a: Koraidon|[spread] p1b,p2a,p2b
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|10/100
+|-damage|p2a: Koraidon|80/100
+|-damage|p2b: Lunala|35/100
+|-unboost|p1b: Armarouge|spe|1
+|-unboost|p2a: Koraidon|spe|1
+|-unboost|p2b: Lunala|spe|1
+|-ability|p1b: Armarouge|Weak Armor|boost
+|-unboost|p1b: Armarouge|def|1
+|-boost|p1b: Armarouge|spe|2
+|-enditem|p1b: Armarouge|Weakness Policy
+|-boost|p1b: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p1b: Armarouge|Expanding Force|p2a: Koraidon|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-crit|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p2a: Koraidon
+|faint|p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825583
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|turn|4
+|-message|Kwiper forfeited.
+|
+|win|ComputerYui
+|raw|ComputerYui's rating: 1574 &rarr; <strong>1603</strong><br />(+29 for winning)
+|raw|Kwiper's rating: 1746 &rarr; <strong>1717</strong><br />(-29 for losing)
+|l|☆Kwiper
+|player|p2|
+|l|☆ComputerYui
+|player|p1|
+|l| johnkharkiv
+|j| johnkharkiv

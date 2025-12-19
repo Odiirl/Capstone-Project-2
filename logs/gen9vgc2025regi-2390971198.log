@@ -1,0 +1,138 @@
+|j|☆SOM1991
+|j|☆LaCourgetta
+|t:|1750788446
+|gametype|doubles
+|player|p1|SOM1991|2|1322
+|player|p2|LaCourgetta|102|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Ogerpon, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Scraggy, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SOM1991)
+|j| RetroAsh5
+|inactive|SOM1991 has 60 seconds left.
+|inactive|LaCourgetta has 60 seconds left.
+|
+|t:|1750788498
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|LaCourgetta has 30 seconds left.
+|
+|t:|1750788530
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Zacian|Play Rough|p2a: Miraidon
+|-damage|p2a: Miraidon|33/100
+|move|p2a: Miraidon|Electro Drift|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|move|p1b: Grimmsnarl|False Surrender|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|60/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|
+|t:|1750788539
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|2
+|
+|t:|1750788562
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: SOM1991|move: Light Screen
+|move|p2b: Farigiraf|Psychic|p1a: Kyogre
+|-damage|p1a: Kyogre|91/100
+|move|p1a: Kyogre|Origin Pulse|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750788569
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|3
+|
+|t:|1750788582
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p2a: Calyrex|High Horsepower|p1a: Kyogre
+|-damage|p1a: Kyogre|55/100
+|move|p2b: Iron Hands|Brick Break|p1a: Kyogre
+|-sideend|p1: SOM1991|move: Light Screen
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750788591
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|turn|4
+|
+|t:|1750788605
+|-terastallize|p1a: Landorus|Water
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: SOM1991|Reflect
+|move|p2a: Calyrex|Glacial Lance|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|-damage|p1b: Grimmsnarl|63/100
+|move|p2b: Iron Hands|Wild Charge|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2b: Iron Hands|87/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750788620
+|move|p2a: Calyrex|Glacial Lance|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|8/100
+|move|p2b: Iron Hands|Brick Break|p1b: Grimmsnarl
+|-sideend|p1: SOM1991|Reflect
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|
+|win|LaCourgetta
+|raw|SOM1991's rating: 1322 &rarr; <strong>1305</strong><br />(-17 for losing)
+|raw|LaCourgetta's rating: 1377 &rarr; <strong>1394</strong><br />(+17 for winning)
+|l| RetroAsh5
+|l|☆SOM1991
+|player|p1|

@@ -1,0 +1,158 @@
+|j|☆littleopti
+|j|☆JustcallmeWayne
+|t:|1750801367
+|gametype|doubles
+|player|p1|littleopti|265|1087
+|player|p2|JustcallmeWayne|burglar|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Florges, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Lugia, L50|
+|poke|p1|Electrode-Hisui, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+JustcallmeWayne has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JustcallmeWayne)
+|inactive|JustcallmeWayne has 60 seconds left.
+|
+|t:|1750801401
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Florges|Florges, L50, F|100/100
+|switch|p2a: Kyurem|Kyurem-White, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|1
+|inactive|JustcallmeWayne has 30 seconds left.
+|
+|t:|1750801431
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p2a: Kyurem|Fire
+|move|p2a: Kyurem|Fusion Flare|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|move|p1b: Florges|Pollen Puff|p1: Archaludon|[notarget]
+|-fail|p1b: Florges
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750801452
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kyurem|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|turn|2
+|
+|t:|1750801470
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1b: Florges|Dazzling Gleam|p2a: Flutter Mane|[spread] p2a
+|-activate|p2b: Koraidon|move: Protect
+|-damage|p2a: Flutter Mane|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|JustcallmeWayne has 30 seconds left.
+|
+|t:|1750801496
+|move|p2a: Flutter Mane|Moonblast|p1b: Florges
+|-damage|p1b: Florges|81/100
+|move|p2b: Koraidon|Collision Course|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Florges|Dazzling Gleam|p2b: Koraidon|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Flutter Mane|50/100
+|-damage|p2b: Koraidon|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750801504
+|switch|p1a: Electrode|Electrode-Hisui, L50|100/100
+|turn|4
+|
+|t:|1750801517
+|move|p2a: Flutter Mane|Icy Wind|p1a: Electrode|[spread] p1a,p1b
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|56/100
+|-damage|p1b: Florges|76/100
+|-unboost|p1a: Electrode|spe|1
+|-unboost|p1b: Florges|spe|1
+|move|p2b: Koraidon|Flare Blitz|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-status|p2b: Koraidon|par|[from] ability: Static|[of] p1a: Electrode
+|faint|p1a: Electrode
+|-damage|p2b: Koraidon|0 fnt|[from] Recoil
+|faint|p2b: Koraidon
+|move|p1b: Florges|Dazzling Gleam|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750801532
+|switch|p2b: Kyurem|Kyurem-White, L50, tera:Fire|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|turn|5
+|
+|t:|1750801548
+|move|p2a: Flutter Mane|Moonblast|p1b: Florges
+|-damage|p1b: Florges|59/100
+|move|p2b: Kyurem|Flash Cannon|p1b: Florges
+|-supereffective|p1b: Florges
+|-damage|p1b: Florges|25/100
+|move|p1b: Florges|Dazzling Gleam|p2a: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2b: Kyurem
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Kyurem|94/100
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1750801558
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|6
+|
+|t:|1750801570
+|move|p2a: Whimsicott|Fake Tears|p1b: Florges
+|-unboost|p1b: Florges|spd|2
+|move|p2b: Kyurem|Flash Cannon|p1b: Florges
+|-supereffective|p1b: Florges
+|-damage|p1b: Florges|0 fnt
+|faint|p1b: Florges
+|
+|win|JustcallmeWayne
+|raw|littleopti's rating: 1087 &rarr; <strong>1064</strong><br />(-23 for losing)
+|raw|JustcallmeWayne's rating: 1082 &rarr; <strong>1110</strong><br />(+28 for winning)
+|l|☆littleopti
+|player|p1|
+|l|☆JustcallmeWayne
+|player|p2|

@@ -1,0 +1,172 @@
+|j|☆clownedtocrowned
+|j|☆Mitch-BOT
+|t:|1750860940
+|gametype|doubles
+|player|p1|clownedtocrowned|grimsley-gen7|1563
+|player|p2|Mitch-BOT|nate|1563
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Regidrago, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750860984
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|1
+|
+|t:|1750861010
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: clownedtocrowned|move: Tailwind
+|move|p1b: Lunala|Moongeist Beam|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-enditem|p2b: Flutter Mane|Focus Sash
+|-damage|p2b: Flutter Mane|1/100
+|move|p2b: Flutter Mane|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|32/100
+|move|p2a: Whimsicott|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1750861018
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|2
+|
+|t:|1750861032
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Mitch-BOT|move: Tailwind
+|move|p1a: Zacian|Behemoth Blade|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|25/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750861047
+|move|p2a: Whimsicott|Encore|p1b: Lunala
+|-start|p1b: Lunala|Encore
+|move|p1a: Zacian|Behemoth Blade|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|
+|upkeep
+|
+|t:|1750861055
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|4
+|
+|t:|1750861079
+|move|p2b: Urshifu|Surging Strikes|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|80/100
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|58/100
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|38/100
+|-hitcount|p1a: Zacian|3
+|move|p1a: Zacian|Behemoth Blade|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Lunala|Meteor Beam|p2b: Urshifu|[from] lockedmove
+|-resisted|p2b: Urshifu
+|-damage|p2b: Urshifu|35/100
+|
+|-sideend|p1: clownedtocrowned|move: Tailwind
+|upkeep
+|
+|t:|1750861087
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750861099
+|switch|p1a: Regidrago|Regidrago, L50|100/100
+|move|p2b: Urshifu|Surging Strikes|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|88/100
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|77/100
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|66/100
+|-hitcount|p1a: Regidrago|3
+|move|p2a: Calyrex|Glacial Lance|p1b: Lunala|[spread] p1a,p1b
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|-damage|p1b: Lunala|78/100
+|faint|p1a: Regidrago
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|
+|-end|p1b: Lunala|Encore
+|-sideend|p2: Mitch-BOT|move: Tailwind
+|upkeep
+|
+|t:|1750861105
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|38/100
+|turn|6
+|
+|t:|1750861125
+|-terastallize|p2a: Calyrex|Water
+|move|p2b: Urshifu|Surging Strikes|p1a: Zacian
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|18/100
+|-crit|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-hitcount|p1: Zacian|2
+|move|p1b: Lunala|Meteor Beam|p2a: Calyrex|[from] lockedmove
+|-damage|p2a: Calyrex|29/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|Mitch-BOT
+|raw|clownedtocrowned's rating: 1563 &rarr; <strong>1543</strong><br />(-20 for losing)
+|raw|Mitch-BOT's rating: 1563 &rarr; <strong>1583</strong><br />(+20 for winning)
+|l|☆clownedtocrowned
+|player|p1|
+|l|☆Mitch-BOT
+|player|p2|

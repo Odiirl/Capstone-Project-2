@@ -1,0 +1,196 @@
+|j|☆jackon17
+|j|☆Shio_desu
+|t:|1750717461
+|gametype|doubles
+|player|p1|jackon17|169|1584
+|player|p2|Shio_desu|falkner|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jackon17)
+|inactive|Shio_desu has 60 seconds left.
+|
+|t:|1750717493
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750717512
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p1a: Rillaboom|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|87/100
+|
+|t:|1750717518
+|switch|p1a: Kyogre|Kyogre, L50|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2b: Calyrex|Leech Seed|p1b: Calyrex
+|-start|p1b: Calyrex|move: Leech Seed
+|move|p1b: Calyrex|Leech Seed|p2b: Calyrex
+|-start|p2b: Calyrex|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Incineroar|93/100|[from] Grassy Terrain
+|-damage|p2b: Calyrex|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-damage|p1b: Calyrex|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|100/100|[silent]
+|upkeep
+|turn|2
+|j| slimyswag
+|inactive|Shio_desu has 30 seconds left.
+|
+|t:|1750717548
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2b: Calyrex|Leech Seed|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|74/100
+|-damage|p2b: Calyrex|88/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Incineroar|80/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|94/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|99/100|[from] item: Leftovers
+|-heal|p1b: Calyrex|94/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|99/100|[from] item: Leftovers
+|-damage|p2b: Calyrex|87/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|100/100|[silent]
+|-damage|p1b: Calyrex|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|99/100|[silent]
+|upkeep
+|turn|3
+|inactive|Shio_desu has 30 seconds left.
+|
+|t:|1750717581
+|-terastallize|p2a: Incineroar|Grass
+|move|p1a: Kyogre|Water Spout|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|39/100
+|-damage|p2b: Calyrex|26/100
+|move|p2a: Incineroar|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|44/100
+|-enditem|p1b: Calyrex|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Calyrex|Leech Seed|p1a: Kyogre
+|-start|p1a: Kyogre|move: Leech Seed
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Calyrex|15/100
+|faint|p2a: Incineroar
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|20/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|26/100|[from] item: Leftovers
+|-heal|p1b: Calyrex|50/100|[from] Grassy Terrain
+|-damage|p1a: Kyogre|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|38/100|[silent]
+|-damage|p2b: Calyrex|26/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|62/100|[silent]
+|-damage|p1b: Calyrex|50/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|38/100|[silent]
+|upkeep
+|inactive|Shio_desu has 30 seconds left.
+|
+|t:|1750717607
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|4
+|inactive|jackon17 has 30 seconds left.
+|inactive|jackon17 has 20 seconds left.
+|
+|t:|1750717644
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p2a: Miraidon|Volt Switch|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|61/100
+|
+|t:|1750717649
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p1a: Kyogre|Water Spout|p2a: Urshifu|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|47/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750717657
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750717672
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Miraidon|Electro Drift|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|31/100
+|-damage|p2b: Miraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p2a: Urshifu|Surging Strikes|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|55/100
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|32/100
+|-hitcount|p1a: Rillaboom|3
+|move|p1b: Amoonguss|Spore|p2b: Miraidon
+|-status|p2b: Miraidon|slp|[from] move: Spore
+|
+|-weather|none
+|-heal|p2b: Miraidon|90/100 slp|[from] Grassy Terrain
+|-heal|p2a: Urshifu|53/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|38/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|37/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Shio_desu forfeited.
+|
+|win|jackon17
+|raw|jackon17's rating: 1584 &rarr; <strong>1602</strong><br />(+18 for winning)
+|raw|Shio_desu's rating: 1554 &rarr; <strong>1536</strong><br />(-18 for losing)
+|l|☆Shio_desu
+|player|p2|
+|l| slimyswag

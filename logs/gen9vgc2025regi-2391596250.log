@@ -1,0 +1,180 @@
+|j|☆treallyreal
+|j|☆conghieu
+|t:|1750874024
+|gametype|doubles
+|player|p1|treallyreal|pokemaniac|1309
+|player|p2|conghieu|266|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Tatsugiri-Stretchy, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750874065
+|start
+|switch|p1a: Teddy|Ursaluna, L50, M, shiny|100/100
+|switch|p1b: Robot Chicken|Scream Tail, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Teddy|atk|1
+|-unboost|p1b: Robot Chicken|atk|1
+|-enditem|p1b: Robot Chicken|Booster Energy
+|-activate|p1b: Robot Chicken|ability: Protosynthesis|[fromitem]
+|-start|p1b: Robot Chicken|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by conghieu)
+|
+|t:|1750874083
+|move|p1b: Robot Chicken|Protect|p1b: Robot Chicken
+|-singleturn|p1b: Robot Chicken|Protect
+|move|p1a: Teddy|Protect|p1a: Teddy
+|-singleturn|p1a: Teddy|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Robot Chicken
+|-activate|p1b: Robot Chicken|move: Protect
+|move|p2a: Miraidon|Volt Switch|p1b: Robot Chicken
+|-activate|p1b: Robot Chicken|move: Protect
+|
+|-status|p1a: Teddy|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|treallyreal has 30 seconds left.
+|inactive|treallyreal has 20 seconds left.
+|inactive|treallyreal has 15 seconds left.
+|inactive|treallyreal has 10 seconds left.
+|
+|t:|1750874130
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|switch|p1a: Trippie Redd|Smeargle, L50, M, shiny|100/100
+|move|p1b: Robot Chicken|Disable|p2a: Miraidon
+|-start|p2a: Miraidon|Disable|Volt Switch
+|cant|p2a: Miraidon|Disable|Volt Switch
+|
+|-ability|p1a: Trippie Redd|Moody|boost
+|-boost|p1a: Trippie Redd|spd|2
+|-unboost|p1a: Trippie Redd|atk|1
+|upkeep
+|turn|3
+|inactive|treallyreal has 30 seconds left.
+|
+|t:|1750874156
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Robot Chicken|Thunder Wave|p2b: Farigiraf
+|-status|p2b: Farigiraf|par
+|move|p1a: Trippie Redd|Transform|p2a: Calyrex
+|-transform|p1a: Trippie Redd|p2a: Calyrex
+|-ability|p1a: Trippie Redd|As One
+|-ability|p1a: Trippie Redd|Unnerve
+|cant|p2b: Farigiraf|par
+|
+|upkeep
+|turn|4
+|inactive|treallyreal has 30 seconds left.
+|
+|t:|1750874181
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Trippie Redd|atk|1
+|-unboost|p1b: Robot Chicken|atk|1
+|-terastallize|p2a: Calyrex|Fairy
+|move|p1b: Robot Chicken|Thunder Wave|p2a: Calyrex
+|-status|p2a: Calyrex|par
+|move|p1a: Trippie Redd|Astral Barrage|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|44/100 par
+|-damage|p2b: Incineroar|72/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Robot Chicken|[spread] p1a,p1b
+|-supereffective|p1a: Trippie Redd
+|-supereffective|p1b: Robot Chicken
+|-enditem|p1a: Trippie Redd|Focus Sash
+|-damage|p1a: Trippie Redd|1/100
+|-damage|p1b: Robot Chicken|0 fnt
+|faint|p1b: Robot Chicken
+|-end|p1b: Robot Chicken|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|-damage|p2a: Calyrex|34/100 par|[from] item: Life Orb
+|
+|upkeep
+|inactive|treallyreal has 30 seconds left.
+|
+|t:|1750874212
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|5
+|
+|t:|1750874223
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100 par
+|move|p1a: Trippie Redd|Astral Barrage|p2b: Incineroar|[spread] p2b
+|-immune|p2a: Farigiraf
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|46/100
+|move|p1b: Zamazenta|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750874233
+|switch|p2b: Calyrex|Calyrex-Shadow, L50, tera:Fairy|34/100 par
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750874251
+|switch|p1a: Teddy|Ursaluna, L50, M, shiny|100/100 brn
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Zamazenta|Heavy Slam|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-damage|p1a: Teddy|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750874265
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Zamazenta|Wide Guard|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Wide Guard
+|move|p1a: Teddy|Earthquake|p2b: Calyrex|[spread] p2a,p2b
+|-activate|p1b: Zamazenta|move: Wide Guard
+|-damage|p2a: Farigiraf|41/100 par
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-damage|p1a: Teddy|89/100 brn|[from] brn
+|upkeep
+|-message|conghieu forfeited.
+|
+|win|treallyreal
+|raw|treallyreal's rating: 1309 &rarr; <strong>1334</strong><br />(+25 for winning)
+|raw|conghieu's rating: 1398 &rarr; <strong>1373</strong><br />(-25 for losing)
+|l|☆conghieu
+|player|p2|

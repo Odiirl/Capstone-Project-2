@@ -1,0 +1,127 @@
+|j|‽Ggeacc
+|j|☆TotallyNotAutistic
+|t:|1750804094
+|gametype|doubles
+|player|p1|Ggeacc|101|1180
+|player|p2|TotallyNotAutistic|n|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Dewgong, L50, F|
+|poke|p1|Groudon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Reshiram, L50|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ggeacc)
+|inactive|TotallyNotAutistic has 60 seconds left.
+|
+|t:|1750804134
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Dewgong|Dewgong, L50, F|100/100
+|switch|p2a: Reshiram|Reshiram, L50|100/100
+|switch|p2b: Malamar|Malamar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-ability|p2a: Reshiram|Turboblaze
+|turn|1
+|
+|t:|1750804150
+|move|p2a: Reshiram|Protect|p2a: Reshiram
+|-singleturn|p2a: Reshiram|Protect
+|move|p1b: Dewgong|Aqua Jet|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|94/100
+|-enditem|p1a: Groudon|Weakness Policy
+|-boost|p1a: Groudon|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Groudon|spa|2|[from] item: Weakness Policy
+|move|p1a: Groudon|Precipice Blades|p2a: Reshiram|[spread] p2b
+|-activate|p2a: Reshiram|move: Protect
+|-damage|p2b: Malamar|11/100
+|move|p2b: Malamar|Trick Room|p2b: Malamar
+|-fieldstart|move: Trick Room|[of] p2b: Malamar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750804172
+|move|p1b: Dewgong|Protect|p1b: Dewgong
+|-singleturn|p1b: Dewgong|Protect
+|move|p2b: Malamar|Topsy-Turvy||[still]
+|-fail|p2b: Malamar
+|move|p2a: Reshiram|Overheat|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|-unboost|p2a: Reshiram|spa|2
+|faint|p1a: Groudon
+|-damage|p2a: Reshiram|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750804190
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|3
+|
+|t:|1750804204
+|-terastallize|p2a: Reshiram|Fire
+|move|p1b: Dewgong|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Dewgong
+|move|p2b: Malamar|Topsy-Turvy|p2a: Reshiram
+|-invertboost|p2a: Reshiram|[from] move: Topsy-Turvy
+|move|p2a: Reshiram|Overheat|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Reshiram|spa|2
+|faint|p1a: Miraidon
+|-damage|p2a: Reshiram|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750804215
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|4
+|inactive|TotallyNotAutistic has 30 seconds left.
+|
+|t:|1750804240
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1b: Dewgong|Aqua Jet||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Aqua Jet|[of] p1b: Dewgong
+|move|p2a: Reshiram|Overheat|p1a: Flutter Mane
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|-unboost|p2a: Reshiram|spa|2
+|-damage|p2a: Reshiram|72/100|[from] item: Life Orb
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Reshiram
+|-damage|p2a: Reshiram|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|Ggeacc forfeited.
+|
+|win|TotallyNotAutistic
+|raw|Ggeacc's rating: 1180 &rarr; <strong>1158</strong><br />(-22 for losing)
+|raw|TotallyNotAutistic's rating: 1217 &rarr; <strong>1239</strong><br />(+22 for winning)
+|l|‽Ggeacc
+|player|p1|
+|l|☆TotallyNotAutistic
+|player|p2|

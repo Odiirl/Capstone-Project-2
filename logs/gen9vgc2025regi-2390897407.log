@@ -1,0 +1,163 @@
+|j|☆YoshiKing94
+|j|☆poke\(0w0)/ball
+|t:|1750780642
+|gametype|doubles
+|player|p1|YoshiKing94|caitlin|1213
+|player|p2|poke\(0w0)/ball|n|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raichu-Alola, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750780757
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750780812
+|-terastallize|p1a: Roaring Moon|Poison
+|move|p1a: Roaring Moon|Taunt|p2b: Smeargle
+|-start|p2b: Smeargle|move: Taunt
+|move|p2a: Miraidon|Volt Switch|p1b: Zamazenta
+|-damage|p1b: Zamazenta|40/100
+|
+|t:|1750780819
+|switch|p2a: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Smeargle
+|-damage|p2b: Smeargle|11/100
+|cant|p2b: Smeargle|move: Taunt|Decorate
+|
+|upkeep
+|turn|2
+|
+|t:|1750780849
+|switch|p2b: Raichu|Raichu-Alola, L50, F|100/100
+|move|p2a: Lunala|Protect|p2a: Lunala
+|-singleturn|p2a: Lunala|Protect
+|move|p1a: Roaring Moon|Taunt|p2a: Lunala
+|-activate|p2a: Lunala|move: Protect
+|move|p1b: Zamazenta|Body Press|p2b: Raichu
+|-resisted|p2b: Raichu
+|-damage|p2b: Raichu|15/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750780893
+|move|p2b: Raichu|Encore|p1a: Roaring Moon
+|-start|p1a: Roaring Moon|Encore
+|move|p1a: Roaring Moon|Taunt|p2a: Lunala
+|-start|p2a: Lunala|move: Taunt
+|move|p1b: Zamazenta|Body Press|p2b: Raichu
+|-resisted|p2b: Raichu
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|move|p2a: Lunala|Moongeist Beam|p1b: Zamazenta
+|-crit|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|upkeep
+|
+|t:|1750780933
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|4
+|
+|t:|1750780955
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Miraidon|Volt Switch|p1b: Indeedee
+|-damage|p1b: Indeedee|54/100
+|
+|t:|1750780965
+|switch|p2b: Smeargle|Smeargle, L50, F|11/100|[from] Volt Switch
+|move|p2a: Lunala|Expanding Force|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Indeedee
+|-damage|p1a: Calyrex|70/100
+|-damage|p1b: Indeedee|29/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750780992
+|switch|p1b: Roaring Moon|Roaring Moon, L50, tera:Poison|100/100
+|-terastallize|p2a: Lunala|Dark
+|move|p1a: Calyrex|Expanding Force|p2b: Smeargle|[spread] p2b
+|-immune|p2a: Lunala
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Lunala|Expanding Force|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Roaring Moon
+|-damage|p1a: Calyrex|40/100
+|-damage|p1b: Roaring Moon|0 fnt
+|faint|p1b: Roaring Moon
+|-end|p1b: Roaring Moon|Protosynthesis|[silent]
+|
+|-end|p2a: Lunala|move: Taunt
+|upkeep
+|
+|t:|1750781005
+|switch|p1b: Indeedee|Indeedee-F, L50, F|29/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|6
+|
+|t:|1750781043
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2a: Lunala|Expanding Force|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750781055
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|poke\(0w0)/ball
+|raw|YoshiKing94's rating: 1213 &rarr; <strong>1193</strong><br />(-20 for losing)
+|raw|poke\(0w0)&#x2f;ball's rating: 1286 &rarr; <strong>1306</strong><br />(+20 for winning)

@@ -1,0 +1,148 @@
+|j|☆lkdog
+|j|☆Iamsliverfish
+|t:|1750828785
+|gametype|doubles
+|player|p1|lkdog|170|1590
+|player|p2|Iamsliverfish|silver-masters|1832
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750828811
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: combatduck|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2b: Dogtile|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Dogtile|Dauntless Shield|boost
+|-boost|p2b: Dogtile|def|1
+|turn|1
+|
+|t:|1750828824
+|move|p1a: Smeargle|Fake Out|p2a: combatduck
+|-damage|p2a: combatduck|96/100
+|move|p2b: Dogtile|Body Press|p1a: Smeargle
+|-supereffective|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|cant|p2a: combatduck|flinch
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750828838
+|move|p2a: combatduck|Detect|p2a: combatduck
+|-singleturn|p2a: combatduck|Protect
+|move|p2b: Dogtile|Protect|p2b: Dogtile
+|-singleturn|p2b: Dogtile|Protect
+|move|p1b: Lunala|Expanding Force|p2a: combatduck
+|-activate|p2a: combatduck|move: Protect
+|move|p1a: Smeargle|Spore|p2b: Dogtile
+|-activate|p2b: Dogtile|move: Protect
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750828849
+|-terastallize|p2a: combatduck|Water
+|move|p2a: combatduck|Aqua Jet|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|move|p1b: Lunala|Expanding Force|p2a: combatduck
+|-damage|p2a: combatduck|44/100
+|move|p2b: Dogtile|Heavy Slam|p1b: Lunala
+|-damage|p1b: Lunala|83/100
+|
+|upkeep
+|
+|t:|1750828866
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1750828876
+|switch|p2a: Duckwhale|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Duckwhale
+|move|p1a: Torkoal|Weather Ball|p2b: Dogtile
+|-damage|p2b: Dogtile|69/100
+|move|p1b: Lunala|Moongeist Beam|p2a: Duckwhale
+|-damage|p2a: Duckwhale|60/100
+|move|p2b: Dogtile|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750828891
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Duckwhale
+|-damage|p2a: Duckwhale|18/100
+|move|p2a: Duckwhale|Hydro Pump|p1b: Lunala
+|-damage|p1b: Lunala|9/100
+|move|p2b: Dogtile|Heavy Slam|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750828895
+|switch|p1b: Torkoal|Torkoal, L50, F|39/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|6
+|
+|t:|1750828905
+|switch|p2a: combatduck|Urshifu-Rapid-Strike, L50, F, tera:Water|44/100
+|move|p2b: Dogtile|Body Press|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|move|p1a: Calyrex|High Horsepower|p2b: Dogtile
+|-supereffective|p2b: Dogtile
+|-damage|p2b: Dogtile|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|lkdog forfeited.
+|
+|win|Iamsliverfish
+|raw|lkdog's rating: 1590 &rarr; <strong>1582</strong><br />(-8 for losing)
+|raw|Iamsliverfish's rating: 1832 &rarr; <strong>1840</strong><br />(+8 for winning)
+|l|☆lkdog
+|player|p1|
+|l|☆Iamsliverfish
+|player|p2|

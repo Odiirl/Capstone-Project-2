@@ -1,0 +1,181 @@
+|j|☆pneukeimado
+|j|☆robbie_valentino
+|t:|1750857064
+|gametype|doubles
+|player|p1|pneukeimado|266|1100
+|player|p2|robbie_valentino|169|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p2|Serperior, L50, F|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750857100
+|start
+|switch|p1a: Blaziken|Blaziken, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|-fail|p1b: Smeargle|unboost|Attack|[from] ability: Own Tempo|[of] p1b: Smeargle
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pneukeimado)
+|
+|t:|1750857129
+|move|p1b: Smeargle|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|96/100
+|cant|p2a: Incineroar|flinch
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: robbie_valentino|Reflect
+|move|p1a: Blaziken|Focus Energy|p1a: Blaziken
+|-start|p1a: Blaziken|move: Focus Energy
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750857147
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Blaziken
+|-status|p1a: Blaziken|par
+|move|p1b: Smeargle|Decorate|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|-boost|p1a: Blaziken|spa|2
+|move|p2a: Incineroar|Knock Off|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|73/100 par
+|-enditem|p1a: Blaziken|Scope Lens|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Blaziken|Aura Sphere|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1750857162
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750857183
+|move|p2a: Miraidon|Electro Drift|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|move|p1b: Smeargle|Taunt|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Taunt
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Smeargle
+|-damage|p1b: Smeargle|22/100
+|-unboost|p1b: Smeargle|spa|1
+|
+|upkeep
+|
+|t:|1750857195
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750857210
+|switch|p2b: Serperior|Serperior, L50, F|100/100
+|move|p1a: Koraidon|Collision Course|p2b: Serperior
+|-damage|p2b: Serperior|44/100
+|move|p2a: Miraidon|Electro Drift|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Serperior|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750857226
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1750857239
+|move|p1a: Koraidon|Flame Charge|p2b: Serperior
+|-supereffective|p2b: Serperior
+|-damage|p2b: Serperior|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2b: Serperior
+|move|p2a: Miraidon|Electro Drift|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|61/100
+|move|p1b: Rillaboom|High Horsepower|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|67/100|[from] Grassy Terrain
+|-heal|p2a: Miraidon|63/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750857259
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|6
+|inactive|pneukeimado has 30 seconds left.
+|inactive|robbie_valentino has 30 seconds left.
+|
+|t:|1750857292
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1a: Koraidon|Collision Course|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|47/100
+|move|p2a: Miraidon|Electro Drift|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|27/100
+|move|p1b: Rillaboom|High Horsepower|p2a: Miraidon|[miss]
+|-miss|p1b: Rillaboom|p2a: Miraidon
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Miraidon|69/100|[from] Grassy Terrain
+|-heal|p2b: Grimmsnarl|52/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|inactive|pneukeimado has 30 seconds left.
+|inactive|robbie_valentino has 30 seconds left.
+|inactive|robbie_valentino has 20 seconds left.
+|
+|t:|1750857330
+|-terastallize|p1b: Rillaboom|Grass
+|move|p2a: Miraidon|Electro Drift|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|52/100
+|move|p1b: Rillaboom|Wood Hammer|p2a: Miraidon
+|-damage|p2a: Miraidon|9/100
+|-damage|p1b: Rillaboom|29/100|[from] Recoil
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|win|robbie_valentino
+|raw|pneukeimado's rating: 1100 &rarr; <strong>1074</strong><br />(-26 for losing)
+|raw|robbie_valentino's rating: 1081 &rarr; <strong>1110</strong><br />(+29 for winning)
+|l|☆pneukeimado
+|player|p1|
+|c|☆robbie_valentino|gg
+|l|☆robbie_valentino
+|player|p2|

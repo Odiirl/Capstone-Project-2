@@ -1,0 +1,143 @@
+|j|☆Rhizzen
+|j|☆3gris
+|t:|1750875389
+|gametype|doubles
+|player|p1|Rhizzen|265|1172
+|player|p2|3gris|depotagent|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Seedot, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750875424
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Seedot|Seedot, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 3gris)
+|
+|t:|1750875452
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Seedot|Endure|p2b: Seedot
+|-singleturn|p2b: Seedot|move: Endure
+|move|p2a: Miraidon|Electro Drift|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|68/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Miraidon
+|move|p1b: Lunala|Trick Room|p1b: Lunala
+|-fieldstart|move: Trick Room|[of] p1b: Lunala
+|
+|upkeep
+|
+|t:|1750875465
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750875488
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Seedot|Endeavor|p1a: Miraidon
+|-immune|p1a: Miraidon
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] 
+|-activate|p1a: Miraidon|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|4/100
+|
+|t:|1750875500
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Volt Switch
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750875519
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Seedot|Endeavor|p1a: Ursaluna
+|-damage|p1a: Ursaluna|66/100 brn
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Hands|[spread] p2a,p2b
+|-activate|p1b: Lunala|move: Wide Guard
+|-supereffective|p2a: Iron Hands
+|-resisted|p2b: Seedot
+|-crit|p2b: Seedot
+|-damage|p2a: Iron Hands|10/100
+|-damage|p2b: Seedot|31/100
+|
+|-damage|p1a: Ursaluna|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750875542
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Seedot|Foul Play|p1a: Ursaluna
+|-damage|p1a: Ursaluna|34/100 brn
+|move|p1a: Ursaluna|Earthquake|p2b: Seedot|[spread] p2a,p2b
+|-activate|p1b: Lunala|move: Wide Guard
+|-supereffective|p2a: Iron Hands
+|-resisted|p2b: Seedot
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Seedot|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|faint|p2b: Seedot
+|
+|-damage|p1a: Ursaluna|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1750875550
+|switch|p2b: Calyrex|Calyrex-Ice, L50|4/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750875561
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Calyrex|High Horsepower|p1a: Ursaluna|[miss]
+|-miss|p2b: Calyrex|p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|Rhizzen
+|raw|Rhizzen's rating: 1172 &rarr; <strong>1200</strong><br />(+28 for winning)
+|raw|3gris's rating: 1209 &rarr; <strong>1181</strong><br />(-28 for losing)
+|l|☆3gris
+|player|p2|
+|l|☆Rhizzen
+|player|p1|

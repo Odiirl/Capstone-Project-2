@@ -1,0 +1,483 @@
+|j|☆elpipasomg
+|j|☆rman500
+|t:|1750859688
+|gametype|doubles
+|player|p1|elpipasomg|n|1119
+|player|p2|rman500|170|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Arboliva, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Umbreon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Quagsire, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Rhydon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rman500)
+|
+|t:|1750859718
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Arboliva|Arboliva, L50, F, shiny|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750859736
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Ho-Oh
+|-activate|p2a: Ho-Oh|move: Protect
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: rman500|Reflect
+|move|p1b: Arboliva|Leech Seed|p2b: Grimmsnarl|[miss]
+|-miss|p1b: Arboliva|p2b: Grimmsnarl
+|
+|upkeep
+|turn|2
+|
+|t:|1750859749
+|-terastallize|p1b: Arboliva|Water
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: rman500|move: Light Screen
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Arboliva
+|-resisted|p1b: Arboliva
+|-damage|p1b: Arboliva|86/100
+|move|p1a: Incineroar|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|79/100
+|-damage|p1a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Ho-Oh
+|-enditem|p2a: Ho-Oh|Rocky Helmet|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Arboliva|Leech Seed|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Leech Seed
+|
+|-damage|p2b: Grimmsnarl|88/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|99/100|[silent]
+|upkeep
+|turn|3
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750859778
+|move|p2a: Ho-Oh|Life Dew|p2a: Ho-Oh|[spread] p2a,p2b
+|-heal|p2a: Ho-Oh|100/100
+|-heal|p2b: Grimmsnarl|100/100
+|move|p2b: Grimmsnarl|Foul Play|p1b: Arboliva
+|-damage|p1b: Arboliva|80/100
+|move|p1a: Incineroar|Knock Off|p2b: Grimmsnarl
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|94/100
+|-enditem|p2b: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Arboliva|Substitute|p1b: Arboliva
+|-start|p1b: Arboliva|Substitute
+|-damage|p1b: Arboliva|55/100
+|
+|-damage|p2b: Grimmsnarl|82/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|68/100|[silent]
+|upkeep
+|turn|4
+|inactive|rman500 has 30 seconds left.
+|inactive|rman500 has 20 seconds left.
+|
+|t:|1750859815
+|switch|p2b: Quagsire|Quagsire, L50, F|100/100
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Arboliva
+|-resisted|p1b: Arboliva
+|-activate|p1b: Arboliva|move: Substitute|[damage]
+|move|p1a: Incineroar|Parting Shot|p2b: Quagsire
+|-unboost|p2b: Quagsire|atk|1
+|-unboost|p2b: Quagsire|spa|1
+|
+|t:|1750859826
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100|[from] Parting Shot
+|move|p1b: Arboliva|Leech Seed|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|move: Leech Seed
+|
+|-damage|p2a: Ho-Oh|88/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|83/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750859838
+|move|p2a: Ho-Oh|Protect|p2a: Ho-Oh
+|-singleturn|p2a: Ho-Oh|Protect
+|move|p1a: Dragapult|Dragon Darts|p2b: Quagsire
+|-damage|p2b: Quagsire|81/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: Quagsire
+|-damage|p2b: Quagsire|62/100
+|move|p1b: Arboliva|Leech Seed|p2b: Quagsire
+|-start|p2b: Quagsire|move: Leech Seed
+|move|p2b: Quagsire|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2b: Quagsire|68/100|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|76/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|97/100|[silent]
+|-damage|p2b: Quagsire|55/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|100/100|[silent]
+|-damage|p1a: Dragapult|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|rman500 has 30 seconds left.
+|inactive|rman500 has 20 seconds left.
+|inactive|rman500 has 15 seconds left.
+|
+|t:|1750859881
+|move|p1b: Arboliva|Protect|p1b: Arboliva
+|-singleturn|p1b: Arboliva|Protect
+|move|p1a: Dragapult|Dragon Darts|p2b: Quagsire
+|-damage|p2b: Quagsire|37/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|59/100
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|73/100 tox
+|move|p2b: Quagsire|Toxic|p1b: Arboliva
+|-activate|p1b: Arboliva|move: Protect
+|
+|-heal|p2b: Quagsire|43/100|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|47/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Quagsire|30/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Dragapult|61/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750859897
+|switch|p1a: Incineroar|Incineroar, L50, M|84/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Quagsire|atk|1
+|move|p2a: Ho-Oh|Life Dew|p2a: Ho-Oh|[spread] p2a
+|-heal|p2b: Quagsire|55/100|[from] ability: Water Absorb|[of] p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|71/100
+|move|p1b: Arboliva|Substitute|p1b: Arboliva
+|-fail|p1b: Arboliva|move: Substitute
+|move|p2b: Quagsire|Toxic||[still]
+|-fail|p2b: Quagsire
+|
+|-heal|p2b: Quagsire|61/100|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|59/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Quagsire|49/100|[from] Leech Seed|[of] p1b: Arboliva
+|upkeep
+|turn|8
+|
+|t:|1750859917
+|switch|p2a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|82/100
+|move|p1b: Arboliva|Protect|p1b: Arboliva
+|-singleturn|p1b: Arboliva|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|74/100
+|
+|-sideend|p2: rman500|Reflect
+|upkeep
+|turn|9
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750859948
+|-terastallize|p2a: Ting-Lu|Poison
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: rman500|Reflect
+|move|p1a: Incineroar|Knock Off|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|81/100
+|-enditem|p2a: Ting-Lu|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Ting-Lu|Sand Tomb|p1b: Arboliva
+|-end|p1b: Arboliva|Substitute
+|move|p1b: Arboliva|Leech Seed|p2b: Grimmsnarl
+|-start|p2b: Grimmsnarl|move: Leech Seed
+|
+|-damage|p2b: Grimmsnarl|62/100|[from] Leech Seed|[of] p1b: Arboliva
+|-sideend|p2: rman500|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1750859967
+|move|p1a: Incineroar|Parting Shot|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|1
+|-unboost|p2a: Ting-Lu|spa|1
+|
+|t:|1750859971
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100|[from] Parting Shot
+|move|p2b: Grimmsnarl|Foul Play|p1a: Annihilape
+|-damage|p1a: Annihilape|46/100
+|move|p2a: Ting-Lu|Sand Tomb|p1a: Annihilape
+|-crit|p1a: Annihilape
+|-damage|p1a: Annihilape|23/100
+|-activate|p1a: Annihilape|move: Sand Tomb|[of] p2a: Ting-Lu
+|move|p1b: Arboliva|Leech Seed|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Leech Seed
+|
+|-damage|p2b: Grimmsnarl|50/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2a: Ting-Lu|68/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Annihilape|11/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|11
+|inactive|elpipasomg has 30 seconds left.
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750860000
+|switch|p2a: Ho-Oh|Ho-Oh, L50|93/100
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Annihilape|[miss]
+|-miss|p2b: Grimmsnarl|p1a: Annihilape
+|move|p1a: Annihilape|Poison Jab|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|22/100
+|-status|p2b: Grimmsnarl|psn
+|move|p1b: Arboliva|Substitute|p1b: Arboliva
+|-start|p1b: Arboliva|Substitute
+|-damage|p1b: Arboliva|75/100
+|
+|-damage|p2b: Grimmsnarl|10/100 psn|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|89/100|[silent]
+|-damage|p2b: Grimmsnarl|0 fnt|[from] psn
+|faint|p2b: Grimmsnarl
+|-end|p1a: Annihilape|Sand Tomb|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1750860018
+|switch|p2b: Quagsire|Quagsire, L50, F|49/100
+|turn|12
+|
+|t:|1750860030
+|move|p1a: Annihilape|Poison Jab|p2b: Quagsire
+|-resisted|p2b: Quagsire
+|-damage|p2b: Quagsire|43/100
+|-status|p2b: Quagsire|psn
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|move|p1b: Arboliva|Leech Seed|p2b: Quagsire
+|-start|p2b: Quagsire|move: Leech Seed
+|move|p2b: Quagsire|Recover|p2b: Quagsire
+|-heal|p2b: Quagsire|93/100 psn
+|
+|-heal|p2b: Quagsire|99/100 psn|[from] item: Leftovers
+|-damage|p2b: Quagsire|86/100 psn|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|100/100|[silent]
+|-damage|p2b: Quagsire|74/100 psn|[from] psn
+|upkeep
+|
+|t:|1750860049
+|switch|p1a: Dragapult|Dragapult, L50, F|61/100 tox
+|turn|13
+|
+|t:|1750860062
+|move|p1a: Dragapult|Dragon Darts|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|74/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: Quagsire
+|-damage|p2b: Quagsire|53/100 psn
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|29/100 tox
+|move|p1b: Arboliva|Leech Seed|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|move: Leech Seed
+|move|p2b: Quagsire|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|1/100 tox
+|
+|-heal|p2b: Quagsire|59/100 psn|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|62/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Quagsire|47/100 psn|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|-damage|p2b: Quagsire|34/100 psn|[from] psn
+|-sideend|p2: rman500|Reflect
+|upkeep
+|
+|t:|1750860075
+|switch|p1a: Incineroar|Incineroar, L50, M|84/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Quagsire|atk|1
+|turn|14
+|
+|t:|1750860084
+|switch|p2b: Ting-Lu|Ting-Lu, L50, tera:Poison|68/100
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|move|p1a: Incineroar|Fake Out|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|54/100
+|cant|p2a: Ho-Oh|flinch
+|move|p1b: Arboliva|Substitute|p1b: Arboliva
+|-fail|p1b: Arboliva|move: Substitute
+|
+|-damage|p2a: Ho-Oh|41/100|[from] Leech Seed|[of] p1b: Arboliva
+|upkeep
+|turn|15
+|
+|t:|1750860106
+|move|p2a: Ho-Oh|Life Dew|p2a: Ho-Oh|[spread] p2a,p2b
+|-heal|p2a: Ho-Oh|66/100
+|-heal|p2b: Ting-Lu|94/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|59/100
+|-damage|p1a: Incineroar|69/100|[from] Recoil
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|45/100
+|-activate|p1a: Incineroar|move: Sand Tomb|[of] p2b: Ting-Lu
+|move|p1b: Arboliva|Leech Seed|p2b: Ting-Lu
+|-start|p2b: Ting-Lu|move: Leech Seed
+|
+|-damage|p2a: Ho-Oh|54/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Ting-Lu|47/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Incineroar|32/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1750860126
+|move|p2a: Ho-Oh|Life Dew|p2a: Ho-Oh|[spread] p2a,p2b
+|-heal|p2a: Ho-Oh|79/100
+|-heal|p2b: Ting-Lu|72/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|56/100
+|-damage|p1a: Incineroar|24/100|[from] Recoil
+|move|p2b: Ting-Lu|Sand Tomb|p1b: Arboliva
+|-activate|p1b: Arboliva|move: Substitute|[damage]
+|move|p1b: Arboliva|Strength Sap|p2a: Ho-Oh
+|-unboost|p2a: Ho-Oh|atk|1
+|
+|-damage|p2a: Ho-Oh|44/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Ting-Lu|60/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Incineroar|12/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|17
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750860151
+|move|p2a: Ho-Oh|Life Dew|p2a: Ho-Oh|[spread] p2a,p2b
+|-heal|p2a: Ho-Oh|69/100
+|-heal|p2b: Ting-Lu|85/100
+|move|p1a: Incineroar|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|49/100
+|move|p2b: Ting-Lu|Snarl|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|8/100
+|-damage|p1b: Arboliva|95/100
+|-unboost|p1b: Arboliva|spa|1
+|move|p1b: Arboliva|Strength Sap|p2b: Ting-Lu
+|-unboost|p2b: Ting-Lu|atk|1
+|-heal|p1b: Arboliva|100/100
+|
+|-damage|p2a: Ho-Oh|37/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2b: Ting-Lu|73/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1a: Incineroar|0 fnt|[from] move: Sand Tomb|[partiallytrapped]
+|faint|p1a: Incineroar
+|upkeep
+|turn|18
+|inactive|rman500 has 30 seconds left.
+|inactive|rman500 has 20 seconds left.
+|
+|t:|1750860190
+|switch|p2a: Quagsire|Quagsire, L50, F|34/100 psn
+|move|p1b: Arboliva|Protect|p1b: Arboliva
+|-singleturn|p1b: Arboliva|Protect
+|move|p2b: Ting-Lu|Snarl|p1b: Arboliva
+|-activate|p1b: Arboliva|move: Protect
+|
+|-heal|p2a: Quagsire|40/100 psn|[from] item: Leftovers
+|-damage|p2b: Ting-Lu|61/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2a: Quagsire|28/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1750860202
+|move|p2b: Ting-Lu|Stomping Tantrum|p1b: Arboliva
+|-end|p1b: Arboliva|Substitute
+|move|p1b: Arboliva|Leech Seed|p2a: Quagsire
+|-start|p2a: Quagsire|move: Leech Seed
+|move|p2a: Quagsire|Toxic|p1b: Arboliva
+|-status|p1b: Arboliva|tox
+|
+|-heal|p2a: Quagsire|34/100 psn|[from] item: Leftovers
+|-damage|p2b: Ting-Lu|49/100|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p2a: Quagsire|21/100 psn|[from] Leech Seed|[of] p1b: Arboliva
+|-damage|p1b: Arboliva|95/100 tox|[from] psn
+|-damage|p2a: Quagsire|9/100 psn|[from] psn
+|upkeep
+|turn|20
+|inactive|rman500 has 30 seconds left.
+|
+|t:|1750860227
+|switch|p2a: Ho-Oh|Ho-Oh, L50|70/100
+|move|p2b: Ting-Lu|Stomping Tantrum|p1b: Arboliva
+|-damage|p1b: Arboliva|73/100 tox
+|move|p1b: Arboliva|Substitute|p1b: Arboliva
+|-start|p1b: Arboliva|Substitute
+|-damage|p1b: Arboliva|48/100 tox
+|-enditem|p1b: Arboliva|Sitrus Berry|[eat]
+|-heal|p1b: Arboliva|73/100 tox|[from] item: Sitrus Berry
+|
+|-damage|p2b: Ting-Lu|36/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|91/100 tox|[silent]
+|-damage|p1b: Arboliva|79/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|rman500 has 25 seconds left this turn.
+|inactive|rman500 has 20 seconds left.
+|inactive|rman500 has 15 seconds left.
+|
+|t:|1750860239
+|switch|p2b: Quagsire|Quagsire, L50, F|9/100 psn
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Arboliva
+|-resisted|p1b: Arboliva
+|-crit|p1b: Arboliva
+|-end|p1b: Arboliva|Substitute
+|move|p1b: Arboliva|Leech Seed|p2a: Ho-Oh
+|-start|p2a: Ho-Oh|move: Leech Seed
+|
+|-heal|p2b: Quagsire|15/100 psn|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|58/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|93/100 tox|[silent]
+|-damage|p1b: Arboliva|75/100 tox|[from] psn
+|-damage|p2b: Quagsire|2/100 psn|[from] psn
+|-item|p1b: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|22
+|inactive|rman500 has 15 seconds left this turn.
+|inactive|rman500 has 10 seconds left.
+|inactive|rman500 has 5 seconds left.
+|
+|t:|1750860252
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Arboliva
+|-resisted|p1b: Arboliva
+|-damage|p1b: Arboliva|53/100 tox
+|move|p1b: Arboliva|Leech Seed|p2b: Quagsire
+|-start|p2b: Quagsire|move: Leech Seed
+|move|p2b: Quagsire|Earth Power|p1b: Arboliva
+|-damage|p1b: Arboliva|36/100 tox
+|-enditem|p1b: Arboliva|Sitrus Berry|[eat]
+|-heal|p1b: Arboliva|61/100 tox|[from] item: Sitrus Berry
+|
+|-heal|p2b: Quagsire|8/100 psn|[from] item: Leftovers
+|-damage|p2a: Ho-Oh|46/100|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|75/100 tox|[silent]
+|-damage|p2b: Quagsire|0 fnt|[from] Leech Seed|[of] p1b: Arboliva
+|-heal|p1b: Arboliva|84/100 tox|[silent]
+|faint|p2b: Quagsire
+|-damage|p1b: Arboliva|60/100 tox|[from] psn
+|-item|p1b: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|inactive|rman500 has 5 seconds left this turn.
+|-message|rman500 lost due to inactivity.
+|
+|win|elpipasomg
+|raw|elpipasomg's rating: 1119 &rarr; <strong>1143</strong><br />(+24 for winning)
+|raw|rman500's rating: 1107 &rarr; <strong>1083</strong><br />(-24 for losing)
+|l|☆rman500
+|player|p2|
+|l|☆elpipasomg
+|player|p1|

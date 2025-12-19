@@ -1,0 +1,321 @@
+|j|☆jjkko
+|j|☆Sunflorasupremacy
+|t:|1750814638
+|gametype|doubles
+|player|p1|jjkko|169|1476
+|player|p2|Sunflorasupremacy|gardenia|1458
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Appletun, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sunflorasupremacy)
+|inactive|Sunflorasupremacy has 60 seconds left.
+|
+|t:|1750814671
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|1
+|
+|t:|1750814686
+|switch|p2b: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p1a: Incineroar|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Incineroar
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sunflorasupremacy|Reflect
+|move|p1b: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|59/100
+|-damage|p2b: Farigiraf|78/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750814701
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Sunflorasupremacy|move: Light Screen
+|move|p1a: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|58/100
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|54/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|19/100
+|-damage|p2b: Farigiraf|38/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750814723
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Grimmsnarl|Thunder Wave|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|move|p1a: Incineroar|U-turn|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|25/100
+|
+|t:|1750814731
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] U-turn
+|move|p2b: Farigiraf|Foul Play|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750814740
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Urshifu
+|-status|p1a: Urshifu|par
+|cant|p1a: Urshifu|par
+|move|p2b: Farigiraf|Foul Play|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|83/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750814757
+|move|p2b: Farigiraf|Helping Hand|p2a: Grimmsnarl
+|-singleturn|p2a: Grimmsnarl|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Urshifu|Surging Strikes|p2b: Farigiraf
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|6/100
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-hitcount|p2: Farigiraf|2
+|move|p1b: Incineroar|Flare Blitz|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-damage|p1b: Incineroar|77/100|[from] Recoil
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750814770
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|6
+|
+|t:|1750814779
+|switch|p1b: Appletun|Appletun, L50, F|100/100
+|move|p2a: Miraidon|Parabolic Charge|p1b: Appletun|[spread] p1a,p1b
+|-immune|p2b: Groudon
+|-supereffective|p1a: Urshifu
+|-resisted|p1b: Appletun
+|-damage|p1a: Urshifu|0 fnt
+|-damage|p1b: Appletun|91/100
+|faint|p1a: Urshifu
+|move|p2b: Groudon|Precipice Blades|p1b: Appletun
+|-resisted|p1b: Appletun
+|-damage|p1b: Appletun|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750814786
+|switch|p1a: Incineroar|Incineroar, L50, M|77/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-fail|p2b: Groudon|unboost|[from] item: Clear Amulet|[of] p2b: Groudon
+|turn|7
+|inactive|jjkko has 30 seconds left.
+|
+|t:|1750814817
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|94/100
+|cant|p2a: Miraidon|flinch
+|move|p1b: Appletun|Leech Seed|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750814832
+|move|p1b: Appletun|Protect|p1b: Appletun
+|-singleturn|p1b: Appletun|Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|13/100
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-activate|p1b: Appletun|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Groudon
+|-damage|p2b: Groudon|84/100
+|-enditem|p2b: Groudon|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|83/100|[from] item: Leftovers
+|-sideend|p2: Sunflorasupremacy|Reflect
+|upkeep
+|turn|9
+|
+|t:|1750814848
+|switch|p1a: Calyrex|Calyrex-Ice, L50|54/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Miraidon|Parabolic Charge|p1b: Appletun|[spread] p1a,p1b
+|-immune|p2b: Groudon
+|-resisted|p1b: Appletun
+|-damage|p1a: Calyrex|11/100
+|-heal|p2a: Miraidon|100/100|[from] drain|[of] p1a: Calyrex
+|-damage|p1b: Appletun|71/100
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-crit|p1b: Appletun
+|-damage|p1b: Appletun|26/100
+|move|p1b: Appletun|Leech Seed|p2a: Miraidon
+|-start|p2a: Miraidon|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Appletun|32/100|[from] item: Leftovers
+|-damage|p2a: Miraidon|88/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|43/100|[silent]
+|-sideend|p2: Sunflorasupremacy|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1750814872
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Appletun|Protect|p1b: Appletun
+|-singleturn|p1b: Appletun|Protect
+|move|p2a: Miraidon|Parabolic Charge|p1a: Calyrex|[spread] 
+|-activate|p1a: Calyrex|move: Protect
+|-activate|p1b: Appletun|move: Protect
+|-immune|p2b: Groudon
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-activate|p1b: Appletun|move: Protect
+|
+|-weather|none
+|-heal|p1b: Appletun|49/100|[from] item: Leftovers
+|-damage|p2a: Miraidon|76/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|61/100|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|t:|1750814886
+|move|p2a: Miraidon|Parabolic Charge|p1a: Calyrex|[spread] p1a,p1b
+|-immune|p2b: Groudon
+|-resisted|p1b: Appletun
+|-damage|p1a: Calyrex|0 fnt
+|-heal|p2a: Miraidon|81/100|[from] drain|[of] p1a: Calyrex
+|-damage|p1b: Appletun|53/100
+|-heal|p2a: Miraidon|85/100|[from] drain|[of] p1b: Appletun
+|faint|p1a: Calyrex
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-damage|p1b: Appletun|35/100
+|move|p1b: Appletun|Leech Seed|p2b: Groudon
+|-start|p2b: Groudon|move: Leech Seed
+|
+|-heal|p1b: Appletun|41/100|[from] item: Leftovers
+|-damage|p2a: Miraidon|73/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|53/100|[silent]
+|-damage|p2b: Groudon|72/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|64/100|[silent]
+|upkeep
+|
+|t:|1750814898
+|switch|p1a: Incineroar|Incineroar, L50, M|13/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Groudon|atk|1
+|turn|12
+|
+|t:|1750814906
+|move|p1a: Incineroar|Fake Out|p2a: Miraidon
+|-damage|p2a: Miraidon|64/100
+|cant|p2a: Miraidon|flinch
+|move|p2b: Groudon|Precipice Blades|p1b: Appletun|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-resisted|p1b: Appletun
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Appletun|49/100
+|faint|p1a: Incineroar
+|move|p1b: Appletun|Grass Knot|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|32/100
+|
+|-heal|p1b: Appletun|55/100|[from] item: Leftovers
+|-damage|p2a: Miraidon|19/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|67/100|[silent]
+|-damage|p2b: Groudon|59/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|78/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1750814919
+|move|p1b: Appletun|Protect|p1b: Appletun
+|-singleturn|p1b: Appletun|Protect
+|move|p2a: Miraidon|Draco Meteor|p1b: Appletun
+|-activate|p1b: Appletun|move: Protect
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-activate|p1b: Appletun|move: Protect
+|
+|-heal|p1b: Appletun|84/100|[from] item: Leftovers
+|-damage|p2a: Miraidon|7/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|96/100|[silent]
+|-damage|p2b: Groudon|47/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|100/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1750814932
+|move|p1b: Appletun|Sucker Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Groudon|Heat Crash|p1b: Appletun
+|-damage|p1b: Appletun|88/100
+|
+|-heal|p1b: Appletun|94/100|[from] item: Leftovers
+|-damage|p2b: Groudon|35/100|[from] Leech Seed|[of] p1b: Appletun
+|-heal|p1b: Appletun|100/100|[silent]
+|upkeep
+|turn|15
+|-message|Sunflorasupremacy forfeited.
+|
+|win|jjkko
+|raw|jjkko's rating: 1476 &rarr; <strong>1495</strong><br />(+19 for winning)
+|raw|Sunflorasupremacy's rating: 1458 &rarr; <strong>1439</strong><br />(-19 for losing)
+|l|☆Sunflorasupremacy
+|player|p2|
+|l|☆jjkko
+|player|p1|

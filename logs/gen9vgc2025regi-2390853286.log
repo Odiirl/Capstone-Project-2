@@ -1,0 +1,182 @@
+|j|☆KhankoRex
+|j|☆TCBro89
+|t:|1750775887
+|gametype|doubles
+|player|p1|KhankoRex|266|1511
+|player|p2|TCBro89|red|1574
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|
+|t:|1750775924
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KhankoRex)
+|
+|t:|1750775946
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: TCBro89|move: Tailwind
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: KhankoRex|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|KhankoRex has 30 seconds left.
+|inactive|KhankoRex has 20 seconds left.
+|
+|t:|1750775981
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Whimsicott|Encore||[still]
+|-fail|p2b: Whimsicott
+|move|p2a: Groudon|Precipice Blades|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|10/100
+|-damage|p1b: Calyrex|33/100
+|move|p1a: Incineroar|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|73/100
+|-enditem|p2a: Groudon|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|KhankoRex has 30 seconds left.
+|
+|t:|1750776016
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|move|p1b: Calyrex|Disable|p2a: Groudon
+|-start|p2a: Groudon|Disable|Precipice Blades
+|cant|p2a: Groudon|Disable|Precipice Blades
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750776033
+|move|p1b: Calyrex|Astral Barrage|p2a: Groudon|[spread] p2a
+|-immune|p2b: Farigiraf
+|-damage|p2a: Groudon|21/100
+|move|p1a: Volcarona|Heat Wave|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Groudon|0 fnt
+|-damage|p2b: Farigiraf|49/100
+|faint|p2a: Groudon
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|-enditem|p2b: Farigiraf|Room Service
+|-unboost|p2b: Farigiraf|spe|1|[from] item: Room Service
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: TCBro89|move: Tailwind
+|-sideend|p1: KhankoRex|move: Tailwind
+|upkeep
+|
+|t:|1750776051
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|5
+|
+|t:|1750776074
+|-terastallize|p1a: Volcarona|Grass
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|42/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|none
+|upkeep
+|
+|t:|1750776085
+|switch|p1b: Okidogi|Okidogi, L50, M|100/100
+|turn|6
+|inactive|TCBro89 has 30 seconds left.
+|
+|t:|1750776111
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p1b: Okidogi|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|15/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Okidogi|54/100
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1750776120
+|switch|p1a: Incineroar|Incineroar, L50, M|10/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|turn|7
+|
+|t:|1750776138
+|-terastallize|p2b: Farigiraf|Dark
+|move|p2b: Farigiraf|Foul Play|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Okidogi|Drain Punch|p2a: Miraidon
+|-damage|p2a: Miraidon|62/100
+|-heal|p1b: Okidogi|72/100|[from] drain|[of] p2a: Miraidon
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Okidogi
+|-damage|p1b: Okidogi|30/100
+|
+|upkeep
+|turn|8
+|
+|t:|1750776152
+|move|p2b: Farigiraf|Helping Hand|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Helping Hand|[of] p2b: Farigiraf
+|move|p1b: Okidogi|Gunk Shot|p2a: Miraidon
+|-damage|p2a: Miraidon|6/100
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Okidogi
+|-damage|p1b: Okidogi|0 fnt
+|faint|p1b: Okidogi
+|
+|win|TCBro89
+|raw|KhankoRex's rating: 1511 &rarr; <strong>1495</strong><br />(-16 for losing)
+|raw|TCBro89's rating: 1574 &rarr; <strong>1590</strong><br />(+16 for winning)
+|l|☆KhankoRex
+|player|p1|
+|l|☆TCBro89
+|player|p2|

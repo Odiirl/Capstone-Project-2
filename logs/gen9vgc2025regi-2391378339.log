@@ -1,0 +1,182 @@
+|j|☆iMatCia
+|j|☆djfngms
+|t:|1750846651
+|gametype|doubles
+|player|p1|iMatCia|266|1098
+|player|p2|djfngms|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750846704
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iMatCia)
+|
+|t:|1750846723
+|move|p2a: Indeedee|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|9/100
+|move|p1b: Koraidon|Breaking Swipe|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Indeedee|47/100
+|-damage|p2b: Incineroar|79/100
+|-unboost|p2a: Indeedee|atk|1
+|move|p2b: Incineroar|Parting Shot|p1a: Incineroar
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1750846735
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750846744
+|switch|p2a: Incineroar|Incineroar, L50, M|79/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|turn|2
+|
+|t:|1750846764
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p2b: Pelipper|Weather Ball|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1b: Zacian
+|-unboost|p1b: Zacian|atk|1
+|-unboost|p1b: Zacian|spa|1
+|
+|t:|1750846773
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100|[from] Parting Shot
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750846779
+|switch|p1a: Koraidon|Koraidon, L50|9/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750846788
+|switch|p2b: Incineroar|Incineroar, L50, M|79/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Zacian|atk|1
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1b: Zacian|Play Rough|p2b: Incineroar
+|-damage|p2b: Incineroar|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750846806
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|4
+|
+|t:|1750846815
+|move|p2b: Incineroar|Fake Out|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Psychic Terrain
+|move|p2a: Calyrex|Astral Barrage|p1b: Zacian|[spread] p1a,p1b
+|-ability|p1a: Ogerpon|Sturdy
+|-damage|p1a: Ogerpon|1/100
+|-damage|p1b: Zacian|14/100
+|move|p1b: Zacian|Behemoth Blade|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750846829
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|5
+|
+|t:|1750846841
+|-terastallize|p2b: Pelipper|Ground
+|move|p1b: Zacian|Behemoth Blade|p2b: Pelipper
+|-damage|p2b: Pelipper|51/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: Pelipper|[anim] Ivy Cudgel Rock
+|-resisted|p2b: Pelipper
+|-damage|p2b: Pelipper|12/100
+|move|p2b: Pelipper|Weather Ball|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|iMatCia has 30 seconds left.
+|inactive|iMatCia has 20 seconds left.
+|inactive|iMatCia has 15 seconds left.
+|inactive|iMatCia has 10 seconds left.
+|inactive|iMatCia has 5 seconds left.
+|
+|t:|1750846893
+|move|p1a: Ogerpon|Power Whip|p2b: Pelipper
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|win|iMatCia
+|raw|iMatCia's rating: 1098 &rarr; <strong>1116</strong><br />(+18 for winning)
+|raw|djfngms's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆djfngms
+|player|p2|

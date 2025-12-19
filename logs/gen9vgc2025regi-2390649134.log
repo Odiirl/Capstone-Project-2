@@ -1,0 +1,156 @@
+|j|☆TheWeepingDalek
+|j|☆Tommytheog
+|t:|1750742435
+|gametype|doubles
+|player|p1|TheWeepingDalek|266|1202
+|player|p2|Tommytheog|266|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Entei, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750742473
+|start
+|switch|p1a: Entei|Entei, L50|100/100
+|switch|p1b: Giratina|Giratina-Origin, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750742487
+|move|p1b: Giratina|Protect|p1b: Giratina
+|-singleturn|p1b: Giratina|Protect
+|move|p2a: Koraidon|Dragon Claw|p1b: Giratina
+|-activate|p1b: Giratina|move: Protect
+|move|p2b: Charizard|Dragon Pulse|p1a: Entei
+|-damage|p1a: Entei|33/100
+|move|p1a: Entei|Stone Edge|p2b: Charizard|[miss]
+|-miss|p1a: Entei|p2b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1750742507
+|-terastallize|p1b: Giratina|Fire
+|move|p1a: Entei|Extreme Speed|p2b: Charizard
+|-damage|p2b: Charizard|38/100
+|-damage|p1a: Entei|23/100|[from] item: Life Orb
+|move|p2a: Koraidon|Dragon Claw|p1b: Giratina
+|-damage|p1b: Giratina|48/100
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Charizard|Dragon Pulse|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|move|p1b: Giratina|Draco Meteor|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-unboost|p1b: Giratina|spa|2
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|25/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1750742528
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|3
+|
+|t:|1750742549
+|move|p1b: Giratina|Shadow Sneak|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|move|p2a: Flutter Mane|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|move|p2b: Charizard|Dragon Pulse|p1b: Giratina
+|-damage|p1b: Giratina|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|13/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1750742558
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1750742579
+|move|p1b: Giratina|Shadow Sneak|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Zamazenta|Body Press|p2b: Charizard
+|-resisted|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750742585
+|switch|p2b: Groudon|Groudon, L50|100/100
+|turn|5
+|
+|t:|1750742606
+|move|p1b: Giratina|Shadow Sneak|p2b: Groudon
+|-crit|p2b: Groudon
+|-damage|p2b: Groudon|70/100
+|move|p1a: Zamazenta|Body Press|p2b: Groudon
+|-damage|p2b: Groudon|12/100
+|move|p2b: Groudon|Fire Punch|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|53/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750742614
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1b: Giratina|Shadow Sneak|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p1a: Zamazenta|Body Press|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750742624
+|move|p1b: Giratina|Shadow Sneak|p2b: Groudon
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|
+|win|TheWeepingDalek
+|raw|TheWeepingDalek's rating: 1202 &rarr; <strong>1222</strong><br />(+20 for winning)
+|raw|Tommytheog's rating: 1131 &rarr; <strong>1111</strong><br />(-20 for losing)
+|l|☆TheWeepingDalek
+|player|p1|

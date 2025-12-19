@@ -1,0 +1,154 @@
+|j|☆xsdfrsf
+|j|☆ggmotox
+|t:|1750807104
+|gametype|doubles
+|player|p1|xsdfrsf|101|1065
+|player|p2|ggmotox|169|1051
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Eternatus, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Leaves, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Honchkrow, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Dusknoir, L50, F|
+|poke|p2|Slowking, L50, F|
+|poke|p2|Chandelure, L50, M|
+|teampreview|4
+|j| TrainerImitater
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xsdfrsf)
+|
+|t:|1750807137
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis, L50|100/100
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Dusknoir|Dusknoir, L50, F|100/100
+|-ability|p1b: Eternatus|Pressure
+|-ability|p2b: Dusknoir|Pressure
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivedef
+|turn|1
+|inactive|xsdfrsf has 30 seconds left.
+|inactive|xsdfrsf has 20 seconds left.
+|
+|t:|1750807172
+|move|p1b: Eternatus|Dynamax Cannon|p2a: Ursaluna
+|-damage|p2a: Ursaluna|57/100
+|move|p1a: Iron Jugulis|Taunt|p2b: Dusknoir
+|-start|p2b: Dusknoir|move: Taunt
+|move|p2a: Ursaluna|Earthquake|p1a: Iron Jugulis|[spread] p2b,p1b
+|-immune|p1a: Iron Jugulis
+|-supereffective|p1b: Eternatus
+|-damage|p2b: Dusknoir|68/100
+|-damage|p1b: Eternatus|41/100
+|cant|p2b: Dusknoir|move: Taunt|Trick Room
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750807195
+|move|p1b: Eternatus|Dynamax Cannon|p2a: Ursaluna
+|-damage|p2a: Ursaluna|12/100 brn
+|move|p1a: Iron Jugulis|Air Slash|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p2b: Dusknoir|Phantom Force||[still]
+|-prepare|p2b: Dusknoir|Phantom Force
+|
+|upkeep
+|
+|t:|1750807202
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|3
+|inactive|xsdfrsf has 30 seconds left.
+|
+|t:|1750807235
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Iron Jugulis|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1a: Iron Jugulis|[spread] p1a,p1b
+|-supereffective|p1a: Iron Jugulis
+|-supereffective|p1b: Miraidon
+|-damage|p1a: Iron Jugulis|30/100
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Dusknoir|Phantom Force|p1a: Iron Jugulis|[from] lockedmove
+|-resisted|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|19/100
+|
+|-end|p2b: Dusknoir|move: Taunt
+|upkeep
+|
+|t:|1750807256
+|switch|p1b: Iron Leaves|Iron Leaves, L50|100/100
+|-activate|p1b: Iron Leaves|ability: Quark Drive
+|-start|p1b: Iron Leaves|quarkdriveatk
+|turn|4
+|
+|t:|1750807272
+|-terastallize|p1a: Iron Jugulis|Dark
+|move|p1b: Iron Leaves|Coaching|p1a: Iron Jugulis
+|-boost|p1a: Iron Jugulis|atk|1
+|-boost|p1a: Iron Jugulis|def|1
+|move|p1a: Iron Jugulis|Dark Pulse|p2b: Dusknoir
+|-supereffective|p2b: Dusknoir
+|-damage|p2b: Dusknoir|0 fnt
+|faint|p2b: Dusknoir
+|move|p2a: Calyrex|Glacial Lance|p1b: Iron Leaves|[spread] p1a,p1b
+|-supereffective|p1b: Iron Leaves
+|-damage|p1a: Iron Jugulis|0 fnt
+|-enditem|p1b: Iron Leaves|Focus Sash
+|-damage|p1b: Iron Leaves|1/100
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750807289
+|switch|p1a: Eternatus|Eternatus, L50|41/100
+|switch|p2b: Chandelure|Chandelure, L50, M|100/100
+|-ability|p1a: Eternatus|Pressure
+|turn|5
+|
+|t:|1750807309
+|move|p1b: Iron Leaves|Leaf Blade|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|move|p1a: Eternatus|Dynamax Cannon|p2a: Calyrex
+|-damage|p2a: Calyrex|27/100
+|move|p2b: Chandelure|Flamethrower|p1a: Eternatus
+|-resisted|p1a: Eternatus
+|-damage|p1a: Eternatus|24/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Iron Leaves|[spread] p1a,p1b
+|-supereffective|p1a: Eternatus
+|-supereffective|p1b: Iron Leaves
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Iron Leaves|0 fnt
+|faint|p1a: Eternatus
+|faint|p1b: Iron Leaves
+|-end|p1b: Iron Leaves|Quark Drive|[silent]
+|
+|win|ggmotox
+|raw|xsdfrsf's rating: 1065 &rarr; <strong>1044</strong><br />(-21 for losing)
+|raw|ggmotox's rating: 1051 &rarr; <strong>1085</strong><br />(+34 for winning)
+|l|☆xsdfrsf
+|player|p1|
+|l|☆ggmotox
+|player|p2|

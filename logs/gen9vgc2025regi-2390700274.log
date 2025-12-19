@@ -1,0 +1,211 @@
+|j|☆HelloPathfinder
+|j|☆CadaverLuke
+|t:|1750752464
+|gametype|doubles
+|player|p1|HelloPathfinder|266|1350
+|player|p2|CadaverLuke|101|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HelloPathfinder)
+|
+|t:|1750752489
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Metagross|Metagross, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750752505
+|-terastallize|p1b: Zacian|Ground
+|-terastallize|p2b: Metagross|Normal
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: CadaverLuke|move: Tailwind
+|move|p2b: Metagross|Explosion|p1a: Miraidon|[spread] p2a,p1a,p1b
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Zacian|0 fnt
+|faint|p2b: Metagross
+|faint|p2a: Whimsicott
+|faint|p1a: Miraidon
+|faint|p1b: Zacian
+|
+|upkeep
+|
+|t:|1750752519
+|switch|p1b: Wo-Chien|Wo-Chien, L50|100/100
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Wo-Chien|Tablets of Ruin
+|turn|2
+|c|☆CadaverLuke|lets get those legendaries gone.
+|c|☆HelloPathfinder|lol
+|c|☆HelloPathfinder|find some weird ahh shi on best of 1
+|inactive|HelloPathfinder has 30 seconds left.
+|
+|t:|1750752549
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Kyogre|Water Spout|p1a: Tornadus|[spread] p1a,p1b
+|-resisted|p1b: Wo-Chien
+|-enditem|p1a: Tornadus|Focus Sash
+|-damage|p1a: Tornadus|1/100
+|-damage|p1b: Wo-Chien|21/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|74/100
+|-damage|p2b: Indeedee|70/100
+|move|p1b: Wo-Chien|Leech Seed|p2a: Kyogre
+|-start|p2a: Kyogre|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Wo-Chien|27/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|62/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|39/100|[silent]
+|upkeep
+|turn|3
+|c|☆CadaverLuke|if u got wide guard u win
+|inactive|HelloPathfinder has 30 seconds left.
+|c|☆HelloPathfinder|unfortunately no
+|inactive|HelloPathfinder has 20 seconds left.
+|inactive|HelloPathfinder has 15 seconds left.
+|inactive|HelloPathfinder has 10 seconds left.
+|
+|t:|1750752599
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Wo-Chien|Protect|p1b: Wo-Chien
+|-singleturn|p1b: Wo-Chien|Protect
+|move|p2a: Kyogre|Water Spout|p1a: Tornadus|[spread] p1a
+|-activate|p1b: Wo-Chien|move: Protect
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Wo-Chien|45/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|49/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|56/100|[silent]
+|upkeep
+|turn|4
+|inactive|CadaverLuke has 30 seconds left.
+|
+|t:|1750752625
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Kyogre|Water Spout|p1b: Wo-Chien
+|-resisted|p1b: Wo-Chien
+|-damage|p1b: Wo-Chien|5/100
+|move|p1b: Wo-Chien|Leech Seed|p2b: Indeedee|[miss]
+|-miss|p1b: Wo-Chien|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Wo-Chien|11/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|37/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|22/100|[silent]
+|-sideend|p2: CadaverLuke|move: Tailwind
+|upkeep
+|turn|5
+|inactive|HelloPathfinder has 30 seconds left.
+|inactive|CadaverLuke has 30 seconds left.
+|c|☆HelloPathfinder|ffs it missed
+|inactive|HelloPathfinder has 20 seconds left.
+|
+|t:|1750752660
+|move|p2b: Indeedee|Helping Hand|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Wo-Chien|Protect|p1b: Wo-Chien
+|-singleturn|p1b: Wo-Chien|Protect
+|move|p2a: Kyogre|Water Spout|p1b: Wo-Chien
+|-activate|p1b: Wo-Chien|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Wo-Chien|29/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|24/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|40/100|[silent]
+|upkeep
+|turn|6
+|c|☆CadaverLuke|gg leech seed was good
+|inactive|CadaverLuke has 30 seconds left.
+|c|☆HelloPathfinder|gg mate
+|
+|t:|1750752688
+|move|p2a: Kyogre|Water Spout|p1b: Wo-Chien
+|-resisted|p1b: Wo-Chien
+|-damage|p1b: Wo-Chien|21/100
+|move|p2b: Indeedee|Shadow Ball|p1b: Wo-Chien
+|-resisted|p1b: Wo-Chien
+|-damage|p1b: Wo-Chien|13/100
+|move|p1b: Wo-Chien|Leech Seed|p2b: Indeedee
+|-start|p2b: Indeedee|move: Leech Seed
+|
+|-weather|none
+|-heal|p1b: Wo-Chien|19/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|12/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|31/100|[silent]
+|-damage|p2b: Indeedee|58/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|42/100|[silent]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|c|☆HelloPathfinder|OH
+|c|☆HelloPathfinder|it’s not over till it’s over 😂😂😂
+|inactive|HelloPathfinder has 30 seconds left.
+|inactive|CadaverLuke has 30 seconds left.
+|
+|t:|1750752717
+|move|p1b: Wo-Chien|Protect|p1b: Wo-Chien
+|-singleturn|p1b: Wo-Chien|Protect
+|move|p2a: Kyogre|Water Spout|p1b: Wo-Chien
+|-activate|p1b: Wo-Chien|move: Protect
+|move|p2b: Indeedee|Shadow Ball|p1b: Wo-Chien
+|-activate|p1b: Wo-Chien|move: Protect
+|
+|-heal|p1b: Wo-Chien|48/100|[from] item: Leftovers
+|-damage|p2a: Kyogre|0 fnt|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|59/100|[silent]
+|faint|p2a: Kyogre
+|-damage|p2b: Indeedee|45/100|[from] Leech Seed|[of] p1b: Wo-Chien
+|-heal|p1b: Wo-Chien|70/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750752733
+|move|p2b: Indeedee|Shadow Ball|p1b: Wo-Chien
+|-resisted|p1b: Wo-Chien
+|-damage|p1b: Wo-Chien|63/100
+|move|p1b: Wo-Chien|Foul Play|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|HelloPathfinder
+|raw|HelloPathfinder's rating: 1350 &rarr; <strong>1366</strong><br />(+16 for winning)
+|raw|CadaverLuke's rating: 1271 &rarr; <strong>1252</strong><br />(-19 for losing)
+|c|☆HelloPathfinder|wi chien the goat
+|l|☆CadaverLuke
+|player|p2|

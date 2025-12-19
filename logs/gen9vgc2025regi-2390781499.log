@@ -1,0 +1,342 @@
+|j|☆cauzinxd
+|j|☆Spalding944
+|t:|1750766859
+|gametype|doubles
+|player|p1|cauzinxd|101|1193
+|player|p2|Spalding944|170|1282
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Drifblim, L50, M|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Terapagos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spalding944)
+|inactive|cauzinxd has 60 seconds left.
+|inactive|cauzinxd has 30 seconds left.
+|inactive|cauzinxd has 20 seconds left.
+|
+|t:|1750766938
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Drifblim|Drifblim, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|cauzinxd has 30 seconds left.
+|
+|t:|1750766965
+|-terastallize|p2b: Drifblim|Dark
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1a: Miraidon|Volt Switch|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|22/100
+|
+|t:|1750766980
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] Volt Switch
+|move|p1b: Lunala|Moongeist Beam|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1750767000
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1a: Urshifu|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1750767010
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Lunala|Moonblast|p2b: Drifblim|[miss]
+|-miss|p1b: Lunala|p2b: Drifblim
+|
+|upkeep
+|
+|t:|1750767019
+|switch|p2a: Tatsugiri|Tatsugiri, L50, F|100/100
+|turn|3
+|
+|t:|1750767027
+|move|p2a: Tatsugiri|Protect|p2a: Tatsugiri
+|-singleturn|p2a: Tatsugiri|Protect
+|move|p2b: Drifblim|Minimize|p2b: Drifblim
+|-boost|p2b: Drifblim|evasion|2
+|move|p1a: Miraidon|Volt Switch|p2a: Tatsugiri
+|-activate|p2a: Tatsugiri|move: Protect
+|move|p1b: Lunala|Moonblast|p2b: Drifblim|[miss]
+|-miss|p1b: Lunala|p2b: Drifblim
+|
+|upkeep
+|turn|4
+|
+|t:|1750767043
+|move|p2b: Drifblim|Baton Pass|p2b: Drifblim
+|
+|t:|1750767045
+|switch|p2b: Dondozo|Dondozo, L50, F|100/100|[from] Baton Pass
+|-activate|p2a: Tatsugiri|ability: Commander|[of] p2b: Dondozo
+|-boost|p2b: Dondozo|atk|2
+|-boost|p2b: Dondozo|spa|2
+|-boost|p2b: Dondozo|spe|2
+|-boost|p2b: Dondozo|def|2
+|-boost|p2b: Dondozo|spd|2
+|move|p1a: Miraidon|Volt Switch|p2b: Dondozo
+|-supereffective|p2b: Dondozo
+|-damage|p2b: Dondozo|40/100
+|
+|t:|1750767056
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tatsugiri|atk|1
+|-unboost|p2b: Dondozo|atk|1
+|move|p1b: Lunala|Moonblast|p2b: Dondozo|[miss]
+|-miss|p1b: Lunala|p2b: Dondozo
+|
+|-heal|p2b: Dondozo|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750767071
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750767092
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|move|p2b: Dondozo|Substitute|p2b: Dondozo
+|-start|p2b: Dondozo|Substitute
+|-damage|p2b: Dondozo|28/100
+|move|p1a: Incineroar|Knock Off|p2b: Dondozo|[miss]
+|-miss|p1a: Incineroar|p2b: Dondozo
+|
+|-heal|p2b: Dondozo|34/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750767112
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|40/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750767128
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|47/100
+|-boost|p2b: Dondozo|atk|1
+|move|p1a: Incineroar|Knock Off|p2b: Dondozo|[miss]
+|-miss|p1a: Incineroar|p2b: Dondozo
+|
+|-heal|p2b: Dondozo|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750767147
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1750767163
+|move|p1b: Miraidon|Electro Drift|p2b: Dondozo|[miss]
+|-miss|p1b: Miraidon|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|-boost|p2b: Dondozo|atk|1
+|move|p1a: Incineroar|Knock Off|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Substitute|[damage]
+|
+|-heal|p2b: Dondozo|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750767180
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|11
+|
+|t:|1750767193
+|move|p1b: Urshifu|Surging Strikes|p2b: Dondozo|[miss]
+|-miss|p1b: Urshifu|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1b: Urshifu
+|-damage|p1b: Urshifu|49/100
+|-boost|p2b: Dondozo|atk|1
+|move|p1a: Incineroar|U-turn|p2b: Dondozo
+|-crit|p2b: Dondozo
+|-end|p2b: Dondozo|Substitute
+|
+|t:|1750767203
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] U-turn
+|
+|-heal|p2b: Dondozo|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750767214
+|move|p1b: Urshifu|Surging Strikes|p2b: Dondozo
+|-resisted|p2b: Dondozo
+|-crit|p2b: Dondozo
+|-damage|p2b: Dondozo|56/100
+|-resisted|p2b: Dondozo
+|-crit|p2b: Dondozo
+|-damage|p2b: Dondozo|46/100
+|-resisted|p2b: Dondozo
+|-crit|p2b: Dondozo
+|-damage|p2b: Dondozo|37/100
+|-hitcount|p2b: Dondozo|3
+|move|p2b: Dondozo|Substitute|p2b: Dondozo
+|-start|p2b: Dondozo|Substitute
+|-damage|p2b: Dondozo|12/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo|[miss]
+|-miss|p1a: Lunala|p2b: Dondozo
+|
+|-heal|p2b: Dondozo|18/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750767233
+|move|p1b: Urshifu|Surging Strikes|p2b: Dondozo|[miss]
+|-miss|p1b: Urshifu|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-boost|p2b: Dondozo|atk|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Substitute|[damage]
+|
+|-heal|p2b: Dondozo|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750767248
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tatsugiri|atk|1
+|-immune|p2b: Dondozo
+|turn|14
+|
+|t:|1750767259
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1b: Incineroar|U-turn|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-heal|p2b: Dondozo|30/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1750767277
+|move|p1b: Incineroar|U-turn|p2b: Dondozo
+|-end|p2b: Dondozo|Substitute
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo
+|-damage|p2b: Dondozo|12/100
+|move|p2b: Dondozo|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Lunala|76/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-heal|p2b: Dondozo|18/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1750767294
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|24/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1750767305
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo|[miss]
+|-miss|p1a: Lunala|p2b: Dondozo
+|move|p2b: Dondozo|Order Up|p1a: Lunala
+|-damage|p1a: Lunala|24/100
+|-boost|p2b: Dondozo|atk|1
+|
+|-heal|p2b: Dondozo|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1750767317
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Lunala|Moongeist Beam|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|37/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|c|☆cauzinxd|Deve ser um monguinho jogando
+|inactive|cauzinxd has 30 seconds left.
+|
+|t:|1750767342
+|move|p2b: Dondozo|Order Up|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|
+|win|Spalding944
+|raw|cauzinxd's rating: 1193 &rarr; <strong>1174</strong><br />(-19 for losing)
+|raw|Spalding944's rating: 1282 &rarr; <strong>1301</strong><br />(+19 for winning)
+|c|☆Spalding944|?
+|l|☆cauzinxd
+|player|p1|
+|c|☆Spalding944|English please?

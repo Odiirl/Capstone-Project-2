@@ -1,0 +1,192 @@
+|j|☆jjkko
+|j|☆raezan
+|t:|1750839056
+|gametype|doubles
+|player|p1|jjkko|169|1551
+|player|p2|raezan|hugh|1585
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Appletun, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Iron Moth, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, F|
+|teampreview|4
+|
+|t:|1750839079
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750839092
+|switch|p1b: Iron Moth|Iron Moth, L50|100/100
+|-terastallize|p2a: Koraidon|Fire
+|-terastallize|p1a: Calyrex|Fire
+|move|p2a: Koraidon|Flame Charge|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|80/100
+|-boost|p2a: Koraidon|spe|1
+|move|p2b: Indeedee|Imprison|p2b: Indeedee
+|-start|p2b: Indeedee|move: Imprison
+|move|p1a: Calyrex|Glacial Lance|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|79/100
+|-damage|p2b: Indeedee|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750839114
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Iron Moth|Meteor Beam||[still]
+|-prepare|p1b: Iron Moth|Meteor Beam
+|-boost|p1b: Iron Moth|spa|1
+|-enditem|p1b: Iron Moth|Power Herb
+|-anim|p1b: Iron Moth|Meteor Beam|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Indeedee|Dazzling Gleam|p1b: Iron Moth|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-resisted|p1b: Iron Moth
+|-damage|p1a: Calyrex|76/100
+|-damage|p1b: Iron Moth|98/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Indeedee|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750839121
+|switch|p2b: Scovillain|Scovillain, L50, F|100/100
+|turn|3
+|
+|t:|1750839143
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p2a: Koraidon|Close Combat|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1a: Calyrex
+|move|p1b: Iron Moth|Acid Spray|p2a: Koraidon
+|-damage|p2a: Koraidon|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750839156
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Scovillain|atk|1
+|turn|4
+|
+|t:|1750839171
+|-end|p1b: Iron Moth|Quark Drive|[silent]
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-damage|p2a: Koraidon|22/100
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|cant|p2a: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750839188
+|switch|p1a: Iron Moth|Iron Moth, L50|98/100
+|-activate|p1a: Iron Moth|ability: Quark Drive
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p2a: Koraidon|Close Combat|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|faint|p1b: Miraidon
+|
+|-weather|none
+|upkeep
+|
+|t:|1750839198
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Scovillain|atk|1
+|turn|6
+|
+|t:|1750839208
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1a: Iron Moth|Flamethrower|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p2b: Scovillain|Endeavor|p1a: Iron Moth
+|-damage|p1a: Iron Moth|83/100
+|move|p1b: Incineroar|Knock Off|p2b: Scovillain
+|-damage|p2b: Scovillain|30/100
+|-enditem|p2b: Scovillain|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1750839223
+|move|p1a: Iron Moth|Flamethrower|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|move|p2b: Scovillain|Endeavor|p1a: Iron Moth
+|-damage|p1a: Iron Moth|24/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Scovillain
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|-damage|p1b: Incineroar|94/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750839227
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|8
+|-message|raezan forfeited.
+|
+|win|jjkko
+|raw|jjkko's rating: 1551 &rarr; <strong>1573</strong><br />(+22 for winning)
+|raw|raezan's rating: 1585 &rarr; <strong>1563</strong><br />(-22 for losing)
+|l|☆raezan
+|player|p2|
+|l|☆jjkko
+|player|p1|

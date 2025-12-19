@@ -1,0 +1,238 @@
+|j|☆dinglustan
+|j|☆It'sJustKen VGC
+|t:|1750733237
+|gametype|doubles
+|player|p1|dinglustan|2|1555
+|player|p2|It'sJustKen VGC|player-go|1647
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dinglustan)
+|inactive|It'sJustKen VGC also wants the timer to be on.
+|inactive|It'sJustKen VGC has 60 seconds left.
+|
+|t:|1750733272
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: @Not Wolfe Glick|Incineroar, L50, M|100/100
+|switch|p2b: Chicken Jockey|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Chicken Jockey|As One
+|-ability|p2b: Chicken Jockey|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2a: @Not Wolfe Glick|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1750733280
+|-terastallize|p2b: Chicken Jockey|Ghost
+|move|p2a: @Not Wolfe Glick|Fake Out|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|88/100
+|cant|p1b: Grimmsnarl|flinch
+|move|p1a: Miraidon|Volt Switch|p2b: Chicken Jockey
+|-damage|p2b: Chicken Jockey|3/100
+|
+|t:|1750733287
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: @Not Wolfe Glick|atk|1
+|-unboost|p2b: Chicken Jockey|atk|1
+|move|p2b: Chicken Jockey|Astral Barrage|p1b: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Grimmsnarl
+|-damage|p1a: Incineroar|68/100
+|-damage|p1b: Grimmsnarl|36/100
+|-damage|p2b: Chicken Jockey|0 fnt|[from] item: Life Orb
+|faint|p2b: Chicken Jockey
+|
+|upkeep
+|
+|t:|1750733293
+|switch|p2b: PTSD Mushroom|Amoonguss, L50, F|100/100
+|turn|2
+|
+|t:|1750733311
+|switch|p2a: Steven He|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: dinglustan|move: Light Screen
+|move|p1a: Incineroar|Flare Blitz|p2b: PTSD Mushroom
+|-supereffective|p2b: PTSD Mushroom
+|-damage|p2b: PTSD Mushroom|28/100
+|-enditem|p2b: PTSD Mushroom|Sitrus Berry|[eat]
+|-heal|p2b: PTSD Mushroom|53/100|[from] item: Sitrus Berry
+|-damage|p1a: Incineroar|43/100|[from] Recoil
+|move|p2b: PTSD Mushroom|Sludge Bomb|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-crit|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|
+|upkeep
+|
+|t:|1750733324
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750733339
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|switch|p2b: @Not Wolfe Glick|Incineroar, L50, M|100/100
+|-ability|p2b: @Not Wolfe Glick|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2a: Steven He|Surging Strikes|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|90/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|79/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|67/100
+|-hitcount|p1a: Miraidon|3
+|move|p1b: Calyrex|Glacial Lance|p2b: @Not Wolfe Glick|[spread] p2a,p2b
+|-resisted|p2a: Steven He
+|-resisted|p2b: @Not Wolfe Glick
+|-damage|p2a: Steven He|83/100
+|-damage|p2b: @Not Wolfe Glick|80/100
+|
+|upkeep
+|turn|4
+|inactive|dinglustan has 30 seconds left.
+|
+|t:|1750733372
+|move|p2b: @Not Wolfe Glick|Fake Out|p1a: Miraidon
+|-damage|p1a: Miraidon|54/100
+|move|p2a: Steven He|Surging Strikes|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|44/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|32/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|20/100
+|-hitcount|p1a: Miraidon|3
+|cant|p1a: Miraidon|flinch
+|move|p1b: Calyrex|Leech Seed|p2a: Steven He|[miss]
+|-miss|p1b: Calyrex|p2a: Steven He
+|
+|upkeep
+|turn|5
+|inactive|It'sJustKen VGC has 30 seconds left.
+|inactive|It'sJustKen VGC has 20 seconds left.
+|inactive|It'sJustKen VGC has 15 seconds left.
+|
+|t:|1750733413
+|switch|p1a: Incineroar|Incineroar, L50, M|43/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Steven He|atk|1
+|-unboost|p2b: @Not Wolfe Glick|atk|1
+|move|p2a: Steven He|Surging Strikes|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|7/100
+|-supereffective|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-hitcount|p1: Incineroar|2
+|move|p2b: @Not Wolfe Glick|Knock Off|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|66/100
+|-enditem|p1b: Calyrex|Leftovers|[from] move: Knock Off|[of] p2b: @Not Wolfe Glick
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750733426
+|switch|p1a: Miraidon|Miraidon, L50|20/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|
+|t:|1750733434
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Calyrex|Leech Seed|p2a: Steven He
+|-start|p2a: Steven He|move: Leech Seed
+|move|p2b: @Not Wolfe Glick|Knock Off|p2a: Steven He
+|-resisted|p2a: Steven He
+|-damage|p2a: Steven He|67/100
+|-enditem|p2a: Steven He|Choice Scarf|[from] move: Knock Off|[of] p2b: @Not Wolfe Glick
+|move|p2a: Steven He|Surging Strikes|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-hitcount|p1: Miraidon|1
+|
+|-damage|p2a: Steven He|54/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|76/100|[silent]
+|upkeep
+|turn|7
+|c|☆dinglustan|whoa that was cool
+|
+|t:|1750733452
+|switch|p2a: PTSD Mushroom|Amoonguss, L50, F|86/100
+|move|p1b: Calyrex|Leech Seed|p2b: @Not Wolfe Glick
+|-start|p2b: @Not Wolfe Glick|move: Leech Seed
+|move|p2b: @Not Wolfe Glick|U-turn|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|58/100
+|
+|t:|1750733455
+|switch|p2b: Steven He|Urshifu-Rapid-Strike, L50, M|54/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1750733460
+|move|p2a: PTSD Mushroom|Sludge Bomb|p1b: Calyrex
+|-damage|p1b: Calyrex|47/100
+|move|p1b: Calyrex|Glacial Lance|p2a: PTSD Mushroom|[spread] p2a,p2b
+|-supereffective|p2a: PTSD Mushroom
+|-resisted|p2b: Steven He
+|-damage|p2a: PTSD Mushroom|28/100
+|-damage|p2b: Steven He|35/100
+|move|p2b: Steven He|U-turn|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|15/100
+|c|☆It'sJustKen VGC|thank you!
+|
+|t:|1750733470
+|switch|p2b: @Not Wolfe Glick|Incineroar, L50, M|80/100|[from] U-turn
+|-ability|p2b: @Not Wolfe Glick|Intimidate|boost
+|-unboost|p1b: Calyrex|atk|1
+|
+|upkeep
+|turn|9
+|-message|dinglustan forfeited.
+|
+|win|It'sJustKen VGC
+|raw|dinglustan's rating: 1555 &rarr; <strong>1540</strong><br />(-15 for losing)
+|raw|It&apos;sJustKen VGC's rating: 1647 &rarr; <strong>1662</strong><br />(+15 for winning)
+|l|☆dinglustan
+|player|p1|

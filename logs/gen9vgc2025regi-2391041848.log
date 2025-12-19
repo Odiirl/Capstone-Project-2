@@ -1,0 +1,162 @@
+|j|☆Funti
+|j|☆TomFelgenhauer
+|t:|1750795866
+|gametype|doubles
+|player|p1|Funti|101|1372
+|player|p2|TomFelgenhauer|170|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Spiritomb, L50, M|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TomFelgenhauer)
+|inactive|Funti has 60 seconds left.
+|
+|t:|1750795937
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Bundle|Iron Bundle, L50|100/100
+|switch|p2a: Spiritomb|Spiritomb, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Bundle|ability: Quark Drive
+|-start|p1b: Iron Bundle|quarkdrivespe
+|-ability|p2a: Spiritomb|Pressure
+|turn|1
+|inactive|Funti has 30 seconds left.
+|
+|t:|1750795964
+|-terastallize|p1a: Miraidon|Fairy
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2a: Spiritomb|Protect|p2a: Spiritomb
+|-singleturn|p2a: Spiritomb|Protect
+|move|p1b: Iron Bundle|Freeze-Dry|p2b: Ursaluna
+|-damage|p2b: Ursaluna|58/100
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Spiritomb|[spread] p2b
+|-activate|p2a: Spiritomb|move: Protect
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Miraidon|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750795979
+|switch|p2b: Necrozma|Necrozma-Dusk-Mane, L50, shiny|100/100
+|turn|2
+|
+|t:|1750795997
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|move|p1b: Iron Bundle|Freeze-Dry|p2b: Necrozma
+|-resisted|p2b: Necrozma
+|-damage|p2b: Necrozma|86/100
+|move|p1a: Miraidon|Electro Drift|p2a: Raichu
+|-activate|p2a: Raichu|ability: Lightning Rod
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|move|p2b: Necrozma|Sunsteel Strike|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750796015
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|3
+|
+|t:|1750796033
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Raichu|atk|1
+|-unboost|p2b: Necrozma|atk|1
+|move|p2a: Raichu|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|95/100
+|move|p1b: Iron Bundle|Encore|p2a: Raichu
+|-start|p2a: Raichu|Encore
+|move|p2b: Necrozma|Sunsteel Strike|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Funti has 30 seconds left.
+|
+|t:|1750796061
+|switch|p2a: Spiritomb|Spiritomb, L50, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p1b: Iron Bundle|Icy Wind|p2a: Spiritomb|[spread] p2a
+|-activate|p2b: Necrozma|move: Protect
+|-damage|p2a: Spiritomb|85/100
+|-unboost|p2a: Spiritomb|spe|1
+|move|p1a: Incineroar|Knock Off|p2b: Necrozma
+|-activate|p2b: Necrozma|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750796083
+|move|p1b: Iron Bundle|Encore|p2b: Necrozma
+|-start|p2b: Necrozma|Encore
+|move|p1a: Incineroar|Knock Off|p2b: Necrozma
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|41/100
+|-enditem|p2b: Necrozma|Weakness Policy
+|-boost|p2b: Necrozma|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Necrozma|spa|2|[from] item: Weakness Policy
+|move|p2b: Necrozma|Protect|p2b: Necrozma
+|-singleturn|p2b: Necrozma|Protect
+|move|p2a: Spiritomb|Trick Room|p2a: Spiritomb
+|-fieldstart|move: Trick Room|[of] p2a: Spiritomb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1b: Iron Bundle|Quark Drive
+|upkeep
+|turn|6
+|inactive|Funti has 30 seconds left.
+|
+|t:|1750796113
+|move|p2b: Necrozma|Protect||[still]
+|-fail|p2b: Necrozma
+|move|p2a: Spiritomb|Shadow Sneak|p1b: Iron Bundle
+|-damage|p1b: Iron Bundle|31/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Necrozma
+|-supereffective|p2b: Necrozma
+|-damage|p2b: Necrozma|0 fnt
+|faint|p2b: Necrozma
+|-damage|p1a: Incineroar|82/100|[from] Recoil
+|move|p1b: Iron Bundle|Freeze-Dry|p2a: Spiritomb
+|-damage|p2a: Spiritomb|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|TomFelgenhauer forfeited.
+|
+|win|Funti
+|raw|Funti's rating: 1372 &rarr; <strong>1393</strong><br />(+21 for winning)
+|raw|TomFelgenhauer's rating: 1383 &rarr; <strong>1362</strong><br />(-21 for losing)
+|l|☆TomFelgenhauer
+|player|p2|
+|l|☆Funti
+|player|p1|

@@ -1,0 +1,182 @@
+|j|☆QQ988
+|j|☆TitusLance
+|t:|1750842021
+|gametype|doubles
+|player|p1|QQ988|170|1234
+|player|p2|TitusLance|hiker-gen4|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TitusLance)
+|
+|t:|1750842050
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|turn|1
+|
+|t:|1750842072
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p2a: Electabuzz|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1750842089
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1a: Lunala|Moongeist Beam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|32/100
+|move|p1b: Incineroar|Taunt|p2a: Electabuzz
+|-start|p2a: Electabuzz|move: Taunt
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750842111
+|-terastallize|p2b: Calyrex|Fire
+|move|p2b: Calyrex|Leech Seed|p1a: Lunala
+|-start|p1a: Lunala|move: Leech Seed
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|77/100
+|-enditem|p2b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Electabuzz|Volt Switch|p1a: Lunala
+|-damage|p1a: Lunala|96/100
+|
+|t:|1750842121
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100|[from] Volt Switch
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|30/100
+|
+|-heal|p1a: Lunala|100/100|[from] item: Leftovers
+|-damage|p1a: Lunala|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|45/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750842138
+|move|p2a: Smeargle|Decorate|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|2
+|-boost|p2b: Calyrex|spa|2
+|move|p2b: Calyrex|Glacial Lance|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Lunala|3/100
+|-damage|p1b: Incineroar|50/100
+|move|p1b: Incineroar|Taunt|p2a: Smeargle
+|-start|p2a: Smeargle|move: Taunt
+|move|p1a: Lunala|Moongeist Beam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-heal|p1a: Lunala|10/100|[from] item: Leftovers
+|-end|p1a: Lunala|move: Taunt
+|upkeep
+|
+|t:|1750842154
+|switch|p2b: Electabuzz|Electabuzz, L50, M|32/100
+|turn|5
+|
+|t:|1750842163
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Incineroar|Parting Shot|p2b: Electabuzz
+|-unboost|p2b: Electabuzz|atk|1
+|-unboost|p2b: Electabuzz|spa|1
+|
+|t:|1750842182
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|
+|-heal|p1a: Lunala|16/100|[from] item: Leftovers
+|-damage|p1a: Lunala|3/100|[from] Leech Seed|[of] p2b: Electabuzz
+|-heal|p2b: Electabuzz|49/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1750842196
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Electabuzz
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|move|p1b: Miraidon|Electro Drift|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|73/100
+|
+|-heal|p2a: Terapagos|79/100|[from] item: Leftovers
+|-heal|p1a: Lunala|10/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750842206
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|turn|7
+|
+|t:|1750842219
+|move|p2b: Smeargle|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|96/100
+|cant|p1b: Miraidon|flinch
+|move|p1a: Lunala|Moongeist Beam|p2a: Terapagos
+|-immune|p2a: Terapagos
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-heal|p1a: Lunala|16/100|[from] item: Leftovers
+|-heal|p2a: Terapagos|85/100|[from] item: Leftovers
+|-damage|p1a: Lunala|3/100|[from] Leech Seed|[of] p2b: Smeargle
+|upkeep
+|turn|8
+|-message|QQ988 forfeited.
+|
+|win|TitusLance
+|raw|QQ988's rating: 1234 &rarr; <strong>1213</strong><br />(-21 for losing)
+|raw|TitusLance's rating: 1295 &rarr; <strong>1316</strong><br />(+21 for winning)
+|l|☆QQ988
+|player|p1|
+|l|☆TitusLance
+|player|p2|

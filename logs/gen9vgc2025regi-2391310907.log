@@ -1,0 +1,186 @@
+|j|☆xcfggvb
+|j|☆Memlonnn
+|t:|1750833529
+|gametype|doubles
+|player|p1|xcfggvb|dawn|1194
+|player|p2|Memlonnn|shauntal|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Memlonnn)
+|inactive|xcfggvb also wants the timer to be on.
+Memlonnn has agreed to open team sheets.
+|inactive|xcfggvb has 60 seconds left.
+|
+|t:|1750833563
+|start
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Ballin|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Ado|Chandelure, L50, M, shiny|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|-ability|p2a: Ballin|Intimidate|boost
+|-unboost|p1a: Chi-Yu|atk|1
+|-unboost|p1b: Terapagos|atk|1
+|turn|1
+|
+|t:|1750833587
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2a: Ballin|Fake Out|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|84/100
+|cant|p1a: Chi-Yu|flinch
+|move|p1b: Terapagos|Tera Starstorm|p2b: Ado|[spread] p2a,p2b
+|-damage|p2a: Ballin|23/100
+|-damage|p2b: Ado|17/100
+|move|p2b: Ado|Trick Room|p2b: Ado
+|-fieldstart|move: Trick Room|[of] p2b: Ado
+|-enditem|p2b: Ado|Room Service
+|-unboost|p2b: Ado|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|2
+|
+|t:|1750833611
+|move|p2b: Ado|Flamethrower|p1b: Terapagos
+|-damage|p1b: Terapagos|64/100
+|move|p2a: Ballin|Knock Off|p1b: Terapagos
+|-damage|p1b: Terapagos|37/100
+|-enditem|p1b: Terapagos|Choice Specs|[from] move: Knock Off|[of] p2a: Ballin
+|move|p1b: Terapagos|Tera Starstorm|p2a: Ballin|[spread] p2a,p2b
+|-damage|p2a: Ballin|0 fnt
+|-damage|p2b: Ado|0 fnt
+|faint|p2a: Ballin
+|faint|p2b: Ado
+|move|p1a: Chi-Yu|Will-O-Wisp|p2: Ballin|[notarget]
+|-fail|p1a: Chi-Yu
+|
+|upkeep
+|
+|t:|1750833626
+|switch|p2a: Poke|Calyrex-Ice, L50|100/100
+|switch|p2b: Waterslide|Kyogre, L50, shiny|100/100
+|-ability|p2a: Poke|As One
+|-ability|p2a: Poke|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Waterslide
+|turn|3
+|
+|t:|1750833650
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p2a: Poke|High Horsepower|p1a: Chi-Yu
+|-supereffective|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|0 fnt
+|faint|p1a: Chi-Yu
+|-ability|p2a: Poke|Chilling Neigh|boost
+|-boost|p2a: Poke|atk|1
+|-damage|p2a: Poke|91/100|[from] item: Life Orb
+|move|p2b: Waterslide|Origin Pulse|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750833666
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|4
+|
+|t:|1750833678
+|move|p1a: Amoonguss|Spore|p2a: Poke
+|-status|p2a: Poke|slp|[from] move: Spore
+|cant|p2a: Poke|slp
+|move|p2b: Waterslide|Origin Pulse|p1a: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-resisted|p1b: Urshifu
+|-damage|p1a: Amoonguss|68/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750833691
+|switch|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar|37/100
+|turn|5
+|
+|t:|1750833700
+|move|p1a: Amoonguss|Spore|p2b: Waterslide
+|-status|p2b: Waterslide|slp|[from] move: Spore
+|cant|p2a: Poke|slp
+|move|p1b: Terapagos|Tera Starstorm|p2a: Poke|[spread] p2a,p2b
+|-damage|p2a: Poke|64/100 slp
+|-damage|p2b: Waterslide|72/100 slp
+|cant|p2b: Waterslide|slp
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750833718
+|cant|p2b: Waterslide|slp
+|move|p1b: Terapagos|Tera Starstorm|p2a: Poke|[spread] p2a,p2b
+|-damage|p2a: Poke|38/100 slp
+|-damage|p2b: Waterslide|40/100 slp
+|cant|p2a: Poke|slp
+|move|p1a: Amoonguss|Pollen Puff|p1b: Terapagos
+|-heal|p1b: Terapagos|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750833739
+|cant|p2b: Waterslide|slp
+|move|p1b: Terapagos|Tera Starstorm|p2a: Poke|[spread] p2a,p2b
+|-damage|p2a: Poke|10/100 slp
+|-damage|p2b: Waterslide|11/100 slp
+|-curestatus|p2a: Poke|slp|[msg]
+|move|p2a: Poke|Glacial Lance|p1b: Terapagos|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Terapagos|15/100
+|faint|p1a: Amoonguss
+|-ability|p2a: Poke|Chilling Neigh|boost
+|-boost|p2a: Poke|atk|1
+|-damage|p2a: Poke|0 fnt|[from] item: Life Orb
+|faint|p2a: Poke
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1750833758
+|-curestatus|p2b: Waterslide|slp|[msg]
+|move|p2b: Waterslide|Origin Pulse|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|
+|win|Memlonnn
+|raw|xcfggvb's rating: 1194 &rarr; <strong>1164</strong><br />(-30 for losing)
+|raw|Memlonnn's rating: 1127 &rarr; <strong>1157</strong><br />(+30 for winning)
+|l|☆xcfggvb
+|player|p1|

@@ -1,0 +1,187 @@
+|j|☆pnernas
+|j|☆mrshtark
+|t:|1750742268
+|gametype|doubles
+|player|p1|pnernas|lucas-gen4pt|1189
+|player|p2|mrshtark|101|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Meowscarada, L50, F|
+|teampreview|4
+|
+|t:|1750742323
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750742350
+|move|p1b: Incineroar|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Psychic Terrain
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: pnernas|move: Light Screen
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750742381
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Psychic Terrain
+|move|p2a: Calyrex|Glacial Lance|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Incineroar|72/100
+|faint|p1a: Grimmsnarl
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Incineroar|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|56/100
+|-enditem|p2a: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750742400
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|turn|3
+|
+|t:|1750742436
+|-terastallize|p2a: Calyrex|Normal
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-damage|p2a: Calyrex|40/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|faint|p1b: Incineroar
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750742464
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750742514
+|-terastallize|p1a: Flutter Mane|Fairy
+|move|p2b: Indeedee|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Calyrex|Throat Chop|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Flutter Mane|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mrshtark)
+|
+|t:|1750742531
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|5
+|
+|t:|1750742541
+|move|p2b: Indeedee|Helping Hand|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: Flutter Mane
+|-activate|p1a: Flutter Mane|move: Protect
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750742562
+|move|p2b: Indeedee|Helping Hand|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|31/100
+|move|p2a: Hatterene|Expanding Force|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|51/100
+|-damage|p2a: Hatterene|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|inactive|mrshtark has 30 seconds left.
+|
+|t:|1750742591
+|move|p2a: Hatterene|Protect|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Protect
+|move|p1a: Flutter Mane|Shadow Ball|p2a: Hatterene
+|-activate|p2a: Hatterene|move: Protect
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|8
+|
+|t:|1750742610
+|move|p2b: Indeedee|Helping Hand|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: Flutter Mane
+|-activate|p1a: Flutter Mane|move: Protect
+|
+|-sideend|p1: pnernas|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750742622
+|move|p2b: Indeedee|Helping Hand|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Hatterene|Expanding Force|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|-damage|p2a: Hatterene|11/100|[from] item: Life Orb
+|
+|win|mrshtark
+|raw|pnernas's rating: 1189 &rarr; <strong>1159</strong><br />(-30 for losing)
+|raw|mrshtark's rating: 1123 &rarr; <strong>1153</strong><br />(+30 for winning)
+|l|☆pnernas
+|player|p1|
+|l|☆mrshtark
+|player|p2|

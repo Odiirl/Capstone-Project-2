@@ -1,0 +1,320 @@
+|j|☆jhoolie
+|j|☆testlapras
+|t:|1750831521
+|gametype|doubles
+|player|p1|jhoolie|ingo-hisui|1324
+|player|p2|testlapras|169|1278
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Giratina, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Scream Tail, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testlapras)
+|c|☆jhoolie|glhf
+|
+|t:|1750831550
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Giratina|Giratina, L50|100/100
+|switch|p2b: Araquanid|Araquanid, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Giratina|Pressure
+|turn|1
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750831577
+|move|p1b: Koraidon|Flare Blitz|p2b: Araquanid
+|-damage|p2b: Araquanid|57/100
+|-damage|p1b: Koraidon|89/100|[from] Recoil
+|move|p1a: Whimsicott|Moonblast|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|65/100
+|move|p2a: Giratina|Breaking Swipe|p1a: Whimsicott|[spread] p1b
+|-immune|p1a: Whimsicott
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|61/100
+|move|p2b: Araquanid|Infestation|p1a: Whimsicott
+|-damage|p1a: Whimsicott|94/100
+|-activate|p1a: Whimsicott|move: Infestation|[of] p2b: Araquanid
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Giratina|72/100|[from] item: Leftovers
+|-damage|p1a: Whimsicott|81/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1750831595
+|move|p1a: Whimsicott|Encore|p2b: Araquanid
+|-start|p2b: Araquanid|Encore
+|move|p1b: Koraidon|Flare Blitz|p2b: Araquanid
+|-damage|p2b: Araquanid|18/100
+|-enditem|p2b: Araquanid|Sitrus Berry|[eat]
+|-heal|p2b: Araquanid|43/100|[from] item: Sitrus Berry
+|-damage|p1b: Koraidon|51/100|[from] Recoil
+|move|p2a: Giratina|Shadow Force||[still]
+|-prepare|p2a: Giratina|Shadow Force
+|move|p2b: Araquanid|Infestation|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|49/100
+|-activate|p1b: Koraidon|move: Infestation|[of] p2b: Araquanid
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Giratina|78/100|[from] item: Leftovers
+|-damage|p1b: Koraidon|37/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Whimsicott|69/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750831630
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-activate|p2b: Scream Tail|ability: Protosynthesis
+|-start|p2b: Scream Tail|protosynthesisspe
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: jhoolie|move: Tailwind
+|move|p1b: Koraidon|Flare Blitz|p2b: Scream Tail
+|-damage|p2b: Scream Tail|41/100
+|-damage|p1b: Koraidon|12/100|[from] Recoil
+|move|p2a: Giratina|Shadow Force|p1b: Koraidon|[from] lockedmove
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Giratina|84/100|[from] item: Leftovers
+|-end|p1a: Whimsicott|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1750831647
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1750831668
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Whimsicott|Moonblast|p2a: Eternatus
+|-damage|p2a: Eternatus|79/100
+|move|p2b: Scream Tail|Encore|p1b: Indeedee
+|-start|p1b: Indeedee|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Eternatus|85/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1750831683
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Scream Tail|Disable|p1b: Indeedee
+|-start|p1b: Indeedee|Disable|Follow Me
+|move|p2a: Eternatus|Cosmic Power|p2a: Eternatus
+|-boost|p2a: Eternatus|def|1
+|-boost|p2a: Eternatus|spd|1
+|
+|-weather|none
+|-end|p2b: Scream Tail|Protosynthesis
+|-heal|p2a: Eternatus|92/100|[from] item: Black Sludge
+|upkeep
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|turn|6
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750831714
+|switch|p1b: Whimsicott|Whimsicott, L50, F, shiny|69/100
+|move|p1a: Calyrex|Expanding Force|p2b: Scream Tail|[spread] p2a,p2b
+|-supereffective|p2a: Eternatus
+|-resisted|p2b: Scream Tail
+|-damage|p2a: Eternatus|19/100
+|-damage|p2b: Scream Tail|10/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2b: Scream Tail|Perish Song|p2b: Scream Tail
+|-start|p1a: Calyrex|perish3|[silent]
+|-start|p1b: Whimsicott|perish3|[silent]
+|-start|p2a: Eternatus|perish3|[silent]
+|-start|p2b: Scream Tail|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Eternatus|Fire Spin|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|29/100
+|-activate|p1b: Whimsicott|move: Fire Spin|[of] p2a: Eternatus
+|
+|-heal|p2a: Eternatus|25/100|[from] item: Black Sludge
+|-damage|p1b: Whimsicott|17/100|[from] move: Fire Spin|[partiallytrapped]
+|-start|p1a: Calyrex|perish3
+|-start|p1b: Whimsicott|perish3
+|-start|p2b: Scream Tail|perish3
+|-start|p2a: Eternatus|perish3
+|-sideend|p1: jhoolie|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750831731
+|move|p2b: Scream Tail|Protect|p2b: Scream Tail
+|-singleturn|p2b: Scream Tail|Protect
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: jhoolie|move: Tailwind
+|move|p1a: Calyrex|Expanding Force|p2a: Eternatus|[spread] 
+|-activate|p2a: Eternatus|move: Protect
+|-activate|p2b: Scream Tail|move: Protect
+|
+|-heal|p2a: Eternatus|32/100|[from] item: Black Sludge
+|-damage|p1b: Whimsicott|4/100|[from] move: Fire Spin|[partiallytrapped]
+|-start|p1a: Calyrex|perish2
+|-start|p1b: Whimsicott|perish2
+|-start|p2b: Scream Tail|perish2
+|-start|p2a: Eternatus|perish2
+|upkeep
+|turn|8
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750831765
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|switch|p2b: Araquanid|Araquanid, L50, M|43/100
+|switch|p2a: Giratina|Giratina, L50|84/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Calyrex|Expanding Force|p2a: Giratina|[spread] p2a,p2b
+|-crit|p2b: Araquanid
+|-damage|p2a: Giratina|40/100
+|-damage|p2b: Araquanid|0 fnt
+|faint|p2b: Araquanid
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|82/100|[from] item: Life Orb
+|move|p1b: Whimsicott|Moonblast|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|7/100
+|
+|-heal|p2a: Giratina|13/100|[from] item: Leftovers
+|-end|p1b: Whimsicott|Fire Spin|[partiallytrapped]|[silent]
+|-start|p1a: Calyrex|perish1
+|-start|p1b: Whimsicott|perish1
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750831786
+|switch|p2b: Scream Tail|Scream Tail, L50|10/100
+|turn|9
+|
+|t:|1750831816
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Whimsicott|Moonblast|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|move|p2a: Giratina|Rest|p2a: Giratina
+|-status|p2a: Giratina|slp|[from] move: Rest
+|-heal|p2a: Giratina|100/100 slp|[silent]
+|
+|-start|p1b: Whimsicott|perish0
+|faint|p1b: Whimsicott
+|upkeep
+|
+|t:|1750831827
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|82/100
+|switch|p2b: Eternatus|Eternatus, L50|32/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Eternatus|Pressure
+|turn|10
+|inactive|jhoolie has 30 seconds left.
+|
+|t:|1750831855
+|-terastallize|p2a: Giratina|Steel
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: Calyrex|Expanding Force|p2a: Giratina|[spread] p2a
+|-activate|p2b: Eternatus|move: Protect
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|70/100 slp
+|-damage|p1b: Calyrex|72/100|[from] item: Life Orb
+|cant|p2a: Giratina|slp
+|
+|-heal|p2b: Eternatus|38/100|[from] item: Black Sludge
+|-heal|p2a: Giratina|76/100 slp|[from] item: Leftovers
+|-sideend|p1: jhoolie|move: Tailwind
+|upkeep
+|turn|11
+|
+|t:|1750831871
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Eternatus|Protect|p2b: Eternatus
+|-singleturn|p2b: Eternatus|Protect
+|move|p1b: Calyrex|Astral Barrage|p2a: Giratina|[spread] p2a
+|-activate|p2b: Eternatus|move: Protect
+|-damage|p2a: Giratina|27/100 slp
+|-damage|p1b: Calyrex|63/100|[from] item: Life Orb
+|cant|p2a: Giratina|slp
+|
+|-heal|p2b: Eternatus|44/100|[from] item: Black Sludge
+|-heal|p2a: Giratina|33/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|testlapras has 30 seconds left.
+|
+|t:|1750831902
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|-curestatus|p2a: Giratina|slp|[msg]
+|move|p2a: Giratina|Protect|p2a: Giratina
+|-singleturn|p2a: Giratina|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Eternatus|[spread] p2b
+|-activate|p2a: Giratina|move: Protect
+|-damage|p2b: Eternatus|0 fnt
+|faint|p2b: Eternatus
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|-damage|p1b: Calyrex|53/100|[from] item: Life Orb
+|
+|-heal|p2a: Giratina|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆jhoolie|gg wp
+|
+|t:|1750831927
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Calyrex|Astral Barrage|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|-damage|p1b: Calyrex|44/100|[from] item: Life Orb
+|
+|win|jhoolie
+|raw|jhoolie's rating: 1324 &rarr; <strong>1341</strong><br />(+17 for winning)
+|raw|testlapras's rating: 1278 &rarr; <strong>1256</strong><br />(-22 for losing)
+|l|☆jhoolie
+|player|p1|
+|l|☆testlapras
+|player|p2|

@@ -1,0 +1,151 @@
+|j|☆assaultvestmiraid
+|j|☆johnkharkiv
+|t:|1750763255
+|gametype|doubles
+|player|p1|assaultvestmiraid|169|1035
+|player|p2|johnkharkiv|swimmerf-gen4dp|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Clawitzer, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Electivire, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by assaultvestmiraid)
+|
+|t:|1750763279
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M, shiny|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|1
+|
+|t:|1750763295
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p1b: Urshifu|Aqua Jet|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|84/100
+|-enditem|p1a: Kyogre|Absorb Bulb
+|-boost|p1a: Kyogre|spa|1|[from] item: Absorb Bulb
+|move|p2a: Annihilape|Final Gambit|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2b: Miraidon|Volt Switch|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-crit|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-damage|p2b: Miraidon|91/100|[from] item: Life Orb
+|
+|t:|1750763311
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100|[from] Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750763318
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|2
+|
+|t:|1750763331
+|-terastallize|p2a: Annihilape|Grass
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Annihilape|Final Gambit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Kyogre
+|move|p2b: Indeedee|Shadow Ball|p1b: Amoonguss
+|-damage|p1b: Amoonguss|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750763344
+|switch|p2a: Miraidon|Miraidon, L50|91/100
+|switch|p1a: Dialga|Dialga, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|3
+|
+|t:|1750763358
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Miraidon|Discharge|p1a: Dialga|[spread] p2b,p1a,p1b
+|-resisted|p1a: Dialga
+|-resisted|p1b: Amoonguss
+|-damage|p2b: Indeedee|32/100
+|-damage|p1a: Dialga|64/100
+|-damage|p1b: Amoonguss|48/100
+|-status|p1a: Dialga|par
+|-status|p1b: Amoonguss|par
+|-damage|p2a: Miraidon|82/100|[from] item: Life Orb
+|move|p1a: Dialga|Draco Meteor|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Dialga|spa|2
+|faint|p2b: Indeedee
+|-enditem|p1a: Dialga|White Herb
+|-clearnegativeboost|p1a: Dialga|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750763372
+|switch|p2b: Ho-Oh|Ho-Oh, L50, shiny|100/100
+|turn|4
+|
+|t:|1750763386
+|move|p2a: Miraidon|Protect|p2a: Miraidon
+|-singleturn|p2a: Miraidon|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Ho-Oh|Earthquake|p1b: Amoonguss|[spread] p1a,p1b
+|-activate|p2a: Miraidon|move: Protect
+|-supereffective|p1a: Dialga
+|-damage|p1a: Dialga|12/100 par
+|-damage|p1b: Amoonguss|26/100 par
+|move|p1a: Dialga|Draco Meteor|p2a: Miraidon
+|-activate|p2a: Miraidon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750763409
+|move|p2a: Miraidon|Draco Meteor|p1b: Amoonguss|[miss]
+|-miss|p2a: Miraidon|p1b: Amoonguss
+|move|p2b: Ho-Oh|Brave Bird|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|-damage|p2b: Ho-Oh|97/100|[from] Recoil
+|move|p1b: Amoonguss|Pollen Puff|p1: Dialga|[notarget]
+|-fail|p1b: Amoonguss
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|assaultvestmiraid forfeited.
+|
+|win|johnkharkiv
+|raw|assaultvestmiraid's rating: 1035 &rarr; <strong>1022</strong><br />(-13 for losing)
+|raw|johnkharkiv's rating: 1087 &rarr; <strong>1110</strong><br />(+23 for winning)

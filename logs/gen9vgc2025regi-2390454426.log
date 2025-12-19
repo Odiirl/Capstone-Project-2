@@ -1,0 +1,316 @@
+|j|☆Purezenith
+|j|☆acerorosso
+|t:|1750715188
+|gametype|doubles
+|player|p1|Purezenith|169|1061
+|player|p2|acerorosso|101|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Basculegion-F, L50, F|
+|poke|p1|Clodsire, L50, F|
+|poke|p1|Cresselia, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Raikou, L50|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by acerorosso)
+|inactive|Purezenith has 60 seconds left.
+|
+|t:|1750715242
+|start
+|switch|p1a: Clodsire|Clodsire, L50, F, shiny|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750715264
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Lilligant|Leaf Blade|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p1a: Clodsire|Toxic|p2b: Lilligant
+|-status|p2b: Lilligant|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Lilligant|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|acerorosso has 30 seconds left.
+|
+|t:|1750715293
+|switch|p1b: Cresselia|Cresselia, L50, F|100/100
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2b: Lilligant|Ice Spinner|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|move|p2a: Koraidon|U-turn|p1b: Cresselia
+|-supereffective|p1b: Cresselia
+|-damage|p1b: Cresselia|56/100
+|
+|t:|1750715304
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Lilligant|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Purezenith has 30 seconds left.
+|
+|t:|1750715333
+|switch|p2b: Raikou|Raikou, L50|100/100
+|-terastallize|p1a: Clodsire|Water
+|move|p2a: Whimsicott|Encore|p1a: Clodsire
+|-start|p1a: Clodsire|Encore
+|move|p1a: Clodsire|Protect||[still]
+|-fail|p1a: Clodsire
+|move|p1b: Cresselia|Trick Room|p1b: Cresselia
+|-fieldstart|move: Trick Room|[of] p1b: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Purezenith has 30 seconds left.
+|inactive|Purezenith has 20 seconds left.
+|
+|t:|1750715371
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Whimsicott|Encore|p1b: Cresselia
+|-start|p1b: Cresselia|Encore
+|move|p1b: Cresselia|Trick Room|p1b: Cresselia
+|-fieldend|move: Trick Room
+|move|p2b: Raikou|Volt Switch|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750715389
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Whimsicott|Taunt|p1b: Cresselia
+|-start|p1b: Cresselia|move: Taunt
+|move|p2b: Raikou|Calm Mind|p2b: Raikou
+|-boost|p2b: Raikou|spa|1
+|-boost|p2b: Raikou|spd|1
+|cant|p1b: Cresselia|move: Taunt|Trick Room
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750715407
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Whimsicott|Taunt|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Raikou|Snarl|p1a: Calyrex|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-damage|p1b: Kyogre|88/100
+|-unboost|p1b: Kyogre|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|Purezenith has 30 seconds left.
+|
+|t:|1750715432
+|move|p2a: Whimsicott|Encore|p1a: Calyrex
+|-start|p1a: Calyrex|Encore
+|move|p2b: Raikou|Volt Switch|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|13/100
+|
+|t:|1750715438
+|switch|p2b: Koraidon|Koraidon, L50|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Kyogre|Origin Pulse|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-resisted|p2b: Koraidon
+|-damage|p2a: Whimsicott|86/100
+|-damage|p2b: Koraidon|91/100
+|move|p1a: Calyrex|Protect||[still]
+|-fail|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750715457
+|switch|p1b: Cresselia|Cresselia, L50, F|56/100
+|switch|p1a: Clodsire|Clodsire, L50, F, shiny, tera:Water|100/100
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p2b: Koraidon|U-turn|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100
+|
+|t:|1750715467
+|switch|p2b: Raikou|Raikou, L50|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1750715482
+|move|p2a: Whimsicott|Taunt|p1b: Cresselia
+|-start|p1b: Cresselia|move: Taunt
+|move|p2b: Raikou|Volt Switch|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|33/100
+|
+|t:|1750715489
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|82/100 tox|[from] Volt Switch
+|move|p1b: Cresselia|Ice Beam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|43/100
+|move|p1a: Clodsire|Toxic|p2a: Whimsicott
+|-status|p2a: Whimsicott|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|39/100|[from] item: Leftovers
+|-damage|p2b: Lilligant|76/100 tox|[from] psn
+|-damage|p2a: Whimsicott|37/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|acerorosso has 30 seconds left.
+|
+|t:|1750715514
+|switch|p1b: Kyogre|Kyogre, L50|13/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Whimsicott|Encore|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|move|p2b: Lilligant|Leaf Blade|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2b: Lilligant|66/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|45/100|[from] item: Leftovers
+|-damage|p2b: Lilligant|54/100 tox|[from] psn
+|-damage|p2a: Whimsicott|25/100 tox|[from] psn
+|upkeep
+|inactive|Purezenith has 30 seconds left.
+|
+|t:|1750715543
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|11
+|
+|t:|1750715552
+|switch|p1a: Cresselia|Cresselia, L50, F|56/100
+|move|p2a: Whimsicott|Taunt|p1b: Calyrex
+|-start|p1b: Calyrex|move: Taunt
+|move|p2b: Lilligant|Leaf Blade|p1a: Cresselia
+|-damage|p1a: Cresselia|21/100
+|-damage|p2b: Lilligant|44/100 tox|[from] item: Life Orb
+|cant|p1b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Lilligant|25/100 tox|[from] psn
+|-damage|p2a: Whimsicott|7/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Purezenith has 30 seconds left.
+|inactive|acerorosso has 30 seconds left.
+|
+|t:|1750715583
+|move|p2a: Whimsicott|Taunt|p1a: Cresselia
+|-start|p1a: Cresselia|move: Taunt
+|move|p2b: Lilligant|Ice Spinner|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|-damage|p2b: Lilligant|16/100 tox|[from] item: Life Orb
+|move|p1b: Calyrex|Glacial Lance|p2b: Lilligant|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-supereffective|p2b: Lilligant
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2a: Whimsicott
+|faint|p2b: Lilligant
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750715597
+|switch|p2b: Raikou|Raikou, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|91/100
+|switch|p1a: Clodsire|Clodsire, L50, F, shiny, tera:Water|45/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|13
+|c|☆acerorosso|GG
+|
+|t:|1750715620
+|-terastallize|p2a: Koraidon|Fire
+|move|p2a: Koraidon|Flare Blitz|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2a: Koraidon|52/100|[from] Recoil
+|move|p2b: Raikou|Weather Ball|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|move|p1a: Clodsire|Toxic|p2a: Koraidon
+|-status|p2a: Koraidon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|37/100|[from] item: Leftovers
+|-damage|p2a: Koraidon|46/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1750715636
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Koraidon|Collision Course|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|move|p2b: Raikou|Volt Switch|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|43/100|[from] item: Leftovers
+|-damage|p2a: Koraidon|35/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1750715650
+|move|p2a: Koraidon|Collision Course|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|win|acerorosso
+|raw|Purezenith's rating: 1061 &rarr; <strong>1045</strong><br />(-16 for losing)
+|raw|acerorosso's rating: 1112 &rarr; <strong>1133</strong><br />(+21 for winning)
+|l|☆Purezenith
+|player|p1|
+|l|☆acerorosso
+|player|p2|

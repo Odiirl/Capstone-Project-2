@@ -1,0 +1,192 @@
+|j|☆gu7rixx
+|j|☆little haemorrhoid
+|t:|1750834414
+|gametype|doubles
+|player|p1|gu7rixx|hoopster|1247
+|player|p2|little haemorrhoid|169|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Drifblim, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by little haemorrhoid)
+|
+|t:|1750834446
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Drifblim|Drifblim, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|
+|t:|1750834469
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Drifblim|Electric Seed
+|-boost|p2a: Drifblim|def|1|[from] item: Electric Seed
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: little haemorrhoid|move: Tailwind
+|move|p1b: Kyogre|Water Spout|p2b: Miraidon|[spread] p2a,p2b
+|-resisted|p2b: Miraidon
+|-damage|p2a: Drifblim|2/100
+|-damage|p2b: Miraidon|47/100
+|move|p1a: Amoonguss|Spore|p2b: Miraidon
+|-activate|p2b: Miraidon|move: Electric Terrain
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750834487
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Drifblim|Destiny Bond|p2a: Drifblim
+|-singlemove|p2a: Drifblim|Destiny Bond
+|move|p2b: Miraidon|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|63/100
+|
+|t:|1750834495
+|switch|p2b: Koraidon|Koraidon, L50|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Kyogre|Water Spout|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Drifblim|0 fnt
+|-damage|p2b: Koraidon|82/100
+|faint|p2a: Drifblim
+|-activate|p2a: Drifblim|move: Destiny Bond
+|faint|p1b: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750834513
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Smeargle|atk|1
+|turn|3
+|
+|t:|1750834529
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Smeargle|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|78/100
+|cant|p2b: Koraidon|flinch
+|move|p2a: Incineroar|Flare Blitz|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|35/100
+|-damage|p2a: Incineroar|79/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|41/100|[from] item: Leftovers
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spd|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|4
+|inactive|little haemorrhoid has 30 seconds left.
+|inactive|little haemorrhoid has 20 seconds left.
+|
+|t:|1750834565
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Koraidon|Flame Charge|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|-boost|p2b: Koraidon|spe|1
+|move|p2a: Incineroar|Flare Blitz|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p1b: Smeargle|Decorate|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|2
+|-boost|p1a: Calyrex|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Calyrex|47/100|[from] item: Leftovers
+|-sideend|p2: little haemorrhoid|move: Tailwind
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|5
+|inactive|gu7rixx has 30 seconds left.
+|inactive|gu7rixx has 20 seconds left.
+|
+|t:|1750834601
+|-terastallize|p1a: Calyrex|Fairy
+|move|p1b: Smeargle|Follow Me|p1b: Smeargle
+|-singleturn|p1b: Smeargle|move: Follow Me
+|move|p2b: Koraidon|Flare Blitz|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|-damage|p2b: Koraidon|78/100|[from] Recoil
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|37/100
+|-enditem|p1a: Calyrex|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Incineroar|47/100
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750834622
+|switch|p2b: Miraidon|Miraidon, L50|47/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|96/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|6
+|
+|t:|1750834636
+|-terastallize|p2b: Miraidon|Fairy
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Miraidon|Draco Meteor|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Amoonguss
+|move|p2a: Incineroar|Flare Blitz|p1a: Calyrex
+|-damage|p1a: Calyrex|5/100
+|-damage|p2a: Incineroar|36/100|[from] Recoil
+|move|p1a: Calyrex|Glacial Lance|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Miraidon
+|
+|win|gu7rixx
+|raw|gu7rixx's rating: 1247 &rarr; <strong>1277</strong><br />(+30 for winning)
+|raw|little haemorrhoid's rating: 1311 &rarr; <strong>1287</strong><br />(-24 for losing)
+|l|☆gu7rixx
+|player|p1|
+|l|☆little haemorrhoid
+|player|p2|

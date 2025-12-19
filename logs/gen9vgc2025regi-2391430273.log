@@ -1,0 +1,221 @@
+|j|☆Blu94
+|j|☆KogaAF1219
+|t:|1750855027
+|gametype|doubles
+|player|p1|Blu94|266|1330
+|player|p2|KogaAF1219|koga|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Okidogi, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Illumise, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Gastrodon, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+Blu94 rejected open team sheets.
+|
+|t:|1750855050
+|start
+|switch|p1a: Okidogi|Okidogi, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Illumise|Illumise, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750855069
+|-terastallize|p2b: Calyrex|Ground
+|-terastallize|p1a: Okidogi|Dark
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: Blu94|move: Tailwind
+|move|p2a: Illumise|Light Screen|p2a: Illumise
+|-sidestart|p2: KogaAF1219|move: Light Screen
+|move|p2b: Calyrex|Tera Blast|p1a: Okidogi|[anim] Tera Blast Ground
+|-damage|p1a: Okidogi|54/100
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Okidogi|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|34/100
+|-enditem|p2b: Calyrex|Life Orb|[from] move: Knock Off|[of] p1a: Okidogi
+|
+|upkeep
+|turn|2
+|
+|t:|1750855092
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Whimsicott|Encore|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Okidogi|Poison Jab|p2a: Illumise
+|-damage|p2a: Illumise|46/100
+|move|p2a: Illumise|Infestation|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|47/100
+|-activate|p1a: Okidogi|move: Infestation|[of] p2a: Illumise
+|
+|-damage|p1a: Okidogi|35/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1750855114
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: Blu94|move: Light Screen
+|move|p2a: Illumise|Tailwind|p2a: Illumise
+|-sidestart|p2: KogaAF1219|move: Tailwind
+|move|p1a: Okidogi|Drain Punch|p2a: Illumise
+|-resisted|p2a: Illumise
+|-damage|p2a: Illumise|20/100
+|-heal|p1a: Okidogi|46/100|[from] drain|[of] p2a: Illumise
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Okidogi|33/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KogaAF1219)
+|
+|t:|1750855154
+|switch|p2a: Calyrex|Calyrex-Shadow, L50, tera:Ground|34/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Whimsicott|Encore||[still]
+|-fail|p1b: Whimsicott
+|move|p2b: Kyogre|Water Spout|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Okidogi|0 fnt
+|-damage|p1b: Whimsicott|54/100
+|faint|p1a: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Blu94|move: Tailwind
+|upkeep
+|
+|t:|1750855175
+|switch|p1a: Urshifu|Urshifu, L50, F|100/100
+|turn|5
+|
+|t:|1750855186
+|switch|p2a: Gastrodon|Gastrodon, L50, F|100/100
+|move|p1a: Urshifu|Detect|p1a: Urshifu
+|-singleturn|p1a: Urshifu|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: Blu94|move: Tailwind
+|move|p2b: Kyogre|Water Spout|p1b: Whimsicott|[spread] p1b
+|-activate|p1a: Urshifu|move: Protect
+|-resisted|p1b: Whimsicott
+|-damage|p1b: Whimsicott|9/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: KogaAF1219|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1750855210
+|move|p1a: Urshifu|Sucker Punch|p2b: Kyogre
+|-damage|p2b: Kyogre|47/100
+|move|p1b: Whimsicott|Encore|p2b: Kyogre
+|-start|p2b: Kyogre|Encore
+|move|p2b: Kyogre|Water Spout|p1a: Urshifu|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Urshifu|51/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p2a: Gastrodon|Ice Beam|p1a: Urshifu
+|-damage|p1a: Urshifu|32/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: KogaAF1219|move: Tailwind
+|upkeep
+|
+|t:|1750855222
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|inactive|Blu94 has 30 seconds left.
+|inactive|Blu94 has 20 seconds left.
+|
+|t:|1750855257
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Gastrodon|[spread] p2a,p2b
+|-damage|p2a: Gastrodon|63/100
+|-damage|p2b: Kyogre|11/100
+|move|p1a: Urshifu|Wicked Blow|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|4/100
+|move|p2b: Kyogre|Water Spout|p1b: Miraidon|[spread] p1a,p1b
+|-resisted|p1b: Miraidon
+|-damage|p1a: Urshifu|20/100
+|-damage|p1b: Miraidon|97/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|none
+|-heal|p2a: Gastrodon|10/100|[from] item: Leftovers
+|-sideend|p1: Blu94|move: Light Screen
+|upkeep
+|turn|8
+|
+|t:|1750855278
+|switch|p2b: Illumise|Illumise, L50, F|20/100
+|move|p2a: Gastrodon|Protect|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Protect
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Gastrodon|[spread] p2b
+|-activate|p2a: Gastrodon|move: Protect
+|-damage|p2b: Illumise|0 fnt
+|faint|p2b: Illumise
+|
+|-heal|p2a: Gastrodon|16/100|[from] item: Leftovers
+|-sideend|p1: Blu94|move: Tailwind
+|upkeep
+|
+|t:|1750855282
+|switch|p2b: Kyogre|Kyogre, L50|11/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|9
+|
+|t:|1750855291
+|move|p2b: Kyogre|Ice Beam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|34/100
+|move|p1b: Miraidon|Dazzling Gleam|p2b: Kyogre|[spread] p2a,p2b
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2a: Gastrodon
+|faint|p2b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750855296
+|switch|p2b: Calyrex|Calyrex-Shadow, L50, tera:Ground|34/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750855304
+|move|p2b: Calyrex|Astral Barrage|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|KogaAF1219
+|raw|Blu94's rating: 1330 &rarr; <strong>1314</strong><br />(-16 for losing)
+|raw|KogaAF1219's rating: 1398 &rarr; <strong>1414</strong><br />(+16 for winning)
+|l|☆Blu94
+|player|p1|
+|l|☆KogaAF1219
+|player|p2|

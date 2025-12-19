@@ -1,0 +1,204 @@
+|j|☆phonecount
+|j|☆uzui.exe
+|t:|1750772313
+|gametype|doubles
+|player|p1|phonecount|169|1369
+|player|p2|uzui.exe|266|1350
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Thundurus, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uzui.exe)
+|
+|t:|1750772341
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Thundurus|Thundurus, L50, M, shiny|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750772358
+|move|p1a: Sneasler|Fake Out|p2b: Zamazenta
+|-enditem|p1a: Sneasler|Normal Gem|[from] gem
+|-resisted|p2b: Zamazenta
+|-damage|p2b: Zamazenta|96/100
+|move|p2a: Thundurus|Eerie Impulse|p1b: Calyrex
+|-unboost|p1b: Calyrex|spa|2
+|move|p1b: Calyrex|Astral Barrage|p2a: Thundurus|[spread] p2a,p2b
+|-damage|p2a: Thundurus|77/100
+|-damage|p2b: Zamazenta|80/100
+|cant|p2b: Zamazenta|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750772378
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2a: Thundurus|Thunder Wave|p1b: Terapagos|[miss]
+|-miss|p2a: Thundurus|p1b: Terapagos
+|move|p1a: Sneasler|Dire Claw|p2a: Thundurus
+|-damage|p2a: Thundurus|24/100
+|-status|p2a: Thundurus|psn
+|-enditem|p2a: Thundurus|Sitrus Berry|[eat]
+|-heal|p2a: Thundurus|48/100 psn|[from] item: Sitrus Berry
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|
+|-damage|p2a: Thundurus|36/100 psn|[from] psn
+|upkeep
+|turn|3
+|inactive|phonecount has 30 seconds left.
+|
+|t:|1750772411
+|move|p2a: Thundurus|Thunder Wave|p1b: Terapagos
+|-status|p1b: Terapagos|par
+|move|p1a: Sneasler|Dire Claw|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|move|p2b: Zamazenta|Heavy Slam|p1a: Sneasler
+|-damage|p1a: Sneasler|22/100
+|cant|p1b: Terapagos|par
+|
+|upkeep
+|
+|t:|1750772425
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|turn|4
+|
+|t:|1750772432
+|move|p2a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p2a: Brute Bonnet
+|move|p1a: Sneasler|Close Combat|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|6/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-damage|p1a: Sneasler|6/100|[from] item: Rocky Helmet|[of] p2a: Brute Bonnet
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|2
+|cant|p1b: Terapagos|par
+|
+|upkeep
+|turn|5
+|inactive|phonecount has 30 seconds left.
+|
+|t:|1750772461
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p2b: Zamazenta|Iron Defense|p2b: Zamazenta
+|-boost|p2b: Zamazenta|def|1
+|move|p1b: Terapagos|Earth Power|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|32/100
+|-damage|p1b: Terapagos|91/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750772470
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750772479
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|move|p1a: Calyrex|Astral Barrage|p2b: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|-damage|p2b: Zamazenta|2/100
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Zamazenta|Body Press|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|upkeep
+|
+|t:|1750772495
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750772516
+|-terastallize|p2a: Calyrex|Dark
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: phonecount|move: Light Screen
+|move|p1a: Calyrex|Psychic|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Calyrex|Astral Barrage|p1b: Grimmsnarl|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Grimmsnarl
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Grimmsnarl|82/100
+|faint|p1a: Calyrex
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750772534
+|move|p2a: Calyrex|Nasty Plot|p2a: Calyrex
+|-boost|p2a: Calyrex|spa|2
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|21/100
+|-unboost|p2a: Calyrex|spa|1
+|
+|upkeep
+|turn|9
+|
+|t:|1750772542
+|move|p2a: Calyrex|Astral Barrage|p1b: Grimmsnarl
+|-resisted|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|38/100
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|win|phonecount
+|raw|phonecount's rating: 1369 &rarr; <strong>1388</strong><br />(+19 for winning)
+|raw|uzui.exe's rating: 1350 &rarr; <strong>1331</strong><br />(-19 for losing)
+|l|☆uzui.exe
+|player|p2|
+|l|☆phonecount
+|player|p1|

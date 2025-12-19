@@ -1,0 +1,132 @@
+|j|☆ness#1glazer
+|j|☆pallotix
+|t:|1750797879
+|gametype|doubles
+|player|p1|ness#1glazer|n|1259
+|player|p2|pallotix|2|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|j| aojo
+|l| aojo
+ness#1glazer rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ness#1glazer)
+|
+|t:|1750797920
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1750797939
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|switch|p2b: Lunala|Lunala, L50|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|9/100
+|-enditem|p1b: Indeedee|Sitrus Berry|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750797956
+|-terastallize|p1a: Calyrex|Fairy
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Calyrex|Tera Blast|p2b: Lunala|[anim] Tera Blast Fairy
+|-damage|p2b: Lunala|54/100
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|77/100
+|-enditem|p1a: Calyrex|Focus Sash|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-heal|p2b: Lunala|60/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|pallotix has 30 seconds left.
+|inactive|pallotix has 20 seconds left.
+|inactive|pallotix has 15 seconds left.
+|
+|t:|1750797997
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Calyrex|Tera Blast|p2b: Lunala|[anim] Tera Blast Fairy
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2a: Incineroar|Parting Shot|p1a: Calyrex
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1a: Calyrex|spa|1
+|
+|t:|1750798009
+|switch|p2a: Raging Bolt|Raging Bolt, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1750798015
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750798027
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-terastallize|p2a: Raging Bolt|Electric
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Raging Bolt|0 fnt
+|-damage|p2b: Incineroar|37/100
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|pallotix forfeited.
+|
+|win|ness#1glazer
+|raw|ness#1glazer's rating: 1259 &rarr; <strong>1282</strong><br />(+23 for winning)
+|raw|pallotix's rating: 1231 &rarr; <strong>1208</strong><br />(-23 for losing)
+|l|☆pallotix
+|player|p2|

@@ -1,0 +1,164 @@
+|j|☆Thatonesoulguy
+|j|☆willscharnagl
+|t:|1750750172
+|gametype|doubles
+|player|p1|Thatonesoulguy|bellelba|1476
+|player|p2|willscharnagl|266|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thatonesoulguy)
+|inactive|willscharnagl has 60 seconds left.
+|
+|t:|1750750205
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|-unboost|p2b: Groudon|atk|1
+|turn|1
+|
+|t:|1750750227
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Incineroar|Fake Out|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|93/100
+|cant|p2a: Ogerpon|flinch
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750750243
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2b
+|-activate|p2a: Ogerpon|move: Protect
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|84/100
+|move|p2b: Calyrex|Imprison|p2b: Calyrex
+|-start|p2b: Calyrex|move: Imprison
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|63/100
+|-enditem|p2b: Calyrex|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750750263
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Calyrex|High Horsepower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|39/100
+|move|p2b: Calyrex|Leech Seed|p1a: Calyrex|[miss]
+|-miss|p2b: Calyrex|p1a: Calyrex
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Kyogre|[anim] Ivy Cudgel Rock
+|-damage|p1b: Kyogre|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750750280
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Kyogre|Thunder|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|8/100
+|move|p2b: Calyrex|Leech Seed|p1b: Kyogre
+|-start|p1b: Kyogre|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Kyogre|55/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|21/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750750298
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Groudon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100
+|move|p1a: Calyrex|High Horsepower|p2b: Venusaur
+|-damage|p2b: Venusaur|48/100
+|move|p2a: Groudon|Precipice Blades|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|79/100
+|-damage|p1b: Incineroar|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750750326
+|move|p1b: Incineroar|Fake Out|p2b: Venusaur
+|-damage|p2b: Venusaur|36/100
+|cant|p2b: Venusaur|flinch
+|move|p2a: Groudon|Precipice Blades|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Calyrex|59/100
+|-damage|p1b: Incineroar|8/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750750339
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|39/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Groudon|[spread] p2a,p2b
+|-supereffective|p2a: Groudon
+|-crit|p2a: Groudon
+|-supereffective|p2b: Ogerpon
+|-damage|p2a: Groudon|0 fnt
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2a: Groudon
+|faint|p2b: Ogerpon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|willscharnagl forfeited.
+|
+|win|Thatonesoulguy
+|raw|Thatonesoulguy's rating: 1476 &rarr; <strong>1489</strong><br />(+13 for winning)
+|raw|willscharnagl's rating: 1341 &rarr; <strong>1328</strong><br />(-13 for losing)
+|l|☆willscharnagl
+|player|p2|

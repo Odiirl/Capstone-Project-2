@@ -1,0 +1,171 @@
+|j|☆TCBro89
+|j|☆SuperDruper
+|t:|1750772953
+|gametype|doubles
+|player|p1|TCBro89|red|1616
+|player|p2|SuperDruper|hooligans|1551
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+SuperDruper has agreed to open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuperDruper)
+TCBro89 has agreed to open team sheets.
+|showteam|p1|Miraidon||ChoiceSpecs|HadronEngine|ElectroDrift,VoltSwitch,DracoMeteor,DazzlingGleam||||||50|,,,,,Fairy]Iron Bundle||FocusSash|QuarkDrive|IceBeam,IcyWind,Taunt,Protect||||||50|,,,,,Ice]Groudon||ClearAmulet|Drought|PrecipiceBlades,HeatCrash,BulkUp,Protect||||||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,Protect|||M|||50|,,,,,Water]Raging Bolt||IronBall|Protosynthesis|Thunderclap,RisingVoltage,DracoMeteor,Protect||||||50|,,,,,Electric]Farigiraf||RoomService|ArmorTail|FoulPlay,HelpingHand,TrickRoom,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Calyrex-Shadow||LifeOrb|AsOneSpectrier|AstralBarrage,ExpandingForce,Encore,Protect||||||50|,,,,,Normal]Koraidon||ClearAmulet|OrichalcumPulse|FlareBlitz,CollisionCourse,FlameCharge,Protect||||||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Fairy]Tornadus||CovertCloak|Prankster|BleakwindStorm,Taunt,Tailwind,SunnyDay|||M|||50|,,,,,Dark]Flutter Mane||FocusSash|Protosynthesis|Moonblast,IcyWind,FakeTears,Protect||||||50|,,,,,Water]Chi-Yu||ChoiceScarf|BeadsofRuin|HeatWave,DarkPulse,Overheat,Flamethrower||||||50|,,,,,Ghost
+|inactive|TCBro89 has 60 seconds left.
+|inactive|SuperDruper has 60 seconds left.
+|
+|t:|1750773012
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750773034
+|move|p2a: Calyrex|Expanding Force|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1b: Farigiraf
+|-damage|p1a: Miraidon|11/100
+|-damage|p1b: Farigiraf|56/100
+|-damage|p2a: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Miraidon|Volt Switch|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|
+|t:|1750773045
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100|[from] Volt Switch
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|-enditem|p1b: Farigiraf|Room Service
+|-unboost|p1b: Farigiraf|spe|1|[from] item: Room Service
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1750773062
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Calyrex|Encore||[still]
+|-fail|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|TCBro89 has 30 seconds left.
+|
+|t:|1750773089
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Calyrex|Expanding Force|p1b: Groudon|[spread] p1a,p1b
+|-damage|p1a: Raging Bolt|18/100
+|-damage|p1b: Groudon|15/100
+|-damage|p2a: Calyrex|26/100|[from] item: Life Orb
+|move|p1b: Groudon|Precipice Blades|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Indeedee|45/100
+|faint|p2a: Calyrex
+|move|p1a: Raging Bolt|Rising Voltage|p2b: Indeedee
+|-damage|p2b: Indeedee|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750773110
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750773122
+|-terastallize|p1b: Groudon|Fire
+|move|p1a: Raging Bolt|Protect|p1a: Raging Bolt
+|-singleturn|p1a: Raging Bolt|Protect
+|move|p2a: Flutter Mane|Moonblast|p1b: Groudon
+|-resisted|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|move|p2b: Indeedee|Psychic|p1a: Raging Bolt
+|-activate|p1a: Raging Bolt|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750773135
+|switch|p1b: Miraidon|Miraidon, L50|11/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750773155
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Flutter Mane|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| PiousAugustus13
+|
+|t:|1750773163
+|switch|p1b: Farigiraf|Farigiraf, L50, M|56/100
+|turn|6
+|
+|t:|1750773181
+|move|p2b: Indeedee|Helping Hand|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Raging Bolt|Thunderclap|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|31/100
+|move|p2a: Flutter Mane|Moonblast|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|-weather|none
+|-end|p2a: Flutter Mane|Protosynthesis
+|-end|p1a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|7
+|-message|TCBro89 forfeited.
+|
+|win|SuperDruper
+|raw|TCBro89's rating: 1616 &rarr; <strong>1592</strong><br />(-24 for losing)
+|raw|SuperDruper's rating: 1551 &rarr; <strong>1575</strong><br />(+24 for winning)
+|l|☆TCBro89
+|player|p1|
+|l|☆SuperDruper
+|player|p2|
+|l| PiousAugustus13

@@ -1,0 +1,138 @@
+|j|☆saltlorf66
+|j|☆Skoomie
+|t:|1750875340
+|gametype|doubles
+|player|p1|saltlorf66|steven|1172
+|player|p2|Skoomie|169|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Brambleghast, L50, F|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Qwilfish-Hisui, L50, F|
+|teampreview|4
+|
+|t:|1750875369
+|start
+|switch|p1a: Meow|Scream Tail, L50, shiny|100/100
+|switch|p1b: Mother|Gothitelle, L50, F|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Blastoise|Blastoise, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-enditem|p1a: Meow|Booster Energy
+|-activate|p1a: Meow|ability: Protosynthesis|[fromitem]
+|-start|p1a: Meow|protosynthesisspe
+|turn|1
+|
+|t:|1750875393
+|-end|p1a: Meow|Protosynthesis|[silent]
+|switch|p1a: Rook|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Rook
+|-activate|p1a: Rook|Orichalcum Pulse|[source]
+|move|p2b: Blastoise|Fake Out|p1a: Rook
+|-damage|p1a: Rook|89/100
+|move|p1b: Mother|Fake Out|p2a: Kyogre
+|-damage|p2a: Kyogre|95/100
+|cant|p2a: Kyogre|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750875423
+|switch|p1b: Meow|Scream Tail, L50, shiny|100/100
+|-activate|p1b: Meow|ability: Protosynthesis
+|-start|p1b: Meow|protosynthesisspe
+|move|p2a: Kyogre|Water Spout|p1a: Rook|[spread] p1a,p1b
+|-resisted|p1a: Rook
+|-damage|p1a: Rook|75/100
+|-damage|p1b: Meow|78/100
+|move|p1a: Rook|Close Combat|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|-unboost|p1a: Rook|def|1
+|-unboost|p1a: Rook|spd|1
+|faint|p2a: Kyogre
+|-damage|p1a: Rook|65/100|[from] item: Life Orb
+|move|p2b: Blastoise|Liquidation|p1b: Meow
+|-damage|p1b: Meow|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750875440
+|switch|p2a: Qwilfish|Qwilfish-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1750875463
+|switch|p2b: Brambleghast|Brambleghast, L50, F|100/100
+|move|p1b: Meow|Encore||[still]
+|-fail|p1b: Meow
+|move|p1a: Rook|Close Combat|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|-unboost|p1a: Rook|def|1
+|-unboost|p1a: Rook|spd|1
+|faint|p2a: Qwilfish
+|-damage|p1a: Rook|56/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750875470
+|switch|p2a: Blastoise|Blastoise, L50, F|100/100
+|turn|4
+|
+|t:|1750875491
+|switch|p1a: Mother|Gothitelle, L50, F|100/100
+|-terastallize|p1b: Meow|Dark
+|move|p2a: Blastoise|Fake Out|p1b: Meow
+|-damage|p1b: Meow|56/100
+|cant|p1b: Meow|flinch
+|move|p2b: Brambleghast|Poltergeist|p1a: Mother
+|-activate|p1a: Mother|move: Poltergeist|Leftovers
+|-supereffective|p1a: Mother
+|-damage|p1a: Mother|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mother|14/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750875517
+|move|p1a: Mother|Protect|p1a: Mother
+|-singleturn|p1a: Mother|Protect
+|move|p1b: Meow|Encore|p2a: Blastoise
+|-start|p2a: Blastoise|Encore
+|move|p2b: Brambleghast|Skitter Smack|p1b: Meow|[miss]
+|-miss|p2b: Brambleghast|p1b: Meow
+|move|p2a: Blastoise|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Blastoise
+|
+|-weather|none
+|-end|p1b: Meow|Protosynthesis
+|-heal|p1a: Mother|20/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|-message|Skoomie forfeited.
+|
+|win|saltlorf66
+|raw|saltlorf66's rating: 1172 &rarr; <strong>1190</strong><br />(+18 for winning)
+|raw|Skoomie's rating: 1074 &rarr; <strong>1059</strong><br />(-15 for losing)
+|l|☆Skoomie
+|player|p2|
+|l|☆saltlorf66
+|player|p1|

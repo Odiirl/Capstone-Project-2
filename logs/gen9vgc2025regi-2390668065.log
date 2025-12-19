@@ -1,0 +1,153 @@
+|j|☆phonecount
+|j|‽Shrekers13
+|t:|1750746119
+|gametype|doubles
+|player|p1|phonecount|265|1296
+|player|p2|Shrekers13|170|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by phonecount)
+|
+|t:|1750746144
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Bundle|Iron Bundle, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Bundle|ability: Quark Drive
+|-start|p2b: Iron Bundle|quarkdrivespe
+|turn|1
+|
+|t:|1750746162
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: phonecount|move: Tailwind
+|move|p1a: Kyogre|Thunder|p2b: Iron Bundle
+|-supereffective|p2b: Iron Bundle
+|-enditem|p2b: Iron Bundle|Focus Sash
+|-damage|p2b: Iron Bundle|1/100
+|move|p2b: Iron Bundle|Icy Wind|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-supereffective|p1b: Tornadus
+|-damage|p1a: Kyogre|92/100
+|-damage|p1b: Tornadus|41/100
+|-unboost|p1a: Kyogre|spe|1
+|move|p2a: Miraidon|Volt Switch|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|faint|p1a: Kyogre
+|
+|t:|1750746178
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100|[from] Volt Switch
+|-ability|p2a: Ogerpon|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750746183
+|switch|p1a: Charizard|Charizard, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1750746199
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Iron Bundle|[spread] p2b
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p2b: Iron Bundle|0 fnt
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|move|p1a: Charizard|Hurricane|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750746214
+|switch|p2b: Iron Hands|Iron Hands, L50, shiny|100/100
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|turn|3
+|inactive|phonecount has 30 seconds left.
+|
+|t:|1750746240
+|-terastallize|p1a: Charizard|Water
+|-terastallize|p2a: Ogerpon|Fire
+|detailschange|p2a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2a: Ogerpon|atk|1
+|move|p2b: Iron Hands|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|73/100
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Ogerpon|52/100
+|-damage|p2b: Iron Hands|83/100
+|-unboost|p2a: Ogerpon|spe|1
+|cant|p1a: Charizard|flinch
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Tornadus|[anim] Ivy Cudgel Fire
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750746259
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|4
+|
+|t:|1750746278
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Charizard|Weather Ball|p2b: Iron Hands
+|-damage|p2b: Iron Hands|18/100
+|-damage|p1a: Charizard|63/100|[from] item: Life Orb
+|move|p1b: Groudon|Earthquake|p2b: Iron Hands|[spread] p1a,p2b
+|-activate|p2a: Ogerpon|move: Protect
+|-supereffective|p2b: Iron Hands
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p1a: Charizard
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: phonecount|move: Tailwind
+|upkeep
+|
+|t:|1750746291
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750746298
+|move|p2b: Miraidon|Draco Meteor|p1b: Groudon
+|-damage|p1b: Groudon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1b: Groudon
+|
+|win|Shrekers13
+|raw|phonecount's rating: 1296 &rarr; <strong>1269</strong><br />(-27 for losing)
+|raw|Shrekers13's rating: 1262 &rarr; <strong>1289</strong><br />(+27 for winning)
+|l|☆phonecount
+|player|p1|
+|l|‽Shrekers13
+|player|p2|

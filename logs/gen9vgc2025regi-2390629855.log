@@ -1,0 +1,282 @@
+|j|☆Test-on-calls
+|j|☆duoduoa
+|t:|1750738996
+|gametype|doubles
+|player|p1|Test-on-calls|169|1480
+|player|p2|duoduoa|266|1376
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by duoduoa)
+|
+|t:|1750739011
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50, shiny|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-ability|p2a: Ogerpon|Mold Breaker
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750739031
+|switch|p1b: Giratina|Giratina-Origin, L50, shiny|100/100
+|-terastallize|p2a: Ogerpon|Fire
+|detailschange|p2a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2a: Ogerpon|atk|1
+|move|p2b: Rillaboom|Fake Out|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|85/100
+|cant|p1a: Iron Valiant|flinch
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Valiant|[anim] Ivy Cudgel Fire
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750739041
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1750739057
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Test-on-calls|Reflect
+|move|p1b: Giratina|Poltergeist|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Poltergeist|Hearthflame Mask
+|-damage|p2a: Ogerpon|42/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Grimmsnarl|[anim] Ivy Cudgel Fire
+|-damage|p1a: Grimmsnarl|33/100
+|move|p2b: Rillaboom|U-turn|p1b: Giratina
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|93/100
+|
+|t:|1750739069
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|
+|-heal|p2a: Ogerpon|48/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|39/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750739085
+|-terastallize|p1b: Giratina|Dark
+|move|p2a: Ogerpon|Follow Me|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Follow Me
+|move|p1b: Giratina|Shadow Sneak|p2a: Ogerpon
+|-damage|p2a: Ogerpon|24/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Test-on-calls|move: Light Screen
+|move|p2b: Calyrex|Astral Barrage|p1b: Giratina|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-resisted|p1b: Giratina
+|-damage|p1a: Grimmsnarl|22/100
+|-damage|p1b: Giratina|80/100
+|
+|-heal|p2a: Ogerpon|30/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|28/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|duoduoa has 30 seconds left.
+|inactive|Test-on-calls has 30 seconds left.
+|
+|t:|1750739117
+|move|p2b: Calyrex|Encore|p1b: Giratina
+|-start|p1b: Giratina|Encore
+|move|p1b: Giratina|Shadow Sneak|p2a: Ogerpon
+|-damage|p2a: Ogerpon|9/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Giratina|[anim] Ivy Cudgel Fire
+|-damage|p1b: Giratina|22/100
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Calyrex
+|-damage|p2b: Calyrex|66/100
+|-unboost|p2b: Calyrex|spa|1
+|
+|-heal|p2b: Calyrex|71/100|[from] Grassy Terrain
+|-heal|p2a: Ogerpon|14/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|34/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|duoduoa has 30 seconds left.
+|
+|t:|1750739150
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Giratina|Shadow Sneak|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-heal|p2b: Calyrex|77/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|40/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750739163
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1750739172
+|move|p2a: Rillaboom|Fake Out|p1b: Giratina
+|-damage|p1b: Giratina|14/100
+|cant|p1b: Giratina|flinch
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Calyrex
+|-status|p2b: Calyrex|par
+|move|p2b: Calyrex|Astral Barrage|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1a: Grimmsnarl
+|-resisted|p1b: Giratina
+|-damage|p1a: Grimmsnarl|27/100
+|-damage|p1b: Giratina|4/100
+|
+|-heal|p2b: Calyrex|83/100 par|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|33/100|[from] Grassy Terrain
+|-end|p1b: Giratina|Encore
+|upkeep
+|turn|7
+|inactive|duoduoa has 30 seconds left.
+|
+|t:|1750739197
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|92/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|
+|-heal|p1b: Zamazenta|98/100|[from] Grassy Terrain
+|-heal|p2b: Calyrex|88/100 par|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|39/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750739220
+|move|p1b: Zamazenta|Heavy Slam|p2b: Calyrex
+|-damage|p2b: Calyrex|31/100 par
+|cant|p2b: Calyrex|par
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|cant|p2a: Rillaboom|par
+|
+|-heal|p1b: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p1a: Grimmsnarl|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750739233
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|9
+|
+|t:|1750739243
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Zamazenta
+|-status|p2b: Zamazenta|par
+|move|p2b: Zamazenta|Body Press|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Rillaboom|86/100 par|[from] Recoil
+|
+|-heal|p2a: Rillaboom|92/100 par|[from] Grassy Terrain
+|-sideend|p1: Test-on-calls|Reflect
+|upkeep
+|
+|t:|1750739245
+|switch|p1a: Giratina|Giratina-Origin, L50, shiny, tera:Dark|4/100
+|turn|10
+|
+|t:|1750739265
+|move|p1a: Giratina|Protect|p1a: Giratina
+|-singleturn|p1a: Giratina|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1a: Giratina
+|-activate|p1a: Giratina|move: Protect
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|66/100 par
+|cant|p2b: Zamazenta|par
+|
+|-heal|p2b: Zamazenta|72/100 par|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|98/100 par|[from] Grassy Terrain
+|-sideend|p1: Test-on-calls|move: Light Screen
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1750739284
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p1a: Giratina|Poltergeist|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|cant|p2a: Rillaboom|par
+|
+|upkeep
+|turn|12
+|
+|t:|1750739300
+|move|p2b: Zamazenta|Protect||[still]
+|-fail|p2b: Zamazenta
+|move|p1b: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-crit|p2b: Zamazenta
+|-damage|p2b: Zamazenta|3/100 par
+|move|p1a: Giratina|Poltergeist|p2b: Zamazenta|[miss]
+|-miss|p1a: Giratina|p2b: Zamazenta
+|cant|p2a: Rillaboom|par
+|
+|upkeep
+|turn|13
+|
+|t:|1750739315
+|move|p2b: Zamazenta|Protect|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Protect
+|move|p1a: Giratina|Shadow Sneak|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Protect
+|move|p1b: Zamazenta|Body Press|p2a: Rillaboom
+|-damage|p2a: Rillaboom|52/100 par
+|cant|p2a: Rillaboom|par
+|
+|upkeep
+|turn|14
+|-message|duoduoa forfeited.
+|
+|win|Test-on-calls
+|raw|Test-on-calls's rating: 1480 &rarr; <strong>1494</strong><br />(+14 for winning)
+|raw|duoduoa's rating: 1376 &rarr; <strong>1362</strong><br />(-14 for losing)
+|l|☆duoduoa
+|player|p2|
+|l|☆Test-on-calls
+|player|p1|

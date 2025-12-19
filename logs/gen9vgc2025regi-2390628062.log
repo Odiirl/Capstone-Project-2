@@ -1,0 +1,136 @@
+|j|☆004B
+|j|‽nobody9028
+|t:|1750738699
+|gametype|doubles
+|player|p1|004B|ghetsis|1571
+|player|p2|nobody9028|dawn|1569
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Conkeldurr, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|j| anubisjr
+|
+|t:|1750738752
+|start
+|switch|p1a: Zekrom-|Miraidon, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Farigiraf|Electric Seed
+|-boost|p2b: Farigiraf|def|1|[from] item: Electric Seed
+|-activate|p1a: Zekrom-|ability: Hadron Engine
+|turn|1
+|
+|t:|1750738785
+|-terastallize|p2a: Miraidon|Fairy
+|-terastallize|p1a: Zekrom-|Electric
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Miraidon|Draco Meteor|p1a: Zekrom-
+|-damage|p1a: Zekrom-|20/100
+|-unboost|p2a: Miraidon|spa|2
+|move|p1a: Zekrom-|Electro Drift|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Farigiraf|Imprison|p2b: Farigiraf
+|-start|p2b: Farigiraf|move: Imprison
+|
+|upkeep
+|
+|t:|1750738801
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750738815
+|switch|p1b: Young Man|Landorus, L50, M|100/100
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Zekrom-|Electro Drift|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Astral Barrage|p1a: Zekrom-|[spread] p1a,p1b
+|-damage|p1a: Zekrom-|0 fnt
+|-damage|p1b: Young Man|6/100
+|faint|p1a: Zekrom-
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750738826
+|switch|p1a: Y.M.C.A|Conkeldurr, L50, F|100/100
+|turn|3
+|
+|t:|1750738836
+|move|p2b: Farigiraf|Helping Hand|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Y.M.C.A|Wide Guard|p1a: Y.M.C.A
+|-singleturn|p1a: Y.M.C.A|Wide Guard
+|move|p2a: Calyrex|Astral Barrage|p1b: Young Man|[spread] 
+|-activate|p1a: Y.M.C.A|move: Wide Guard
+|-activate|p1b: Young Man|move: Wide Guard
+|move|p1b: Young Man|Sandsear Storm|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Farigiraf|45/100
+|faint|p2a: Calyrex
+|
+|-status|p1a: Y.M.C.A|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750738843
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 004B)
+|
+|t:|1750738879
+|move|p2a: Whimsicott|Moonblast|p1b: Young Man
+|-damage|p1b: Young Man|0 fnt
+|faint|p1b: Young Man
+|move|p2b: Farigiraf|Foul Play|p1a: Y.M.C.A
+|-resisted|p1a: Y.M.C.A
+|-damage|p1a: Y.M.C.A|83/100 brn
+|move|p1a: Y.M.C.A|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-damage|p1a: Y.M.C.A|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1750738887
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|-message|nobody9028 forfeited.
+|
+|win|004B
+|raw|004B's rating: 1571 &rarr; <strong>1591</strong><br />(+20 for winning)
+|raw|nobody9028's rating: 1569 &rarr; <strong>1549</strong><br />(-20 for losing)
+|l|‽nobody9028
+|player|p2|
+|l|☆004B
+|player|p1|
+|l| anubisjr

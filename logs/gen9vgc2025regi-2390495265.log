@@ -1,0 +1,144 @@
+|j|☆ehehahahhehe
+|j|☆orudbeck
+|t:|1750720264
+|gametype|doubles
+|player|p1|ehehahahhehe|266|1180
+|player|p2|orudbeck|266|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vivillon-Fancy, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Mamoswine, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|
+|t:|1750720314
+|start
+|switch|p1a: Vivillon|Vivillon-Fancy, L50, F, shiny|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Mamoswine|Mamoswine, L50, M|100/100
+|-enditem|p1b: Flutter Mane|Booster Energy
+|-activate|p1b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1b: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by orudbeck)
+|inactive|ehehahahhehe has 60 seconds left.
+|
+|t:|1750720345
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: orudbeck|move: Tailwind
+|move|p2b: Mamoswine|Icicle Crash|p1a: Vivillon|[miss]
+|-miss|p2b: Mamoswine|p1a: Vivillon
+|move|p1a: Vivillon|Sleep Powder|p2b: Mamoswine
+|-status|p2b: Mamoswine|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|inactive|ehehahahhehe has 30 seconds left.
+|
+|t:|1750720372
+|move|p2a: Talonflame|Air Slash|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-damage|p1a: Vivillon|3/100
+|cant|p2b: Mamoswine|slp
+|move|p1b: Flutter Mane|Hex|p2b: Mamoswine
+|-damage|p2b: Mamoswine|6/100 slp
+|move|p1a: Vivillon|Sleep Powder|p2a: Talonflame
+|-status|p2a: Talonflame|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|t:|1750720394
+|cant|p2a: Talonflame|slp
+|cant|p2b: Mamoswine|slp
+|move|p1b: Flutter Mane|Hex|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|move|p1a: Vivillon|Hurricane|p2b: Mamoswine|[miss]
+|-miss|p1a: Vivillon|p2b: Mamoswine
+|
+|upkeep
+|
+|t:|1750720406
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750720420
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|-curestatus|p2b: Mamoswine|slp|[msg]
+|move|p2b: Mamoswine|Ice Shard|p1b: Flutter Mane
+|-activate|p1b: Flutter Mane|move: Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Flutter Mane|[spread] 
+|-activate|p1a: Vivillon|move: Protect
+|-activate|p1b: Flutter Mane|move: Protect
+|
+|-sideend|p2: orudbeck|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750720442
+|-terastallize|p2a: Calyrex|Dark
+|move|p2b: Mamoswine|Ice Shard|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|48/100
+|move|p1b: Flutter Mane|Icy Wind|p2b: Mamoswine|[spread] p2a,p2b
+|-damage|p2a: Calyrex|86/100
+|-damage|p2b: Mamoswine|0 fnt
+|-unboost|p2a: Calyrex|spe|1
+|faint|p2b: Mamoswine
+|move|p1a: Vivillon|Sleep Powder|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Sleep Powder
+|cant|p2a: Calyrex|slp
+|
+|upkeep
+|
+|t:|1750720451
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750720464
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p1b: Flutter Mane|Moonblast|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|orudbeck forfeited.
+|
+|win|ehehahahhehe
+|raw|ehehahahhehe's rating: 1180 &rarr; <strong>1209</strong><br />(+29 for winning)
+|raw|orudbeck's rating: 1236 &rarr; <strong>1207</strong><br />(-29 for losing)
+|l|☆orudbeck
+|player|p2|
+|l|☆ehehahahhehe
+|player|p1|

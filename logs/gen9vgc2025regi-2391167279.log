@@ -1,0 +1,185 @@
+|j|☆Slayer_trainer
+|j|☆azzazzl
+|t:|1750811038
+|gametype|doubles
+|player|p1|Slayer_trainer|dragontamer|1325
+|player|p2|azzazzl|dawn|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by azzazzl)
+|
+|t:|1750811088
+|start
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|inactive|azzazzl has 30 seconds left.
+|
+|t:|1750811120
+|-terastallize|p2a: Calyrex|Dragon
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Chi-Yu|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Calyrex|81/100
+|-damage|p2b: Indeedee|46/100
+|-unboost|p2b: Indeedee|spa|1
+|move|p1b: Kyogre|Water Spout|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|19/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750811133
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|turn|2
+|
+|t:|1750811154
+|move|p1a: Chi-Yu|Protect|p1a: Chi-Yu
+|-singleturn|p1a: Chi-Yu|Protect
+|move|p2b: Kyogre|Water Spout|p1b: Kyogre|[spread] p1b
+|-activate|p1a: Chi-Yu|move: Protect
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|50/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1b
+|-activate|p1a: Chi-Yu|move: Protect
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|19/100
+|move|p1b: Kyogre|Ice Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750811169
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|turn|3
+|
+|t:|1750811176
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Zamazenta|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-damage|p1a: Zamazenta|26/100
+|move|p2a: Gallade|Sacred Sword|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Gallade|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Slayer_trainer has 30 seconds left.
+|
+|t:|1750811205
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1750811227
+|move|p2a: Gallade|Upper Hand|p1a: Rillaboom
+|-damage|p1a: Rillaboom|52/100
+|-damage|p2a: Gallade|81/100|[from] item: Life Orb
+|cant|p1a: Rillaboom|flinch
+|move|p2b: Kyogre|Water Spout|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-resisted|p1b: Kyogre
+|-damage|p1a: Rillaboom|10/100
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gallade|87/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|17/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750811238
+|switch|p1b: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|5
+|
+|t:|1750811250
+|move|p1b: Chi-Yu|Protect|p1b: Chi-Yu
+|-singleturn|p1b: Chi-Yu|Protect
+|move|p2b: Kyogre|Water Spout|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Chi-Yu|move: Protect
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p2a: Gallade|Sacred Sword|p1b: Chi-Yu
+|-activate|p1b: Chi-Yu|move: Protect
+|
+|-weather|none
+|-heal|p2a: Gallade|92/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750811270
+|-terastallize|p1b: Chi-Yu|Ghost
+|move|p1b: Chi-Yu|Dark Pulse|p2b: Kyogre
+|-damage|p2b: Kyogre|62/100
+|move|p2a: Gallade|Sacred Sword|p1b: Chi-Yu
+|-immune|p1b: Chi-Yu
+|move|p2b: Kyogre|Water Spout|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|28/100
+|
+|-heal|p1b: Chi-Yu|34/100|[from] Grassy Terrain
+|-heal|p2a: Gallade|98/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|68/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750811286
+|move|p1b: Chi-Yu|Heat Wave|p2a: Gallade|[spread] p2a,p2b
+|-resisted|p2b: Kyogre
+|-damage|p2a: Gallade|50/100
+|-damage|p2b: Kyogre|51/100
+|move|p2a: Gallade|Psycho Cut|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|-damage|p2a: Gallade|40/100|[from] item: Life Orb
+|
+|win|azzazzl
+|raw|Slayer_trainer's rating: 1325 &rarr; <strong>1308</strong><br />(-17 for losing)
+|raw|azzazzl's rating: 1374 &rarr; <strong>1391</strong><br />(+17 for winning)
+|l|☆Slayer_trainer
+|player|p1|
+|l|☆azzazzl
+|player|p2|

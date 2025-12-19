@@ -1,0 +1,137 @@
+|j|☆AmaneB
+|j|☆LilligantFangirl
+|t:|1750708365
+|gametype|doubles
+|player|p1|AmaneB|brock|1360
+|player|p2|LilligantFangirl|nurseryaide|1315
+|teamsize|p1|4
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Scrafty, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AmaneB)
+|
+|t:|1750708400
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50, shiny|100/100
+|switch|p1b: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|-ability|p1b: Tinkaton|Mold Breaker
+|turn|1
+|
+|t:|1750708417
+|-terastallize|p1a: Rayquaza|Normal
+|move|p1b: Tinkaton|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|cant|p2a: Grimmsnarl|flinch
+|move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+|-boost|p1a: Rayquaza|atk|2
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Rayquaza
+|-damage|p1a: Rayquaza|33/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750708437
+|move|p1a: Rayquaza|Extreme Speed|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p1b: Tinkaton|Knock Off|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-damage|p2b: Lunala|79/100
+|move|p2b: Lunala|Moonblast|p1a: Rayquaza
+|-damage|p1a: Rayquaza|0 fnt
+|faint|p1a: Rayquaza
+|
+|upkeep
+|
+|t:|1750708449
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Eternatus|Pressure
+|turn|3
+|inactive|AmaneB has 30 seconds left.
+|
+|t:|1750708476
+|move|p1b: Tinkaton|Helping Hand|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Helping Hand|[of] p1b: Tinkaton
+|move|p2a: Koraidon|Flare Blitz|p1b: Tinkaton
+|-supereffective|p1b: Tinkaton
+|-damage|p1b: Tinkaton|0 fnt
+|faint|p1b: Tinkaton
+|-damage|p2a: Koraidon|64/100|[from] Recoil
+|move|p1a: Eternatus|Sludge Wave|p2b: Lunala|[spread] p2a,p2b
+|-resisted|p2b: Lunala
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Lunala|53/100
+|faint|p2a: Koraidon
+|move|p2b: Lunala|Moongeist Beam|p1a: Eternatus
+|-damage|p1a: Eternatus|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750708493
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1750708510
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Eternatus|Protect|p1a: Eternatus
+|-singleturn|p1a: Eternatus|Protect
+|move|p2a: Walking Wake|Draco Meteor|p1a: Eternatus
+|-activate|p1a: Eternatus|move: Protect
+|move|p1b: Chien-Pao|Ice Spinner|p2a: Walking Wake
+|-damage|p2a: Walking Wake|44/100
+|move|p2b: Lunala|Moonblast|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-enditem|p1b: Chien-Pao|Focus Sash
+|-damage|p1b: Chien-Pao|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750708528
+|move|p1b: Chien-Pao|Sucker Punch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|move|p1a: Eternatus|Sludge Wave|p2b: Lunala|[spread] p1b,p2b
+|-supereffective|p2b: Lunala
+|-damage|p1b: Chien-Pao|0 fnt
+|-damage|p2b: Lunala|0 fnt
+|faint|p1b: Chien-Pao
+|faint|p2b: Lunala
+|
+|win|AmaneB
+|raw|AmaneB's rating: 1360 &rarr; <strong>1377</strong><br />(+17 for winning)
+|raw|LilligantFangirl's rating: 1315 &rarr; <strong>1298</strong><br />(-17 for losing)
+|l|☆LilligantFangirl
+|player|p2|

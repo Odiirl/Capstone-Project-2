@@ -1,0 +1,170 @@
+|j|☆jatpark
+|j|☆Hemz4
+|t:|1750714520
+|gametype|doubles
+|player|p1|jatpark|1|1371
+|player|p2|Hemz4|1|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Pincurchin, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|
+|t:|1750714548
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1750714580
+|switch|p1a: Pincurchin|Pincurchin, L50, M|100/100
+|-terastallize|p1b: Calyrex|Grass
+|-terastallize|p2a: Lunala|Fairy
+|move|p1b: Calyrex|Draining Kiss|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|24/100
+|move|p2b: Miraidon|Volt Switch|p1a: Pincurchin
+|-activate|p1a: Pincurchin|ability: Lightning Rod
+|-ability|p1a: Pincurchin|Lightning Rod|boost
+|-boost|p1a: Pincurchin|spa|1
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750714602
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Calyrex|Draining Kiss|p2a: Lunala
+|-damage|p2a: Lunala|93/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Pincurchin|Toxic Spikes|p2b: Rillaboom
+|-sidestart|p2: Hemz4|move: Toxic Spikes
+|
+|-heal|p2a: Lunala|99/100|[from] Grassy Terrain
+|-heal|p2a: Lunala|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750714624
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Rillaboom|Fake Out|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Psychic Terrain
+|move|p2a: Lunala|Moongeist Beam|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|t:|1750714635
+|switch|p1a: Calyrex|Calyrex-Shadow, L50, tera:Grass|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750714645
+|move|p1a: Calyrex|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|87/100
+|-damage|p2b: Rillaboom|33/100
+|move|p2b: Rillaboom|U-turn|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|51/100
+|
+|t:|1750714651
+|switch|p2b: Miraidon|Miraidon, L50|24/100|[from] U-turn
+|-status|p2b: Miraidon|psn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|move|p1b: Indeedee|Light Screen|p1b: Indeedee
+|-sidestart|p1: jatpark|move: Light Screen
+|move|p2a: Lunala|Dazzling Gleam|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Calyrex|6/100
+|-damage|p1b: Indeedee|68/100
+|-enditem|p1b: Indeedee|Eject Button
+|
+|t:|1750714660
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lunala|93/100|[from] item: Leftovers
+|-damage|p2b: Miraidon|12/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1750714679
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Lunala|64/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p1b: Groudon|Heat Crash|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-damage|p1b: Groudon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750714690
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|33/100
+|-status|p2a: Rillaboom|psn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-status|p2b: Urshifu|psn
+|turn|6
+|
+|t:|1750714698
+|switch|p1b: Indeedee|Indeedee-F, L50, F|68/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Rillaboom|Fake Out|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Psychic Terrain
+|move|p2b: Urshifu|Sucker Punch|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Psychic Terrain
+|move|p1a: Calyrex|Astral Barrage|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2b: Urshifu
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Urshifu|2/100 psn
+|faint|p2a: Rillaboom
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Urshifu|0 fnt|[from] psn
+|faint|p2b: Urshifu
+|
+|win|jatpark
+|raw|jatpark's rating: 1371 &rarr; <strong>1394</strong><br />(+23 for winning)
+|raw|Hemz4's rating: 1420 &rarr; <strong>1397</strong><br />(-23 for losing)
+|l|☆Hemz4
+|player|p2|
+|l|☆jatpark
+|player|p1|

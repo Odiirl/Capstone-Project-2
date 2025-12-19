@@ -1,0 +1,196 @@
+|j|☆reznob
+|j|☆QuaBao
+|t:|1750830527
+|gametype|doubles
+|player|p1|reznob|102|1261
+|player|p2|QuaBao|caitlin|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Gouging Fire, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by QuaBao)
+|
+|t:|1750830548
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Solgaleo|Solgaleo, L50|100/100
+|switch|p2b: Gouging Fire|Gouging Fire, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p2b: Gouging Fire|Booster Energy
+|-activate|p2b: Gouging Fire|ability: Protosynthesis|[fromitem]
+|-start|p2b: Gouging Fire|protosynthesisspe
+|turn|1
+|inactive|reznob has 30 seconds left.
+|
+|t:|1750830577
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p2a: Solgaleo|Fire
+|move|p2b: Gouging Fire|Bulldoze|p1a: Ursaluna|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|80/100
+|-damage|p1a: Ursaluna|91/100
+|-damage|p1b: Indeedee|86/100
+|-unboost|p1a: Ursaluna|spe|1
+|-unboost|p1b: Indeedee|spe|1
+|-enditem|p2a: Solgaleo|Weakness Policy
+|-boost|p2a: Solgaleo|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Solgaleo|spa|2|[from] item: Weakness Policy
+|move|p2a: Solgaleo|Sunsteel Strike|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750830596
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p2a: Solgaleo
+|-unboost|p2b: Gouging Fire|atk|1
+|turn|2
+|inactive|reznob has 30 seconds left.
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830651
+|move|p2b: Gouging Fire|Flare Blitz|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|84/100
+|-damage|p2b: Gouging Fire|95/100|[from] Recoil
+|move|p2a: Solgaleo|Sunsteel Strike|p1a: Ursaluna
+|-damage|p1a: Ursaluna|15/100 brn
+|move|p1b: Incineroar|Flare Blitz|p2a: Solgaleo
+|-resisted|p2a: Solgaleo
+|-damage|p2a: Solgaleo|61/100
+|-damage|p1b: Incineroar|78/100|[from] Recoil
+|move|p1a: Ursaluna|Headlong Rush|p2a: Solgaleo
+|-supereffective|p2a: Solgaleo
+|-damage|p2a: Solgaleo|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Solgaleo
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830706
+|switch|p2a: Rayquaza|Rayquaza, L50|100/100
+|-ability|p2a: Rayquaza|Air Lock
+|turn|3
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830761
+|move|p2a: Rayquaza|Extreme Speed|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Psychic Terrain
+|move|p2b: Gouging Fire|Flare Blitz|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|63/100
+|-damage|p2b: Gouging Fire|90/100|[from] Recoil
+|move|p1b: Incineroar|Knock Off|p2a: Rayquaza
+|-damage|p2a: Rayquaza|56/100
+|-enditem|p2a: Rayquaza|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Ursaluna|Headlong Rush|p2b: Gouging Fire
+|-supereffective|p2b: Gouging Fire
+|-damage|p2b: Gouging Fire|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Gouging Fire
+|-end|p2b: Gouging Fire|Protosynthesis|[silent]
+|
+|-damage|p1a: Ursaluna|3/100 brn|[from] brn
+|upkeep
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830816
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|4
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830871
+|move|p2a: Rayquaza|Extreme Speed|p1b: Incineroar
+|-activate|p1b: Incineroar|move: Psychic Terrain
+|move|p2b: Chien-Pao|Ice Spinner|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|39/100
+|-fieldend|move: Psychic Terrain
+|move|p1b: Incineroar|Flare Blitz|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-enditem|p2b: Chien-Pao|Focus Sash
+|-damage|p2b: Chien-Pao|1/100
+|-damage|p1b: Incineroar|14/100|[from] Recoil
+|move|p1a: Ursaluna|Facade|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1750830924
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|inactive|QuaBao has 30 seconds left.
+|inactive|QuaBao has 20 seconds left.
+|inactive|QuaBao has 15 seconds left.
+|inactive|QuaBao has 10 seconds left.
+|inactive|QuaBao has 5 seconds left.
+|
+|t:|1750830981
+|-terastallize|p1a: Calyrex|Fairy
+|move|p1a: Calyrex|Astral Barrage|p2b: Chien-Pao
+|-resisted|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|win|reznob
+|raw|reznob's rating: 1261 &rarr; <strong>1289</strong><br />(+28 for winning)
+|raw|QuaBao's rating: 1302 &rarr; <strong>1280</strong><br />(-22 for losing)
+|l|☆QuaBao
+|player|p2|
+|l|☆reznob
+|player|p1|

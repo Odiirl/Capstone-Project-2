@@ -1,0 +1,128 @@
+|j|☆cemanu
+|j|☆chico linguiceta
+|t:|1750829878
+|gametype|doubles
+|player|p1|cemanu|cheren-gen5bw2|1293
+|player|p2|chico linguiceta|harlequin|1285
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rayquaza, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Hitmontop, L50, M|
+|teampreview|4
+|
+|t:|1750829914
+|start
+|switch|p1a: Rayquaza|Rayquaza, L50, shiny|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, L50, M, shiny|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M, shiny|100/100
+|-ability|p1a: Rayquaza|Air Lock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-fail|p1a: Rayquaza|unboost|[from] item: Clear Amulet|[of] p1a: Rayquaza
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1750829943
+|move|p1b: Farigiraf|Ally Switch|p1b: Farigiraf
+|swap|p1b: Farigiraf|0|[from] move: Ally Switch
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2a: Hitmontop
+|move|p1b: Rayquaza|Swords Dance|p1b: Rayquaza
+|-boost|p1b: Rayquaza|atk|2
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldstart|move: Trick Room|[of] p2b: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1750829956
+|-terastallize|p1b: Rayquaza|Normal
+|move|p2b: Oranguru|Protect|p2b: Oranguru
+|-singleturn|p2b: Oranguru|Protect
+|move|p1b: Rayquaza|Extreme Speed|p2b: Oranguru
+|-activate|p2b: Oranguru|move: Protect
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2a: Hitmontop
+|move|p1a: Farigiraf|Dazzling Gleam|p2b: Oranguru|[spread] p2a
+|-activate|p2b: Oranguru|move: Protect
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|71/100
+|-enditem|p2a: Hitmontop|Eject Button
+|
+|t:|1750829969
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750829978
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Farigiraf|Helping Hand|p1b: Rayquaza
+|-singleturn|p1b: Rayquaza|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Rayquaza|Extreme Speed|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|move|p2a: Ursaluna|Blood Moon|p1b: Rayquaza
+|-damage|p1b: Rayquaza|7/100
+|-damage|p2a: Ursaluna|90/100|[from] item: Life Orb
+|move|p2b: Oranguru|Instruct|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Ursaluna|Blood Moon|p1b: Rayquaza
+|-crit|p1b: Rayquaza
+|-damage|p1b: Rayquaza|0 fnt
+|faint|p1b: Rayquaza
+|-damage|p2a: Ursaluna|80/100|[from] item: Life Orb
+|-hint|Some effects can force a Pokemon to use Blood Moon again in a row.
+|
+|upkeep
+|
+|t:|1750829980
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|t:|1750830000
+|move|p1a: Farigiraf|Ally Switch|p1a: Farigiraf
+|swap|p1a: Farigiraf|1|[from] move: Ally Switch
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|17/100
+|move|p2a: Ursaluna|Hyper Voice|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Chien-Pao|17/100
+|-damage|p1b: Farigiraf|51/100
+|-damage|p2a: Ursaluna|7/100|[from] item: Life Orb
+|move|p2b: Oranguru|Instruct|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Ursaluna|Hyper Voice|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Chien-Pao|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Chien-Pao
+|faint|p1b: Farigiraf
+|-damage|p2a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p2a: Ursaluna
+|
+|upkeep
+|-message|cemanu forfeited.
+|
+|win|chico linguiceta
+|raw|cemanu's rating: 1293 &rarr; <strong>1267</strong><br />(-26 for losing)
+|raw|chico linguiceta's rating: 1285 &rarr; <strong>1311</strong><br />(+26 for winning)
+|l|☆cemanu
+|player|p1|
+|l|☆chico linguiceta
+|player|p2|

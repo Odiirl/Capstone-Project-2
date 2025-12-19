@@ -1,0 +1,171 @@
+|j|☆TheRealWristTwist
+|j|☆Jungle211
+|t:|1750813654
+|gametype|doubles
+|player|p1|TheRealWristTwist|265|1307
+|player|p2|Jungle211|hugh|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Perrserker, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Chesnaught, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheRealWristTwist)
+TheRealWristTwist rejected open team sheets.
+|
+|t:|1750813709
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|switch|p2b: Perrserker|Perrserker, L50, M|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750813730
+|move|p2b: Perrserker|Fake Out|p1a: Gothitelle
+|-damage|p1a: Gothitelle|90/100
+|cant|p1a: Gothitelle|flinch
+|move|p1b: Scream Tail|Perish Song|p1b: Scream Tail
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Scream Tail|perish3|[silent]
+|-start|p2a: Zacian|perish3|[silent]
+|-start|p2b: Perrserker|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Zacian|Behemoth Blade|p1b: Scream Tail
+|-supereffective|p1b: Scream Tail
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|
+|-heal|p1a: Gothitelle|97/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish3
+|-start|p2b: Perrserker|perish3
+|-start|p1a: Gothitelle|perish3
+|upkeep
+|
+|t:|1750813752
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|inactive|Jungle211 has 30 seconds left.
+|inactive|Jungle211 has 20 seconds left.
+|
+|t:|1750813788
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Zacian|Behemoth Blade|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|move|p2b: Perrserker|Iron Head|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|100/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish2
+|-start|p2b: Perrserker|perish2
+|-start|p1a: Gothitelle|perish2
+|upkeep
+|turn|3
+|inactive|TheRealWristTwist has 30 seconds left.
+|
+|t:|1750813819
+|-terastallize|p2a: Zacian|Ground
+|-terastallize|p1b: Koraidon|Fire
+|move|p2a: Zacian|Tera Blast|p1b: Koraidon|[anim] Tera Blast Ground
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2b: Perrserker|Close Combat|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|77/100
+|-unboost|p2b: Perrserker|def|1
+|-unboost|p2b: Perrserker|spd|1
+|move|p1a: Gothitelle|Taunt|p2a: Zacian
+|-start|p2a: Zacian|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|83/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish1
+|-start|p2b: Perrserker|perish1
+|-start|p1a: Gothitelle|perish1
+|upkeep
+|
+|t:|1750813840
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|4
+|
+|t:|1750813849
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Zacian|Tera Blast|p1b: Miraidon|[anim] Tera Blast Ground
+|-activate|p1b: Miraidon|move: Protect
+|move|p2b: Perrserker|Close Combat|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gothitelle|89/100|[from] item: Leftovers
+|-start|p2a: Zacian|perish0
+|-start|p2b: Perrserker|perish0
+|-start|p1a: Gothitelle|perish0
+|faint|p2a: Zacian
+|faint|p2b: Perrserker
+|faint|p1a: Gothitelle
+|upkeep
+|
+|t:|1750813852
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Miraidon|atk|1
+|turn|5
+|
+|t:|1750813874
+|move|p2b: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|88/100
+|move|p2a: Kyogre|Ice Beam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|29/100
+|cant|p1b: Miraidon|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750813885
+|move|p2a: Kyogre|Ice Beam|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|Jungle211
+|raw|TheRealWristTwist's rating: 1307 &rarr; <strong>1284</strong><br />(-23 for losing)
+|raw|Jungle211's rating: 1263 &rarr; <strong>1291</strong><br />(+28 for winning)
+|l|☆Jungle211
+|player|p2|

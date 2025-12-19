@@ -1,0 +1,204 @@
+|j|☆Altimetfarmer
+|j|☆MMB2006
+|t:|1750746425
+|gametype|doubles
+|player|p1|Altimetfarmer|102|1633
+|player|p2|MMB2006|266|1701
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|j| Prasoooon
+|
+|t:|1750746472
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750746544
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Brute Bonnet|[spread] 
+|-activate|p2a: Brute Bonnet|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Brute Bonnet|Spore|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750746576
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Brute Bonnet|[spread] 
+|-activate|p2a: Brute Bonnet|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Brute Bonnet|Spore|p1b: Smeargle
+|-status|p1b: Smeargle|slp|[from] move: Spore
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750746606
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|cant|p1b: Smeargle|slp
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|69/100
+|-damage|p2b: Lunala|89/100
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|spd|1
+|upkeep
+|turn|4
+|
+|t:|1750746634
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p2a: Ursaluna|Facade|p1b: Smeargle
+|-damage|p1b: Smeargle|21/100 slp
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|-damage|p2a: Ursaluna|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1750746650
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|5
+|
+|t:|1750746674
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|35/100 brn
+|-damage|p2b: Lunala|66/100
+|-unboost|p2a: Ursaluna|spe|1
+|
+|-damage|p2a: Ursaluna|29/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1750746700
+|-terastallize|p1b: Zamazenta|Grass
+|move|p2a: Ursaluna|Headlong Rush|p1b: Zamazenta
+|-resisted|p1b: Zamazenta
+|-damage|p1b: Zamazenta|79/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-damage|p1b: Zamazenta|20/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Lunala|[spread] 
+|-miss|p1a: Tornadus|p2a: Ursaluna
+|-miss|p1a: Tornadus|p2b: Lunala
+|move|p1b: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|26/100
+|
+|-damage|p2a: Ursaluna|23/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750746738
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Tornadus|Protect|p1a: Tornadus
+|-singleturn|p1a: Tornadus|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Lunala|Moongeist Beam|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750746756
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: Altimetfarmer|move: Tailwind
+|move|p1b: Zamazenta|Heavy Slam|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p2a: Koraidon|Flame Charge|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Zamazenta
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750746782
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|turn|9
+|
+|t:|1750746811
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Brute Bonnet|Sucker Punch|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|move|p2a: Koraidon|Flare Blitz|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-damage|p2a: Koraidon|57/100|[from] Recoil
+|-damage|p2a: Koraidon|47/100|[from] item: Life Orb
+|
+|win|MMB2006
+|raw|Altimetfarmer's rating: 1633 &rarr; <strong>1616</strong><br />(-17 for losing)
+|raw|MMB2006's rating: 1681 &rarr; <strong>1698</strong><br />(+17 for winning)
+|l|☆Altimetfarmer
+|player|p1|
+|l| Prasoooon

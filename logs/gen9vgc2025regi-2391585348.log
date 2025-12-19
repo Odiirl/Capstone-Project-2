@@ -1,0 +1,184 @@
+|j|☆ottotheotocyon
+|j|☆0eaq
+|t:|1750872854
+|gametype|doubles
+|player|p1|ottotheotocyon|dancer|1027
+|player|p2|0eaq|169|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|
+|t:|1750872885
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Raichu|Raichu-Alola, L50, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Raichu|Electric Seed
+|-boost|p1b: Raichu|def|1|[from] item: Electric Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|1
+|c|☆0eaq|!dt surge surfer
+|raw|<ul class="utilichart"><li class="result"><span class="col namecol"><a href="https://dex.pokemonshowdown.com/abilities/surgesurfer">Surge Surfer</a></span> <span class="col abilitydesccol">If Electric Terrain is active, this Pokemon's Speed is doubled.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Gen:</font> 7</font>
+
+|
+|t:|1750872914
+|move|p1b: Raichu|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|96/100
+|-damage|p1b: Raichu|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p2b: Incineroar|flinch
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: 0eaq|move: Light Screen
+|move|p1a: Miraidon|Electro Drift|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|4/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750872932
+|switch|p1a: Gastrodon|Gastrodon, L50, F|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: 0eaq|Reflect
+|move|p1b: Raichu|Surf|p2a: Grimmsnarl|[spread] p2a,p2b
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|-crit|p2a: Grimmsnarl
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Incineroar|78/100
+|faint|p2a: Grimmsnarl
+|move|p2b: Incineroar|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|61/100
+|-enditem|p1a: Gastrodon|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750872952
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|turn|3
+|
+|t:|1750872973
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: 0eaq|move: Tailwind
+|move|p1b: Raichu|Rain Dance|p1b: Raichu
+|-weather|RainDance
+|move|p2b: Incineroar|Parting Shot|p1a: Gastrodon
+|-unboost|p1a: Gastrodon|atk|1
+|-unboost|p1a: Gastrodon|spa|1
+|
+|t:|1750872980
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100|[from] Parting Shot
+|move|p1a: Gastrodon|Weather Ball|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|74/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750873000
+|switch|p2a: Incineroar|Incineroar, L50, M|78/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gastrodon|atk|1
+|-unboost|p1b: Raichu|atk|1
+|-terastallize|p2b: Archaludon|Electric
+|move|p1b: Raichu|Surf|p2b: Archaludon|[spread] p2a,p2b
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|-damage|p2b: Archaludon|52/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Raichu
+|-resisted|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|move|p1a: Gastrodon|Icy Wind|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|47/100
+|-damage|p2b: Archaludon|39/100
+|-unboost|p2a: Incineroar|spe|1
+|-unboost|p2b: Archaludon|spe|1
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750873017
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ottotheotocyon)
+|
+|t:|1750873085
+|move|p2a: Incineroar|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|89/100
+|cant|p1b: Miraidon|flinch
+|move|p2b: Archaludon|Aura Sphere|p1b: Miraidon
+|-damage|p1b: Miraidon|50/100
+|move|p1a: Gastrodon|Earth Power|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750873098
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|turn|6
+|
+|t:|1750873109
+|move|p2b: Tornadus|Protect|p2b: Tornadus
+|-singleturn|p2b: Tornadus|Protect
+|move|p1b: Miraidon|Electro Drift|p2b: Tornadus
+|-activate|p2b: Tornadus|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Miraidon
+|-damage|p1b: Miraidon|9/100
+|-enditem|p1b: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Gastrodon|Weather Ball|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: 0eaq|move: Tailwind
+|upkeep
+|turn|7
+|-message|0eaq forfeited.
+|
+|win|ottotheotocyon
+|raw|ottotheotocyon's rating: 1027 &rarr; <strong>1070</strong><br />(+43 for winning)
+|raw|0eaq's rating: 1096 &rarr; <strong>1067</strong><br />(-29 for losing)
+|l|☆0eaq
+|player|p2|

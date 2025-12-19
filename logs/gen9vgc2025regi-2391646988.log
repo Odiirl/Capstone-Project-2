@@ -1,0 +1,230 @@
+|j|☆MusicalPenguino
+|j|☆Lukbert
+|t:|1750879465
+|gametype|doubles
+|player|p1|MusicalPenguino|zinzolin|1290
+|player|p2|Lukbert|102|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Regieleki, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Mewtwo, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|
+|t:|1750879511
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Calyrex|Psychic Seed
+|-boost|p2a: Calyrex|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750879560
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-terastallize|p2a: Calyrex|Water
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|72/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-resisted|p1b: Kyogre
+|-damage|p1a: Zacian|75/100
+|-damage|p1b: Kyogre|68/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750879601
+|switch|p2a: Iron Hands|Iron Hands, L50, shiny|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Kyogre|Origin Pulse|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|50/100
+|-damage|p2b: Indeedee|19/100
+|-enditem|p2b: Indeedee|Sitrus Berry|[eat]
+|-heal|p2b: Indeedee|44/100|[from] item: Sitrus Berry
+|move|p1a: Zacian|Sacred Sword|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750879614
+|switch|p2b: Mewtwo|Mewtwo, L50|100/100
+|-ability|p2b: Mewtwo|Pressure
+|turn|3
+|
+|t:|1750879624
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Iron Hands|Thunder Punch|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p2b: Mewtwo|Expanding Force|p1b: Kyogre|[spread] 
+|-activate|p1a: Zacian|move: Protect
+|-activate|p1b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750879645
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2a: Iron Hands|Thunder Punch|p1b: Farigiraf
+|-damage|p1b: Farigiraf|66/100
+|move|p2b: Mewtwo|Expanding Force|p1a: Zacian|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-resisted|p1b: Farigiraf
+|-damage|p1a: Zacian|44/100
+|-damage|p1b: Farigiraf|34/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|59/100|[from] item: Sitrus Berry
+|move|p1a: Zacian|Play Rough|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750879668
+|switch|p2a: Calyrex|Calyrex-Ice, L50, tera:Water|72/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750879682
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Zacian|[spread] p1b
+|-activate|p1a: Zacian|move: Protect
+|-damage|p1b: Farigiraf|12/100
+|move|p1b: Farigiraf|Foul Play|p2a: Calyrex
+|-damage|p2a: Calyrex|44/100
+|move|p2b: Mewtwo|Aura Sphere|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750879710
+|move|p1b: Farigiraf|Helping Hand|p1a: Zacian
+|-singleturn|p1a: Zacian|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Zacian|Behemoth Blade|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Mewtwo|Trick Room|p2b: Mewtwo
+|-fieldstart|move: Trick Room|[of] p2b: Mewtwo
+|
+|upkeep
+|turn|7
+|
+|t:|1750879729
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Zacian|[spread] 
+|-activate|p1a: Zacian|move: Protect
+|-activate|p1b: Farigiraf|move: Protect
+|move|p2b: Mewtwo|Aura Sphere|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1750879772
+|move|p1b: Farigiraf|Helping Hand|p1a: Zacian
+|-singleturn|p1a: Zacian|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Calyrex|Glacial Lance|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|14/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Mewtwo|Aura Sphere|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|
+|upkeep
+|
+|t:|1750879787
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p1a: Kyogre|Kyogre, L50|68/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|9
+|
+|t:|1750879796
+|move|p1b: Landorus|Protect|p1b: Landorus
+|-singleturn|p1b: Landorus|Protect
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Landorus|[spread] 
+|-activate|p1a: Kyogre|move: Protect
+|-activate|p1b: Landorus|move: Protect
+|move|p2b: Mewtwo|Expanding Force|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1750879817
+|-terastallize|p1b: Landorus|Poison
+|move|p2a: Calyrex|Glacial Lance|p1b: Landorus|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Landorus|6/100
+|faint|p1a: Kyogre
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Landorus|Sandsear Storm|p2b: Mewtwo|[spread] p2a,p2b
+|-damage|p2a: Calyrex|5/100
+|-damage|p2b: Mewtwo|53/100
+|move|p2b: Mewtwo|Expanding Force|p1b: Landorus
+|-supereffective|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|
+|win|Lukbert
+|raw|MusicalPenguino's rating: 1290 &rarr; <strong>1260</strong><br />(-30 for losing)
+|raw|Lukbert's rating: 1217 &rarr; <strong>1247</strong><br />(+30 for winning)
+|l|☆MusicalPenguino
+|player|p1|
+|l|☆Lukbert
+|player|p2|

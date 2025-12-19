@@ -1,0 +1,117 @@
+|j|☆FakeoutPhaseOut
+|j|☆Scottyboi3
+|t:|1750869989
+|gametype|doubles
+|player|p1|FakeoutPhaseOut|2|1018
+|player|p2|Scottyboi3|2|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Snorlax, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Armarouge, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FakeoutPhaseOut)
+|
+|t:|1750870017
+|start
+|switch|p1a: Zap|Miraidon, L50|100/100
+|switch|p1b: Tigz|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Zap
+|-enditem|p1a: Zap|Electric Seed
+|-boost|p1a: Zap|def|1|[from] item: Electric Seed
+|-ability|p1b: Tigz|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Zap|atk|1
+|-unboost|p1b: Tigz|atk|1
+|turn|1
+|
+|t:|1750870037
+|move|p2b: Incineroar|Fake Out|p1a: Zap
+|-damage|p1a: Zap|96/100
+|move|p1b: Tigz|Fake Out|p2a: Tornadus
+|-damage|p2a: Tornadus|87/100
+|cant|p2a: Tornadus|flinch
+|cant|p1a: Zap|flinch
+|
+|upkeep
+|turn|2
+|inactive|FakeoutPhaseOut has 30 seconds left.
+|
+|t:|1750870068
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Scottyboi3|move: Tailwind
+|move|p1a: Zap|Calm Mind|p1a: Zap
+|-boost|p1a: Zap|spa|1
+|-boost|p1a: Zap|spd|1
+|move|p2b: Incineroar|Parting Shot|p1a: Zap
+|-unboost|p1a: Zap|atk|1
+|-unboost|p1a: Zap|spa|1
+|
+|t:|1750870078
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p1b: Tigz|Parting Shot|p2a: Tornadus
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|spa|1
+|
+|t:|1750870086
+|switch|p1b: Cecelia|Indeedee-F, L50, F, shiny|100/100|[from] Parting Shot
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Cecelia
+|
+|upkeep
+|turn|3
+|
+|t:|1750870107
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zap|atk|1
+|-unboost|p1b: Cecelia|atk|1
+|switch|p1a: Ammo|Armarouge, L50, M, shiny|100/100
+|move|p1b: Cecelia|Fake Out|p2a: Incineroar
+|-activate|p2a: Incineroar|move: Psychic Terrain
+|move|p2b: Amoonguss|Spore|p1a: Ammo
+|-status|p1a: Ammo|slp|[from] move: Spore
+|
+|upkeep
+|turn|4
+|inactive|Scottyboi3 has 30 seconds left.
+|
+|t:|1750870135
+|switch|p1a: Tigz|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Tigz|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|move|p2a: Incineroar|Fake Out|p1b: Cecelia
+|-activate|p1b: Cecelia|move: Psychic Terrain
+|move|p1b: Cecelia|Follow Me|p1b: Cecelia
+|-singleturn|p1b: Cecelia|move: Follow Me
+|move|p2b: Amoonguss|Spore|p1b: Cecelia
+|-status|p1b: Cecelia|slp|[from] move: Spore
+|
+|upkeep
+|turn|5
+|-message|FakeoutPhaseOut forfeited.
+|
+|win|Scottyboi3
+|raw|FakeoutPhaseOut's rating: 1018 &rarr; <strong>1005</strong><br />(-13 for losing)
+|raw|Scottyboi3's rating: 1000 &rarr; <strong>1042</strong><br />(+42 for winning)
+|l|☆FakeoutPhaseOut
+|player|p1|

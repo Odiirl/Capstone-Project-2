@@ -1,0 +1,320 @@
+|j|☆huanchen
+|j|☆nicopejo
+|t:|1750856528
+|gametype|doubles
+|player|p1|huanchen|red|1197
+|player|p2|nicopejo|blaine|1151
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Sableye, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by huanchen)
+|
+|t:|1750856536
+|start
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p1b: Dondozo|Dondozo, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Glimmora|Glimmora, L50, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750856551
+|move|p2a: Sableye|Reflect|p2a: Sableye
+|-sidestart|p2: nicopejo|Reflect
+|move|p2b: Glimmora|Toxic|p1b: Dondozo
+|-status|p1b: Dondozo|tox
+|move|p1a: Ting-Lu|Taunt|p2a: Sableye
+|-start|p2a: Sableye|move: Taunt
+|move|p1b: Dondozo|Yawn|p2b: Glimmora
+|-start|p2b: Glimmora|move: Yawn|[of] p1b: Dondozo
+|
+|-damage|p1b: Dondozo|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1750856571
+|switch|p2a: Wo-Chien|Wo-Chien, L50|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p2b: Glimmora|Toxic Spikes|p1b: Dondozo
+|-sidestart|p1: huanchen|move: Toxic Spikes
+|move|p1a: Ting-Lu|Ruination|p2b: Glimmora
+|-damage|p2b: Glimmora|51/100
+|move|p1b: Dondozo|Yawn|p2a: Wo-Chien
+|-start|p2a: Wo-Chien|move: Yawn|[of] p1b: Dondozo
+|
+|-heal|p1b: Dondozo|100/100 tox|[from] item: Leftovers
+|-damage|p1b: Dondozo|88/100 tox|[from] psn
+|-end|p2b: Glimmora|move: Yawn|[silent]
+|-status|p2b: Glimmora|slp
+|upkeep
+|turn|3
+|
+|t:|1750856592
+|cant|p2b: Glimmora|slp
+|move|p2a: Wo-Chien|Leech Seed|p1b: Dondozo
+|-start|p1b: Dondozo|move: Leech Seed
+|move|p1a: Ting-Lu|Ruination|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|50/100
+|move|p1b: Dondozo|Wave Crash|p2b: Glimmora
+|-supereffective|p2b: Glimmora
+|-damage|p2b: Glimmora|6/100 slp
+|-damage|p1b: Dondozo|78/100 tox|[from] Recoil
+|
+|-heal|p1b: Dondozo|84/100 tox|[from] item: Leftovers
+|-damage|p1b: Dondozo|72/100 tox|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|67/100|[silent]
+|-damage|p1b: Dondozo|53/100 tox|[from] psn
+|-end|p2a: Wo-Chien|move: Yawn|[silent]
+|-status|p2a: Wo-Chien|slp
+|upkeep
+|turn|4
+|
+|t:|1750856613
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-status|p1a: Calyrex|psn
+|-curestatus|p2b: Glimmora|slp|[msg]
+|move|p2b: Glimmora|Toxic||[still]
+|-fail|p2b: Glimmora
+|cant|p2a: Wo-Chien|slp
+|move|p1b: Dondozo|Wave Crash|p2b: Glimmora
+|-supereffective|p2b: Glimmora
+|-damage|p2b: Glimmora|0 fnt
+|faint|p2b: Glimmora
+|-damage|p1b: Dondozo|52/100 tox|[from] Recoil
+|
+|-heal|p1b: Dondozo|58/100 tox|[from] item: Leftovers
+|-damage|p1b: Dondozo|46/100 tox|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|84/100 slp|[silent]
+|-damage|p1a: Calyrex|88/100 psn|[from] psn
+|-damage|p1b: Dondozo|21/100 tox|[from] psn
+|upkeep
+|
+|t:|1750856635
+|switch|p2b: Sableye|Sableye, L50, M|100/100
+|turn|5
+|
+|t:|1750856644
+|move|p2b: Sableye|Light Screen|p2b: Sableye
+|-sidestart|p2: nicopejo|move: Light Screen
+|move|p1a: Calyrex|Astral Barrage|p2a: Wo-Chien|[spread] p2a,p2b
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|72/100 slp
+|-damage|p2b: Sableye|48/100
+|cant|p2a: Wo-Chien|slp
+|move|p1b: Dondozo|Wave Crash|p2b: Sableye
+|-damage|p2b: Sableye|27/100
+|-damage|p1b: Dondozo|17/100 tox|[from] Recoil
+|
+|-heal|p1b: Dondozo|23/100 tox|[from] item: Leftovers
+|-damage|p1b: Dondozo|10/100 tox|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|89/100 slp|[silent]
+|-damage|p1a: Calyrex|76/100 psn|[from] psn
+|-damage|p1b: Dondozo|0 fnt|[from] psn
+|faint|p1b: Dondozo
+|upkeep
+|
+|t:|1750856664
+|switch|p1b: Ting-Lu|Ting-Lu, L50|100/100
+|-status|p1b: Ting-Lu|psn
+|-ability|p1b: Ting-Lu|Vessel of Ruin
+|turn|6
+|
+|t:|1750856675
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|move|p1a: Calyrex|Astral Barrage|p2a: Wo-Chien|[spread] p2a,p2b
+|-resisted|p2a: Wo-Chien
+|-resisted|p2b: Ting-Lu
+|-crit|p2b: Ting-Lu
+|-damage|p2a: Wo-Chien|79/100 slp
+|-damage|p2b: Ting-Lu|79/100
+|-curestatus|p2a: Wo-Chien|slp|[msg]
+|move|p2a: Wo-Chien|Leech Seed|p1a: Calyrex|[miss]
+|-miss|p2a: Wo-Chien|p1a: Calyrex
+|move|p1b: Ting-Lu|Ruination|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|40/100
+|
+|-heal|p2b: Ting-Lu|85/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|64/100 psn|[from] psn
+|-damage|p1b: Ting-Lu|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750856699
+|-terastallize|p1a: Calyrex|Ghost
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Wo-Chien|[spread] p2b
+|-activate|p2a: Wo-Chien|move: Protect
+|-resisted|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|70/100
+|move|p1b: Ting-Lu|Ruination|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|36/100
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Calyrex|[miss]
+|-miss|p2b: Ting-Lu|p1a: Calyrex
+|
+|-heal|p2b: Ting-Lu|42/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|52/100 psn|[from] psn
+|-damage|p1b: Ting-Lu|76/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750856720
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1a: Calyrex|Astral Barrage|p2a: Wo-Chien|[spread] p2a
+|-activate|p2b: Ting-Lu|move: Protect
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|27/100
+|move|p2a: Wo-Chien|Leech Seed|p1a: Calyrex
+|-start|p1a: Calyrex|move: Leech Seed
+|move|p1b: Ting-Lu|Sand Tomb|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|-heal|p2b: Ting-Lu|48/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|40/100 psn|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|38/100|[silent]
+|-damage|p1a: Calyrex|29/100 psn|[from] psn
+|-damage|p1b: Ting-Lu|63/100 psn|[from] psn
+|-sideend|p2: nicopejo|Reflect
+|upkeep
+|turn|9
+|
+|t:|1750856743
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Ting-Lu|[spread] p2b
+|-activate|p2a: Wo-Chien|move: Protect
+|-resisted|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|33/100
+|move|p1b: Ting-Lu|Ruination|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|17/100
+|move|p2b: Ting-Lu|Snarl|p1b: Ting-Lu|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Ting-Lu
+|-damage|p1a: Calyrex|8/100 psn
+|-damage|p1b: Ting-Lu|61/100 psn
+|-unboost|p1a: Calyrex|spa|1
+|-unboost|p1b: Ting-Lu|spa|1
+|
+|-heal|p2b: Ting-Lu|23/100|[from] item: Leftovers
+|-damage|p1a: Calyrex|0 fnt|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|45/100|[silent]
+|faint|p1a: Calyrex
+|-damage|p1b: Ting-Lu|48/100 psn|[from] psn
+|upkeep
+|
+|t:|1750856762
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|t:|1750856777
+|-terastallize|p2a: Wo-Chien|Poison
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1a: Zamazenta|Body Press|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|23/100
+|-damage|p1a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p2a: Wo-Chien
+|move|p2a: Wo-Chien|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|move|p1b: Ting-Lu|Ruination|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|-heal|p2b: Ting-Lu|29/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|72/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|34/100|[silent]
+|-damage|p1b: Ting-Lu|36/100 psn|[from] psn
+|upkeep
+|turn|11
+|inactive|huanchen has 30 seconds left.
+|inactive|nicopejo has 30 seconds left.
+|
+|t:|1750856803
+|switch|p2b: Sableye|Sableye, L50, M|27/100
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Zamazenta|Body Press|p2b: Sableye
+|-immune|p2b: Sableye
+|move|p1b: Ting-Lu|Sand Tomb|p2b: Sableye
+|-damage|p2b: Sableye|17/100
+|-activate|p2b: Sableye|move: Sand Tomb|[of] p1b: Ting-Lu
+|
+|-damage|p1a: Zamazenta|59/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|46/100|[silent]
+|-damage|p1b: Ting-Lu|24/100 psn|[from] psn
+|-damage|p2b: Sableye|5/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1750856824
+|move|p2b: Sableye|Reflect|p2b: Sableye
+|-sidestart|p2: nicopejo|Reflect
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|29/100
+|-damage|p1a: Zamazenta|43/100|[from] item: Rocky Helmet|[of] p2a: Wo-Chien
+|move|p2a: Wo-Chien|Ruination|p1a: Zamazenta
+|-damage|p1a: Zamazenta|22/100
+|move|p1b: Ting-Lu|Sand Tomb|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|20/100
+|-activate|p2a: Wo-Chien|move: Sand Tomb|[of] p1b: Ting-Lu
+|
+|-damage|p1a: Zamazenta|9/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|32/100|[silent]
+|-damage|p1b: Ting-Lu|11/100 psn|[from] psn
+|-damage|p2a: Wo-Chien|19/100|[from] move: Sand Tomb|[partiallytrapped]
+|-damage|p2b: Sableye|0 fnt|[from] move: Sand Tomb|[partiallytrapped]
+|faint|p2b: Sableye
+|-sideend|p2: nicopejo|move: Light Screen
+|upkeep
+|
+|t:|1750856843
+|switch|p2b: Ting-Lu|Ting-Lu, L50|29/100
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|13
+|
+|t:|1750856859
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Wo-Chien
+|-activate|p2a: Wo-Chien|move: Protect
+|move|p1b: Ting-Lu|Sand Tomb|p2b: Ting-Lu
+|-activate|p2b: Ting-Lu|move: Protect
+|
+|-heal|p2b: Ting-Lu|35/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|0 fnt|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|27/100|[silent]
+|faint|p1a: Zamazenta
+|-damage|p1b: Ting-Lu|0 fnt|[from] psn
+|faint|p1b: Ting-Lu
+|
+|win|nicopejo
+|raw|huanchen's rating: 1197 &rarr; <strong>1169</strong><br />(-28 for losing)
+|raw|nicopejo's rating: 1151 &rarr; <strong>1179</strong><br />(+28 for winning)
+|l|☆nicopejo
+|player|p2|
+|l|☆huanchen
+|player|p1|

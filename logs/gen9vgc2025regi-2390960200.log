@@ -1,0 +1,171 @@
+|j|☆IPlayUmbreon
+|j|☆AmarnaLetters
+|t:|1750787263
+|gametype|doubles
+|player|p1|IPlayUmbreon|265|1428
+|player|p2|AmarnaLetters|dawn|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ho-Oh, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AmarnaLetters)
+|inactive|IPlayUmbreon has 60 seconds left.
+|inactive|AmarnaLetters has 60 seconds left.
+|
+|t:|1750787315
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|inactive|AmarnaLetters has 30 seconds left.
+|
+|t:|1750787340
+|move|p2b: Rillaboom|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|86/100
+|cant|p1b: Rillaboom|flinch
+|move|p2a: Terapagos|Tera Starstorm|p1a: Calyrex
+|-damage|p1a: Calyrex|42/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|48/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|91/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750787359
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|move|p1b: Rillaboom|Grassy Glide|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|90/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|52/100
+|-damage|p2b: Clefairy|47/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-heal|p2b: Clefairy|54/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|58/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750787362
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750787382
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|69/100|[silent]
+|-ability|p2a: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|move|p2b: Clefairy|After You|p2a: Terapagos
+|-activate|p2a: Terapagos|move: After You
+|move|p2a: Terapagos|Tera Starstorm|p1b: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Kyogre|63/100
+|-damage|p1b: Rillaboom|60/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Clefairy
+|-damage|p2b: Clefairy|6/100
+|-damage|p1b: Rillaboom|47/100|[from] Recoil
+|move|p1a: Kyogre|Water Spout|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|45/100
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|
+|upkeep
+|
+|t:|1750787403
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|4
+|
+|t:|1750787411
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p1b: Rillaboom|U-turn|p2a: Terapagos
+|-damage|p2a: Terapagos|35/100
+|
+|t:|1750787417
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100|[from] U-turn
+|move|p2a: Terapagos|Tera Starstorm|p1b: Urshifu|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-damage|p1b: Urshifu|18/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750787435
+|switch|p1b: Rillaboom|Rillaboom, L50, F|47/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Incineroar|Parting Shot|p1a: Kyogre
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1a: Kyogre|spa|1
+|
+|t:|1750787442
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|move|p1a: Kyogre|Origin Pulse|p2b: Rillaboom|[spread] p2a
+|-miss|p1a: Kyogre|p2b: Rillaboom
+|-damage|p2a: Terapagos|12/100
+|move|p2a: Terapagos|Tera Starstorm|p1b: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Kyogre|25/100
+|-damage|p1b: Rillaboom|12/100
+|
+|-heal|p1b: Rillaboom|18/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|31/100|[from] Grassy Terrain
+|-heal|p2a: Terapagos|18/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750787457
+|move|p2b: Rillaboom|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|3/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Kyogre|[spread] p1a,p1b
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Rillaboom
+|
+|-heal|p2a: Terapagos|24/100|[from] Grassy Terrain
+|upkeep
+|-message|IPlayUmbreon forfeited.
+|
+|win|AmarnaLetters
+|raw|IPlayUmbreon's rating: 1428 &rarr; <strong>1408</strong><br />(-20 for losing)
+|raw|AmarnaLetters's rating: 1434 &rarr; <strong>1454</strong><br />(+20 for winning)
+|l|☆IPlayUmbreon
+|player|p1|
+|c|☆AmarnaLetters|Gg

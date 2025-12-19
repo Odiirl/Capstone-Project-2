@@ -1,0 +1,137 @@
+|j|☆unfurroml
+|j|☆catsue
+|t:|1750825068
+|gametype|doubles
+|player|p1|unfurroml|spark|1224
+|player|p2|catsue|roxie|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Leaves, L50|
+|poke|p2|Orthworm, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|
+|t:|1750825085
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|
+|t:|1750825106
+|-terastallize|p2a: Ho-Oh|Grass
+|move|p1b: Tornadus|Taunt|p2b: Sinistcha
+|-start|p2b: Sinistcha|move: Taunt
+|move|p1a: Miraidon|Volt Switch|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|70/100
+|
+|t:|1750825113
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Sinistcha|atk|1
+|move|p2b: Sinistcha|Shadow Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|82/100
+|move|p2a: Ho-Oh|Tailwind|p2a: Ho-Oh
+|-sidestart|p2: catsue|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1750825126
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p1a: Incineroar|Fake Out|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|62/100
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: unfurroml|move: Tailwind
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Tornadus
+|-damage|p1b: Tornadus|59/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750825146
+|switch|p2a: Iron Leaves|Iron Leaves, L50|100/100
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdriveatk
+|move|p2b: Miraidon|Volt Switch|p1b: Tornadus
+|-supereffective|p1b: Tornadus
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|
+|t:|1750825156
+|switch|p2b: Ho-Oh|Ho-Oh, L50, tera:Grass|95/100|[from] Volt Switch
+|move|p1a: Incineroar|Parting Shot|p2b: Ho-Oh
+|-unboost|p2b: Ho-Oh|atk|1
+|-unboost|p2b: Ho-Oh|spa|1
+|
+|t:|1750825161
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100|[from] Parting Shot
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|upkeep
+|
+|t:|1750825164
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750825174
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Iron Leaves|[spread] p2a,p2b
+|-crit|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|-damage|p2b: Ho-Oh|55/100
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|move|p1a: Zamazenta|Body Press|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|0 fnt
+|faint|p2b: Ho-Oh
+|
+|-sideend|p2: catsue|move: Tailwind
+|upkeep
+|
+|t:|1750825184
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750825196
+|move|p1b: Miraidon|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Sinistcha|11/100
+|faint|p2a: Miraidon
+|move|p1a: Zamazenta|Heavy Slam|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|
+|win|unfurroml
+|raw|unfurroml's rating: 1224 &rarr; <strong>1251</strong><br />(+27 for winning)
+|raw|catsue's rating: 1249 &rarr; <strong>1222</strong><br />(-27 for losing)
+|l|☆catsue
+|player|p2|
+|l|☆unfurroml
+|player|p1|

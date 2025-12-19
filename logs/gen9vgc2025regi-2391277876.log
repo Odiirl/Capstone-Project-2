@@ -1,0 +1,175 @@
+|j|☆SebasJck
+|j|☆Classyyassen
+|t:|1750827128
+|gametype|doubles
+|player|p1|SebasJck|ninjaboy|1216
+|player|p2|Classyyassen|102|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Bruxish, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|
+|t:|1750827150
+|start
+|switch|p1a: Bruxish|Bruxish, L50, F, shiny|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Boss|Calyrex-Shadow, L50|100/100
+|switch|p2b: Big Body|Incineroar, L50, M|100/100
+|-ability|p2a: Boss|As One
+|-ability|p2a: Boss|Unnerve
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Big Body|Intimidate|boost
+|-unboost|p1a: Bruxish|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|
+|t:|1750827182
+|-terastallize|p1b: Calyrex|Fire
+|move|p2b: Big Body|Fake Out||[still]
+|cant|p1a: Bruxish|ability: Dazzling|Fake Out|[of] p2b: Big Body
+|move|p1a: Bruxish|Flip Turn|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|70/100
+|-enditem|p1b: Calyrex|Weakness Policy
+|-boost|p1b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Calyrex|spa|2|[from] item: Weakness Policy
+|
+|t:|1750827193
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100|[from] Flip Turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Calyrex|Expanding Force|p2b: Big Body|[spread] p2a
+|-immune|p2b: Big Body
+|-resisted|p2a: Boss
+|-damage|p2a: Boss|33/100
+|move|p2a: Boss|Astral Barrage|p1b: Calyrex|[spread] p1b
+|-immune|p1a: Indeedee
+|-damage|p1b: Calyrex|8/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750827217
+|move|p2a: Boss|Protect|p2a: Boss
+|-singleturn|p2a: Boss|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2a: Boss|[spread] p2b
+|-activate|p2a: Boss|move: Protect
+|-resisted|p2b: Big Body
+|-damage|p2b: Big Body|52/100
+|move|p2b: Big Body|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|2/100
+|-enditem|p1a: Indeedee|Mental Herb|[from] move: Knock Off|[of] p2b: Big Body
+|
+|upkeep
+|turn|3
+|
+|t:|1750827238
+|switch|p2a: Unexpected support|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Unexpected support
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Calyrex|Astral Barrage|p2a: Unexpected support|[spread] p2a,p2b
+|-crit|p2a: Unexpected support
+|-resisted|p2b: Big Body
+|-damage|p2a: Unexpected support|0 fnt
+|-damage|p2b: Big Body|8/100
+|faint|p2a: Unexpected support
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p2b: Big Body|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-heal|p1b: Calyrex|14/100|[from] Grassy Terrain
+|-heal|p2b: Big Body|14/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827263
+|switch|p2a: Healer|Amoonguss, L50, M|100/100
+|switch|p1a: Bruxish|Bruxish, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1750827308
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p1a: Bruxish|Flip Turn|p2b: Big Body
+|-supereffective|p2b: Big Body
+|-damage|p2b: Big Body|0 fnt
+|faint|p2b: Big Body
+|
+|t:|1750827315
+|switch|p1a: Koraidon|Koraidon, L50|100/100|[from] Flip Turn
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Healer|Spore|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|19/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750827326
+|switch|p2b: Boss|Calyrex-Shadow, L50|33/100
+|-ability|p2b: Boss|As One
+|-ability|p2b: Boss|Unnerve
+|turn|5
+|
+|t:|1750827341
+|move|p2b: Boss|Protect|p2b: Boss
+|-singleturn|p2b: Boss|Protect
+|move|p1b: Calyrex|Astral Barrage|p2b: Boss|[spread] p2a
+|-activate|p2b: Boss|move: Protect
+|-damage|p2a: Healer|0 fnt
+|faint|p2a: Healer
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Koraidon|Flare Blitz|p2b: Boss
+|-activate|p2b: Boss|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|25/100|[from] Grassy Terrain
+|-heal|p2b: Boss|40/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750827358
+|-terastallize|p2b: Boss|Fairy
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2b: Boss|Astral Barrage|p1b: Calyrex|[spread] p1a
+|-activate|p1b: Calyrex|move: Protect
+|-damage|p1a: Koraidon|48/100
+|move|p1a: Koraidon|Flare Blitz|p2b: Boss
+|-damage|p2b: Boss|0 fnt
+|faint|p2b: Boss
+|-damage|p1a: Koraidon|35/100|[from] Recoil
+|-damage|p1a: Koraidon|26/100|[from] item: Life Orb
+|
+|win|SebasJck
+|raw|SebasJck's rating: 1216 &rarr; <strong>1236</strong><br />(+20 for winning)
+|raw|Classyyassen's rating: 1151 &rarr; <strong>1131</strong><br />(-20 for losing)
+|l|☆SebasJck
+|player|p1|
+|l|☆Classyyassen
+|player|p2|

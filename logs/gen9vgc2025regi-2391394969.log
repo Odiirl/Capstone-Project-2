@@ -1,0 +1,179 @@
+|j|☆kuikoo
+|j|☆turok050
+|t:|1750849544
+|gametype|doubles
+|player|p1|kuikoo|170|1262
+|player|p2|turok050|2|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Walking Wake, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kuikoo)
+|
+|t:|1750849569
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Milotic|Milotic, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1b: Urshifu|atk|1
+|turn|1
+|
+|t:|1750849593
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|move|p2b: Incineroar|Fake Out|p1b: Iron Hands
+|-damage|p1b: Iron Hands|93/100
+|move|p1a: Iron Valiant|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|move|p2a: Milotic|Icy Wind|p1a: Iron Valiant|[spread] p1a,p1b
+|-damage|p1a: Iron Valiant|88/100
+|-damage|p1b: Iron Hands|88/100
+|-unboost|p1a: Iron Valiant|spe|1
+|-unboost|p1b: Iron Hands|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1750849617
+|switch|p2a: Venusaur|Venusaur, L50, F, shiny|100/100
+|move|p2b: Incineroar|Parting Shot|p1b: Iron Hands
+|-unboost|p1b: Iron Hands|atk|1
+|-unboost|p1b: Iron Hands|spa|1
+|
+|t:|1750849624
+|switch|p2b: Milotic|Milotic, L50, F|100/100|[from] Parting Shot
+|move|p1b: Iron Hands|Drain Punch|p2b: Milotic
+|-damage|p2b: Milotic|70/100
+|-heal|p1b: Iron Hands|98/100|[from] drain|[of] p2b: Milotic
+|move|p1a: Iron Valiant|Trick Room|p1a: Iron Valiant
+|-fieldstart|move: Trick Room|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|3
+|inactive|kuikoo has 30 seconds left.
+|
+|t:|1750849651
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p1a: Iron Valiant|Taunt|p2a: Venusaur
+|-start|p2a: Venusaur|move: Taunt
+|move|p2a: Venusaur|Sludge Bomb|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750849664
+|switch|p1a: Iron Hands|Iron Hands, L50|98/100
+|turn|4
+|
+|t:|1750849674
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1b: Kyogre|Water
+|move|p1a: Iron Hands|Fake Out|p2b: Koraidon
+|-damage|p2b: Koraidon|87/100
+|move|p1b: Kyogre|Water Spout|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Venusaur
+|-resisted|p2b: Koraidon
+|-damage|p2a: Venusaur|73/100
+|-damage|p2b: Koraidon|58/100
+|move|p2a: Venusaur|Giga Drain|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|51/100
+|-heal|p2a: Venusaur|100/100|[from] drain|[of] p1b: Kyogre
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|turok050 has 30 seconds left.
+|inactive|turok050 has 20 seconds left.
+|
+|t:|1750849710
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p1a: Iron Hands|Drain Punch|p2b: Koraidon
+|-damage|p2b: Koraidon|22/100
+|-heal|p1a: Iron Hands|100/100|[from] drain|[of] p2b: Koraidon
+|move|p2b: Koraidon|Breaking Swipe|p1b: Kyogre|[spread] p1a
+|-activate|p1b: Kyogre|move: Protect
+|-damage|p1a: Iron Hands|69/100
+|-unboost|p1a: Iron Hands|atk|1
+|move|p2a: Venusaur|Giga Drain|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Venusaur|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1750849733
+|switch|p2b: Milotic|Milotic, L50, F|70/100
+|move|p1a: Iron Hands|Drain Punch|p2b: Milotic
+|-damage|p2b: Milotic|44/100
+|-heal|p1a: Iron Hands|79/100|[from] drain|[of] p2b: Milotic
+|move|p1b: Kyogre|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|19/100
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|25/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750849755
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2a: Venusaur|Giga Drain|p1a: Iron Hands
+|-damage|p1a: Iron Hands|44/100
+|-heal|p2a: Venusaur|52/100|[from] drain|[of] p1a: Iron Hands
+|move|p2b: Milotic|Weather Ball|p1a: Iron Hands
+|-damage|p1a: Iron Hands|23/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|34/100
+|-heal|p1a: Iron Hands|29/100|[from] drain|[of] p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|40/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|kuikoo forfeited.
+|
+|win|turok050
+|raw|kuikoo's rating: 1262 &rarr; <strong>1233</strong><br />(-29 for losing)
+|raw|turok050's rating: 1213 &rarr; <strong>1242</strong><br />(+29 for winning)
+|l|☆kuikoo
+|player|p1|
+|l|☆turok050
+|player|p2|

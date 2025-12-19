@@ -1,0 +1,216 @@
+|j|☆spooki225
+|j|☆Artic 1.0
+|t:|1750741749
+|gametype|doubles
+|player|p1|spooki225|argenta|1240
+|player|p2|Artic 1.0|102|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Wyrdeer, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Artic 1.0)
+|inactive|Artic 1.0 has 60 seconds left.
+|
+|t:|1750741785
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2b: Wyrdeer|Wyrdeer, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p2b: Wyrdeer|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Terapagos|atk|1
+|turn|1
+|inactive|spooki225 has 30 seconds left.
+|
+|t:|1750741813
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p2a: Chien-Pao|Crunch|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|20/100
+|move|p1b: Terapagos|Tera Starstorm|p2a: Chien-Pao|[spread] p2a,p2b
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|-damage|p2b: Wyrdeer|54/100
+|move|p2b: Wyrdeer|Light Screen|p2b: Wyrdeer
+|-sidestart|p2: Artic 1.0|move: Light Screen
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1750741830
+|move|p1a: Farigiraf|Helping Hand|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Chien-Pao|Protect|p2a: Chien-Pao
+|-singleturn|p2a: Chien-Pao|Protect
+|move|p2b: Wyrdeer|Tera Blast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|move|p1b: Terapagos|Tera Starstorm|p2b: Wyrdeer|[spread] p2b
+|-activate|p2a: Chien-Pao|move: Protect
+|-damage|p2b: Wyrdeer|12/100
+|
+|upkeep
+|
+|t:|1750741842
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|-unboost|p2b: Wyrdeer|atk|1
+|turn|3
+|
+|t:|1750741851
+|move|p2a: Chien-Pao|Sucker Punch|p1b: Terapagos
+|-damage|p1b: Terapagos|83/100
+|move|p1a: Incineroar|Knock Off|p2b: Wyrdeer
+|-supereffective|p2b: Wyrdeer
+|-damage|p2b: Wyrdeer|0 fnt
+|-enditem|p2b: Wyrdeer|Light Clay|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Wyrdeer
+|move|p1b: Terapagos|Tera Starstorm|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|upkeep
+|
+|t:|1750741856
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|turn|4
+|
+|t:|1750741871
+|move|p1a: Incineroar|Parting Shot|p2b: Urshifu
+|-unboost|p2b: Urshifu|atk|1
+|-unboost|p2b: Urshifu|spa|1
+|
+|t:|1750741876
+|switch|p1a: Lunala|Lunala, L50|100/100|[from] Parting Shot
+|move|p1b: Terapagos|Tera Starstorm|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|86/100
+|-damage|p2b: Urshifu|36/100
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p2b: Urshifu|Close Combat|p1b: Terapagos
+|-supereffective|p1b: Terapagos
+|-damage|p1b: Terapagos|37/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|
+|upkeep
+|turn|5
+|inactive|spooki225 has 30 seconds left.
+|
+|t:|1750741908
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p2a: Lunala|Moongeist Beam|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|5/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750741936
+|-terastallize|p2a: Lunala|Dark
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2a: Lunala
+|-damage|p2a: Lunala|72/100
+|move|p1b: Incineroar|Knock Off|p2a: Lunala
+|-resisted|p2a: Lunala
+|-crit|p2a: Lunala
+|-damage|p2a: Lunala|55/100
+|-enditem|p2a: Lunala|Grassy Seed|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|7
+|inactive|Artic 1.0 has 30 seconds left.
+|
+|t:|1750741962
+|move|p2a: Lunala|Moonlight|p2a: Lunala
+|-heal|p2a: Lunala|100/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|96/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|63/100
+|-status|p2a: Lunala|brn
+|-damage|p1b: Incineroar|88/100|[from] Recoil
+|
+|-damage|p2a: Lunala|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750741983
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Lunala|Moongeist Beam|p2a: Lunala
+|-resisted|p2a: Lunala
+|-damage|p2a: Lunala|49/100 brn
+|move|p1b: Incineroar|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|21/100 brn
+|-damage|p1b: Incineroar|76/100|[from] Recoil
+|
+|-damage|p2a: Lunala|15/100 brn|[from] brn
+|-sideend|p2: Artic 1.0|move: Light Screen
+|upkeep
+|turn|9
+|inactive|spooki225 has 30 seconds left.
+|
+|t:|1750742010
+|move|p2a: Lunala|Moonlight|p2a: Lunala
+|-heal|p2a: Lunala|65/100 brn
+|move|p1b: Incineroar|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|35/100 brn
+|-damage|p1b: Incineroar|64/100|[from] Recoil
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|-damage|p2a: Lunala|29/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|Artic 1.0 forfeited.
+|
+|win|spooki225
+|raw|spooki225's rating: 1240 &rarr; <strong>1260</strong><br />(+20 for winning)
+|raw|Artic 1.0's rating: 1163 &rarr; <strong>1143</strong><br />(-20 for losing)
+|l|☆Artic 1.0
+|player|p2|

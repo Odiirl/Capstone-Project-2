@@ -1,0 +1,156 @@
+|j|☆Deano88
+|j|☆OnixBoy423
+|t:|1750768879
+|gametype|doubles
+|player|p1|Deano88|265|1099
+|player|p2|OnixBoy423|169|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Illumise, L50, F|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Enamorus, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Greedent, L50, M|
+|poke|p2|Arboliva, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750768923
+|start
+|switch|p1a: Illumise|Illumise, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Arboliva|Arboliva, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|
+|t:|1750768945
+|move|p1a: Illumise|Charm|p2a: Groudon
+|-unboost|p2a: Groudon|atk|2
+|move|p1b: Calyrex|Calm Mind|p1b: Calyrex
+|-boost|p1b: Calyrex|spa|1
+|-boost|p1b: Calyrex|spd|1
+|move|p2a: Groudon|Heat Crash|p1a: Illumise
+|-supereffective|p1a: Illumise
+|-damage|p1a: Illumise|39/100
+|move|p2b: Arboliva|Solar Beam||[still]
+|-prepare|p2b: Arboliva|Solar Beam
+|-anim|p2b: Arboliva|Solar Beam|p1b: Calyrex
+|-damage|p1b: Calyrex|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750768993
+|move|p1b: Calyrex|Astral Barrage|p2b: Arboliva|[spread] p2a
+|-immune|p2b: Arboliva
+|-damage|p2a: Groudon|25/100
+|move|p2a: Groudon|Heat Crash|p1a: Illumise
+|-supereffective|p1a: Illumise
+|-damage|p1a: Illumise|0 fnt
+|faint|p1a: Illumise
+|move|p2b: Arboliva|Solar Beam||[still]
+|-prepare|p2b: Arboliva|Solar Beam
+|-anim|p2b: Arboliva|Solar Beam|p1b: Calyrex
+|-damage|p1b: Calyrex|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750769011
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|3
+|
+|t:|1750769036
+|switch|p2a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-terastallize|p1b: Calyrex|Fairy
+|move|p1b: Calyrex|Draining Kiss|p2b: Arboliva
+|-damage|p2b: Arboliva|45/100
+|-heal|p1b: Calyrex|73/100|[from] drain|[of] p2b: Arboliva
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2b: Arboliva
+|move|p1a: Kyogre|Water Spout|p2b: Arboliva|[spread] p2a,p2b
+|-resisted|p2b: Arboliva
+|-damage|p2a: Chien-Pao|0 fnt
+|-damage|p2b: Arboliva|0 fnt
+|faint|p2a: Chien-Pao
+|faint|p2b: Arboliva
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|79/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750769057
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Groudon|Groudon, L50|25/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|turn|4
+|
+|t:|1750769069
+|switch|p1a: Enamorus|Enamorus, L50, F|100/100
+|-terastallize|p2a: Charizard|Grass
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|-anim|p2a: Charizard|Solar Beam|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|60/100
+|move|p2b: Groudon|Thunder Punch|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1b: Calyrex|90/100|[from] Grassy Terrain
+|-heal|p1b: Calyrex|96/100|[from] item: Leftovers
+|-heal|p2a: Charizard|94/100|[from] Grassy Terrain
+|-heal|p2b: Groudon|31/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750769091
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|5
+|
+|t:|1750769110
+|move|p1b: Calyrex|Astral Barrage|p2a: Charizard|[spread] p2a,p2b
+|-damage|p2a: Charizard|8/100
+|-damage|p2b: Groudon|0 fnt
+|faint|p2b: Groudon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|move|p1a: Kyogre|Water Spout|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|Deano88
+|raw|Deano88's rating: 1099 &rarr; <strong>1123</strong><br />(+24 for winning)
+|raw|OnixBoy423's rating: 1079 &rarr; <strong>1058</strong><br />(-21 for losing)
+|l|☆OnixBoy423
+|player|p2|
+|l|☆Deano88
+|player|p1|

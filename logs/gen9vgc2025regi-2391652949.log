@@ -1,0 +1,267 @@
+|j|☆Auragami
+|j|☆Honored1
+|t:|1750880102
+|gametype|doubles
+|player|p1|Auragami|burglar|
+|player|p2|Honored1|silver|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Infernape, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750880132
+|start
+|switch|p1a: Milotic|Milotic, L50, M, shiny|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M, shiny|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|t:|1750880162
+|-terastallize|p1a: Milotic|Grass
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Honored1|move: Light Screen
+|move|p1b: Ninetales|Aurora Veil|p1b: Ninetales
+|-sidestart|p1: Auragami|move: Aurora Veil
+|move|p2a: Miraidon|Electro Drift|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|74/100
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Milotic|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750880185
+|move|p2b: Grimmsnarl|Thunder Wave|p1a: Milotic
+|-status|p1a: Milotic|par
+|move|p1b: Ninetales|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|67/100
+|-unboost|p2a: Miraidon|spa|1
+|move|p2a: Miraidon|Electro Drift|p1b: Ninetales
+|-damage|p1b: Ninetales|35/100
+|cant|p1a: Milotic|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Milotic|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750880209
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Honored1|Reflect
+|move|p1b: Ninetales|Blizzard|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|-damage|p2b: Grimmsnarl|83/100
+|move|p2a: Miraidon|Electro Drift|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|move|p1a: Milotic|Life Dew|p1a: Milotic
+|-heal|p1a: Milotic|100/100 par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750880227
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1750880254
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Ursaluna
+|-damage|p1b: Ursaluna|85/100
+|-unboost|p1b: Ursaluna|spa|1
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|move|p1b: Ursaluna|Hyper Voice|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Calyrex|86/100
+|-damage|p2b: Grimmsnarl|62/100
+|-damage|p1b: Ursaluna|75/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Calyrex|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750880297
+|-terastallize|p2b: Grimmsnarl|Ghost
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Calyrex|Leech Seed|p1a: Milotic
+|-immune|p1a: Milotic
+|move|p1a: Milotic|Hypnosis|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Electric Terrain
+|
+|-weather|none
+|-heal|p2a: Calyrex|98/100|[from] item: Leftovers
+|-sideend|p1: Auragami|move: Aurora Veil
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750880324
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Ursaluna
+|-damage|p1b: Ursaluna|52/100
+|-unboost|p1b: Ursaluna|spa|1
+|move|p2a: Calyrex|Glacial Lance|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Milotic
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Milotic|47/100 par
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Milotic|Hypnosis|p2a: Calyrex
+|-status|p2a: Calyrex|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Calyrex|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Milotic|53/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1750880340
+|switch|p1b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p1b: Kyurem|Turboblaze
+|turn|7
+|
+|t:|1750880361
+|switch|p2a: Infernape|Infernape, L50, M|100/100
+|move|p1b: Kyurem|Fusion Flare|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|77/100
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Milotic
+|-damage|p1a: Milotic|38/100 par
+|-unboost|p1a: Milotic|spa|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|cant|p1a: Milotic|par
+|
+|-heal|p1a: Milotic|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1750880385
+|move|p2b: Grimmsnarl|Thunder Wave|p1b: Kyurem
+|-status|p1b: Kyurem|par
+|move|p2a: Infernape|Nasty Plot|p2a: Infernape
+|-boost|p2a: Infernape|spa|2
+|move|p1b: Kyurem|Earth Power|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|move|p1a: Milotic|Scald|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|36/100
+|
+|-heal|p1a: Milotic|50/100 par|[from] item: Leftovers
+|-sideend|p2: Honored1|move: Light Screen
+|upkeep
+|
+|t:|1750880400
+|switch|p2a: Miraidon|Miraidon, L50|38/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|9
+|
+|t:|1750880410
+|move|p2a: Miraidon|Electro Drift|p1b: Kyurem
+|-resisted|p1b: Kyurem
+|-damage|p1b: Kyurem|67/100 par
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Kyurem
+|-supereffective|p1b: Kyurem
+|-damage|p1b: Kyurem|16/100 par
+|-unboost|p1b: Kyurem|spa|1
+|move|p1b: Kyurem|Earth Power|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|2/100
+|move|p1a: Milotic|Scald|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-heal|p1a: Milotic|56/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1750880427
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100 slp
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|10
+|
+|t:|1750880443
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Kyurem
+|-supereffective|p1b: Kyurem
+|-damage|p1b: Kyurem|0 fnt
+|faint|p1b: Kyurem
+|cant|p2a: Calyrex|slp
+|move|p1a: Milotic|Life Dew|p1a: Milotic
+|-heal|p1a: Milotic|81/100 par
+|
+|-heal|p1a: Milotic|87/100 par|[from] item: Leftovers
+|-sideend|p2: Honored1|Reflect
+|upkeep
+|turn|11
+|
+|t:|1750880462
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Honored1|move: Light Screen
+|cant|p2a: Calyrex|slp
+|move|p1a: Milotic|Scald|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|13/100
+|
+|-heal|p1a: Milotic|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1750880473
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: Honored1|Reflect
+|-curestatus|p2a: Calyrex|slp|[msg]
+|move|p2a: Calyrex|Glacial Lance|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|25/100 par
+|cant|p1a: Milotic|par
+|
+|-heal|p1a: Milotic|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1750880485
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Milotic
+|-damage|p1a: Milotic|14/100 par
+|-unboost|p1a: Milotic|spa|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|move|p2a: Calyrex|Glacial Lance|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|win|Honored1

@@ -1,0 +1,186 @@
+|j|☆Mameon
+|j|☆AlfredH
+|t:|1750770108
+|gametype|doubles
+|player|p1|Mameon|red|1174
+|player|p2|AlfredH|102|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AlfredH)
+|
+|t:|1750770133
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750770152
+|-terastallize|p1a: Miraidon|Fairy
+|move|p1b: Farigiraf|Helping Hand|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Flutter Mane|Dazzling Gleam|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Miraidon|57/100
+|-damage|p1b: Farigiraf|49/100
+|move|p2a: Koraidon|Close Combat|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|8/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Flutter Mane|1/100
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750770166
+|switch|p2a: Iron Bundle|Iron Bundle, L50|100/100
+|-activate|p2a: Iron Bundle|ability: Quark Drive
+|-start|p2a: Iron Bundle|quarkdrivespe
+|turn|2
+|
+|t:|1750770188
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Bundle|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|move|p2a: Iron Bundle|Icy Wind|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|94/100
+|-damage|p1b: Farigiraf|28/100
+|-unboost|p1a: Incineroar|spe|1
+|-unboost|p1b: Farigiraf|spe|1
+|move|p2b: Flutter Mane|Dazzling Gleam|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Incineroar|65/100
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750770203
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|3
+|
+|t:|1750770211
+|move|p2a: Iron Bundle|Protect|p2a: Iron Bundle
+|-singleturn|p2a: Iron Bundle|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Iron Bundle
+|-activate|p2a: Iron Bundle|move: Protect
+|move|p2b: Flutter Mane|Dazzling Gleam|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|37/100
+|-damage|p1b: Calyrex|72/100
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750770228
+|move|p1a: Incineroar|Knock Off|p2a: Iron Bundle
+|-damage|p2a: Iron Bundle|61/100
+|move|p1b: Calyrex|Glacial Lance|p2a: Iron Bundle|[spread] p2a,p2b
+|-resisted|p2a: Iron Bundle
+|-damage|p2a: Iron Bundle|46/100
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Iron Bundle|Hydro Pump|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Calyrex|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750770236
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750770250
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Iron Bundle|Protect|p2a: Iron Bundle
+|-singleturn|p2a: Iron Bundle|Protect
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Iron Bundle|[spread] 
+|-activate|p2a: Iron Bundle|move: Protect
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|none
+|-heal|p1b: Calyrex|89/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Bundle|Quark Drive
+|upkeep
+|-enditem|p2a: Iron Bundle|Booster Energy
+|-activate|p2a: Iron Bundle|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Bundle|quarkdrivespe
+|turn|6
+|
+|t:|1750770273
+|-terastallize|p2b: Calyrex|Normal
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-damage|p2b: Calyrex|47/100
+|-enditem|p2b: Calyrex|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Iron Bundle
+|-crit|p2b: Calyrex
+|-damage|p2a: Iron Bundle|22/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p2a: Iron Bundle|Freeze-Dry|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-heal|p1b: Calyrex|95/100|[from] item: Leftovers
+|upkeep
+|-message|AlfredH forfeited.
+|
+|win|Mameon
+|raw|Mameon's rating: 1174 &rarr; <strong>1195</strong><br />(+21 for winning)
+|raw|AlfredH's rating: 1124 &rarr; <strong>1103</strong><br />(-21 for losing)
+|l|☆AlfredH
+|player|p2|

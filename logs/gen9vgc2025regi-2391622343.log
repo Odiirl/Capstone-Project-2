@@ -1,0 +1,161 @@
+|j|‽estudassespt
+|j|☆Scythedancer
+|t:|1750876838
+|gametype|doubles
+|player|p1|estudassespt|2|1515
+|player|p2|Scythedancer|janitor|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Bastiodon, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|
+|t:|1750876878
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Yanmega|Yanmega, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by estudassespt)
+|
+|t:|1750876897
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sableye|atk|1
+|-unboost|p1b: Yanmega|atk|1
+|move|p1b: Yanmega|Protect|p1b: Yanmega
+|-singleturn|p1b: Yanmega|Protect
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2a: Calyrex|Astral Barrage|p1a: Sableye|[spread] p1a
+|-activate|p1b: Yanmega|move: Protect
+|-damage|p1a: Sableye|6/100
+|-enditem|p1a: Sableye|Eject Button
+|inactive|estudassespt has 30 seconds left.
+|
+|t:|1750876923
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750876941
+|-terastallize|p1a: Calyrex|Water
+|move|p2b: Incineroar|Fake Out|p1b: Yanmega
+|-damage|p1b: Yanmega|86/100
+|cant|p1b: Yanmega|flinch
+|move|p2a: Calyrex|Astral Barrage|p1b: Yanmega|[spread] p1a,p1b
+|-damage|p1a: Calyrex|55/100
+|-damage|p1b: Yanmega|0 fnt
+|faint|p1b: Yanmega
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p1a: Calyrex|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750876955
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|3
+|
+|t:|1750876972
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-terastallize|p2b: Incineroar|Ghost
+|move|p1a: Calyrex|Glacial Lance|p2a: Kyogre|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|80/100
+|-damage|p2b: Incineroar|45/100
+|move|p1b: Groudon|Heat Crash|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|75/100
+|move|p2b: Incineroar|Will-O-Wisp|p1a: Calyrex
+|-status|p1a: Calyrex|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Calyrex|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750876991
+|switch|p2b: Maushold|Maushold, L50|100/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Maushold|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|67/100
+|-damage|p2b: Maushold|75/100
+|move|p1b: Groudon|Precipice Blades|p2a: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Kyogre|33/100
+|-damage|p2b: Maushold|24/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-supereffective|p1b: Groudon
+|-damage|p1a: Calyrex|39/100 brn
+|-damage|p1b: Groudon|0 fnt
+|faint|p1b: Groudon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Calyrex|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1750877006
+|switch|p1b: Sableye|Sableye, L50, M|6/100
+|turn|5
+|
+|t:|1750877009
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1b: Sableye|Gravity||[still]
+|-fail|p1b: Sableye
+|move|p1a: Calyrex|Glacial Lance|p2a: Kyogre|[spread] p2a
+|-activate|p2b: Maushold|move: Protect
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|25/100
+|move|p2a: Kyogre|Origin Pulse|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|19/100 brn
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Calyrex|19/100 brn|[from] brn
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|-message|estudassespt forfeited.
+|
+|win|Scythedancer
+|raw|estudassespt's rating: 1515 &rarr; <strong>1499</strong><br />(-16 for losing)
+|raw|Scythedancer's rating: 1586 &rarr; <strong>1602</strong><br />(+16 for winning)
+|l|‽estudassespt
+|player|p1|
+|l|☆Scythedancer
+|player|p2|

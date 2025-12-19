@@ -1,0 +1,180 @@
+|j|☆kupaxxis
+|j|☆laizans
+|t:|1750813265
+|gametype|doubles
+|player|p1|kupaxxis|101|1220
+|player|p2|laizans|2|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by laizans)
+|inactive|laizans has 60 seconds left.
+|
+|t:|1750813307
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|turn|1
+|
+|t:|1750813328
+|-terastallize|p1b: Calyrex|Fire
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p2a: Flutter Mane|Taunt|p1b: Calyrex
+|-start|p1b: Calyrex|move: Taunt
+|cant|p1b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|laizans has 30 seconds left.
+|inactive|kupaxxis has 30 seconds left.
+|inactive|laizans has 20 seconds left.
+|
+|t:|1750813366
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-terastallize|p2b: Koraidon|Fire
+|move|p2a: Flutter Mane|Shadow Ball|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|38/100
+|move|p2b: Koraidon|Close Combat|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Miraidon
+|move|p1a: Incineroar|Parting Shot|p2a: Flutter Mane
+|-unboost|p2a: Flutter Mane|atk|1
+|-unboost|p2a: Flutter Mane|spa|1
+|
+|t:|1750813384
+|switch|p1a: Calyrex|Calyrex-Ice, L50, tera:Fire|100/100|[from] Parting Shot
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750813394
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Flutter Mane|atk|1
+|-fail|p2b: Koraidon|unboost|[from] item: Clear Amulet|[of] p2b: Koraidon
+|turn|3
+|
+|t:|1750813404
+|move|p2a: Flutter Mane|Taunt|p1a: Calyrex
+|-start|p1a: Calyrex|move: Taunt
+|move|p2b: Koraidon|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|faint|p1b: Incineroar
+|move|p1a: Calyrex|Glacial Lance|p2b: Koraidon|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|-damage|p2b: Koraidon|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750813420
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1750813434
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Flutter Mane|[spread] 
+|-activate|p2a: Flutter Mane|move: Protect
+|-activate|p2b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750813448
+|move|p2a: Flutter Mane|Moonblast|p1b: Iron Hands
+|-supereffective|p1b: Iron Hands
+|-damage|p1b: Iron Hands|60/100
+|-unboost|p1b: Iron Hands|spa|1
+|move|p2b: Koraidon|Flare Blitz|p1b: Iron Hands
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-damage|p2b: Koraidon|4/100|[from] Recoil
+|move|p1a: Calyrex|Glacial Lance|p2a: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2b: Koraidon
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|2
+|
+|-weather|none
+|-end|p1a: Calyrex|move: Taunt
+|upkeep
+|
+|t:|1750813459
+|switch|p2b: Urshifu|Urshifu, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|6
+|
+|t:|1750813470
+|move|p2b: Urshifu|Close Combat|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|40/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|laizans
+|raw|kupaxxis's rating: 1220 &rarr; <strong>1198</strong><br />(-22 for losing)
+|raw|laizans's rating: 1259 &rarr; <strong>1281</strong><br />(+22 for winning)
+|l|☆kupaxxis
+|player|p1|

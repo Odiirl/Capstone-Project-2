@@ -1,0 +1,173 @@
+|j|☆PYS_Max
+|j|☆Nerd159
+|t:|1750706597
+|gametype|doubles
+|player|p1|PYS_Max|1|1621
+|player|p2|Nerd159|265|1695
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nerd159)
+|
+|t:|1750706622
+|start
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1750706635
+|move|p2b: Calyrex|Substitute|p2b: Calyrex
+|-start|p2b: Calyrex|Substitute
+|-damage|p2b: Calyrex|76/100
+|move|p1b: Smeargle|Spore|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Spore
+|move|p1a: Ho-Oh|Tailwind|p1a: Ho-Oh
+|-sidestart|p1: PYS_Max|move: Tailwind
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Smeargle|94/100|[from] Sandstorm
+|-damage|p2b: Calyrex|70/100|[from] Sandstorm
+|-damage|p1a: Ho-Oh|94/100|[from] Sandstorm
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750706659
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Smeargle|Decorate|p1a: Ho-Oh
+|-boost|p1a: Ho-Oh|atk|2
+|-boost|p1a: Ho-Oh|spa|2
+|move|p1a: Ho-Oh|Sacred Fire|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Rock Slide|p1b: Smeargle|[spread] p1a,p1b
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|0 fnt
+|-damage|p1b: Smeargle|38/100
+|faint|p1a: Ho-Oh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Smeargle|32/100|[from] Sandstorm
+|-damage|p2b: Calyrex|64/100|[from] Sandstorm
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|
+|t:|1750706661
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|turn|3
+|
+|t:|1750706673
+|-terastallize|p2a: Tyranitar|Grass
+|move|p1b: Smeargle|Spore|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|move|p1a: Landorus|Sandsear Storm|p2a: Tyranitar|[spread] p2a,p2b
+|-end|p2b: Calyrex|Substitute
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|84/100
+|move|p2b: Calyrex|Psychic|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Tyranitar|Icy Wind|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|-unboost|p1a: Landorus|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Calyrex|59/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|78/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750706676
+|switch|p1b: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750706684
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Landorus|Sludge Bomb|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Lunala|94/100|[from] Sandstorm
+|-damage|p2b: Calyrex|53/100|[from] Sandstorm
+|-heal|p1b: Lunala|100/100|[from] item: Leftovers
+|-sideend|p1: PYS_Max|move: Tailwind
+|upkeep
+|
+|t:|1750706696
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|5
+|
+|t:|1750706709
+|-terastallize|p1b: Lunala|Fairy
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Lunala|[spread] p1b
+|-activate|p1a: Landorus|move: Protect
+|-damage|p1b: Lunala|67/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Lunala|[anim] Ivy Cudgel Water
+|-crit|p1b: Lunala
+|-damage|p1b: Lunala|4/100
+|move|p1b: Lunala|Dazzling Gleam|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Ogerpon|66/100
+|-damage|p2b: Calyrex|19/100
+|
+|-weather|none
+|-heal|p1b: Lunala|10/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750706729
+|move|p2b: Calyrex|Psychic|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Landorus|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|Nerd159
+|raw|PYS_Max's rating: 1621 &rarr; <strong>1605</strong><br />(-16 for losing)
+|raw|Nerd159's rating: 1695 &rarr; <strong>1711</strong><br />(+16 for winning)
+|l|☆PYS_Max
+|player|p1|
+|l|☆Nerd159
+|player|p2|

@@ -1,0 +1,182 @@
+|j|☆GGNine9
+|j|☆antfrrr~
+|t:|1750868820
+|gametype|doubles
+|player|p1|GGNine9|caitlin|1175
+|player|p2|antfrrr~|nate|1205
+|teamsize|p1|6
+|teamsize|p2|5
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Jugulis, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Luxray, L50, M|
+|poke|p2|Meowscarada, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by antfrrr~)
+|
+|t:|1750868865
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: PURRR|Meowscarada, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750868889
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: PURRR|Ally Switch|p2b: PURRR
+|swap|p2b: PURRR|0|[from] move: Ally Switch
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: PURRR
+|-supereffective|p2b: Miraidon
+|-enditem|p2a: PURRR|Focus Sash
+|-damage|p2a: PURRR|1/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750868899
+|switch|p2b: Zamazenta|Zamazenta, L50, shiny|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-enditem|p2b: Zamazenta|Electric Seed
+|-boost|p2b: Zamazenta|def|1|[from] item: Electric Seed
+|turn|2
+|
+|t:|1750868911
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Zamazenta|[spread] 
+|-activate|p2a: PURRR|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: PURRR|Trick Room|p2a: PURRR
+|-fieldstart|move: Trick Room|[of] p2a: PURRR
+|
+|upkeep
+|turn|3
+|inactive|GGNine9 has 30 seconds left.
+|
+|t:|1750868941
+|switch|p1a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p1a: Chi-Yu|Beads of Ruin
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1b: Electabuzz|Taunt|p2a: PURRR
+|-start|p2a: PURRR|move: Taunt
+|move|p2a: PURRR|Flower Trick|p1a: Chi-Yu
+|-resisted|p1a: Chi-Yu
+|-crit|p1a: Chi-Yu
+|-damage|p1a: Chi-Yu|31/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750868959
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: PURRR|Flower Trick|p1b: Electabuzz
+|-crit|p1b: Electabuzz
+|-damage|p1b: Electabuzz|43/100
+|move|p2b: Zamazenta|Body Press|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p1a: Chi-Yu|Overheat|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|-unboost|p1a: Chi-Yu|spa|2
+|faint|p2b: Zamazenta
+|
+|upkeep
+|
+|t:|1750868976
+|switch|p1b: Miraidon|Miraidon, L50, tera:Fairy|100/100
+|switch|p2b: Moonlight|Luxray, L50, M, shiny|100/100
+|-ability|p2b: Moonlight|Intimidate|boost
+|-unboost|p1a: Chi-Yu|atk|1
+|-unboost|p1b: Miraidon|atk|1
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750868990
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2b: Moonlight|Wild Charge|p1b: Miraidon
+|-damage|p1b: Miraidon|34/100
+|-damage|p2b: Moonlight|85/100|[from] Recoil
+|move|p2a: PURRR|Flower Trick|p1b: Miraidon
+|-crit|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|-end|p2a: PURRR|move: Taunt
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750869003
+|switch|p1b: Chi-Yu|Chi-Yu, L50|31/100
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|6
+|inactive|antfrrr~ has 30 seconds left.
+|
+|t:|1750869037
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: PURRR|Ally Switch|p2a: PURRR
+|swap|p2a: PURRR|1|[from] move: Ally Switch
+|move|p2a: Moonlight|Wild Charge|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|-damage|p2a: Moonlight|80/100|[from] Recoil
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1750869055
+|move|p2a: Moonlight|Helping Hand|p2b: PURRR
+|-singleturn|p2b: PURRR|Helping Hand|[of] p2a: Moonlight
+|move|p2b: PURRR|Flower Trick|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|69/100
+|move|p1a: Zamazenta|Body Press|p2b: PURRR
+|-supereffective|p2b: PURRR
+|-damage|p2b: PURRR|0 fnt
+|faint|p2b: PURRR
+|
+|upkeep
+|turn|8
+|
+|t:|1750869072
+|move|p1a: Zamazenta|Body Press|p2a: Moonlight
+|-damage|p2a: Moonlight|0 fnt
+|faint|p2a: Moonlight
+|
+|win|GGNine9
+|raw|GGNine9's rating: 1175 &rarr; <strong>1202</strong><br />(+27 for winning)
+|raw|antfrrr~'s rating: 1205 &rarr; <strong>1178</strong><br />(-27 for losing)
+|c|☆antfrrr~|gg
+|c|☆GGNine9|gg
+|l|☆GGNine9
+|player|p1|
+|l|☆antfrrr~
+|player|p2|

@@ -1,0 +1,191 @@
+|j|☆Rusty Old Key
+|j|☆apa plays poke
+|t:|1750800884
+|gametype|doubles
+|player|p1|Rusty Old Key|102|1522
+|player|p2|apa plays poke|101|1538
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|
+|t:|1750800981
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1750801008
+|move|p1b: Iron Valiant|Wide Guard|p1b: Iron Valiant
+|-singleturn|p1b: Iron Valiant|Wide Guard
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Miraidon|Draco Meteor|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Amoonguss
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750801023
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|2
+|
+|t:|1750801043
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Valiant|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|85/100
+|-damage|p1b: Iron Valiant|42/100
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750801056
+|switch|p1b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|turn|3
+|
+|t:|1750801088
+|-terastallize|p1b: Ogerpon|Rock
+|detailschange|p1b: Ogerpon|Ogerpon-Cornerstone-Tera, L50, F, tera:Rock
+|-ability|p1b: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1b: Ogerpon|def|1
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: apa plays poke|Reflect
+|move|p2b: Calyrex|Glacial Lance|p1a: Calyrex|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|72/100
+|-damage|p1b: Ogerpon|68/100
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Calyrex|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|46/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldend|move: Trick Room
+|
+|-heal|p2b: Calyrex|52/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750801110
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Calyrex|[anim] Ivy Cudgel Rock
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Ogerpon
+|-damage|p1b: Ogerpon|45/100
+|-unboost|p1b: Ogerpon|spa|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Grimmsnarl|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-damage|p2a: Grimmsnarl|62/100
+|
+|-heal|p2b: Calyrex|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750801136
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|22/100
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Calyrex|[anim] Ivy Cudgel Rock
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|6/100
+|move|p1a: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Grimmsnarl|17/100
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750801143
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|
+|t:|1750801180
+|-terastallize|p2b: Kyogre|Grass
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: apa plays poke|move: Light Screen
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Kyogre|[anim] Ivy Cudgel Rock
+|-damage|p2b: Kyogre|43/100
+|move|p2b: Kyogre|Origin Pulse|p1b: Ogerpon|[spread] p1b
+|-activate|p1a: Calyrex|move: Protect
+|-supereffective|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Cornerstone, L50, F|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750801198
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|
+|t:|1750801242
+|move|p2b: Kyogre|Protect|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Protect
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|move|p1b: Miraidon|Electro Drift|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750801252
+|move|p1a: Calyrex|Glacial Lance|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|win|Rusty Old Key
+|raw|Rusty Old Key's rating: 1522 &rarr; <strong>1543</strong><br />(+21 for winning)
+|raw|apa plays poke's rating: 1538 &rarr; <strong>1517</strong><br />(-21 for losing)
+|l|☆apa plays poke
+|player|p2|
+|l|☆Rusty Old Key
+|player|p1|

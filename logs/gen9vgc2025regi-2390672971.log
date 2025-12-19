@@ -1,0 +1,212 @@
+|j|☆Dark Slub
+|j|☆mauveracor
+|t:|1750747091
+|gametype|doubles
+|player|p1|Dark Slub|miku-flying|1165
+|player|p2|mauveracor|101|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Slowbro, L50, M|
+|poke|p2|Grafaiai, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mauveracor)
+|inactive|mauveracor has 60 seconds left.
+|inactive|mauveracor has 30 seconds left.
+|
+|t:|1750747152
+|start
+|switch|p1a: California Rex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p1a: California Rex|As One
+|-ability|p1a: California Rex|Unnerve
+|turn|1
+|
+|t:|1750747166
+|-terastallize|p2a: Lunala|Fairy
+|move|p1a: California Rex|Protect|p1a: California Rex
+|-singleturn|p1a: California Rex|Protect
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Amoonguss
+|-damage|p1b: Amoonguss|43/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: Amoonguss|[spread] p1b
+|-activate|p1a: California Rex|move: Protect
+|-damage|p1b: Amoonguss|9/100
+|-enditem|p2b: Ursaluna|Throat Spray
+|-boost|p2b: Ursaluna|spa|1|[from] item: Throat Spray
+|move|p1b: Amoonguss|Spore|p2a: Lunala
+|-status|p2a: Lunala|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|inactive|mauveracor has 30 seconds left.
+|
+|t:|1750747191
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|move|p1a: California Rex|Astral Barrage|p2b: Ursaluna|[spread] p2a
+|-immune|p2b: Ursaluna
+|-damage|p2a: Lunala|82/100 slp
+|cant|p2a: Lunala|slp
+|move|p2b: Ursaluna|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: California Rex|45/100
+|-damage|p1b: Incineroar|43/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|68/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|inactive|Dark Slub has 30 seconds left.
+|
+|t:|1750747223
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: California Rex|Astral Barrage|p2a: Lunala|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Lunala|42/100 slp
+|cant|p2a: Lunala|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1750747234
+|move|p1a: California Rex|Astral Barrage|p2b: Ursaluna|[spread] p2a
+|-immune|p2b: Ursaluna
+|-damage|p2a: Lunala|6/100 slp
+|cant|p2a: Lunala|slp
+|move|p2b: Ursaluna|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: California Rex|0 fnt
+|-damage|p1b: Incineroar|14/100
+|faint|p1a: California Rex
+|move|p1b: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1750747242
+|switch|p1b: Koraidon|Koraidon, L50|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750747250
+|switch|p1a: Amoonguss|Amoonguss, L50, M|42/100
+|turn|5
+|
+|t:|1750747263
+|move|p1b: Koraidon|Flame Charge|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|-boost|p1b: Koraidon|spe|1
+|faint|p2a: Lunala
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Hyper Voice|p1b: Koraidon|[spread] p1a,p1b
+|-crit|p1b: Koraidon
+|-damage|p1a: Amoonguss|10/100
+|-damage|p1b: Koraidon|27/100
+|move|p1a: Amoonguss|Spore|p2b: Ursaluna
+|-status|p2b: Ursaluna|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750747285
+|switch|p2a: Grafaiai|Grafaiai, L50, F|100/100
+|turn|6
+|
+|t:|1750747297
+|-terastallize|p1a: Amoonguss|Dark
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Koraidon|Close Combat|p2a: Grafaiai
+|-damage|p2a: Grafaiai|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Grafaiai
+|-damage|p1b: Koraidon|17/100|[from] item: Life Orb
+|cant|p2b: Ursaluna|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750747305
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|7
+|
+|t:|1750747318
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Koraidon|Flame Charge|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|cant|p2b: Ursaluna|slp
+|move|p1a: Amoonguss|Sludge Bomb|p2b: Ursaluna
+|-resisted|p2b: Ursaluna
+|-damage|p2b: Ursaluna|81/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1750747339
+|switch|p1a: Incineroar|Incineroar, L50, F|14/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|move|p1b: Koraidon|Close Combat|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Zacian
+|-damage|p1b: Koraidon|7/100|[from] item: Life Orb
+|-curestatus|p2b: Ursaluna|slp|[msg]
+|move|p2b: Ursaluna|Hyper Voice|p1b: Koraidon|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Koraidon
+|
+|-weather|none
+|upkeep
+|
+|t:|1750747347
+|switch|p1b: Amoonguss|Amoonguss, L50, M, tera:Dark|43/100
+|turn|9
+|
+|t:|1750747361
+|move|p2b: Ursaluna|Blood Moon|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|win|mauveracor
+|raw|Dark Slub's rating: 1165 &rarr; <strong>1149</strong><br />(-16 for losing)
+|raw|mauveracor's rating: 1291 &rarr; <strong>1307</strong><br />(+16 for winning)
+|l|☆Dark Slub
+|player|p1|
+|l|☆mauveracor
+|player|p2|

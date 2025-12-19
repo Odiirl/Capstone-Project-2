@@ -1,0 +1,311 @@
+|j|☆bakuhatsu
+|j|‽xGSx3ntr0py
+|t:|1750739144
+|gametype|doubles
+|player|p1|bakuhatsu|265|1356
+|player|p2|xGSx3ntr0py|169|1453
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Muk-Alola, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bakuhatsu)
+|inactive|xGSx3ntr0py has 60 seconds left.
+|
+|t:|1750739207
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Muk|Muk-Alola, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Muk|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1750739224
+|move|p2b: Rillaboom|Fake Out|p1b: Miraidon
+|-damage|p1b: Miraidon|92/100
+|move|p1a: Incineroar|Fake Out|p2a: Muk
+|-damage|p2a: Muk|92/100
+|cant|p1b: Miraidon|flinch
+|cant|p2a: Muk|flinch
+|
+|-heal|p1b: Miraidon|98/100|[from] Grassy Terrain
+|-heal|p2a: Muk|98/100|[from] Grassy Terrain
+|-heal|p2a: Muk|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1750739241
+|move|p1b: Miraidon|Volt Switch|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|84/100
+|
+|t:|1750739243
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|move|p2b: Rillaboom|U-turn|p1b: Lunala
+|-damage|p1b: Lunala|94/100
+|
+|t:|1750739250
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100|[from] U-turn
+|move|p1a: Incineroar|Knock Off|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|87/100
+|-enditem|p2a: Muk|Black Sludge|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-heal|p1b: Lunala|99/100|[from] Grassy Terrain
+|-heal|p2a: Muk|93/100|[from] Grassy Terrain
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|3
+|
+|t:|1750739266
+|switch|p1b: Miraidon|Miraidon, L50|98/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Muk
+|-status|p2a: Muk|brn
+|move|p2b: Smeargle|Decorate|p2a: Muk
+|-boost|p2a: Muk|atk|2
+|-boost|p2a: Muk|spa|2
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-damage|p2a: Muk|87/100 brn|[from] brn
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|turn|4
+|
+|t:|1750739287
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1b: Miraidon|Volt Switch|p2b: Smeargle
+|-damage|p2b: Smeargle|39/100
+|
+|t:|1750739294
+|switch|p1b: Lunala|Lunala, L50|99/100|[from] Volt Switch
+|-enditem|p1b: Lunala|Electric Seed
+|-boost|p1b: Lunala|def|1|[from] item: Electric Seed
+|move|p1a: Incineroar|Knock Off|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|-enditem|p2b: Smeargle|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Smeargle
+|-ability|p2a: Muk|Moody|[from] ability: Power of Alchemy|[of] p2b: Smeargle
+|move|p2a: Muk|Minimize|p2a: Muk
+|-boost|p2a: Muk|evasion|2
+|
+|-damage|p2a: Muk|81/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|def|2
+|-unboost|p2a: Muk|spd|1
+|upkeep
+|
+|t:|1750739302
+|switch|p2b: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750739316
+|-terastallize|p2b: Lunala|Fairy
+|-terastallize|p1b: Lunala|Fairy
+|move|p2b: Lunala|Psych Up|p2a: Muk
+|-copyboost|p2b: Lunala|p2a: Muk|[from] move: Psych Up
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala|[miss]
+|-miss|p1b: Lunala|p2b: Lunala
+|move|p1a: Incineroar|Knock Off|p2b: Lunala|[miss]
+|-miss|p1a: Incineroar|p2b: Lunala
+|move|p2a: Muk|Toxic|p1a: Incineroar
+|-status|p1a: Incineroar|tox
+|
+|-damage|p1a: Incineroar|95/100 tox|[from] psn
+|-damage|p2a: Muk|75/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|6
+|
+|t:|1750739336
+|move|p2b: Lunala|Moonblast|p1b: Lunala
+|-damage|p1b: Lunala|22/100
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|57/100
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Lunala|[miss]
+|-miss|p1a: Incineroar|p2b: Lunala
+|move|p2a: Muk|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|68/100 tox
+|-heal|p2a: Muk|88/100 brn|[from] drain|[of] p1a: Incineroar
+|-damage|p2a: Muk|71/100 brn|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|
+|-heal|p2b: Lunala|63/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|56/100 tox|[from] psn
+|-damage|p2a: Muk|65/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spe|2
+|-unboost|p2a: Muk|spa|1
+|upkeep
+|turn|7
+|inactive|xGSx3ntr0py has 30 seconds left.
+|inactive|xGSx3ntr0py has 20 seconds left.
+|inactive|xGSx3ntr0py has 15 seconds left.
+|
+|t:|1750739380
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p2a: Muk|Toxic|p1b: Lunala
+|-status|p1b: Lunala|tox
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|
+|-heal|p2b: Lunala|69/100|[from] item: Leftovers
+|-damage|p1b: Lunala|16/100 tox|[from] psn
+|-damage|p1a: Incineroar|38/100 tox|[from] psn
+|-damage|p2a: Muk|59/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|8
+|inactive|xGSx3ntr0py has 30 seconds left.
+|inactive|xGSx3ntr0py has 20 seconds left.
+|
+|t:|1750739418
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Lunala|Psych Up|p2a: Muk
+|-copyboost|p2b: Lunala|p2a: Muk|[from] move: Psych Up
+|move|p1a: Incineroar|Knock Off|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|61/100
+|-enditem|p2b: Lunala|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Muk|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|13/100 tox
+|-heal|p2a: Muk|71/100 brn|[from] drain|[of] p1a: Incineroar
+|-damage|p2a: Muk|55/100 brn|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|
+|-damage|p1a: Incineroar|0 fnt|[from] psn
+|faint|p1a: Incineroar
+|-damage|p2a: Muk|49/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|atk|1
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750739440
+|switch|p1a: Miraidon|Miraidon, L50|98/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|9
+|
+|t:|1750739452
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala|[miss]
+|-miss|p1a: Miraidon|p2b: Lunala
+|move|p2b: Lunala|Moonblast|p1b: Ursaluna
+|-damage|p1b: Ursaluna|28/100 brn
+|move|p2a: Muk|Drain Punch|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|14/100 brn
+|-heal|p2a: Muk|56/100 brn|[from] drain|[of] p1b: Ursaluna
+|move|p1b: Ursaluna|Facade|p2b: Lunala|[miss]
+|-miss|p1b: Ursaluna|p2b: Lunala
+|
+|-damage|p2a: Muk|50/100 brn|[from] brn
+|-damage|p1b: Ursaluna|9/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spa|2
+|-unboost|p2a: Muk|spe|1
+|upkeep
+|turn|10
+|
+|t:|1750739468
+|move|p2b: Lunala|Protect|p2b: Lunala
+|-singleturn|p2b: Lunala|Protect
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala
+|-activate|p2b: Lunala|move: Protect
+|move|p2a: Muk|Toxic|p1a: Miraidon
+|-status|p1a: Miraidon|tox
+|
+|-damage|p1a: Miraidon|92/100 tox|[from] psn
+|-damage|p1b: Ursaluna|3/100 brn|[from] brn
+|-damage|p2a: Muk|44/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|atk|2
+|-unboost|p2a: Muk|def|1
+|upkeep
+|turn|11
+|
+|t:|1750739492
+|switch|p1b: Lunala|Lunala, L50, tera:Fairy|16/100 tox
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Lunala|[miss]
+|-miss|p1a: Miraidon|p2b: Lunala
+|move|p2b: Lunala|Moonblast|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|4/100 tox
+|-unboost|p1a: Miraidon|spa|1
+|
+|-damage|p1a: Miraidon|0 fnt|[from] psn
+|faint|p1a: Miraidon
+|-damage|p1b: Lunala|10/100 tox|[from] psn
+|-damage|p2a: Muk|38/100 brn|[from] brn
+|-ability|p2a: Muk|Moody|boost
+|-boost|p2a: Muk|spd|2
+|-unboost|p2a: Muk|def|1
+|upkeep
+|
+|t:|1750739500
+|switch|p1a: Ursaluna|Ursaluna, L50, F|3/100 brn
+|turn|12
+|
+|t:|1750739510
+|move|p2b: Lunala|Moonblast|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala|[miss]
+|-miss|p1b: Lunala|p2b: Lunala
+|move|p2a: Muk|Drain Punch|p1b: Lunala
+|-resisted|p1b: Lunala
+|-damage|p1b: Lunala|3/100 tox
+|-heal|p2a: Muk|42/100 brn|[from] drain|[of] p1b: Lunala
+|
+|-damage|p1b: Lunala|0 fnt|[from] psn
+|faint|p1b: Lunala
+|
+|win|xGSx3ntr0py
+|raw|bakuhatsu's rating: 1356 &rarr; <strong>1341</strong><br />(-15 for losing)
+|raw|xGSx3ntr0py's rating: 1453 &rarr; <strong>1468</strong><br />(+15 for winning)
+|l|‽xGSx3ntr0py
+|player|p2|
+|l|☆bakuhatsu
+|player|p1|

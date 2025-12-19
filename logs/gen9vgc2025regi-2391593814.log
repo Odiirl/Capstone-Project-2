@@ -1,0 +1,179 @@
+|j|☆Cyclosz
+|j|☆SpikemuthCutie
+|t:|1750873766
+|gametype|doubles
+|player|p1|Cyclosz|swimmerf-gen4|1111
+|player|p2|SpikemuthCutie|265|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Stonjourner, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Lilligant, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|
+|t:|1750873807
+|start
+|switch|p1a: Scrafty|Scrafty, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Lilligant|Lilligant, L50, F, shiny|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1750873820
+|-terastallize|p2b: Torkoal|Grass
+|move|p1a: Scrafty|Fake Out|p2a: Lilligant
+|-damage|p2a: Lilligant|89/100
+|move|p2a: Lilligant|After You|p2b: Torkoal
+|-activate|p2b: Torkoal|move: After You
+|move|p2b: Torkoal|Eruption|p1a: Scrafty|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Scrafty|59/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750873837
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|turn|2
+|
+|t:|1750873845
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Lilligant|After You|p2b: Torkoal
+|-activate|p2b: Torkoal|move: After You
+|move|p2b: Torkoal|Eruption|p1b: Torkoal|[spread] p1a
+|-activate|p1b: Torkoal|move: Protect
+|-damage|p1a: Scrafty|12/100
+|move|p1a: Scrafty|Poison Jab|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750873863
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p2a: Lilligant|Sleep Powder|p1b: Torkoal
+|-status|p1b: Torkoal|slp|[from] move: Sleep Powder
+|move|p1a: Scrafty|Snarl|p2a: Lilligant|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-damage|p2a: Lilligant|81/100
+|cant|p1b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750873879
+|switch|p1a: Stonjourner|Stonjourner, L50, M|100/100
+|move|p2a: Lilligant|After You|p2b: Torkoal
+|-activate|p2b: Torkoal|move: After You
+|move|p2b: Torkoal|Eruption|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Stonjourner
+|-resisted|p1b: Torkoal
+|-crit|p1b: Torkoal
+|-damage|p1a: Stonjourner|28/100
+|-damage|p1b: Torkoal|37/100 slp
+|-curestatus|p1b: Torkoal|slp|[msg]
+|move|p1b: Torkoal|Heat Wave|p2a: Lilligant|[spread] p2a,p2b
+|-supereffective|p2a: Lilligant
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Lilligant|0 fnt
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2a: Lilligant
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750873891
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1750873904
+|switch|p1a: Scrafty|Scrafty, L50, F|12/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Lunala|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Lunala|Moongeist Beam|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750873916
+|switch|p1b: Stonjourner|Stonjourner, L50, M|28/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Lunala|Expanding Force|p1a: Scrafty|[spread] p1b
+|-immune|p1a: Scrafty
+|-damage|p1b: Stonjourner|0 fnt
+|faint|p1b: Stonjourner
+|move|p1a: Scrafty|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2a: Lunala
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Lunala|92/100
+|-damage|p2b: Indeedee|90/100
+|-unboost|p2a: Lunala|spa|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|upkeep
+|
+|t:|1750873928
+|switch|p1b: Torkoal|Torkoal, L50, F|37/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|7
+|
+|t:|1750873937
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|move|p2b: Indeedee|Dazzling Gleam|p1a: Scrafty
+|-supereffective|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|win|SpikemuthCutie
+|raw|Cyclosz's rating: 1111 &rarr; <strong>1086</strong><br />(-25 for losing)
+|raw|SpikemuthCutie's rating: 1109 &rarr; <strong>1134</strong><br />(+25 for winning)
+|l|☆SpikemuthCutie
+|player|p2|
+|l|☆Cyclosz
+|player|p1|

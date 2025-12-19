@@ -1,0 +1,216 @@
+|j|☆MalteseShark
+|j|☆Taroda
+|t:|1750787294
+|gametype|doubles
+|player|p1|MalteseShark|169|1328
+|player|p2|Taroda|2|1229
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MalteseShark)
+|
+|t:|1750787354
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Taroda has 30 seconds left.
+|inactive|Taroda has 20 seconds left.
+|inactive|Taroda has 15 seconds left.
+|
+|t:|1750787395
+|-terastallize|p1a: Flutter Mane|Fairy
+|-terastallize|p2b: Lunala|Fairy
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Flutter Mane|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p2b: Lunala|Moonblast|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|74/100
+|-unboost|p1b: Amoonguss|spa|1
+|
+|upkeep
+|
+|t:|1750787409
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|turn|2
+|inactive|Taroda has 30 seconds left.
+|inactive|Taroda has 20 seconds left.
+|inactive|Taroda has 15 seconds left.
+|inactive|Taroda has 10 seconds left.
+|inactive|Taroda has 5 seconds left.
+|
+|t:|1750787464
+|move|p1a: Flutter Mane|Protect|p1a: Flutter Mane
+|-singleturn|p1a: Flutter Mane|Protect
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Lunala|Moongeist Beam|p1a: Flutter Mane
+|-activate|p1a: Flutter Mane|move: Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1750787482
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Flutter Mane|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|61/100
+|move|p2b: Lunala|Moongeist Beam|p1b: Amoonguss
+|-damage|p1b: Amoonguss|21/100
+|move|p2a: Incineroar|U-turn|p1b: Amoonguss
+|-damage|p1b: Amoonguss|3/100
+|-damage|p2a: Incineroar|45/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|
+|t:|1750787492
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100|[from] U-turn
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|MalteseShark has 30 seconds left.
+|
+|t:|1750787522
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Lunala
+|-damage|p2b: Lunala|85/100
+|-unboost|p2b: Lunala|spd|1
+|move|p2a: Ursaluna|Earthquake|p1b: Amoonguss|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-crit|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|faint|p1b: Amoonguss
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1750787537
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750787545
+|switch|p2b: Incineroar|Incineroar, L50, M|45/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Ogerpon|atk|1
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Ogerpon|Ivy Cudgel|p2a: Ursaluna|[anim] Ivy Cudgel Water
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|15/100
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|Taroda has 30 seconds left.
+|inactive|Taroda has 20 seconds left.
+|inactive|Taroda has 15 seconds left.
+|inactive|Taroda has 10 seconds left.
+|
+|t:|1750787594
+|switch|p2a: Lunala|Lunala, L50, tera:Fairy|85/100
+|move|p1b: Ogerpon|Spiky Shield|p1b: Ogerpon
+|-singleturn|p1b: Ogerpon|move: Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1750787611
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Incineroar|[anim] Ivy Cudgel Water
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Lunala|Moongeist Beam|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|27/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala
+|-damage|p2a: Lunala|18/100
+|
+|upkeep
+|
+|t:|1750787623
+|switch|p2b: Ursaluna|Ursaluna, L50, M|88/100 brn
+|turn|8
+|
+|t:|1750787640
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1b: Ogerpon|Ivy Cudgel|p2b: Ursaluna|[anim] Ivy Cudgel Water
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|45/100 brn
+|move|p2b: Ursaluna|Facade|p1b: Ogerpon
+|-damage|p1b: Ogerpon|0 fnt
+|faint|p1b: Ogerpon
+|
+|-damage|p2b: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750787660
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p1a: Calyrex|Glacial Lance|p2b: Ursaluna|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Ursaluna|move: Wide Guard
+|move|p2b: Ursaluna|Facade|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|win|Taroda
+|raw|MalteseShark's rating: 1328 &rarr; <strong>1302</strong><br />(-26 for losing)
+|raw|Taroda's rating: 1229 &rarr; <strong>1261</strong><br />(+32 for winning)
+|l|☆MalteseShark
+|player|p1|

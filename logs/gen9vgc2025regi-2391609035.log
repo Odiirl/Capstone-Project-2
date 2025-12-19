@@ -1,0 +1,273 @@
+|j|☆Lazer-dono
+|j|☆ru ready fam
+|t:|1750875420
+|gametype|doubles
+|player|p1|Lazer-dono|burglar|1331
+|player|p2|ru ready fam|lorelei-lgpe|1330
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Hippowdon, L50, M|
+|poke|p1|Wo-Chien, L50|
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Articuno, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|4
+|
+|t:|1750875442
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Glimmora|Glimmora, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ru ready fam)
+|
+|t:|1750875452
+|-terastallize|p2a: Miraidon|Electric
+|move|p1a: Miraidon|Volt Switch|p2b: Calyrex
+|-damage|p2b: Calyrex|65/100
+|
+|t:|1750875457
+|switch|p1a: Hippowdon|Hippowdon, L50, M|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Miraidon|Electro Drift|p1b: Glimmora
+|-crit|p1b: Glimmora
+|-damage|p1b: Glimmora|22/100
+|move|p1b: Glimmora|Mortal Spin|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Miraidon|96/100
+|-damage|p2b: Calyrex|62/100
+|-status|p2a: Miraidon|psn
+|-status|p2b: Calyrex|psn
+|move|p2b: Calyrex|High Horsepower|p1a: Hippowdon
+|-damage|p1a: Hippowdon|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Miraidon|90/100 psn|[from] Sandstorm
+|-damage|p2b: Calyrex|57/100 psn|[from] Sandstorm
+|-damage|p2a: Miraidon|78/100 psn|[from] psn
+|-damage|p2b: Calyrex|44/100 psn|[from] psn
+|upkeep
+|turn|2
+|inactive|Lazer-dono has 30 seconds left.
+|inactive|Lazer-dono has 20 seconds left.
+|
+|t:|1750875493
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Hippowdon|Protect|p1a: Hippowdon
+|-singleturn|p1a: Hippowdon|Protect
+|move|p1b: Glimmora|Earth Power|p2a: Ninetales
+|-damage|p2a: Ninetales|77/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Hippowdon|[spread] p1b
+|-activate|p1a: Hippowdon|move: Protect
+|-damage|p1b: Glimmora|0 fnt
+|-activate|p1b: Glimmora|ability: Toxic Debris
+|-sidestart|p2: ru ready fam|move: Toxic Spikes
+|faint|p1b: Glimmora
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2b: Calyrex|32/100 psn|[from] psn
+|upkeep
+|
+|t:|1750875498
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750875507
+|switch|p1a: Gyarados|Gyarados, L50, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Miraidon|Volt Switch|p2a: Ninetales
+|-damage|p2a: Ninetales|23/100
+|
+|t:|1750875517
+|switch|p1b: Hippowdon|Hippowdon, L50, M|75/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Hippowdon
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ninetales|17/100|[from] Sandstorm
+|-damage|p2b: Calyrex|27/100 psn|[from] Sandstorm
+|-damage|p2b: Calyrex|15/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750875532
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|78/100 psn
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p1b: Hippowdon|Stomping Tantrum|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Miraidon|72/100 psn|[from] Sandstorm
+|-damage|p2a: Miraidon|60/100 psn|[from] psn
+|upkeep
+|
+|t:|1750875541
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|17/100
+|-status|p2b: Ninetales|psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|5
+|
+|t:|1750875559
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-terastallize|p1b: Hippowdon|Steel
+|move|p2a: Miraidon|Electro Drift|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|72/100
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: ru ready fam|move: Aurora Veil
+|move|p1b: Hippowdon|Stomping Tantrum|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|29/100 psn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Miraidon|17/100 psn|[from] psn
+|-damage|p2b: Ninetales|5/100 psn|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|ru ready fam has 30 seconds left.
+|
+|t:|1750875589
+|move|p1a: Miraidon|Snarl|p2b: Ninetales|[spread] p2a,p2b
+|-resisted|p2b: Ninetales
+|-damage|p2a: Miraidon|12/100 psn
+|-damage|p2b: Ninetales|1/100 psn
+|-unboost|p2a: Miraidon|spa|1
+|-unboost|p2b: Ninetales|spa|1
+|move|p2a: Miraidon|Dazzling Gleam|p1b: Hippowdon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Hippowdon
+|-damage|p1a: Miraidon|44/100
+|-damage|p1b: Hippowdon|69/100
+|move|p2b: Ninetales|Blizzard|p1b: Hippowdon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Hippowdon
+|-damage|p1a: Miraidon|15/100
+|-damage|p1b: Hippowdon|63/100
+|move|p1b: Hippowdon|Stealth Rock|p2b: Ninetales
+|-sidestart|p2: ru ready fam|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Miraidon|0 fnt|[from] psn
+|faint|p2a: Miraidon
+|-damage|p2b: Ninetales|0 fnt|[from] psn
+|faint|p2b: Ninetales
+|upkeep
+|
+|t:|1750875602
+|switch|p2b: Articuno|Articuno, L50|100/100
+|-damage|p2b: Articuno|51/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1750875609
+|switch|p1b: Gyarados|Gyarados, L50, F|100/100
+|-ability|p1b: Gyarados|Intimidate|boost
+|-unboost|p2b: Articuno|atk|1
+|move|p1a: Miraidon|Snarl|p2b: Articuno
+|-damage|p2b: Articuno|40/100
+|-unboost|p2b: Articuno|spa|1
+|move|p2b: Articuno|Blizzard|p1b: Gyarados|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Gyarados|77/100
+|-status|p1b: Gyarados|frz
+|faint|p1a: Miraidon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750875612
+|switch|p1a: Hippowdon|Hippowdon, L50, M, tera:Steel|63/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|8
+|
+|t:|1750875619
+|cant|p1b: Gyarados|frz
+|move|p2b: Articuno|Blizzard|p1a: Hippowdon|[spread] p1a,p1b
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|49/100
+|-damage|p1b: Gyarados|51/100 frz
+|move|p1a: Hippowdon|Yawn|p2b: Articuno
+|-start|p2b: Articuno|move: Yawn|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Articuno|34/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1750875635
+|cant|p1b: Gyarados|frz
+|move|p1a: Hippowdon|Protect|p1a: Hippowdon
+|-singleturn|p1a: Hippowdon|Protect
+|move|p2b: Articuno|Blizzard|p1a: Hippowdon|[spread] p1b
+|-activate|p1a: Hippowdon|move: Protect
+|-damage|p1b: Gyarados|24/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Articuno|28/100|[from] Sandstorm
+|-end|p2b: Articuno|move: Yawn|[silent]
+|-status|p2b: Articuno|slp
+|upkeep
+|turn|10
+|
+|t:|1750875641
+|cant|p2b: Articuno|slp
+|cant|p1b: Gyarados|frz
+|move|p1a: Hippowdon|Stomping Tantrum|p2b: Articuno
+|-immune|p2b: Articuno
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Articuno|22/100 slp|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1750875646
+|move|p1a: Hippowdon|Protect|p1a: Hippowdon
+|-singleturn|p1a: Hippowdon|Protect
+|-curestatus|p2b: Articuno|slp|[msg]
+|move|p2b: Articuno|Blizzard|p1b: Gyarados|[spread] 
+|-activate|p1a: Hippowdon|move: Protect
+|-miss|p2b: Articuno|p1b: Gyarados
+|-curestatus|p1b: Gyarados|frz|[msg]
+|move|p1b: Gyarados|Waterfall|p2b: Articuno
+|-crit|p2b: Articuno
+|-damage|p2b: Articuno|0 fnt
+|faint|p2b: Articuno
+|
+|win|Lazer-dono
+|raw|Lazer-dono's rating: 1331 &rarr; <strong>1351</strong><br />(+20 for winning)
+|raw|ru ready fam's rating: 1330 &rarr; <strong>1310</strong><br />(-20 for losing)
+|l|☆ru ready fam
+|player|p2|
+|l|☆Lazer-dono
+|player|p1|

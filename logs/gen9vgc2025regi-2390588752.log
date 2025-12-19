@@ -1,0 +1,207 @@
+|j|☆JammyPhantom
+|j|☆MakoGP
+|t:|1750732846
+|gametype|doubles
+|player|p1|JammyPhantom|1|1095
+|player|p2|MakoGP|elesa-masters2|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|
+|t:|1750732913
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750732942
+|-terastallize|p2b: Lunala|Fairy
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Lunala
+|-damage|p2b: Lunala|87/100
+|move|p1a: Koraidon|U-turn|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|68/100
+|-damage|p1a: Koraidon|91/100|[from] item: Life Orb
+|
+|t:|1750732949
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100|[from] U-turn
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: MakoGP|move: Tailwind
+|move|p2b: Lunala|Calm Mind|p2b: Lunala
+|-boost|p2b: Lunala|spa|1
+|-boost|p2b: Lunala|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750732976
+|move|p1b: Flutter Mane|Moonblast|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|77/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|7/100
+|-boost|p2a: Volcarona|spa|1
+|move|p2b: Lunala|Moongeist Beam|p1b: Flutter Mane
+|-supereffective|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1a: Amoonguss|Spore|p2b: Lunala
+|-status|p2b: Lunala|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750733000
+|cant|p2b: Lunala|slp
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Flutter Mane|Moonblast|p2b: Lunala
+|-damage|p2b: Lunala|60/100 slp
+|move|p2a: Volcarona|Fiery Dance|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Lunala|66/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1750733015
+|switch|p1a: Koraidon|Koraidon, L50|91/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750733036
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1b: Flutter Mane|atk|1
+|-terastallize|p1a: Koraidon|Fire
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|-curestatus|p2b: Lunala|slp|[msg]
+|move|p2b: Lunala|Moongeist Beam|p1b: Flutter Mane
+|-activate|p1b: Flutter Mane|move: Protect
+|move|p1a: Koraidon|Flare Blitz|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|-damage|p1a: Koraidon|61/100|[from] Recoil
+|-damage|p1a: Koraidon|52/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: MakoGP|move: Tailwind
+|upkeep
+|
+|t:|1750733051
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|5
+|
+|t:|1750733080
+|move|p1a: Koraidon|Protect|p1a: Koraidon
+|-singleturn|p1a: Koraidon|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Protect
+|move|p1b: Flutter Mane|Moonblast|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-enditem|p2b: Urshifu|Focus Sash
+|-damage|p2b: Urshifu|1/100
+|-unboost|p2b: Urshifu|spa|1
+|move|p2b: Urshifu|Surging Strikes|p1b: Flutter Mane
+|-crit|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|-hitcount|p1: Flutter Mane|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1750733082
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|6
+|
+|t:|1750733096
+|switch|p2a: Volcarona|Volcarona, L50, F|77/100
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|move|p1a: Koraidon|Close Combat|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|35/100|[from] item: Rocky Helmet|[of] p2a: Volcarona
+|-damage|p1a: Koraidon|25/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1750733133
+|move|p2b: Urshifu|Aqua Jet|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: MakoGP|move: Tailwind
+|move|p1b: Incineroar|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|8/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Volcarona
+|-enditem|p2a: Volcarona|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|8
+|
+|t:|1750733156
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Incineroar|atk|1
+|move|p2a: Volcarona|Rage Powder|p2a: Volcarona
+|-singleturn|p2a: Volcarona|move: Rage Powder
+|move|p1b: Incineroar|Knock Off|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|88/100
+|-enditem|p2b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|9
+|-message|JammyPhantom forfeited.
+|
+|win|MakoGP
+|raw|JammyPhantom's rating: 1095 &rarr; <strong>1071</strong><br />(-24 for losing)
+|raw|MakoGP's rating: 1092 &rarr; <strong>1118</strong><br />(+26 for winning)
+|l|☆JammyPhantom
+|player|p1|

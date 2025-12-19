@@ -1,0 +1,184 @@
+|j|☆VOLTX2
+|j|☆cepas14
+|t:|1750826160
+|gametype|doubles
+|player|p1|VOLTX2|alder|1162
+|player|p2|cepas14|169|1171
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|
+|t:|1750826189
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|turn|1
+|
+|t:|1750826257
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Incineroar|Flare Blitz|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|27/100
+|-status|p1b: Kingambit|brn
+|-damage|p2b: Incineroar|75/100|[from] Recoil
+|move|p1b: Kingambit|Iron Head|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|86/100
+|
+|-damage|p1b: Kingambit|21/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1750826286
+|move|p1b: Kingambit|Sucker Punch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|72/100
+|move|p1a: Sneasler|Dire Claw|p2a: Urshifu
+|-damage|p2a: Urshifu|45/100
+|-status|p2a: Urshifu|par
+|move|p2b: Incineroar|Flare Blitz|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|-damage|p2b: Incineroar|67/100|[from] Recoil
+|move|p2a: Urshifu|Surging Strikes|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|49/100
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|2
+|
+|upkeep
+|
+|t:|1750826302
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|3
+|
+|t:|1750826324
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p1b: Kyogre|Calm Mind|p1b: Kyogre
+|-boost|p1b: Kyogre|spa|1
+|-boost|p1b: Kyogre|spd|1
+|move|p2b: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Calyrex
+|cant|p2a: Urshifu|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750826340
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Kyogre|Origin Pulse|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-damage|p2b: Calyrex|38/100
+|faint|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750826352
+|switch|p2a: Incineroar|Incineroar, L50, M|67/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Kyogre|atk|1
+|turn|5
+|
+|t:|1750826375
+|move|p2a: Incineroar|Fake Out|p1b: Kyogre
+|-damage|p1b: Kyogre|91/100
+|cant|p1b: Kyogre|flinch
+|move|p2b: Calyrex|Leech Seed|p1b: Kyogre
+|-start|p1b: Kyogre|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Kyogre|97/100|[from] item: Leftovers
+|-heal|p2b: Calyrex|49/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|84/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|61/100|[silent]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750826394
+|-terastallize|p2a: Incineroar|Grass
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Kyogre|Origin Pulse|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|27/100
+|move|p2a: Incineroar|Knock Off|p1b: Kyogre
+|-damage|p1b: Kyogre|48/100
+|-enditem|p1b: Kyogre|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Calyrex|67/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|35/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|78/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1750826431
+|move|p1b: Kyogre|Origin Pulse|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Calyrex|11/100
+|faint|p2a: Incineroar
+|move|p2b: Calyrex|Glacial Lance|p1b: Kyogre
+|-resisted|p1b: Kyogre
+|-damage|p1b: Kyogre|4/100
+|
+|-weather|none
+|-heal|p2b: Calyrex|17/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|0 fnt|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|20/100|[silent]
+|faint|p1b: Kyogre
+|
+|win|cepas14
+|raw|VOLTX2's rating: 1162 &rarr; <strong>1138</strong><br />(-24 for losing)
+|raw|cepas14's rating: 1171 &rarr; <strong>1195</strong><br />(+24 for winning)
+|l|☆VOLTX2
+|player|p1|
+|l|☆cepas14
+|player|p2|

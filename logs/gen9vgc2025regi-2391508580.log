@@ -1,0 +1,205 @@
+|j|☆LaJamieRey
+|j|☆Blitzie2024
+|t:|1750864460
+|gametype|doubles
+|player|p1|LaJamieRey|170|1178
+|player|p2|Blitzie2024|hilbert-wonderlauncher|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Gastrodon, L50, M|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Wo-Chien, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Eternatus, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|
+|t:|1750864491
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p2a: Wo-Chien|Wo-Chien, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaJamieRey)
+|
+|t:|1750864541
+|move|p1a: Flutter Mane|Taunt|p2b: Brute Bonnet
+|-start|p2b: Brute Bonnet|move: Taunt
+|-enditem|p2b: Brute Bonnet|Mental Herb
+|-end|p2b: Brute Bonnet|move: Taunt
+|move|p1b: Kilowattrel|Air Slash|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|60/100
+|move|p2b: Brute Bonnet|Spore|p1b: Kilowattrel
+|-status|p1b: Kilowattrel|slp|[from] move: Spore
+|move|p2a: Wo-Chien|Leech Seed|p1a: Flutter Mane
+|-start|p1a: Flutter Mane|move: Leech Seed
+|
+|-damage|p1a: Flutter Mane|88/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|68/100|[silent]
+|upkeep
+|turn|2
+|inactive|Blitzie2024 has 30 seconds left.
+|inactive|Blitzie2024 has 20 seconds left.
+|inactive|Blitzie2024 has 15 seconds left.
+|inactive|Blitzie2024 has 10 seconds left.
+|
+|t:|1750864587
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: Flutter Mane|Taunt|p2b: Ho-Oh
+|-start|p2b: Ho-Oh|move: Taunt
+|cant|p1b: Kilowattrel|slp
+|move|p2a: Wo-Chien|Hex|p1b: Kilowattrel
+|-damage|p1b: Kilowattrel|48/100 slp
+|
+|-damage|p1a: Flutter Mane|76/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|77/100|[silent]
+|upkeep
+|turn|3
+|inactive|Blitzie2024 has 30 seconds left.
+|
+|t:|1750864618
+|move|p1a: Flutter Mane|Icy Wind|p2a: Wo-Chien|[spread] p2a,p2b
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|59/100
+|-damage|p2b: Ho-Oh|91/100
+|-unboost|p2a: Wo-Chien|spe|1
+|-unboost|p2b: Ho-Oh|spe|1
+|-enditem|p2a: Wo-Chien|Eject Pack
+|
+|t:|1750864629
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|-curestatus|p1b: Kilowattrel|slp|[msg]
+|move|p1b: Kilowattrel|Thunderbolt|p2b: Ho-Oh
+|-supereffective|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|48/100
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750864646
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|turn|4
+|
+|t:|1750864658
+|-terastallize|p1a: Iron Hands|Water
+|move|p1b: Kilowattrel|Electroweb|p2b: Ho-Oh|[spread] p2a,p2b
+|-resisted|p2a: Eternatus
+|-supereffective|p2b: Ho-Oh
+|-crit|p2b: Ho-Oh
+|-damage|p2a: Eternatus|95/100
+|-damage|p2b: Ho-Oh|16/100
+|-unboost|p2a: Eternatus|spe|1
+|-unboost|p2b: Ho-Oh|spe|1
+|move|p2a: Eternatus|Meteor Beam||[still]
+|-prepare|p2a: Eternatus|Meteor Beam
+|-boost|p2a: Eternatus|spa|1
+|-enditem|p2a: Eternatus|Power Herb
+|-anim|p2a: Eternatus|Meteor Beam|p1b: Kilowattrel
+|-supereffective|p1b: Kilowattrel
+|-damage|p1b: Kilowattrel|0 fnt
+|faint|p1b: Kilowattrel
+|move|p1a: Iron Hands|Thunder Punch|p2b: Ho-Oh
+|-supereffective|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|0 fnt
+|faint|p2b: Ho-Oh
+|
+|upkeep
+|
+|t:|1750864680
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|5
+|
+|t:|1750864701
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1b: Zacian|Behemoth Blade|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|30/100
+|move|p2a: Eternatus|Flamethrower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|26/100
+|-status|p1b: Zacian|brn
+|move|p1a: Iron Hands|Drain Punch|p2b: Brute Bonnet
+|-supereffective|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|
+|-damage|p1b: Zacian|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1750864716
+|switch|p2b: Wo-Chien|Wo-Chien, L50|59/100
+|-ability|p2b: Wo-Chien|Tablets of Ruin
+|turn|6
+|inactive|Blitzie2024 has 30 seconds left.
+|inactive|Blitzie2024 has 20 seconds left.
+|
+|t:|1750864754
+|move|p1b: Zacian|Behemoth Blade|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|35/100
+|move|p2a: Eternatus|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|61/100
+|move|p2b: Wo-Chien|Hex|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|move|p1a: Iron Hands|Drain Punch|p2b: Wo-Chien
+|-supereffective|p2b: Wo-Chien
+|-damage|p2b: Wo-Chien|0 fnt
+|-heal|p1a: Iron Hands|76/100|[from] drain|[of] p2b: Wo-Chien
+|faint|p2b: Wo-Chien
+|
+|upkeep
+|turn|7
+|
+|t:|1750864771
+|move|p2a: Eternatus|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|39/100
+|-status|p1a: Iron Hands|psn
+|move|p1a: Iron Hands|Ice Punch|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|58/100
+|
+|-damage|p1a: Iron Hands|27/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1750864784
+|move|p2a: Eternatus|Sludge Bomb|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|win|Blitzie2024
+|raw|LaJamieRey's rating: 1178 &rarr; <strong>1146</strong><br />(-32 for losing)
+|raw|Blitzie2024's rating: 1085 &rarr; <strong>1119</strong><br />(+34 for winning)
+|c|☆Blitzie2024|gg
+|l|☆LaJamieRey
+|player|p1|
+|l|☆Blitzie2024
+|player|p2|

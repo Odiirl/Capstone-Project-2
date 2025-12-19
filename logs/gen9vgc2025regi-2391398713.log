@@ -1,0 +1,172 @@
+|j|☆uzui.exe
+|j|‽alvaroberna12
+|t:|1750850185
+|gametype|doubles
+|player|p1|uzui.exe|170|1252
+|player|p2|alvaroberna12|266|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Thundurus, L50, M|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Iron Bundle, L50|
+|poke|p2|Mienshao, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uzui.exe)
+alvaroberna12 rejected open team sheets.
+|
+|t:|1750850199
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50, shiny|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Iron Bundle|Iron Bundle, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-enditem|p2b: Iron Bundle|Booster Energy
+|-activate|p2b: Iron Bundle|ability: Quark Drive|[fromitem]
+|-start|p2b: Iron Bundle|quarkdrivespe
+|turn|1
+|
+|t:|1750850223
+|switch|p1a: Thundurus|Thundurus, L50, M, shiny|100/100
+|move|p1b: Brute Bonnet|Sucker Punch|p2a: Kyogre
+|-damage|p2a: Kyogre|71/100
+|move|p2b: Iron Bundle|Icy Wind|p1b: Brute Bonnet|[spread] p1a,p1b
+|-supereffective|p1a: Thundurus
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1a: Thundurus|68/100
+|-damage|p1b: Brute Bonnet|70/100
+|-unboost|p1a: Thundurus|spe|1
+|-unboost|p1b: Brute Bonnet|spe|1
+|move|p2a: Kyogre|Water Spout|p1a: Thundurus|[spread] p1a,p1b
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Thundurus|18/100
+|-damage|p1b: Brute Bonnet|48/100
+|-enditem|p1a: Thundurus|Sitrus Berry|[eat]
+|-heal|p1a: Thundurus|43/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750850247
+|move|p1a: Thundurus|Eerie Impulse|p2a: Kyogre
+|-unboost|p2a: Kyogre|spa|2
+|move|p1b: Brute Bonnet|Sucker Punch|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|68/100
+|move|p2b: Iron Bundle|Icy Wind|p1a: Thundurus|[spread] p1a,p1b
+|-supereffective|p1a: Thundurus
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1a: Thundurus|11/100
+|-damage|p1b: Brute Bonnet|17/100
+|-unboost|p1a: Thundurus|spe|1
+|-unboost|p1b: Brute Bonnet|spe|1
+|move|p2a: Kyogre|Water Spout|p1a: Thundurus|[spread] p1a,p1b
+|-resisted|p1b: Brute Bonnet
+|-damage|p1a: Thundurus|0 fnt
+|-damage|p1b: Brute Bonnet|5/100
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750850265
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750850273
+|switch|p2a: Mienshao|Mienshao, L50, M|100/100
+|move|p1b: Brute Bonnet|Sucker Punch|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|31/100
+|move|p2b: Iron Bundle|Freeze-Dry|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|move|p1a: Zamazenta|Body Press|p2a: Mienshao
+|-enditem|p2a: Mienshao|Focus Sash
+|-damage|p2a: Mienshao|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750850288
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750850300
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Mienshao|Wide Guard|p2a: Mienshao
+|-singleturn|p2a: Mienshao|Wide Guard
+|move|p2b: Iron Bundle|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|move|p1a: Zamazenta|Body Press|p2b: Iron Bundle
+|-supereffective|p2b: Iron Bundle
+|-damage|p2b: Iron Bundle|0 fnt
+|faint|p2b: Iron Bundle
+|-end|p2b: Iron Bundle|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750850309
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750850324
+|move|p2a: Mienshao|Wide Guard|p2a: Mienshao
+|-singleturn|p2a: Mienshao|Wide Guard
+|move|p1b: Calyrex|Dark Pulse|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p1a: Zamazenta|Body Press|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-weather|none
+|upkeep
+|
+|t:|1750850330
+|switch|p2b: Kyogre|Kyogre, L50|71/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|6
+|
+|t:|1750850347
+|-terastallize|p1a: Zamazenta|Water
+|move|p2b: Kyogre|Origin Pulse|p1b: Calyrex|[spread] p1b
+|-miss|p2b: Kyogre|p1a: Zamazenta
+|-damage|p1b: Calyrex|25/100
+|move|p1b: Calyrex|Astral Barrage|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|win|uzui.exe
+|raw|uzui.exe's rating: 1252 &rarr; <strong>1274</strong><br />(+22 for winning)
+|raw|alvaroberna12's rating: 1208 &rarr; <strong>1186</strong><br />(-22 for losing)
+|l|☆uzui.exe
+|player|p1|

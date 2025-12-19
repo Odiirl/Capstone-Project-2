@@ -1,0 +1,202 @@
+|j|☆Noobilio
+|j|☆MikeeZZ
+|t:|1750835671
+|gametype|doubles
+|player|p1|Noobilio|nurse|1199
+|player|p2|MikeeZZ|2|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Poliwhirl, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Roaring Moon, L50|
+|teampreview|4
+|
+|t:|1750835696
+|start
+|switch|p1a: Poliwhirl|Poliwhirl, L50, F|100/100
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikeeZZ)
+|
+|t:|1750835709
+|move|p1a: Poliwhirl|Protect|p1a: Poliwhirl
+|-singleturn|p1a: Poliwhirl|Protect
+|move|p1b: Kyogre|Protect|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Protect
+|move|p2b: Zacian|Play Rough|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|move|p2a: Iron Hands|Low Kick|p1b: Kyogre
+|-activate|p1b: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Noobilio has 30 seconds left.
+|inactive|Noobilio has 20 seconds left.
+|inactive|Noobilio has 15 seconds left.
+|
+|t:|1750835751
+|move|p1a: Poliwhirl|Icy Wind|p2b: Zacian|[spread] p2a,p2b
+|-resisted|p2b: Zacian
+|-damage|p2a: Iron Hands|96/100
+|-damage|p2b: Zacian|97/100
+|-unboost|p2a: Iron Hands|spe|1
+|-unboost|p2b: Zacian|spe|1
+|move|p1b: Kyogre|Ice Beam|p2a: Iron Hands
+|-damage|p2a: Iron Hands|75/100
+|-damage|p1b: Kyogre|91/100|[from] item: Life Orb
+|move|p2b: Zacian|Play Rough|p1b: Kyogre
+|-damage|p1b: Kyogre|3/100
+|move|p2a: Iron Hands|Wild Charge|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-crit|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2a: Iron Hands|75/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750835766
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|-unboost|p2b: Zacian|atk|1
+|turn|3
+|
+|t:|1750835783
+|move|p2b: Zacian|Protect|p2b: Zacian
+|-singleturn|p2b: Zacian|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Iron Hands
+|-damage|p2a: Iron Hands|67/100
+|move|p1a: Poliwhirl|Endeavor|p2a: Iron Hands
+|-damage|p2a: Iron Hands|53/100
+|cant|p2a: Iron Hands|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|MikeeZZ has 30 seconds left.
+|
+|t:|1750835814
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Poliwhirl|Encore||[still]
+|-fail|p1a: Poliwhirl
+|move|p1b: Incineroar|Knock Off|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|40/100
+|-enditem|p2a: Iron Hands|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Iron Hands|Wild Charge|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-enditem|p1a: Poliwhirl|Focus Sash
+|-damage|p1a: Poliwhirl|1/100
+|-damage|p2a: Iron Hands|27/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|Noobilio has 30 seconds left.
+|
+|t:|1750835843
+|move|p1a: Poliwhirl|Protect|p1a: Poliwhirl
+|-singleturn|p1a: Poliwhirl|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Incineroar|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Iron Hands|Drain Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|44/100
+|-heal|p2a: Iron Hands|51/100|[from] drain|[of] p1b: Incineroar
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1750835867
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|-enditem|p2b: Roaring Moon|Booster Energy
+|-activate|p2b: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2b: Roaring Moon|protosynthesisspe
+|move|p1a: Poliwhirl|Endeavor|p2a: Iron Hands
+|-damage|p2a: Iron Hands|1/100
+|move|p1b: Incineroar|Knock Off|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750835881
+|switch|p2a: Zacian|Zacian-Crowned, L50|97/100
+|turn|7
+|
+|t:|1750835892
+|move|p1a: Poliwhirl|Protect|p1a: Poliwhirl
+|-singleturn|p1a: Poliwhirl|Protect
+|move|p2b: Roaring Moon|Acrobatics|p1a: Poliwhirl
+|-activate|p1a: Poliwhirl|move: Protect
+|move|p2a: Zacian|Play Rough|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750835900
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|8
+|
+|t:|1750835910
+|-terastallize|p2b: Roaring Moon|Flying
+|move|p1a: Poliwhirl|Protect||[still]
+|-fail|p1a: Poliwhirl
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: MikeeZZ|move: Tailwind
+|move|p2a: Zacian|Behemoth Blade|p1b: Zacian
+|-damage|p1b: Zacian|47/100
+|move|p1b: Zacian|Play Rough|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|3/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750835925
+|-terastallize|p1b: Zacian|Ground
+|move|p2b: Roaring Moon|Acrobatics|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|move|p2a: Zacian|Behemoth Blade|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|win|MikeeZZ
+|raw|Noobilio's rating: 1199 &rarr; <strong>1173</strong><br />(-26 for losing)
+|raw|MikeeZZ's rating: 1191 &rarr; <strong>1217</strong><br />(+26 for winning)
+|c|☆MikeeZZ|gg
+|l|☆MikeeZZ
+|player|p2|
+|l|☆Noobilio
+|player|p1|

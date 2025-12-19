@@ -1,0 +1,207 @@
+|j|☆Sickboypro
+|j|☆Fropicat
+|t:|1750815126
+|gametype|doubles
+|player|p1|Sickboypro|cress|1112
+|player|p2|Fropicat|266|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Pikachu-Sinnoh, L50, M|
+|poke|p1|Heatran, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|
+|t:|1750815153
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750815169
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: Sickboypro|move: Light Screen
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Fropicat|move: Light Screen
+|move|p1a: Miraidon|Dragon Pulse|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|23/100
+|move|p2b: Miraidon|Draco Meteor|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2b: Miraidon|spa|2
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750815180
+|switch|p1a: Pikachu|Pikachu-Sinnoh, L50, M|100/100
+|turn|2
+|
+|t:|1750815200
+|switch|p2b: Toxapex|Toxapex, L50, M, shiny|100/100
+|move|p1a: Pikachu|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|89/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Sickboypro|Reflect
+|cant|p2a: Grimmsnarl|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1750815236
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Grimmsnarl|Thunder Wave|p1a: Pikachu
+|-activate|p1a: Pikachu|ability: Lightning Rod
+|-ability|p1a: Pikachu|Lightning Rod|boost
+|-boost|p1a: Pikachu|spa|1
+|move|p1a: Pikachu|Nuzzle|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|-status|p1a: Pikachu|psn
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Pikachu
+|-damage|p1a: Pikachu|32/100 psn
+|-unboost|p1a: Pikachu|spa|1
+|
+|-damage|p1a: Pikachu|20/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1750815289
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|switch|p2b: Miraidon|Miraidon, L50|23/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Fropicat|Reflect
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Miraidon
+|-immune|p2b: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750815320
+|-terastallize|p1a: Koraidon|Fire
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Koraidon
+|-status|p1a: Koraidon|par
+|move|p1b: Grimmsnarl|Thunder Wave|p2a: Grimmsnarl
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Grimmsnarl
+|move|p2b: Miraidon|Volt Switch|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|47/100
+|
+|t:|1750815333
+|switch|p2b: Toxapex|Toxapex, L50, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Koraidon|Dragon Claw|p2b: Toxapex
+|-damage|p2b: Toxapex|56/100
+|-damage|p1a: Koraidon|91/100 par|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|62/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750815360
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Toxapex|[miss]
+|-miss|p1b: Grimmsnarl|p2b: Toxapex
+|move|p1a: Koraidon|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|29/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|81/100 par|[from] item: Life Orb
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|4/100
+|-unboost|p1b: Grimmsnarl|spa|1
+|move|p2b: Toxapex|Muddy Water|p1a: Koraidon|[spread] p1b
+|-miss|p2b: Toxapex|p1a: Koraidon
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1750815377
+|switch|p1b: Pikachu|Pikachu-Sinnoh, L50, M|20/100 psn
+|turn|7
+|
+|t:|1750815414
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Pikachu|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|96/100
+|move|p1a: Koraidon|Close Combat|p2a: Calyrex
+|-damage|p2a: Calyrex|63/100
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|-damage|p1a: Koraidon|72/100 par|[from] item: Life Orb
+|move|p2b: Toxapex|Muddy Water|p1b: Pikachu|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|51/100 par
+|-damage|p1b: Pikachu|6/100 psn
+|-unboost|p1a: Koraidon|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Calyrex|69/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p1b: Pikachu|0 fnt|[from] psn
+|faint|p1b: Pikachu
+|upkeep
+|turn|8
+|
+|t:|1750815443
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|29/100
+|cant|p1a: Koraidon|par
+|move|p2a: Calyrex|Leech Seed|p1a: Koraidon
+|-start|p1a: Koraidon|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Calyrex|75/100|[from] item: Leftovers
+|-damage|p1a: Koraidon|39/100 par|[from] Leech Seed|[of] p2a: Calyrex
+|-heal|p2a: Calyrex|86/100|[silent]
+|-sideend|p2: Fropicat|move: Light Screen
+|-sideend|p1: Sickboypro|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750815477
+|move|p1a: Koraidon|Flare Blitz|p2a: Calyrex|[miss]
+|-miss|p1a: Koraidon|p2a: Calyrex
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|22/100 par
+|-unboost|p1a: Koraidon|spa|1
+|move|p2a: Calyrex|Throat Chop|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|win|Fropicat
+|raw|Sickboypro's rating: 1112 &rarr; <strong>1089</strong><br />(-23 for losing)
+|raw|Fropicat's rating: 1135 &rarr; <strong>1158</strong><br />(+23 for winning)
+|l|☆Sickboypro
+|player|p1|
+|l|☆Fropicat
+|player|p2|

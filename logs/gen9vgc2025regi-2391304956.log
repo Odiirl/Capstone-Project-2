@@ -1,0 +1,149 @@
+|j|☆NENGOU
+|j|☆baybayvgc
+|t:|1750832338
+|gametype|doubles
+|player|p1|NENGOU|265|1181
+|player|p2|baybayvgc|caitlin|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri-Droopy, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by baybayvgc)
+|
+|t:|1750832367
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-block|p2b: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750832390
+|move|p2b: Koraidon|Dragon Claw|p1b: Urshifu
+|-damage|p1b: Urshifu|50/100
+|move|p1b: Urshifu|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|move|p2a: Weezing|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|cant|p1a: Lunala|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|NENGOU has 30 seconds left.
+|
+|t:|1750832421
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p2b: Koraidon|Collision Course|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Lunala|Moongeist Beam|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750832424
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|turn|3
+|
+|t:|1750832445
+|-terastallize|p2b: Koraidon|Fire
+|move|p1b: Miraidon|Volt Switch|p2b: Koraidon
+|-damage|p2b: Koraidon|47/100
+|
+|t:|1750832449
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100|[from] Volt Switch
+|move|p2b: Koraidon|Flare Blitz|p1b: Ursaluna
+|-damage|p1b: Ursaluna|3/100
+|-damage|p2b: Koraidon|6/100|[from] Recoil
+|move|p1a: Lunala|Moongeist Beam|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Lunala|move: Taunt
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750832465
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|turn|4
+|
+|t:|1750832476
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p2b: Koraidon|Flare Blitz|p1a: Lunala
+|-damage|p1a: Lunala|52/100
+|-damage|p2b: Koraidon|0 fnt|[from] Recoil
+|faint|p2b: Koraidon
+|move|p1a: Lunala|Moongeist Beam|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|move|p1b: Ursaluna|Facade|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lunala|58/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|0 fnt|[from] brn
+|faint|p1b: Ursaluna
+|upkeep
+|
+|t:|1750832487
+|switch|p2b: Tatsugiri|Tatsugiri-Droopy, L50, F, shiny|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|turn|5
+|
+|t:|1750832504
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1a: Lunala|Wide Guard|p1a: Lunala
+|-singleturn|p1a: Lunala|Wide Guard
+|move|p1b: Miraidon|Electro Drift|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-weather|none
+|-heal|p1a: Lunala|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|-message|baybayvgc forfeited.
+|
+|win|NENGOU
+|raw|NENGOU's rating: 1181 &rarr; <strong>1204</strong><br />(+23 for winning)
+|raw|baybayvgc's rating: 1159 &rarr; <strong>1136</strong><br />(-23 for losing)
+|l|☆baybayvgc
+|player|p2|
+|l|☆NENGOU
+|player|p1|

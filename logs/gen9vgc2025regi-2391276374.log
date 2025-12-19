@@ -1,0 +1,210 @@
+|j|☆Lagunash
+|j|☆Chalp
+|t:|1750826862
+|gametype|doubles
+|player|p1|Lagunash|waiter|1131
+|player|p2|Chalp|265|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Wyrdeer, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Iron Bundle, L50|
+|teampreview|4
+|
+|t:|1750826910
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Ogerpon|Ogerpon, L50, F|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|-ability|p2a: Ogerpon|Defiant|boost
+|-boost|p2a: Ogerpon|atk|2
+|-unboost|p2b: Ho-Oh|atk|1
+|turn|1
+|
+|t:|1750826935
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Lagunash|move: Tailwind
+|move|p1b: Incineroar|Flare Blitz|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1b: Incineroar|88/100|[from] Spiky Shield|[of] p2a: Ogerpon
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|39/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750826967
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: Lagunash|move: Light Screen
+|move|p1b: Incineroar|Flare Blitz|p2a: Miraidon
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|73/100
+|-damage|p1b: Incineroar|79/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1750826991
+|move|p2b: Grimmsnarl|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|68/100
+|move|p1a: Whimsicott|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|44/100
+|-unboost|p2a: Miraidon|spa|1
+|cant|p1b: Incineroar|flinch
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|19/100
+|-damage|p1b: Incineroar|59/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750827036
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|93/100
+|move|p1b: Incineroar|Knock Off|p2b: Grimmsnarl
+|-resisted|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|88/100
+|-enditem|p2b: Grimmsnarl|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Grimmsnarl|Spirit Break|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-sideend|p1: Lagunash|move: Tailwind
+|upkeep
+|
+|t:|1750827055
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lagunash)
+|
+|t:|1750827093
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|35/100
+|move|p1b: Incineroar|Knock Off|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|52/100
+|-damage|p1b: Incineroar|19/100|[from] item: Rocky Helmet|[of] p2a: Ho-Oh
+|-enditem|p2a: Ho-Oh|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|inactive|Lagunash has 30 seconds left.
+|
+|t:|1750827123
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1750827130
+|switch|p2b: Ogerpon|Ogerpon, L50, F|100/100|[from] Parting Shot
+|move|p2a: Ho-Oh|Recover|p2a: Ho-Oh
+|-heal|p2a: Ho-Oh|100/100
+|move|p1b: Incineroar|Knock Off|p2b: Ogerpon
+|-damage|p2b: Ogerpon|57/100
+|-enditem|p2b: Ogerpon|Leftovers|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Ursaluna|Facade|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|-sideend|p1: Lagunash|move: Light Screen
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750827151
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|88/100
+|turn|7
+|inactive|Lagunash has 30 seconds left.
+|
+|t:|1750827184
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Grimmsnarl|Fake Out|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Ho-Oh|Sacred Fire|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827196
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|8
+|inactive|Chalp has 30 seconds left.
+|
+|t:|1750827224
+|move|p1b: Miraidon|Electro Drift|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|move|p2b: Grimmsnarl|Spirit Break|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|38/100
+|-unboost|p1b: Miraidon|spa|1
+|move|p1a: Ursaluna|Facade|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|2/100
+|
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1750827239
+|switch|p2a: Miraidon|Miraidon, L50|44/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750827256
+|-terastallize|p1b: Miraidon|Fairy
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|move|p1b: Miraidon|Electro Drift|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1a: Ursaluna|Facade|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|win|Lagunash
+|raw|Lagunash's rating: 1131 &rarr; <strong>1154</strong><br />(+23 for winning)
+|raw|Chalp's rating: 1104 &rarr; <strong>1081</strong><br />(-23 for losing)
+|c|☆Lagunash|Gg
+|l|☆Chalp
+|player|p2|
+|l|☆Lagunash
+|player|p1|

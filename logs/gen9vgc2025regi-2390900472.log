@@ -1,0 +1,221 @@
+|j|☆CrystalCG
+|j|☆SebasJck
+|t:|1750780977
+|gametype|doubles
+|player|p1|CrystalCG|pokemonrangerf-gen6|1050
+|player|p2|SebasJck|ninjaboy|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Masquerain, L50, F|
+|poke|p1|Lurantis, L50, F|
+|poke|p1|Scizor, L50, F|
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Clawitzer, L50, F|
+|poke|p1|Kleavor, L50, F|
+|poke|p2|Bruxish, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750781011
+|start
+|switch|p1a: Scizor|Scizor, L50, F|100/100
+|switch|p1b: Kleavor|Kleavor, L50, F|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1750781025
+|move|p2b: Gothitelle|Fake Out|p1b: Kleavor
+|-resisted|p1b: Kleavor
+|-damage|p1b: Kleavor|96/100
+|move|p1a: Scizor|Bullet Punch|p2a: Flutter Mane
+|-supereffective|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|move|p2a: Flutter Mane|Perish Song|p2a: Flutter Mane
+|-start|p1a: Scizor|perish3|[silent]
+|-start|p1b: Kleavor|perish3|[silent]
+|-start|p2a: Flutter Mane|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Kleavor|flinch
+|
+|-start|p2a: Flutter Mane|perish3
+|-start|p1b: Kleavor|perish3
+|-start|p1a: Scizor|perish3
+|-start|p2b: Gothitelle|perish3
+|upkeep
+|turn|2
+|
+|t:|1750781088
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Koraidon
+|-damage|p2a: Koraidon|67/100
+|move|p1b: Kleavor|X-Scissor|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Kleavor|perish2
+|-start|p1a: Scizor|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1750781128
+|switch|p2b: Flutter Mane|Flutter Mane, L50, shiny|1/100
+|-activate|p2b: Flutter Mane|ability: Protosynthesis
+|-start|p2b: Flutter Mane|protosynthesisspe
+|-terastallize|p1a: Scizor|Flying
+|move|p2a: Koraidon|Flare Blitz|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Koraidon|34/100|[from] Recoil
+|-damage|p2a: Koraidon|24/100|[from] item: Life Orb
+|move|p1b: Kleavor|Stone Axe|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|-sidestart|p2: SebasJck|move: Stealth Rock
+|faint|p2a: Koraidon
+|-damage|p1b: Kleavor|87/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Kleavor|perish1
+|upkeep
+|
+|t:|1750781144
+|switch|p2a: Gothitelle|Gothitelle, L50, F, shiny|100/100
+|switch|p1a: Masquerain|Masquerain, L50, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Gothitelle|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|-damage|p2a: Gothitelle|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1750781154
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1b: Kleavor|X-Scissor|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|move|p1a: Masquerain|Tailwind|p1a: Masquerain
+|-sidestart|p1: CrystalCG|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Kleavor|perish0
+|faint|p1b: Kleavor
+|upkeep
+|
+|t:|1750781158
+|switch|p1b: Clawitzer|Clawitzer, L50, F|100/100
+|turn|5
+|
+|t:|1750781187
+|move|p2b: Flutter Mane|Perish Song|p2b: Flutter Mane
+|-start|p1a: Masquerain|perish3|[silent]
+|-start|p1b: Clawitzer|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Flutter Mane|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Masquerain|Rain Dance|p1a: Masquerain
+|-weather|RainDance
+|-end|p2b: Flutter Mane|Protosynthesis
+|move|p1b: Clawitzer|Dark Pulse|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|17/100
+|-enditem|p2a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2a: Gothitelle|42/100|[from] item: Sitrus Berry
+|move|p2a: Gothitelle|Taunt|p1a: Masquerain
+|-start|p1a: Masquerain|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Masquerain|perish3
+|-start|p1b: Clawitzer|perish3
+|-start|p2b: Flutter Mane|perish3
+|-start|p2a: Gothitelle|perish3
+|upkeep
+|turn|6
+|
+|t:|1750781202
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1a: Masquerain|Weather Ball|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Clawitzer|Dark Pulse|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Masquerain|perish2
+|-start|p1b: Clawitzer|perish2
+|-start|p2a: Gothitelle|perish2
+|upkeep
+|
+|t:|1750781208
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-damage|p2b: Calyrex|88/100|[from] Stealth Rock
+|turn|7
+|c|☆CrystalCG|I hope you can discover your own strategies
+|
+|t:|1750781248
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Masquerain|Weather Ball|p2a: Gothitelle
+|-damage|p2a: Gothitelle|10/100
+|move|p1b: Clawitzer|Dark Pulse|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Gothitelle|Psychic|p1b: Clawitzer
+|-damage|p1b: Clawitzer|64/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Masquerain|perish1
+|-start|p1b: Clawitzer|perish1
+|-start|p2a: Gothitelle|perish1
+|-sideend|p1: CrystalCG|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1750781260
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Calyrex|Astral Barrage|p1a: Masquerain|[spread] p1a,p1b
+|-damage|p1a: Masquerain|17/100
+|-damage|p1b: Clawitzer|0 fnt
+|faint|p1b: Clawitzer
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: Masquerain|Weather Ball|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Masquerain|move: Taunt
+|-start|p1a: Masquerain|perish0
+|-start|p2a: Gothitelle|perish0
+|faint|p1a: Masquerain
+|faint|p2a: Gothitelle
+|
+|win|SebasJck
+|raw|CrystalCG's rating: 1050 &rarr; <strong>1035</strong><br />(-15 for losing)
+|raw|SebasJck's rating: 1099 &rarr; <strong>1121</strong><br />(+22 for winning)
+|l|☆CrystalCG
+|player|p1|
+|l|☆SebasJck
+|player|p2|

@@ -1,0 +1,131 @@
+|j|☆Aosakamameshi
+|j|☆Fournaubyl
+|t:|1750752840
+|gametype|doubles
+|player|p1|Aosakamameshi|170|1154
+|player|p2|Fournaubyl|gardenia-masters|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Medicham, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Meowscarada, L50, F|
+|poke|p1|Muk-Alola, L50, M|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Iron Valiant, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fournaubyl)
+|
+|t:|1750752866
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Meowscarada|Meowscarada, L50, F|100/100
+|switch|p2a: Necrozma|Necrozma-Dusk-Mane, L50, shiny|100/100
+|switch|p2b: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|-ability|p2b: Ogerpon|Mold Breaker
+|turn|1
+|
+|t:|1750752879
+|move|p2b: Ogerpon|Spiky Shield|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Protect
+|move|p2a: Necrozma|Protect|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Protect
+|move|p1a: Smeargle|Explosion|p2b: Ogerpon|[spread] p1b
+|-activate|p2a: Necrozma|move: Protect
+|-activate|p2b: Ogerpon|move: Protect
+|-damage|p1b: Meowscarada|41/100
+|faint|p1a: Smeargle
+|move|p1b: Meowscarada|Copycat|p1b: Meowscarada
+|move|p1b: Meowscarada|Explosion|p2a: Necrozma|[from] move: Copycat|[spread] 
+|-start|p1b: Meowscarada|typechange|Normal|[from] ability: Protean
+|-activate|p2a: Necrozma|move: Protect
+|-activate|p2b: Ogerpon|move: Protect
+|faint|p1b: Meowscarada
+|
+|upkeep
+|
+|t:|1750752900
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|2
+|
+|t:|1750752912
+|move|p1a: Calyrex|Astral Barrage|p2a: Necrozma|[spread] p2a,p2b
+|-supereffective|p2a: Necrozma
+|-crit|p2a: Necrozma
+|-damage|p2a: Necrozma|5/100
+|-damage|p2b: Ogerpon|45/100
+|move|p1b: Zacian|Sacred Sword|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|move|p2b: Ogerpon|Focus Energy|p2b: Ogerpon
+|-start|p2b: Ogerpon|move: Focus Energy
+|
+|upkeep
+|
+|t:|1750752923
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|turn|3
+|
+|t:|1750752935
+|move|p2a: Iron Hands|Fake Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|93/100
+|move|p1a: Calyrex|Astral Barrage|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|74/100
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|cant|p1b: Zacian|flinch
+|
+|upkeep
+|
+|t:|1750752942
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|4
+|inactive|Fournaubyl has 30 seconds left.
+|
+|t:|1750752973
+|-terastallize|p1b: Zacian|Fairy
+|move|p1a: Calyrex|Astral Barrage|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|33/100
+|-damage|p2b: Miraidon|30/100
+|move|p1b: Zacian|Play Rough|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|move|p2b: Miraidon|Electro Drift|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|
+|upkeep
+|turn|5
+|-message|Fournaubyl forfeited.
+|
+|win|Aosakamameshi
+|raw|Aosakamameshi's rating: 1154 &rarr; <strong>1177</strong><br />(+23 for winning)
+|raw|Fournaubyl's rating: 1122 &rarr; <strong>1099</strong><br />(-23 for losing)
+|l|☆Fournaubyl
+|player|p2|
+|l|☆Aosakamameshi
+|player|p1|

@@ -1,0 +1,272 @@
+|j|☆Emeuve
+|j|☆fwegwegwegw
+|t:|1750717737
+|gametype|doubles
+|player|p1|Emeuve|170|1141
+|player|p2|fwegwegwegw|2|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Slowpoke, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|
+|t:|1750717765
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Slowpoke|Slowpoke, L50, M, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Slowpoke|unboost|Attack|[from] ability: Own Tempo|[of] p1b: Slowpoke
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750717793
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Miraidon|Volt Switch|p1a: Indeedee
+|-damage|p1a: Indeedee|68/100
+|
+|t:|1750717806
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|7/100
+|move|p1b: Slowpoke|Trick Room|p1b: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1b: Slowpoke
+|
+|upkeep
+|turn|2
+|
+|t:|1750717836
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Slowpoke|Light Screen|p1b: Slowpoke
+|-sidestart|p1: Emeuve|move: Light Screen
+|move|p2b: Calyrex|Leech Seed|p1a: Indeedee
+|-start|p1a: Indeedee|move: Leech Seed
+|move|p2a: Incineroar|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|t:|1750717847
+|switch|p2a: Landorus|Landorus, L50, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1750717852
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|c|☆Emeuve|jiji
+|c|☆Emeuve|im cooked
+|
+|t:|1750717871
+|-terastallize|p1a: Torkoal|Fire
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Slowpoke|Surf|p2a: Landorus|[spread] p1a,p2b
+|-activate|p2a: Landorus|move: Protect
+|-supereffective|p1a: Torkoal
+|-resisted|p2b: Calyrex
+|-damage|p1a: Torkoal|91/100
+|-damage|p2b: Calyrex|99/100
+|-enditem|p1a: Torkoal|Weakness Policy
+|-boost|p1a: Torkoal|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Torkoal|spa|2|[from] item: Weakness Policy
+|move|p1a: Torkoal|Eruption|p2a: Landorus|[spread] p2b
+|-activate|p2a: Landorus|move: Protect
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|50/100
+|move|p2b: Calyrex|Leech Seed|p1a: Torkoal
+|-start|p1a: Torkoal|move: Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|56/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|78/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|66/100|[silent]
+|upkeep
+|turn|4
+|c|☆Emeuve|uhhh
+|c|☆Emeuve|wp
+|
+|t:|1750717913
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-fail|p1b: Slowpoke|unboost|Attack|[from] ability: Own Tempo|[of] p1b: Slowpoke
+|move|p1b: Slowpoke|Heal Pulse|p1a: Torkoal
+|-heal|p1a: Torkoal|100/100
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Calyrex
+|-damage|p2a: Incineroar|40/100
+|-damage|p2b: Calyrex|4/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-resisted|p1b: Slowpoke
+|-damage|p1a: Torkoal|82/100
+|-damage|p1b: Slowpoke|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|10/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|69/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|21/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750717934
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Slowpoke|Heal Pulse|p1a: Torkoal
+|-heal|p1a: Torkoal|100/100
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|27/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|37/100|[silent]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1750717949
+|switch|p2a: Landorus|Landorus, L50, M|100/100
+|turn|6
+|
+|t:|1750717956
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Landorus|Earth Power|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p2b: Calyrex|Leech Seed|p1b: Slowpoke
+|-start|p1b: Slowpoke|move: Leech Seed
+|move|p1b: Slowpoke|Trick Room|p1b: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1b: Slowpoke
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Calyrex|43/100|[from] item: Leftovers
+|-damage|p1b: Slowpoke|65/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|55/100|[silent]
+|-damage|p1a: Torkoal|76/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|65/100|[silent]
+|-sideend|p1: Emeuve|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1750717977
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1b: Slowpoke|Heal Pulse|p1a: Torkoal
+|-heal|p1a: Torkoal|100/100
+|move|p1a: Torkoal|Eruption|p2b: Calyrex|[spread] 
+|-activate|p2a: Landorus|move: Protect
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|none
+|-heal|p2b: Calyrex|71/100|[from] item: Leftovers
+|-damage|p1b: Slowpoke|53/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|83/100|[silent]
+|-damage|p1a: Torkoal|88/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|93/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1750718004
+|move|p1b: Slowpoke|Heal Pulse|p1a: Torkoal
+|-heal|p1a: Torkoal|100/100
+|move|p1a: Torkoal|Eruption|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2b: Calyrex
+|-damage|p2a: Landorus|0 fnt
+|-damage|p2b: Calyrex|55/100
+|faint|p2a: Landorus
+|move|p2b: Calyrex|Glacial Lance|p1b: Slowpoke|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-resisted|p1b: Slowpoke
+|-damage|p1a: Torkoal|80/100
+|-damage|p1b: Slowpoke|30/100
+|
+|-heal|p2b: Calyrex|60/100|[from] item: Leftovers
+|-damage|p1b: Slowpoke|18/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|72/100|[silent]
+|-damage|p1a: Torkoal|67/100|[from] Leech Seed|[of] p2b: Calyrex
+|-heal|p2b: Calyrex|83/100|[silent]
+|upkeep
+|
+|t:|1750718019
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|9
+|
+|t:|1750718041
+|move|p1b: Slowpoke|Heal Pulse|p1a: Torkoal
+|-heal|p1a: Torkoal|100/100
+|move|p1a: Torkoal|Eruption|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-resisted|p2b: Calyrex
+|-damage|p2a: Miraidon|50/100
+|-damage|p2b: Calyrex|47/100
+|move|p2b: Calyrex|Glacial Lance|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-resisted|p1b: Slowpoke
+|-damage|p1a: Torkoal|82/100
+|-damage|p1b: Slowpoke|0 fnt
+|faint|p1b: Slowpoke
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Miraidon|Electro Drift|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-heal|p2b: Calyrex|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750718072
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|10
+|
+|t:|1750718090
+|move|p2b: Calyrex|Glacial Lance|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|
+|win|fwegwegwegw
+|raw|Emeuve's rating: 1141 &rarr; <strong>1115</strong><br />(-26 for losing)
+|raw|fwegwegwegw's rating: 1130 &rarr; <strong>1156</strong><br />(+26 for winning)
+|c|☆Emeuve|wp bro
+|l|☆fwegwegwegw
+|player|p2|
+|l|☆Emeuve
+|player|p1|

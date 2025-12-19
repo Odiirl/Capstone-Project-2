@@ -1,0 +1,124 @@
+|j|☆bruhperiod
+|j|☆Pidpidpid
+|t:|1750773653
+|gametype|doubles
+|player|p1|bruhperiod|riley|1322
+|player|p2|Pidpidpid|birdkeeper-gen4dp|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Palkia-Origin, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Iron Valiant, L50|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Arcanine, L50, M|
+|teampreview|4
+|
+|t:|1750773722
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Tread on Me|Iron Treads, L50|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Brute Bonnet|Brute Bonnet, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Tread on Me|ability: Quark Drive
+|-start|p1b: Tread on Me|quarkdrivespe
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-enditem|p2b: Brute Bonnet|Booster Energy
+|-activate|p2b: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p2b: Brute Bonnet|protosynthesisdef
+|turn|1
+|
+|t:|1750773750
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1a: Miraidon|Electro Drift|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|64/100
+|move|p1b: Tread on Me|High Horsepower|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|48/100
+|-damage|p1b: Tread on Me|91/100|[from] item: Life Orb
+|move|p2a: Zacian|Play Rough|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750773768
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2b: Brute Bonnet|atk|1
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bruhperiod)
+|
+|t:|1750773788
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|42/100
+|move|p1b: Tread on Me|High Horsepower|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|cant|p2b: Brute Bonnet|flinch
+|
+|upkeep
+|turn|3
+|inactive|Pidpidpid has 30 seconds left.
+|
+|t:|1750773819
+|-terastallize|p2a: Zacian|Water
+|move|p2b: Brute Bonnet|Rage Powder|p2b: Brute Bonnet
+|-singleturn|p2b: Brute Bonnet|move: Rage Powder
+|move|p1b: Tread on Me|Steel Roller|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|0 fnt
+|-fieldend|move: Electric Terrain
+|-end|p1b: Tread on Me|Quark Drive
+|faint|p2b: Brute Bonnet
+|-end|p2b: Brute Bonnet|Protosynthesis|[silent]
+|-damage|p1b: Tread on Me|82/100|[from] item: Life Orb
+|move|p2a: Zacian|Tera Blast|p1b: Tread on Me|[anim] Tera Blast Water
+|-supereffective|p1b: Tread on Me
+|-damage|p1b: Tread on Me|0 fnt
+|faint|p1b: Tread on Me
+|-end|p1b: Tread on Me|Quark Drive|[silent]
+|move|p1a: Incineroar|Flare Blitz|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|80/100
+|-damage|p1a: Incineroar|94/100|[from] Recoil
+|
+|upkeep
+|inactive|bruhperiod has 30 seconds left.
+|
+|t:|1750773844
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Arcanine|Arcanine, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-fail|p1b: Calyrex|unboost|[from] item: Clear Amulet|[of] p1b: Calyrex
+|turn|4
+|-message|bruhperiod forfeited.
+|
+|win|Pidpidpid
+|raw|bruhperiod's rating: 1322 &rarr; <strong>1306</strong><br />(-16 for losing)
+|raw|Pidpidpid's rating: 1391 &rarr; <strong>1407</strong><br />(+16 for winning)
+|l|☆bruhperiod
+|player|p1|
+|l|☆Pidpidpid
+|player|p2|

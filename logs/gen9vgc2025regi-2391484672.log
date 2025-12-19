@@ -1,0 +1,159 @@
+|j|☆Mars002
+|j|☆kojimuranishi
+|t:|1750861805
+|gametype|doubles
+|player|p1|Mars002|169|1531
+|player|p2|kojimuranishi|102|1700
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Comfey, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mars002)
+|
+|t:|1750861833
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|inactive|kojimuranishi has 30 seconds left.
+|
+|t:|1750861864
+|move|p2a: Smeargle|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|96/100
+|cant|p1a: Rillaboom|flinch
+|move|p1b: Annihilape|Final Gambit|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Calyrex
+|
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spa|1
+|upkeep
+|
+|t:|1750861881
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|2
+|
+|t:|1750861897
+|-terastallize|p1b: Calyrex|Grass
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1a: Rillaboom|Grassy Glide|p2a: Smeargle
+|-damage|p2a: Smeargle|55/100
+|move|p2a: Smeargle|Spore|p1b: Calyrex
+|-immune|p1b: Calyrex
+|move|p1b: Calyrex|Glacial Lance|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Smeargle|1/100
+|-damage|p2b: Ursaluna|51/100
+|move|p2b: Ursaluna|Blood Moon|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Ursaluna|42/100|[from] item: Life Orb
+|
+|-heal|p2a: Smeargle|7/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|48/100|[from] Grassy Terrain
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750861922
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|3
+|
+|t:|1750861940
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Ursaluna|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|move|p1b: Calyrex|Glacial Lance|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Ursaluna|53/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750861952
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|
+|t:|1750861962
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre|[spread] p2a
+|-miss|p1a: Groudon|p2b: Ursaluna
+|-damage|p2a: Kyogre|53/100
+|move|p2a: Kyogre|Origin Pulse|p1b: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-resisted|p1b: Calyrex
+|-damage|p1a: Groudon|16/100
+|-damage|p1b: Calyrex|73/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Ursaluna|[spread] p2a,p2b
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|24/100
+|-damage|p2b: Ursaluna|4/100
+|move|p2b: Ursaluna|Blood Moon|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2b: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p2b: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Groudon|22/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|30/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1750861987
+|move|p2a: Kyogre|Protect|p2a: Kyogre
+|-singleturn|p2a: Kyogre|Protect
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre
+|-activate|p2a: Kyogre|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Groudon|28/100|[from] Grassy Terrain
+|-heal|p2a: Kyogre|36/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750861996
+|move|p1a: Groudon|Precipice Blades|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|win|Mars002
+|raw|Mars002's rating: 1531 &rarr; <strong>1560</strong><br />(+29 for winning)
+|raw|kojimuranishi's rating: 1700 &rarr; <strong>1671</strong><br />(-29 for losing)
+|l|☆kojimuranishi
+|player|p2|
+|l|☆Mars002
+|player|p1|

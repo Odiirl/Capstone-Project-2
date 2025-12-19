@@ -1,0 +1,164 @@
+|j|☆Mishima14
+|j|☆Azemon
+|t:|1750834036
+|gametype|doubles
+|player|p1|Mishima14|266|1611
+|player|p2|Azemon|101|1585
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mishima14)
+|inactive|Mishima14 has 60 seconds left.
+|inactive|Azemon has 60 seconds left.
+|
+|t:|1750834074
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|1
+|j| Dvsh_1604
+|inactive|Azemon has 30 seconds left.
+|
+|t:|1750834102
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|move|p1b: Urshifu|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|80/100
+|
+|t:|1750834113
+|switch|p1b: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|move|p2b: Farigiraf|Psychic Noise|p1b: Miraidon
+|-damage|p1b: Miraidon|77/100
+|-start|p1b: Miraidon|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1750834135
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|move|p1b: Miraidon|Volt Switch|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|t:|1750834144
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Landorus|Taunt|p2b: Kyogre
+|-start|p2b: Kyogre|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750834157
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|turn|3
+|
+|t:|1750834166
+|-terastallize|p1b: Calyrex|Water
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1b
+|-activate|p1a: Landorus|move: Protect
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|72/100
+|move|p2a: Zacian|Behemoth Blade|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|move|p1b: Calyrex|Leech Seed|p2a: Zacian
+|-start|p2a: Zacian|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|78/100|[from] item: Leftovers
+|-damage|p2a: Zacian|88/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|88/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1750834192
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Zacian|Behemoth Blade|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|94/100|[from] item: Leftovers
+|-damage|p2a: Zacian|76/100|[from] Leech Seed|[of] p1b: Calyrex
+|-heal|p1b: Calyrex|100/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1750834210
+|move|p2a: Zacian|Play Rough|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|move|p1b: Calyrex|Glacial Lance|p2a: Zacian|[spread] p2a,p2b
+|-resisted|p2a: Zacian
+|-crit|p2b: Farigiraf
+|-damage|p2a: Zacian|52/100
+|-damage|p2b: Farigiraf|41/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Zacian|39/100|[from] Leech Seed|[of] p1b: Calyrex
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750834220
+|switch|p1a: Landorus|Landorus, L50, M|100/100
+|turn|6
+|
+|t:|1750834234
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1b: Calyrex|Glacial Lance|p2a: Zacian|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|15/100
+|move|p1a: Landorus|Earth Power|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|
+|-weather|none
+|upkeep
+|-message|Azemon forfeited.
+|
+|win|Mishima14
+|raw|Mishima14's rating: 1611 &rarr; <strong>1630</strong><br />(+19 for winning)
+|raw|Azemon's rating: 1585 &rarr; <strong>1566</strong><br />(-19 for losing)
+|l|☆Azemon
+|player|p2|
+|l|☆Mishima14
+|player|p1|
+|l| Dvsh_1604

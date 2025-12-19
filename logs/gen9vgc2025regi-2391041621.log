@@ -1,0 +1,114 @@
+|j|☆dmpape11
+|j|☆jrdahn
+|t:|1750795841
+|gametype|doubles
+|player|p1|dmpape11|2|1326
+|player|p2|jrdahn|2|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jrdahn)
+|inactive|dmpape11 also wants the timer to be on.
+|
+|t:|1750795876
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1750795889
+|move|p1a: Koraidon|Flame Charge|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|59/100
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Ninetales|Moonblast|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|move|p1b: Scovillain|Spicy Extract|p1: Koraidon|[notarget]
+|-fail|p1b: Scovillain
+|move|p2b: Terapagos|Tera Starstorm|p1b: Scovillain
+|-enditem|p1b: Scovillain|Focus Sash
+|-damage|p1b: Scovillain|1/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750795897
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|2
+|
+|t:|1750795908
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|100/100|[silent]
+|-ability|p2b: Terapagos|Teraform Zero
+|-weather|none
+|-fieldend|move: Electric Terrain
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|move|p1b: Scovillain|Overheat|p2b: Terapagos
+|-damage|p2b: Terapagos|62/100
+|-unboost|p1b: Scovillain|spa|2
+|move|p2b: Terapagos|Tera Starstorm|p1a: Miraidon|[spread] p1a,p1b
+|-damage|p1a: Miraidon|46/100
+|-damage|p1b: Scovillain|0 fnt
+|faint|p1b: Scovillain
+|
+|upkeep
+|
+|t:|1750795916
+|switch|p1b: Clefairy|Clefairy, L50, M|100/100
+|turn|3
+|
+|t:|1750795927
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|move|p1a: Miraidon|Electro Drift|p2b: Terapagos
+|-damage|p2b: Terapagos|29/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Miraidon|6/100
+|-damage|p1b: Clefairy|49/100
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Miraidon|31/100
+|-heal|p1b: Clefairy|73/100
+|
+|upkeep
+|turn|4
+|-message|dmpape11 forfeited.
+|
+|win|jrdahn
+|raw|dmpape11's rating: 1326 &rarr; <strong>1310</strong><br />(-16 for losing)
+|raw|jrdahn's rating: 1405 &rarr; <strong>1421</strong><br />(+16 for winning)
+|l|☆dmpape11
+|player|p1|
+|l|☆jrdahn
+|player|p2|

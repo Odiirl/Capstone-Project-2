@@ -1,0 +1,216 @@
+|j|☆we moveing
+|j|☆juzmar7
+|t:|1750834942
+|gametype|doubles
+|player|p1|we moveing|266|1181
+|player|p2|juzmar7|170|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Chansey, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|
+|t:|1750834983
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Scovillain|Scovillain, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Smeargle|Smeargle, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|turn|1
+|
+|t:|1750834994
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Scovillain|Overheat|p2b: Smeargle
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|-unboost|p1b: Scovillain|spa|2
+|move|p2a: Annihilape|Final Gambit|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2b: Smeargle|Trick Room|p2b: Smeargle
+|-fieldstart|move: Trick Room|[of] p2b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750835027
+|move|p2b: Smeargle|Destiny Bond|p2b: Smeargle
+|-singlemove|p2b: Smeargle|Destiny Bond
+|move|p1a: Groudon|Precipice Blades|p2a: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Annihilape|42/100
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|-activate|p2b: Smeargle|move: Destiny Bond
+|faint|p1a: Groudon
+|move|p2a: Annihilape|Final Gambit|p1b: Scovillain
+|-damage|p1b: Scovillain|37/100
+|faint|p2a: Annihilape
+|move|p1b: Scovillain|Spicy Extract|p1: Groudon|[notarget]
+|-fail|p1b: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835042
+|switch|p2b: Chansey|Chansey, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Chansey|atk|1
+|turn|3
+|
+|t:|1750835065
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Scovillain|Protect|p1b: Scovillain
+|-singleturn|p1b: Scovillain|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Chansey
+|-damage|p2b: Chansey|94/100
+|cant|p2b: Chansey|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750835093
+|-terastallize|p2a: Calyrex|Water
+|move|p2b: Chansey|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|90/100
+|-damage|p1b: Scovillain|17/100
+|move|p2a: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|78/100
+|-damage|p1b: Scovillain|0 fnt
+|faint|p1b: Scovillain
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1a: Incineroar|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750835104
+|switch|p1a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750835106
+|switch|p1b: Incineroar|Incineroar, L50, M|78/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Chansey|atk|1
+|turn|5
+|
+|t:|1750835133
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Chansey|Icy Wind|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Miraidon|98/100
+|-damage|p1b: Incineroar|76/100
+|-unboost|p1a: Miraidon|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|move|p1a: Miraidon|Electro Drift|p2b: Chansey
+|-damage|p2b: Chansey|64/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750835157
+|move|p1a: Miraidon|Electro Drift|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Chansey|Copycat|p2b: Chansey
+|move|p2b: Chansey|Electro Drift|p1a: Miraidon|[from] move: Copycat
+|-damage|p1a: Miraidon|87/100
+|move|p1b: Incineroar|Parting Shot|p2b: Chansey
+|-unboost|p2b: Chansey|atk|1
+|-unboost|p2b: Chansey|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1750835173
+|move|p1a: Miraidon|Electro Drift|p2b: Chansey
+|-damage|p2b: Chansey|32/100
+|move|p2b: Chansey|Soft-Boiled|p2b: Chansey
+|-heal|p2b: Chansey|83/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Chansey
+|-damage|p2b: Chansey|50/100
+|-damage|p1b: Incineroar|57/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1750835186
+|move|p1a: Miraidon|Electro Drift|p2b: Chansey
+|-damage|p2b: Chansey|18/100
+|move|p2b: Chansey|Soft-Boiled|p2b: Chansey
+|-heal|p2b: Chansey|68/100
+|move|p1b: Incineroar|Taunt|p2b: Chansey
+|-start|p2b: Chansey|move: Taunt
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1750835198
+|move|p1a: Miraidon|Electro Drift|p2b: Chansey
+|-damage|p2b: Chansey|50/100
+|move|p2b: Chansey|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Miraidon|81/100
+|-damage|p1b: Incineroar|51/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Chansey
+|-damage|p2b: Chansey|20/100
+|-damage|p1b: Incineroar|34/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1750835209
+|move|p1a: Miraidon|Electro Drift|p2b: Chansey
+|-damage|p2b: Chansey|1/100
+|move|p2b: Chansey|Icy Wind|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Miraidon|79/100
+|-damage|p1b: Incineroar|32/100
+|-unboost|p1a: Miraidon|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|move|p1b: Incineroar|Flare Blitz|p2b: Chansey
+|-damage|p2b: Chansey|0 fnt
+|faint|p2b: Chansey
+|-damage|p1b: Incineroar|32/100|[from] Recoil
+|
+|win|we moveing
+|raw|we moveing's rating: 1181 &rarr; <strong>1202</strong><br />(+21 for winning)
+|raw|juzmar7's rating: 1126 &rarr; <strong>1105</strong><br />(-21 for losing)
+|l|☆juzmar7
+|player|p2|

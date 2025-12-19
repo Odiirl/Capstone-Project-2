@@ -1,0 +1,141 @@
+|j|☆alolatiago
+|j|☆manaka555
+|t:|1750775814
+|gametype|doubles
+|player|p1|alolatiago|170|1063
+|player|p2|manaka555|li|1066
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Cinderace, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Duraludon, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alolatiago)
+|
+|t:|1750775836
+|start
+|switch|p1a: Tsareena|Tsareena, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1b: Excadrill|Mold Breaker
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tsareena|atk|1
+|-fail|p1b: Excadrill|unboost|[from] item: Clear Amulet|[of] p1b: Excadrill
+|turn|1
+|
+|t:|1750775856
+|move|p1a: Tsareena|Protect|p1a: Tsareena
+|-singleturn|p1a: Tsareena|Protect
+|move|p2b: Incineroar|Fake Out||[still]
+|cant|p1a: Tsareena|ability: Queenly Majesty|Fake Out|[of] p2b: Incineroar
+|move|p2a: Miraidon|Volt Switch|p1a: Tsareena
+|-activate|p1a: Tsareena|move: Protect
+|move|p1b: Excadrill|Drill Run|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|7/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750775877
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Excadrill|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Calyrex|73/100
+|-damage|p2b: Incineroar|68/100
+|move|p1a: Tsareena|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|47/100
+|-enditem|p2a: Calyrex|Leftovers|[from] move: Knock Off|[of] p1a: Tsareena
+|cant|p2b: Incineroar|flinch
+|
+|upkeep
+|turn|3
+|inactive|manaka555 has 30 seconds left.
+|
+|t:|1750775909
+|move|p1b: Excadrill|Drill Run|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1a: Tsareena|Taunt|p2a: Calyrex
+|-start|p2a: Calyrex|move: Taunt
+|move|p2a: Calyrex|Glacial Lance|p1b: Excadrill|[spread] p1a,p1b
+|-supereffective|p1a: Tsareena
+|-crit|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-damage|p1b: Excadrill|33/100
+|faint|p1a: Tsareena
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|upkeep
+|
+|t:|1750775924
+|switch|p1a: Cinderace|Cinderace, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1750775933
+|move|p1a: Cinderace|Pyro Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p1b: Excadrill|Rock Slide|p2b: Ursaluna
+|-resisted|p2b: Ursaluna
+|-damage|p2b: Ursaluna|90/100
+|cant|p2b: Ursaluna|flinch
+|
+|upkeep
+|
+|t:|1750775942
+|switch|p2a: Miraidon|Miraidon, L50|7/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750775953
+|move|p1a: Cinderace|Sucker Punch|p2a: Miraidon
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|move|p1b: Excadrill|Iron Head|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|42/100
+|cant|p2b: Ursaluna|flinch
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750775967
+|move|p1a: Cinderace|High Jump Kick|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|alolatiago
+|raw|alolatiago's rating: 1063 &rarr; <strong>1094</strong><br />(+31 for winning)
+|raw|manaka555's rating: 1066 &rarr; <strong>1046</strong><br />(-20 for losing)
+|l|☆manaka555
+|player|p2|
+|l|☆alolatiago
+|player|p1|

@@ -1,0 +1,232 @@
+|j|☆Caly-Dow hater
+|j|☆Slowpoke Well YT
+|t:|1750872212
+|gametype|doubles
+|player|p1|Caly-Dow hater|1|1478
+|player|p2|Slowpoke Well YT|ethan|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Bundle, L50|
+|poke|p2|Lapras, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Slowpoke Well YT)
+|j| akipslipvi
+|
+|t:|1750872227
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Brute Bonnet|Brute Bonnet, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1750872241
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Brute Bonnet|Spore|p2b: Farigiraf
+|-status|p2b: Farigiraf|slp|[from] move: Spore
+|cant|p2b: Farigiraf|slp
+|
+|upkeep
+|turn|2
+|l| akipslipvi
+|
+|t:|1750872254
+|switch|p2a: Iron Hands|Iron Hands, L50|100/100
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Iron Hands|[miss]
+|-miss|p1a: Incineroar|p2a: Iron Hands
+|move|p1b: Brute Bonnet|Spore|p2a: Iron Hands
+|-status|p2a: Iron Hands|slp|[from] move: Spore
+|cant|p2b: Farigiraf|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1750872269
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|move|p1a: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|28/100 slp
+|-enditem|p2b: Farigiraf|Electric Seed|[from] move: Knock Off|[of] p1a: Incineroar
+|cant|p2a: Iron Hands|slp
+|-curestatus|p2b: Farigiraf|slp|[msg]
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750872291
+|-curestatus|p2a: Iron Hands|slp|[msg]
+|move|p2a: Iron Hands|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|23/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|48/100|[from] item: Sitrus Berry
+|move|p2b: Farigiraf|Psychic|p1b: Groudon
+|-damage|p1b: Groudon|82/100
+|move|p1a: Incineroar|Parting Shot|p2a: Iron Hands
+|-unboost|p2a: Iron Hands|atk|1
+|-unboost|p2a: Iron Hands|spa|1
+|
+|t:|1750872307
+|switch|p1a: Brute Bonnet|Brute Bonnet, L50|100/100|[from] Parting Shot
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis
+|-start|p1a: Brute Bonnet|protosynthesisdef
+|move|p1b: Groudon|Precipice Blades|p2a: Iron Hands|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|22/100
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750872318
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750872325
+|-terastallize|p2b: Calyrex|Dragon
+|-terastallize|p1b: Groudon|Fire
+|move|p2a: Iron Hands|Drain Punch|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|70/100
+|-heal|p2a: Iron Hands|36/100|[from] drain|[of] p1a: Brute Bonnet
+|-damage|p2a: Iron Hands|20/100|[from] item: Rocky Helmet|[of] p1a: Brute Bonnet
+|move|p1a: Brute Bonnet|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|cant|p2b: Calyrex|slp
+|move|p1b: Groudon|Precipice Blades|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Calyrex|72/100 slp
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750872341
+|switch|p2a: Lapras|Lapras, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1750872350
+|switch|p1b: Incineroar|Incineroar, L50, F|48/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p1a: Brute Bonnet|Spore|p2a: Lapras
+|-status|p2a: Lapras|slp|[from] move: Spore
+|cant|p2a: Lapras|slp
+|cant|p2b: Calyrex|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750872362
+|move|p1a: Brute Bonnet|Protect|p1a: Brute Bonnet
+|-singleturn|p1a: Brute Bonnet|Protect
+|-curestatus|p2a: Lapras|slp|[msg]
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|-curestatus|p2b: Calyrex|slp|[msg]
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|none
+|-end|p1a: Brute Bonnet|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|c|☆Caly-Dow hater|quadruple 1turn wake up lol
+|inactive|Caly-Dow hater has 30 seconds left.
+|
+|t:|1750872392
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Calyrex|[miss]
+|-miss|p1b: Incineroar|p2b: Calyrex
+|move|p2b: Calyrex|High Horsepower|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Lapras|Sheer Cold|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|-ohko
+|
+|upkeep
+|
+|t:|1750872401
+|switch|p1b: Groudon|Groudon, L50, tera:Fire|82/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Groudon
+|turn|9
+|
+|t:|1750872410
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Miraidon|Draco Meteor|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2b: Calyrex
+|move|p1b: Groudon|Heat Crash|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|inactive|Caly-Dow hater has 30 seconds left.
+|
+|t:|1750872438
+|move|p1a: Miraidon|Draco Meteor|p2a: Lapras
+|-crit|p2a: Lapras
+|-enditem|p2a: Lapras|Focus Sash
+|-damage|p2a: Lapras|1/100
+|-unboost|p1a: Miraidon|spa|2
+|move|p1b: Groudon|Heat Crash|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Caly-Dow hater
+|raw|Caly-Dow hater's rating: 1478 &rarr; <strong>1497</strong><br />(+19 for winning)
+|raw|Slowpoke Well YT's rating: 1456 &rarr; <strong>1437</strong><br />(-19 for losing)
+|l|☆Caly-Dow hater
+|player|p1|
+|l|☆Slowpoke Well YT
+|player|p2|

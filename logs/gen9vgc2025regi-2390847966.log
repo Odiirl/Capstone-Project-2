@@ -1,0 +1,256 @@
+|j|☆helo hru
+|j|☆LuceyGooseyFTW
+|t:|1750775292
+|gametype|doubles
+|player|p1|helo hru|unknownf|1337
+|player|p2|LuceyGooseyFTW|102|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Avalugg, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|
+|t:|1750775319
+|start
+|switch|p1a: Oh-Ho|Ho-Oh, L50|100/100
+|switch|p1b: Baguette|Farigiraf, L50, M|100/100
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|t:|1750775334
+|switch|p1a: Keii|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Keii
+|move|p2b: Basculegion|Flip Turn|p1b: Baguette
+|-crit|p1b: Baguette
+|-damage|p1b: Baguette|46/100
+|
+|t:|1750775345
+|switch|p2b: Clefairy|Clefairy, L50, F|100/100|[from] Flip Turn
+|move|p2a: Kyogre|Water Spout|p1b: Baguette|[spread] p1a,p1b
+|-resisted|p1a: Keii
+|-damage|p1a: Keii|75/100
+|-damage|p1b: Baguette|0 fnt
+|faint|p1b: Baguette
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750775350
+|switch|p1b: Oh-Ho|Ho-Oh, L50|100/100
+|turn|2
+|
+|t:|1750775362
+|move|p1b: Oh-Ho|Protect|p1b: Oh-Ho
+|-singleturn|p1b: Oh-Ho|Protect
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p2a: Kyogre|Water Spout|p1b: Oh-Ho|[spread] p1a
+|-activate|p1b: Oh-Ho|move: Protect
+|-resisted|p1a: Keii
+|-damage|p1a: Keii|49/100
+|move|p1a: Keii|Snarl|p2b: Clefairy|[spread] p2a,p2b
+|-resisted|p2b: Clefairy
+|-damage|p2a: Kyogre|89/100
+|-damage|p2b: Clefairy|91/100
+|-unboost|p2a: Kyogre|spa|1
+|-unboost|p2b: Clefairy|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750775390
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|-terastallize|p1b: Oh-Ho|Grass
+|move|p1a: Keii|Electro Drift|p2a: Raichu
+|-activate|p2a: Raichu|ability: Lightning Rod
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|move|p1b: Oh-Ho|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Keii|74/100
+|-fail|p1b: Oh-Ho|heal
+|move|p2b: Clefairy|Life Dew||[still]|[spread] p2a,p2b
+|-fail|p2a: Raichu|heal
+|-heal|p2b: Clefairy|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750775425
+|switch|p2b: Kyogre|Kyogre, L50|89/100
+|move|p2a: Raichu|Fake Out|p1a: Keii
+|-damage|p1a: Keii|67/100
+|cant|p1a: Keii|flinch
+|move|p1b: Oh-Ho|Brave Bird|p2b: Kyogre
+|-damage|p2b: Kyogre|22/100
+|-damage|p1b: Oh-Ho|82/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750775447
+|move|p2b: Kyogre|Ice Beam|p1b: Oh-Ho
+|-supereffective|p1b: Oh-Ho
+|-damage|p1b: Oh-Ho|47/100
+|move|p2a: Raichu|Thunderbolt|p1b: Oh-Ho
+|-resisted|p1b: Oh-Ho
+|-damage|p1b: Oh-Ho|29/100
+|move|p1a: Keii|Snarl|p2b: Kyogre|[spread] p2a,p2b
+|-damage|p2a: Raichu|60/100
+|-damage|p2b: Kyogre|4/100
+|-unboost|p2a: Raichu|spa|1
+|-unboost|p2b: Kyogre|spa|1
+|move|p1b: Oh-Ho|Life Dew|p1b: Oh-Ho|[spread] p1a,p1b
+|-heal|p1a: Keii|92/100
+|-heal|p1b: Oh-Ho|54/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750775463
+|move|p2a: Raichu|Helping Hand|p2b: Kyogre
+|-singleturn|p2b: Kyogre|Helping Hand|[of] p2a: Raichu
+|move|p2b: Kyogre|Ice Beam|p1b: Oh-Ho
+|-supereffective|p1b: Oh-Ho
+|-damage|p1b: Oh-Ho|17/100
+|move|p1a: Keii|Dragon Pulse|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|move|p1b: Oh-Ho|Life Dew|p1b: Oh-Ho|[spread] p1a,p1b
+|-heal|p1a: Keii|100/100
+|-heal|p1b: Oh-Ho|42/100
+|
+|upkeep
+|
+|t:|1750775477
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|turn|7
+|
+|t:|1750775484
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|move|p1b: Oh-Ho|Protect|p1b: Oh-Ho
+|-singleturn|p1b: Oh-Ho|Protect
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p1a: Keii|Snarl|p2b: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Clefairy
+|-supereffective|p2b: Basculegion
+|-damage|p2a: Clefairy|93/100
+|-damage|p2b: Basculegion|76/100
+|-unboost|p2a: Clefairy|spa|1
+|-unboost|p2b: Basculegion|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750775505
+|switch|p1b: GEM|Avalugg, L50, M|100/100
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p1a: Keii|Electro Drift|p2a: Clefairy
+|-damage|p2a: Clefairy|43/100
+|move|p2b: Basculegion|Last Respects|p1b: GEM
+|-damage|p1b: GEM|68/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750775528
+|move|p2a: Clefairy|Follow Me|p2a: Clefairy
+|-singleturn|p2a: Clefairy|move: Follow Me
+|move|p1a: Keii|Electro Drift|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|move|p2b: Basculegion|Last Respects|p1a: Keii
+|-damage|p1a: Keii|3/100
+|move|p1b: GEM|Recover|p1b: GEM
+|-heal|p1b: GEM|100/100
+|
+|upkeep
+|
+|t:|1750775535
+|switch|p2a: Kyogre|Kyogre, L50|4/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|10
+|
+|t:|1750775552
+|switch|p1a: Oh-Ho|Ho-Oh, L50, tera:Grass|75/100
+|move|p1b: GEM|Protect|p1b: GEM
+|-singleturn|p1b: GEM|Protect
+|move|p2b: Basculegion|Last Respects|p1b: GEM
+|-activate|p1b: GEM|move: Protect
+|move|p2a: Kyogre|Origin Pulse|p1b: GEM|[spread] p1a
+|-activate|p1b: GEM|move: Protect
+|-resisted|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1750775583
+|move|p1b: GEM|Wide Guard|p1b: GEM
+|-singleturn|p1b: GEM|Wide Guard
+|move|p2b: Basculegion|Last Respects|p1a: Oh-Ho
+|-damage|p1a: Oh-Ho|0 fnt
+|faint|p1a: Oh-Ho
+|move|p2a: Kyogre|Origin Pulse|p1b: GEM
+|-activate|p1b: GEM|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750775588
+|switch|p1a: Keii|Miraidon, L50|3/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Keii
+|-enditem|p1b: GEM|Electric Seed
+|-boost|p1b: GEM|def|1|[from] item: Electric Seed
+|turn|12
+|
+|t:|1750775595
+|move|p1b: GEM|Wide Guard|p1b: GEM
+|-singleturn|p1b: GEM|Wide Guard
+|move|p2b: Basculegion|Last Respects|p1a: Keii
+|-damage|p1a: Keii|0 fnt
+|faint|p1a: Keii
+|move|p2a: Kyogre|Origin Pulse|p1b: GEM
+|-activate|p1b: GEM|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1750775622
+|move|p2b: Basculegion|Last Respects|p1b: GEM
+|-damage|p1b: GEM|69/100
+|move|p2a: Kyogre|Origin Pulse|p1b: GEM
+|-damage|p1b: GEM|0 fnt
+|faint|p1b: GEM
+|
+|win|LuceyGooseyFTW
+|raw|helo hru's rating: 1337 &rarr; <strong>1312</strong><br />(-25 for losing)
+|raw|LuceyGooseyFTW's rating: 1256 &rarr; <strong>1287</strong><br />(+31 for winning)
+|l|☆LuceyGooseyFTW
+|player|p2|

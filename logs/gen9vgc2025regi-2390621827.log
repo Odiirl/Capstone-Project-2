@@ -1,0 +1,203 @@
+|j|☆Matutinha
+|j|☆BlznFrnzy
+|t:|1750737687
+|gametype|doubles
+|player|p1|Matutinha|1|1323
+|player|p2|BlznFrnzy|170|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Solgaleo, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+BlznFrnzy rejected open team sheets.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlznFrnzy)
+|
+|t:|1750737699
+|start
+|switch|p1a: Solgaleo|Solgaleo, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50, shiny|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1750737715
+|-terastallize|p1a: Solgaleo|Fire
+|move|p1b: Farigiraf|Trick|p2a: Lunala
+|-activate|p1b: Farigiraf|move: Trick|[of] p2a: Lunala
+|-item|p2a: Lunala|Choice Scarf|[from] move: Trick
+|-item|p1b: Farigiraf|Leftovers|[from] move: Trick
+|move|p1a: Solgaleo|Flare Blitz|p2a: Lunala
+|-damage|p2a: Lunala|70/100
+|-status|p2a: Lunala|brn
+|-damage|p1a: Solgaleo|89/100|[from] Recoil
+|move|p2a: Lunala|Moongeist Beam|p1a: Solgaleo
+|-damage|p1a: Solgaleo|30/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-damage|p2a: Lunala|64/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750737745
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Solgaleo|Protect|p1a: Solgaleo
+|-singleturn|p1a: Solgaleo|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750737763
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Solgaleo|Earthquake|p2a: Torkoal|[spread] p1b,p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p1b: Farigiraf|71/100
+|-damage|p2a: Torkoal|58/100
+|-damage|p2b: Indeedee|71/100
+|move|p1b: Farigiraf|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|24/100
+|-damage|p2b: Indeedee|47/100
+|move|p2a: Torkoal|Earth Power|p1a: Solgaleo
+|-supereffective|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Farigiraf|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737777
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750737787
+|move|p1a: Flutter Mane|Dazzling Gleam|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|-damage|p2b: Indeedee|19/100
+|move|p1b: Farigiraf|Hyper Voice|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Farigiraf|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750737796
+|switch|p2b: Lunala|Lunala, L50, shiny|64/100 brn
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|
+|t:|1750737825
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Lunala
+|-damage|p2b: Lunala|35/100 brn
+|move|p1b: Farigiraf|Hyper Voice|p2b: Lunala|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Lunala|18/100 brn
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Farigiraf|89/100|[from] item: Leftovers
+|-damage|p2b: Lunala|12/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|inactive|Matutinha has 30 seconds left.
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750737858
+|move|p2a: Ursaluna|Facade|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Flutter Mane|Dazzling Gleam|p2b: Lunala|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|72/100 brn
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|-weather|none
+|-end|p1a: Flutter Mane|Protosynthesis
+|-damage|p2a: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|
+|t:|1750737872
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750737877
+|move|p2a: Ursaluna|Earthquake|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Flutter Mane|0 fnt
+|-damage|p1b: Calyrex|21/100
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Calyrex|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 brn
+|
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750737886
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Ursaluna|Earthquake|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-damage|p2a: Ursaluna|1/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1750737892
+|move|p1b: Calyrex|Protect||[still]
+|-fail|p1b: Calyrex
+|move|p2a: Ursaluna|Earthquake|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|BlznFrnzy
+|raw|Matutinha's rating: 1323 &rarr; <strong>1303</strong><br />(-20 for losing)
+|raw|BlznFrnzy's rating: 1326 &rarr; <strong>1346</strong><br />(+20 for winning)
+|l|☆BlznFrnzy
+|player|p2|
+|l|☆Matutinha
+|player|p1|
+|j|☆Matutinha
+|player|p1|Matutinha|1|

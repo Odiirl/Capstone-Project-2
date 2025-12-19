@@ -1,0 +1,154 @@
+|j|☆Dughatmanon
+|j|☆Wildgoobys
+|t:|1750856118
+|gametype|doubles
+|player|p1|Dughatmanon|turo-ai|1428
+|player|p2|Wildgoobys|ethan|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wildgoobys)
+|
+|t:|1750856147
+|start
+|switch|p1a: mischeif|Whimsicott, L50, M, shiny|100/100
+|switch|p1b: HONSE|Calyrex-Shadow, L50|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Ditto|Ditto, L50|100/100
+|-ability|p1b: HONSE|As One
+|-ability|p1b: HONSE|Unnerve
+|-transform|p2b: Ditto|p1a: mischeif|[from] ability: Imposter
+|turn|1
+|
+|t:|1750856165
+|-terastallize|p2a: Flutter Mane|Normal
+|move|p2b: Ditto|Tailwind|p2b: Ditto
+|-sidestart|p2: Wildgoobys|move: Tailwind
+|move|p1a: mischeif|Tailwind|p1a: mischeif
+|-sidestart|p1: Dughatmanon|move: Tailwind
+|move|p1b: HONSE|Astral Barrage|p2b: Ditto|[spread] p2b
+|-immune|p2a: Flutter Mane
+|-damage|p2b: Ditto|24/100
+|-damage|p1b: HONSE|91/100|[from] item: Life Orb
+|move|p2a: Flutter Mane|Icy Wind|p1b: HONSE|[spread] p1a,p1b
+|-supereffective|p1a: mischeif
+|-damage|p1a: mischeif|68/100
+|-damage|p1b: HONSE|75/100
+|-unboost|p1b: HONSE|spe|1
+|
+|upkeep
+|turn|2
+|inactive|Wildgoobys has 30 seconds left.
+|
+|t:|1750856193
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|switch|p1b: 1/4 Sushi|Chi-Yu, L50|100/100
+|-ability|p1b: 1/4 Sushi|Beads of Ruin
+|move|p1a: mischeif|Encore||[still]
+|-fail|p1a: mischeif
+|move|p2a: Flutter Mane|Shadow Ball|p1b: 1/4 Sushi
+|-resisted|p1b: 1/4 Sushi
+|-crit|p1b: 1/4 Sushi
+|-damage|p1b: 1/4 Sushi|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Dughatmanon has 30 seconds left.
+|inactive|Wildgoobys has 30 seconds left.
+|
+|t:|1750856224
+|-terastallize|p1a: mischeif|Water
+|move|p2a: Flutter Mane|Icy Wind|p1b: 1/4 Sushi|[spread] p1a,p1b
+|-resisted|p1a: mischeif
+|-resisted|p1b: 1/4 Sushi
+|-damage|p1a: mischeif|57/100
+|-damage|p1b: 1/4 Sushi|52/100
+|-unboost|p1b: 1/4 Sushi|spe|1
+|move|p2b: Koraidon|Flame Charge|p1b: 1/4 Sushi
+|-resisted|p1b: 1/4 Sushi
+|-damage|p1b: 1/4 Sushi|13/100
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: mischeif|Moonblast|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p1b: 1/4 Sushi|Heat Wave|p2a: Flutter Mane
+|-enditem|p2a: Flutter Mane|Focus Sash
+|-damage|p2a: Flutter Mane|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750856240
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|turn|4
+|
+|t:|1750856265
+|move|p1a: mischeif|Fake Tears|p2b: Zamazenta
+|-unboost|p2b: Zamazenta|spd|2
+|move|p2a: Flutter Mane|Moonblast|p1a: mischeif
+|-damage|p1a: mischeif|0 fnt
+|faint|p1a: mischeif
+|move|p1b: 1/4 Sushi|Heat Wave|p2a: Flutter Mane|[spread] p2a,p2b
+|-supereffective|p2b: Zamazenta
+|-damage|p2a: Flutter Mane|0 fnt
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|faint|p2b: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Dughatmanon|move: Tailwind
+|-sideend|p2: Wildgoobys|move: Tailwind
+|upkeep
+|
+|t:|1750856275
+|switch|p2a: Ditto|Ditto, L50|24/100
+|switch|p1a: PrettyPlease|Smeargle, L50, M|100/100
+|-transform|p2a: Ditto|p1b: 1/4 Sushi|[from] ability: Imposter
+|-ability|p2a: Ditto|Beads of Ruin
+|turn|5
+|
+|t:|1750856283
+|move|p1a: PrettyPlease|Fake Out|p2a: Ditto
+|-damage|p2a: Ditto|17/100
+|cant|p2a: Ditto|flinch
+|move|p1b: 1/4 Sushi|Heat Wave|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|Dughatmanon
+|raw|Dughatmanon's rating: 1428 &rarr; <strong>1448</strong><br />(+20 for winning)
+|raw|Wildgoobys's rating: 1433 &rarr; <strong>1413</strong><br />(-20 for losing)
+|c|☆Wildgoobys|Gg
+|l|☆Wildgoobys
+|player|p2|
+|l|☆Dughatmanon
+|player|p1|

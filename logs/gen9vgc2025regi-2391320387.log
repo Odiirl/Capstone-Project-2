@@ -1,0 +1,118 @@
+|j|☆randonik
+|j|☆maodawang
+|t:|1750835442
+|gametype|doubles
+|player|p1|randonik|101|1310
+|player|p2|maodawang|169|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyurem-White, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Giratina, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by maodawang)
+|inactive|randonik also wants the timer to be on.
+|
+|t:|1750835464
+|start
+|switch|p1a: Kyurem|Kyurem-White, L50|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p1a: Kyurem|Turboblaze
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyurem|atk|1
+|-unboost|p1b: Tornadus|atk|1
+|turn|1
+|
+|t:|1750835483
+|move|p2a: Incineroar|Fake Out|p1a: Kyurem
+|-damage|p1a: Kyurem|91/100
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: randonik|move: Tailwind
+|cant|p1a: Kyurem|flinch
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Kyurem|[miss]
+|-miss|p2b: Ho-Oh|p1a: Kyurem
+|
+|upkeep
+|turn|2
+|
+|t:|1750835506
+|-terastallize|p1a: Kyurem|Ground
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Tornadus|Snowscape|p1b: Tornadus
+|-weather|Snowscape
+|move|p1a: Kyurem|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750835519
+|switch|p2a: Giratina|Giratina, L50|100/100
+|-ability|p2a: Giratina|Pressure
+|turn|3
+|
+|t:|1750835536
+|-terastallize|p2a: Giratina|Fairy
+|move|p1b: Tornadus|Taunt|p2a: Giratina
+|-start|p2a: Giratina|move: Taunt
+|move|p1a: Kyurem|Blizzard|p2a: Giratina|[spread] p2a,p2b
+|-damage|p2a: Giratina|63/100
+|-damage|p2b: Ho-Oh|68/100
+|-status|p2a: Giratina|frz
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Kyurem
+|-damage|p1a: Kyurem|55/100
+|-status|p1a: Kyurem|brn
+|cant|p2a: Giratina|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Giratina|69/100 frz|[from] item: Leftovers
+|-damage|p1a: Kyurem|50/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750835559
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Giratina|[spread] p2a
+|-activate|p2b: Ho-Oh|move: Protect
+|-damage|p2a: Giratina|46/100 frz
+|move|p1a: Kyurem|Blizzard|p2a: Giratina|[spread] p2a
+|-activate|p2b: Ho-Oh|move: Protect
+|-damage|p2a: Giratina|11/100 frz
+|cant|p2a: Giratina|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Giratina|17/100 frz|[from] item: Leftovers
+|-damage|p1a: Kyurem|44/100 brn|[from] brn
+|-sideend|p1: randonik|move: Tailwind
+|upkeep
+|turn|5
+|-message|maodawang forfeited.
+|
+|win|randonik
+|raw|randonik's rating: 1310 &rarr; <strong>1329</strong><br />(+19 for winning)
+|raw|maodawang's rating: 1288 &rarr; <strong>1265</strong><br />(-23 for losing)
+|l|☆maodawang
+|player|p2|
+|l|☆randonik
+|player|p1|

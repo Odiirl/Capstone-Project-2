@@ -1,0 +1,169 @@
+|j|☆fart1103
+|j|☆Greghammer
+|t:|1750854046
+|gametype|doubles
+|player|p1|fart1103|cilan|1537
+|player|p2|Greghammer|266|1529
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|
+|t:|1750854084
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: BreakMyHeart|Chi-Yu, L50|100/100
+|switch|p2b: Hallucinate|Terapagos, L50, M|100/100
+|-activate|p2b: Hallucinate|ability: Tera Shift
+|detailschange|p2b: Hallucinate|Terapagos-Terastal, L50, M
+|-heal|p2b: Hallucinate|100/100|[silent]
+|-ability|p2a: BreakMyHeart|Beads of Ruin
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: BreakMyHeart|atk|1
+|-unboost|p2b: Hallucinate|atk|1
+|turn|1
+|
+|t:|1750854100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: fart1103|move: Light Screen
+|move|p2a: BreakMyHeart|Overheat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|43/100
+|-unboost|p2a: BreakMyHeart|spa|2
+|move|p2b: Hallucinate|Tera Starstorm|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p1b: Incineroar|Knock Off|p2b: Hallucinate
+|-activate|p2b: Hallucinate|ability: Tera Shell
+|-resisted|p2b: Hallucinate
+|-damage|p2b: Hallucinate|83/100
+|-enditem|p2b: Hallucinate|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750854110
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|2
+|
+|t:|1750854132
+|switch|p2a: Physical|Iron Hands, L50|100/100
+|move|p1a: Urshifu|Close Combat|p2b: Hallucinate
+|-supereffective|p2b: Hallucinate
+|-damage|p2b: Hallucinate|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2b: Hallucinate
+|move|p1b: Incineroar|Knock Off|p2a: Physical
+|-resisted|p2a: Physical
+|-damage|p2a: Physical|88/100
+|-enditem|p2a: Physical|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750854147
+|switch|p2b: Levitating|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Levitating|As One
+|-ability|p2b: Levitating|Unnerve
+|turn|3
+|
+|t:|1750854154
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p2a: Physical|ability: Quark Drive
+|-start|p2a: Physical|quarkdriveatk
+|move|p2a: Physical|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|87/100
+|-damage|p2a: Physical|71/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|move|p2b: Levitating|Astral Barrage|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Miraidon|77/100
+|-damage|p1b: Incineroar|62/100
+|-damage|p2b: Levitating|91/100|[from] item: Life Orb
+|cant|p1b: Incineroar|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1750854183
+|move|p2b: Levitating|Protect|p2b: Levitating
+|-singleturn|p2b: Levitating|Protect
+|move|p1a: Miraidon|Electro Drift|p2b: Levitating
+|-activate|p2b: Levitating|move: Protect
+|move|p1b: Incineroar|Will-O-Wisp|p2a: Physical
+|-status|p2a: Physical|brn
+|move|p2a: Physical|Low Kick|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|17/100
+|-damage|p2a: Physical|55/100 brn|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|
+|-damage|p2a: Physical|49/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750854205
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|move|p2b: Levitating|Astral Barrage|p1b: Urshifu|[spread] p1a,p1b
+|-damage|p1a: Miraidon|53/100
+|-damage|p1b: Urshifu|32/100
+|-damage|p2b: Levitating|82/100|[from] item: Life Orb
+|move|p1a: Miraidon|Electro Drift|p2b: Levitating
+|-damage|p2b: Levitating|0 fnt
+|faint|p2b: Levitating
+|move|p2a: Physical|Low Kick|p1a: Miraidon
+|-damage|p1a: Miraidon|15/100
+|
+|-damage|p2a: Physical|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1750854217
+|switch|p2b: BreakMyHeart|Chi-Yu, L50|100/100
+|-ability|p2b: BreakMyHeart|Beads of Ruin
+|turn|6
+|
+|t:|1750854226
+|-terastallize|p2b: BreakMyHeart|Ghost
+|move|p1b: Urshifu|Aqua Jet|p2b: BreakMyHeart
+|-damage|p2b: BreakMyHeart|48/100
+|move|p2b: BreakMyHeart|Heat Wave|p1b: Urshifu|[spread] p1a,p1b
+|-resisted|p1a: Miraidon
+|-resisted|p1b: Urshifu
+|-damage|p1a: Miraidon|5/100
+|-damage|p1b: Urshifu|5/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Physical
+|-damage|p2a: Physical|0 fnt
+|-unboost|p1a: Miraidon|spa|2
+|faint|p2a: Physical
+|-end|p2a: Physical|Quark Drive|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1750854237
+|move|p1b: Urshifu|Aqua Jet|p2b: BreakMyHeart
+|-damage|p2b: BreakMyHeart|0 fnt
+|faint|p2b: BreakMyHeart
+|
+|win|fart1103
+|raw|fart1103's rating: 1537 &rarr; <strong>1557</strong><br />(+20 for winning)
+|raw|Greghammer's rating: 1529 &rarr; <strong>1509</strong><br />(-20 for losing)
+|l|☆Greghammer
+|player|p2|
+|l|☆fart1103
+|player|p1|

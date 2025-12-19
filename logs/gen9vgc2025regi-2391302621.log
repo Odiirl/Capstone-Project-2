@@ -1,0 +1,197 @@
+|j|☆uncommon10
+|j|☆Adriannihaje
+|t:|1750831866
+|gametype|doubles
+|player|p1|uncommon10|1|1096
+|player|p2|Adriannihaje|ghetsis-gen5bw|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Lunala, L50|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|
+|t:|1750831895
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Cresselia|Cresselia, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750831921
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Koraidon|Close Combat|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750831938
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cresselia|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p2a: Cresselia|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Cresselia
+|move|p2b: Calyrex|Glacial Lance|p1b: Flutter Mane|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|65/100
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750831961
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia|[spread] p2a,p2b
+|-heal|p2b: Calyrex|68/100
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750831990
+|move|p2b: Calyrex|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia|[spread] p2a,p2b
+|-heal|p2a: Cresselia|78/100
+|-heal|p2b: Calyrex|93/100
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750832004
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|5
+|
+|t:|1750832021
+|-terastallize|p1a: Lunala|Water
+|move|p2b: Calyrex|Heavy Slam|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|86/100
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia|[spread] p2a,p2b
+|-heal|p2a: Cresselia|57/100
+|-heal|p2b: Calyrex|100/100
+|move|p1a: Lunala|Meteor Beam||[still]
+|-prepare|p1a: Lunala|Meteor Beam
+|-boost|p1a: Lunala|spa|1
+|-enditem|p1a: Lunala|Power Herb
+|-anim|p1a: Lunala|Meteor Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|9/100
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|7/100
+|
+|-weather|none
+|-end|p1b: Flutter Mane|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750832063
+|switch|p2a: Umbreon|Umbreon, L50, M|100/100
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|move|p1b: Flutter Mane|Shadow Ball|p2b: Primarina
+|-damage|p2b: Primarina|75/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|81/100
+|
+|-heal|p2a: Umbreon|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1750832087
+|move|p1b: Flutter Mane|Icy Wind|p2a: Umbreon|[spread] p2a,p2b
+|-resisted|p2b: Primarina
+|-damage|p2a: Umbreon|79/100
+|-damage|p2b: Primarina|71/100
+|-unboost|p2a: Umbreon|spe|1
+|-unboost|p2b: Primarina|spe|1
+|move|p1a: Lunala|Moongeist Beam|p2b: Primarina
+|-damage|p2b: Primarina|27/100
+|move|p2a: Umbreon|Snarl|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|80/100
+|-damage|p1b: Flutter Mane|0 fnt
+|-unboost|p1a: Lunala|spa|1
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Primarina|Ice Beam|p1a: Lunala
+|-resisted|p1a: Lunala
+|-damage|p1a: Lunala|69/100
+|
+|-heal|p2a: Umbreon|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750832104
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|8
+|
+|t:|1750832129
+|move|p1b: Koraidon|Flare Blitz|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|-damage|p1b: Koraidon|68/100|[from] Recoil
+|-damage|p1b: Koraidon|59/100|[from] item: Life Orb
+|move|p1a: Lunala|Moongeist Beam|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Adriannihaje forfeited.
+|
+|win|uncommon10
+|raw|uncommon10's rating: 1096 &rarr; <strong>1122</strong><br />(+26 for winning)
+|raw|Adriannihaje's rating: 1098 &rarr; <strong>1073</strong><br />(-25 for losing)
+|l|☆uncommon10
+|player|p1|

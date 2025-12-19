@@ -1,0 +1,190 @@
+|j|☆mnmnmnmnm6
+|j|☆TheHeroOfMeow
+|t:|1750742355
+|gametype|doubles
+|player|p1|mnmnmnmnm6|265|1421
+|player|p2|TheHeroOfMeow|will|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Rayquaza, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+TheHeroOfMeow has agreed to open team sheets.
+|
+|t:|1750742376
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750742429
+|switch|p2a: Rhydon|Rhydon, L50, F|100/100
+|move|p1b: Iron Hands|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|87/100
+|move|p1a: Miraidon|Draco Meteor|p2a: Rhydon
+|-damage|p2a: Rhydon|23/100
+|-unboost|p1a: Miraidon|spa|2
+|cant|p2b: Calyrex|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1750742441
+|move|p2a: Rhydon|Protect|p2a: Rhydon
+|-singleturn|p2a: Rhydon|Protect
+|move|p1a: Miraidon|Draco Meteor|p2a: Rhydon
+|-activate|p2a: Rhydon|move: Protect
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-damage|p2b: Calyrex|31/100
+|-enditem|p2b: Calyrex|Sitrus Berry|[eat]
+|-heal|p2b: Calyrex|56/100|[from] item: Sitrus Berry
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|upkeep
+|turn|3
+|
+|t:|1750742467
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rhydon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-terastallize|p1b: Iron Hands|Bug
+|move|p2a: Rhydon|High Horsepower|p1b: Iron Hands
+|-resisted|p1b: Iron Hands
+|-crit|p1b: Iron Hands
+|-damage|p1b: Iron Hands|73/100
+|move|p2b: Calyrex|Glacial Lance|p1b: Iron Hands|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|84/100
+|-damage|p1b: Iron Hands|41/100
+|move|p1b: Iron Hands|Low Kick|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|
+|t:|1750742484
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|turn|4
+|
+|t:|1750742494
+|-terastallize|p2a: Smeargle|Ghost
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Smeargle
+|-immune|p2a: Smeargle
+|move|p1b: Iron Hands|Low Kick|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p2a: Smeargle|Decorate|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|2
+|-boost|p2b: Calyrex|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1750742521
+|move|p2b: Calyrex|Glacial Lance|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|46/100
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1a: Incineroar|Knock Off|p2a: Smeargle
+|-supereffective|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2a: Smeargle|Spore|p1a: Incineroar
+|-activate|p1a: Incineroar|move: Electric Terrain
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750742537
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|6
+|l|☆TheHeroOfMeow
+|player|p2|
+|
+|t:|1750742569
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Calyrex|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2b: Calyrex|40/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p2a: Smeargle|Spore|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750742580
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|7
+|j|☆TheHeroOfMeow
+|player|p2|TheHeroOfMeow|will|
+|
+|t:|1750742608
+|move|p1a: Miraidon|Electro Drift|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|upkeep
+|
+|t:|1750742615
+|switch|p2b: Rayquaza|Rayquaza, L50|100/100
+|-ability|p2b: Rayquaza|Air Lock
+|turn|8
+|
+|t:|1750742631
+|move|p2b: Rayquaza|Extreme Speed|p1a: Miraidon
+|-damage|p1a: Miraidon|69/100
+|move|p1a: Miraidon|Electro Drift|p2b: Rayquaza
+|-damage|p2b: Rayquaza|3/100
+|move|p1b: Zamazenta|Heavy Slam|p2b: Rayquaza
+|-damage|p2b: Rayquaza|0 fnt
+|faint|p2b: Rayquaza
+|
+|win|mnmnmnmnm6
+|raw|mnmnmnmnm6's rating: 1421 &rarr; <strong>1436</strong><br />(+15 for winning)
+|raw|TheHeroOfMeow's rating: 1324 &rarr; <strong>1309</strong><br />(-15 for losing)
+|l|☆mnmnmnmnm6
+|player|p1|
+|l|☆TheHeroOfMeow
+|player|p2|

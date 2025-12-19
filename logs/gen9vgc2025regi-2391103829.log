@@ -1,0 +1,135 @@
+|j|☆alice7575
+|j|☆pantsuit
+|t:|1750802938
+|gametype|doubles
+|player|p1|alice7575|nurse|1553
+|player|p2|pantsuit|265|1553
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Groudon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Chesnaught, L50, F|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|
+|t:|1750802957
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Chesnaught|Chesnaught, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Chesnaught|Electric Seed
+|-boost|p2b: Chesnaught|def|1|[from] item: Electric Seed
+|turn|1
+|
+|t:|1750802984
+|-terastallize|p2a: Miraidon|Electric
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|2/100
+|
+|t:|1750802988
+|switch|p2a: Scovillain|Scovillain, L50, F|100/100|[from] Volt Switch
+|move|p1a: Calyrex|Expanding Force|p2a: Scovillain
+|-enditem|p2a: Scovillain|Focus Sash
+|-damage|p2a: Scovillain|1/100
+|move|p1b: Flutter Mane|Moonblast|p2a: Scovillain
+|-resisted|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|move|p2b: Chesnaught|Leech Seed|p1b: Flutter Mane
+|-start|p1b: Flutter Mane|move: Leech Seed
+|
+|-damage|p1b: Flutter Mane|88/100|[from] Leech Seed|[of] p2b: Chesnaught
+|upkeep
+|
+|t:|1750803001
+|switch|p2a: Miraidon|Miraidon, L50, tera:Electric|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|2
+|
+|t:|1750803017
+|switch|p1a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspe
+|move|p1b: Flutter Mane|Moonblast|p2b: Chesnaught
+|-supereffective|p2b: Chesnaught
+|-damage|p2b: Chesnaught|0 fnt
+|faint|p2b: Chesnaught
+|move|p2a: Miraidon|Snarl|p1a: Groudon|[spread] p1a,p1b
+|-crit|p1b: Flutter Mane
+|-damage|p1a: Groudon|81/100
+|-damage|p1b: Flutter Mane|56/100
+|-unboost|p1b: Flutter Mane|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750803031
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-activate|p2b: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750803045
+|move|p1b: Flutter Mane|Icy Wind|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Miraidon|91/100
+|-damage|p2b: Koraidon|83/100
+|-unboost|p2a: Miraidon|spe|1
+|move|p2a: Miraidon|Snarl|p1b: Flutter Mane|[spread] p1a,p1b
+|-crit|p1b: Flutter Mane
+|-damage|p1a: Groudon|61/100
+|-damage|p1b: Flutter Mane|20/100
+|-unboost|p1b: Flutter Mane|spa|1
+|move|p2b: Koraidon|Flare Blitz|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|-damage|p2b: Koraidon|60/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Flutter Mane|7/100|[from] Leech Seed|[of] p2b: Koraidon
+|-heal|p2b: Koraidon|69/100|[silent]
+|upkeep
+|
+|t:|1750803064
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|2/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750803075
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Roaring Moon|Roaring Moon, L50|100/100
+|-activate|p1b: Roaring Moon|ability: Protosynthesis
+|-start|p1b: Roaring Moon|protosynthesisspe
+|-terastallize|p1a: Calyrex|Ghost
+|move|p1a: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Koraidon
+|
+|win|alice7575
+|raw|alice7575's rating: 1553 &rarr; <strong>1573</strong><br />(+20 for winning)
+|raw|pantsuit's rating: 1553 &rarr; <strong>1533</strong><br />(-20 for losing)
+|l|☆pantsuit
+|player|p2|
+|l|☆alice7575
+|player|p1|

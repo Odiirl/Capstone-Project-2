@@ -1,0 +1,131 @@
+|j|☆Novicebest
+|j|☆anubisjr
+|t:|1750793554
+|gametype|doubles
+|player|p1|Novicebest|lillie-z|1590
+|player|p2|anubisjr|265|1639
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Novicebest)
+|inactive|Novicebest has 60 seconds left.
+|
+|t:|1750793610
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p1a: Lunala|Electric Seed
+|-boost|p1a: Lunala|def|1|[from] item: Electric Seed
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|1
+|
+|t:|1750793629
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|move|p2b: Iron Hands|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|90/100
+|-damage|p2b: Iron Hands|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|move|p2a: Miraidon|Draco Meteor|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Miraidon|spa|2
+|faint|p1b: Incineroar
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|
+|t:|1750793642
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750793667
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Iron Hands|Volt Switch|p1a: Lunala
+|-damage|p1a: Lunala|94/100
+|
+|t:|1750793679
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100|[from] Volt Switch
+|move|p1a: Lunala|Moonblast|p2a: Calyrex
+|-damage|p2a: Calyrex|66/100
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|anubisjr has 30 seconds left.
+|inactive|anubisjr has 20 seconds left.
+|inactive|anubisjr has 15 seconds left.
+|inactive|anubisjr has 10 seconds left.
+|
+|t:|1750793726
+|move|p1b: Ursaluna|Earthquake|p2b: Urshifu|[spread] p1a,p2a,p2b
+|-damage|p1a: Lunala|61/100
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Urshifu|35/100
+|faint|p2a: Calyrex
+|move|p1a: Lunala|Moonblast|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750793731
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Iron Hands|Iron Hands, L50|84/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|4
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750793759
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: Iron Hands|Low Kick|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|move|p1b: Ursaluna|Earthquake|p2a: Iron Hands|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Iron Hands
+|-supereffective|p2b: Miraidon
+|-damage|p1a: Lunala|28/100
+|-damage|p2a: Iron Hands|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|faint|p2b: Miraidon
+|
+|win|Novicebest
+|raw|Novicebest's rating: 1590 &rarr; <strong>1613</strong><br />(+23 for winning)
+|raw|anubisjr's rating: 1639 &rarr; <strong>1616</strong><br />(-23 for losing)
+|l|☆anubisjr
+|player|p2|

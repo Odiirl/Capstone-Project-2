@@ -1,0 +1,147 @@
+|j|☆InvMagnet
+|j|☆ZEATHS
+|t:|1750830893
+|gametype|doubles
+|player|p1|InvMagnet|hilbert-wonderlauncher|1000
+|player|p2|ZEATHS|pokemaniac|1020
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Necrozma-Dawn-Wings, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Kyurem-White, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Ditto, L50|
+|teampreview|4
+InvMagnet rejected open team sheets.
+|
+|t:|1750830922
+|start
+|switch|p1a: Knightmare King|Blaziken, L50, M|100/100
+|switch|p1b: Sisters of Battle|Iron Jugulis, L50|100/100
+|switch|p2a: Tornadus|Tornadus, L50, M, shiny|100/100
+|switch|p2b: Ditto|Ditto, L50|100/100
+|-transform|p2b: Ditto|p1a: Knightmare King|[from] ability: Imposter
+|turn|1
+|
+|t:|1750830954
+|move|p2b: Ditto|Protect|p2b: Ditto
+|-singleturn|p2b: Ditto|Protect
+|move|p2a: Tornadus|Snowscape|p2a: Tornadus
+|-weather|Snowscape
+|move|p1b: Sisters of Battle|Electric Terrain|p1b: Sisters of Battle
+|-fieldstart|move: Electric Terrain
+|-activate|p1b: Sisters of Battle|ability: Quark Drive
+|-start|p1b: Sisters of Battle|quarkdrivespe
+|move|p1a: Knightmare King|Earthquake|p2a: Tornadus|[spread] 
+|-activate|p2b: Ditto|move: Protect
+|-immune|p1b: Sisters of Battle
+|-immune|p2a: Tornadus
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2b: Ditto|Speed Boost|boost
+|-boost|p2b: Ditto|spe|1
+|-ability|p1a: Knightmare King|Speed Boost|boost
+|-boost|p1a: Knightmare King|spe|1
+|upkeep
+|turn|2
+|
+|t:|1750831002
+|move|p1b: Sisters of Battle|Tailwind|p1b: Sisters of Battle
+|-sidestart|p1: InvMagnet|move: Tailwind
+|move|p1a: Knightmare King|Earthquake|p2a: Tornadus|[spread] p2b
+|-immune|p1b: Sisters of Battle
+|-immune|p2a: Tornadus
+|-supereffective|p2b: Ditto
+|-damage|p2b: Ditto|33/100
+|move|p2b: Ditto|Blaze Kick|p1b: Sisters of Battle
+|-damage|p1b: Sisters of Battle|56/100
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Knightmare King|[spread] p1a,p1b
+|-supereffective|p1a: Knightmare King
+|-damage|p1a: Knightmare King|0 fnt
+|-damage|p1b: Sisters of Battle|18/100
+|faint|p1a: Knightmare King
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2b: Ditto|Speed Boost|boost
+|-boost|p2b: Ditto|spe|1
+|upkeep
+|
+|t:|1750831019
+|switch|p1a: Last Stag|Raging Bolt, L50|100/100
+|turn|3
+|
+|t:|1750831057
+|move|p1a: Last Stag|Thunderclap|p2b: Ditto
+|-damage|p2b: Ditto|0 fnt
+|faint|p2b: Ditto
+|move|p1b: Sisters of Battle|Snarl|p2a: Tornadus
+|-damage|p2a: Tornadus|74/100
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Last Stag|[spread] p1a,p1b
+|-resisted|p1a: Last Stag
+|-damage|p1a: Last Stag|83/100
+|-damage|p1b: Sisters of Battle|0 fnt
+|faint|p1b: Sisters of Battle
+|-end|p1b: Sisters of Battle|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1750831069
+|switch|p1b: Markoth|Necrozma-Dawn-Wings, L50, shiny|100/100
+|switch|p2b: Kyurem|Kyurem-White, L50, shiny|100/100
+|-ability|p2b: Kyurem|Turboblaze
+|turn|4
+|
+|t:|1750831091
+|-terastallize|p2b: Kyurem|Ice
+|move|p1a: Last Stag|Thunderclap||[still]
+|-fail|p1a: Last Stag
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: ZEATHS|move: Tailwind
+|move|p2b: Kyurem|Blizzard|p1a: Last Stag|[spread] p1a,p1b
+|-supereffective|p1a: Last Stag
+|-damage|p1a: Last Stag|0 fnt
+|-damage|p1b: Markoth|22/100
+|-status|p1b: Markoth|frz
+|-enditem|p1b: Markoth|Sitrus Berry|[eat]
+|-heal|p1b: Markoth|47/100 frz|[from] item: Sitrus Berry
+|faint|p1a: Last Stag
+|-end|p1a: Last Stag|Protosynthesis|[silent]
+|-curestatus|p1b: Markoth|frz|[msg]
+|move|p1b: Markoth|Calm Mind|p1b: Markoth
+|-boost|p1b: Markoth|spa|1
+|-boost|p1b: Markoth|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|c|☆InvMagnet|!dt thunderclap
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/thunderclap">Thunderclap</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Electric.png" alt="Electric" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Special.png" alt="Special" width="32" height="14"></span> <span class="col labelcol"><em>Power</em><br>70</span> <span class="col widelabelcol"><em>Accuracy</em><br>100%</span> <span class="col pplabelcol"><em>PP</em><br>8</span> <span class="col movedesccol">Usually goes first. Fails if target is not attacking.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 1&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 9&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 140&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+|
+|t:|1750831137
+|move|p2b: Kyurem|Blizzard|p1b: Markoth
+|-damage|p1b: Markoth|0 fnt
+|faint|p1b: Markoth
+|
+|win|ZEATHS
+|raw|InvMagnet's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|ZEATHS's rating: 1020 &rarr; <strong>1055</strong><br />(+35 for winning)
+|c|☆InvMagnet|gg
+|c|☆ZEATHS|gg
+|l|☆InvMagnet
+|player|p1|

@@ -1,0 +1,232 @@
+|j|☆ido1234567890
+|j|☆yaasuto
+|t:|1750827123
+|gametype|doubles
+|player|p1|ido1234567890|calem|1620
+|player|p2|yaasuto|hilbert|1585
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Overqwil, L50, F|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Ting-Lu, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yaasuto)
+|
+|t:|1750827144
+|start
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750827155
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: ido1234567890|move: Tailwind
+|move|p1b: Annihilape|Final Gambit|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Protect
+|move|p2b: Ting-Lu|Taunt|p1a: Tornadus
+|-start|p1a: Tornadus|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1750827174
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p1b: Annihilape|Final Gambit|p2a: Eternatus
+|-damage|p2a: Eternatus|12/100
+|faint|p1b: Annihilape
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Kyogre
+|-damage|p1a: Kyogre|77/100
+|move|p2b: Ting-Lu|Snarl|p1a: Kyogre
+|-damage|p1a: Kyogre|68/100
+|-unboost|p1a: Kyogre|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|18/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1750827185
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|turn|3
+|
+|t:|1750827198
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Zacian|atk|1
+|-terastallize|p2b: Ting-Lu|Water
+|move|p1b: Zacian|Behemoth Blade|p2b: Ting-Lu
+|-resisted|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|84/100
+|move|p1a: Kyogre|Water Spout|p2b: Ting-Lu|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Ting-Lu
+|-damage|p2a: Incineroar|17/100
+|-damage|p2b: Ting-Lu|69/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|42/100|[from] item: Sitrus Berry
+|move|p2b: Ting-Lu|Sand Tomb|p1b: Zacian|[miss]
+|-miss|p2b: Ting-Lu|p1b: Zacian
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Ting-Lu|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750827220
+|move|p2a: Incineroar|Fake Out|p1a: Kyogre
+|-damage|p1a: Kyogre|58/100
+|move|p1b: Zacian|Play Rough|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|45/100
+|cant|p1a: Kyogre|flinch
+|move|p2b: Ting-Lu|Sand Tomb|p1a: Kyogre
+|-damage|p1a: Kyogre|45/100
+|-activate|p1a: Kyogre|move: Sand Tomb|[of] p2b: Ting-Lu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Ting-Lu|51/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|33/100|[from] move: Sand Tomb|[partiallytrapped]
+|-sideend|p1: ido1234567890|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750827234
+|switch|p2a: Eternatus|Eternatus, L50|18/100
+|-ability|p2a: Eternatus|Pressure
+|move|p1b: Zacian|Play Rough|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|25/100
+|move|p1a: Kyogre|Water Spout|p2b: Ting-Lu|[spread] p2a,p2b
+|-resisted|p2a: Eternatus
+|-resisted|p2b: Ting-Lu
+|-damage|p2a: Eternatus|10/100
+|-damage|p2b: Ting-Lu|17/100
+|move|p2b: Ting-Lu|Snarl|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1b: Zacian
+|-damage|p1a: Kyogre|27/100
+|-damage|p1b: Zacian|97/100
+|-unboost|p1a: Kyogre|spa|1
+|-unboost|p1b: Zacian|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eternatus|16/100|[from] item: Black Sludge
+|-heal|p2b: Ting-Lu|23/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|15/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1750827245
+|switch|p2a: Incineroar|Incineroar, L50, F|42/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1b: Zacian|atk|1
+|-terastallize|p1b: Zacian|Ground
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1b: Zacian|Tera Blast|p2b: Ting-Lu|[anim] Tera Blast Ground
+|-activate|p2b: Ting-Lu|move: Protect
+|move|p1a: Kyogre|Water Spout|p2b: Ting-Lu|[spread] p2a
+|-activate|p2b: Ting-Lu|move: Protect
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|29/100
+|
+|-weather|none
+|-heal|p2b: Ting-Lu|29/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|2/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1750827254
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p1a: Kyogre|Water Spout|p2b: Ting-Lu|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Ting-Lu
+|-crit|p2b: Ting-Lu
+|-damage|p2a: Incineroar|28/100
+|-damage|p2b: Ting-Lu|29/100
+|move|p2b: Ting-Lu|Sand Tomb|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|
+|-heal|p2b: Ting-Lu|35/100|[from] item: Leftovers
+|-damage|p1a: Kyogre|0 fnt|[from] move: Sand Tomb|[partiallytrapped]
+|faint|p1a: Kyogre
+|upkeep
+|
+|t:|1750827256
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|8
+|
+|t:|1750827267
+|move|p1b: Zacian|Play Rough|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|14/100
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Ting-Lu|[spread] p2a
+|-miss|p1a: Tornadus|p2b: Ting-Lu
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p2b: Ting-Lu|Sand Tomb|p1b: Zacian
+|-damage|p1b: Zacian|85/100
+|-activate|p1b: Zacian|move: Sand Tomb|[of] p2b: Ting-Lu
+|move|p2a: Incineroar|Parting Shot|p1b: Zacian
+|-unboost|p1b: Zacian|atk|1
+|-unboost|p1b: Zacian|spa|1
+|
+|t:|1750827270
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100|[from] Parting Shot
+|
+|-heal|p2b: Ting-Lu|20/100|[from] item: Leftovers
+|-damage|p1b: Zacian|73/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1750827277
+|move|p2b: Ting-Lu|Protect|p2b: Ting-Lu
+|-singleturn|p2b: Ting-Lu|Protect
+|move|p1b: Zacian|Behemoth Blade|p2a: Ho-Oh
+|-resisted|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|90/100
+|-damage|p1b: Zacian|56/100|[from] item: Rocky Helmet|[of] p2a: Ho-Oh
+|move|p1a: Tornadus|Bleakwind Storm|p2b: Ting-Lu|[spread] 
+|-activate|p2b: Ting-Lu|move: Protect
+|-miss|p1a: Tornadus|p2a: Ho-Oh
+|move|p2a: Ho-Oh|Sacred Fire|p1a: Tornadus
+|-damage|p1a: Tornadus|26/100
+|
+|-heal|p2b: Ting-Lu|26/100|[from] item: Leftovers
+|-damage|p1b: Zacian|44/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|10
+|-message|ido1234567890 forfeited.
+|
+|win|yaasuto
+|raw|ido1234567890's rating: 1620 &rarr; <strong>1598</strong><br />(-22 for losing)
+|raw|yaasuto's rating: 1585 &rarr; <strong>1607</strong><br />(+22 for winning)
+|l|☆ido1234567890
+|player|p1|
+|l|☆yaasuto
+|player|p2|

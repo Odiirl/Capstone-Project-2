@@ -1,0 +1,187 @@
+|j|☆HyphyJavi
+|j|☆kutaka kfc
+|t:|1750746778
+|gametype|doubles
+|player|p1|HyphyJavi|dancer|1302
+|player|p2|kutaka kfc|169|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|c|☆HyphyJavi|glhf
+|
+|t:|1750746801
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|-unboost|p1b: Lunala|atk|1
+|turn|1
+|
+|t:|1750746821
+|-terastallize|p1b: Lunala|Normal
+|move|p2a: Incineroar|Fake Out|p1a: Smeargle
+|-damage|p1a: Smeargle|74/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Lunala|[spread] 
+|-immune|p1a: Smeargle
+|-immune|p1b: Lunala
+|cant|p1a: Smeargle|flinch
+|move|p1b: Lunala|Tailwind|p1b: Lunala
+|-sidestart|p1: HyphyJavi|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1750746840
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Smeargle|Decorate|p1b: Lunala
+|-boost|p1b: Lunala|atk|2
+|-boost|p1b: Lunala|spa|2
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|57/100
+|move|p2a: Incineroar|Knock Off|p1b: Lunala
+|-damage|p1b: Lunala|85/100
+|-enditem|p1b: Lunala|Sitrus Berry|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1750746864
+|move|p1a: Smeargle|Spore|p2b: Calyrex
+|-status|p2b: Calyrex|slp|[from] move: Spore
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100 slp
+|cant|p2b: Calyrex|slp
+|move|p2a: Incineroar|Flare Blitz|p1b: Lunala
+|-damage|p1b: Lunala|48/100
+|-damage|p2a: Incineroar|43/100|[from] Recoil
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|68/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|4
+|
+|t:|1750746882
+|cant|p2b: Calyrex|slp
+|move|p1a: Smeargle|Decorate|p1b: Lunala
+|-boost|p1b: Lunala|atk|2
+|-boost|p1b: Lunala|spa|2
+|move|p1b: Lunala|Moongeist Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|4/100
+|move|p2a: Incineroar|Parting Shot|p1b: Lunala
+|-unboost|p1b: Lunala|atk|1
+|-unboost|p1b: Lunala|spa|1
+|
+|t:|1750746893
+|switch|p2a: Eternatus|Eternatus, L50|100/100|[from] Parting Shot
+|-ability|p2a: Eternatus|Pressure
+|
+|-sideend|p1: HyphyJavi|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750746905
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|cant|p2b: Calyrex|slp
+|move|p1b: Lunala|Tailwind|p1b: Lunala
+|-sidestart|p1: HyphyJavi|move: Tailwind
+|
+|upkeep
+|
+|t:|1750746913
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|t:|1750746919
+|-curestatus|p2b: Calyrex|slp|[msg]
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p2a: Eternatus|Dynamax Cannon|p1b: Lunala
+|-damage|p1b: Lunala|5/100
+|move|p1b: Lunala|Expanding Force|p2a: Eternatus|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|move|p1a: Indeedee|Alluring Voice|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750746929
+|switch|p2a: Bronzong|Bronzong, L50|100/100
+|turn|7
+|
+|t:|1750746948
+|switch|p2b: Incineroar|Incineroar, L50, F|4/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Lunala|atk|1
+|-terastallize|p2a: Bronzong|Steel
+|move|p1b: Lunala|Moongeist Beam|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|move|p1a: Indeedee|Alluring Voice|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750746959
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|1/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750746969
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Lunala|Moongeist Beam|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-sideend|p1: HyphyJavi|move: Tailwind
+|upkeep
+|turn|9
+|-message|kutaka kfc forfeited.
+|
+|win|HyphyJavi
+|raw|HyphyJavi's rating: 1302 &rarr; <strong>1324</strong><br />(+22 for winning)
+|raw|kutaka kfc's rating: 1344 &rarr; <strong>1322</strong><br />(-22 for losing)
+|l|☆kutaka kfc
+|player|p2|
+|c|☆HyphyJavi|gg

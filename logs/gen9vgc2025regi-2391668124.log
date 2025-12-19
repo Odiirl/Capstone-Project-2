@@ -1,0 +1,224 @@
+|j|☆KingPKMN23
+|j|☆kidsainn
+|t:|1750881725
+|gametype|doubles
+|player|p1|KingPKMN23|n|1202
+|player|p2|kidsainn|cynthia|1285
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Chien-Pao, L50|
+|teampreview|4
+|
+|t:|1750881781
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-end|p1a: Iron Valiant|Quark Drive
+|turn|1
+|
+|t:|1750881831
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|move|p2a: Zamazenta|Body Press|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|move|p1a: Iron Valiant|Trick Room|p1a: Iron Valiant
+|-fieldstart|move: Trick Room|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|2
+|
+|t:|1750881878
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Moth|Iron Moth, L50|100/100
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p2b: Rillaboom|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|92/100
+|
+|t:|1750881892
+|switch|p2b: Chien-Pao|Chien-Pao, L50|100/100|[from] U-turn
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|move|p1b: Miraidon|Volt Switch|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p1a: Iron Moth|98/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750881925
+|-terastallize|p2a: Zamazenta|Ghost
+|move|p2b: Chien-Pao|Ice Shard|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|44/100
+|-damage|p2b: Chien-Pao|91/100|[from] item: Life Orb
+|move|p1b: Miraidon|Volt Switch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|65/100
+|
+|t:|1750881934
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p1a: Iron Moth|Fire Spin|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|41/100
+|-activate|p2b: Chien-Pao|move: Fire Spin|[of] p1a: Iron Moth
+|move|p2a: Zamazenta|Body Press|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|32/100
+|
+|-heal|p1a: Iron Moth|38/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|71/100|[from] Grassy Terrain
+|-heal|p2b: Chien-Pao|46/100|[from] Grassy Terrain
+|-damage|p2b: Chien-Pao|34/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1750881965
+|-terastallize|p1b: Calyrex|Ground
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p2b: Chien-Pao|Sucker Punch|p1b: Calyrex
+|-damage|p1b: Calyrex|64/100
+|-damage|p2b: Chien-Pao|25/100|[from] item: Life Orb
+|move|p1b: Calyrex|Stomping Tantrum|p2a: Zamazenta
+|-damage|p2a: Zamazenta|45/100
+|move|p1a: Iron Moth|Fire Spin|p2b: Chien-Pao
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|-heal|p1b: Calyrex|70/100|[from] Grassy Terrain
+|-heal|p1a: Iron Moth|44/100|[from] Grassy Terrain
+|-heal|p2a: Zamazenta|51/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750881996
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|turn|5
+|
+|t:|1750882028
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Miraidon|Miraidon, L50|44/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Zamazenta|move: Protect
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750882042
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750882071
+|switch|p1b: Iron Moth|Iron Moth, L50|44/100
+|-enditem|p1b: Iron Moth|Electric Seed
+|-boost|p1b: Iron Moth|def|1|[from] item: Electric Seed
+|-activate|p1b: Iron Moth|ability: Quark Drive
+|-start|p1b: Iron Moth|quarkdrivespe
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Iron Moth|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-damage|p1b: Iron Moth|0 fnt
+|faint|p1b: Iron Moth
+|-end|p1b: Iron Moth|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Zamazenta|Body Press|p1a: Miraidon
+|-activate|p1a: Miraidon|move: Protect
+|
+|upkeep
+|
+|t:|1750882091
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1750882128
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1b: Iron Valiant|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-crit|p2b: Calyrex
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100
+|move|p2b: Calyrex|Psychic|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p1a: Miraidon|Electro Drift|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|upkeep
+|
+|t:|1750882145
+|switch|p1b: Calyrex|Calyrex-Ice, L50, tera:Ground|70/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|8
+|
+|t:|1750882165
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2b: Calyrex|Astral Barrage|p1b: Calyrex|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-damage|p1b: Calyrex|19/100
+|move|p2a: Zamazenta|Body Press|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|upkeep
+|turn|9
+|
+|t:|1750882186
+|move|p2b: Calyrex|Encore|p1a: Miraidon
+|-start|p1a: Miraidon|Encore
+|move|p2a: Zamazenta|Body Press|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|kidsainn
+|raw|KingPKMN23's rating: 1202 &rarr; <strong>1183</strong><br />(-19 for losing)
+|raw|kidsainn's rating: 1285 &rarr; <strong>1304</strong><br />(+19 for winning)

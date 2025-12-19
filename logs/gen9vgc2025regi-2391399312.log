@@ -1,0 +1,138 @@
+|j|☆BOMAtheSunEnjoyer
+|j|☆pabloam2006
+|t:|1750850289
+|gametype|doubles
+|player|p1|BOMAtheSunEnjoyer|n|1499
+|player|p2|pabloam2006|skyla|1715
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Reshiram, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|
+|t:|1750850303
+|start
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|1
+|
+|t:|1750850314
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Iron Hands|Fake Out|p2a: Smeargle
+|-damage|p2a: Smeargle|64/100
+|cant|p2a: Smeargle|flinch
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750850332
+|move|p1a: Iron Hands|Wild Charge|p2b: Calyrex
+|-damage|p2b: Calyrex|40/100
+|-damage|p1a: Iron Hands|90/100|[from] Recoil
+|move|p1b: Farigiraf|Hyper Voice|p2a: Smeargle|[spread] p2a
+|-immune|p2b: Calyrex
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-enditem|p1b: Farigiraf|Throat Spray
+|-boost|p1b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p2b: Calyrex|Psychic|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|13/100
+|-damage|p2b: Calyrex|31/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750850349
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1750850383
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Iron Hands|Wild Charge|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|move|p2a: Zamazenta|Body Press|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750850394
+|switch|p1a: Reshiram|Reshiram, L50|100/100
+|-ability|p1a: Reshiram|Turboblaze
+|turn|4
+|
+|t:|1750850424
+|-terastallize|p1a: Reshiram|Fire
+|move|p2a: Zamazenta|Wide Guard|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Wide Guard
+|move|p1b: Farigiraf|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|15/100
+|move|p1a: Reshiram|Blue Flare|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|-damage|p1a: Reshiram|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750850432
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|5
+|
+|t:|1750850444
+|move|p2a: Zamazenta|Protect||[still]
+|-fail|p2a: Zamazenta
+|move|p2b: Rillaboom|Fake Out||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Fake Out|[of] p2b: Rillaboom
+|move|p1b: Farigiraf|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|move|p1a: Reshiram|Blue Flare|p2b: Rillaboom|[miss]
+|-miss|p1a: Reshiram|p2b: Rillaboom
+|
+|-heal|p1a: Reshiram|97/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|c|☆BOMAtheSunEnjoyer|gg
+|-message|pabloam2006 forfeited.
+|
+|win|BOMAtheSunEnjoyer
+|raw|BOMAtheSunEnjoyer's rating: 1499 &rarr; <strong>1530</strong><br />(+31 for winning)
+|raw|pabloam2006's rating: 1715 &rarr; <strong>1684</strong><br />(-31 for losing)
+|l|☆pabloam2006
+|player|p2|
+|l|☆BOMAtheSunEnjoyer
+|player|p1|

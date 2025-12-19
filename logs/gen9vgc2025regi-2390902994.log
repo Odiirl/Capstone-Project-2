@@ -1,0 +1,176 @@
+|j|☆crayons_7110
+|j|☆that1guy1998
+|t:|1750781245
+|gametype|doubles
+|player|p1|crayons_7110|2|1337
+|player|p2|that1guy1998|1|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Munkidori, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|
+|t:|1750781262
+|start
+|switch|p1a: Zacian|Zacian-Crowned, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Munkidori|Munkidori, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|1
+|
+|t:|1750781283
+|move|p2a: Munkidori|Fake Out|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|97/100
+|cant|p1a: Zacian|flinch
+|move|p2b: Porygon2|Tri Attack|p1b: Amoonguss
+|-damage|p1b: Amoonguss|51/100
+|move|p1b: Amoonguss|Spore|p2b: Porygon2
+|-status|p2b: Porygon2|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750781301
+|cant|p2b: Porygon2|slp
+|move|p1a: Zacian|Sacred Sword|p2b: Porygon2
+|-supereffective|p2b: Porygon2
+|-damage|p2b: Porygon2|34/100 slp
+|move|p2a: Munkidori|Psychic|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|upkeep
+|
+|t:|1750781314
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Munkidori|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|turn|3
+|
+|t:|1750781333
+|move|p2a: Munkidori|Protect|p2a: Munkidori
+|-singleturn|p2a: Munkidori|Protect
+|cant|p2b: Porygon2|slp
+|move|p1b: Incineroar|Fake Out|p2a: Munkidori
+|-activate|p2a: Munkidori|move: Protect
+|move|p1a: Zacian|Sacred Sword|p2b: Porygon2
+|-supereffective|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|upkeep
+|
+|t:|1750781347
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1750781368
+|switch|p2a: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-terastallize|p2b: Basculegion|Stellar
+|move|p2b: Basculegion|Last Respects|p1a: Zacian
+|-damage|p1a: Zacian|40/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-damage|p2a: Zacian|28/100
+|move|p1b: Incineroar|Knock Off|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|5/100
+|-enditem|p2b: Basculegion|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|5
+|
+|t:|1750781399
+|-terastallize|p1b: Incineroar|Bug
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2a: Zacian|Behemoth Blade|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p2b: Basculegion|Flip Turn|p1b: Incineroar
+|-damage|p1b: Incineroar|74/100
+|
+|t:|1750781411
+|switch|p2b: Munkidori|Munkidori, L50, M|100/100|[from] Flip Turn
+|move|p1b: Incineroar|Parting Shot|p2a: Zacian
+|-unboost|p2a: Zacian|atk|1
+|-unboost|p2a: Zacian|spa|1
+|
+|t:|1750781414
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750781430
+|move|p2a: Zacian|Protect|p2a: Zacian
+|-singleturn|p2a: Zacian|Protect
+|move|p1b: Kyogre|Water Spout|p2b: Munkidori|[spread] p2b
+|-activate|p2a: Zacian|move: Protect
+|-enditem|p2b: Munkidori|Focus Sash
+|-damage|p2b: Munkidori|1/100
+|move|p1a: Zacian|Behemoth Blade|p2a: Zacian
+|-activate|p2a: Zacian|move: Protect
+|move|p2b: Munkidori|Psychic|p1b: Kyogre
+|-damage|p1b: Kyogre|68/100
+|-status|p1b: Kyogre|tox|[from] ability: Toxic Chain|[of] p2b: Munkidori
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Kyogre|62/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1750781459
+|switch|p2a: Basculegion|Basculegion, L50, M, tera:Stellar|5/100
+|switch|p1a: Incineroar|Incineroar, L50, M, tera:Bug|74/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Munkidori|atk|1
+|move|p1b: Kyogre|Water Spout|p2a: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-damage|p2b: Munkidori|0 fnt
+|faint|p2a: Basculegion
+|faint|p2b: Munkidori
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Kyogre|50/100 tox|[from] psn
+|upkeep
+|
+|t:|1750781477
+|switch|p2a: Zacian|Zacian-Crowned, L50|28/100
+|turn|8
+|-message|that1guy1998 forfeited.
+|
+|win|crayons_7110
+|raw|crayons_7110's rating: 1337 &rarr; <strong>1354</strong><br />(+17 for winning)
+|raw|that1guy1998's rating: 1281 &rarr; <strong>1260</strong><br />(-21 for losing)
+|l|☆that1guy1998
+|player|p2|
+|l|☆crayons_7110
+|player|p1|

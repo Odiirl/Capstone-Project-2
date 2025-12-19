@@ -1,0 +1,166 @@
+|j|☆Heliosan
+|j|☆minhquang1408
+|t:|1750835192
+|gametype|doubles
+|player|p1|Heliosan|steven|1497
+|player|p2|minhquang1408|lana|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Heliosan)
+|
+|t:|1750835223
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Flutter Mane|atk|1
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750835242
+|-terastallize|p1a: Lunala|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Lunala
+|-damage|p1a: Lunala|85/100
+|move|p1a: Lunala|Moongeist Beam|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|
+|upkeep
+|
+|t:|1750835259
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|turn|2
+|inactive|Heliosan has 30 seconds left.
+|inactive|minhquang1408 has 30 seconds left.
+|
+|t:|1750835298
+|move|p2a: Calyrex|Astral Barrage|p1a: Lunala|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Lunala|45/100
+|-damage|p1b: Incineroar|81/100
+|move|p2b: Urshifu|Surging Strikes|p1a: Lunala
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|28/100
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|11/100
+|-crit|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|faint|p1a: Lunala
+|-hitcount|p1: Lunala|3
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2a: Calyrex|spa|1
+|
+|t:|1750835315
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1750835321
+|switch|p1a: Incineroar|Incineroar, L50, F|81/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Calyrex|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|3
+|
+|t:|1750835328
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|move|p1b: Ursaluna|Facade|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750835345
+|move|p2a: Calyrex|Encore|p1a: Incineroar
+|-start|p1a: Incineroar|Encore
+|move|p2b: Urshifu|Surging Strikes|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|59/100 brn
+|-supereffective|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|23/100 brn
+|-supereffective|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-hitcount|p1: Ursaluna|3
+|move|p1a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1750835349
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|5
+|
+|t:|1750835359
+|move|p2b: Urshifu|Detect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Incineroar
+|move|p2a: Calyrex|Astral Barrage|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|67/100
+|-damage|p1b: Miraidon|79/100
+|move|p1b: Miraidon|Electro Drift|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|
+|upkeep
+|turn|6
+|-message|Heliosan forfeited.
+|
+|win|minhquang1408
+|raw|Heliosan's rating: 1497 &rarr; <strong>1470</strong><br />(-27 for losing)
+|raw|minhquang1408's rating: 1378 &rarr; <strong>1405</strong><br />(+27 for winning)
+|l|☆Heliosan
+|player|p1|
+|l|☆minhquang1408
+|player|p2|
+|j|☆minhquang1408
+|player|p2|minhquang1408|lana|
+|l|☆minhquang1408
+|player|p2|

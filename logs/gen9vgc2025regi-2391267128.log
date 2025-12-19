@@ -1,0 +1,147 @@
+|j|☆leshoegg
+|j|☆a130681
+|t:|1750825290
+|gametype|doubles
+|player|p1|leshoegg|102|1319
+|player|p2|a130681|ghetsis|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Altaria, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Toedscruel, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by leshoegg)
+|
+|t:|1750825314
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Toedscruel|Toedscruel, L50, F|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|1
+|inactive|leshoegg has 30 seconds left.
+|
+|t:|1750825341
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Farigiraf|Foul Play|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Calyrex|Glacial Lance|p2b: Toedscruel|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-supereffective|p2b: Toedscruel
+|-crit|p2b: Toedscruel
+|-enditem|p2b: Toedscruel|Focus Sash
+|-damage|p2b: Toedscruel|1/100
+|move|p2b: Toedscruel|Spore|p1a: Calyrex
+|-status|p1a: Calyrex|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1750825355
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-enditem|p1b: Farigiraf|Electric Seed
+|-boost|p1b: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2b: Toedscruel|Rage Powder|p2b: Toedscruel
+|-singleturn|p2b: Toedscruel|move: Rage Powder
+|move|p1b: Farigiraf|Foul Play|p2b: Toedscruel
+|-damage|p2b: Toedscruel|0 fnt
+|faint|p2b: Toedscruel
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750825365
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|3
+|
+|t:|1750825374
+|switch|p1a: Altaria|Altaria, L50, F|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|move|p2a: Calyrex|Glacial Lance|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Altaria
+|-enditem|p1a: Altaria|Focus Sash
+|-damage|p1a: Altaria|1/100
+|-damage|p1b: Farigiraf|68/100
+|move|p1b: Farigiraf|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|48/100
+|move|p2b: Kyogre|Water Spout|p1a: Altaria|[spread] p1a,p1b
+|-resisted|p1a: Altaria
+|-crit|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Altaria
+|faint|p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750825376
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100 slp
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750825390
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-resisted|p1b: Calyrex
+|-damage|p1b: Calyrex|83/100 slp
+|cant|p1b: Calyrex|slp
+|move|p2b: Kyogre|Water Spout|p1b: Calyrex|[spread] p1b
+|-activate|p1a: Miraidon|move: Protect
+|-damage|p1b: Calyrex|9/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Calyrex|15/100 slp|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750825403
+|-terastallize|p1a: Miraidon|Fairy
+|cant|p1b: Calyrex|slp
+|move|p2a: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-resisted|p1b: Calyrex
+|-damage|p1a: Miraidon|45/100
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Kyogre|Water Spout|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|a130681
+|raw|leshoegg's rating: 1319 &rarr; <strong>1304</strong><br />(-15 for losing)
+|raw|a130681's rating: 1401 &rarr; <strong>1416</strong><br />(+15 for winning)
+|l|☆leshoegg
+|player|p1|
+|l|☆a130681
+|player|p2|

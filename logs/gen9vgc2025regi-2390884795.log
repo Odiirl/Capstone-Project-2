@@ -1,0 +1,140 @@
+|j|☆chricy
+|j|☆pytt03
+|t:|1750779310
+|gametype|doubles
+|player|p1|chricy|101|1273
+|player|p2|pytt03|clown|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Braviary-Hisui, L50, M|
+|poke|p1|Moltres-Galar, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Zacian-*, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Treads, L50|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Scraggy, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chricy)
+|
+|t:|1750779353
+|start
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Scraggy|Scraggy, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|-ability|p2b: Scraggy|Intimidate|boost
+|-unboost|p1a: Raichu|atk|1
+|-unboost|p1b: Zacian|atk|1
+|turn|1
+|
+|t:|1750779377
+|move|p1a: Raichu|Fake Out|p2b: Scraggy
+|-damage|p2b: Scraggy|95/100
+|cant|p2b: Scraggy|flinch
+|move|p1b: Zacian|Play Rough|p2b: Scraggy
+|-supereffective|p2b: Scraggy
+|-damage|p2b: Scraggy|0 fnt
+|faint|p2b: Scraggy
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750779388
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|2
+|inactive|chricy has 30 seconds left.
+|inactive|pytt03 has 30 seconds left.
+|
+|t:|1750779419
+|-terastallize|p2b: Miraidon|Fairy
+|move|p2a: Calyrex|High Horsepower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|22/100
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Raichu|[spread] p1a,p1b
+|-resisted|p1b: Zacian
+|-enditem|p1a: Raichu|Focus Sash
+|-damage|p1a: Raichu|1/100
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|move|p1a: Raichu|Nuzzle|p2a: Calyrex
+|-damage|p2a: Calyrex|97/100
+|-status|p2a: Calyrex|par
+|
+|upkeep
+|
+|t:|1750779431
+|switch|p1b: Braviary|Braviary-Hisui, L50, M|100/100
+|turn|3
+|
+|t:|1750779447
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-terastallize|p1b: Braviary|Fire
+|cant|p2a: Calyrex|par
+|move|p1b: Braviary|Heat Wave|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Miraidon|34/100
+|faint|p2a: Calyrex
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-resisted|p1b: Braviary
+|-crit|p1b: Braviary
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Braviary|36/100
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750779464
+|switch|p2a: Iron Treads|Iron Treads, L50|100/100
+|switch|p1a: Raichu|Raichu, L50, F|1/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|4
+|inactive|pytt03 has 30 seconds left.
+|
+|t:|1750779498
+|move|p1a: Raichu|Fake Out|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|97/100
+|move|p1b: Braviary|Heat Wave|p2b: Miraidon|[spread] p2a
+|-miss|p1b: Braviary|p2b: Miraidon
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p2b: Miraidon|Dazzling Gleam|p1a: Raichu|[spread] p1a,p1b
+|-resisted|p1b: Braviary
+|-crit|p1b: Braviary
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Braviary|0 fnt
+|faint|p1a: Raichu
+|faint|p1b: Braviary
+|
+|win|pytt03
+|raw|chricy's rating: 1273 &rarr; <strong>1255</strong><br />(-18 for losing)
+|raw|pytt03's rating: 1375 &rarr; <strong>1389</strong><br />(+14 for winning)
+|l|☆pytt03
+|player|p2|
+|l|☆chricy
+|player|p1|

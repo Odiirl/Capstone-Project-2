@@ -1,0 +1,195 @@
+|j|☆ShenpaiNoticedMe
+|j|☆trbox123
+|t:|1750824107
+|gametype|doubles
+|player|p1|ShenpaiNoticedMe|pokemonbreeder-gen4|1176
+|player|p2|trbox123|dawn|1202
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750824151
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-enditem|p2a: Flutter Mane|Booster Energy
+|-activate|p2a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2a: Flutter Mane|protosynthesisspe
+|turn|1
+|
+|t:|1750824180
+|move|p2b: Tatsugiri|Protect|p2b: Tatsugiri
+|-singleturn|p2b: Tatsugiri|Protect
+|move|p1a: Smeargle|Fake Out|p2b: Tatsugiri
+|-activate|p2b: Tatsugiri|move: Protect
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: ShenpaiNoticedMe|move: Tailwind
+|move|p2a: Flutter Mane|Perish Song|p2a: Flutter Mane
+|-start|p1a: Smeargle|perish3|[silent]
+|-start|p1b: Tornadus|perish3|[silent]
+|-start|p2a: Flutter Mane|perish3|[silent]
+|-start|p2b: Tatsugiri|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Flutter Mane|perish3
+|-start|p1a: Smeargle|perish3
+|-start|p1b: Tornadus|perish3
+|-start|p2b: Tatsugiri|perish3
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1750824204
+|move|p1a: Smeargle|Spore|p2b: Tatsugiri
+|-status|p2b: Tatsugiri|slp|[from] move: Spore
+|move|p2a: Flutter Mane|Thunder Wave|p1b: Tornadus|[miss]
+|-miss|p2a: Flutter Mane|p1b: Tornadus
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Flutter Mane|[spread] p2a,p2b
+|-damage|p2a: Flutter Mane|67/100
+|-damage|p2b: Tatsugiri|40/100 slp
+|-unboost|p2b: Tatsugiri|spe|1
+|cant|p2b: Tatsugiri|slp
+|
+|-start|p1a: Smeargle|perish2
+|-start|p2a: Flutter Mane|perish2
+|-start|p1b: Tornadus|perish2
+|-start|p2b: Tatsugiri|perish2
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spa|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1750824226
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|move|p1a: Smeargle|Decorate|p1b: Tornadus
+|-boost|p1b: Tornadus|atk|2
+|-boost|p1b: Tornadus|spa|2
+|move|p1b: Tornadus|Bleakwind Storm|p2a: Dondozo|[spread] p2a
+|-miss|p1b: Tornadus|p2b: Tatsugiri
+|-damage|p2a: Dondozo|81/100
+|
+|-start|p1a: Smeargle|perish1
+|-start|p1b: Tornadus|perish1
+|-start|p2b: Tatsugiri|perish1
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|spe|2
+|-unboost|p1a: Smeargle|def|1
+|upkeep
+|turn|4
+|
+|t:|1750824255
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p1a: Smeargle|Spore|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Spore
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Order Up|p1a: Smeargle|[from] move: Sleep Talk
+|-damage|p1a: Smeargle|13/100
+|-boost|p2a: Dondozo|atk|1
+|
+|-start|p1a: Smeargle|perish0
+|-start|p2b: Tatsugiri|perish0
+|-sideend|p1: ShenpaiNoticedMe|move: Tailwind
+|faint|p1a: Smeargle
+|faint|p2b: Tatsugiri
+|upkeep
+|
+|t:|1750824275
+|switch|p2b: Dialga|Dialga-Origin, L50|100/100
+|switch|p1a: Tornadus|Tornadus, L50, M|100/100
+|turn|5
+|
+|t:|1750824296
+|-terastallize|p2b: Dialga|Flying
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: ShenpaiNoticedMe|move: Tailwind
+|move|p1b: Zamazenta|Body Press|p2a: Dondozo
+|-damage|p2a: Dondozo|64/100 slp
+|move|p2b: Dialga|Psych Up|p2a: Dondozo
+|-copyboost|p2b: Dialga|p2a: Dondozo|[from] move: Psych Up
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|upkeep
+|turn|6
+|
+|t:|1750824317
+|move|p1a: Tornadus|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|move|p1b: Zamazenta|Heavy Slam|p2b: Dialga
+|-damage|p2b: Dialga|95/100
+|move|p2b: Dialga|Dragon Pulse|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Earthquake|p1b: Zamazenta|[spread] p1b
+|-activate|p2b: Dialga|ability: Telepathy
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|31/100
+|
+|upkeep
+|
+|t:|1750824326
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750824345
+|move|p1a: Calyrex|Astral Barrage|p2b: Dialga|[spread] p2a,p2b
+|-damage|p2a: Dondozo|30/100
+|-damage|p2b: Dialga|67/100
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Heavy Slam|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100
+|move|p2b: Dialga|Dragon Pulse|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|move|p2a: Dondozo|Earthquake|p1b: Zamazenta|[spread] p1b
+|-activate|p2b: Dialga|ability: Telepathy
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|win|trbox123
+|raw|ShenpaiNoticedMe's rating: 1176 &rarr; <strong>1153</strong><br />(-23 for losing)
+|raw|trbox123's rating: 1202 &rarr; <strong>1225</strong><br />(+23 for winning)
+|l|☆ShenpaiNoticedMe
+|player|p1|
+|l|☆trbox123
+|player|p2|

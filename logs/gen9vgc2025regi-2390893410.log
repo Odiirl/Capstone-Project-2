@@ -1,0 +1,196 @@
+|j|☆TheDecommissioner
+|j|☆Eesoch
+|t:|1750780217
+|gametype|doubles
+|player|p1|TheDecommissioner|preschooler|1238
+|player|p2|Eesoch|n|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Walking Wake, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rhydon, L50, F|
+|poke|p2|Exeggutor-Alola, L50, M|
+|poke|p2|Araquanid, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheDecommissioner)
+|
+|t:|1750780248
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p1b: Scotland|Walking Wake, L50|100/100
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1b: Scotland|ability: Protosynthesis
+|-start|p1b: Scotland|protosynthesisspe
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1750780267
+|-terastallize|p1a: Koraidon|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Scotland|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2a: Necrozma
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Necrozma|70/100
+|-damage|p2b: Indeedee|84/100
+|-unboost|p2a: Necrozma|spa|1
+|-unboost|p2b: Indeedee|spa|1
+|move|p1a: Koraidon|Flare Blitz|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Koraidon|77/100|[from] Recoil
+|move|p2a: Necrozma|Expanding Force|p1b: Scotland|[spread] p1a,p1b
+|-damage|p1a: Koraidon|36/100
+|-damage|p1b: Scotland|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750780289
+|switch|p2b: Rhydon|Rhydon, L50, F, shiny|100/100
+|turn|2
+|inactive|Eesoch has 30 seconds left.
+|
+|t:|1750780315
+|-terastallize|p2b: Rhydon|Fairy
+|move|p2a: Necrozma|Protect|p2a: Necrozma
+|-singleturn|p2a: Necrozma|Protect
+|move|p1b: Scotland|Hydro Steam|p2b: Rhydon
+|-damage|p2b: Rhydon|52/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Necrozma
+|-activate|p2a: Necrozma|move: Protect
+|move|p2b: Rhydon|Rock Slide|p1a: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|-damage|p1b: Scotland|13/100
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|TheDecommissioner has 30 seconds left.
+|inactive|TheDecommissioner has 20 seconds left.
+|inactive|TheDecommissioner has 15 seconds left.
+|inactive|TheDecommissioner has 10 seconds left.
+|
+|t:|1750780360
+|switch|p1a: Talking|Lilligant-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1750780372
+|move|p1a: Talking|Sleep Powder|p2a: Necrozma
+|-status|p2a: Necrozma|slp|[from] move: Sleep Powder
+|move|p1b: Scotland|Hydro Steam|p2b: Rhydon
+|-damage|p2b: Rhydon|8/100
+|cant|p2a: Necrozma|slp
+|move|p2b: Rhydon|Breaking Swipe|p1a: Talking|[spread] p1a,p1b
+|-supereffective|p1b: Scotland
+|-damage|p1a: Talking|77/100
+|-damage|p1b: Scotland|0 fnt
+|-unboost|p1a: Talking|atk|1
+|faint|p1b: Scotland
+|-end|p1b: Scotland|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750780375
+|switch|p1b: Is|Archaludon, L50, F|100/100
+|turn|4
+|inactive|Eesoch has 30 seconds left.
+|
+|t:|1750780404
+|move|p2b: Rhydon|Protect|p2b: Rhydon
+|-singleturn|p2b: Rhydon|Protect
+|move|p1a: Talking|Bullet Seed|p1b: Is
+|-resisted|p1b: Is
+|-damage|p1b: Is|99/100
+|-ability|p1b: Is|Stamina|boost
+|-boost|p1b: Is|def|1
+|-resisted|p1b: Is
+|-damage|p1b: Is|98/100
+|-ability|p1b: Is|Stamina|boost
+|-boost|p1b: Is|def|1
+|-hitcount|p1b: Is|2
+|-curestatus|p2a: Necrozma|slp|[msg]
+|move|p2a: Necrozma|Expanding Force|p1a: Talking|[spread] p1a,p1b
+|-supereffective|p1a: Talking
+|-resisted|p1b: Is
+|-damage|p1a: Talking|0 fnt
+|-damage|p1b: Is|84/100
+|-ability|p1b: Is|Stamina|boost
+|-boost|p1b: Is|def|1
+|faint|p1a: Talking
+|move|p1b: Is|Snarl|p2a: Necrozma|[spread] p2a
+|-activate|p2b: Rhydon|move: Protect
+|-supereffective|p2a: Necrozma
+|-damage|p2a: Necrozma|43/100
+|-unboost|p2a: Necrozma|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750780425
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1b: Is|Snarl|p2a: Zamazenta|[spread] p2a,p2b
+|-resisted|p2a: Zamazenta
+|-resisted|p2b: Rhydon
+|-damage|p2a: Zamazenta|96/100
+|-damage|p2b: Rhydon|4/100
+|-unboost|p2a: Zamazenta|spa|1
+|-unboost|p2b: Rhydon|spa|1
+|move|p2b: Rhydon|High Horsepower|p1b: Is
+|-supereffective|p1b: Is
+|-damage|p1b: Is|56/100
+|-ability|p1b: Is|Stamina|boost
+|-boost|p1b: Is|def|1
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1750780441
+|move|p2a: Zamazenta|Body Press|p1b: Is
+|-supereffective|p1b: Is
+|-damage|p1b: Is|20/100
+|-ability|p1b: Is|Stamina|boost
+|-boost|p1b: Is|def|1
+|move|p1b: Is|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|38/100
+|move|p2b: Rhydon|High Horsepower|p1b: Is|[miss]
+|-miss|p2b: Rhydon|p1b: Is
+|
+|upkeep
+|turn|7
+|
+|t:|1750780448
+|move|p2a: Zamazenta|Body Press|p1b: Is
+|-supereffective|p1b: Is
+|-damage|p1b: Is|0 fnt
+|faint|p1b: Is
+|
+|win|Eesoch
+|raw|TheDecommissioner's rating: 1238 &rarr; <strong>1218</strong><br />(-20 for losing)
+|raw|Eesoch's rating: 1302 &rarr; <strong>1318</strong><br />(+16 for winning)

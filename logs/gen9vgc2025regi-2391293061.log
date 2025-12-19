@@ -1,0 +1,178 @@
+|j|☆Memlonnn
+|j|☆wale12
+|t:|1750829983
+|gametype|doubles
+|player|p1|Memlonnn|shauntal|1148
+|player|p2|wale12|benga|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Kyogre, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Eternatus, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750829998
+|start
+|switch|p1a: Ballin|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Ado|Chandelure, L50, M, shiny|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|-ability|p1a: Ballin|Intimidate|boost
+|-unboost|p2a: Eternatus|atk|1
+|-unboost|p2b: Zamazenta|atk|1
+|turn|1
+|
+|t:|1750830021
+|-terastallize|p2b: Zamazenta|Ghost
+|move|p1a: Ballin|Fake Out|p2b: Zamazenta
+|-immune|p2b: Zamazenta
+|move|p2a: Eternatus|Sludge Wave|p1a: Ballin|[spread] p2b,p1a,p1b
+|-resisted|p2b: Zamazenta
+|-resisted|p1b: Ado
+|-damage|p2b: Zamazenta|78/100
+|-damage|p1a: Ballin|46/100
+|-damage|p1b: Ado|75/100
+|-damage|p2a: Eternatus|91/100|[from] item: Life Orb
+|move|p2b: Zamazenta|Body Press|p1a: Ballin
+|-supereffective|p1a: Ballin
+|-damage|p1a: Ballin|0 fnt
+|faint|p1a: Ballin
+|move|p1b: Ado|Trick Room|p1b: Ado
+|-fieldstart|move: Trick Room|[of] p1b: Ado
+|-enditem|p1b: Ado|Room Service
+|-unboost|p1b: Ado|spe|1|[from] item: Room Service
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Memlonnn)
+|
+|t:|1750830043
+|switch|p1a: Poke|Calyrex-Ice, L50|100/100
+|-ability|p1a: Poke|As One
+|-ability|p1a: Poke|Unnerve
+|turn|2
+|
+|t:|1750830060
+|-terastallize|p1a: Poke|Ground
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Poke|Glacial Lance|p2a: Eternatus|[spread] 
+|-activate|p2a: Eternatus|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p1b: Ado|Shadow Ball|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|17/100
+|-unboost|p2b: Zamazenta|spd|1
+|move|p2a: Eternatus|Sludge Wave|p1b: Ado|[spread] p1a,p1b
+|-activate|p2b: Zamazenta|move: Wide Guard
+|-resisted|p1a: Poke
+|-resisted|p1b: Ado
+|-damage|p1a: Poke|82/100
+|-damage|p1b: Ado|48/100
+|-damage|p2a: Eternatus|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|inactive|Memlonnn has 30 seconds left.
+|
+|t:|1750830086
+|move|p2b: Zamazenta|Protect||[still]
+|-fail|p2b: Zamazenta
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p1a: Poke|High Horsepower|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Protect
+|move|p1b: Ado|Shadow Ball|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|upkeep
+|
+|t:|1750830093
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p2b: Flutter Mane|Booster Energy
+|-activate|p2b: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p2b: Flutter Mane|protosynthesisspe
+|turn|4
+|inactive|wale12 has 30 seconds left.
+|
+|t:|1750830119
+|move|p2b: Flutter Mane|Protect|p2b: Flutter Mane
+|-singleturn|p2b: Flutter Mane|Protect
+|move|p1a: Poke|Glacial Lance|p2b: Flutter Mane|[spread] p2a
+|-activate|p2b: Flutter Mane|move: Protect
+|-supereffective|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|0 fnt
+|faint|p2a: Eternatus
+|-ability|p1a: Poke|Chilling Neigh|boost
+|-boost|p1a: Poke|atk|1
+|-damage|p1a: Poke|72/100|[from] item: Life Orb
+|move|p1b: Ado|Shadow Ball|p2b: Flutter Mane
+|-activate|p2b: Flutter Mane|move: Protect
+|
+|upkeep
+|
+|t:|1750830122
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|turn|5
+|inactive|Memlonnn has 30 seconds left.
+|inactive|wale12 has 30 seconds left.
+|inactive|wale12 has 20 seconds left.
+|inactive|wale12 has 15 seconds left.
+|inactive|wale12 has 10 seconds left.
+|
+|t:|1750830170
+|move|p1a: Poke|High Horsepower|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|-ability|p1a: Poke|Chilling Neigh|boost
+|-boost|p1a: Poke|atk|1
+|-damage|p1a: Poke|62/100|[from] item: Life Orb
+|move|p1b: Ado|Shadow Ball|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|32/100
+|-unboost|p2b: Flutter Mane|spd|1
+|move|p2b: Flutter Mane|Moonblast|p1a: Poke
+|-damage|p1a: Poke|30/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750830192
+|move|p2b: Flutter Mane|Moonblast|p1a: Poke
+|-crit|p1a: Poke
+|-damage|p1a: Poke|0 fnt
+|faint|p1a: Poke
+|move|p1b: Ado|Shadow Ball|p2b: Flutter Mane
+|-supereffective|p2b: Flutter Mane
+|-damage|p2b: Flutter Mane|0 fnt
+|faint|p2b: Flutter Mane
+|-end|p2b: Flutter Mane|Protosynthesis|[silent]
+|
+|win|Memlonnn
+|raw|Memlonnn's rating: 1148 &rarr; <strong>1175</strong><br />(+27 for winning)
+|raw|wale12's rating: 1170 &rarr; <strong>1143</strong><br />(-27 for losing)
+|l|☆Memlonnn
+|player|p1|

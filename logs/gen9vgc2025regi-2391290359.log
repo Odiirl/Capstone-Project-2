@@ -1,0 +1,217 @@
+|j|☆WiFiRequired
+|j|☆Master Xaihclons
+|t:|1750829464
+|gametype|doubles
+|player|p1|WiFiRequired|steven|1195
+|player|p2|Master Xaihclons|169|1189
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Metagross, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Landorus, L50, M|
+|poke|p1|Salamence, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Chi-Yu, L50|
+|poke|p2|Zapdos-Galar, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|
+|t:|1750829495
+|start
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Walking Wake|Walking Wake, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750829518
+|switch|p1b: Salamence|Salamence, L50, M|100/100
+|-ability|p1b: Salamence|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Walking Wake|atk|1
+|-terastallize|p1a: Kyogre|Electric
+|move|p2a: Rillaboom|Grassy Glide|p1a: Kyogre
+|-damage|p1a: Kyogre|72/100
+|move|p2b: Walking Wake|Hydro Steam|p1b: Salamence
+|-resisted|p1b: Salamence
+|-damage|p1b: Salamence|44/100
+|-damage|p2b: Walking Wake|91/100|[from] item: Life Orb
+|move|p1a: Kyogre|Thunder|p2b: Walking Wake
+|-damage|p2b: Walking Wake|3/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Walking Wake|10/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|77/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750829555
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2b: Walking Wake|ability: Protosynthesis
+|-start|p2b: Walking Wake|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1b: Salamence|Protect|p1b: Salamence
+|-singleturn|p1b: Salamence|Protect
+|move|p2b: Walking Wake|Draco Meteor|p1b: Salamence
+|-activate|p1b: Salamence|move: Protect
+|move|p1a: Kyogre|Thunder|p2b: Walking Wake|[miss]
+|-miss|p1a: Kyogre|p2b: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Walking Wake|16/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|83/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750829599
+|switch|p1a: Ferrum|Metagross, L50, shiny|100/100
+|move|p2b: Walking Wake|Draco Meteor|p1a: Ferrum
+|-resisted|p1a: Ferrum
+|-damage|p1a: Ferrum|68/100
+|-unboost|p2b: Walking Wake|spa|2
+|-damage|p2b: Walking Wake|6/100|[from] item: Life Orb
+|move|p2a: Koraidon|Scale Shot|p1b: Salamence
+|-supereffective|p1b: Salamence
+|-damage|p1b: Salamence|0 fnt
+|faint|p1b: Salamence
+|-hitcount|p1: Salamence|1
+|-unboost|p2a: Koraidon|def|1
+|-boost|p2a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Walking Wake|12/100|[from] Grassy Terrain
+|-heal|p1a: Ferrum|74/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750829611
+|switch|p1b: Kyogre|Kyogre, L50, tera:Electric|83/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-end|p2b: Walking Wake|Protosynthesis
+|turn|4
+|
+|t:|1750829630
+|-end|p2b: Walking Wake|Protosynthesis|[silent]
+|switch|p2b: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Groudon
+|move|p2a: Koraidon|Flare Blitz|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2a: Koraidon|68/100|[from] Recoil
+|move|p1a: Ferrum|Psychic Fangs|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrum|80/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750829648
+|switch|p2a: Walking Wake|Walking Wake, L50|12/100
+|switch|p1b: Landorus|Landorus, L50, M|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|5
+|
+|t:|1750829664
+|move|p1a: Ferrum|Bullet Punch|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|move|p1b: Landorus|Sandsear Storm|p2b: Groudon
+|-damage|p2b: Groudon|40/100
+|move|p2b: Groudon|Fire Punch|p1b: Landorus
+|-damage|p1b: Landorus|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Groudon|46/100|[from] Grassy Terrain
+|-heal|p1a: Ferrum|86/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1750829678
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1750829705
+|-terastallize|p2b: Groudon|Fire
+|move|p2a: Rillaboom|Fake Out|p1b: Landorus
+|-damage|p1b: Landorus|39/100
+|cant|p1b: Landorus|flinch
+|move|p2b: Groudon|Fire Punch|p1b: Landorus
+|-damage|p1b: Landorus|0 fnt
+|faint|p1b: Landorus
+|move|p1a: Ferrum|Meteor Mash|p2b: Groudon
+|-resisted|p2b: Groudon
+|-damage|p2b: Groudon|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Groudon|35/100|[from] Grassy Terrain
+|-heal|p1a: Ferrum|91/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750829724
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ferrum
+|-resisted|p1a: Ferrum
+|-damage|p1a: Ferrum|74/100
+|move|p2b: Groudon|Precipice Blades|p1a: Ferrum|[miss]
+|-miss|p2b: Groudon|p1a: Ferrum
+|move|p1a: Ferrum|Rock Slide|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2b: Groudon
+|-damage|p2a: Rillaboom|80/100
+|-damage|p2b: Groudon|6/100
+|-enditem|p2b: Groudon|Weakness Policy
+|-boost|p2b: Groudon|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Groudon|spa|2|[from] item: Weakness Policy
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Groudon|12/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p1a: Ferrum|80/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750829749
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Ferrum|Bullet Punch|p2b: Groudon
+|-activate|p2b: Groudon|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ferrum
+|-resisted|p1a: Ferrum
+|-damage|p1a: Ferrum|39/100
+|-damage|p2a: Rillaboom|74/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2b: Groudon|18/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|80/100|[from] Grassy Terrain
+|-heal|p1a: Ferrum|45/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750829765
+|move|p2b: Groudon|Fire Punch|p1a: Ferrum
+|-supereffective|p1a: Ferrum
+|-damage|p1a: Ferrum|0 fnt
+|faint|p1a: Ferrum
+|
+|win|Master Xaihclons
+|raw|WiFiRequired's rating: 1195 &rarr; <strong>1170</strong><br />(-25 for losing)
+|raw|Master Xaihclons's rating: 1189 &rarr; <strong>1214</strong><br />(+25 for winning)
+|l|☆Master Xaihclons
+|player|p2|

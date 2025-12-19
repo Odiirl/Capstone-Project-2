@@ -1,0 +1,205 @@
+|j|☆pitzman
+|j|☆UtterlyIncapable
+|t:|1750840150
+|gametype|doubles
+|player|p1|pitzman|norman|1164
+|player|p2|UtterlyIncapable|firebreather|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Thundurus, L50, M|
+|poke|p2|Riolu, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Raging Bolt, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pitzman)
+|inactive|UtterlyIncapable has 60 seconds left.
+|
+|t:|1750840187
+|start
+|switch|p1a: Thundurus|Thundurus, L50, M|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Riolu|Riolu, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|pitzman has 30 seconds left.
+|
+|t:|1750840215
+|-terastallize|p1b: Koraidon|Fire
+|-terastallize|p2a: Calyrex|Fairy
+|move|p2b: Riolu|Quick Guard|p2b: Riolu
+|-singleturn|p2b: Riolu|Quick Guard
+|move|p1a: Thundurus|Thunder Wave|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Quick Guard
+|move|p1b: Koraidon|Scale Shot|p2b: Riolu|[miss]
+|-miss|p1b: Koraidon|p2b: Riolu
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750840238
+|move|p2b: Riolu|Coaching|p2a: Calyrex
+|-boost|p2a: Calyrex|atk|1
+|-boost|p2a: Calyrex|def|1
+|move|p1a: Thundurus|Leer|p2b: Riolu|[spread] p2a,p2b
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Riolu|def|1
+|move|p2a: Calyrex|Glacial Lance|p1b: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Thundurus
+|-resisted|p1b: Koraidon
+|-damage|p1a: Thundurus|0 fnt
+|-damage|p1b: Koraidon|70/100
+|faint|p1a: Thundurus
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p1b: Koraidon|Scale Shot|p2b: Riolu
+|-damage|p2b: Riolu|8/100
+|-damage|p2b: Riolu|0 fnt
+|faint|p2b: Riolu
+|-hitcount|p2: Riolu|2
+|-unboost|p1b: Koraidon|def|1
+|-boost|p1b: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|UtterlyIncapable has 30 seconds left.
+|
+|t:|1750840265
+|switch|p2b: Clefairy|Clefairy, L50, F|100/100
+|switch|p1a: Zacian|Zacian-Crowned, L50, shiny|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|3
+|
+|t:|1750840283
+|move|p1a: Zacian|Protect|p1a: Zacian
+|-singleturn|p1a: Zacian|Protect
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p2a: Calyrex|High Horsepower|p1a: Zacian
+|-activate|p1a: Zacian|move: Protect
+|move|p1b: Koraidon|Flare Blitz|p2b: Clefairy
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|-damage|p1b: Koraidon|42/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750840286
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|turn|4
+|
+|t:|1750840308
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p2a: Calyrex|High Horsepower|p1a: Ogerpon
+|-ability|p1a: Ogerpon|Sturdy
+|-damage|p1a: Ogerpon|1/100
+|move|p2b: Raging Bolt|Dragon Pulse|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750840322
+|switch|p1b: Zacian|Zacian-Crowned, L50, shiny|100/100
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1a: Ogerpon|[spread] p1b
+|-activate|p1a: Ogerpon|move: Protect
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|49/100
+|move|p2b: Raging Bolt|Discharge|p1b: Zacian|[spread] p2a,p1b
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2a: Calyrex|71/100
+|-damage|p1b: Zacian|10/100
+|
+|-weather|none
+|-end|p2b: Raging Bolt|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|UtterlyIncapable has 30 seconds left.
+|inactive|pitzman has 30 seconds left.
+|
+|t:|1750840353
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2b: Raging Bolt|Thunderclap||[still]
+|-fail|p2b: Raging Bolt
+|move|p1b: Zacian|Behemoth Blade|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|26/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldstart|move: Trick Room|[of] p2a: Calyrex
+|
+|upkeep
+|turn|7
+|
+|t:|1750840366
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Zacian|[spread] p1b
+|-activate|p1a: Ogerpon|move: Protect
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|0 fnt
+|faint|p1b: Zacian
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|move|p2b: Raging Bolt|Snarl|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|
+|upkeep
+|
+|t:|1750840369
+|switch|p1b: Koraidon|Koraidon, L50, tera:Fire|42/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|8
+|
+|t:|1750840382
+|move|p1a: Ogerpon|Follow Me|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Follow Me
+|move|p2a: Calyrex|Glacial Lance|p1b: Koraidon|[spread] p1a,p1b
+|-supereffective|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-resisted|p1b: Koraidon
+|-damage|p1a: Ogerpon|0 fnt
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1a: Ogerpon
+|faint|p1b: Koraidon
+|
+|win|UtterlyIncapable
+|raw|pitzman's rating: 1164 &rarr; <strong>1134</strong><br />(-30 for losing)
+|raw|UtterlyIncapable's rating: 1099 &rarr; <strong>1129</strong><br />(+30 for winning)
+|l|☆UtterlyIncapable
+|player|p2|
+|l|☆pitzman
+|player|p1|

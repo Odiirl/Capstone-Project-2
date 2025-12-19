@@ -1,0 +1,226 @@
+|j|☆BlznFrnzy
+|j|☆Mentalsyndrome
+|t:|1750793822
+|gametype|doubles
+|player|p1|BlznFrnzy|1|1329
+|player|p2|Mentalsyndrome|170|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Solgaleo, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mentalsyndrome)
+BlznFrnzy rejected open team sheets.
+|
+|t:|1750793837
+|start
+|switch|p1a: Solgaleo|Solgaleo, L50|100/100
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F, shiny|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-enditem|p1b: Iron Valiant|Booster Energy
+|-activate|p1b: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|1
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750793866
+|-terastallize|p1a: Solgaleo|Rock
+|-terastallize|p2b: Whimsicott|Fire
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Iron Valiant|Shadow Sneak|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Whimsicott|Moonblast|p1b: Iron Valiant
+|-supereffective|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|26/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750793882
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p1a: Solgaleo
+|-unboost|p1b: Iron Valiant|atk|1
+|move|p2b: Whimsicott|Encore|p1a: Solgaleo
+|-start|p1a: Solgaleo|Encore
+|move|p1b: Iron Valiant|Coaching|p1a: Solgaleo
+|-boost|p1a: Solgaleo|atk|1
+|-boost|p1a: Solgaleo|def|1
+|move|p1a: Solgaleo|Sunsteel Strike|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|55/100
+|
+|upkeep
+|turn|3
+|
+|t:|1750793901
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Solgaleo|Sunsteel Strike|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|5/100
+|move|p2b: Whimsicott|Moonblast|p1b: Koraidon
+|-supereffective|p1b: Koraidon
+|-damage|p1b: Koraidon|2/100
+|move|p2a: Incineroar|Knock Off|p1a: Solgaleo
+|-damage|p1a: Solgaleo|81/100
+|-enditem|p1a: Solgaleo|Weakness Policy|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750793923
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Mentalsyndrome|move: Tailwind
+|move|p1b: Koraidon|U-turn|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|t:|1750793930
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100|[from] U-turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|move|p2a: Incineroar|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|91/100
+|-enditem|p1b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Solgaleo|Sunsteel Strike|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Solgaleo|Encore
+|upkeep
+|
+|t:|1750793938
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750793962
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1a: Solgaleo|Protect|p1a: Solgaleo
+|-singleturn|p1a: Solgaleo|Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1750793967
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] Parting Shot
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1b: Incineroar|Knock Off|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|BlznFrnzy has 30 seconds left.
+|
+|t:|1750793994
+|switch|p2b: Incineroar|Incineroar, L50, F|61/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p1a: Solgaleo
+|-unboost|p1b: Incineroar|atk|1
+|switch|p1a: Iron Valiant|Iron Valiant, L50|26/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Miraidon|Electro Drift|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|move|p1b: Incineroar|Knock Off|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|52/100
+|-enditem|p2b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750794012
+|switch|p1a: Solgaleo|Solgaleo, L50, tera:Rock|81/100
+|turn|7
+|
+|t:|1750794024
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1a: Solgaleo|Protect|p1a: Solgaleo
+|-singleturn|p1a: Solgaleo|Protect
+|move|p2a: Miraidon|Electro Drift|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|none
+|-sideend|p2: Mentalsyndrome|move: Tailwind
+|upkeep
+|
+|t:|1750794036
+|switch|p1b: Koraidon|Koraidon, L50|2/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|8
+|
+|t:|1750794058
+|switch|p2a: Incineroar|Incineroar, L50, F|52/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Solgaleo|unboost|[from] ability: Full Metal Body|[of] p1a: Solgaleo
+|-unboost|p1b: Koraidon|atk|1
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Koraidon|Bulldoze|p2b: Calyrex|[spread] p1a,p2a
+|-activate|p2b: Calyrex|move: Protect
+|-supereffective|p1a: Solgaleo
+|-supereffective|p2a: Incineroar
+|-damage|p1a: Solgaleo|57/100
+|-damage|p2a: Incineroar|25/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p1a: Solgaleo|Sunsteel Strike|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750794075
+|move|p2a: Incineroar|Fake Out|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p2b: Calyrex|Astral Barrage|p1a: Solgaleo
+|-damage|p1a: Solgaleo|0 fnt
+|faint|p1a: Solgaleo
+|-damage|p2b: Calyrex|91/100|[from] item: Life Orb
+|
+|win|Mentalsyndrome
+|raw|BlznFrnzy's rating: 1329 &rarr; <strong>1315</strong><br />(-14 for losing)
+|raw|Mentalsyndrome's rating: 1434 &rarr; <strong>1448</strong><br />(+14 for winning)
+|l|☆BlznFrnzy
+|player|p1|

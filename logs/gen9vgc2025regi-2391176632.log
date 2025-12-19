@@ -1,0 +1,132 @@
+|j|☆sandstrummie
+|j|☆Saltwater7
+|t:|1750812290
+|gametype|doubles
+|player|p1|sandstrummie|unknown|1486
+|player|p2|Saltwater7|265|1560
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Saltwater7)
+|
+|t:|1750812320
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|sandstrummie has 30 seconds left.
+|
+|t:|1750812347
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2a: Flutter Mane|ability: Protosynthesis
+|-start|p2a: Flutter Mane|protosynthesisspe
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Flutter Mane|Protect|p2a: Flutter Mane
+|-singleturn|p2a: Flutter Mane|Protect
+|move|p1b: Garchomp|Rock Slide|p2a: Flutter Mane|[spread] 
+|-activate|p2a: Flutter Mane|move: Protect
+|-miss|p1b: Garchomp|p2b: Koraidon
+|move|p1a: Tyranitar|Knock Off|p2a: Flutter Mane
+|-activate|p2a: Flutter Mane|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|sandstrummie has 30 seconds left.
+|inactive|Saltwater7 has 30 seconds left.
+|inactive|Saltwater7 has 20 seconds left.
+|
+|t:|1750812382
+|-terastallize|p1b: Garchomp|Fairy
+|move|p2a: Flutter Mane|Moonblast|p1b: Garchomp
+|-damage|p1b: Garchomp|51/100
+|-unboost|p1b: Garchomp|spa|1
+|move|p2b: Koraidon|Flame Charge|p1b: Garchomp
+|-damage|p1b: Garchomp|6/100
+|-boost|p2b: Koraidon|spe|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Garchomp|Dragon Claw|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|42/100
+|move|p1a: Tyranitar|Knock Off|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|21/100
+|-enditem|p2a: Flutter Mane|Focus Sash|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|sandstrummie has 30 seconds left.
+|
+|t:|1750812411
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Flutter Mane|Icy Wind|p1b: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Calyrex|86/100
+|-damage|p1b: Garchomp|0 fnt
+|-unboost|p1a: Calyrex|spe|1
+|faint|p1b: Garchomp
+|move|p2b: Koraidon|Close Combat|p1a: Calyrex
+|-immune|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750812431
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|-end|p2a: Flutter Mane|Protosynthesis
+|turn|4
+|inactive|sandstrummie has 30 seconds left.
+|
+|t:|1750812458
+|move|p2b: Koraidon|Close Combat|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|faint|p1b: Tyranitar
+|-damage|p2b: Koraidon|32/100|[from] item: Life Orb
+|move|p2a: Flutter Mane|Shadow Ball|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Koraidon|26/100|[from] Sandstorm
+|-damage|p2a: Flutter Mane|15/100|[from] Sandstorm
+|upkeep
+|-message|sandstrummie forfeited.
+|
+|win|Saltwater7
+|raw|sandstrummie's rating: 1486 &rarr; <strong>1470</strong><br />(-16 for losing)
+|raw|Saltwater7's rating: 1560 &rarr; <strong>1576</strong><br />(+16 for winning)
+|l|☆sandstrummie
+|player|p1|
+|l|☆Saltwater7
+|player|p2|

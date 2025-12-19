@@ -1,0 +1,105 @@
+|j|☆Kvmr!
+|j|☆Pastor/Sinner
+|t:|1750825232
+|gametype|doubles
+|player|p1|Kvmr!|1|1084
+|player|p2|Pastor/Sinner|170|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Trevenant, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Hariyama, L50, M|
+|poke|p2|Cinccino, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Suicune, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pastor/Sinner)
+|
+|t:|1750825267
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1b: Flutter Mane|ability: Protosynthesis
+|-start|p1b: Flutter Mane|protosynthesisspa
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-unboost|p2b: Scovillain|atk|1
+|turn|1
+|
+|t:|1750825287
+|-terastallize|p1b: Flutter Mane|Fairy
+|-terastallize|p2a: Koraidon|Ghost
+|move|p1a: Incineroar|Fake Out|p2a: Koraidon
+|-immune|p2a: Koraidon
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p1b: Flutter Mane|Dazzling Gleam|p2b: Scovillain|[spread] p2a,p2b
+|-resisted|p2b: Scovillain
+|-damage|p2a: Koraidon|46/100
+|-damage|p2b: Scovillain|47/100
+|move|p2a: Koraidon|Flame Charge|p1b: Flutter Mane
+|-enditem|p1b: Flutter Mane|Focus Sash
+|-damage|p1b: Flutter Mane|1/100
+|-boost|p2a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Pastor/Sinner has 30 seconds left.
+|
+|t:|1750825315
+|move|p1b: Flutter Mane|Protect|p1b: Flutter Mane
+|-singleturn|p1b: Flutter Mane|Protect
+|move|p2b: Scovillain|Overheat|p1b: Flutter Mane
+|-activate|p1b: Flutter Mane|move: Protect
+|move|p2a: Koraidon|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-heal|p2a: Koraidon|100/100|[from] drain|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750825325
+|switch|p1a: Trevenant|Trevenant, L50, M|100/100
+|turn|3
+|
+|t:|1750825339
+|move|p2b: Scovillain|Overheat|p1a: Trevenant
+|-supereffective|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|-unboost|p2b: Scovillain|spa|2
+|faint|p1a: Trevenant
+|move|p2a: Koraidon|Flame Charge|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Kvmr! forfeited.
+|
+|win|Pastor/Sinner
+|raw|Kvmr!'s rating: 1084 &rarr; <strong>1063</strong><br />(-21 for losing)
+|raw|Pastor&#x2f;Sinner's rating: 1113 &rarr; <strong>1136</strong><br />(+23 for winning)
+|l|☆Kvmr!
+|player|p1|

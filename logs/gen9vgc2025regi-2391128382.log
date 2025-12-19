@@ -1,0 +1,166 @@
+|j|☆David5486
+|j|☆Pasquell
+|t:|1750805963
+|gametype|doubles
+|player|p1|David5486|102|1136
+|player|p2|Pasquell|101|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Skarmory, L50, M|
+|poke|p2|Hippowdon, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Volbeat, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Excadrill, L50, F|
+|teampreview|4
+|
+|t:|1750806004
+|start
+|switch|p1a: Lunala|Lunala, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100
+|switch|p2b: Volbeat|Volbeat, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Scream Tail|atk|1
+|-unboost|p2b: Volbeat|atk|1
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750806043
+|move|p1b: Incineroar|Fake Out|p2a: Scream Tail
+|-damage|p2a: Scream Tail|92/100
+|move|p2b: Volbeat|Thunder Wave|p1a: Lunala
+|-status|p1a: Lunala|par
+|cant|p2a: Scream Tail|flinch
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750806069
+|move|p2b: Volbeat|Encore|p1a: Lunala
+|-start|p1a: Lunala|Encore
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldend|move: Trick Room
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|move|p1b: Incineroar|Flare Blitz|p2b: Volbeat
+|-supereffective|p2b: Volbeat
+|-damage|p2b: Volbeat|0 fnt
+|faint|p2b: Volbeat
+|-damage|p1b: Incineroar|73/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1750806087
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|turn|3
+|
+|t:|1750806096
+|move|p2a: Scream Tail|Disable|p1a: Lunala
+|-start|p1a: Lunala|Disable|Trick Room
+|move|p2b: Arcanine|Head Smash|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-damage|p2b: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|faint|p1b: Incineroar
+|cant|p1a: Lunala|Disable|Trick Room
+|
+|-heal|p2a: Scream Tail|100/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|
+|t:|1750806111
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|turn|4
+|
+|t:|1750806138
+|switch|p1a: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|-terastallize|p2b: Arcanine|Flying
+|move|p2a: Scream Tail|Play Rough|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|72/100
+|move|p1b: Urshifu|Surging Strikes|p2b: Arcanine
+|-crit|p2b: Arcanine
+|-damage|p2b: Arcanine|57/100
+|-crit|p2b: Arcanine
+|-damage|p2b: Arcanine|29/100
+|-crit|p2b: Arcanine
+|-damage|p2b: Arcanine|2/100
+|-hitcount|p2b: Arcanine|3
+|move|p2b: Arcanine|Head Smash|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|56/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1750806165
+|move|p1b: Urshifu|Aqua Jet|p2b: Arcanine
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2b: Arcanine
+|move|p2a: Scream Tail|Disable|p1b: Urshifu
+|-start|p1b: Urshifu|Disable|Aqua Jet
+|move|p1a: Ursaluna|Facade|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|-damage|p1a: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1750806178
+|switch|p2a: Skarmory|Skarmory, L50, M|100/100
+|turn|6
+|
+|t:|1750806187
+|move|p1b: Urshifu|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|48/100
+|-unboost|p1b: Urshifu|def|1
+|-unboost|p1b: Urshifu|spd|1
+|-ability|p2a: Skarmory|Weak Armor|boost
+|-unboost|p2a: Skarmory|def|1
+|-boost|p2a: Skarmory|spe|2
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|move|p1a: Ursaluna|Facade|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|13/100
+|-ability|p2a: Skarmory|Weak Armor|boost
+|-unboost|p2a: Skarmory|def|1
+|-boost|p2a: Skarmory|spe|2
+|
+|-heal|p2a: Skarmory|19/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1750806212
+|move|p2a: Skarmory|Brave Bird|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|-damage|p2a: Skarmory|0 fnt|[from] Recoil
+|faint|p2a: Skarmory
+|
+|win|David5486
+|raw|David5486's rating: 1136 &rarr; <strong>1156</strong><br />(+20 for winning)
+|raw|Pasquell's rating: 1059 &rarr; <strong>1044</strong><br />(-15 for losing)
+|l|☆Pasquell
+|player|p2|
+|l|☆David5486
+|player|p1|

@@ -1,0 +1,165 @@
+|j|☆Polipoliwr
+|j|☆RagingJudge
+|t:|1750798677
+|gametype|doubles
+|player|p1|Polipoliwr|169|1504
+|player|p2|RagingJudge|2|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Tornadus, L50, M|
+|poke|p2|Regidrago, L50|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Entei, L50|
+|teampreview|4
+|
+|t:|1750798720
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2b: Tornadus|Tornadus, L50, M|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|1
+|
+|t:|1750798730
+|move|p1a: Smeargle|Fake Out|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|99/100
+|move|p2b: Tornadus|Taunt|p1a: Smeargle
+|-start|p1a: Smeargle|move: Taunt
+|cant|p2a: Zamazenta|flinch
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|atk|1
+|upkeep
+|turn|2
+|
+|t:|1750798747
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Tornadus|Taunt|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p2a: Zamazenta|Imprison|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Imprison
+|
+|upkeep
+|turn|3
+|
+|t:|1750798774
+|move|p2b: Tornadus|Tailwind|p2b: Tornadus
+|-sidestart|p2: RagingJudge|move: Tailwind
+|move|p2a: Zamazenta|Heavy Slam|p1a: Calyrex
+|-damage|p1a: Calyrex|40/100
+|move|p1a: Calyrex|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|55/100
+|-damage|p1a: Calyrex|30/100|[from] item: Life Orb
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Tornadus
+|-damage|p2b: Tornadus|56/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750798792
+|switch|p1a: Magmar|Magmar, L50, F|100/100
+|move|p2a: Zamazenta|Heavy Slam|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|78/100
+|move|p2b: Tornadus|Bleakwind Storm|p1b: Zamazenta|[spread] p1b
+|-miss|p2b: Tornadus|p1a: Magmar
+|-damage|p1b: Zamazenta|79/100
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Tornadus
+|-damage|p2b: Tornadus|10/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750798827
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|30/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|52/100
+|move|p1b: Zamazenta|Behemoth Bash|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|87/100
+|
+|-heal|p2b: Terapagos|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750798853
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2a: Zamazenta|Heavy Slam|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|-heal|p2b: Terapagos|99/100|[from] item: Leftovers
+|-sideend|p2: RagingJudge|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1750798868
+|-terastallize|p2b: Terapagos|Stellar
+|detailschange|p2b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2b: Terapagos|99/100|[silent]
+|move|p1a: Calyrex|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100
+|-damage|p1a: Calyrex|20/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|28/100
+|move|p1b: Zamazenta|Behemoth Bash|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|move|p2b: Terapagos|Tera Starstorm|p1b: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1a: Calyrex
+|faint|p1b: Zamazenta
+|
+|-heal|p2b: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|-message|Polipoliwr forfeited.
+|
+|win|RagingJudge
+|raw|Polipoliwr's rating: 1504 &rarr; <strong>1484</strong><br />(-20 for losing)
+|raw|RagingJudge's rating: 1501 &rarr; <strong>1521</strong><br />(+20 for winning)
+|l|☆Polipoliwr
+|player|p1|
+|l|☆RagingJudge
+|player|p2|

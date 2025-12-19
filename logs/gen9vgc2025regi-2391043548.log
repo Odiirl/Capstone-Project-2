@@ -1,0 +1,206 @@
+|j|☆gab_pv
+|j|☆hhhh1616
+|t:|1750796054
+|gametype|doubles
+|player|p1|gab_pv|265|1079
+|player|p2|hhhh1616|101|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tornadus-Therian, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gab_pv)
+|
+|t:|1750796088
+|start
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Cresselia|Cresselia, L50, F|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Cresselia|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1750796113
+|move|p1b: Incineroar|Fake Out|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|96/100
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|cant|p2a: Tyranitar|flinch
+|move|p2b: Cresselia|Trick Room|p2b: Cresselia
+|-fieldstart|move: Trick Room|[of] p2b: Cresselia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Cresselia|94/100|[from] Sandstorm
+|-damage|p1a: Terapagos|94/100|[from] Sandstorm
+|-heal|p1a: Terapagos|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750796136
+|move|p2b: Cresselia|Helping Hand|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Helping Hand|[of] p2b: Cresselia
+|move|p2a: Tyranitar|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2b: Cresselia|[from] ability: Levitate
+|-activate|p1a: Terapagos|ability: Tera Shell
+|-resisted|p1a: Terapagos
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Terapagos|92/100
+|-damage|p1b: Incineroar|62/100
+|move|p1b: Incineroar|Taunt|p2b: Cresselia
+|-start|p2b: Cresselia|move: Taunt
+|-enditem|p2b: Cresselia|Mental Herb
+|-end|p2b: Cresselia|move: Taunt
+|move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+|-boost|p1a: Terapagos|spa|1
+|-boost|p1a: Terapagos|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Cresselia|88/100|[from] Sandstorm
+|-damage|p1a: Terapagos|85/100|[from] Sandstorm
+|-heal|p1a: Terapagos|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|hhhh1616 has 30 seconds left.
+|
+|t:|1750796163
+|move|p2b: Cresselia|Helping Hand|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Helping Hand|[of] p2b: Cresselia
+|move|p2a: Tyranitar|Knock Off|p1a: Terapagos
+|-damage|p1a: Terapagos|55/100
+|-enditem|p1a: Terapagos|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1b: Incineroar|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Terapagos|Tera Starstorm|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Cresselia|82/100|[from] Sandstorm
+|-damage|p1a: Terapagos|49/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|hhhh1616 has 30 seconds left.
+|
+|t:|1750796190
+|move|p1a: Terapagos|Protect|p1a: Terapagos
+|-singleturn|p1a: Terapagos|Protect
+|move|p2a: Tyranitar|Earthquake|p1a: Terapagos|[spread] p1b
+|-activate|p1a: Terapagos|move: Protect
+|-immune|p2b: Cresselia|[from] ability: Levitate
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|36/100
+|move|p2b: Cresselia|Lunar Blessing|p2b: Cresselia|[spread] p2a,p2b
+|-heal|p2a: Tyranitar|80/100
+|-heal|p2b: Cresselia|100/100
+|move|p1b: Incineroar|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|
+|t:|1750796205
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Cresselia|94/100|[from] Sandstorm
+|-damage|p1a: Terapagos|43/100|[from] Sandstorm
+|-damage|p1b: Flutter Mane|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1750796224
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|57/100|[silent]
+|-ability|p1a: Terapagos|Teraform Zero
+|-weather|none
+|move|p2b: Cresselia|Helping Hand|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Helping Hand|[of] p2b: Cresselia
+|move|p2a: Tyranitar|Knock Off|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|-enditem|p1b: Flutter Mane|Focus Sash|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Terapagos|Tera Starstorm|p2b: Cresselia|[spread] p2a,p2b
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Cresselia|58/100
+|faint|p2a: Tyranitar
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750796248
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|6
+|
+|t:|1750796260
+|move|p2b: Cresselia|Helping Hand|p2a: Tornadus
+|-singleturn|p2a: Tornadus|Helping Hand|[of] p2b: Cresselia
+|move|p1b: Koraidon|Close Combat|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2a: Tornadus
+|-damage|p1b: Koraidon|91/100|[from] item: Life Orb
+|move|p1a: Terapagos|Tera Starstorm|p2b: Cresselia
+|-damage|p2b: Cresselia|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750796275
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Terapagos|atk|1
+|-unboost|p1b: Koraidon|atk|1
+|turn|7
+|
+|t:|1750796297
+|-terastallize|p2a: Incineroar|Water
+|move|p2b: Cresselia|Helping Hand|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Helping Hand|[of] p2b: Cresselia
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Terapagos|Tera Starstorm|p2b: Cresselia|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Cresselia|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Cresselia
+|
+|win|gab_pv
+|raw|gab_pv's rating: 1079 &rarr; <strong>1108</strong><br />(+29 for winning)
+|raw|hhhh1616's rating: 1086 &rarr; <strong>1063</strong><br />(-23 for losing)
+|l|☆hhhh1616
+|player|p2|
+|l|☆gab_pv
+|player|p1|

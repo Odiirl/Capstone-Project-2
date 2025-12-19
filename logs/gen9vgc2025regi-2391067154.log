@@ -1,0 +1,187 @@
+|j|☆BIDOOF FINAL BOSS
+|j|☆bunearyboicherry
+|t:|1750798660
+|gametype|doubles
+|player|p1|BIDOOF FINAL BOSS|bellelba|1130
+|player|p2|bunearyboicherry|preschoolerf-gen6|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gastrodon-East, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BIDOOF FINAL BOSS)
+BIDOOF FINAL BOSS has agreed to open team sheets.
+|
+|t:|1750798686
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1750798708
+|move|p2b: Meowscarada|Protect|p2b: Meowscarada
+|-singleturn|p2b: Meowscarada|Protect
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|move|p1b: Iron Hands|Drain Punch|p2b: Meowscarada
+|-activate|p2b: Meowscarada|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750798725
+|-terastallize|p2a: Primarina|Ground
+|move|p1a: Miraidon|Electro Drift|p2a: Primarina
+|-immune|p2a: Primarina
+|move|p2b: Meowscarada|Grass Pledge|p1a: Miraidon
+|-waiting|p2b: Meowscarada|p2a: Primarina
+|move|p2a: Primarina|Water Pledge|p1a: Miraidon|[from] move: Grass Pledge
+|-combine
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|48/100
+|-sidestart|p1: BIDOOF FINAL BOSS|Grass Pledge
+|-damage|p2a: Primarina|91/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Drain Punch|p2b: Meowscarada
+|-supereffective|p2b: Meowscarada
+|-enditem|p2b: Meowscarada|Focus Sash
+|-damage|p2b: Meowscarada|1/100
+|
+|upkeep
+|turn|3
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|
+|t:|1750798757
+|switch|p1a: Melancia|Ho-Oh, L50|100/100
+|move|p2b: Meowscarada|Knock Off|p1b: Iron Hands
+|-resisted|p1b: Iron Hands
+|-damage|p1b: Iron Hands|84/100
+|-enditem|p1b: Iron Hands|Assault Vest|[from] move: Knock Off|[of] p2b: Meowscarada
+|move|p2a: Primarina|Dazzling Gleam|p1b: Iron Hands|[spread] p1a,p1b
+|-resisted|p1a: Melancia
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Melancia|89/100
+|-damage|p1b: Iron Hands|19/100
+|-damage|p2a: Primarina|81/100|[from] item: Life Orb
+|move|p1b: Iron Hands|Heavy Slam|p2a: Primarina
+|-damage|p2a: Primarina|12/100
+|
+|upkeep
+|turn|4
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|
+|t:|1750798792
+|move|p2b: Meowscarada|Knock Off|p1a: Melancia
+|-damage|p1a: Melancia|48/100
+|-enditem|p1a: Melancia|Clear Amulet|[from] move: Knock Off|[of] p2b: Meowscarada
+|move|p2a: Primarina|Dazzling Gleam|p1a: Melancia|[spread] p1a,p1b
+|-resisted|p1a: Melancia
+|-supereffective|p1b: Iron Hands
+|-damage|p1a: Melancia|35/100
+|-damage|p1b: Iron Hands|0 fnt
+|faint|p1b: Iron Hands
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|-damage|p2a: Primarina|2/100|[from] item: Life Orb
+|move|p1a: Melancia|Sacred Fire|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1750798807
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100
+|turn|5
+|
+|t:|1750798827
+|switch|p1a: Miraidon|Miraidon, L50|48/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|move|p2b: Meowscarada|Flower Trick|p1b: Urshifu
+|-crit|p1b: Urshifu
+|-damage|p1b: Urshifu|25/100
+|move|p2a: Lunala|Dazzling Gleam|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Miraidon|13/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|
+|-sideend|p1: BIDOOF FINAL BOSS|Grass Pledge
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|inactive|BIDOOF FINAL BOSS has 20 seconds left.
+|inactive|BIDOOF FINAL BOSS has 15 seconds left.
+|inactive|BIDOOF FINAL BOSS has 10 seconds left.
+|inactive|BIDOOF FINAL BOSS has 5 seconds left.
+|
+|t:|1750798882
+|switch|p1b: Melancia|Ho-Oh, L50|69/100
+|turn|6
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|inactive|BIDOOF FINAL BOSS has 20 seconds left.
+|inactive|BIDOOF FINAL BOSS has 15 seconds left.
+|inactive|BIDOOF FINAL BOSS has 10 seconds left.
+|inactive|BIDOOF FINAL BOSS has 5 seconds left.
+|
+|t:|1750798937
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Miraidon|Electro Drift|p2b: Indeedee
+|-damage|p2b: Indeedee|51/100
+|move|p2a: Lunala|Expanding Force|p1b: Melancia|[spread] p1a,p1b
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Melancia|31/100
+|faint|p1a: Miraidon
+|move|p1b: Melancia|Sacred Fire|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|upkeep
+|c|☆bunearyboicherry|Domain expansion
+|
+|t:|1750798949
+|switch|p2b: Meowscarada|Meowscarada, L50, F|1/100
+|turn|7
+|inactive|BIDOOF FINAL BOSS has 30 seconds left.
+|inactive|BIDOOF FINAL BOSS has 20 seconds left.
+|inactive|BIDOOF FINAL BOSS has 15 seconds left.
+|inactive|BIDOOF FINAL BOSS has 10 seconds left.
+|inactive|BIDOOF FINAL BOSS has 5 seconds left.
+|
+|t:|1750799004
+|move|p2b: Meowscarada|Flower Trick|p1b: Melancia
+|-resisted|p1b: Melancia
+|-crit|p1b: Melancia
+|-damage|p1b: Melancia|14/100
+|move|p2a: Lunala|Expanding Force|p1b: Melancia
+|-damage|p1b: Melancia|0 fnt
+|faint|p1b: Melancia
+|
+|win|bunearyboicherry
+|raw|BIDOOF FINAL BOSS's rating: 1130 &rarr; <strong>1112</strong><br />(-18 for losing)
+|raw|bunearyboicherry's rating: 1226 &rarr; <strong>1244</strong><br />(+18 for winning)

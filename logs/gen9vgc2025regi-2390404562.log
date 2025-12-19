@@ -1,0 +1,159 @@
+|j|☆Artibonite
+|j|☆Durango420
+|t:|1750709540
+|gametype|doubles
+|player|p1|Artibonite|firebreather|1473
+|player|p2|Durango420|giovanni|1518
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Dialga, L50|
+|poke|p1|Landorus, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Durango420)
+|inactive|Durango420 has 60 seconds left.
+|
+|t:|1750709572
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Dialga|Dialga, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Dialga|atk|1
+|turn|1
+|
+|t:|1750709593
+|move|p2b: Incineroar|Fake Out|p1b: Dialga
+|-resisted|p1b: Dialga
+|-damage|p1b: Dialga|98/100
+|move|p2a: Whimsicott|Tickle|p1b: Dialga
+|-unboost|p1b: Dialga|atk|1
+|-unboost|p1b: Dialga|def|1
+|move|p1a: Ursaluna|Headlong Rush|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|32/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|-damage|p1a: Ursaluna|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p1b: Dialga|flinch
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1750709603
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2a: Whimsicott|Tickle|p1a: Kyogre
+|-unboost|p1a: Kyogre|atk|1
+|-unboost|p1a: Kyogre|def|1
+|move|p2b: Incineroar|Parting Shot|p1b: Dialga
+|-unboost|p1b: Dialga|atk|1
+|-unboost|p1b: Dialga|spa|1
+|
+|t:|1750709606
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Parting Shot
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Dialga|Trick Room|p1b: Dialga
+|-fieldstart|move: Trick Room|[of] p1b: Dialga
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750709616
+|-terastallize|p2b: Calyrex|Water
+|move|p2a: Whimsicott|Light Screen|p2a: Whimsicott
+|-sidestart|p2: Durango420|move: Light Screen
+|move|p2b: Calyrex|Glacial Lance|p1b: Dialga|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|56/100
+|-damage|p1b: Dialga|44/100
+|move|p1b: Dialga|Flash Cannon|p2b: Calyrex
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|95/100
+|move|p1a: Kyogre|Water Spout|p2b: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-resisted|p2b: Calyrex
+|-damage|p2a: Whimsicott|73/100
+|-damage|p2b: Calyrex|81/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750709628
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p2b: Calyrex|Glacial Lance|p1a: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|7/100
+|-damage|p1b: Dialga|0 fnt
+|faint|p1b: Dialga
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1a: Kyogre|Thunder|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750709631
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1a: Kyogre|32/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|5
+|
+|t:|1750709651
+|switch|p1a: Ursaluna|Ursaluna, L50, F|84/100 brn
+|-terastallize|p1b: Sinistcha|Water
+|move|p2b: Calyrex|Glacial Lance|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-resisted|p1b: Sinistcha
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Sinistcha|59/100
+|faint|p1a: Ursaluna
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Calyrex|[spread] p2a
+|-miss|p1b: Sinistcha|p2b: Calyrex
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|97/100
+|-heal|p1b: Sinistcha|61/100|[from] drain|[of] p2a: Miraidon
+|move|p2a: Miraidon|Volt Switch|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|t:|1750709654
+|switch|p2a: Incineroar|Incineroar, L50, M|32/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Artibonite forfeited.
+|
+|win|Durango420
+|raw|Artibonite's rating: 1473 &rarr; <strong>1456</strong><br />(-17 for losing)
+|raw|Durango420's rating: 1518 &rarr; <strong>1535</strong><br />(+17 for winning)
+|l|☆Artibonite
+|player|p1|
+|l|☆Durango420
+|player|p2|

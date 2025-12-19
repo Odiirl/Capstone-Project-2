@@ -1,0 +1,232 @@
+|j|☆rmnew72
+|j|☆ryanplaytv
+|t:|1750804374
+|gametype|doubles
+|player|p1|rmnew72|102|1481
+|player|p2|ryanplaytv|hiker-gen4|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mimikyu, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|
+|t:|1750804414
+|start
+|switch|p1a: Mimikyu|Mimikyu, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Terapagos|Terapagos, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|100/100|[silent]
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1750804429
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1a: Mimikyu|Taunt|p2b: Farigiraf
+|-start|p2b: Farigiraf|move: Taunt
+|move|p1b: Incineroar|Snarl|p2a: Terapagos|[spread] p2a,p2b
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-supereffective|p2b: Farigiraf
+|-damage|p2a: Terapagos|96/100
+|-damage|p2b: Farigiraf|73/100
+|-unboost|p2a: Terapagos|spa|1
+|-unboost|p2b: Farigiraf|spa|1
+|move|p2b: Farigiraf|Foul Play|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L50, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|2
+|
+|t:|1750804452
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Incineroar|Snarl|p2a: Terapagos|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|97/100
+|-unboost|p2b: Iron Hands|spa|1
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|3
+|
+|t:|1750804470
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|move|p2b: Iron Hands|Drain Punch|p1b: Calyrex
+|-damage|p1b: Calyrex|75/100
+|-heal|p2b: Iron Hands|100/100|[from] drain|[of] p1b: Calyrex
+|move|p1a: Mimikyu|Will-O-Wisp|p2b: Iron Hands
+|-status|p2b: Iron Hands|brn
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|-damage|p2b: Iron Hands|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750804485
+|-terastallize|p2a: Terapagos|Stellar
+|detailschange|p2a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p2a: Terapagos|98/100|[silent]
+|move|p1a: Mimikyu|Shadow Sneak|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|53/100
+|-enditem|p1b: Calyrex|Weakness Policy
+|-boost|p1b: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p2b: Iron Hands|Wild Charge|p1a: Mimikyu
+|-damage|p1a: Mimikyu|56/100
+|-damage|p2b: Iron Hands|89/100 brn|[from] Recoil
+|move|p1b: Calyrex|Glacial Lance|p2a: Terapagos|[spread] p2a,p2b
+|-damage|p2a: Terapagos|27/100
+|-damage|p2b: Iron Hands|10/100 brn
+|move|p2a: Terapagos|Tera Starstorm|p1b: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Mimikyu|0 fnt
+|-damage|p1b: Calyrex|17/100
+|faint|p1a: Mimikyu
+|
+|-damage|p2b: Iron Hands|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1750804491
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Iron Hands|atk|1
+|turn|5
+|
+|t:|1750804508
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p2b: Iron Hands|Drain Punch|p1a: Kyogre
+|-damage|p1a: Kyogre|89/100
+|-heal|p2b: Iron Hands|9/100 brn|[from] drain|[of] p1a: Kyogre
+|move|p1b: Calyrex|Glacial Lance|p2b: Iron Hands|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|95/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750804510
+|switch|p2b: Farigiraf|Farigiraf, L50, F|73/100
+|turn|6
+|
+|t:|1750804531
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Farigiraf|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|move|p1a: Kyogre|Origin Pulse|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyogre|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750804538
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Terapagos|Electric Seed
+|-boost|p2a: Terapagos|def|1|[from] item: Electric Seed
+|turn|7
+|
+|t:|1750804546
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|move|p2a: Terapagos|Tera Starstorm|p1a: Kyogre|[spread] p1b
+|-activate|p1a: Kyogre|move: Protect
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750804555
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Terapagos|atk|1
+|-unboost|p2b: Miraidon|atk|1
+|turn|8
+|
+|t:|1750804573
+|-terastallize|p1a: Kyogre|Grass
+|move|p2a: Terapagos|Protect|p2a: Terapagos
+|-singleturn|p2a: Terapagos|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Terapagos
+|-activate|p2a: Terapagos|move: Protect
+|move|p2b: Miraidon|Electro Drift|p1b: Incineroar
+|-damage|p1b: Incineroar|4/100
+|move|p1a: Kyogre|Origin Pulse|p2b: Miraidon|[spread] p2b
+|-activate|p2a: Terapagos|move: Protect
+|-resisted|p2b: Miraidon
+|-crit|p2b: Miraidon
+|-damage|p2b: Miraidon|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750804589
+|move|p2b: Miraidon|Electro Drift|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|47/100
+|move|p2a: Terapagos|Tera Starstorm|p1a: Kyogre|[spread] p1a,p1b
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Kyogre
+|faint|p1b: Incineroar
+|
+|win|ryanplaytv
+|raw|rmnew72's rating: 1481 &rarr; <strong>1459</strong><br />(-22 for losing)
+|raw|ryanplaytv's rating: 1454 &rarr; <strong>1476</strong><br />(+22 for winning)
+|l|☆ryanplaytv
+|player|p2|
+|l|☆rmnew72
+|player|p1|

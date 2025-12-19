@@ -1,0 +1,197 @@
+|j|☆p94s
+|j|☆ceron890
+|t:|1750773454
+|gametype|doubles
+|player|p1|p94s|1|1304
+|player|p2|ceron890|will|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Ogerpon-Cornerstone, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|
+|t:|1750773478
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: whitey|Calyrex-Ice, L50|100/100
+|switch|p2b: napoleon|Smeargle, L50, M|100/100
+|-ability|p2a: whitey|As One
+|-ability|p2a: whitey|Unnerve
+|turn|1
+|
+|t:|1750773503
+|move|p1b: Farigiraf|Helping Hand|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: napoleon|Follow Me|p2b: napoleon
+|-singleturn|p2b: napoleon|move: Follow Me
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: napoleon|[anim] Ivy Cudgel Rock
+|-crit|p2b: napoleon
+|-enditem|p2b: napoleon|Focus Sash
+|-damage|p2b: napoleon|1/100
+|move|p2a: whitey|Trick Room|p2a: whitey
+|-fieldstart|move: Trick Room|[of] p2a: whitey
+|
+|upkeep
+|turn|2
+|
+|t:|1750773530
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: whitey|Glacial Lance|p1b: Farigiraf|[spread] p1b
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p1b: Farigiraf|56/100
+|move|p2b: napoleon|Spore|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|3
+|
+|t:|1750773547
+|move|p2b: napoleon|Follow Me|p2b: napoleon
+|-singleturn|p2b: napoleon|move: Follow Me
+|move|p1a: Ogerpon|Ivy Cudgel|p2b: napoleon|[anim] Ivy Cudgel Rock
+|-damage|p2b: napoleon|0 fnt
+|faint|p2b: napoleon
+|move|p1b: Farigiraf|Psychic|p2a: whitey
+|-resisted|p2a: whitey
+|-damage|p2a: whitey|88/100
+|move|p2a: whitey|Trick Room|p2a: whitey
+|-fieldstart|move: Trick Room|[of] p2a: whitey
+|
+|upkeep
+|
+|t:|1750773559
+|switch|p2b: oven|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: oven
+|turn|4
+|
+|t:|1750773580
+|switch|p1b: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|-terastallize|p2b: oven|Fire
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, L50, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|move|p2b: oven|Eruption|p1b: Kyogre|[spread] p1a,p1b
+|-resisted|p1a: Ogerpon
+|-resisted|p1b: Kyogre
+|-damage|p1a: Ogerpon|73/100
+|-damage|p1b: Kyogre|83/100
+|move|p2a: whitey|Glacial Lance|p1a: Ogerpon|[spread] p1a,p1b
+|-resisted|p1b: Kyogre
+|-damage|p1a: Ogerpon|20/100
+|-damage|p1b: Kyogre|49/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: whitey|[anim] Ivy Cudgel Rock
+|-supereffective|p2a: whitey
+|-damage|p2a: whitey|0 fnt
+|faint|p2a: whitey
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750773600
+|switch|p2a: perona|Hatterene, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1750773617
+|switch|p1b: Farigiraf|Farigiraf, L50, F|56/100
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2b: oven|Eruption|p1b: Farigiraf|[spread] p1b
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p1b: Farigiraf|11/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|35/100|[from] item: Sitrus Berry
+|move|p2a: perona|Psychic|p1b: Farigiraf
+|-resisted|p1b: Farigiraf
+|-damage|p1b: Farigiraf|4/100
+|-damage|p2a: perona|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750773647
+|move|p2b: oven|Eruption|p1a: Ogerpon|[spread] p1a,p1b
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Ogerpon
+|detailschange|p1: Ogerpon|Ogerpon-Cornerstone, L50, F|[silent]
+|faint|p1b: Farigiraf
+|move|p2a: perona|Dazzling Gleam|p1: Ogerpon|[notarget]
+|-fail|p2a: perona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750773655
+|switch|p1b: Kyogre|Kyogre, L50|49/100
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|7
+|
+|t:|1750773670
+|move|p2b: oven|Eruption|p1a: Calyrex|[spread] p1a,p1b
+|-supereffective|p1a: Calyrex
+|-resisted|p1b: Kyogre
+|-damage|p1a: Calyrex|38/100
+|-damage|p1b: Kyogre|31/100
+|move|p2a: perona|Psychic|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|-damage|p2a: perona|81/100|[from] item: Life Orb
+|move|p1a: Calyrex|Glacial Lance|p2b: oven|[spread] p2a,p2b
+|-resisted|p2b: oven
+|-damage|p2a: perona|16/100
+|-damage|p2b: oven|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Calyrex|44/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1750773685
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: oven|Eruption|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: perona|Trick Room|p2a: perona
+|-fieldstart|move: Trick Room|[of] p2a: perona
+|
+|-weather|none
+|-heal|p1a: Calyrex|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|-message|p94s forfeited.
+|
+|win|ceron890
+|raw|p94s's rating: 1304 &rarr; <strong>1280</strong><br />(-24 for losing)
+|raw|ceron890's rating: 1237 &rarr; <strong>1267</strong><br />(+30 for winning)
+|l|☆p94s
+|player|p1|
+|c|☆ceron890|gg
+|l|☆ceron890
+|player|p2|

@@ -1,0 +1,171 @@
+|j|☆TimBomb
+|j|☆stepintheshadow
+|t:|1750747337
+|gametype|doubles
+|player|p1|TimBomb|palmer|1108
+|player|p2|stepintheshadow|veteran|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Spectrier, L50|
+|poke|p1|Glastrier, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Palkia-Origin, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Zacian-*, L50|
+|teampreview|4
+|
+|t:|1750747365
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: natcho|Koraidon, L50|100/100
+|switch|p2b: cottoncandy|Jumpluff, L50, F, shiny|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: natcho
+|-activate|p2a: natcho|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750747377
+|-terastallize|p2a: natcho|Stellar
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: cottoncandy|Tailwind|p2b: cottoncandy
+|-sidestart|p2: stepintheshadow|move: Tailwind
+|move|p2a: natcho|Close Combat|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|21/100
+|-unboost|p2a: natcho|def|1
+|-unboost|p2a: natcho|spd|1
+|-damage|p2a: natcho|90/100|[from] item: Life Orb
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750747408
+|move|p2a: natcho|Protect|p2a: natcho
+|-singleturn|p2a: natcho|Protect
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p1a: Calyrex|Glacial Lance|p2b: cottoncandy|[spread] p2b
+|-activate|p2a: natcho|move: Protect
+|-supereffective|p2b: cottoncandy
+|-damage|p2b: cottoncandy|0 fnt
+|faint|p2b: cottoncandy
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750747418
+|switch|p2b: fork|Sableye, L50, M|100/100
+|turn|3
+|
+|t:|1750747430
+|move|p2b: fork|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|97/100
+|cant|p1a: Calyrex|flinch
+|move|p1b: Volcarona|Overheat|p2a: natcho
+|-resisted|p2a: natcho
+|-damage|p2a: natcho|34/100
+|-unboost|p1b: Volcarona|spa|2
+|move|p2a: natcho|Flare Blitz|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: natcho|0 fnt|[from] Recoil
+|faint|p2a: natcho
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750747450
+|switch|p1a: Glastrier|Glastrier, L50|100/100
+|switch|p2a: cornflex|Flutter Mane, L50|100/100
+|-activate|p2a: cornflex|ability: Protosynthesis
+|-start|p2a: cornflex|protosynthesisspe
+|turn|4
+|
+|t:|1750747462
+|move|p2a: cornflex|Protect|p2a: cornflex
+|-singleturn|p2a: cornflex|Protect
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: fork|Encore|p1b: Volcarona
+|-start|p1b: Volcarona|Encore
+|move|p1a: Glastrier|Heavy Slam|p2a: cornflex
+|-activate|p2a: cornflex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: stepintheshadow|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750747487
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: fork|Disable|p1b: Volcarona
+|-start|p1b: Volcarona|Disable|Rage Powder
+|move|p1a: Glastrier|Heavy Slam|p2a: cornflex
+|-supereffective|p2a: cornflex
+|-enditem|p2a: cornflex|Focus Sash
+|-damage|p2a: cornflex|1/100
+|move|p2a: cornflex|Dazzling Gleam|p1a: Glastrier|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Glastrier|83/100
+|-damage|p1b: Volcarona|7/100
+|
+|-weather|none
+|-end|p2a: cornflex|Protosynthesis
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750747516
+|move|p2b: fork|Disable|p1a: Glastrier
+|-start|p1a: Glastrier|Disable|Heavy Slam
+|move|p2a: cornflex|Dazzling Gleam|p1a: Glastrier|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Glastrier|64/100
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p1a: Glastrier|Bulldoze|p2b: fork|[spread] p2a,p2b
+|-damage|p2a: cornflex|0 fnt
+|-damage|p2b: fork|83/100
+|-unboost|p2b: fork|spe|1
+|faint|p2a: cornflex
+|-end|p2a: cornflex|Protosynthesis|[silent]
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1750747529
+|switch|p1b: Palkia|Palkia-Origin, L50|100/100
+|-ability|p1b: Palkia|Pressure
+|turn|7
+|-message|stepintheshadow forfeited.
+|
+|win|TimBomb
+|raw|TimBomb's rating: 1108 &rarr; <strong>1132</strong><br />(+24 for winning)
+|raw|stepintheshadow's rating: 1096 &rarr; <strong>1072</strong><br />(-24 for losing)
+|l|☆stepintheshadow
+|player|p2|
+|l|☆TimBomb
+|player|p1|

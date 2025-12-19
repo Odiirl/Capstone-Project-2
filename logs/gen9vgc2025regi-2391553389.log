@@ -1,0 +1,212 @@
+|j|☆DaniMedOli7
+|j|☆TimeLimitVGC
+|t:|1750869422
+|gametype|doubles
+|player|p1|DaniMedOli7|169|1119
+|player|p2|TimeLimitVGC|102|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Chien-Pao, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Brute Bonnet, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Ho-Oh, L50|
+|teampreview|4
+|
+|t:|1750869446
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Chien-Pao|Chien-Pao, L50|100/100
+|switch|p2a: Goatdeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: KFC|Ho-Oh, L50, shiny|100/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Goatdeedee
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TimeLimitVGC)
+|
+|t:|1750869469
+|-terastallize|p1a: Zamazenta|Water
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p1a: Zamazenta|Body Press|p2a: Goatdeedee
+|-damage|p2a: Goatdeedee|30/100
+|move|p2b: KFC|Sacred Fire|p1b: Chien-Pao
+|-activate|p1b: Chien-Pao|move: Protect
+|move|p2a: Goatdeedee|Trick Room|p2a: Goatdeedee
+|-fieldstart|move: Trick Room|[of] p2a: Goatdeedee
+|
+|upkeep
+|turn|2
+|inactive|TimeLimitVGC has 30 seconds left.
+|
+|t:|1750869500
+|switch|p2a: Goatllade|Gallade, L50, M, shiny|100/100
+|switch|p2b: GroundGoat|Ursaluna, L50, F|100/100
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Chien-Pao|Sucker Punch||[still]
+|-fail|p1b: Chien-Pao
+|
+|-status|p2b: GroundGoat|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1750869524
+|switch|p2b: Goatdeedee|Indeedee-F, L50, F|30/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Goatdeedee
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, tera:Water|100/100
+|move|p1b: Chien-Pao|Protect|p1b: Chien-Pao
+|-singleturn|p1b: Chien-Pao|Protect
+|move|p2a: Goatllade|Psycho Cut|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750869541
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: Goatdeedee|Follow Me|p2b: Goatdeedee
+|-singleturn|p2b: Goatdeedee|move: Follow Me
+|move|p2a: Goatllade|Sacred Sword|p1b: Chien-Pao
+|-supereffective|p1b: Chien-Pao
+|-enditem|p1b: Chien-Pao|Focus Sash
+|-damage|p1b: Chien-Pao|1/100
+|move|p1b: Chien-Pao|Crunch|p2b: Goatdeedee
+|-supereffective|p2b: Goatdeedee
+|-damage|p2b: Goatdeedee|0 fnt
+|faint|p2b: Goatdeedee
+|
+|upkeep
+|
+|t:|1750869553
+|switch|p2b: KFC|Ho-Oh, L50, shiny|100/100
+|turn|5
+|inactive|TimeLimitVGC has 30 seconds left.
+|
+|t:|1750869579
+|switch|p1b: Volcarona|Volcarona, L50, M, shiny|100/100
+|move|p2a: Goatllade|Sacred Sword|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|57/100
+|-status|p2a: Goatllade|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|move|p2b: KFC|Tailwind|p2b: KFC
+|-sidestart|p2: TimeLimitVGC|move: Tailwind
+|move|p1a: Zamazenta|Body Press|p2a: Goatllade
+|-resisted|p2a: Goatllade
+|-damage|p2a: Goatllade|74/100 brn
+|
+|-damage|p2a: Goatllade|68/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|TimeLimitVGC has 30 seconds left.
+|
+|t:|1750869606
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2b: KFC|Brave Bird|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-damage|p2b: KFC|84/100|[from] Recoil
+|move|p2a: Goatllade|Psycho Cut|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|
+|-damage|p2a: Goatllade|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1750869617
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|turn|7
+|
+|t:|1750869627
+|switch|p2b: GroundGoat|Ursaluna, L50, F|100/100 brn
+|move|p1b: Miraidon|Electro Drift|p2b: GroundGoat
+|-immune|p2b: GroundGoat
+|move|p1a: Zamazenta|Heavy Slam|p2a: Goatllade
+|-damage|p2a: Goatllade|0 fnt
+|faint|p2a: Goatllade
+|
+|-damage|p2b: GroundGoat|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1750869638
+|switch|p2a: KFC|Ho-Oh, L50, shiny|100/100
+|turn|8
+|inactive|TimeLimitVGC has 30 seconds left.
+|inactive|TimeLimitVGC has 20 seconds left.
+|inactive|TimeLimitVGC has 15 seconds left.
+|
+|t:|1750869678
+|switch|p1b: Chien-Pao|Chien-Pao, L50|1/100
+|-ability|p1b: Chien-Pao|Sword of Ruin
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: KFC|Brave Bird|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Protect
+|move|p2b: GroundGoat|Headlong Rush|p1b: Chien-Pao
+|-damage|p1b: Chien-Pao|0 fnt
+|-unboost|p2b: GroundGoat|def|1
+|-unboost|p2b: GroundGoat|spd|1
+|faint|p1b: Chien-Pao
+|
+|-damage|p2b: GroundGoat|89/100 brn|[from] brn
+|-sideend|p2: TimeLimitVGC|move: Tailwind
+|upkeep
+|
+|t:|1750869692
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|9
+|
+|t:|1750869704
+|-terastallize|p2a: KFC|Grass
+|move|p2b: GroundGoat|Protect|p2b: GroundGoat
+|-singleturn|p2b: GroundGoat|Protect
+|move|p1b: Miraidon|Electro Drift|p2a: KFC
+|-resisted|p2a: KFC
+|-damage|p2a: KFC|75/100
+|move|p1a: Zamazenta|Body Press|p2b: GroundGoat
+|-activate|p2b: GroundGoat|move: Protect
+|move|p2a: KFC|Tailwind|p2a: KFC
+|-sidestart|p2: TimeLimitVGC|move: Tailwind
+|
+|-damage|p2b: GroundGoat|83/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1750869724
+|move|p1b: Miraidon|Electro Drift|p2a: KFC
+|-resisted|p2a: KFC
+|-damage|p2a: KFC|46/100
+|move|p2a: KFC|Brave Bird|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: KFC|37/100|[from] Recoil
+|move|p2b: GroundGoat|Headlong Rush|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|-unboost|p2b: GroundGoat|def|1
+|-unboost|p2b: GroundGoat|spd|1
+|faint|p1b: Miraidon
+|
+|win|TimeLimitVGC
+|raw|DaniMedOli7's rating: 1119 &rarr; <strong>1097</strong><br />(-22 for losing)
+|raw|TimeLimitVGC's rating: 1156 &rarr; <strong>1178</strong><br />(+22 for winning)

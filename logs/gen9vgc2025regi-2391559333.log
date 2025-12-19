@@ -1,0 +1,153 @@
+|j|☆atoenzo
+|j|☆kenpin
+|t:|1750870059
+|gametype|doubles
+|player|p1|atoenzo|falkner|1116
+|player|p2|kenpin|1|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Vikavolt, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Snorlax, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by atoenzo)
+|
+|t:|1750870073
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Snorlax|Snorlax, L50, M|100/100
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|inactive|kenpin has 30 seconds left.
+|
+|t:|1750870099
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Clefairy|Moonblast|p1a: Calyrex
+|-damage|p1a: Calyrex|86/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Snorlax|[spread] p2a,p2b
+|-damage|p2a: Snorlax|74/100
+|-damage|p2b: Clefairy|15/100
+|move|p2a: Snorlax|Belly Drum|p2a: Snorlax
+|-damage|p2a: Snorlax|24/100
+|-setboost|p2a: Snorlax|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|inactive|kenpin has 30 seconds left.
+|
+|t:|1750870132
+|move|p1b: Indeedee|Helping Hand|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Clefairy|Heal Pulse|p2a: Snorlax
+|-heal|p2a: Snorlax|74/100
+|move|p1a: Calyrex|Glacial Lance|p2a: Snorlax|[spread] p2a,p2b
+|-damage|p2a: Snorlax|52/100
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|move|p2a: Snorlax|Facade|p1a: Calyrex
+|-damage|p1a: Calyrex|12/100
+|
+|upkeep
+|
+|t:|1750870144
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|-heal|p2a: Snorlax|77/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|3
+|
+|t:|1750870163
+|move|p2b: Sinistcha|Protect|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|Protect
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p1b: Indeedee|Charm|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|2
+|move|p2a: Snorlax|Crunch|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1750870182
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Calyrex|[spread] p1a,p1b
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Indeedee|84/100
+|faint|p1a: Calyrex
+|move|p2a: Snorlax|Crunch|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1750870193
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Vikavolt|Vikavolt, L50, F|100/100
+|turn|5
+|inactive|atoenzo has 30 seconds left.
+|
+|t:|1750870225
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Vikavolt|[spread] p1a,p1b
+|-resisted|p1a: Vikavolt
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Vikavolt|85/100
+|-damage|p1b: Ursaluna|46/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Snorlax
+|-damage|p2a: Snorlax|19/100
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|44/100|[from] item: Sitrus Berry
+|move|p2a: Snorlax|Facade|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Vikavolt|Discharge|p2b: Sinistcha|[spread] p2a,p2b
+|-resisted|p2b: Sinistcha
+|-damage|p2a: Snorlax|2/100
+|-damage|p2b: Sinistcha|70/100
+|
+|-heal|p2b: Sinistcha|76/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|kenpin has 30 seconds left.
+|
+|t:|1750870253
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|66/100
+|-heal|p2b: Sinistcha|86/100|[from] drain|[of] p1a: Vikavolt
+|-status|p1a: Vikavolt|brn
+|move|p2a: Snorlax|Facade|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|win|kenpin
+|raw|atoenzo's rating: 1116 &rarr; <strong>1096</strong><br />(-20 for losing)
+|raw|kenpin's rating: 1182 &rarr; <strong>1202</strong><br />(+20 for winning)
+|l|☆atoenzo
+|player|p1|
+|l|☆kenpin
+|player|p2|

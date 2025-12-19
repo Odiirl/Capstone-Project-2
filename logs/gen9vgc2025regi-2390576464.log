@@ -1,0 +1,162 @@
+|j|☆SilverScript
+|j|‽PizzaHungryCat43
+|t:|1750731162
+|gametype|doubles
+|player|p1|SilverScript|102|1099
+|player|p2|PizzaHungryCat43|unknown|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Talonflame, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Golurk, L50|
+|poke|p2|Lapras, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Meowstic, L50, M|
+|teampreview|4
+PizzaHungryCat43 rejected open team sheets.
+|
+|t:|1750731199
+|start
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Golurk|Golurk, L50|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1750731226
+|move|p2a: Meowstic|Skill Swap|p2b: Golurk
+|-activate|p2a: Meowstic|move: Skill Swap|||[of] p2b: Golurk
+|move|p2b: Golurk|Reflect|p2b: Golurk
+|-sidestart|p2: PizzaHungryCat43|Reflect
+|move|p1a: Raging Bolt|Volt Switch|p2a: Meowstic
+|-crit|p2a: Meowstic
+|-damage|p2a: Meowstic|23/100
+|
+|t:|1750731235
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Groudon|Groudon, L50|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p1b: Kingambit|Foul Play|p2b: Golurk
+|-supereffective|p2b: Golurk
+|-damage|p2b: Golurk|39/100
+|-damage|p1b: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2b: Golurk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750731251
+|move|p2a: Meowstic|Protect|p2a: Meowstic
+|-singleturn|p2a: Meowstic|Protect
+|move|p2b: Golurk|Curse|p1a: Groudon
+|-start|p1a: Groudon|Curse|[of] p2b: Golurk
+|-damage|p2b: Golurk|0 fnt
+|faint|p2b: Golurk
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Groudon|Precipice Blades|p2a: Meowstic
+|-activate|p2a: Meowstic|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Groudon|76/100|[from] Curse
+|upkeep
+|
+|t:|1750731263
+|switch|p2b: Lapras|Lapras, L50, M|100/100
+|turn|3
+|
+|t:|1750731280
+|switch|p1a: Raging Bolt|Raging Bolt, L50|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Meowstic|Skill Swap|p2b: Lapras
+|-activate|p2a: Meowstic|move: Skill Swap|||[of] p2b: Lapras
+|move|p2b: Lapras|Sheer Cold|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-ohko
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750731300
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|4
+|
+|t:|1750731322
+|-terastallize|p1a: Koraidon|Electric
+|move|p1a: Koraidon|Wild Charge|p2b: Lapras
+|-supereffective|p2b: Lapras
+|-damage|p2b: Lapras|31/100
+|-damage|p1a: Koraidon|77/100|[from] Recoil
+|move|p2b: Lapras|Sheer Cold|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ohko
+|move|p1b: Kingambit|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|44/100
+|-enditem|p2a: Calyrex|Weakness Policy
+|-boost|p2a: Calyrex|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Calyrex|spa|2|[from] item: Weakness Policy
+|move|p2a: Calyrex|Glacial Lance|p1b: Kingambit
+|-resisted|p1b: Kingambit
+|-damage|p1b: Kingambit|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750731342
+|switch|p1a: Groudon|Groudon, L50|76/100
+|turn|5
+|
+|t:|1750731357
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Kingambit|Sucker Punch|p2b: Lapras
+|-damage|p2b: Lapras|12/100
+|move|p2b: Lapras|Sheer Cold|p1a: Groudon
+|-activate|p1a: Groudon|move: Protect
+|move|p2a: Calyrex|Glacial Lance|p1b: Kingambit|[spread] p1b
+|-activate|p1a: Groudon|move: Protect
+|-resisted|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|none
+|-sideend|p2: PizzaHungryCat43|Reflect
+|upkeep
+|turn|6
+|-message|SilverScript forfeited.
+|
+|win|PizzaHungryCat43
+|raw|SilverScript's rating: 1099 &rarr; <strong>1071</strong><br />(-28 for losing)
+|raw|PizzaHungryCat43's rating: 1050 &rarr; <strong>1087</strong><br />(+37 for winning)
+|l|☆SilverScript
+|player|p1|

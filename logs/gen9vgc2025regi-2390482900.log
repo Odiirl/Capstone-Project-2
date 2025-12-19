@@ -1,0 +1,303 @@
+|j|☆PYS_Max
+|j|☆BlackPearl33
+|t:|1750718672
+|gametype|doubles
+|player|p1|PYS_Max|1|1540
+|player|p2|BlackPearl33|lance|1640
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri-Droopy, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlackPearl33)
+|
+|t:|1750718702
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Landorus|Landorus-Therian, L50, M|100/100
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|switch|p2b: Ho-Oh|Ho-Oh, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|-ability|p1b: Landorus|Intimidate|boost
+|-unboost|p2a: Eternatus|atk|1
+|-unboost|p2b: Ho-Oh|atk|1
+|turn|1
+|
+|t:|1750718722
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1a: Gothitelle|Fake Out|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Protect
+|move|p1b: Landorus|Earth Power|p2a: Eternatus
+|-activate|p2a: Eternatus|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1750718742
+|move|p2a: Eternatus|Toxic Spikes|p1b: Landorus
+|-sidestart|p1: PYS_Max|move: Toxic Spikes
+|move|p2b: Ho-Oh|Sacred Fire|p1b: Landorus
+|-damage|p1b: Landorus|72/100
+|-status|p1b: Landorus|brn
+|move|p1b: Landorus|Earth Power|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|56/100
+|move|p1a: Gothitelle|Psychic|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-crit|p2a: Eternatus
+|-damage|p2a: Eternatus|3/100
+|
+|-damage|p1b: Landorus|66/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|BlackPearl33 has 30 seconds left.
+|
+|t:|1750718767
+|-terastallize|p2a: Eternatus|Dark
+|move|p2a: Eternatus|Recover|p2a: Eternatus
+|-heal|p2a: Eternatus|53/100
+|move|p2b: Ho-Oh|Sacred Fire|p1a: Gothitelle
+|-damage|p1a: Gothitelle|75/100
+|-status|p1a: Gothitelle|brn
+|move|p1b: Landorus|U-turn|p2a: Eternatus
+|-supereffective|p2a: Eternatus
+|-damage|p2a: Eternatus|39/100
+|
+|t:|1750718779
+|switch|p1b: Kyogre|Kyogre, L50|100/100|[from] U-turn
+|-status|p1b: Kyogre|psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|move|p1a: Gothitelle|Psychic|p2b: Ho-Oh
+|-damage|p2b: Ho-Oh|82/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|81/100 brn|[from] item: Leftovers
+|-damage|p1b: Kyogre|88/100 psn|[from] psn
+|-damage|p1a: Gothitelle|75/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|BlackPearl33 has 30 seconds left.
+|
+|t:|1750718805
+|-terastallize|p1b: Kyogre|Water
+|move|p1a: Gothitelle|Helping Hand|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Helping Hand|[of] p1a: Gothitelle
+|move|p2a: Eternatus|Protect|p2a: Eternatus
+|-singleturn|p2a: Eternatus|Protect
+|move|p2b: Ho-Oh|Protect|p2b: Ho-Oh
+|-singleturn|p2b: Ho-Oh|Protect
+|move|p1b: Kyogre|Water Spout|p2b: Ho-Oh|[spread] 
+|-activate|p2a: Eternatus|move: Protect
+|-activate|p2b: Ho-Oh|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|81/100 brn|[from] item: Leftovers
+|-damage|p1b: Kyogre|76/100 psn|[from] psn
+|-damage|p1a: Gothitelle|75/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750718824
+|move|p1a: Gothitelle|Helping Hand|p1b: Kyogre
+|-singleturn|p1b: Kyogre|Helping Hand|[of] p1a: Gothitelle
+|move|p1b: Kyogre|Water Spout|p2b: Ho-Oh|[spread] p2a,p2b
+|-supereffective|p2b: Ho-Oh
+|-damage|p2a: Eternatus|0 fnt
+|-damage|p2b: Ho-Oh|0 fnt
+|faint|p2a: Eternatus
+|faint|p2b: Ho-Oh
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|81/100 brn|[from] item: Leftovers
+|-damage|p1b: Kyogre|64/100 psn|[from] psn
+|-damage|p1a: Gothitelle|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1750718828
+|switch|p2a: Tatsugiri|Tatsugiri-Droopy, L50, F|100/100
+|switch|p2b: Dondozo|Dondozo, L50, M|100/100
+|-activate|p2a: Tatsugiri|ability: Commander|[of] p2b: Dondozo
+|-boost|p2b: Dondozo|atk|2
+|-boost|p2b: Dondozo|spa|2
+|-boost|p2b: Dondozo|spe|2
+|-boost|p2b: Dondozo|def|2
+|-boost|p2b: Dondozo|spd|2
+|turn|6
+|inactive|BlackPearl33 has 30 seconds left.
+|
+|t:|1750718854
+|switch|p1a: Landorus|Landorus-Therian, L50, M|66/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tatsugiri|atk|1
+|-unboost|p2b: Dondozo|atk|1
+|move|p1b: Kyogre|Water Spout|p2a: Tatsugiri|[spread] p2b
+|-miss|p1b: Kyogre|p2a: Tatsugiri
+|-resisted|p2b: Dondozo
+|-damage|p2b: Dondozo|82/100
+|move|p2b: Dondozo|Body Press|p1b: Kyogre
+|-damage|p1b: Kyogre|5/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Dondozo|88/100|[from] item: Leftovers
+|-damage|p1b: Kyogre|0 fnt|[from] psn
+|faint|p1b: Kyogre
+|-damage|p1a: Landorus|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1750718877
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|turn|7
+|
+|t:|1750718887
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Landorus|U-turn|p2b: Dondozo
+|-activate|p2b: Dondozo|move: Protect
+|
+|-weather|none
+|-heal|p2b: Dondozo|94/100|[from] item: Leftovers
+|-damage|p1a: Landorus|54/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1750718904
+|move|p1b: Zamazenta|Iron Defense|p1b: Zamazenta
+|-boost|p1b: Zamazenta|def|2
+|move|p2b: Dondozo|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|43/100
+|move|p1a: Landorus|Sandsear Storm|p2b: Dondozo|[spread] 
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-miss|p1a: Landorus|p2b: Dondozo
+|
+|-heal|p2b: Dondozo|100/100|[from] item: Leftovers
+|-damage|p1a: Landorus|48/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|PYS_Max has 30 seconds left.
+|
+|t:|1750718929
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Dondozo|Body Press|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|move|p1a: Landorus|Sandsear Storm|p2a: Tatsugiri|[spread] p2b
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-damage|p2b: Dondozo|87/100
+|
+|-heal|p2b: Dondozo|93/100|[from] item: Leftovers
+|-damage|p1a: Landorus|42/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1750718945
+|move|p1b: Zamazenta|Body Press|p2b: Dondozo
+|-damage|p2b: Dondozo|82/100
+|move|p1a: Landorus|Sandsear Storm|p2a: Tatsugiri|[spread] p2b
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-damage|p2b: Dondozo|67/100
+|move|p2b: Dondozo|Body Press|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|0 fnt
+|faint|p1b: Zamazenta
+|
+|-heal|p2b: Dondozo|73/100|[from] item: Leftovers
+|-damage|p1a: Landorus|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1750718954
+|switch|p1b: Gothitelle|Gothitelle, L50, F|75/100 brn
+|turn|11
+|
+|t:|1750718959
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p1a: Landorus|Sandsear Storm|p2b: Dondozo|[spread] 
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|79/100|[from] item: Leftovers
+|-heal|p1b: Gothitelle|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|30/100 brn|[from] brn
+|-damage|p1b: Gothitelle|75/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1750718969
+|move|p1b: Gothitelle|Helping Hand|p1a: Landorus
+|-singleturn|p1a: Landorus|Helping Hand|[of] p1b: Gothitelle
+|move|p2b: Dondozo|Heavy Slam|p1b: Gothitelle
+|-damage|p1b: Gothitelle|34/100 brn
+|move|p1a: Landorus|Sandsear Storm|p2b: Dondozo|[spread] p2b
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-damage|p2b: Dondozo|59/100
+|
+|-heal|p2b: Dondozo|65/100|[from] item: Leftovers
+|-heal|p1b: Gothitelle|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|23/100 brn|[from] brn
+|-damage|p1b: Gothitelle|34/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1750718982
+|move|p1b: Gothitelle|Helping Hand|p1a: Landorus
+|-singleturn|p1a: Landorus|Helping Hand|[of] p1b: Gothitelle
+|move|p2b: Dondozo|Protect|p2b: Dondozo
+|-singleturn|p2b: Dondozo|Protect
+|move|p1a: Landorus|Sandsear Storm|p2b: Dondozo|[spread] 
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-activate|p2b: Dondozo|move: Protect
+|
+|-heal|p2b: Dondozo|71/100|[from] item: Leftovers
+|-heal|p1b: Gothitelle|40/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|17/100 brn|[from] brn
+|-damage|p1b: Gothitelle|34/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1750718988
+|move|p1a: Landorus|Sandsear Storm|p2a: Tatsugiri|[spread] p2b
+|-miss|p1a: Landorus|p2a: Tatsugiri
+|-damage|p2b: Dondozo|58/100
+|move|p2b: Dondozo|Heavy Slam|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|
+|-heal|p2b: Dondozo|64/100|[from] item: Leftovers
+|-damage|p1a: Landorus|11/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|PYS_Max forfeited.
+|
+|win|BlackPearl33
+|raw|PYS_Max's rating: 1540 &rarr; <strong>1526</strong><br />(-14 for losing)
+|raw|BlackPearl33's rating: 1640 &rarr; <strong>1654</strong><br />(+14 for winning)
+|l|☆PYS_Max
+|player|p1|
+|l|☆BlackPearl33
+|player|p2|

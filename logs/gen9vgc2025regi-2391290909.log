@@ -1,0 +1,232 @@
+|j|☆pengSlayNooter
+|j|☆yinyangchu
+|t:|1750829568
+|gametype|doubles
+|player|p1|pengSlayNooter|wallace|1387
+|player|p2|yinyangchu|265|1302
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Clefairy, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pengSlayNooter)
+|
+|t:|1750829616
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Terapagos|atk|1
+|turn|1
+|
+|t:|1750829634
+|switch|p2a: Alcremie|Alcremie, L50, F|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Alcremie
+|-damage|p2a: Alcremie|87/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|
+|upkeep
+|turn|2
+|inactive|yinyangchu has 30 seconds left.
+|
+|t:|1750829659
+|move|p1a: Zamazenta|Heavy Slam|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|move|p2b: Terapagos|Calm Mind|p2b: Terapagos
+|-boost|p2b: Terapagos|spa|1
+|-boost|p2b: Terapagos|spd|1
+|move|p1b: Incineroar|Knock Off|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|88/100
+|-enditem|p2b: Terapagos|Leftovers|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750829678
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|3
+|inactive|yinyangchu has 30 seconds left.
+|
+|t:|1750829706
+|-terastallize|p2a: Miraidon|Electric
+|move|p2b: Terapagos|Protect|p2b: Terapagos
+|-singleturn|p2b: Terapagos|Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Zamazenta
+|-damage|p1a: Zamazenta|2/100
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-activate|p2b: Terapagos|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Miraidon
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2a: Miraidon|spa|1
+|
+|t:|1750829721
+|switch|p1b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|4
+|
+|t:|1750829740
+|switch|p2b: Scream Tail|Scream Tail, L50|100/100
+|-enditem|p2b: Scream Tail|Booster Energy
+|-activate|p2b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2b: Scream Tail|protosynthesisspe
+|-terastallize|p1b: Urshifu|Water
+|move|p1b: Urshifu|Surging Strikes|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|70/100
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|38/100
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|11/100
+|-hitcount|p2a: Miraidon|3
+|move|p2a: Miraidon|Electro Drift|p1b: Urshifu
+|-supereffective|p1b: Urshifu
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Zamazenta|Body Press|p2b: Scream Tail
+|-resisted|p2b: Scream Tail
+|-damage|p2b: Scream Tail|83/100
+|
+|upkeep
+|
+|t:|1750829760
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Scream Tail|atk|1
+|turn|5
+|
+|t:|1750829771
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|88/100
+|move|p1b: Incineroar|Fake Out|p2a: Terapagos
+|-damage|p2a: Terapagos|81/100
+|move|p2b: Scream Tail|Psychic|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750829780
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|6
+|
+|t:|1750829798
+|move|p2b: Scream Tail|Encore|p1b: Incineroar
+|-start|p1b: Incineroar|Encore
+|move|p1a: Calyrex|Astral Barrage|p2b: Scream Tail|[spread] p2b
+|-immune|p2a: Terapagos
+|-supereffective|p2b: Scream Tail
+|-damage|p2b: Scream Tail|0 fnt
+|faint|p2b: Scream Tail
+|-end|p2b: Scream Tail|Protosynthesis|[silent]
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|91/100|[from] item: Life Orb
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|move|p1b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1750829806
+|switch|p2b: Miraidon|Miraidon, L50, tera:Electric|11/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|7
+|
+|t:|1750829819
+|move|p1b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Incineroar
+|move|p1a: Calyrex|Astral Barrage|p2b: Miraidon|[spread] p2b
+|-immune|p2a: Terapagos
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|81/100|[from] item: Life Orb
+|move|p2a: Terapagos|Calm Mind|p2a: Terapagos
+|-boost|p2a: Terapagos|spa|1
+|-boost|p2a: Terapagos|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750829840
+|move|p1b: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Incineroar
+|move|p1a: Calyrex|Tera Blast|p2a: Terapagos
+|-damage|p2a: Terapagos|41/100
+|-damage|p1a: Calyrex|71/100|[from] item: Life Orb
+|move|p2a: Terapagos|Earth Power|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-end|p1b: Incineroar|Encore
+|upkeep
+|turn|9
+|
+|t:|1750829857
+|move|p2a: Terapagos|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|26/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Terapagos
+|-damage|p2a: Terapagos|8/100
+|-damage|p1b: Incineroar|16/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1750829867
+|move|p2a: Terapagos|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|win|yinyangchu
+|raw|pengSlayNooter's rating: 1387 &rarr; <strong>1362</strong><br />(-25 for losing)
+|raw|yinyangchu's rating: 1302 &rarr; <strong>1327</strong><br />(+25 for winning)
+|l|☆yinyangchu
+|player|p2|
+|l|☆pengSlayNooter
+|player|p1|

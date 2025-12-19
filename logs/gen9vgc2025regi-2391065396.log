@@ -1,0 +1,122 @@
+|j|☆Marlin85
+|j|☆Eesoch
+|t:|1750798466
+|gametype|doubles
+|player|p1|Marlin85|169|1373
+|player|p2|Eesoch|n|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Koraidon, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Necrozma-Dawn-Wings, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Exeggutor-Alola, L50, M|
+|poke|p2|Araquanid, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Marlin85)
+|
+|t:|1750798490
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Necrozma|Necrozma-Dawn-Wings, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Marlin85 has 30 seconds left.
+|inactive|Marlin85 has 20 seconds left.
+|inactive|Marlin85 has 15 seconds left.
+|inactive|Marlin85 has 10 seconds left.
+|inactive|Marlin85 has 5 seconds left.
+|
+|t:|1750798545
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Koraidon|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|32/100
+|
+|t:|1750798550
+|switch|p1b: Urshifu|Urshifu, L50, F|100/100|[from] U-turn
+|move|p1a: Indeedee|Reflect|p1a: Indeedee
+|-sidestart|p1: Marlin85|Reflect
+|move|p2a: Necrozma|Meteor Beam||[still]
+|-prepare|p2a: Necrozma|Meteor Beam
+|-boost|p2a: Necrozma|spa|1
+|-enditem|p2a: Necrozma|Power Herb
+|-anim|p2a: Necrozma|Meteor Beam|p1b: Urshifu
+|-resisted|p1b: Urshifu
+|-damage|p1b: Urshifu|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Eesoch has 30 seconds left.
+|inactive|Eesoch has 20 seconds left.
+|inactive|Eesoch has 15 seconds left.
+|
+|t:|1750798593
+|-terastallize|p2a: Necrozma|Dark
+|move|p2b: Indeedee|Dazzling Gleam|p1b: Urshifu|[spread] p1a,p1b
+|-supereffective|p1b: Urshifu
+|-damage|p1a: Indeedee|92/100
+|-damage|p1b: Urshifu|0 fnt
+|faint|p1b: Urshifu
+|move|p1a: Indeedee|Psychic|p2a: Necrozma
+|-immune|p2a: Necrozma
+|move|p2a: Necrozma|Expanding Force|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750798609
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|-activate|p1b: Koraidon|ability: Orichalcum Pulse
+|turn|3
+|
+|t:|1750798616
+|-terastallize|p1b: Koraidon|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Koraidon|Close Combat|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1b: Koraidon|def|1
+|-unboost|p1b: Koraidon|spd|1
+|faint|p2b: Indeedee
+|move|p1a: Indeedee|Psychic|p2a: Necrozma
+|-immune|p2a: Necrozma
+|move|p2a: Necrozma|Expanding Force|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|13/100
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Marlin85 forfeited.
+|
+|win|Eesoch
+|raw|Marlin85's rating: 1373 &rarr; <strong>1349</strong><br />(-24 for losing)
+|raw|Eesoch's rating: 1304 &rarr; <strong>1328</strong><br />(+24 for winning)
+|l|☆Marlin85
+|player|p1|

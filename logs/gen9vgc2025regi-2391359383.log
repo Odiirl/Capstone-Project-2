@@ -1,0 +1,135 @@
+|j|☆maulober
+|j|☆bonobobohemio
+|t:|1750843159
+|gametype|doubles
+|player|p1|maulober|102|1355
+|player|p2|bonobobohemio|drayden|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Kyurem-Black, L50|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonobobohemio)
+|
+|t:|1750843188
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Kyurem|Kyurem-Black, L50|100/100
+|-ability|p2b: Kyurem|Teravolt
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1750843199
+|move|p1a: Smeargle|Fake Out|p2b: Kyurem
+|-damage|p2b: Kyurem|96/100
+|cant|p2b: Kyurem|flinch
+|move|p2a: Rillaboom|U-turn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|51/100
+|
+|t:|1750843206
+|switch|p2a: Scream Tail|Scream Tail, L50|100/100|[from] U-turn
+|-enditem|p2a: Scream Tail|Booster Energy
+|-activate|p2a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p2a: Scream Tail|protosynthesisspe
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-heal|p1b: Farigiraf|57/100|[from] Grassy Terrain
+|-heal|p2b: Kyurem|100/100|[from] Grassy Terrain
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spe|1
+|-enditem|p1a: Smeargle|Eject Pack
+|upkeep
+|
+|t:|1750843208
+|switch|p1a: Kyogre|Kyogre, L50, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|turn|2
+|
+|t:|1750843226
+|-terastallize|p1a: Kyogre|Water
+|move|p1b: Farigiraf|Helping Hand|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Kyurem|Protect|p2b: Kyurem
+|-singleturn|p2b: Kyurem|Protect
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1a: Kyogre|Water Spout|p2b: Kyurem|[spread] 
+|-activate|p2a: Scream Tail|move: Protect
+|-activate|p2b: Kyurem|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|63/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1750843244
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|move|p1a: Kyogre|Water Spout|p2b: Kyurem|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-resisted|p2b: Kyurem
+|-damage|p2a: Koraidon|74/100
+|-damage|p2b: Kyurem|74/100
+|move|p2b: Kyurem|Fusion Bolt|p1a: Kyogre
+|-supereffective|p1a: Kyogre
+|-damage|p1a: Kyogre|18/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|79/100|[from] Grassy Terrain
+|-heal|p2b: Kyurem|80/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|24/100|[from] Grassy Terrain
+|-heal|p1b: Farigiraf|70/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750843263
+|-terastallize|p2a: Koraidon|Fire
+|move|p1a: Kyogre|Protect|p1a: Kyogre
+|-singleturn|p1a: Kyogre|Protect
+|move|p2a: Koraidon|Flame Charge|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Farigiraf
+|-damage|p2a: Koraidon|70/100|[from] item: Life Orb
+|move|p2b: Kyurem|Icicle Spear|p1a: Kyogre
+|-activate|p1a: Kyogre|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koraidon|75/100|[from] Grassy Terrain
+|-heal|p2b: Kyurem|86/100|[from] Grassy Terrain
+|-heal|p1a: Kyogre|30/100|[from] Grassy Terrain
+|upkeep
+|-message|maulober forfeited.
+|
+|win|bonobobohemio
+|raw|maulober's rating: 1355 &rarr; <strong>1333</strong><br />(-22 for losing)
+|raw|bonobobohemio's rating: 1326 &rarr; <strong>1348</strong><br />(+22 for winning)
+|l|☆maulober
+|player|p1|
+|l|☆bonobobohemio
+|player|p2|

@@ -1,0 +1,165 @@
+|j|☆jatpark
+|j|‽seinor
+|t:|1750799325
+|gametype|doubles
+|player|p1|jatpark|102|1282
+|player|p2|seinor|101|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Stonjourner, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Pincurchin, L50, M|
+|poke|p2|Cresselia, L50, F|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Yanmega, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Koraidon, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jatpark)
+|
+|t:|1750799356
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|turn|1
+|inactive|jatpark has 30 seconds left.
+|
+|t:|1750799387
+|-terastallize|p1b: Calyrex|Grass
+|-terastallize|p2b: Koraidon|Fire
+|move|p1a: Indeedee|Helping Hand|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Calyrex|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-ability|p1b: Calyrex|Grim Neigh|boost
+|-boost|p1b: Calyrex|spa|1
+|move|p2a: Incineroar|Darkest Lariat|p1b: Calyrex
+|-damage|p1b: Calyrex|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799402
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|2
+|
+|t:|1750799415
+|switch|p1a: Pincurchin|Pincurchin, L50, M|100/100
+|move|p1b: Calyrex|Expanding Force|p2b: Miraidon
+|-damage|p2b: Miraidon|1/100
+|move|p2b: Miraidon|Volt Switch|p1a: Pincurchin
+|-activate|p1a: Pincurchin|ability: Lightning Rod
+|-ability|p1a: Pincurchin|Lightning Rod|boost
+|-boost|p1a: Pincurchin|spa|1
+|move|p2a: Incineroar|Flare Blitz|p1b: Calyrex
+|-supereffective|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|-damage|p2a: Incineroar|88/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799433
+|switch|p1b: Groudon|Groudon, L50|100/100
+|turn|3
+|
+|t:|1750799445
+|move|p2b: Miraidon|Draco Meteor|p1a: Pincurchin
+|-damage|p1a: Pincurchin|2/100
+|-unboost|p2b: Miraidon|spa|2
+|move|p1b: Groudon|Precipice Blades|p2b: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Miraidon
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Miraidon
+|-damage|p1b: Groudon|91/100|[from] item: Life Orb
+|move|p1a: Pincurchin|Electroweb|p2: Incineroar|[notarget]
+|-fail|p1a: Pincurchin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750799454
+|switch|p2b: Yanmega|Yanmega, L50, F|100/100
+|turn|4
+|-enditem|p1a: Pincurchin|Custap Berry|[eat]
+|-activate|p1a: Pincurchin|item: Custap Berry|[consumed]
+|
+|t:|1750799463
+|move|p2b: Yanmega|Detect|p2b: Yanmega
+|-singleturn|p2b: Yanmega|Protect
+|move|p1a: Pincurchin|Pain Split|p2b: Yanmega
+|-activate|p2b: Yanmega|move: Protect
+|move|p1b: Groudon|Rock Slide|p2b: Yanmega
+|-activate|p2b: Yanmega|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|5
+|
+|t:|1750799479
+|move|p2b: Yanmega|Bug Buzz|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|move|p1b: Groudon|Rock Slide|p2b: Yanmega
+|-supereffective|p2b: Yanmega
+|-enditem|p2b: Yanmega|Focus Sash
+|-damage|p2b: Yanmega|1/100
+|-damage|p1b: Groudon|81/100|[from] item: Life Orb
+|
+|-weather|none
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|
+|t:|1750799484
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|t:|1750799490
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Yanmega|Air Slash|p1a: Indeedee
+|-damage|p1a: Indeedee|64/100
+|move|p1b: Groudon|Heat Crash|p2b: Yanmega
+|-supereffective|p2b: Yanmega
+|-damage|p2b: Yanmega|0 fnt
+|faint|p2b: Yanmega
+|-damage|p1b: Groudon|71/100|[from] item: Life Orb
+|
+|win|jatpark
+|raw|jatpark's rating: 1282 &rarr; <strong>1310</strong><br />(+28 for winning)
+|raw|seinor's rating: 1317 &rarr; <strong>1295</strong><br />(-22 for losing)
+|l|‽seinor
+|player|p2|
+|l|☆jatpark
+|player|p1|

@@ -1,0 +1,182 @@
+|j|☆celiakiller
+|j|☆Willipino2
+|t:|1750816150
+|gametype|doubles
+|player|p1|celiakiller|2|1392
+|player|p2|Willipino2|266|1485
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Lunala, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Willipino2)
+|inactive|celiakiller has 60 seconds left.
+|
+|t:|1750816190
+|start
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p1b: Lunala|Lunala, L50, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Flutter Mane|atk|1
+|-unboost|p1b: Lunala|atk|1
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|1
+|inactive|celiakiller has 30 seconds left.
+|inactive|Willipino2 has 30 seconds left.
+|
+|t:|1750816223
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Flutter Mane|Thunder Wave|p2b: Lunala
+|-status|p2b: Lunala|par
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|24/100
+|move|p2a: Incineroar|U-turn|p1a: Flutter Mane
+|-resisted|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|92/100
+|
+|t:|1750816239
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-enditem|p2b: Lunala|Electric Seed
+|-boost|p2b: Lunala|def|1|[from] item: Electric Seed
+|move|p2b: Lunala|Moongeist Beam|p1a: Flutter Mane
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1750816260
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1750816283
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|24/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1b: Lunala|atk|1
+|-terastallize|p1b: Lunala|Normal
+|move|p1a: Iron Valiant|Spirit Break|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1b: Lunala|Dazzling Gleam|p2b: Lunala
+|-damage|p2b: Lunala|88/100 par
+|move|p2b: Lunala|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1750816299
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750816319
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Lunala|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|53/100
+|-damage|p2b: Lunala|70/100 par
+|move|p2a: Miraidon|Draco Meteor|p1a: Miraidon|[miss]
+|-miss|p2a: Miraidon|p1a: Miraidon
+|move|p1b: Lunala|Dazzling Gleam|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Lunala|49/100 par
+|faint|p2a: Miraidon
+|cant|p2b: Lunala|par
+|
+|upkeep
+|
+|t:|1750816329
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1750816342
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Ursaluna|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1b: Lunala|Dazzling Gleam|p2b: Lunala|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Ursaluna|Earthquake|p1a: Miraidon|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|15/100
+|-damage|p1b: Lunala|82/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|celiakiller has 30 seconds left.
+|
+|t:|1750816374
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1a: Miraidon|Dazzling Gleam|p2a: Ursaluna|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p1b: Lunala|Dazzling Gleam|p2b: Lunala|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Lunala|move: Wide Guard
+|move|p2a: Ursaluna|Earthquake|p1b: Lunala|[spread] p1a,p1b
+|-activate|p2b: Lunala|move: Wide Guard
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-damage|p1b: Lunala|27/100
+|faint|p1a: Miraidon
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750816392
+|move|p2b: Lunala|Wide Guard|p2b: Lunala
+|-singleturn|p2b: Lunala|Wide Guard
+|move|p1b: Lunala|Moongeist Beam|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|move|p2a: Ursaluna|Facade|p1b: Lunala
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|
+|win|Willipino2
+|raw|celiakiller's rating: 1392 &rarr; <strong>1377</strong><br />(-15 for losing)
+|raw|Willipino2's rating: 1485 &rarr; <strong>1500</strong><br />(+15 for winning)
+|l|☆celiakiller
+|player|p1|

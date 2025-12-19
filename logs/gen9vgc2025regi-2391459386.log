@@ -1,0 +1,147 @@
+|j|☆Ludikrik
+|j|☆Saren49
+|t:|1750858832
+|gametype|doubles
+|player|p1|Ludikrik|chili|1592
+|player|p2|Saren49|169|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Kyogre, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+Ludikrik has agreed to open team sheets.
+|
+|t:|1750858886
+|start
+|switch|p1a: Goudron|Groudon, L50|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-fail|p1a: Goudron|unboost|[from] item: Clear Amulet|[of] p1a: Goudron
+|-unboost|p1b: Scream Tail|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Goudron
+|-activate|p1b: Scream Tail|ability: Protosynthesis
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|1
+|
+|t:|1750858918
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|-end|p1b: Scream Tail|Protosynthesis
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p1a: Goudron|Protect|p1a: Goudron
+|-singleturn|p1a: Goudron|Protect
+|move|p2b: Landorus|Rock Slide|p1b: Scream Tail|[spread] 
+|-activate|p1a: Goudron|move: Protect
+|-activate|p1b: Scream Tail|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750858950
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|switch|p1b: Moom|Lunala, L50|100/100
+|switch|p1a: INFERNOOOOOOOOO|Incineroar, L50, F|100/100
+|-ability|p1a: INFERNOOOOOOOOO|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Landorus|atk|1
+|move|p2b: Landorus|Rock Slide|p1a: INFERNOOOOOOOOO|[spread] p1a,p1b
+|-supereffective|p1a: INFERNOOOOOOOOO
+|-damage|p1a: INFERNOOOOOOOOO|80/100
+|-damage|p1b: Moom|95/100
+|move|p2a: Kyogre|Origin Pulse|p1a: INFERNOOOOOOOOO|[spread] p1a,p1b
+|-supereffective|p1a: INFERNOOOOOOOOO
+|-damage|p1a: INFERNOOOOOOOOO|0 fnt
+|-damage|p1b: Moom|34/100
+|faint|p1a: INFERNOOOOOOOOO
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Moom|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750858956
+|switch|p1a: Goudron|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Goudron
+|turn|3
+|
+|t:|1750858982
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-terastallize|p1b: Moom|Fairy
+|move|p2b: Landorus|Rock Slide|p1b: Moom|[spread] p1a,p1b
+|-resisted|p1a: Goudron
+|-damage|p1a: Goudron|96/100
+|-damage|p1b: Moom|29/100
+|move|p1b: Moom|Moonblast|p2b: Landorus
+|-damage|p2b: Landorus|34/100
+|move|p1a: Goudron|Precipice Blades|p2a: Ogerpon|[spread] p2a
+|-immune|p2b: Landorus
+|-damage|p2a: Ogerpon|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Moom|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750859014
+|move|p1b: Moom|Protect|p1b: Moom
+|-singleturn|p1b: Moom|Protect
+|move|p2b: Landorus|Rock Slide|p1b: Moom|[spread] p1a
+|-activate|p1b: Moom|move: Protect
+|-resisted|p1a: Goudron
+|-damage|p1a: Goudron|92/100
+|move|p2a: Ogerpon|Power Whip|p1a: Goudron
+|-supereffective|p1a: Goudron
+|-damage|p1a: Goudron|7/100
+|cant|p1a: Goudron|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Moom|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1750859033
+|move|p1a: Goudron|Protect|p1a: Goudron
+|-singleturn|p1a: Goudron|Protect
+|move|p2b: Landorus|Rock Slide|p1b: Moom|[spread] p1b
+|-activate|p1a: Goudron|move: Protect
+|-damage|p1b: Moom|30/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Moom|[anim] Ivy Cudgel Rock
+|-crit|p1b: Moom
+|-damage|p1b: Moom|0 fnt
+|faint|p1b: Moom
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|-message|Ludikrik forfeited.
+|
+|win|Saren49
+|raw|Ludikrik's rating: 1592 &rarr; <strong>1569</strong><br />(-23 for losing)
+|raw|Saren49's rating: 1539 &rarr; <strong>1562</strong><br />(+23 for winning)
+|l|☆Ludikrik
+|player|p1|
+|l|☆Saren49
+|player|p2|

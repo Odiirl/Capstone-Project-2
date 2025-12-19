@@ -1,0 +1,170 @@
+|j|☆OGVGC
+|j|☆klanes1209
+|t:|1750860765
+|gametype|doubles
+|player|p1|OGVGC|archer|1161
+|player|p2|klanes1209|101|1134
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Chi-Yu, L50|
+|teampreview|4
+|
+|t:|1750860823
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750860855
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|-terastallize|p1a: Calyrex|Normal
+|move|p2a: Smeargle|Fake Out|p1a: Calyrex
+|-damage|p1a: Calyrex|99/100
+|move|p2b: Calyrex|Nasty Plot|p2b: Calyrex
+|-boost|p2b: Calyrex|spa|2
+|cant|p1a: Calyrex|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750860887
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Calyrex|Psychic|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Smeargle|Spore|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Spore
+|cant|p1b: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1750860916
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Smeargle|Decorate|p2b: Calyrex
+|-boost|p2b: Calyrex|atk|2
+|-boost|p2b: Calyrex|spa|2
+|move|p2b: Calyrex|Psychic|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Flare Blitz|p2b: Calyrex
+|-damage|p2b: Calyrex|28/100
+|-damage|p1b: Incineroar|77/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Incineroar|83/100|[from] item: Leftovers
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750860938
+|switch|p1a: Flutter Mane|Flutter Mane, L50, shiny|100/100
+|-activate|p1a: Flutter Mane|ability: Protosynthesis
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|4
+|
+|t:|1750860955
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Flutter Mane|Moonblast|p2a: Smeargle
+|-damage|p2a: Smeargle|9/100
+|move|p2b: Calyrex|Astral Barrage|p1a: Flutter Mane|[spread] p1a,p1b
+|-supereffective|p1a: Flutter Mane
+|-resisted|p1b: Incineroar
+|-enditem|p1a: Flutter Mane|Focus Sash
+|-damage|p1a: Flutter Mane|1/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spe|1
+|upkeep
+|
+|t:|1750860971
+|switch|p1b: Calyrex|Calyrex-Ice, L50, tera:Normal|99/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750861007
+|move|p1b: Calyrex|Protect|p1b: Calyrex
+|-singleturn|p1b: Calyrex|Protect
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Flutter Mane|Icy Wind|p2a: Smeargle|[spread] p2a,p2b
+|-crit|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2b: Calyrex|16/100
+|-unboost|p2b: Calyrex|spe|1
+|faint|p2a: Smeargle
+|move|p2b: Calyrex|Psychic|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Protect
+|
+|-weather|none
+|-end|p1a: Flutter Mane|Protosynthesis
+|upkeep
+|
+|t:|1750861027
+|switch|p2a: Chi-Yu|Chi-Yu, L50|100/100
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|turn|6
+|
+|t:|1750861050
+|move|p2a: Chi-Yu|Dark Pulse|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|move|p2b: Calyrex|Psychic|p1b: Calyrex
+|-damage|p1b: Calyrex|0 fnt
+|faint|p1b: Calyrex
+|
+|win|klanes1209
+|raw|OGVGC's rating: 1161 &rarr; <strong>1134</strong><br />(-27 for losing)
+|raw|klanes1209's rating: 1134 &rarr; <strong>1161</strong><br />(+27 for winning)

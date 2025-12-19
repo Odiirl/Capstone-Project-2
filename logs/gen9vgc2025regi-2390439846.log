@@ -1,0 +1,158 @@
+|j|☆Escatross
+|j|☆DimensionalFool
+|t:|1750713478
+|gametype|doubles
+|player|p1|Escatross|bugcatcher-gen4dp|1451
+|player|p2|DimensionalFool|170|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Walking Wake, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Seel, L50, F|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DimensionalFool)
+|inactive|Escatross also wants the timer to be on.
+|inactive|DimensionalFool has 60 seconds left.
+|
+|t:|1750713508
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Koraidon|item: Ability Shield
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750713528
+|-terastallize|p1b: Koraidon|Fire
+|-terastallize|p2a: Miraidon|Fairy
+|move|p1b: Koraidon|Flare Blitz|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-damage|p1b: Koraidon|62/100|[from] Recoil
+|move|p2a: Miraidon|Electro Drift|p1a: Weezing
+|-damage|p1a: Weezing|28/100
+|move|p1a: Weezing|Play Rough|p2a: Miraidon|[miss]
+|-miss|p1a: Weezing|p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713540
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|turn|2
+|
+|t:|1750713548
+|move|p1b: Koraidon|Protect|p1b: Koraidon
+|-singleturn|p1b: Koraidon|Protect
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Koraidon
+|-activate|p1b: Koraidon|move: Protect
+|move|p2a: Miraidon|Electro Drift|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750713569
+|move|p1b: Koraidon|Collision Course|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Miraidon|Electro Drift|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|move|p1a: Weezing|Play Rough|p2a: Miraidon
+|-damage|p2a: Miraidon|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750713586
+|switch|p1b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750713600
+|move|p1b: Calyrex|Disable|p2a: Miraidon
+|-start|p2a: Miraidon|Disable|Electro Drift
+|cant|p2a: Miraidon|Disable|Electro Drift
+|move|p1a: Weezing|Taunt|p2b: Calyrex
+|-start|p2b: Calyrex|move: Taunt
+|cant|p2b: Calyrex|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1750713612
+|move|p1b: Calyrex|Astral Barrage|p2a: Miraidon|[spread] p2a,p2b
+|-supereffective|p2b: Calyrex
+|-damage|p2a: Miraidon|38/100
+|-damage|p2b: Calyrex|37/100
+|-activate|p2a: Miraidon|move: Struggle
+|move|p2a: Miraidon|Struggle|p1a: Weezing
+|-damage|p1a: Weezing|20/100
+|-damage|p2a: Miraidon|13/100|[from] recoil
+|move|p1a: Weezing|Poison Gas|p2a: Miraidon|[spread] p2a,p2b
+|-status|p2a: Miraidon|psn
+|-status|p2b: Calyrex|psn
+|move|p2b: Calyrex|Glacial Lance|p1a: Weezing|[spread] p1a,p1b
+|-damage|p1a: Weezing|0 fnt
+|-damage|p1b: Calyrex|33/100
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Calyrex|Chilling Neigh|boost
+|-boost|p2b: Calyrex|atk|1
+|
+|-weather|none
+|-heal|p2b: Calyrex|43/100 psn|[from] item: Leftovers
+|-damage|p2a: Miraidon|0 fnt|[from] psn
+|faint|p2a: Miraidon
+|-damage|p2b: Calyrex|30/100 psn|[from] psn
+|upkeep
+|
+|t:|1750713626
+|switch|p1a: Seel|Seel, L50, F|100/100
+|turn|6
+|
+|t:|1750713631
+|move|p1a: Seel|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|27/100 psn
+|move|p1b: Calyrex|Astral Barrage|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|
+|win|Escatross
+|raw|Escatross's rating: 1451 &rarr; <strong>1470</strong><br />(+19 for winning)
+|raw|DimensionalFool's rating: 1441 &rarr; <strong>1422</strong><br />(-19 for losing)
+|l|☆DimensionalFool
+|player|p2|
+|l|☆Escatross
+|player|p1|

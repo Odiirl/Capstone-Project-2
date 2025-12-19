@@ -1,0 +1,150 @@
+|j|☆anubisjr
+|j|☆seemeier
+|t:|1750795639
+|gametype|doubles
+|player|p1|anubisjr|265|1658
+|player|p2|seemeier|265|1619
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Okidogi, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Kyurem-Black, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seemeier)
+|
+|t:|1750795665
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|1
+|
+|t:|1750795682
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: anubisjr|move: Tailwind
+|move|p1b: Miraidon|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|65/100
+|
+|t:|1750795687
+|switch|p1b: Urshifu|Urshifu, L50, M|100/100|[from] Volt Switch
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|upkeep
+|turn|2
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750795713
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Lunala|Meteor Beam||[still]
+|-prepare|p2b: Lunala|Meteor Beam
+|-boost|p2b: Lunala|spa|1
+|-enditem|p2b: Lunala|Power Herb
+|-anim|p2b: Lunala|Meteor Beam|p1a: Whimsicott
+|-damage|p1a: Whimsicott|6/100
+|move|p1b: Urshifu|Wicked Blow|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1a: Whimsicott|Moonblast|p2b: Lunala
+|-damage|p2b: Lunala|92/100
+|
+|upkeep
+|
+|t:|1750795729
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|turn|3
+|
+|t:|1750795752
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Scizor|Dual Wingbeat|p1b: Urshifu|[miss]
+|-miss|p2a: Scizor|p1b: Urshifu
+|move|p2b: Lunala|Moongeist Beam|p1a: Miraidon
+|-damage|p1a: Miraidon|20/100
+|move|p1b: Urshifu|Wicked Blow|p2b: Lunala
+|-supereffective|p2b: Lunala
+|-crit|p2b: Lunala
+|-damage|p2b: Lunala|0 fnt
+|faint|p2b: Lunala
+|
+|upkeep
+|
+|t:|1750795764
+|switch|p2b: Roaring Moon|Roaring Moon, L50|100/100
+|turn|4
+|inactive|anubisjr has 30 seconds left.
+|
+|t:|1750795791
+|switch|p1a: Whimsicott|Whimsicott, L50, F|6/100
+|move|p1b: Urshifu|Detect|p1b: Urshifu
+|-singleturn|p1b: Urshifu|Protect
+|move|p2a: Scizor|Dual Wingbeat|p1b: Urshifu
+|-activate|p1b: Urshifu|move: Protect
+|move|p2b: Roaring Moon|Tailwind|p2b: Roaring Moon
+|-sidestart|p2: seemeier|move: Tailwind
+|
+|-sideend|p1: anubisjr|move: Tailwind
+|upkeep
+|turn|5
+|inactive|anubisjr has 30 seconds left.
+|inactive|anubisjr has 20 seconds left.
+|inactive|anubisjr has 15 seconds left.
+|inactive|anubisjr has 10 seconds left.
+|
+|t:|1750795836
+|-terastallize|p1b: Urshifu|Dark
+|-terastallize|p2b: Roaring Moon|Flying
+|move|p2a: Scizor|Bullet Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p1b: Urshifu|Wicked Blow|p2b: Roaring Moon
+|-crit|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|0 fnt
+|faint|p2b: Roaring Moon
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1750795852
+|switch|p1a: Miraidon|Miraidon, L50|20/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|6
+|-message|seemeier forfeited.
+|
+|win|anubisjr
+|raw|anubisjr's rating: 1658 &rarr; <strong>1676</strong><br />(+18 for winning)
+|raw|seemeier's rating: 1619 &rarr; <strong>1601</strong><br />(-18 for losing)
+|l|☆seemeier
+|player|p2|
+|l|☆anubisjr
+|player|p1|

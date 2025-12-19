@@ -1,0 +1,339 @@
+|j|☆demitribien
+|j|☆shenga9902
+|t:|1750778667
+|gametype|doubles
+|player|p1|demitribien|170|1234
+|player|p2|shenga9902|169|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zacian-*, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Ho-Oh, L50|
+|poke|p2|Rhydon, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by demitribien)
+|
+|t:|1750778724
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Lunala|Lunala, L50|100/100
+|switch|p2a: Ho-Oh|Ho-Oh, L50|100/100
+|switch|p2b: Gliscor|Gliscor, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ho-Oh|atk|1
+|-unboost|p2b: Gliscor|atk|1
+|turn|1
+|inactive|shenga9902 has 30 seconds left.
+|
+|t:|1750778751
+|move|p1a: Incineroar|Fake Out|p2b: Gliscor
+|-damage|p2b: Gliscor|90/100
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2a: Ho-Oh
+|-supereffective|p2a: Ho-Oh
+|-damage|p2a: Ho-Oh|0 fnt
+|faint|p2a: Ho-Oh
+|cant|p2b: Gliscor|flinch
+|
+|-status|p2b: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1750778759
+|switch|p2a: Toxapex|Toxapex, L50, F|100/100
+|turn|2
+|
+|t:|1750778779
+|move|p2a: Toxapex|Wide Guard|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Wide Guard
+|move|p1b: Lunala|Expanding Force|p2b: Gliscor
+|-damage|p2b: Gliscor|38/100 tox
+|move|p2b: Gliscor|High Horsepower|p1b: Lunala
+|-damage|p1b: Lunala|91/100
+|move|p1a: Incineroar|Parting Shot|p2b: Gliscor
+|-unboost|p2b: Gliscor|atk|1
+|-unboost|p2b: Gliscor|spa|1
+|
+|t:|1750778789
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|
+|-heal|p2b: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1750778800
+|move|p1a: Indeedee|Helping Hand|p1b: Lunala
+|-singleturn|p1b: Lunala|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Toxapex|Wide Guard|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Wide Guard
+|move|p1b: Lunala|Expanding Force|p2a: Toxapex|[spread] 
+|-activate|p2a: Toxapex|move: Wide Guard
+|-activate|p2b: Gliscor|move: Wide Guard
+|move|p2b: Gliscor|Toxic Spikes|p1b: Lunala
+|-sidestart|p1: demitribien|move: Toxic Spikes
+|
+|-heal|p2b: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|shenga9902 has 30 seconds left.
+|
+|t:|1750778825
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p2a: Toxapex|Dark
+|move|p1a: Indeedee|Helping Hand|p1b: Lunala
+|-singleturn|p1b: Lunala|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Lunala|Expanding Force|p2a: Toxapex
+|-immune|p2a: Toxapex
+|move|p2a: Toxapex|Infestation|p1b: Lunala
+|-damage|p1b: Lunala|88/100
+|-activate|p1b: Lunala|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p1b: Lunala|94/100|[from] Grassy Terrain
+|-damage|p1b: Lunala|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|inactive|demitribien has 30 seconds left.
+|inactive|shenga9902 has 30 seconds left.
+|
+|t:|1750778857
+|switch|p1b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p1b: Zacian|Intrepid Sword|boost
+|-boost|p1b: Zacian|atk|1
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Rillaboom|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|38/100
+|move|p2a: Toxapex|Infestation|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|35/100
+|-activate|p1a: Indeedee|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p1a: Indeedee|41/100|[from] Grassy Terrain
+|-damage|p1a: Indeedee|29/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|inactive|demitribien has 30 seconds left.
+|inactive|shenga9902 has 30 seconds left.
+|inactive|shenga9902 has 20 seconds left.
+|c|☆shenga9902|how could u switch?
+|inactive|shenga9902 has 15 seconds left.
+|
+|t:|1750778898
+|-terastallize|p1b: Zacian|Stellar
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Zacian|Sacred Sword|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|move|p2b: Rillaboom|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|t:|1750778911
+|switch|p2b: Gliscor|Gliscor, L50, F|62/100 tox|[from] U-turn
+|
+|-heal|p2b: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1750778922
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-status|p1a: Incineroar|psn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|-unboost|p2b: Gliscor|atk|1
+|turn|7
+|inactive|shenga9902 has 30 seconds left.
+|
+|t:|1750778956
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Gliscor
+|-damage|p2b: Gliscor|63/100 tox
+|move|p1b: Zacian|Sacred Sword|p2a: Rillaboom
+|-damage|p2a: Rillaboom|42/100
+|cant|p2b: Gliscor|flinch
+|
+|-heal|p2a: Rillaboom|48/100|[from] Grassy Terrain
+|-heal|p2b: Gliscor|75/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Incineroar|88/100 psn|[from] psn
+|upkeep
+|turn|8
+|inactive|demitribien has 30 seconds left.
+|
+|t:|1750778987
+|switch|p1a: Lunala|Lunala, L50|82/100
+|-status|p1a: Lunala|psn
+|move|p2a: Rillaboom|Fake Out|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|93/100
+|cant|p1b: Zacian|flinch
+|move|p2b: Gliscor|High Horsepower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|43/100
+|
+|-heal|p1b: Zacian|49/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|88/100 psn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|54/100|[from] Grassy Terrain
+|-damage|p1a: Lunala|76/100 psn|[from] psn
+|-heal|p2b: Gliscor|87/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|inactive|demitribien has 30 seconds left.
+|inactive|shenga9902 has 30 seconds left.
+|inactive|demitribien has 20 seconds left.
+|inactive|demitribien has 15 seconds left.
+|
+|t:|1750779029
+|switch|p1a: Incineroar|Incineroar, L50, M|88/100 psn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Gliscor|atk|1
+|move|p1b: Zacian|Sacred Sword|p2b: Gliscor
+|-resisted|p2b: Gliscor
+|-damage|p2b: Gliscor|65/100 tox
+|move|p2a: Rillaboom|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|79/100 psn
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p2b: Gliscor|High Horsepower|p1b: Zacian
+|-supereffective|p1b: Zacian
+|-damage|p1b: Zacian|17/100
+|
+|-heal|p2b: Gliscor|77/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Incineroar|67/100 psn|[from] psn
+|upkeep
+|turn|10
+|inactive|shenga9902 has 30 seconds left.
+|
+|t:|1750779062
+|move|p1b: Zacian|Protect|p1b: Zacian
+|-singleturn|p1b: Zacian|Protect
+|move|p2b: Gliscor|Protect|p2b: Gliscor
+|-singleturn|p2b: Gliscor|Protect
+|move|p2a: Rillaboom|Wood Hammer|p1b: Zacian
+|-activate|p1b: Zacian|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Incineroar|49/100 psn|[from] Recoil
+|
+|-heal|p2b: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Incineroar|37/100 psn|[from] psn
+|upkeep
+|
+|t:|1750779075
+|switch|p2a: Toxapex|Toxapex, L50, F, tera:Dark|100/100
+|turn|11
+|
+|t:|1750779088
+|switch|p1b: Lunala|Lunala, L50|76/100 psn
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p2b: Gliscor|High Horsepower|p1b: Lunala
+|-damage|p1b: Lunala|60/100 psn
+|move|p1a: Incineroar|Knock Off|p2b: Gliscor
+|-damage|p2b: Gliscor|50/100 tox
+|-enditem|p2b: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-damage|p1b: Lunala|48/100 psn|[from] psn
+|-heal|p2b: Gliscor|63/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Incineroar|24/100 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|demitribien has 30 seconds left.
+|inactive|shenga9902 has 30 seconds left.
+|inactive|shenga9902 has 20 seconds left.
+|inactive|shenga9902 has 15 seconds left.
+|inactive|shenga9902 has 10 seconds left.
+|inactive|shenga9902 has 5 seconds left.
+|
+|t:|1750779143
+|move|p1b: Lunala|Moongeist Beam|p2b: Gliscor
+|-crit|p2b: Gliscor
+|-damage|p2b: Gliscor|0 fnt
+|faint|p2b: Gliscor
+|move|p1a: Incineroar|Flare Blitz|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|-damage|p1a: Incineroar|13/100 psn|[from] Recoil
+|move|p2a: Toxapex|Infestation|p1b: Lunala
+|-damage|p1b: Lunala|45/100 psn
+|-activate|p1b: Lunala|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1b: Lunala|33/100 psn|[from] psn
+|-damage|p1a: Incineroar|1/100 psn|[from] psn
+|-damage|p1b: Lunala|20/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|13
+|inactive|demitribien has 30 seconds left.
+|
+|t:|1750779177
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1b: Lunala|Moongeist Beam|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1b: Lunala|8/100 psn|[from] psn
+|-damage|p1a: Incineroar|0 fnt|[from] psn
+|faint|p1a: Incineroar
+|-damage|p1b: Lunala|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Lunala
+|upkeep
+|
+|t:|1750779191
+|switch|p1b: Zacian|Zacian-Crowned, L50, tera:Stellar|17/100
+|turn|14
+|inactive|shenga9902 has 30 seconds left.
+|inactive|shenga9902 has 20 seconds left.
+|inactive|shenga9902 has 15 seconds left.
+|inactive|shenga9902 has 10 seconds left.
+|inactive|shenga9902 has 5 seconds left.
+|
+|t:|1750779245
+|move|p1b: Zacian|Sacred Sword|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|16/100
+|move|p2a: Toxapex|Infestation|p1b: Zacian
+|-resisted|p1b: Zacian
+|-damage|p1b: Zacian|16/100
+|-activate|p1b: Zacian|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1b: Zacian|4/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|inactive|shenga9902 has 25 seconds left this turn.
+|inactive|shenga9902 has 20 seconds left.
+|-message|demitribien forfeited.
+|
+|win|shenga9902
+|raw|demitribien's rating: 1234 &rarr; <strong>1204</strong><br />(-30 for losing)
+|raw|shenga9902's rating: 1168 &rarr; <strong>1198</strong><br />(+30 for winning)
+|l|☆demitribien
+|player|p1|
+|l|☆shenga9902
+|player|p2|

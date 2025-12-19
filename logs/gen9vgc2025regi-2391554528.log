@@ -1,0 +1,157 @@
+|j|☆marvin.bardak
+|j|☆anthonyefra
+|t:|1750869541
+|gametype|doubles
+|player|p1|marvin.bardak|265|1153
+|player|p2|anthonyefra|benga|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Groudon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Toedscruel, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Groudon, L50|
+|poke|p2|Miraidon, L50|
+|teampreview|4
+|
+|t:|1750869577
+|start
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p2b: Toedscruel|Toedscruel, L50, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750869597
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|move|p2b: Toedscruel|Spore|p1a: Groudon
+|-status|p1a: Groudon|slp|[from] move: Spore
+|cant|p1a: Groudon|slp
+|move|p2a: Weezing|Sludge Bomb|p1b: Incineroar
+|-damage|p1b: Incineroar|52/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750869614
+|move|p2b: Toedscruel|Protect|p2b: Toedscruel
+|-singleturn|p2b: Toedscruel|Protect
+|-curestatus|p1a: Groudon|slp|[msg]
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Weezing
+|-damage|p2a: Weezing|89/100
+|cant|p2a: Weezing|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1750869629
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|move|p2b: Toedscruel|Spore|p1a: Whimsicott
+|-immune|p1a: Whimsicott
+|move|p1b: Incineroar|Flare Blitz|p2b: Toedscruel
+|-supereffective|p2b: Toedscruel
+|-enditem|p2b: Toedscruel|Focus Sash
+|-damage|p2b: Toedscruel|1/100
+|-damage|p1b: Incineroar|25/100|[from] Recoil
+|move|p2a: Weezing|Sludge Bomb|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by anthonyefra)
+|
+|t:|1750869647
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|4
+|inactive|marvin.bardak has 30 seconds left.
+|
+|t:|1750869673
+|move|p1a: Whimsicott|Taunt|p2b: Toedscruel
+|-start|p2b: Toedscruel|move: Taunt
+|move|p1b: Flutter Mane|Icy Wind|p2b: Toedscruel|[spread] p2a,p2b
+|-supereffective|p2b: Toedscruel
+|-damage|p2a: Weezing|70/100
+|-damage|p2b: Toedscruel|0 fnt
+|-unboost|p2a: Weezing|spe|1
+|faint|p2b: Toedscruel
+|move|p2a: Weezing|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|c|☆anthonyefra|bye bye flutter mane
+|
+|t:|1750869687
+|switch|p1a: Groudon|Groudon, L50|100/100
+|switch|p2b: Groudon|Groudon, L50|100/100
+|turn|5
+|
+|t:|1750869706
+|move|p1b: Flutter Mane|Moonblast|p2b: Groudon
+|-damage|p2b: Groudon|50/100
+|-unboost|p2b: Groudon|spa|1
+|move|p1a: Groudon|Precipice Blades|p2a: Weezing|[spread] p2b
+|-miss|p1a: Groudon|p2a: Weezing
+|-damage|p2b: Groudon|15/100
+|move|p2b: Groudon|Precipice Blades|p1a: Groudon|[spread] p1b
+|-miss|p2b: Groudon|p1a: Groudon
+|-damage|p1b: Flutter Mane|13/100
+|move|p2a: Weezing|Sludge Bomb|p1b: Flutter Mane
+|-damage|p1b: Flutter Mane|0 fnt
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|
+|-heal|p2b: Groudon|21/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1750869723
+|move|p2b: Groudon|Protect|p2b: Groudon
+|-singleturn|p2b: Groudon|Protect
+|move|p1a: Groudon|Precipice Blades|p2b: Groudon|[spread] p2a
+|-activate|p2b: Groudon|move: Protect
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Groudon|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750869728
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|-item|p1a: Groudon|Clear Amulet|[from] ability: Frisk|[of] p2a: Typhlosion
+|turn|7
+|
+|t:|1750869737
+|-terastallize|p2a: Typhlosion|Fire
+|move|p2a: Typhlosion|Eruption|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|
+|win|anthonyefra
+|raw|marvin.bardak's rating: 1153 &rarr; <strong>1133</strong><br />(-20 for losing)
+|raw|anthonyefra's rating: 1217 &rarr; <strong>1237</strong><br />(+20 for winning)
+|l|☆anthonyefra
+|player|p2|
+|l|☆marvin.bardak
+|player|p1|

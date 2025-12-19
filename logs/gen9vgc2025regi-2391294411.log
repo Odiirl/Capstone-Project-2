@@ -1,0 +1,182 @@
+|j|☆yinyangchu
+|j|☆kutaka kfc
+|t:|1750830238
+|gametype|doubles
+|player|p1|yinyangchu|265|1341
+|player|p2|kutaka kfc|lady-gen4|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Scream Tail, L50|
+|poke|p1|Miraidon, L50|
+|poke|p2|Eternatus, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Bronzong, L50|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Roaring Moon, L50|
+|poke|p2|Clefairy, L50, F|
+|teampreview|4
+|
+|t:|1750830258
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Alcremie|Alcremie, L50, F|100/100
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Clefairy|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|1
+|
+|t:|1750830283
+|switch|p2a: Eternatus|Eternatus, L50|100/100
+|-ability|p2a: Eternatus|Pressure
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Urshifu
+|-activate|p2b: Urshifu|move: Protect
+|move|p1b: Alcremie|Dazzling Gleam|p2b: Urshifu|[spread] p2a
+|-activate|p2b: Urshifu|move: Protect
+|-damage|p2a: Eternatus|74/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750830310
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p2a: Eternatus|Sludge Bomb|p1b: Alcremie
+|-supereffective|p1b: Alcremie
+|-damage|p1b: Alcremie|0 fnt
+|faint|p1b: Alcremie
+|move|p2b: Urshifu|Surging Strikes|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|91/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|82/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|72/100
+|-hitcount|p1a: Miraidon|3
+|
+|upkeep
+|
+|t:|1750830320
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Eternatus|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|3
+|
+|t:|1750830353
+|switch|p2a: Clefairy|Clefairy, L50, F|100/100
+|-terastallize|p1a: Miraidon|Electric
+|move|p2b: Urshifu|Protect|p2b: Urshifu
+|-singleturn|p2b: Urshifu|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Clefairy
+|-damage|p2a: Clefairy|91/100
+|move|p1a: Miraidon|Parabolic Charge|p2a: Clefairy|[spread] p1b,p2a
+|-activate|p2b: Urshifu|move: Protect
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|8/100
+|-heal|p1a: Miraidon|100/100|[from] drain|[of] p1b: Incineroar
+|-damage|p2a: Clefairy|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750830379
+|move|p2a: Clefairy|Protect|p2a: Clefairy
+|-singleturn|p2a: Clefairy|Protect
+|move|p2b: Urshifu|Aqua Jet|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Miraidon|Parabolic Charge|p2b: Urshifu|[spread] p2b
+|-activate|p2a: Clefairy|move: Protect
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|upkeep
+|
+|t:|1750830398
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|
+|t:|1750830418
+|move|p2a: Clefairy|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Clefairy
+|move|p2b: Calyrex|Astral Barrage|p1a: Miraidon|[spread] p1a
+|-immune|p1b: Terapagos
+|-damage|p1a: Miraidon|35/100
+|move|p1a: Miraidon|Parabolic Charge|p2a: Clefairy|[spread] p1b,p2a,p2b
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1b: Terapagos|62/100
+|-heal|p1a: Miraidon|55/100|[from] drain|[of] p1b: Terapagos
+|-damage|p2a: Clefairy|0 fnt
+|-heal|p1a: Miraidon|62/100|[from] drain|[of] p2a: Clefairy
+|-damage|p2b: Calyrex|37/100
+|-heal|p1a: Miraidon|94/100|[from] drain|[of] p2b: Calyrex
+|faint|p2a: Clefairy
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|
+|-heal|p1b: Terapagos|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750830432
+|switch|p2a: Eternatus|Eternatus, L50|74/100
+|-ability|p2a: Eternatus|Pressure
+|turn|6
+|
+|t:|1750830453
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Eternatus|Dynamax Cannon|p1a: Miraidon
+|-damage|p1a: Miraidon|42/100
+|move|p2b: Calyrex|Astral Barrage|p1b: Terapagos|[spread] p1a
+|-activate|p1b: Terapagos|move: Protect
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|-heal|p1b: Terapagos|74/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|7
+|
+|t:|1750830483
+|move|p2a: Eternatus|Dynamax Cannon|p1b: Terapagos
+|-damage|p1b: Terapagos|36/100
+|move|p2b: Calyrex|Psychic|p1b: Terapagos
+|-damage|p1b: Terapagos|0 fnt
+|faint|p1b: Terapagos
+|
+|win|kutaka kfc
+|raw|yinyangchu's rating: 1341 &rarr; <strong>1320</strong><br />(-21 for losing)
+|raw|kutaka kfc's rating: 1318 &rarr; <strong>1339</strong><br />(+21 for winning)
+|l|☆yinyangchu
+|player|p1|
+|l|☆kutaka kfc
+|player|p2|

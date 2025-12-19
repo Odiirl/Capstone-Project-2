@@ -1,0 +1,187 @@
+|j|☆PRIMAOFFICIAL
+|j|☆mincarretta
+|t:|1750803757
+|gametype|doubles
+|player|p1|PRIMAOFFICIAL|swimmer-gen4dp|1231
+|player|p2|mincarretta|169|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Terapagos, L50, M|
+|poke|p1|Lunala, L50|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Dialga-Origin, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Sandaconda, L50, F|
+|poke|p2|Grafaiai, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mincarretta)
+|inactive|PRIMAOFFICIAL has 60 seconds left.
+|
+|t:|1750803790
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Oranguru|Oranguru, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Sandaconda|Sandaconda, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Sandaconda|atk|1
+|turn|1
+|
+|t:|1750803808
+|move|p1a: Incineroar|Fake Out|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|95/100
+|cant|p2a: Tyranitar|flinch
+|move|p2b: Sandaconda|Minimize|p2b: Sandaconda
+|-boost|p2b: Sandaconda|evasion|2
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Oranguru|94/100|[from] Sandstorm
+|-heal|p1b: Oranguru|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750803833
+|move|p1b: Oranguru|Yawn|p2b: Sandaconda
+|-start|p2b: Sandaconda|move: Yawn|[of] p1b: Oranguru
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2b: Sandaconda|Minimize|p2b: Sandaconda
+|-boost|p2b: Sandaconda|evasion|2
+|move|p2a: Tyranitar|Knock Off|p1b: Oranguru
+|-supereffective|p1b: Oranguru
+|-damage|p1b: Oranguru|69/100
+|-enditem|p1b: Oranguru|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Oranguru|62/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|90/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|PRIMAOFFICIAL has 30 seconds left.
+|inactive|mincarretta has 30 seconds left.
+|inactive|mincarretta has 20 seconds left.
+|
+|t:|1750803871
+|switch|p1b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1b: Terapagos|ability: Tera Shift
+|detailschange|p1b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1b: Terapagos|100/100|[silent]
+|move|p1a: Incineroar|Parting Shot|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|spa|1
+|
+|t:|1750803883
+|switch|p1a: Oranguru|Oranguru, L50, F|62/100|[from] Parting Shot
+|move|p2b: Sandaconda|Minimize|p2b: Sandaconda
+|-boost|p2b: Sandaconda|evasion|2
+|move|p2a: Tyranitar|Earthquake|p1a: Oranguru|[spread] p1a,p1b
+|-miss|p2a: Tyranitar|p2b: Sandaconda
+|-activate|p1b: Terapagos|ability: Tera Shell
+|-resisted|p1b: Terapagos
+|-damage|p1a: Oranguru|57/100
+|-damage|p1b: Terapagos|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Oranguru|51/100|[from] Sandstorm
+|-damage|p1b: Terapagos|91/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|84/100 brn|[from] brn
+|-end|p2b: Sandaconda|move: Yawn|[silent]
+|-status|p2b: Sandaconda|slp
+|upkeep
+|turn|4
+|inactive|mincarretta has 30 seconds left.
+|inactive|mincarretta has 20 seconds left.
+|
+|t:|1750803920
+|move|p1a: Oranguru|Foul Play|p2b: Sandaconda|[miss]
+|-miss|p1a: Oranguru|p2b: Sandaconda
+|cant|p2b: Sandaconda|slp
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|move|p2a: Tyranitar|Knock Off|p1b: Terapagos
+|-damage|p1b: Terapagos|79/100
+|-enditem|p1b: Terapagos|Mental Herb|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Oranguru|45/100|[from] Sandstorm
+|-damage|p1b: Terapagos|73/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|78/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1750803944
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-terastallize|p1b: Terapagos|Stellar
+|detailschange|p1b: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1b: Terapagos|80/100|[silent]
+|-ability|p1b: Terapagos|Teraform Zero
+|-weather|none
+|move|p1a: Oranguru|Instruct|p1b: Terapagos
+|-singleturn|p1b: Terapagos|move: Instruct|[of] p1a: Oranguru
+|move|p1b: Terapagos|Calm Mind|p1b: Terapagos
+|-boost|p1b: Terapagos|spa|1
+|-boost|p1b: Terapagos|spd|1
+|-curestatus|p2b: Sandaconda|slp|[msg]
+|move|p2b: Sandaconda|Glare|p1b: Terapagos
+|-status|p1b: Terapagos|par
+|move|p1b: Terapagos|Tera Starstorm|p2a: Zamazenta|[spread] p2a
+|-miss|p1b: Terapagos|p2b: Sandaconda
+|-damage|p2a: Zamazenta|46/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|mincarretta has 30 seconds left.
+|
+|t:|1750803972
+|move|p1b: Terapagos|Protect|p1b: Terapagos
+|-singleturn|p1b: Terapagos|Protect
+|move|p2a: Zamazenta|Body Press|p1b: Terapagos
+|-activate|p1b: Terapagos|move: Protect
+|move|p2b: Sandaconda|Glare|p1a: Oranguru
+|-status|p1a: Oranguru|par
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|7
+|inactive|mincarretta has 30 seconds left.
+|
+|t:|1750803998
+|move|p1a: Oranguru|Yawn|p2b: Sandaconda
+|-start|p2b: Sandaconda|move: Yawn|[of] p1a: Oranguru
+|move|p1b: Terapagos|Tera Starstorm|p2b: Sandaconda|[spread] p2a,p2b
+|-damage|p2a: Zamazenta|0 fnt
+|-damage|p2b: Sandaconda|0 fnt
+|faint|p2a: Zamazenta
+|faint|p2b: Sandaconda
+|
+|upkeep
+|-message|mincarretta forfeited.
+|
+|win|PRIMAOFFICIAL
+|raw|PRIMAOFFICIAL's rating: 1231 &rarr; <strong>1255</strong><br />(+24 for winning)
+|raw|mincarretta's rating: 1224 &rarr; <strong>1200</strong><br />(-24 for losing)
+|l|☆mincarretta
+|player|p2|
+|l|☆PRIMAOFFICIAL
+|player|p1|

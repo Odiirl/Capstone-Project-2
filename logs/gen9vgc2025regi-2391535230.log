@@ -1,0 +1,215 @@
+|j|☆testy accounty 2
+|j|☆Saren49
+|t:|1750867428
+|gametype|doubles
+|player|p1|testy accounty 2|170|1593
+|player|p2|Saren49|102|1560
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Landorus-Therian, L50, M|
+|poke|p2|Iron Hands, L50|
+|teampreview|4
+|
+|t:|1750867495
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Kenny|Rillaboom, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Kenny
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Kyogre
+|turn|1
+|
+|t:|1750867514
+|-terastallize|p2b: Kyogre|Grass
+|move|p1a: Lunala|Calm Mind|p1a: Lunala
+|-boost|p1a: Lunala|spa|1
+|-boost|p1a: Lunala|spd|1
+|move|p1b: Kenny|Wood Hammer|p2b: Kyogre
+|-resisted|p2b: Kyogre
+|-damage|p2b: Kyogre|67/100
+|-damage|p1b: Kenny|89/100|[from] Recoil
+|move|p2b: Kyogre|Origin Pulse|p1b: Kenny|[spread] p1a
+|-miss|p2b: Kyogre|p1b: Kenny
+|-damage|p1a: Lunala|78/100
+|move|p2a: Farigiraf|Imprison|p2a: Farigiraf
+|-start|p2a: Farigiraf|move: Imprison
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|84/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|91/100|[from] item: Leftovers
+|-heal|p1b: Kenny|95/100|[from] Grassy Terrain
+|-heal|p2b: Kyogre|73/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750867545
+|move|p1a: Lunala|Moongeist Beam|p2b: Kyogre
+|-damage|p2b: Kyogre|19/100
+|move|p1b: Kenny|U-turn|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-crit|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|t:|1750867558
+|switch|p1b: Ian|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p1b: Ian|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|move|p2a: Farigiraf|Foul Play|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|40/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750867568
+|switch|p2b: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2b: Landorus|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Ian|atk|1
+|turn|3
+|
+|t:|1750867583
+|move|p2a: Farigiraf|Helping Hand|p2b: Landorus
+|-singleturn|p2b: Landorus|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Landorus|Rock Slide|p1a: Lunala|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-supereffective|p1b: Ian
+|-damage|p1b: Ian|49/100
+|move|p1b: Ian|Parting Shot|p2b: Landorus
+|-unboost|p2b: Landorus|atk|1
+|-unboost|p2b: Landorus|spa|1
+|
+|t:|1750867610
+|switch|p1b: Kenny|Rillaboom, L50, M|95/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|52/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|59/100|[from] item: Leftovers
+|-heal|p1b: Kenny|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750867640
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|-terastallize|p1a: Lunala|Fairy
+|move|p1a: Lunala|Moonblast|p2a: Farigiraf
+|-damage|p2a: Farigiraf|48/100
+|move|p1b: Kenny|U-turn|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p1b: Kenny|84/100|[from] item: Rocky Helmet|[of] p2a: Farigiraf
+|faint|p2a: Farigiraf
+|
+|t:|1750867653
+|switch|p1b: Ian|Incineroar, L50, M|49/100|[from] U-turn
+|-ability|p1b: Ian|Intimidate|boost
+|-unboost|p2b: Iron Hands|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Lunala|65/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|71/100|[from] item: Leftovers
+|-heal|p1b: Ian|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750867661
+|switch|p2a: Landorus|Landorus-Therian, L50, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Ian|atk|1
+|turn|5
+|
+|t:|1750867688
+|move|p1a: Lunala|Protect|p1a: Lunala
+|-singleturn|p1a: Lunala|Protect
+|move|p2b: Iron Hands|Fake Out|p1a: Lunala
+|-activate|p1a: Lunala|move: Protect
+|move|p2a: Landorus|Rock Slide|p1b: Ian|[spread] p1b
+|-activate|p1a: Lunala|move: Protect
+|-supereffective|p1b: Ian
+|-damage|p1b: Ian|18/100
+|move|p1b: Ian|Will-O-Wisp|p2b: Iron Hands
+|-status|p2b: Iron Hands|brn
+|
+|-weather|none
+|-heal|p1a: Lunala|77/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|84/100|[from] item: Leftovers
+|-heal|p1b: Ian|24/100|[from] Grassy Terrain
+|-damage|p2b: Iron Hands|94/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750867713
+|move|p2a: Landorus|Rock Slide|p1b: Ian|[spread] p1a,p1b
+|-supereffective|p1b: Ian
+|-damage|p1a: Lunala|68/100
+|-damage|p1b: Ian|0 fnt
+|faint|p1b: Ian
+|cant|p1a: Lunala|flinch
+|move|p2b: Iron Hands|Wild Charge|p1a: Lunala
+|-damage|p1a: Lunala|55/100
+|-damage|p2b: Iron Hands|91/100 brn|[from] Recoil
+|
+|-heal|p1a: Lunala|61/100|[from] item: Leftovers
+|-damage|p2b: Iron Hands|85/100 brn|[from] brn
+|upkeep
+|
+|t:|1750867734
+|switch|p1b: Kenny|Rillaboom, L50, M|84/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Kenny
+|turn|7
+|
+|t:|1750867751
+|move|p1b: Kenny|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|cant|p2a: Landorus|flinch
+|move|p1a: Lunala|Moonblast|p2b: Iron Hands
+|-supereffective|p2b: Iron Hands
+|-damage|p2b: Iron Hands|0 fnt
+|faint|p2b: Iron Hands
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p1a: Lunala|67/100|[from] Grassy Terrain
+|-heal|p1a: Lunala|74/100|[from] item: Leftovers
+|-heal|p1b: Kenny|90/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1750867768
+|move|p2a: Landorus|Rock Slide|p1a: Lunala|[spread] p1a,p1b
+|-damage|p1a: Lunala|59/100
+|-damage|p1b: Kenny|69/100
+|move|p1a: Lunala|Moongeist Beam|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|testy accounty 2
+|raw|testy accounty 2's rating: 1593 &rarr; <strong>1611</strong><br />(+18 for winning)
+|raw|Saren49's rating: 1560 &rarr; <strong>1542</strong><br />(-18 for losing)
+|l|☆Saren49
+|player|p2|
+|l|☆testy accounty 2
+|player|p1|

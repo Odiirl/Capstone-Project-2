@@ -1,0 +1,205 @@
+|j|☆Carajo666
+|j|☆Lechonk75
+|t:|1750755481
+|gametype|doubles
+|player|p1|Carajo666|roughneck|1575
+|player|p2|Lechonk75|erika|1598
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lunala, L50|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Enamorus-Therian, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Landorus, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Carajo666)
+|
+|t:|1750755509
+|start
+|switch|p1a: Lunala|Lunala, L50|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|switch|p2a: Iron Neck|Farigiraf, L50, F|100/100
+|switch|p2b: Iron Serpent|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Iron Serpent
+|-enditem|p2a: Iron Neck|Electric Seed
+|-boost|p2a: Iron Neck|def|1|[from] item: Electric Seed
+|turn|1
+|inactive|Lechonk75 has 30 seconds left.
+|
+|t:|1750755537
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2b: Iron Serpent|Volt Switch|p1a: Lunala
+|-damage|p1a: Lunala|77/100
+|
+|t:|1750755545
+|switch|p2b: Iron Tiger|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p2b: Iron Tiger|Intimidate|boost
+|-unboost|p1a: Lunala|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|move|p1a: Lunala|Trick Room|p1a: Lunala
+|-fieldstart|move: Trick Room|[of] p1a: Lunala
+|move|p2a: Iron Neck|Trick Room|p2a: Iron Neck
+|-fieldend|move: Trick Room
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Neck|94/100|[from] Sandstorm
+|-damage|p2b: Iron Tiger|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|inactive|Carajo666 has 30 seconds left.
+|inactive|Lechonk75 has 30 seconds left.
+|inactive|Lechonk75 has 20 seconds left.
+|
+|t:|1750755582
+|move|p2a: Iron Neck|Helping Hand|p2b: Iron Tiger
+|-singleturn|p2b: Iron Tiger|Helping Hand|[of] p2a: Iron Neck
+|move|p1a: Lunala|Moonblast|p2b: Iron Tiger
+|-damage|p2b: Iron Tiger|67/100
+|move|p1b: Tyranitar|Rock Slide|p2a: Iron Neck|[spread] p2a,p2b
+|-supereffective|p2b: Iron Tiger
+|-damage|p2a: Iron Neck|84/100
+|-damage|p2b: Iron Tiger|31/100
+|move|p2b: Iron Tiger|Knock Off|p1a: Lunala
+|-supereffective|p1a: Lunala
+|-damage|p1a: Lunala|0 fnt
+|-enditem|p1a: Lunala|Safety Goggles|[from] move: Knock Off|[of] p2b: Iron Tiger
+|faint|p1a: Lunala
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Neck|77/100|[from] Sandstorm
+|-damage|p2b: Iron Tiger|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750755603
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|turn|3
+|
+|t:|1750755613
+|switch|p1b: Enamorus|Enamorus-Therian, L50, F|100/100
+|-terastallize|p1a: Excadrill|Stellar
+|move|p1a: Excadrill|Earthquake|p2b: Iron Tiger|[spread] p2a,p2b
+|-immune|p1b: Enamorus
+|-supereffective|p2b: Iron Tiger
+|-crit|p2b: Iron Tiger
+|-damage|p2a: Iron Neck|44/100
+|-damage|p2b: Iron Tiger|0 fnt
+|faint|p2b: Iron Tiger
+|move|p2a: Iron Neck|Trick Room|p2a: Iron Neck
+|-fieldstart|move: Trick Room|[of] p2a: Iron Neck
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Neck|38/100|[from] Sandstorm
+|upkeep
+|
+|t:|1750755627
+|switch|p2b: Iron Lance|Calyrex-Ice, L50|100/100
+|-ability|p2b: Iron Lance|As One
+|-ability|p2b: Iron Lance|Unnerve
+|turn|4
+|
+|t:|1750755648
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p1b: Enamorus|Weather Ball|p2b: Iron Lance
+|-supereffective|p2b: Iron Lance
+|-damage|p2b: Iron Lance|32/100
+|move|p2b: Iron Lance|Glacial Lance|p1b: Enamorus|[spread] p1b
+|-activate|p1a: Excadrill|move: Protect
+|-supereffective|p1b: Enamorus
+|-damage|p1b: Enamorus|3/100
+|move|p2a: Iron Neck|Psychic|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Iron Lance|26/100|[from] Sandstorm
+|-damage|p2a: Iron Neck|32/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|Carajo666 has 30 seconds left.
+|inactive|Lechonk75 has 30 seconds left.
+|inactive|Carajo666 has 20 seconds left.
+|inactive|Lechonk75 has 20 seconds left.
+|inactive|Carajo666 has 15 seconds left.
+|inactive|Lechonk75 has 15 seconds left.
+|inactive|Carajo666 has 10 seconds left.
+|inactive|Lechonk75 has 10 seconds left.
+|
+|t:|1750755697
+|move|p2b: Iron Lance|Protect|p2b: Iron Lance
+|-singleturn|p2b: Iron Lance|Protect
+|move|p1b: Enamorus|Weather Ball|p2b: Iron Lance
+|-activate|p2b: Iron Lance|move: Protect
+|move|p2a: Iron Neck|Psychic|p1b: Enamorus
+|-damage|p1b: Enamorus|0 fnt
+|faint|p1b: Enamorus
+|move|p1a: Excadrill|Earthquake|p2a: Iron Neck|[spread] p2a
+|-activate|p2b: Iron Lance|move: Protect
+|-damage|p2a: Iron Neck|9/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1750755701
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|6
+|
+|t:|1750755725
+|move|p2a: Iron Neck|Helping Hand|p2b: Iron Lance
+|-singleturn|p2b: Iron Lance|Helping Hand|[of] p2a: Iron Neck
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2b: Iron Lance|Glacial Lance|p1b: Tyranitar|[spread] p1b
+|-activate|p1a: Excadrill|move: Protect
+|-damage|p1b: Tyranitar|37/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Iron Lance|[spread] p2a,p2b
+|-supereffective|p2b: Iron Lance
+|-damage|p2a: Iron Neck|0 fnt
+|-damage|p2b: Iron Lance|0 fnt
+|faint|p2a: Iron Neck
+|faint|p2b: Iron Lance
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1750755744
+|switch|p2b: Iron Serpent|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Iron Serpent
+|turn|7
+|
+|t:|1750755767
+|move|p1b: Tyranitar|Knock Off|p2b: Iron Serpent
+|-damage|p2b: Iron Serpent|53/100
+|-enditem|p2b: Iron Serpent|Assault Vest|[from] move: Knock Off|[of] p1b: Tyranitar
+|move|p2b: Iron Serpent|Dazzling Gleam|p1b: Tyranitar|[spread] p1a,p1b
+|-resisted|p1a: Excadrill
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Excadrill|82/100
+|-damage|p1b: Tyranitar|15/100
+|move|p1a: Excadrill|Earthquake|p2b: Iron Serpent|[spread] p1b,p2b
+|-supereffective|p1b: Tyranitar
+|-crit|p1b: Tyranitar
+|-supereffective|p2b: Iron Serpent
+|-damage|p1b: Tyranitar|0 fnt
+|-damage|p2b: Iron Serpent|0 fnt
+|faint|p1b: Tyranitar
+|faint|p2b: Iron Serpent
+|
+|win|Carajo666
+|raw|Carajo666's rating: 1575 &rarr; <strong>1596</strong><br />(+21 for winning)
+|raw|Lechonk75's rating: 1598 &rarr; <strong>1577</strong><br />(-21 for losing)

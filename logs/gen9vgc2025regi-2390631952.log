@@ -1,0 +1,249 @@
+|j|☆Test-on-calls
+|j|☆Vinegar_it_is
+|t:|1750739332
+|gametype|doubles
+|player|p1|Test-on-calls|169|1494
+|player|p2|Vinegar_it_is|169|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Giratina-Origin, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Iron Valiant, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Ogerpon-Wellspring, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vinegar_it_is)
+|inactive|Vinegar_it_is has 60 seconds left.
+|inactive|Test-on-calls has 60 seconds left.
+|inactive|Vinegar_it_is has 30 seconds left.
+|
+|t:|1750739414
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p1b: Milotic|Milotic, L50, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|1
+|
+|t:|1750739435
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|move|p2b: Whimsicott|Taunt|p1b: Zamazenta
+|-start|p1b: Zamazenta|move: Taunt
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Test-on-calls|Reflect
+|move|p2a: Ogerpon|Trick|p1a: Grimmsnarl
+|-activate|p2a: Ogerpon|move: Trick|[of] p1a: Grimmsnarl
+|-item|p1a: Grimmsnarl|Choice Specs|[from] move: Trick
+|-item|p2a: Ogerpon|Light Clay|[from] move: Trick
+|
+|upkeep
+|turn|2
+|inactive|Test-on-calls has 30 seconds left.
+|
+|t:|1750739462
+|switch|p1b: Milotic|Milotic, L50, M|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Vinegar_it_is|move: Tailwind
+|move|p2a: Ogerpon|Flamethrower|p1b: Milotic
+|-resisted|p1b: Milotic
+|-damage|p1b: Milotic|90/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Ogerpon
+|-damage|p2a: Ogerpon|40/100
+|-unboost|p2a: Ogerpon|spa|1
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p1b: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1750739485
+|move|p2b: Whimsicott|Taunt|p1b: Milotic
+|-start|p1b: Milotic|move: Taunt
+|move|p2a: Zoroark|Trick|p1b: Milotic
+|-activate|p2a: Zoroark|move: Trick|[of] p1b: Milotic
+|-item|p1b: Milotic|Light Clay|[from] move: Trick
+|-item|p2a: Zoroark|Leftovers|[from] move: Trick
+|move|p1b: Milotic|Muddy Water|p2a: Zoroark|[spread] p2a,p2b
+|-resisted|p2b: Whimsicott
+|-damage|p2a: Zoroark|0 fnt
+|-damage|p2b: Whimsicott|79/100
+|faint|p2a: Zoroark
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Whimsicott
+|-damage|p2b: Whimsicott|39/100
+|-unboost|p2b: Whimsicott|spa|1
+|
+|upkeep
+|
+|t:|1750739505
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, L50, F|100/100
+|turn|4
+|
+|t:|1750739512
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|switch|p1b: Giratina|Giratina-Origin, L50, shiny|100/100
+|move|p2a: Ogerpon|Horn Leech|p1b: Giratina
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|88/100
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Zamazenta
+|-damage|p2b: Zamazenta|88/100
+|-unboost|p2b: Zamazenta|spa|1
+|
+|upkeep
+|turn|5
+|inactive|Vinegar_it_is has 30 seconds left.
+|inactive|Vinegar_it_is has 20 seconds left.
+|inactive|Vinegar_it_is has 15 seconds left.
+|inactive|Vinegar_it_is has 10 seconds left.
+|
+|t:|1750739557
+|switch|p1a: Milotic|Milotic, L50, M|96/100
+|move|p2b: Zamazenta|Heavy Slam|p1b: Giratina
+|-damage|p1b: Giratina|81/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Giratina|[anim] Ivy Cudgel Water
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|66/100
+|move|p1b: Giratina|Poltergeist|p2a: Ogerpon|[miss]
+|-miss|p1b: Giratina|p2a: Ogerpon
+|
+|-sideend|p2: Vinegar_it_is|move: Tailwind
+|upkeep
+|turn|6
+|inactive|Vinegar_it_is has 30 seconds left.
+|
+|t:|1750739583
+|-terastallize|p1a: Milotic|Grass
+|move|p2b: Zamazenta|Body Press|p1a: Milotic
+|-damage|p1a: Milotic|50/100
+|move|p1b: Giratina|Poltergeist|p2a: Ogerpon|[miss]
+|-miss|p1b: Giratina|p2a: Ogerpon
+|move|p2a: Ogerpon|Horn Leech|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|33/100
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|
+|upkeep
+|turn|7
+|c|☆Test-on-calls|Lmao
+|c|☆Test-on-calls|cool 1%
+|inactive|Vinegar_it_is has 30 seconds left.
+|c|☆Vinegar_it_is|I think you cant poltergeist cuz Its a fix item?
+|inactive|Vinegar_it_is has 20 seconds left.
+|
+|t:|1750739620
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|move|p2b: Zamazenta|Body Press|p1a: Milotic
+|-activate|p1a: Milotic|move: Protect
+|move|p1b: Giratina|Poltergeist|p2a: Ogerpon|[miss]
+|-miss|p1b: Giratina|p2a: Ogerpon
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Giratina|[anim] Ivy Cudgel Water
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|50/100
+|
+|upkeep
+|turn|8
+|c|☆Test-on-calls|You definitely can
+|inactive|Test-on-calls has 30 seconds left.
+|
+|t:|1750739645
+|move|p2b: Zamazenta|Body Press|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|move|p1b: Giratina|Poltergeist|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Poltergeist|Wellspring Mask
+|-damage|p2a: Ogerpon|15/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1b: Giratina|[anim] Ivy Cudgel Water
+|-resisted|p1b: Giratina
+|-damage|p1b: Giratina|36/100
+|
+|-sideend|p1: Test-on-calls|Reflect
+|upkeep
+|c|☆Vinegar_it_is|aight then unlucky
+|c|☆Test-on-calls|See
+|c|☆Test-on-calls|.001
+|c|☆Test-on-calls|I’ll see myself out the door
+|
+|t:|1750739667
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|9
+|c|☆Vinegar_it_is|lmao
+|inactive|Vinegar_it_is has 30 seconds left.
+|inactive|Vinegar_it_is has 20 seconds left.
+|
+|t:|1750739702
+|move|p1b: Giratina|Shadow Sneak|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Zamazenta
+|-status|p2b: Zamazenta|par
+|cant|p2b: Zamazenta|par
+|
+|upkeep
+|
+|t:|1750739709
+|switch|p2a: Whimsicott|Whimsicott, L50, F|39/100
+|turn|10
+|
+|t:|1750739732
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Whimsicott
+|-status|p2a: Whimsicott|par
+|move|p1b: Giratina|Poltergeist|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Poltergeist|Focus Sash
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p2b: Zamazenta|Heavy Slam|p1b: Giratina
+|-damage|p1b: Giratina|22/100
+|
+|upkeep
+|turn|11
+|
+|t:|1750739751
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50, shiny|100/100
+|move|p1b: Giratina|Poltergeist|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Poltergeist|Rusted Shield
+|-damage|p2b: Zamazenta|61/100 par
+|cant|p2b: Zamazenta|par
+|
+|upkeep
+|turn|12
+|
+|t:|1750739762
+|move|p1a: Zamazenta|Body Press|p2b: Zamazenta
+|-supereffective|p2b: Zamazenta
+|-damage|p2b: Zamazenta|24/100 par
+|move|p1b: Giratina|Poltergeist|p2b: Zamazenta
+|-activate|p2b: Zamazenta|move: Poltergeist|Rusted Shield
+|-damage|p2b: Zamazenta|0 fnt
+|faint|p2b: Zamazenta
+|
+|win|Test-on-calls
+|raw|Test-on-calls's rating: 1494 &rarr; <strong>1510</strong><br />(+16 for winning)
+|raw|Vinegar_it_is's rating: 1428 &rarr; <strong>1412</strong><br />(-16 for losing)
+|c|☆Vinegar_it_is|gg
+|c|☆Test-on-calls|Gg
+|l|☆Vinegar_it_is
+|player|p2|
+|l|☆Test-on-calls
+|player|p1|

@@ -1,0 +1,156 @@
+|j|☆Gooner Morgan!
+|j|☆SGK_KHOA
+|t:|1750775469
+|gametype|doubles
+|player|p1|Gooner Morgan!|swimmer-gen4|1094
+|player|p2|SGK_KHOA|lucas|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Serperior, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Breloom, L50, M|
+|poke|p1|Zacian-*, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Landorus, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SGK_KHOA)
+|
+|t:|1750775490
+|start
+|switch|p1a: Serperior|Serperior, L50, M|100/100
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-boost|p1a: Serperior|atk|1
+|-unboost|p1b: Primarina|atk|1
+|turn|1
+|
+|t:|1750775515
+|move|p1a: Serperior|Leaf Storm|p2b: Urshifu
+|-supereffective|p2b: Urshifu
+|-damage|p2b: Urshifu|1/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Incineroar|Flare Blitz|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-enditem|p1a: Serperior|Focus Sash
+|-damage|p1a: Serperior|1/100
+|-damage|p2a: Incineroar|75/100|[from] Recoil
+|move|p2b: Urshifu|Close Combat|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|36/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|move|p1b: Primarina|Hyper Voice|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-resisted|p2b: Urshifu
+|-damage|p2a: Incineroar|13/100
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|
+|upkeep
+|
+|t:|1750775528
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|2
+|inactive|Gooner Morgan! has 30 seconds left.
+|
+|t:|1750775559
+|move|p1a: Serperior|Leaf Storm|p2b: Calyrex
+|-damage|p2b: Calyrex|43/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Incineroar|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|t:|1750775583
+|switch|p2a: Miraidon|Miraidon, L50|100/100|[from] U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1b: Primarina|Hyper Voice|p2a: Miraidon|[spread] p2a,p2b
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|85/100
+|-damage|p2b: Calyrex|15/100
+|move|p2b: Calyrex|Trick Room|p2b: Calyrex
+|-fieldstart|move: Trick Room|[of] p2b: Calyrex
+|
+|-heal|p2b: Calyrex|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750775600
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Calyrex|atk|1
+|turn|3
+|
+|t:|1750775623
+|move|p1a: Incineroar|Fake Out|p2b: Calyrex
+|-damage|p2b: Calyrex|12/100
+|cant|p2b: Calyrex|flinch
+|move|p1b: Primarina|Moonblast|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|15/100
+|move|p2a: Miraidon|Electro Drift|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-heal|p2b: Calyrex|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1750775638
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|4
+|
+|t:|1750775656
+|-terastallize|p2a: Miraidon|Fairy
+|move|p2b: Calyrex|Glacial Lance|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-resisted|p1b: Primarina
+|-damage|p1a: Miraidon|27/100
+|-damage|p1b: Primarina|14/100
+|move|p1b: Primarina|Hyper Voice|p2b: Calyrex|[spread] p2a,p2b
+|-damage|p2a: Miraidon|0 fnt
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2a: Miraidon
+|faint|p2b: Calyrex
+|move|p1a: Miraidon|Dazzling Gleam|p2: Miraidon|[notarget]
+|-fail|p1a: Miraidon
+|
+|upkeep
+|
+|t:|1750775669
+|switch|p2b: Incineroar|Incineroar, L50, M|13/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Miraidon|atk|1
+|-unboost|p1b: Primarina|atk|1
+|turn|5
+|
+|t:|1750775680
+|move|p1b: Primarina|Hyper Voice|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|Gooner Morgan!
+|raw|Gooner Morgan!'s rating: 1094 &rarr; <strong>1121</strong><br />(+27 for winning)
+|raw|SGK_KHOA's rating: 1103 &rarr; <strong>1077</strong><br />(-26 for losing)
+|l|☆SGK_KHOA
+|player|p2|
+|l|☆Gooner Morgan!
+|player|p1|

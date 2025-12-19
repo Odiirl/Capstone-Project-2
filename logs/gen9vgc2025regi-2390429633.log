@@ -1,0 +1,179 @@
+|j|☆Neoknight_drawz
+|j|☆nazzty21
+|t:|1750712302
+|gametype|doubles
+|player|p1|Neoknight_drawz|ethan|1083
+|player|p2|nazzty21|1|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Aipom, L50, M|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Scream Tail, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|4
+|
+|t:|1750712320
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1750712344
+|move|p2a: Incineroar|Fake Out|p1a: Weezing
+|-damage|p1a: Weezing|91/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|move|p2b: Koraidon|Close Combat|p1b: Pelipper
+|-resisted|p1b: Pelipper
+|-damage|p1b: Pelipper|56/100
+|-unboost|p2b: Koraidon|def|1
+|-unboost|p2b: Koraidon|spd|1
+|-damage|p2b: Koraidon|91/100|[from] item: Life Orb
+|cant|p1a: Weezing|flinch
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Neoknight_drawz|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1750712368
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1a: Weezing|Toxic Spikes|p2b: Koraidon
+|-sidestart|p2: nazzty21|move: Toxic Spikes
+|move|p1b: Pelipper|Waterfall|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|62/100
+|move|p2a: Incineroar|Parting Shot|p1b: Pelipper
+|-unboost|p1b: Pelipper|atk|1
+|-unboost|p1b: Pelipper|spa|1
+|
+|t:|1750712380
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|-sideend|p2: nazzty21|move: Toxic Spikes|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|3
+|
+|t:|1750712399
+|move|p1b: Pelipper|Helping Hand|p1a: Weezing
+|-singleturn|p1a: Weezing|Helping Hand|[of] p1b: Pelipper
+|move|p1a: Weezing|Dazzling Gleam|p2a: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-supereffective|p2b: Koraidon
+|-damage|p2a: Amoonguss|88/100
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|move|p2a: Amoonguss|Spore|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1750712411
+|switch|p2b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|4
+|
+|t:|1750712422
+|cant|p1a: Weezing|slp
+|move|p2b: Flutter Mane|Icy Wind|p1a: Weezing|[spread] p1a,p1b
+|-damage|p1a: Weezing|75/100 slp
+|-damage|p1b: Pelipper|35/100
+|-unboost|p1a: Weezing|spe|1
+|-unboost|p1b: Pelipper|spe|1
+|move|p1b: Pelipper|Icy Wind|p2b: Flutter Mane|[spread] p2a
+|-miss|p1b: Pelipper|p2b: Flutter Mane
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|78/100
+|-unboost|p2a: Amoonguss|spe|1
+|move|p2a: Amoonguss|Sludge Bomb|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|-sideend|p1: Neoknight_drawz|move: Tailwind
+|upkeep
+|
+|t:|1750712437
+|switch|p1b: Meowscarada|Meowscarada, L50, M|100/100
+|turn|5
+|
+|t:|1750712454
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Meowscarada|Triple Axel|p2a: Amoonguss|[miss]
+|-miss|p1b: Meowscarada|p2a: Amoonguss
+|move|p2b: Flutter Mane|Moonblast|p1b: Meowscarada
+|-supereffective|p1b: Meowscarada
+|-damage|p1b: Meowscarada|0 fnt
+|faint|p1b: Meowscarada
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|
+|t:|1750712466
+|switch|p1b: Aipom|Aipom, L50, M|100/100
+|turn|6
+|
+|t:|1750712482
+|move|p1b: Aipom|Fake Out|p2a: Amoonguss
+|-damage|p2a: Amoonguss|66/100
+|cant|p2a: Amoonguss|flinch
+|move|p2b: Flutter Mane|Icy Wind|p1b: Aipom|[spread] p1a,p1b
+|-damage|p1a: Weezing|60/100 slp
+|-damage|p1b: Aipom|75/100
+|-unboost|p1a: Weezing|spe|1
+|-unboost|p1b: Aipom|spe|1
+|-curestatus|p1a: Weezing|slp|[msg]
+|move|p1a: Weezing|Dazzling Gleam|p2b: Flutter Mane|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|58/100
+|-damage|p2b: Flutter Mane|80/100
+|
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nazzty21)
+|
+|t:|1750712515
+|switch|p2a: Incineroar|Incineroar, L50, M|62/100
+|move|p1b: Aipom|Helping Hand|p1a: Weezing
+|-singleturn|p1a: Weezing|Helping Hand|[of] p1b: Aipom
+|move|p2b: Flutter Mane|Moonblast|p1b: Aipom
+|-damage|p1b: Aipom|0 fnt
+|faint|p1b: Aipom
+|move|p1a: Weezing|Will-O-Wisp|p2a: Incineroar
+|-immune|p2a: Incineroar
+|
+|upkeep
+|turn|8
+|
+|t:|1750712535
+|move|p2a: Incineroar|Fake Out|p1a: Weezing
+|-damage|p1a: Weezing|50/100
+|-damage|p2a: Incineroar|46/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|move|p2b: Flutter Mane|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|win|nazzty21
+|raw|Neoknight_drawz's rating: 1083 &rarr; <strong>1059</strong><br />(-24 for losing)
+|raw|nazzty21's rating: 1055 &rarr; <strong>1089</strong><br />(+34 for winning)
+|l|☆Neoknight_drawz
+|player|p1|
+|l|☆nazzty21
+|player|p2|

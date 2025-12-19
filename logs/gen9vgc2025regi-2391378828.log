@@ -1,0 +1,156 @@
+|j|☆Mameon
+|j|☆bob de bower
+|t:|1750846736
+|gametype|doubles
+|player|p1|Mameon|red|1321
+|player|p2|bob de bower|2|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Scraggy, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|
+|t:|1750846760
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Scraggy|Scraggy, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Urshifu|Urshifu, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-ability|p1b: Scraggy|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Urshifu|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mameon)
+|
+|t:|1750846790
+|-terastallize|p1a: Calyrex|Fire
+|move|p1b: Scraggy|Fake Out|p2a: Calyrex
+|-damage|p2a: Calyrex|96/100
+|move|p2b: Urshifu|Wicked Blow|p1a: Calyrex
+|-crit|p1a: Calyrex
+|-damage|p1a: Calyrex|64/100
+|cant|p2a: Calyrex|flinch
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|upkeep
+|turn|2
+|
+|t:|1750846815
+|move|p2b: Urshifu|Sucker Punch|p1a: Calyrex
+|-damage|p1a: Calyrex|49/100
+|move|p1b: Scraggy|Coaching|p1a: Calyrex
+|-boost|p1a: Calyrex|atk|1
+|-boost|p1a: Calyrex|def|1
+|move|p1a: Calyrex|Glacial Lance|p2a: Calyrex|[spread] p2a,p2b
+|-resisted|p2a: Calyrex
+|-damage|p2a: Calyrex|69/100
+|-damage|p2b: Urshifu|13/100
+|move|p2a: Calyrex|Trick Room|p2a: Calyrex
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|3
+|inactive|Mameon has 30 seconds left.
+|inactive|bob de bower has 30 seconds left.
+|
+|t:|1750846846
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2b: Urshifu|Close Combat|p1b: Scraggy
+|-supereffective|p1b: Scraggy
+|-damage|p1b: Scraggy|13/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|move|p2a: Calyrex|Imprison|p2a: Calyrex
+|-start|p2a: Calyrex|move: Imprison
+|move|p1b: Scraggy|Foul Play|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|
+|t:|1750846868
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|4
+|inactive|bob de bower has 30 seconds left.
+|
+|t:|1750846895
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1b: Miraidon
+|-enditem|p1a: Farigiraf|Electric Seed
+|-boost|p1a: Farigiraf|def|1|[from] item: Electric Seed
+|move|p2b: Urshifu|Close Combat|p1b: Miraidon
+|-damage|p1b: Miraidon|60/100
+|-unboost|p2b: Urshifu|def|1
+|-unboost|p2b: Urshifu|spd|1
+|move|p2a: Kyogre|Water Spout|p1a: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Miraidon
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Miraidon|3/100
+|faint|p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750846912
+|switch|p1a: Scraggy|Scraggy, L50, F|13/100
+|-ability|p1a: Scraggy|Intimidate|boost
+|-unboost|p2a: Kyogre|atk|1
+|-unboost|p2b: Urshifu|atk|1
+|turn|5
+|inactive|bob de bower has 30 seconds left.
+|inactive|Mameon has 30 seconds left.
+|inactive|bob de bower has 20 seconds left.
+|
+|t:|1750846951
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|move|p1a: Scraggy|Fake Out|p2b: Urshifu
+|-damage|p2b: Urshifu|0 fnt
+|faint|p2b: Urshifu
+|move|p1b: Miraidon|Electro Drift|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750846962
+|switch|p2b: Kyogre|Kyogre, L50|100/100
+|turn|6
+|
+|t:|1750846970
+|switch|p1a: Calyrex|Calyrex-Ice, L50, tera:Fire|49/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Miraidon|Electro Drift|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|0 fnt
+|faint|p2b: Kyogre
+|
+|win|Mameon
+|raw|Mameon's rating: 1321 &rarr; <strong>1337</strong><br />(+16 for winning)
+|raw|bob de bower's rating: 1251 &rarr; <strong>1231</strong><br />(-20 for losing)
+|l|☆bob de bower
+|player|p2|

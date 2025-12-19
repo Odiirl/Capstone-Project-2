@@ -1,0 +1,178 @@
+|j|☆Swiftstorm
+|j|☆Kyukonien
+|t:|1750766964
+|gametype|doubles
+|player|p1|Swiftstorm|101|1351
+|player|p2|Kyukonien|n|1248
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Eternatus, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Great Tusk, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Terapagos, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|
+|t:|1750766983
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p1b: Great Tusk|Great Tusk, L50|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Ogerpon|Ogerpon-Cornerstone, L50, F|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1750767002
+|move|p2b: Ogerpon|Follow Me|p2b: Ogerpon
+|-singleturn|p2b: Ogerpon|move: Follow Me
+|move|p2a: Calyrex|Astral Barrage|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|65/100
+|-damage|p1b: Great Tusk|35/100
+|move|p1a: Zamazenta|Body Press|p2b: Ogerpon
+|-supereffective|p2b: Ogerpon
+|-ability|p2b: Ogerpon|Sturdy
+|-damage|p2b: Ogerpon|1/100
+|move|p1b: Great Tusk|Knock Off|p2b: Ogerpon
+|-damage|p2b: Ogerpon|0 fnt
+|faint|p2b: Ogerpon
+|
+|upkeep
+|
+|t:|1750767016
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|2
+|
+|t:|1750767021
+|-terastallize|p1a: Zamazenta|Grass
+|move|p1a: Zamazenta|Wide Guard|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Wide Guard
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Calyrex|Astral Barrage|p1b: Great Tusk|[spread] 
+|-activate|p1a: Zamazenta|move: Wide Guard
+|-activate|p1b: Great Tusk|move: Wide Guard
+|move|p1b: Great Tusk|Knock Off|p2b: Amoonguss
+|-damage|p2b: Amoonguss|68/100
+|-damage|p1b: Great Tusk|19/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|-enditem|p2b: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p1b: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1750767041
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Calyrex|Disable|p1a: Zamazenta
+|-start|p1a: Zamazenta|Disable|Wide Guard
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p1b: Great Tusk|Headlong Rush|p2b: Amoonguss
+|-damage|p2b: Amoonguss|6/100
+|-unboost|p1b: Great Tusk|def|1
+|-unboost|p1b: Great Tusk|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1750767066
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Calyrex|Astral Barrage|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|30/100
+|-damage|p1b: Great Tusk|0 fnt
+|faint|p1b: Great Tusk
+|-end|p1b: Great Tusk|Protosynthesis|[silent]
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|move|p1a: Zamazenta|Body Press|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|upkeep
+|
+|t:|1750767082
+|switch|p1b: Weavile|Weavile, L50, F|100/100
+|switch|p2b: Terapagos|Terapagos, L50, M|100/100
+|-activate|p2b: Terapagos|ability: Tera Shift
+|detailschange|p2b: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2b: Terapagos|100/100|[silent]
+|turn|5
+|
+|t:|1750767094
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Calyrex|Astral Barrage|p1b: Weavile|[spread] p1b
+|-activate|p1a: Zamazenta|move: Protect
+|-resisted|p1b: Weavile
+|-damage|p1b: Weavile|45/100
+|move|p1b: Weavile|Knock Off|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2b: Terapagos|Tera Starstorm|p1b: Weavile
+|-damage|p1b: Weavile|0 fnt
+|faint|p1b: Weavile
+|
+|upkeep
+|
+|t:|1750767108
+|switch|p1b: Eternatus|Eternatus, L50|100/100
+|-ability|p1b: Eternatus|Pressure
+|turn|6
+|
+|t:|1750767119
+|move|p1a: Zamazenta|Protect|p1a: Zamazenta
+|-singleturn|p1a: Zamazenta|Protect
+|move|p2a: Calyrex|Astral Barrage|p1a: Zamazenta|[spread] p1b
+|-activate|p1a: Zamazenta|move: Protect
+|-damage|p1b: Eternatus|35/100
+|move|p1b: Eternatus|Meteor Beam||[still]
+|-prepare|p1b: Eternatus|Meteor Beam
+|-boost|p1b: Eternatus|spa|1
+|-enditem|p1b: Eternatus|Power Herb
+|-anim|p1b: Eternatus|Meteor Beam|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|move|p2b: Terapagos|Earth Power|p1b: Eternatus
+|-supereffective|p1b: Eternatus
+|-crit|p1b: Eternatus
+|-damage|p1b: Eternatus|0 fnt
+|faint|p1b: Eternatus
+|
+|-end|p1a: Zamazenta|Disable
+|upkeep
+|turn|7
+|
+|t:|1750767135
+|move|p1a: Zamazenta|Body Press|p2b: Terapagos
+|-activate|p2b: Terapagos|ability: Tera Shell
+|-resisted|p2b: Terapagos
+|-damage|p2b: Terapagos|56/100
+|move|p2b: Terapagos|Tera Starstorm|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|Kyukonien
+|raw|Swiftstorm's rating: 1351 &rarr; <strong>1325</strong><br />(-26 for losing)
+|raw|Kyukonien's rating: 1248 &rarr; <strong>1280</strong><br />(+32 for winning)
+|l|☆Swiftstorm
+|player|p1|
+|l|☆Kyukonien
+|player|p2|

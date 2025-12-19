@@ -1,0 +1,160 @@
+|j|☆Cameronvgc
+|j|☆BadGrafx
+|t:|1750795753
+|gametype|doubles
+|player|p1|Cameronvgc|roughneck-gen4|1104
+|player|p2|BadGrafx|169|1074
+|teamsize|p1|6
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Necrozma-Dusk-Mane, L50|
+|poke|p1|Scovillain, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Brute Bonnet, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Rotom-Fan, L50|
+|poke|p2|Eelektross, L50, F|
+|teampreview|4
+BadGrafx rejected open team sheets.
+|
+|t:|1750795775
+|start
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane, L50|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Eelektross|Eelektross, L50, F|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750795788
+|move|p1a: Necrozma|Protect|p1a: Necrozma
+|-singleturn|p1a: Necrozma|Protect
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: Cameronvgc|move: Tailwind
+|move|p2b: Miraidon|Parabolic Charge|p1a: Necrozma|[spread] p2a,p1b
+|-activate|p1a: Necrozma|move: Protect
+|-resisted|p2a: Eelektross
+|-supereffective|p1b: Talonflame
+|-damage|p2a: Eelektross|84/100
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|move|p2a: Eelektross|Bulldoze|p1a: Necrozma|[spread] p2b
+|-activate|p1a: Necrozma|move: Protect
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|76/100
+|-unboost|p2b: Miraidon|spe|1
+|-enditem|p2b: Miraidon|Weakness Policy
+|-boost|p2b: Miraidon|atk|2|[from] item: Weakness Policy
+|-boost|p2b: Miraidon|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|
+|t:|1750795807
+|switch|p1b: Flutter Mane|Flutter Mane, L50|100/100
+|turn|2
+|
+|t:|1750795824
+|-terastallize|p2b: Miraidon|Ice
+|move|p1b: Flutter Mane|Moonblast|p2b: Miraidon
+|-damage|p2b: Miraidon|20/100
+|-unboost|p2b: Miraidon|spa|1
+|-damage|p1b: Flutter Mane|90/100|[from] item: Life Orb
+|move|p1a: Necrozma|Photon Geyser|p2a: Eelektross
+|-damage|p2a: Eelektross|29/100
+|move|p2b: Miraidon|Parabolic Charge|p1a: Necrozma|[spread] p2a,p1a,p1b
+|-resisted|p2a: Eelektross
+|-damage|p2a: Eelektross|3/100
+|-heal|p2b: Miraidon|34/100|[from] drain|[of] p2a: Eelektross
+|-damage|p1a: Necrozma|46/100
+|-heal|p2b: Miraidon|61/100|[from] drain|[of] p1a: Necrozma
+|-damage|p1b: Flutter Mane|9/100
+|-heal|p2b: Miraidon|91/100|[from] drain|[of] p1b: Flutter Mane
+|move|p2a: Eelektross|Drain Punch|p1a: Necrozma
+|-damage|p1a: Necrozma|25/100
+|-heal|p2a: Eelektross|12/100|[from] drain|[of] p1a: Necrozma
+|
+|upkeep
+|turn|3
+|
+|t:|1750795853
+|move|p1b: Flutter Mane|Shadow Ball|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|-damage|p1b: Flutter Mane|0 fnt|[from] item: Life Orb
+|faint|p1b: Flutter Mane
+|-end|p1b: Flutter Mane|Protosynthesis|[silent]
+|move|p1a: Necrozma|Sunsteel Strike|p2b: Miraidon
+|-supereffective|p2b: Miraidon
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|
+|upkeep
+|
+|t:|1750795866
+|switch|p1b: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Raging Bolt|Raging Bolt, L50|100/100
+|switch|p2a: Rotom|Rotom-Fan, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1b: Koraidon
+|-activate|p2b: Raging Bolt|ability: Protosynthesis
+|-start|p2b: Raging Bolt|protosynthesisspa
+|-activate|p1b: Koraidon|Orichalcum Pulse|[source]
+|turn|4
+|
+|t:|1750795885
+|move|p2b: Raging Bolt|Thunderclap|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|move|p1b: Koraidon|Dragon Claw|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|1/100
+|move|p2a: Rotom|Electroweb|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Cameronvgc|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1750795911
+|move|p2b: Raging Bolt|Thunderclap|p1b: Koraidon
+|-resisted|p1b: Koraidon
+|-damage|p1b: Koraidon|53/100
+|move|p1b: Koraidon|Dragon Claw|p2b: Raging Bolt
+|-supereffective|p2b: Raging Bolt
+|-damage|p2b: Raging Bolt|0 fnt
+|faint|p2b: Raging Bolt
+|-end|p2b: Raging Bolt|Protosynthesis|[silent]
+|move|p2a: Rotom|Will-O-Wisp|p1b: Koraidon
+|-status|p1b: Koraidon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Koraidon|47/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1750795927
+|-terastallize|p1b: Koraidon|Fire
+|move|p1b: Koraidon|Flare Blitz|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|-damage|p1b: Koraidon|26/100 brn|[from] Recoil
+|move|p2a: Rotom|Thunderbolt|p1b: Koraidon
+|-damage|p1b: Koraidon|0 fnt
+|faint|p1b: Koraidon
+|
+|win|BadGrafx
+|raw|Cameronvgc's rating: 1104 &rarr; <strong>1077</strong><br />(-27 for losing)
+|raw|BadGrafx's rating: 1074 &rarr; <strong>1105</strong><br />(+31 for winning)
+|l|☆BadGrafx
+|player|p2|
+|l|☆Cameronvgc
+|player|p1|

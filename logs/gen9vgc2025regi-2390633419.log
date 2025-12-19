@@ -1,0 +1,219 @@
+|j|☆sleepyheadsk
+|j|☆Oathplate
+|t:|1750739571
+|gametype|doubles
+|player|p1|sleepyheadsk|169|1158
+|player|p2|Oathplate|265|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dialga-Origin, L50|
+|poke|p1|Kyogre, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Ogerpon-Wellspring, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Toxapex, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oathplate)
+sleepyheadsk rejected open team sheets.
+|inactive|Oathplate has 60 seconds left.
+|
+|t:|1750739603
+|start
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2b: Lunala|Lunala, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|-unboost|p2b: Lunala|atk|1
+|turn|1
+|inactive|Oathplate has 30 seconds left.
+|
+|t:|1750739629
+|-terastallize|p2b: Lunala|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Lunala
+|-resisted|p2b: Lunala
+|-damage|p2b: Lunala|93/100
+|-enditem|p2b: Lunala|Leftovers|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Dialga|Flash Cannon|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|upkeep
+|turn|2
+|
+|t:|1750739653
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Dialga|Protect|p1a: Dialga
+|-singleturn|p1a: Dialga|Protect
+|move|p2a: Calyrex|Leech Seed|p1a: Dialga
+|-activate|p1a: Dialga|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Calyrex
+|-fail|p2a: Calyrex|unboost|[from] item: Clear Amulet|[of] p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750739670
+|switch|p1a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+|move|p2b: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-resisted|p1b: Incineroar
+|-damage|p1a: Kyogre|92/100
+|-damage|p1b: Incineroar|88/100
+|move|p2a: Calyrex|Glacial Lance|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Kyogre
+|-crit|p1a: Kyogre
+|-resisted|p1b: Incineroar
+|-damage|p1a: Kyogre|55/100
+|-damage|p1b: Incineroar|62/100
+|move|p1b: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|70/100
+|-enditem|p2b: Torkoal|Charcoal|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750739693
+|move|p2b: Torkoal|Weather Ball|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Calyrex|Glacial Lance|p1a: Kyogre
+|-resisted|p1a: Kyogre
+|-damage|p1a: Kyogre|18/100
+|move|p1a: Kyogre|Origin Pulse|p2a: Calyrex|[spread] p2a,p2b
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Calyrex|23/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750739714
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|5
+|
+|t:|1750739723
+|switch|p1a: Dialga|Dialga-Origin, L50|100/100
+|move|p2b: Rillaboom|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|91/100
+|cant|p1b: Amoonguss|flinch
+|move|p2a: Calyrex|Glacial Lance|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Dialga|60/100
+|-damage|p1b: Amoonguss|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Amoonguss|11/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|29/100|[from] Grassy Terrain
+|-heal|p1a: Dialga|67/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|sleepyheadsk has 30 seconds left.
+|
+|t:|1750739751
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|1/100
+|move|p1a: Dialga|Flash Cannon|p2a: Calyrex
+|-activate|p2a: Calyrex|move: Protect
+|move|p1b: Amoonguss|Pollen Puff|p1a: Dialga
+|-activate|p1a: Dialga|ability: Telepathy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dialga|73/100|[from] Grassy Terrain
+|-heal|p2a: Calyrex|35/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|7/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1750739771
+|move|p2b: Rillaboom|U-turn|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|t:|1750739775
+|switch|p2b: Lunala|Lunala, L50, tera:Fairy|93/100|[from] U-turn
+|move|p1a: Dialga|Flash Cannon|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|-weather|none
+|-heal|p2b: Lunala|99/100|[from] Grassy Terrain
+|-heal|p1a: Dialga|79/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750739786
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Kyogre|Kyogre, L50|18/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Kyogre
+|turn|8
+|
+|t:|1750739807
+|move|p2a: Rillaboom|Fake Out|p1a: Dialga
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|74/100
+|move|p2b: Lunala|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|34/100
+|-unboost|p1a: Dialga|spa|1
+|move|p1b: Kyogre|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|36/100
+|-status|p2a: Rillaboom|frz
+|cant|p1a: Dialga|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Lunala|100/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|42/100 frz|[from] Grassy Terrain
+|-heal|p1b: Kyogre|24/100|[from] Grassy Terrain
+|-heal|p1a: Dialga|40/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1750739827
+|-curestatus|p2a: Rillaboom|frz|[msg]
+|move|p2a: Rillaboom|Grassy Glide|p1b: Kyogre
+|-supereffective|p1b: Kyogre
+|-damage|p1b: Kyogre|0 fnt
+|faint|p1b: Kyogre
+|move|p2b: Lunala|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|win|Oathplate
+|raw|sleepyheadsk's rating: 1158 &rarr; <strong>1138</strong><br />(-20 for losing)
+|raw|Oathplate's rating: 1223 &rarr; <strong>1243</strong><br />(+20 for winning)
+|l|☆sleepyheadsk
+|player|p1|
+|l|☆Oathplate
+|player|p2|

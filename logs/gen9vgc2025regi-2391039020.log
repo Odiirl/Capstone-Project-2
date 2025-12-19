@@ -1,0 +1,225 @@
+|j|☆COTIBOOM
+|j|☆TomFelgenhauer
+|t:|1750795559
+|gametype|doubles
+|player|p1|COTIBOOM|266|1283
+|player|p2|TomFelgenhauer|170|1368
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Iron Hands, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p2|Kyogre, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Spiritomb, L50, F|
+|poke|p2|Necrozma-Dusk-Mane, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|
+|t:|1750795579
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Iron Hands|Iron Hands, L50|100/100
+|switch|p2a: Spiritomb|Spiritomb, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-activate|p1b: Iron Hands|ability: Quark Drive
+|-start|p1b: Iron Hands|quarkdriveatk
+|-ability|p2a: Spiritomb|Pressure
+|turn|1
+|
+|t:|1750795613
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2a: Spiritomb|Protect|p2a: Spiritomb
+|-singleturn|p2a: Spiritomb|Protect
+|move|p1b: Iron Hands|Fake Out|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|move|p1a: Miraidon|Volt Switch|p2a: Spiritomb
+|-activate|p2a: Spiritomb|move: Protect
+|move|p2b: Ursaluna|Earth Power|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|-damage|p2b: Ursaluna|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1750795630
+|switch|p1a: Flutter Mane|Flutter Mane, L50|100/100
+|-enditem|p1a: Flutter Mane|Booster Energy
+|-activate|p1a: Flutter Mane|ability: Protosynthesis|[fromitem]
+|-start|p1a: Flutter Mane|protosynthesisspe
+|turn|2
+|
+|t:|1750795657
+|switch|p2a: Raichu|Raichu, L50, F|100/100
+|move|p1a: Flutter Mane|Shadow Ball|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p1b: Iron Hands|Thunder Punch|p2a: Raichu
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|
+|upkeep
+|
+|t:|1750795668
+|switch|p2b: Spiritomb|Spiritomb, L50, F|100/100
+|-ability|p2b: Spiritomb|Pressure
+|turn|3
+|
+|t:|1750795679
+|move|p2b: Spiritomb|Protect|p2b: Spiritomb
+|-singleturn|p2b: Spiritomb|Protect
+|move|p1a: Flutter Mane|Moonblast|p2b: Spiritomb
+|-activate|p2b: Spiritomb|move: Protect
+|move|p2a: Raichu|Nuzzle|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|84/100
+|-status|p1a: Flutter Mane|par
+|move|p1b: Iron Hands|Drain Punch|p2a: Raichu
+|-enditem|p2a: Raichu|Focus Sash
+|-damage|p2a: Raichu|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1750795716
+|move|p2b: Spiritomb|Shadow Sneak|p1a: Flutter Mane
+|-supereffective|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|22/100 par
+|move|p2a: Raichu|Volt Switch|p1a: Flutter Mane
+|-damage|p1a: Flutter Mane|0 fnt
+|faint|p1a: Flutter Mane
+|-end|p1a: Flutter Mane|Protosynthesis|[silent]
+|
+|t:|1750795722
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|move|p1b: Iron Hands|Volt Switch|p2b: Spiritomb
+|-damage|p2b: Spiritomb|86/100
+|
+|t:|1750795730
+|-end|p1b: Iron Hands|Quark Drive|[silent]
+|switch|p1b: Lunala|Lunala, L50|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750795736
+|switch|p1a: Iron Hands|Iron Hands, L50|100/100
+|-activate|p1a: Iron Hands|ability: Quark Drive
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|5
+|
+|t:|1750795743
+|switch|p2a: Raichu|Raichu, L50, F|1/100
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Spiritomb|Shadow Sneak|p1b: Lunala
+|-supereffective|p1b: Lunala
+|-damage|p1b: Lunala|75/100
+|move|p1a: Iron Hands|Thunder Punch|p2a: Raichu
+|-ability|p2a: Raichu|Lightning Rod|boost
+|-boost|p2a: Raichu|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Hands|Quark Drive
+|upkeep
+|turn|6
+|
+|t:|1750795764
+|-terastallize|p1b: Lunala|Fairy
+|move|p2a: Raichu|Fake Out|p1a: Iron Hands
+|-damage|p1a: Iron Hands|94/100
+|move|p2b: Spiritomb|Shadow Sneak|p1b: Lunala
+|-damage|p1b: Lunala|62/100
+|move|p1b: Lunala|Meteor Beam||[still]
+|-prepare|p1b: Lunala|Meteor Beam
+|-boost|p1b: Lunala|spa|1
+|-enditem|p1b: Lunala|Power Herb
+|-anim|p1b: Lunala|Meteor Beam|p2b: Spiritomb
+|-damage|p2b: Spiritomb|34/100
+|-enditem|p2b: Spiritomb|Sitrus Berry|[eat]
+|-heal|p2b: Spiritomb|58/100|[from] item: Sitrus Berry
+|cant|p1a: Iron Hands|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1750795784
+|move|p2b: Spiritomb|Protect|p2b: Spiritomb
+|-singleturn|p2b: Spiritomb|Protect
+|move|p2a: Raichu|Nuzzle|p1b: Lunala
+|-damage|p1b: Lunala|56/100
+|-status|p1b: Lunala|par
+|move|p1b: Lunala|Moonblast|p2b: Spiritomb
+|-activate|p2b: Spiritomb|move: Protect
+|move|p1a: Iron Hands|Drain Punch|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-heal|p1a: Iron Hands|94/100|[from] drain|[of] p2a: Raichu
+|faint|p2a: Raichu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1750795797
+|switch|p2a: Kyogre|Kyogre, L50, shiny|100/100
+|turn|8
+|
+|t:|1750795805
+|move|p1b: Lunala|Wide Guard|p1b: Lunala
+|-singleturn|p1b: Lunala|Wide Guard
+|move|p2b: Spiritomb|Ally Switch|p2b: Spiritomb
+|swap|p2b: Spiritomb|0|[from] move: Ally Switch
+|move|p2b: Kyogre|Water Spout|p1b: Lunala|[spread] 
+|-activate|p1a: Iron Hands|move: Wide Guard
+|-activate|p1b: Lunala|move: Wide Guard
+|move|p1a: Iron Hands|Thunder Punch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|11/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1750795823
+|cant|p1b: Lunala|par
+|move|p2a: Spiritomb|Shadow Sneak|p1b: Lunala
+|-damage|p1b: Lunala|44/100 par
+|move|p2b: Kyogre|Water Spout|p1a: Iron Hands|[spread] p1a,p1b
+|-damage|p1a: Iron Hands|24/100
+|-damage|p1b: Lunala|0 fnt
+|faint|p1b: Lunala
+|move|p1a: Iron Hands|Thunder Punch|p2b: Kyogre
+|-supereffective|p2b: Kyogre
+|-damage|p2b: Kyogre|21/100
+|
+|upkeep
+|turn|10
+|
+|t:|1750795837
+|move|p2a: Spiritomb|Shadow Sneak|p1a: Iron Hands
+|-damage|p1a: Iron Hands|15/100
+|move|p2b: Kyogre|Water Spout|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|win|TomFelgenhauer
+|raw|COTIBOOM's rating: 1283 &rarr; <strong>1264</strong><br />(-19 for losing)
+|raw|TomFelgenhauer's rating: 1368 &rarr; <strong>1383</strong><br />(+15 for winning)
+|l|☆COTIBOOM
+|player|p1|
+|l|☆TomFelgenhauer
+|player|p2|

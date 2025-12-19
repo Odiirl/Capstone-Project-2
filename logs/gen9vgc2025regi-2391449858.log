@@ -1,0 +1,142 @@
+|j|☆superpowerpoke
+|j|☆testy accounty 2
+|t:|1750857667
+|gametype|doubles
+|player|p1|superpowerpoke|265|1606
+|player|p2|testy accounty 2|101|1726
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kyogre, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Iron Jugulis, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Gastrodon, L50, M|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|j| Dyne_Lunar
+|
+|t:|1750857727
+|start
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|turn|1
+|
+|t:|1750857746
+|switch|p2b: Ian|Incineroar, L50, M|100/100
+|-ability|p2b: Ian|Intimidate|boost
+|-fail|p1a: Calyrex|unboost|[from] item: Clear Amulet|[of] p1a: Calyrex
+|-unboost|p1b: Raichu|atk|1
+|move|p1b: Raichu|Nuzzle|p2a: Lunala
+|-damage|p2a: Lunala|98/100
+|-status|p2a: Lunala|par
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala|[spread] p2a,p2b
+|-resisted|p2b: Ian
+|-damage|p2a: Lunala|57/100 par
+|-damage|p2b: Ian|76/100
+|cant|p2a: Lunala|par
+|
+|-heal|p2a: Lunala|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1750857777
+|move|p1b: Raichu|Thunder|p2a: Lunala
+|-damage|p2a: Lunala|18/100 par
+|move|p1a: Calyrex|High Horsepower|p2b: Ian
+|-supereffective|p2b: Ian
+|-damage|p2b: Ian|16/100
+|-damage|p1a: Calyrex|84/100|[from] item: Rocky Helmet|[of] p2b: Ian
+|move|p2b: Ian|Will-O-Wisp|p1a: Calyrex
+|-status|p1a: Calyrex|brn
+|cant|p2a: Lunala|par
+|
+|-heal|p2a: Lunala|24/100 par|[from] item: Leftovers
+|-damage|p1a: Calyrex|78/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1750857809
+|move|p2a: Lunala|Protect|p2a: Lunala
+|-singleturn|p2a: Lunala|Protect
+|move|p1b: Raichu|Thunder|p2b: Ian|[miss]
+|-miss|p1b: Raichu|p2b: Ian
+|move|p1a: Calyrex|Glacial Lance|p2a: Lunala|[spread] p2b
+|-activate|p2a: Lunala|move: Protect
+|-resisted|p2b: Ian
+|-damage|p2b: Ian|6/100
+|move|p2b: Ian|Knock Off|p1b: Raichu
+|-damage|p1b: Raichu|20/100
+|-enditem|p1b: Raichu|Focus Sash|[from] move: Knock Off|[of] p2b: Ian
+|
+|-heal|p2a: Lunala|30/100 par|[from] item: Leftovers
+|-damage|p1a: Calyrex|72/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1750857838
+|move|p1b: Raichu|Thunder|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|move|p1a: Calyrex|Glacial Lance|p2b: Ian
+|-resisted|p2b: Ian
+|-damage|p2b: Ian|0 fnt
+|faint|p2b: Ian
+|-ability|p1a: Calyrex|Chilling Neigh|boost
+|-boost|p1a: Calyrex|atk|1
+|
+|-damage|p1a: Calyrex|67/100 brn|[from] brn
+|upkeep
+|
+|t:|1750857842
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Kenny|Rillaboom, L50, M|100/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Kenny
+|turn|5
+|
+|t:|1750857874
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Kenny|Grassy Glide|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|move|p2a: Miraidon|Electro Drift|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p1a: Calyrex|72/100 brn|[from] Grassy Terrain
+|-damage|p1a: Calyrex|67/100 brn|[from] brn
+|upkeep
+|
+|t:|1750857890
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2b: Kenny|atk|1
+|turn|6
+|-message|testy accounty 2 forfeited.
+|
+|win|superpowerpoke
+|raw|superpowerpoke's rating: 1606 &rarr; <strong>1633</strong><br />(+27 for winning)
+|raw|testy accounty 2's rating: 1726 &rarr; <strong>1699</strong><br />(-27 for losing)
+|l|☆testy accounty 2
+|player|p2|
+|l|☆superpowerpoke
+|player|p1|
+|l| Dyne_Lunar

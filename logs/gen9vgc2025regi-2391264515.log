@@ -1,0 +1,223 @@
+|j|☆store1
+|j|☆Pastor/Sinner
+|t:|1750824856
+|gametype|doubles
+|player|p1|store1|benga|1114
+|player|p2|Pastor/Sinner|170|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Iron Valiant, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Chi-Yu, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Hariyama, L50, M|
+|poke|p2|Cinccino, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Suicune, L50|
+|teampreview|4
+|
+|t:|1750824884
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pastor/Sinner)
+|
+|t:|1750824913
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: store1|move: Tailwind
+|move|p2b: Scovillain|Spicy Extract|p2a: Koraidon
+|-fail|p2a: Koraidon|unboost|[from] item: Clear Amulet|[of] p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|move|p2a: Koraidon|Flame Charge|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|59/100
+|-boost|p2a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750824936
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p1b: Whimsicott|Encore|p2a: Koraidon
+|-start|p2a: Koraidon|Encore
+|move|p1a: Miraidon|Electro Drift|p2b: Scovillain
+|-resisted|p2b: Scovillain
+|-enditem|p2b: Scovillain|Focus Sash
+|-damage|p2b: Scovillain|1/100
+|move|p2a: Koraidon|Flame Charge|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750824949
+|switch|p1b: Iron Valiant|Iron Valiant, L50|100/100
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|3
+|inactive|store1 has 30 seconds left.
+|inactive|store1 has 20 seconds left.
+|inactive|store1 has 15 seconds left.
+|inactive|store1 has 10 seconds left.
+|inactive|store1 has 5 seconds left.
+|
+|t:|1750825004
+|move|p2b: Scovillain|Protect|p2b: Scovillain
+|-singleturn|p2b: Scovillain|Protect
+|move|p1b: Iron Valiant|Moonblast|p2b: Scovillain
+|-activate|p2b: Scovillain|move: Protect
+|move|p1a: Miraidon|Electro Drift|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|33/100
+|move|p2a: Koraidon|Flame Charge|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|19/100
+|-boost|p2a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|store1 has 30 seconds left.
+|inactive|store1 has 20 seconds left.
+|inactive|store1 has 15 seconds left.
+|inactive|store1 has 10 seconds left.
+|inactive|store1 has 5 seconds left.
+|
+|t:|1750825060
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p1b: Iron Valiant|Moonblast|p2b: Scovillain
+|-resisted|p2b: Scovillain
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p2a: Koraidon|Flame Charge|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-boost|p2a: Koraidon|spe|1
+|faint|p1a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Koraidon|Encore
+|-sideend|p1: store1|move: Tailwind
+|upkeep
+|inactive|store1 has 30 seconds left.
+|inactive|store1 has 20 seconds left.
+|inactive|store1 has 15 seconds left.
+|inactive|store1 has 10 seconds left.
+|inactive|store1 has 5 seconds left.
+|
+|t:|1750825115
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Hariyama|Hariyama, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-end|p1b: Iron Valiant|Quark Drive
+|turn|5
+|inactive|store1 has 30 seconds left.
+|
+|t:|1750825140
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Iron Valiant|Moonblast|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Hariyama
+|-damage|p2b: Hariyama|29/100
+|-damage|p1a: Rillaboom|71/100|[from] Recoil
+|move|p2b: Hariyama|Coaching|p2a: Koraidon
+|-boost|p2a: Koraidon|atk|1
+|-boost|p2a: Koraidon|def|1
+|
+|-weather|none
+|-heal|p2a: Koraidon|39/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|77/100|[from] Grassy Terrain
+|-heal|p2b: Hariyama|35/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1750825162
+|move|p2b: Hariyama|Feint|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|90/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Hariyama
+|-damage|p2b: Hariyama|2/100
+|move|p2a: Koraidon|Drain Punch|p1b: Iron Valiant
+|-resisted|p1b: Iron Valiant
+|-damage|p1b: Iron Valiant|23/100
+|-heal|p2a: Koraidon|68/100|[from] drain|[of] p1b: Iron Valiant
+|move|p1b: Iron Valiant|Moonblast|p2a: Koraidon
+|-supereffective|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|
+|-heal|p1b: Iron Valiant|29/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p2b: Hariyama|8/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750825179
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p1b: Iron Valiant|ability: Quark Drive
+|-start|p1b: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1750825203
+|move|p2b: Hariyama|Feint|p1a: Rillaboom
+|-damage|p1a: Rillaboom|76/100
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1b: Iron Valiant
+|-damage|p1a: Rillaboom|50/100
+|-damage|p1b: Iron Valiant|0 fnt
+|faint|p1b: Iron Valiant
+|-end|p1b: Iron Valiant|Quark Drive|[silent]
+|move|p1a: Rillaboom|Grassy Glide|p2b: Hariyama
+|-damage|p2b: Hariyama|0 fnt
+|faint|p2b: Hariyama
+|
+|upkeep
+|turn|8
+|
+|t:|1750825216
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|13/100
+|move|p1a: Rillaboom|High Horsepower|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|31/100
+|
+|upkeep
+|turn|9
+|
+|t:|1750825222
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|Pastor/Sinner
+|raw|store1's rating: 1114 &rarr; <strong>1087</strong><br />(-27 for losing)
+|raw|Pastor&#x2f;Sinner's rating: 1083 &rarr; <strong>1113</strong><br />(+30 for winning)
+|c|☆store1|gg
+|l|☆store1
+|player|p1|
+|l|☆Pastor/Sinner
+|player|p2|

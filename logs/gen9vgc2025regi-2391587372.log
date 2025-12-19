@@ -1,0 +1,142 @@
+|j|☆idrkman
+|j|☆Yofty
+|t:|1750873068
+|gametype|doubles
+|player|p1|idrkman|265|1099
+|player|p2|Yofty|101|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Groudon, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Iron Hands, L50|
+|poke|p2|Solgaleo, L50|
+|poke|p2|Chansey, L50, F|
+|poke|p2|Salamence, L50, F|
+|poke|p2|Feraligatr, L50, F|
+|poke|p2|Ting-Lu, L50|
+|poke|p2|Urshifu-*, L50, F|
+|teampreview|4
+|
+|t:|1750873098
+|start
+|switch|p1a: Ogerpon|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Chansey|Chansey, L50, F|100/100
+|switch|p2b: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Ogerpon|Mold Breaker
+|-ability|p2b: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1750873126
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: idrkman|move: Tailwind
+|move|p1a: Ogerpon|Horn Leech|p2b: Ting-Lu
+|-supereffective|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|63/100
+|move|p2a: Chansey|Blizzard|p1b: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Ogerpon|94/100
+|-damage|p1b: Whimsicott|83/100
+|move|p2b: Ting-Lu|Fissure|p1a: Ogerpon|[miss]
+|-miss|p2b: Ting-Lu|p1a: Ogerpon
+|
+|upkeep
+|turn|2
+|
+|t:|1750873179
+|move|p1b: Whimsicott|Sunny Day|p1b: Whimsicott
+|-weather|SunnyDay
+|move|p1a: Ogerpon|Horn Leech|p2b: Ting-Lu
+|-supereffective|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|26/100
+|-heal|p1a: Ogerpon|100/100|[from] drain|[of] p2b: Ting-Lu
+|move|p2a: Chansey|Blizzard|p1a: Ogerpon|[spread] p1a,p1b
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Ogerpon|94/100
+|-damage|p1b: Whimsicott|65/100
+|move|p2b: Ting-Lu|Fissure|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-ohko
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750873194
+|switch|p1a: Groudon|Groudon, L50|100/100
+|turn|3
+|
+|t:|1750873209
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: idrkman|move: Light Screen
+|move|p1a: Groudon|High Horsepower|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|2/100
+|move|p2a: Chansey|Snowscape|p2a: Chansey
+|-weather|Snowscape
+|move|p2b: Ting-Lu|Ruination|p1a: Groudon
+|-damage|p1a: Groudon|50/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Groudon|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1750873242
+|move|p1b: Whimsicott|Moonblast|p2a: Chansey
+|-damage|p2a: Chansey|94/100
+|move|p1a: Groudon|Heat Crash|p2b: Ting-Lu
+|-damage|p2b: Ting-Lu|0 fnt
+|faint|p2b: Ting-Lu
+|move|p2a: Chansey|Blizzard|p1a: Groudon|[spread] p1a,p1b
+|-supereffective|p1a: Groudon
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Groudon|44/100
+|-damage|p1b: Whimsicott|49/100
+|-status|p1a: Groudon|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Groudon|50/100 frz|[from] item: Leftovers
+|-sideend|p1: idrkman|move: Tailwind
+|upkeep
+|
+|t:|1750873257
+|switch|p2b: Feraligatr|Feraligatr, L50, F|100/100
+|turn|5
+|
+|t:|1750873272
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: idrkman|move: Tailwind
+|move|p2b: Feraligatr|Ice Punch|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|16/100
+|move|p2a: Chansey|Blizzard|p1a: Miraidon|[spread] p1a,p1b
+|-supereffective|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Miraidon|2/100
+|-damage|p1b: Whimsicott|33/100
+|-status|p1a: Miraidon|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|-message|idrkman forfeited.
+|
+|win|Yofty
+|raw|idrkman's rating: 1099 &rarr; <strong>1076</strong><br />(-23 for losing)
+|raw|Yofty's rating: 1127 &rarr; <strong>1150</strong><br />(+23 for winning)
+|l|☆idrkman
+|player|p1|
+|l|☆Yofty
+|player|p2|

@@ -1,0 +1,243 @@
+|j|☆naibot2814
+|j|☆Inferno prodigy
+|t:|1750813458
+|gametype|doubles
+|player|p1|naibot2814|ghetsis|1540
+|player|p2|Inferno prodigy|102|1586
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Raging Bolt, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Iron Hands, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|
+|t:|1750813501
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-enditem|p2a: Farigiraf|Electric Seed
+|-boost|p2a: Farigiraf|def|1|[from] item: Electric Seed
+|-ability|p1b: Zamazenta|Dauntless Shield|boost
+|-boost|p1b: Zamazenta|def|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1750813521
+|move|p2b: Miraidon|Volt Switch|p1b: Zamazenta
+|-damage|p1b: Zamazenta|56/100
+|
+|t:|1750813552
+|switch|p2b: Calyrex|Calyrex-Ice, L50|100/100|[from] Volt Switch
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|move|p1b: Zamazenta|Body Press|p2b: Calyrex
+|-damage|p2b: Calyrex|60/100
+|move|p1a: Rillaboom|U-turn|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|32/100
+|
+|t:|1750813562
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-fail|p2b: Calyrex|unboost|[from] item: Clear Amulet|[of] p2b: Calyrex
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-heal|p2b: Calyrex|38/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|62/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1750813590
+|move|p2a: Farigiraf|Helping Hand|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Calyrex|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-damage|p2b: Calyrex|21/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p1a: Incineroar|Knock Off|p2b: Calyrex
+|-supereffective|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|-enditem|p2b: Calyrex|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Calyrex
+|move|p1b: Zamazenta|Body Press|p2a: Farigiraf
+|-damage|p2a: Farigiraf|66/100
+|
+|-heal|p2a: Farigiraf|72/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|11/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750813602
+|switch|p2b: Iron Hands|Iron Hands, L50|100/100
+|turn|3
+|
+|t:|1750813615
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1b: Zamazenta|Protect|p1b: Zamazenta
+|-singleturn|p1b: Zamazenta|Protect
+|move|p2b: Iron Hands|Wild Charge|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|80/100
+|-damage|p2b: Iron Hands|96/100|[from] Recoil
+|move|p2a: Farigiraf|Psychic Noise|p1b: Zamazenta
+|-activate|p1b: Zamazenta|move: Protect
+|
+|-heal|p2b: Iron Hands|100/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|78/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p1b: Zamazenta|74/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1750813646
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-activate|p2b: Iron Hands|ability: Quark Drive
+|-start|p2b: Iron Hands|quarkdriveatk
+|-terastallize|p2b: Iron Hands|Bug
+|move|p2b: Iron Hands|Low Kick|p1b: Zamazenta
+|-supereffective|p1b: Zamazenta
+|-damage|p1b: Zamazenta|10/100
+|move|p1a: Rillaboom|U-turn|p2b: Iron Hands
+|-damage|p2b: Iron Hands|83/100
+|
+|t:|1750813659
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100|[from] U-turn
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p1b: Zamazenta|Body Press|p2b: Iron Hands
+|-resisted|p2b: Iron Hands
+|-damage|p2b: Iron Hands|58/100
+|
+|upkeep
+|turn|5
+|
+|t:|1750813678
+|switch|p1b: Rillaboom|Rillaboom, L50, M|86/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2b: Iron Hands|Quark Drive
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Iron Hands|Drain Punch|p1b: Rillaboom
+|-damage|p1b: Rillaboom|50/100
+|-heal|p2b: Iron Hands|73/100|[from] drain|[of] p1b: Rillaboom
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|-heal|p2b: Iron Hands|80/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|55/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1750813696
+|-end|p2b: Iron Hands|Quark Drive|[silent]
+|switch|p2b: Farigiraf|Farigiraf, L50, M|78/100
+|move|p1b: Rillaboom|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Rillaboom
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2a: Miraidon|Volt Switch|p1a: Calyrex
+|-damage|p1a: Calyrex|44/100
+|
+|t:|1750813706
+|switch|p2a: Iron Hands|Iron Hands, L50, tera:Bug|80/100|[from] Volt Switch
+|
+|-heal|p1a: Calyrex|50/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|84/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|86/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|j| tofungi
+|
+|t:|1750813717
+|move|p2a: Iron Hands|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|47/100
+|move|p1a: Calyrex|Psychic|p2b: Farigiraf
+|-resisted|p2b: Farigiraf
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|40/100|[from] item: Life Orb
+|cant|p1b: Rillaboom|flinch
+|
+|-heal|p1a: Calyrex|47/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|53/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|92/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750813737
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2b: Miraidon
+|-activate|p2a: Iron Hands|ability: Quark Drive
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|8
+|
+|t:|1750813745
+|switch|p1b: Zamazenta|Zamazenta-Crowned, L50|10/100
+|move|p1a: Calyrex|Protect|p1a: Calyrex
+|-singleturn|p1a: Calyrex|Protect
+|move|p2b: Miraidon|Electro Drift|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|move|p2a: Iron Hands|Wild Charge|p1a: Calyrex
+|-activate|p1a: Calyrex|move: Protect
+|
+|upkeep
+|turn|9
+|j| joli.sv
+|
+|t:|1750813758
+|switch|p1b: Rillaboom|Rillaboom, L50, M|53/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-end|p2a: Iron Hands|Quark Drive
+|move|p1a: Calyrex|Astral Barrage|p2a: Iron Hands|[spread] p2a,p2b
+|-damage|p2a: Iron Hands|8/100
+|-damage|p2b: Miraidon|0 fnt
+|faint|p2b: Miraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|37/100|[from] item: Life Orb
+|move|p2a: Iron Hands|Wild Charge|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|-damage|p2a: Iron Hands|1/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|59/100|[from] Grassy Terrain
+|-heal|p2a: Iron Hands|7/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1750813778
+|switch|p1a: Incineroar|Incineroar, L50, M|11/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|turn|10
+|-message|Inferno prodigy forfeited.
+|
+|win|naibot2814
+|raw|naibot2814's rating: 1540 &rarr; <strong>1561</strong><br />(+21 for winning)
+|raw|Inferno prodigy's rating: 1560 &rarr; <strong>1539</strong><br />(-21 for losing)
+|l|☆Inferno prodigy
+|player|p2|

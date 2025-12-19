@@ -1,0 +1,133 @@
+|j|☆Zugucapretta
+|j|☆mauveracor
+|t:|1750714251
+|gametype|doubles
+|player|p1|Zugucapretta|102|1427
+|player|p2|mauveracor|2|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Great Tusk, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Grafaiai, L50, F|
+|poke|p2|Zacian-*, L50|
+|poke|p2|Regigigas, L50|
+|poke|p2|Lunala, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Slaking, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mauveracor)
+|inactive|Zugucapretta has 60 seconds left.
+|
+|t:|1750714298
+|start
+|switch|p1a: Fazzone|Koraidon, L50|100/100
+|switch|p1b: Rosso|Ogerpon-Hearthflame, L50, F|100/100
+|switch|p2a: Lunala|Lunala, L50|100/100
+|switch|p2b: Grafaiai|Grafaiai, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Fazzone
+|-activate|p1a: Fazzone|Orichalcum Pulse|[source]
+|-ability|p1b: Rosso|Mold Breaker
+|turn|1
+|
+|t:|1750714321
+|switch|p1a: La Forchetta|Kingambit, L50, F|100/100
+|move|p2b: Grafaiai|Parting Shot|p1b: Rosso
+|-unboost|p1b: Rosso|atk|1
+|-unboost|p1b: Rosso|spa|1
+|
+|t:|1750714330
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p1b: Rosso|Ivy Cudgel|p2a: Lunala|[anim] Ivy Cudgel Fire
+|-damage|p2a: Lunala|78/100
+|move|p2a: Lunala|Meteor Beam||[still]
+|-prepare|p2a: Lunala|Meteor Beam
+|-boost|p2a: Lunala|spa|1
+|-enditem|p2a: Lunala|Power Herb
+|-anim|p2a: Lunala|Meteor Beam|p1b: Rosso
+|-supereffective|p1b: Rosso
+|-damage|p1b: Rosso|0 fnt
+|faint|p1b: Rosso
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750714348
+|switch|p1b: Kali|Calyrex-Shadow, L50|100/100
+|-ability|p1b: Kali|As One
+|-ability|p1b: Kali|Unnerve
+|turn|2
+|
+|t:|1750714366
+|-terastallize|p1b: Kali|Dark
+|move|p2a: Lunala|Protect|p2a: Lunala
+|-singleturn|p2a: Lunala|Protect
+|move|p1b: Kali|Psychic|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|24/100
+|move|p2b: Amoonguss|Spore|p1a: La Forchetta
+|-status|p1a: La Forchetta|slp|[from] move: Spore
+|cant|p1a: La Forchetta|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|Zugucapretta has 30 seconds left.
+|inactive|Zugucapretta has 20 seconds left.
+|inactive|Zugucapretta has 15 seconds left.
+|
+|t:|1750714411
+|switch|p2b: Zacian|Zacian-Crowned, L50|100/100
+|-ability|p2b: Zacian|Intrepid Sword|boost
+|-boost|p2b: Zacian|atk|1
+|-terastallize|p2a: Lunala|Fairy
+|move|p1b: Kali|Protect|p1b: Kali
+|-singleturn|p1b: Kali|Protect
+|move|p2a: Lunala|Moonblast|p1b: Kali
+|-activate|p1b: Kali|move: Protect
+|-curestatus|p1a: La Forchetta|slp|[msg]
+|move|p1a: La Forchetta|Iron Head|p2b: Zacian
+|-damage|p2b: Zacian|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Zugucapretta has 30 seconds left.
+|inactive|mauveracor has 30 seconds left.
+|
+|t:|1750714444
+|move|p1b: Kali|Astral Barrage|p2a: Lunala|[spread] p2a,p2b
+|-damage|p2a: Lunala|34/100
+|-damage|p2b: Zacian|0 fnt
+|faint|p2b: Zacian
+|-ability|p1b: Kali|Grim Neigh|boost
+|-boost|p1b: Kali|spa|1
+|move|p2a: Lunala|Moonblast|p1b: Kali
+|-supereffective|p1b: Kali
+|-damage|p1b: Kali|0 fnt
+|faint|p1b: Kali
+|move|p1a: La Forchetta|Iron Head|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|mauveracor forfeited.
+|
+|win|Zugucapretta
+|raw|Zugucapretta's rating: 1427 &rarr; <strong>1448</strong><br />(+21 for winning)
+|raw|mauveracor's rating: 1446 &rarr; <strong>1425</strong><br />(-21 for losing)
+|l|☆mauveracor
+|player|p2|
+|l|☆Zugucapretta
+|player|p1|

@@ -1,0 +1,151 @@
+|j|☆Donkeep
+|j|☆we moveing
+|t:|1750836493
+|gametype|doubles
+|player|p1|Donkeep|fisherman-gen4|1220
+|player|p2|we moveing|266|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Inteleon, L50, M|
+|poke|p1|Noivern, L50, F|
+|poke|p1|Miraidon, L50|
+|poke|p1|Iron Moth, L50|
+|poke|p1|Weavile, L50, M|
+|poke|p1|Groudon, L50|
+|poke|p2|Groudon, L50|
+|poke|p2|Walking Wake, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Cornerstone, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Donkeep)
+|
+|t:|1750836523
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p1b: Weavile|Weavile, L50, M|100/100
+|switch|p2a: Groudon|Groudon, L50|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-ability|p1b: Weavile|Pressure
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|1
+|inactive|Donkeep has 30 seconds left.
+|
+|t:|1750836551
+|switch|p1a: Groudon|Groudon, L50|100/100
+|move|p2a: Groudon|Protect|p2a: Groudon
+|-singleturn|p2a: Groudon|Protect
+|move|p1b: Weavile|Knock Off|p2a: Groudon
+|-activate|p2a: Groudon|move: Protect
+|move|p2b: Scovillain|Scary Face|p1a: Groudon
+|-unboost|p1a: Groudon|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1750836571
+|move|p1b: Weavile|Knock Off|p2a: Groudon
+|-damage|p2a: Groudon|72/100
+|-enditem|p2a: Groudon|Clear Amulet|[from] move: Knock Off|[of] p1b: Weavile
+|move|p2b: Scovillain|Overheat|p1b: Weavile
+|-supereffective|p1b: Weavile
+|-damage|p1b: Weavile|0 fnt
+|-unboost|p2b: Scovillain|spa|2
+|faint|p1b: Weavile
+|move|p2a: Groudon|Rock Slide|p1a: Groudon|[miss]
+|-miss|p2a: Groudon|p1a: Groudon
+|move|p1a: Groudon|Bulk Up|p1a: Groudon
+|-boost|p1a: Groudon|atk|1
+|-boost|p1a: Groudon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750836589
+|switch|p1b: Iron Moth|Iron Moth, L50|100/100
+|-activate|p1b: Iron Moth|ability: Quark Drive
+|-start|p1b: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1750836603
+|-terastallize|p1b: Iron Moth|Flying
+|move|p1a: Groudon|Protect|p1a: Groudon
+|-singleturn|p1a: Groudon|Protect
+|move|p2b: Scovillain|Scary Face|p1b: Iron Moth
+|-unboost|p1b: Iron Moth|spe|2
+|move|p2a: Groudon|Precipice Blades|p1b: Iron Moth|[spread] 
+|-activate|p1a: Groudon|move: Protect
+|-immune|p1b: Iron Moth
+|move|p1b: Iron Moth|Heat Wave|p2b: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Groudon|3/100
+|-enditem|p2b: Scovillain|Focus Sash
+|-damage|p2b: Scovillain|1/100
+|-status|p2a: Groudon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Groudon|0 fnt|[from] brn
+|faint|p2a: Groudon
+|upkeep
+|
+|t:|1750836619
+|switch|p2a: Walking Wake|Walking Wake, L50|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|4
+|
+|t:|1750836636
+|switch|p2b: Miraidon|Miraidon, L50|100/100
+|-activate|p2b: Miraidon|ability: Hadron Engine
+|move|p2a: Walking Wake|Hydro Steam|p1a: Groudon
+|-supereffective|p1a: Groudon
+|-damage|p1a: Groudon|0 fnt
+|faint|p1a: Groudon
+|move|p1b: Iron Moth|Sludge Wave|p2a: Walking Wake|[spread] p2a,p2b
+|-damage|p2a: Walking Wake|70/100
+|-damage|p2b: Miraidon|65/100
+|-status|p2a: Walking Wake|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|57/100 psn|[from] psn
+|upkeep
+|
+|t:|1750836651
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|t:|1750836662
+|move|p2b: Miraidon|Volt Switch|p1b: Iron Moth
+|-supereffective|p1b: Iron Moth
+|-damage|p1b: Iron Moth|0 fnt
+|faint|p1b: Iron Moth
+|-end|p1b: Iron Moth|Quark Drive|[silent]
+|
+|t:|1750836667
+|switch|p2b: Scovillain|Scovillain, L50, M|1/100|[from] Volt Switch
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Scovillain|[spread] p2a,p2b
+|-supereffective|p2a: Walking Wake
+|-resisted|p2b: Scovillain
+|-damage|p2a: Walking Wake|23/100 psn
+|-damage|p2b: Scovillain|0 fnt
+|faint|p2b: Scovillain
+|move|p2a: Walking Wake|Draco Meteor|p1a: Miraidon
+|-supereffective|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Miraidon
+|
+|win|we moveing
+|raw|Donkeep's rating: 1220 &rarr; <strong>1194</strong><br />(-26 for losing)
+|raw|we moveing's rating: 1209 &rarr; <strong>1235</strong><br />(+26 for winning)
+|l|☆Donkeep
+|player|p1|

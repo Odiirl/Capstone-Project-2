@@ -1,0 +1,223 @@
+|j|☆wuhanyiluanma
+|j|☆Dyh123
+|t:|1750841364
+|gametype|doubles
+|player|p1|wuhanyiluanma|266|1516
+|player|p2|Dyh123|rosa|1701
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Okidogi, L50, M|
+|poke|p1|Palkia, L50|
+|poke|p1|Lanturn, L50, M|
+|poke|p1|Miraidon, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Oranguru, L50, F|
+|poke|p2|Lunala, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|teampreview|4
+|
+|t:|1750841392
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Okidogi|Okidogi, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-ability|p1b: Okidogi|Guard Dog|boost
+|-boost|p1b: Okidogi|atk|1
+|turn|1
+|
+|t:|1750841424
+|move|p1b: Okidogi|Upper Hand||[still]
+|-fail|p1b: Okidogi
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: wuhanyiluanma|move: Light Screen
+|move|p2a: Miraidon|Electro Drift|p1b: Okidogi
+|-damage|p1b: Okidogi|43/100
+|move|p2b: Incineroar|Knock Off|p1b: Okidogi
+|-resisted|p1b: Okidogi
+|-damage|p1b: Okidogi|29/100
+|-enditem|p1b: Okidogi|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1750841441
+|move|p2a: Miraidon|Electro Drift|p1b: Okidogi
+|-damage|p1b: Okidogi|0 fnt
+|faint|p1b: Okidogi
+|move|p2b: Incineroar|Parting Shot|p1a: Grimmsnarl
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1a: Grimmsnarl|spa|1
+|
+|t:|1750841471
+|switch|p2b: Lunala|Lunala, L50, shiny|100/100|[from] Parting Shot
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|22/100
+|-unboost|p2a: Miraidon|spa|1
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dyh123)
+|
+|t:|1750841482
+|switch|p1b: Miraidon|Miraidon, L50|100/100
+|-activate|p1b: Miraidon|ability: Hadron Engine
+|turn|3
+|
+|t:|1750841488
+|switch|p2a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|-terastallize|p2b: Lunala|Fairy
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Ursaluna
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2a: Ursaluna|spa|1
+|
+|t:|1750841497
+|switch|p1a: Lanturn|Lanturn, L50, M|100/100|[from] Parting Shot
+|move|p1b: Miraidon|Calm Mind|p1b: Miraidon
+|-boost|p1b: Miraidon|spa|1
+|-boost|p1b: Miraidon|spd|1
+|move|p2b: Lunala|Moonblast|p1b: Miraidon
+|-supereffective|p1b: Miraidon
+|-damage|p1b: Miraidon|64/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1750841517
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p2b: Lunala|Moonblast|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|move|p1a: Lanturn|Soak|p2a: Ursaluna
+|-start|p2a: Ursaluna|typechange|Water
+|move|p2a: Ursaluna|Headlong Rush|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|j| Mertoo
+|
+|t:|1750841537
+|switch|p2a: Miraidon|Miraidon, L50|22/100
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|-terastallize|p1b: Miraidon|Fairy
+|move|p1b: Miraidon|Parabolic Charge|p2a: Miraidon|[spread] p2a,p2b
+|-immune|p1a: Lanturn|[from] ability: Volt Absorb
+|-resisted|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|5/100
+|-heal|p1b: Miraidon|72/100|[from] drain|[of] p2a: Miraidon
+|-damage|p2b: Lunala|82/100
+|-heal|p1b: Miraidon|83/100|[from] drain|[of] p2b: Lunala
+|move|p1a: Lanturn|Eerie Impulse|p2b: Lunala
+|-unboost|p2b: Lunala|spa|2
+|move|p2b: Lunala|Trick Room|p2b: Lunala
+|-fieldstart|move: Trick Room|[of] p2b: Lunala
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|l| Mertoo
+|inactive|wuhanyiluanma has 30 seconds left.
+|
+|t:|1750841562
+|switch|p2b: Ursaluna|Ursaluna, L50, M, shiny|95/100 brn
+|move|p1a: Lanturn|Eerie Impulse|p2a: Miraidon
+|-unboost|p2a: Miraidon|spa|2
+|move|p1b: Miraidon|Parabolic Charge|p2b: Ursaluna|[spread] p2a
+|-immune|p1a: Lanturn|[from] ability: Volt Absorb
+|-immune|p2b: Ursaluna
+|-resisted|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|-heal|p1b: Miraidon|86/100|[from] drain|[of] p2a: Miraidon
+|faint|p2a: Miraidon
+|
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1750841575
+|switch|p2a: Lunala|Lunala, L50, shiny, tera:Fairy|82/100
+|turn|7
+|
+|t:|1750841583
+|move|p2a: Lunala|Wide Guard|p2a: Lunala
+|-singleturn|p2a: Lunala|Wide Guard
+|move|p2b: Ursaluna|Earthquake|p1a: Lanturn|[spread] p1a,p1b
+|-activate|p2a: Lunala|move: Wide Guard
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-damage|p1b: Miraidon|39/100
+|faint|p1a: Lanturn
+|move|p1b: Miraidon|Parabolic Charge|p2b: Ursaluna|[spread] 
+|-activate|p2a: Lunala|move: Wide Guard
+|-activate|p2b: Ursaluna|move: Wide Guard
+|
+|-damage|p2b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1750841597
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|8
+|inactive|Dyh123 has 30 seconds left.
+|inactive|Dyh123 has 20 seconds left.
+|
+|t:|1750841637
+|move|p1b: Miraidon|Protect|p1b: Miraidon
+|-singleturn|p1b: Miraidon|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: wuhanyiluanma|Reflect
+|move|p2b: Ursaluna|Facade|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|move|p2a: Lunala|Moonblast|p1b: Miraidon
+|-activate|p1b: Miraidon|move: Protect
+|
+|-damage|p2b: Ursaluna|77/100 brn|[from] brn
+|-sideend|p1: wuhanyiluanma|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1750841656
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: wuhanyiluanma|move: Light Screen
+|move|p2b: Ursaluna|Facade|p1b: Miraidon
+|-damage|p1b: Miraidon|0 fnt
+|faint|p1b: Miraidon
+|move|p2a: Lunala|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|35/100
+|-unboost|p1a: Grimmsnarl|spa|1
+|
+|-damage|p2b: Ursaluna|71/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1750841671
+|move|p2a: Lunala|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|win|Dyh123
+|raw|wuhanyiluanma's rating: 1516 &rarr; <strong>1506</strong><br />(-10 for losing)
+|raw|Dyh123's rating: 1701 &rarr; <strong>1711</strong><br />(+10 for winning)
+|l|☆Dyh123
+|player|p2|
+|l|☆wuhanyiluanma
+|player|p1|

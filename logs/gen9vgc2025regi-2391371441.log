@@ -1,0 +1,141 @@
+|j|☆XxGennaroBullo
+|j|☆wiranVGC
+|t:|1750845381
+|gametype|doubles
+|player|p1|XxGennaroBullo|youngster-gen4dp|1263
+|player|p2|wiranVGC|silver|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Bastiodon, L50, F|
+|poke|p2|Groudon, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Zamazenta-*, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wiranVGC)
+|inactive|XxGennaroBullo also wants the timer to be on.
+|
+|t:|1750845409
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1750845427
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: wiranVGC|move: Tailwind
+|move|p1b: Whimsicott|Fake Tears|p2b: Rillaboom
+|-unboost|p2b: Rillaboom|spd|2
+|move|p2b: Rillaboom|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-enditem|p1a: Calyrex|Life Orb|[from] move: Knock Off|[of] p2b: Rillaboom
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|t:|1750845440
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|2
+|
+|t:|1750845453
+|move|p2a: Whimsicott|Encore|p1b: Whimsicott
+|-start|p1b: Whimsicott|Encore
+|move|p1b: Whimsicott|Fake Tears|p2a: Whimsicott
+|-unboost|p2a: Whimsicott|spd|2
+|move|p2b: Rillaboom|Knock Off|p1a: Miraidon
+|-damage|p1a: Miraidon|60/100
+|-enditem|p1a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2b: Rillaboom
+|move|p1a: Miraidon|Electro Drift|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1750845467
+|switch|p2a: Groudon|Groudon, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|3
+|
+|t:|1750845472
+|switch|p2b: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p2b: Zamazenta|Dauntless Shield|boost
+|-boost|p2b: Zamazenta|def|1
+|switch|p1a: Bastiodon|Bastiodon, L50, F|100/100
+|-enditem|p1a: Bastiodon|Electric Seed
+|-boost|p1a: Bastiodon|def|1|[from] item: Electric Seed
+|move|p1b: Whimsicott|Fake Tears|p2a: Groudon
+|-fail|p2a: Groudon|unboost|[from] item: Clear Amulet|[of] p2a: Groudon
+|move|p2a: Groudon|Precipice Blades|p1b: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1a: Bastiodon
+|-resisted|p1b: Whimsicott
+|-ability|p1a: Bastiodon|Sturdy
+|-damage|p1a: Bastiodon|1/100
+|-damage|p1b: Whimsicott|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1750845489
+|move|p1a: Bastiodon|Wide Guard|p1a: Bastiodon
+|-singleturn|p1a: Bastiodon|Wide Guard
+|move|p1b: Whimsicott|Fake Tears|p2b: Zamazenta
+|-unboost|p2b: Zamazenta|spd|2
+|move|p2b: Zamazenta|Body Press|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|move|p2a: Groudon|Heat Crash|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: wiranVGC|move: Tailwind
+|upkeep
+|
+|t:|1750845498
+|switch|p1a: Miraidon|Miraidon, L50|60/100
+|-activate|p1a: Miraidon|ability: Hadron Engine
+|turn|5
+|c|☆XxGennaroBullo|gg
+|
+|t:|1750845509
+|-terastallize|p1a: Miraidon|Fairy
+|move|p2b: Zamazenta|Wide Guard|p2b: Zamazenta
+|-singleturn|p2b: Zamazenta|Wide Guard
+|move|p1a: Miraidon|Dazzling Gleam|p2b: Zamazenta|[spread] 
+|-activate|p2a: Groudon|move: Wide Guard
+|-activate|p2b: Zamazenta|move: Wide Guard
+|move|p2a: Groudon|Precipice Blades|p1a: Miraidon
+|-damage|p1a: Miraidon|0 fnt
+|faint|p1a: Miraidon
+|
+|win|wiranVGC
+|raw|XxGennaroBullo's rating: 1263 &rarr; <strong>1239</strong><br />(-24 for losing)
+|raw|wiranVGC's rating: 1276 &rarr; <strong>1300</strong><br />(+24 for winning)
+|l|☆XxGennaroBullo
+|player|p1|
+|l|☆wiranVGC
+|player|p2|

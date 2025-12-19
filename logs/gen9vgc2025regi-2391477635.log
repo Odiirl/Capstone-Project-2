@@ -1,0 +1,191 @@
+|j|☆Testingstuffuser4
+|j|☆Sulstice
+|t:|1750860994
+|gametype|doubles
+|player|p1|Testingstuffuser4|1|1454
+|player|p2|Sulstice|102|1445
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Roaring Moon, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Lunala, L50|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sulstice)
+|
+|t:|1750861025
+|start
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|switch|p1b: Calyrex|Calyrex-Ice, L50|100/100
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F|100/100
+|-ability|p1b: Calyrex|As One
+|-ability|p1b: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisspe
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|inactive|Sulstice has 30 seconds left.
+|
+|t:|1750861055
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|-terastallize|p1b: Calyrex|Dragon
+|move|p2b: Jumpluff|Sleep Powder|p1b: Calyrex
+|-activate|p1b: Calyrex|move: Misty Terrain
+|move|p2a: Koraidon|Close Combat|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|71/100
+|-unboost|p2a: Koraidon|def|1
+|-unboost|p2a: Koraidon|spd|1
+|-damage|p2a: Koraidon|91/100|[from] item: Life Orb
+|move|p1b: Calyrex|Trick Room|p1b: Calyrex
+|-fieldstart|move: Trick Room|[of] p1b: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Sulstice has 30 seconds left.
+|
+|t:|1750861089
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Weezing|atk|1
+|-unboost|p1b: Calyrex|atk|1
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|79/100
+|-damage|p1b: Calyrex|91/100|[from] item: Life Orb
+|move|p1a: Weezing|Dazzling Gleam|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-damage|p2b: Incineroar|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1750861110
+|-terastallize|p2a: Koraidon|Fire
+|move|p2b: Incineroar|Fake Out|p1b: Calyrex
+|-damage|p1b: Calyrex|83/100
+|cant|p1b: Calyrex|flinch
+|move|p1a: Weezing|Dazzling Gleam|p2a: Koraidon|[spread] p2a,p2b
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|62/100
+|-damage|p2b: Incineroar|13/100
+|move|p2a: Koraidon|Flare Blitz|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-damage|p2a: Koraidon|41/100|[from] Recoil
+|-damage|p2a: Koraidon|32/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861125
+|switch|p1a: Lunala|Lunala, L50|100/100
+|turn|4
+|
+|t:|1750861141
+|move|p2a: Koraidon|Protect|p2a: Koraidon
+|-singleturn|p2a: Koraidon|Protect
+|move|p2b: Incineroar|Taunt|p1a: Lunala
+|-start|p1a: Lunala|move: Taunt
+|move|p1b: Calyrex|Glacial Lance|p2a: Koraidon|[spread] p2b
+|-activate|p2a: Koraidon|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|-damage|p1b: Calyrex|73/100|[from] item: Life Orb
+|move|p1a: Lunala|Moonblast|p2a: Koraidon
+|-activate|p2a: Koraidon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750861163
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|5
+|inactive|Sulstice has 30 seconds left.
+|inactive|Sulstice has 20 seconds left.
+|
+|t:|1750861201
+|switch|p1a: Roaring Moon|Roaring Moon, L50|100/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisspe
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a
+|-activate|p2b: Calyrex|move: Protect
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|0 fnt
+|faint|p2a: Koraidon
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|-damage|p1b: Calyrex|64/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p1a: Roaring Moon|Protosynthesis
+|-fieldend|move: Trick Room
+|-fieldend|Misty Terrain
+|upkeep
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisspe
+|
+|t:|1750861215
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|turn|6
+|
+|t:|1750861220
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1a: Roaring Moon|Acrobatics|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|6/100
+|move|p2b: Calyrex|Astral Barrage|p1a: Roaring Moon|[spread] p1a,p1b
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|78/100
+|-damage|p1b: Calyrex|24/100
+|move|p1b: Calyrex|Glacial Lance|p2b: Calyrex|[spread] p2a,p2b
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|-enditem|p2b: Calyrex|Focus Sash
+|-damage|p2b: Calyrex|1/100
+|faint|p2a: Jumpluff
+|-ability|p1b: Calyrex|Chilling Neigh|boost
+|-boost|p1b: Calyrex|atk|1
+|-damage|p1b: Calyrex|15/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|-message|Sulstice forfeited.
+|
+|win|Testingstuffuser4
+|raw|Testingstuffuser4's rating: 1454 &rarr; <strong>1473</strong><br />(+19 for winning)
+|raw|Sulstice's rating: 1445 &rarr; <strong>1426</strong><br />(-19 for losing)
+|l|☆Testingstuffuser4
+|player|p1|

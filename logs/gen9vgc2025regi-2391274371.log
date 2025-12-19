@@ -1,0 +1,217 @@
+|j|☆getbibootaxed
+|j|☆Donkeep
+|t:|1750826525
+|gametype|doubles
+|player|p1|getbibootaxed|dawn|1174
+|player|p2|Donkeep|fisherman-gen4|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Eternatus, L50|
+|poke|p1|Scream Tail, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Koraidon, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Bastiodon, L50, M|
+|poke|p2|Clawitzer, L50, F|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Donkeep)
+|inactive|Donkeep has 60 seconds left.
+|
+|t:|1750826578
+|start
+|switch|p1a: Eternatus|Eternatus, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Eternatus|Pressure
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Eternatus|atk|1
+|-unboost|p1b: Sableye|atk|1
+|turn|1
+|
+|t:|1750826602
+|move|p2b: Incineroar|Fake Out|p1a: Eternatus
+|-damage|p1a: Eternatus|88/100
+|move|p1b: Sableye|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|96/100
+|-damage|p1b: Sableye|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p1a: Eternatus|flinch
+|move|p2a: Calyrex|Astral Barrage|p1b: Sableye|[spread] p1a,p1b
+|-damage|p1a: Eternatus|40/100
+|-damage|p1b: Sableye|16/100
+|
+|upkeep
+|turn|2
+|
+|t:|1750826625
+|move|p1b: Sableye|Encore|p2b: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Incineroar
+|move|p1a: Eternatus|Shadow Ball|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-enditem|p2a: Calyrex|Focus Sash
+|-damage|p2a: Calyrex|1/100
+|move|p2a: Calyrex|Astral Barrage|p1b: Sableye|[spread] p1a,p1b
+|-damage|p1a: Eternatus|0 fnt
+|-damage|p1b: Sableye|0 fnt
+|faint|p1a: Eternatus
+|faint|p1b: Sableye
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|2
+|move|p2b: Incineroar|Knock Off|p1: Eternatus|[notarget]
+|-fail|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1750826633
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Scream Tail|Scream Tail, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-enditem|p1b: Scream Tail|Booster Energy
+|-activate|p1b: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1b: Scream Tail|protosynthesisspe
+|turn|3
+|
+|t:|1750826657
+|-terastallize|p1a: Calyrex|Fairy
+|move|p2a: Calyrex|Protect|p2a: Calyrex
+|-singleturn|p2a: Calyrex|Protect
+|move|p1b: Scream Tail|Disable|p2b: Incineroar
+|-start|p2b: Incineroar|Disable|Knock Off
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex|[spread] p2b
+|-activate|p2a: Calyrex|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|68/100
+|cant|p2b: Incineroar|Disable|Knock Off
+|
+|upkeep
+|turn|4
+|
+|t:|1750826677
+|move|p1b: Scream Tail|Encore|p2b: Incineroar
+|-start|p2b: Incineroar|Encore
+|move|p1a: Calyrex|Astral Barrage|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Calyrex
+|-resisted|p2b: Incineroar
+|-damage|p2a: Calyrex|0 fnt
+|-damage|p2b: Incineroar|41/100
+|faint|p2a: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|cant|p2b: Incineroar|Disable|Knock Off
+|
+|upkeep
+|
+|t:|1750826690
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|
+|t:|1750826710
+|switch|p2b: Clawitzer|Clawitzer, L50, F|100/100
+|-terastallize|p2a: Koraidon|Fire
+|move|p1b: Scream Tail|Wish|p1b: Scream Tail
+|move|p1a: Calyrex|Draining Kiss|p2a: Koraidon
+|-resisted|p2a: Koraidon
+|-damage|p2a: Koraidon|70/100
+|move|p2a: Koraidon|Iron Head|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|-damage|p2a: Koraidon|60/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1750826733
+|move|p1b: Scream Tail|Disable|p2a: Koraidon
+|-start|p2a: Koraidon|Disable|Iron Head
+|move|p1a: Calyrex|Astral Barrage|p2b: Clawitzer|[spread] p2a,p2b
+|-damage|p2a: Koraidon|0 fnt
+|-damage|p2b: Clawitzer|39/100
+|faint|p2a: Koraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|move|p2b: Clawitzer|Water Pulse|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750826749
+|switch|p2a: Incineroar|Incineroar, L50, M|41/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Scream Tail|atk|1
+|turn|7
+|
+|t:|1750826758
+|move|p2a: Incineroar|Fake Out|p1b: Scream Tail
+|-damage|p1b: Scream Tail|90/100
+|cant|p1b: Scream Tail|flinch
+|move|p2b: Clawitzer|Dark Pulse|p1b: Scream Tail
+|-damage|p1b: Scream Tail|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|c|☆getbibootaxed|Lemme try something
+|
+|t:|1750826776
+|move|p1b: Scream Tail|Wish|p1b: Scream Tail
+|move|p2a: Incineroar|Knock Off|p1b: Scream Tail
+|-damage|p1b: Scream Tail|31/100
+|move|p2b: Clawitzer|Water Pulse|p1b: Scream Tail
+|-damage|p1b: Scream Tail|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1750826786
+|move|p1b: Scream Tail|Protect|p1b: Scream Tail
+|-singleturn|p1b: Scream Tail|Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|move|p2b: Clawitzer|Dark Pulse|p1b: Scream Tail
+|-activate|p1b: Scream Tail|move: Protect
+|
+|-weather|none
+|-heal|p1b: Scream Tail|63/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|10
+|
+|t:|1750826800
+|move|p1b: Scream Tail|Disable|p2b: Clawitzer
+|-start|p2b: Clawitzer|Disable|Dark Pulse
+|move|p2a: Incineroar|Knock Off|p1b: Scream Tail
+|-damage|p1b: Scream Tail|37/100
+|move|p2b: Clawitzer|Water Pulse|p1b: Scream Tail
+|-damage|p1b: Scream Tail|0 fnt
+|faint|p1b: Scream Tail
+|-end|p1b: Scream Tail|Protosynthesis|[silent]
+|
+|win|Donkeep
+|raw|getbibootaxed's rating: 1174 &rarr; <strong>1149</strong><br />(-25 for losing)
+|raw|Donkeep's rating: 1177 &rarr; <strong>1202</strong><br />(+25 for winning)
+|c|☆getbibootaxed|Gg
+|l|☆getbibootaxed
+|player|p1|
+|l|☆Donkeep
+|player|p2|

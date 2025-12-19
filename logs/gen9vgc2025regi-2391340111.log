@@ -1,0 +1,195 @@
+|j|☆Park2
+|j|☆Hydracrew
+|t:|1750839425
+|gametype|doubles
+|player|p1|Park2|101|1215
+|player|p2|Hydracrew|170|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Zamazenta-*, L50|
+|poke|p1|Raging Bolt, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tornadus, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Koraidon, L50|
+|poke|p2|Calyrex-Shadow, L50|
+|poke|p2|Raging Bolt, L50|
+|poke|p2|Snorlax, L50, M|
+|poke|p2|Zoroark-Hisui, L50, M|
+|teampreview|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hydracrew)
+|inactive|Park2 has 60 seconds left.
+|
+|t:|1750839471
+|start
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|switch|p2b: Koraidon|Koraidon, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2b: Koraidon
+|-activate|p2b: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|t:|1750839494
+|switch|p2a: Snorlax|Snorlax, L50, M|100/100
+|-terastallize|p1a: Calyrex|Dark
+|move|p2b: Koraidon|Protect|p2b: Koraidon
+|-singleturn|p2b: Koraidon|Protect
+|move|p1b: Smeargle|Fake Out|p2b: Koraidon
+|-activate|p2b: Koraidon|move: Protect
+|move|p1a: Calyrex|Astral Barrage|p2b: Koraidon|[spread] 
+|-activate|p2b: Koraidon|move: Protect
+|-immune|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1750839520
+|move|p1b: Smeargle|Spore|p2b: Koraidon
+|-status|p2b: Koraidon|slp|[from] move: Spore
+|move|p1a: Calyrex|Nasty Plot|p1a: Calyrex
+|-boost|p1a: Calyrex|spa|2
+|move|p2a: Snorlax|Hyper Voice|p1b: Smeargle|[spread] p1a,p1b
+|-damage|p1a: Calyrex|54/100
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|cant|p2b: Koraidon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|def|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|3
+|
+|t:|1750839540
+|switch|p2a: Snorlax|Snorlax, L50, M|100/100
+|move|p1b: Smeargle|Spore|p2a: Snorlax
+|-activate|p2a: Snorlax|item: Safety Goggles|Spore
+|move|p1a: Calyrex|Psychic|p2b: Koraidon
+|-supereffective|p2b: Koraidon
+|-damage|p2b: Koraidon|0 fnt
+|faint|p2b: Koraidon
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|-damage|p1a: Calyrex|45/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spa|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|
+|t:|1750839552
+|switch|p2b: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2b: Calyrex|As One
+|-ability|p2b: Calyrex|Unnerve
+|turn|4
+|
+|t:|1750839563
+|move|p2b: Calyrex|Protect|p2b: Calyrex
+|-singleturn|p2b: Calyrex|Protect
+|move|p1b: Smeargle|Spore|p2b: Calyrex
+|-activate|p2b: Calyrex|move: Protect
+|move|p1a: Calyrex|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|4/100
+|-damage|p1a: Calyrex|35/100|[from] item: Life Orb
+|move|p2a: Snorlax|Facade|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1750839574
+|switch|p1b: Tornadus|Tornadus, L50, M|100/100
+|turn|5
+|
+|t:|1750839588
+|-terastallize|p2b: Calyrex|Dark
+|move|p1b: Tornadus|Tailwind|p1b: Tornadus
+|-sidestart|p1: Park2|move: Tailwind
+|move|p1a: Calyrex|Astral Barrage|p2b: Calyrex|[spread] p2b
+|-immune|p2a: Snorlax
+|-resisted|p2b: Calyrex
+|-damage|p2b: Calyrex|8/100
+|-damage|p1a: Calyrex|25/100|[from] item: Life Orb
+|move|p2b: Calyrex|Astral Barrage|p1b: Tornadus|[spread] p1a,p1b
+|-resisted|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|-damage|p1b: Tornadus|50/100
+|faint|p1a: Calyrex
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|move|p2a: Snorlax|Facade|p1b: Tornadus
+|-damage|p1b: Tornadus|21/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1750839601
+|switch|p1a: Zamazenta|Zamazenta-Crowned, L50|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|t:|1750839613
+|move|p1a: Zamazenta|Heavy Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|move|p1b: Tornadus|Bleakwind Storm|p2b: Calyrex|[miss]
+|-miss|p1b: Tornadus|p2b: Calyrex
+|move|p2b: Calyrex|Astral Barrage|p1a: Zamazenta|[spread] p1a,p1b
+|-damage|p1a: Zamazenta|47/100
+|-damage|p1b: Tornadus|0 fnt
+|faint|p1b: Tornadus
+|-ability|p2b: Calyrex|Grim Neigh|boost
+|-boost|p2b: Calyrex|spa|1
+|
+|upkeep
+|
+|t:|1750839623
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|turn|7
+|
+|t:|1750839636
+|move|p1a: Zamazenta|Heavy Slam|p2b: Calyrex
+|-damage|p2b: Calyrex|0 fnt
+|faint|p2b: Calyrex
+|move|p2a: Calyrex|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|6/100
+|-unboost|p1a: Zamazenta|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1750839645
+|move|p1a: Zamazenta|Heavy Slam|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|win|Park2
+|raw|Park2's rating: 1215 &rarr; <strong>1246</strong><br />(+31 for winning)
+|raw|Hydracrew's rating: 1304 &rarr; <strong>1279</strong><br />(-25 for losing)
+|l|☆Park2
+|player|p1|
+|l|☆Hydracrew
+|player|p2|
